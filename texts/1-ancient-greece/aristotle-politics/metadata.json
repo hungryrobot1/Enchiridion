@@ -1,0 +1,20 @@
+{
+  "title": "Politics",
+  "author": "Aristotle",
+  "translator": "Benjamin Jowett",
+  "year_written": "~350 BCE",
+  "year_translated": 1885,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "epub",
+  "filename": "pg6762-images-3.epub",
+  "description": "Analysis of political communities, constitutions, and the best forms of government",
+  "topics": [
+    "philosophy",
+    "political-thought"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "aristotle-nicomachean-ethics"
+  ]
+}

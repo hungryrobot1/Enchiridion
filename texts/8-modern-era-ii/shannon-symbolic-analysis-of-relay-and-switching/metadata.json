@@ -1,0 +1,20 @@
+{
+  "title": "A Symbolic Analysis of Relay and Switching Circuits",
+  "author": "Claude Shannon",
+  "translator": null,
+  "year_written": 1937,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "shannon38.pdf",
+  "description": "Application of Boolean algebra to electrical circuits, founding digital logic",
+  "topics": [
+    "computer-science",
+    "mathematics",
+    "logic",
+    "electrical-engineering"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

@@ -1,0 +1,21 @@
+{
+  "title": "On the Constitution of Atoms and Molecules",
+  "author": "Niels Bohr",
+  "translator": null,
+  "year_written": 1913,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "epub",
+  "filename": "pg72787-images-3.epub",
+  "description": "Quantum model of the atom with discrete electron orbits and energy levels",
+  "topics": [
+    "physics",
+    "quantum-mechanics",
+    "atomic-theory"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "planck-origin-and-development-of-quantum-theory"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Notes on Structured Programming",
+  "author": "Edsger Dijkstra",
+  "translator": null,
+  "year_written": 1970,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "EWD249.pdf",
+  "description": "Extended argument for structured programming as intellectual discipline",
+  "topics": [
+    "computer-science",
+    "programming-languages"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "djikstra-go-to-statement-considered-harmful"
+  ]
+}

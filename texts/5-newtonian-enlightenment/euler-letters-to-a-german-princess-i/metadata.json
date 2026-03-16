@@ -1,0 +1,19 @@
+{
+  "title": "Letters to a German Princess, Vol. 1",
+  "author": "Leonhard Euler",
+  "translator": "Henry Hunter",
+  "year_written": 1768,
+  "year_translated": 1795,
+  "language": "English",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "lettersofeuleron01eule.pdf",
+  "description": "Popular exposition of physics, philosophy, and astronomy for a general audience",
+  "topics": [
+    "physics",
+    "natural-philosophy",
+    "astronomy"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": []
+}

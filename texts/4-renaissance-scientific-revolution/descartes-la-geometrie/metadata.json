@@ -1,0 +1,19 @@
+{
+  "title": "La Géométrie",
+  "author": "René Descartes",
+  "translator": null,
+  "year_written": 1637,
+  "year_translated": null,
+  "language": "French",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "26400-pdf.pdf",
+  "description": "Invention of analytic geometry unifying algebra and geometry through coordinate systems",
+  "topics": [
+    "mathematics",
+    "geometry",
+    "algebra"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": []
+}

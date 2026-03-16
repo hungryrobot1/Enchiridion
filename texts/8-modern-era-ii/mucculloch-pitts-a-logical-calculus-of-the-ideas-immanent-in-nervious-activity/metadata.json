@@ -1,0 +1,19 @@
+{
+  "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+  "author": "Warren McCulloch, Walter Pitts",
+  "translator": null,
+  "year_written": 1943,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "McCulloch.and.Pitts.pdf",
+  "description": "First mathematical model of artificial neurons as logical gates",
+  "topics": [
+    "computer-science",
+    "artificial-intelligence",
+    "neural-networks"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

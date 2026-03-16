@@ -1,0 +1,21 @@
+{
+  "title": "Meditations on First Philosophy",
+  "author": "René Descartes",
+  "translator": "John Veitch",
+  "year_written": 1641,
+  "year_translated": 1901,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "epub",
+  "filename": "pg70091-images-3.epub",
+  "description": "Six meditations establishing the foundations of knowledge through radical doubt",
+  "topics": [
+    "philosophy",
+    "epistemology",
+    "metaphysics"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": [
+    "descartes-discourse-on-method"
+  ]
+}

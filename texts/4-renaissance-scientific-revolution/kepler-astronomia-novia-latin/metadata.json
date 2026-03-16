@@ -1,0 +1,21 @@
+{
+  "title": "Astronomia Nova",
+  "author": "Johannes Kepler",
+  "translator": null,
+  "year_written": 1609,
+  "year_translated": null,
+  "language": "Latin",
+  "original_language": "Latin",
+  "format": "pdf",
+  "filename": "Astronomianovaa00Kepl.pdf",
+  "description": "Discovery of elliptical planetary orbits and the first two laws of planetary motion",
+  "topics": [
+    "astronomy",
+    "physics",
+    "mathematics"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": [
+    "copernicus-revolutions"
+  ]
+}

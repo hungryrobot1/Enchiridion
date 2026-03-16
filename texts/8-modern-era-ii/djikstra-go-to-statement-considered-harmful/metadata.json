@@ -1,0 +1,18 @@
+{
+  "title": "Go To Statement Considered Harmful",
+  "author": "Edsger Dijkstra",
+  "translator": null,
+  "year_written": 1968,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "html",
+  "filename": "E.W. Dijkstra Archive_ A Case against the GO TO Statement. (EWD215).html",
+  "description": "Influential argument against goto statements in favor of structured programming",
+  "topics": [
+    "computer-science",
+    "programming-languages"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Treatise on Conic Sections",
+  "author": "Apollonius of Perga",
+  "translator": "Thomas Heath",
+  "year_written": "~200 BCE",
+  "year_translated": 1896,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "epub",
+  "filename": "pg28066-images-3.epub",
+  "description": "Systematic study of curves formed by intersecting a cone with a plane",
+  "topics": [
+    "mathematics",
+    "geometry"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

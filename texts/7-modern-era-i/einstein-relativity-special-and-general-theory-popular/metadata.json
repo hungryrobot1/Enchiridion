@@ -1,0 +1,20 @@
+{
+  "title": "Relativity: The Special and General Theory",
+  "author": "Albert Einstein",
+  "translator": "Robert W. Lawson",
+  "year_written": 1916,
+  "year_translated": 1920,
+  "language": "English",
+  "original_language": "German",
+  "format": "epub",
+  "filename": "pg5001-images-3.epub",
+  "description": "Popular account of relativity written for a general audience",
+  "topics": [
+    "physics",
+    "relativity"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "einstein-on-electrodynamics-of-moving-bodies"
+  ]
+}

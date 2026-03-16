@@ -1,0 +1,20 @@
+{
+  "title": "Opticks",
+  "author": "Isaac Newton",
+  "translator": null,
+  "year_written": 1704,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "epub",
+  "filename": "pg33504-images-3.epub",
+  "description": "Experimental investigation of light, color, and the corpuscular theory",
+  "topics": [
+    "physics",
+    "optics"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": [
+    "newton-principia"
+  ]
+}

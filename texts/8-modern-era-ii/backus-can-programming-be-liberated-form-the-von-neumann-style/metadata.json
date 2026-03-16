@@ -1,0 +1,20 @@
+{
+  "title": "Can Programming Be Liberated from the von Neumann Style?",
+  "author": "John Backus",
+  "translator": null,
+  "year_written": 1978,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "359576.359579.pdf",
+  "description": "Turing Award lecture arguing for functional programming over imperative styles",
+  "topics": [
+    "computer-science",
+    "programming-languages"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "von-neumann-edvac"
+  ]
+}

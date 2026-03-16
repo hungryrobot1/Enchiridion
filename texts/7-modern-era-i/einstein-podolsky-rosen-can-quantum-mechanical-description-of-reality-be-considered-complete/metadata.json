@@ -1,0 +1,20 @@
+{
+  "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+  "author": "Albert Einstein, Boris Podolsky, Nathan Rosen",
+  "translator": null,
+  "year_written": 1935,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "PhysRev.47.777.pdf",
+  "description": "EPR paradox challenging the completeness of quantum mechanics through entanglement",
+  "topics": [
+    "physics",
+    "quantum-mechanics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "bohr-constitution-of-atoms-and-molecules"
+  ]
+}

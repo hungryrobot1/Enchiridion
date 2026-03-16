@@ -1,0 +1,19 @@
+{
+  "title": "On Formally Undecidable Propositions of Principia Mathematica and Related Systems",
+  "author": "Kurt Gödel",
+  "translator": "Martin Hirzel",
+  "year_written": 1931,
+  "year_translated": 2000,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "Godel – On Formally Undecidable Propositions of Principia Mathematica 1931.pdf",
+  "description": "Proof that any consistent formal system powerful enough to express arithmetic is incomplete",
+  "topics": [
+    "mathematics",
+    "logic",
+    "foundations"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

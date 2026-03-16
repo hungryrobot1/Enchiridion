@@ -1,0 +1,22 @@
+{
+  "title": "The Calculi of Lambda-Conversion",
+  "author": "Alonzo Church",
+  "translator": null,
+  "year_written": 1941,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "church_calculi_1941.pdf",
+  "description": "Systematic development of lambda calculus as a foundation for computation",
+  "topics": [
+    "computer-science",
+    "mathematics",
+    "logic",
+    "computability"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "church-unsolvable-problem-of-elementary-number-theory"
+  ]
+}

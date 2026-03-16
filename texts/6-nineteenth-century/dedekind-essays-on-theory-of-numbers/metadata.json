@@ -1,0 +1,18 @@
+{
+  "title": "Essays on the Theory of Numbers",
+  "author": "Richard Dedekind",
+  "translator": "Wooster Woodruff Beman",
+  "year_written": 1888,
+  "year_translated": 1901,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "21016-pdf.pdf",
+  "description": "Rigorous construction of the real numbers through Dedekind cuts",
+  "topics": [
+    "mathematics",
+    "number-theory"
+  ],
+  "era": "nineteenth-century",
+  "prerequisites": []
+}

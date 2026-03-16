@@ -1,0 +1,21 @@
+{
+  "title": "Space and Time",
+  "author": "Hermann Minkowski",
+  "translator": null,
+  "year_written": 1908,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "German",
+  "format": "epub",
+  "filename": "Translation_Space_and_Time.epub",
+  "description": "Geometric reformulation of special relativity as four-dimensional spacetime",
+  "topics": [
+    "physics",
+    "relativity",
+    "mathematics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "einstein-on-electrodynamics-of-moving-bodies"
+  ]
+}

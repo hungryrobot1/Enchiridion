@@ -1,0 +1,21 @@
+{
+  "title": "The Dependence of Cell-Free Protein Synthesis in E. coli upon Naturally Occurring or Synthetic Polyribonucleotides",
+  "author": "Marshall Nirenberg, J. Heinrich Matthaei",
+  "translator": null,
+  "year_written": 1961,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "nirenberg-matthaei-1961-the-dependence-of-cell-free-protein-synthesis-in-e-coli-upon-naturally-occurring-or-synthetic.pdf",
+  "description": "First deciphering of a codon in the genetic code",
+  "topics": [
+    "biology",
+    "molecular-biology",
+    "genetics"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "franklin-gosling-molecular-configuration-in-sodium-thymonucleate"
+  ]
+}

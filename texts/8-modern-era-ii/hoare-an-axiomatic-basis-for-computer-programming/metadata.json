@@ -1,0 +1,19 @@
+{
+  "title": "An Axiomatic Basis for Computer Programming",
+  "author": "C.A.R. Hoare",
+  "translator": null,
+  "year_written": 1969,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "363235.363259.pdf",
+  "description": "Foundation of program verification through Hoare logic and precondition/postcondition reasoning",
+  "topics": [
+    "computer-science",
+    "programming-languages",
+    "logic"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

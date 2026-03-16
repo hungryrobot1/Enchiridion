@@ -1,0 +1,21 @@
+{
+  "title": "Information Management: A Proposal",
+  "author": "Tim Berners-Lee",
+  "translator": null,
+  "year_written": 1989,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "html",
+  "filename": "The original proposal of the WWW, HTMLized.html",
+  "description": "Original proposal for the World Wide Web at CERN",
+  "topics": [
+    "computer-science",
+    "networking",
+    "world-wide-web"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "cerf-kahn-a-protocol-for-packet-network"
+  ]
+}

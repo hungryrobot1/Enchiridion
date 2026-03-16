@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enchiridion Text Metadata",
+  "description": "Schema for metadata.json files in each text directory",
+  "type": "object",
+  "required": ["title", "author", "year_written", "language", "original_language", "format", "filename", "topics", "era"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Full title of the work"
+    },
+    "author": {
+      "type": "string",
+      "description": "Primary author(s), comma-separated if multiple"
+    },
+    "translator": {
+      "type": ["string", "null"],
+      "description": "Translator name, if applicable"
+    },
+    "year_written": {
+      "type": ["integer", "string"],
+      "description": "Year originally written/published. Use string for approximate dates (e.g., '~300 BCE', '1905')"
+    },
+    "year_translated": {
+      "type": ["integer", "null"],
+      "description": "Year of the English translation used, if applicable"
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of the text file in the repo",
+      "enum": ["English", "Latin", "French", "German", "Greek", "Italian", "Arabic"]
+    },
+    "original_language": {
+      "type": "string",
+      "description": "Language the work was originally written in"
+    },
+    "format": {
+      "type": "string",
+      "description": "File format of the text in the repo",
+      "enum": ["epub", "pdf", "txt", "html"]
+    },
+    "filename": {
+      "type": "string",
+      "description": "Filename of the primary text file in this directory"
+    },
+    "description": {
+      "type": "string",
+      "description": "One-line description of the work's significance"
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Subject tags for filtering",
+      "examples": [
+        ["mathematics", "geometry"],
+        ["philosophy", "epistemology"],
+        ["physics", "quantum-mechanics"],
+        ["computer-science", "algorithms"],
+        ["literature", "drama"],
+        ["chemistry", "atomic-theory"],
+        ["biology", "evolution"],
+        ["political-thought"],
+        ["music-theory"],
+        ["astronomy"],
+        ["medicine"],
+        ["engineering"],
+        ["optics"],
+        ["probability"],
+        ["logic"],
+        ["ethics"],
+        ["metaphysics"],
+        ["theology"]
+      ]
+    },
+    "era": {
+      "type": "string",
+      "description": "Historical period",
+      "enum": [
+        "ancient-greece",
+        "rome-late-antiquity",
+        "islamic-golden-age-medieval",
+        "renaissance-scientific-revolution",
+        "newtonian-enlightenment",
+        "nineteenth-century",
+        "modern-era-i",
+        "modern-era-ii"
+      ]
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Directory names of immediate predecessor texts (one layer deep, temporally proximal). Chain rather than accumulate — e.g., Maxwell → Einstein special → Einstein general, not Euclid → ... → Einstein."
+    }
+  },
+  "additionalProperties": false
+}

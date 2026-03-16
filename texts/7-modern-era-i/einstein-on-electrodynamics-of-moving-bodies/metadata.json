@@ -1,0 +1,18 @@
+{
+  "title": "On the Electrodynamics of Moving Bodies",
+  "author": "Albert Einstein",
+  "translator": "W. Perrett, G.B. Jeffery",
+  "year_written": 1905,
+  "year_translated": 1923,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "specrel.pdf",
+  "description": "Special theory of relativity unifying space, time, and the constancy of the speed of light",
+  "topics": [
+    "physics",
+    "relativity"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": []
+}

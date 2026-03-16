@@ -1,0 +1,21 @@
+{
+  "title": "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I",
+  "author": "John McCarthy",
+  "translator": null,
+  "year_written": 1960,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "recursive.pdf",
+  "description": "Definition of LISP and the theoretical basis for symbolic computation",
+  "topics": [
+    "computer-science",
+    "programming-languages",
+    "artificial-intelligence"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "church-calculi-of-lambda-conversion"
+  ]
+}

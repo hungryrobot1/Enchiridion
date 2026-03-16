@@ -1,0 +1,21 @@
+{
+  "title": "DNA Sequencing with Chain-Terminating Inhibitors",
+  "author": "Frederick Sanger, S. Nicklen, A.R. Coulson",
+  "translator": null,
+  "year_written": 1977,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "sanger-et-al-1977-dna-sequencing-with-chain-terminating-inhibitors.pdf",
+  "description": "Sanger sequencing method that enabled reading the genetic code",
+  "topics": [
+    "biology",
+    "molecular-biology",
+    "genetics"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "nirenberg-matthaei-dependence-of-cell-free-protein-synthesis"
+  ]
+}

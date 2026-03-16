@@ -1,0 +1,21 @@
+{
+  "title": "Tractatus Logico-Philosophicus",
+  "author": "Ludwig Wittgenstein",
+  "translator": "C.K. Ogden",
+  "year_written": 1921,
+  "year_translated": 1922,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "5740-pdf.pdf",
+  "description": "Logical analysis of the relationship between language, thought, and reality",
+  "topics": [
+    "philosophy",
+    "logic",
+    "philosophy-of-language"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "russell-problems-of-philosophy"
+  ]
+}

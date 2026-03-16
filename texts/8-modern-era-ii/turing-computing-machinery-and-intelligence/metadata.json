@@ -1,0 +1,21 @@
+{
+  "title": "Computing Machinery and Intelligence",
+  "author": "Alan Turing",
+  "translator": null,
+  "year_written": 1950,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "turing.pdf",
+  "description": "The Turing test and philosophical arguments for machine intelligence",
+  "topics": [
+    "computer-science",
+    "artificial-intelligence",
+    "philosophy-of-mind"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "turing-on-computable-numbers"
+  ]
+}

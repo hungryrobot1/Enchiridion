@@ -1,0 +1,21 @@
+{
+  "title": "Space-Time Approach to Quantum Electrodynamics",
+  "author": "Richard Feynman",
+  "translator": null,
+  "year_written": 1949,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "PhysRev.76.769.pdf",
+  "description": "Reformulation of QED using Feynman diagrams and the path integral approach",
+  "topics": [
+    "physics",
+    "quantum-mechanics",
+    "electrodynamics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "dirac-quantum-theory-of-the-electron"
+  ]
+}

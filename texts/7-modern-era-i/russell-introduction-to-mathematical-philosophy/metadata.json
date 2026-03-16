@@ -1,0 +1,21 @@
+{
+  "title": "Introduction to Mathematical Philosophy",
+  "author": "Bertrand Russell",
+  "translator": null,
+  "year_written": 1919,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "epub",
+  "filename": "pg41654-images-3.epub",
+  "description": "Accessible account of the logical foundations of mathematics",
+  "topics": [
+    "mathematics",
+    "logic",
+    "philosophy"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "russell-whitehead-principia"
+  ]
+}

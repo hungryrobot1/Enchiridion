@@ -1,0 +1,21 @@
+{
+  "title": "The Complexity of Theorem-Proving Procedures",
+  "author": "Stephen Cook",
+  "translator": null,
+  "year_written": 1971,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "800157.805047.pdf",
+  "description": "Introduction of NP-completeness and the satisfiability problem",
+  "topics": [
+    "computer-science",
+    "complexity-theory",
+    "logic"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "turing-on-computable-numbers"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Harmonies of the World, Book V",
+  "author": "Johannes Kepler",
+  "translator": "Charles Glenn Wallis",
+  "year_written": 1619,
+  "year_translated": 1939,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "html",
+  "filename": "Harmonies of the World_ 1. Concerning the Five Regular So... _ Internet Sacred Text Archive.html",
+  "description": "Kepler's third law of planetary motion relating orbital periods to distances",
+  "topics": [
+    "astronomy",
+    "physics",
+    "mathematics",
+    "music-theory"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": [
+    "kepler-astronomia-novia-latin"
+  ]
+}

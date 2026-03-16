@@ -1,0 +1,21 @@
+{
+  "title": "A Mathematical Theory of Communication",
+  "author": "Claude Shannon",
+  "translator": null,
+  "year_written": 1948,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "entropy.pdf",
+  "description": "Foundation of information theory defining entropy, channel capacity, and data compression",
+  "topics": [
+    "computer-science",
+    "mathematics",
+    "information-theory"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "shannon-symbolic-analysis-of-relay-and-switching"
+  ]
+}

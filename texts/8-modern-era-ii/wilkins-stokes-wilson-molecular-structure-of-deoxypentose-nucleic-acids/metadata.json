@@ -1,0 +1,21 @@
+{
+  "title": "Molecular Structure of Deoxypentose Nucleic Acids",
+  "author": "Maurice Wilkins, A.R. Stokes, H.R. Wilson",
+  "translator": null,
+  "year_written": 1953,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "Wilkins_et_al_1953.pdf",
+  "description": "X-ray diffraction evidence supporting the double helix model of DNA",
+  "topics": [
+    "biology",
+    "molecular-biology",
+    "dna"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "franklin-gosling-molecular-configuration-in-sodium-thymonucleate"
+  ]
+}

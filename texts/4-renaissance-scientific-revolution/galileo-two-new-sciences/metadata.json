@@ -1,0 +1,21 @@
+{
+  "title": "Dialogues Concerning Two New Sciences",
+  "author": "Galileo Galilei",
+  "translator": "Henry Crew, Alfonso de Salvio",
+  "year_written": 1638,
+  "year_translated": 1914,
+  "language": "English",
+  "original_language": "Italian",
+  "format": "pdf",
+  "filename": "cu31924012322701.pdf",
+  "description": "Foundation of modern mechanics and kinematics through mathematical analysis of motion",
+  "topics": [
+    "physics",
+    "mechanics",
+    "mathematics"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": [
+    "galileo-starry-messenger"
+  ]
+}

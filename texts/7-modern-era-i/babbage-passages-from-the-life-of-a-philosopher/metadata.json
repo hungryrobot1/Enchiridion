@@ -1,0 +1,20 @@
+{
+  "title": "Passages from the Life of a Philosopher",
+  "author": "Charles Babbage",
+  "translator": null,
+  "year_written": 1864,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "epub",
+  "filename": "pg57532-images-3.epub",
+  "description": "Autobiography including accounts of the Difference and Analytical Engines",
+  "topics": [
+    "computation",
+    "autobiography"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "babbage-on-the-economy-of-machinery-and-manufactures"
+  ]
+}

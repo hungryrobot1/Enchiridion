@@ -1,0 +1,20 @@
+{
+  "title": "On the Theory of Quanta",
+  "author": "Louis de Broglie",
+  "translator": "A.F. Kracklauer",
+  "year_written": 1924,
+  "year_translated": 2004,
+  "language": "English",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "De_Broglie_Kracklauer.pdf",
+  "description": "Doctoral thesis proposing that all matter has wave-like properties",
+  "topics": [
+    "physics",
+    "quantum-mechanics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "bohr-constitution-of-atoms-and-molecules"
+  ]
+}

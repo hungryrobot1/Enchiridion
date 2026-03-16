@@ -1,0 +1,20 @@
+{
+  "title": "Almagest",
+  "author": "Claudius Ptolemy",
+  "translator": "G.J. Toomer",
+  "year_written": "~150 CE",
+  "year_translated": 1984,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "Ptolemy's Almagest -- Toomer.pdf",
+  "description": "Comprehensive mathematical model of the heavens that dominated astronomy for 1400 years",
+  "topics": [
+    "astronomy",
+    "mathematics"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

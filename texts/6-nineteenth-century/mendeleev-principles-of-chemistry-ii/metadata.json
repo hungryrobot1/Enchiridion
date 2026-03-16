@@ -1,0 +1,20 @@
+{
+  "title": "The Principles of Chemistry, Vol. 2",
+  "author": "Dmitri Mendeleev",
+  "translator": "George Kamensky",
+  "year_written": 1891,
+  "year_translated": 1891,
+  "language": "English",
+  "original_language": "Russian",
+  "format": "pdf",
+  "filename": "principlesofchem02menduoft.pdf",
+  "description": "Continuation covering organic chemistry and applications of the periodic system",
+  "topics": [
+    "chemistry",
+    "atomic-theory"
+  ],
+  "era": "nineteenth-century",
+  "prerequisites": [
+    "mendeleev-principles-of-chemistry-i"
+  ]
+}

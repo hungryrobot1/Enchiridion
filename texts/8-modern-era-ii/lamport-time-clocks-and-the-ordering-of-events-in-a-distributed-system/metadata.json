@@ -1,0 +1,18 @@
+{
+  "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+  "author": "Leslie Lamport",
+  "translator": null,
+  "year_written": 1978,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "time-clocks.pdf",
+  "description": "Logical clocks for establishing causal ordering in distributed systems",
+  "topics": [
+    "computer-science",
+    "distributed-systems"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

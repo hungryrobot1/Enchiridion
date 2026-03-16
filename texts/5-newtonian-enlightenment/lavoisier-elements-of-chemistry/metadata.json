@@ -1,0 +1,17 @@
+{
+  "title": "Elements of Chemistry",
+  "author": "Antoine Lavoisier",
+  "translator": "Robert Kerr",
+  "year_written": 1789,
+  "year_translated": 1790,
+  "language": "English",
+  "original_language": "French",
+  "format": "epub",
+  "filename": "pg30775-images-3.epub",
+  "description": "Foundation of modern chemistry establishing conservation of mass and oxygen theory",
+  "topics": [
+    "chemistry"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": []
+}

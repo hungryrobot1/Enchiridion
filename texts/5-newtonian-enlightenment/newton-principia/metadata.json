@@ -1,0 +1,20 @@
+{
+  "title": "Philosophiæ Naturalis Principia Mathematica",
+  "author": "Isaac Newton",
+  "translator": "Andrew Motte",
+  "year_written": 1687,
+  "year_translated": 1729,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "epub",
+  "filename": "pg76404-images-3.epub",
+  "description": "Laws of motion and universal gravitation that unified terrestrial and celestial mechanics",
+  "topics": [
+    "physics",
+    "mechanics",
+    "mathematics",
+    "astronomy"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": []
+}

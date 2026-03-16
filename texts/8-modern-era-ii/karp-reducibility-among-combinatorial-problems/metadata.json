@@ -1,0 +1,21 @@
+{
+  "title": "Reducibility Among Combinatorial Problems",
+  "author": "Richard Karp",
+  "translator": null,
+  "year_written": 1972,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "Reducibility_Among_Combinatorial_Problems.pdf",
+  "description": "Identification of 21 NP-complete problems establishing the practical importance of complexity theory",
+  "topics": [
+    "computer-science",
+    "complexity-theory",
+    "algorithms"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "cook-complexity-of-theorem-proving-procedures"
+  ]
+}

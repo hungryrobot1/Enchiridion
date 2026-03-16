@@ -1,0 +1,22 @@
+{
+  "title": "Learning Representations by Back-propagating Errors",
+  "author": "David Rumelhart, Geoffrey Hinton, Ronald Williams",
+  "translator": null,
+  "year_written": 1986,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "Chap8_PDP86.pdf",
+  "description": "Backpropagation algorithm enabling training of multi-layer neural networks",
+  "topics": [
+    "computer-science",
+    "artificial-intelligence",
+    "machine-learning",
+    "neural-networks"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "mucculloch-pitts-a-logical-calculus-of-the-ideas-immanent-in-nervious-activity"
+  ]
+}

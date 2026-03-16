@@ -1,0 +1,20 @@
+{
+  "title": "The Algebra of Mohammed ben Musa",
+  "author": "Al-Khwarizmi",
+  "translator": "Frederic Rosen",
+  "year_written": "~820",
+  "year_translated": 1831,
+  "language": "English",
+  "original_language": "Arabic",
+  "format": "pdf",
+  "filename": "algebraofmohamme00khuwuoft.pdf",
+  "description": "First systematic treatment of algebra as an independent discipline",
+  "topics": [
+    "mathematics",
+    "algebra"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Contributions to the Founding of the Theory of Transfinite Numbers",
+  "author": "Georg Cantor",
+  "translator": "Philip Jourdain",
+  "year_written": 1895,
+  "year_translated": 1915,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "Georg Cantor - Contributions to the Founding of the Theory of Transfinite Numbers.pdf",
+  "description": "Discovery of different sizes of infinity and the foundations of set theory",
+  "topics": [
+    "mathematics",
+    "set-theory"
+  ],
+  "era": "nineteenth-century",
+  "prerequisites": [
+    "dedekind-essays-on-theory-of-numbers"
+  ]
+}

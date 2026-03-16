@@ -1,0 +1,18 @@
+{
+  "title": "Steps Toward Artificial Intelligence",
+  "author": "Marvin Minsky",
+  "translator": null,
+  "year_written": 1961,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "steps.pdf",
+  "description": "Survey of early AI approaches including search, learning, and pattern recognition",
+  "topics": [
+    "computer-science",
+    "artificial-intelligence"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

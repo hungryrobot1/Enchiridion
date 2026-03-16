@@ -230,7 +230,7 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 | Isaac Newton — *Opticks* | Project Gutenberg #33504 | https://www.gutenberg.org/ebooks/33504 **[in repo]** |
 | Gottfried Leibniz — *Philosophical Works* (Duncan trans., 1890) | Internet Archive | https://archive.org/details/philosophicalwor00leibuoft | **[in repo]**
 | Gottfried Leibniz — *Monadology and Other Writings* (Latta trans., 1898) | Internet Archive | https://archive.org/details/monadologyotherp00gott | **[in repo]**
-| Gottfried Leibniz — *New Essays Concerning Human Understanding* (Langley trans., 1896) | Internet Archive | https://archive.org/details/cu31924032296422 |
+| Gottfried Leibniz — *New Essays Concerning Human Understanding* (Langley trans., 1896) | Internet Archive | https://archive.org/details/cu31924032296422 | **[in repo]**
 | Leonhard Euler — *Elements of Algebra* (Hewlett trans., 1828) | Internet Archive | https://archive.org/details/elementsofalgebr00eule | **[in repo]**
 | Leonhard Euler — *Letters to a German Princess* Vol. 1 (Hunter trans., 1795) | Internet Archive | https://archive.org/details/lettersofeuleron01eule | **[in repo]**
 | Leonhard Euler — *Letters to a German Princess* Vol. 2 | Internet Archive | https://archive.org/details/lettersofeuleron02eule | **[in repo]**
@@ -241,8 +241,7 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 | Text | Source | URL |
 |------|--------|-----|
 | Thomas Bayes — "An Essay towards solving a Problem in the Doctrine of Chances" (1763) | Internet Archive | https://archive.org/details/philtrans09948070 | **[in repo]**
-| Jakob Bernoulli — *Ars Conjectandi* (Latin original, 1713) | Internet Archive | https://archive.org/details/jacobibernoulli00bern |
-**[in repo]**
+| Jakob Bernoulli — *Ars Conjectandi* (1713) | Internet Archive | https://archive.org/details/jacobibernoulli00bern | **[in repo]**
 
 ### Chemistry
 
@@ -250,7 +249,7 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 |------|--------|-----|
 | Antoine Lavoisier — *Elements of Chemistry* | Project Gutenberg #30775 | https://www.gutenberg.org/ebooks/30775 **[in repo]** |
 | Joseph Priestley — *Experiments and Observations on Different Kinds of Air* | Project Gutenberg #29734 | https://www.gutenberg.org/ebooks/29734 | **[in repo]**
-| Joseph Priestley — *History and Present State of Electricity* (2nd ed., 1769) | Internet Archive | https://archive.org/details/bim_eighteenth-century_the-history-and-present-_priestley-joseph_1769 | **[in repo]**
+| Joseph Priestley — *History and Present State of Electricity* (2nd ed., 1769) | Internet Archive | https://archive.org/details/bim_eighteenth-century_the-history-and-present-_priestley-joseph_1769 |
 | John Dalton — *A New System of Chemical Philosophy* Vol. 1, Pt. 1 | Internet Archive | https://archive.org/details/newsystemofchemi01daltuoft | **[in repo]**
 | John Dalton — *A New System of Chemical Philosophy* Vol. 2, Pt. 1 | Project Gutenberg #74948 | https://www.gutenberg.org/ebooks/74948 | **[in repo]**
 
@@ -327,7 +326,7 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 |------|--------|-----|
 | John Stuart Mill — *Utilitarianism* (1861) | Project Gutenberg #11224 | https://www.gutenberg.org/ebooks/11224 | **[in repo]**
 | Frederick Douglass — *Narrative of the Life of Frederick Douglass* (1845) | Project Gutenberg #23 | https://www.gutenberg.org/ebooks/23 | **[in repo]**
-| Fyodor Dostoevsky — *Notes from Underground* (Garnett trans.) | Project Gutenberg #600 | https://www.gutenberg.org/ebooks/600 |
+| Fyodor Dostoevsky — *Notes from Underground* (Garnett trans.) | Project Gutenberg #600 | https://www.gutenberg.org/ebooks/600 | **[in repo]**
 
 ### Literature & Poetry
 
@@ -367,7 +366,7 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 | Albert Einstein — "On the Electrodynamics of Moving Bodies" (1905, special relativity; Perrett/Jeffery trans.) | Fourmilab | https://www.fourmilab.ch/etexts/einstein/specrel/specrel.pdf | **[in repo]**
 | Albert Einstein — "Does the Inertia of a Body Depend Upon Its Energy Content?" (1905, E=mc²; Perrett/Jeffery trans.) | Fourmilab | https://www.fourmilab.ch/etexts/einstein/E_mc2/e_mc2.pdf | **[in repo]**
 | Hermann Minkowski — "Space and Time" (1908 lecture) | Wikisource | https://en.wikisource.org/wiki/Translation:Space_and_Time | **[in repo]**
-| Albert Einstein — "The Foundation of the General Theory of Relativity" (1916; Perrett/Jeffery trans.) | Wikisource | https://en.wikisource.org/wiki/The_Foundation_of_the_Generalised_Theory_of_Relativity |
+| Albert Einstein — "The Foundation of the General Theory of Relativity" (1916; Perrett/Jeffery trans.) | Wikisource | https://en.wikisource.org/wiki/The_Foundation_of_the_Generalised_Theory_of_Relativity | **[in repo]**
 
 ### Modern Physics — Quantum Mechanics
 
@@ -423,6 +422,14 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 | Text | Source | URL |
 |------|--------|-----|
 | Franz Kafka — *The Metamorphosis* (Wyllie trans.) | Project Gutenberg #5200 | https://www.gutenberg.org/ebooks/5200 | **[in repo]**
+
+### Literature & Social Thought
+
+| Text | Source | URL |
+|------|--------|-----|
+| W.E.B. Du Bois — *The Souls of Black Folk* (1903) | Project Gutenberg #408 | https://www.gutenberg.org/ebooks/408 | **[in repo]**
+| John Dewey — *The Public and Its Problems* (1927) | Internet Archive | https://archive.org/details/publicitsproblem0000dewe | **[in repo]**
+| Virginia Woolf — *Mrs Dalloway* (1925) | Internet Archive | https://archive.org/details/mrsdalloway0000wool | **[in repo]**
 
 ---
 
@@ -485,20 +492,20 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 | Text | Source | URL |
 |------|--------|-----|
 | Whitfield Diffie & Martin Hellman — "New Directions in Cryptography" (1976) | Stanford (Hellman's page) | https://ee.stanford.edu/~hellman/publications/24.pdf | **[in repo]**
-| Rivest, Shamir & Adleman — "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems" (1978) | MIT CSAIL (Rivest's page) | https://people.csail.mit.edu/rivest/Rsapaper.pdf |
+| Rivest, Shamir & Adleman — "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems" (1978) | MIT CSAIL (Rivest's page) | https://people.csail.mit.edu/rivest/Rsapaper.pdf | **[in repo]**
 
 ### Computer Science — Databases & Web
 
 | Text | Source | URL |
 |------|--------|-----|
 | E.F. Codd — "A Relational Model of Data for Large Shared Data Banks" (1970) | ACM Digital Library (open access) | https://dl.acm.org/doi/10.1145/362384.362685 | **[in repo]**
-| Sergey Brin & Larry Page — "The Anatomy of a Large-Scale Hypertextual Web Search Engine" (1998) | Stanford InfoLab | http://infolab.stanford.edu/~backrub/google.html |
+| Sergey Brin & Larry Page — "The Anatomy of a Large-Scale Hypertextual Web Search Engine" (1998) | Stanford InfoLab | http://infolab.stanford.edu/~backrub/google.html | **[in repo]**
 
 ### Molecular Biology & Genetics
 
 | Text | Source | URL |
 |------|--------|-----|
-| James Watson & Francis Crick — "Molecular Structure of Nucleic Acids" (1953) | Nature (open archive) | https://www.nature.com/scitable/content/16331/molecularstructureofDNAswatsoncrick.pdf | **in[repo]**
+| James Watson & Francis Crick — "Molecular Structure of Nucleic Acids" (1953) | Nature (open archive) | https://www.nature.com/scitable/content/16331/molecularstructureofDNAswatsoncrick.pdf | **[in repo]**
 | Rosalind Franklin & Raymond Gosling — "Molecular Configuration in Sodium Thymonucleate" (1953) | Nature (open archive) | https://www.ias.ac.in/article/fulltext/reso/009/03/0084-0088 | **[in repo]**
 | Maurice Wilkins, A.R. Stokes & H.R. Wilson — "Molecular Structure of Deoxypentose Nucleic Acids" (1953) | Nature (open archive) | https://www.chem.uwec.edu/Chem352_Resources/pages/readings/media/Wilkins_et_al_1953.pdf| **[in repo]**
 | Marshall Nirenberg & J. Heinrich Matthaei — "The Dependence of Cell-Free Protein Synthesis…" (1961, cracking the genetic code) | PNAS | https://www.pnas.org/doi/10.1073/pnas.47.10.1588 | **[in repo]**
@@ -520,7 +527,11 @@ The Smith *Source Book* contains English translations of key passages by Fermat 
 |------|--------|-----|
 | Max Weber — *The Protestant Ethic and the Spirit of Capitalism* (Parsons trans., 1930; PD as of Jan 2026) | Internet Archive | https://archive.org/details/protestantethics00webe | **[in repo]**
 | Scott Buchanan — *Poetry and Mathematics* (1929; PD as of Jan 2025) | Internet Archive | https://archive.org/details/poetrymathematic0000unse | **[in repo]**
-| Leo Strauss — Lecture transcripts (freely accessible for non-commercial educational use; © Estate of Leo Strauss) | Leo Strauss Center, UChicago | https://leostrausscenter.uchicago.edu | **[in repo]**
+| Leo Strauss — "Natural Right" (lecture transcript; freely accessible for non-commercial educational use; © Estate of Leo Strauss) | Leo Strauss Center, UChicago | https://leostrausscenter.uchicago.edu | **[in repo]**
+| Leo Strauss — "Historicism and Modern Relativism" (lecture transcript; © Estate of Leo Strauss) | Leo Strauss Center, UChicago | https://leostrausscenter.uchicago.edu | **[in repo]**
+| José Ortega y Gasset — *The Revolt of the Masses* (1930 English trans.; PD as of Jan 2026) | Internet Archive | https://archive.org/details/revoltofmasses0000orte | **[in repo]**
+| Simone Weil — *Gravity and Grace* (Crawford trans., 1952) | Internet Archive | https://archive.org/details/gravityandgrace0000weil | **[in repo]**
+| Flannery O'Connor — "The Geranium" (1947) | Internet Archive | https://archive.org/details/geraniumcollecti00ocon | **[in repo]**
 
 ### Film
 

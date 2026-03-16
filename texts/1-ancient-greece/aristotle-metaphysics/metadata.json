@@ -1,0 +1,20 @@
+{
+  "title": "Metaphysics",
+  "author": "Aristotle",
+  "translator": "W.D. Ross",
+  "year_written": "~350 BCE",
+  "year_translated": 1924,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "txt",
+  "filename": "metaphysics.mb.txt",
+  "description": "Investigation into the nature of being, substance, causation, and first principles",
+  "topics": [
+    "philosophy",
+    "metaphysics"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "aristotle-categories"
+  ]
+}

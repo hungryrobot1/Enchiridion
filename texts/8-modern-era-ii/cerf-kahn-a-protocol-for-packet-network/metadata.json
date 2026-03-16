@@ -1,0 +1,18 @@
+{
+  "title": "A Protocol for Packet Network Intercommunication",
+  "author": "Vint Cerf, Robert Kahn",
+  "translator": null,
+  "year_written": 1974,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "cerf74.pdf",
+  "description": "Design of TCP/IP enabling the interconnection of diverse computer networks",
+  "topics": [
+    "computer-science",
+    "networking"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

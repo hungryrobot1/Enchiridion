@@ -1,0 +1,21 @@
+{
+  "title": "Minds, Brains, and Programs",
+  "author": "John Searle",
+  "translator": null,
+  "year_written": 1980,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "minds-brains-and-programs.pdf",
+  "description": "The Chinese Room argument against strong AI and computational theories of mind",
+  "topics": [
+    "philosophy",
+    "philosophy-of-mind",
+    "artificial-intelligence"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "turing-computing-machinery-and-intelligence"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "The Quantum Theory of the Electron",
+  "author": "P.A.M. Dirac",
+  "translator": null,
+  "year_written": 1928,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "rspa.1928.0023.pdf",
+  "description": "Relativistic wave equation predicting antimatter and electron spin",
+  "topics": [
+    "physics",
+    "quantum-mechanics",
+    "relativity"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "de-broglie-on-the-theory-of-quanta"
+  ]
+}

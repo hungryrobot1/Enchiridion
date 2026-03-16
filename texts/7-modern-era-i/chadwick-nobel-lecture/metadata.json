@@ -1,0 +1,20 @@
+{
+  "title": "The Neutron and Its Properties (Nobel Lecture)",
+  "author": "James Chadwick",
+  "translator": null,
+  "year_written": 1935,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "chadwick-lecture.pdf",
+  "description": "Nobel lecture on the discovery and properties of the neutron",
+  "topics": [
+    "physics",
+    "nuclear-physics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "chadwick-the-existence-of-a-neutron"
+  ]
+}

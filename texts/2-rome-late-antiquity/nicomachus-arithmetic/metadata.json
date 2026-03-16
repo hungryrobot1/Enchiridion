@@ -1,0 +1,21 @@
+{
+  "title": "Introduction to Arithmetic",
+  "author": "Nicomachus of Gerasa",
+  "translator": "Martin Luther D'Ooge",
+  "year_written": "~100",
+  "year_translated": 1926,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "nicomachus-arithmetic-balboa-2020-12-28-b.pdf",
+  "description": "Pythagorean treatment of number theory and the properties of integers",
+  "topics": [
+    "mathematics",
+    "arithmetic",
+    "number-theory"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

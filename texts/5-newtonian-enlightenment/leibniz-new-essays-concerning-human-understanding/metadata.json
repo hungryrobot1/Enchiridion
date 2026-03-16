@@ -1,0 +1,21 @@
+{
+  "title": "New Essays Concerning Human Understanding",
+  "author": "Gottfried Wilhelm Leibniz",
+  "translator": "Alfred Gideon Langley",
+  "year_written": 1765,
+  "year_translated": 1896,
+  "language": "English",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "cu31924032296422.pdf",
+  "description": "Point-by-point response to Locke defending innate ideas and rationalism",
+  "topics": [
+    "philosophy",
+    "epistemology",
+    "rationalism"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": [
+    "leibniz-monadology-and-other-writings"
+  ]
+}

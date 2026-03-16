@@ -1,0 +1,21 @@
+{
+  "title": "A Treatise on Electricity and Magnetism",
+  "author": "James Clerk Maxwell",
+  "translator": null,
+  "year_written": 1873,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "electricandmagne01maxwrich.pdf",
+  "description": "Unification of electricity, magnetism, and light into a single mathematical framework",
+  "topics": [
+    "physics",
+    "electromagnetism",
+    "mathematics"
+  ],
+  "era": "nineteenth-century",
+  "prerequisites": [
+    "faraday-experimental-researches-in-electricity"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "The Statistical Interpretation of Quantum Mechanics (Nobel Lecture)",
+  "author": "Max Born",
+  "translator": null,
+  "year_written": 1954,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "born-lecture.pdf",
+  "description": "Probability interpretation of the wave function that became standard in quantum mechanics",
+  "topics": [
+    "physics",
+    "quantum-mechanics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "de-broglie-on-the-theory-of-quanta"
+  ]
+}

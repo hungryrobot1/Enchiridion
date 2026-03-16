@@ -1,0 +1,19 @@
+{
+  "title": "Treatise on the Arithmetical Triangle",
+  "author": "Blaise Pascal",
+  "translator": "David Pengelley",
+  "year_written": 1654,
+  "year_translated": 2013,
+  "language": "English",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "Pengelley_Pascal_Arithmetical_Triangle.pdf",
+  "description": "Systematic study of the binomial coefficients, combinatorics, and mathematical induction",
+  "topics": [
+    "mathematics",
+    "probability",
+    "combinatorics"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": []
+}

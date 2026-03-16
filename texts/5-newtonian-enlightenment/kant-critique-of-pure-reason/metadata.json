@@ -1,0 +1,21 @@
+{
+  "title": "Critique of Pure Reason",
+  "author": "Immanuel Kant",
+  "translator": "J.M.D. Meiklejohn",
+  "year_written": 1781,
+  "year_translated": 1855,
+  "language": "English",
+  "original_language": "German",
+  "format": "epub",
+  "filename": "pg4280-images-3.epub",
+  "description": "Investigation of the conditions for the possibility of knowledge and the limits of metaphysics",
+  "topics": [
+    "philosophy",
+    "epistemology",
+    "metaphysics"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": [
+    "hume-enquiry-concerning-human-understanding"
+  ]
+}

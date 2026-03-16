@@ -1,0 +1,21 @@
+{
+  "title": "The Incoherence of the Incoherence",
+  "author": "Averroes (Ibn Rushd)",
+  "translator": "Simon Van Den Bergh",
+  "year_written": "~1180",
+  "year_translated": 1954,
+  "language": "English",
+  "original_language": "Arabic",
+  "format": "pdf",
+  "filename": "Averroes Incoherence of the Incoherence.pdf",
+  "description": "Defense of Aristotelian philosophy against Al-Ghazali's critique of rational inquiry",
+  "topics": [
+    "philosophy",
+    "metaphysics",
+    "theology"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": [
+    "al-farabi-philosophy-of-plato-and-aristotle"
+  ]
+}

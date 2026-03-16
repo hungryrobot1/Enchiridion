@@ -1,0 +1,20 @@
+{
+  "title": "The Starry Messenger",
+  "author": "Galileo Galilei",
+  "translator": "Edward Stafford Carlos",
+  "year_written": 1610,
+  "year_translated": 1880,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "epub",
+  "filename": "pg46036-images-3.epub",
+  "description": "First telescopic observations of the Moon, Jupiter's moons, and the Milky Way",
+  "topics": [
+    "astronomy",
+    "natural-philosophy"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": [
+    "copernicus-revolutions"
+  ]
+}

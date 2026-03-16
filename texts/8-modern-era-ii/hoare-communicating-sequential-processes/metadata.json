@@ -1,0 +1,21 @@
+{
+  "title": "Communicating Sequential Processes",
+  "author": "C.A.R. Hoare",
+  "translator": null,
+  "year_written": 1978,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "359576.359585.pdf",
+  "description": "Formal language for describing patterns of interaction in concurrent systems",
+  "topics": [
+    "computer-science",
+    "distributed-systems",
+    "programming-languages"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "hoare-an-axiomatic-basis-for-computer-programming"
+  ]
+}

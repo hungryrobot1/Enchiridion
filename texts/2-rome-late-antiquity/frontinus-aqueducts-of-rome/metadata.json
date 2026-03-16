@@ -1,0 +1,18 @@
+{
+  "title": "The Aqueducts of Rome",
+  "author": "Frontinus",
+  "translator": "Clemens Herschel",
+  "year_written": "~97",
+  "year_translated": 1899,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "html",
+  "filename": "book_1.htm",
+  "description": "Official report on Rome's water supply system and hydraulic engineering",
+  "topics": [
+    "engineering",
+    "architecture"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": []
+}

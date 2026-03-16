@@ -1,0 +1,21 @@
+{
+  "title": "The Foundation of the General Theory of Relativity",
+  "author": "Albert Einstein",
+  "translator": "W. Perrett, G.B. Jeffery",
+  "year_written": 1916,
+  "year_translated": 1923,
+  "language": "English",
+  "original_language": "German",
+  "format": "epub",
+  "filename": "The_Foundation_of_the_Generalised_Theory_of_Relativity.epub",
+  "description": "Geometric theory of gravitation as curvature of spacetime",
+  "topics": [
+    "physics",
+    "relativity",
+    "mathematics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "einstein-on-electrodynamics-of-moving-bodies"
+  ]
+}

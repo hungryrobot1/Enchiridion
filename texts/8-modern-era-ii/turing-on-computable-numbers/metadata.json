@@ -1,0 +1,20 @@
+{
+  "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+  "author": "Alan Turing",
+  "translator": null,
+  "year_written": 1936,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "Turing_Paper_1936.pdf",
+  "description": "Definition of the Turing machine and proof that the halting problem is undecidable",
+  "topics": [
+    "computer-science",
+    "mathematics",
+    "computability",
+    "logic"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

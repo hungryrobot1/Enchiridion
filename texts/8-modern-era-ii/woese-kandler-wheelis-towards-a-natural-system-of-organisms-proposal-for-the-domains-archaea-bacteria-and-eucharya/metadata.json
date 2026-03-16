@@ -1,0 +1,21 @@
+{
+  "title": "Towards a Natural System of Organisms: Proposal for the Domains Archaea, Bacteria, and Eucarya",
+  "author": "Carl Woese, Otto Kandler, Mark Wheelis",
+  "translator": null,
+  "year_written": 1990,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "woese-et-al-1990-towards-a-natural-system-of-organisms-proposal-for-the-domains-archaea-bacteria-and-eucarya.pdf",
+  "description": "Formal proposal of the three-domain classification of life",
+  "topics": [
+    "biology",
+    "evolution",
+    "taxonomy"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "woese-fox-phylogenetic-structure-of-the-prokaryotic-domain-the-primary-kingdoms"
+  ]
+}

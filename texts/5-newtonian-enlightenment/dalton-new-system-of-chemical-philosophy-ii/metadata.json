@@ -1,0 +1,20 @@
+{
+  "title": "A New System of Chemical Philosophy, Vol. 2",
+  "author": "John Dalton",
+  "translator": null,
+  "year_written": 1810,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "epub",
+  "filename": "pg74948-images-3.epub",
+  "description": "Continuation of Dalton's atomic theory with further experimental results",
+  "topics": [
+    "chemistry",
+    "atomic-theory"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": [
+    "dalton-new-system-of-chemical-philosophy-i"
+  ]
+}

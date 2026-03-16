@@ -1,0 +1,18 @@
+{
+  "title": "A Relational Model of Data for Large Shared Data Banks",
+  "author": "E.F. Codd",
+  "translator": null,
+  "year_written": 1970,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "362384.362685.pdf",
+  "description": "Foundation of relational databases using set theory and predicate logic",
+  "topics": [
+    "computer-science",
+    "databases"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

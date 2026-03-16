@@ -1,0 +1,19 @@
+{
+  "title": "The Foundations of Geometry",
+  "author": "David Hilbert",
+  "translator": "E.J. Townsend",
+  "year_written": 1899,
+  "year_translated": 1902,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "17384-pdf.pdf",
+  "description": "Rigorous axiomatization of Euclidean geometry establishing the modern axiomatic method",
+  "topics": [
+    "mathematics",
+    "geometry",
+    "logic"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": []
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Opus Majus",
+  "author": "Roger Bacon",
+  "translator": "Robert Belle Burke",
+  "year_written": "~1267",
+  "year_translated": 1928,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "pdf",
+  "filename": "opusmajusofroger01baco.pdf",
+  "description": "Encyclopedic work advocating experimental science, optics, and mathematics",
+  "topics": [
+    "natural-philosophy",
+    "optics",
+    "scientific-method"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": []
+}

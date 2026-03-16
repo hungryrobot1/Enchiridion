@@ -1,0 +1,20 @@
+{
+  "title": "The Development of the C Programming Language",
+  "author": "Dennis Ritchie",
+  "translator": null,
+  "year_written": 1993,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "chist.pdf",
+  "description": "History of C's evolution from B and BCPL in the context of UNIX development",
+  "topics": [
+    "computer-science",
+    "programming-languages"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "ritchie-thompson-the-unix-time-sharing-system"
+  ]
+}

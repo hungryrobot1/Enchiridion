@@ -1,0 +1,20 @@
+{
+  "title": "Theaetetus",
+  "author": "Plato",
+  "translator": "Benjamin Jowett",
+  "year_written": "~369 BCE",
+  "year_translated": 1871,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "epub",
+  "filename": "pg1726-images-3.epub",
+  "description": "Dialogue investigating the nature of knowledge and the definition of episteme",
+  "topics": [
+    "philosophy",
+    "epistemology"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "plato-meno"
+  ]
+}

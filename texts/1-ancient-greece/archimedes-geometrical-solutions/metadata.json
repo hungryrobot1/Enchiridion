@@ -1,0 +1,22 @@
+{
+  "title": "The Works of Archimedes",
+  "author": "Archimedes",
+  "translator": "Thomas Heath",
+  "year_written": "~250 BCE",
+  "year_translated": 1897,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "7825-pdf.pdf",
+  "description": "Foundational works on geometry, mechanics, hydrostatics, and the method of exhaustion",
+  "topics": [
+    "mathematics",
+    "geometry",
+    "physics",
+    "mechanics"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

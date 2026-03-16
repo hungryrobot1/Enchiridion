@@ -1,0 +1,21 @@
+{
+  "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+  "author": "Sergey Brin, Larry Page",
+  "translator": null,
+  "year_written": 1998,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "html",
+  "filename": "The Anatomy of a Search Engine.html",
+  "description": "Technical paper describing Google's PageRank algorithm and search architecture",
+  "topics": [
+    "computer-science",
+    "world-wide-web",
+    "algorithms"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "berners-lee-information-management-a-proposal"
+  ]
+}

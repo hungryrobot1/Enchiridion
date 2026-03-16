@@ -1,0 +1,18 @@
+{
+  "title": "Ars Conjectandi",
+  "author": "Jakob Bernoulli",
+  "translator": null,
+  "year_written": 1713,
+  "year_translated": null,
+  "language": "Latin",
+  "original_language": "Latin",
+  "format": "pdf",
+  "filename": "jacobibernoulli00bern.pdf",
+  "description": "Foundation of probability theory including the law of large numbers",
+  "topics": [
+    "mathematics",
+    "probability"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": []
+}

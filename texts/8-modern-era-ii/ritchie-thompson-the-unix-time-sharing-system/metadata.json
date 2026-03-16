@@ -1,0 +1,19 @@
+{
+  "title": "The UNIX Time-Sharing System",
+  "author": "Dennis Ritchie, Ken Thompson",
+  "translator": null,
+  "year_written": 1974,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "unix.pdf",
+  "description": "Description of UNIX's design philosophy and implementation",
+  "topics": [
+    "computer-science",
+    "operating-systems",
+    "systems"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

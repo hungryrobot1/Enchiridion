@@ -1,0 +1,20 @@
+{
+  "title": "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems",
+  "author": "Ronald Rivest, Adi Shamir, Leonard Adleman",
+  "translator": null,
+  "year_written": 1978,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "Rsapaper.pdf",
+  "description": "The RSA algorithm for public-key encryption and digital signatures",
+  "topics": [
+    "computer-science",
+    "cryptography"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "diffie-helman-new-directions-in-cryptography"
+  ]
+}

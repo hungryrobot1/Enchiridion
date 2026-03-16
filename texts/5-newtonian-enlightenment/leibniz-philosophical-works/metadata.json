@@ -1,0 +1,21 @@
+{
+  "title": "Philosophical Works",
+  "author": "Gottfried Wilhelm Leibniz",
+  "translator": "George Martin Duncan",
+  "year_written": 1714,
+  "year_translated": 1890,
+  "language": "English",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "philosophicalwor00leibuoft.pdf",
+  "description": "Collection of philosophical writings including the Discourse on Metaphysics",
+  "topics": [
+    "philosophy",
+    "metaphysics",
+    "logic"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": [
+    "leibniz-monadology-and-other-writings"
+  ]
+}

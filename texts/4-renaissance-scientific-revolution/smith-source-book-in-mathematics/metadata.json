@@ -1,0 +1,20 @@
+{
+  "title": "A Source Book in Mathematics",
+  "author": "D.E. Smith (editor)",
+  "translator": null,
+  "year_written": 1929,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "sourcebookinmath00smit.pdf",
+  "description": "Anthology of translated primary mathematical texts from Fermat, Pascal, Wallis, and Viète",
+  "topics": [
+    "mathematics",
+    "algebra",
+    "calculus",
+    "geometry"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": []
+}

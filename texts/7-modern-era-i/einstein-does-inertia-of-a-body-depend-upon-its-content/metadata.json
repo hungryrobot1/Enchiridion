@@ -1,0 +1,20 @@
+{
+  "title": "Does the Inertia of a Body Depend Upon Its Energy Content?",
+  "author": "Albert Einstein",
+  "translator": "W. Perrett, G.B. Jeffery",
+  "year_written": 1905,
+  "year_translated": 1923,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "e_mc2.pdf",
+  "description": "Derivation of mass-energy equivalence, E=mc²",
+  "topics": [
+    "physics",
+    "relativity"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "einstein-on-electrodynamics-of-moving-bodies"
+  ]
+}

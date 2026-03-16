@@ -1,0 +1,20 @@
+{
+  "title": "The Elements",
+  "author": "Euclid",
+  "translator": "Thomas Heath",
+  "year_written": "~300 BCE",
+  "year_translated": 1908,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "epub",
+  "filename": "pg21076-images-3.epub",
+  "description": "Foundational treatise on geometry and number theory that defined axiomatic reasoning for two millennia",
+  "topics": [
+    "mathematics",
+    "geometry",
+    "number-theory",
+    "logic"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": []
+}

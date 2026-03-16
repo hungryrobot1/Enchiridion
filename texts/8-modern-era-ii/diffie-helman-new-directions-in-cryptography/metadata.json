@@ -1,0 +1,18 @@
+{
+  "title": "New Directions in Cryptography",
+  "author": "Whitfield Diffie, Martin Hellman",
+  "translator": null,
+  "year_written": 1976,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "24.pdf",
+  "description": "Invention of public-key cryptography and the Diffie-Hellman key exchange",
+  "topics": [
+    "computer-science",
+    "cryptography"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

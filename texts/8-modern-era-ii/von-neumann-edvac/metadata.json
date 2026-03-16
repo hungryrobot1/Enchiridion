@@ -1,0 +1,21 @@
+{
+  "title": "First Draft of a Report on the EDVAC",
+  "author": "John von Neumann",
+  "translator": null,
+  "year_written": 1945,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "vnedvac.pdf",
+  "description": "Architecture of the stored-program computer that became the standard design",
+  "topics": [
+    "computer-science",
+    "computation",
+    "systems"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "turing-on-computable-numbers"
+  ]
+}

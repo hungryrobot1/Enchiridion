@@ -1,0 +1,20 @@
+{
+  "title": "Artificial Radioactivity Produced by Neutron Bombardment (Nobel Lecture)",
+  "author": "Enrico Fermi",
+  "translator": null,
+  "year_written": 1938,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "fermi-lecture.pdf",
+  "description": "Nobel lecture on neutron-induced radioactivity and nuclear reactions",
+  "topics": [
+    "physics",
+    "nuclear-physics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "chadwick-the-existence-of-a-neutron"
+  ]
+}

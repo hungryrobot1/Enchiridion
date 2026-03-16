@@ -1,0 +1,18 @@
+{
+  "title": "Elements of Algebra",
+  "author": "Leonhard Euler",
+  "translator": "John Hewlett",
+  "year_written": 1770,
+  "year_translated": 1828,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "elementsofalgebr00eule.pdf",
+  "description": "Comprehensive introduction to algebra from basic arithmetic to Diophantine equations",
+  "topics": [
+    "mathematics",
+    "algebra"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": []
+}

@@ -1,0 +1,20 @@
+{
+  "title": "An Elementary Treatise on Electricity",
+  "author": "James Clerk Maxwell",
+  "translator": null,
+  "year_written": 1881,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "69914.pdf",
+  "description": "Accessible introduction to electromagnetic theory",
+  "topics": [
+    "physics",
+    "electromagnetism"
+  ],
+  "era": "nineteenth-century",
+  "prerequisites": [
+    "maxwell-treatise-on-electricity-and-magnitism"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "An Unsolvable Problem of Elementary Number Theory",
+  "author": "Alonzo Church",
+  "translator": null,
+  "year_written": 1936,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "church.pdf",
+  "description": "Proof that the decision problem for first-order logic is unsolvable, using lambda calculus",
+  "topics": [
+    "computer-science",
+    "mathematics",
+    "logic",
+    "computability"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": []
+}

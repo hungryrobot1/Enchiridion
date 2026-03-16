@@ -1,0 +1,22 @@
+A.parallel {
+	position: absolute;
+	left: +5em;
+	font-family : "PT Sans", Verdana, Ariel, Helvetica, sans-serif !important;
+	font-size: 60% !important;
+	color: #D02568 !important;
+	background-color: #D8D8D8 !important;
+	text-align: center;
+	border: .25em ridge #ffffff !important;
+	width: 5em !important;
+}
+
+/* keep LVHA order: */
+/* A:link, A:visited, A:hover, A:active */
+	A.parallel:visited {
+		color: #ff0000 !important;
+	}
+
+	A.parallel:hover {
+		color: #00a000 !important;
+	}
+

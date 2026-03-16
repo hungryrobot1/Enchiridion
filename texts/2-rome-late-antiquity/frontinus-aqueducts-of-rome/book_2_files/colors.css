@@ -1,0 +1,2204 @@
+/*
+KEEP IN THE FOLLOWING ORDER:
+	1. GOOGLEMAP COLORS FIRST				▸ search for <1>
+	2. PLAIN FONT COLORS NO BACKGROUNDS		▸ search for <2>
+	3. PLAIN BACKGROUND COLORS				▸ search for <3>
+	4. COMBINED FONT+BACKGROUND SCHEMES	▸ search for <4>
+*/
+
+/* 
+ideally:
+	plain color names should be for plain font colors
+	evocative names should be for combined schemes
+ */
+
+/* 
+TABLES WITH ALTERNATING ROWS/BANDS:
+	Across all backgrounds and stylesheets, they are CLASS="Orvieto",
+	differently defined in the various stylesheets.
+	Model use:
+E/Gazetteer/Places/America/United_States/_Topics/history/_Texts/DULOCT/Appendix*.html
+ */
+
+/*<1>*/
+
+SPAN.WalkColor {
+	color: #00bf40 ! important;
+}
+
+SPAN.RideColor {
+	color: #cc6600 ! important;
+}
+
+SPAN.ApproximateColor {
+	color: #ff99ff ! important;
+}
+
+/*<2>*/
+/*
+KEEP IN THE FOLLOWING ORDER:
+	1. NAMED COLORS				▸ search for <NAMED>
+	2. colorNNNNNN PLACEHOLDERS		▸ search for <PLACEHOLDERS>, within which:
+		2a. WEBSAFE: xxyyzz with x, y, z = {0,3,6,9,C,F}
+		2b. OTHER
+*/
+
+/*<NAMED>*/
+.black {
+	color: #000000 ! important;
+	}
+
+.blue {
+	color: #0000ff ! important;
+}
+
+.celadon {
+	color: #33CCFF ! important;
+	}
+
+.chancery {
+	color: #FF33FF ! important;
+	}
+
+.cornflower {
+	color: #6495ED ! important;
+	}
+
+.cordovan {
+	color: #993300 ! important;
+	}
+
+.fuchsia {
+	color: #ff00ff ! important;
+	}
+
+.green {
+	color: #009900 ! important;
+}
+
+.dark_green {
+	color: #003300 ! important;
+	}
+
+.lawngreen {
+	color: #7cfc00 ! important;
+}
+
+.light_green {
+	color: #33ff33 ! important;
+}
+
+	A.light_green {
+		background-color: inherit ! important;
+		color: #33ff33 ! important;
+	}
+
+.light_red {
+	color: #ff3333 ! important;
+}
+
+.light_yellow {
+	color: #ffff33 ! important;
+}
+
+.pale_green {
+	color: #ccffcc ! important;
+}
+
+	A.pale_green {
+		background-color: inherit ! important;
+		color: #ccffcc ! important;
+	}
+
+.pale_yellow {
+	color: #ffffcc ! important;
+}
+
+.Latvian_red {
+	color: #6f393e ! important;
+	}
+
+.lemon {
+	color: #FFFF99 ! important;
+	}
+
+.maroon {
+	color: #990000 ! important;
+	}
+
+.muted {
+	color: #666666 ! important;
+	}
+
+.semimuted {
+	color: #999999 ! important;
+	}
+
+.ochre {
+	color: #996600 ! important;
+	}
+
+.ochre_yellow {
+	color: #ccad00 ! important;
+}
+
+.orange {
+	color: #ffaa22 ! important;
+	}
+
+.pale_magenta {
+	color: #ff6699 ! important;
+}
+
+.pale_purple {
+	color: #ffccff ! important;
+}
+
+	A.pale_purple {
+		background-color: inherit ! important;
+		color: #ffccff ! important;
+	}
+
+.Polish_pink {
+	color: #ff7faa ! important;
+	}
+
+.purple {
+	color: #990099 ! important;
+	}
+
+.red {
+	color: #ff0000 ! important;
+}
+
+.rust {
+	color: #CC6600 ! important;
+	}
+
+.salmon {
+	color: #ff6666 ! important;
+}
+
+.USMA_gold {
+	color: #ffdd00 ! important;
+	}
+
+.USMA_stripes {
+	color: #fffb98 ! important;
+	}
+
+.violet {
+	color: #200080 ! important;
+}
+
+/*<PLACEHOLDERS>*/
+	/*<WEBSAFE>*/
+	/* Should eventually be replaced by mnemonic names */
+
+.color000033 {
+	color: #000033 ! important;
+	}
+
+.color000066 {
+	color: #000066 ! important;
+	}
+
+.color000099 {
+	color: #000099 ! important;
+	}
+
+.color0000CC {
+	color: #0000CC ! important;
+	}
+
+.color003333 {
+	color: #003333 ! important;
+	}
+
+.color003366 {
+	color: #003366 ! important;
+	}
+
+.color0033CC {
+	color: #0033CC ! important;
+	}
+
+.color006600 {
+	color: #006600 ! important;
+	}
+
+.color006633 {
+	color: #006633 ! important;
+	}
+
+.color0066CC {
+	color: #0066CC ! important;
+	}
+
+.color0066FF {
+	color: #0066FF ! important;
+	}
+
+.color00CC99 {
+	color: #00CC99 ! important;
+	}
+
+.color00FF99 {
+	color: #00FF99 ! important;
+	}
+
+.color330000 {
+	color: #330000 ! important;
+	}
+
+.color330033 {
+	color: #330033 ! important;
+	}
+
+.color333333 {
+	color: #333333 ! important;
+	}
+
+.color333300 {
+	color: #333300 ! important;
+	}
+
+.color333366 {
+	color: #333366 ! important;
+	}
+
+.color333399 {
+	color: #333399 ! important;
+	}
+
+.color3333CC {
+	color: #3333CC ! important;
+	}
+
+.color3333FF {
+	color: #3333FF ! important;
+	}
+
+.color336600 {
+	color: #336600 ! important;
+	}
+
+.color336633 {
+	color: #336633 ! important;
+	}
+
+.color3366FF {
+	color: #3366FF ! important;
+	}
+
+.color339900 {
+	color: #339900 ! important;
+	}
+
+.color339933 {
+	color: #339933 ! important;
+	}
+
+.color33FFFF {
+	color: #33FFFF ! important;
+	}
+
+.color660000 {
+	color: #660000 ! important;
+	}
+
+.color660033 {
+	color: #660033 ! important;
+	}
+
+.color660066 {
+	color: #660066 ! important;
+	}
+
+.color660099 {
+	color: #660099 ! important;
+	}
+
+.color663300 {
+	color: #663300 ! important;
+	}
+
+.color663333 {
+	color: #663333 ! important;
+	}
+
+.color6699CC {
+	color: #6699CC ! important;
+	}
+
+.color993333 {
+	color: #993333 ! important;
+	}
+
+.color996666 {
+	color: #996666 ! important;
+	}
+
+.color999999 {
+	color: #999999 ! important;
+	}
+
+.color99CCFF {
+	color: #99CCFF ! important;
+	}
+
+.color99FF66 {
+	color: #99FF66 ! important;
+	}
+
+.color99FFFF {
+	color: #99FFFF ! important;
+	}
+
+.colorCC0000 {
+	color: #CC0000 ! important;
+	}
+
+.colorCC0033 {
+	color: #CC0033 ! important;
+	}
+
+.colorCC0066 {
+	color: #CC0066 ! important;
+	}
+
+.colorCC0099 {
+	color: #CC0099 ! important;
+	}
+
+.colorCC00CC {
+	color: #CC00CC ! important;
+	}
+
+.colorCC3300 {
+	color: #CC3300 ! important;
+	}
+
+.colorCC6666 {
+	color: #CC6666 ! important;
+	}
+
+.colorCC9900 {
+	color: #CC9900 ! important;
+	}
+
+.colorCCCCFF {
+	color: #CCCCFF ! important;
+	}
+
+.colorCCFFCC {
+	color: #CCFFCC ! important;
+	}
+
+.colorCCFFFF {
+	color: #CCFFFF ! important;
+	}
+
+.colorFF0066 {
+	color: #FF0066 ! important;
+	}
+
+.colorFF0099 {
+	color: #FF0099 ! important;
+	}
+
+.colorFF3300 {
+	color: #FF3300 ! important;
+	}
+
+.colorFF6600 {
+	color: #FF6600 ! important;
+	}
+
+.colorFF9900 {
+	color: #FF9900 ! important;
+	}
+
+.colorFF9933 {
+	color: #FF9933 ! important;
+	}
+
+.colorFF9966 {
+	color: #FF9966 ! important;
+	}
+
+.colorFF9999 {
+	color: #FF9999 ! important;
+	}
+
+.colorFF99CC {
+	color: #FF99CC ! important;
+	}
+
+.colorFF99FF {
+	color: #FF99FF ! important;
+	}
+
+.colorFFCC00 {
+	color: #FFCC00 ! important;
+	}
+
+.colorFFCC33 {
+	color: #FFCC33 ! important;
+	}
+
+.colorFFCC66 {
+	color: #FFCC66 ! important;
+	}
+
+.colorFFCC99 {
+	color: #FFCC99 ! important;
+	}
+
+.colorFFCCCC {
+	color: #FFCCCC ! important;
+	}
+
+.colorFFFF00 {
+	color: #FFFF00 ! important;
+	}
+
+.colorFFFF66 {
+	color: #FFFF66 ! important;
+	}
+
+.colorFFFFFF {
+	color: #FFFFFF ! important;
+	}
+
+	/*<OTHER>*/
+
+.color001100 {
+	color: #001100 ! important;
+	}
+
+.color000090 {
+	color: #000090 ! important;
+	}
+
+.color002200 {
+	color: #002200 ! important;
+	}
+
+.color004000 {
+	color: #004000 ! important;
+	}
+
+.color0040B0 {
+	color: #0040B0 ! important;
+	}
+
+.color004400 {
+	color: #004400 ! important;
+	}
+
+.color004A00 {
+	color: #004A00 ! important;
+	}
+
+.color0060FF {
+	color: #0060FF ! important;
+	}
+
+.color006E3A {
+	color: #006E3A ! important;
+	}
+
+.color007000 {
+	color: #007000 ! important;
+	}
+
+.color008000 {
+	color: #008000 ! important;
+	}
+
+.color0080FF {
+	color: #0080FF ! important;
+	}
+
+.color008800 {
+	color: #008800 ! important;
+	}
+
+.color008C00 {
+	color: #008C00 ! important;
+	}
+
+.color0C3000 {
+	color: #0C3000 ! important;
+	}
+
+.color110000 {
+	color: #110000 ! important;
+	}
+
+.color110011 {
+	color: #110011 ! important;
+	}
+
+.color112200 {
+	color: #112200 ! important;
+	}
+
+.color200000 {
+	color: #200000 ! important;
+	}
+
+.color223344 {
+	color: #223344 ! important;
+	}
+
+.color330010 {
+	color: #330010 ! important;
+	}
+
+.color332222 {
+	color: #332222 ! important;
+	}
+
+.color3900D6 {
+	color: #3900D6 ! important;
+	}
+
+.color3900E6 {
+	color: #3900E6 ! important;
+	}
+
+.color400080 {
+	color: #400080 ! important;
+	}
+
+.color4040FF {
+	color: #4040FF ! important;
+	}
+
+.color410000 {
+	color: #410000 ! important;
+	}
+
+.color4B2700 {
+	color: #4B2700 ! important;
+	}
+
+.color4C1900 {
+	color: #4C1900 ! important;
+	}
+
+.color4C9900 {
+	color: #4C9900 ! important;
+	}
+
+.color5000D0 {
+	color: #5000D0 ! important;
+	}
+
+.color600000 {
+	color: #600000 ! important;
+	}
+
+.color6A0080 {
+	color: #6A0080 ! important;
+	}
+
+.color6F0000 {
+	color: #6F0000 ! important;
+	}
+
+.color800000 {
+	color: #800000 ! important;
+	}
+
+.color800080 {
+	color: #800080 ! important;
+	}
+
+.color802600 {
+	color: #802600 ! important;
+	}
+
+.color900000 {
+	color: #900000 ! important;
+	}
+
+.color903030 {
+	color: #903030 ! important;
+	}
+
+.color992200 {
+	color: #992200 ! important;
+	}
+
+.color994C4C {
+	color: #994C4C ! important;
+	}
+
+.color9C2973 {
+	color: #9C2973 ! important;
+	}
+
+.color9C6342 {
+	color: #9C6342 ! important;
+	}
+
+.colorA00000 {
+	color: #A00000 ! important;
+	}
+
+.colorAACC00 {
+	color: #AACC00 ! important;
+	}
+
+.colorBE5F00 {
+	color: #BE5F00 ! important;
+	}
+
+.colorC03A3A {
+	color: #C03A3A ! important;
+	}
+
+.colorCCCCDD {
+	color: #CCCCDD ! important;
+	}
+
+.colorD00000 {
+	color: #D00000 ! important;
+	}
+
+.colorD10022 {
+	color: #D10022 ! important;
+	}
+
+.colorD56A00 {
+	color: #D56A00 ! important;
+	}
+
+.colorDDDDCC {
+	color: #DDDDCC ! important;
+	}
+
+.colorDDDDDD {
+	color: #DDDDDD ! important;
+	}
+
+.colorDDDDEE {
+	color: #DDDDEE ! important;
+	}
+
+.colorDDDDFF {
+	color: #DDDDFF ! important;
+	}
+
+.colorDDFFCC {
+	color: #DDFFCC ! important;
+	}
+
+.colorE0FFCC {
+	color: #E0FFCC ! important;
+	}
+
+.colorE77300 {
+	color: #E77300 ! important;
+	}
+
+.colorEECC99 {
+	color: #EECC99 ! important;
+	}
+
+.colorEEEEEE {
+	color: #EEEEEE ! important;
+	}
+
+.colorEEEEFF {
+	color: #EEEEFF ! important;
+	}
+
+.colorEEFFFF {
+	color: #EEFFFF ! important;
+	}
+
+.colorFF002A {
+	color: #FF002A ! important;
+	}
+
+.colorFF4000 {
+	color: #FF4000 ! important;
+	}
+
+.colorFF5500 {
+	color: #FF5500 ! important;
+	}
+
+.colorFF6633 {
+	color: #FF6633 ! important;
+	}
+
+.colorFF7F00 {
+	color: #FF7F00 ! important;
+	}
+
+.colorFFAA00 {
+	color: #FFAA00 ! important;
+	}
+
+.colorFFBB88 {
+	color: #FFBB88 ! important;
+	}
+
+.colorFFDD00 {
+	color: #FFDD00 ! important;
+	}
+
+.colorFFDD99 {
+	color: #FFDD99 ! important;
+	}
+
+.colorFFDDBB {
+	color: #FFDDBB ! important;
+	}
+
+.colorFFDDDD {
+	color: #FFDDDD ! important;
+	}
+
+.colorFFDDEE {
+	color: #FFDDEE ! important;
+	}
+
+.colorFFEEDD {
+	color: #FFEEDD ! important;
+	}
+
+.colorFFEEEE {
+	color: #FFEEEE ! important;
+	}
+
+.colorFFFFEE {
+	color: #FFFFEE ! important;
+	}
+
+/*<3>*/
+
+.aquawhite {
+	background-color: #f7fbff ! important;
+}
+
+.bluewhite {
+	background-color: #f7f7ff ! important;
+}
+
+.ecruwhite {
+	background-color: #fffff7 ! important;
+}
+
+.redwhite {
+	background-color: #fff7f7 ! important;
+}
+
+.bistre {
+	background-color: #cccc99 ! important;
+}
+
+SPAN.bistre {
+	background-color: inherit ! important;
+	color: #cccc99 ! important;
+}
+
+.ecru {
+	background-color: #ffffcc ! important;
+	color: #000066 ! important;
+}
+
+SPAN.ecru {
+	background-color: inherit ! important;
+	color: #ffffcc ! important;
+}
+
+.grey {
+	background-color: #cccccc ! important;
+}
+
+SPAN.grey {
+	color: #cccccc ! important;
+}
+
+.pale_grey {
+	background-color: #ddddee ! important;
+	}
+
+.paler_grey {
+	background-color: #eeeef6 ! important;
+	}
+
+.lagoon {
+	background-color: #99ffff ! important;
+	color: #000066 ! important;
+}
+
+	SPAN.lagoon {
+		background-color: inherit ! important;
+		color: #99ffff ! important;
+}
+
+.lime {
+	background-color: #ccff99 ! important;
+}
+
+.mist_green {
+	background-color: #e8ffe8 ! important;
+}
+
+.mustard {
+	background-color: #ffcc44 ! important;
+}
+
+.pale_blue {
+	background-color: #ccccff ! important;
+}
+	SPAN.pale_blue {
+		background-color: inherit ! important;
+		color: #ccccff ! important;
+	}
+
+.hospital_wall {
+	background-color: #ccffcc ! important;
+}
+	SPAN.hospital_wall {
+		background-color: inherit ! important;
+		color: #ccffcc ! important;
+	}
+
+	A.hospital_wall {
+		background-color: inherit ! important;
+		color: #ccffcc ! important;
+	}
+
+.pale_red {
+	background-color: #ffcccc ! important;
+}
+	SPAN.pale_red {
+		background-color: inherit ! important;
+		color: #ffcccc ! important;
+	}
+
+	A.pale_red {
+		background-color: inherit ! important;
+		color: #ffcccc ! important;
+	}
+
+.pink {
+	background-color: #fff2ff ! important;
+}
+
+.plaster {
+	background-color: #ffeedd ! important;
+}
+
+.pumpkin {
+	background-color: #ff9933 ! important;
+}
+
+.silver {
+	background-color: #f6f6ff ! important;
+}
+
+.silver .emend {
+	color: #0066cc ! important;
+}
+
+.sky {
+	background-color: #99ccff ! important;
+}
+	SPAN.sky {
+		background-color: inherit ! important;
+		color: #99ccff ! important;
+	}
+
+.sunset {
+	background-color: #ffff99 ! important;
+}
+
+.tawny {
+	background-color: #ffcc66 ! important;
+}
+
+	.tawny .Latin {
+		color: #660000 ! important;
+	}
+
+	.tawny .lapis {
+		color: #660000 ! important;
+	}
+
+	.tawny .nummus {
+		color: #660000 ! important;
+	}
+
+	.tawny .Latin .emend {
+		color: #cc3399 ! important;
+	}
+
+	.tawny .lapis .emend {
+		color: #cc3399 ! important;
+	}
+
+	.tawny .nummus .emend {
+		color: #cc3399 ! important;
+	}
+
+.terracotta {
+	background-color: #ff9966 ! important;
+}
+
+.white {
+	background-color: #ffffff ! important;
+	color: #000066 ! important;
+}
+
+	SPAN.white {
+		background-color: inherit ! important;
+		color: #ffffff ! important;
+	}
+
+/*<4>*/
+
+.Acquaeortus {
+	background-color: #ff6666 ! important;
+	color: #ffffff ! important;
+}
+
+.Air_Force {
+	background-color: #003366 ! important;
+	color: #ffffff ! important;
+}
+	.Air_Force A {
+		color: #ffff33 ! important;
+	}
+
+.Algol {
+	background-color: #444444 ! important;
+	color: #ff6600 ! important;
+}
+
+	.Algol P {
+		color: #ff6600 ! important;
+	}
+
+	.Algol .Italian {
+		color: #99ff99 ! important;
+	}
+
+	.Algol .source {
+		color: #99ff99 ! important;
+	}
+	.Algol A {
+		color: #ffcccc ! important;
+	}
+
+.Algol2 {
+	background-color: #333333 ! important;
+	color: #ff6633 ! important;
+}
+
+	.Algol2 P {
+		color: #ff6633 ! important;
+	}
+
+	.Algol2 .source {
+		color: #99ff99 ! important;
+	}
+	.Algol2 A {
+		color: #ffcccc ! important;
+	}
+
+.Americas {
+	background-color: #bbffff ! important;
+	color: #336633 ! important;
+}
+
+.amphora {
+	background-color: #993333 ! important;
+	color: #ffffcc ! important;
+}
+
+	.amphora .Latin {
+		color: #ffff99 ! important;
+	}
+
+	.amphora .lapis {
+		color: #ff9999 ! important;
+	}
+
+	.amphora .nummus {
+		color: #ff9999 ! important;
+	}
+	.amphora A {
+		color: #33ff33 ! important;
+	}
+
+.angelica {
+	background-color: #99cc33 ! important;
+}
+
+.angels {
+	background-color: #000099 ! important;
+	color: #ffff66 ! important;
+}
+	.angels A {
+		color: #99ffff ! important;
+	}
+
+.Antares {
+	background-color: #000000 ! important;
+	color: #ff3300 ! important;
+}
+	.Antares A {
+		color: #ffff66 ! important;
+	}
+
+.aqua {
+	background-color: #ccffff ! important;
+	color: #000066 ! important;
+}
+	A.aqua {
+		background-color: inherit ! important;
+		color: #ccffff ! important;
+	}
+
+	SPAN.aqua {
+		background-color: inherit ! important;
+		color: #ccffff ! important;
+	}
+
+.Arizona {
+	background-color: #ffe6cc ! important;
+}
+	.Arizona .Italian {
+		color: #20bb44 ! important;
+	}
+
+.Arnhem {
+	background-color: #3333ff ! important;
+	color: #ffffff ! important;
+}
+
+	A.Arnhem {
+		background-color: inherit ! important;
+		color: #3333ff ! important;
+	}
+
+	SPAN.Arnhem {
+		color: #ffffff ! important;
+	}
+
+.Augustus {
+	background-color: #660022 ! important;
+	color: #ffffff ! important;
+}
+	.Augustus A {
+		color: #00ffcc ! important;
+	}
+
+.autumn {
+	background-color: #663333 ! important;
+	color: #ffcc99 ! important;
+}
+	.autumn A {
+		color: #99ffff ! important;
+	}
+
+.autumn_gold {
+	background-color: #663333 ! important;
+	color: #ffff66 ! important;
+}
+
+.autumn_sand {
+	background-color: #663333 ! important;
+	color: #ffffcc ! important;
+}
+
+.azure {
+	background-color: #150080 ! important;
+	color: #ffffcc ! important;
+}
+
+.Bonely {
+	background-color: #cccccc ! important;
+	color: #000011 ! important;
+}
+
+.Boston_red {
+	color: #cc0000 ! important;
+}
+
+.brick {
+	background-color: #773300 ! important;
+	color: #ffffff ! important;
+}
+
+	.brick .Latin {
+		color: #ffff99 ! important;
+	}
+
+	.brick .lapis {
+		color: #ffff99 ! important;
+	}
+
+	.brick .nummus {
+		color: #ffff99 ! important;
+	}
+	.brick A {
+		color: #33ff33 ! important;
+	}
+
+.brickstamp {
+	background-color: #ffcc99 ! important;
+}
+
+.brickstamp1 {
+	background-color: #ffcc99 ! important;
+	color: #cc3333 ! important;
+}
+
+.brickstamp2 {
+	background-color: #ffcc99 ! important;
+	color: #993333 ! important;
+}
+
+.Britain {
+	background-color: #00237d ! important;
+		/*must be the same color as BODY in Britannia.css*/
+	color: #ffffff ! important;
+}
+
+.brown {
+	background-color: #330000 ! important;
+	color: #ffffcc ! important;
+}
+
+	.brown .Latin {
+		color: #ffcc66 ! important;
+	}
+
+	.brown .lapis {
+		color: #ffcc66 ! important;
+	}
+
+	.brown .nummus {
+		color: #ffcc66 ! important;
+	}
+
+	.brown .source {
+		color: #99ff33 ! important;
+	}
+
+	SPAN.brown {
+		background-color: inherit ! important;
+		color: #330000 ! important;
+	}
+
+	SPAN.brown A {
+		color: #0000ff ! important;
+	}
+	.brown A {
+		color: #99ff99 ! important;
+	}
+
+.dark_brown {
+	background-color: #332222 ! important;
+	color: #ffffcc ! important;
+}
+
+	.dark_brown .Latin {
+		color: #ffcc66 ! important;
+	}
+
+	.dark_brown .lapis {
+		color: #ffcc66 ! important;
+	}
+
+	.dark_brown .nummus {
+		color: #ffcc66 ! important;
+	}
+
+	.dark_brown .source {
+		color: #99ff33 ! important;
+	}
+
+.burgundy {
+	background-color: #330000 ! important;
+	color: #ffcccc ! important;
+}
+
+.butterscotch {
+	background-color: #995500 ! important;
+	color: #ffffff ! important;
+}
+
+	.butterscotch .Latin {
+		color: #ffff99 ! important;
+	}
+
+	.butterscotch .lapis {
+		color: #ffff99 ! important;
+	}
+
+	.butterscotch .nummus {
+		color: #ffff99 ! important;
+	}
+	.butterscotch A {
+		color: #33ff33 ! important;
+	}
+
+.cadet_grey {
+	background-color: #a5a6bb ! important;
+	color: #000066 ! important;
+}
+
+.light_cadet_grey {
+	background-color: #c5c6d3 ! important;
+	color: #000066 ! important;
+}
+
+/* The red of the Cambodian flag is e00025; the color here is slightly bluer, and much darker, for readability and so as not to confuse it with a link. */
+/* OLD:
+.Cambodia {
+	background-color: #ffffff ! important;
+	color: #bf0050 ! important;
+	border-color: #032ea1 ! important;
+	border-width: 2px ! important;
+}
+	.Cambodia A {
+		color: #cc00ff ! important;
+	}
+ */
+
+.Cambodia {
+	background-color: #e00025 ! important;
+	color: #ffffff ! important;
+	border-color: #032ea1 ! important;
+	border-width: 2px ! important;
+}
+	.Cambodia A {
+		color: #99ffff ! important;
+	}
+	.Cambodia A.ref {
+		color: #99ffff ! important;
+	}
+
+.Canada {
+	background-color: #ffffff ! important;
+	color: #37495f ! important; /* matches the Canadian Government's site */
+	border-color: #ff0000 ! important;
+}
+	.Canada A {
+		color: #cc00ff ! important;
+	}
+
+.Capella {
+	background-color: #000000 ! important;
+	color: #ffffcc ! important;
+}
+	.Capella A {
+		color: #ffff66 ! important;
+	}
+
+	.Capella .source {
+		color: #66ff66 ! important;
+	}
+
+.caramel {
+	background-color: #996633 ! important;
+	color: #ffffff ! important;
+}
+	.caramel A {
+		color: #bbbbff ! important;
+	}
+
+.Cartagena {
+	background-color: #ff6666 ! important;
+	color: #ffff99 ! important;
+}
+
+.Catalunya {
+	background-color: #fcdd09 ! important;
+	color: #da131a ! important;
+	border-color: #da131a ! important;
+}
+	.Catalunya A {
+		color: #cc00ff ! important;
+	}
+
+/* 
+The following style was called "Catholic" but I renamed it to avoid conflict with BODY CLASS= "Catholic". It appears to be very rarely called; but if in fact it is called a lot, I may have to revert the name.
+ */
+.Kapaun {
+	background-color: #90191b ! important;
+	color: #ffff33 ! important;
+	font-size: 90%;
+}
+	.Kapaun A {
+		color: #ffff00 ! important;
+	}
+
+.charcoal {
+	background-color: #333333 ! important;
+	color: #ffffff ! important;
+}
+	.charcoal A {
+		color: #ffff33 ! important;
+	}
+
+.checkColor { /* = ecru */
+	background-color: #ffffcc ! important;
+}
+
+.Chicago_maroon {
+	background-color: #cccccc ! important;
+	color: #990000 ! important;
+}
+
+.Chile {
+	background-color: #ffffff ! important;
+	color: #0044cc ! important;
+	border-color: #d83820 ! important;
+}
+	.Chile A {
+		color: #cc00ff ! important;
+	}
+
+.chocolate {
+	background-color: #330000 ! important;
+	color: #ffff99 ! important;
+}
+	.chocolate A {
+		color: #33ff33 ! important;
+	}
+
+.Claudian {
+	background-color: #333333 ! important;
+	color: #cccccc ! important;
+}
+
+	.Claudian P {
+		color: #cccccc ! important;
+	}
+
+	.Claudian .source {
+		color: #99ff99 ! important;
+	}
+	.Claudian A {
+		color: #66ccff ! important;
+	}
+
+.cobblestone {
+	background-color: #999999 ! important;
+	color: #ffffff ! important;
+}
+
+.cocoa {
+	background-color: #665555 ! important;
+	color: #ffffcc ! important;
+}
+	.cocoa A {
+		color: #33ccff ! important;
+	}
+
+.coffee {
+	background-color: #998866 ! important;
+	color: #ffffee ! important;
+}
+	.coffee A {
+		color: #0033ff ! important;
+	}
+
+.crimson {
+	background-color: #990033 ! important;
+	color: #ffcc00 ! important;
+}
+
+	.crimson P {
+		color: #ffcc00 ! important;
+	}
+
+.daffodil {
+	background-color: #ffffff ! important;
+	color: #70a000 ! important;
+}
+
+.Dalmatian {
+	background-color: #ffffff ! important;
+	color: #000000 ! important;
+}
+
+.dandelion {
+	background-color: #003300 ! important;
+	color: #ffcc00 ! important;
+}
+	.dandelion A {
+		color: #9999ff ! important;
+	}
+
+	.dandelion .source {
+		color: #99ff99 ! important;
+	}
+
+.Daniel {
+	background-color: #006600 ! important;
+	color: #ffff99 ! important;
+}
+	.Daniel A {
+		color: #ff6633 ! important;
+	}
+
+.dark_blue {
+	background-color: #003399 ! important;
+	color: #ffffff ! important;
+}
+	.dark_blue A {
+		background-color: inherit ! important;
+		font-weight: bold;
+		color: #ffff33 ! important;
+	}
+
+	SPAN.dark_blue {
+		color: #003399 ! important;
+	}
+
+.dark_pines {
+	background-color: #003300 ! important;
+	color: #ffffff ! important;
+}
+	.dark_pines A {
+		color: #9999ff ! important;
+	}
+
+	.dark_pines .source {
+		color: #99ff99 ! important;
+	}
+
+.dark_sepia {
+	background-color: #888877 ! important;
+	color: #ddddcc ! important;
+}
+	.dark_sepia A {
+		color: #99ffff ! important;
+	}
+
+	.dark_sepia .source {
+		color: #99ff99 ! important;
+	}
+
+.dark_slate {
+	background-color: #444444 ! important;
+	color: #ffffff ! important;
+}
+
+.doughboy {
+	background-color: #a67c41 ! important;
+	color: #e5c68e ! important;
+}
+
+.Dutch2 {
+	background-color: #ddffff ! important; /*e9feff*/
+	color: #ee8800 ! important; /*eb810f*/
+}
+
+.early_spring {
+	background-color: #99cc66 ! important;
+	color: #ffffff ! important;
+}
+
+.empyrean {
+	background-color: #000033 ! important;
+	color: #ffcc99 ! important;
+}
+	.empyrean A {
+		color: #99ffff ! important;
+	}
+
+	.empyrean .Latin {
+		color: #ff9999 ! important;
+	}
+
+	.empyrean .lapis {
+		color: #ff9999 ! important;
+	}
+
+	.empyrean .nummus {
+		color: #ff9999 ! important;
+	}
+
+.eucalyptus {
+	background-color: #669966 ! important;
+	color: #0033cc ! important;
+}
+	.eucalyptus A {
+		color: #33ff33 ! important;
+	}
+
+.farmhouse {
+	background-color: #113300 ! important;
+	color: #ffffcc ! important;
+}
+	.farmhouse A {
+		color: #99ccff ! important;
+	}
+
+.fertile {
+	background-color: #663300 ! important;
+	color: #33ff00 ! important;
+}
+
+.Firenze_ghibellino {
+	background-color: #ff3333 ! important;
+	color: #ffffff ! important;
+}
+
+.Firenze {
+	background-color: #ffffff ! important;
+	color: #ff3333 ! important;
+}
+
+.forest_sunset {
+	background-color: #336633 ! important;
+	color: #ffddbb ! important;
+}
+	.forest_sunset A {
+		color: #ccccff ! important;
+	}
+
+.French2 {
+	background-color: #99ccff ! important;
+	color: #ee4037 ! important;
+}
+
+.French_paperback {
+	background-color: #fff7f2 ! important;
+	color: #b7375c ! important;
+}
+
+.fudge {
+	background-color: #996600 ! important;
+	color: #ffffff ! important;
+}
+
+.glauque {
+	background-color: #669999 ! important;
+	color: #ffffff ! important;
+}
+	.glauque A {
+		color: #ccccff ! important;
+	}
+	.glauque A:visited {
+		color: #ffcccc ! important;
+	}
+
+.Gran_Colombia {
+	background-color: #fee88a ! important;
+	color: #0044cc ! important;  /* why doesn't this work? */
+	border-color: #d83820 ! important;
+}
+	.Gran_Colombia TD {
+		color: #0044cc ! important; /* workaround because previous doesn't work! */
+	}
+
+	.Gran_Colombia A {
+		color: #339900 ! important;
+	}
+
+.grey_pines {
+	background-color: #336600 ! important;
+	color: #ccccff ! important;
+}
+	.grey_pines A {
+		color: #ffffcc ! important;
+	}
+
+	.grey_pines .source {
+		color: #99ff99 ! important;
+	}
+
+	.grey_pines .Italian {
+		color: #7acc7a ! important;
+	}
+
+.Harlequin {
+	background-color: #000000 ! important;
+	color: #ffffff ! important;
+}
+	.Harlequin A {
+		color: #ffff66 ! important;
+	}
+
+	.Harlequin .source {
+		color: #66ff66 ! important;
+	}
+
+	.Harlequin .bland {
+	color: #ffffff ! important;
+	}
+
+.imperial {
+	background-color: #4d0099 ! important;
+	color: #ffff66 ! important;
+}
+
+.ink_blue {
+	background-color: #000033 ! important;
+	color: #ffffff ! important;
+}
+	.ink_blue A {
+		color: #99ffff ! important;
+	}
+
+	.ink_blue P {
+		color: #ffffff ! important;
+	}
+
+	SPAN.ink_blue {
+		color: #000033 ! important;
+	}
+
+.Labro {
+	background-color: #506600 ! important;
+	color: #fff9e5 ! important;
+}
+
+.landscape {
+	background-color: #559900 ! important;
+	color: #ffffff ! important;
+}
+
+.laterite {
+	background-color: #cc6633 ! important;
+	color: #ccffff ! important;
+}
+
+.late_spring {
+	background-color: #339900 ! important;
+	color: #ffcccc ! important;
+}
+	.late_spring A {
+		font-weight: bold;
+		color: #ffff33 ! important;
+	}
+
+.Latvia {
+	background-color: #ffffff ! important;
+	color: #9d2235 ! important;
+	border-color: #9d2235 ! important;
+}
+
+.light_ochre {
+	background-color: #cc9933 ! important;
+	color: #ffffff ! important;
+}
+
+.limestone {
+	background-color: #ffffcc ! important;
+	color: #663300 ! important;
+}
+
+.Lithuania {
+	background-color: #ffffff ! important;
+	color: #b23634 ! important;
+	border-color: #fdb913 ! important;
+}
+
+.London {
+	background-color: #cccccc ! important;
+	color: #993333 ! important;
+}
+
+.lupine {
+	background-color: #113300 ! important;
+	color: #ffffff ! important;
+}
+	.lupine A {
+		color: #99ccff ! important;
+	}
+
+.marl {
+	background-color: #ffcccc ! important;
+	color: #333366 ! important;
+}
+
+.mahogany {
+	background-color: #330000 ! important;
+	color: #ffffff ! important;
+}
+	.mahogany A {
+		color: #33ff33 ! important;
+	}
+
+	.mahogany A.comment {
+		color: #33ccff ! important;
+		font-weight: bold;
+		font-size: 85%;
+	}
+
+	.mahogany .Latin {
+		color: #ff6600 ! important;
+	}
+
+	.mahogany .Latin .emend {
+		color: #ffaa00 ! important;
+	}
+
+	.mahogany .lapis {
+		color: #ff6600 ! important;
+	}
+
+	.mahogany .lapis .emend {
+		color: #ffaa00 ! important;
+	}
+
+.masoor_dal {
+	background-color: #cc6600 ! important;
+	color: #ffffff ! important;
+}
+
+	.masoor_dal .Latin {
+		color: #ffff99 ! important;
+	}
+
+	.masoor_dal .lapis {
+		color: #ffff99 ! important;
+	}
+
+	.masoor_dal .nummus {
+		color: #ffff99 ! important;
+	}
+	.masoor_dal A {
+		color: #33ff33 ! important;
+	}
+
+.mimosa {
+	background-color: #336633 ! important;
+	color: #ffff99 ! important;
+}
+
+.minium {
+	background-color: #ffe0aa ! important;
+	color: #cc0000 ! important;
+}
+
+.mint {
+	background-color: #003300 ! important;
+	color: #ccffcc ! important;
+}
+	.mint A {
+		color: #9999ff ! important;
+	}
+
+	.mint .source {
+		color: #99ff99 ! important;
+	}
+
+.mordore {
+	background-color: #663300 ! important;
+	color: #ffffcc ! important;
+}
+	.mordore A {
+		color: #33ff33 ! important;
+	}
+
+	.mordore .emend {
+		color: #99ffff ! important;
+	}
+
+	.mordore .Latin {
+		color: #ff3300 ! important;
+	}
+
+	.mordore .Latin .emend {
+		color: #cc3399 ! important;
+	}
+
+.mossy_pavement {
+	background-color: #cccccc ! important;
+	color: #006600 ! important;
+}
+
+.mourning_dove {
+	background-color: #a8a99b ! important;
+	color: #f1e0d6 ! important;
+}
+	.mourning_dove A {
+		color: #4662d0 ! important;
+	}
+
+.MrWhite {
+	background-color: #ffffff ! important;
+	color: #993333 ! important;
+}
+
+.Nar {
+	background-color: #808066 ! important;
+	color: #ffffcc ! important;
+}
+
+.Native_American {
+	background-color: #fff0d6 ! important;
+	color: #8f2922 ! important;
+	border-color: #ac2a24 ! important;
+	border-width: 2px ! important;
+}
+
+.Navajo {
+	background-color: #330000 ! important;
+	color: #33ff00 ! important;
+}
+	.Navajo A {
+		color: #99ff33 ! important;
+	}
+
+.navy {
+	background-color: #110044 ! important;
+	color: #ffffff ! important;
+}
+
+.Netherlands {
+	background-color: #ffffff ! important;
+	color: #3075f6 ! important;
+	border-color: #f29e39 ! important;
+}
+	.Netherlands A {
+		color: #cc00ff ! important;
+	}
+
+.Newburgh {
+	background-color: #b4b5cc ! important;
+	color: #fff600 ! important;
+}
+
+.nicotine {
+	background-color: #ffffcc ! important;
+	color: #993333 ! important;
+}
+
+.Nigeria {
+	background-color: #006600 ! important;
+	color: #ffffff ! important;
+}
+	.Nigeria A {
+		color: #ff6633 ! important;
+	}
+
+.North_Carolina {
+	background-color: #ffffff ! important;
+	color: #003399 ! important;/*102f5f*/
+	border-color: #bf2b45 ! important;
+}
+	.North_Carolina A {
+		color: #ff6633 ! important;
+	}
+
+.old_belfry {
+	background-color: #998866 ! important;
+	color: #ddffff ! important;
+}
+
+.olive {
+	background-color: #666633 ! important;
+	color: #ffffcc ! important;
+}
+	.olive A {
+		color: #ccccff ! important;
+	}
+
+.dark_olive {
+	background-color: #333300 ! important;
+	color: #ffffff ! important;
+}
+	.dark_olive A {
+		color: #99ffff ! important;
+	}
+
+	.dark_olive .emend {
+		color: #ccffff ! important;
+	}
+
+.light_olive {
+	background-color: #999966 ! important;
+	color: #ffffcc ! important;
+}
+	.light_olive A {
+		color: #ccccff ! important;
+	}
+
+.Oxford {
+	background-color: #ddeeff ! important;
+	color: #f36512 ! important;
+	font-weight: bold;
+}
+	.Oxford A {
+		color: #993333 ! important;
+	}
+
+	.Oxford .bland {
+	color: #000066 ! important;
+	font-weight: normal;
+}
+
+SPAN.pale_yellow {
+		background-color: inherit ! important;
+		color: #ffffcc ! important;
+	}
+
+A.pale_yellow {
+		background-color: inherit ! important;
+		color: #ffffcc ! important;
+	}
+
+.paleo {
+	background-color: #e6d7b8 ! important;
+	color: #331900 ! important;
+}
+	.paleo .Italian {
+		color: #20bb44 ! important;
+	}
+
+.parchment {
+	background-color: #ffffff ! important;
+	color: #663300 ! important;
+}
+
+.Pentecost {
+	background-color: #660000 ! important;
+	color: #ffff66 ! important;
+}
+
+.pietra_morta {
+	background-color: #ccccb0 ! important;
+	color: #330000 ! important;
+}
+
+.pigeon {
+	background-color: #99cccc ! important;
+	color: #660000 ! important;
+}
+
+.pines {
+	background-color: #447711 ! important;
+	color: #ffffff ! important;
+}
+	.pines A {
+		color: #66ffff ! important;
+	}
+
+	.pines .source {
+		color: #99ff99 ! important;
+	}
+
+.Ravenna {
+	background-color: #440055 ! important;
+	color: #ccffcc ! important;
+}
+
+.red_wax {
+	background-color: #cc3333 ! important;
+	color: #ffffff ! important;
+}
+	.red_wax A {
+		color: #66ffff ! important;
+	}
+
+.rockscape {
+	background-color: #330000 ! important;
+	color: #ccffff ! important;
+}
+	.rockscape A {
+		color: #66ffff ! important;
+	}
+
+.sand {
+	background-color: #ffeeee ! important;
+	color: #663300 ! important;
+}
+
+.sandstone {
+	background-color: #ffeedd ! important;
+	color: #663300 ! important;
+}
+
+.shaded_stone {
+	background-color: #cccccc ! important;
+	color: #663300 ! important;
+}
+
+.sigillata {
+	background-color: #660000 ! important;
+	color: #ffffff ! important;
+}
+	.sigillata .Latin {
+		color: #ffff99 ! important;
+	}
+	.sigillata .lapis {
+		color: #ff9999 ! important;
+	}
+	.sigillata .nummus {
+		color: #ff9999 ! important;
+	}
+	.sigillata A {
+		color: #33ff33 ! important;
+	}
+
+.slate {
+	background-color: #666666 ! important;
+	color: #ffffff ! important;
+}
+
+.spaceflight {
+	background-color: #150080 ! important;
+	color: #ffff66 ! important;
+}
+
+.spearmint {
+	background-color: #ffffff ! important;
+	color: #006600 ! important;
+}
+
+.spring {
+	background-color: #66cc00 ! important;
+	color: #ffffff ! important;
+}
+
+.stone_walls {
+	background-color: #221100 ! important;
+	color: #cc7733 ! important;
+}
+	.stone_walls A {
+		color: #66ffff ! important;
+	}
+
+.storm_pines {
+	background-color: #003300 ! important;
+	color: #cccccc ! important;
+}
+	.storm_pines A {
+		color: #9999ff ! important;
+	}
+	.storm_pines .source {
+		color: #99ff99 ! important;
+	}
+
+.straw {
+	background-color: #ffffff ! important;
+	color: #996600 ! important;
+}
+
+.summer {
+	background-color: #7c9645 ! important;
+	color: #ffffff ! important;
+}
+	.summer A {
+		color: #0044ff ! important;
+	}
+
+.tobacco {
+	background-color: #663300 ! important;
+	color: #ffcc00 ! important;
+}
+
+.toffee {
+	background-color: #cc9966 ! important;
+	color: #660000 ! important;
+}
+
+	.toffee .Latin {
+		color: #cc3300 ! important;
+	}
+
+	.toffee .lapis {
+		color: #ffff99 ! important;
+	}
+
+	.toffee .nummus {
+		color: #ffff99 ! important;
+	}
+
+.Ukraine {
+	background-color: #ffffff ! important;
+	color: #0056bd ! important;
+	border-color: #fed700 ! important;
+}
+
+.umber {
+	background-color: #663300 ! important;
+	color: #ffffff ! important;
+}
+	.umber A {
+		color: #33ff33 ! important;
+	}
+	.umber .emend {
+		color: #99ffff ! important;
+	}
+	.umber .Latin {
+		color: #ff3300 ! important;
+	}
+	.umber .Latin .emend {
+		color: #cc3399 ! important;
+	}
+
+.Venezuela {
+	background-color: #ffea80 ! important;
+	color: #152169 ! important;
+}
+
+.very_green {
+	background-color: #002200 ! important;
+	color: #aacc00 ! important;
+}
+	.very_green A {
+		color: #ccccff ! important;
+	}
+
+.wintergreen {
+	background-color: #ffffff ! important;
+	color: #0099cc ! important;
+}
+
+.woodruff {
+	background-color: #336633 ! important;
+	color: #ffffff ! important;
+}
+	.woodruff A {
+		color: #ccccff ! important;
+	}
+	.woodruff .emend {
+		color: #ddffff ! important;
+	}
+
+.Wyoming {
+	background-color: #ffffff ! important;
+	color: #003399 ! important;
+	border-color: #bf0b32 ! important;
+}
+	.Wyoming A {
+		color: #ff6633 ! important;
+	}
+
+.zinnia {
+	background-color: #003300 ! important;
+	color: #ff8800 ! important;
+}
+
+	SPAN.zinnia {
+		background-color: inherit ! important;
+		color: #003300 ! important;
+}
+	.zinnia A {
+		color: #6699ff ! important;
+	}
+
+/* ORVIETO */
+/* 
+BODY. TABLE.Orvieto {
+}
+ */

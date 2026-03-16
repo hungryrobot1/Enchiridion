@@ -1,0 +1,63 @@
+/* keep LVHA order: */
+/* A:link, A:visited, A:hover, A:active */
+A.fort:link {
+	color: #33adff ! important;
+	border-bottom: dotted #996633;
+}
+
+A.fort:visited {
+	color: #ff0000 ! important;
+	border-bottom: dotted #996633;
+}
+
+A.fort:hover {
+	color: #996633 ! important;
+	border-bottom: dotted #996633;
+}
+
+A.fort:active {
+	color: #996633 ! important;
+	border-bottom: dotted #996633;
+}
+
+
+.running_title {
+	color: #000066 ! important;
+}
+	.running_title .emend {
+		color: #0066cc ! important;
+	}
+
+.my_running_title {
+	color: #0066cc ! important; /* matches .emend */
+}
+
+A.Cullum {
+	color: #998500 ! important;
+	background-color: transparent ! important; /*must match BODY*/
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none; /* their names are not to be hyphenated */
+}
+
+	A.Cullum .normal {
+		color: #0000ff ! important;
+}
+	A.Cullum .emend {
+		color: #662b00 ! important;
+}
+	A.Cullum .keep {
+		display: inline;
+		white-space: nowrap;
+}
+
+.two_links {
+/* 
+for format, see
+E/Gazetteer/Places/America/United_States/_Topics/history/_Texts/LESUSC/Bibliography*.html
+ */
+	background-color: #ff99d8 !important;
+	font-size: .8rem !important;
+	vertical-align: 2px;
+}
+

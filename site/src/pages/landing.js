@@ -14,7 +14,7 @@ export async function renderLanding(container) {
           and philosophical thought — free and open source.
         </p>
         <p class="landing__principle">
-          <em>Let texts speak for themselves. Curation through juxtaposition rather than framing.</em>
+          <em>Let the books speak for themselves.</em>
         </p>
       </section>
 

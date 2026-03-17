@@ -1,0 +1,1 @@
+const s={async render(n,r){const t=await fetch(r);if(!t.ok)throw new Error(`HTTP ${t.status}`);const a=await t.text();n.innerHTML="";const e=document.createElement("pre");return e.className="txt-reader-content",e.textContent=a,n.appendChild(e),()=>{}}};export{s as default};

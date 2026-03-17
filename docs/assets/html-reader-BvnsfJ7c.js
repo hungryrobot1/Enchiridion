@@ -1,0 +1,1 @@
+const a={async render(n,o){const t=await fetch(o);if(!t.ok)throw new Error(`HTTP ${t.status}`);const r=await t.text();n.innerHTML="";const e=document.createElement("iframe");return e.className="html-reader-frame",e.sandbox="allow-same-origin",n.appendChild(e),e.contentDocument.open(),e.contentDocument.write(r),e.contentDocument.close(),()=>{e.remove()}}};export{a as default};

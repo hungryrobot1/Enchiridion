@@ -9,18 +9,20 @@ export default {
     container.appendChild(wrapper);
 
     const book = ePub(textUrl);
-    const rendition = book.renderTo(wrapper, {
+    let mode = 'scroll';
+
+    let rendition = book.renderTo(wrapper, {
       width: '100%',
       height: '100%',
       spread: 'none',
-      flow: 'paginated',
+      flow: 'scrolled-doc',
     });
 
     await rendition.display();
 
-    // Add navigation bar
+    // Navigation bar (hidden in scroll mode)
     const nav = document.createElement('div');
-    nav.className = 'reader__nav';
+    nav.className = 'reader__nav reader__nav--hidden';
     nav.innerHTML = `
       <button class="reader__nav-btn" id="epub-prev">&larr; Previous</button>
       <button class="reader__nav-btn" id="epub-next">Next &rarr;</button>
@@ -32,15 +34,69 @@ export default {
     nav.querySelector('#epub-prev').addEventListener('click', () => rendition.prev());
     nav.querySelector('#epub-next').addEventListener('click', () => rendition.next());
 
-    // Keyboard navigation
+    // Keyboard navigation (only active in paginated mode)
     function onKeyDown(e) {
+      if (mode !== 'paginated') return;
       if (e.key === 'ArrowLeft') rendition.prev();
       if (e.key === 'ArrowRight') rendition.next();
     }
     document.addEventListener('keydown', onKeyDown);
 
+    // View mode toggle button in toolbar
+    const toolbar = readerContainer.querySelector('.reader__toolbar');
+    const downloadBtn = toolbar.querySelector('.reader__download');
+
+    const toggleBtn = document.createElement('button');
+    toggleBtn.className = 'btn reader__view-toggle';
+    toggleBtn.title = 'Switch to paginated view';
+    toggleBtn.textContent = 'Pages';
+    toolbar.insertBefore(toggleBtn, downloadBtn);
+
+    async function switchMode(newMode) {
+      mode = newMode;
+      const currentLocation = rendition.currentLocation();
+      const cfi = currentLocation && currentLocation.start ? currentLocation.start.cfi : undefined;
+
+      rendition.destroy();
+      wrapper.innerHTML = '';
+
+      rendition = book.renderTo(wrapper, {
+        width: '100%',
+        height: '100%',
+        spread: 'none',
+        flow: mode === 'scroll' ? 'scrolled-doc' : 'paginated',
+      });
+
+      if (cfi) {
+        await rendition.display(cfi);
+      } else {
+        await rendition.display();
+      }
+
+      // Update nav and button state
+      nav.querySelector('#epub-prev').onclick = () => rendition.prev();
+      nav.querySelector('#epub-next').onclick = () => rendition.next();
+
+      if (mode === 'scroll') {
+        nav.classList.add('reader__nav--hidden');
+        toggleBtn.textContent = 'Pages';
+        toggleBtn.title = 'Switch to paginated view';
+        wrapper.classList.remove('epub-reader-container--paginated');
+      } else {
+        nav.classList.remove('reader__nav--hidden');
+        toggleBtn.textContent = 'Scroll';
+        toggleBtn.title = 'Switch to scrollable view';
+        wrapper.classList.add('epub-reader-container--paginated');
+      }
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      switchMode(mode === 'scroll' ? 'paginated' : 'scroll');
+    });
+
     return () => {
       document.removeEventListener('keydown', onKeyDown);
+      toggleBtn.remove();
       nav.remove();
       book.destroy();
     };

@@ -11,21 +11,31 @@ export default {
     const book = ePub(textUrl);
     let mode = 'scroll';
 
-    let rendition = book.renderTo(wrapper, {
-      width: '100%',
-      height: '100%',
-      spread: 'none',
-      flow: 'scrolled-doc',
-      manager: 'continuous',
-    });
+    function createRendition(flowMode) {
+      const isScroll = flowMode === 'scroll';
+      const options = {
+        width: '100%',
+        spread: 'none',
+        flow: isScroll ? 'scrolled-doc' : 'paginated',
+      };
+      if (isScroll) {
+        options.manager = 'continuous';
+      } else {
+        options.height = '100%';
+      }
+      const r = book.renderTo(wrapper, options);
 
-    // Enable touch scrolling inside epub iframes
-    rendition.hooks.content.register((contents) => {
-      const doc = contents.document;
-      doc.documentElement.style.touchAction = 'pan-y';
-      doc.body.style.touchAction = 'pan-y';
-    });
+      // Enable touch scrolling inside epub iframes
+      r.hooks.content.register((contents) => {
+        const doc = contents.document;
+        doc.documentElement.style.touchAction = 'pan-y';
+        doc.body.style.touchAction = 'pan-y';
+      });
 
+      return r;
+    }
+
+    let rendition = createRendition(mode);
     await rendition.display();
 
     // Navigation bar (hidden in scroll mode)
@@ -62,32 +72,18 @@ export default {
 
     async function switchMode(newMode) {
       mode = newMode;
-      const currentLocation = rendition.currentLocation();
-      const cfi = currentLocation && currentLocation.start ? currentLocation.start.cfi : undefined;
 
       rendition.destroy();
       wrapper.innerHTML = '';
 
-      const options = {
-        width: '100%',
-        height: '100%',
-        spread: 'none',
-        flow: mode === 'scroll' ? 'scrolled-doc' : 'paginated',
-      };
-      if (mode === 'scroll') options.manager = 'continuous';
-      rendition = book.renderTo(wrapper, options);
-
-      rendition.hooks.content.register((contents) => {
-        const doc = contents.document;
-        doc.documentElement.style.touchAction = 'pan-y';
-        doc.body.style.touchAction = 'pan-y';
-      });
-
-      if (cfi) {
-        await rendition.display(cfi);
+      if (mode === 'scroll') {
+        wrapper.classList.remove('epub-reader-container--paginated');
       } else {
-        await rendition.display();
+        wrapper.classList.add('epub-reader-container--paginated');
       }
+
+      rendition = createRendition(mode);
+      await rendition.display();
 
       // Update nav and button state
       nav.querySelector('#epub-prev').onclick = () => rendition.prev();
@@ -97,12 +93,10 @@ export default {
         nav.classList.add('reader__nav--hidden');
         toggleBtn.textContent = 'Pages';
         toggleBtn.title = 'Switch to paginated view';
-        wrapper.classList.remove('epub-reader-container--paginated');
       } else {
         nav.classList.remove('reader__nav--hidden');
         toggleBtn.textContent = 'Scroll';
         toggleBtn.title = 'Switch to scrollable view';
-        wrapper.classList.add('epub-reader-container--paginated');
       }
     }
 

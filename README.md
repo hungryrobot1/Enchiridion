@@ -36,7 +36,7 @@ See the [`syllabus/`](syllabus/) directory for:
 ## Project Status
 
 This project is in early development (v0.1). Currently available:
-- Complete library of 196 source texts
+- Complete library of 206 source texts
 - Structured metadata for every text
 - Grand tour syllabus
 

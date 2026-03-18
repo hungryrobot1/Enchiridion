@@ -1,0 +1,22 @@
+{
+  "title": "The Philosophical and Mathematical Commentaries on the First Book of Euclid's Elements",
+  "author": "Proclus",
+  "translator": "Thomas Taylor",
+  "year_written": "~450",
+  "year_translated": 1792,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "epub",
+  "filename": "pg74253-images-3.epub",
+  "description": "Neoplatonic commentary bridging geometry and philosophy, preserving key insights on the foundations of mathematics",
+  "topics": [
+    "philosophy",
+    "mathematics",
+    "geometry",
+    "neoplatonism"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

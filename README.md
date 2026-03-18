@@ -2,7 +2,7 @@
 
 An open Great Books program for STEM learning.
 
-Inspired by the Great Books curriculum at [St. John's College](https://www.sjc.edu/), this project collects nearly 200 primary texts spanning 2,500 years of mathematical, scientific, and philosophical thought. While texts from the humanities are included for context and enrichment, the program is primarily focused on the history of math and science and is designed to instill foundational skills and knowledge in STEM.
+Inspired by the Great Books curriculum at [St. John's College](https://www.sjc.edu/), this project collects over 200 primary texts spanning 2,500 years of mathematical, scientific, and philosophical thought. While texts from the humanities are included for context and enrichment, the program is primarily focused on the history of math and science and is designed to instill foundational skills and knowledge in STEM.
 
 **Core Principle:** Let texts speak for themselves. Curation through juxtaposition rather than framing.
 

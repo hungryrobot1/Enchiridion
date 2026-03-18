@@ -117,6 +117,8 @@
   overflow: auto;
   position: relative;
   background: var(--color-bg);
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
 }
 
 .reader__viewport-inner {

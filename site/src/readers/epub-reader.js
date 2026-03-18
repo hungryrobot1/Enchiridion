@@ -16,6 +16,14 @@ export default {
       height: '100%',
       spread: 'none',
       flow: 'scrolled-doc',
+      manager: 'continuous',
+    });
+
+    // Enable touch scrolling inside epub iframes
+    rendition.hooks.content.register((contents) => {
+      const doc = contents.document;
+      doc.documentElement.style.touchAction = 'pan-y';
+      doc.body.style.touchAction = 'pan-y';
     });
 
     await rendition.display();
@@ -60,11 +68,19 @@ export default {
       rendition.destroy();
       wrapper.innerHTML = '';
 
-      rendition = book.renderTo(wrapper, {
+      const options = {
         width: '100%',
         height: '100%',
         spread: 'none',
         flow: mode === 'scroll' ? 'scrolled-doc' : 'paginated',
+      };
+      if (mode === 'scroll') options.manager = 'continuous';
+      rendition = book.renderTo(wrapper, options);
+
+      rendition.hooks.content.register((contents) => {
+        const doc = contents.document;
+        doc.documentElement.style.touchAction = 'pan-y';
+        doc.body.style.touchAction = 'pan-y';
       });
 
       if (cfi) {

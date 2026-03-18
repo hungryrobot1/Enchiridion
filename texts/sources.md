@@ -63,6 +63,13 @@ Texts already downloaded into the library are marked **[in repo]**.
 | Aristophanes — *Birds* | Project Gutenberg #3013 | https://www.gutenberg.org/ebooks/3013 **[in repo]** |
 | Aristophanes — Full catalog | Project Gutenberg author page | https://www.gutenberg.org/ebooks/author/351 |
 
+### Fragments & Poetry (for Greek language exercises)
+
+| Text | Source | URL |
+|------|--------|-----|
+| Burnet — *Early Greek Philosophy* (Pre-Socratic fragments with Greek text) | Project Gutenberg #67097 | https://www.gutenberg.org/ebooks/67097 | **[in repo]**
+| Wharton — *Sappho: Memoir, Text, and Translation* (Greek fragments) | Project Gutenberg #57390 | https://www.gutenberg.org/ebooks/57390 | **[in repo]**
+
 ---
 
 ## 2. Rome & Late Antiquity
@@ -116,6 +123,12 @@ Texts already downloaded into the library are marked **[in repo]**.
 | Augustine — *City of God* Vol. I | Project Gutenberg #45304 | https://www.gutenberg.org/ebooks/45304 **[in repo]** |
 | Augustine — *City of God* Vol. II | Project Gutenberg #45305 | https://www.gutenberg.org/ebooks/45305 **[in repo]** |
 | Anselm — *Proslogion* + *Cur Deus Homo* (Deane trans., 1903) | Internet Archive | https://archive.org/details/stanselmeproslog00anseuoft |
+
+### Scripture
+
+| Text | Source | URL |
+|------|--------|-----|
+| The Holy Bible — King James Version (complete) | Project Gutenberg #10 | https://www.gutenberg.org/ebooks/10 |
 
 ---
 

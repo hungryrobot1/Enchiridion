@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enchiridion Supplement Metadata",
+  "description": "Schema for metadata.json files in each supplement directory",
+  "type": "object",
+  "required": ["title", "type", "texts", "filename"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the supplement"
+    },
+    "type": {
+      "type": "string",
+      "description": "Kind of supplement",
+      "enum": ["exercise-set", "lab-manual", "notation-guide", "convention-guide", "reference"]
+    },
+    "era": {
+      "type": "string",
+      "description": "Historical period this supplement belongs to (required for non-reference types)",
+      "enum": [
+        "ancient-greece",
+        "rome-late-antiquity",
+        "islamic-golden-age-medieval",
+        "renaissance-scientific-revolution",
+        "newtonian-enlightenment",
+        "nineteenth-century",
+        "modern-era-i",
+        "modern-era-ii",
+        "greek"
+      ]
+    },
+    "topic": {
+      "type": "string",
+      "description": "Topic category for references (e.g., ancient-greek, data-structures-algorithms)"
+    },
+    "format": {
+      "type": "string",
+      "description": "File format of the content (defaults to md for supplements, required for references)",
+      "enum": ["md", "epub", "pdf", "html", "txt"]
+    },
+    "texts": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Directory names of texts this supplement accompanies"
+    },
+    "description": {
+      "type": "string",
+      "description": "One-line description of the supplement"
+    },
+    "filename": {
+      "type": "string",
+      "description": "Filename of the supplement content file (e.g., content.md)"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Directory names of prerequisite supplements"
+    }
+  },
+  "additionalProperties": false
+}

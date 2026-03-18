@@ -90,6 +90,11 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Directory names of immediate predecessor texts (one layer deep, temporally proximal). Chain rather than accumulate — e.g., Maxwell → Einstein special → Einstein general, not Euclid → ... → Einstein."
+    },
+    "supplements": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Directory names of supplements that accompany this text. Populated as supplements are authored."
     }
   },
   "additionalProperties": false

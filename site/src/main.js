@@ -10,6 +10,8 @@ import { renderLanding } from './pages/landing.js';
 import { renderSyllabus } from './pages/syllabus.js';
 import { renderExplorer } from './pages/explorer.js';
 import { renderReader } from './pages/reader.js';
+import { renderSupplements } from './pages/supplements.js';
+import { renderSupplementReader } from './pages/supplement-reader.js';
 
 const app = document.getElementById('app');
 
@@ -26,6 +28,8 @@ route('/', (container) => renderLanding(container));
 route('/syllabus', (container) => renderSyllabus(container));
 route('/explore', (container) => renderExplorer(container));
 route('/read/:era/:id', (container, params) => renderReader(container, params));
+route('/supplements', (container) => renderSupplements(container));
+route('/supplement/:era/:id', (container, params) => renderSupplementReader(container, params));
 
 // Start
 startRouter(content);

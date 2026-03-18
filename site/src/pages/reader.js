@@ -1,9 +1,13 @@
 import { loadIndex } from '../lib/index-loader.js';
+import { loadSupplements } from '../lib/supplement-loader.js';
 import { buildRawUrl } from '../lib/url-builder.js';
 import '../styles/reader.css';
 
 export async function renderReader(container, { era, id }) {
-  const { texts } = await loadIndex();
+  const [{ texts }, { supplements }] = await Promise.all([
+    loadIndex(),
+    loadSupplements(),
+  ]);
   const text = texts.find(t => t.id === id);
 
   if (!text) {
@@ -76,6 +80,18 @@ export async function renderReader(container, { era, id }) {
               }).join('')}
             </div>
           ` : ''}
+          ${(() => {
+            const textSupplements = supplements.filter(s => s.texts.includes(text.id));
+            if (textSupplements.length === 0) return '';
+            return `
+              <div class="reader__meta-field">
+                <span class="reader__meta-label">Supplements</span>
+                ${textSupplements.map(s =>
+                  `<a href="#/supplement/${encodeURIComponent(s.era_dir)}/${s.id}" class="reader__meta-prereq">${s.title}</a>`
+                ).join('')}
+              </div>
+            `;
+          })()}
         </aside>
         <div class="reader__viewport">
           <div class="reader__viewport-inner">

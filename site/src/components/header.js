@@ -8,6 +8,7 @@ export function renderHeader() {
         <a href="#/" class="site-header__link">Home</a>
         <a href="#/syllabus" class="site-header__link">Syllabus</a>
         <a href="#/explore" class="site-header__link">Explore</a>
+        <a href="#/supplements" class="site-header__link">Supplements</a>
       </nav>
     </div>
   `;

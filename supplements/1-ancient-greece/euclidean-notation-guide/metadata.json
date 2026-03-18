@@ -1,0 +1,9 @@
+{
+  "title": "Euclidean Notation Guide",
+  "type": "notation-guide",
+  "era": "ancient-greece",
+  "texts": ["euclid-elements"],
+  "description": "Translating Euclid's geometric language into modern mathematical notation",
+  "filename": "content.md",
+  "prerequisites": []
+}

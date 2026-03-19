@@ -118,7 +118,6 @@
   position: relative;
   background: var(--color-bg);
   -webkit-overflow-scrolling: touch;
-  touch-action: pan-y;
 }
 
 .reader__viewport-inner {
@@ -129,15 +128,10 @@
 /* EPUB nav controls */
 .reader__nav {
   display: flex;
-  justify-content: flex-end;
-  gap: var(--space-sm);
+  justify-content: space-between;
   padding: var(--space-sm) var(--space-lg);
   background: var(--color-surface);
   border-top: 1px solid var(--color-border);
-}
-
-.reader__nav--hidden {
-  display: none;
 }
 
 .reader__nav-btn {
@@ -155,11 +149,6 @@
 .reader__nav-btn:hover {
   border-color: var(--color-accent);
   color: var(--color-accent);
-}
-
-/* View mode toggle */
-.reader__view-toggle {
-  margin-left: auto;
 }
 
 /* PDF page info */
@@ -208,10 +197,6 @@
 /* EPUB reader container */
 .epub-reader-container {
   width: 100%;
-  min-height: 100%;
-}
-
-.epub-reader-container--paginated {
   height: 100%;
 }
 

@@ -6,10 +6,15 @@
   "year_translated": 1611,
   "language": "English",
   "original_language": "Hebrew, Aramaic, and Greek",
-  "format": "epub",
-  "filename": "pg10-images-3.epub",
+  "format": "pdf",
+  "filename": "pg10-images-3.pdf",
   "description": "The foundational text of Western theology and literature, comprising the Old and New Testaments",
-  "topics": ["theology", "literature", "philosophy", "ethics"],
+  "topics": [
+    "theology",
+    "literature",
+    "philosophy",
+    "ethics"
+  ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
   "supplements": []

@@ -10,16 +10,16 @@ Inspired by the Great Books curriculum at [St. John's College](https://www.sjc.e
 
 The texts are organized into eight chronological sections:
 
-| Era | Period | Texts |
-|-----|--------|-------|
-| 1. Ancient Greece | ~600 BCE – 200 CE | 20 |
-| 2. Rome & Late Antiquity | ~100 BCE – 524 CE | 13 |
-| 3. Islamic Golden Age & Medieval Europe | ~800 – 1300 | 10 |
-| 4. Renaissance & Scientific Revolution | 1500 – 1700 | 24 |
-| 5. Newtonian Synthesis & Enlightenment | 1687 – 1800 | 23 |
-| 6. Nineteenth Century | 1800 – 1900 | 24 |
-| 7. Modern Era I — Foundations | 1900 – 1945 | 37 |
-| 8. Modern Era II — Information Age | 1936 – present | 45 |
+| Era | Period |
+|-----|--------|
+| 1. Ancient Greece | ~600 BCE – 200 CE |
+| 2. Rome & Late Antiquity | ~100 BCE – 524 CE |
+| 3. Islamic Golden Age & Medieval Europe | ~800 – 1300 |
+| 4. Renaissance & Scientific Revolution | 1500 – 1700 |
+| 5. Newtonian Synthesis & Enlightenment | 1687 – 1800 |
+| 6. Nineteenth Century | 1800 – 1900 |
+| 7. Modern Era I — Foundations | 1900 – 1945 |
+| 8. Modern Era II — Information Age | 1936 – present |
 
 Subjects covered include mathematics, physics, astronomy, chemistry, biology, computer science, philosophy, political thought, and literature.
 

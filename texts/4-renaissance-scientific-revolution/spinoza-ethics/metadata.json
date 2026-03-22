@@ -1,0 +1,21 @@
+{
+  "title": "Ethics",
+  "author": "Baruch Spinoza",
+  "translator": "R.H.M. Elwes",
+  "year_written": 1677,
+  "year_translated": 1883,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "pdf",
+  "filename": "pg3800-images-3.pdf",
+  "description": "Geometric demonstration of a monist metaphysics, ethics, and the nature of God, mind, and freedom",
+  "topics": [
+    "philosophy",
+    "metaphysics",
+    "ethics"
+  ],
+  "era": "renaissance-scientific-revolution",
+  "prerequisites": [
+    "descartes-meditations"
+  ]
+}

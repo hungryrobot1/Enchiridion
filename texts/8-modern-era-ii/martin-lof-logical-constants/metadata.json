@@ -1,0 +1,23 @@
+{
+  "title": "On the Meanings of the Logical Constants and the Justifications of the Logical Laws",
+  "author": "Per Martin-Löf",
+  "translator": null,
+  "year_written": 1996,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "MartinLofOnTheMeaning96.pdf",
+  "description": "Philosophical foundations of intuitionistic type theory and the propositions-as-types correspondence",
+  "topics": [
+    "logic",
+    "mathematics",
+    "computer-science",
+    "philosophy"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "church-calculi-of-lambda-conversion",
+    "hoare-an-axiomatic-basis-for-computer-programming"
+  ]
+}

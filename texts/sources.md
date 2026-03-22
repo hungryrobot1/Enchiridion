@@ -7,6 +7,8 @@ PDFs fill gaps where Gutenberg lacks a text. [Z-Library](https://www.z-lib.sk) c
 
 Texts already downloaded into the library are marked **[in repo]**.
 
+Note: This list is not complete. For the most accurate list of texts in the repository, please see either the directory structure in texts or `docs/text-index.json`
+
 ---
 
 ## 1. Ancient Greece

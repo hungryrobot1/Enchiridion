@@ -1,0 +1,22 @@
+{
+  "title": "Functionality in Combinatory Logic",
+  "author": "Haskell B. Curry",
+  "translator": null,
+  "year_written": 1934,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "curry-1934-functionality-in-combinatory-logic_.pdf",
+  "description": "First observation of the correspondence between types in combinatory logic and propositions in formal logic",
+  "topics": [
+    "logic",
+    "mathematics",
+    "computer-science"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "church-calculi-of-lambda-conversion",
+    "russell-introduction-to-mathematical-philosophy"
+  ]
+}

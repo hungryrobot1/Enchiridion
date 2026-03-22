@@ -1,0 +1,18 @@
+{
+  "title": "Explanation of Binary Arithmetic",
+  "author": "Gottfried Wilhelm Leibniz",
+  "translator": "Lloyd Strickland",
+  "year_written": 1703,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "Leibniz.pdf",
+  "description": "Introduction of the binary number system using only 0 and 1, with remarks on its utility",
+  "topics": [
+    "mathematics",
+    "computer-science"
+  ],
+  "era": "newtonian-enlightenment",
+  "prerequisites": []
+}

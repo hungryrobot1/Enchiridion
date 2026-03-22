@@ -1,0 +1,23 @@
+{
+  "title": "The Genetical Theory of Natural Selection",
+  "author": "R.A. Fisher",
+  "translator": null,
+  "year_written": 1930,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "fisher-genetical-theory-of-natural-selection.pdf",
+  "description": "Mathematical unification of Mendelian genetics with Darwinian evolution",
+  "topics": [
+    "biology",
+    "genetics",
+    "evolution",
+    "mathematics"
+  ],
+  "era": "modern-era-i",
+  "prerequisites": [
+    "mendel-experiments-on-plant-hybridization",
+    "darwin-origin-of-species"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Alberuni's India, Vol. II",
+  "author": "Al-Biruni",
+  "translator": "Edward C. Sachau",
+  "year_written": "~1030",
+  "year_translated": 1910,
+  "language": "English",
+  "original_language": "Arabic",
+  "format": "pdf",
+  "filename": "2015.213053.Alberunis-India.pdf",
+  "description": "Comprehensive study of Indian science, mathematics, philosophy, and culture (continued)",
+  "topics": [
+    "natural-philosophy",
+    "mathematics",
+    "astronomy",
+    "comparative-culture"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": [
+    "al-biruni-india-i"
+  ]
+}

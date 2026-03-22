@@ -1,0 +1,22 @@
+{
+  "title": "Propositions as Types",
+  "author": "Philip Wadler",
+  "translator": null,
+  "year_written": 2015,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "propositions-as-types.pdf",
+  "description": "Historical and expository account of the Curry-Howard correspondence between logic and computation",
+  "topics": [
+    "logic",
+    "computer-science",
+    "mathematics"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [
+    "church-calculi-of-lambda-conversion",
+    "godel-on-formally-undecidable-propositions"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Capital: A Critique of Political Economy, Vol. I",
+  "author": "Karl Marx",
+  "translator": "Samuel Moore, Edward Aveling",
+  "year_written": 1867,
+  "year_translated": 1887,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "capitalvol1.pdf",
+  "description": "Analysis of capitalist production, commodity value, labor, and the dynamics of industrial economy",
+  "topics": [
+    "economics",
+    "political-philosophy",
+    "sociology"
+  ],
+  "era": "nineteenth-century",
+  "prerequisites": [
+    "smith-wealth-of-nations"
+  ]
+}

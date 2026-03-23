@@ -12,6 +12,7 @@ import { renderExplorer } from './pages/explorer.js';
 import { renderReader } from './pages/reader.js';
 import { renderSupplements } from './pages/supplements.js';
 import { renderSupplementReader } from './pages/supplement-reader.js';
+import { renderDisclaimer } from './pages/disclaimer.js';
 
 const app = document.getElementById('app');
 
@@ -30,6 +31,7 @@ route('/explore', (container) => renderExplorer(container));
 route('/read/:era/:id', (container, params) => renderReader(container, params));
 route('/supplements', (container) => renderSupplements(container));
 route('/supplement/:era/:id', (container, params) => renderSupplementReader(container, params));
+route('/disclaimer', (container) => renderDisclaimer(container));
 
 // Start
 startRouter(content);

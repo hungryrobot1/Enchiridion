@@ -1,0 +1,21 @@
+{
+  "title": "The Aeneid",
+  "author": "Virgil",
+  "translator": "J. W. Mackail",
+  "year_written": "~19 BCE",
+  "year_translated": 1885,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "pdf",
+  "filename": "pg22456-images-3.pdf",
+  "description": "Epic poem tracing Aeneas's journey from the fall of Troy to the founding of Rome, weaving together myth, duty, and destiny",
+  "topics": [
+    "literature",
+    "epic-poetry"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [
+    "homer-iliad",
+    "homer-odyssey"
+  ]
+}

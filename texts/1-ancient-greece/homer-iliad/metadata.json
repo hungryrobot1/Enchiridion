@@ -1,0 +1,18 @@
+{
+  "title": "The Iliad",
+  "author": "Homer",
+  "translator": "Samuel Butler",
+  "year_written": "~750 BCE",
+  "year_translated": 1898,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "pg2199-images-3.pdf",
+  "description": "Epic poem of the Trojan War centering on the wrath of Achilles, exploring honor, mortality, and the human cost of conflict",
+  "topics": [
+    "literature",
+    "epic-poetry"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": []
+}

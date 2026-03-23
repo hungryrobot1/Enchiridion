@@ -48,7 +48,7 @@ This project is in early development (v0.1). Currently available:
 
 ## Sources
 
-All texts are public domain or freely available for educational use. Sources include [Project Gutenberg](https://www.gutenberg.org), [Internet Archive](https://archive.org), [Wikisource](https://en.wikisource.org), academic archives, and Nobel Prize lectures. See [`texts/sources.md`](texts/sources.md) for full provenance.
+All texts are public domain or freely available for educational use. Sources include [Project Gutenberg](https://www.gutenberg.org), [Internet Archive](https://archive.org), [Wikisource](https://en.wikisource.org), academic archives, and Nobel Prize lectures.
 
 ## Contributing
 

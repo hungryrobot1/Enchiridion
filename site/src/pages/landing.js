@@ -72,6 +72,12 @@ export async function renderLanding(container) {
           `).join('')}
         </div>
       </section>
+
+      <footer class="landing__footer">
+        <a href="#/disclaimer">Fair Use & Copyright</a>
+        <span class="landing__footer-sep">&middot;</span>
+        <a href="https://github.com/hungryrobot1/Enchiridion" target="_blank" rel="noopener">GitHub</a>
+      </footer>
     </div>
   `;
 }

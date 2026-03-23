@@ -1,0 +1,20 @@
+{
+  "title": "The Odyssey",
+  "author": "Homer",
+  "translator": "Samuel Butler",
+  "year_written": "~725 BCE",
+  "year_translated": 1900,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "pg1727-images-3.pdf",
+  "description": "Epic poem following Odysseus's long journey home from Troy, exploring cunning, endurance, and the longing for homecoming",
+  "topics": [
+    "literature",
+    "epic-poetry"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "homer-iliad"
+  ]
+}

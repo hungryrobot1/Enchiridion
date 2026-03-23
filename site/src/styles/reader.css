@@ -35,31 +35,35 @@
 }
 
 .reader__toolbar-title {
-  flex: 1;
   font-family: var(--font-serif);
   font-size: var(--text-base);
   font-weight: 600;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
-/* Toolbar controls group */
+/* Toolbar controls group — always pushed to the right */
 .reader__toolbar-controls {
   display: flex;
   align-items: center;
   gap: var(--space-md);
   flex-shrink: 0;
+  margin-left: auto;
 }
 
-/* Page navigation */
+/* Page navigation — fills space between title and controls */
 .reader__page-nav {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
-  color: var(--color-text-secondary);
+  color: var(--color-text-muted);
+  flex: 1;
+  flex-shrink: 0;
 }
 
 .reader__page-input {

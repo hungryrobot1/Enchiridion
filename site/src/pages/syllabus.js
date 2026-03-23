@@ -77,12 +77,6 @@ export async function renderSyllabus(container) {
     });
   });
 
-  // Open the first era by default
-  const firstEra = container.querySelector('.syllabus__era-content');
-  if (firstEra) {
-    firstEra.classList.add('syllabus__era-content--open');
-    container.querySelector('.syllabus__era-chevron').textContent = '\u25B4';
-  }
 }
 
 function formatTopic(topic) {

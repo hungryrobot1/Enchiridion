@@ -9,6 +9,7 @@ const MIN_SCALE = 1;
 const MAX_SCALE = 4;
 const SCALE_STEP = 0.5;
 const DEFAULT_SCALE = 2;
+const RENDER_SCALE = 2; // Fixed high-res rendering for sharpness
 
 export default {
   async render(container, textUrl, readerContainer, options = {}) {
@@ -22,19 +23,29 @@ export default {
     const pdf = await loadingTask.promise;
     const totalPages = pdf.numPages;
 
-    let currentScale = DEFAULT_SCALE;
+    let displayScale = DEFAULT_SCALE;
     const canvases = [];
     const rendered = new Set();
     let currentPage = 1;
+
+    // Get the base page width from the first page (at scale=1) for sizing reference
+    const firstPageRef = await pdf.getPage(1);
+    const baseViewport = firstPageRef.getViewport({ scale: 1 });
+    const basePageWidth = baseViewport.width;
 
     // Create canvases for all pages
     for (let i = 1; i <= totalPages; i++) {
       const canvas = document.createElement('canvas');
       canvas.dataset.page = i;
-      canvas.style.width = '100%';
-      canvas.style.maxWidth = '800px';
       canvases.push(canvas);
       wrapper.appendChild(canvas);
+    }
+
+    function updateCanvasDisplaySize(canvas) {
+      // Display width scales with displayScale; basePageWidth * displayScale / RENDER_SCALE
+      // gives the CSS pixel width. At DEFAULT_SCALE (2), this matches ~basePageWidth.
+      canvas.style.width = `${Math.round(basePageWidth * displayScale / RENDER_SCALE)}px`;
+      canvas.style.maxWidth = '100%';
     }
 
     async function renderPage(pageNum) {
@@ -42,29 +53,20 @@ export default {
       rendered.add(pageNum);
 
       const page = await pdf.getPage(pageNum);
-      const viewport = page.getViewport({ scale: currentScale });
+      const viewport = page.getViewport({ scale: RENDER_SCALE });
       const canvas = canvases[pageNum - 1];
       canvas.width = viewport.width;
       canvas.height = viewport.height;
+      updateCanvasDisplaySize(canvas);
 
       const ctx = canvas.getContext('2d');
       await page.render({ canvasContext: ctx, viewport }).promise;
     }
 
-    async function rerenderAllVisible() {
-      rendered.clear();
-      const promises = [];
-      for (let i = 1; i <= totalPages; i++) {
-        const canvas = canvases[i - 1];
-        const rect = canvas.getBoundingClientRect();
-        const viewportEl = readerContainer.querySelector('.reader__viewport');
-        const vpRect = viewportEl.getBoundingClientRect();
-        // Render if visible or within a generous margin
-        if (rect.bottom > vpRect.top - 500 && rect.top < vpRect.bottom + 500) {
-          promises.push(renderPage(i));
-        }
+    function updateAllDisplaySizes() {
+      for (const canvas of canvases) {
+        updateCanvasDisplaySize(canvas);
       }
-      await Promise.all(promises);
     }
 
     // Render first 3 pages immediately
@@ -115,34 +117,34 @@ export default {
 
     // Notify initial state
     if (options.onPageChange) options.onPageChange(currentPage, totalPages);
+    if (options.onScaleChange) options.onScaleChange(displayScale);
 
     // Expose controls for toolbar
     const controls = {
       totalPages,
       getCurrentPage: () => currentPage,
-      getScale: () => currentScale,
+      getScale: () => displayScale,
 
-      zoomIn: async () => {
-        if (currentScale >= MAX_SCALE) return;
+      zoomIn: () => {
+        if (displayScale >= MAX_SCALE) return;
         const scrollRatio = viewportEl.scrollTop / (viewportEl.scrollHeight - viewportEl.clientHeight || 1);
-        currentScale = Math.min(MAX_SCALE, currentScale + SCALE_STEP);
-        await rerenderAllVisible();
-        // Restore approximate scroll position
+        displayScale = Math.min(MAX_SCALE, displayScale + SCALE_STEP);
+        updateAllDisplaySizes();
         requestAnimationFrame(() => {
           viewportEl.scrollTop = scrollRatio * (viewportEl.scrollHeight - viewportEl.clientHeight);
         });
-        if (options.onScaleChange) options.onScaleChange(currentScale);
+        if (options.onScaleChange) options.onScaleChange(displayScale);
       },
 
-      zoomOut: async () => {
-        if (currentScale <= MIN_SCALE) return;
+      zoomOut: () => {
+        if (displayScale <= MIN_SCALE) return;
         const scrollRatio = viewportEl.scrollTop / (viewportEl.scrollHeight - viewportEl.clientHeight || 1);
-        currentScale = Math.max(MIN_SCALE, currentScale - SCALE_STEP);
-        await rerenderAllVisible();
+        displayScale = Math.max(MIN_SCALE, displayScale - SCALE_STEP);
+        updateAllDisplaySizes();
         requestAnimationFrame(() => {
           viewportEl.scrollTop = scrollRatio * (viewportEl.scrollHeight - viewportEl.clientHeight);
         });
-        if (options.onScaleChange) options.onScaleChange(currentScale);
+        if (options.onScaleChange) options.onScaleChange(displayScale);
       },
 
       goToPage: (pageNum) => {

@@ -151,12 +151,6 @@ export async function renderSupplements(container) {
     });
   });
 
-  // Open the first section by default
-  const firstSection = container.querySelector('.supplements__era-content');
-  if (firstSection) {
-    firstSection.classList.add('supplements__era-content--open');
-    container.querySelector('.supplements__era-chevron').textContent = '\u25B4';
-  }
 }
 
 function formatType(type) {

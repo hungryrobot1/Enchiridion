@@ -48,12 +48,14 @@ export async function renderReader(container, { era, id }) {
       <div class="reader__toolbar">
         <button class="reader__back" onclick="history.back()">&larr; Back</button>
         <span class="reader__toolbar-title">${text.title}</span>
+        ${isPdf ? `
+          <div class="reader__page-nav">
+            <input type="text" class="reader__page-input" aria-label="Current page">
+            <span class="reader__page-total"></span>
+          </div>
+        ` : ''}
         <div class="reader__toolbar-controls">
           ${isPdf ? `
-            <div class="reader__page-nav">
-              <input type="text" class="reader__page-input" aria-label="Current page">
-              <span class="reader__page-total"></span>
-            </div>
             <div class="reader__zoom-controls">
               <button class="reader__tool-btn reader__zoom-out" title="Zoom out" aria-label="Zoom out">&minus;</button>
               <span class="reader__zoom-level"></span>

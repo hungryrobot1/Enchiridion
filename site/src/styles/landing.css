@@ -105,6 +105,36 @@
   line-height: 1.6;
 }
 
+/* About section */
+.landing__about {
+  margin-bottom: var(--space-3xl);
+}
+
+.landing__about h2 {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.landing__about-content {
+  max-width: var(--max-width-text);
+  margin: 0 auto;
+}
+
+.landing__about-content p {
+  font-size: var(--text-sm);
+  font-family: var(--font-sans);
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+.landing__about-content p:last-child {
+  margin-bottom: 0;
+}
+
 /* Era list */
 .landing__eras h2 {
   font-family: var(--font-serif);

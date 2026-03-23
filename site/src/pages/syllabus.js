@@ -17,7 +17,7 @@ export async function renderSyllabus(container) {
     <div class="page syllabus">
       <header class="syllabus__header">
         <h1>The Grand Tour</h1>
-        <p>A chronological journey through ${texts.length} texts spanning 2,500 years of STEM thought.</p>
+        <p>A chronological journey through ${texts.length} texts spanning 2,500 years of thought.</p>
         <p class="syllabus__approach">
           <strong>Recommended approach:</strong> proceed chronologically, taking a
           "some of all, all of some" approach — read broadly across subjects within
@@ -26,16 +26,16 @@ export async function renderSyllabus(container) {
       </header>
 
       ${facets.eras.map(era => {
-        const eraTexts = byEra[era.id].texts;
-        // Group by primary topic
-        const byTopic = {};
-        for (const text of eraTexts) {
-          const topic = text.topics[0] || 'other';
-          if (!byTopic[topic]) byTopic[topic] = [];
-          byTopic[topic].push(text);
-        }
+    const eraTexts = byEra[era.id].texts;
+    // Group by primary topic
+    const byTopic = {};
+    for (const text of eraTexts) {
+      const topic = text.topics[0] || 'other';
+      if (!byTopic[topic]) byTopic[topic] = [];
+      byTopic[topic].push(text);
+    }
 
-        return `
+    return `
           <section class="syllabus__era">
             <button class="syllabus__era-toggle" data-era="${era.id}">
               <h2>${era.display}</h2>
@@ -63,7 +63,7 @@ export async function renderSyllabus(container) {
             </div>
           </section>
         `;
-      }).join('')}
+  }).join('')}
     </div>
   `;
 

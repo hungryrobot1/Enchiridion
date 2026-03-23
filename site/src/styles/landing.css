@@ -123,6 +123,18 @@
   margin: 0 auto;
 }
 
+.landing__about-content h3 {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-sm);
+}
+
+.landing__about-content h3:first-child {
+  margin-top: 0;
+}
+
 .landing__about-content p {
   font-size: var(--text-sm);
   font-family: var(--font-sans);

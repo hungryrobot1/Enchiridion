@@ -14,7 +14,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <a href="#/supplements" class="site-header__link">Supplements</a>
       </nav>
     </div>
-  `;const t=e.querySelector(".site-header__toggle"),l=e.querySelector(".site-header__nav");return t.addEventListener("click",()=>{const d=l.classList.toggle("site-header__nav--open");t.classList.toggle("site-header__toggle--active",d),t.setAttribute("aria-expanded",d)}),l.querySelectorAll(".site-header__link").forEach(d=>{d.addEventListener("click",()=>{l.classList.remove("site-header__nav--open"),t.classList.remove("site-header__toggle--active"),t.setAttribute("aria-expanded","false")})}),e}let S=null;async function T(){return S||(S=await(await fetch("/Enchiridion/text-index.json")).json(),S)}async function V(e){const{texts:t,facets:l}=await T();e.innerHTML=`
+  `;const t=e.querySelector(".site-header__toggle"),l=e.querySelector(".site-header__nav");return t.addEventListener("click",()=>{const d=l.classList.toggle("site-header__nav--open");t.classList.toggle("site-header__toggle--active",d),t.setAttribute("aria-expanded",d)}),l.querySelectorAll(".site-header__link").forEach(d=>{d.addEventListener("click",()=>{l.classList.remove("site-header__nav--open"),t.classList.remove("site-header__toggle--active"),t.setAttribute("aria-expanded","false")})}),e}let S=null;async function T(){return S||(S=await(await fetch("/Enchiridion/text-index.json")).json(),S)}async function W(e){const{texts:t,facets:l}=await T();e.innerHTML=`
     <div class="landing">
       <section class="landing__hero">
         <h1 class="landing__title">Enchiridion</h1>
@@ -61,13 +61,19 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
       <section class="landing__about">
         <h2>About the Program</h2>
         <div class="landing__about-content">
-          <p>Modern technology is advancing faster than our ability to understand it, and risks unleashing unprecedented disruption to our existing civilizational frameworks: economic structures, governmental institutions, the production and dissemination of new ideas, and even the very definition of what it means to be human. The development of artificial general intelligence in particular could become the most transformative event in the intellectual history of mankind since the advent of the written language. It is incumbent on humanity to respond to these mounting forces with reflection and choice before the window for a viable response is lost.</p>
+          <h3>What Is Enchiridion?</h3>
           <p>The purpose of Enchiridion is to advocate for a future-proof model of education that keeps humanity's traditions at the center: one that is resistant to the disruption and the existential challenges raised by radical technological and political change. It strives for neutrality in its presentation of a breadth and juxtaposition of primary sources. It is a STEM-focused curriculum, organized in the format of a Great Books program.</p>
           <p>The Great Books program offers a canonical and historically-minded view of its texts, rooted in philosophy and critical thinking, while the STEM focus equips the reader with the relevant technical skills and knowledge for the modern day. While science, math, and computer science make up the majority of texts, there are also other topics including philosophy, literature, history, economics, psychology, and more.</p>
-          <p>The intended audience of Enchiridion is anyone with a desire for knowledge. While not a replacement for formal education, it can supplement the studies of university students and homeschoolers, or provide general guidance for independent reading groups and adult learners.</p>
+
+          <h3>How It Works</h3>
           <p>The program offers two kinds of materials: primary texts and supplementary resources. Primary texts are original writings from the western canon. Supplementary resources include lab manuals, enchiridia (handbooks), and additional exercises developed in-house to provide tools for engaging with the program more deeply.</p>
           <p>In a Great Books program, texts are meant to be read and rigorously discussed in chronological order. A syllabus called "The Grand Tour" is provided to give readers a general idea of the sequence to read the books in, but readers are also welcome to explore the different sections of the program at any point and choose the texts and topics that interest them most. Additionally, over time, shorter syllabi will be posted in order to provide a more focused examination of specific threads through history.</p>
-          <p>All of this is offered free of charge and open-source, for use by anyone.</p>
+
+          <h3>Who It's For</h3>
+          <p>The intended audience of Enchiridion is anyone with a desire for knowledge. While not a replacement for formal education, it can supplement the studies of university students and homeschoolers, or provide general guidance for independent reading groups and adult learners. All of this is offered free of charge and open-source, for use by anyone.</p>
+
+          <h3>Why It Matters</h3>
+          <p>Modern technology is advancing faster than our ability to understand it, and risks unleashing unprecedented disruption to our existing civilizational frameworks: economic structures, governmental institutions, the production and dissemination of new ideas, and even the very definition of what it means to be human. The development of artificial general intelligence in particular could become the most transformative event in the intellectual history of mankind since the advent of the written language. It is incumbent on humanity to respond to these mounting forces with reflection and choice before the window for a viable response is lost.</p>
         </div>
       </section>
 
@@ -89,7 +95,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <a href="https://github.com/hungryrobot1/Enchiridion" target="_blank" rel="noopener">GitHub</a>
       </footer>
     </div>
-  `}async function W(e){const{texts:t,facets:l}=await T(),d={};for(const o of l.eras)d[o.id]={display:o.display,texts:t.filter(a=>a.era===o.id)};e.innerHTML=`
+  `}async function V(e){const{texts:t,facets:l}=await T(),d={};for(const o of l.eras)d[o.id]={display:o.display,texts:t.filter(a=>a.era===o.id)};e.innerHTML=`
     <div class="page syllabus">
       <header class="syllabus__header">
         <h1>The Grand Tour</h1>
@@ -452,4 +458,4 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <p>If you are a copyright holder and believe your work has been included in error, or if you would like to request removal or attribution, please contact the maintainer through the project's <a href="https://github.com/hungryrobot1/Enchiridion" target="_blank" rel="noopener">GitHub repository</a>. All reasonable requests will be honored promptly.</p>
       </div>
     </div>
-  `}const U=document.getElementById("app");U.appendChild(N());const A=document.createElement("main");A.id="content";U.appendChild(A);x("/",e=>V(e));x("/syllabus",e=>W(e));x("/explore",e=>K(e));x("/read/:era/:id",(e,t)=>te(e,t));x("/supplements",e=>re(e));x("/supplement/:era/:id",(e,t)=>ie(e,t));x("/disclaimer",e=>ce(e));G(A);"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/Enchiridion/sw.js").catch(()=>{})});
+  `}const U=document.getElementById("app");U.appendChild(N());const A=document.createElement("main");A.id="content";U.appendChild(A);x("/",e=>W(e));x("/syllabus",e=>V(e));x("/explore",e=>K(e));x("/read/:era/:id",(e,t)=>te(e,t));x("/supplements",e=>re(e));x("/supplement/:era/:id",(e,t)=>ie(e,t));x("/disclaimer",e=>ce(e));G(A);"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/Enchiridion/sw.js").catch(()=>{})});

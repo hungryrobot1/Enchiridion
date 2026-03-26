@@ -8,11 +8,14 @@
   "original_language": "French",
   "format": "pdf",
   "filename": "artofthinking00arnauoft.pdf",
-  "description": "Influential textbook on logic combining Cartesian philosophy with practical reasoning",
+  "description": "Influential textbook on grammar and language study, the linguistic counterpart to Port-Royal Logic",
   "topics": [
-    "philosophy",
-    "logic"
+    "grammar",
+    "philosophy-of-language",
+    "philosophy"
   ],
   "era": "renaissance-scientific-revolution",
-  "prerequisites": []
+  "prerequisites": [
+    "arnauld-port-royal-grammar"
+  ]
 }

@@ -37,13 +37,14 @@ See [format-standards.md](format-standards.md) for authoring guidelines.
   - Era 1: Attic Greek (alphabet → nouns → verbs, using Euclid, Pre-Socratics, Sappho, Plato)
   - Era 2: Koine Greek (Bible, Diophantus)
   - Resources: Strong's *Greek in a Nutshell* (grammar), Smyth (reference)
+  - Samples can be pulled from Perseus
 
 ---
 
 ## Cross-Era Threads
 
 These conceptual threads span multiple eras. They are noted within each era's plan
-and may eventually become syllabus modules.
+and may eventually become syllabus modules. More will be added as they arise.
 
 - **Calculus:** Archimedes → Oresme → Fermat → Newton/Leibniz → Euler → Cauchy/Weierstrass
 - **Optics:** Alhazen → Kepler → Snell/Descartes → Huygens → Newton → Maxwell → Einstein

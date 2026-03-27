@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enchiridion Module Metadata",
+  "description": "Schema for metadata.json files in progressive learning modules. Modules are multi-chapter skill-building sequences that run alongside the primary texts over an extended stretch of the curriculum.",
+  "type": "object",
+  "required": ["title", "type", "description", "chapters"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the module"
+    },
+    "type": {
+      "type": "string",
+      "const": "module",
+      "description": "Always 'module' for progressive learning modules"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the module covers and its scope"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Directory names of prerequisite modules or supplements"
+    },
+    "references": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Directory names of reference materials useful alongside this module (e.g., textbooks, grammars)"
+    },
+    "chapters": {
+      "type": "array",
+      "description": "Ordered sequence of chapters in the module",
+      "items": {
+        "type": "object",
+        "required": ["filename", "title", "alongside"],
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Filename of the chapter content (e.g., 01-variables-and-equations.md)"
+          },
+          "title": {
+            "type": "string",
+            "description": "Chapter title"
+          },
+          "alongside": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Directory names of texts this chapter is meant to accompany"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

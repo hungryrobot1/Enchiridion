@@ -1,55 +1,61 @@
-# Supplementary Materials — Index
+# Supplementary Materials
 
-Practical supplements for the Enchiridion curriculum: exercise sets, lab manuals,
-notation guides, and convention guides. Organized by era.
+Practical supplements for the Enchiridion curriculum. See [format-standards.md](format-standards.md) for authoring guidelines.
 
-See [format-standards.md](format-standards.md) for authoring guidelines.
+## Structure
 
-## Supplement Types
+Supplements live in three places, each serving a different purpose:
 
+### Era-bound supplements (`1-ancient-greece/`, `2-rome-late-antiquity/`, etc.)
+
+Materials tied to specific texts or small clusters of texts within an era. Each supplement is a directory with `metadata.json` and `content.md`.
+
+**Types:**
 - **Exercise set** — problems, proofs, or coding challenges
 - **Lab manual** — hands-on experiments with materials lists and safety notes
 - **Notation guide** — translating archaic or unfamiliar notation to modern equivalents
 - **Convention guide** — clarifying formal approaches and conventions used in a text or tradition
+- **Study guide** — reading guidance, bridging context, or framing essays for a text or group of texts
 
----
+**When to use:** The supplement is consumed alongside one or a few texts and doesn't need content from other eras to make sense.
 
-## Plans by Era
+**Schema:** [metadata-schema.json](metadata-schema.json)
 
-| Era | Texts | Exercises | Labs | Notation | Convention | Plan |
-|-----|-------|-----------|------|----------|------------|------|
-| 1. Ancient Greece | 22 | 8 | 2 | 3 | 4 | [plan](1-ancient-greece/plan.md) |
-| 2. Rome & Late Antiquity | 14 | 6 | 2 | 2 | 2 | [plan](2-rome-late-antiquity/plan.md) |
-| 3. Islamic Golden Age & Medieval | 10 | 3 | 1 | 2 | 1 | [plan](3-islamic-golden-age-medieval-europe/plan.md) |
-| 4. Renaissance & Scientific Revolution | 24 | 8 | 5 | 3 | 2 | [plan](4-renaissance-scientific-revolution/plan.md) |
-| 5. Newtonian & Enlightenment | 23 | 11 | 4 | 3 | 2 | [plan](5-newtonian-enlightenment/plan.md) |
-| 6. Nineteenth Century | 26 | 12 | 4 | 3 | 3 | [plan](6-nineteenth-century/plan.md) |
-| 7. Modern Era I | 37 | 14 | 0 | 5 | 3 | [plan](7-modern-era-i/plan.md) |
-| 8. Modern Era II | 45 | 25+ | 0 | 4 | 5 | [plan](8-modern-era-ii/plan.md) |
+### Progressive modules (`modules/`)
 
-**Totals:** 198 texts, ~82 exercise sets, ~18 lab manuals, ~24 notation guides, ~20 convention guides
+Multi-chapter, skill-building sequences that run alongside the primary texts over an extended stretch of the curriculum. These are the supplements that break the era model — they develop a capability (a language, a branch of mathematics, a set of lab skills) over weeks or months of reading.
 
----
+Each module is a directory containing `metadata.json` and numbered chapter files. Chapters map to texts via an `alongside` field so the site knows when to surface them.
 
-## Language
+**Current modules:**
+- `modern-algebra/` — from variables and equations through logarithms and calculus-readiness
+- `ancient-greek/` — Attic Greek (era 1) through Koine (era 2), using primary texts as source material
+- `calculus/` — method of exhaustion through integration, developed alongside the texts from Archimedes to Euler
 
-- **Ancient Greek** — 5-phase progression across eras 1–2: [plan](greek/plan.md)
-  - Era 1: Attic Greek (alphabet → nouns → verbs, using Euclid, Pre-Socratics, Sappho, Plato)
-  - Era 2: Koine Greek (Bible, Diophantus)
-  - Resources: Strong's *Greek in a Nutshell* (grammar), Smyth (reference)
-  - Samples can be pulled from Perseus
+**When to use:** The skill being developed spans multiple eras and requires sequenced instruction that builds on itself. A module fills a gap that no single reference or era-bound supplement can.
+
+**Schema:** [modules/metadata-schema.json](modules/metadata-schema.json)
+
+### References (`references/`)
+
+Third-party resources — textbooks, grammars, anthologies — that students would consult alongside modules and texts. These are not authored in-house; they're curated external materials.
+
+**When to use:** The skill requires depth that a module can't reasonably provide on its own (e.g., a DSA textbook, a comprehensive grammar reference), or a well-known resource exists that would be redundant to rewrite. Modules may point to specific chapters or sections of references.
+
+**Current references:**
+- `ancient-greek/` — Strong's *Greek in a Nutshell*, Blackie's *Greek Primer*, Burnet's *Early Greek Philosophy*, Wharton's *Sappho*
 
 ---
 
 ## Cross-Era Threads
 
-These conceptual threads span multiple eras. They are noted within each era's plan
-and may eventually become syllabus modules. More will be added as they arise.
+Conceptual threads that span multiple eras. Some of these are developed as modules; others are tracked in the [thematic syllabi](../syllabus/syllabi.md) and may generate supplements as the program matures.
 
-- **Calculus:** Archimedes → Oresme → Fermat → Newton/Leibniz → Euler → Cauchy/Weierstrass
-- **Optics:** Alhazen → Kepler → Snell/Descartes → Huygens → Newton → Maxwell → Einstein
+- **Algebra:** Diophantus → al-Khwarizmi → Fibonacci → Viète → Descartes → Euler *(module: modern-algebra)*
+- **Calculus:** Archimedes → Fermat → Newton/Leibniz → Euler → Cauchy/Weierstrass *(module: calculus)*
+- **Ancient Greek:** Attic → Koine across eras 1–2 *(module: ancient-greek)*
+- **Probability:** Pascal/Huygens → Bernoulli → Bayes → Laplace → Fisher → Shannon
 - **Logic & Computation:** Aristotle → Boole → Frege → Russell → Hilbert → Gödel → Turing → Shannon
-- **Algebra:** Babylonian → Greek geometric → al-Khwarizmi → Fibonacci → Viète → Descartes → Galois
-- **Probability:** Cardano → Pascal/Fermat → Huygens → Bernoulli → Bayes → Laplace
-- **Electricity & Magnetism:** Franklin → Galvani → Faraday → Maxwell → Hertz
-- **Atomic Theory:** Democritus → Lucretius → Dalton → Thomson → Rutherford → Bohr → QM
+- **Electricity & Magnetism:** Franklin → Galvani → Volta → Ampère → Faraday → Maxwell → Hertz
+- **Atomic Theory:** Lucretius → Dalton → Rutherford → Bohr → Chadwick → QM
+- **Optics:** Alhazen → Kepler → Huygens → Newton → Maxwell → Einstein *(folded into Physics syllabus)*

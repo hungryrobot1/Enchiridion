@@ -12,7 +12,7 @@
     "type": {
       "type": "string",
       "description": "Kind of supplement",
-      "enum": ["exercise-set", "lab-manual", "notation-guide", "convention-guide", "reference"]
+      "enum": ["exercise-set", "lab-manual", "notation-guide", "convention-guide", "reference", "study-guide"]
     },
     "era": {
       "type": "string",
@@ -25,8 +25,7 @@
         "newtonian-enlightenment",
         "nineteenth-century",
         "modern-era-i",
-        "modern-era-ii",
-        "greek"
+        "modern-era-ii"
       ]
     },
     "topic": {

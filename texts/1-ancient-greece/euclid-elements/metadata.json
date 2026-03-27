@@ -1,13 +1,13 @@
 {
   "title": "The Elements",
   "author": "Euclid",
-  "translator": "Thomas Heath",
+  "translator": "Richard Fitzpatrick",
   "year_written": "~300 BCE",
-  "year_translated": 1908,
+  "year_translated": 2007,
   "language": "English",
   "original_language": "Greek",
   "format": "pdf",
-  "filename": "pg21076-images-3.pdf",
+  "filename": "Elements.pdf",
   "description": "Foundational treatise on geometry and number theory that defined axiomatic reasoning for two millennia",
   "topics": [
     "mathematics",

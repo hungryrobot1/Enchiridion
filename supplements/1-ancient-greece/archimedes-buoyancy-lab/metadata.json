@@ -1,0 +1,9 @@
+{
+  "title": "Buoyancy and Displacement Lab",
+  "type": "lab-manual",
+  "era": "ancient-greece",
+  "texts": ["archimedes-geometrical-solutions"],
+  "description": "Hands-on experiments with buoyancy, volumetric displacement, and density — the crown problem and floating bodies",
+  "filename": "content.md",
+  "prerequisites": []
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Liber Abaci",
+  "author": "Leonardo Fibonacci",
+  "translator": "Laurence Sigler",
+  "year_written": "~1202",
+  "year_translated": 2003,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "pdf",
+  "filename": "Laurence Sigler - Fibonacci's Liber Abaci (2003).pdf",
+  "description": "Medieval mathematical text known for bringing the Arabic numeral system and algebraic methods to Europe",
+  "topics": [
+    "mathematics",
+    "algebra",
+    "number-theory"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": []
+}

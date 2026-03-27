@@ -1,0 +1,9 @@
+{
+  "title": "Navigating Pliny's Natural History",
+  "type": "convention-guide",
+  "era": "rome-late-antiquity",
+  "texts": ["pliny-natural-history"],
+  "description": "How to use an ancient encyclopedia — Pliny's structure, his method of compilation, and strategies for selective reading",
+  "filename": "content.md",
+  "prerequisites": []
+}

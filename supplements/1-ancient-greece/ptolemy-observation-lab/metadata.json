@@ -1,0 +1,9 @@
+{
+  "title": "Naked-Eye Astronomy Lab",
+  "type": "lab-manual",
+  "era": "ancient-greece",
+  "texts": ["ptolemy-almagest"],
+  "description": "Tracking planetary positions, observing retrograde motion, understanding parallax, and the role of the observer",
+  "filename": "content.md",
+  "prerequisites": []
+}

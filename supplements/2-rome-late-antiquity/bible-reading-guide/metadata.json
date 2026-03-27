@@ -1,0 +1,9 @@
+{
+  "title": "Reading the Bible",
+  "type": "study-guide",
+  "era": "rome-late-antiquity",
+  "texts": ["holy-bible-kjv"],
+  "description": "Recommended selections and reading order for the KJV — Torah, historical books, prophets, a synoptic Gospel, Pauline epistles, and Revelation, approached as historical and literary text",
+  "filename": "content.md",
+  "prerequisites": []
+}

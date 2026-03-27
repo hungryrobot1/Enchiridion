@@ -1,0 +1,9 @@
+{
+  "title": "Observing the Natural World",
+  "type": "study-guide",
+  "era": "ancient-greece",
+  "texts": ["hippocrates-genuine-works", "aristotle-parts-of-animals"],
+  "description": "Structured observation as Hippocrates and Aristotle practiced it — the case method, classification, and learning to see before explaining",
+  "filename": "content.md",
+  "prerequisites": []
+}

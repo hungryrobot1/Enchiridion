@@ -119,12 +119,12 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
                 <div class="syllabus__topic-group">
                   <h3>${Y(p)}</h3>
                   <ol class="syllabus__text-list">
-                    ${h.map(r=>`
+                    ${h.map(s=>`
                       <li>
-                        <a href="#/read/${r.era_dir}/${r.id}" class="syllabus__text-link">
-                          <span class="syllabus__text-title">${r.title}</span>
+                        <a href="#/read/${s.era_dir}/${s.id}" class="syllabus__text-link">
+                          <span class="syllabus__text-title">${s.title}</span>
                           <span class="syllabus__text-meta">
-                            ${r.author}, ${r.year_written}
+                            ${s.author}, ${s.year_written}
                           </span>
                         </a>
                       </li>
@@ -150,25 +150,25 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <div class="explorer__filters">
           <select class="explorer__filter-select" data-filter="era">
             <option value="">All Eras</option>
-            ${l.eras.map(r=>`
-              <option value="${r.id}" ${m.era===r.id?"selected":""}>
-                ${r.display}
+            ${l.eras.map(s=>`
+              <option value="${s.id}" ${m.era===s.id?"selected":""}>
+                ${s.display}
               </option>
             `).join("")}
           </select>
           <select class="explorer__filter-select" data-filter="topic">
             <option value="">All Topics</option>
-            ${l.topics.map(r=>`
-              <option value="${r}" ${m.topic===r?"selected":""}>
-                ${I(r)}
+            ${l.topics.map(s=>`
+              <option value="${s}" ${m.topic===s?"selected":""}>
+                ${I(s)}
               </option>
             `).join("")}
           </select>
           <select class="explorer__filter-select" data-filter="format">
             <option value="">All Formats</option>
-            ${l.formats.map(r=>`
-              <option value="${r}" ${m.format===r?"selected":""}>
-                ${r.toUpperCase()}
+            ${l.formats.map(s=>`
+              <option value="${s}" ${m.format===s?"selected":""}>
+                ${s.toUpperCase()}
               </option>
             `).join("")}
           </select>
@@ -183,7 +183,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
       </div>
       <div class="explorer__grid"></div>
     </div>
-  `;const d=e.querySelector(".explorer__search-input"),o=e.querySelector(".explorer__grid"),a=e.querySelector(".explorer__results-count"),u=e.querySelectorAll(".explorer__filter-select");function p(){let r=t;if(m.query){const n=m.query.toLowerCase();r=r.filter(s=>s.title.toLowerCase().includes(n)||s.author.toLowerCase().includes(n)||s.description.toLowerCase().includes(n)||s.topics.some(i=>i.toLowerCase().includes(n)))}switch(m.era&&(r=r.filter(n=>n.era===m.era)),m.topic&&(r=r.filter(n=>n.topics.includes(m.topic))),m.format&&(r=r.filter(n=>n.format===m.format)),r=[...r],m.sort){case"reverse-chrono":r.sort((n,s)=>s.year_sort-n.year_sort);break;case"title":r.sort((n,s)=>n.title.localeCompare(s.title));break;case"author":r.sort((n,s)=>n.author.localeCompare(s.author));break}if(a.textContent=`${r.length} of ${t.length} texts`,r.length===0){o.innerHTML='<div class="explorer__empty">No texts match your filters.</div>';return}o.innerHTML=r.map(n=>`
+  `;const d=e.querySelector(".explorer__search-input"),o=e.querySelector(".explorer__grid"),a=e.querySelector(".explorer__results-count"),u=e.querySelectorAll(".explorer__filter-select");function p(){let s=t;if(m.query){const n=m.query.toLowerCase();s=s.filter(r=>r.title.toLowerCase().includes(n)||r.author.toLowerCase().includes(n)||r.description.toLowerCase().includes(n)||r.topics.some(i=>i.toLowerCase().includes(n)))}switch(m.era&&(s=s.filter(n=>n.era===m.era)),m.topic&&(s=s.filter(n=>n.topics.includes(m.topic))),m.format&&(s=s.filter(n=>n.format===m.format)),s=[...s],m.sort){case"reverse-chrono":s.sort((n,r)=>r.year_sort-n.year_sort);break;case"title":s.sort((n,r)=>n.title.localeCompare(r.title));break;case"author":s.sort((n,r)=>n.author.localeCompare(r.author));break}if(a.textContent=`${s.length} of ${t.length} texts`,s.length===0){o.innerHTML='<div class="explorer__empty">No texts match your filters.</div>';return}o.innerHTML=s.map(n=>`
       <a href="#/read/${n.era_dir}/${n.id}" class="text-card" data-id="${n.id}">
         <div class="text-card__header">
           <span class="text-card__title">${n.title}</span>
@@ -193,13 +193,13 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <div class="text-card__year">${n.year_written}${n.translator?` · trans. ${n.translator}`:""}</div>
         <div class="text-card__description">${n.description}</div>
         <div class="text-card__footer">
-          ${n.topics.slice(0,3).map(s=>`<span class="topic-pill">${I(s)}</span>`).join("")}
+          ${n.topics.slice(0,3).map(r=>`<span class="topic-pill">${I(r)}</span>`).join("")}
           <button class="text-card__download" data-path="${n.path}" data-filename="${n.filename}" title="Download">
             &#8595; Download
           </button>
         </div>
       </a>
-    `).join(""),o.querySelectorAll(".text-card__download").forEach(n=>{n.addEventListener("click",s=>{s.preventDefault(),s.stopPropagation();const i=C(n.dataset.path),c=document.createElement("a");c.href=i,c.download=n.dataset.filename,c.click()})})}let h;d.addEventListener("input",()=>{clearTimeout(h),h=setTimeout(()=>{m.query=d.value,p()},200)}),u.forEach(r=>{r.addEventListener("change",()=>{const n=r.dataset.filter;n==="sort"?m.sort=r.value:m[n]=r.value,p()})}),p(),d.focus()}function I(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const J="modulepreload",Q=function(e){return"/Enchiridion/"+e},R={},$=function(t,l,d){let o=Promise.resolve();if(l&&l.length>0){let u=function(r){return Promise.all(r.map(n=>Promise.resolve(n).then(s=>({status:"fulfilled",value:s}),s=>({status:"rejected",reason:s}))))};document.getElementsByTagName("link");const p=document.querySelector("meta[property=csp-nonce]"),h=(p==null?void 0:p.nonce)||(p==null?void 0:p.getAttribute("nonce"));o=u(l.map(r=>{if(r=Q(r),r in R)return;R[r]=!0;const n=r.endsWith(".css"),s=n?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${r}"]${s}`))return;const i=document.createElement("link");if(i.rel=n?"stylesheet":J,n||(i.as="script"),i.crossOrigin="",i.href=r,h&&i.setAttribute("nonce",h),document.head.appendChild(i),n)return new Promise((c,g)=>{i.addEventListener("load",c),i.addEventListener("error",()=>g(new Error(`Unable to preload CSS for ${r}`)))})}))}function a(u){const p=new Event("vite:preloadError",{cancelable:!0});if(p.payload=u,window.dispatchEvent(p),!p.defaultPrevented)throw u}return o.then(u=>{for(const p of u||[])p.status==="rejected"&&a(p.reason);return t().catch(a)})};let k=null;async function j(){if(k)return k;const t=await fetch("/Enchiridion/supplement-index.json");return t.ok?(k=await t.json(),k):(k={supplements:[],facets:{eras:[],types:[]}},k)}const B="enchiridion-bookmarks";function M(){try{return JSON.parse(localStorage.getItem(B))||{}}catch{return{}}}function X(e,t){const l=M();l[e]=t,localStorage.setItem(B,JSON.stringify(l))}function ee(e){return M()[e]||null}async function te(e,{era:t,id:l}){const[{texts:d},{supplements:o}]=await Promise.all([T(),j()]),a=d.find(i=>i.id===l);if(!a){e.innerHTML=`
+    `).join(""),o.querySelectorAll(".text-card__download").forEach(n=>{n.addEventListener("click",r=>{r.preventDefault(),r.stopPropagation();const i=C(n.dataset.path),c=document.createElement("a");c.href=i,c.download=n.dataset.filename,c.click()})})}let h;d.addEventListener("input",()=>{clearTimeout(h),h=setTimeout(()=>{m.query=d.value,p()},200)}),u.forEach(s=>{s.addEventListener("change",()=>{const n=s.dataset.filter;n==="sort"?m.sort=s.value:m[n]=s.value,p()})}),p(),d.focus()}function I(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const J="modulepreload",Q=function(e){return"/Enchiridion/"+e},R={},$=function(t,l,d){let o=Promise.resolve();if(l&&l.length>0){let u=function(s){return Promise.all(s.map(n=>Promise.resolve(n).then(r=>({status:"fulfilled",value:r}),r=>({status:"rejected",reason:r}))))};document.getElementsByTagName("link");const p=document.querySelector("meta[property=csp-nonce]"),h=(p==null?void 0:p.nonce)||(p==null?void 0:p.getAttribute("nonce"));o=u(l.map(s=>{if(s=Q(s),s in R)return;R[s]=!0;const n=s.endsWith(".css"),r=n?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${s}"]${r}`))return;const i=document.createElement("link");if(i.rel=n?"stylesheet":J,n||(i.as="script"),i.crossOrigin="",i.href=s,h&&i.setAttribute("nonce",h),document.head.appendChild(i),n)return new Promise((c,v)=>{i.addEventListener("load",c),i.addEventListener("error",()=>v(new Error(`Unable to preload CSS for ${s}`)))})}))}function a(u){const p=new Event("vite:preloadError",{cancelable:!0});if(p.payload=u,window.dispatchEvent(p),!p.defaultPrevented)throw u}return o.then(u=>{for(const p of u||[])p.status==="rejected"&&a(p.reason);return t().catch(a)})};let k=null;async function j(){if(k)return k;const t=await fetch("/Enchiridion/supplement-index.json");return t.ok?(k=await t.json(),k):(k={supplements:[],facets:{eras:[],types:[]}},k)}const B="enchiridion-bookmarks";function M(){try{return JSON.parse(localStorage.getItem(B))||{}}catch{return{}}}function X(e,t){const l=M();l[e]=t,localStorage.setItem(B,JSON.stringify(l))}function ee(e){return M()[e]||null}async function te(e,{era:t,id:l}){const[{texts:d},{supplements:o}]=await Promise.all([T(),j()]),a=d.find(i=>i.id===l);if(!a){e.innerHTML=`
       <div class="reader">
         <div class="reader__error">
           <p>Text not found: ${l}</p>
@@ -256,7 +256,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           <div class="reader__meta-field">
             <span class="reader__meta-label">Topics</span>
             <div class="reader__meta-topics">
-              ${a.topics.map(i=>`<span class="topic-pill">${se(i)}</span>`).join("")}
+              ${a.topics.map(i=>`<span class="topic-pill">${re(i)}</span>`).join("")}
             </div>
           </div>
           ${a.description?`
@@ -268,7 +268,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           ${a.prerequisites.length>0?`
             <div class="reader__meta-field">
               <span class="reader__meta-label">Prerequisites</span>
-              ${a.prerequisites.map(i=>{const c=d.find(g=>g.id===i);return c?`<a href="#/read/${c.era_dir}/${c.id}" class="reader__meta-prereq">${c.title}</a>`:`<span class="reader__meta-value">${i}</span>`}).join("")}
+              ${a.prerequisites.map(i=>{const c=d.find(v=>v.id===i);return c?`<a href="#/read/${c.era_dir}/${c.id}" class="reader__meta-prereq">${c.title}</a>`:`<span class="reader__meta-value">${i}</span>`}).join("")}
             </div>
           `:""}
           ${(()=>{const i=o.filter(c=>c.texts.includes(a.id));return i.length===0?"":`
@@ -285,17 +285,17 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         </div>
       </div>
     </div>
-  `,e.querySelector(".reader__download").addEventListener("click",()=>{const i=document.createElement("a");i.href=u,i.download=a.filename,i.click()});const h=e.querySelector(".reader__sidebar"),r=e.querySelector(".reader__sidebar-toggle");h.classList.add("reader__sidebar--collapsed"),r.addEventListener("click",()=>{const i=h.classList.toggle("reader__sidebar--collapsed");r.textContent=i?"Show Details":"Hide Details"});const n=e.querySelector(".reader__viewport-inner");let s=null;try{const i=await ae(a.format);if(p){const c=e.querySelector(".reader__page-input"),g=e.querySelector(".reader__page-total"),_=e.querySelector(".reader__zoom-in"),f=e.querySelector(".reader__zoom-out"),b=e.querySelector(".reader__zoom-level");let E=null;s=await i.render(n,u,e,{onReady:y=>{_.addEventListener("click",()=>y.zoomIn()),f.addEventListener("click",()=>y.zoomOut()),c.addEventListener("keydown",v=>{if(v.key==="Enter"){const q=parseInt(c.value,10);isNaN(q)||y.goToPage(q),c.blur()}}),c.addEventListener("blur",()=>{const v=parseInt(c.value,10);isNaN(v)||y.goToPage(v)}),c.addEventListener("focus",()=>c.select());const w=ee(l);if(w&&w>1){const v=document.createElement("div");v.className="reader__resume-banner",v.innerHTML=`
+  `,e.querySelector(".reader__download").addEventListener("click",()=>{const i=document.createElement("a");i.href=u,i.download=a.filename,i.click()});const h=e.querySelector(".reader__sidebar"),s=e.querySelector(".reader__sidebar-toggle");h.classList.add("reader__sidebar--collapsed"),s.addEventListener("click",()=>{const i=h.classList.toggle("reader__sidebar--collapsed");s.textContent=i?"Show Details":"Hide Details"});const n=e.querySelector(".reader__viewport-inner");let r=null;try{const i=await ae(a.format);if(p){const c=e.querySelector(".reader__page-input"),v=e.querySelector(".reader__page-total"),_=e.querySelector(".reader__zoom-in"),f=e.querySelector(".reader__zoom-out"),y=e.querySelector(".reader__zoom-level");let E=null;r=await i.render(n,u,e,{onReady:b=>{_.addEventListener("click",()=>b.zoomIn()),f.addEventListener("click",()=>b.zoomOut()),c.addEventListener("keydown",g=>{if(g.key==="Enter"){const q=parseInt(c.value,10);isNaN(q)||b.goToPage(q),c.blur()}}),c.addEventListener("blur",()=>{const g=parseInt(c.value,10);isNaN(g)||b.goToPage(g)}),c.addEventListener("focus",()=>c.select());const w=ee(l);if(w&&w>1){const g=document.createElement("div");g.className="reader__resume-banner",g.innerHTML=`
               <span>Continue from page ${w}?</span>
               <button class="reader__resume-btn" data-action="resume">Resume</button>
               <button class="reader__resume-btn reader__resume-btn--dismiss" data-action="dismiss">Start over</button>
-            `,e.querySelector(".reader__toolbar").after(v),v.querySelector('[data-action="resume"]').addEventListener("click",()=>{y.goToPage(w),v.remove()}),v.querySelector('[data-action="dismiss"]').addEventListener("click",()=>{v.remove()})}E=setInterval(()=>{const v=y.getCurrentPage();v>1&&X(l,v)},5e3)},onPageChange:(y,w)=>{c.value=y,c.style.width=`${String(w).length+1}ch`,g.textContent=`of ${w}`},onScaleChange:y=>{b.textContent=`${Math.round(y*50)}%`,_.disabled=y>=4,f.disabled=y<=1}});const P=s;s=()=>{E&&clearInterval(E),P&&P()}}else s=await i.render(n,u,e)}catch(i){console.error("Reader error:",i),n.innerHTML=`
+            `,e.querySelector(".reader__toolbar").after(g),g.querySelector('[data-action="resume"]').addEventListener("click",()=>{b.goToPage(w),g.remove()}),g.querySelector('[data-action="dismiss"]').addEventListener("click",()=>{g.remove()})}E=setInterval(()=>{const g=b.getCurrentPage();g>1&&X(l,g)},5e3)},onPageChange:(b,w)=>{c.value=b,c.style.width=`${String(w).length+1}ch`,v.textContent=`of ${w}`},onScaleChange:b=>{y.textContent=`${Math.round(b*50)}%`,_.disabled=b>=4,f.disabled=b<=1}});const P=r;r=()=>{E&&clearInterval(E),P&&P()}}else r=await i.render(n,u,e)}catch(i){console.error("Reader error:",i),n.innerHTML=`
       <div class="reader__error">
         <p>Failed to load text. The file may be temporarily unavailable.</p>
         <p style="font-size: var(--text-xs); color: var(--color-text-muted);">${i.message}</p>
         <a href="${u}" class="btn" target="_blank" rel="noopener">Open Raw File</a>
       </div>
-    `}return()=>{s&&s()}}async function ae(e){switch(e){case"epub":return(await $(async()=>{const{default:t}=await import("./epub-reader-i1hTWVgL.js");return{default:t}},[])).default;case"pdf":return(await $(async()=>{const{default:t}=await import("./pdf-reader-DEUgGmV0.js");return{default:t}},[])).default;case"html":return(await $(async()=>{const{default:t}=await import("./html-reader-BvnsfJ7c.js");return{default:t}},[])).default;case"txt":return(await $(async()=>{const{default:t}=await import("./txt-reader-DQg-AX_E.js");return{default:t}},[])).default;default:throw new Error(`Unsupported format: ${e}`)}}function se(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const H={"exercise-set":"Exercise Sets","lab-manual":"Lab Manuals","notation-guide":"Notation Guides","convention-guide":"Convention Guides"},O=Object.keys(H);async function re(e){const{supplements:t,facets:l}=await j();if(t.length===0){e.innerHTML=`
+    `}return()=>{r&&r()}}async function ae(e){switch(e){case"epub":return(await $(async()=>{const{default:t}=await import("./epub-reader-i1hTWVgL.js");return{default:t}},[])).default;case"pdf":return(await $(async()=>{const{default:t}=await import("./pdf-reader-DEUgGmV0.js");return{default:t}},[])).default;case"html":return(await $(async()=>{const{default:t}=await import("./html-reader-BvnsfJ7c.js");return{default:t}},[])).default;case"txt":return(await $(async()=>{const{default:t}=await import("./txt-reader-DQg-AX_E.js");return{default:t}},[])).default;default:throw new Error(`Unsupported format: ${e}`)}}function re(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const H={"exercise-set":"Exercise Sets","lab-manual":"Lab Manuals","notation-guide":"Notation Guides","convention-guide":"Convention Guides","study-guide":"Study Guides"},O=Object.keys(H);async function se(e){const{supplements:t,facets:l}=await j();if(t.length===0){e.innerHTML=`
       <div class="page supplements">
         <header class="supplements__header">
           <h1>Supplements</h1>
@@ -303,31 +303,31 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           lab manuals, notation guides, and convention guides.</p>
         </header>
       </div>
-    `;return}const d=t.filter(s=>s.type!=="reference"),o=t.filter(s=>s.type==="reference"),a={};for(const s of l.eras)a[s.id]={display:s.display,count:s.count,supplements:d.filter(i=>i.era===s.id)};const u={};for(const s of o){const i=s.topic||"other";u[i]||(u[i]=[]),u[i].push(s)}const p=l.topics||[],h=l.eras.length,r=o.length,n=d.length;e.innerHTML=`
+    `;return}const d=t.filter(r=>r.type!=="reference"),o=t.filter(r=>r.type==="reference"),a={};for(const r of l.eras)a[r.id]={display:r.display,count:r.count,supplements:d.filter(i=>i.era===r.id)};const u={};for(const r of o){const i=r.topic||"other";u[i]||(u[i]=[]),u[i].push(r)}const p=l.topics||[],h=l.eras.length,s=o.length,n=d.length;e.innerHTML=`
     <div class="page supplements">
       <header class="supplements__header">
         <h1>Supplements</h1>
-        <p>${n>0?`${n} supplementary material${n!==1?"s":""} across ${h} section${h!==1?"s":""}`:"Supplementary materials are being developed"}${r>0?`${n>0?", plus ":""}${r} reference${r!==1?"s":""}`:""}.</p>
+        <p>${n>0?`${n} supplementary material${n!==1?"s":""} across ${h} section${h!==1?"s":""}`:"Supplementary materials are being developed"}${s>0?`${n>0?", plus ":""}${s} reference${s!==1?"s":""}`:""}.</p>
       </header>
 
-      ${l.eras.map(s=>{const i=a[s.id];if(!i||i.supplements.length===0)return"";const c={};for(const _ of i.supplements){const f=_.type||"other";c[f]||(c[f]=[]),c[f].push(_)}const g=Object.entries(c).sort((_,f)=>{const b=O.indexOf(_[0]),E=O.indexOf(f[0]);return(b>=0?b:999)-(E>=0?E:999)});return`
+      ${l.eras.map(r=>{const i=a[r.id];if(!i||i.supplements.length===0)return"";const c={};for(const _ of i.supplements){const f=_.type||"other";c[f]||(c[f]=[]),c[f].push(_)}const v=Object.entries(c).sort((_,f)=>{const y=O.indexOf(_[0]),E=O.indexOf(f[0]);return(y>=0?y:999)-(E>=0?E:999)});return`
           <section class="supplements__era">
-            <button class="supplements__era-toggle" data-era="${s.id}">
-              <h2>${s.display}</h2>
-              <span class="supplements__era-count">${s.count} supplement${s.count!==1?"s":""}</span>
+            <button class="supplements__era-toggle" data-era="${r.id}">
+              <h2>${r.display}</h2>
+              <span class="supplements__era-count">${r.count} supplement${r.count!==1?"s":""}</span>
               <span class="supplements__era-chevron">&#9662;</span>
             </button>
-            <div class="supplements__era-content" id="sup-era-${s.id}">
-              ${g.map(([_,f])=>`
+            <div class="supplements__era-content" id="sup-era-${r.id}">
+              ${v.map(([_,f])=>`
                 <div class="supplements__type-group">
                   <h3>${H[_]||ne(_)}</h3>
                   <ul class="supplements__list">
-                    ${f.map(b=>`
+                    ${f.map(y=>`
                       <li>
-                        <a href="#/supplement/${encodeURIComponent(b.era_dir)}/${b.id}" class="supplements__link">
-                          <span class="supplements__title">${b.title}</span>
+                        <a href="#/supplement/${encodeURIComponent(y.era_dir)}/${y.id}" class="supplements__link">
+                          <span class="supplements__title">${y.title}</span>
                           <span class="supplements__meta">
-                            ${b.texts.length>0?b.texts.join(", "):""}
+                            ${y.texts.length>0?y.texts.join(", "):""}
                           </span>
                         </a>
                       </li>
@@ -344,37 +344,37 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           <span>References</span>
         </div>
 
-        ${p.map(s=>{const i=u[s.id]||[];return i.length===0?"":`
+        ${p.map(r=>{const i=u[r.id]||[];return i.length===0?"":`
             <section class="supplements__era">
-              <button class="supplements__era-toggle" data-era="ref-${s.id}">
-                <h2>${s.display}</h2>
-                <span class="supplements__era-count">${s.count} reference${s.count!==1?"s":""}</span>
+              <button class="supplements__era-toggle" data-era="ref-${r.id}">
+                <h2>${r.display}</h2>
+                <span class="supplements__era-count">${r.count} reference${r.count!==1?"s":""}</span>
                 <span class="supplements__era-chevron">&#9662;</span>
               </button>
-              <div class="supplements__era-content" id="sup-era-ref-${s.id}">
+              <div class="supplements__era-content" id="sup-era-ref-${r.id}">
                 <ul class="supplements__list">
-                  ${i.map(c=>`
+                  ${i.map(c=>{const v=c.url&&!c.path;return`
                     <li>
-                      <a href="#/supplement/${encodeURIComponent(c.era_dir)}/${c.id}" class="supplements__link">
+                      <a href="${v?c.url:`#/supplement/${encodeURIComponent(c.era_dir)}/${c.id}`}"${v?' target="_blank" rel="noopener noreferrer"':""} class="supplements__link">
                         <span class="supplements__title">${c.title}</span>
                         ${c.description?`<span class="supplements__meta">${c.description}</span>`:""}
                       </a>
                     </li>
-                  `).join("")}
+                  `}).join("")}
                 </ul>
               </div>
             </section>
           `}).join("")}
       `:""}
     </div>
-  `,e.querySelectorAll(".supplements__era-toggle").forEach(s=>{s.addEventListener("click",()=>{const i=s.dataset.era,g=document.getElementById(`sup-era-${i}`).classList.toggle("supplements__era-content--open");s.querySelector(".supplements__era-chevron").textContent=g?"▴":"▾"})})}function ne(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const oe={"exercise-set":"Exercise Set","lab-manual":"Lab Manual","notation-guide":"Notation Guide","convention-guide":"Convention Guide",reference:"Reference"};async function ie(e,{era:t,id:l}){const[{supplements:d},{texts:o}]=await Promise.all([j(),T()]),a=d.find(_=>_.id===l);if(!a){e.innerHTML=`
+  `,e.querySelectorAll(".supplements__era-toggle").forEach(r=>{r.addEventListener("click",()=>{const i=r.dataset.era,v=document.getElementById(`sup-era-${i}`).classList.toggle("supplements__era-content--open");r.querySelector(".supplements__era-chevron").textContent=v?"▴":"▾"})})}function ne(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const oe={"exercise-set":"Exercise Set","lab-manual":"Lab Manual","notation-guide":"Notation Guide","convention-guide":"Convention Guide",reference:"Reference"};async function ie(e,{era:t,id:l}){const[{supplements:d},{texts:o}]=await Promise.all([j(),T()]),a=d.find(_=>_.id===l);if(!a){e.innerHTML=`
       <div class="reader">
         <div class="reader__error">
           <p>Supplement not found: ${l}</p>
           <a href="#/supplements" class="btn">Back to Supplements</a>
         </div>
       </div>
-    `;return}const u=C(a.path),p=a.format||"md",h=a.texts.map(_=>o.find(f=>f.id===_)).filter(Boolean),r=a.type==="reference"?"Topic":"Era",n=a.era_display;e.innerHTML=`
+    `;return}const u=C(a.path),p=a.format||"md",h=a.texts.map(_=>o.find(f=>f.id===_)).filter(Boolean),s=a.type==="reference"?"Topic":"Era",n=a.era_display;e.innerHTML=`
     <div class="reader">
       <div class="reader__toolbar">
         <button class="reader__back" onclick="history.back()">&larr; Back</button>
@@ -389,7 +389,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
             <span class="supplements__type-badge">${oe[a.type]||a.type}</span>
           </div>
           <div class="reader__meta-field">
-            <span class="reader__meta-label">${r}</span>
+            <span class="reader__meta-label">${s}</span>
             <span class="reader__meta-value">${n}</span>
           </div>
           ${p!=="md"?`
@@ -413,7 +413,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           ${a.prerequisites.length>0?`
             <div class="reader__meta-field">
               <span class="reader__meta-label">Prerequisites</span>
-              ${a.prerequisites.map(_=>{const f=d.find(b=>b.id===_);return f?`<a href="#/supplement/${encodeURIComponent(f.era_dir)}/${f.id}" class="reader__meta-prereq">${f.title}</a>`:`<span class="reader__meta-value">${_}</span>`}).join("")}
+              ${a.prerequisites.map(_=>{const f=d.find(y=>y.id===_);return f?`<a href="#/supplement/${encodeURIComponent(f.era_dir)}/${f.id}" class="reader__meta-prereq">${f.title}</a>`:`<span class="reader__meta-value">${_}</span>`}).join("")}
             </div>
           `:""}
         </aside>
@@ -424,13 +424,13 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         </div>
       </div>
     </div>
-  `,e.querySelector(".reader__download").addEventListener("click",()=>{const _=document.createElement("a");_.href=u,_.download=a.path.split("/").pop(),_.click()});const s=e.querySelector(".reader__sidebar"),i=e.querySelector(".reader__sidebar-toggle");s.classList.add("reader__sidebar--collapsed"),i.addEventListener("click",()=>{const _=s.classList.toggle("reader__sidebar--collapsed");i.textContent=_?"Show Details":"Hide Details"});const c=e.querySelector(".reader__viewport-inner");let g=null;try{g=await(await le(p)).render(c,u,e)}catch(_){console.error("Supplement reader error:",_),c.innerHTML=`
+  `,e.querySelector(".reader__download").addEventListener("click",()=>{const _=document.createElement("a");_.href=u,_.download=a.path.split("/").pop(),_.click()});const r=e.querySelector(".reader__sidebar"),i=e.querySelector(".reader__sidebar-toggle");r.classList.add("reader__sidebar--collapsed"),i.addEventListener("click",()=>{const _=r.classList.toggle("reader__sidebar--collapsed");i.textContent=_?"Show Details":"Hide Details"});const c=e.querySelector(".reader__viewport-inner");let v=null;try{v=await(await le(p)).render(c,u,e)}catch(_){console.error("Supplement reader error:",_),c.innerHTML=`
       <div class="reader__error">
         <p>Failed to load ${a.type==="reference"?"reference":"supplement"}.</p>
         <p style="font-size: var(--text-xs); color: var(--color-text-muted);">${_.message}</p>
         <a href="${u}" class="btn" target="_blank" rel="noopener">Open Raw File</a>
       </div>
-    `}return()=>{g&&g()}}async function le(e){switch(e){case"epub":return(await $(async()=>{const{default:t}=await import("./epub-reader-i1hTWVgL.js");return{default:t}},[])).default;case"pdf":return(await $(async()=>{const{default:t}=await import("./pdf-reader-DEUgGmV0.js");return{default:t}},[])).default;case"html":return(await $(async()=>{const{default:t}=await import("./html-reader-BvnsfJ7c.js");return{default:t}},[])).default;case"txt":return(await $(async()=>{const{default:t}=await import("./txt-reader-DQg-AX_E.js");return{default:t}},[])).default;case"md":default:return(await $(async()=>{const{default:t}=await import("./md-reader-C6phV3Oz.js");return{default:t}},__vite__mapDeps([0,1]))).default}}function ce(e){e.innerHTML=`
+    `}return()=>{v&&v()}}async function le(e){switch(e){case"epub":return(await $(async()=>{const{default:t}=await import("./epub-reader-i1hTWVgL.js");return{default:t}},[])).default;case"pdf":return(await $(async()=>{const{default:t}=await import("./pdf-reader-DEUgGmV0.js");return{default:t}},[])).default;case"html":return(await $(async()=>{const{default:t}=await import("./html-reader-BvnsfJ7c.js");return{default:t}},[])).default;case"txt":return(await $(async()=>{const{default:t}=await import("./txt-reader-DQg-AX_E.js");return{default:t}},[])).default;case"md":default:return(await $(async()=>{const{default:t}=await import("./md-reader-C6phV3Oz.js");return{default:t}},__vite__mapDeps([0,1]))).default}}function ce(e){e.innerHTML=`
     <div class="page disclaimer">
       <header class="disclaimer__header">
         <h1>Fair Use & Copyright Notice</h1>
@@ -458,4 +458,4 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <p>If you are a copyright holder and believe your work has been included in error, or if you would like to request removal or attribution, please contact the maintainer through the project's <a href="https://github.com/hungryrobot1/Enchiridion" target="_blank" rel="noopener">GitHub repository</a>. All reasonable requests will be honored promptly.</p>
       </div>
     </div>
-  `}const U=document.getElementById("app");U.appendChild(N());const A=document.createElement("main");A.id="content";U.appendChild(A);x("/",e=>W(e));x("/syllabus",e=>V(e));x("/explore",e=>K(e));x("/read/:era/:id",(e,t)=>te(e,t));x("/supplements",e=>re(e));x("/supplement/:era/:id",(e,t)=>ie(e,t));x("/disclaimer",e=>ce(e));G(A);"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/Enchiridion/sw.js").catch(()=>{})});
+  `}const U=document.getElementById("app");U.appendChild(N());const A=document.createElement("main");A.id="content";U.appendChild(A);x("/",e=>W(e));x("/syllabus",e=>V(e));x("/explore",e=>K(e));x("/read/:era/:id",(e,t)=>te(e,t));x("/supplements",e=>se(e));x("/supplement/:era/:id",(e,t)=>ie(e,t));x("/disclaimer",e=>ce(e));G(A);"serviceWorker"in navigator&&window.addEventListener("load",()=>{navigator.serviceWorker.register("/Enchiridion/sw.js").catch(()=>{})});

@@ -1,0 +1,9 @@
+{
+  "title": "Al-Khwarizmi's Six Equation Types",
+  "type": "convention-guide",
+  "era": "islamic-golden-age-medieval",
+  "texts": ["al-khwarizmi-algebra"],
+  "description": "The six canonical equation types and Al-Khwarizmi's systematic solution procedure — completing the square as a geometric operation",
+  "filename": "content.md",
+  "prerequisites": []
+}

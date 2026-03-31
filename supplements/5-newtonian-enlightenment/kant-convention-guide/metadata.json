@@ -1,0 +1,9 @@
+{
+  "title": "Architecture of the Critique of Pure Reason",
+  "type": "convention-guide",
+  "era": "newtonian-enlightenment",
+  "texts": ["kant-critique-of-pure-reason"],
+  "description": "A map of the Critique — transcendental aesthetic, analytic, and dialectic, key terminology, and the structure of Kant's system as a guide to orientation, not interpretation",
+  "filename": "content.md",
+  "prerequisites": []
+}

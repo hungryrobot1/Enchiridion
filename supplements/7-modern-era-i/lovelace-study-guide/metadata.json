@@ -1,0 +1,9 @@
+{
+  "title": "Lovelace's Notes on the Analytical Engine",
+  "type": "study-guide",
+  "era": "modern-era-i",
+  "texts": ["lovelace-sketch-of-the-analytical-engine"],
+  "description": "Highlighting Note G (the first algorithm), what Lovelace understood about the machine's potential and limitations, and the conceptual leap from calculation to computation",
+  "filename": "content.md",
+  "prerequisites": []
+}

@@ -1,0 +1,9 @@
+{
+  "title": "DIY Galvanometer Lab",
+  "type": "lab-manual",
+  "era": "nineteenth-century",
+  "texts": ["galvani-commentary-on-the-effect-of-electricity-on-muscular-motion", "faraday-experimental-researches-in-electricity"],
+  "description": "Build a simple galvanometer with copper wire, a battery, and a compass — detecting electric current and understanding the relationship between electricity and magnetism",
+  "filename": "content.md",
+  "prerequisites": []
+}

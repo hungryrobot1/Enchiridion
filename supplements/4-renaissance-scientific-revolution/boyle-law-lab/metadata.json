@@ -1,0 +1,9 @@
+{
+  "title": "Boyle's Law Lab",
+  "type": "lab-manual",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["boyle-sceptical-chymist"],
+  "description": "Investigating the pressure-volume relationship in gases — reproducing Boyle's key observation with simple apparatus",
+  "filename": "content.md",
+  "prerequisites": []
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Napier Logarithm Exercises",
+  "type": "exercise-set",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["napier-construction-of-the-wonderful-canon-of-logarithms"],
+  "description": "Computing with Napier's original log tables and understanding logarithms as he conceived them",
+  "filename": "content.md",
+  "prerequisites": ["napier-notation-guide"]
+}

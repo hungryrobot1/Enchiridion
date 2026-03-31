@@ -1,0 +1,9 @@
+{
+  "title": "Shannon: Boolean Logic to Circuits",
+  "type": "exercise-set",
+  "era": "modern-era-ii",
+  "texts": ["shannon-symbolic-analysis-of-relay-and-switching"],
+  "description": "Translating Boolean expressions to circuit diagrams — the bridge from Boole's algebra to physical computation",
+  "filename": "content.md",
+  "prerequisites": []
+}

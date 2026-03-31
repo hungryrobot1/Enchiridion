@@ -163,7 +163,7 @@ async function buildSupplementIndex() {
         era: eraId,
         era_dir: eraDirName,
         era_display: ERA_DISPLAY[eraId] || (eraId === 'greek' ? 'Ancient Greek Language' : eraId),
-        path: `supplements/${eraDirName}/${subDir.name}/${meta.filename}`,
+        path: meta.filename ? `supplements/${eraDirName}/${subDir.name}/${meta.filename}` : null,
         title: meta.title,
         type: meta.type,
         format: meta.format || 'md',
@@ -172,9 +172,8 @@ async function buildSupplementIndex() {
         prerequisites: meta.prerequisites || [],
       };
 
-      if (meta.topic) {
-        entry.topic = meta.topic;
-      }
+      if (meta.url) entry.url = meta.url;
+      if (meta.topic) entry.topic = meta.topic;
 
       supplements.push(entry);
       typesSet.add(meta.type);
@@ -211,7 +210,7 @@ async function buildSupplementIndex() {
           era: 'reference',
           era_dir: eraDirName,
           era_display: TOPIC_DISPLAY[topicId] || formatTopicDisplay(topicId),
-          path: `supplements/references/${topicDir.name}/${refDir.name}/${meta.filename}`,
+          path: meta.filename ? `supplements/references/${topicDir.name}/${refDir.name}/${meta.filename}` : null,
           title: meta.title,
           type: 'reference',
           format: meta.format || 'md',
@@ -220,6 +219,8 @@ async function buildSupplementIndex() {
           description: meta.description || '',
           prerequisites: meta.prerequisites || [],
         };
+
+        if (meta.url) entry.url = meta.url;
 
         supplements.push(entry);
         typesSet.add('reference');

@@ -6,6 +6,7 @@ const TYPE_DISPLAY = {
   'lab-manual': 'Lab Manuals',
   'notation-guide': 'Notation Guides',
   'convention-guide': 'Convention Guides',
+  'study-guide': 'Study Guides',
 };
 
 const TYPE_ORDER = Object.keys(TYPE_DISPLAY);
@@ -124,14 +125,18 @@ export async function renderSupplements(container) {
               </button>
               <div class="supplements__era-content" id="sup-era-ref-${topic.id}">
                 <ul class="supplements__list">
-                  ${topicRefs.map(r => `
+                  ${topicRefs.map(r => {
+                    const isUrlOnly = r.url && !r.path;
+                    const href = isUrlOnly ? r.url : `#/supplement/${encodeURIComponent(r.era_dir)}/${r.id}`;
+                    const target = isUrlOnly ? ' target="_blank" rel="noopener noreferrer"' : '';
+                    return `
                     <li>
-                      <a href="#/supplement/${encodeURIComponent(r.era_dir)}/${r.id}" class="supplements__link">
+                      <a href="${href}"${target} class="supplements__link">
                         <span class="supplements__title">${r.title}</span>
                         ${r.description ? `<span class="supplements__meta">${r.description}</span>` : ''}
                       </a>
                     </li>
-                  `).join('')}
+                  `;}).join('')}
                 </ul>
               </div>
             </section>

@@ -1,0 +1,9 @@
+{
+  "title": "Cayley: Matrices — Notation Guide & Exercises",
+  "type": "exercise-set",
+  "era": "nineteenth-century",
+  "texts": ["cayley-memoir-on-the-theory-of-matrices"],
+  "description": "Matrix notation, operations, and determinants — introducing linear algebra and building toward its applications in quantum mechanics",
+  "filename": "content.md",
+  "prerequisites": []
+}

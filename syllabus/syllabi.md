@@ -35,6 +35,7 @@ The evolution of mathematical thought from Greek geometry through modern foundat
 
 ### Nineteenth Century — Rigor & Abstraction
 - **George Boole** — *An Investigation of the Laws of Thought* (1854)
+- **[NEW] Nikolai Lobachevsky** — *Geometrical Researches on the Theory of Parallels* (1840) — the first proof that non-Euclidean geometry is consistent; bridges Euclid's parallel postulate to Riemann
 - **Bernhard Riemann** — *On the Hypotheses Which Lie at the Bases of Geometry* (1854)
 - **Arthur Cayley** — *A Memoir on the Theory of Matrices* (1858)
 - **Richard Dedekind** — *Essays on the Theory of Numbers* (1872)
@@ -464,7 +465,7 @@ This material cuts across eras and disciplines. Rather than a single chronologic
 - **The God of the Philosophers**: Aristotle → Maimonides → Aquinas → Spinoza → Leibniz — what reason can and cannot prove about God
 - **Faith vs. Reason**: Augustine → Anselm → Averroes → Pascal → Kierkegaard → Weil — the tension that never resolves
 - **The Death of God and After**: Nietzsche → Weber → Strauss — what fills the vacuum
-- **Judaism, Christianity, and the Parting of the Ways**: Bible → Augustine → Maimonides → Spinoza → Herzl → Strauss — properly done, this drills into the heart of religious controversies and what is at stake with the transformation from Second Temple rabbinic Judaism to the early history of the church
+- **Judaism, Christianity, and the Parting of the Ways**: Bible → Augustine → Maimonides → Spinoza → Herzl → Strauss — properly done, this drills into the heart of religious controversies and what is at stake with the transformation from Second Temple rabbinic Judaism to the early history of the Church
 
 ---
 
@@ -481,3 +482,8 @@ These are not yet developed but represent the kind of thematic dialogues that ma
 - **"Identity, Exclusion, & Adaptation"**: O'Connor → Fanon → Jabotinsky → McLuhan → Darwin → Maimonides (and others TBD)
 
 These tracks would benefit from short framing supplements that set up the conversation between texts — explaining what's at stake and what to look for in each pairing.
+
+### Potential New Tracks Requiring Text Sourcing
+
+- **Music Theory**: The transition from monophony to polyphony in medieval Europe, early foundations of counterpoint, pitch and rhythmic modes (Guido d'Arezzo, Notre Dame school, Ars Nova), culminating in Fux's *Study of Counterpoint* in Section 4. Currently Fux appears without context. This would require sourcing medieval music theory texts and potentially developing a module-level progression. Music becomes a genuinely mathematical discipline in this period and connects to the quadrivium (arithmetic, geometry, music, astronomy).
+- **Computation from First Principles**: The physical story of how logic becomes electricity becomes gates becomes architecture. The program covers the *theory* of computation well (Boole → Frege → Gödel → Turing → Shannon → von Neumann) but the *physical* realization is invisible. A module or track covering: Boolean logic as physical circuits (Shannon's relay paper) → logic gates (NAND as universal gate) → combinational and sequential logic → registers and memory → ALU → von Neumann architecture. Not building a computer by hand, but understanding the conceptual arc from a truth table to a stored-program machine. This contextualizes higher-level CS topics like programming language theory and helps readers understand what Shannon and von Neumann actually achieved. Possible lab components: breadboard logic gates, simple adder circuits.

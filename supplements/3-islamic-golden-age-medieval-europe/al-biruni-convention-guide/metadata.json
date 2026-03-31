@@ -1,0 +1,9 @@
+{
+  "title": "Navigating Al-Biruni's India",
+  "type": "convention-guide",
+  "era": "islamic-golden-age-medieval",
+  "texts": ["al-biruni-india-i", "al-biruni-india-ii"],
+  "description": "How to approach Al-Biruni's encyclopedic survey of Indian science, mathematics, and culture — structure, themes, and selective reading strategies",
+  "filename": "content.md",
+  "prerequisites": []
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Reading Fux's Counterpoint",
+  "type": "convention-guide",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["fux-study-of-counterpoint"],
+  "description": "Species counterpoint rules and how Fux structures the exercises — a guide to the five species and the dialogue form of instruction",
+  "filename": "content.md",
+  "prerequisites": []
+}

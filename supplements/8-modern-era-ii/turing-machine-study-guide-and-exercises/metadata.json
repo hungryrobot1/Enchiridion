@@ -1,0 +1,9 @@
+{
+  "title": "Turing Machines — Study Guide & Exercises",
+  "type": "exercise-set",
+  "era": "modern-era-ii",
+  "texts": ["turing-on-computable-numbers"],
+  "description": "The Turing machine model, the halting problem, and the connection to Gödel — with exercises simulating simple Turing machines on paper",
+  "filename": "content.md",
+  "prerequisites": []
+}

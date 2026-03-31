@@ -1,0 +1,9 @@
+{
+  "title": "PageRank Exercises",
+  "type": "exercise-set",
+  "era": "modern-era-ii",
+  "texts": ["brin-page-the-anatomy-of-large-scale-hypertextual-web-search-engine"],
+  "description": "Computing PageRank on small graphs by hand — an application of linear algebra and iterative methods to web-scale information retrieval",
+  "filename": "content.md",
+  "prerequisites": []
+}

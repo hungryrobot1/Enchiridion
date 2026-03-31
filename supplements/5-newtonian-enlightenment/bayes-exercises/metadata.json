@@ -1,0 +1,9 @@
+{
+  "title": "Bayes Exercises",
+  "type": "exercise-set",
+  "era": "newtonian-enlightenment",
+  "texts": ["bayes-essay-towards-solving-a-problem-in-doctrine-of-chances"],
+  "description": "Applying Bayesian reasoning to concrete problems — prior and posterior probabilities, updating beliefs with evidence",
+  "filename": "content.md",
+  "prerequisites": []
+}

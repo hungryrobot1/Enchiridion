@@ -1,0 +1,9 @@
+{
+  "title": "Bernoulli's Ars Conjectandi",
+  "type": "study-guide",
+  "era": "newtonian-enlightenment",
+  "texts": ["bernoulli-ars-conjectandi-french"],
+  "description": "Key results from Ars Conjectandi for non-French readers — combinatorial probability, the law of large numbers, and Bernoulli's contribution to the probability thread",
+  "filename": "content.md",
+  "prerequisites": []
+}

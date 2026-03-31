@@ -1,0 +1,9 @@
+{
+  "title": "Dirac's Quantum Theory of the Electron",
+  "type": "study-guide",
+  "era": "modern-era-i",
+  "texts": ["dirac-quantum-theory-of-the-electron"],
+  "description": "The conceptual core of Dirac's paper — unifying quantum mechanics with special relativity and the prediction of antimatter, framed for readers following the physics conceptually",
+  "filename": "content.md",
+  "prerequisites": []
+}

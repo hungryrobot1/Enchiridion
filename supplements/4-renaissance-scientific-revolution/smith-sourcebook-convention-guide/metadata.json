@@ -1,0 +1,9 @@
+{
+  "title": "Navigating the Source Book in Mathematics",
+  "type": "convention-guide",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["smith-source-book-in-mathematics"],
+  "description": "How to use Smith's anthology — index of primary sources contained within (Viète, Fermat, Wallis, and others not individually archived in the library), and what to look for in each",
+  "filename": "content.md",
+  "prerequisites": []
+}

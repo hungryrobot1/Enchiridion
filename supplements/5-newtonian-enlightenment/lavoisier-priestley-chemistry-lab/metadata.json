@@ -1,0 +1,9 @@
+{
+  "title": "Chemistry Lab — Combustion and Gases",
+  "type": "lab-manual",
+  "era": "newtonian-enlightenment",
+  "texts": ["lavoisier-elements-of-chemistry", "priestley-experiments-and-observations-on-different-kinds-of-air"],
+  "description": "Safe, at-home experiments demonstrating conservation of mass in combustion and basic properties of gases — designed around household materials, no hazardous chemicals",
+  "filename": "content.md",
+  "prerequisites": []
+}

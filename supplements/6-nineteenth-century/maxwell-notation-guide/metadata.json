@@ -1,0 +1,9 @@
+{
+  "title": "Maxwell Notation Guide",
+  "type": "notation-guide",
+  "era": "nineteenth-century",
+  "texts": ["maxwell-elementary-treatise-on-electricity", "maxwell-treatise-on-electricity-and-magnitism"],
+  "description": "Maxwell's original formulation of electromagnetism mapped to the modern four equations — from 20 equations in component form to the compact vector calculus notation",
+  "filename": "content.md",
+  "prerequisites": []
+}

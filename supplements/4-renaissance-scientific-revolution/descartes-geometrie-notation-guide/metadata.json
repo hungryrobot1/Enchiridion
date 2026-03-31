@@ -1,0 +1,9 @@
+{
+  "title": "Descartes La Géométrie Notation Guide",
+  "type": "notation-guide",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["descartes-la-geometrie"],
+  "description": "Descartes' notation and methods in La Géométrie mapped to modern analytic geometry, focused on Livre Premier — a bridge until an original English translation is produced",
+  "filename": "content.md",
+  "prerequisites": []
+}

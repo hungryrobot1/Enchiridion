@@ -1,0 +1,9 @@
+{
+  "title": "Continuity and Infinity",
+  "type": "study-guide",
+  "era": "nineteenth-century",
+  "texts": ["dedekind-essays-on-theory-of-numbers", "cantor-transfinite-numbers"],
+  "description": "Retracing the continuity thread from Euclid Book X (incommensurable magnitudes) and Archimedes through Dedekind's cuts and Cantor's transfinite numbers — what these formalizations resolve and what new questions they open",
+  "filename": "content.md",
+  "prerequisites": []
+}

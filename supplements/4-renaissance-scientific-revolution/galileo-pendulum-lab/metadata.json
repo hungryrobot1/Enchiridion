@@ -1,0 +1,9 @@
+{
+  "title": "Pendulum Lab",
+  "type": "lab-manual",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["galileo-two-new-sciences"],
+  "description": "Investigating pendulum motion — period vs. length, amplitude independence, and an introduction to periodic motion",
+  "filename": "content.md",
+  "prerequisites": []
+}

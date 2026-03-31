@@ -1,0 +1,9 @@
+{
+  "title": "Electrostatics Lab",
+  "type": "lab-manual",
+  "era": "nineteenth-century",
+  "texts": ["franklin-experiments-and-observations-on-electricity"],
+  "description": "Static electricity experiments with household materials — charging by friction, electrostatic attraction and repulsion, building a simple capacitor",
+  "filename": "content.md",
+  "prerequisites": []
+}

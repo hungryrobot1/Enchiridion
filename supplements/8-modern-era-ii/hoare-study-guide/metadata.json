@@ -1,0 +1,9 @@
+{
+  "title": "Hoare Logic and Program Verification",
+  "type": "study-guide",
+  "era": "modern-era-ii",
+  "texts": ["hoare-an-axiomatic-basis-for-computer-programming"],
+  "description": "Hoare triples, preconditions and postconditions, and the basics of proving programs correct — what it means to verify software formally",
+  "filename": "content.md",
+  "prerequisites": []
+}

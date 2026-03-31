@@ -1,0 +1,9 @@
+{
+  "title": "Alhazen Optics Exercises",
+  "type": "exercise-set",
+  "era": "islamic-golden-age-medieval",
+  "texts": ["alhazen-book-of-optics"],
+  "description": "Ray diagrams and geometric problems in reflection and refraction using Alhazen's approach",
+  "filename": "content.md",
+  "prerequisites": []
+}

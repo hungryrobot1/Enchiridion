@@ -1,0 +1,9 @@
+{
+  "title": "Lavoisier Notation Guide",
+  "type": "notation-guide",
+  "era": "newtonian-enlightenment",
+  "texts": ["lavoisier-elements-of-chemistry"],
+  "description": "Lavoisier's chemical nomenclature translated to modern chemical symbols and formulas",
+  "filename": "content.md",
+  "prerequisites": []
+}

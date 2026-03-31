@@ -1,0 +1,9 @@
+{
+  "title": "Diffie-Hellman Key Exchange Exercises",
+  "type": "exercise-set",
+  "era": "modern-era-ii",
+  "texts": ["diffie-helman-new-directions-in-cryptography"],
+  "description": "Working through the Diffie-Hellman key exchange by hand with small numbers — modular arithmetic, discrete logarithms, and the birth of public-key cryptography",
+  "filename": "content.md",
+  "prerequisites": []
+}

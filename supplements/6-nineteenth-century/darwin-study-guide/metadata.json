@@ -1,0 +1,9 @@
+{
+  "title": "Reading the Origin of Species",
+  "type": "study-guide",
+  "era": "nineteenth-century",
+  "texts": ["darwin-origin-of-species"],
+  "description": "The structure of Darwin's 'one long argument' — how the chapters build on each other, what to watch for, and exercises in applying natural selection reasoning to examples",
+  "filename": "content.md",
+  "prerequisites": []
+}

@@ -1,0 +1,9 @@
+{
+  "title": "The Three 1953 DNA Papers",
+  "type": "study-guide",
+  "era": "modern-era-ii",
+  "texts": ["watson-crick-molecular-structure-of-nucleic-acids", "franklin-gosling-molecular-configuration-in-sodium-thymonucleate", "wilkins-stokes-wilson-molecular-structure-of-deoxypentose-nucleic-acids"],
+  "description": "Reading Watson/Crick, Franklin/Gosling, and Wilkins/Stokes/Wilson together — what each paper contributes, the experimental evidence behind the double helix, and the story of discovery",
+  "filename": "content.md",
+  "prerequisites": []
+}

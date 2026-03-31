@@ -1,0 +1,9 @@
+{
+  "title": "Martin-Löf and Constructive Type Theory",
+  "type": "study-guide",
+  "era": "modern-era-ii",
+  "texts": ["martin-lof-logical-constants"],
+  "description": "What constructive type theory means and why it matters — for mathematics (proofs as programs) and for programming (types as propositions)",
+  "filename": "content.md",
+  "prerequisites": []
+}

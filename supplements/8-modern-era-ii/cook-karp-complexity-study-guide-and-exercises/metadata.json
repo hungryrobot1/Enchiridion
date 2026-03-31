@@ -1,0 +1,9 @@
+{
+  "title": "NP-Completeness — Study Guide & Exercises",
+  "type": "exercise-set",
+  "era": "modern-era-ii",
+  "texts": ["cook-complexity-of-theorem-proving-procedures", "karp-reducibility-among-combinatorial-problems"],
+  "description": "What NP-completeness means, the significance of P vs NP, and exercises on polynomial-time reductions between combinatorial problems",
+  "filename": "content.md",
+  "prerequisites": []
+}

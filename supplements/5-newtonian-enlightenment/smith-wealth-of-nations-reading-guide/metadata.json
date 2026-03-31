@@ -1,0 +1,9 @@
+{
+  "title": "Reading The Wealth of Nations",
+  "type": "study-guide",
+  "era": "newtonian-enlightenment",
+  "texts": ["smith-wealth-of-nations"],
+  "description": "Recommended selections from The Wealth of Nations — key chapters on division of labor, markets, and the role of government",
+  "filename": "content.md",
+  "prerequisites": []
+}

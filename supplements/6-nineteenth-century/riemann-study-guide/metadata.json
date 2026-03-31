@@ -1,0 +1,9 @@
+{
+  "title": "Riemann and Non-Euclidean Geometry",
+  "type": "study-guide",
+  "era": "nineteenth-century",
+  "texts": ["riemann-on-the-hypotheses-which-lie-at-the-bases-of-geometry"],
+  "description": "Framing Riemann's revolution — what does it mean for geometry to be non-Euclidean? The parallel postulate payoff from Euclid, and questions about the geometry of physical space",
+  "filename": "content.md",
+  "prerequisites": []
+}

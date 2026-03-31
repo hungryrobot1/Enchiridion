@@ -1,0 +1,9 @@
+{
+  "title": "McCulloch-Pitts: Neurons as Logic",
+  "type": "study-guide",
+  "era": "modern-era-ii",
+  "texts": ["mucculloch-pitts-a-logical-calculus-of-the-ideas-immanent-in-nervious-activity"],
+  "description": "The first neural network model — neurons as logical gates, what McCulloch and Pitts achieved, and the conceptual bridge to Minsky and backpropagation",
+  "filename": "content.md",
+  "prerequisites": []
+}

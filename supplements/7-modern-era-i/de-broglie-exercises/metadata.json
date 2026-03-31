@@ -1,0 +1,9 @@
+{
+  "title": "De Broglie Wave-Particle Exercises",
+  "type": "exercise-set",
+  "era": "modern-era-i",
+  "texts": ["de-broglie-on-the-theory-of-quanta"],
+  "description": "Computing de Broglie wavelengths for various particles and exploring the implications of wave-particle duality",
+  "filename": "content.md",
+  "prerequisites": []
+}

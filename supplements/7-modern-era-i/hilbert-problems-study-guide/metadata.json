@@ -1,0 +1,9 @@
+{
+  "title": "Hilbert's Mathematical Problems",
+  "type": "study-guide",
+  "era": "modern-era-i",
+  "texts": ["hilbert-mathematical-problems"],
+  "description": "A companion to the 1900 Paris address — context for each problem, which have been solved, which remain open, and how they connect to living mathematics",
+  "filename": "content.md",
+  "prerequisites": []
+}

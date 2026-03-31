@@ -1,0 +1,9 @@
+{
+  "title": "Einstein: Special Relativity — Notation Guide & Exercises",
+  "type": "exercise-set",
+  "era": "modern-era-i",
+  "texts": ["einstein-on-electrodynamics-of-moving-bodies", "einstein-does-inertia-of-a-body-depend-upon-its-content"],
+  "description": "Einstein's 1905 papers in modern notation — Lorentz transformations, time dilation, length contraction, and the E=mc² derivation with worked exercises",
+  "filename": "content.md",
+  "prerequisites": []
+}

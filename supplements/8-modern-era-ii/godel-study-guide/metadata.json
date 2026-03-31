@@ -1,0 +1,9 @@
+{
+  "title": "Gödel's Incompleteness Theorems",
+  "type": "study-guide",
+  "era": "modern-era-ii",
+  "texts": ["godel-on-formally-undecidable-propositions"],
+  "description": "What the incompleteness theorems actually prove and don't — self-reference, the diagonal method, connection to Cantor, and common misunderstandings",
+  "filename": "content.md",
+  "prerequisites": []
+}

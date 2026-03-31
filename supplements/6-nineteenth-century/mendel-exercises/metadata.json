@@ -1,0 +1,9 @@
+{
+  "title": "Mendel Genetics Exercises",
+  "type": "exercise-set",
+  "era": "nineteenth-century",
+  "texts": ["mendel-experiments-on-plant-hybridization"],
+  "description": "Punnett squares, probability of trait inheritance, dominance and recessiveness — connecting Mendel's experiments to the probability thread",
+  "filename": "content.md",
+  "prerequisites": []
+}

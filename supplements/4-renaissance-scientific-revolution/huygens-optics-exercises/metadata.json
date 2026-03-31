@@ -1,0 +1,9 @@
+{
+  "title": "Huygens Optics Exercises",
+  "type": "exercise-set",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["huygens-treatise-on-light"],
+  "description": "Applying Huygens' principle to derive the laws of reflection and refraction geometrically",
+  "filename": "content.md",
+  "prerequisites": []
+}

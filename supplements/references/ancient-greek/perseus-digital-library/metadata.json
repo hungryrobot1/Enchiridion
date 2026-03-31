@@ -1,0 +1,9 @@
+{
+  "title": "Perseus Digital Library — Greek & Roman Collection (Online)",
+  "type": "reference",
+  "topic": "ancient-greek",
+  "texts": [],
+  "description": "Full-text Greek and Roman works with morphological analysis, interlinear glosses, and linked lexicon entries",
+  "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman",
+  "prerequisites": []
+}

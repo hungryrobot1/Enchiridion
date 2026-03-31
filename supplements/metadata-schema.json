@@ -3,7 +3,7 @@
   "title": "Enchiridion Supplement Metadata",
   "description": "Schema for metadata.json files in each supplement directory",
   "type": "object",
-  "required": ["title", "type", "texts", "filename"],
+  "required": ["title", "type", "texts"],
   "properties": {
     "title": {
       "type": "string",
@@ -48,7 +48,12 @@
     },
     "filename": {
       "type": "string",
-      "description": "Filename of the supplement content file (e.g., content.md)"
+      "description": "Filename of the supplement content file (e.g., content.md). Optional for online-only references."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for online references (e.g., Perseus Digital Library). Opens in a new tab."
     },
     "prerequisites": {
       "type": "array",

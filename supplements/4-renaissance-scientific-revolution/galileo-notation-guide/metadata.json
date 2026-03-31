@@ -1,0 +1,9 @@
+{
+  "title": "Galileo Notation Guide",
+  "type": "notation-guide",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["galileo-two-new-sciences"],
+  "description": "Galileo's proportional reasoning translated to modern equations of motion — ratios become s = ½at²",
+  "filename": "content.md",
+  "prerequisites": []
+}

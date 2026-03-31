@@ -1,0 +1,9 @@
+{
+  "title": "Al-Khwarizmi Exercise Set",
+  "type": "exercise-set",
+  "era": "islamic-golden-age-medieval",
+  "texts": ["al-khwarizmi-algebra"],
+  "description": "Solve Al-Khwarizmi's problems using his rhetorical methods, then again in modern notation — feel the transition from geometric to algebraic reasoning",
+  "filename": "content.md",
+  "prerequisites": ["al-khwarizmi-notation-guide"]
+}

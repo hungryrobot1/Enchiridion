@@ -1,0 +1,9 @@
+{
+  "title": "Napier Notation Guide",
+  "type": "notation-guide",
+  "era": "renaissance-scientific-revolution",
+  "texts": ["napier-construction-of-the-wonderful-canon-of-logarithms"],
+  "description": "Napier's original logarithmic definitions and tables translated to modern logarithmic notation",
+  "filename": "content.md",
+  "prerequisites": []
+}

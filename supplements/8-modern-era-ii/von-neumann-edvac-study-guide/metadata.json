@@ -1,0 +1,9 @@
+{
+  "title": "Von Neumann and the Stored-Program Computer",
+  "type": "study-guide",
+  "era": "modern-era-ii",
+  "texts": ["von-neumann-edvac"],
+  "description": "The EDVAC report and the stored-program architecture — fetch-decode-execute, memory as unified storage for code and data, and why this design dominates computing",
+  "filename": "content.md",
+  "prerequisites": []
+}

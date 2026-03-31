@@ -1,0 +1,9 @@
+{
+  "title": "Reading the Principia",
+  "type": "study-guide",
+  "era": "newtonian-enlightenment",
+  "texts": ["newton-principia"],
+  "description": "The structure of the Principia — method of first and last ratios, how to work through propositions, and the relationship between Newton's geometric arguments and modern calculus",
+  "filename": "content.md",
+  "prerequisites": ["euclid-reading-companion"]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "General Relativity — Conceptual Guide",
+  "type": "study-guide",
+  "era": "modern-era-i",
+  "texts": ["einstein-foundation-of-general-theory-of-relativity", "einstein-relativity-special-and-general-theory-popular"],
+  "description": "The key ideas of general relativity framed conceptually — equivalence principle, curvature of spacetime, geodesics — without requiring tensor calculus. Pairs the technical 1916 paper with the popular account",
+  "filename": "content.md",
+  "prerequisites": []
+}

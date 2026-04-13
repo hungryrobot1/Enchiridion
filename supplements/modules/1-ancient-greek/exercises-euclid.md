@@ -2,7 +2,7 @@
 
 *Additional translation passages from Euclid's Elements to accompany the Ancient Greek module. The Elements is your primary Greek text from Chapter 1 onward — these exercises give you more material to work through at your own pace.*
 
-*The interlinear translation in your library (`texts/1-ancient-greece/euclid-elements`) is your main reference. Work from the Greek, consult the LSJ for unfamiliar words, and check yourself against the English. No Perseus links are provided here — Euclid's Greek is best read alongside the diagrams in the text itself.*
+*The interlinear translation in your library is your main reference. Work from the Greek, consult the LSJ for unfamiliar words, and check yourself against the English. No Perseus links are provided here — Euclid's Greek is best read alongside the diagrams in the text itself.*
 
 ---
 

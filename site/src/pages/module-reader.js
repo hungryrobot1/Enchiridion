@@ -126,6 +126,9 @@ async function renderChapter(container, mod, filename, texts) {
     const reader = (await import('../readers/md-reader.js')).default;
     cleanup = await reader.render(viewport, contentUrl, container);
 
+    // Rewrite relative .md links to module routes
+    rewriteModuleLinks(viewport, mod);
+
     // Add chapter navigation after content loads
     const nav = document.createElement('div');
     nav.className = 'module-reader__nav';
@@ -216,6 +219,7 @@ async function renderResource(container, mod, filename) {
   try {
     const reader = (await import('../readers/md-reader.js')).default;
     cleanup = await reader.render(viewport, contentUrl, container);
+    rewriteModuleLinks(viewport, mod);
   } catch (err) {
     console.error('Resource reader error:', err);
     viewport.innerHTML = `
@@ -230,4 +234,28 @@ async function renderResource(container, mod, filename) {
   return () => {
     if (cleanup) cleanup();
   };
+}
+
+/**
+ * Rewrite relative .md links inside rendered module content
+ * to proper hash-based routes (chapter or resource).
+ */
+function rewriteModuleLinks(container, mod) {
+  container.querySelectorAll('a[href]').forEach(a => {
+    const href = a.getAttribute('href');
+    if (!href || href.startsWith('http') || href.startsWith('#')) return;
+    if (!href.endsWith('.md')) return;
+
+    const filename = href.split('/').pop();
+
+    if (mod.chapters.some(ch => ch.filename === filename)) {
+      a.setAttribute('href', `#/module/${mod.id}/${filename}`);
+      return;
+    }
+
+    if (mod.resources && mod.resources.some(r => r.filename === filename)) {
+      a.setAttribute('href', `#/module/${mod.id}/resource/${filename}`);
+      return;
+    }
+  });
 }

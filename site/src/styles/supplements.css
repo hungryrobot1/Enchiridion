@@ -177,6 +177,16 @@
   padding: var(--space-lg);
 }
 
+.md-reader a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.md-reader a:hover {
+  text-decoration-thickness: 2px;
+}
+
 .md-reader h1,
 .md-reader h2,
 .md-reader h3,

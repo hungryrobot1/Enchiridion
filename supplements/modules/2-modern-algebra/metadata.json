@@ -1,0 +1,59 @@
+{
+  "title": "Modern Algebra",
+  "type": "module",
+  "description": "From variables and unknowns through calculus-readiness — following the historical development of algebraic thinking from Diophantus through Euler. The module traces the transition from geometric to algebraic reasoning, develops symbolic notation alongside the primary texts, and introduces trigonometry and logarithms as they arise from the physics.",
+  "prerequisites": [],
+  "references": [],
+  "chapters": [
+    {
+      "filename": "01-variables-unknowns-and-equations.md",
+      "title": "Variables, Unknowns, and Equations",
+      "alongside": ["diophantus-arithmetica"]
+    },
+    {
+      "filename": "02-from-geometric-to-algebraic-reasoning.md",
+      "title": "From Geometric to Algebraic Reasoning",
+      "alongside": ["diophantus-arithmetica", "al-khwarizmi-algebra", "fibonacci-liber-abaci"]
+    },
+    {
+      "filename": "03-completing-the-square-and-equation-types.md",
+      "title": "Completing the Square and Equation Types",
+      "alongside": ["diophantus-arithmetica", "al-khwarizmi-algebra"]
+    },
+    {
+      "filename": "04-symbolic-notation-and-polynomials.md",
+      "title": "Symbolic Notation and Polynomials",
+      "alongside": ["descartes-la-geometrie"]
+    },
+    {
+      "filename": "05-factoring-and-polynomial-equations.md",
+      "title": "Factoring and Polynomial Equations",
+      "alongside": ["descartes-la-geometrie"]
+    },
+    {
+      "filename": "06-mathematical-induction-and-binomial-coefficients.md",
+      "title": "Mathematical Induction and the Binomial Coefficients",
+      "alongside": ["pascal-arithmetic-triangle"]
+    },
+    {
+      "filename": "07-sequences-series-and-generating-rules.md",
+      "title": "Sequences, Series, and Generating Rules",
+      "alongside": []
+    },
+    {
+      "filename": "08-trigonometric-ratios.md",
+      "title": "Trigonometric Ratios",
+      "alongside": ["galileo-two-new-sciences", "kepler-harmonies-book-v", "huygens-treatise-on-light"]
+    },
+    {
+      "filename": "09-logarithmic-and-exponential-functions.md",
+      "title": "Logarithmic and Exponential Functions",
+      "alongside": ["napier-construction-of-the-wonderful-canon-of-logarithms"]
+    },
+    {
+      "filename": "10-pre-calculus-synthesis.md",
+      "title": "Pre-Calculus Synthesis",
+      "alongside": ["euler-elements-of-algebra"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "What Is Life?",
+  "author": "Erwin Schrödinger",
+  "translator": null,
+  "year_written": 1944,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "whatislife-schrodinger.pdf",
+  "description": "Schrödinger's exploration of how physics and chemistry account for the events in living cells, anticipating the discovery of DNA's structure",
+  "topics": ["biology", "physics", "genetics", "philosophy-of-science"],
+  "era": "modern-era-i",
+  "prerequisites": ["mendel-experiments-on-plant-hybridization", "de-broglie-on-the-theory-of-quanta"]
+}

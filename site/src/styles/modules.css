@@ -1,0 +1,293 @@
+/* Modules listing page */
+.modules__header {
+  text-align: center;
+  margin-bottom: var(--space-3xl);
+}
+
+.modules__header h1 {
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+.modules__header p {
+  color: var(--color-text-secondary);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  max-width: var(--max-width-text);
+  margin: 0 auto;
+}
+
+/* Module cards — reuses supplements__era pattern */
+.modules__module {
+  margin-bottom: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.modules__toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--color-surface);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background var(--transition);
+}
+
+.modules__toggle:hover {
+  background: var(--color-bg-alt);
+}
+
+.modules__toggle h2 {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  font-weight: 600;
+  flex: 1;
+}
+
+.modules__count {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.modules__chevron {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.modules__content {
+  display: none;
+  padding: 0 var(--space-lg) var(--space-lg);
+  background: var(--color-surface);
+}
+
+.modules__content--open {
+  display: block;
+}
+
+.modules__description {
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.modules__prerequisites {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-lg);
+}
+
+.modules__prerequisites a {
+  color: var(--color-accent);
+}
+
+/* Section headings within a module */
+.modules__section-heading {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-sm);
+  margin-top: var(--space-lg);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Chapter list */
+.modules__chapters {
+  list-style: none;
+  counter-reset: chapter-counter -1;
+}
+
+.modules__chapters li {
+  border-bottom: 1px solid var(--color-bg-alt);
+  counter-increment: chapter-counter;
+}
+
+.modules__chapters li:last-child {
+  border-bottom: none;
+}
+
+.modules__chapter-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: var(--space-sm);
+  border-radius: 4px;
+  transition: background var(--transition);
+  gap: var(--space-md);
+}
+
+.modules__chapter-link:hover {
+  background: var(--color-bg-alt);
+}
+
+.modules__chapter-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  color: var(--color-accent);
+}
+
+.modules__chapter-title::before {
+  content: counter(chapter-counter) ". ";
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.modules__chapter-alongside {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* Resource list */
+.modules__resources {
+  list-style: none;
+}
+
+.modules__resources li {
+  border-bottom: 1px solid var(--color-bg-alt);
+}
+
+.modules__resources li:last-child {
+  border-bottom: none;
+}
+
+.modules__resource-link {
+  display: block;
+  padding: var(--space-sm);
+  border-radius: 4px;
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  color: var(--color-accent);
+  transition: background var(--transition);
+}
+
+.modules__resource-link:hover {
+  background: var(--color-bg-alt);
+}
+
+/* Reference list */
+.modules__references {
+  list-style: none;
+}
+
+.modules__references li {
+  border-bottom: 1px solid var(--color-bg-alt);
+}
+
+.modules__references li:last-child {
+  border-bottom: none;
+}
+
+.modules__ref-link {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-sm);
+  border-radius: 4px;
+  transition: background var(--transition);
+  gap: 2px;
+}
+
+.modules__ref-link:hover {
+  background: var(--color-bg-alt);
+}
+
+.modules__ref-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  color: var(--color-accent);
+}
+
+.modules__ref-description {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+/* Module reader — chapter navigation */
+.module-reader__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  gap: var(--space-md);
+}
+
+.module-reader__nav-btn {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--color-accent);
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: var(--space-sm) var(--space-md);
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+  max-width: 45%;
+}
+
+.module-reader__nav-btn:hover {
+  background: var(--color-bg-alt);
+  border-color: var(--color-accent);
+}
+
+.module-reader__nav-btn--disabled {
+  visibility: hidden;
+}
+
+.module-reader__nav-label {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-bottom: 2px;
+}
+
+.module-reader__nav-title {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .modules__toggle {
+    padding: var(--space-md);
+  }
+
+  .modules__content {
+    padding: 0 var(--space-md) var(--space-md);
+  }
+
+  .modules__chapter-link {
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .module-reader__nav {
+    flex-direction: column;
+  }
+
+  .module-reader__nav-btn {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .module-reader__nav-btn--disabled {
+    display: none;
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Computation from First Principles",
+  "type": "module",
+  "description": "The physical story of computation — from Boolean algebra and logic gates through machine architecture to assembly language. Exercises are pen-and-paper or web-simulator based; hands-on electrical work lives in a separate lab supplement.",
+  "prerequisites": ["2-modern-algebra"],
+  "references": [],
+  "chapters": [
+    {
+      "filename": "01-boolean-algebra-and-the-algebra-of-logic.md",
+      "title": "Boolean Algebra and the Algebra of Logic",
+      "alongside": ["boole-investigation-of-the-laws-of-thought", "leibniz-binary-arithmetic"]
+    },
+    {
+      "filename": "02-logic-gates-and-shannons-insight.md",
+      "title": "Logic Gates and Shannon's Insight",
+      "alongside": ["shannon-symbolic-analysis-of-relay-and-switching"]
+    },
+    {
+      "filename": "03-combinational-logic.md",
+      "title": "Combinational Logic — From Gates to Arithmetic",
+      "alongside": ["shannon-symbolic-analysis-of-relay-and-switching"]
+    },
+    {
+      "filename": "04-sequential-logic.md",
+      "title": "Sequential Logic — Memory, State, and Clocks",
+      "alongside": []
+    },
+    {
+      "filename": "05-machine-architecture.md",
+      "title": "Machine Architecture — The Von Neumann Model",
+      "alongside": ["von-neumann-edvac"]
+    },
+    {
+      "filename": "06-information-encoding-and-communication.md",
+      "title": "Information, Encoding, and Communication",
+      "alongside": ["shannon-a-mathematical-theory-of-communication"]
+    },
+    {
+      "filename": "07-assembly-language.md",
+      "title": "Assembly Language — Writing for the Machine",
+      "alongside": []
+    },
+    {
+      "filename": "08-from-turing-machines-to-physical-computers.md",
+      "title": "From Turing Machines to Physical Computers — Capstone",
+      "alongside": ["turing-on-computable-numbers", "lovelace-sketch-of-the-analytical-engine"]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Foundations of Modern Mathematics",
+  "type": "module",
+  "description": "A survey of the 19th-century mathematical explosion and the foundations crisis — from complex numbers and rigorous analysis through set theory and non-Euclidean geometry to formal logic and Gödel's incompleteness. Like the Programming Languages module, this is a survey: each chapter opens a door to an area of modern mathematics, building reading competence rather than deep mastery.",
+  "prerequisites": ["3-calculus"],
+  "references": [],
+  "chapters": [
+    {
+      "filename": "01-complex-numbers-and-the-algebraic-closure.md",
+      "title": "Complex Numbers and the Algebraic Closure",
+      "alongside": ["euler-elements-of-algebra"]
+    },
+    {
+      "filename": "02-sequences-series-and-convergence-revisited.md",
+      "title": "Sequences, Series, and Convergence — Revisited",
+      "alongside": []
+    },
+    {
+      "filename": "03-the-real-numbers-and-dedekind-cuts.md",
+      "title": "The Real Numbers and Dedekind Cuts",
+      "alongside": ["dedekind-essays-on-theory-of-numbers"]
+    },
+    {
+      "filename": "04-set-theory-and-the-transfinite.md",
+      "title": "Set Theory and the Transfinite",
+      "alongside": ["cantor-transfinite-numbers"]
+    },
+    {
+      "filename": "05-linear-algebra-and-vector-spaces.md",
+      "title": "Linear Algebra and Vector Spaces",
+      "alongside": ["cayley-memoir-on-the-theory-of-matrices"]
+    },
+    {
+      "filename": "06-non-euclidean-geometry-and-intrinsic-curvature.md",
+      "title": "Non-Euclidean Geometry and Intrinsic Curvature",
+      "alongside": ["lobachevsky-theory-of-parallels", "gauss-general-investigations-of-curved-surfaces"]
+    },
+    {
+      "filename": "07-riemann-and-the-generalization-of-space.md",
+      "title": "Riemann and the Generalization of Space",
+      "alongside": ["riemann-on-the-hypotheses-which-lie-at-the-bases-of-geometry"]
+    },
+    {
+      "filename": "08-axiomatics-and-hilberts-program.md",
+      "title": "Axiomatics and Hilbert's Program",
+      "alongside": ["hilbert-foundations-of-geometry", "hilbert-mathematical-problems"]
+    },
+    {
+      "filename": "09-formal-logic-and-the-foundations-crisis.md",
+      "title": "Formal Logic and the Foundations Crisis",
+      "alongside": ["frege-grundlagen-der-arithmetik-german", "russell-introduction-to-mathematical-philosophy"]
+    },
+    {
+      "filename": "10-godels-incompleteness-capstone.md",
+      "title": "Gödel's Incompleteness — Capstone",
+      "alongside": ["godel-on-formally-undecidable-propositions"]
+    }
+  ]
+}

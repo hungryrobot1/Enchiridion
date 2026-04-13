@@ -1,0 +1,15 @@
+{
+  "title": "Slave Memories and Dynamic Storage Allocation",
+  "author": "Maurice V. Wilkes",
+  "translator": null,
+  "year_written": 1965,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "wilkes.pdf",
+  "description": "Seminal paper introducing the concept of cache memory — a fast 'slave' memory that transparently accelerates access to a larger, slower main memory",
+  "topics": ["computer-science", "computer-architecture", "memory-systems"],
+  "era": "modern-era-ii",
+  "prerequisites": ["von-neumann-edvac", "wilkes-microprogramming"]
+}

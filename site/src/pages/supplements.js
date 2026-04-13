@@ -27,39 +27,27 @@ export async function renderSupplements(container) {
     return;
   }
 
-  // Separate era supplements from references
+  // Filter out references (now shown on the Modules page)
   const eraSupplements = supplements.filter(s => s.type !== 'reference');
-  const references = supplements.filter(s => s.type === 'reference');
 
   // Group era supplements by era, then by type
   const byEra = {};
   for (const era of facets.eras) {
     byEra[era.id] = {
       display: era.display,
-      count: era.count,
+      count: eraSupplements.filter(s => s.era === era.id).length,
       supplements: eraSupplements.filter(s => s.era === era.id),
     };
   }
 
-  // Group references by topic
-  const byTopic = {};
-  for (const ref of references) {
-    const topic = ref.topic || 'other';
-    if (!byTopic[topic]) byTopic[topic] = [];
-    byTopic[topic].push(ref);
-  }
-
-  const topics = (facets.topics || []);
-
-  const eraCount = facets.eras.length;
-  const refCount = references.length;
+  const eraCount = facets.eras.filter(e => eraSupplements.some(s => s.era === e.id)).length;
   const supCount = eraSupplements.length;
 
   container.innerHTML = `
     <div class="page supplements">
       <header class="supplements__header">
         <h1>Supplements</h1>
-        <p>${supCount > 0 ? `${supCount} supplementary material${supCount !== 1 ? 's' : ''} across ${eraCount} section${eraCount !== 1 ? 's' : ''}` : 'Supplementary materials are being developed'}${refCount > 0 ? `${supCount > 0 ? ', plus ' : ''}${refCount} reference${refCount !== 1 ? 's' : ''}` : ''}.</p>
+        <p>${supCount > 0 ? `${supCount} supplementary material${supCount !== 1 ? 's' : ''} across ${eraCount} section${eraCount !== 1 ? 's' : ''}` : 'Supplementary materials are being developed'}.</p>
       </header>
 
       ${facets.eras.map(era => {
@@ -108,41 +96,6 @@ export async function renderSupplements(container) {
         `;
       }).join('')}
 
-      ${references.length > 0 ? `
-        <div class="supplements__divider">
-          <span>References</span>
-        </div>
-
-        ${topics.map(topic => {
-          const topicRefs = byTopic[topic.id] || [];
-          if (topicRefs.length === 0) return '';
-          return `
-            <section class="supplements__era">
-              <button class="supplements__era-toggle" data-era="ref-${topic.id}">
-                <h2>${topic.display}</h2>
-                <span class="supplements__era-count">${topic.count} reference${topic.count !== 1 ? 's' : ''}</span>
-                <span class="supplements__era-chevron">&#9662;</span>
-              </button>
-              <div class="supplements__era-content" id="sup-era-ref-${topic.id}">
-                <ul class="supplements__list">
-                  ${topicRefs.map(r => {
-                    const isUrlOnly = r.url && !r.path;
-                    const href = isUrlOnly ? r.url : `#/supplement/${encodeURIComponent(r.era_dir)}/${r.id}`;
-                    const target = isUrlOnly ? ' target="_blank" rel="noopener noreferrer"' : '';
-                    return `
-                    <li>
-                      <a href="${href}"${target} class="supplements__link">
-                        <span class="supplements__title">${r.title}</span>
-                        ${r.description ? `<span class="supplements__meta">${r.description}</span>` : ''}
-                      </a>
-                    </li>
-                  `;}).join('')}
-                </ul>
-              </div>
-            </section>
-          `;
-        }).join('')}
-      ` : ''}
     </div>
   `;
 

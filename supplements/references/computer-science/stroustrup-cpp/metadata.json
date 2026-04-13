@@ -1,0 +1,10 @@
+{
+  "title": "The C++ Programming Language",
+  "type": "reference",
+  "topic": "computer-science",
+  "texts": [],
+  "description": "Comprehensive reference for C++ by its creator — covers the language, standard library, and design philosophy (Stroustrup, 4th edition)",
+  "filename": "Stroustrup_book.pdf",
+  "format": "pdf",
+  "prerequisites": []
+}

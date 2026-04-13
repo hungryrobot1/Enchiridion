@@ -12,6 +12,8 @@ import { renderExplorer } from './pages/explorer.js';
 import { renderReader } from './pages/reader.js';
 import { renderSupplements } from './pages/supplements.js';
 import { renderSupplementReader } from './pages/supplement-reader.js';
+import { renderModules } from './pages/modules.js';
+import { renderModuleReader } from './pages/module-reader.js';
 import { renderDisclaimer } from './pages/disclaimer.js';
 
 const app = document.getElementById('app');
@@ -31,6 +33,9 @@ route('/explore', (container) => renderExplorer(container));
 route('/read/:era/:id', (container, params) => renderReader(container, params));
 route('/supplements', (container) => renderSupplements(container));
 route('/supplement/:era/:id', (container, params) => renderSupplementReader(container, params));
+route('/modules', (container) => renderModules(container));
+route('/module/:id/:chapter', (container, params) => renderModuleReader(container, params));
+route('/module/:id/resource/:filename', (container, params) => renderModuleReader(container, { id: params.id, chapter: `resource/${params.filename}` }));
 route('/disclaimer', (container) => renderDisclaimer(container));
 
 // Start

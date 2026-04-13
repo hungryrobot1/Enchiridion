@@ -1,0 +1,75 @@
+{
+  "title": "Introduction to Ancient Greek",
+  "type": "module",
+  "description": "Functional reading competence in Ancient Greek — enough to work through texts on Perseus with grammar and lexicon support. Attic Greek through Section 1, Koine transition in Section 2.",
+  "prerequisites": [],
+  "references": [
+    "smyth-greek-grammar",
+    "lsj-lexicon",
+    "perseus-digital-library",
+    "strong-greek-in-a-nutshell",
+    "blackie-greek-primer",
+    "wharton-sappho",
+    "burnet-early-greek-philosophy"
+  ],
+  "resources": [
+    {
+      "filename": "vocabulary.md",
+      "title": "Master Vocabulary List"
+    },
+    {
+      "filename": "exercises-euclid.md",
+      "title": "Translation Exercises: Euclid"
+    },
+    {
+      "filename": "exercises-philosophy.md",
+      "title": "Translation Exercises: Philosophy and Literature"
+    },
+    {
+      "filename": "exercises-bible.md",
+      "title": "Translation Exercises: The Bible"
+    }
+  ],
+  "chapters": [
+    {
+      "filename": "00-introduction.md",
+      "title": "Introduction & Expectations",
+      "alongside": []
+    },
+    {
+      "filename": "01-alphabet-and-reading-aloud.md",
+      "title": "The Greek Alphabet & Reading Aloud",
+      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+    },
+    {
+      "filename": "02-orienting-to-the-tools.md",
+      "title": "Orienting to the Tools — Smyth, Perseus, and the LSJ",
+      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+    },
+    {
+      "filename": "03-the-case-system-and-the-article.md",
+      "title": "The Case System and the Article",
+      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+    },
+    {
+      "filename": "04-noun-declensions-in-practice.md",
+      "title": "Noun Declensions in Practice",
+      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+    },
+    {
+      "filename": "05-verbs-tense-mood-and-the-participle.md",
+      "title": "Verbs: Tense, Mood, and the Participle",
+      "alongside": ["euclid-elements", "aristotle-categories", "aristotle-physics"]
+    },
+    {
+      "filename": "06-reading-attic-prose-and-verse.md",
+      "title": "Reading Attic Prose and Verse — Capstone",
+      "alongside": ["plato-meno"]
+    },
+    {
+      "filename": "07-koine-transition.md",
+      "title": "The Koine Transition",
+      "alongside": ["holy-bible-kjv"]
+    }
+  ]
+}

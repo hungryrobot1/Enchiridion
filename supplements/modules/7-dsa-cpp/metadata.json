@@ -1,0 +1,69 @@
+{
+  "title": "Data Structures, Algorithms, and Software Engineering in C++",
+  "type": "module",
+  "description": "The capstone module of the Enchiridion curriculum. Deep proficiency in C++ through data structures, algorithms, and software engineering — culminating in Stepanov and McJones's Elements of Programming. Stroustrup's The C++ Programming Language serves as the comprehensive reference.",
+  "prerequisites": ["6-programming-languages"],
+  "references": [],
+  "chapters": [
+    {
+      "filename": "01-cpp-foundations-types-and-memory.md",
+      "title": "C++ Foundations — Types and the Memory Model",
+      "alongside": []
+    },
+    {
+      "filename": "02-cpp-foundations-raii-and-the-standard-library.md",
+      "title": "C++ Foundations — RAII and the Standard Library",
+      "alongside": []
+    },
+    {
+      "filename": "03-arrays-strings-and-pointer-arithmetic.md",
+      "title": "Arrays, Strings, and Pointer Arithmetic",
+      "alongside": []
+    },
+    {
+      "filename": "04-linked-structures.md",
+      "title": "Linked Structures",
+      "alongside": []
+    },
+    {
+      "filename": "05-trees-and-binary-search.md",
+      "title": "Trees and Binary Search",
+      "alongside": []
+    },
+    {
+      "filename": "06-hash-tables-and-associative-containers.md",
+      "title": "Hash Tables and Associative Containers",
+      "alongside": []
+    },
+    {
+      "filename": "07-sorting-and-searching.md",
+      "title": "Sorting and Searching",
+      "alongside": []
+    },
+    {
+      "filename": "08-graphs-and-graph-algorithms.md",
+      "title": "Graphs and Graph Algorithms",
+      "alongside": []
+    },
+    {
+      "filename": "09-recursion-dynamic-programming-and-greedy-strategies.md",
+      "title": "Recursion, Dynamic Programming, and Greedy Strategies",
+      "alongside": []
+    },
+    {
+      "filename": "10-complexity-theory-and-np-completeness.md",
+      "title": "Complexity Theory and NP-Completeness",
+      "alongside": ["cook-complexity-of-theorem-proving-procedures", "karp-reducibility-among-combinatorial-problems"]
+    },
+    {
+      "filename": "11-generic-programming-and-abstraction.md",
+      "title": "Generic Programming and Abstraction",
+      "alongside": []
+    },
+    {
+      "filename": "12-elements-of-programming-capstone.md",
+      "title": "Elements of Programming — Capstone",
+      "alongside": []
+    }
+  ]
+}

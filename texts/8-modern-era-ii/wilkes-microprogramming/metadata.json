@@ -1,0 +1,15 @@
+{
+  "title": "Micro-programming and the Design of the Control Circuits in an Electronic Digital Computer",
+  "author": "Maurice V. Wilkes and J. B. Stringer",
+  "translator": null,
+  "year_written": 1953,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "wilkes52.pdf",
+  "description": "Introduction of microprogramming as a systematic method for designing the control unit of a stored-program computer",
+  "topics": ["computer-science", "computer-architecture", "hardware"],
+  "era": "modern-era-ii",
+  "prerequisites": ["von-neumann-edvac"]
+}

@@ -42,6 +42,10 @@ export async function renderLanding(container) {
           <h3>Explore Texts</h3>
           <p>Search, sort, and filter the full library by era, subject, author, or format.</p>
         </a>
+        <a href="#/modules" class="landing__card">
+          <h3>Modules</h3>
+          <p>Progressive skill-building sequences — from Ancient Greek to programming — that run alongside the primary texts.</p>
+        </a>
         <a href="#/read/${texts[0].era_dir}/${texts[0].id}" class="landing__card">
           <h3>Start Reading</h3>
           <p>Begin with ${texts[0].title} by ${texts[0].author} — the traditional starting point.</p>

@@ -1,0 +1,15 @@
+{
+  "title": "Geometrical Researches on the Theory of Parallels",
+  "author": "Nikolai Lobachevsky",
+  "translator": "George Bruce Halsted",
+  "year_written": 1840,
+  "year_translated": 1914,
+  "language": "English",
+  "original_language": "German",
+  "format": "pdf",
+  "filename": "geometricalresea00lobaiala.pdf",
+  "description": "Lobachevsky's development of non-Euclidean geometry, demonstrating a consistent geometry in which Euclid's parallel postulate does not hold",
+  "topics": ["mathematics", "geometry", "non-euclidean-geometry"],
+  "era": "nineteenth-century",
+  "prerequisites": ["gauss-general-investigations-of-curved-surfaces"]
+}

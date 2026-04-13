@@ -28,6 +28,25 @@
       "items": { "type": "string" },
       "description": "Directory names of reference materials useful alongside this module (e.g., textbooks, grammars)"
     },
+    "resources": {
+      "type": "array",
+      "description": "Additional files in the module directory (vocabulary lists, exercise supplements, etc.)",
+      "items": {
+        "type": "object",
+        "required": ["filename", "title"],
+        "properties": {
+          "filename": {
+            "type": "string",
+            "description": "Filename of the resource (e.g., vocabulary.md)"
+          },
+          "title": {
+            "type": "string",
+            "description": "Display title for the resource"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
     "chapters": {
       "type": "array",
       "description": "Ordered sequence of chapters in the module",

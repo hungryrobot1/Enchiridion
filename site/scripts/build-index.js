@@ -6,8 +6,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..', '..');
 const TEXTS_DIR = join(PROJECT_ROOT, 'texts');
 const SUPPLEMENTS_DIR = join(PROJECT_ROOT, 'supplements');
+const MODULES_DIR = join(SUPPLEMENTS_DIR, 'modules');
 const TEXT_OUTPUT = join(__dirname, '..', 'public', 'text-index.json');
 const SUPPLEMENT_OUTPUT = join(__dirname, '..', 'public', 'supplement-index.json');
+const MODULE_OUTPUT = join(__dirname, '..', 'public', 'module-index.json');
 
 const ERA_DISPLAY = {
   'ancient-greece': 'Ancient Greece (~600 BCE – 200 CE)',
@@ -281,9 +283,77 @@ function formatTopicDisplay(topic) {
     .join(' ');
 }
 
+async function buildModuleIndex() {
+  const modules = [];
+
+  // Read supplement index to resolve reference IDs
+  let supplementIndex;
+  try {
+    supplementIndex = JSON.parse(await readFile(SUPPLEMENT_OUTPUT, 'utf-8'));
+  } catch {
+    supplementIndex = { supplements: [] };
+  }
+  const allSupplements = supplementIndex.supplements || [];
+
+  let moduleDirs;
+  try {
+    moduleDirs = (await readdir(MODULES_DIR, { withFileTypes: true }))
+      .filter(d => d.isDirectory() && /^\d+-/.test(d.name))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  } catch {
+    console.log('No modules directory found, skipping module index');
+    await writeFile(MODULE_OUTPUT, JSON.stringify({ modules: [] }));
+    return;
+  }
+
+  for (const modDir of moduleDirs) {
+    const metaPath = join(MODULES_DIR, modDir.name, 'metadata.json');
+    let meta;
+    try {
+      meta = JSON.parse(await readFile(metaPath, 'utf-8'));
+    } catch {
+      console.warn(`Skipping module ${modDir.name}: could not read metadata`);
+      continue;
+    }
+
+    // Resolve reference IDs to full reference objects
+    const references = (meta.references || []).map(refId => {
+      const found = allSupplements.find(s => s.id === refId && s.type === 'reference');
+      if (found) {
+        const ref = { id: found.id, title: found.title, description: found.description || '' };
+        if (found.url) ref.url = found.url;
+        if (found.path) {
+          ref.era_dir = found.era_dir;
+          ref.path = found.path;
+        }
+        return ref;
+      }
+      return { id: refId, title: refId, description: '' };
+    });
+
+    modules.push({
+      id: modDir.name,
+      title: meta.title,
+      description: meta.description || '',
+      prerequisites: meta.prerequisites || [],
+      references,
+      resources: (meta.resources || []).map(r => ({ filename: r.filename, title: r.title })),
+      chapters: (meta.chapters || []).map(ch => ({
+        filename: ch.filename,
+        title: ch.title,
+        alongside: ch.alongside || [],
+      })),
+    });
+  }
+
+  await writeFile(MODULE_OUTPUT, JSON.stringify({ modules }));
+  console.log(`Built module-index.json: ${modules.length} modules`);
+}
+
 async function buildAll() {
   await buildTextIndex();
   await buildSupplementIndex();
+  await buildModuleIndex();
 }
 
 buildAll().catch(err => {

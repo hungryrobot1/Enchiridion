@@ -1,0 +1,22 @@
+{
+  "title": "General Investigations of Curved Surfaces",
+  "author": "Carl Friedrich Gauss",
+  "translator": "J.C. Morehead, A.M. Hiltebeitel",
+  "year_written": 1827,
+  "year_translated": 2011,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "pdf",
+  "filename": "36856-pdf.pdf",
+  "description": "Foundational treatise on differential geometry introducing Gaussian curvature and the Theorema Egregium",
+  "topics": [
+    "mathematics",
+    "geometry",
+    "differential-geometry"
+  ],
+  "era": "nineteenth-century",
+  "prerequisites": [
+    "newton-principia",
+    "euler-elements-of-algebra"
+  ]
+}

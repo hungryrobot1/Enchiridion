@@ -1,0 +1,15 @@
+{
+  "title": "Mémoire sur les conditions de résolubilité des équations par radicaux",
+  "author": "Évariste Galois",
+  "translator": null,
+  "year_written": 1831,
+  "year_translated": null,
+  "language": "French",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "40213-pdf.pdf",
+  "description": "Galois's first memoir, introducing the concept of a group of permutations to explain when and why polynomial equations are solvable by radicals — the founding document of group theory, published posthumously in 1846.",
+  "topics": ["mathematics", "algebra", "group theory"],
+  "era": "nineteenth-century",
+  "prerequisites": ["euler-elements-of-algebra", "abel-memoir"]
+}

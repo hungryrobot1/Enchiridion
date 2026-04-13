@@ -43,7 +43,7 @@
     {
       "filename": "08-axiomatics-and-hilberts-program.md",
       "title": "Axiomatics and Hilbert's Program",
-      "alongside": ["hilbert-foundations-of-geometry", "hilbert-mathematical-problems"]
+      "alongside": ["abel-memoir", "galois-memoir", "hilbert-foundations-of-geometry", "hilbert-mathematical-problems"]
     },
     {
       "filename": "09-formal-logic-and-the-foundations-crisis.md",

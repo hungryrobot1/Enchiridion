@@ -205,10 +205,16 @@
   margin-bottom: var(--space-md);
 }
 
-.md-reader ul,
+.md-reader ul {
+  margin-bottom: var(--space-md);
+  padding-left: var(--space-xl);
+  list-style: disc;
+}
+
 .md-reader ol {
   margin-bottom: var(--space-md);
   padding-left: var(--space-xl);
+  list-style: decimal;
 }
 
 .md-reader li {

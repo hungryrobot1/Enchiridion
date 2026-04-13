@@ -1,0 +1,15 @@
+{
+  "title": "Memoir on Algebraic Equations, Demonstrating the Impossibility of a Solution of the General Equation of the Fifth Degree",
+  "author": "Niels Henrik Abel",
+  "translator": "Peter Pesic",
+  "year_written": 1824,
+  "year_translated": 2003,
+  "language": "English",
+  "original_language": "French",
+  "format": "pdf",
+  "filename": "abels-proof-pesic-appendix-a.pdf",
+  "description": "Abel's proof that no general algebraic formula exists for solving polynomial equations of degree five or higher — a landmark impossibility result that closed a question open since antiquity.",
+  "topics": ["mathematics", "algebra", "group theory"],
+  "era": "nineteenth-century",
+  "prerequisites": ["euler-elements-of-algebra"]
+}

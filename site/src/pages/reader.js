@@ -1,6 +1,7 @@
 import { loadIndex } from '../lib/index-loader.js';
 import { loadSupplements } from '../lib/supplement-loader.js';
 import { buildRawUrl } from '../lib/url-builder.js';
+import { setupFullscreenToggle } from '../lib/fullscreen.js';
 import '../styles/reader.css';
 
 const BOOKMARK_KEY = 'enchiridion-bookmarks';
@@ -63,6 +64,7 @@ export async function renderReader(container, { era, id }) {
             </div>
           ` : ''}
           <button class="btn reader__download" title="Download">&#8595; Download</button>
+          <button class="reader__tool-btn reader__fullscreen" title="Toggle fullscreen" aria-label="Toggle fullscreen">&#x26F6;</button>
         </div>
       </div>
       <div class="reader__body">
@@ -143,6 +145,9 @@ export async function renderReader(container, { era, id }) {
     a.download = text.filename;
     a.click();
   });
+
+  // Fullscreen toggle
+  setupFullscreenToggle(container);
 
   // Mobile sidebar toggle
   const sidebar = container.querySelector('.reader__sidebar');

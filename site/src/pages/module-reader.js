@@ -1,6 +1,7 @@
 import { loadModules } from '../lib/module-loader.js';
 import { loadIndex } from '../lib/index-loader.js';
 import { buildRawUrl } from '../lib/url-builder.js';
+import { setupFullscreenToggle } from '../lib/fullscreen.js';
 import '../styles/modules.css';
 import '../styles/supplements.css';
 
@@ -67,7 +68,10 @@ async function renderChapter(container, mod, filename, texts) {
       <div class="reader__toolbar">
         <button class="reader__back">&larr; Back</button>
         <span class="reader__toolbar-title">${mod.title}</span>
-        <button class="btn reader__download" title="Download">&#8595; Download</button>
+        <div class="reader__toolbar-controls">
+          <button class="btn reader__download" title="Download">&#8595; Download</button>
+          <button class="reader__tool-btn reader__fullscreen" title="Toggle fullscreen" aria-label="Toggle fullscreen">&#x26F6;</button>
+        </div>
       </div>
       <div class="reader__body">
         <aside class="reader__sidebar">
@@ -117,6 +121,9 @@ async function renderChapter(container, mod, filename, texts) {
     const collapsed = sidebar.classList.toggle('reader__sidebar--collapsed');
     sidebarToggle.textContent = collapsed ? 'Show Details' : 'Hide Details';
   });
+
+  // Fullscreen toggle
+  setupFullscreenToggle(container);
 
   // Load content
   const viewport = container.querySelector('.reader__viewport-inner');
@@ -173,7 +180,10 @@ async function renderResource(container, mod, filename) {
       <div class="reader__toolbar">
         <button class="reader__back">&larr; Back</button>
         <span class="reader__toolbar-title">${title}</span>
-        <button class="btn reader__download" title="Download">&#8595; Download</button>
+        <div class="reader__toolbar-controls">
+          <button class="btn reader__download" title="Download">&#8595; Download</button>
+          <button class="reader__tool-btn reader__fullscreen" title="Toggle fullscreen" aria-label="Toggle fullscreen">&#x26F6;</button>
+        </div>
       </div>
       <div class="reader__body">
         <aside class="reader__sidebar">
@@ -212,6 +222,9 @@ async function renderResource(container, mod, filename) {
     const collapsed = sidebar.classList.toggle('reader__sidebar--collapsed');
     sidebarToggle.textContent = collapsed ? 'Show Details' : 'Hide Details';
   });
+
+  // Fullscreen toggle
+  setupFullscreenToggle(container);
 
   const viewport = container.querySelector('.reader__viewport-inner');
   let cleanup = null;

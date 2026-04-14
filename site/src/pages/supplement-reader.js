@@ -1,6 +1,7 @@
 import { loadSupplements } from '../lib/supplement-loader.js';
 import { loadIndex } from '../lib/index-loader.js';
 import { buildRawUrl } from '../lib/url-builder.js';
+import { setupFullscreenToggle } from '../lib/fullscreen.js';
 import '../styles/supplements.css';
 
 const TYPE_DISPLAY = {
@@ -48,7 +49,10 @@ export async function renderSupplementReader(container, { era, id }) {
       <div class="reader__toolbar">
         <button class="reader__back" onclick="history.back()">&larr; Back</button>
         <span class="reader__toolbar-title">${supplement.title}</span>
-        <button class="btn reader__download" title="Download">&#8595; Download</button>
+        <div class="reader__toolbar-controls">
+          <button class="btn reader__download" title="Download">&#8595; Download</button>
+          <button class="reader__tool-btn reader__fullscreen" title="Toggle fullscreen" aria-label="Toggle fullscreen">&#x26F6;</button>
+        </div>
       </div>
       <div class="reader__body">
         <aside class="reader__sidebar">
@@ -119,6 +123,9 @@ export async function renderSupplementReader(container, { era, id }) {
     const collapsed = sidebar.classList.toggle('reader__sidebar--collapsed');
     sidebarToggle.textContent = collapsed ? 'Show Details' : 'Hide Details';
   });
+
+  // Fullscreen toggle
+  setupFullscreenToggle(container);
 
   // Load format-specific reader
   const viewport = container.querySelector('.reader__viewport-inner');

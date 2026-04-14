@@ -399,3 +399,20 @@
     gap: var(--space-sm);
   }
 }
+
+/* ── Fullscreen mode ── */
+:fullscreen .site-header {
+  display: none;
+}
+
+:fullscreen .reader {
+  height: 100vh;
+}
+
+:fullscreen .reader__sidebar {
+  display: none;
+}
+
+:fullscreen .reader__body {
+  grid-template-columns: 1fr;
+}

@@ -1,22 +1,33 @@
 /**
  * Set up fullscreen toggle for reader pages.
- * Finds .reader__fullscreen button within container and wires it
- * to the Fullscreen API.
+ * Uses the Fullscreen API where supported (desktop browsers),
+ * falls back to a CSS class-based focus mode (iOS, etc.).
  */
 export function setupFullscreenToggle(container) {
   const btn = container.querySelector('.reader__fullscreen');
   if (!btn) return;
 
+  const supportsFullscreen = document.fullscreenEnabled;
+
   btn.addEventListener('click', () => {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen().catch(() => {});
+    if (supportsFullscreen) {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(() => {});
+      } else {
+        document.exitFullscreen().catch(() => {});
+      }
     } else {
-      document.exitFullscreen().catch(() => {});
+      document.documentElement.classList.toggle('focus-mode');
+      const active = document.documentElement.classList.contains('focus-mode');
+      btn.textContent = active ? '\u00D7' : '\u26F6';
+      btn.title = active ? 'Exit fullscreen' : 'Toggle fullscreen';
     }
   });
 
-  document.addEventListener('fullscreenchange', () => {
-    btn.textContent = document.fullscreenElement ? '\u00D7' : '\u26F6';
-    btn.title = document.fullscreenElement ? 'Exit fullscreen' : 'Toggle fullscreen';
-  });
+  if (supportsFullscreen) {
+    document.addEventListener('fullscreenchange', () => {
+      btn.textContent = document.fullscreenElement ? '\u00D7' : '\u26F6';
+      btn.title = document.fullscreenElement ? 'Exit fullscreen' : 'Toggle fullscreen';
+    });
+  }
 }

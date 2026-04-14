@@ -400,19 +400,23 @@
   }
 }
 
-/* ── Fullscreen mode ── */
-:fullscreen .site-header {
+/* ── Fullscreen / focus mode ── */
+:fullscreen .site-header,
+.focus-mode .site-header {
   display: none;
 }
 
-:fullscreen .reader {
+:fullscreen .reader,
+.focus-mode .reader {
   height: 100vh;
 }
 
-:fullscreen .reader__sidebar {
+:fullscreen .reader__sidebar,
+.focus-mode .reader__sidebar {
   display: none;
 }
 
-:fullscreen .reader__body {
+:fullscreen .reader__body,
+.focus-mode .reader__body {
   grid-template-columns: 1fr;
 }

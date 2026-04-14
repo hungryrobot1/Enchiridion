@@ -1,5 +1,5 @@
 const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV3Oz.js","assets/md-reader-WbfJEqtj.css"])))=>i.map(i=>d[i]);
-(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const s of document.querySelectorAll('link[rel="modulepreload"]'))n(s);new MutationObserver(s=>{for(const a of s)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&n(p)}).observe(document,{childList:!0,subtree:!0});function l(s){const a={};return s.integrity&&(a.integrity=s.integrity),s.referrerPolicy&&(a.referrerPolicy=s.referrerPolicy),s.crossOrigin==="use-credentials"?a.credentials="include":s.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function n(s){if(s.ep)return;s.ep=!0;const a=l(s);fetch(s.href,a)}})();const B=[];let S=null;function $(e,t){B.push({pattern:e,handler:t})}function V(e){const t=e.replace(/^#\/?/,"/");for(const{pattern:l,handler:n}of B){const s=Y(l,t);if(s!==null)return{handler:n,params:s}}return null}function Y(e,t){const l=e.split("/").filter(Boolean),n=t.split("/").filter(Boolean);if(l.length!==n.length)return null;const s={};for(let a=0;a<l.length;a++)if(l[a].startsWith(":"))s[l[a].slice(1)]=decodeURIComponent(n[a]);else if(l[a]!==n[a])return null;return s}function Z(e){async function t(){const l=window.location.hash||"#/",n=V(l);S&&(S(),S=null),n?(e.innerHTML="",S=await n.handler(e,n.params)||null):window.location.hash="#/",document.querySelectorAll(".site-header__link").forEach(s=>{const a=s.getAttribute("href");s.classList.toggle("site-header__link--active",a===l||l==="#/"&&a==="#/")})}window.addEventListener("hashchange",t),t()}function K(){const e=document.createElement("header");e.className="site-header",e.innerHTML=`
+(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))r(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const p of a.addedNodes)p.tagName==="LINK"&&p.rel==="modulepreload"&&r(p)}).observe(document,{childList:!0,subtree:!0});function l(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerPolicy&&(a.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?a.credentials="include":n.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function r(n){if(n.ep)return;n.ep=!0;const a=l(n);fetch(n.href,a)}})();const B=[];let S=null;function $(e,t){B.push({pattern:e,handler:t})}function V(e){const t=e.replace(/^#\/?/,"/");for(const{pattern:l,handler:r}of B){const n=Y(l,t);if(n!==null)return{handler:r,params:n}}return null}function Y(e,t){const l=e.split("/").filter(Boolean),r=t.split("/").filter(Boolean);if(l.length!==r.length)return null;const n={};for(let a=0;a<l.length;a++)if(l[a].startsWith(":"))n[l[a].slice(1)]=decodeURIComponent(r[a]);else if(l[a]!==r[a])return null;return n}function Z(e){async function t(){const l=window.location.hash||"#/",r=V(l);S&&(S(),S=null),r?(e.innerHTML="",S=await r.handler(e,r.params)||null):window.location.hash="#/",document.querySelectorAll(".site-header__link").forEach(n=>{const a=n.getAttribute("href");n.classList.toggle("site-header__link--active",a===l||l==="#/"&&a==="#/")})}window.addEventListener("hashchange",t),t()}function K(){const e=document.createElement("header");e.className="site-header",e.innerHTML=`
     <div class="site-header__inner">
       <a href="#/" class="site-header__title">Enchiridion</a>
       <button class="site-header__toggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -15,7 +15,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <a href="#/modules" class="site-header__link">Modules</a>
       </nav>
     </div>
-  `;const t=e.querySelector(".site-header__toggle"),l=e.querySelector(".site-header__nav");return t.addEventListener("click",()=>{const n=l.classList.toggle("site-header__nav--open");t.classList.toggle("site-header__toggle--active",n),t.setAttribute("aria-expanded",n)}),l.querySelectorAll(".site-header__link").forEach(n=>{n.addEventListener("click",()=>{l.classList.remove("site-header__nav--open"),t.classList.remove("site-header__toggle--active"),t.setAttribute("aria-expanded","false")})}),e}let q=null;async function k(){return q||(q=await(await fetch("/Enchiridion/text-index.json")).json(),q)}async function J(e){const{texts:t,facets:l}=await k();e.innerHTML=`
+  `;const t=e.querySelector(".site-header__toggle"),l=e.querySelector(".site-header__nav");return t.addEventListener("click",()=>{const r=l.classList.toggle("site-header__nav--open");t.classList.toggle("site-header__toggle--active",r),t.setAttribute("aria-expanded",r)}),l.querySelectorAll(".site-header__link").forEach(r=>{r.addEventListener("click",()=>{l.classList.remove("site-header__nav--open"),t.classList.remove("site-header__toggle--active"),t.setAttribute("aria-expanded","false")})}),e}let q=null;async function k(){return q||(q=await(await fetch("/Enchiridion/text-index.json")).json(),q)}async function J(e){const{texts:t,facets:l}=await k();e.innerHTML=`
     <div class="landing">
       <section class="landing__hero">
         <h1 class="landing__title">Enchiridion</h1>
@@ -85,10 +85,10 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
       <section class="landing__eras">
         <h2>The Journey</h2>
         <div class="landing__era-list">
-          ${l.eras.map(n=>`
+          ${l.eras.map(r=>`
             <div class="landing__era">
-              <span class="landing__era-name">${n.display}</span>
-              <span class="landing__era-count">${n.count} texts</span>
+              <span class="landing__era-name">${r.display}</span>
+              <span class="landing__era-count">${r.count} texts</span>
             </div>
           `).join("")}
         </div>
@@ -100,7 +100,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <a href="https://github.com/hungryrobot1/Enchiridion" target="_blank" rel="noopener">GitHub</a>
       </footer>
     </div>
-  `}async function Q(e){const{texts:t,facets:l}=await k(),n={};for(const s of l.eras)n[s.id]={display:s.display,texts:t.filter(a=>a.era===s.id)};e.innerHTML=`
+  `}async function Q(e){const{texts:t,facets:l}=await k(),r={};for(const n of l.eras)r[n.id]={display:n.display,texts:t.filter(a=>a.era===n.id)};e.innerHTML=`
     <div class="page syllabus">
       <header class="syllabus__header">
         <h1>The Grand Tour</h1>
@@ -112,24 +112,24 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         </p>
       </header>
 
-      ${l.eras.map(s=>{const a=n[s.id].texts,p={};for(const i of a){const d=i.topics[0]||"other";p[d]||(p[d]=[]),p[d].push(i)}return`
+      ${l.eras.map(n=>{const a=r[n.id].texts,p={};for(const i of a){const d=i.topics[0]||"other";p[d]||(p[d]=[]),p[d].push(i)}return`
           <section class="syllabus__era">
-            <button class="syllabus__era-toggle" data-era="${s.id}">
-              <h2>${s.display}</h2>
-              <span class="syllabus__era-count">${s.count} texts</span>
+            <button class="syllabus__era-toggle" data-era="${n.id}">
+              <h2>${n.display}</h2>
+              <span class="syllabus__era-count">${n.count} texts</span>
               <span class="syllabus__era-chevron">&#9662;</span>
             </button>
-            <div class="syllabus__era-content" id="era-${s.id}">
+            <div class="syllabus__era-content" id="era-${n.id}">
               ${Object.entries(p).map(([i,d])=>`
                 <div class="syllabus__topic-group">
                   <h3>${X(i)}</h3>
                   <ol class="syllabus__text-list">
-                    ${d.map(r=>`
+                    ${d.map(s=>`
                       <li>
-                        <a href="#/read/${r.era_dir}/${r.id}" class="syllabus__text-link">
-                          <span class="syllabus__text-title">${r.title}</span>
+                        <a href="#/read/${s.era_dir}/${s.id}" class="syllabus__text-link">
+                          <span class="syllabus__text-title">${s.title}</span>
                           <span class="syllabus__text-meta">
-                            ${r.author}, ${r.year_written}
+                            ${s.author}, ${s.year_written}
                           </span>
                         </a>
                       </li>
@@ -141,7 +141,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           </section>
         `}).join("")}
     </div>
-  `,e.querySelectorAll(".syllabus__era-toggle").forEach(s=>{s.addEventListener("click",()=>{const a=s.dataset.era,i=document.getElementById(`era-${a}`).classList.toggle("syllabus__era-content--open");s.querySelector(".syllabus__era-chevron").textContent=i?"▴":"▾"})})}function X(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const ee="https://raw.githubusercontent.com/hungryrobot1/Enchiridion/main";function T(e){const l=e.split("/").map(n=>encodeURIComponent(n)).join("/");return`${ee}/${l}`}let m={query:"",era:"",topic:"",format:"",sort:"chronological"};async function te(e){const{texts:t,facets:l}=await k();e.innerHTML=`
+  `,e.querySelectorAll(".syllabus__era-toggle").forEach(n=>{n.addEventListener("click",()=>{const a=n.dataset.era,i=document.getElementById(`era-${a}`).classList.toggle("syllabus__era-content--open");n.querySelector(".syllabus__era-chevron").textContent=i?"▴":"▾"})})}function X(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const ee="https://raw.githubusercontent.com/hungryrobot1/Enchiridion/main";function T(e){const l=e.split("/").map(r=>encodeURIComponent(r)).join("/");return`${ee}/${l}`}let m={query:"",era:"",topic:"",format:"",sort:"chronological"};async function te(e){const{texts:t,facets:l}=await k();e.innerHTML=`
     <div class="page explorer">
       <div class="explorer__controls">
         <div class="explorer__search">
@@ -155,25 +155,25 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <div class="explorer__filters">
           <select class="explorer__filter-select" data-filter="era">
             <option value="">All Eras</option>
-            ${l.eras.map(r=>`
-              <option value="${r.id}" ${m.era===r.id?"selected":""}>
-                ${r.display}
+            ${l.eras.map(s=>`
+              <option value="${s.id}" ${m.era===s.id?"selected":""}>
+                ${s.display}
               </option>
             `).join("")}
           </select>
           <select class="explorer__filter-select" data-filter="topic">
             <option value="">All Topics</option>
-            ${l.topics.map(r=>`
-              <option value="${r}" ${m.topic===r?"selected":""}>
-                ${I(r)}
+            ${l.topics.map(s=>`
+              <option value="${s}" ${m.topic===s?"selected":""}>
+                ${I(s)}
               </option>
             `).join("")}
           </select>
           <select class="explorer__filter-select" data-filter="format">
             <option value="">All Formats</option>
-            ${l.formats.map(r=>`
-              <option value="${r}" ${m.format===r?"selected":""}>
-                ${r.toUpperCase()}
+            ${l.formats.map(s=>`
+              <option value="${s}" ${m.format===s?"selected":""}>
+                ${s.toUpperCase()}
               </option>
             `).join("")}
           </select>
@@ -188,7 +188,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
       </div>
       <div class="explorer__grid"></div>
     </div>
-  `;const n=e.querySelector(".explorer__search-input"),s=e.querySelector(".explorer__grid"),a=e.querySelector(".explorer__results-count"),p=e.querySelectorAll(".explorer__filter-select");function i(){let r=t;if(m.query){const o=m.query.toLowerCase();r=r.filter(c=>c.title.toLowerCase().includes(o)||c.author.toLowerCase().includes(o)||c.description.toLowerCase().includes(o)||c.topics.some(u=>u.toLowerCase().includes(o)))}switch(m.era&&(r=r.filter(o=>o.era===m.era)),m.topic&&(r=r.filter(o=>o.topics.includes(m.topic))),m.format&&(r=r.filter(o=>o.format===m.format)),r=[...r],m.sort){case"reverse-chrono":r.sort((o,c)=>c.year_sort-o.year_sort);break;case"title":r.sort((o,c)=>o.title.localeCompare(c.title));break;case"author":r.sort((o,c)=>o.author.localeCompare(c.author));break}if(a.textContent=`${r.length} of ${t.length} texts`,r.length===0){s.innerHTML='<div class="explorer__empty">No texts match your filters.</div>';return}s.innerHTML=r.map(o=>`
+  `;const r=e.querySelector(".explorer__search-input"),n=e.querySelector(".explorer__grid"),a=e.querySelector(".explorer__results-count"),p=e.querySelectorAll(".explorer__filter-select");function i(){let s=t;if(m.query){const o=m.query.toLowerCase();s=s.filter(c=>c.title.toLowerCase().includes(o)||c.author.toLowerCase().includes(o)||c.description.toLowerCase().includes(o)||c.topics.some(u=>u.toLowerCase().includes(o)))}switch(m.era&&(s=s.filter(o=>o.era===m.era)),m.topic&&(s=s.filter(o=>o.topics.includes(m.topic))),m.format&&(s=s.filter(o=>o.format===m.format)),s=[...s],m.sort){case"reverse-chrono":s.sort((o,c)=>c.year_sort-o.year_sort);break;case"title":s.sort((o,c)=>o.title.localeCompare(c.title));break;case"author":s.sort((o,c)=>o.author.localeCompare(c.author));break}if(a.textContent=`${s.length} of ${t.length} texts`,s.length===0){n.innerHTML='<div class="explorer__empty">No texts match your filters.</div>';return}n.innerHTML=s.map(o=>`
       <a href="#/read/${o.era_dir}/${o.id}" class="text-card" data-id="${o.id}">
         <div class="text-card__header">
           <span class="text-card__title">${o.title}</span>
@@ -204,7 +204,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           </button>
         </div>
       </a>
-    `).join(""),s.querySelectorAll(".text-card__download").forEach(o=>{o.addEventListener("click",c=>{c.preventDefault(),c.stopPropagation();const u=T(o.dataset.path),_=document.createElement("a");_.href=u,_.download=o.dataset.filename,_.click()})})}let d;n.addEventListener("input",()=>{clearTimeout(d),d=setTimeout(()=>{m.query=n.value,i()},200)}),p.forEach(r=>{r.addEventListener("change",()=>{const o=r.dataset.filter;o==="sort"?m.sort=r.value:m[o]=r.value,i()})}),i(),n.focus()}function I(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const ae="modulepreload",re=function(e){return"/Enchiridion/"+e},D={},y=function(t,l,n){let s=Promise.resolve();if(l&&l.length>0){let p=function(r){return Promise.all(r.map(o=>Promise.resolve(o).then(c=>({status:"fulfilled",value:c}),c=>({status:"rejected",reason:c}))))};document.getElementsByTagName("link");const i=document.querySelector("meta[property=csp-nonce]"),d=(i==null?void 0:i.nonce)||(i==null?void 0:i.getAttribute("nonce"));s=p(l.map(r=>{if(r=re(r),r in D)return;D[r]=!0;const o=r.endsWith(".css"),c=o?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${r}"]${c}`))return;const u=document.createElement("link");if(u.rel=o?"stylesheet":ae,o||(u.as="script"),u.crossOrigin="",u.href=r,d&&u.setAttribute("nonce",d),document.head.appendChild(u),o)return new Promise((_,f)=>{u.addEventListener("load",_),u.addEventListener("error",()=>f(new Error(`Unable to preload CSS for ${r}`)))})}))}function a(p){const i=new Event("vite:preloadError",{cancelable:!0});if(i.payload=p,window.dispatchEvent(i),!i.defaultPrevented)throw p}return s.then(p=>{for(const i of p||[])i.status==="rejected"&&a(i.reason);return t().catch(a)})};let x=null;async function j(){if(x)return x;const t=await fetch("/Enchiridion/supplement-index.json");return t.ok?(x=await t.json(),x):(x={supplements:[],facets:{eras:[],types:[]}},x)}function C(e){const t=e.querySelector(".reader__fullscreen");t&&(t.addEventListener("click",()=>{document.fullscreenElement?document.exitFullscreen().catch(()=>{}):document.documentElement.requestFullscreen().catch(()=>{})}),document.addEventListener("fullscreenchange",()=>{t.textContent=document.fullscreenElement?"×":"⛶",t.title=document.fullscreenElement?"Exit fullscreen":"Toggle fullscreen"}))}const H="enchiridion-bookmarks";function F(){try{return JSON.parse(localStorage.getItem(H))||{}}catch{return{}}}function se(e,t){const l=F();l[e]=t,localStorage.setItem(H,JSON.stringify(l))}function ne(e){return F()[e]||null}async function le(e,{era:t,id:l}){const[{texts:n},{supplements:s}]=await Promise.all([k(),j()]),a=n.find(u=>u.id===l);if(!a){e.innerHTML=`
+    `).join(""),n.querySelectorAll(".text-card__download").forEach(o=>{o.addEventListener("click",c=>{c.preventDefault(),c.stopPropagation();const u=T(o.dataset.path),_=document.createElement("a");_.href=u,_.download=o.dataset.filename,_.click()})})}let d;r.addEventListener("input",()=>{clearTimeout(d),d=setTimeout(()=>{m.query=r.value,i()},200)}),p.forEach(s=>{s.addEventListener("change",()=>{const o=s.dataset.filter;o==="sort"?m.sort=s.value:m[o]=s.value,i()})}),i(),r.focus()}function I(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const ae="modulepreload",re=function(e){return"/Enchiridion/"+e},D={},y=function(t,l,r){let n=Promise.resolve();if(l&&l.length>0){let p=function(s){return Promise.all(s.map(o=>Promise.resolve(o).then(c=>({status:"fulfilled",value:c}),c=>({status:"rejected",reason:c}))))};document.getElementsByTagName("link");const i=document.querySelector("meta[property=csp-nonce]"),d=(i==null?void 0:i.nonce)||(i==null?void 0:i.getAttribute("nonce"));n=p(l.map(s=>{if(s=re(s),s in D)return;D[s]=!0;const o=s.endsWith(".css"),c=o?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${s}"]${c}`))return;const u=document.createElement("link");if(u.rel=o?"stylesheet":ae,o||(u.as="script"),u.crossOrigin="",u.href=s,d&&u.setAttribute("nonce",d),document.head.appendChild(u),o)return new Promise((_,f)=>{u.addEventListener("load",_),u.addEventListener("error",()=>f(new Error(`Unable to preload CSS for ${s}`)))})}))}function a(p){const i=new Event("vite:preloadError",{cancelable:!0});if(i.payload=p,window.dispatchEvent(i),!i.defaultPrevented)throw p}return n.then(p=>{for(const i of p||[])i.status==="rejected"&&a(i.reason);return t().catch(a)})};let x=null;async function j(){if(x)return x;const t=await fetch("/Enchiridion/supplement-index.json");return t.ok?(x=await t.json(),x):(x={supplements:[],facets:{eras:[],types:[]}},x)}function C(e){const t=e.querySelector(".reader__fullscreen");if(!t)return;const l=document.fullscreenEnabled;t.addEventListener("click",()=>{if(l)document.fullscreenElement?document.exitFullscreen().catch(()=>{}):document.documentElement.requestFullscreen().catch(()=>{});else{document.documentElement.classList.toggle("focus-mode");const r=document.documentElement.classList.contains("focus-mode");t.textContent=r?"×":"⛶",t.title=r?"Exit fullscreen":"Toggle fullscreen"}}),l&&document.addEventListener("fullscreenchange",()=>{t.textContent=document.fullscreenElement?"×":"⛶",t.title=document.fullscreenElement?"Exit fullscreen":"Toggle fullscreen"})}const H="enchiridion-bookmarks";function F(){try{return JSON.parse(localStorage.getItem(H))||{}}catch{return{}}}function se(e,t){const l=F();l[e]=t,localStorage.setItem(H,JSON.stringify(l))}function ne(e){return F()[e]||null}async function le(e,{era:t,id:l}){const[{texts:r},{supplements:n}]=await Promise.all([k(),j()]),a=r.find(u=>u.id===l);if(!a){e.innerHTML=`
       <div class="reader">
         <div class="reader__error">
           <p>Text not found: ${l}</p>
@@ -274,10 +274,10 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           ${a.prerequisites.length>0?`
             <div class="reader__meta-field">
               <span class="reader__meta-label">Prerequisites</span>
-              ${a.prerequisites.map(u=>{const _=n.find(f=>f.id===u);return _?`<a href="#/read/${_.era_dir}/${_.id}" class="reader__meta-prereq">${_.title}</a>`:`<span class="reader__meta-value">${u}</span>`}).join("")}
+              ${a.prerequisites.map(u=>{const _=r.find(f=>f.id===u);return _?`<a href="#/read/${_.era_dir}/${_.id}" class="reader__meta-prereq">${_.title}</a>`:`<span class="reader__meta-value">${u}</span>`}).join("")}
             </div>
           `:""}
-          ${(()=>{const u=s.filter(_=>_.texts.includes(a.id));return u.length===0?"":`
+          ${(()=>{const u=n.filter(_=>_.texts.includes(a.id));return u.length===0?"":`
               <div class="reader__meta-field">
                 <span class="reader__meta-label">Supplements</span>
                 ${u.map(_=>`<a href="#/supplement/${encodeURIComponent(_.era_dir)}/${_.id}" class="reader__meta-prereq">${_.title}</a>`).join("")}
@@ -291,7 +291,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         </div>
       </div>
     </div>
-  `,e.querySelector(".reader__download").addEventListener("click",()=>{const u=document.createElement("a");u.href=p,u.download=a.filename,u.click()}),C(e);const d=e.querySelector(".reader__sidebar"),r=e.querySelector(".reader__sidebar-toggle");d.classList.add("reader__sidebar--collapsed"),r.addEventListener("click",()=>{const u=d.classList.toggle("reader__sidebar--collapsed");r.textContent=u?"Show Details":"Hide Details"});const o=e.querySelector(".reader__viewport-inner");let c=null;try{const u=await oe(a.format);if(i){const _=e.querySelector(".reader__page-input"),f=e.querySelector(".reader__page-total"),h=e.querySelector(".reader__zoom-in"),v=e.querySelector(".reader__zoom-out"),L=e.querySelector(".reader__zoom-level");let A=null;c=await u.render(o,p,e,{onReady:b=>{h.addEventListener("click",()=>b.zoomIn()),v.addEventListener("click",()=>b.zoomOut()),_.addEventListener("keydown",g=>{if(g.key==="Enter"){const P=parseInt(_.value,10);isNaN(P)||b.goToPage(P),_.blur()}}),_.addEventListener("blur",()=>{const g=parseInt(_.value,10);isNaN(g)||b.goToPage(g)}),_.addEventListener("focus",()=>_.select());const w=ne(l);if(w&&w>1){const g=document.createElement("div");g.className="reader__resume-banner",g.innerHTML=`
+  `,e.querySelector(".reader__download").addEventListener("click",()=>{const u=document.createElement("a");u.href=p,u.download=a.filename,u.click()}),C(e);const d=e.querySelector(".reader__sidebar"),s=e.querySelector(".reader__sidebar-toggle");d.classList.add("reader__sidebar--collapsed"),s.addEventListener("click",()=>{const u=d.classList.toggle("reader__sidebar--collapsed");s.textContent=u?"Show Details":"Hide Details"});const o=e.querySelector(".reader__viewport-inner");let c=null;try{const u=await oe(a.format);if(i){const _=e.querySelector(".reader__page-input"),f=e.querySelector(".reader__page-total"),h=e.querySelector(".reader__zoom-in"),v=e.querySelector(".reader__zoom-out"),L=e.querySelector(".reader__zoom-level");let A=null;c=await u.render(o,p,e,{onReady:b=>{h.addEventListener("click",()=>b.zoomIn()),v.addEventListener("click",()=>b.zoomOut()),_.addEventListener("keydown",g=>{if(g.key==="Enter"){const P=parseInt(_.value,10);isNaN(P)||b.goToPage(P),_.blur()}}),_.addEventListener("blur",()=>{const g=parseInt(_.value,10);isNaN(g)||b.goToPage(g)}),_.addEventListener("focus",()=>_.select());const w=ne(l);if(w&&w>1){const g=document.createElement("div");g.className="reader__resume-banner",g.innerHTML=`
               <span>Continue from page ${w}?</span>
               <button class="reader__resume-btn" data-action="resume">Resume</button>
               <button class="reader__resume-btn reader__resume-btn--dismiss" data-action="dismiss">Start over</button>
@@ -309,14 +309,14 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           lab manuals, notation guides, and convention guides.</p>
         </header>
       </div>
-    `;return}const n=t.filter(i=>i.type!=="reference"),s={};for(const i of l.eras)s[i.id]={display:i.display,count:n.filter(d=>d.era===i.id).length,supplements:n.filter(d=>d.era===i.id)};const a=l.eras.filter(i=>n.some(d=>d.era===i.id)).length,p=n.length;e.innerHTML=`
+    `;return}const r=t.filter(i=>i.type!=="reference"),n={};for(const i of l.eras)n[i.id]={display:i.display,count:r.filter(d=>d.era===i.id).length,supplements:r.filter(d=>d.era===i.id)};const a=l.eras.filter(i=>r.some(d=>d.era===i.id)).length,p=r.length;e.innerHTML=`
     <div class="page supplements">
       <header class="supplements__header">
         <h1>Supplements</h1>
         <p>${p>0?`${p} supplementary material${p!==1?"s":""} across ${a} section${a!==1?"s":""}`:"Supplementary materials are being developed"}.</p>
       </header>
 
-      ${l.eras.map(i=>{const d=s[i.id];if(!d||d.supplements.length===0)return"";const r={};for(const c of d.supplements){const u=c.type||"other";r[u]||(r[u]=[]),r[u].push(c)}const o=Object.entries(r).sort((c,u)=>{const _=O.indexOf(c[0]),f=O.indexOf(u[0]);return(_>=0?_:999)-(f>=0?f:999)});return`
+      ${l.eras.map(i=>{const d=n[i.id];if(!d||d.supplements.length===0)return"";const s={};for(const c of d.supplements){const u=c.type||"other";s[u]||(s[u]=[]),s[u].push(c)}const o=Object.entries(s).sort((c,u)=>{const _=O.indexOf(c[0]),f=O.indexOf(u[0]);return(_>=0?_:999)-(f>=0?f:999)});return`
           <section class="supplements__era">
             <button class="supplements__era-toggle" data-era="${i.id}">
               <h2>${i.display}</h2>
@@ -346,14 +346,14 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         `}).join("")}
 
     </div>
-  `,e.querySelectorAll(".supplements__era-toggle").forEach(i=>{i.addEventListener("click",()=>{const d=i.dataset.era,o=document.getElementById(`sup-era-${d}`).classList.toggle("supplements__era-content--open");i.querySelector(".supplements__era-chevron").textContent=o?"▴":"▾"})})}function ce(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const ue={"exercise-set":"Exercise Set","lab-manual":"Lab Manual","notation-guide":"Notation Guide","convention-guide":"Convention Guide",reference:"Reference"};async function pe(e,{era:t,id:l}){const[{supplements:n},{texts:s}]=await Promise.all([j(),k()]),a=n.find(h=>h.id===l);if(!a){e.innerHTML=`
+  `,e.querySelectorAll(".supplements__era-toggle").forEach(i=>{i.addEventListener("click",()=>{const d=i.dataset.era,o=document.getElementById(`sup-era-${d}`).classList.toggle("supplements__era-content--open");i.querySelector(".supplements__era-chevron").textContent=o?"▴":"▾"})})}function ce(e){return e.split("-").map(t=>t.charAt(0).toUpperCase()+t.slice(1)).join(" ")}const ue={"exercise-set":"Exercise Set","lab-manual":"Lab Manual","notation-guide":"Notation Guide","convention-guide":"Convention Guide",reference:"Reference"};async function pe(e,{era:t,id:l}){const[{supplements:r},{texts:n}]=await Promise.all([j(),k()]),a=r.find(h=>h.id===l);if(!a){e.innerHTML=`
       <div class="reader">
         <div class="reader__error">
           <p>Supplement not found: ${l}</p>
           <a href="#/supplements" class="btn">Back to Supplements</a>
         </div>
       </div>
-    `;return}const p=T(a.path),i=a.format||"md",d=a.texts.map(h=>s.find(v=>v.id===h)).filter(Boolean),r=a.type==="reference"?"Topic":"Era",o=a.era_display;e.innerHTML=`
+    `;return}const p=T(a.path),i=a.format||"md",d=a.texts.map(h=>n.find(v=>v.id===h)).filter(Boolean),s=a.type==="reference"?"Topic":"Era",o=a.era_display;e.innerHTML=`
     <div class="reader">
       <div class="reader__toolbar">
         <button class="reader__back" onclick="history.back()">&larr; Back</button>
@@ -371,7 +371,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
             <span class="supplements__type-badge">${ue[a.type]||a.type}</span>
           </div>
           <div class="reader__meta-field">
-            <span class="reader__meta-label">${r}</span>
+            <span class="reader__meta-label">${s}</span>
             <span class="reader__meta-value">${o}</span>
           </div>
           ${i!=="md"?`
@@ -395,7 +395,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           ${a.prerequisites.length>0?`
             <div class="reader__meta-field">
               <span class="reader__meta-label">Prerequisites</span>
-              ${a.prerequisites.map(h=>{const v=n.find(L=>L.id===h);return v?`<a href="#/supplement/${encodeURIComponent(v.era_dir)}/${v.id}" class="reader__meta-prereq">${v.title}</a>`:`<span class="reader__meta-value">${h}</span>`}).join("")}
+              ${a.prerequisites.map(h=>{const v=r.find(L=>L.id===h);return v?`<a href="#/supplement/${encodeURIComponent(v.era_dir)}/${v.id}" class="reader__meta-prereq">${v.title}</a>`:`<span class="reader__meta-value">${h}</span>`}).join("")}
             </div>
           `:""}
         </aside>
@@ -419,34 +419,34 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           <p>Progressive learning modules are being developed. Check back soon.</p>
         </header>
       </div>
-    `;return}const l=t.reduce((n,s)=>n+s.chapters.length,0);e.innerHTML=`
+    `;return}const l=t.reduce((r,n)=>r+n.chapters.length,0);e.innerHTML=`
     <div class="page modules">
       <header class="modules__header">
         <h1>Modules</h1>
         <p>${t.length} progressive learning module${t.length!==1?"s":""}, ${l} chapters total. Skill-building sequences that run alongside the primary texts.</p>
       </header>
 
-      ${t.map(n=>{const s=n.chapters.length,a=n.prerequisites.length>0,p=n.resources.length>0,i=n.references.length>0;return`
+      ${t.map(r=>{const n=r.chapters.length,a=r.prerequisites.length>0,p=r.resources.length>0,i=r.references.length>0;return`
           <section class="modules__module">
-            <button class="modules__toggle" data-module="${n.id}">
-              <h2>${n.title}</h2>
-              <span class="modules__count">${s} chapter${s!==1?"s":""}</span>
+            <button class="modules__toggle" data-module="${r.id}">
+              <h2>${r.title}</h2>
+              <span class="modules__count">${n} chapter${n!==1?"s":""}</span>
               <span class="modules__chevron">&#9662;</span>
             </button>
-            <div class="modules__content" id="mod-${n.id}">
-              <p class="modules__description">${n.description}</p>
+            <div class="modules__content" id="mod-${r.id}">
+              <p class="modules__description">${r.description}</p>
 
               ${a?`
                 <p class="modules__prerequisites">
-                  Prerequisites: ${n.prerequisites.map(d=>{const r=t.find(o=>o.id===d);return r?`<a href="#/modules" data-prereq="${d}">${r.title}</a>`:d}).join(", ")}
+                  Prerequisites: ${r.prerequisites.map(d=>{const s=t.find(o=>o.id===d);return s?`<a href="#/modules" data-prereq="${d}">${s.title}</a>`:d}).join(", ")}
                 </p>
               `:""}
 
               <h3 class="modules__section-heading">Chapters</h3>
               <ul class="modules__chapters">
-                ${n.chapters.map((d,r)=>{const o=he(d.alongside);return`
+                ${r.chapters.map((d,s)=>{const o=he(d.alongside);return`
                     <li>
-                      <a href="#/module/${n.id}/${d.filename}" class="modules__chapter-link">
+                      <a href="#/module/${r.id}/${d.filename}" class="modules__chapter-link">
                         <span class="modules__chapter-title">${d.title}</span>
                         ${o?`<span class="modules__chapter-alongside">${o}</span>`:""}
                       </a>
@@ -457,9 +457,9 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
               ${p?`
                 <h3 class="modules__section-heading">Resources</h3>
                 <ul class="modules__resources">
-                  ${n.resources.map(d=>`
+                  ${r.resources.map(d=>`
                     <li>
-                      <a href="#/module/${n.id}/resource/${d.filename}" class="modules__resource-link">${d.title}</a>
+                      <a href="#/module/${r.id}/resource/${d.filename}" class="modules__resource-link">${d.title}</a>
                     </li>
                   `).join("")}
                 </ul>
@@ -468,9 +468,9 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
               ${i?`
                 <h3 class="modules__section-heading">References</h3>
                 <ul class="modules__references">
-                  ${n.references.map(d=>{const r=d.url&&!d.path;return`
+                  ${r.references.map(d=>{const s=d.url&&!d.path;return`
                       <li>
-                        <a href="${r?d.url:d.path?`#/supplement/${encodeURIComponent(d.era_dir)}/${d.id}`:d.url||"#"}"${r?' target="_blank" rel="noopener noreferrer"':""} class="modules__ref-link">
+                        <a href="${s?d.url:d.path?`#/supplement/${encodeURIComponent(d.era_dir)}/${d.id}`:d.url||"#"}"${s?' target="_blank" rel="noopener noreferrer"':""} class="modules__ref-link">
                           <span class="modules__ref-title">${d.title}</span>
                           ${d.description?`<span class="modules__ref-description">${d.description}</span>`:""}
                         </a>
@@ -482,21 +482,21 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           </section>
         `}).join("")}
     </div>
-  `,e.querySelectorAll(".modules__toggle").forEach(n=>{n.addEventListener("click",()=>{const s=n.dataset.module,p=document.getElementById(`mod-${s}`).classList.toggle("modules__content--open");n.querySelector(".modules__chevron").textContent=p?"▴":"▾"})})}async function G(e,{id:t,chapter:l}){const[{modules:n},{texts:s}]=await Promise.all([z(),k()]),a=n.find(d=>d.id===t);if(!a){e.innerHTML=`
+  `,e.querySelectorAll(".modules__toggle").forEach(r=>{r.addEventListener("click",()=>{const n=r.dataset.module,p=document.getElementById(`mod-${n}`).classList.toggle("modules__content--open");r.querySelector(".modules__chevron").textContent=p?"▴":"▾"})})}async function G(e,{id:t,chapter:l}){const[{modules:r},{texts:n}]=await Promise.all([z(),k()]),a=r.find(d=>d.id===t);if(!a){e.innerHTML=`
       <div class="reader">
         <div class="reader__error">
           <p>Module not found: ${t}</p>
           <a href="#/modules" class="btn">Back to Modules</a>
         </div>
       </div>
-    `;return}const p=l.startsWith("resource/"),i=p?l.replace("resource/",""):l;return p?ve(e,a,i):fe(e,a,i,s)}async function fe(e,t,l,n){const s=t.chapters.findIndex(h=>h.filename===l);if(s===-1){e.innerHTML=`
+    `;return}const p=l.startsWith("resource/"),i=p?l.replace("resource/",""):l;return p?ve(e,a,i):fe(e,a,i,n)}async function fe(e,t,l,r){const n=t.chapters.findIndex(h=>h.filename===l);if(n===-1){e.innerHTML=`
       <div class="reader">
         <div class="reader__error">
           <p>Chapter not found: ${l}</p>
           <a href="#/modules" class="btn">Back to Modules</a>
         </div>
       </div>
-    `;return}const a=t.chapters[s],p=`supplements/modules/${t.id}/${l}`,i=T(p),d=s>0?t.chapters[s-1]:null,r=s<t.chapters.length-1?t.chapters[s+1]:null,o=(a.alongside||[]).map(h=>n.find(v=>v.id===h)).filter(Boolean);e.innerHTML=`
+    `;return}const a=t.chapters[n],p=`supplements/modules/${t.id}/${l}`,i=T(p),d=n>0?t.chapters[n-1]:null,s=n<t.chapters.length-1?t.chapters[n+1]:null,o=(a.alongside||[]).map(h=>r.find(v=>v.id===h)).filter(Boolean);e.innerHTML=`
     <div class="reader">
       <div class="reader__toolbar">
         <button class="reader__back">&larr; Back</button>
@@ -515,7 +515,7 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
           </div>
           <div class="reader__meta-field">
             <span class="reader__meta-label">Chapter</span>
-            <span class="reader__meta-value">${s} of ${t.chapters.length-1}</span>
+            <span class="reader__meta-value">${n} of ${t.chapters.length-1}</span>
           </div>
           ${o.length>0?`
             <div class="reader__meta-field">
@@ -537,11 +537,11 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <span class="module-reader__nav-label">&larr; Previous</span>
         <span class="module-reader__nav-title">${d?d.title:""}</span>
       </a>
-      <a href="${r?`#/module/${t.id}/${r.filename}`:"#"}"
-         class="module-reader__nav-btn ${r?"":"module-reader__nav-btn--disabled"}"
+      <a href="${s?`#/module/${t.id}/${s.filename}`:"#"}"
+         class="module-reader__nav-btn ${s?"":"module-reader__nav-btn--disabled"}"
          style="text-align: right">
         <span class="module-reader__nav-label">Next &rarr;</span>
-        <span class="module-reader__nav-title">${r?r.title:""}</span>
+        <span class="module-reader__nav-title">${s?s.title:""}</span>
       </a>
     `,_.appendChild(v)}catch(h){console.error("Module reader error:",h),_.innerHTML=`
       <div class="reader__error">
@@ -549,11 +549,11 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         <p style="font-size: var(--text-xs); color: var(--color-text-muted);">${h.message}</p>
         <a href="${i}" class="btn" target="_blank" rel="noopener">Open Raw File</a>
       </div>
-    `}return()=>{f&&f()}}async function ve(e,t,l){const n=t.resources.find(c=>c.filename===l),s=n?n.title:l,a=`supplements/modules/${t.id}/${l}`,p=T(a);e.innerHTML=`
+    `}return()=>{f&&f()}}async function ve(e,t,l){const r=t.resources.find(c=>c.filename===l),n=r?r.title:l,a=`supplements/modules/${t.id}/${l}`,p=T(a);e.innerHTML=`
     <div class="reader">
       <div class="reader__toolbar">
         <button class="reader__back">&larr; Back</button>
-        <span class="reader__toolbar-title">${s}</span>
+        <span class="reader__toolbar-title">${n}</span>
         <div class="reader__toolbar-controls">
           <button class="btn reader__download" title="Download">&#8595; Download</button>
           <button class="reader__tool-btn reader__fullscreen" title="Toggle fullscreen" aria-label="Toggle fullscreen">&#x26F6;</button>
@@ -578,13 +578,13 @@ const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/md-reader-C6phV
         </div>
       </div>
     </div>
-  `,e.querySelector(".reader__back").addEventListener("click",()=>history.back()),e.querySelector(".reader__download").addEventListener("click",()=>{const c=document.createElement("a");c.href=p,c.download=l,c.click()});const i=e.querySelector(".reader__sidebar"),d=e.querySelector(".reader__sidebar-toggle");i.classList.add("reader__sidebar--collapsed"),d.addEventListener("click",()=>{const c=i.classList.toggle("reader__sidebar--collapsed");d.textContent=c?"Show Details":"Hide Details"}),C(e);const r=e.querySelector(".reader__viewport-inner");let o=null;try{o=await(await y(async()=>{const{default:u}=await import("./md-reader-C6phV3Oz.js");return{default:u}},__vite__mapDeps([0,1]))).default.render(r,p,e),N(r,t)}catch(c){console.error("Resource reader error:",c),r.innerHTML=`
+  `,e.querySelector(".reader__back").addEventListener("click",()=>history.back()),e.querySelector(".reader__download").addEventListener("click",()=>{const c=document.createElement("a");c.href=p,c.download=l,c.click()});const i=e.querySelector(".reader__sidebar"),d=e.querySelector(".reader__sidebar-toggle");i.classList.add("reader__sidebar--collapsed"),d.addEventListener("click",()=>{const c=i.classList.toggle("reader__sidebar--collapsed");d.textContent=c?"Show Details":"Hide Details"}),C(e);const s=e.querySelector(".reader__viewport-inner");let o=null;try{o=await(await y(async()=>{const{default:u}=await import("./md-reader-C6phV3Oz.js");return{default:u}},__vite__mapDeps([0,1]))).default.render(s,p,e),N(s,t)}catch(c){console.error("Resource reader error:",c),s.innerHTML=`
       <div class="reader__error">
         <p>Failed to load resource.</p>
         <p style="font-size: var(--text-xs); color: var(--color-text-muted);">${c.message}</p>
         <a href="${p}" class="btn" target="_blank" rel="noopener">Open Raw File</a>
       </div>
-    `}return()=>{o&&o()}}function N(e,t){e.querySelectorAll("a[href]").forEach(l=>{const n=l.getAttribute("href");if(!n||n.startsWith("http")||n.startsWith("#")||!n.endsWith(".md"))return;const s=n.split("/").pop();if(t.chapters.some(a=>a.filename===s)){l.setAttribute("href",`#/module/${t.id}/${s}`);return}if(t.resources&&t.resources.some(a=>a.filename===s)){l.setAttribute("href",`#/module/${t.id}/resource/${s}`);return}})}function ge(e){e.innerHTML=`
+    `}return()=>{o&&o()}}function N(e,t){e.querySelectorAll("a[href]").forEach(l=>{const r=l.getAttribute("href");if(!r||r.startsWith("http")||r.startsWith("#")||!r.endsWith(".md"))return;const n=r.split("/").pop();if(t.chapters.some(a=>a.filename===n)){l.setAttribute("href",`#/module/${t.id}/${n}`);return}if(t.resources&&t.resources.some(a=>a.filename===n)){l.setAttribute("href",`#/module/${t.id}/resource/${n}`);return}})}function ge(e){e.innerHTML=`
     <div class="page disclaimer">
       <header class="disclaimer__header">
         <h1>Fair Use & Copyright Notice</h1>

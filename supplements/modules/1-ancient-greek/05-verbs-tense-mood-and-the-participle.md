@@ -1,6 +1,6 @@
 # Chapter 5: Verbs — Tense, Mood, and the Participle
 
-Greek verbs are more complex than Greek nouns. Where a noun changes for five cases and two numbers (ten forms), a verb can change for tense, mood, voice, person, and number — hundreds of possible forms for a single verb. This sounds overwhelming, and it would be if you tried to memorize it all. You won't.
+Greek verbs are more complex than Greek nouns. Where a noun changes for five cases and two numbers (ten forms), a verb can change for tense, mood, voice, person, and number — hundreds of possible forms for a single verb. This sounds overwhelming, and it would be if you tried to memorize it all.
 
 Instead, this chapter follows the same strategy as Chapters 3 and 4: understand the *concepts* first (what do the tenses mean? what are moods?), learn to recognize the most common patterns, and let Perseus handle the rest. In Euclid, the verb system you actually encounter is surprisingly narrow — present, aorist, and perfect tenses; indicative and imperative moods; active and passive voices. In philosophical prose the range expands, but by then you'll have the framework.
 

@@ -1,0 +1,9 @@
+{
+  "title": "Archimedes: On Conoids and Spheroids",
+  "type": "study-guide",
+  "era": "rome-late-antiquity",
+  "texts": ["archimedes-heath-works"],
+  "description": "Study guide for Archimedes's treatise on the volumes of solids of revolution (paraboloids, hyperboloids, and ellipsoids) — extending exhaustion methods to curved three-dimensional figures, a precursor to integral calculus",
+  "filename": "content.md",
+  "prerequisites": ["archimedes-sphere-and-cylinder-guide"]
+}

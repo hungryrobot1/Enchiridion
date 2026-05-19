@@ -1,0 +1,22 @@
+{
+  "title": "The Works of Archimedes (Heath Edition)",
+  "author": "Archimedes",
+  "translator": "Thomas Heath",
+  "year_written": "~250 BCE",
+  "year_translated": 1897,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "archimedes-heath-works.md",
+  "description": "Heath's 1897 collected edition of Archimedes's surviving works — the standard reference for the full corpus including On the Sphere and Cylinder, Measurement of a Circle, On Conoids and Spheroids, On Spirals, On the Equilibrium of Planes, The Sand-Reckoner, Quadrature of the Parabola, On Floating Bodies, Book of Lemmas, and The Cattle Problem.",
+  "topics": [
+    "mathematics",
+    "geometry",
+    "physics",
+    "mechanics"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

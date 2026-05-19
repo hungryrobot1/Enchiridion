@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "shannon38.pdf",
+  "format": "markdown",
+  "filename": "shannon-symbolic-analysis-of-relay-and-switching.md",
   "description": "Application of Boolean algebra to electrical circuits, founding digital logic",
   "topics": [
     "computer-science",

@@ -1,9 +1,0 @@
-{
-  "title": "Archimedes Exercise Set",
-  "type": "exercise-set",
-  "era": "ancient-greece",
-  "texts": ["archimedes-geometrical-solutions"],
-  "description": "Computing areas and volumes using Archimedean methods — method of exhaustion, quadrature, and geometric reasoning",
-  "filename": "content.md",
-  "prerequisites": ["euclidean-notation-guide"]
-}

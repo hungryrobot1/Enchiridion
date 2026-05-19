@@ -276,6 +276,9 @@ async function loadFormatReader(format) {
       return (await import('../readers/html-reader.js')).default;
     case 'txt':
       return (await import('../readers/txt-reader.js')).default;
+    case 'md':
+    case 'markdown':
+      return (await import('../readers/md-reader.js')).default;
     default:
       throw new Error(`Unsupported format: ${format}`);
   }

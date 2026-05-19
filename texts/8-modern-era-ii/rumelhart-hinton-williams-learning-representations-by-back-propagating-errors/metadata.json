@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "Chap8_PDP86.pdf",
+  "format": "markdown",
+  "filename": "rumelhart-hinton-williams-learning-representations-by-back-propagating-errors.md",
   "description": "Backpropagation algorithm enabling training of multi-layer neural networks",
   "topics": [
     "computer-science",

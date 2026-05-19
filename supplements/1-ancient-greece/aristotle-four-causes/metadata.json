@@ -1,9 +1,0 @@
-{
-  "title": "Aristotle's Four Causes",
-  "type": "convention-guide",
-  "era": "ancient-greece",
-  "texts": ["aristotle-physics", "aristotle-metaphysics", "aristotle-parts-of-animals"],
-  "description": "The structure of Aristotle's four causes (material, formal, efficient, final) — what they are, how to recognize them, and questions about their scope",
-  "filename": "content.md",
-  "prerequisites": []
-}

@@ -1,9 +1,0 @@
-{
-  "title": "Ptolemy Notation Guide",
-  "type": "notation-guide",
-  "era": "ancient-greece",
-  "texts": ["ptolemy-almagest"],
-  "description": "Ptolemy's chord tables and sexagesimal arithmetic translated to modern trigonometric notation",
-  "filename": "content.md",
-  "prerequisites": ["euclidean-notation-guide"]
-}

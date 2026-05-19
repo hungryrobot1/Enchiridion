@@ -6,8 +6,8 @@
   "year_translated": 1915,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "Georg Cantor - Contributions to the Founding of the Theory of Transfinite Numbers.pdf",
+  "format": "markdown",
+  "filename": "cantor-transfinite-numbers.md",
   "description": "Discovery of different sizes of infinity and the foundations of set theory",
   "topics": [
     "mathematics",

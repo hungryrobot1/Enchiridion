@@ -1,0 +1,9 @@
+{
+  "title": "The Cattle Problem",
+  "type": "exercise-set",
+  "era": "rome-late-antiquity",
+  "texts": ["archimedes-heath-works", "diophantus-arithmetica"],
+  "description": "Archimedes's epigram problem about the Sun's cattle — an indeterminate system of equations that foreshadows Diophantine analysis. A capstone bonus after working through Diophantus",
+  "filename": "content.md",
+  "prerequisites": []
+}

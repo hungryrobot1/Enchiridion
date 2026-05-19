@@ -2,7 +2,9 @@
   "title": "Levers and Center of Gravity Lab",
   "type": "lab-manual",
   "era": "ancient-greece",
-  "texts": ["archimedes-geometrical-solutions"],
+  "texts": [
+    "archimedes-equilibrium-of-planes"
+  ],
   "description": "Experiments with levers, balance points, and mechanical advantage — Archimedes' law of the lever",
   "filename": "content.md",
   "prerequisites": []

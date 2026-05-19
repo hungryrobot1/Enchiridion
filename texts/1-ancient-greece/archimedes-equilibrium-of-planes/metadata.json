@@ -1,0 +1,22 @@
+{
+  "title": "On the Equilibrium of Planes",
+  "author": "Archimedes",
+  "translator": "Thomas Heath",
+  "year_written": "~250 BCE",
+  "year_translated": 1897,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "archimedes-equilibrium-of-planes.md",
+  "description": "Archimedes's axiomatic treatment of statics — the law of the lever and centers of gravity derived from postulates about balance. Among the earliest surviving examples of physics derived deductively from first principles.",
+  "topics": [
+    "physics",
+    "mechanics",
+    "mathematics",
+    "geometry"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "euclid-elements"
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "title": "Syllogistic Logic Exercises",
-  "type": "exercise-set",
-  "era": "ancient-greece",
-  "texts": ["aristotle-categories"],
-  "description": "Formalizing Aristotelian syllogisms — valid and invalid forms, figures, and moods",
-  "filename": "content.md",
-  "prerequisites": []
-}

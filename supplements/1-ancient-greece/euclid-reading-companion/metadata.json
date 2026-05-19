@@ -1,9 +1,0 @@
-{
-  "title": "Reading Euclid's Elements",
-  "type": "study-guide",
-  "era": "ancient-greece",
-  "texts": ["euclid-elements"],
-  "description": "How to work through Euclid's propositions — reading with compass and notebook, the structure of propositions, QED vs. QEF, and questions to sit with",
-  "filename": "content.md",
-  "prerequisites": []
-}

@@ -6,8 +6,8 @@
   "year_translated": 2003,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "Laurence Sigler - Fibonacci's Liber Abaci (2003).pdf",
+  "format": "markdown",
+  "filename": "fibonacci-liber-abaci.md",
   "description": "Medieval mathematical text known for bringing the Arabic numeral system and algebraic methods to Europe",
   "topics": [
     "mathematics",

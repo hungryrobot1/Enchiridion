@@ -1,9 +1,0 @@
-{
-  "title": "Apollonius Notation Guide",
-  "type": "notation-guide",
-  "era": "ancient-greece",
-  "texts": ["apollonius-conic-sections"],
-  "description": "Apollonius's construction-based conic definitions translated to modern analytic equations",
-  "filename": "content.md",
-  "prerequisites": ["euclidean-notation-guide"]
-}

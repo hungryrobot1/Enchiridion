@@ -1,0 +1,309 @@
+GEOMETRICAL SOLUTIONS DERIVED FROM MECHANICS.
+
+Archimedes to Eratosthenes, Greeting:
+
+Some time ago I sent you some theorems I had discovered, writing down only the propositions because I wished you to find their demonstrations which had not been given. The propositions of the theorems which I sent you were the following:
+
+1. If in a perpendicular prism with a parallelogram for base a cylinder is inscribed which has its bases in the opposite parallelograms and its surface touching the other planes of the prism, and if a plane is passed through the center of the circle that is the base of the cylinder and one side of the square lying in the opposite plane, then that plane will cut off from the cylinder a section which is bounded by two planes, the intersecting plane and the one in which the base of the cylinder lies, and also by as much of the surface of the cylinder as lies between these same planes; and the detached section of the cylinder is $\frac{1}{6}$ of the whole prism.
+
+2. If in a cube a cylinder is inscribed whose bases lie in opposite parallelograms and whose surface touches the other four planes, and if in the same cube a second cylinder is inscribed whose bases lie in two other parallelograms and whose surface touches the four other planes, then the body enclosed by the surface of the cylinder and comprehended
+
+---
+
+within both cylinders will be equal to $\frac{2}{3}$ of the whole cube.
+
+These propositions differ essentially from those formerly discovered; for then we compared those bodies (conoids, spheroids and their segments) with the volume of cones and cylinders but none of them was found to be equal to a body enclosed by planes. Each of these bodies, on the other hand, which are enclosed by two planes and cylindrical surfaces is found to be equal to a body enclosed by planes. The demonstration of these propositions I am accordingly sending to you in this book.
+
+Since I see, however, as I have previously said, that you are a capable scholar and a prominent teacher of philosophy, and also that you understand how to value a mathematical method of investigation when the opportunity is offered, I have thought it well to analyze and lay down for you in this same book a peculiar method by means of which it will be possible for you to derive instruction as to how certain mathematical questions may be investigated by means of mechanics. And I am convinced that this is equally profitable in demonstrating a proposition itself; for much that was made evident to me through the medium of mechanics was later proved by means of geometry because the treatment by the former method had not yet been established by way of a demonstration. For of course it is easier to establish a proof if one has in this way previously obtained a conception of the questions, than for him to seek it without such a preliminary notion. Thus in the familiar propositions the demonstrations of which Eudoxos was the first to discover,
+
+---
+
+namely that a cone and a pyramid are one third the size of that cylinder and prism respectively that have the same base and altitude, no little credit is due to Democritos who was the first to make that statement about these bodies without any demonstration. But we are in a position to have found the present proposition in the same way as the earlier one; and I have decided to write down and make known the method partly because we have already talked about it heretofore and so no one would think that we were spreading abroad idle talk, and partly in the conviction that by this means we are obtaining no slight advantage for mathematics, for indeed I assume that some one among the investigators of to-day or in the future will discover by the method here set forth still other propositions which have not yet occurred to us.
+
+In the first place we will now explain what was also first made clear to us through mechanics, namely that a segment of a parabola is  $\frac{4}{3}$  of the triangle possessing the same base and equal altitude; following which we will explain in order the particular propositions discovered by the above mentioned method; and in the last part of the book we will present the geometrical demonstrations of the propositions.2
+
+1. If one magnitude is taken away from another magnitude and the same point is the center of gravity both of the
+
+2In his “Commentar,” Professor Zeuthen calls attention to the fact that it was already known from Heron’s recently discovered *Metrica* that these propositions were contained in this treatise, and Professor Heiberg made the same comment in *Hermes*.—Tr.
+
+---
+
+whole and of the part removed, then the same point is the center of gravity of the remaining portion.
+
+2. If one magnitude is taken away from another magnitude and the center of gravity of the whole and of the part removed is not the same point, the center of gravity of the remaining portion may be found by prolonging the straight line which connects the centers of gravity of the whole and of the part removed, and setting off upon it another straight line which bears the same ratio to the straight line between the aforesaid centers of gravity, as the weight of the magnitude which has been taken away bears to the weight of the one remaining [De plan. aequil. I, 8].
+
+3. If the centers of gravity of any number of magnitudes lie upon the same straight line, then will the center of gravity of all the magnitudes combined lie also upon the same straight line [Cf. ibid. I, 5].
+
+4. The center of gravity of a straight line is the center of that line [Cf. ibid. I, 4].
+
+5. The center of gravity of a triangle is the point in which the straight lines drawn from the angles of a triangle to the centers of the opposite sides intersect [Ibid. I, 14].
+
+6. The center of gravity of a parallelogram is the point where its diagonals meet [Ibid. I, 10].
+
+7. The center of gravity [of a circle] is the center [of that circle].
+
+8. The center of gravity of a cylinder [is the center of its axis].
+
+9. The center of gravity of a prism is the center of its
+
+---
+
+axis.
+
+10. The center of gravity of a cone so divides its axis that the section at the vertex is three times as great as the remainder.
+
+11. Moreover together with the exercise here laid down I will make use of the following proposition:
+
+If any number of magnitudes stand in the same ratio to the same number of other magnitudes which correspond pair by pair, and if either all or some of the former magnitudes stand in any ratio whatever to other magnitudes, and the latter in the same ratio to the corresponding ones, then the sum of the magnitudes of the first series will bear the same ratio to the sum of those taken from the third series as the sum of those of the second series bears to the sum of those taken from the fourth series [De Conoid. I].
+
+I.
+
+Let $\alpha\beta\gamma$ [Fig. 1] be the segment of a parabola bounded by the straight line $\alpha\gamma$ and the parabola $\alpha\beta\gamma$. Let $\alpha\gamma$ be bisected at $\delta$, $\delta\beta\epsilon$ being parallel to the diameter, and draw $\alpha\beta$, and $\beta\gamma$. Then the segment $\alpha\beta\gamma$ will be $\frac{4}{3}$ as great as the triangle $\alpha\beta\gamma$.
+
+From the points $\alpha$ and $\gamma$ draw $\alpha\zeta\parallel\delta\beta\epsilon$, and the tangent $\gamma\zeta$; produce [$\gamma\beta$ to $\kappa$, and make $\kappa\theta=\gamma\kappa$]. Think of $\gamma\theta$ as a scale-beam with the center at $\kappa$ and let $\mu\xi$ be any straight line whatever $\parallel\epsilon\delta$. Now since $\gamma\beta\alpha$ is a parabola, $\gamma\zeta$ a tangent and $\gamma\delta$ an ordinate, then $\epsilon\beta=\beta\delta$; for this
+
+---
+
+indeed has been proved in the Elements [i. e., of conic sections, cf. Quadr. parab. 2]. For this reason and because  $\zeta \alpha$  and  $\mu \xi \parallel \epsilon \delta$ ,  $\mu \nu = \nu \xi$ , and  $\zeta \kappa = \kappa \alpha$ . And because  $\gamma \alpha : \alpha \xi = \mu \xi : \xi o$  (for this is shown in a corollary, [cf. Quadr. parab. 5]),  $\gamma \alpha : \alpha \xi = \gamma \kappa : \kappa \nu$ ; and  $\gamma \kappa = \kappa \theta$ , therefore  $\theta \kappa : \kappa \nu = \mu \xi : \xi o$ . And because  $\nu$  is the center of gravity of the straight line  $\mu \xi$ , since  $\mu \nu = \nu \xi$ , then if we make  $\tau \eta = \xi o$  and  $\theta$  as its center of gravity so that  $\tau \theta = \theta \eta$ , the straight line  $\tau \theta \eta$  will be in equilibrium with  $\mu \xi$  in its present position because  $\theta \nu$  is divided in inverse proportion to the weights  $\tau \eta$  and  $\mu \xi$ , and  $\theta \kappa : \kappa \nu = \mu \xi : \eta \tau$ ; therefore  $\kappa$  is the center of gravity of the combined weight of the two. In the
+
+![img-0.jpeg](images/img-0.jpeg)
+Fig. 1.
+
+same way all straight lines drawn in the triangle  $\zeta \alpha \gamma \parallel \epsilon \delta$
+
+---
+
+are in their present positions in equilibrium with their parts cut off by the parabola, when these are transferred to $\theta$, so that $\kappa$ is the center of gravity of the combined weight of the two. And because the triangle $\gamma\zeta\alpha$ consists of the straight lines in the triangle $\gamma\zeta\alpha$ and the segment $\alpha\beta\gamma$ consists of those straight lines within the segment of the parabola corresponding to the straight line $\xi o$, therefore the triangle $\zeta\alpha\gamma$ in its present position will be in equilibrium at the point $\kappa$ with the parabola-segment when this is transferred to $\theta$ as its center of gravity, so that $\kappa$ is the center of gravity of the combined weights of the two. Now let $\gamma\kappa$ be so divided at $\chi$ that $\gamma\kappa=3\kappa\chi$; then $\chi$ will be the center of gravity of the triangle $\alpha\zeta\gamma$, for this has been shown in the Statics [cf. De plan. aequil. I, 15, p. 186, 3 with Eutokios, S. 320, 5ff.]. Now the triangle $\zeta\alpha\gamma$ in its present position is in equilibrium at the point $\kappa$ with the segment $\beta\alpha\gamma$ when this is transferred to $\theta$ as its center of gravity, and the center of gravity of the triangle $\zeta\alpha\gamma$ is $\chi$; hence triangle $\alpha\zeta\gamma:\hbox{segm.}\ \alpha\beta\gamma$ when transferred to $\theta$ as its center of gravity $=\theta\kappa:\kappa\chi$. But $\theta\kappa=3\kappa\chi$; hence also triangle $\alpha\zeta\gamma=3\hbox{segm.}\ \alpha\beta\gamma$. But it is also true that triangle $\zeta\alpha\gamma=4\bigtriangleup\alpha\beta\gamma$ because $\zeta\kappa=\kappa\alpha$ and $\alpha\delta=\delta\gamma$; hence segm. $\alpha\beta\gamma=\frac{4}{3}$ the triangle $\alpha\beta\gamma$. This is of course clear.
+
+It is true that this is not proved by what we have said here; but it indicates that the result is correct. And so, as we have just seen that it has not been proved but rather conjectured that the result is correct we have devised a geometrical demonstration which we made known some time
+
+---
+
+ago and will again bring forward farther on.
+
+# II.
+
+That a sphere is four times as large as a cone whose base is equal to the largest circle of the sphere and whose altitude is equal to the radius of the sphere, and that a cylinder whose base is equal to the largest circle of the sphere and whose altitude is equal to the diameter of the circle is one and a half times as large as the sphere, may be seen by the present method in the following way:
+
+![img-1.jpeg](images/img-1.jpeg)
+Fig. 2.
+
+Let  $\alpha \beta \gamma \delta$  [Fig. 2] be the largest circle of a sphere and
+
+---
+
+$\alpha \gamma$  and  $\beta \delta$  its diameters perpendicular to each other; let there be in the sphere a circle on the diameter  $\beta \delta$  perpendicular to the circle  $\alpha \beta \gamma \delta$ , and on this perpendicular circle let there be a cone erected with its vertex at  $\alpha$ ; producing the convex surface of the cone, let it be cut through  $\gamma$  by a plane parallel to its base; the result will be the circle perpendicular to  $\alpha \gamma$  whose diameter will be  $\epsilon \zeta$ . On this circle erect a cylinder whose axis  $= \alpha \gamma$  and whose vertical boundaries are  $\epsilon \lambda$  and  $\zeta \eta$ . Produce  $\gamma \alpha$  making  $\alpha \theta = \gamma \alpha$  and think of  $\gamma \theta$  as a scale-beam with its center at  $\alpha$ . Then let  $\mu \nu$  be any straight line whatever drawn  $\| \beta \delta$  intersecting the circle  $\alpha \beta \gamma \delta$  in  $\xi$  and  $o$ , the diameter  $\alpha \gamma$  in  $\sigma$ , the straight line  $\alpha \epsilon$  in  $\pi$  and  $\alpha \zeta$  in  $\rho$ , and on the straight line  $\mu \nu$  construct a plane perpendicular to  $\alpha \gamma$ ; it will intersect the cylinder in a circle on the diameter  $\mu \nu$ ; the sphere  $\alpha \beta \gamma \delta$ , in a circle on the diameter  $\xi o$ ; the cone  $\alpha \epsilon \zeta$  in a circle on the diameter  $\pi \rho$ . Now because  $\gamma \alpha \times \alpha \sigma = \mu \sigma \times \sigma \pi$  (for  $\alpha \gamma = \sigma \mu$ ,  $\alpha \sigma = \pi \sigma$ ), and  $\gamma \alpha \times \alpha \sigma = \alpha \xi^2 = \xi \sigma^2 + \alpha \pi^2$  then  $\mu \sigma \times \sigma \pi = \xi \sigma^2 + \sigma \pi^2$ . Moreover, because  $\gamma \alpha : \alpha \sigma = \mu \sigma : \sigma \pi$  and  $\gamma \alpha = \alpha \theta$ , therefore  $\theta \alpha : \alpha \sigma = \mu \sigma : \sigma \pi = \mu \sigma^2 : \mu \sigma \times \sigma \pi$ . But it has been proved that  $\xi \sigma^2 + \sigma \pi^2 = \mu \sigma \times \sigma \pi$ ; hence  $\alpha \theta : \alpha \sigma = \mu \sigma^2 : \xi \sigma^2 + \sigma \pi^2$ . But it is true that  $\mu \sigma^2 : \xi \sigma^2 + \sigma \pi^2 = \mu \nu^2 : \xi \alpha^2 + \pi \rho^2 =$  the circle in the cylinder whose diameter is  $\mu \nu :$  the circle in the cone whose diameter is  $\pi \rho +$  the circle in the sphere whose diameter is  $\xi o$ ; hence  $\theta \alpha : \alpha \sigma =$  the circle in the cylinder : the circle in the sphere + the circle in the cone. Therefore the circle in the cylinder in its present position will be in equilibrium at the point  $\alpha$  with the two circles whose di
+
+---
+
+ameters are $\xi o$ and $\pi\rho$, if they are so transferred to $\theta$ that $\theta$ is the center of gravity of both. In the same way it can be shown that when another straight line is drawn in the parallelogram $\xi\lambda\parallel\epsilon\zeta$, and upon it a plane is erected perpendicular to $\alpha\gamma$, the circle produced in the cylinder in its present position will be in equilibrium at the point $\alpha$ with the two circles produced in the sphere and the cone when they are transferred and so arranged on the scale-beam at the point $\theta$ that $\theta$ is the center of gravity of both. Therefore if cylinder, sphere and cone are filled up with such circles then the cylinder in its present position will be in equilibrium at the point $\alpha$ with the sphere and the cone together, if they are transferred and so arranged on the scale-beam at the point $\theta$ that $\theta$ is the center of gravity of both. Now since the bodies we have mentioned are in equilibrium, the cylinder with $\kappa$ as its center of gravity, the sphere and the cone transferred as we have said so that they have $\theta$ as center of gravity, then $\theta\alpha:\alpha\kappa=\mathrm{cylinder}:\mathrm{sphere}+\mathrm{cone}$. But $\theta\alpha=2\alpha\kappa$, and hence also the cylinder $=2\times(\mathrm{sphere}+\mathrm{cone})$. But it is also true that the cylinder $=3\,\mathrm{cones}$ [Euclid, *Elem.* XII, 10], hence $3\,\mathrm{cones}=2\,\mathrm{cones}+2\,\mathrm{spheres}$. If $2\,\mathrm{cones}$ be subtracted from both sides, then the cone whose axes form the triangle $\alpha\epsilon\zeta=2\,\mathrm{spheres}$. But the cone whose axes form the triangle $\alpha\epsilon\zeta=8\,\mathrm{cones}$ whose axes form the triangle $\alpha\beta\delta$ because $\epsilon\zeta=2\beta\delta$, hence the aforesaid $8\,\mathrm{cones}=2\,\mathrm{spheres}$. Consequently the sphere whose greatest circle is $\alpha\beta\gamma\delta$ is four times as large as the cone with its vertex at $\alpha$, and whose base is the circle on the diameter $\beta\delta$ perpendicular to $\alpha\gamma$.
+
+---
+
+Draw the straight lines $\phi\beta\chi$ and $\psi\delta\omega\parallel\alpha\gamma$ through $\beta$ and $\delta$ in the parallelogram $\lambda\zeta$ and imagine a cylinder whose bases are the circles on the diameters $\phi\psi$ and $\chi\omega$ and whose axis is $\alpha\gamma$. Now since the cylinder whose axes form the parallelogram $\phi\omega$ is twice as large as the cylinder whose axes form the parallelogram $\phi\delta$ and the latter is three times as large as the cone the triangle of whose axes is $\alpha\beta\delta$, as is shown in the Elements [Euclid, Elem. XII, 10], the cylinder whose axes form the parallelogram $\phi\omega$ is six times as large as the cone whose axes form the triangle $\alpha\beta\delta$. But it was shown that the sphere whose largest circle is $\alpha\beta\gamma\delta$ is four times as large as the same cone, consequently the cylinder is one and one half times as large as the sphere, Q. E. D.
+
+After I had thus perceived that a sphere is four times as large as the cone whose base is the largest circle of the sphere and whose altitude is equal to its radius, it occurred to me that the surface of a sphere is four times as great as its largest circle, in which I proceeded from the idea that just as a circle is equal to a triangle whose base is the periphery of the circle and whose altitude is equal to its radius, so a sphere is equal to a cone whose base is the same as the surface of the sphere and whose altitude is equal to the radius of the sphere.
+
+III.
+
+By this method it may also be seen that a cylinder whose base is equal to the largest circle of a spheroid and whose altitude is equal to the axis of the spheroid, is one and one half
+
+---
+
+times as large as the spheroid, and when this is recognized it becomes clear that if a spheroid is cut through its center by a plane perpendicular to its axis, one-half of the spheroid is twice as great as the cone whose base is that of the segment and its axis the same.
+
+For let a spheroid be cut by a plane through its axis and let there be in its surface an ellipse $\alpha\beta\gamma\delta$ *[Fig. 3]* whose diameters are $\alpha\gamma$ and $\beta\delta$ and whose center is $\kappa$ and let there be a circle in the spheroid on the diameter $\beta\delta$ perpendicular to $\alpha\gamma$; then imagine a cone whose base is the same circle but whose vertex is at $\alpha$, and producing its surface, let the cone be cut by a plane through $\gamma$ parallel to the base; the intersection will be a circle perpendicular to $\alpha\gamma$ with $\epsilon\zeta$ as its diameter. Now imagine a cylinder whose base is the same circle with the diameter $\epsilon\zeta$ and whose axis is $\alpha\gamma$; let $\gamma\alpha$ be produced so that $\alpha\theta=\gamma\alpha$; think of $\theta\gamma$ as a scale-beam with its center at $\alpha$ and in the parallelogram $\lambda\theta$ draw a straight line $\mu\nu\parallel\epsilon\zeta$, and on $\mu\nu$ construct a plane perpendicular to $\alpha\gamma$; this will intersect the cylinder in a circle whose diameter is $\mu\nu$, the spheroid in a circle whose diameter is $\xi o$ and the cone in a circle whose diameter is $\pi\rho$. Because $\gamma\alpha:\alpha\sigma=\epsilon\alpha:\alpha\pi=\mu\sigma:\sigma\pi$, and $\gamma\alpha=\alpha\theta$, therefore $\theta\alpha:\alpha\sigma=\mu\sigma:\sigma\pi$. But $\mu\sigma:\sigma\pi=\mu\sigma^{2}:\mu\sigma\times\sigma\pi$ and $\mu\sigma\times\sigma\pi=\pi\sigma^{2}+\sigma\xi^{2}$, for $\alpha\sigma\times\sigma\gamma:\sigma\xi^{2}=\alpha\kappa\times\kappa\gamma:\kappa\beta^{2}=\alpha\kappa^{2}:\kappa\beta^{2}$ (for both ratios are equal to the ratio between the diameter and the parameter *[Apollonius, Con. I, 21]*) $=\alpha\sigma^{2}:\sigma\pi^{2}$ therefore $\alpha\sigma^{2}:\alpha\sigma\times\sigma\gamma=\pi\sigma^{2}:\sigma\xi^{2}=\sigma\pi^{2}:\sigma\pi\times\pi\mu$, consequently $\mu\pi\times\pi\sigma=\sigma\xi^{2}$. If $\pi\sigma^{2}$ is added to both sides then
+
+---
+
+$\mu \sigma \times \sigma \pi = \pi \sigma^2 + \sigma \xi^2$ . Therefore  $\theta \alpha : \alpha \sigma = \mu \sigma^2 : \pi \sigma^2 + \sigma \xi^2$ . But  $\mu \sigma^2 : \sigma \xi^2 + \sigma \pi^2 =$  the circle in the cylinder whose diameter is  $\mu \nu$ : the circle with the diameter  $\xi o +$  the circle with the diameter  $\pi \rho$ ; hence the circle whose diameter is  $\mu \nu$  will in its present position be in equilibrium at the point  $\alpha$  with the two circles whose diameters are  $\xi o$  and  $\pi \rho$  when they are transferred and so arranged on the scale-beam at the point  $\alpha$  that  $\theta$  is the center of gravity of both; and  $\theta$  is the center of gravity of the two circles combined whose diameters are  $\xi o$  and  $\pi \rho$  when their position is changed, hence  $\theta \alpha : \alpha \sigma =$  the
+
+![img-2.jpeg](images/img-2.jpeg)
+Fig. 3.
+
+---
+
+circle with the diameter $\mu\nu:$ the two circles whose diameters are $\xi o$ and $\pi\rho$. In the same way it can be shown that if another straight line is drawn in the parallelogram $\lambda\zeta\parallel\epsilon\zeta$ and on this line last drawn a plane is constructed perpendicular to $\alpha\gamma$, then likewise the circle produced in the cylinder will in its present position be in equilibrium at the point $\alpha$ with the two circles combined which have been produced in the spheroid and in the cone respectively when they are so transferred to the point $\theta$ on the scale-beam that $\theta$ is the center of gravity of both. Then if cylinder, spheroid and cone are filled with such circles, the cylinder in its present position will be in equilibrium at the point $\alpha$ with the spheroid $+$ the cone if they are transferred and so arranged on the scale-beam at the point $\alpha$ that $\theta$ is the center of gravity of both. Now $\kappa$ is the center of gravity of the cylinder, but $\theta$, as has been said, is the center of gravity of the spheroid and cone together. Therefore $\theta\alpha:\alpha\kappa={\rm cylinder}:\rm spheroid+cone\,$. But $\alpha\theta=2\alpha\kappa$, hence also the cylinder $=2\times({\rm spheroid+cone\,})=2\times{\rm spheroid}\,+2\times{\rm cone}\,$. But the cylinder $=3\times{\rm cone}\,$, hence $3\times{\rm cone}\,=2\times{\rm cone}\,+2\times{\rm spheroid}\,$. Subtract $2\times{\rm cone}\,$ from both sides; then a cone whose axes form the triangle $\alpha\epsilon\zeta=2\times{\rm spheroid}\,$. But the same cone $=8$ cones whose axes form the $\triangle\alpha\beta\delta$; hence $8$ such cones $=2\times{\rm spheroid}\,$, $4\times{\rm cone}\,={\rm spheroid}\,$; whence it follows that a spheroid is four times as great as a cone whose vertex is at $\alpha$, and whose base is the circle on the diameter $\beta\delta$ perpendicular to $\lambda\epsilon$, and one-half the spheroid is twice as great as the same cone.
+
+In the parallelogram $\lambda\zeta$ draw the straight lines $\phi\chi$ and
+
+---
+
+$\psi\omega\parallel\alpha\gamma$ through the points $\beta$ and $\delta$ and imagine a cylinder whose bases are the circles on the diameters $\phi\psi$ and $\chi\omega$, and whose axis is $\alpha\gamma$. Now since the cylinder whose axes form the parallelogram $\phi\omega$ is twice as great as the cylinder whose axes form the parallelogram $\phi\delta$ because their bases are equal but the axis of the first is twice as great as the axis of the second, and since the cylinder whose axes form the parallelogram $\phi\delta$ is three times as great as the cone whose vertex is at $\alpha$ and whose base is the circle on the diameter $\beta\delta$ perpendicular to $\alpha\gamma$, then the cylinder whose axes form the parallelogram $\phi\omega$ is six times as great as the aforesaid cone. But it has been shown that the spheroid is four times as great as the same cone, hence the cylinder is one and one half times as great as the spheroid. Q. E. D.
+
+IV.
+
+That a segment of a right conoid cut by a plane perpendicular to its axis is one and one half times as great as the cone having the same base and axis as the segment, can be proved by the same method in the following way:
+
+Let a right conoid be cut through its axis by a plane intersecting the surface in a parabola $\alpha\beta\gamma$ [Fig. 4]; let it be also cut by another plane perpendicular to the axis, and let their common line of intersection be $\beta\gamma$. Let the axis of the segment be $\delta\alpha$ and let it be produced to $\theta$ so that $\theta\alpha=\alpha\delta$. Now imagine $\delta\theta$ to be a scale-beam with its center at $\alpha$; let the base of the segment be the circle on the diameter $\beta\gamma$
+
+---
+
+perpendicular to $\alpha\delta$; imagine a cone whose base is the circle on the diameter $\beta\gamma$, and whose vertex is at $\alpha$. Imagine also a cylinder whose base is the circle on the diameter $\beta\gamma$ and its axis $\alpha\delta$, and in the parallelogram let a straight line $\mu\nu$ be drawn $\parallel\beta\gamma$ and on $\mu\nu$ construct a plane perpendicular to $\alpha\delta$; it will intersect the cylinder in a circle whose diameter is $\mu\nu$, and the segment of the right conoid in a circle whose diameter is $\xi o$. Now since $\beta\alpha\gamma$ is a parabola, $\alpha\delta$ its diameter and $\xi\sigma$ and $\beta\delta$ its ordinates, then [Quadr. parab. 3] $\delta\alpha:\alpha\sigma=\beta\delta^{2}:\xi\sigma^{2}$. But $\delta\alpha=\alpha\theta$, therefore $\theta\alpha:\alpha\sigma=\mu\sigma^{2}:\sigma\xi^{2}$. But $\mu\sigma^{2}:\sigma\xi^{2}=$ the circle in the cylinder whose diameter is $\mu\nu:$ the circle in the segment of the right conoid whose diameter is $\xi o$, hence $\theta\alpha:\alpha\sigma=$ the circle with the diameter $\mu\nu:$ the circle with the diameter $\xi o$; therefore the circle in the cylinder whose diameter is $\mu\nu$ is in its present position, in equilibrium at the point $\alpha$ with the circle whose diameter is $\xi o$ if this be transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity. And the center of gravity of the circle whose diameter is $\mu\nu$ is at $\sigma$, that of the circle whose diameter is $\xi o$ when its position is changed, is $\theta$, and we have the inverse proportion, $\theta\alpha:\alpha\sigma=$ the circle with the diameter $\mu\nu:$ the circle with the diameter $\xi o$. In the same way it can be shown that if another straight line be drawn in the parallelogram $\epsilon\gamma\parallel\beta\gamma$ the circle formed in the cylinder, will in its present position be in equilibrium at the point $\alpha$ with that formed in the segment of the right conoid if the latter is so transferred to $\theta$ on the scale-beam that $\theta$ is its center of gravity. Therefore if the cylinder and the
+
+---
+
+![img-3.jpeg](images/img-3.jpeg)
+Fig. 4.
+
+segment of the right conoid are filled up then the cylinder in its present position will be in equilibrium at the point  $\alpha$  with the segment of the right conoid if the latter is transferred and so arranged on the scale-beam at  $\theta$  that  $\theta$  is its center of gravity. And since these magnitudes are in equilibrium at  $\alpha$ , and  $\kappa$  is the center of gravity of the cylinder, if  $\alpha \delta$  is bisected at  $\kappa$  and  $\theta$  is the center of gravity of the segment transferred to that point, then we have the inverse proportion  $\theta \alpha : \alpha \kappa = \text{cylinder} : \text{segment}$ . But  $\theta \alpha = 2\alpha \kappa$  and also the cylinder  $= 2 \times \text{segment}$ . But the same cylinder is 3 times as great as the cone whose base is the circle on the diameter  $\beta \gamma$  and whose vertex is at  $\alpha$ ; therefore it is clear that the segment
+
+---
+
+is one and one half times as great as the same cone.
+
+V.
+
+That the center of gravity of a segment of a right conoid which is cut off by a plane perpendicular to the axis, lies on the straight line which is the axis of the segment divided in such a way that the portion at the vertex is twice as great as the remainder, may be perceived by our method in the following way:
+
+Let a segment of a right conoid cut off by a plane perpendicular to the axis be cut by another plane through the axis, and let the intersection in its surface be the parabola $\alpha\beta\gamma$ [Fig. 5] and let the common line of intersection of the plane which cut off the segment and of the intersecting plane be $\beta\gamma$; let the axis of the segment and the diameter of the parabola $\alpha\beta\gamma$ be $\alpha\delta$; produce $\delta\alpha$ so that $\alpha\theta=\alpha\delta$ and imagine $\delta\theta$ to be a scale-beam with its center at $\alpha$; then inscribe a cone in the segment with the lateral boundaries $\beta\alpha$ and $\alpha\gamma$ and in the parabola draw a straight line $\xi o\parallel\beta\gamma$ and let it cut the parabola in $\xi$ and $o$ and the lateral boundaries of the cone in $\pi$ and $\rho$. Now because $\xi\sigma$ and $\beta\delta$ are drawn perpendicular to the diameter of the parabola, $\delta\alpha:\alpha\sigma=\beta\delta^{2}:\xi\sigma^{2}$ [Quadr. parab. 3]. But $\delta\alpha:\alpha\sigma=\beta\delta:\pi\sigma=\beta\delta^{2}:\beta\delta\times\pi\sigma$, therefore also $\beta\delta^{2}:\xi\sigma^{2}=\beta\delta^{2}:\beta\delta\times\pi\sigma$. Consequently $\xi\sigma^{2}=\beta\delta\times\pi\sigma$ and $\beta\delta:\xi\sigma=\xi\sigma:\pi\sigma$, therefore $\beta\delta:\pi\sigma=\xi\sigma^{2}:\sigma\pi^{2}$. But $\beta\delta:\pi\sigma=\delta\alpha:\alpha\sigma=\theta\alpha:\alpha\sigma$, therefore also $\theta\alpha:\alpha\sigma=\xi\sigma^{2}:\sigma\pi^{2}$. On $\xi o$ construct a plane perpen
+
+---
+
+![img-4.jpeg](images/img-4.jpeg)
+Fig. 5.
+
+dicular to  $\alpha \delta$ ; this will intersect the segment of the right conoid in a circle whose diameter is  $\xi o$  and the cone in a circle whose diameter is  $\pi \rho$ . Now because  $\theta \alpha : \alpha \sigma = \xi \sigma^2 : \sigma \pi^2$  and  $\xi \sigma^2 : \sigma \pi^2 =$  the circle with the diameter  $\xi o$ : the circle with the diameter  $\pi \rho$ , therefore  $\theta \alpha : \alpha \sigma =$  the circle whose diameter is  $\xi o$ : the circle whose diameter is  $\pi \rho$ . Therefore the circle whose diameter is  $\xi o$  will in its present position be in equilibrium at the point  $\alpha$  with the circle whose diameter is  $\pi \rho$  when this is so transferred to  $\theta$  on the scale-beam that  $\theta$  is its center of gravity. Now since  $\sigma$  is the center of gravity
+
+---
+
+of the circle whose diameter is $\xi o$ in its present position, and $\theta$ is the center of gravity of the circle whose diameter is $\pi\rho$ if its position is changed as we have said, and inversely $\theta\alpha:\alpha\sigma=$ the circle with the diameter $\xi o:$ the circle with the diameter $\pi\rho$, then the circles are in equilibrium at the point $\alpha$. In the same way it can be shown that if another straight line is drawn in the parabola $\parallel\beta\gamma$ and on this line last drawn a plane is constructed perpendicular to $\alpha\delta$, the circle formed in the segment of the right conoid will in its present position be in equilibrium at the point $\alpha$ with the circle formed in the cone, if the latter is transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity. Therefore if the segment and the cone are filled up with circles, all circles in the segment will be in their present positions in equilibrium at the point $\alpha$ with all circles of the cone if the latter are transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity. Therefore also the segment of the right conoid in its present position will be in equilibrium at the point $\alpha$ with the cone if it is transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity. Now because the center of gravity of both magnitudes taken together is $\alpha$, but that of the cone alone when its position is changed is $\theta$, then the center of gravity of the remaining magnitude lies on $\alpha\theta$ extended towards $\alpha$ if $\alpha\kappa$ is cut off in such a way that $\alpha\theta:\alpha\kappa=\mbox{segment}:\mbox{cone}$. But the segment is one and one half the size of the cone, consequently $\alpha\theta=\frac{3}{2}\alpha\kappa$ and $\kappa$, the center of gravity of the right conoid, so divides $\alpha\delta$ that the
+
+---
+
+portion at the vertex of the segment is twice as large as the remainder.
+
+VI.
+
+[The center of gravity of a hemisphere is so divided on its axis] that the portion near the surface of the hemisphere is in the ratio of $5:3$ to the remaining portion.
+
+Let a sphere be cut by a plane through its center intersecting the surface in the circle $\alpha\beta\gamma\delta$ [Fig. 6], $\alpha\gamma$ and $\beta\delta$ being two diameters of the circle perpendicular to each other. Let a plane be constructed on $\beta\delta$ perpendicular to $\alpha\gamma$. Then imagine a cone whose base is the circle with the diameter $\beta\delta$, whose vertex is at $\alpha$ and its lateral boundaries are $\beta\alpha$ and $\alpha\delta$; let $\gamma\alpha$ be produced so that $\alpha\theta=\gamma\alpha$, imagine the straight line $\theta\gamma$ to be a scale-beam with its center at $\alpha$ and in the semicircle $\beta\alpha\delta$ draw a straight line $\xi o\parallel\beta\delta$; let it cut the circumference of the semicircle in $\xi$ and $o$, the lateral boundaries of the cone in $\pi$ and $\rho$, and $\alpha\gamma$ in $\epsilon$. On $\xi o$ construct a plane perpendicular to $\alpha\epsilon$; it will intersect the hemisphere in a circle with the diameter $\xi o$, and the cone in a circle with the diameter $\pi\rho$. Now because $\alpha\gamma:\alpha\epsilon=\xi\alpha^{2}:\alpha\epsilon^{2}$ and $\xi\alpha^{2}=\alpha\epsilon^{2}+\epsilon\xi^{2}$ and $\alpha\epsilon=\epsilon\pi$, therefore $\alpha\gamma:\alpha\epsilon=\xi\epsilon^{2}+\epsilon\pi^{2}:\epsilon\pi^{2}$. But $\xi\epsilon^{2}+\epsilon\pi^{2}:\epsilon\pi^{2}=$ the circle with the diameter $\xi o+$ the circle with the diameter $\pi\rho:$ the circle with the diameter $\pi\rho$, and $\gamma\alpha=\alpha\theta$, hence $\theta\alpha:\alpha\epsilon=$ the circle with the diameter $\xi o+$the circle with the diameter $\pi\rho:$ circle with the diameter $\pi\rho$. Therefore the
+
+---
+
+![img-5.jpeg](images/img-5.jpeg)
+Fig. 6.
+
+two circles whose diameters are  $\xi o$  and  $\pi \rho$  in their present position are in equilibrium at the point  $\alpha$  with the circle whose diameter is  $\pi \rho$  if it is transferred and so arranged at  $\theta$  that  $\theta$  is its center of gravity. Now since the center of gravity of the two circles whose diameters are  $\xi o$  and  $\pi \rho$  in
+
+---
+
+their present position [is the point $\epsilon$, but of the circle whose diameter is $\pi\rho$ when its position is changed is the point $\theta$, then $\theta\alpha:\alpha\epsilon=$ the circles whose diameters are] $\xi o[$, $\pi\rho:$ the circle whose diameter is $\pi\rho$. In the same way if another straight line in the] hemisphere $\beta\alpha\delta$ [is drawn $\parallel\beta\delta$ and a plane is constructed] perpendicular to [$\alpha\gamma$ the] two [circles produced in the cone and in the hemisphere are in their position] in equilibrium at $\alpha$ [with the circle which is produced in the cone] if it is transferred and arranged on the scale at $\theta$. [Now if] the hemisphere and the cone [are filled up with circles then all circles in the] hemisphere and those [in the cone] will in their present position be in equilibrium [with all circles] in the cone, if these are transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is their center of gravity; [therefore the hemisphere and cone also] are in their position [in equilibrium at the point $\alpha$] with the cone if it is transferred and so arranged [on the scale-beam at $\theta$] that $\theta$ is its center of gravity.
+
+VII.
+
+By [this method] it may also be perceived that [any segment whatever] of a sphere bears the same ratio to a cone having the same [base] and axis [that the radius of the sphere + the axis of the opposite segment : the axis of the opposite segment] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . and [Fig. 7] on $\mu\nu$ construct a plane perpendicular to $\alpha\gamma$; it will intersect the cylinder in a circle whose diameter is $\mu\nu$,
+
+---
+
+the segment of the sphere in a circle whose diameter is  $\xi o$
+
+![img-6.jpeg](images/img-6.jpeg)
+Fig. 7.
+
+and the cone whose base is the circle on the diameter  $\epsilon \zeta$  and whose vertex is at  $\alpha$  in a circle whose diameter is  $\pi \rho$ . In the same way as before it may be shown that a circle whose diameter is  $\mu \nu$  is in its present position in equilibrium at  $\alpha$  with the two circles [whose diameters are  $\xi o$  and  $\pi \rho$  if they are so arranged on the scale-beam that  $\theta$  is their center of gravity. [And the same can be proved of all corresponding circles.] Now since cylinder, cone, and spherical segment are filled up with such circles, the cylinder in its present position [will be in equilibrium at  $\alpha$ ] with the cone + the
+
+---
+
+spherical segment if they are transferred and attached to the scale-beam at $\theta$. Divide $\alpha\eta$ at $\phi$ and $\chi$ so that $\alpha\chi=\chi\eta$ and $\eta\phi=\frac{1}{3}\alpha\phi$; then $\chi$ will be the center of gravity of the cylinder because it is the center of the axis $\alpha\eta$. Now because the above mentioned bodies are in equilibrium at $\alpha$, cylinder $:$ cone with the diameter of its base $\epsilon\zeta$ + the spherical segment $\beta\alpha\delta=\theta\alpha:\alpha\chi$. And because $\eta\alpha=3\eta\phi$ then $[\gamma\eta\times\eta\phi]=\frac{1}{3}\alpha\eta\times\eta\gamma$. Therefore also $\gamma\eta\times\eta\phi=\frac{1}{3}\beta\eta^{2}$. …
+
+VIIa.
+
+In the same way it may be perceived that any segment of an ellipsoid cut off by a perpendicular plane, bears the same ratio to a cone having the same base and the same axis, as half of the axis of the ellipsoid + the axis of the opposite segment bears to the axis of the opposite segment. ……
+
+VIII.
+
+$\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots$
+
+produce $\alpha\gamma$ [Fig. 8] making $\alpha\theta=\alpha\gamma$ and $\gamma\xi=$ the radius of the sphere; imagine $\gamma\theta$ to be a scale-beam with a center at $\alpha$, and in the plane cutting off the segment inscribe a circle with its center at $\eta$ and its radius $=\alpha\eta$; on this circle construct a cone with its vertex at $\alpha$ and its lateral boundaries $\alpha\epsilon$ and $\alpha\zeta$. Then draw a straight line $\kappa\lambda\parallel\epsilon\zeta$; let it cut the circumference of the segment at $\kappa$ and $\lambda$, the lateral boundaries of the cone $\alpha\epsilon\zeta$ at $\rho$ and $o$ and $\alpha\gamma$ at $\pi$. Now because
+
+---
+
+![img-7.jpeg](images/img-7.jpeg)
+Fig. 8.
+
+$\alpha \gamma : \alpha \pi = \alpha \kappa^2 : \alpha \pi^2$  and  $\kappa \alpha^2 = \alpha \pi^2 + \pi \kappa^2$  and  $\alpha \pi^2 = \pi o^2$  (since also  $\alpha \eta^2 = \epsilon \eta^2$ ), then  $\gamma \alpha : \alpha \pi = \kappa \pi^2 + \pi o^2 : o\pi^2$ . But  $\kappa \pi^2 + \pi o^2 : \pi o^2 =$  the circle with the diameter  $\kappa \lambda +$  the circle with the diameter  $o\rho :$  the circle with the diameter  $o\rho$  and  $\gamma \alpha = \alpha \theta$ ; therefore  $\theta \alpha : \alpha \pi =$  the circle with the diameter  $\kappa \lambda +$  the circle with the diameter  $o\rho :$  the circle with the diameter  $o\rho$ . Now since the circle with the diameter  $\kappa \lambda +$  the circle with the diameter  $o\rho :$  the circle with the diam-
+
+---
+
+eter $o\rho=\alpha\theta:\pi\alpha$, let the circle with the diameter $o\rho$ be transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity; then $\theta\alpha:\alpha\pi=$ the circle with the diameter $\kappa\lambda+$ the circle with the diameter $o\rho$ in their present positions : the circle with the diameter $o\rho$ if it is transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity. Therefore the circles in the segment $\beta\alpha\delta$ and in the cone $\alpha\epsilon\zeta$ are in equilibrium at $\alpha$ with that in the cone $\alpha\epsilon\zeta$. And in the same way all circles in the segment $\beta\alpha\delta$ and in the cone $\alpha\epsilon\zeta$ in their present positions are in equilibrium at the point $\alpha$ with all circles in the cone $\alpha\epsilon\zeta$ if they are transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is their center of gravity; then also the spherical segment $\alpha\beta\delta$ and the cone $\alpha\epsilon\zeta$ in their present positions are in equilibrium at the point $\alpha$ with the cone $\epsilon\alpha\zeta$ if it is transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity. Let the cylinder $\mu\nu$ equal the cone whose base is the circle with the diameter $\epsilon\zeta$ and whose vertex is at $\alpha$ and let $\alpha\eta$ be so divided at $\phi$ that $\alpha\eta=4\phi\eta$; then $\phi$ is the center of gravity of the cone $\epsilon\alpha\zeta$ as has been previously proved. Moreover let the cylinder $\mu\nu$ be so cut by a perpendicularly intersecting plane that the cylinder $\mu$ is in equilibrium with the cone $\epsilon\alpha\zeta$. Now since the segment $\alpha\beta\delta+$ the cone $\epsilon\alpha\zeta$ in their present positions are in equilibrium at $\alpha$ with the cone $\epsilon\alpha\zeta$ if it is transferred and so arranged on the scale-beam at $\theta$ that $\theta$ is its center of gravity, and cylinder $\mu\nu=$ cone $\epsilon\alpha\zeta$ and the two cylinders $\mu+\nu$ are moved to $\theta$ and $\mu\nu$ is in equilibrium with both bodies, then will also the cylinder $\nu$ be in equilibrium
+
+---
+
+with the segment of the sphere at the point  $\alpha$ . And since the spherical segment  $\beta \alpha \delta$ : the cone whose base is the circle with the diameter  $\beta \delta$ , and whose vertex is at  $\alpha = \xi \eta : \eta \gamma$  (for this has previously been proved [De sph. et cyl. II, 2 Coroll.]) and cone  $\beta \alpha \delta$ : cone  $\epsilon \alpha \zeta =$  the circle with the diameter  $\beta \delta$ : the circle with the diameter  $\epsilon \zeta = \beta \eta^2 : \eta \epsilon^2$ , and  $\beta \eta^2 = \gamma \eta \times \eta \alpha$ ,  $\eta \epsilon^2 = \eta \alpha^2$ , and  $\gamma \eta \times \eta \alpha : \eta \alpha^2 = \gamma \eta : \eta \alpha$ , therefore cone  $\beta \alpha \delta$ : cone  $\epsilon \alpha \zeta = \gamma \eta : \eta \alpha$ . But we have shown that cone  $\beta \alpha \delta$ : segment  $\beta \alpha \delta = \gamma \eta : \eta \xi$ , hence  $\delta \iota' \overline{\iota} \sigma \omega$  segment  $\beta \alpha \delta$ : cone  $\epsilon \alpha \zeta = \xi \eta : \eta \alpha$ . And because  $\alpha \chi : \chi \eta = \eta \alpha + 4\eta \gamma : \alpha \eta + 2\eta \gamma$  so inversely  $\eta \chi : \chi \alpha = 2\gamma \eta + \eta \alpha : 4\gamma \eta + \eta \alpha$  and by addition  $\eta \alpha : \alpha \chi = 6\gamma \eta + 2\eta \alpha : \eta \alpha + 4\eta \gamma$ . But  $\eta \xi = \frac{1}{4}(6\eta \gamma + 2\eta \alpha)$  and  $\gamma \phi = \frac{1}{4}(4\eta \gamma + \eta \alpha)$ ; for that is evident. Hence  $\eta \alpha : \alpha \chi = \xi \eta : \gamma \phi$ , consequently also  $\xi \eta : \eta \alpha = \gamma \phi : \chi \alpha$ . But it was also demonstrated that  $\xi \eta : \eta \alpha =$  the segment whose vertex is at  $\alpha$  and whose base is the circle with the diameter  $\beta \delta$ : the cone whose vertex is at  $\alpha$  and whose base is the circle with the diameter  $\epsilon \zeta$ ; hence segment  $\beta \alpha \delta$ : cone  $\epsilon \alpha \zeta = \gamma \phi : \chi \alpha$ . And since the cylinder  $\mu$  is in equilibrium with the cone  $\epsilon \alpha \zeta$  at  $\alpha$ , and  $\theta$  is the center of gravity of the cylinder while  $\phi$  is that of the cone  $\epsilon \alpha \zeta$ , then cone  $\epsilon \alpha \zeta$ : cylinder  $\mu = \theta \alpha : \alpha \phi = \gamma \alpha : \alpha \phi$ . But cylinder  $\mu\nu =$  cone  $\epsilon \alpha \zeta$ ; hence by subtraction, cylinder  $\mu$ : cylinder  $\nu = \alpha \phi : \gamma \phi$ . And cylinder  $\mu\nu =$  cone  $\epsilon \alpha \zeta$ ; hence cone  $\epsilon \alpha \zeta$ : cylinder  $\nu = \gamma \alpha : \gamma \phi = \theta \alpha : \gamma \phi$ . But it was also demonstrated that segment  $\beta\alpha\delta$ : cone  $\epsilon\alpha\zeta = \gamma\phi : \chi\alpha$ ; hence  $\delta\iota' \overline{\iota}\sigma\omega$  segment  $\beta\alpha\delta$ : cylinder  $\nu = \zeta\alpha : \alpha\chi$ . And it was demonstrated that segment  $\beta\alpha\delta$  is in equilibrium at  $\alpha$
+
+---
+
+with the cylinder $\nu$ and $\theta$ is the center of gravity of the cylinder $\nu$, consequently the point $\chi$ is also the center of gravity of the segment $\beta\alpha\delta$.
+
+IX.
+
+In a similar way it can also be perceived that the center of gravity of any segment of an ellipsoid lies on the straight line which is the axis of the segment so divided that the portion at the vertex of the segment bears the same ratio to the remaining portion as the axis of the segment $+4$ times the axis of the opposite segment bears to the axis of the segment $+$ twice the axis of the opposite segment.
+
+X.
+
+It can also be seen by this method that [a segment of a hyperboloid] bears the same ratio to a cone having the same base and axis as the segment, that the axis of the segment $+3$ times the addition to the axis bears to the axis of the segment of the hyperboloid $+$ twice its addition [De Conoid. 25]; and that the center of gravity of the hyperboloid so divides the axis that the part at the vertex bears the same ratio to the rest that three times the axis $+$ eight times the addition to the axis bears to the axis of the hyperboloid $+4$ times the addition to the axis, and many other points which I will leave aside since the method has been made clear by the examples already given and only the
+
+---
+
+demonstrations of the above given theorems remain to be stated.
+
+## XI
+
+When in a perpendicular prism with square bases a cylinder is inscribed whose bases lie in opposite squares and whose curved surface touches the four other parallelograms, and when a plane is passed through the center of the circle which is the base of the cylinder and one side of the opposite square, then the body which is cut off by this plane [from the cylinder] will be $\frac{1}{6}$ of the entire prism. This can be perceived through the present method and when it is so warranted we will pass over to the geometrical proof of it.
+
+Imagine a perpendicular prism with square bases and a cylinder inscribed in the prism in the way we have described. Let the prism be cut through the axis by a plane perpendicular to the plane which cuts off the section of the cylinder; this will intersect the prism containing the cylinder in the parallelogram $\alpha\beta$ [Fig. 9] and the common intersecting line of the plane which cuts off the section of the cylinder and the plane lying through the axis perpendicular to the one cutting off the section of the cylinder will be $\beta\gamma$; let the axis of the cylinder and the prism be $\gamma\delta$ which is bisected at right angles by $\epsilon\zeta$ and on $\epsilon\zeta$ let a plane be constructed perpendicular to $\gamma\delta$. This will intersect the prism in a square and the cylinder in a circle.
+
+Now let the intersection of the prism be the square $\mu\nu$
+
+---
+
+![img-8.jpeg](images/img-8.jpeg)
+[Fig. 10], that of the cylinder, the circle  $\xi o\pi \rho$  and let the circle touch the sides of the square at the points  $\xi$ ,  $o$ ,  $\pi$  and  $\rho$ ; let the common line of intersection of the plane cutting off the cylinder-section and that passing through  $\epsilon \zeta$  perpendicular to the axis of the cylinder, be  $\kappa \lambda$ ; this line is bisected by  $\pi \theta \xi$ . In the semicircle  $o\pi \rho$  draw a straight line  $\sigma \tau$  perpendicular to  $\pi \chi$ , on  $\sigma \tau$  construct a plane perpendicular to  $\xi \pi$  and produce it to both sides of the plane enclosing the circle  $\xi o\pi \rho$ ; this will intersect the half-cylinder whose base is the semicircle  $o\pi \rho$  and whose altitude is the axis of the prism, in a parallelogram one side of which  $= \sigma \tau$  and the other  $=$  the vertical boundary of the cylinder, and it will intersect the cylinder-section likewise in a parallelogram of which one side is  $\sigma \tau$  and the other  $\mu \nu$  [Fig. 9]; and accordingly  $\mu \nu$  will be drawn in the parallelogram  $\delta \epsilon \parallel \beta \omega$  and will cut off  $\epsilon \iota = \pi \chi$ . Now because  $\epsilon \gamma$  is a parallelogram and  $\nu \iota \parallel \theta \gamma$ , and  $\epsilon \theta$  and  $\beta \gamma$  cut the parallels, therefore  $\epsilon \theta : \theta \iota = \omega \gamma : \gamma \nu = \beta \omega : v\nu$ .
+
+![img-9.jpeg](images/img-9.jpeg)
+
+---
+
+But $\beta\omega:\upsilon\nu=$ parallelogram in the half-cylinder : parallelogram in the cylinder-section, therefore both parallelograms have the same side $\sigma\tau$; and $\epsilon\theta=\theta\pi$, $\iota\theta=\chi\theta$; and since $\pi\theta=\theta\xi$ therefore $\theta\xi:\theta\chi=$ parallelogram in half-cylinder : parallelogram in the cylinder-section. Imagine the parallelogram in the cylinder-section transferred and so brought to $\xi$ that $\xi$ is its center of gravity, and further imagine $\pi\xi$ to be a scale-beam with its center at $\theta$; then the parallelogram in the half-cylinder in its present position is in equilibrium at the point $\theta$ with the parallelogram in the cylinder-section when it is transferred and so arranged on the scale-beam at $\xi$ that $\xi$ is its center of gravity. And since $\chi$ is the center of gravity in the parallelogram in the half-cylinder, and $\xi$ that of the parallelogram in the cylinder-section when its position is changed, and $\xi\theta:\theta\chi=$ the parallelogram whose center of gravity is $\chi:$ the parallelogram whose center of gravity is $\xi$, then the parallelogram whose center of gravity is $\chi$ will be in equilibrium at $\theta$ with the parallelogram whose center of gravity is $\xi$. In this way it can be proved that if another straight line is drawn in the semicircle $o\pi\rho$ perpendicular to $\pi\theta$ and on this straight line a plane is constructed perpendicular to $\pi\theta$ and is produced towards both sides of the plane in which the circle $\xi o\pi\rho$ lies, then the parallelogram formed in the half-cylinder in its present position will be in equilibrium at the point $\theta$ with the parallelogram formed in the cylinder-section if this is transferred and so arranged on the scale-beam at $\xi$ that $\xi$ is its center of gravity; therefore also all parallelograms in the half-cylinder in their present
+
+---
+
+positions will be in equilibrium at the point $\theta$ with all parallelograms of the cylinder-section if they are transferred and attached to the scale-beam at the point $\xi$; consequently also the half-cylinder in its present position will be in equilibrium at the point $\theta$ with the cylinder-section if it is transferred and so arranged on the scale-beam at $\xi$ that $\xi$ is its center of gravity.
+
+## 10 XII.
+
+Let the parallelogram $\mu\nu$ be perpendicular to the axis [of the circle] $\xi o$ [$\pi\rho$] *[Fig. 11]*. Draw $\theta\mu$ and $\theta\eta$ and erect upon them two planes perpendicular to the plane in which the semicircle $o\pi\rho$ lies and extend these planes on both sides. The result is a prism whose base is a triangle similar to $\theta\mu\eta$ and whose altitude is equal to the axis of the cylinder, and this prism is $\frac{1}{4}$ of the entire prism which contains the cylinder. In the semicircle $o\pi\rho$ and in the square $\mu\nu$ draw two straight lines $\kappa\lambda$ and $\tau\upsilon$ at equal distances from $\pi\xi$; these will cut the circumference of the semicircle $o\pi\rho$ at the points $\kappa$ and $\tau$, the diameter $o\rho$ at $\sigma$ and $\zeta$ and the straight lines $\theta\eta$ and $\theta\mu$ at $\phi$ and $\chi$. Upon $\kappa\lambda$ and $\tau\upsilon$ construct two planes perpendicular to $o\rho$ and extend them towards both sides of the plane in which lies the circle $\xi o\pi\rho$; they will intersect the half-cylinder whose base is the semicircle $o\pi\rho$ and whose altitude is that of the cylinder, in a parallelogram one side of which $=\kappa\sigma$ and the other $=$ the axis of the cylinder; and they will intersect the prism $\theta\eta\mu$ likewise in a parallelogram
+
+---
+
+![img-10.jpeg](images/img-10.jpeg)
+Fig. 11.
+
+one side of which is equal to  $\lambda \chi$  and the other equal to the axis, and in the same way the half-cylinder in a parallelogram one side of which  $= \tau \zeta$  and the other  $=$  the axis of the cylinder, and the prism in a parallelogram one side of which  $= \nu \phi$  and the other  $=$  the axis of the cylinder.  $\dots \dots \dots \dots$
+
+# XIII.
+
+Let the square  $\alpha \beta \gamma \delta$  [Fig. 12] be the base of a perpendicular prism with square bases and let a cylinder be inscribed in the prism whose base is the circle  $\epsilon \zeta \eta \theta$  which touches the sides of the parallelogram  $\alpha \beta \gamma \delta$  at  $\epsilon$ ,  $\zeta$ ,  $\eta$ , and  $\theta$ . Pass a
+
+---
+
+plane through its center and the side in the square opposite the square $\alpha\beta\gamma\delta$ corresponding to the side $\gamma\delta$; this will cut off from the whole prism a second prism which is $\frac{1}{4}$ the size of the whole prism and which will be bounded by three parallelograms and two opposite triangles. In the semicircle $\epsilon\zeta\eta$ describe a parabola whose origin is $\eta\epsilon$ and whose axis is $\zeta\kappa$, and in the parallelogram $\delta\eta$ draw $\mu\nu\parallel\kappa\zeta$; this will cut the circumference of the semicircle at $\xi$, the parabola at $\lambda$, and $\mu\nu\times\nu\lambda=\nu\zeta^{2}$ (for this is evident [Apollonios, *Con.* I, 11]). Therefore $\mu\nu:\nu\lambda=\kappa\eta^{2}:\lambda\sigma^{2}$. Upon $\mu\nu$ construct a plane parallel to $\epsilon\eta$; this will intersect the prism cut off from the whole prism in a right-angled triangle one side of which is $\mu\nu$ and the other a straight line in the plane upon $\gamma\delta$ perpendicular to $\gamma\delta$ at $\nu$ and equal to the axis of the cylinder, but whose hypotenuse is in the intersecting plane. It will intersect the portion which is cut off from the cylinder by the plane passed through $\epsilon\eta$ and the side of the square opposite the side $\gamma\delta$ in a right-angled triangle one side of which is $\mu\xi$ and the other a straight line drawn in the surface of the cylinder perpendicular to the plane $\kappa\nu$, and the hypotenuse
+and all the triangles in the prism : all the triangles in the cylinder-section = all the straight lines in the parallelogram $\delta\eta$ : all the straight lines between the parabola and the straight line $\epsilon\eta$. And the prism consists of the triangles in the prism, the cylinder-section of those in the cylinder-section, the parallelogram $\delta\eta$ of the straight lines in the parallelogram $\delta\eta\parallel\kappa\zeta$ and the segment of the parabola of the straight
+
+---
+
+![img-11.jpeg](images/img-11.jpeg)
+Fig. 12.
+
+lines cut off by the parabola and the straight line  $\epsilon \eta$ ; hence prism: cylinder-section = parallelogram  $\eta \delta$ : segment  $\epsilon \zeta \eta$  that is bounded by the parabola and the straight line  $\epsilon \eta$ . But the parallelogram  $\delta \eta = \frac{3}{2}$  the segment bounded by the parabola and the straight line  $\epsilon \eta$  as indeed has been shown in the previously published work, hence also the prism is equal to one and one half times the cylinder-section. Therefore when the cylinder-section = 2, the prism = 3 and the whole prism containing the cylinder equals 12, because it is four times the size of the other prism; hence the cylinder-section is equal to  $\frac{1}{6}$  of the prism, Q.E.D.
+
+---
+
+XIV.
+
+[Inscribe a cylinder in] a perpendicular prism with square bases [and let it be cut by a plane passed through the center of the base of the cylinder and one side of the opposite square.] Then this plane will cut off a prism from the whole prism and a portion of the cylinder from the cylinder. It may be proved that the portion cut off from the cylinder by the plane is one-sixth of the whole prism. But first we will prove that it is possible to inscribe a solid figure in the cylinder-section and to circumscribe another composed of prisms of equal altitude and with similar triangles as bases, so that the circumscribed figure exceeds the inscribed less than any given magnitude. $\dots$ $\dots$ $\dots$ $\dots$ $\dots$ $\dots$ $\dots$ $\dots$ But it has been shown that the prism cut off by the inclined plane $<\frac{3}{2}$ the body inscribed in the cylinder-section. Now the prism cut off by the inclined plane : the body inscribed in the cylinder-section = parallelogram $\delta\eta$ : the parallelograms which are inscribed in the segment bounded by the parabola and the straight line $\epsilon\eta$. Hence the parallelogram $\delta\eta<\frac{3}{2}$ the parallelograms in the segment bounded by the parabola and the straight line $\epsilon\eta$. But this is impossible because we have shown elsewhere that the parallelogram $\delta\eta$ is one and one half times the segment bounded by the parabola and the straight line $\epsilon\eta$, consequently is $\dots$ $\dots$ $\dots$ not greater $\dots$ $\dots$ $\dots$ $\dots$ $\dots$ And all prisms in the prism cut off by the inclined plane : all prisms in the figure described around the cylinder-
+
+---
+
+section = all parallelograms in the parallelogram  $\delta \eta$ : all parallelograms in the figure which is described around the segment bounded by the parabola and the straight line  $\epsilon \eta$ , i. e., the prism cut off by the inclined plane: the figure described around the cylinder-section = parallelogram  $\delta \eta$ : the figure bounded by the parabola and the straight line  $\epsilon \eta$ . But the prism cut off by the inclined plane is greater than one and one half times the solid figure circumscribed around the cylinder-section

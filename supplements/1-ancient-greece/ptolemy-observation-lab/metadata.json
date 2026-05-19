@@ -1,9 +1,9 @@
 {
-  "title": "Naked-Eye Astronomy Lab",
+  "title": "Observing the Celestial Sphere",
   "type": "lab-manual",
   "era": "ancient-greece",
   "texts": ["ptolemy-almagest"],
-  "description": "Tracking planetary positions, observing retrograde motion, understanding parallax, and the role of the observer",
+  "description": "Identifying the constellations of the zodiac, locating the ecliptic, and following a planet through its motions — the celestial sphere as Ptolemy describes it, observed firsthand with naked eye or planetarium software",
   "filename": "content.md",
   "prerequisites": []
 }

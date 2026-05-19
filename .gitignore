@@ -1,5 +1,9 @@
 .claude
+**/.env
+**/.venv/
 notes.md
+text-survey.md
+survey-results.md
 plan.md
 sources.md
 roadmap.md

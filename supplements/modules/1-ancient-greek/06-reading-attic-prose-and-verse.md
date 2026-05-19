@@ -4,11 +4,11 @@ This is the capstone exercise of the Ancient Greek module.
 
 In Chapters 1 through 5 you learned the alphabet and pronunciation, oriented yourself to Smyth, Perseus, and the LSJ, understood the case system and the article, studied noun declensions and adjective agreement, and worked through the verb system including tense, mood, voice, and the participle. You have translated Euclid's definitions, postulates, and propositions. You have parsed Heraclitus and read Sappho aloud.
 
-There is no new grammar here, you have everything you need. It is now time to apply what you've learned into translating a short passage from Plato.
+There is no new grammar here, you have everything you need. It is now time to apply what you've learned to translating a short passage from Plato.
 
 ## The Passage: Plato's *Meno*, 82a–85b
 
-The slave boy scene in the *Meno* is one of the most famous passages in ancient philosophy. Socrates, in conversation with Meno about whether virtue can be taught, calls over an uneducated slave boy and leads him through a geometric problem, thereby demonstrating that the boy can arrive at mathematical truth through questioning alone  without having been taught. The philosophical claim is that learning is recollection (ἀνάμνησις): the soul already knows, and needs only to be reminded.
+The slave boy scene in the *Meno* is one of the most famous passages in ancient philosophy. Socrates, in conversation with Meno about whether virtue can be taught, calls over an uneducated slave boy and leads him through a geometric problem. This demonstration reveals that the boy can arrive at mathematical truth through questioning alone without having been taught. The philosophical claim is that learning is recollection (ἀνάμνησις): the soul already knows, and needs only to be reminded.
 
 The geometry is this: given a square, construct another square with twice the area. The boy's first instinct is to double the side, but that quadruples the area. Socrates guides him to see that the square on the diagonal is the one with twice the area.
 

@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enchiridion Syllabus",
+  "description": "Schema for syllabus JSON files in syllabi/. A syllabus is an ordered, sectioned sequence of curricular items (texts, supplements, module chapters) representing a reading trajectory through the corpus. The canonical Grand Tour and any future preceptorials share this schema.",
+  "type": "object",
+  "required": ["id", "title", "kind", "sections"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier for the syllabus. Matches the filename (sans .json) and the URL slug (e.g., 'grand-tour', 'harmony-of-the-spheres')."
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable title (e.g., 'The Grand Tour')."
+    },
+    "kind": {
+      "type": "string",
+      "description": "Distinguishes the canonical syllabus from thematic preceptorials. Canonical syllabi span the whole corpus chronologically; preceptorials are focused thematic trajectories.",
+      "enum": ["canonical", "preceptorial"]
+    },
+    "description": {
+      "type": "string",
+      "description": "One- or two-sentence summary of the syllabus's scope and intent."
+    },
+    "sections": {
+      "type": "array",
+      "description": "Ordered list of sections. For canonical syllabi these are typically the eight chronological eras; for preceptorials they are thematic chapters of the student's choosing.",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "items"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable section identifier. For era sections this matches the directory name (e.g., '1-ancient-greece')."
+          },
+          "title": {
+            "type": "string",
+            "description": "Human-readable section title (e.g., 'Ancient Greece')."
+          },
+          "description": {
+            "type": "string",
+            "description": "Optional short framing for the section. Longer framing essays should be supplements, not inline prose."
+          },
+          "items": {
+            "type": "array",
+            "description": "Ordered list of curricular items. Array order is the recommended reading sequence; concurrency and within-section flexibility are conveyed by visual treatment, not the schema.",
+            "items": {
+              "type": "object",
+              "required": ["type", "id"],
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "description": "What kind of item this is. Determines how the id is resolved.",
+                  "enum": ["text", "supplement", "module_chapter"]
+                },
+                "id": {
+                  "type": "string",
+                  "description": "Directory name for text/supplement items, or module directory name for module_chapter items (paired with the 'chapter' field)."
+                },
+                "chapter": {
+                  "type": ["integer", "string"],
+                  "description": "Chapter identifier for module_chapter items. May be an integer index or the chapter filename stem (e.g., '03-the-case-system-and-the-article')."
+                },
+                "passages": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "Optional recommended passages within a text (e.g., ['Book I 1-32', 'Book V def. 1-7']). Curatorial recommendation, not a hard constraint. Free-form strings; rendering is the UI's responsibility."
+                },
+                "note": {
+                  "type": "string",
+                  "description": "Optional curatorial annotation specific to this item's role in the syllabus (e.g., 'read alongside the Greek module', 'capstone of the section'). Keep brief; substantive framing belongs in a supplement."
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

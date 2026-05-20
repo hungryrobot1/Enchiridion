@@ -20,8 +20,10 @@ export default defineConfig({
       name: 'serve-repo-content',
       configureServer(server) {
         server.middlewares.use((req, res, next) => {
-          const url = decodeURIComponent(req.url);
-          if (url.startsWith('/texts/') || url.startsWith('/supplements/')) {
+          let url = decodeURIComponent(req.url);
+          // Strip the base path so we can resolve against the repo root.
+          if (url.startsWith('/Enchiridion/')) url = url.replace('/Enchiridion', '');
+          if (url.startsWith('/texts/') || url.startsWith('/supplements/') || url.startsWith('/syllabi/')) {
             const filePath = path.join(repoRoot, url);
             if (fs.existsSync(filePath)) {
               const stream = fs.createReadStream(filePath);
@@ -32,6 +34,7 @@ export default defineConfig({
                 '.epub': 'application/epub+zip', '.png': 'image/png',
                 '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
                 '.gif': 'image/gif', '.svg': 'image/svg+xml',
+                '.json': 'application/json',
               };
               res.setHeader('Content-Type', mimeTypes[ext] || 'application/octet-stream');
               res.setHeader('Access-Control-Allow-Origin', '*');

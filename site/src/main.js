@@ -4,44 +4,32 @@ import './styles/layout.css';
 
 import { route, startRouter } from './router.js';
 import { renderHeader } from './components/header.js';
-
-// Pages (static imports — they're small)
 import { renderLanding } from './pages/landing.js';
-import { renderSyllabus } from './pages/syllabus.js';
-import { renderExplorer } from './pages/explorer.js';
-import { renderReader } from './pages/reader.js';
-import { renderSupplements } from './pages/supplements.js';
-import { renderSupplementReader } from './pages/supplement-reader.js';
-import { renderModules } from './pages/modules.js';
-import { renderModuleReader } from './pages/module-reader.js';
-import { renderDisclaimer } from './pages/disclaimer.js';
+import { renderAbout } from './pages/about.js';
+import { renderGrandTour } from './pages/grand-tour.js';
+import { renderStub } from './pages/stub.js';
 
 const app = document.getElementById('app');
-
-// Insert header once
 app.appendChild(renderHeader());
 
-// Content container
 const content = document.createElement('main');
 content.id = 'content';
 app.appendChild(content);
 
-// Register routes
 route('/', (container) => renderLanding(container));
-route('/syllabus', (container) => renderSyllabus(container));
-route('/explore', (container) => renderExplorer(container));
-route('/read/:era/:id', (container, params) => renderReader(container, params));
-route('/supplements', (container) => renderSupplements(container));
-route('/supplement/:era/:id', (container, params) => renderSupplementReader(container, params));
-route('/modules', (container) => renderModules(container));
-route('/module/:id/:chapter', (container, params) => renderModuleReader(container, params));
-route('/module/:id/resource/:filename', (container, params) => renderModuleReader(container, { id: params.id, chapter: `resource/${params.filename}` }));
-route('/disclaimer', (container) => renderDisclaimer(container));
+route('/about', (container) => renderAbout(container));
+route('/grand-tour', (container) => renderGrandTour(container));
+route('/explore', (container) => renderStub(container, {
+  title: 'Explore',
+  note: 'The browseable corpus surface is being rebuilt for v0.3. Check back soon.',
+}));
+route('/changelog', (container) => renderStub(container, {
+  title: 'Changelog',
+  note: 'Coming soon.',
+}));
 
-// Start
 startRouter(content);
 
-// Register service worker
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     const base = import.meta.env.BASE_URL || '/';

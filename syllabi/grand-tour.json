@@ -1,0 +1,88 @@
+{
+  "id": "grand-tour",
+  "title": "The Grand Tour",
+  "kind": "canonical",
+  "description": "The canonical reading sequence through Enchiridion. Roughly chronological by era, with supplements and module chapters attached as tributaries to the texts they accompany.",
+  "sections": [
+    {
+      "id": "1-ancient-greece",
+      "title": "Ancient Greece",
+      "description": "From Homer to Ptolemy: the founding works of Western literature, philosophy, mathematics, and natural science. The Greek language module runs alongside, offered as an optional companion for those who want to read the originals.",
+      "items": [
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "00-introduction",
+          "note": "Optional. Begin the Greek language thread here if you want to read alongside the texts." },
+
+        { "type": "text", "id": "homer-iliad" },
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "01-alphabet-and-reading-aloud" },
+
+        { "type": "text", "id": "homer-odyssey" },
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "02-orienting-to-the-tools" },
+
+        { "type": "text", "id": "aeschylus-oresteia" },
+        { "type": "text", "id": "sophocles-oedipus-trilogy" },
+        { "type": "text", "id": "euripedes-bacchae" },
+        { "type": "text", "id": "aristophanes-clouds" },
+
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "03-the-case-system-and-the-article" },
+
+        { "type": "text", "id": "hippocrates-genuine-works",
+          "passages": ["selected case histories and the Hippocratic Oath"] },
+
+        { "type": "text", "id": "plato-meno" },
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "04-noun-declensions-in-practice",
+          "note": "Includes exercises drawn from Plato and Euclid." },
+
+        { "type": "text", "id": "plato-symposium" },
+        { "type": "text", "id": "plato-phaedrus" },
+        { "type": "text", "id": "plato-theaetetus" },
+        { "type": "text", "id": "plato-timaeus" },
+
+        { "type": "text", "id": "aristotle-categories" },
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "05-verbs-tense-mood-and-the-participle" },
+
+        { "type": "text", "id": "aristotle-nicomachean-ethics" },
+        { "type": "text", "id": "aristotle-politics" },
+        { "type": "text", "id": "aristotle-physics" },
+        { "type": "text", "id": "aristotle-metaphysics" },
+        { "type": "text", "id": "aristotle-de-anima" },
+        { "type": "text", "id": "aristotle-parts-of-animals" },
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "06-reading-attic-prose-and-verse" },
+
+        { "type": "text", "id": "euclid-elements",
+          "passages": ["Book I", "Book V definitions", "Book VII"] },
+        { "type": "supplement", "id": "greek-math-companion" },
+
+        { "type": "text", "id": "archimedes-equilibrium-of-planes" },
+        { "type": "supplement", "id": "archimedes-levers-lab" },
+
+        { "type": "text", "id": "archimedes-floating-bodies" },
+        { "type": "supplement", "id": "archimedes-buoyancy-lab" },
+
+        { "type": "text", "id": "archimedes-heath-works",
+          "passages": ["Quadrature of the Parabola", "The Method", "Measurement of a Circle"] },
+        { "type": "supplement", "id": "archimedes-quadrature-exercises" },
+        { "type": "supplement", "id": "archimedes-method-of-exhaustion-guide" },
+
+        { "type": "text", "id": "archimedes-geometrical-solutions",
+          "note": "Optional. A focused tour of Archimedes's geometric problem-solving." },
+
+        { "type": "text", "id": "apollonius-conic-sections",
+          "passages": ["Book I, definitions and propositions 1–15"] },
+
+        { "type": "supplement", "id": "eratosthenes-measurement-lab",
+          "note": "Standalone observational lab; no surviving Eratosthenes primary text in the corpus." },
+
+        { "type": "text", "id": "ptolemy-almagest",
+          "passages": ["Book I introduction", "Book I chapters on the celestial sphere"] },
+        { "type": "supplement", "id": "parallax-lab" },
+        { "type": "supplement", "id": "ptolemy-observation-lab" },
+        { "type": "supplement", "id": "sun-observation-lab" },
+
+        { "type": "text", "id": "dionysus-thrax-art-of-grammar",
+          "note": "A late colophon to the section: the grammar of the language we have been learning, written by the grammarians themselves." },
+        { "type": "module_chapter", "id": "1-ancient-greek", "chapter": "07-koine-transition",
+          "note": "Bridge to the Koine of the next era." }
+      ]
+    }
+  ]
+}

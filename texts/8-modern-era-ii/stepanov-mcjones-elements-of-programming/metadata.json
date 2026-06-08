@@ -9,7 +9,16 @@
   "format": "pdf",
   "filename": "eop.pdf",
   "description": "A rigorous approach to programming grounded in abstract algebra and deductive reasoning, decomposing algorithms into their mathematical foundations",
-  "topics": ["computer-science", "programming", "mathematics", "algorithms"],
+  "topics": [
+    "computer-science",
+    "programming",
+    "mathematics",
+    "algorithms"
+  ],
   "era": "modern-era-ii",
-  "prerequisites": ["hoare-an-axiomatic-basis-for-computer-programming", "djikstra-notes-on-structured-programming"]
+  "prerequisites": [
+    "hoare-an-axiomatic-basis-for-computer-programming",
+    "djikstra-notes-on-structured-programming"
+  ],
+  "ocr_status": "pending"
 }

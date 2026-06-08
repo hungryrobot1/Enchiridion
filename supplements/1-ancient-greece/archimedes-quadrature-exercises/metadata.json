@@ -2,8 +2,14 @@
   "title": "Quadrature of the Parabola Exercises",
   "type": "exercise-set",
   "era": "ancient-greece",
-  "texts": ["archimedes-geometrical-solutions", "archimedes-heath-works"],
+  "texts": [
+    "archimedes-geometrical-solutions",
+    "archimedes-heath-works"
+  ],
   "description": "Working through Archimedes's proof that the area of a parabolic segment is 4/3 the inscribed triangle — a classical finished proof by exhaustion, with exercises that rebuild the argument step by step",
   "filename": "content.md",
-  "prerequisites": ["euclidean-notation-guide"]
+  "prerequisites": [
+    "euclidean-notation-guide"
+  ],
+  "content_status": "complete"
 }

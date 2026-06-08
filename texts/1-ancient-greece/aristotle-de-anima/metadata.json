@@ -1,13 +1,13 @@
 {
   "title": "De Anima",
   "author": "Aristotle",
-  "translator": "R.D. Hicks",
+  "translator": "J.A. Smith",
   "year_written": "~350 BCE",
-  "year_translated": 1907,
+  "year_translated": 1931,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "aristotledeanima005947mbp.pdf",
+  "format": "markdown",
+  "filename": "aristotle-de-anima.md",
   "description": "Treatise on the nature of the soul and its relation to the body",
   "topics": [
     "philosophy",
@@ -15,5 +15,6 @@
     "psychology"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

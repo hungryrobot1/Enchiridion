@@ -2,8 +2,11 @@
   "title": "Codd Relational Algebra Exercises",
   "type": "exercise-set",
   "era": "modern-era-ii",
-  "texts": ["codd-relational-model-of-data-for-large-shared-data-banks"],
+  "texts": [
+    "codd-relational-model-of-data-for-large-shared-data-banks"
+  ],
   "description": "Relational algebra operations — select, project, join, divide — and the connection to modern SQL and database design",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

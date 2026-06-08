@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "berners-lee-information-management-a-proposal"
-  ]
+  ],
+  "ocr_status": "pending"
 }

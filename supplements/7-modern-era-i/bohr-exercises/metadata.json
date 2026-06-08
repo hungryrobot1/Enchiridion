@@ -2,8 +2,11 @@
   "title": "Bohr Model Exercises",
   "type": "exercise-set",
   "era": "modern-era-i",
-  "texts": ["bohr-constitution-of-atoms-and-molecules"],
+  "texts": [
+    "bohr-constitution-of-atoms-and-molecules"
+  ],
   "description": "Calculating energy levels, spectral lines, and the hydrogen spectrum using the Bohr model",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

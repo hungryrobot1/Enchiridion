@@ -9,7 +9,14 @@
   "format": "pdf",
   "filename": "1465482.1465560.pdf",
   "description": "Amdahl's argument on the fundamental limits of parallel speedup, establishing what became known as Amdahl's Law",
-  "topics": ["computer-science", "computer-architecture", "parallel-computing"],
+  "topics": [
+    "computer-science",
+    "computer-architecture",
+    "parallel-computing"
+  ],
   "era": "modern-era-ii",
-  "prerequisites": ["von-neumann-edvac"]
+  "prerequisites": [
+    "von-neumann-edvac"
+  ],
+  "ocr_status": "pending"
 }

@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "shannon-symbolic-analysis-of-relay-and-switching"
-  ]
+  ],
+  "ocr_status": "pending"
 }

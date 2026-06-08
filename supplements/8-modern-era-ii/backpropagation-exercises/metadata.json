@@ -2,8 +2,11 @@
   "title": "Backpropagation Exercises",
   "type": "exercise-set",
   "era": "modern-era-ii",
-  "texts": ["rumelhart-hinton-williams-learning-representations-by-back-propagating-errors"],
+  "texts": [
+    "rumelhart-hinton-williams-learning-representations-by-back-propagating-errors"
+  ],
   "description": "Walking through the chain rule across a simple neural network — computing gradients by hand, understanding how a network learns from error",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

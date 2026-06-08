@@ -1,153 +1,27 @@
-# The Bacchae of Euripides
-
-Euripides
-
-![img-0.jpeg](images/img-0.jpeg)
-
----
-
-# The Bacchae of Euripides
-
-Euripides
-
-![img-1.jpeg](images/img-1.jpeg)
-
----
-
-
-
----
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-Title: The Bacchae of Euripides
-
-Author: Euripides
-
-Translator: Gilbert Murray
-
-Release date: February 4, 2011 [eBook #35173]
-
-Most recently updated: January 7, 2021
-
-Language: English
-
-Other information and formats: www.gutenberg.org/ebooks/35173
-
-Credits: Produced by Barbara Watson and the Online Distributed
-
-Proofreading Canada Team at http://www.pgdpcanada.net (This
-
-file was produced from images generously made available
-
-by The Internet Archive/Canadian Libraries)
-
-*** START OF THE PROJECT GUTENBERG EBOOK THE BACCHAE OF EURIPIDES ***
-
----
-
-# BACCHAE
-
----
-
-FOR ENGLISH READERS
-
-A Series of Verse Translations of the Greek Dramatic Poets, with Commentaries and Explanatory Notes.
-
-Crown 8vo, cloth, gilt top, 7s. 6d. each net.
-Each Volume Illustrated from ancient Sculptures and Vase-Painting.
-
-AESCHYLUS: The Orestean Trilogy. By Prof. G. C. WARR. With an Introduction on The Rise of Greek Tragedy, and 13 Illustrations.
-
-SOPHOCLES: (Edipus Tyrannus and Coloneus, and Antigone. By Prof. J. S. PHELLIMORE. With an Introduction on Sophocles and his Treatment of Tragedy, and 16 Illustrations.
-
-EURIPIDES: Hippolytus; Bacchae; Aristophanes' 'Frogs.' By Prof. GILBERT MURRAY. With an Appendix on The Lost Tragedies of Euripides, and an Introduction on The Significance of the Bacchae in Athenian History, and 12 Illustrations. [Third Edition.
-
-ALSO UNIFORM WITH THE ABOVE
-
-THE HOMERIC HYMNS. A New Prose Rendering by ANDREW LANG, with Essays Critical and Explanatory, and 14 Illustrations.
-
-THE PLAYS OF EURIPIDES
-
-Translated into English Rhyming Verse, with Explanatory Notes, by Prof. GILBERT MURRAY. Crown 8vo, cloth, 2s. each net.
-
-The Trojan Women.
-Electra.
-
-Hippolytus. Fifth Edition.
-Bacchae. Second Edition.
-The Trojan Women.
-Electra.
-
-} Paper Covers, Impl. 16mo, 1s. each net
-
-THE
-
-BACCHAE
-
-OF
-
-5
-
----
-
-# EURIPIDES
-
-TRANSLATED INTO ENGLISH RHYMING VERSE
-
-WITH EXPLANATORY NOTES BY
-
-GILBERT MURRAY, M.A., LL.D.
-
-EMERITUS PROFESSOR OF GREEK IN THE UNIVERSITY
-
-OF GLASGOW; SOMETIME FELLOW OF
-
-NEW COLLEGE, OXFORD
-
-SECOND EDITION
-
-LONDON
-
-GEORGE ALLEN, 156, CHARING CROSS ROAD
-
-One Shilling Net.
-
-1906
-
-[All rights reserved]
-
----
-
-# CHARACTERS IN THE PLAY
-
-DIONYSUS, THE GOD; son of Zeus and of the Theban princess Semelê.
-
-CADMUS, formerly King of Thebes, father of Semelê.
-
-PENTHEUS, King of Thebes, grandson of Cadmus.
-
-AGÂVÊ, daughter of Cadmus, mother of Pentheus.
-
-TEIRESIAS, an aged Theban prophet.
-
-A SOLDIER OF PENTHEUS' GUARD.
-
-TWO MESSENGERS.
-
-A CHORUS OF INSPIRED DAMSELS, following Dionysus from the East.
-
-"The play was first produced after the death of Euripides by his son, who bore the same name, together with the 'Iphigenia in Aulis' and the 'Alcmaeon,' probably in the year 405 B.C."
+# The Bacchae
+
+## Dramatis Personae
+
+- **DIONYSUS**, the god, son of Zeus and of the Theban princess Semelē
+- **CADMUS**, formerly king of Thebes, father of Semelē
+- **PENTHEUS**, king of Thebes, grandson of Cadmus
+- **AGAVE**, daughter of Cadmus, mother of Pentheus
+- **TEIRESIAS**, an aged Theban prophet
+- **SOLDIER** of Pentheus's guard
+- **MESSENGER**, a herdsman of the mountain
+- **SECOND MESSENGER**, of the palace
+- **CHORUS** of inspired damsels, following Dionysus from the East — speaking severally as *A Maiden*, *Another*, *All the Maidens*, etc.
+- **LEADER** of the chorus
+
+*The play was first produced after the death of Euripides by his son, who bore the same name, together with the* Iphigenia in Aulis *and the* Alcmaeon, *probably in the year 405 BCE.*
 
 ![img-2.jpeg](images/img-2.jpeg)
 
----
+## Prologue — Dionysus reveals himself
 
-# THE BACCHAE
+[The background represents the front of the Castle of PENTHEUS, King of Thebes. At one side is visible the sacred Tomb of Semelē, a little enclosure overgrown with wild vines, with a cleft in the rocky floor of it from which there issues at times steam or smoke. The God DIONYSUS is discovered alone.]
 
-The background represents the front of the Castle of PENTHEUS, King of Thebes. At one side is visible the sacred Tomb of Semelē, a little enclosure overgrown with wild vines, with a cleft in the rocky floor of it from which there issues at times steam or smoke. The God DIONYSUS is discovered alone.
-
-DIONYSUS.
+**DIONYSUS**
 
 Behold, God's Son is come unto this land
 Of Thebes, even I, Dionysus, whom the brand
@@ -201,9 +75,6 @@ And there, with the old King's daughters, in a rout
 Confused, they make their dwelling-place between
 The roofless rocks and shadowy pine trees green.
 Thus shall this Thebes, how sore soe'er it smart,
-
----
-
 Learn and forget not, till she crave her part
 In mine adoring; thus must I speak clear
 To save my mother's fame, and crown me here
@@ -236,11 +107,13 @@ Thebes to your song round Pentheus' royal hall.
 I seek my new-made worshippers, to guide
 Their dances up Kithaeron's pine-clad side.
 
+## Parodos — The Bacchae's entry hymn
+
 [As he departs, there comes stealing in from the left a band of fifteen Eastern Women, the light of the sunrise streaming upon their long white robes and ivy-bound hair. They wear fawn-skins over the robes, and carry some of them timbrels, some pipes and other instruments. Many bear the thyrsus, or sacred Wand, made of reed ringed with ivy. They enter stealthily till they see that the place is empty, and then begin their mystic song of worship.]
 
-CHORUS.
+**CHORUS**
 
-A Maiden.
+*A Maiden*
 
 From Asia, from the dayspring that uprises,
 To Bromios ever glorying we came.
@@ -248,7 +121,7 @@ We laboured for our Lord in many guises;
 We toiled, but the toil is as the prize is;
 Thou Mystery, we hail thee by thy name!
 
-Another.
+*Another*
 
 Who lingers in the road? Who espies us?
 He shall hide him in his house nor be bold.
@@ -256,9 +129,7 @@ Let the heart keep silence that defies us;
 For I sing this day to Dionysus
 The song that is appointed from of old.
 
-All the Maidens.
-
----
+*All the Maidens*
 
 Oh, blessèd he in all wise,
 Who hath drunk the Living Fountain,
@@ -302,7 +173,7 @@ In the wands his maidens bear,
 And the songs of serpents sound
 In the mazes of their hair.
 
-Some Maidens.
+*Some Maidens*
 
 All hail, O Thebes, thou nurse of Semelê!
 With Semelê's wild ivy crown thy towers;
@@ -323,7 +194,7 @@ By the magic of his breath borne away.
 
 ---
 
-Others.
+*Others*
 
 Hail thou, O Nurse of Zeus, O Caverned Haunt
 Where fierce arms clanged to guard God's cradle rare,
@@ -342,7 +213,7 @@ In the dancing and the cheer
 Of our third and perfect Year;
 And it serves Dionysus in the end!
 
-A Maiden.
+*A Maiden*
 
 O glad, glad on the mountains
 To swoon in the race outworn,
@@ -355,7 +226,7 @@ Where the hill-tops catch the day;
 To the Phrygian, Lydian, mountains!
 'Tis Bromios leads the way.
 
-Another Maiden.
+*Another Maiden*
 
 Then streams the earth with milk, yea, streams
 With wine and nectar of the bee,
@@ -371,7 +242,7 @@ And deep beneath the Maenad cry
 His proud voice rings:
 "Come, O ye Bacchae, come!"
 
-All the Maidens.
+*All the Maidens*
 
 Hither, O fragrant of Tmolus the Golden,
 Come with the voice of timbrel and drum;
@@ -380,19 +251,18 @@ The God of the joy-cry; O Bacchanals, come!
 With pealing of pipes and with Phrygian clamour,
 On, where the vision of holiness thrills,
 And the music climbs and the maddening glamour,
-
----
-
 With the wild White Maids, to the hills, to the hills!
 Oh, then, like a colt as he runs by a river,
 A colt by his dam, when the heart of him sings,
 With the keen limbs drawn and the fleet foot a-quiver,
 Away the Bacchanal springs!
 
-Enter TEIRESIAS. He is an old man and blind, leaning upon a staff and moving with
-slow stateliness, though wearing the Ivy and the Bacchic fawn-skin.
+## First Episode — Teiresias and Cadmus prepare to worship
 
-TEIRESIAS.
+[Enter TEIRESIAS. He is an old man and blind, leaning upon a staff and moving with
+slow stateliness, though wearing the Ivy and the Bacchic fawn-skin.]
+
+**TEIRESIAS**
 
 Ho, there, who keeps the gate?—Go, summon me
 Cadmus, Agênor's son, who crossed the sea
@@ -404,10 +274,10 @@ I vowed with him, grey hair with snow-white hair,
 To deck the new God's thyrsus, and to wear
 His fawn-skin, and with ivy crown our brows.
 
-Enter CADMUS from the Castle. He is even older than TEIRESIAS, and wears the same
-attire.
+[Enter CADMUS from the Castle. He is even older than TEIRESIAS, and wears the same
+attire.]
 
-CADMUS.
+**CADMUS**
 
 True friend! I knew that voice of thine, that flows
 Like mellow wisdom from a fountain wise.
@@ -425,77 +295,65 @@ And eld-worn steps, eld-worn Teiresias.—Nay;
 I am not weak.
 
 [At the first movement of worship his manner begins to change; a mysterious
-strength and exaltation enter into him.
+strength and exaltation enter into him.]
 
 Surely this arm could smite
 The wild earth with its thyrsus, day and night,
 And faint not! Sweetly and forgetfully
 The dim years fall from off me!
 
-TEIRESIAS.
+**TEIRESIAS**
 
 As with thee,
 With me 'tis likewise. Light am I and young,
 And will essay the dancing and the song.
 
-CADMUS.
-
-
-
----
+**CADMUS**
 
 Quick, then, our chariots to the mountain road.
 
-TEIRESIAS.
+**TEIRESIAS**
 
 Nay; to take steeds were to mistrust the God.
 
-CADMUS.
+**CADMUS**
 
 So be it. Mine old arm shall guide thee there.
 
-TEIRESIAS.
+**TEIRESIAS**
 
 The God himself shall guide! Have thou no care.
 
-CADMUS.
+**CADMUS**
 
 And in all Thebes shall no man dance but we?
 
-TEIRESIAS.
+**TEIRESIAS**
 
 Aye, Thebes is blinded. Thou and I can see.
 
-CADMUS.
+**CADMUS**
 
 'Tis weary waiting; hold my hand, friend; so.
 
-TEIRESIAS.
+**TEIRESIAS**
 
 Lo, there is mine. So linkèd let us go.
 
-CADMUS.
+**CADMUS**
 
 Shall things of dust the Gods' dark ways despise?
 
-TEIRESIAS.
+**TEIRESIAS**
 
 Or prove our wit on Heaven's high mysteries?
-
 Not thou and I! That heritage sublime
-
 Our sires have left us, wisdom old as time,
-
 No word of man, how deep soe'er his thought
-
 And won of subtlest toil, may bring to naught.
-
 Aye, men will rail that I forget my years,
-
 To dance and wreathe with ivy these white hairs;
-
 What recks it? Seeing the God no line hath told
-
 To mark what man shall dance, or young or old;
 
 
@@ -505,7 +363,7 @@ To mark what man shall dance, or young or old;
 But craves his honours from mortality
 All, no man marked apart; and great shall be!
 
-CADMUS (after looking away toward the Mountain).
+**CADMUS** *(after looking away toward the Mountain)*
 
 Teiresias, since this light thou canst not read,
 I must be seer for thee. Here comes in speed
@@ -514,9 +372,9 @@ To rule my people in my stead.—Amazed
 He seems. Stand close, and mark what we shall hear.
 
 [The two stand back, partially concealed, while there enters in hot haste
-PENTHEUS, followed by a bodyguard. He is speaking to the SOLDER in command.
+PENTHEUS, followed by a bodyguard. He is speaking to the SOLDER in command.]
 
-PENTHEUS.
+**PENTHEUS**
 
 Scarce had I crossed our borders, when mine ear
 Was caught by this strange rumour, that our own
@@ -562,9 +420,6 @@ O depth of scorn!—adoring with the wand
 Of Bacchios?—Father!—Nay, mine eyes are fond;
 It is not your white heads so fancy-flown!
 It cannot be! Cast off that ivy crown,
-
----
-
 O mine own mother's sire! Set free that hand
 That cowers about its staff.
 Tis thou hast planned
@@ -579,14 +434,15 @@ Thou hast brought us, of new Gods! When once the gleam
 Of grapes hath lit a Woman's Festival,
 In all their prayers is no more health at all!
 
-LEADER OF THE CHORUS
+**LEADER**
+
 (the words are not heard by PENTHEUS).
 
 Injurious King, hast thou no care for God,
 Nor Cadmus, sower of the Giants' Sod,
 Life-spring to great Echion and to thee?
 
-TEIRESIAS.
+**TEIRESIAS**
 
 Good words, my son, come easily, when he
 That speaks is wise, and speaks but for the right.
@@ -625,11 +481,6 @@ Flesh of his sire. He hath no shame thereby.
 A prophet is he likewise. Prophecy
 Cleaves to all frenzy, but beyond all else
 To frenzy of prayer. Then in us verily dwells
-
-15
-
----
-
 The God himself, and speaks the thing to be.
 Yea, and of Ares' realm a part hath he.
 When mortal armies, mailed and arrayed,
@@ -662,12 +513,12 @@ For thee nor all thy words. Madness most fell
 Is on thee, madness wrought by some dread spell,
 But not by spell nor leechcraft to be cured!
 
-CHORUS.
+**CHORUS**
 
 Grey prophet, worthy of Phoebus is thy word,
 And wise in honouring Bromios, our great God.
 
-CADMUS.
+**CADMUS**
 
 My son, right well Teiresias points thy road.
 Oh, make thine habitation here with us,
@@ -679,7 +530,7 @@ Lie boldly, and say He Is! So north and south
 Shall marvel, how there sprang a thing divine
 From Semelē's flesh, and honour all our line.
 
-[Drawing nearer to PENTHEUS.
+[Drawing nearer to PENTHEUS.]
 
 Is there not blood before thine eyes even now?
 Our lost Actaeon's blood, whom long ago
@@ -689,14 +540,14 @@ Against most holy Artemis? Oh, beware,
 And let me wreathe thy temples. Make thy prayer
 With us, and walk thee humbly in God's sight.
 
-[He makes as if to set the wreath on PENTHEUS' head.
+[He makes as if to set the wreath on PENTHEUS' head.]
 
 ---
 
 Down with that hand! Aroint thee to thy rite,
 Nor smear on me thy foul contagion!
 
-[Turning upon TEIRESIAS.
+[Turning upon TEIRESIAS.]
 
 This
 Thy folly's head and prompter shall not miss
@@ -713,9 +564,9 @@ Seek till ye find; and lead him here in gyves,
 Till he be judged and stoned, and weep in blood
 The day he troubled Pentheus with his God!
 
-[The guards set forth in two bodies; PENTHEUS goes into the Castle.
+[The guards set forth in two bodies; PENTHEUS goes into the Castle.]
 
-TEIRESIAS.
+**TEIRESIAS**
 
 Hard heart, how little dost thou know what seed
 Thou sowest! Blind before, and now indeed
@@ -732,11 +583,13 @@ From all thy house fulfilment of his name,
 Old Cadmus?—Nay, I speak not from mine art,
 But as I see—blind words and a blind heart!
 
-[The two Old Men go off towards the Mountain.
+[The two Old Men go off towards the Mountain.]
 
-CHORUS.
+## First Stasimon — Purity, holiness, and the wisdom of the simple
 
-Some Maidens.
+**CHORUS**
+
+*Some Maidens*
 
 Thou Immaculate on high;
 Thou Recording Purity;
@@ -763,7 +616,7 @@ Yea, and in the feasts of men
 Comes his crownèd slumber; then
 Pain is dead and hate forgiven!
 
-Others.
+*Others*
 
 Loose thy lips from out the rein;
 Lift thy wisdom to disdain;
@@ -787,7 +640,7 @@ And the dreams to which they cling
 Come not. Mad imagining
 Theirs, I ween, and empty-hearted!
 
-Divers Maidens.
+*Divers Maidens*
 
 Where is the Home for me?
 O Cyprus, set in the sea,
@@ -835,9 +688,11 @@ That have honour in proud men's sight.
 The simple nameless herd of Humanity
 Hath deeds and faith that are truth enough for me!
 
-[As the Chorus ceases, a party of the guards return, leading in the midst of them DIONYSUS, bound. The SOLDIER in command stands forth, as PENTHEUS, hearing the tramp of feet, comes out from the Castle.
+## Second Episode — Pentheus interrogates the stranger
 
-SOLDIER.
+[As the Chorus ceases, a party of the guards return, leading in the midst of them DIONYSUS, bound. The SOLDIER in command stands forth, as PENTHEUS, hearing the tramp of feet, comes out from the Castle.]
+
+**SOLDIER**
 
 Our quest is finished, and thy prey, O King,
 Caught; for the chase was swift, and this wild thing
@@ -861,62 +716,59 @@ And bars slid back untouched of mortal hand.
 Yea, full of many wonders to thy land
 Is this man come. . . . Howbeit, it lies with thee!
 
-PENTHEUS.
+**PENTHEUS**
 
 Ye are mad!—Unhand him. Howso swift he be,
 My toils are round him and he shall not fly.
 
-[The guards loose the arms of DIONYSUS; PENTHEUS studies him for a while in silence, then speaks jeeringly. DIONYSUS remains gentle and unafraid.
+[The guards loose the arms of DIONYSUS; PENTHEUS studies him for a while in silence, then speaks jeeringly. DIONYSUS remains gentle and unafraid.]
 
 Marry, a fair shape for a woman's eye,
 Sir stranger! And thou seek'st no more, I ween!
 Long curls, withal! That shows thou ne'er hast been
-
----
-
 A wrestler! — down both cheeks so softly tossed
 And winsome! And a white skin! It hath cost
 Thee pains, to please thy damsels with this white
 And red of cheeks that never face the light!
 
-[DIONYSUS is silent.
+[DIONYSUS is silent.]
 
 Speak, sirrah; tell me first thy name and race.
 
-DIONYSUS.
+**DIONYSUS**
 
 No glory is therein, nor yet disgrace.
 Thou hast heard of Tmolus, the bright hill of flowers?
 
-PENTHEUS.
+**PENTHEUS**
 
 Surely; the ridge that winds by Sardis' towers
 
-DIONYSUS.
+**DIONYSUS**
 
 Thence am I; Lydia was my fatherland.
 
-PENTHEUS.
+**PENTHEUS**
 
 And whence these revelations, that thy band
 Spreadeth in Hellas?
 
-DIONYSUS.
+**DIONYSUS**
 
 Their intent and use
 Dionysus oped to me, the Child of Zeus.
 
-PENTHEUS (brutally).
+**PENTHEUS** *(brutally)*
 
 Is there a Zeus there, that can still beget
 Young Gods?
 
-DIONYSUS.
+**DIONYSUS**
 
 Nay, only He whose seal was set
 Here in thy Thebes on Semelē.
 
-PENTHEUS.
+**PENTHEUS**
 
 What way
 Descended he upon thee? In full day
@@ -926,98 +778,93 @@ Or vision of night?
 
 ---
 
-DIONYSUS.
+**DIONYSUS**
 
 Most clear he stood, and scanned
 My soul, and gave his emblems to mine hand.
 
-PENTHEUS.
+**PENTHEUS**
 
 What like be they, these emblems?
 
-DIONYSUS.
+**DIONYSUS**
 
 That may none
 Reveal, nor know, save his Elect alone.
 
-PENTHEUS.
+**PENTHEUS**
 
 And what good bring they to the worshipper?
 
-DIONYSUS.
+**DIONYSUS**
 
 Good beyond price, but not for thee to hear.
 
-PENTHEUS.
+**PENTHEUS**
 
 Thou trickster! Thou wouldst prick me on the more
 To seek them out!
 
-DIONYSUS.
+**DIONYSUS**
 
 His mysteries abhor
 The touch of sin-lovers.
 
-PENTHEUS.
+**PENTHEUS**
 
 And so thine eyes
 Saw this God plain; what guise had he?
 
-DIONYSUS.
+**DIONYSUS**
 
 What guise
 It liked him. 'Twas not I ordained his shape.
 
-PENTHEUS.
+**PENTHEUS**
 
 Aye, deftly turned again. An idle jape,
-
-
-
----
-
 And nothing answered!
 
-DIONYSUS.
+**DIONYSUS**
 
 Wise words being brought
 To blinded eyes will seem as things of nought.
 
-PENTHEUS.
+**PENTHEUS**
 
 And comest thou first to Thebes, to have thy God
 Established?
 
-DIONYSUS.
+**DIONYSUS**
 
 Nay; all Barbary hath trod
 His dance ere this.
 
-PENTHEUS.
+**PENTHEUS**
 
 A low blind folk, I ween,
 Beside our Hellenes!
 
-DIONYSUS.
+**DIONYSUS**
 
 Higher and more keen
 In this thing, though their ways are not thy way.
 
-PENTHEUS.
+**PENTHEUS**
 
 How is thy worship held, by night or day?
 
-DIONYSUS.
+**DIONYSUS**
 
 Most oft by night; 'tis a majestic thing,
 The darkness.
 
-PENTHEUS.
+**PENTHEUS**
 
 Ha! with women worshipping?
 'Tis craft and rottenness!
 
-DIONYSUS.
+**DIONYSUS**
 
 By day no less,
 Whoso will seek may find unholiness.
@@ -1026,50 +873,50 @@ Whoso will seek may find unholiness.
 
 ---
 
-PENTHEUS.
+**PENTHEUS**
 
 Enough! Thy doom is fixed, for false pretence
 Corrupting Thebes.
 
-DIONYSUS.
+**DIONYSUS**
 
 Not mine; but thine, for dense
 Blindness of heart, and for blaspheming God!
 
-PENTHEUS.
+**PENTHEUS**
 
 A ready knave it is, and brazen-browed,
 This mystery-priest!
 
-DIONYSUS.
+**DIONYSUS**
 
 Come, say what it shall be,
 My doom; what dire thing wilt thou do to me?
 
-PENTHEUS.
+**PENTHEUS**
 
 First, shear that delicate curl that dangles there.
 
-[He beckons to the soldiers, who approach DIONYSUS.
+[He beckons to the soldiers, who approach DIONYSUS.]
 
-DIONYSUS.
+**DIONYSUS**
 
 I have vowed it to my God; 'tis holy hair.
 
-[The soldiers cut off the tress.
+[The soldiers cut off the tress.]
 
-PENTHEUS.
+**PENTHEUS**
 
 Next, yield me up thy staff!
 
-DIONYSUS.
+**DIONYSUS**
 
 Raise thine own hand
 To take it. This is Dionysus' wand.
 
-[PENTHEUS takes the staff.
+[PENTHEUS takes the staff.]
 
-PENTHEUS.
+**PENTHEUS**
 
 Last, I will hold thee prisoned here.
 
@@ -1077,50 +924,50 @@ Last, I will hold thee prisoned here.
 
 ---
 
-DIONYSUS.
+**DIONYSUS**
 
 My Lord
 God will unloose me, when I speak the word.
 
-PENTHEUS.
+**PENTHEUS**
 
 He may, if e'er again amid his bands
 Of saints he hears thy voice!
 
-DIONYSUS.
+**DIONYSUS**
 
 Even now he stands
 Close here, and sees all that I suffer.
 
-PENTHEUS.
+**PENTHEUS**
 
 What?
 Where is he? For mine eyes discern him not.
 
-DIONYSUS.
+**DIONYSUS**
 
 Where I am! 'Tis thine own impurity
 That veils him from thee.
 
-PENTHEUS.
+**PENTHEUS**
 
 The dog jeers at me!
 At me and Thebes! Bind him!
 
-[The soldiers begin to bind him.
+[The soldiers begin to bind him.]
 
-DIONYSUS.
+**DIONYSUS**
 
 I charge ye, bind
 Me not! I having vision and ye blind!
 
-PENTHEUS.
+**PENTHEUS**
 
 And I, with better right, say bind the more!
 
-[The soldiers obey.
+[The soldiers obey.]
 
-DIONYSUS.
+**DIONYSUS**
 
 Thou knowest not what end thou seekest, nor
 What deed thou doest, nor what man thou art!
@@ -1132,12 +979,12 @@ What deed thou doest, nor what man thou art!
 Agâvê's son, and on the father's part
 Echîon's, hight Pentheus!
 
-DIONYSUS.
+**DIONYSUS**
 
 So let it be,
 A name fore-written to calamity!
 
-PENTHEUS.
+**PENTHEUS**
 
 Away, and tie him where the steeds are tied;
 Aye, let him lie in the manger!—There abide
@@ -1149,7 +996,7 @@ Hither and thither; else they shall be set
 To labour at my distaffs, and forget
 Their timbrel and their songs of dawning day!
 
-DIONYSUS.
+**DIONYSUS**
 
 I go; for that which may not be, I may
 Not suffer! Yet for this thy sin, lo, He
@@ -1157,11 +1004,13 @@ Whom thou deniest cometh after thee
 For recompense. Yea, in thy wrong to us,
 Thou hast cast Him into thy prison-house!
 
-[DIONYSUS, without his wand, his hair shorn, and his arms tightly bound, is led off by the guards to his dungeon. PENTHEUS returns into the Palace.
+## Second Stasimon — Dirce, the river of the god
 
-CHORUS.
+[DIONYSUS, without his wand, his hair shorn, and his arms tightly bound, is led off by the guards to his dungeon. PENTHEUS returns into the Palace.]
 
-Some Maidens.
+**CHORUS**
+
+*Some Maidens*
 
 Acheloüs' roaming daughter,
 Holy Dircê, virgin water,
@@ -1177,11 +1026,7 @@ Thou of the Twofold Door, and seal thee
 Mine, O Bromios,"—thus he spake—
 "And to this thy land reveal thee."
 
-All.
-
-25
-
----
+*All*
 
 Still my prayer toward thee quivers,
 Dircè, still to thee I hie me;
@@ -1192,7 +1037,7 @@ By the grape upon the bough,
 Thou shalt seek Him in the midnight, thou shalt love
 Him, even now!
 
-Other Maidens.
+*Other Maidens*
 
 Dark and of the dark impassioned
 Is this Pentheus' blood; yea, fashioned
@@ -1208,7 +1053,7 @@ And my priest, my friend, is taken
 Even now, and buried lies;
 In the dark he lies forsaken!
 
-All.
+*All*
 
 Lo, we race with death, we perish,
 Dionysus, here before thee!
@@ -1218,7 +1063,7 @@ Hither down Olympus' side,
 Come, O Holy One defied,
 Be thy golden wand uplifted o'er the tyrant in his pride!
 
-A Maiden.
+*A Maiden*
 
 Oh, where art thou? In thine own
 Nysa, thou our help alone?
@@ -1241,74 +1086,69 @@ Winding, winding to the West;
 Cross the flood of swiftly glancing
 Axios in majesty;
 Cross the Lydias, the giver
-
----
-
 Of good gifts and waving green;
 Cross that Father-Stream of story,
 Through a land of steeds and glory
 Rolling, bravest, fairest River
 E'er of mortals seen!
 
-A VOICE WITHIN.
+**VOICE**
 
 Io! Io!
 Awake, ye damsels; hear my cry,
 Calling my Chosen; hearken ye!
 
-A MAIDEN.
+*A Maiden*
 
 Who speaketh? Oh, what echoes thus?
 
-ANOTHER.
+*Another*
 
 A Voice, a Voice, that calleth us!
 
-THE VOICE.
+**VOICE**
 
 Be of good cheer! Lo, it is I,
 The Child of Zeus and Semelê.
 
-A MAIDEN.
+*A Maiden*
 
 O Master, Master, it is Thou!
 
-ANOTHER.
+*Another*
 
 O Holy Voice, be with us now!
 
-THE VOICE.
+**VOICE**
 
 Spirit of the Chained Earthquake,
 Hear my word; awake, awake!
 
-[An Earthquake suddenly shakes the pillars of the Castle.
+[An Earthquake suddenly shakes the pillars of the Castle.]
 
-A MAIDEN.
+*A Maiden*
 
 Ha! what is coming? Shall the hall
 Of Pentheus racked in ruin fall?
 
-LEADER.
+## Third Episode — The palace miracle and the messenger
 
-
-
----
+**LEADER**
 
 Our God is in the house! Ye maids adore Him!
 
-CHORUS.
+**CHORUS**
 
 We adore Him all!
 
-THE VOICE.
+**VOICE**
 
 Unveil the Lightning's eye; arouse
 The fire that sleeps, against this house!
 
-[Fire leaps up on the Tomb of Semelê.
+[Fire leaps up on the Tomb of Semelê.]
 
-A MAIDEN.
+*A Maiden*
 
 Ah, saw ye, marked ye there the flame
 From Semelê's enhallowed sod
@@ -1316,7 +1156,7 @@ Awakened? Yea, the Death that came
 Ablaze from heaven of old, the same
 Hot splendour of the shaft of God?
 
-LEADER.
+**LEADER**
 
 Oh, cast ye, cast ye, to the earth! The Lord
 Cometh against this house! Oh, cast ye down,
@@ -1324,43 +1164,39 @@ Ye trembling damsels; He, our own adored,
 God's Child hath come, and all is overthrown!
 
 [The Maidens cast themselves upon the ground, their eyes earthward.
-DIONYSUS, alone and unbound, enters from the Castle.
+DIONYSUS, alone and unbound, enters from the Castle.]
 
-DIONYSUS.
+**DIONYSUS**
 
 Ye Damsels of the Morning Hills, why lie ye thus dismayed?
 Ye marked him, then, our Master, and the mighty hand he laid
 On tower and rock, shaking the house of Pentheus?—But arise,
 And cast the trembling from your flesh, and lift untroubled eyes.
 
-LEADER.
+**LEADER**
 
 O Light in Darkness, is it thou? O Priest, is this thy face?
 My heart leaps out to greet thee from the deep of loneliness.
 
-DIONYSUS.
+**DIONYSUS**
 
 Fell ye so quick despairing, when beneath the Gate I passed?
 Should the gates of Pentheus quell me, or his darkness make me fast?
 
-LEADER.
-
-
-
----
+**LEADER**
 
 Oh, what was left if thou wert gone? What could I but despair?
 How hast thou 'scaped the man of sin? Who freed thee from the snare?
 
-DIONYSUS.
+**DIONYSUS**
 
 I had no pain nor peril; 'twas mine own hand set me free.
 
-LEADER.
+**LEADER**
 
 Thine arms were gyvèd!
 
-DIONYSUS.
+**DIONYSUS**
 
 Nay, no gyve, no touch, was laid on me!
 'Twas there I mocked him, in his gyves, and gave him dreams for food.
@@ -1388,9 +1224,9 @@ But soft, methinks a footstep sounds even now within the hall;
 I will endure him gently, though he come in fury hot.
 For still are the ways of Wisdom, and her temper trembleth not!
 
-Enter PENTHEUS in fury.
+[Enter PENTHEUS in fury.]
 
-PENTHEUS.
+**PENTHEUS**
 
 It is too much! This Eastern knave hath slipped
 His prison, whom I held but now, hard gripped
@@ -1399,7 +1235,7 @@ Show'st thou before my portals?
 
 {He advances furiously upon him.
 
-DIONYSUS.
+**DIONYSUS**
 
 Softly thou!
 
@@ -1409,47 +1245,47 @@ Softly thou!
 
 And set a quiet carriage to thy rage.
 
-PENTHEUS.
+**PENTHEUS**
 
 How comest thou here? How didst thou break thy cage?
 Speak!
 
-DIONYSUS.
+**DIONYSUS**
 
 Said I not, or didst thou mark not me,
 There was One living that should set me free?
 
-PENTHEUS.
+**PENTHEUS**
 
 Who? Ever wilder are these tales of thine.
 
-DIONYSUS.
+**DIONYSUS**
 
 He who first made for man the clustered vine.
 
-PENTHEUS.
+**PENTHEUS**
 
 I scorn him and his vines!
 
-DIONYSUS.
+**DIONYSUS**
 
 For Dionyse
 'Tis well; for in thy scorn his glory lies.
 
-PENTHEUS (to his guard).
+**PENTHEUS** *(to his guard)*
 
 Go swift to all the towers, and bar withal
 Each gate!
 
-DIONYSUS.
+**DIONYSUS**
 
 What, cannot God o'erleap a wall?
 
-PENTHEUS.
+**PENTHEUS**
 
 Oh, wit thou hast, save where thou needest it!
 
-DIONYSUS.
+**DIONYSUS**
 
 Whereas it most imports, there is my wit!
 
@@ -1461,19 +1297,19 @@ Nay, peace! Abide till he who hasteth from
 The mountain side with news for thee, be come.
 We will not fly, but wait on thy command.
 
-[Enter suddenly and in haste a Messenger from the Mountain.
+[Enter suddenly and in haste a Messenger from the Mountain.]
 
-MESSENGER.
+**MESSENGER**
 
 Great Pentheus, Lord of all this Theban land,
 I come from high Kithaeron, where the frore
 Snow spangles gleam and cease not evermore. . .
 
-PENTHEUS.
+**PENTHEUS**
 
 And what of import may thy coming bring?
 
-MESSENGER.
+**MESSENGER**
 
 I have seen the Wild White Women there, O King,
 Whose fleet limbs darted arrow-like but now
@@ -1484,14 +1320,14 @@ My whole tale forth, or veil the stranger part?
 Yea, Lord, I fear the swiftness of thy heart,
 Thine edgèd wrath and more than royal soul.
 
-PENTHEUS.
+**PENTHEUS**
 
 Thy tale shall nothing scathe thee.—Tell the whole.
 It skills not to be wroth with honesty.
 Nay, if thy news of them be dark, 'tis he
 Shall pay it, who bewitched and led them on.
 
-MESSENGER.
+**MESSENGER**
 
 Our herded kine were moving in the dawn
 Up to the peaks, the greyest, coldest time,
@@ -1512,11 +1348,6 @@ Amid her band, and gave the God's wild cry,
 Of hornèd kine. Awake ye!"—Then, all round,
 Alert, the warm sleep fallen from their eyes,
 A marvel of swift ranks I saw them rise,
-
-
-
----
-
 Dames young and old, and gentle maids unwed
 Among them. O'er their shoulders first they shed
 Their tresses, and caught up the fallen fold
@@ -1581,11 +1412,6 @@ Of garbèd flesh and bone unbound withal
 Than on thy royal eyes the lids may fall.
 Then on like birds, by their own speed upborne,
 They swept toward the plains of waving corn
-
-
-
----
-
 That lie beside Asopus' banks, and bring
 To Thebes the rich fruit of her harvesting.
 On Hysiae and Erythrae that lie nursed
@@ -1621,13 +1447,13 @@ The grief-assuaging vine. Oh, let him live;
 For if he die, then Love herself is slain,
 And nothing joyous in the world again!
 
-LEADER.
+**LEADER**
 
 Albeit I tremble, and scarce may speak my thought
 To a king's face, yet will I hide it not.
 Dionyse is God, no God more true nor higher!
 
-PENTHEUS.
+**PENTHEUS**
 
 It bursts hard by us, like a smothered fire,
 This frenzy of Bacchic women! All my land
@@ -1639,62 +1465,57 @@ To wield the orbéd targe or bend the bow;
 We march to war!—Fore God, shall women dare
 Such deeds against us? 'Tis too much to bear!
 
-DIONYSUS.
+**DIONYSUS**
 
 Thou mark'st me not, O King, and holdest light
 My solemn words; yet, in thine own despite,
 I warn thee still. Lift thou not up thy spear
 Against a God, but hold thy peace, and fear
-
-33
-
----
-
 His wrath! He will not brook it, if thou fright
 His Chosen from the hills of their delight.
 
-PENTHEUS.
+**PENTHEUS**
 
 Peace, thou! And if for once thou hast slipped thy chain,
 Give thanks!—Or shall I knot thine arms again?
 
-DIONYSUS.
+**DIONYSUS**
 
 Better to yield him prayer and sacrifice
 Than kick against the pricks, since Dionyse
 Is God, and thou but mortal.
 
-PENTHEUS.
+**PENTHEUS**
 
 That will I!
 Yea, sacrifice of women's blood, to cry
 His name through all Kithaeron!
 
-DIONYSUS.
+**DIONYSUS**
 
 Ye shall fly,
 All, and abase your shields of bronzen rim
 Before their wands.
 
-PENTHEUS.
+**PENTHEUS**
 
 There is no way with him,
 This stranger that so dogs us! Well or ill
 I may entreat him, he must babble still!
 
-DIONYSUS.
+**DIONYSUS**
 
 Wait, good my friend! These crooked matters may
 Even yet be straightened.
 
-[PENTHEUS has started as though to seek his army at the gate.
+[PENTHEUS has started as though to seek his army at the gate.]
 
-PENTHEUS.
+**PENTHEUS**
 
 Aye, if I obey
 Mine own slaves' will; how else?
 
-DIONYSUS.
+**DIONYSUS**
 
 Myself will lead
 The damsels hither, without sword or steed.
@@ -1703,47 +1524,49 @@ The damsels hither, without sword or steed.
 
 ---
 
-PENTHEUS.
+**PENTHEUS**
 
 How now?—This is some plot against me!
 
-DIONYSUS.
+**DIONYSUS**
 
 What
 Dost fear? Only to save thee do I plot.
 
-PENTHEUS.
+**PENTHEUS**
 
 It is some compact ye have made, whereby
 To dance these hills for ever!
 
-DIONYSUS.
+**DIONYSUS**
 
 Verily,
 That is my compact, plighted with my Lord!
 
-PENTHEUS (turning from him).
+**PENTHEUS** *(turning from him)*
 
 Ho, armourers! Bring forth my shield and sword!—
 And thou, be silent!
 
-DIONYSUS
+**DIONYSUS**
+
 (after regarding him fixedly, speaks with resignation).
 
 Ah!—Have then thy will!
 
-[He fixes his eyes upon PENTHEUS again, while the armourers bring out his armour; then speaks in a tone of command.
+[He fixes his eyes upon PENTHEUS again, while the armourers bring out his armour; then speaks in a tone of command.]
 
 Man, thou wouldst fain behold them on the hill
 Praying!
 
-PENTHEUS
+**PENTHEUS**
+
 (who during the rest of this scene, with a few exceptions, simply speaks the thoughts that DIONYSUS puts into him, losing power over his own mind).
 
 That would I, though it cost me all
 The gold of Thebes!
 
-DIONYSUS.
+**DIONYSUS**
 
 So much? Thou art quick to fall
 To such great longing.
@@ -1757,177 +1580,167 @@ To such great longing.
 Aye; 'twould grieve me much
 To see them flown with wine.
 
-DIONYSUS.
+**DIONYSUS**
 
 Yet cravest thou such
 A sight as would much grieve thee?
 
-PENTHEUS.
+**PENTHEUS**
 
 Yes; I fain
 Would watch, ambushed among the pines.
 
-DIONYSUS.
+**DIONYSUS**
 
 'Twere vain
 To hide. They soon will track thee out.
 
-PENTHEUS.
+**PENTHEUS**
 
 Well said!
 'Twere best done openly.
 
-DIONYSUS.
+**DIONYSUS**
 
 Wilt thou be led
 By me, and try the venture?
 
-PENTHEUS.
+**PENTHEUS**
 
 Aye, indeed!
 Lead on. Why should we tarry?
 
-DIONYSUS.
+**DIONYSUS**
 
 First we need
 A rich and trailing robe of fine-linen
 To gird thee.
 
-PENTHEUS.
+**PENTHEUS**
 
 Nay; am I a woman, then,
 And no man more?
 
-36
 
 ---
 
-DIONYSUS.
+**DIONYSUS**
 
 Wouldst have them slay thee dead?
 No man may see their mysteries.
 
-PENTHEUS.
+**PENTHEUS**
 
 Well said!—
 I marked thy subtle temper long ere now.
 
-DIONYSUS.
+**DIONYSUS**
 
 Tis Dionyse that prompteth me.
 
-PENTHEUS.
+**PENTHEUS**
 
 And how
 Mean'st thou the further plan?
 
-DIONYSUS.
+**DIONYSUS**
 
 First take thy way
 Within. I will array thee.
 
-PENTHEUS.
+**PENTHEUS**
 
 What array?
 The woman's? Nay, I will not.
 
-DIONYSUS.
+**DIONYSUS**
 
 Doth it change
 So soon, all thy desire to see this strange
 Adoring?
 
-PENTHEUS.
+**PENTHEUS**
 
 Wait! What garb wilt thou bestow
 About me?
 
-DIONYSUS.
+**DIONYSUS**
 
 First a long tress dangling low
 Beneath thy shoulders.
 
-PENTHEUS.
-
-
-
----
+**PENTHEUS**
 
 Aye, and next?
 
-DIONYSUS.
+**DIONYSUS**
 
 The said
-
 Robe, falling to thy feet; and on thine head
-
 A snood.
 
-PENTHEUS.
+**PENTHEUS**
 
 And after? Hast thou aught beyond?
 
-DIONYSUS.
+**DIONYSUS**
 
 Surely; the dappled fawn-skin and the wand.
 
-PENTHEUS (after a struggle with himself).
+**PENTHEUS** *(after a struggle with himself)*
 
 Enough! I cannot wear a robe and snood.
 
-DIONYSUS.
+**DIONYSUS**
 
 Wouldst liefer draw the sword and spill men's blood?
 
-PENTHEUS (again doubting).
+**PENTHEUS** *(again doubting)*
 
 True, that were evil.— Aye; 'tis best to go
 
 First to some place of watch.
 
-DIONYSUS.
+**DIONYSUS**
 
 Far wiser so,
 
 Than seek by wrath wrath's bitter recompense.
 
-PENTHEUS.
+**PENTHEUS**
 
 What of the city streets? Canst lead me hence
 
 Unseen of any?
 
-DIONYSUS.
+**DIONYSUS**
 
 Lonely and untried
 
 Thy path from hence shall be, and I thy guide!
 
-PENTHEUS.
-
-
-
----
+**PENTHEUS**
 
 I care for nothing, so these Bacchanals
 Triumph not against me! . . . Forward to my halls
 Within!—I will ordain what seemeth best.
 
-DIONYSUS.
+**DIONYSUS**
 
 So be it, O King! 'Tis mine to obey thine hest,
 Whate'er it be.
 
-PENTHEUS
+**PENTHEUS**
+
 (after hesitating once more and waiting).
 
 Well, I will go—perchance
 To march and scatter them with serried lance,
 Perchance to take thy plan. . . . I know not yet.
 
-[Exit Pentheus into the Castle.
+[Exit Pentheus into the Castle.]
 
-DIONYSUS.
+**DIONYSUS**
 
 Damsels, the lion walketh to the net!
 He finds his Bacchae now, and sees and dies,
@@ -1947,11 +1760,13 @@ His mother's gift!—So shall he learn and mark
 God's true Son, Dionyse, in fulness God,
 Most fearful, yet to man most soft of mood.
 
-[Exit Dionysus, following Pentheus into the Castle.
+## Third Stasimon — Will they ever come again?
 
-CHORUS.
+[Exit Dionysus, following Pentheus into the Castle.]
 
-Some Maidens.
+**CHORUS**
+
+*Some Maidens*
 
 Will they ever come to me, ever again,
 The long long dances,
@@ -1964,11 +1779,6 @@ Alone in the grass and the loveliness;
 Leap of the hunted, no more in dread,
 Beyond the snares and the deadly press:
 Yet a voice still in the distance sounds,
-
-
-
----
-
 A voice and a fear and a haste of hounds;
 O wildly labouring, fiercely fleet,
 Onward yet by river and glen . . .
@@ -1983,7 +1793,7 @@ To stand from fear set free, to breathe and wait;
 To hold a hand uplifted over Hate;
 And shall not Loveliness be loved for ever?
 
-Others.
+*Others*
 
 O Strength of God, slow art thou and still,
 Yet failest never!
@@ -2010,7 +1820,7 @@ To stand from fear set free, to breathe and wait;
 To hold a hand uplifted over Hate;
 And shall not Loveliness be loved for ever?
 
-LEADER.
+**LEADER**
 
 Happy he, on the weary sea
 Who hath fled the tempest and won the haven.
@@ -2026,13 +1836,11 @@ But whoe'er can know,
 As the long days go,
 That To Live is happy, hath found his Heaven!
 
-Re-enter DIONYSUS from the Castle.
+## Fourth Episode — Pentheus dressed as a Bacchanal
 
+[Re-enter DIONYSUS from the Castle.]
 
-
----
-
-DIONYSUS.
+**DIONYSUS**
 
 O eye that cravest sights thou must not see,
 O heart athirst for that which slakes not! Thee,
@@ -2046,7 +1854,7 @@ Mother!
 Thy shape, methinks, is like to one
 Of Cadmus' royal maids!
 
-PENTHEUS.
+**PENTHEUS**
 
 Yea; and mine eye
 Is bright! Yon sun shines twofold in the sky,
@@ -2056,178 +1864,164 @@ Before me? There are horns upon thy brow!
 What art thou, man or beast? For surely now
 The Bull is on thee!
 
-DIONYSUS.
+**DIONYSUS**
 
 He who erst was wrath,
 Goes with us now in gentleness. He hath
 Unsealed thine eyes to see what thou shouldst see.
 
-PENTHEUS.
+**PENTHEUS**
 
 Say; stand I not as Ino stands, or she
 Who bore me?
 
-DIONYSUS.
+**DIONYSUS**
 
 When I look on thee, it seems
 I see their very selves!—But stay; why streams
 That lock abroad, not where I laid it, crossed
 Under the coif?
 
-PENTHEUS.
+**PENTHEUS**
 
 I did it, as I tossed
 My head in dancing, to and fro, and cried
 His holy music!
 
-DIONYSUS (tending him).
-
-
-
----
-
+**DIONYSUS** *(tending him)*
 It shall soon be tied
 Aright. Tis mine to tend thee. . . . Nay, but stand
 With head straight.
 
-PENTHEUS.
+**PENTHEUS**
 
 In the hollow of thy hand
 I lay me. Deck me as thou wilt.
 
-DIONYSUS.
+**DIONYSUS**
 
 Thy zone
 Is loosened likewise; and the folded gown
 Not evenly falling to the feet.
 
-PENTHEUS.
+**PENTHEUS**
 
 Tis so,
 By the right foot. But here, methinks, they flow
 In one straight line to the heel.
 
-DIONYSUS (while tending him).
+**DIONYSUS** *(while tending him)*
 
 And if thou prove
 Their madness true, aye, more than true, what love
 And thanks hast thou for me?
 
-PENTHEUS (not listening to him).
+**PENTHEUS** *(not listening to him)*
 
 In my right hand
 Is it, or thus, that I should bear the wand,
 To be most like to them?
 
-DIONYSUS.
+**DIONYSUS**
 
 Up let it swing
 In the right hand, timed with the right foot's spring. . . .
 Tis well thy heart is changed!
 
-PENTHEUS (more wildly).
+**PENTHEUS** *(more wildly)*
 
 What strength is this!
 Kithaeron's steeps and all that in them is—
 How say's thou?—Could my shoulders lift the whole?
 
-DIONYSUS.
+**DIONYSUS**
 
 Surely thou canst, and if thou wilt! Thy soul,
-
-
-
----
-
 Being once so sick, now stands as it should stand.
 
-PENTHEUS.
+**PENTHEUS**
 
 Shall it be bars of iron? Or this bare hand
 And shoulder to the crags, to wrench them down?
 
-DIONYSUS.
+**DIONYSUS**
 
 Wouldst wreck the Nymphs' wild temples, and the brown
 Rocks, where Pan pipes at noonday?
 
-PENTHEUS.
+**PENTHEUS**
 
 Nay; not I!
 Force is not well with women. I will lie
 Hid in the pine-brake.
 
-DIONYSUS.
+**DIONYSUS**
 
 Even as fits a spy
 On holy and fearful things, so shalt thou lie!
 
-PENTHEUS (with a laugh).
+**PENTHEUS** *(with a laugh)*
 
 They lie there now, methinks—the wild birds, caught
 By love among the leaves, and fluttering not!
 
-DIONYSUS.
+**DIONYSUS**
 
 It may be. That is what thou goest to see,
 Aye, and to trap them—so they trap not thee!
 
-PENTHEUS.
+**PENTHEUS**
 
 Forth through the Thebans' town! I am their king,
 Aye, their one Man, seeing I dare this thing!
 
-DIONYSUS.
+**DIONYSUS**
 
 Yea, thou shalt bear their burden, thou alone;
 Therefore thy trial awaiteth thee!—But on;
 With me into thine ambush shalt thou come
 Unscathed; then let another bear thee home!
 
-PENTHEUS.
-
-
-
----
+**PENTHEUS**
 
 The Queen, my mother.
 
-DIONYSUS.
+**DIONYSUS**
 
 Marked of every eye.
 
-PENTHEUS.
+**PENTHEUS**
 
 For that I go!
 
-DIONYSUS.
+**DIONYSUS**
 
 Thou shalt be borne on high!
 
-PENTHEUS.
+**PENTHEUS**
 
 That were like pride!
 
-DIONYSUS.
+**DIONYSUS**
 
 Thy mother's hands shall share
 Thy carrying.
 
-PENTHEUS.
+**PENTHEUS**
 
 Nay; I need not such soft care!
 
-DIONYSUS.
+**DIONYSUS**
 
 So soft?
 
-PENTHEUS.
+**PENTHEUS**
 
 Whate'er it be, I have earned it well!
 
 {Exit PENTHEUS towards the Mountain.
 
-DIONYSUS.
+**DIONYSUS**
 
 Fell, fell art thou; and to a doom so fell
 Thou walkest, that thy name from South to North
@@ -2241,9 +2035,9 @@ None walks unscathed!—The rest this day shall see.
 
 ---
 
-# CHORUS.
+**CHORUS**
 
-Some Maidens.
+*Some Maidens*
 
 O hounds raging and blind,
 Up by the mountain road,
@@ -2254,7 +2048,7 @@ Rage at the rage unblest,
 Watching in woman's guise,
 The spy upon God's Possessed.
 
-A Bacchanal.
+*A Bacchanal*
 
 Who shall be first, to mark
 Eyes in the rock that spy,
@@ -2270,9 +2064,7 @@ Changeling so evil smiled;
 Man is he not, but Beast!
 Lion-shape of the wild,
 Gorgon-breed of the waste!"
-
 All the Chorus.
-
 Hither, for doom and deed!
 Hither with lifted sword,
 Justice, Wrath of the Lord,
@@ -2281,7 +2073,7 @@ Smite till the throat shall bleed,
 Smite till the heart shall bleed,
 Him the tyrannous, lawless, Godless, Echilon's earth-born seed!
 
-Other Maidens.
+*Other Maidens*
 
 Tyrannously hath he trod;
 Marched him, in Law's despite,
@@ -2292,7 +2084,7 @@ Blinded in craft, to quell
 And by man's violence hold
 Things unconquerable.
 
-A Bacchanal.
+*A Bacchanal*
 
 ---
 
@@ -2310,9 +2102,7 @@ Till Life, through the trammellings
 Of Laws that are not the Right,
 Breaks, clean and pure, and sings
 Glorying to God in the height!
-
 All the Chorus.
-
 Hither for doom and deed!
 Hither with lifted sword,
 Justice, Wrath of the Lord,
@@ -2321,7 +2111,7 @@ Smite till the throat shall bleed,
 Smite till the heart shall bleed,
 Him the tyrannous, lawless, Godless, Echlon's earth-born seed!
 
-LEADER.
+**LEADER**
 
 Appear, appear, whatso thy shape or name
 O Mountain Bull, Snake of the Hundred Heads,
@@ -2332,65 +2122,65 @@ Cast o'er his head thy snare;
 And laugh aloud and drag him to his death,
 Who stalks thy herded madness in its lair!
 
-Enter hastily a MESSENGER from the Mountain, pale and distraught.
+[Enter hastily a MESSENGER from the Mountain, pale and distraught.]
 
-MESSENGER.
+**MESSENGER**
 
 Woe to the house once blest in Hellas! Woe
 To thee, old King Sidonian, who didst sow
 The dragon-seed on Ares' bloody lea!
 Alas, even thy slaves must weep for thee!
 
-LEADER.
+**LEADER**
 
 News from the mountain?—Speak! How hath it sped?
 
-MESSENGER.
+**MESSENGER**
 
 Pentheus, my king, Echlon's son, is dead!
 
 ---
 
-LEADER.
+**LEADER**
 
 All hail, God of the Voice,
 Manifest ever more!
 
-MESSENGER.
+**MESSENGER**
 
 What say'st thou?—And how strange thy tone, as though
 In joy at this my master's overthrow!
 
-LEADER.
+**LEADER**
 
 With fierce joy I rejoice,
 Child of a savage shore;
 For the chains of my prison are broken, and the dread
 where I cowered of yore!
 
-MESSENGER.
+**MESSENGER**
 
 And deem'st thou Thebes so beggared, so forlorn
 Of manhood, as to sit beneath thy scorn?
 
-LEADER.
+**LEADER**
 
 Thebes hath o'er me no sway!
 None save Him I obey,
 Dionysus, Child of the Highest, Him I obey and adore!
 
-MESSENGER.
+**MESSENGER**
 
 One can forgive thee!—Yet 'tis no fair thing,
 Maids, to rejoice in a man's suffering.
 
-LEADER.
+**LEADER**
 
 Speak of the mountain side!
 Tell us the doom he died,
 The sinner smitten to death, even where his sin was sore!
 
-MESSENGER.
+**MESSENGER**
 
 We climbed beyond the utmost habitings
 Of Theban shepherds, passed Asopus' springs,
@@ -2401,7 +2191,6 @@ Then first in a green dell we stopped, and lay,
 Lips dumb and feet unmoving, warily
 Watching, to be unseen and yet to see.
 
-47
 
 ---
 
@@ -2516,11 +2305,13 @@ God's laws, and have no thought beyond His will,
 Is man's best treasure. Aye, and wisdom true,
 Methinks, for things of dust to cleave unto!
 
-[The MESSENGER departs into the Castle.
+## Fourth Stasimon — The dragon's seed brought low
 
-CHORUS.
+[The MESSENGER departs into the Castle.]
 
-Some Maidens.
+**CHORUS**
+
+*Some Maidens*
 
 Weave ye the dance, and call
 Praise to God!
@@ -2531,14 +2322,14 @@ Wore he the woman's weed?
 Clasped he his death indeed,
 Clasped the rod?
 
-A Bacchanal.
+*A Bacchanal*
 
 ---
 
 Yea, the wild ivy lapt him, and the doomed
 Wild Bull of Sacrifice before him loomed!
 
-Others.
+*Others*
 
 Ye who did Bromios scorn,
 Praise Him the more,
@@ -2549,35 +2340,37 @@ Great are the gifts he bears!
 Hands that a mother rears
 Red with gore!
 
-LEADER.
+**LEADER**
 
 But stay, Agâve cometh! And her eyes
 Make fire around her, reeling! Ho, the prize
 Cometh! All hail, O Rout of Dionyse!
 
-[Enter from the Mountain AGAVE, mad, and to all seeming wondrously happy, bearing the head of PENTHEUS in her hand. The CHORUS MAIDENS stand horror-struck at the sight; the LEADER, also horror-struck, strives to accept it and rejoice in it as the God's deed.
+## Exodos — Agave's return and the recognition
 
-AGAVE.
+[Enter from the Mountain AGAVE, mad, and to all seeming wondrously happy, bearing the head of PENTHEUS in her hand. The CHORUS MAIDENS stand horror-struck at the sight; the LEADER, also horror-struck, strives to accept it and rejoice in it as the God's deed.]
+
+**AGAVE**
 
 Ye from the lands of Morn!
 
-LEADER.
+**LEADER**
 
 Call me not; I give praise!
 
-AGAVE.
+**AGAVE**
 
 Lo, from the trunk new-shorn
 Hither a Mountain Thorn
 Bear we! O Asia-born
 Bacchanals, bless this chase!
 
-LEADER.
+**LEADER**
 
 I see. Yea; I see.
 Have I not welcomed thee?
 
-AGAVE (very calmly and peacefully).
+**AGAVE** *(very calmly and peacefully)*
 
 He was young in the wildwood:
 Without nets I caught him!
@@ -2589,50 +2382,49 @@ Without nets I caught him!
 Nay; look without fear on
 The Lion; I have ta'en him!
 
-LEADER.
+**LEADER**
 
 Where in the wildwood?
 Whence have ye brought him?
 
-AGAVE.
+**AGAVE**
 
 Kithaeron. . . .
 
-LEADER.
+**LEADER**
 
 Kithaeron?
 
-AGAVE.
+**AGAVE**
 
 The Mountain hath slain him!
 
-LEADER.
+**LEADER**
 
 Who first came nigh him?
 
-AGAVE.
+**AGAVE**
 
 I, I, 'tis confessèd!
 And they named me there by him
 Agàvê the Blessèd!
 
-LEADER.
+**LEADER**
 
 Who was next in the band on him?
 
-AGAVE.
+**AGAVE**
 
 The daughters. . .
 
-LEADER.
+**LEADER**
 
 The daughters?
 
-AGAVE.
+**AGAVE**
 
 Of Cadmus laid hand on him.
 
-51
 
 ---
 
@@ -2642,90 +2434,86 @@ Bless ye this day of days!
 
 [The LEADER tries to speak, but is not able; AGAVE begins gently stroking the head.]
 
-AGAVE.
+**AGAVE**
 
 Gather ye now to the feast!
 
-LEADER.
+**LEADER**
 
 Feast!—O miserable!
 
-AGAVE.
+**AGAVE**
 
 See, it falls to his breast,
 Curling and gently tressed,
 The hair of the Wild Bull's crest—
 The young steer of the fell!
 
-LEADER.
+**LEADER**
 
 Most like a beast of the wild
 That head, those locks defiled.
 
-AGAVE (lifting up the head, more excitedly).
+**AGAVE** *(lifting up the head, more excitedly)*
 
 He wakened his Mad Ones,
 A Chase-God, a wise God!
 He sprang them to seize this!
 He preys where his band preys.
 
-LEADER (brooding, with horror).
+**LEADER** *(brooding, with horror)*
 
 In the trail of thy Mad Ones
 Thou nearest thy prize, God!
 
-AGAVE.
+**AGAVE**
 
 Dost praise it?
 
-LEADER.
+**LEADER**
 
 I praise this?
 
-AGAVE.
-
-
-
----
+**AGAVE**
 
 Ah, soon shall the land praise!
 
-LEADER.
+**LEADER**
 
 And Pentheus, O Mother,
 Thy child?
 
-AGAVE.
+**AGAVE**
 
 He shall cry on
 My name as none other,
 Bless the spoils of the Lion!
 
-LEADER.
+**LEADER**
 
 Aye, strange is thy treasure!
 
-AGAVE.
+**AGAVE**
 
 And strange was the taking!
 
-LEADER.
+**LEADER**
 
 Thou art glad?
 
-AGAVE.
+**AGAVE**
 
 Beyond measure;
 Yea, glad in the breaking
 Of dawn upon all this land,
 By the prize, the prize of my hand!
 
-LEADER.
+**LEADER**
 
 Show then to all the land, unhappy one,
 The trophy of this deed that thou hast done!
 
-AGAVE.
+**AGAVE**
 
 Ho, all ye men that round the citadel
 And shining towers of ancient Thèbè dwell,
@@ -2736,11 +2524,6 @@ Thessalian javelins, not with hunter's net,
 Only white arms and swift hands' bladed fall.
 Why make ye much ado, and boast withal
 Your armourers' engines? See, these palms were bare
-
-
-
----
-
 That caught the angry beast, and held, and tare
 The limbs of him! . . . Father! . . . Go, bring to me
 My father! . . . Aye, and Pentheus, where is he,
@@ -2751,7 +2534,7 @@ I bring ye, having slain him—I, even I!
 
 [She goes through the crowd towards the Castle, showing the head and looking for a place to hang it. Enter from the Mountain CADMUS, with attendants, bearing the body of PENTHEUS on a bier.]
 
-CADMUS.
+**CADMUS**
 
 On, with your awful burden. Follow me,
 Thralls, to his house, whose body grievously
@@ -2770,7 +2553,8 @@ Agâvê was not there. The rumour is
 She cometh fleet-foot hither.—Ah! 'Tis true;
 A sight I scarce can bend mine eyes unto.
 
-AGAVE
+**AGAVE**
+
 (turning from the Palace and seeing him).
 
 My father, a great boast is thine this hour.
@@ -2785,7 +2569,7 @@ To show what things thy daughters did! Do thou
 Take it, and call a feast. Proud art thou now
 And highly favoured in our valiancy!
 
-CADMUS.
+**CADMUS**
 
 O depth of grief, how can I fathom thee
 Or look upon thee!—Poor, poor, bloodstained hand!
@@ -2797,11 +2581,10 @@ Then for mine own. All, all of us are lost,
 Not wrongfully, yet is it hard, from one
 Who might have loved—our Bromios, our own!
 
-54
 
 ---
 
-AGAVE.
+**AGAVE**
 
 How crabbèd and how scowling in the eyes
 Is man's old age!—Would that my son likewise
@@ -2812,7 +2595,7 @@ With God's will! Father, thou shouldst set him right. . . .
 Will no one bring him hither, that mine eyes
 May look on his, and show him this my prize!
 
-CADMUS.
+**CADMUS**
 
 Alas, if ever ye can know again
 The truth of what ye did, what pain of pain
@@ -2820,170 +2603,163 @@ That truth shall bring! Or were it best to wait
 Darkened for evermore, and deem your state
 Not misery, though ye know no happiness?
 
-AGAVE.
+**AGAVE**
 
 What seest thou here to chide, or not to bless?
 
-CADMUS (after hesitation, resolving himself).
+**CADMUS** *(after hesitation, resolving himself)*
 
 Raise me thine eyes to yon blue dome of air!
 
-AGAVE.
+**AGAVE**
 
 'Tis done. What dost thou bid me seek for there?
 
-CADMUS.
+**CADMUS**
 
 Is it the same, or changèd in thy sight?
 
-AGAVE.
+**AGAVE**
 
 More shining than before, more heavenly bright!
 
-CADMUS.
+**CADMUS**
 
 And that wild tremor, is it with thee still?
 
-AGAVE (troubled).
+**AGAVE** *(troubled)*
 
 I know not what thou sayest; but my will
 Clears, and some change cometh, I know not how.
 
 ---
 
-CADMUS.
+**CADMUS**
 
 Canst hearken then, being changed, and answer, now?
 
-AGAVE.
+**AGAVE**
 
 I have forgotten something; else I could.
 
-CADMUS.
+**CADMUS**
 
 What husband led thee of old from mine abode?
 
-AGAVE.
+**AGAVE**
 
 Echlon, whom men named the Child of Earth.
 
-CADMUS.
+**CADMUS**
 
 And what child in Echlon's house had birth?
 
-AGAVE.
+**AGAVE**
 
 Pentheus, of my love and his father's bred.
 
-CADMUS.
+**CADMUS**
 
 Thou bearest in thine arms an head—what head?
 
-AGAVE
-(beginning to tremble, and not looking at what she carries).
+**AGAVE** *(beginning to tremble, and not looking at what she carries)*
 
 A lion's—so they all said in the chase.
 
-CADMUS.
+**CADMUS**
 
 Turn to it now—'tis no long toil—and gaze.
 
-AGAVE.
+**AGAVE**
 
 Ah! But what is it? What am I carrying here?
 
-CADMUS.
-
----
+**CADMUS**
 
 Look once upon it full, till all be clear!
 
-AGAVE.
+**AGAVE**
 
 I see . . . most deadly pain! Oh, woe is me!
 
-CADMUS.
+**CADMUS**
 
 Wears it the likeness of a lion to thee?
 
-AGAVE.
+**AGAVE**
 
 No; 'tis the head—O God!—of Pentheus, this!
 
-CADMUS.
+**CADMUS**
 
 Blood-drenched ere thou wouldst know him! Aye, 'tis his.
 
-AGAVE.
+**AGAVE**
 
 Who slew him?—How came I to hold this thing?
 
-CADMUS.
+**CADMUS**
 
 O cruel Truth, is this thine home-coming?
 
-AGAVE.
+**AGAVE**
 
 Answer! My heart is hanging on thy breath!
 
-CADMUS.
+**CADMUS**
 
 'Twas thou.—Thou and thy sisters wrought his death.
 
-AGAVE.
+**AGAVE**
 
 In what place was it? His own house, or where?
 
-CADMUS.
+**CADMUS**
 
 Where the dogs tore Actaeon, even there.
 
-AGAVE.
-
-
-
----
+**AGAVE**
 
 Why went he to Kithaeron? What sought he?
 
-CADMUS.
+**CADMUS**
 
 To mock the God and thine own ecstasy.
 
-AGAVE.
+**AGAVE**
 
 But how should we be on the hills this day?
 
-CADMUS.
+**CADMUS**
 
 Being mad! A spirit drove all the land that way.
 
-AGAVE.
+**AGAVE**
 
 'Tis Dionyse hath done it! Now I see.
 
-CADMUS (earnestly).
+**CADMUS** *(earnestly)*
 
 Ye wronged Him! Ye denied his deity!
 
-AGAVE (turning from him).
+**AGAVE** *(turning from him)*
 
 Show me the body of the son I love!
 
-CADMUS (leading her to the bier).
+**CADMUS** *(leading her to the bier)*
 
 'Tis here, my child. Hard was the quest thereof.
 
-AGAVE.
+**AGAVE**
 
 Laid in due state?
 
-[As there is no answer, she lifts the veil of the bier, and sees.
+[As there is no answer, she lifts the veil of the bier, and sees.]
 
 Oh, if I wrought a sin,
 'Twas mine! What portion had my child therein?
 
-CADMUS.
+**CADMUS**
 
 He made him like to you, adoring not
 The God; who therefore to one bane hath brought
@@ -2998,7 +2774,7 @@ And now this first-fruit of the flesh of thee,
 Sad woman, foully here and frightfully
 Lies murdered! Whom the house looked up unto,
 
-[Kneeling by the body.
+[Kneeling by the body.]
 
 O Child, my daughter's child! who heldest true
 My castle walls; and to the folk a name
@@ -3020,12 +2796,12 @@ Woe to thy mother and her sisters, woe
 Alway! Oh, whoso walketh not in dread
 Of Gods, let him but look on this man dead!
 
-LEADER.
+**LEADER**
 
 Lo, I weep with thee. 'Twas but due reward
 God sent on Pentheus; but for thee . . . 'Tis hard.
 
-AGAVE.
+**AGAVE**
 
 My father, thou canst see the change in me,
 
@@ -3037,7 +2813,7 @@ My father, thou canst see the change in me,
 
 * * * * *
 
-DIONYSUS.
+**DIONYSUS**
 
 * * * * *
 
@@ -3051,11 +2827,6 @@ Of old to be thy bride from Heaven afar,
 Harmonia, daughter of the Lord of War.
 Yea, and a chariot of kine—so spake
 The word of Zeus—thee and thy Queen shall take
-
-59
-
----
-
 Through many lands, Lord of a wild array
 Of orient spears. And many towns shall they
 Destroy beneath thee, that vast horde, until
@@ -3068,46 +2839,41 @@ Of no man but of Zeus!—Ah, had ye seen
 Truth in the hour ye would not, all had been
 Well with ye, and the Child of God your friend!
 
-AGAVE.
+**AGAVE**
 
 Dionysus, we beseech thee! We have sinned!
 
-DIONYSUS.
+**DIONYSUS**
 
 Too late! When there was time, ye knew me not!
 
-AGAVE.
+**AGAVE**
 
 We have confessed. Yet is thine hand too hot.
 
-DIONYSUS.
+**DIONYSUS**
 
 Ye mocked me, being God; this is your wage.
 
-AGAVE.
+**AGAVE**
 
 Should God be like a proud man in his rage?
 
-DIONYSUS.
+**DIONYSUS**
 
 'Tis as my sire, Zeus, willed it long ago.
 
-AGAVE (turning from him almost with disdain).
+**AGAVE** *(turning from him almost with disdain)*
 
 Old Man, the word is spoken; we must go.
 
-DIONYSUS.
+**DIONYSUS**
 
 And seeing ye must, what is it that ye wait?
 
-CADMUS.
+**CADMUS**
 
 Child, we are come into a deadly strait,
-
-
-
----
-
 All; thou, poor sufferer, and thy sisters twain,
 And my sad self. Far off to barbarous men,
 A grey-haired wanderer, I must take my road.
@@ -3121,39 +2887,39 @@ Lance upon lance behind us; and not cease
 From toils, like other men, nor dream, nor past
 The foam of Acheron find my peace at last.
 
-AGAVE.
+**AGAVE**
 
 Father! And I must wander far from thee!
 
-CADMUS.
+**CADMUS**
 
 O Child, why wilt thou reach thine arms to me,
 As yearns the milk-white swan, when old swans die?
 
-AGAVE.
+**AGAVE**
 
 Where shall I turn me else? No home have I.
 
-CADMUS.
+**CADMUS**
 
 I know not; I can help thee not.
 
-AGAVE.
+**AGAVE**
 
 Farewell, O home, O ancient tower!
 Lo, I am outcast from my bower,
 And leave ye for a worser lot.
 
-CADMUS.
+**CADMUS**
 
 Go forth, go forth to misery,
 The way Actaeon's father went!
 
-AGAVE.
+**AGAVE**
 
 Father, for thee my tears are spent.
 
-CADMUS.
+**CADMUS**
 
 Nay, Child, 'tis I must weep for thee;
 
@@ -3163,18 +2929,18 @@ Nay, Child, 'tis I must weep for thee;
 
 For thee and for thy sisters twain!
 
-AGAVE.
+**AGAVE**
 
 On all this house, in bitter wise,
 Our Lord and Master, Dionyse,
 Hath poured the utter dregs of pain!
 
-DIONYSUS.
+**DIONYSUS**
 
 In bitter wise, for bitter was the shame
 Ye did me, when Thebes honoured not my name.
 
-AGAVE.
+**AGAVE**
 
 Then lead me where my sisters be;
 Together let our tears be shed,
@@ -3186,279 +2952,13 @@ Oh, other Bacchanals be there,
 Not I, not I, to dream of them!
 
 [AGAVE with her group of attendants goes out on the side away from the
-Mountain. DIONYSUS rises upon the Cloud and disappears.
+Mountain. DIONYSUS rises upon the Cloud and disappears.]
 
-CHORUS.
+**CHORUS**
 
 There be many shapes of mystery.
 And many things God makes to be,
 Past hope or fear.
 And the end men looked for cometh not,
 And a path is there where no man thought.
-So hath it fallen here. [Exeunt.
-
-
-
----
-
-![img-3.jpeg](images/img-3.jpeg)
-
----
-
-# NOTES ON THE BACCHAE
-
-## INTRODUCTORY NOTE
-
-The Bacchae, being from one point of view a religious drama, a kind of "mystery play," is full of allusions both to the myth and to the religion of Dionysus.
-
-1. The Myth, as implied by Euripides. Semelē, daughter of Cadmus, being loved by Zeus, asked her divine lover to appear to her once in his full glory; he came, a blaze of miraculous lightning, in the ecstasy of which Semelē died, giving premature birth to a son. Zeus, to save this child's life and make him truly God as well as Man, tore open his own flesh and therein fostered the child till in due time, by a miraculous and mysterious Second Birth, the child of Semelē came to full life as God.
-
-2. The Religion of Dionysus is hard to formulate or even describe, both because of its composite origins and because of its condition of constant vitality, fluctuation, and development.
-
-(a) The first datum, apparently, is the introduction from Thrace of the characteristic God of the wild northern mountains, a God of Intoxication, of Inspiration, a giver of superhuman or immortal life. His worship is superposed upon that of divers old Tree or Vegetation Gods, already worshipped in Greece. He becomes specially the God of the Vine. Originally a god of the common folk, despised and unauthorised, he is eventually so strong as to be adopted into the Olympian hierarchy as the "youngest" of the Gods, son of Zeus. His "Olympian" name, so to speak, is Dionysus, but in his worship he is addressed by numbers of names, more or less mystic and secret—Bromios, Bacchios or Baccheus, Iacchos, Eleuthercus, Zagreus, Sabazios, &amp;c. Some of these may be the names of old spirits whom he has displaced; some are his own Thracian names. Bromos and Sabaja, for instance, seem to have been Thracian names for two kinds of intoxicating drink. Bacchos means a "wand." Together with his many names, he has many shapes, especially appearing as a Bull and a Serpent.
-
-(b) This religion, very primitive and barbarous, but possessing a strong hold over the emotions of the common people, was seized upon and transfigured by the great wave of religious reform, known under the name of Orphism, which swept over Greece and South Italy in the sixth century B.C., and influenced the teachings of such philosophers as Pythagoras, Aristeas, Empedocles, and the many writers on purification and the world after death. Orphism may very possibly represent an ancient Cretan religion in clash or fusion with one from Thrace. At any rate, it was grafted straight upon the Dionysus-worship, and, without rationalising, spiritualised and reformed it. Ascetic, mystical, ritualistic, and emotional, Orphism easily excited both enthusiasm and ridicule. It lent itself both to inspired saintliness and to imposture. In doctrine it laid especial stress upon sin, and the sacerdotal purification of sin; on the eternal reward due beyond the grave to the pure and the impure, the pure living in an eternal ecstasy—"perpetual intoxication," as Plato satirically calls it—the impure toiling through long ages to wash out their stains. It recast in various ways the myth of Dionysus, and especially the story of his Second Birth. All true worshippers become in a mystical sense one with the God; they are born again and are "Bacchoi." Dionysus being the God within, the perfectly pure soul is possessed by the God wholly, and becomes nothing but the God.
-
-Based on very primitive rites and feelings, on the religion of men who made their gods in the image of snakes and bulls and fawns, because they hardly felt any difference of kind between themselves and the animals, the worship of Dionysus kept always this feeling of kinship with wild things. The beautiful side of this feeling is vividly conspicuous in The Bacchae. And the horrible side is not in the least concealed.
-
-A curious relic of primitive superstition and cruelty remained firmly imbedded in Orphism—a doctrine irrational and unintelligible, and for that very reason wrapped in the deepest and most sacred mystery: a belief in the sacrifice of Dionysus himself, and the purification of man by his blood.
-
-It seems possible that the savage Thracians, in the fury of their worship on the mountains, when they were possessed by the God and became "wild beasts," actually tore with their teeth and hands any hares, goats, fawns, or the like that they came across. There survives a constant tradition of inspired Bacchanals in their miraculous strength tearing even bulls asunder—a feat, happily, beyond the bounds of human possibility. The wild beast that tore was, of course, the savage God himself. And by one of those curious confusions of thought, which seem so inconceivable to us and so absolutely natural and obvious to primitive men, the beast torn was also the God! The Orphic congregations of later times, in their most holy gatherings, solemnly partook of the blood of a bull, which was, by a mystery, the blood of Dionysus-Zagreus himself, the "Bull of God," slain in sacrifice for the purification of man. And the Maenads of poetry and myth, among more beautiful proofs of their superhuman or infra-human character, have always to tear bulls in pieces and taste of the blood. It is noteworthy, and throws much light on the spirit of Orphism, that apart from this sacramental tasting of the blood, the Orphic worshipper held it an abomination to eat the flesh of animals at all. The same religious fervour and zeal for purity which made him reject the pollution of animal food, made him at the same time cling to a ceremonial which would utterly disgust the ordinary hardened flesh-eater. It fascinated him just because it was so incredibly primitive and uncanny; because it was a mystery which transcended reason!
-
-It will be observed that Euripides, though certainly familiar with Orphism—which he mentions in The Hippolytus and treated at length in The Cretans (see Appendix)—has in The Bacchae gone back behind Orphism to the more primitive stuff from which it was made. He has little reference to any specially Orphic doctrine; not a word, for instance, about the immortality of the soul. And his
-
----
-
-idealisation or spiritualisation of Dionysus-worship proceeds along the lines of his own thought, not on those already fixed by the Orphic teachers.
-
-P. 80, l. 17, Asia all that by the salt sea lies, &amp;c.], i.e. the coasts of Asia Minor inhabited by Greeks, Ionia, Aeolis, and Doris.
-
-P. 80, l. 27, From Dian seed.]—Dian=belonging to Zeus. The name Dionysus seemed to be derived from Διὸ ζ, the genitive of "Zeus."
-
-P. 81, l. 50, Should this Theban town essay with wrath and battle, &amp;c.]—This suggestion of a possibility which is never realised or approached is perhaps a mark of the unrevised condition of the play. The same may be said of the repetitions in the Prologue.
-
-Pp. 82-86, ll. 64-169.—This first song of the Chorus covers a great deal of Bacchic doctrine and myth. The first strophe, "Oh blessed he in all wise," &amp;c., describes the bliss of Bacchic purity; the antistrophe gives the two births of Dionysus, from Semelē and from the body of Zeus, mentioning his mystic epiphanies as Bull and as Serpent. The next strophe is an appeal to Thebes, the birthplace or "nurse" of the God's mother, Semelē; the antistrophe, an appeal to the cavern in Crete, the birthplace of Zeus, the God's father, and the original home of the mystic Timbrel. The Epode, or closing song, is full, not of doctrine, but of the pure poetry of the worship.
-
-Pp. 86-95, ll. 170-369, Teiresias and Cadmus.]—Teiresias seems to be not a spokesman of the poet's own views—far from it—but a type of the more cultured sort of Dionysiac priest, not very enlightened, but ready to abate some of the extreme dogmas of his creed if he may keep the rest. Cadmus, quite a different character, takes a very human and earthly point of view: the God is probably a true God; but even if he is false, there is no great harm done, and the worship will bring renown to Thebes and the royal family. It is noteworthy how full of pity Cadmus is—the sympathetic kindliness of the sons of this world as contrasted with the pitilessness of gods and their devotees. See especially the last scenes of the play. Even his final outburst of despair at not dying like other men (p. 152), shows the same sympathetic humanity.
-
-Pp. 89 ff., ll. 215-262.—Pentheus, though his case against the new worship is so good, and he might so easily have been made into a fine martyr, like Hippolytus, is left harsh and unpleasant, and very close in type to the ordinary "tyrant" of Greek tragedy (cf. p. 118). It is also noteworthy, I think, that he is, as it were, out of tone with the other characters. He belongs to a different atmosphere, like, to take a recent instance, Golaud in Pelleus et Melisande.
-
-P. 91, l. 263, Injurious King, &amp;c.]—It is a mark of a certain yielding to stage convention in Euripides' later style, that he allows the Chorus Leader to make remarks which are not "asides," but are yet not heard or noticed by anybody.
-
-P. 91, l. 264, Sower of the Giants' sod.]—Cadmus, by divine guidance, slew a dragon and sowed the teeth of it like seed in the "Field of Ares." From the teeth rose a harvest of Earth-born, or "Giant" warriors, of whom Echlon was one.
-
-P. 92, l. 287, Learn the truth of it, cleared from the false.]—This timid essay in rationalism reminds one of similar efforts in Pindar (e.g. Ol. i.). It is the product of a religious and unspeculative mind, not feeling difficulties itself, but troubled by other people's questions and objections. (See above on Teiresias.)
-
-P. 92, l. 292, The world-encircling Fire.]—This fire, or ether, was the ordinary material of which phantoms or apparitions were made.
-
-Pp. 93-95, ll. 330-369.—These three speeches are very clearly contrasted. Cadmus, thoroughly human, thinking of sympathy and expediency, and vividly remembering the fate of his other grandson, Actaeon; Pentheus, angry and "tyrannical"; Teiresias speaking like a Christian priest of the Middle Ages, almost like Tennyson's Becket.
-
-P. 95, l. 370.—The goddess Ὀνία, "Purity," seems to be one of the many abstractions which were half personified by philosophy and by Orphism. It is possible that the word is really adjectival, "Immaculate One," and originally an epithet of some more definite goddess, e.g. as Miss Harrison suggests, of Nemesis.
-
-In this and other choruses it is very uncertain how the lines should be distributed between the whole chorus, the two semi-choruses, and the various individual choreutae.
-
-Pp. 97-98, ll. 402-430.—For the meaning of these lines, see Introduction, pp. lxi, lxii.
-
-P. 100, l. 471, These emblems.]—There were generally associated with mysteries, or special forms of worship, certain relics or sacred implements, without which the rites could not be performed. Cf. Hdt. vii. 153, where Telines of Gela stole the sacred implements or emblems of the nether gods, so that no worship could be performed, and the town was, as it were, excommunicated.
-
-P. 103, ll. 493 ff., The soldiers cut off the tress.]—The stage directions here are difficult. It is conceivable that none of Pentheus' threats are carried out at all; that the God mysteriously paralyses the hand that is lifted to take his rod without Pentheus himself knowing it. But I think it more likely that the humiliation of Dionysus is made, as far as externals go, complete, and that it is not till later that he begins to show his superhuman powers.
-
-P. 104, l. 508, So let it be.]—The name Pentheus suggests 'mourner,' from penthos, 'mourning.'
-
-P. 105, l. 519, Achelois' roaming daughter.]—Achelois was the Father of all Rivers.
-
-P. 107, l. 556, In thine own Nysa.]—An unknown divine mountain, formed apparently to account for the second part of the name Dionysus.
-
----
-
-P. 107, l. 571, Cross the Lydias, &amp;c.]—These are rivers of Thrace which Dionysus must cross in his passage from the East, the Lydias, the Axios, and some other, perhaps the Haliacmon, which is called "the father-stream of story."
-
-P. 108, l. 579, A Voice, a Voice.]—Bromios, the God of Many Voices—for, whatever the real derivation, the fifth-century Greeks certainly associated the name with $\beta \rho \epsilon \mu \omega$, 'to roar'—manifests himself as a voice here and below (p. 136).
-
-Pp. 109-112, ll. 602-641, Ye Damsels of the Morning Hills, &amp;c.]—This scene in longer metre always strikes me as a little unlike the style of Euripides, and inferior. It may mark one of the parts left unfinished by the poet, and written in by his son. But it may be that I have not understood it.
-
-P. 118, ll. 781 ff., Call all who spur the charger, &amp;c.]—The typical 'Ercles vein' of the tragic tyrant.
-
-Pp. 120-124, ll. 810 ff.—This scene of the 'hypnotising'—if one may use the word—of Pentheus probably depends much on the action, which, however, I have not ventured to prescribe. Pentheus seems to struggle against the process all through, to be amazed at himself for consenting, while constantly finding fresh reasons for doing so.
-
-P. 121, l. 822, Am I a woman, then?—The robe and coif were, in the original legend, marks of the Thracian dress worn by the Thracian followers of Dionysus, and notably by Orpheus. The tradition became fixed that Pentheus wore such a robe and coif; and to the Greeks of Euripides' time such a dress seemed to be a woman's. Hence this turn of the story (cf. above, p. 167).
-
-P. 125, ll. 877-881.—The refrain of this chorus about the fawn is difficult to interpret. I have practically interpolated the third line ("To stand from fear set free, to breathe and wait"), in order (1) to show the connection of ideas; (2) to make clearer the meaning (as I understand it) of the two Orphic formulae, "What is beautiful is beloved for ever," and "A hand uplifted over the head of Hate." If I am wrong, the refrain is probably a mere cry for revenge, in the tone of the refrain, "Hither for doom and deed," on p. 132. It is one of the many passages where there is a sharp antagonism between the two spirits of the Chorus, first, as furious Bacchanals, and, secondly, as exponents of the idealised Bacchic religion of Euripides, which is so strongly expressed in the rest of this wonderful lyric.
-
-P. 127, l. 920, Is it a Wild Bull, this?—Pentheus, in his Bacchic possession, sees fitfully the mystic shapes of the God beneath the human disguise. This second-sight, the exaltation of spirit, and the feeling of supernatural strength come to Pentheus as they came to the two Old Men. But to them the change came peacefully and for good; to Pentheus it comes by force, stormily and for evil, because his will was against the God.
-
-P. 131, l. 976, O hounds raging and blind.]—i.e. Spirits of Madness. This lyric prepares us for what follows, especially for Agâvê's delusion, which otherwise might have been hard to understand. I have tried to keep the peculiar metre of the original, the dochmiac,
-
-with a few simple licences. The scheme is based on
-
-or
-
-the latter being much commoner.
-
-P. 133, ll. 997-1011.—The greater part of this chorus is generally abandoned as unintelligible and corrupt. The last ten lines ("Knowledge, we are not foes," &amp;c.) will, I think, make sense if we accept a very slight conjecture of my own, $i\acute{e}vtov$, "let them blow", instead of the impossible $i\acute{i}i\tau\acute{v}v$. The four lines before that ("A strait pitiless mind," &amp;c.) are an almost literal translation of the MS. reading, which, however, is incorrect in metre, and therefore cannot be exactly what Euripides wrote.
-
-P. 134, l. 1036, And deem'st thou Thebes so beggared.]—The couplet is incomplete in the MS. But the sense needed is obvious.
-
-P. 137, l. 1120, Let it not befall through sin of mine, &amp;c.]—This note of unselfish feeling, of pity and humanity, becomes increasingly marked in all the victims of Dionysus towards the end of the play, and contrasts the more vividly with the God's pitilessness. Cadmus is always gentle, and always thinking of the sufferings of others; and, indeed, so is Agâvê, after her return to reason, though with more resentment against the oppressor.
-
-Pp. 139-143, ll. 1165-1200.—This marvellous scene defies comment. But I may be excused for remarking (1) that the psychological change of the chorus is, to my mind, proved by the words of the original, and does not in the least depend on my interpolated stage directions; (2) the extraordinary exultation of Agâvê is part of her Bacchic possession. It is not to be supposed that, if she had really killed a lion, such joy would be the natural thing.
-
-P. 141, after l. 1183, The Leader tries to speak, &amp;c.]—It is also possible that by some error of a scribe two lines have been omitted in the MS. But I think the explanation given in the text more probable and more dramatic.
-
-P. 142, l. 1195, And Pentheus, O Mother?—The Leader mentions Pentheus, I suppose, in order deliberately to test Agâvê's delusion, to see if she is indeed utterly unconscious of the truth.
-
-P. 146, l. 1267, More shining than before, &amp;c.]—The sight of the pure heaven brings back light to her mind—that is clear. But does she mean that the sky is brighter because of her madness which still remains, or that it is brighter now, after having been darkened in her madness?
-
-P. 149, l. 1313, And now I fare forth in dishonour.—He has not yet been sentenced to exile, though he might well judge that after such pollution all his family would be banished. But probably this is another mark of the unrevised state of the play.
-
-
-
----
-
-P. 151, l. 1330, For thou must change and be a Serpent Thing, &amp;c.]—A prophecy like this is a very common occurrence in the last scenes of Euripides' tragedies. "The subject of the play is really a long chain of events. The poet fixes on some portion of it—the action of one day, generally speaking—and treats it as a piece of vivid concrete life, led up to by a merely narrative introduction (the Prologue), and melting away into a merely narrative close. The method is to our taste undramatic, but it is explicable enough. It falls in with the tendency of Greek art to finish, not with a climax, but with a lessening of strain" (Greek Literature, p. 267).
-
-The prophecy was that Cadmus and Harmonia should be changed into serpents and should lead a host of barbarian invaders—identified with an Illyrian tribe, the Encheleis—against Hellas; they should prosper until they laid hands on the treasures of Delphi, and then be destroyed. Herodotus says that the Persians were influenced by this prophecy when they refrained from attacking Delphi (Hdt. ix. 42).
-
-Printed by BALLANTYNE, HANSON &amp; Co.
-Edinburgh &amp; London
-
-BY THE SAME AUTHOR
-
-HISTORY OF ANCIENT GREEK LITERATURE.
-
-ANDROMACHE: A PLAY.
-
-CARLYON SAHIB: A PLAY.
-
-THE EXPLOITATION OF INFERIOR RACES, IN ANCIENT AND MODERN TIMES: An ESSAY IN "LIBERALISM AND THE EMPIRE."
-
-EURIPIDIS FABULAE: BREVI ADNOTATIONE CRITICA INSTRUCTAE, VOLS. I. AND II.
-
-EURIPIDES: THE TROJAN WOMEN.
-ELECTRA.
-
-Translated into English Verse.
-
-
-
----
-
-![img-4.jpeg](images/img-4.jpeg)
-
-# TRANSCRIBER'S NOTE
-
-The dochmiacs (poetic metres) on page 92 express extreme agitation or distress. The u refers to an unstressed syllable and the m-dash refers to a long or stressed syllable. In the text version they have been replaced with u-- --u-- and --uu --u-- whereas in the HTML version images of the original have been used.
-
-Minor variations in spelling and punctuation have been preserved.
-
----
-
-Updated editions will replace the previous one—the old editions will be renamed.
-
-Creating the works from print editions not protected by U.S. copyright law means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg™ electronic works to protect the PROJECT GUTENBERG™ concept and trademark. Project Gutenberg is a registered trademark, and may not be used if you charge for an eBook, except by following the terms of the trademark license, including paying royalties for use of the Project Gutenberg trademark. If you do not charge anything for copies of this eBook, complying with the trademark license is very easy. You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research. Project Gutenberg eBooks may be modified and printed and given away—you may do practically ANYTHING in the United States with eBooks not protected by U.S. copyright law. Redistribution is subject to the trademark license, especially commercial redistribution.
-
-START: FULL LICENSE
-
----
-
-
-
----
-
-To protect the Project Gutenberg™ mission of promoting the free distribution of electronic works, by using or distributing this work (or any other work associated in any way with the phrase "Project Gutenberg"), you agree to comply with all the terms of the Full Project Gutenberg License available with this file or online at www.gutenberg.org/license.
-
-# Section 1. General Terms of Use and Redistributing Project Gutenberg electronic works
-
-1.A. By reading or using any part of this Project Gutenberg electronic work, you indicate that you have read, understand, agree to and accept all the terms of this license and intellectual property (trademark/copyright) agreement. If you do not agree to abide by all the terms of this agreement, you must cease using and return or destroy all copies of Project Gutenberg electronic works in your possession. If you paid a fee for obtaining a copy of or access to a Project Gutenberg electronic work and you do not agree to be bound by the terms of this agreement, you may obtain a refund from the person or entity to whom you paid the fee as set forth in paragraph 1.E.8.
-
-1.B. "Project Gutenberg" is a registered trademark. It may only be used on or associated in any way with an electronic work by people who agree to be bound by the terms of this agreement. There are a few things that you can do with most Project Gutenberg electronic works even without complying with the full terms of this agreement. See paragraph 1.C below. There are a lot of things you can do with Project Gutenberg electronic works if you follow the terms of this agreement and help preserve free future access to Project Gutenberg electronic works. See paragraph 1.E below.
-
-1.C. The Project Gutenberg Literary Archive Foundation ("the Foundation" or PGLAF), owns a compilation copyright in the collection of Project Gutenberg electronic works. Nearly all the individual works in the collection are in the public domain in the United States. If an individual work is unprotected by copyright law in the United States and you are located in the United States, we do not claim a right to prevent you from copying, distributing, performing, displaying or creating derivative works based on the work as long as all references to Project Gutenberg are removed. Of course, we hope that you will support the Project Gutenberg mission of promoting free access to electronic works by freely sharing Project Gutenberg works in compliance with the terms of this agreement for keeping the Project Gutenberg name associated with the work. You can easily comply with the terms of this agreement by keeping this work in the same format with its attached full Project Gutenberg License when you share it without charge with others.
-
-1.D. The copyright laws of the place where you are located also govern what you can do with this work. Copyright laws in most countries are in a constant state of change. If you are outside the United States, check the laws of your country in addition to the terms of this agreement before downloading, copying, displaying, performing, distributing or creating derivative works based on this work or any other Project Gutenberg work. The Foundation makes no representations concerning the copyright status of any work in any country other than the United States.
-
-1.E. Unless you have removed all references to Project Gutenberg:
-
-1.E.1. The following sentence, with active links to, or other immediate access to, the full Project Gutenberg License must appear prominently whenever any copy of a Project Gutenberg work (any work on which the phrase "Project Gutenberg" appears, or with which the phrase "Project Gutenberg" is associated) is accessed, displayed, performed, viewed, copied or distributed:
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg™ License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-1.E.2. If an individual Project Gutenberg electronic work is derived from texts not protected by U.S. copyright law (does not contain a notice indicating that it is posted with permission of the copyright holder), the work can be copied and distributed to anyone in the United States without paying any fees or charges. If you are redistributing or providing access to a work with the phrase "Project Gutenberg" associated with or appearing on the work, you must comply either with the requirements of paragraphs 1.E.1 through 1.E.7 or obtain permission for the use of the work and the Project Gutenberg trademark as set forth in paragraphs 1.E.8 or 1.E.9.
-
-1.E.3. If an individual Project Gutenberg electronic work is posted with the permission of the copyright holder, your use and distribution must comply with both paragraphs 1.E.1 through 1.E.7 and any additional terms imposed by the copyright holder. Additional terms will be linked to the Project Gutenberg License for all works posted with the permission of the copyright holder found at the beginning of this work.
-
----
-
-1.E.4. Do not unlink or detach or remove the full Project Gutenberg License terms from this work, or any files containing a part of this work or any other work associated with Project Gutenberg.
-
-1.E.5. Do not copy, display, perform, distribute or redistribute this electronic work, or any part of this electronic work, without prominently displaying the sentence set forth in paragraph 1.E.1 with active links or immediate access to the full terms of the Project Gutenberg License.
-
-1.E.6. You may convert to and distribute this work in any binary, compressed, marked up, nonproprietary or proprietary form, including any word processing or hypertext form. However, if you provide access to or distribute copies of a Project Gutenberg work in a format other than "Plain Vanilla ASCII" or other format used in the official version posted on the official Project Gutenberg website (www.gutenberg.org), you must, at no additional cost, fee or expense to the user, provide a copy, a means of exporting a copy, or a means of obtaining a copy upon request, of the work in its original "Plain Vanilla ASCII" or other form. Any alternate format must include the full Project Gutenberg License as specified in paragraph 1.E.1.
-
-1.E.7. Do not charge a fee for access to, viewing, displaying, performing, copying or distributing any Project Gutenberg works unless you comply with paragraph 1.E.8 or 1.E.9.
-
-1.E.8. You may charge a reasonable fee for copies of or providing access to or distributing Project Gutenberg electronic works provided that:
-
-- You pay a royalty fee of 20% of the gross profits you derive from the use of Project Gutenberg works calculated using the method you already use to calculate your applicable taxes. The fee is owed to the owner of the Project Gutenberg trademark, but he has agreed to donate royalties under this paragraph to the Project Gutenberg Literary Archive Foundation. Royalty payments must be paid within 60 days following each date on which you prepare (or are legally required to prepare) your periodic tax returns. Royalty payments should be clearly marked as such and sent to the Project Gutenberg Literary Archive Foundation at the address specified in Section 4, "Information about donations to the Project Gutenberg Literary Archive Foundation."
-
-- You provide a full refund of any money paid by a user who notifies you in writing (or by e-mail) within 30 days of receipt that s/he does not agree to the terms of the full Project Gutenberg™ License. You must require such a user to return or destroy all copies of the works possessed in a physical medium and discontinue all use of and all access to other copies of Project Gutenberg™ works.
-
-- You provide, in accordance with paragraph 1.F.3, a full refund of any money paid for a work or a replacement copy, if a defect in the electronic work is discovered and reported to you within 90 days of receipt of the work.
-
-- You comply with all other terms of this agreement for free distribution of Project Gutenberg™ works.
-
-1.E.9. If you wish to charge a fee or distribute a Project Gutenberg™ electronic work or group of works on different terms than are set forth in this agreement, you must obtain permission in writing from the Project Gutenberg Literary Archive Foundation, the manager of the Project Gutenberg™ trademark. Contact the Foundation as set forth in Section 3 below.
-
-1.F.
-
-1.F.1. Project Gutenberg volunteers and employees expend considerable effort to identify, do copyright research on, transcribe and proofread works not protected by U.S. copyright law in creating the Project Gutenberg™ collection. Despite these efforts, Project Gutenberg™ electronic works, and the medium on which they may be stored, may contain "Defects," such as, but not limited to, incomplete, inaccurate or corrupt data, transcription errors, a copyright or other intellectual property infringement, a defective or damaged disk or other medium, a computer virus, or computer codes that damage or cannot be read by your equipment.
-
-1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right of Replacement or Refund" described in paragraph 1.F.3, the Project Gutenberg Literary Archive Foundation, the owner of the Project Gutenberg™ trademark, and any other party distributing a Project Gutenberg™ electronic work under this agreement, disclaim all liability to you for damages, costs and expenses, including legal fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-
----
-
-1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a defect in this electronic work within 90 days of receiving it, you can receive a refund of the money (if any) you paid for it by sending a written explanation to the person you received the work from. If you received the work on a physical medium, you must return the medium with your written explanation. The person or entity that provided you with the defective work may elect to provide a replacement copy in lieu of a refund. If you received the work electronically, the person or entity providing it to you may choose to give you a second opportunity to receive the work electronically in lieu of a refund. If the second copy is also defective, you may demand a refund in writing without further opportunities to fix the problem.
-
-1.F.4. Except for the limited right of replacement or refund set forth in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
-
-1.F.5. Some states do not allow disclaimers of certain implied warranties or the exclusion or limitation of certain types of damages. If any disclaimer or limitation set forth in this agreement violates the law of the state applicable to this agreement, the agreement shall be interpreted to make the maximum disclaimer or limitation permitted by the applicable state law. The invalidity or unenforceability of any provision of this agreement shall not void the remaining provisions.
-
-1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg™ electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg™ electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg work, (b) alteration, modification, or additions or deletions to any Project Gutenberg work, and (c) any Defect you cause.
-
-## Section 2. Information about the Mission of Project Gutenberg
-
-Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life.
-
-Volunteers and financial support to provide volunteers with the assistance they need are critical to reaching Project Gutenberg's goals and ensuring that the Project Gutenberg collection will remain freely available for generations to come. In 2001, the Project Gutenberg Literary Archive Foundation was created to provide a secure and permanent future for Project Gutenberg and future generations. To learn more about the Project Gutenberg Literary Archive Foundation and how your efforts and donations can help, see Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
-
-## Section 3. Information about the Project Gutenberg Literary Archive Foundation
-
-The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service. The Foundation's EIN or federal tax identification number is 64-6221541. Contributions to the Project Gutenberg Literary Archive Foundation are tax deductible to the full extent permitted by U.S. federal laws and your state's laws.
-
-The Foundation's business office is located at 41 Watchung Plaza #516, Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up to date contact information can be found at the Foundation's website and official page at www.gutenberg.org/contact
-
-## Section 4. Information about Donations to the Project Gutenberg Literary Archive Foundation
-
-Project Gutenberg™ depends upon and cannot survive without widespread public support and donations to carry out its mission of increasing the number of public domain and licensed works that can be freely distributed in machine-readable form accessible by the widest array of equipment including outdated equipment. Many small donations ($1 to $5,000) are particularly important to maintaining tax exempt status with the IRS.
-
-The Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States. Compliance requirements are not uniform and it takes a considerable effort, much paperwork and many fees to meet and keep up with these requirements. We do not solicit donations in locations where we have not received written confirmation of compliance. To SEND DONATIONS or determine the status of compliance for any particular state visit www.gutenberg.org/donate.
-
-While we cannot and do not solicit contributions from states where we have not met the solicitation requirements, we know of no prohibition against accepting unsolicited donations from donors in such states who approach us with offers to donate.
-
----
-
-International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States. U.S. laws alone swamp our small staff.
-
-Please check the Project Gutenberg web pages for current donation methods and addresses. Donations are accepted in a number of other ways including checks, online payments and credit card donations. To donate, please visit: www.gutenberg.org/donate.
-
-## Section 5. General Information About Project Gutenberg electronic works
-
-Professor Michael S. Hart was the originator of the Project Gutenberg concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg eBooks with only a loose network of volunteer support.
-
-Project Gutenberg eBooks are often created from several printed editions, all of which are confirmed as not protected by copyright in the U.S. unless a copyright notice is included. Thus, we do not necessarily keep eBooks in compliance with any particular paper edition.
-
-Most people start at our website which has the main PG search facility: www.gutenberg.org.
-
-This website includes information about Project Gutenberg, including how to make donations to the Project Gutenberg Literary Archive Foundation, how to help produce our new eBooks, and how to subscribe to our email newsletter to hear about new eBooks.
+So hath it fallen here. [Exeunt.]

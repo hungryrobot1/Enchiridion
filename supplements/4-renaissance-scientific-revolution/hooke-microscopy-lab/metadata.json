@@ -2,8 +2,11 @@
   "title": "Microscopy Lab",
   "type": "lab-manual",
   "era": "renaissance-scientific-revolution",
-  "texts": ["hooke-micrographia"],
+  "texts": [
+    "hooke-micrographia"
+  ],
   "description": "Simple microscope observations following Hooke — examining everyday materials at magnification, drawing what you see, and understanding the discovery of cells",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

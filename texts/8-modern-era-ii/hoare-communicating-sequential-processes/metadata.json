@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "hoare-an-axiomatic-basis-for-computer-programming"
-  ]
+  ],
+  "ocr_status": "pending"
 }

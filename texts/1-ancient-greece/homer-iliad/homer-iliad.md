@@ -1,115 +1,8 @@
-# The Iliad
-
-by
-
-# Homer
-
----
-
-# The Iliad
-
-by
-
-# Homer
-
-The cover image was created by the transcriber and is placed in the public domain.
-
-https://www.pgdp.net
-
----
-
-2
-
----
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-Title: The Iliad
-
-Author: Homer
-
-Translator: Samuel Butler
-
-Release date: June 1, 2000 [eBook #2199]
-
-Most recently updated: August 16, 2022
-
-Language: English
-
-Other information and formats: www.gutenberg.org/ebooks/2199
-
-Credits: Jim Tinsley
-
-Revised by Richard Tonsing.
-
-*** START OF THE PROJECT GUTENBERG EBOOK THE ILIAD ***
-
----
-
-There are several editions of this ebook in the Project Gutenberg collection. Various characteristics of each ebook are listed to aid in selecting the preferred file.
-
-Click on any of the file numbers below to quickly view each ebook.
-
-22382 (With 800 linked footnotes, No illustrations)
-
-16452 (In blank verse, Many footnotes.)
-
-2199 (No footnotes or illustrations)
-
-6130 (Many line drawings, and 300 footnotes)
-
-3059
-
-6150
-
-# THE ILIAD OF HOMER
-
-Rendered into English Prose for
-
-the use of those who cannot
-
-read the original
-
-
-
----
-
-
-
----
-
-# Contents
-
-BOOK I.
-BOOK II.
-BOOK III.
-BOOK IV.
-BOOK V.
-BOOK VI.
-BOOK VII
-BOOK VIII.
-BOOK IX.
-BOOK X.
-BOOK XI.
-BOOK XII.
-BOOK XIII.
-BOOK XIV.
-BOOK XV.
-BOOK XVI.
-BOOK XVII.
-BOOK XVIII.
-BOOK XIX.
-BOOK XX.
-BOOK XXI.
-BOOK XXII.
-BOOK XXIII.
-BOOK XXIV.
-
----
+# THE ILIAD
 
 # BOOK I.
 
-The quarrel between Agamemnon and Achilles—Achilles withdraws from the war, and sends his mother Thetis to ask Jove to help the Trojans—Scene between Jove and Juno on Olympus.
+*The quarrel between Agamemnon and Achilles—Achilles withdraws from the war, and sends his mother Thetis to ask Jove to help the Trojans—Scene between Jove and Juno on Olympus.*
 
 Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for so were the counsels of Jove fulfilled from the day on which the son of Atreus, king of men, and great Achilles, first fell out with one another.
 
@@ -155,10 +48,6 @@ And Minerva said, “I come from heaven, if you will hear me, to bid you stay yo
 
 He stayed his hand on the silver hilt of his sword, and thrust it back into the scabbard as Minerva bade him. Then she went back to Olympus among the other gods, and to the house of aegis-bearing Jove.
 
-
-
----
-
 But the son of Peleus again began railing at the son of Atreus, for he was still in a rage. "Wine-bibber," he cried, "with the face of a dog and the heart of a hind, you never dare to go out with the host in fight, nor yet with our chosen men in ambuscade. You shun this as you do death itself. You had rather go round and rob his prizes from any man who contradicts you. You devour your people, for you are king over a feeble folk; otherwise, son of Atreus, henceforward you would insult no man. Therefore I say, and swear it with a great oath—nay, by this my sceptre which shalt sprout neither leaf nor shoot, nor bud anew from the day on which it left its parent stem upon the mountains—for the axe stripped it of leaf and bark, and now the sons of the Achaeans bear it as judges and guardians of the decrees of heaven—so surely and solemnly do I swear that hereafter they shall look fondly for Achilles and shall not find him. In the day of your distress, when your men fall dying by the murderous hand of Hector, you shall not know how to help them, and shall rend your heart with rage for the hour when you offered insult to the bravest of the Achaeans."
 
 With this the son of Peleus dashed his gold-bestudded sceptre on the ground and took his seat, while the son of Atreus was beginning fiercely from his place upon the other side. Then uprose smooth-tongued Nestor, the facile speaker of the Pylians, and the words fell from his lips sweeter than honey. Two generations of men born and bred in Pylos had passed away under his rule, and he was now reigning over the third. With all sincerity and goodwill, therefore, he addressed them thus:
@@ -179,10 +68,6 @@ He charged them straightly further and dismissed them, whereon they went their w
 
 Patroclus did as his dear comrade had bidden him. He brought Briseis from the tent and gave her over to the heralds, who took her with them to the ships of the Achaeans—and the woman was loth to go. Then Achilles went all alone by the side of
 
-
-
----
-
 the hoar sea, weeping and looking out upon the boundless waste of waters. He raised his hands in prayer to his immortal mother, "Mother," he cried, "you bore me doomed to live but for a little season; surely Jove, who thunders from Olympus, might have made that little glorious. It is not so. Agamemnon, son of Atreus, has done me dishonour, and has robbed me of my prize by force."
 
 As he spoke he wept aloud, and his mother heard him where she was sitting in the depths of the sea hard by the old man her father. Forthwith she rose as it were a grey mist out of the waves, sat down before him as he stood weeping, caressed him with her hand, and said, "My son, why are you weeping? What is it that grieves you? Keep it not from me, but tell me, that we may know it together."
@@ -200,10 +85,6 @@ On this she left him, still furious at the loss of her that had been taken from 
 So saying he gave the girl over to her father, who received her gladly, and they ranged the holy hecatomb all orderly round the altar of the god. They washed their hands and took up the barley-meal to sprinkle over the victims, while Chryses lifted up his hands and prayed aloud on their behalf. "Hear me," he cried, "O god of the silver bow, that protectest Chryse and holy Cilla, and rulest Tenedos with thy might. Even as thou didst hear me aforetime when I prayed, and didst press hardly upon the Achaeans, so hear me yet again, and stay this fearful pestilence from the Danaans."
 
 Thus did he pray, and Apollo heard his prayer. When they had done praying and sprinkling the barley-meal, they drew back the heads of the victims and killed and flayed them. They cut out the thigh-bones, wrapped them round in two layers of fat, set some pieces of raw meat on the top of them, and then Chryses laid them on the wood fire and poured wine over them, while the young men stood near him with five-pronged spits in their hands. When the thigh-bones were burned and they had tasted the inward meats, they cut the rest up small, put the pieces upon the spits, roasted them till they were done, and drew them off: then, when they had finished their work and the feast was ready, they ate it, and every man had his full share, so that all were satisfied. As soon as they had had enough to eat and drink, pages filled the mixing-bowl with wine and water and handed it round, after giving every man his drink-offering.
-
-
-
----
 
 Thus all day long the young men worshipped the god with song, hymning him and chaunting the joyous paean, and the god took pleasure in their voices; but when the sun went down, and it came on dark, they laid themselves down to sleep by the stern cables of the ship, and when the child of morning, rosy-fingered Dawn, appeared they again set sail for the host of the Achaeans. Apollo sent them a fair wind, so they raised their mast and hoisted their white sails aloft. As the sail bellied with the wind the ship flew through the deep blue water, and the foam hissed against her bows as she sped onward. When they reached the wide-stretching host of the Achaeans, they drew the vessel ashore, high and dry upon the sands, set her strong props beneath her, and went their ways to their own tents and ships.
 
@@ -231,19 +112,13 @@ On this Juno was frightened, so she curbed her stubborn will and sat down in sil
 
 As he spoke, he took a double cup of nectar, and placed it in his mother's hand. "Cheer up, my dear mother," said he, "and make the best of it. I love you dearly, and should be very sorry to see you get a thrashing; however grieved I might be, I could not help, for there is no standing against Jove. Once before when I was trying to help you, he caught me by the foot and flung me from the heavenly threshold. All day long from morn till eve, was I falling, till at sunset I came to ground in the island of Lemnos, and there I lay, with very little life left in me, till the Sintians came and tended me."
 
-
-
----
-
 Juno smiled at this, and as she smiled she took the cup from her son's hands. Then Vulcan drew sweet nectar from the mixing-bowl, and served it round among the gods, going from left to right; and the blessed gods laughed out a loud applause as they saw him bustling about the heavenly mansion.
 
 Thus through the livelong day to the going down of the sun they feasted, and every one had his full share, so that all were satisfied. Apollo struck his lyre, and the Muses lifted up their sweet voices, calling and answering one another. But when the sun's glorious light had faded, they went home to bed, each in his own abode, which lame Vulcan with his consummate skill had fashioned for them. So Jove, the Olympian Lord of Thunder, hied him to the bed in which he always slept; and when he had got on to it he went to sleep, with Juno of the golden throne by his side.
 
+# BOOK II.
 
-
----
-
-Jove sends a lying dream to Agamemnon, who thereon calls the chiefs in assembly, and proposes to sound the mind of his army—In the end they march to fight—Catalogue of the Achaean and Trojan forces.
+*Jove sends a lying dream to Agamemnon, who thereon calls the chiefs in assembly, and proposes to sound the mind of his army—In the end they march to fight—Catalogue of the Achaean and Trojan forces.*
 
 Now the other gods and the armed warriors on the plain slept soundly, but Jove was wakeful, for he was thinking how to do honour to Achilles, and destroyed much people at the ships of the Achaeans. In the end he deemed it would be best to send a lying dream to King Agamemnon; so he called one to him and said to it, “Lying Dream, go to the ships of the Achaeans, into the tent of Agamemnon, and say to him word for word as I now bid you. Tell him to get the Achaeans instantly under arms, for he shall take Troy. There are no longer divided counsels among the gods; Juno has brought them to her own mind, and woe betides the Trojans.”
 
@@ -260,10 +135,6 @@ The goddess Dawn now wended her way to vast Olympus that she might herald day to
 He then sat down, and Nestor the prince of Pylos with all sincerity and goodwill addressed them thus: “My friends,” said he, “princes and councillors of the Argives, if any other man of the Achaeans had told us of this dream we should have declared it false, and would have had nothing to do with it. But he who has seen it is the foremost man among us; we must therefore set about getting the people under arms.”
 
 With this he led the way from the assembly, and the other sceptred kings rose with him in obedience to the word of Agamemnon; but the people pressed forward to hear. They swarmed like bees that sally from some hollow cave and flit in countless throng among the spring flowers, bunched in knots and clusters; even so did the mighty multitude pour from ships and tents to the assembly, and range themselves upon the wide-watered shore, while among them ran Wildfire Rumour, messenger of Jove, urging them ever to the fore. Thus they gathered in a pell-mell of mad confusion, and the earth groaned under the tramp of men as the people sought their places. Nine heralds went crying about among them to stay their tumult and bid them listen to the kings, till at last they were got into their several places and ceased their clamour. Then King Agamemnon rose, holding his sceptre. This was the work of Vulcan, who gave it to Jove the son of Saturn. Jove gave it to Mercury, slayer
-
-13
-
----
 
 of Argus, guide and guardian. King Mercury gave it to Pelops, the mighty charioteer, and Pelops to Atreus, shepherd of his people. Atreus, when he died, left it to Thyestes, rich in flocks, and Thyestes in his turn left it to be borne by Agamemnon, that he might be lord of all Argos and of the isles. Leaning, then, on his sceptre, he addressed the Argives.
 
@@ -287,10 +158,6 @@ The rest now took their seats and kept to their own several places, but Thersite
 
 “Agamemnon,” he cried, “what ails you now, and what more do you want? Your tents are filled with bronze and with fair women, for whenever we take a town we give you the pick of them. Would you have yet more gold, which some Trojan is to give you as a ransom for his son, when I or another Achaean has taken him prisoner? or is it some young girl to hide and lie with? It is not well that you, the ruler of the Achaeans, should bring them into such misery. Weakling cowards, women rather
 
-
-
----
-
 than men, let us sail home, and leave this fellow here at Troy to stew in his own meeds of honour, and discover whether we were of any service to him or no. Achilles is a much better man than he is, and see how he has treated him—robbing him of his prize and keeping it himself. Achilles takes it meekly and shows no fight; if he did, son of Atreus, you would never again insult him.”
 
 Thus railed Thersites, but Ulysses at once went up to him and rebuked him sternly. “Check your glib tongue, Thersites,” said he, “and babble not a word further. Chide not with princes when you have none to back you. There is no viler creature come before Troy with the sons of Atreus. Drop this chatter about kings, and neither revile them nor keep harping about going home. We do not yet know how things are going to be, nor whether the Achaeans are to return with good success or evil. How dare you gibe at Agamemnon because the Danaans have awarded him so many prizes? I tell you, therefore—and it shall surely be—that if I again catch you talking such nonsense, I will either forfeit my own head and be no more called father of Telemachus, or I will take you, strip you stark naked, and whip you out of the assembly till you go blubbering back to the ships.”
@@ -304,10 +171,6 @@ Thus said the people. Then Ulysses rose, sceptre in hand, and Minerva in the lik
 “All who have not since perished must remember as though it were yesterday or the day before, how the ships of the Achaeans were detained in Aulis when we were on our way hither to make war on Priam and the Trojans. We were ranged round about a fountain offering hecatombs to the gods upon their holy altars, and there was a fine plane-tree from beneath which there welled a stream of pure water. Then we saw a prodigy; for Jove sent a fearful serpent out of the ground, with blood-red stains upon its back, and it darted from under the altar on to the plane-tree. Now there was a brood of young sparrows, quite small, upon the topmost bough, peeping out from under the leaves, eight in all, and their mother that hatched them made nine. The serpent ate the poor cheeping things, while the old bird flew about lamenting her little ones; but the serpent threw his coils about her and caught her by the wing as she was screaming. Then, when he had eaten both the sparrow and her young, the god who had sent him made him become a sign; for the son of scheming Saturn turned him into stone, and we stood there wondering at that which had come to pass. Seeing, then, that such a fearful portent had broken in upon our hecatombs, Calchas forthwith declared to us the oracles of heaven. ‘Why, Achaeans,’ said he, ‘are you thus speechless? Jove has sent us this sign, long in coming, and long ere it be fulfilled, though its fame shall last for ever. As the serpent ate the eight fledglings and the sparrow that hatched them, which makes nine, so shall we fight nine years at Troy, but in the tenth shall take the town.’ This was what he said, and now it is all coming true. Stay here, therefore, all of you, till we take the city of Priam.”
 
 On this the Argives raised a shout, till the ships rang again with the uproar. Nestor, knight of Gerene, then addressed them. “Shame on you,” he cried, “to stay talking here like children, when you should fight like men. Where are our covenants now, and where the oaths that we have taken? Shall our counsels be flung into the fire, with our drink-offerings and the right hands of fellowship wherein we have put our trust? We waste our time in words, and for all our talking here shall be no further forward. Stand, therefore, son of Atreus, by your own steadfast purpose; lead the Argives on to battle, and leave this handful of men to rot, who scheme, and scheme in vain, to get back to Argos ere they have learned whether Jove be true or a liar. For the mighty son of Saturn surely promised that we should succeed, when we Argives set sail to bring death and destruction upon the Trojans. He showed us favourable signs by flashing his lightning on our right hands; therefore let none make haste to go till he has first lain with the wife of some Trojan, and avenged the toil and sorrow that he has suffered for the sake of Helen. Nevertheless, if any man is in such haste to be at home again, let him lay his hand to his ship that he may meet his doom in the sight of all. But, O king, consider and give ear to my counsel, for the word that I say may not be neglected lightly. Divide your men, Agamemnon, into their several tribes and clans, that clans and tribes may stand by and help one another. If you do this, and if the Achaeans obey you, you will find out who, both chiefs and peoples, are brave, and who are cowards; for they will vie against the other. Thus you shall also learn whether it is through the counsel of heaven or the cowardice of man that you shall fail to take the town.”
-
-
-
----
 
 And Agamemnon answered, "Nestor, you have again outdone the sons of the Achaeans in counsel. Would, by Father Jove, Minerva, and Apollo, that I had among them ten more such councillors, for the city of King Priam would then soon fall beneath our hands, and we should sack it. But the son of Saturn afflicts me with bootless wranglings and strife. Achilles and I are quarrelling about this girl, in which matter I was the first to offend; if we can be of one mind again, the Trojans will not stave off destruction for a day. Now, therefore, get your morning meal, that our hosts join in fight. What well your spears; see well to the ordering of your shields; give good feeds to your horses, and look your chariots carefully over, that we may do battle the livelong day; for we shall have no rest, not for a moment, till night falls to part us. The bands that bear your shields shall be wet with the sweat upon your shoulders, your hands shall weary upon your spears, your horses shall steam in front of your chariots, and if I see any man shirking the fight, or trying to keep out of it at the ships, there shall be no help for him, but he shall be a prey to dogs and vultures."
 
@@ -326,10 +189,6 @@ The chiefs disposed their men this way and that before the fight began, drafting
 And now, O Muses, dwellers in the mansions of Olympus, tell me—for you are goddesses and are in all places so that you see all things, while we know nothing but by report—who were the chiefs and princes of the Danaans? As for the common soldiers, they were so that I could not name every single one of them though I had ten tongues, and though my voice failed not and my heart were of bronze within me, unless you, O Olympian Muses, daughters of aegis-bearing Jove, were to recount them to me. Nevertheless, I will tell the captains of the ships and all the fleet together.
 
 Peneleos, Leitus, Arcesilaus, Prothoenor, and Clonius were captains of the Boeotians. These were they that dwelt in Hyria and rocky Aulis, and who held Schoenus, Scolus, and the highlands of Eteonus, with Thespeia, Graia, and the fair city of
-
-
-
----
 
 Mycalessus. They also held Harma, Eilesium, and Erythrae; and they had Eleon, Hyle, and Peteon; Ocalea and the strong fortress of Medeon; Copae, Eutresis, and Thisbe the haunt of doves; Coronea, and the pastures of Haliartus; Plataea and Glisas; the fortress of Thebes the less; holy Onchestus with its famous grove of Neptune; Arne rich in vineyards; Midea, sacred Nisa, and Anthedon upon the sea. From these there came fifty ships, and in each there were a hundred and twenty young men of the Boeotians.
 
@@ -356,10 +215,6 @@ The men of Pylos and Arene, and Thryum where is the ford of the river Alpheus; s
 And those that held Arcadia, under the high mountain of Cyllene, near the tomb of Aepytus, where the people fight hand to hand; the men of Pheneus also, and Orchomenus rich in flocks; of Rhipae, Stratie, and bleak Enispe; of Tegea and fair Mantinea; of Stymphelus and Parrhasia; of these King Agapenor son of Ancaeus was commander, and they had sixty ships. Many Arcadians, good soldiers, came in each one of them, but Agamemnon found them the ships in which to cross the sea, for they were not a people that occupied their business upon the waters.
 
 The men, moreover, of Buprasium and of Elis, so much of it as is enclosed between Hyrmine, Myrsinus upon the sea-shore, the rock Olene and Alesium. These had four leaders, and each of them had ten ships, with many Epeans on board. Their
-
-
-
----
 
 captains were Amphimachus and Thalpius—the one, son of Cteatus, and the other, of Eurytus—both of the race of Actor. The two others were Diores, son of Amarynceus, and Polyxenus, son of King Agasthenes, son of Augeas.
 
@@ -388,10 +243,6 @@ And those that held Methone and Thaumacia, with Meliboea and rugged Olizon, thes
 Those, again, of Tricca and the stony region of Ithome, and they that held Oechalia, the city of Oechalian Eurytus, these were commanded by the two sons of Aesculapius, skilled in the art of healing, Podalirius and Machaon. And with them there came thirty ships.
 
 The men, moreover, of Ormenius, and by the fountain of Hypereia, with those that held Asterius, and the white crests of Titanus, these were led by Eurypylus, the son of Euaemon, and with them there came forty ships.
-
-
-
----
 
 Those that held Argissa and Gyrtone, Orthe, Elone, and the white city of Oloosson, of these brave Polypoetes was leader. He was son of Pirithous, who was son of Jove himself, for Hippodameia bore him to Pirithous on the day when he took his revenge on the shaggy mountain savages and drove them from Mt. Pelion to the Aithices. But Polypoetes was not sole in command, for with him was Leonteus, of the race of Mars, who was son of Coronus, the son of Caeneus. And with these there came forty ships.
 
@@ -427,10 +278,6 @@ Acamas and the warrior Peirous commanded the Thracians and those that came from 
 
 Euphemus, son of Troezenus, the son of Ceos, was captain of the Ciconian spearsmen.
 
-
-
----
-
 Pyraechmes led the Paeonian archers from distant Amydon, by the broad waters of the river Axius, the fairest that flow upon the earth.
 
 The Paphlagonians were commanded by stout-hearted Pylaemanes from Enetae, where the mules run wild in herds. These were they that held Cytorus and the country round Sesamus, with the cities by the river Parthenius, Cromna, Aegialus, and lofty Erithini.
@@ -447,13 +294,9 @@ Nastes led the Carians, men of a strange speech. These held Miletus and the wood
 
 Sarpedon and Glaucus led the Lycians from their distant land, by the eddying waters of the Xanthus.
 
-
-
----
-
 # BOOK III.
 
-Alexandria, also called Paris, challenges Menelaus—Helen and Priam view the Achaeans from the wall—The covenant—Paris and Menelaus fight, and Paris is worsted—Venus carries him off to save him—Scene between him and Helen.
+*Alexandria, also called Paris, challenges Menelaus—Helen and Priam view the Achaeans from the wall—The covenant—Paris and Menelaus fight, and Paris is worsted—Venus carries him off to save him—Scene between him and Helen.*
 
 When the companies were thus arrayed, each under its own captain, the Trojans advanced as a flight of wild-fowl or cranes that scream overhead when rain and winter drive them over the flowing waters of Oceanus to bring death and destruction on the Pygmies, and they wrangle in the air as they fly; but the Achaeans marched silently, in high heart, and minded to stand by one another.
 
@@ -472,10 +315,6 @@ When Hector heard this he was glad, and went about among the Trojan ranks holdin
 They ceased taking aim and were still, whereon Hector spoke. “Hear from my mouth,” said he, “Trojans and Achaeans, the saying of Alexandrus, through whom this quarrel has come about. He bids the Trojans and Achaeans lay their armour upon the ground, while he and Menelaus fight in the midst of you for Helen and all her wealth. Let him who shall be victorious and prove to be the better man take the woman and all she has, to bear them to his own home, but let the rest swear to a solemn covenant of peace.”
 
 Thus he spoke, and they all held their peace, till Menelaus of the loud battle-cry addressed them. “And now,” he said, “hear me too, for it is I who am the most aggrieved. I deem that the parting of Achaeans and Trojans is at hand, as well it may be, seeing how much have suffered for my quarrel with Alexandrus and the wrong he did me. Let him who shall die, die, and let the others fight no more. Bring, then, two lambs, a white ram and a black ewe, for Earth and Sun, and we will bring a third for
-
-
-
----
 
 Jove. Moreover, you shall bid Priam come, that he may swear to the covenant himself; for his sons are high-handed and ill to trust, and the oaths of Jove must not be transgressed or taken in vain. Young men’s minds are light as air, but when an old man comes he looks before and after, deeming that which shall be fairest upon both sides.”
 
@@ -503,10 +342,6 @@ Priam then caught sight of Ajax and asked, “Who is that great and goodly warri
 
 “That,” answered Helen, “is huge Ajax, bulwark of the Achaeans, and on the other side of him, among the Cretans, stands Idomeneus looking like a god, and with the captains of the Cretans round him. Often did Menelaus receive him as a guest in our house when he came visiting us from Crete. I see, moreover, many other Achaeans whose names I could tell you, but there
 
-
-
----
-
 are two whom I can nowhere find, Castor, breaker of horses, and Pollux the mighty boxer; they are children of my mother, and own brothers to myself. Either they have not left Lacedaemon, or else, though they have brought their ships, they will not show themselves in battle for the shame and disgrace that I have brought upon them.”
 
 She knew not that both these heroes were already lying under the earth in their own land of Lacedaemon.
@@ -529,10 +364,6 @@ When they had thus armed, each amid his own people, they strode fierce of aspect
 
 He poised his spear as he spoke, and hurled it at the shield of Alexandrus. Through shield and cuirass it went, and tore the shirt by his flank, but Alexandrus swerved aside, and thus saved his life. Then the son of Atreus drew his sword, and drove at the projecting part of his helmet, but the sword fell shivered in three or four pieces from his hand, and he cried, looking towards Heaven, “Father Jove, of all gods thou art the most despiteful; I made sure of my revenge, but the sword has broken in my hand, my spear has been hurled in vain, and I have not killed him.”
 
-
-
----
-
 With this he flew at Alexandrus, caught him by the horse-hair plume of his helmet, and began dragging him towards the Achaeans. The strap of the helmet that went under his chin was choking him, and Menelaus would have dragged him off to his own great glory had not Jove's daughter Venus been quick to mark and to break the strap of ox-hide, so that the empty helmet came away in his hand. This he flung to his comrades among the Achaeans, and was again springing upon Alexandrus to run him through with a spear, but Venus snatched him up in a moment (as a god can do), hid him under a cloud of darkness, and conveyed him to his own bedchamber.
 
 Then she went to call Helen, and found her on a high tower with the Trojan women crowding round her. She took the form of an old woman who used to dress wool for her when she was still in Lacedaemon, and of whom she was very fond. Thus disguised she plucked her by perfumed robe and said, "Come hither; Alexandrus says you are to go to the house; he is on his bed in his own room, radiant with beauty and dressed in gorgeous apparel. No one would think he had just come from fighting, but rather that he was going to a dance, or had done dancing and was sitting down."
@@ -553,13 +384,9 @@ Thus they laid themselves on the bed together; but the son of Atreus strode amon
 
 Thus spoke the son of Atreus, and the Achaeans shouted in applause.
 
-
-
----
-
 # BOOK IV.
 
-A quarrel in Olympus—Minerva goes down and persuades Pandarus to violate the oaths by wounding Menelaus with an arrow—Agamemnon makes a speech and sends for Machaon—He then goes about among his captains and upbraids Ulysses and Sthenelus, who each of them retort fiercely—Diomed checks Sthenelus, and the two hosts then engage, with great slaughter on either side.
+*A quarrel in Olympus—Minerva goes down and persuades Pandarus to violate the oaths by wounding Menelaus with an arrow—Agamemnon makes a speech and sends for Machaon—He then goes about among his captains and upbraids Ulysses and Sthenelus, who each of them retort fiercely—Diomed checks Sthenelus, and the two hosts then engage, with great slaughter on either side.*
 
 Now the gods were sitting with Jove in council upon the golden floor while Hebe went round pouring out nectar for them to drink, and as they pledged one another in their cups of gold they looked down upon the town of Troy. The son of Saturn then began to tease Juno, talking at her so as to provoke her. “Menelaus,” said he, “has two good friends among the goddesses, Juno of Argos, and Minerva of Alalcomene, but they only sit still and look on, while Venus keeps ever by Alexandrus’ side to defend him in any danger; indeed she has just rescued him when he made sure that it was all over with him—for the victory really did lie with Menelaus. We must consider what we shall do about all this; shall we set them fighting anew or make peace between them? If you will agree to this last Menelaus can take back Helen and the city of Priam may remain still inhabited.”
 
@@ -576,10 +403,6 @@ This was what Minerva was already eager to do, so down she darted from the topmo
 Thus did they converse. Then Minerva took the form of Laodocus, son of Antenor, and went through the ranks of the Trojans to find Pandarus, the redoubtable son of Lycaon. She found him standing among the stalwart heroes who had followed him from the banks of the Aesopus, so she went close up to him and said, “Brave son of Lycaon, will you do as I tell you? If you dare send an arrow at Menelaus you will win honour and thanks from all the Trojans, and especially from prince Alexandrus—he would be the first to requite you very handsomely if he could see Menelaus mount his funeral pyre, slain by an arrow from your hand. Take your home aim then, and pray to Lycian Apollo, the famous archer; vow that when you get home to your strong city of Zelea you will offer a hecatomb of firstling lambs in his honour.”
 
 His fool’s heart was persuaded, and he took his bow from its case. This bow was made from the horns of a wild ibex which he had killed as it was bounding from a rock; he had stalked it, and it had fallen as the arrow struck it to the heart. Its horns were sixteen palms long, and a worker in horn had made them into a bow, smoothing them well down, and giving them tips of gold. When Pandarus had strung his bow he laid it carefully on the ground, and his brave followers held their shields before
-
-
-
----
 
 him lest the Achaeans should set upon him before he had shot Menelaus. Then he opened the lid of his quiver and took out a winged arrow that had not yet been shot, fraught with the pangs of death. He laid the arrow on the string and prayed to Lycian Apollo, the famous archer, vowing that when he got home to his strong city of Zelea he would offer a hecatomb of firstling lambs in his honour. He laid the notch of the arrow on the ox-hide bowstring, and drew both notch and string to his breast till the arrow-head was near the bow; then when the bow was arched into a half-circle he let fly, and the bow twanged, and the string sang as the arrow flew gladly on over the heads of the throng.
 
@@ -603,10 +426,6 @@ While they were thus busy about Menelaus, the Trojans came forward against them,
 
 You would not have then found Agamemnon asleep nor cowardly and unwilling to fight, but eager rather for the fray. He left his chariot rich with bronze and his panting steeds in charge of Eurymedon, son of Ptolemaeus the son of Peiraeus, and bade him hold them in readiness against the time his limbs should weary of going about and giving orders to so many, for he went among the ranks on foot. When he saw men hasting to the front he stood by them and cheered them on. "Argives," said he, "slacken not one whit in your onset; father Jove will be no helper of liars; the Trojans have been the first to break their
 
-
-
----
-
 oaths and to attack us; therefore they shall be devoured of vultures; we shall take their city and carry off their wives and children in our ships."
 
 But he angrily rebuked those whom he saw shirking and disinclined to fight. "Argives," he cried, "cowardly miserable creatures, have you no shame to stand here like frightened fawns who, when they can no longer scud over the plain, huddle together, but show no fight? You are as dazed and spiritless as deer. Would you wait till the Trojans reach the sterns of our ships as they lie on the shore, to see whether the son of Saturn will hold his hand over you to protect you?"
@@ -629,10 +448,6 @@ Ulysses glared at him and answered, "Son of Atreus, what are you talking about? 
 
 When Agamemnon saw that Ulysses was angry, he smiled pleasantly at him and withdrew his words. "Ulysses," said he, "noble son of Laertes, excellent in all good counsel, I have neither fault to find nor orders to give you, for I know your heart is right, and that you and I are of a mind. Enough; I will make you amends for what I have said, and if any ill has now been spoken may the gods bring it to nothing."
 
-
-
----
-
 He then left them and went on to others. Presently he saw the son of Tydeus, noble Diomed, standing by his chariot and horses, with Sthenelus the son of Capaneus beside him; whereon he began to upbraid him. "Son of Tydeus," he said, "why stand you cowering here upon the brink of battle? Tydeus did not shrink thus, but was ever ahead of his men when leading them on against the foe—so, at least, say they that saw him in battle, for I never set eyes upon him myself. They say that there was no man like him. He came once to Mycenae, not as an enemy but as a guest, in company with Polynices to recruit his forces, for they were levying war against the strong city of Thebes, and prayed our people for a body of picked men to help them. The men of Mycenae were willing to let them have one, but Jove dissuaded them by showing them unfavourable omens. Tydeus, therefore, and Polynices went their way. When they had got as far the deep-meadowed and rush-grown banks of the Aesopus, the Achaeans sent Tydeus as their envoy, and he found the Cadmeans gathered in great numbers to a banquet in the house of Eteocles. Stranger though he was, he knew no fear on finding himself single-handed among so many, but challenged them to contests of all kinds, and in each one of them was at once victorious, so mightily did Minerva help him. The Cadmeans were incensed at his success, and set a force of fifty youths with two captains—the godlike hero Maeon, son of Haemon, and Polyphontes, son of Autophonus—at their head, to lie in wait for him on his return journey; but Tydeus slew every man of them, save only Maeon, whom he let go in obedience to heaven's omens. Such was Tydeus of Aetolia. His son can talk more glibly, but he cannot fight as his father did."
 
 Diomed made no answer, for he was shamed by the rebuke of Agamemnon; but the son of Capaneus took up his words and said, "Son of Atreus, tell no lies, for you can speak truth if you will. We boast ourselves as even better men than our fathers; we took seven-gated Thebes, though the wall was stronger and our men were fewer in number, for we trusted in the omens of the gods and in the help of Jove, whereas they perished through their own sheer folly; hold not, then, our fathers in like honour with us."
@@ -649,10 +464,6 @@ First Antilochus slew an armed warrior of the Trojans, Echepolus, son of Thalysi
 
 Forthwith Ajax, son of Telamon, slew the fair youth Simoeisius, son of Anthemion, whom his mother bore by the banks of the Simois, as she was coming down from Mt. Ida, where she had been with her parents to see their flocks. Therefore he was named Simoeisius, but he did not live to pay his parents for his rearing, for he was cut off untimely by the spear of mighty Ajax, who struck him in the breast by the right nipple as he was coming on among the foremost fighters; the spear went right through his shoulder, and he fell as a poplar that has grown straight and tall in a meadow by some mere, and its top is thick with branches. Then the wheelwright lays his axe to its roots that he may fashion a felloe for the wheel of some goodly chariot, and it lies seasoning by the waterside. In such wise did Ajax fell to earth Simoeisius, son of Anthemion. Thereon Antiphus of
 
-
-
----
-
 the gleaming corslet, son of Priam, hurled a spear at Ajax from amid the crowd and missed him, but he hit Leucus, the brave comrade of Ulysses, in the groin, as he was dragging the body of Simoeisius over to the other side; so he fell upon the body and loosed his hold upon it. Ulysses was furious when he saw Leucus slain, and strode in full armour through the front ranks till he was quite close; then he glared round about him and took aim, and the Trojans fell back as he did so. His dart was not sped in vain, for it struck Democoon, the bastard son of Priam, who had come to him from Abydos, where he had charge of his father's mares. Ulysses, infuriated by the death of his comrade, hit him with his spear on one temple, and the bronze point came through on the other side of his forehead. Thereon darkness veiled his eyes, and his armour rang rattling round him as he fell heavily to the ground. Hector, and they that were in front, then gave round while the Argives raised a shout and drew off the dead, pressing further forward as they did so. But Apollo looked down from Pergamus and called aloud to the Trojans, for he was displeased. "Trojans," he cried, "rush on the foe, and do not let yourselves be thus beaten by the Argives. Their skins are not stone nor iron that when you hit them you do them no harm. Moreover, Achilles, the son of lovely Thetis, is not fighting, but is nursing his anger at the ships."
 
 Thus spoke the mighty god, crying to them from the city, while Jove's redoubtable daughter, the Trito-born, went about among the host of the Achaeans, and urged them forward whenever she beheld them slackening.
@@ -661,13 +472,9 @@ Then fate fell upon Diores, son of Amarynceus, for he was struck by a jagged sto
 
 And now no man would have made light of the fighting if he could have gone about among it scatheless and unwounded, with Minerva leading him by the hand, and protecting him from the storm of spears and arrows. For many Trojans and Achaeans on that day lay stretched side by side face downwards upon the earth.
 
-
-
----
-
 # BOOK V.
 
-The exploits of Diomed, who, though wounded by Pandarus, continues fighting—He kills Pandarus and wounds AEneas—Venus rescues AEneas, but being wounded by Diomed, commits him to the care of Apollo and goes to Olympus, where she is tended by her mother Dione—Mars encourages the Trojans, and AEneas returns to the fight cured of his wound—Minerva and Juno help the Achaeans, and by the advice of the former Diomed wounds Mars, who returns to Olympus to get cured.
+*The exploits of Diomed, who, though wounded by Pandarus, continues fighting—He kills Pandarus and wounds AEneas—Venus rescues AEneas, but being wounded by Diomed, commits him to the care of Apollo and goes to Olympus, where she is tended by her mother Dione—Mars encourages the Trojans, and AEneas returns to the fight cured of his wound—Minerva and Juno help the Achaeans, and by the advice of the former Diomed wounds Mars, who returns to Olympus to get cured.*
 
 Then Pallas Minerva put valour into the heart of Diomed, son of Tydeus, that he might excel all the other Argives, and cover himself with glory. She made a stream of fire flare from his shield and helmet like the star that shines most brilliantly in summer after its bath in the waters of Oceanus—even such a fire did she kindle upon his head and shoulders as she bade him speed into the thickest hurly-burly of the fight.
 
@@ -686,10 +493,6 @@ Meges, moreover, slew Pedaeus, son of Antenor, who, though he was a bastard, had
 And Eurypylus, son of Euaemon, killed Hypsenor, the son of noble Dolopion, who had been made priest of the river Scamander, and was honoured among the people as though he were a god. Eurypylus gave him chase as he was flying before him, smote him with his sword upon the arm, and lopped his strong hand from off it. The bloody hand fell to the ground, and the shades of death, with fate that no man can withstand, came over his eyes.
 
 Thus furiously did the battle rage between them. As for the son of Tydeus, you could not say whether he was more among the Achaeans or the Trojans. He rushed across the plain like a winter torrent that has burst its barrier in full flood; no dykes, no walls of fruitful vineyards can embank it when it is swollen with rain from heaven, but in a moment it comes tearing onward,
-
-
-
----
 
 and lays many a field waste that many a strong man’s hand has reclaimed—even so were the dense phalanxes of the Trojans driven in rout by the son of Tydeus, and many though they were, they dared not abide his onslaught.
 
@@ -710,10 +513,6 @@ Then he came upon two sons of Priam, Echemmon and Chromius, as they were both in
 When Aeneas saw him thus making havoc among the ranks, he went through the fight amid the rain of spears to see if he could find Pandarus. When he had found the brave son of Lycaon he said, “Pandarus, where is now your bow, your winged arrows, and your renown as an archer, in respect of which no man here can rival you nor is there any in Lycia that can beat you? Lift then your hands to Jove and send an arrow at this fellow who is going so masterfully about, and has done such deadly work among the Trojans. He has killed many a brave man—unless indeed he is some god who is angry with the Trojans about their sacrifices, and has set his hand against them in his displeasure.”
 
 And the son of Lycaon answered, “Aeneas, I take him for none other than the son of Tydeus. I know him by his shield, the visor of his helmet, and by his horses. It is possible that he may be a god, but if he is the man I say he is, he is not making all this havoc without heaven’s help, but has some god by his side who is shrouded in a cloud of darkness, and who turned my arrow aside when it had hit him. I have taken aim at him already and hit him on the right shoulder; my arrow went through the breast-piece of his cuirass; and I made sure I should send him hurrying to the world below, but it seems that I have not killed him. There must be a god who is angry with me. Moreover I have neither horse nor chariot. In my father’s stables there are eleven excellent chariots, fresh from the builder, quite new, with cloths spread over them; and by each of them there stand a pair of horses, champing barley and rye; my old father Lycaon urged me again and again when I was at home and on the point of starting, to take chariots and horses with me that I might lead the Trojans in battle, but I would not listen to him; it would have been much better if I had done so, but I was thinking about the horses, which had been used to eat their fill, and I was afraid that in such a great gathering of men they might be ill-fed, so I left them at home and came on foot to Ilius armed only with my bow and arrows. These it seems, are of no use, for I have already hit two chieftains, the sons of Atreus and of Tydeus,
-
-
-
----
 
 and though I drew blood surely enough, I have only made them still more furious. I did ill to take my bow down from its peg on the day I led my band of Trojans to Ilius in Hector's service, and if ever I get home again to set eyes on my native place, my wife, and the greatness of my house, may some one cut my head off then and there if I do not break the bow and set it on a hot fire—such pranks as it plays me."
 
@@ -739,10 +538,6 @@ Thus, then, did she bear her dear son out of the fight. But the son of Capaneus 
 
 Now the son of Tydeus was in pursuit of the Cyprian goddess, spear in hand, for he knew her to be feeble and not one of those goddesses that can lord it among men in battle like Minerva or Enyo the waster of cities, and when at last after a long chase he caught her up, he flew at her and thrust his spear into the flesh of her delicate hand. The point tore through the
 
-
-
----
-
 ambrosial robe which the Graces had woven for her, and pierced the skin between her wrist and the palm of her hand, so that the immortal blood, or ichor, that flows in the veins of the blessed gods, came pouring from the wound; for the gods do not eat bread nor drink wine, hence they have no blood such as ours, and are immortal. Venus screamed aloud, and let her son fall, but Phoebus Apollo caught him in his arms, and hid him in a cloud of darkness, lest some Danaan should drive a spear into his breast and kill him; and Diomed shouted out as he left her, “Daughter of Jove, leave war and battle alone, can you not be contented with beguiling silly women? If you meddle with fighting you will get what will make you shudder at the very name of war.”
 
 The goddess went dazed and discomfited away, and Iris, fleet as the wind, drew her from the throng, in pain and with her fair skin all besmirched. She found fierce Mars waiting on the left of the battle, with his spear and his two fleet steeds resting on a cloud; whereon she fell on her knees before her brother and implored him to let her have his horses. “Dear brother,” she cried, “save me, and give me your horses to take me to Olympus where the gods dwell. I am badly wounded by a mortal, the son of Tydeus, who would now fight even with father Jove.”
@@ -761,10 +556,6 @@ Thus did they converse. But Diomed sprang upon Aeneas, though he knew him to be 
 
 The son of Tydeus then gave way for a little space, to avoid the anger of the god, while Apollo took Aeneas out of the crowd and set him in sacred Pergamus, where his temple stood. There, within the mighty sanctuary, Latona and Diana healed him and made him glorious to behold, while Apollo of the silver bow fashioned a wraith in the likeness of Aeneas, and armed as he was. Round this the Trojans and Achaeans hacked at the bucklers about one another’s breasts, hewing each other’s round shields and light hide-covered targets. Then Phoebus Apollo said to Mars, “Mars, Mars, bane of men, blood-stained stormer of cities, can you not go to this man, the son of Tydeus, who would now fight even with father Jove, and draw him out of the battle? He first went up to the Cyprian and wounded her in the hand near her wrist, and afterwards sprang upon me too, as though he were a god.”
 
-
-
----
-
 He then took his seat on the top of Pergamus, while murderous Mars went about among the ranks of the Trojans, cheering them on, in the likeness of fleet Acamas chief of the Thracians. "Sons of Priam," said he, "how long will you let your people be thus slaughtered by the Achaeans? Would you wait till they are at the walls of Troy? Aeneas the son of Anchises has fallen, he whom we held in as high honour as Hector himself. Help me, then, to rescue our brave comrade from the stress of the fight."
 
 With these words he put heart and soul into them all. Then Sarpedon rebuked Hector very sternly. "Hector," said he, "where is your prowess now? You used to say that though you had neither people nor allies you could hold the town alone with your brothers and brothers-in-law. I see not one of them here; they cower as hounds before a lion; it is we, your allies, who bear the brunt of the battle. I have come from afar, even from Lycia and the banks of the river Xanthus, where I have left my wife, my infant son, and much wealth to tempt whoever is needy; nevertheless, I head my Lycian soldiers and stand my ground against any who would fight me though I have nothing here for the Achaeans to plunder, while you look on, without even bidding your men stand firm in defence of their wives. See that you fall not into the hands of your foes as men caught in the meshes of a net, and they sack your fair city forthwith. Keep this before your mind night and day, and beseech the captains of your allies to hold on without flinching, and thus put away their reproaches from you."
@@ -780,10 +571,6 @@ Then Aeneas killed two champions of the Danaans, Crethon and Orsilochus. Their f
 Brave Menelaus pitied them in their fall, and made his way to the front, clad in gleaming bronze and brandishing his spear, for Mars egged him on to do so with intent that he should be killed by Aeneas; but Antilochus the son of Nestor saw him and sprang forward, fearing that the king might come to harm and thus bring all their labour to nothing; when, therefore Aeneas and Menelaus were setting their hands and spears against one another eager to do battle, Antilochus placed himself by the side of Menelaus. Aeneas, bold though he was, drew back on seeing the two heroes side by side in front of him, so they drew the bodies of Crethon and Orsilochus to the ranks of the Achaeans and committed the two poor fellows into the hands of their comrades. They then turned back and fought in the front ranks.
 
 They killed Pylaemenes peer of Mars, leader of the Paphlagonian warriors. Menelaus struck him on the collar-bone as he was standing on his chariot, while Antilochus hit his charioteer and squire Mydon, the son of Atymnius, who was turning his horses in flight. He hit him with a stone upon the elbow, and the reins, enriched with white ivory, fell from his hands into the dust. Antilochus rushed towards him and struck him on the temples with his sword, whereon he fell head first from the chariot to the ground. There he stood for a while with his head and shoulders buried deep in the dust—for he had fallen on sandy soil
-
-
-
----
 
 till his horses kicked him and laid him flat on the ground, as Antilochus lashed them and drove them off to the host of the Achaeans.
 
@@ -807,10 +594,6 @@ Meanwhile the Argives were neither driven towards their ships by Mars and Hector
 
 Now when the goddess Juno saw the Argives thus falling, she said to Minerva, "Alas, daughter of aegis-bearing Jove, unweariable, the promise we made Menelaus that he should not return till he had sacked the city of Ilius will be of no effect if
 
-
-
----
-
 we let Mars rage thus furiously. Let us go into the fray at once.”
 
 Minerva did not gainsay her. Thereon the august goddess, daughter of great Saturn, began to harness her gold-bedizened steeds. Hebe with all speed fitted on the eight-spoked wheels of bronze that were on either side of the iron axle-tree. The felloes of the wheels were of gold, imperishable, and over these there was a tire of bronze, wondrous to behold. The naves of the wheels were silver, turning round the axle upon either side. The car itself was made with plaited bands of gold and silver, and it had a double top-rail running all round it. From the body of the car there went a pole of silver, on to the end of which she bound the golden yoke, with the bands of gold that were to go under the necks of the horses. Then Juno put her steeds under the yoke, eager for battle and the war-cry.
@@ -829,10 +612,6 @@ Diomed answered, “I know you, goddess, daughter of aegis-bearing Jove, and wil
 
 With this she caught hold of Sthenelus and lifted him off the chariot on to the ground. In a second he was on the ground, whereupon the goddess mounted the car and placed herself by the side of Diomed. The oaken axle groaned aloud under the burden of the awful goddess and the hero; Pallas Minerva took the whip and reins, and drove straight at Mars. He was in the act of stripping huge Periphas, son of Ochesius and bravest of the Aetolians. Bloody Mars was stripping him of his armour, and Minerva donned the helmet of Hades, that he might not see her; when, therefore, he saw Diomed, he made straight for him and let Periphas lie where he had fallen. As soon as they were at close quarters he let fly with his bronze spear over the reins
 
-
-
----
-
 and yoke, thinking to take Diomed’s life, but Minerva caught the spear in her hand and made it fly harmlessly over the chariot. Diomed then threw, and Pallas Minerva drove the spear into the pit of Mars’s stomach where his under-girdle went round him. There Diomed wounded him, tearing his fair flesh and then drawing his spear out again. Mars roared as loudly as nine or ten thousand men in the thick of a fight, and the Achaeans and Trojans were struck with panic, so terrible was the cry he raised.
 
 As a dark cloud in the sky when it comes on to blow after heat, even so did Diomed son of Tydeus see Mars ascend into the broad heavens. With all speed he reached high Olympus, home of the gods, and in great pain sat down beside Jove the son of Saturn. He showed Jove the immortal blood that was flowing from his wound, and spoke piteously, saying, “Father Jove, are you not angered by such doings? We gods are continually suffering in the most cruel manner at one another’s hands while helping mortals; and we all owe you a grudge for having begotten that mad termagant of a daughter, who is always committing outrage of some kind. We other gods must all do as you bid us, but her you neither scold nor punish; you encourage her because the pestilent creature is your daughter. See how she has been inciting proud Diomed to vent his rage on the immortal gods. First he went up to the Cyprian and wounded her in the hand near her wrist, and then he sprang upon me too as though he were a god. Had I not run for it I must either have lain there for long enough in torments among the ghastly corpses, or have been eaten alive with spears till I had no more strength left in me.”
@@ -843,13 +622,9 @@ He then bade Paeeon heal him, whereon Paeeon spread pain-killing herbs upon his 
 
 But Juno of Argos and Minerva of Alalcomene, now that they had put a stop to the murderous doings of Mars, went back again to the house of Jove.
 
-
-
----
-
 # BOOK VI.
 
-Gleucus and Diomed—The story of Bellerophon—Hector and Andromache.
+*Gleucus and Diomed—The story of Bellerophon—Hector and Andromache.*
 
 The fight between Trojans and Achaeans was now left to rage as it would, and the tide of war surged hither and thither over the plain as they aimed their bronze-shod spears at one another between the streams of Simois and Xanthus.
 
@@ -869,10 +644,6 @@ Meanwhile Nestor shouted to the Argives, saying, "My friends, Danaan warriors, s
 
 With these words he put heart and soul into them all. And now the Trojans would have been routed and driven back into Ilius, had not Priam's son Helenus, wisest of augurs, said to Hector and Aeneas, "Hector and Aeneas, you two are the mainstays of the Trojans and Lycians, for you are foremost at all times, alike in fight and counsel; hold your ground here, and go about among the host to rally them in front of the gates, or they will fling themselves into the arms of their wives, to the great joy of our foes. Then, when you have put heart into all our companies, we will stand firm here and fight the Danaans however hard they press us, for there is nothing else to be done. Meanwhile do you, Hector, go to the city and tell our mother what is happening. Tell her to bid the matrons gather at the temple of Minerva in the acropolis; let her then take her key and open the doors of the sacred building; there, upon the knees of Minerva, let her lay the largest, fairest robe she has in her house—the one she sets most store by; let her, moreover, promise to sacrifice twelve yearling heifers that have never yet felt the good, in the temple of the goddess, if she will take pity on the town, with the wives and little ones of the Trojans, and keep the son of Tydeus from falling on the goodly city of Ilius; for he fights with fury and fills men's souls with panic. I hold him mightiest of them all; we did not fear even their great champion Achilles, son of a goddess though he be, as we do this man: his rage is beyond all bounds, and there is none can vie with him in prowess."
 
-
-
----
-
 Hector did as his brother bade him. He sprang from his chariot, and went about everywhere among the host, brandishing his spears, urging the men on to fight, and raising the dread cry of battle. Thereon they rallied and again faced the Achaeans, who gave ground and ceased their murderous onset, for they deemed that some one of the immortals had come down from starry heaven to help the Trojans, so strangely had they rallied. And Hector shouted to the Trojans, “Trojans and allies, be men, my friends, and fight with might and main, while I go to Ilius and tell the old men of our council and our wives to pray to the gods and vow hecatombs in their honour.”
 
 With this he went his way, and the black rim of hide that went round his shield beat against his neck and his ancles.
@@ -886,10 +657,6 @@ And the son of Hippolochus answered, “Son of Tydeus, why ask me of my lineage?
 “The king’s daughter bore Bellerophon three children, Isander, Hippolochus, and Laodameia. Jove, the lord of counsel, lay with Laodameia, and she bore him noble Sarpedon; but when Bellerophon came to be hated by all the gods, he wandered all desolate and dismayed upon the Alean plain, gnawing at his own heart, and shunning the path of man. Mars, insatiate of battle, killed his son Isander while he was fighting the Solymi; his daughter was killed by Diana of the golden reins, for she was angered with her; but Hippolochus was father to myself, and when he sent me to Troy he urged me again and again to fight ever among the foremost and outvie my peers, so as not to shame the blood of my fathers who were the noblest in Ephyra and in all Lycia. This, then, is the descent I claim.”
 
 Thus did he speak, and the heart of Diomed was glad. He planted his spear in the ground, and spoke to him with friendly words. “Then,” he said, “you are an old friend of my father’s house. Great Oeneus once entertained Bellerophon for twenty days, and the two exchanged presents. Oeneus gave a belt rich with purple, and Bellerophon a double cup, which I left at home when I set out for Troy. I do not remember Tydeus, for he was taken from us while I was yet a child, when the army of the Achaeans was cut to pieces before Thebes. Henceforth, however, I must be your host in middle Argos, and you mine in Lycia, if I should ever go there; let us avoid one another’s spears even during a general engagement; there are many noble Trojans and allies whom I can kill, if I overtake them and heaven delivers them into my hand; so again with yourself, there are many
-
-
-
----
 
 Achaeans whose lives you may take if you can; we two, then, will exchange armour, that all present may know of the old ties that subsist between us.”
 
@@ -911,10 +678,6 @@ And Alexandrus answered, “Hector, your rebuke is just; listen therefore, and b
 
 Hector made no answer, but Helen tried to soothe him. “Brother,” said she, “to my abhorred and sinful self, would that a whirlwind had caught me up on the day my mother brought me forth, and had borne me to some mountain or to the waves of the roaring sea that should have swept me away ere this mischief had come about. But, since the gods have devised these evils, would, at any rate, that I had been wife to a better man—to one who could smart under dishonour and men’s evil speeches. This fellow was never yet to be depended upon, nor never will be, and he will surely reap what he has sown. Still, brother,
 
-
-
----
-
 come in and rest upon this seat, for it is you who bear the brunt of that toil that has been caused by my hateful self and by the sin of Alexandrus—both of whom Jove has doomed to be a theme of song among those that shall be born hereafter.”
 
 And Hector answered, “Bid me not be seated, Helen, for all the goodwill you bear me. I cannot stay. I am in haste to help the Trojans, who miss me greatly when I am not among them; but urge your husband, and of his own self also let him make haste to overtake me before I am out of the city. I must go home to see my household, my wife and my little son, for I know not whether I shall ever again return to them, or whether the gods will cause me to fall by the hands of the Achaeans.”
@@ -931,10 +694,6 @@ He stretched his arms towards his child, but the boy cried and nestled in his nu
 
 With this he laid the child again in the arms of his wife, who took him to her own soft bosom, smiling through her tears. As her husband watched her his heart yearned towards her and he caressed her fondly, saying, “My own wife, do not take these things too bitterly to heart. No one can hurry me down to Hades before my time, but if a man’s hour is come, be he brave or be he coward, there is no escape for him when he has once been born. Go, then, within the house, and busy yourself with your
 
-
-
----
-
 daily duties, your loom, your distaff, and the ordering of your servants; for war is man's matter, and mine above all others of them that have been born in Ilius."
 
 He took his plumed helmet from the ground, and his wife went back again to her house, weeping bitterly and often looking back towards him. When she reached her home she found her maidens within, and bade them all join in her lament; so they mourned Hector in his own house though he was yet alive, for they deemed that they should never see him return safe from battle, and from the furious hands of the Achaeans.
@@ -943,13 +702,9 @@ Paris did not remain long in his house. He donned his goodly armour overlaid wit
 
 "My good brother," answered Hector, "you fight bravely, and no man with any justice can make light of your doings in battle. But you are careless and wilfully remiss. It grieves me to the heart to hear the ill that the Trojans speak about you, for they have suffered much on your account. Let us be going, and we will make things right hereafter, should Jove vouchsafe us to set the cup of our deliverance before ever-living gods of heaven in our own homes, when we have chased the Achaeans from Troy."
 
-
-
----
-
 # BOOK VII.
 
-Hector and Ajax fight—Hector is getting worsted when night comes on and parts them—they exchange presents—the burial of the dead, and the building of a wall round their ships by the Achaeans—the Achaeans buy their wine of Agamemnon and Menelaus.
+*Hector and Ajax fight—Hector is getting worsted when night comes on and parts them—they exchange presents—the burial of the dead, and the building of a wall round their ships by the Achaeans—the Achaeans buy their wine of Agamemnon and Menelaus.*
 
 With these words Hector passed through the gates, and his brother Alexandrus with him, both eager for the fray. As when heaven sends a breeze to sailors who have long looked for one in vain, and have laboured at their oars till they are faint with toil, even so welcome was the sight of these two heroes to the Trojans.
 
@@ -969,10 +724,6 @@ Hector was glad when he heard this saying, and went in among the Trojans, graspi
 
 Thus did he speak, but they all held their peace, ashamed to decline the challenge, yet fearing to accept it, till at last Menelaus rose and rebuked them, for he was angry. “Alas,” he cried, “vain braggarts, women forsooth not men, double-dyed indeed will be the stain upon us if no man of the Danaans will now face Hector. May you be turned every man of you into earth and water as you sit spiritless and inglorious in your places. I will myself go out against this man, but the upshot of the fight will be from on high in the hands of the immortal gods.”
 
-
-
----
-
 With these words he put on his armour; and then, O Menelaus, your life would have come to an end at the hands of hands of Hector, for he was far better the man, had not the princes of the Achaeans sprung upon you and checked you. King Agamemnon caught him by the right hand and said, "Menelaus, you are mad; a truce to this folly. Be patient in spite of passion, do not think of fighting a man so much stronger than yourself as Hector son of Priam, who is feared by many another as well as you. Even Achilles, who is far more doughty than you are, shrank from meeting him in battle. Sit down your own people, and the Achaeans will send some other champion to fight Hector; fearless and fond of battle though he be, I ween his knees will bend gladly under him if he comes out alive from the hurly-burly of this fight."
 
 With these words of reasonable counsel he persuaded his brother, whereon his squires gladly stripped the armour from off his shoulders. Then Nestor rose and spoke, "Of a truth," said he, "the Achaean land is fallen upon evil times. The old knight Peleus, counsellor and orator among the Myrmidons, loved when I was in his house to question me concerning the race and lineage of all the Argives. How would it not grieve him could he hear of them as now quailing before Hector? Many a time would he lift his hands in prayer that his soul might leave his body and go down within the house of Hades. Would, by father Jove, Minerva, and Apollo, that I were still young and strong as when the Pylians and Arcadians were gathered in fight by the rapid river Celadon under the walls of Pheia, and round about the waters of the river Iardanus. The godlike hero Ereuthalion stood forward as their champion, with the armour of King Areithous upon his shoulders—Areithous whom men and women had surnamed 'the Mace-man,' because he fought neither with bow nor spear, but broke the battalions of the foe with his iron mace. Lycurgus killed him, not in fair fight, but by entrapping him in a narrow way where his mace served him in no stead; for Lycurgus was too quick for him and speared him through the middle, so he fell to earth on his back. Lycurgus then spoiled him of the armour which Mars had given him, and bore it in battle thenceforward; but when he grew old and stayed at home, he gave it to his faithful squire Ereuthalion, who in this same armour challenged the foremost men among us. The others quaked and quailed, but my high spirit bade me fight him though none other would venture; I was the youngest man of them all; but when I fought him Minerva vouchsafed me victory. He was the biggest and strongest man that ever I killed, and covered much ground as he lay sprawling upon the earth. Would that I were still young and strong as I then was, for the son of Priam would then soon find one who would face him. But you, foremost among the whole host though you be, have none of you any stomach for fighting Hector."
@@ -986,10 +737,6 @@ As they were speaking, Nestor knight of Gerene shook the helmet, and from it the
 With this they fell praying to King Jove the son of Saturn, and thus would one of them say as he looked into the vault of heaven, "Father Jove that rulest from Ida, most glorious in power, vouchsafe victory to Ajax, and let him win great glory: but if you wish well to Hector also and would protect him, grant to each of them equal fame and prowess."
 
 Thus they prayed, and Ajax armed himself in his suit of gleaming bronze. When he was in full array he sprang forward as monstrous Mars when he takes part among men whom Jove has set fighting with one another—even so did huge Ajax, bulwark of the Achaeans, spring forward with a grim smile on his face as he brandished his long spear and strode onward. The Argives were elated as they beheld him, but the Trojans trembled in every limb, and the heart even of Hector beat quickly, but he could not now retreat and withdraw into the ranks behind him, for he had been the challenger. Ajax came up bearing his shield in front of him like a wall—a shield of bronze with seven folds of ox-hide—the work of Tychius, who lived in Hyle and was by far the best worker in leather. He had made it with the hides of seven full-fed bulls, and over these he had set an eighth layer of bronze. Holding this shield before him, Ajax son of Telamon came close up to Hector, and menaced him saying, "Hector, you shall now learn, man to man, what kind of champions the Danaans have among them even besides lion-hearted Achilles cleaver of the ranks of men. He now abides at the ships in anger with Agamemnon shepherd of his people, but there are many of us who are well able to face you; therefore begin the fight."
-
-
-
----
 
 And Hector answered, "Noble Ajax, son of Telamon, captain of the host, treat me not as though I were some puny boy or woman that cannot fight. I have been long used to the blood and butcheries of battle. I am quick to turn my leathern shield either to right or left, for this I deem the main thing in battle. I can charge among the chariots and horsemen, and in hand to hand fighting can delight the heart of Mars; howbeit I would not take such a man as you are off his guard—but I will smite you openly if I can."
 
@@ -1008,10 +755,6 @@ When they reached the quarters of the son of Atreus, Agamemnon sacrificed for th
 Thus he spoke, and the princes shouted in applause. Meanwhile the Trojans held a council, angry and full of discord, on the acropolis by the gates of King Priam's palace; and wise Antenor spoke. "Hear me," he said, "Trojans, Dardanians, and allies, that I may speak even as I am minded. Let us give up Argive Helen and her wealth to the sons of Atreus, for we are now fighting in violation of our solemn covenants, and shall not prosper till we have done as I say."
 
 He then sat down and Alexandrus husband of lovely Helen rose to speak. "Antenor," said he, "your words are not to my liking; you can find a better saying than this if you will; if, however, you have spoken in good earnest, then indeed has heaven
-
-
-
----
 
 robbed you of your reason. I will speak plainly, and hereby notify to the Trojans that I will not give up the woman; but the wealth that I brought home with her from Argos I will restore, and will add yet further of my own."
 
@@ -1035,13 +778,9 @@ Jove was displeased and answered, "What, O shaker of the earth, are you talking 
 
 Thus did they converse, and by sunset the work of the Achaeans was completed; they then slaughtered oxen at their tents and got their supper. Many ships had come with wine from Lemnos, sent by Eueneus the son of Jason, born to him by Hypsipyle. The son of Jason freighted them with ten thousand measures of wine, which he sent specially to the sons of Atreus, Agamemnon and Menelaus. From this supply the Achaeans bought their wine, some with bronze, some with iron, some with hides, some with whole heifers, and some again with captives. They spread a goodly banquet and feasted the whole night through, as also did the Trojans and their allies in the city. But all the time Jove boded them ill and roared with his portentous thunder. Pale fear got hold upon them, and they spilled the wine from their cups on to the ground, nor did any dare drink till he had made offerings to the most mighty son of Saturn. Then they laid themselves down to rest and enjoyed the boon of sleep.
 
-
-
----
-
 # BOOK VIII.
 
-Jove forbids the gods to interfere further—There is an even fight till midday, but then Jove inclines the scales of victory in favour of the Trojans, who eventually chase the Achaeans within their wall—Juno and Minerva set out to help the Trojans: Jove sends Iris to turn them back, but later on he promises Juno that she shall have her way in the end—Hector’s triumph is stayed by nightfall—The Trojans bivouac on the plain.
+*Jove forbids the gods to interfere further—There is an even fight till midday, but then Jove inclines the scales of victory in favour of the Trojans, who eventually chase the Achaeans within their wall—Juno and Minerva set out to help the Trojans: Jove sends Iris to turn them back, but later on he promises Juno that she shall have her way in the end—Hector’s triumph is stayed by nightfall—The Trojans bivouac on the plain.*
 
 Now when Morning, clad in her robe of saffron, had begun to suffuse light over the earth, Jove called the gods in council on the topmost crest of serrated Olympus. Then he spoke and all the other gods gave ear. “Hear me,” said he, “gods and goddesses, that I may speak even as I am minded. Let none of you neither goddess nor god try to cross me, but obey me every one of you that I may bring this matter to an end. If I see anyone acting apart and helping either Trojans or Danaans, he shall be beaten inordinately ere he come back again to Olympus; or I will hurl him down into dark Tartarus far into the deepest pit under the earth, where the gates are iron and the floor bronze, as far beneath Hades as heaven is high above the earth, that you may learn how much the mightiest I am among you. Try me and find out for yourselves. Hangs me a golden chain from heaven, and lay hold of it all of you, gods and goddesses together—tug as you will, you will not drag Jove the supreme counsellor from heaven to earth; but were I to pull at it myself I should draw you up with earth and sea into the bargain, then would I bind the chain about some pinnacle of Olympus and leave you all dangling in the mid firmament. So far am I above all others either of gods or men.”
 
@@ -1060,10 +799,6 @@ Now so long as the day waxed and it was still morning their weapons beat against
 Idomeneus dared not stay nor yet Agamemnon, nor did the two Ajaxes, servants of Mars, hold their ground. Nestor knight of Gerene alone stood firm, bulwark of the Achaeans, not of his own will, but one of his horses was disabled. Alexandrus husband of lovely Helen had hit it with an arrow just on the top of its head where the mane begins to grow away from the skull, a very deadly place. The horse bounded in his anguish as the arrow pierced his brain, and his struggles threw others into confusion. The old man instantly began cutting the traces with his sword, but Hector’s fleet horses bore down upon him through the rout with their bold charioteer, even Hector himself, and the old man would have perished there and then had not Diomed been quick to mark, and with a loud cry called Ulysses to help him.
 
 “Ulysses,” he cried, “noble son of Laertes where are you flying to, with your back turned like a coward? See that you are not struck with a spear between the shoulders. Stay here and help me to defend Nestor from this man’s furious onset.”
-
-
-
----
 
 Ulysses would not give ear, but sped onward to the ships of the Achaeans, and the son of Tydeus flinging himself alone into the thick of the fight took his stand before the horses of the son of Neleus. “Sir,” said he, “these young warriors are pressing you hard, your force is spent, and age is heavy upon you, your squire is naught, and your horses are slow to move. Mount my chariot and see what the horses of Tros can do—how cleverly they can scud hither and thither over the plain either in flight or in pursuit. I took them from the hero Aeneas. Let our squires attend to your own steeds, but let us drive mine straight at the Trojans, that Hector may learn how furiously I too can wield my spear.”
 
@@ -1087,10 +822,6 @@ King Neptune was greatly troubled and answered, “Juno, rash of tongue, what ar
 
 Thus did they converse; but the whole space enclosed by the ditch, from the ships even to the wall, was filled with horses and warriors, who were pent up there by Hector son of Priam, now that the hand of Jove was with him. He would even have set fire to the ships and burned them, had not Queen Juno put it into the mind of Agamemnon, to bestir himself and to encourage the Achaeans. To this end he went round the ships and tents carrying a great purple cloak, and took his stand by the huge black hull of Ulysses’ ship, which was middlemost of all; it was from this place that his voice would carry farthest, on the
 
-
-
----
-
 one hand towards the tents of Ajax son of Telamon, and on the other towards those of Achilles—for these two heroes, well assured of their own strength, had valorously drawn up their ships at the two ends of the line. From this spot then, with a voice that could be heard afar, he shouted to the Danaans, saying, “Argives, shame on you cowardly creatures, brave in semblance only; where are now our vaunts that we should prove victorious—the vaunts we made so vaingloriously in Lemnos, when we ate the flesh of horned cattle and filled our mixing-bowls to the brim? You vowed that you would each of you stand against a hundred or two hundred men, and now you prove no match even for one—for Hector, who will be ere long setting our ships in a blaze. Father Jove, did you ever so ruin a great king and rob him so utterly of his greatness? Yet, when to my sorrow I was coming hither, I never let my ship pass your altars without offering the fat and thigh-bones of heifers upon every one of them, so eager was I to sack the city of Troy. Vouchsafe me then this prayer—suffer us to escape at any rate with our lives, and let not the Achaeans be so utterly vanquished by the Trojans.”
 
 Thus did he pray, and father Jove pitying his tears vouchsafed him that his people should live, not die; forthwith he sent them an eagle, most unfailingly portentous of all birds, with a young fawn in its talons; the eagle dropped the fawn by the altar on which the Achaeans sacrificed to Jove the lord of omens; when, therefore, the people saw that the bird had come from Jove, they sprang more fiercely upon the Trojans and fought more boldly.
@@ -1108,10 +839,6 @@ As he spoke he aimed another arrow straight at Hector, for he was bent on hittin
 Again he aimed at Hector, for he was longing to hit him, and again his arrow missed, for Apollo turned it aside; but he hit Hector’s brave charioteer Archeptolemus in the breast, by the nipple, as he was driving furiously into the fight. The horses swerved aside as he fell headlong from the chariot, and there was no life left in him. Hector was greatly grieved at the loss of his charioteer, but for all his sorrow he let him lie where he fell, and bade his brother Cebriones, who was hard by, take the reins. Cebriones did as he had said. Hector thereon with a loud cry sprang from his chariot to the ground, and seizing a great stone made straight for Teucer with intent to kill him. Teucer had just taken an arrow from his quiver and had laid it upon the bowstring, but Hector struck him with the jagged stone as he was taking aim and drawing the string to his shoulder; he hit him just where the collar-bone divides the neck from the chest, a very deadly place, and broke the sinew of his arm so that his wrist was less, and the bow dropped from his hand as he fell forward on his knees. Ajax saw that his brother had fallen, and running towards him bestrode him and sheltered him with his shield. Meanwhile his two trusty squires, Mecisteus son of Echius, and Alastor, came up and bore him to the ships groaning in his great pain.
 
 Jove now again put heart into the Trojans, and they drove the Achaeans to their deep trench with Hector in all his glory at their head. As a hound grips a wild boar or lion in flank or buttock when he gives him chase, and watches warily for his wheeling, even so did Hector follow close upon the Achaeans, ever killing the hindmost as they rushed panic-stricken onwards. When they had fled through the set stakes and trench and many Achaeans had been laid low at the hands of the Trojans, they halted at their ships, calling upon one another and praying every man instantly as they lifted up their hands to the gods; but Hector wheeled his horses this way and that, his eyes glaring like those of Gorgo or murderous Mars.
-
-
-
----
 
 Juno when she saw them had pity upon them, and at once said to Minerva, “Alas, child of aegis-bearing Jove, shall you and I take no more thought for the dying Danaans, though it be the last time we ever do so? See how they perish and come to a bad end before the onset of but a single man. Hector the son of Priam rages with intolerable fury, and has already done great mischief.”
 
@@ -1143,13 +870,9 @@ Then Hector led the Trojans back from the ships, and held a council on the open 
 
 Thus spoke Hector and the Trojans shouted applause. They took their sweating steeds from under the yoke, and made them fast each by his own chariot. They made haste to bring sheep and cattle from the city, they brought wine also and corn from their houses and gathered much wood. They then offered unblemished hecatombs to the immortals, and the wind carried the sweet savour of sacrifice to heaven—but the blessed gods partook not thereof, for they bitterly hated Ilius with Priam and Priam's people. Thus high in hope they sat through the livelong night by the highways of war, and many a watchfire did they kindle. As when the stars shine clear, and the moon is bright—there is not a breath of air, not a peak nor glade nor jutting headland but it stands out in the ineffable radiance that breaks from the serene of heaven; the stars can all of them be told and the heart of the shepherd is glad—even thus shone the watchfires of the Trojans before Ilius midway between the ships and the river Xanthus. A thousand camp-fires gleamed upon the plain, and in the glow of each there sat fifty men, while the horses, champing oats and corn beside their chariots, waited till dawn should come.
 
-
-
----
-
 # BOOK IX.
 
-The Embassy to Achilles.
+*The Embassy to Achilles.*
 
 Thus did the Trojans watch. But Panic, comrade of blood-stained Rout, had taken fast hold of the Achaeans, and their princes were all of them in despair. As when the two winds that blow from Thrace—the north and the northwest—spring up of a sudden and rouse the fury of the main—in a moment the dark waves uprear their heads and scatter their sea-wrack in all directions—even thus troubled were the hearts of the Achaeans.
 
@@ -1164,10 +887,6 @@ The sons of the Achaeans shouted applause at the words of Diomed, and presently 
 Thus did he speak, and they did even as he had said. The sentinels went out in their armour under command of Nestor’s son Thrasymedes, a captain of the host, and of the bold warriors Ascalaphus and Ialmenus: there were also Meriones, Aphareus and Deipyrus, and the son of Creion, noble Lycomedes. There were seven captains of the sentinels, and with each there went a hundred youths armed with long spears: they took their places midway between the trench and the wall, and when they had done so they lit their fires and got every man his supper.
 
 The son of Atreus then bade many councillors of the Achaeans to his quarters and prepared a great feast in their honour. They laid their hands on the good things that were before them, and as soon as they had enough to eat and drink, old Nestor, whose counsel was ever truest, was the first to lay his mind before them. He, therefore, with all sincerity and goodwill addressed them thus.
-
-52
-
----
 
 "With yourself, most noble son of Atreus, king of men, Agamemnon, will I both begin my speech and end it, for you are king over much people. Jove, moreover, has vouchsafed you to wield the sceptre and to uphold righteousness, that you may take thought for your people under you; therefore it behooves you above all others both to speak and to give ear, and to out the counsel of another who shall have been minded to speak wisely. All turns on you and on your commands, therefore I will say what I think will be best. No man will be of a truer mind than that which has been mine from the hour when you, sir, angered Achilles by taking the girl Briseis from his tent against my judgment. I urged you not to do so, but you yielded to your own pride, and dishonoured a hero whom heaven itself had honoured—for you still hold the prize that had been awarded to him. Now, however, let us think how we may appease him, both with presents and fair speeches that may conciliate him."
 
@@ -1185,10 +904,6 @@ With this he led them forward, and bade them sit on seats covered with purple ru
 
 Patroclus did as his comrade bade him; he set the chopping-block in front of the fire, and on it he laid the loin of a sheep, the loin also of a goat, and the chine of a fat hog. Automedon held the meat while Achilles chopped it; he then sliced the pieces and put them on spits while the son of Menoetius made the fire burn high. When the flame had died down, he spread the embers, laid the spits on top of them, lifting them up and setting them upon the spit-racks; and he sprinkled them with salt. When the meat was roasted, he set it on platters, and handed bread round the table in fair baskets, while Achilles dealt them their portions. Then Achilles took his seat facing Ulysses against the opposite wall, and bade his comrade Patroclus offer
 
-
-
----
-
 sacrifice to the gods; so he cast the offerings into the fire, and they laid their hands upon the good things that were before them. As soon as they had had enough to eat and drink, Ajax made a sign to Phoenix, and when he saw this, Ulysses filled his cup with wine and pledged Achilles.
 
 “Hail,” said he, “Achilles, we have had no scant of good cheer, neither in the tent of Agamemnon, nor yet here; there has been plenty to eat and drink, but our thought turns upon no such matter. Sir, we are in the face of great disaster, and without your help know not whether we shall save our fleet or lose it. The Trojans and their allies have camped hard by our ships and by the wall; they have lit watchfires throughout their host and deem that nothing can now prevent them from falling on our fleet. Jove, moreover, has sent his lightnings on their right; Hector, in all his glory, rages like a maniac; confident that Jove is with him he fears neither god nor man, but is gone raving mad, and prays for the approach of day. He vows that he will hew the high sterns of our ships in pieces, set fire to their hulls, and make havoc of the Achaeans while they are dazed and smothered in smoke; I much fear that heaven will make good his boasting, and it will prove our lot to perish at Troy far from our home in Argos. Up, then, and late though it be, save the sons of the Achaeans who faint before the fury of the Trojans. You will repent bitterly hereafter if you do not, for when the harm is done there will be no curing it; consider ere it be too late, and save the Danaans from destruction.
@@ -1199,10 +914,6 @@ Achilles answered, “Ulysses, noble son of Laertes, I should give you formal no
 
 “Nevertheless he did distribute some meeds of honour among the chieftains and kings, and these have them still; from me alone of the Achaeans did he take the woman in whom I delighted—let him keep her and sleep with her. Why, pray, must the Argives needs fight the Trojans? What made the son of Atreus gather the host and bring them? Was it not for the sake of Helen? Are the sons of Atreus the only men in the world who love their wives? Any man of common right feeling will love and cherish her who is his own, as I this woman, with my whole heart, though she was but a fruitling of my spear. Agamemnon has taken her from me; he has played me false; I know him; let him tempt me no further, for he shall not move me. Let him look to you, Ulysses, and to the other princes to save his ships from burning. He has done much without me already. He has built a wall; he has dug a trench deep and wide all round it, and he has planted it within with stakes; but even so he stays not the murderous might of Hector. So long as I fought the Achaeans Hector suffered not the battle range far from the city walls;
 
-
-
----
-
 he would come to the Scaean gates and to the oak tree, but no further. Once he stayed to meet me and hardly did he escape my onset: now, however, since I am in no mood to fight him, I will to-morrow offer sacrifice to Jove and to all the gods; I will draw my ships into the water and then victual them duly; to-morrow morning, if you care to look, you will see my ships on the Hellespont, and my men rowing out to sea with might and main. If great Neptune vouchsafes me a fair passage, in three days I shall be in Phthia. I have much there that I left behind me when I came here to my sorrow, and I shall bring back still further store of gold, of red copper, of fair women, and of iron, my share of the spoils that we have taken; but one prize, he who gave has insolently taken away. Tell him all as I now bid you, and tell him in public that the Achaeans may hate him and beware of him should he think that he can yet dupe others for his effrontery never fails him.
 
 “As for me, hound that he is, he dares not look me in the face. I will take no counsel with him, and will undertake nothing in common with him. He has wronged me and deceived me enough, he shall not cozen me further; let him go his own way, for Jove has robbed him of his reason. I loathe his presents, and for himself care not one straw. He may offer me ten or even twenty times what he has now done, nay—not though it be all that he has in the world, both now or ever shall have; he may promise me the wealth of Orchomenus or of Egyptian Thebes, which is the richest city in the whole world, for it has a hundred gates through each of which two hundred men may drive at once with their chariots and horses; he may offer me gifts as the sands of the sea or the dust of the plain in multitude, but even so he shall not move me till I have been revenged in full for the bitter wrong he has done me. I will not marry his daughter; she may be fair as Venus, and skilful as Minerva, but I will have none of her: let another take her, who may be a good match for her and who rules a larger kingdom. If the gods spare me to return home, Peleus will find me a wife; there are Achaean women in Hellas and Phthia, daughters of kings that have cities under them; of these I can take whom I will and marry her. Many a time was I minded when at home in Phthia to woo and wed a woman who would make me a suitable wife, and to enjoy the riches of my old father Peleus. My life is more to me than all the wealth of Ilius while it was yet at peace before the Achaeans went there, or than all the treasure that lies on the stone floor of Apollo’s temple beneath the cliffs of Pytho. Cattle and sheep are to be had for harrying, and a man buy both tripods and horses if he wants them, but when his life has once left him it can neither be bought nor harried back again.
@@ -1212,10 +923,6 @@ he would come to the Scaean gates and to the oak tree, but no further. Once he s
 They all held their peace, dismayed at the sternness with which he had denied them, till presently the old knight Phoenix in his great fear for the ships of the Achaeans, burst into tears and said, “Noble Achilles, if you are now minded to return, and in the fierceness of your anger will do nothing to save the ships from burning, how, my son, can I remain here without you? Your father Peleus bade me go with you when he sent you as a mere lad from Phthia to Agamemnon. You knew nothing neither of war nor of the arts whereby men make their mark in council, and he sent me with you to train you in all excellence of speech and action. Therefore, my son, I will not stay here without you—no, not though heaven itself vouchsafe to strip my years from off me, and make me young as I was when I first left Hellas the land of fair women. I was then flying the anger of father Amyntor, son of Ormenus, who was furious with me in the matter of his concubine, of whom he was enamoured to the wronging of his wife my mother. My mother, therefore, prayed me without ceasing to lie with the woman myself, that so she hate my father, and in the course of time I yielded. But my father soon came to know, and cursed me bitterly, calling the dread Erinyes to witness. He prayed that no son of mine might ever sit upon knees—and the gods, Jove of the world below and awful Proserpine, fulfilled his curse. I took counsel to kill him, but some god stayed my rashness and bade me think on men’s evil tongues and how I should be branded as the murderer of my father; nevertheless I could not bear to stay in my father’s house with him so bitter against me. My cousins and clansmen came about me, and pressed me sorely to remain; many a sheep and many an ox did they slaughter, and many a fat hog did they set down to roast before the fire; many a jar, too, did they broach of my father’s wine. Nine whole nights did they set a guard over me taking it in turns to watch, and they kept a fire always burning, both in the cloister of the outer court and in the inner court at the doors of the room wherein I lay; but when the darkness of the tenth night came, I broke through the closed doors of my room, and climbed the wall of the outer court after passing quickly and unperceived through the men on guard and the women servants. I then fled through Hellas till I came to fertile Phthia, mother of sheep, and to King Peleus, who made me welcome and treated me as a father treats an only son who will be heir to all his wealth. He made me rich and set me over much people, establishing me on the borders of Phthia where I was chief ruler over the Dolopians.
 
 “It was I, Achilles, who had the making of you; I loved you with all my heart: for you would eat neither at home nor when you had gone out elsewhere, till I had first set you upon my knees, cut up the dainty morsel that you were to eat, and held the wine-cup to your lips. Many a time have you slobbered your wine in baby helplessness over my shirt; I had infinite trouble with you, but I knew that heaven had vouchsafed me no offspring of my own, and I made a son of you, Achilles, that in my
-
-
-
----
 
 hour of need you might protect me. Now, therefore, I say battle with your pride and beat it; cherish not your anger for ever; the might and majesty of heaven are more than ours, but even heaven may be appeased; and if a man has sinned he prays the gods, and reconciles them to himself by his piteous cries and by frankincense, with drink-offerings and the savour of burnt sacrifice. For prayers are as daughters to great Jove; halt, wrinkled, with eyes askance, they follow in the footsteps of sin, who, being fierce and fleet of foot, leaves them far behind him, and ever baneful to mankind outstrips them even to the ends of the world; but nevertheless the prayers come hobbling and healing after. If a man has pity upon these daughters of Jove when they draw near him, they will bless him and hear him too when he is praying; but if he deny them and will not listen to them, they go to Jove the son of Saturn and pray that he may presently fall into sin—to his ruing bitterly hereafter. Therefore, Achilles, give these daughters of Jove due reverence, and bow before them as all good men will bow. Were not the son of Atreus offering you gifts and promising others later—if he were still furious and implacable—I am not he that would bid you throw off your anger and help the Achaeans, no matter how great their need; but he is giving much now, and more hereafter; he has sent his captains to urge his suit, and has chosen those who of all the Argives are most acceptable to you; make not then their words and their coming to be of none effect. Your anger has been righteous so far. We have heard in song how heroes of old time quarrelled when they were roused to fury, but still they could be won by gifts, and fair words could soothe them.
 
@@ -1228,10 +935,6 @@ hour of need you might protect me. Now, therefore, I say battle with your pride 
 And Achilles answered, "Phoenix, old friend and father, I have no need of such honour. I have honour from Jove himself, which will abide with me at my ships while I have breath in my body, and my limbs are strong. I say further—and lay my saying to your heart—vex me no more with this weeping and lamentation, all in the cause of the son of Atreus. Love him so well, and you may lose the love I bear you. You ought to help me rather in troubling those that trouble me; be king as much as I am, and share like honour with myself; the others shall take my answer; stay here yourself and sleep comfortably in your bed; at daybreak we will consider whether to remain or go."
 
 On this he nodded quietly to Patroclus as a sign that he was to prepare a bed for Phoenix, and that the others should take their leave. Ajax son of Telamon then said, "Ulysses, noble son of Laertes, let us be gone, for I see that our journey is vain. We must now take our answer, unwelcome though it be, to the Danaans who are waiting to receive it. Achilles is savage and
-
-
-
----
 
 remorseless; he is cruel, and cares nothing for the love his comrades lavished upon him more than on all the others. He is implacable—and yet if a man’s brother or son has been slain he will accept a fine by way of amends from him that killed him, and the wrong-doer having paid in full remains in peace among his own people; but as for you, Achilles, the gods have put a wicked unforgiving spirit in your heart, and this, all about one single girl, whereas we now offer you the seven best we have, and much else into the bargain. Be then of a more gracious mind, respect the hospitality of your own roof. We are with you as messengers from the host of the Danaans, and would fain be held nearest and dearest to yourself of all the Achaeans.”
 
@@ -1247,13 +950,9 @@ They all held their peace, sitting for a long time silent and dejected, by reaso
 
 Thus he spoke, and the other chieftains approved his words. They then made their drink-offerings and went every man to his own tent, where they laid down to rest and enjoyed the boon of sleep.
 
-
-
----
-
 # BOOK X.
 
-Ulysses and Diomed go out as spies, and meet Dolon, who gives them information: they then kill him, and profiting by what he had told them, kill Rhesus king of the Thracians and take his horses.
+*Ulysses and Diomed go out as spies, and meet Dolon, who gives them information: they then kill him, and profiting by what he had told them, kill Rhesus king of the Thracians and take his horses.*
 
 Now the other princes of the Achaeans slept soundly the whole night through, but Agamemnon son of Atreus was troubled, so that he could get no rest. As when fair Juno’s lord flashes his lightning in token of great rain or hail or snow when the snowflakes whiten the ground, or again as a sign that he will open the wide jaws of hungry war, even so did Agamemnon heave many a heavy sigh, for his soul trembled within him. When he looked upon the plain of Troy he marvelled at the many watchfires burning in front of Ilius, and at the sound of pipes and flutes and of the hum of men, but when presently he turned towards the ships and hosts of the Achaeans, he tore his hair by handfuls before Jove on high, and groaned aloud for the very disquietness of his soul. In the end he deemed it best to go at once to Nestor son of Neleus, and see if between them they could find any way of the Achaeans from destruction. He therefore rose, put on his shirt, bound his sandals about his comely feet, flung the skin of a huge tawny lion over his shoulders—a skin that reached his feet—and took his spear in his hand.
 
@@ -1270,10 +969,6 @@ With these instructions he sent his brother on his way, and went on to Nestor sh
 And Agamemnon answered, “Nestor, son of Neleus, honour to the Achaean name, it is I, Agamemnon son of Atreus, on whom Jove has laid labour and sorrow so long as there is breath in my body and my limbs carry me. I am thus abroad because sleep sits not upon my eyelids, but my heart is big with war and with the jeopardy of the Achaeans. I am in great fear for the Danaans. I am at sea, and without sure counsel; my heart beats as though it would leap out of my body, and my limbs fail me. If then you can do anything—for you too cannot sleep—let us go the round of the watch, and see whether they are drowsy with toil and sleeping to the neglect of their duty. The enemy is encamped hard and we know not but he may attack us by night.”
 
 Nestor replied, “Most noble son of Atreus, king of men, Agamemnon, Jove will not do all for Hector that Hector thinks he will; he will have troubles yet in plenty if Achilles will lay aside his anger. I will go with you, and we will rouse others, either
-
-
-
----
 
 the son of Tydeus, or Ulysses, or fleet Ajax and the valiant son of Phyleus. Some one had also better go and call Ajax and King Idomeneus, for their ships are not near at hand but the farthest of all. I cannot however refrain from blaming Menelaus, much as I love him and respect him—and I will say so plainly, even at the risk of offending you—for sleeping and leaving all this trouble to yourself. He ought to be going about imploring aid from all the princes of the Achaeans, for we are in extreme danger.”
 
@@ -1299,10 +994,6 @@ They all held their peace, but Diomed of the loud war-cry spoke saying, “Nesto
 
 On this several offered to go with Diomed. The two Ajaxes, servants of Mars, Meriones, and the son of Nestor all wanted to go, so did Menelaus son of Atreus; Ulysses also wished to go among the host of the Trojans, for he was ever full of daring, and
 
-
-
----
-
 thereon Agamemnon king of men spoke thus: “Diomed,” said he, “son of Tydeus, man after my own heart, choose your comrade for yourself—take the best man of those that have offered, for many would now go with you. Do not through delicacy reject the better man, and take the worst out of respect for his lineage, because he is of more royal blood.”
 
 He said this because he feared for Menelaus. Diomed answered, “If you bid me take the man of my own choice, how in that case can I fail to think of Ulysses, than whom there is no man more eager to face all kinds of danger—and Pallas Minerva loves him well? If he were to go with me we should pass safely through fire itself, for he is quick to see and understand.”
@@ -1327,10 +1018,6 @@ The oath he swore was bootless, but it made Dolon more keen on going. He hung hi
 
 With this they turned out of their way and lay down among the corpses. Dolon suspected nothing and soon passed them, but when he had got about as far as the distance by which a mule-plowed furrow exceeds one that has been ploughed by oxen (for mules can plow fallow land quicker than oxen) they ran after him, and when he heard their footsteps he stood still, for he made sure they were friends from the Trojan camp come by Hector’s orders to bid him return; when, however, they were only a
 
-
-
----
-
 spear's cast, or less, away from him, he saw that they were enemies and ran as fast as his legs could take him. The others gave chase at once, and as a couple of well-trained hounds press forward after a doe or hare that runs screaming in front of them, even so did the son of Tydeus and Ulysses pursue Dolon and cut him off from his own people. But when he had fled so far towards the ships that he would soon have fallen in with the outposts, Minerva infused fresh strength into the son of Tydeus for fear some other of the Achaeans might have the glory of being first to hit him, and he might himself be only second; he therefore sprang forward with his spear and said, "Stand, or I shall throw my spear, and in that case I shall soon make an end of you."
 
 He threw as he spoke, but missed his aim on purpose. The dart flew over the man's right shoulder, and then stuck in the ground. He stood stock still, trembling and in great fear; his teeth chattered, and he turned pale with fear. The two came breathless up to him and seized his hands, whereon he began to weep and said, "Take me alive; I will ransom myself; we have great store of gold, bronze, and wrought iron, and from this my father will satisfy you with a very large ransom, should he hear of my being alive at the ships of the Achaeans."
@@ -1353,10 +1040,6 @@ On this Dolon would have caught him by the beard to beseech him further, but Dio
 
 With these words he took the spoils and set them upon a tamarisk tree, and they marked the place by pulling up reeds and gathering boughs of tamarisk that they might not miss it as they came back through the flying hours of darkness. The two then went onwards amid the fallen armour and the blood, and came presently to the company of Thracian soldiers, who were sleeping, tired out with their day's toil; their goodly armour was lying on the ground beside them all orderly in three rows, and each man had his yoke of horses beside him. Rhesus was sleeping in the middle, and hard by him his horses were made fast to the topmost rim of his chariot. Ulysses from some way off saw him and said, "This, Diomed, is the man, and these are the
 
-
-
----
-
 horses about which Dolon whom we killed told us. Do your very utmost; daily not about your armour, but loose the horses at once—or else kill the men yourself, while I see to the horses."
 
 Thereon Minerva put courage into the heart of Diomed, and he smote them right and left. They made a hideous groaning as they were being hacked about, and the earth was red with their blood. As a lion springs furiously upon a flock of sheep or goats when he finds them without their shepherd, so did the son of Tydeus set upon the Thracian soldiers till he had killed twelve. As he killed them Ulysses came and drew them aside by their feet one by one, that the horses might go forward freely without being frightened as they passed over the dead bodies, for they were not yet used to them. When the son of Tydeus came to the king, he killed him too (which made thirteen), as he was breathing hard, for by the counsel of Minerva an evil dream, the seed of Oeneus, hovered that night over his head. Meanwhile Ulysses untied the horses, made them fast one to another and drove them off, striking them with his bow, for he had forgotten to take the whip from the chariot. Then he whistled as a sign to Diomed.
@@ -1375,13 +1058,9 @@ And Ulysses answered, "Nestor son of Neleus, honour to the Achaean name, heaven,
 
 He laughed as he spoke and drove the horses over the ditch, while the other Achaeans followed him gladly. When they reached the strongly built quarters of the son of Tydeus, they tied the horses with thongs of leather to the manger, where the steeds of Diomed stood eating their sweet corn, but Ulysses hung the blood-stained spoils of Dolon at the stern of his ship, that they might prepare a sacred offering to Minerva. As for themselves, they went into the sea and washed the sweat from their bodies, and from their necks and thighs. When the sea-water had taken all the sweat from off them, and had refreshed them, they went into the baths and washed themselves. After they had so done and had anointed themselves with oil, they sat down to table, and drawing from a full mixing-bowl, made a drink-offering of wine to Minerva.
 
-
-
----
-
 # BOOK XI.
 
-In the forenoon the fight is equal, but Agamemnon turns the fortune of the day towards the Achaeans until he gets wounded and leaves the field—Hector then drives everything before him till he is wounded by Diomed—Paris wounds Diomed—Ulysses, Nestor, and Idomeneus perform prodigies of valour—Machaon is wounded—Nestor drives him off in his chariot—Achilles sees the pair driving towards the camp and sends Patroclus to ask who it is that is wounded—This is the beginning of evil for Patroclus—Nestor makes a long speech.
+*In the forenoon the fight is equal, but Agamemnon turns the fortune of the day towards the Achaeans until he gets wounded and leaves the field—Hector then drives everything before him till he is wounded by Diomed—Paris wounds Diomed—Ulysses, Nestor, and Idomeneus perform prodigies of valour—Machaon is wounded—Nestor drives him off in his chariot—Achilles sees the pair driving towards the camp and sends Patroclus to ask who it is that is wounded—This is the beginning of evil for Patroclus—Nestor makes a long speech.*
 
 And now as Dawn rose from her couch beside Tithonus, harbinger of light alike to mortals and immortals, Jove sent fierce Discord with the ensign of war in her hands to the ships of the Achaeans. She took her stand by the huge black hull of Ulysses' ship which was middlemost of all, so that her voice might carry farthest on either side, on the one hand towards the tents of Ajax son of Telamon, and on the other towards those of Achilles—for these two heroes, well assured of their own strength, had valorously drawn up their ships at the two ends of the line. There she took her stand, and raised a cry both loud and shrill that filled the Achaeans with courage, giving them heart to fight resolutely and with all their might, so that they had rather stay there and do battle than go home in their ships.
 
@@ -1394,10 +1073,6 @@ The Trojans, on the other side upon the rising slope of the plain, were gathered
 And now as a band of reapers mow swathes of wheat or barley upon a rich man's land, and the sheaves fall thick before them, even so did the Trojans and Achaeans fall upon one another; they were in no mood for yielding but fought like wolves, and neither side got the better of the other. Discord was glad as she beheld them, for she was the only god that went among them; the others were not there, but stayed quietly each in his own home among the dells and valleys of Olympus. All of them blamed the son of Saturn for wanting to give victory to the Trojans, but father Jove heeded them not: he held aloof from all, and sat apart in his all-glorious majesty, looking down upon the city of the Trojans, the ships of the Achaeans, the gleam of bronze, and alike upon the slayers and on the slain.
 
 Now so long as the day waxed and it was still morning, their darts rained thick on one another and the people perished, but as the hour drew nigh when a woodman working in some mountain forest will get his midday meal—for he has felled till his hands are weary; he is tired out, and must now have food—then the Danaans with a cry that rang through all their ranks, broke the battalions of the enemy. Agamemnon led them on, and slew first Bienor, a leader of his people, and afterwards his comrade and charioteer Oileus, who sprang from his chariot and was coming full towards him; but Agamemnon struck him on the
-
-
-
----
 
 forehead with his spear; his bronze visor was of no avail against the weapon, which pierced both bronze and bone, so that his brains were battered in and he was killed in full fight.
 
@@ -1416,10 +1091,6 @@ But when he was just about to reach the high wall and the city, the father of go
 Iris hearkened and obeyed. Down she went to strong Ilius from the crests of Ida, and found Hector son of Priam standing by his chariot and horses. Then she said, "Hector son of Priam, peer of gods in counsel, father Jove has sent me to bear you this message—so long as you see Agamemnon heading his men and making havoc of the Trojan ranks, you are to keep aloof and bid the others bear the brunt of the battle, but when Agamemnon is wounded either by spear or arrow, and takes to his chariot, then will Jove vouchsafe you strength to slay till you reach the ships, and till night falls at the going down of the sun."
 
 When she had thus spoken Iris left him, and Hector sprang full armed from his chariot to the ground, brandishing his spear as he went about everywhere among the host, cheering his men on to fight, and stirring the dread strife of battle. The Trojans then wheeled round, and again met the Achaeans, while the Argives on their part strengthened their battalions. The battle was
-
-
-
----
 
 now in array and they stood face to face with one another, Agamemnon ever pressing forward in his eagerness to be ahead of all others.
 
@@ -1443,10 +1114,6 @@ And Diomed answered, "Come what may, I will stand firm; but we shall have scant 
 
 With these words he struck Thymbraeus from his chariot to the ground, smiting him in the left breast with his spear, while Ulysses killed Molion who was his squire. These they let lie, now that they had stopped their fighting; the two heroes then went on playing havoc with the foe, like two wild boars that turn in fury and rend the hounds that hunt them. Thus did they turn upon the Trojans and slay them, and the Achaeans were thankful to have breathing time in their flight from Hector.
 
-
-
----
-
 They then took two princes with their chariot, the two sons of Merops of Percote, who excelled all others in the arts of divination. He had forbidden his sons to go to the war, but they would not obey him, for fate lured them to their fall. Diomed son of Tydeus slew them both and stripped them of their armour, while Ulysses killed Hippodamus and Hypeirochus.
 
 And now the son of Saturn as he looked down from Ida ordained that neither side should have the advantage, and they kept on killing one another. The son of Tydeus speared Agastrophus son of Paeon in the hip-joint with his spear. His chariot was not at hand for him to fly with, so blindly confident had he been. His squire was in charge of it at some distance and he was fighting on foot among the foremost until he lost his life. Hector soon marked the havoc Diomed and Ulysses were making, and bore down upon them with a loud cry, followed by the Trojan ranks; brave Diomed was dismayed when he saw them, and said to Ulysses who was beside him, "Great Hector is bearing down upon us and we shall be undone; let us stand firm and wait his onset."
@@ -1465,10 +1132,6 @@ While he was thus in two minds, the ranks of the Trojans advanced and hemmed him
 
 With these words he struck the shield of Ulysses. The spear went through the shield and passed on through his richly wrought cuirass, tearing the flesh from his side, but Pallas Minerva did not suffer it to pierce the entrails of the hero. Ulysses knew that his hour was not yet come, but he gave ground and said to Socus, "Wretch, you shall now surely die. You have stayed me from fighting further with the Trojans, but you shall now fall by my spear, yielding glory to myself, and your soul to Hades of the noble steeds."
 
-
-
----
-
 Socus had turned in flight, but as he did so, the spear struck him in the back midway between the shoulders, and went right through his chest. He fell heavily to the ground and Ulysses vaunted over him saying, "O Socus, son of Hippasus tamer of horses, death has been too quick for you and you have not escaped him: poor wretch, not even in death shall your father and mother close your eyes, but the ravening vultures shall enshroud you with the flapping of their dark wings and devour you. Whereas even though I fall the Achaeans will give me my due rites of burial."
 
 So saying he drew Socus's heavy spear out of his flesh and from his shield, and the blood welled forth when the spear was withdrawn so that he was much dismayed. When the Trojans saw that Ulysses was bleeding they raised a great shout and came on in a body towards him; he therefore gave ground, and called his comrades to come and help him. Thrice did he cry as loudly as man can cry, and thrice did brave Menelaus hear him; he turned, therefore, to Ajax who was close beside him and said, "Ajax, noble son of Telamon, captain of your people, the cry of Ulysses rings in my ears, as though the Trojans had cut him off and were worsting him while he is single-handed. Let us make our way through the throng; it will be well that we defend him; I fear he may come to harm for all his valour if he be left without support, and the Danaans would miss him sorely."
@@ -1484,10 +1147,6 @@ Then Cebriones seeing the Trojans in confusion said to Hector from his place bes
 With this he lashed his goodly steeds, and when they felt the whip they drew the chariot full speed among the Achaeans and Trojans, over the bodies and shields of those that had fallen: the axle was bespattered with blood, and the rail round the car was covered with splashes both from the horses' hoofs and from the tyres of the wheels. Hector tore his way through and flung himself into the thick of the fight, and his presence threw the Danaans into confusion, for his spear was not long idle; nevertheless though he went among the ranks with sword and spear, and throwing great stones, he avoided Ajax son of Telamon, for Jove would have been angry with him if he had fought a better man than himself.
 
 Then father Jove from his high throne struck fear into the heart of Ajax, so that he stood there dazed and threw his shield behind him—looking fearfully at the throng of his foes as though he were some wild beast, and turning hither and thither but crouching slowly backwards. As peasants with their hounds chase a lion from their stockyard, and watch by night to prevent his carrying off the pick of their herd—he makes his greedy spring, but in vain, for the darts from many a strong hand fall thick around him, with burning brands that scare him for all his fury, and when morning comes he slinks foiled and angry away—even so did Ajax, sorely against his will, retreat angrily before the Trojans, fearing for the ships of the Achaeans. Or as some lazy ass that has had many a cudgel broken about his back, when he into a field begins eating the corn—boys beat him but he is too many for them, and though they lay about with their sticks they cannot hurt him; still when he has had his fill they at last drive him from the field—even so did the Trojans and their allies pursue great Ajax, ever smiting the middle of his shield with their darts. Now and again he would turn and show fight, keeping back the battalions of the Trojans, and then he would again retreat; but he prevented any of them from making his way to the ships. Single-handed he stood midway between
-
-
-
----
 
 the Trojans and Achaeans: the spears that sped from their hands stuck some of them in his mighty shield, while many, though thirsting for his blood, fell to the ground ere they could reach him to the wounding of his fair flesh.
 
@@ -1505,10 +1164,6 @@ When the old man saw him he sprang from his seat, seized his hand, led him into 
 
 And Nestor answered, "Why should Achilles care to know how many of the Achaeans may be wounded? He recks not of the dismay that reigns in our host; our most valiant chieftains lie disabled, brave Diomed, son of Tydeus, is wounded; so are Ulysses and Agamemnon; Eurypylus has been hit with an arrow in the thigh, and I have just been bringing this man from the field—he too wounded with an arrow. Nevertheless, Achilles, so valiant though he be, cares not and knows no ruth. Will he wait till the ships, do what we may, are in a blaze, and we perish one upon the other? As for me, I have no strength nor stay in me any longer; would that I were still young and strong as in the days when there was a fight between us and the men of Elis about some cattle-raiding. I then killed Itymoneus, the valiant son of Hypeirochus, a dweller in Elis, as I was driving in the spoil; he was hit by a dart thrown by my hand while fighting in the front rank in defence of his cows, so he fell and the country people around him were in great fear. We drove off a vast quantity of booty from the plain, fifty herds of cattle and as many flocks of sheep; fifty droves also of pigs, and as many wide-spreading flocks of goats. Of horses, moreover, we seized a hundred and fifty, all of them mares, and many had foals running with them. All these did we drive by night to Pylus, the city of Neleus, taking them within the city; and the heart of Neleus was glad in that I had taken so much, though it was the first time I had ever been in the field. At daybreak the heralds went round crying that all in Elis to whom there was a debt owing should come; and the leading Pylians assembled to divide the spoils. There were many to whom the Epeans owed chattels, for we men of Pylus were few and had been oppressed with wrong; in former years Hercules had come, and had laid his hand heavy upon us, so that all our best men had perished. Neleus had had twelve sons, but I alone was left; the others had all been killed. The Epeans presuming upon all this had looked down upon us and had done us much evil. My father chose a herd of cattle and a great flock of sheep—three hundred in all—and he took their shepherds with him, for there was a great debt due to
 
-
-
----
-
 him in Elis, to wit four horses, winners of prizes. They and their chariots with them had gone to the games and were to run for a tripod, but King Augeas took them, and sent back their driver grieving for the loss of his horses. Neleus was angered by what he had both said and done, and took great value in return, but he divided the rest, that no man might have less than his full share.
 
 "Thus did we order all things, and offer sacrifices to the gods throughout the city; but three days afterwards the Epeans came in a body, many in number, they and their chariots, in full array, and with them the two Moliones in their armour, though they were still lads and unused to fighting. Now there is a certain town, Thryoessa, perched upon a rock on the river Alpheus, the border city of Pylus. This they would destroy, and pitched their camp about it, but when they had crossed their whole plain, Minerva darted down by night from Olympus and bade us set ourselves in array; and she found willing soldiers in Pylos, for the men meant fighting. Neleus would not let me arm, and hid my horses, for he said that as yet I could know nothing about war; nevertheless Minerva so ordered the fight that, all on foot as I was, I fought among our mounted forces and vied with the foremost of them. There is a river Minyeius that falls into the sea near Arene, and there they that were mounted (and I with them) waited till morning, when the companies of foot soldiers came up with us in force. Thence in full panoply and equipment we came towards noon to the sacred waters of the Alpheus, and there we offered victims to almighty Jove, with a bull to Alpheus, another to Neptune, and a herd-heifer to Minerva. After this we took supper in our companies, and laid us down to rest each in his armour by the river.
@@ -1519,23 +1174,15 @@ him in Elis, to wit four horses, winners of prizes. They and their chariots with
 
 With these words he moved the heart of Patroclus, who set off running by the line of the ships to Achilles, descendant of Aeacus. When he had got as far as the ships of Ulysses, where was their place of assembly and court of justice, with their altars dedicated to the gods, Eurypylus son of Euaemon, met him, wounded in the thigh with an arrow, and limping out of the fight. Sweat rained from his head and shoulders, and black blood welled from his cruel wound, but his mind did not wander. The son of Menoetius when he saw him had compassion upon him and spoke piteously saying, "O unhappy princes and counsellors of the Danaans, are you then doomed to feed the hounds of Troy with your fat, far from your friends and your native land? Say, noble Eurypylus, will the Achaeans be able to hold great Hector in check, or will they fall now before his spear?"
 
-
-
----
-
 Wounded Eurypylus made answer, "Noble Patroclus, there is no hope left for the Achaeans but they will perish at their ships. All they that were princes among us are lying struck down and wounded at the hands of the Trojans, who are waxing stronger and stronger. But save me and take me to your ship; cut out the arrow from my thigh; wash the black blood from off it with warm water, and lay upon it those gracious herbs which, so they say, have been shown you by Achilles, who was himself shown them by Chiron, most righteous of all the centaurs. For of the physicians Podalirius and Machaon, I hear that the one is lying wounded in his tent and is himself in need of healing, while the other is fighting the Trojans upon the plain."
 
 "Hero Eurypylus," replied the brave son of Menoetius, "how may these things be? What can I do? I am on my way to bear a message to noble Achilles from Nestor of Gerene, bulwark of the Achaeans, but even so I will not be unmindful of your distress."
 
 With this he clasped him round the middle and led him into the tent, and a servant, when he saw him, spread bullock-skins on the ground for him to lie on. He laid him at full length and cut out the sharp arrow from his thigh; he washed the black blood from the wound with warm water; he then crushed a bitter herb, rubbing it between his hands, and spread it upon the wound; this was a virtuous herb which killed all pain; so the wound presently dried and the blood left off flowing.
 
-
-
----
-
 # BOOK XII.
 
-The Trojans and their allies break the wall, led on by Hector.
+*The Trojans and their allies break the wall, led on by Hector.*
 
 So the son of Menoetius was attending to the hurt of Eurypylus within the tent, but the Argives and Trojans still fought desperately, nor were the trench and the high wall above it, to keep the Trojans in check longer. They had built it to protect their ships, and had dug the trench all round it that it might safeguard both the ships and the rich spoils which they had taken, but they had not offered hecatombs to the gods. It had been built without the consent of the immortals, and therefore it did not last. So long as Hector lived and Achilles nursed his anger, and so long as the city of Priam remained untaken, the great wall of the Achaeans stood firm; but when the bravest of the Trojans were no more, and many also of the Argives, though some were yet left alive—when, moreover, the city was sacked in the tenth year, and the Argives had gone back with their ships to their own country—then Neptune and Apollo took counsel to destroy the wall, and they turned on to it the streams of all the rivers from Mount Ida into the sea, Rhesus, Heptaporus, Caresus, Rhodius, Grenicus, Aesopus, and goodly Scamander, with Simois, where many a shield and helm had fallen, and many a hero of the race of demigods had bitten the dust. Phoebus Apollo turned the mouths of all these rivers together and made them flow for nine days against the wall, while Jove rained the whole time that he might wash it sooner into the sea. Neptune himself, trident in hand, surveyed the work and threw into the sea all the foundations of beams and stones which the Achaeans had laid with so much toil; he made all level by the mighty stream of the Hellespont, and then when he had swept the wall away he spread a great beach of sand over the place where it had been. This done he turned the rivers back into their old courses.
 
@@ -1545,10 +1192,6 @@ But the horses dared not do so, and stood neighing upon its brink, for the width
 
 Thus spoke Polydamas and his saying pleased Hector, who sprang in full armour to the ground, and all the other Trojans, when they saw him do so, also left their chariots. Each man then gave his horses over to his charioteer in charge to hold them ready for him at the trench. Then they formed themselves into companies, made themselves ready, and in five bodies followed their leaders. Those that went with Hector and Polydamas were the bravest and most in number, and the most determined to break through the wall and fight at the ships. Cebriones was also joined with them as third in command, for Hector had left his chariot in charge of a less valiant soldier. The next company was led by Paris, Alcathous, and Agenor; the third by Helenus and Deiphobus, two sons of Priam, and with them was the hero Asius—Asius, the son of Hyrtacus, whose great black horses of the breed that comes from the river Selleis had brought him from Arisbe. Aeneas, the valiant son of Anchises, led the fourth; he and the two sons of Antenor, Archelochus and Acamas, men well versed in all the arts of war. Sarpedon was captain over the allies, and took with him Glaucus and Asteropaeus whom he deemed most valiant after himself—for he was far the best man of them all. These helped to array one another in their ox-hide shields, and then charged straight at the Danaans, for they felt sure that they would not hold out longer and that they should themselves now fall upon the ships.
 
-71
-
----
-
 The rest of the Trojans and their allies now followed the counsel of Polydamas but Asius, son of Hyrtacus, would not leave his horses and his esquire behind him; in his foolhardiness he took them on with him towards the ships, nor did he fail to come by his end in consequence. Nevermore was he to return to wind-beaten Ilius, exulting in his chariot and his horses; ere he could do so, death of ill-omened name had overshadowed him and he had fallen by the spear of Idomeneus the noble son of Deucalion. He had driven towards the left wing of the ships, by which way the Achaeans used to return with their chariots and horses from the plain. Hither he drove and found the gates with their doors opened wide, and the great bar down—for the gatemen kept them open so as to let those of their comrades enter who might be flying towards the ships. Hither of set purpose did he direct his horses, and his men followed him with a loud cry, for they felt sure that the Achaeans would not hold out longer, and that they should now fall upon the ships. Little did they know that at the gates they should find two of the bravest chieftains, proud sons of the fighting Lapithae—the one, Polypoetes, mighty son of Pirithous, and the other Leonteus, peer of murderous Mars. These stood before the gates like two high oak trees upon the mountains, that tower from their widespread roots, and year after year battle with wind and rain—even so did these two men await the onset of great Asius confidently and without flinching. The Trojans led by him and by Iamenus, Orestes, Adamas the son of Asius, Thoon and Oenomaus, raised a loud cry of battle and made straight for the wall, holding their shields of dry ox-hide above their heads; for a while the two defenders remained inside and cheered the Achaeans on to stand firm in the defence of their ships; when, however, they saw that the Trojans were attacking the wall, while the Danaans were crying out for help and being routed, they rushed outside and fought in front of the gates like two wild boars upon the mountains that abide the attack of men and dogs, and charging on either side break down the wood all round them tearing it up by the roots, and one can hear the clattering of their tusks, till some one hits them and makes an end of them—even so did the gleaming bronze rattle about their breasts, as the weapons fell upon them; for they fought with great fury, trusting to their own prowess and to those who were on the wall above them. These threw great stones at their assailants in defence of themselves their tents and their ships. The stones fell thick as the flakes of snow which some fierce blast drives from the dark clouds and showers down in sheets upon the earth—even so fell the weapons from the hands alike of Trojans and Achaeans. Helmet and shield rang out as the great stones rained upon them, and Asius, the son of Hyrtacus, in his dismay cried aloud and smote his two thighs. “Father Jove,” he cried, “of a truth you too are altogether given to lying. I made sure the Argive heroes could not withstand us, whereas like slim-waisted wasps, or bees that have their nests in the rocks by the wayside—they leave not the holes wherein they have built undefended, but fight for their little ones against all who would take them—even so these men, though they be but two, will not be driven from the gates, but stand firm either to slay or be slain.”
 
 He spoke, but moved not the mind of Jove, whose counsel it then was to give glory to Hector. Meanwhile the rest of the Trojans were fighting about the other gates; I, however, am no god to be able to tell about all these things, for the battle raged everywhere about the stone wall as it were a fiery furnace. The Argives, discomfited though they were, were forced to defend their ships, and all the gods who were defending the Achaeans were vexed in spirit; but the Lapithae kept on fighting with might and main.
@@ -1556,10 +1199,6 @@ He spoke, but moved not the mind of Jove, whose counsel it then was to give glor
 Thereon Polypoetes, mighty son of Pirithous, hit Damasus with a spear upon his cheek-pierced helmet. The helmet did not protect him, for the point of the spear went through it, and broke the bone, so that the brain inside was scattered about, and he died fighting. He then slew Pylon and Ormenus. Leonteus, of the race of Mars, killed Hippomachus the son of Antimachus by striking him with his spear upon the girdle. He then drew his sword and sprang first upon Antiphates whom he killed in combat, and who fell face upwards on the earth. After him he killed Menon, Iamenus, and Orestes, and laid them low one after the other.
 
 While they were busy stripping the armour from these heroes, the youths who were led on by Polydamas and Hector (and these were the greater part and the most valiant of those that were trying to break through the wall and fire the ships) were still standing by the trench, uncertain what they should do; for they had seen a sign from heaven when they had essayed to cross it—a soaring eagle that flew skirting the left wing of their host, with a monstrous blood-red snake in its talons still alive and struggling to escape. The snake was still bent on revenge, wriggling and twisting itself backwards till it struck the bird that held it, on the neck and breast; whereon the bird being in pain, let it fall, dropping it into the middle of the host, and then flew down the wind with a sharp cry. The Trojans were struck with terror when they saw the snake, portent of aegis-bearing Jove, writhing in the midst of them, and Polydamas went up to Hector and said, “Hector, at our councils of war you are ever given to rebuke me, even when I speak wisely, as though it were not well, forsooth, that one of the people should cross your will either in the field or at the council board; you would have them support you always: nevertheless I will say what I think will be best; let us not now go on to fight the Danaans at their ships, for I know what will happen if this soaring eagle which skirted the left wing of our host with a monstrous blood-red snake in its talons (the snake being still alive) was really sent as an omen to the Trojans on their essaying to cross the trench. The eagle let go her hold; she did not succeed in taking it home to her little ones, and so will it be—with ourselves; even though by a mighty effort we break through the gates and wall of the Achaeans, and they give way before us, still we shall not return in good order by the way we came, but shall leave many a man behind us whom the Achaeans will do to death in defence of their ships. Thus would any seer who was expert in these matters, and was trusted by the people, read the portent.”
-
-
-
----
 
 Hector looked fiercely at him and said, "Polydamas, I like not of your reading. You can find a better saying than this if you will. If, however, you have spoken in good earnest, then indeed has heaven robbed you of your reason. You would have me pay no heed to the counsels of Jove, nor to the promises he made me—and he bowed his head in confirmation; you bid me be ruled rather by the flight of wild-fowl. What care I whether they fly towards dawn or dark, and whether they be on my right hand or on my left? Let us put our trust rather in the counsel of great Jove, king of mortals and immortals. There is one omen, and one only—that a man should fight for his country. Why are you so fearful? Though we be all of us slain at the ships of the Argives you are not likely to be killed yourself, for you are not steadfast nor courageous. If you will not fight, or would talk others over from doing so, you shall fall forthwith before my spear."
 
@@ -1572,10 +1211,6 @@ Thus did the two go about shouting and cheering the Achaeans on. As the flakes t
 Still the Trojans and brave Hector would not yet have broken down the gates and the great bar, had not Jove turned his son Sarpedon against the Argives as a lion against a herd of horned cattle. Before him he held his shield of hammered bronze, that the smith had beaten so fair and round, and had lined with ox-hides which he had made fast with rivets of gold all round the shield; this he held in front of him, and brandishing his two spears came on like some lion of the wilderness, who has been long famished for want of meat and will dare break even into a well-fenced homestead to try and get at the sheep. He may find the shepherds keeping watch over their flocks with dogs and spears, but he is in no mind to be driven from the fold till he has had a try for it; he will either spring on a sheep and carry it off, or be hit by a spear from some strong hand—even so was Sarpedon fain to attack the wall and break down its battlements. Then he said to Glaucus son of Hippolochus, "Glaucus, why in Lycia do we receive especial honour as regards our place at table? Why are the choicest portions served us and our cups kept brimming, and why do men look up to us as though we were gods? Moreover we hold a large estate by the banks of the river Xanthus, fair with orchard lawns and wheat-growing land; it becomes us, therefore, to take our stand at the head of all the Lycians and bear the brunt of the fight, that one may say to another, 'Our princes in Lycia eat the fat of the land and drink best of wine, but they are fine fellows; they fight well and are ever at the front in battle.' My good friend, if, when we were once out of this fight, we could escape old age and death thenceforward and forever, I should neither press forward myself nor bid you do so, but death in ten thousand shapes hangs ever over our heads, and no man can elude him; therefore let us go forward and either win glory for ourselves, or yield it to another."
 
 Glaucus heeded his saying, and the pair forthwith led on the host of Lycians. Menestheus son of Peteos was dismayed when he saw them, for it was against his part of the wall that they came—bringing destruction with them; he looked along the wall for some chieftain to support his comrades and saw the two Ajaxes, men ever eager for the fray, and Teucer, who had just come from his tent, standing near them; but he could not make his voice heard by shouting to them, so great an uproar was there from crashing shields and helmets and the battering of gates with a din which reached the skies. For all the gates had been closed, and the Trojans were hammering at them to try and break their way through them. Menestheus, therefore, sent Thootes with a message to Ajax. "Run, good Thootes," he said, "and call Ajax, or better still bid both come, for it will be all over with us here directly; the leaders of the Lycians are upon us, men who have ever fought desperately heretofore. But if they have too much on their hands to let them come, at any rate let Ajax son of Telamon do so, and let Teucer, the famous bowman, come with him."
-
-
-
----
 
 The messenger did as he was told, and set off running along the wall of the Achaeans. When he reached the Ajaxes he said to them, "Sirs, princes of the Argives, the son of noble Peteos bids you come to him for a while and help him. You had better both come if you can, or it will be all over with him directly; the leaders of the Lycians are upon him, men who have ever fought desperately heretofore; if you have too much on your hands to let both come, at any rate let Ajax, son of Telamon, do so, and let Teucer, the famous bowman, come with him."
 
@@ -1591,13 +1226,9 @@ The Lycians, shamed by his rebuke, pressed closer round him who was their counse
 
 Thus did he hound them on, and in one body they rushed straight at the wall as he had bidden them, and scaled the battlements with sharp spears in their hands. Hector laid hold of a stone that lay just outside the gates and was thick at one end but pointed at the other; two of the best men in a town, as men now are, could hardly raise it from the ground and put it on to a waggon, but Hector lifted it quite easily by himself, for the son of scheming Saturn made it light for him. As a shepherd picks up a ram's fleece with one hand and finds it no burden, so easily did Hector lift the great stone and drive it right at the doors that closed the gates so strong and so firmly set. These doors were double and high, and were kept closed by two cross-bars to which there was but one key. When he had got close up to them, Hector strode towards them that his blow might gain in force and struck them in the middle, leaning his whole weight against them. He broke both hinges, and the stone fell inside by reason of its great weight. The portals re-echoed with the sound, the bars held no longer, and the doors flew open, one one way, and the other the other, through the force of the blow. Then brave Hector leaped inside with a face as dark as that of flying night. The gleaming bronze flashed fiercely about his body and he had two spears in his hand. None but a god could have withstood him as he flung himself into the gateway, and his eyes glared like fire. Then he turned round towards the Trojans and called on them to scale the wall, and they did as he bade them—some of them at once climbing over the wall, while others passed through the gates. The Danaans then fled panic-stricken towards their ships, and all was uproar and confusion.
 
-
-
----
-
 # BOOK XIII.
 
-Neptune helps the Achaeans—The feats of Idomeneus—Hector at the ships.
+*Neptune helps the Achaeans—The feats of Idomeneus—Hector at the ships.*
 
 Now when Jove had thus brought Hector and the Trojans to the ships, he left them to their never-ending toil, and turned his keen eyes away, looking elsewhere towards the horse-breeders of Thrace, the Mysians, fighters at close quarters, the noble Hippemolgi, who live on milk, and the Abians, justest of mankind. He no longer turned so much as a glance towards Troy, for he did not think that any of the immortals would go and help either Trojans or Danaans.
 
@@ -1617,10 +1248,6 @@ And Ajax son of Telamon answered, “I too feel my hands grasp my spear more fir
 
 Thus did they converse, exulting in the hunger after battle with which the god had filled them. Meanwhile the earth-encircler roused the Achaeans, who were resting in the rear by the ships overcome at once by hard fighting and by grief at seeing that the Trojans had got over the wall in force. Tears began falling from their eyes as they beheld them, for they made sure that they should not escape destruction; but the lord of the earthquake passed lightly about among them and urged their battalions to the front.
 
-75
-
----
-
 First he went up to Teucer and Leitus, the hero Peneleos, and Thoas and Deipyrus; Meriones also and Antilochus, valiant warriors; all did he exhort. "Shame on you young Argives," he cried, "it was on your prowess I relied for the saving of our ships; if you fight not with might and main, this very day will see us overcome by the Trojans. Of a truth my eyes behold a great and terrible portent which I had never thought to see—the Trojans at our ships—they, who were heretofore like panic-stricken hinds, the prey of jackals and wolves in a forest, with no strength but in flight for they cannot defend themselves. Hitherto the Trojans dared not for one moment face the attack of the Achaeans, but now they have sallied far from their city and are fighting at our very ships through the cowardice of our leader and the disaffection of the people themselves, who in their discontent care not to fight in defence of the ships but are being slaughtered near them. True, King Agamemnon son of Atreus is the cause of our disaster by having insulted the son of Peleus, still this is no reason why we should leave off fighting. Let us be quick to heal, for the hearts of the brave heal quickly. You do ill to be thus remiss, you, who are the finest soldiers in our whole army. I blame no man for keeping out of battle if he is a weakling, but I am indignant with such men as you are. My good friends, matters will soon become even worse through this slackness; think, each one of you, of his own honour and credit, for the hazard of the fight is extreme. Great Hector is now fighting at our ships; he has broken through the gates and the strong bolt that held them."
 
 Thus did the earth-encircler address the Achaeans and urge them on. Thereon round the two Ajaxes there gathered strong bands of men, of whom not even Mars nor Minerva, marshaller of hosts could make light if they went among them, for they were the picked men of all those who were now awaiting the onset of Hector and the Trojans. They made a living fence, spear to spear, shield to shield, buckler to buckler, helmet to helmet, and man to man. The horse-hair crests on their gleaming helmets touched one another as they nodded forward, so closely serried were they; the spears they brandished in their strong hands were interlaced, and their hearts were set on battle.
@@ -1632,10 +1259,6 @@ With these words he put heart and soul into them all. Deiphobus son of Priam wen
 The others continued fighting, and the cry of battle rose up into the heavens. Teucer son of Telamon was the first to kill his man, to wit, the warrior Imbrius, son of Mentor, rich in horses. Until the Achaeans came he had lived in Pedaeum, and had married Medesicaste, a bastard daughter of Priam; but on the arrival of the Danaan fleet he had gone back to Ilius, and was a great man among the Trojans, dwelling near Priam himself, who gave him like honour with his own sons. The son of Telamon now struck him under the ear with a spear which he then drew back again, and Imbrius fell headlong as an ash-tree when it is felled on the crest of some high mountain beacon, and its delicate green foliage comes toppling down to the ground. Thus did he fall with his bronze-dight armour ringing harshly round him, and Teucer sprang forward with intent to strip him of his armour; but as he was doing so, Hector took aim at him with a spear. Teucer saw the spear coming and swerved aside, whereon it hit Amphimachus, son of Cteatus son of Actor, in the chest as he was coming into battle, and his armour rang rattling round him as he fell heavily to the ground. Hector sprang forward to take Amphimachus's helmet from off his temples, and in a moment Ajax threw a spear at him, but did not wound him, for he was encased all over in his terrible armour; nevertheless the spear struck the boss of his shield with such force as to drive him back from the two corpses, which the Achaeans then drew off. Stichius and Menestheus, captains of the Athenians, bore away Amphimachus to the host of the Achaeans, while the two brave and impetuous Ajaxes did the like by Imbrius. As two lions snatch a goat from the hounds that have it in their fangs, and bear it through thick brushwood high above the ground in their jaws, thus did the Ajaxes bear aloft the body of Imbrius, and strip it of its armour. Then the son of Oileus severed the head from the neck in revenge for the death of Amphimachus, and sent it whirling over the crowd as though it had been a ball, till it fell in the dust at Hector's feet.
 
 Neptune was exceedingly angry that his grandson Amphimachus should have fallen; he therefore went to the tents and ships of the Achaeans to urge the Danaans still further, and to devise evil for the Trojans. Idomeneus met him, as he was taking leave of a comrade, who had just come to him from the fight, wounded in the knee. His fellow-soldiers bore him off the field, and
-
-
-
----
 
 Idomeneus having given orders to the physicians went on to his tent, for he was still thirsting for battle. Neptune spoke in the likeness and with the voice of Thoas son of Andraemon who ruled the Aetolians of all Pleuron and high Calydon, and was honoured among his people as though he were a god. “Idomeneus,” said he, “lawgiver to the Cretans, what has now become of the threats with which the sons of the Achaeans used to threaten the Trojans?”
 
@@ -1663,10 +1286,6 @@ Meriones, peer of fleet Mars, then led the way till they came to the part of the
 
 Now when the Trojans saw Idomeneus coming on like a flame of fire, him and his squire clad in their richly wrought armour, they shouted and made towards him all in a body, and a furious hand-to-hand fight raged under the ships’ sterns. Fierce as the shrill winds that whistle upon a day when dust lies deep on the roads, and the gusts raise it into a thick cloud—even such was the fury of the combat, and might and main did they hack at each other with spear and sword throughout the host. The field bristled with the long and deadly spears which they bore. Dazzling was the sheen of their gleaming helmets,
 
-
-
----
-
 their fresh-burnished breastplates, and glittering shields as they joined battle with one another. Iron indeed must be his courage who could take pleasure in the sight of such a turmoil, and look on it without being dismayed.
 
 Thus did the two mighty sons of Saturn devise evil for mortal heroes. Jove was minded to give victory to the Trojans and to Hector, so as to do honour to fleet Achilles, nevertheless he did not mean to utterly overthrow the Achaean host before Ilius, and only wanted to glorify Thetis and her valiant son. Neptune on the other hand went about among the Argives to incite them, having come up from the grey sea in secret, for he was grieved at seeing them vanquished by the Trojans, and was furiously angry with Jove. Both were of the same race and country, but Jove was elder born and knew more, therefore Neptune feared to defend the Argives openly, but in the likeness of man, he kept on encouraging them throughout their host. Thus, then, did these two devise a knot of war and battle, that none could unloose or break, and set both sides tugging at it, to the failing of men's knees beneath them.
@@ -1680,10 +1299,6 @@ Deiphobus then came close up to Idomeneus to avenge Asius, and took aim at him w
 Thus did he vaunt, and the Argives were stung by his saying. Noble Antilochus was more angry than any one, but grief did not make him forget his friend and comrade. He ran up to him, bestrode him, and covered him with his shield; then two of his staunch comrades, Mecisteus son of Echius, and Alastor, stooped down, and bore him away groaning heavily to the ships. But Idomeneus ceased not his fury. He kept on striving continually either to enshroud some Trojan in the darkness of death, or himself to fall while warding off the evil day from the Achaeans. Then fell Alcathous son of noble Aesyetes; he was son-in-law to Anchises, having married his eldest daughter Hippodameia, who was the darling of her father and mother, and excelled all her generation in beauty, accomplishments, and understanding, wherefore the bravest man in all Troy had taken her to wife—him did Neptune lay low by the hand of Idomeneus, blinding his bright eyes and binding his strong limbs in fetters so that he could neither go back nor to one side, but stood stock still like pillar or lofty tree when Idomeneus struck him with a spear in the middle of his chest. The coat of mail that had hitherto protected his body was now broken, and rang harshly as the spear tore through it. He fell heavily to the ground, and the spear stuck in his heart, which still beat, and made the butt-end of the spear quiver till dread Mars put an end to his life. Idomeneus vaunted over him and cried with a loud voice saying, "Deiphobus, since you are in a mood to vaunt, shall we cry quits now that we have killed three men to your one? Nay, sir, stand in fight with me yourself, that you may learn what manner of Jove-begotten man am I that have come hither. Jove first begot Minos, chief ruler in Crete, and Minos in his turn begot a son, noble Deucalion. Deucalion begot me to be a ruler over many men in Crete, and my ships have now brought me hither, to be the bane of yourself, your father, and the Trojans."
 
 Thus did he speak, and Deiphobus was in two minds, whether to go back and fetch some other Trojan to help him, or to take up the challenge single-handed. In the end, he deemed it best to go and fetch Aeneas, whom he found standing in the rear, for he had long been aggrieved with Priam because in spite of his brave deeds he did not give him his due share of honour.
-
-
-
----
 
 Deiphobus went up to him and said, “Aeneas, prince among the Trojans, if you know any ties of kinship, help me now to defend the body of your sister’s husband; come with me to the rescue of Alcathous, who being husband to your sister brought you up when you were a child in his house, and now Idomeneus has slain him.”
 
@@ -1699,10 +1314,6 @@ The others still fought on, and the battle-cry rose to heaven without ceasing. A
 
 As he was thus aiming among the crowd, he was seen by Adamas, son of Asius, who rushed towards him and struck him with a spear in the middle of his shield, but Neptune made its point without effect, for he grudged him the life of Antilochus. One half, therefore, of the spear stuck fast like a charred stake in Antilochus’s shield, while the other lay on the ground. Adamas then sought shelter under cover of his men, but Meriones followed after and hit him with a spear midway between the private parts and the navel, where a wound is particularly painful to wretched mortals. There did Meriones transfix him, and he writhed convulsively about the spear as some bull whom mountain herdsmen have bound with ropes of withes and are taking away perforce. Even so did he move convulsively for a while, but not for very long, till Meriones came up and drew the spear out of his body, and his eyes were veiled in darkness.
 
-
-
----
-
 Helenus then struck Deipyrus with a great Thracian sword, hitting him on the temple in close combat and tearing the helmet from his head; the helmet fell to the ground, and one of those who were fighting on the Achaean side took charge of it as it rolled at his feet, but the eyes of Deipyrus were closed in the darkness of death.
 
 On this Menelaus was grieved, and made menacingly towards Helenus, brandishing his spear; but Helenus drew his bow, and the two attacked one another at one and the same moment, the one with his spear, and the other with his bow and arrow. The son of Priam hit the breastplate of Menelaus's corslet, but the arrow glanced from off it. As black beans or pulse come pattering down on to a threshing-floor from the broad winnowing-shovel, blown by shrill winds and shaken by the shovel—even so did the arrow glance off and recoil from the shield of Menelaus, who in his turn wounded the hand with which Helenus carried his bow; the spear went right through his hand and stuck in the bow itself, so that to his life he retreated under cover of his men, with his hand dragging by his side—for the spear weighed it down till Agenor drew it out and bound the hand carefully up in a woollen sling which his esquire had with him.
@@ -1716,10 +1327,6 @@ Harpalion son of King Pylaemenes then sprang upon him; he had come to fight at T
 Paris was deeply grieved by the death of Harpalion, who was his host when he went among the Paphlagonians; he aimed an arrow, therefore, in order to avenge him. Now there was a certain man named Euchenor, son of Polyidus the prophet, a brave man and wealthy, whose home was in Corinth. This Euchenor had set sail for Troy well knowing that it would be the death of him, for his good old father Polyidus had often told him that he must either stay at home and die of a terrible disease, or go with the Achaeans and perish at the hands of the Trojans; he chose, therefore, to avoid incurring the heavy fine the Achaeans would have laid upon him, and at the same time to escape the pain and suffering of disease. Paris now smote him on the jaw under his ear, whereon the life went out of him and he was enshrouded in the darkness of death.
 
 Thus then did they fight as it were a flaming fire. But Hector had not yet heard, and did not know that the Argives were making havoc of his men on the left wing of the battle, where the Achaeans ere long would have triumphed over them, so vigorously did Neptune cheer them on and help them. He therefore held on at the point where he had first forced his way through the gates and the wall, after breaking through the serried ranks of Danaan warriors. It was here that the ships of Ajax and Protesilaus were drawn up by the sea-shore; here the wall was at its lowest, and the fight both of man and horse raged most fiercely. The Boeotians and the Ionians with their long tunics, the Locrians, the men of Phthia, and the famous force of the Epeans could hardly stay Hector as he rushed on towards the ships, nor could they drive him from them, for he was as a wall of fire. The chosen men of the Athenians were in the van, led by Menestheus son of Peteos, with whom were also Pheidas, Stichius, and stalwart Bias; Meges son of Phyleus, Amphion, and Dracius commanded the Epeans, while Medon and staunch Podarces led the men of Phthia. Of these, Medon was bastard son to Oileus and brother of Ajax, but he lived in Phylace away from his own country, for he had killed the brother of his stepmother Eriopis, the wife of Oileus; the other,
-
-
-
----
 
 Podarces, was the son of Iphiclus, son of Phylacus. These two stood in the van of the Phthians, and defended the ships along with the Boeotians.
 
@@ -1737,21 +1344,13 @@ With these words he satisfied his brother, and the two went towards the part of 
 
 As he was thus speaking a bird flew by upon his right hand, and the host of the Achaeans shouted, for they took heart at the omen. But Hector answered, "Ajax, braggart and false of tongue, would that I were as sure of being son for evermore to aegis-
 
-
-
----
-
 bearing Jove, with Queen Juno for my mother, and of being held in like honour with Minerva and Apollo, as I am that this day is big with the destruction of the Achaeans; and you shall fall among them if you dare abide my spear; it shall rend your fair body and bid you glut our hounds and birds of prey with your fat and your flesh, as you fall by the ships of the Achaeans."
 
 With these words he led the way and the others followed after with a cry that rent the air, while the host shouted behind them. The Argives on their part raised a shout likewise, nor did they forget their prowess, but stood firm against the onslaught of the Trojan chieftains, and the cry from both the hosts rose up to heaven and to the brightness of Jove's presence.
 
-
-
----
-
 # BOOK XIV.
 
-Agamemnon proposes that the Achaeans should sail home, and is rebuked by Ulysses—Juno beguiles Jupiter—Hector is wounded.
+*Agamemnon proposes that the Achaeans should sail home, and is rebuked by Ulysses—Juno beguiles Jupiter—Hector is wounded.*
 
 Nestor was sitting over his wine, but the cry of battle did not escape him, and he said to the son of Aesculapius, “What, noble Machaon, is the meaning of all this? The shouts of men fighting by our ships grow stronger and stronger; stay here, therefore, and sit over your wine, while fair Hecamede heats you a bath and washes the clotted blood from off you. I will go at once to the look-out station and see what it is all about.”
 
@@ -1764,10 +1363,6 @@ Then Nestor knight of Gerene, answered, “It is indeed as you say; it is all co
 And King Agamemnon answered, “Nestor, if the Trojans are indeed fighting at the rear of our ships, and neither the wall nor the trench has served us—over which the Danaans toiled so hard, and which they deemed would be an impregnable bulwark both for us and our fleet—I see it must be the will of Jove that the Achaeans should perish ingloriously here, far from Argos. I knew when Jove was willing to defend us, and I know now that he is raising the Trojans to like honour with the gods, while us, on the other hand, he has bound hand and foot. Now, therefore, let us all do as I say; let us bring down the ships that are on the beach and draw them into the water; let us make them fast to their mooring-stones a little way out, against the fall of night—if even by night the Trojans will desist from fighting; we may then draw down the rest of the fleet. There is nothing wrong in flying ruin even by night. It is better for a man that he should fly and be saved than be caught and killed.”
 
 Ulysses looked fiercely at him and said, “Son of Atreus, what are you talking about? Wretch, you should have commanded some other and baser army, and not been ruler over us to whom Jove has allotted a life of hard fighting from youth to old age, till we every one of us perish. Is it thus that you would quit the city of Troy, to win which we have suffered so much hardship? Hold your peace, lest some other of the Achaeans hear you say what no man who knows how to give good counsel, no king over so great a host as that of the Argives should ever have let fall from his lips. I despise your judgement utterly for what you have been saying. Would you, then, have us draw down our ships into the water while the battle is raging, and thus play further into the hands of the conquering Trojans? It would be ruin; the Achaeans will not go on fighting when they see the ships being drawn into the water, but will cease attacking and keep turning their eyes towards them; your counsel, therefore, sir captain, would be our destruction.”
-
-83
-
----
 
 Agamemnon answered, "Ulysses, your rebuke has stung me to the heart. I am not, however, ordering the Achaeans to draw their ships into the sea whether they will or no. Someone, it may be, old or young, can offer us better counsel which I shall rejoice to hear."
 
@@ -1791,10 +1386,6 @@ Thereon laughter-loving Venus said, "I cannot and must not refuse you, for you s
 
 As she spoke she loosed from her bosom the curiously embroidered girdle into which all her charms had been wrought—love, desire, and that sweet flattery which steals the judgement even of the most prudent. She gave the girdle to Juno and said, "Take this girdle wherein all my charms reside and lay it in your bosom. If you will wear it I promise you that your errand, be it what it may, will not be bootless."
 
-
-
----
-
 When she heard this Juno smiled, and still smiling she laid the girdle in her bosom.
 
 Venus now went back into the house of Jove, while Juno darted down from the summits of Olympus. She passed over Pieria and fair Emathia, and went on and on till she came to the snowy ranges of the Thracian horsemen, over whose topmost crests she sped without ever setting foot to ground. When she came to Athos she went on over the waves of the sea till she reached Lemnos, the city of noble Thoas. There she met Sleep, own brother to Death, and caught him by the hand, saying, "Sleep, you who lord it alike over mortals and immortals, if you ever did me a service in times past, do one for me now, and I shall be grateful to you ever after. Close Jove's keen eyes for me in slumber while I hold him clasped in my embrace, and I will give you a beautiful golden seat, that can never fall to pieces; my clubfooted son Vulcan shall make it for you, and he shall give it a footstool for you to rest your fair feet upon when you are at table."
@@ -1812,10 +1403,6 @@ Then Juno told him a lying tale and said, "I am going to the world's end, to vis
 And Jove said, "Juno, you can choose some other time for paying your visit to Oceanus—for the present let us devote ourselves to love and to the enjoyment of one another. Never yet have I been so overpowered by passion neither for goddess nor mortal woman as I am at this moment for yourself—not even when I was in love with the wife of Ixion who bore me Pirithous, peer of gods in counsel, nor yet with Danae the daintily-ancled daughter of Acrisius, who bore me the famed hero Perseus. Then there was the daughter of Phoenix, who bore me Minos and Rhadamanthus: there was Semele, and Alcmena in Thebes by whom I begot my lion-hearted son Hercules, while Semele became mother to Bacchus the comforter of mankind. There was queen Ceres again, and lovely Leto, and yourself—but with none of these was I ever so much enamoured as I now am with you."
 
 Juno again answered him with a lying tale. "Most dread son of Saturn," she exclaimed, "what are you talking about? Would you have us enjoy one another here on the top of Mount Ida, where everything can be seen? What if one of the ever-living gods should see us sleeping together, and tell the others? It would be such a scandal that when I had risen from your embraces I could never show myself inside your house again; but if you are so minded, there is a room which your son Vulcan has made me, and he has given it good strong doors; if you would so have it, let us go thither and lie down."
-
-
-
----
 
 And Jove answered, “Juno, you need not be afraid that either god or man will see you, for I will enshroud both of us in such a dense golden cloud, that the very sun for all his bright piercing beams shall not see through it.”
 
@@ -1835,10 +1422,6 @@ The sons of the Achaeans came running with a loud cry towards him, hoping to dra
 
 When the Argives saw Hector leaving the field, they took heart and set upon the Trojans yet more furiously. Ajax fleet son of Oileus began by springing on Satnius son of Enops, and wounding him with his spear: a fair naiad nymph had borne him to Enops as he was herding cattle by the banks of the river Satnioeis. The son of Oileus came up to him and struck him in the flank so that he fell, and a fierce fight between Trojans and Danaans raged round his body. Polydamas son of Panthous drew near to avenge him, and wounded Prothoenor son of Areilycus on the right shoulder; the terrible spear went right through his shoulder, and he clutched the earth as he fell in the dust. Polydamas vaunted loudly over him saying, “Again I take it that the spear has not sped in vain from the strong hand of the son of Panthous; an Argive has caught it in his body, and it will serve him for a staff as he goes down into the house of Hades.”
 
-
-
----
-
 The Argives were maddened by this boasting. Ajax son of Telamon was more angry than any, for the man had fallen close beside him; so he aimed at Polydamas as he was retreating, but Polydamas saved himself by swerving aside and the spear struck Archelochus son of Antenor, for heaven counselled his destruction; it struck him where the head springs from the neck at the top joint of the spine, and severed both the tendons at the back of the head. His head, mouth, and nostrils reached the ground long before his legs and knees could do so, and Ajax shouted to Polydamas saying, “Think, Polydamas, and tell me truly whether this man is not as well worth killing as Prothoenor was: he seems rich, and of rich family, a brother, it may be, or son of the knight Antenor, for he is very like him.”
 
 But he knew well who it was, and the Trojans were greatly angered. Acamas then bestrode his brother’s body and wounded Promachus the Boeotian with his spear, for he was trying to drag his brother’s body away. Acamas vaunted loudly over him saying, “Argive archers, braggarts that you are, toil and suffering shall not be for us only, but some of you too shall fall here as well as ourselves. See how Promachus now sleeps, vanquished by my spear; payment for my brother’s blood has not been long delayed; a man, therefore, may well be thankful if he leaves a kinsman in his house behind him to avenge his fall.”
@@ -1849,13 +1432,9 @@ As he spoke fear fell upon them, and every man looked round about to see whither
 
 Tell me now, O Muses that dwell on Olympus, who was the first of the Argives to bear away blood-stained spoils after Neptune lord of the earthquake had turned the fortune of war. Ajax son of Telamon was first to wound Hyrtius son of Gyrtius, captain of the staunch Mysians. Antilochus killed Phalces and Mermerus, while Meriones slew Morys and Hippotion, Teucer also killed Prothoon and Periphetes. The son of Atreus then wounded Hyperenor shepherd of his people, in the flank, and the bronze point made his entrails gush out as it tore in among them; on this his life came hurrying out of him at the place where he had been wounded, and his eyes were closed in darkness. Ajax son of Oileus killed more than any other, for there was no man so fleet as he to pursue flying foes when Jove had spread panic among them.
 
-
-
----
-
 # BOOK XV.
 
-Jove awakes, tells Apollo to heal Hector, and the Trojans again become victorious.
+*Jove awakes, tells Apollo to heal Hector, and the Trojans again become victorious.*
 
 But when their flight had taken them past the trench and the set stakes, and many had fallen by the hands of the Danaans, the Trojans made a halt on reaching their chariots, routed and pale with fear. Jove now woke on the crests of Ida, where he was lying with golden-throned Juno by his side, and starting to his feet he saw the Trojans and Achaeans, the one thrown into confusion, and the others driving them pell-mell before them with King Neptune in their midst. He saw Hector lying on the ground with his comrades gathered round him, gasping for breath, wandering in mind and vomiting blood, for it was not the feeblest of the Achaeans who struck him.
 
@@ -1870,10 +1449,6 @@ Juno heeded his words and went from the heights of Ida to great Olympus. Swift a
 And Juno answered, "Themis, do not ask me about it. You know what a proud and cruel disposition my husband has. Lead the gods to table, where you and all the immortals can hear the wicked designs which he has avowed. Many a one, mortal and immortal, will be angered by them, however peaceably he may be feasting now."
 
 On this Juno sat down, and the gods were troubled throughout the house of Jove. Laughter sat on her lips but her brow was furrowed with care, and she spoke up in a rage. "Fools that we are," she cried, "to be thus madly angry with Jove; we keep on wanting to go up to him and stay him by force or by persuasion, but he sits aloof and cares for nobody, for he knows that he is much stronger than any other of the immortals. Make the best, therefore, of whatever ills he may choose to send each one of
-
-88
-
----
 
 you; Mars, I take it, has had a taste of them already, for his son Ascalaphus has fallen in battle—the man whom of all others he loved most dearly and whose father he owns himself to be.”
 
@@ -1897,10 +1472,6 @@ Neptune answered, “Goddess Iris, your words have been spoken in season. It is 
 
 Neptune now left the field to go down under the sea, and sorely did the Achaeans miss him. Then Jove said to Apollo, “Go, dear Phoebus, to Hector, for Neptune who holds the earth in his embrace has now gone down under the sea to avoid the severity of my displeasure. Had he not done so those gods who are below with Saturn would have come to hear of the fight between us. It is better for both of us that he should have curbed his anger and kept out of my reach, for I should have had much trouble with him. Take, then, your tasselled aegis, and shake it furiously, so as to set the Achaean heroes in a panic; take, moreover, brave Hector, O Far-Darter, into your own care, and rouse him to deeds of daring, till the Achaeans are sent flying
 
-
-
----
-
 back to their ships and to the Hellespont. From that point I will think it well over, how the Achaeans may have a respite from their troubles.”
 
 Apollo obeyed his father’s saying, and left the crests of Ida, flying like a falcon, bane of doves and swiftest of all birds. He found Hector no longer lying upon the ground, but sitting up, for he had just come to himself again. He knew those who were about him, and the sweat and hard breathing had left him from the moment when the will of aegis-bearing Jove had revived him. Apollo stood beside him and said, “Hector son of Priam, why are you so faint, and why are you here away from the others? Has any mishap befallen you?”
@@ -1923,10 +1494,6 @@ The fight then became more scattered and they killed one another where they best
 
 While they were spoiling these heroes of their armour, the Achaeans were flying pell-mell to the trench and the set stakes, and were forced back within their wall. Hector then cried out to the Trojans, “Forward to the ships, and let the spoils be. If I see any man keeping back on the other side the wall away from the ships I will have him killed: his kinsmen and kinswomen shall not give him his dues of fire, but dogs shall tear him in pieces in front of our city.”
 
-
-
----
-
 As he spoke he laid his whip about his horses' shoulders and called to the Trojans throughout their ranks; the Trojans shouted with a cry that rent the air, and kept their horses neck and neck with his own. Phoebus Apollo went before, and kicked down the banks of the deep trench into its middle so as to make a great broad bridge, as broad as the throw of a spear when a man is trying his strength. The Trojan battalions poured over the bridge, and Apollo with his redoubtable aegis led the way. He kicked down the wall of the Achaeans as easily as a child who playing on the sea-shore has built a house of sand and then kicks it down again and destroys it—even so did you, O Apollo, shed toil and trouble upon the Argives, filling them with panic and confusion.
 
 Thus then were the Achaeans hemmed in at their ships, calling out to one another and raising their hands with loud cries every man to heaven. Nestor of Gerene, tower of strength to the Achaeans, lifted up his hands to the starry firmament of heaven, and prayed more fervently than any of them. "Father Jove," said he, "if ever any one in wheat-growing Argos burned you fat thigh-bones of sheep or heifer and prayed that he might return safely home, whereon you bowed your head to him in assent, bear it in mind now, and suffer not the Trojans to triumph thus over the Achaeans."
@@ -1947,10 +1514,6 @@ Teucer heard him and hastened towards him with his bow and quiver in his hands. 
 
 Teucer then aimed another arrow at Hector, and there would have been no more fighting at the ships if he had hit him and killed him then and there: Jove, however, who kept watch over Hector, had his eyes on Teucer, and deprived him of his triumph, by breaking his bowstring for him just as he was drawing it and about to take his aim; on this the arrow went astray and the bow fell from his hands. Teucer shook with anger and said to his brother, "Alas, see how heaven thwarts us in all we do; it has broken my bowstring and snatched the bow from my hand, though I strung it this self-same morning that it might serve me for many an arrow."
 
-
-
----
-
 Ajax son of Telamon answered, "My good fellow, let your bow and your arrows be, for Jove has made them useless in order to spite the Danaans. Take your spear, lay your shield upon your shoulder, and both fight the Trojans yourself and urge others to do so. They may be successful for the moment but if we fight as we ought they will find it a hard matter to take the ships."
 
 Teucer then took his bow and put it by in his tent. He hung a shield four hides thick about his shoulders, and on his comely head he set his helmet well wrought with a crest of horse-hair that nodded menacingly above it; he grasped his redoubtable bronze-shod spear, and forthwith he was by the side of Ajax.
@@ -1967,10 +1530,6 @@ Thus did he exhort men who were already bent upon driving back the Trojans. They
 
 He hurried away when he had thus spurred Antilochus, who at once darted out from the front ranks and aimed a spear, after looking carefully round him. The Trojans fell back as he threw, and the dart did not speed from his hand without effect, for it struck Melanippus the proud son of Hiketaon in the breast by the nipple as he was coming forward, and his armour rang rattling round him as he fell heavily to the ground. Antilochus sprang upon him as a dog springs on a fawn which a hunter has hit as it was breaking away from its covert, and killed it. Even so, O Melanippus, did stalwart Antilochus spring upon you to strip you of your armour; but noble Hector marked him, and came running up to him through the thick of the battle. Antilochus, brave soldier though he was, would not stay to face him, but fled like some savage creature which knows it has done wrong, and flies, when it has killed a dog or a man who is herding his cattle, before a body of men can be gathered to attack it. Even so did the son of Nestor fly, and the Trojans and Hector with a cry that rent the air showered their weapons after him; nor did he turn round and stay his flight till he had reached his comrades.
 
-
-
----
-
 The Trojans, fierce as lions, were still rushing on towards the ships in fulfilment of the behests of Jove who kept spurring them on to new deeds of daring, while he deadened the courage of the Argives and defeated them by encouraging the Trojans. For he meant giving glory to Hector son of Priam, and letting him throw fire upon the ships, till he had fulfilled the unrighteous prayer that Thetis had made him; Jove, therefore, bided his time till he should see the glare of a blazing ship. From that hour he was about so to order that the Trojans should be driven back from the ships and to vouchsafe glory to the Achaeans. With this purpose he inspired Hector son of Priam, who was eager enough already, to assail the ships. His fury was as that of Mars, or as when a fire is raging in the glades of some dense forest upon the mountains; he foamed at the mouth, his eyes glared under his terrible eyebrows, and his helmet quivered on his temples by reason of the fury with which he fought. Jove from heaven was with him, and though he was but one against many, vouchsafed him victory and glory; for he was doomed to an early death, and already Pallas Minerva was hurrying on the hour of his destruction at the hands of the son of Peleus. Now, however, he kept trying to break the ranks of the enemy wherever he could see them thickest, and in the goodliest armour; but do what he might he could not break through them, for they stood as a tower foursquare, or as some high cliff rising from the grey sea that braves the anger of the gale, and of the waves that thunder up against it. He fell upon them like flames of fire from every quarter. As when a wave, raised mountain high by wind and storm, breaks over a ship and covers it deep in foam, the fierce winds roar against the mast, the hearts of the sailors fail them for fear, and they are saved but by a very little from destruction—even so were the hearts of the Achaeans fainting within them. Or as a savage lion attacking a herd of cows while they are feeding by thousands in the low-lying meadows by some wide-watered shore—the herdsman is at his wit's end how to protect his herd and keeps going about now in the van and now in the rear of his cattle, while the lion springs into the thick of them and fastens on a cow so that they all tremble for fear—even so were the Achaeans utterly panic-stricken by Hector and father Jove. Nevertheless Hector only killed Periphetes of Mycenae; he was son of Copreus who was wont to take the orders of King Eurystheus to mighty Hercules, but the son was a far better man than the father in every way; he was fleet of foot, a valiant warrior, and in understanding ranked among the foremost men of Mycenae. He it was who then afforded Hector a triumph, for as he was turning back he stumbled against the rim of his shield which reached his feet, and served to keep the javelins off him. He tripped against this and fell face upward, his helmet ringing loudly about his head as he did so. Hector saw him fall and ran up to him; he then thrust a spear into his chest, and killed him close to his own comrades. These, for all their sorrow, could not help him for they were themselves terribly afraid of Hector.
 
 They had now reached the ships and the prows of those that had been drawn up first were on every side of them, but the Trojans came pouring after them. The Argives were driven back from the first row of ships, but they made a stand by their tents without being broken up and scattered; shame and fear restrained them. They kept shouting incessantly to one another, and Nestor of Gerene, tower of strength to the Achaeans, was loudest in imploring every man by his parents, and beseeching him to stand firm.
@@ -1985,33 +1544,21 @@ And now the battle again raged furiously at the ships. You would have thought th
 
 Thus were the two sides minded. Then Hector seized the stern of the good ship that had brought Protesilaus to Troy, but never bore him back to his native land. Round this ship there raged a close hand-to-hand fight between Danaans and Trojans. They did not fight at a distance with bows and javelins, but with one mind hacked at one another in close combat with their mighty swords and spears pointed at both ends; they fought moreover with keen battle-axes and with hatchets. Many a good stout blade hilted and scabbarded with iron, fell from hand or shoulder as they fought, and the earth ran red with blood. Hector, when he had seized the ship, would not loose his hold but held on to its curved stern and shouted to the Trojans, “Bring fire,
 
-
-
----
-
 and raise the battle-cry all of you with a single voice. Now has Jove vouchsafed us a day that will pay us for all the rest; this day we shall take the ships which came hither against heaven's will, and which have caused us such infinite suffering through the cowardice of our councillors, who when I would have done battle at the ships held me back and forbade the host to follow me; if Jove did then indeed warp our judgements, himself now commands me and cheers me on."
 
 As he spoke thus the Trojans sprang yet more fiercely on the Achaeans, and Ajax no longer held his ground, for he was overcome by the darts that were flung at him, and made sure that he was doomed. Therefore he left the raised deck at the stern, and stepped back on to the seven-foot bench of the oarsmen. Here he stood on the look-out, and with his spear held back any Trojan whom he saw bringing fire to the ships. All the time he kept on shouting at the top of his voice and exhorting the Danaans. "My friends," he cried, "Danaan heroes, servants of Mars, be men my friends, and fight with might and with main. Can we hope to find helpers hereafter, or a wall to shield us more surely than the one we have? There is no strong city within reach, whence we may draw fresh forces to turn the scales in our favour. We are on the plain of the armed Trojans with the sea behind us, and far from our own country. Our salvation, therefore, is in the might of our hands and in hard fighting."
 
 As he spoke he wielded his spear with still greater fury, and when any Trojan made towards the ships with fire at Hector's bidding, he would be on the look-out for him, and drive at him with his long spear. Twelve men did he thus kill in hand-to-hand fight before the ships.
 
-
-
----
-
 # BOOK XVI.
 
-Fire being now thrown on the ship of Protesilaus, Patroclus fights in the armour of Achilles—He drives the Trojans back, but is in the end killed by Euphorbus and Hector.
+*Fire being now thrown on the ship of Protesilaus, Patroclus fights in the armour of Achilles—He drives the Trojans back, but is in the end killed by Euphorbus and Hector.*
 
 Thus did they fight about the ship of Protesilaus. Then Patroclus drew near to Achilles with tears welling from his eyes, as from some spring whose crystal stream falls over the ledges of a high precipice. When Achilles saw him thus weeping he was sorry for him and said, “Why, Patroclus, do you stand there weeping like some silly child that comes running to her mother, and begs to be taken up and carried—she catches hold of her mother’s dress to stay her though she is in a hurry, and looks tearfully up until her mother carries her—even such tears, Patroclus, are you now shedding. Have you anything to say to the Myrmidons or to myself? or have you had news from Phthia which you alone know? They tell me Menoetius son of Actor is still alive, as also Peleus son of Aeacus, among the Myrmidons—men whose loss we two should bitterly deplore; or are you grieving about the Argives and the way in which they are being killed at the ships, through their own high-handed doings? Do not hide anything from me but tell me that both of us may know about it.”
 
 Then, O knight Patroclus, with a deep sigh you answered, “Achilles, son of Peleus, foremost champion of the Achaeans, do not be angry, but I weep for the disaster that has now befallen the Argives. All those who have been their champions so far are lying at the ships, wounded by sword or spear. Brave Diomed son of Tydeus has been hit with a spear, while famed Ulysses and Agamemnon have received sword-wounds; Eurypylus again has been struck with an arrow in the thigh; skilled apothecaries are attending to these heroes, and healing them of their wounds; are you still, O Achilles, so inexorable? May it never be my lot to nurse such a passion as you have done, to the baning of your own good name. Who in future story will speak well of you unless you now save the Argives from ruin? You know no pity; knight Peleus was not your father nor Thetis your mother, but the grey sea bore you and the sheer cliffs begot you, so cruel and remorseless are you. If however you are kept back through knowledge of some oracle, or if your mother Thetis has told you something from the mouth of Jove, at least send me and the Myrmidons with me, if I may bring deliverance to the Danaans. Let me moreover wear your armour; the Trojans may thus mistake me for you and quit the field, so that the hard-pressed sons of the Achaeans may have breathing time—which while they are fighting may hardly be. We who are fresh might soon drive tired men back from our ships and tents to their own city.”
 
 He knew not what he was asking, nor that he was suing for his own destruction. Achilles was deeply moved and answered, “What, noble Patroclus, are you saying? I know no prophesyings which I am heeding, nor has my mother told me anything from the mouth of Jove, but I am cut to the very heart that one of my own rank should dare to rob me because he is more powerful than I am. This, after all that I have gone through, is more than I can endure. The girl whom the sons of the Achaeans chose for me, whom I won as the fruit of my spear on having sacked a city—her has King Agamemnon taken from me as though I were some common vagrant. Still, let bygones be bygones: no man may keep his anger for ever; I said I would not relent till battle and the cry of war had reached my own ships; nevertheless, now gird my armour about your shoulders, and lead the Myrmidons to battle, for the dark cloud of Trojans has burst furiously over our fleet; the Argives are driven back on to the beach, cooped within a narrow space, and the whole people of Troy has taken heart to sally out against them, because they see not the visor of my helmet gleaming near them. Had they seen this, there would not have been a creek nor grip that had not been filled with their dead as they fled back again. And so it would have been, if only King Agamemnon had dealt fairly by me. As it is the Trojans have beset our host. Diomed son of Tydeus no longer wields his spear to defend the Danaans, neither have I heard the voice of the son of Atreus coming from his hated head, whereas that of murderous Hector rings in my cars as he gives orders to the Trojans, who triumph over the Achaeans and fill the whole plain with their cry of battle. But even so, Patroclus, fall upon them and save the fleet, lest the Trojans fire it and prevent us from being able to return. Do, however, as I now bid you, that you may win me great honour from all the Danaans, and that they may restore the girl to me again and give me rich gifts into the bargain. When you have driven the Trojans from the ships, come back again. Though Juno’s thundering husband should put triumph within your reach, do not fight the Trojans further in my absence, or you will rob me of glory that should be mine. And do not for lust of battle go on killing the Trojans nor lead the Achaeans on to Ilius, lest one of the ever-living gods from Olympus attack you—for Phoebus Apollo loves them well: return when you have freed the ships from peril, and let others wage war upon the plain. Would, by father Jove, Minerva, and Apollo, that not a single man of all the Trojans might be left alive, nor yet of the Argives, but that we two might be alone left to tear aside the mantle that veils the brow of Troy.”
-
-
-
----
 
 Thus did they converse. But Ajax could no longer hold his ground for the shower of darts that rained upon him; the will of Jove and the javelins of the Trojans were too much for him; the helmet that gleamed about his temples rang with the continuous clatter of the missiles that kept pouring on to it and on to the cheek-pieces that protected his face. Moreover his left shoulder was tired with having held his shield so long, yet for all this, let fly at him as they would, they could not make him give ground. He could hardly draw his breath, the sweat rained from every pore of his body, he had not a moment's respite, and on all sides he was beset by danger upon danger.
 
@@ -2028,10 +1575,6 @@ Fifty ships had noble Achilles brought to Troy, and in each there was a crew of 
 When Achilles had chosen his men and had stationed them all with their captains, he charged them straitly saying, "Myrmidons, remember your threats against the Trojans while you were at the ships in the time of my anger, and you were all complaining of me. 'Cruel son of Peleus,' you would say, 'your mother must have suckled you on gall, so ruthless are you. You keep us here at the ships against our will; if you are so relentless it were better we went home over the sea.' Often have you gathered and thus chided with me. The hour is now come for those high feats of arms that you have so long been pining for, therefore keep high hearts each one of you to do battle with the Trojans."
 
 With these words he put heart and soul into them all, and they serried their companies yet more closely when they heard the words of their king. As the stones which a builder sets in the wall of some high house which is to give shelter from the winds—even so closely were the helmets and bossed shields set against one another. Shield pressed on shield, helm on helm, and
-
-
-
----
 
 man on man; so close were they that the horse-hair plumes on the gleaming ridges of their helmets touched each other as they bent their heads.
 
@@ -2050,10 +1593,6 @@ With these words he put heart and soul into them all, and they fell in a body up
 Patroclus first aimed a spear into the middle of the press where men were packed most closely, by the stern of the ship of Protesilaus. He hit Pyraechmes who had led his Paeonian horsemen from the Amydon and the broad waters of the river Axius; the spear struck him on the right shoulder, and with a groan he fell backwards in the dust; on this his men were thrown into confusion, for by killing their leader, who was the finest soldier among them, Patroclus struck panic into them all. He thus drove them from the ship and quenched the fire that was then blazing—leaving the half-burnt ship to lie where it was. The Trojans were now driven back with a shout that rent the skies, while the Danaans poured after them from their ships, shouting also without ceasing. As when Jove, gatherer of the thunder-cloud, spreads a dense canopy on the top of some lofty mountain, and all the peaks, the jutting headlands, and forest glades show out in the great light that flashes from the bursting heavens, even so when the Danaans had now driven back the fire from their ships, they took breath for a little while; but the fury of the fight was not yet over, for the Trojans were not driven back in utter rout, but still gave battle, and were ousted from their ground only by sheer fighting.
 
 The fight then became more scattered, and the chieftains killed one another when and how they could. The valiant son of Menoetius first drove his spear into the thigh of Areilycus just as he was turning round; the point went clean through, and broke the bone so that he fell forward. Meanwhile Menelaus struck Thoas in the chest, where it was exposed near the rim of his shield, and he fell dead. The son of Phyleus saw Amphiclus about to attack him, and ere he could do so took aim at the upper part of his thigh, where the muscles are thicker than in any other part; the spear tore through all the sinews of the leg, and his eyes were closed in darkness. Of the sons of Nestor one, Antilochus, speared Atymnius, driving the point of the spear through his throat, and down he fell. Maris then sprang on Antilochus in hand-to-hand fight to avenge his brother, and bestrode the body spear in hand; but valiant Thrasymedes was too quick for him, and in a moment had struck him in the shoulder ere he could deal his blow; his aim was true, and the spear severed all the muscles at the root of his arm, and tore them right down to the bone, so he fell heavily to the ground and his eyes were closed in darkness. Thus did these two noble comrades of Sarpedon go down to Erebus slain by the two sons of Nestor; they were the warrior sons of Amisodorus, who had reared the
-
-
-
----
 
 invincible Chimaera, to the bane of many. Ajax son of Oileus sprang on Cleobulus and took him alive as he was entangled in the crush; but he killed him then and there by a sword-blow on the neck. The sword reeked with his blood, while dark death and the strong hand of fate gripped him and closed his eyes.
 
@@ -2075,10 +1614,6 @@ He sprang from his chariot as he spoke, and Patroclus, when he saw this, leaped 
 
 The son of scheming Saturn looked down upon them in pity and said to Juno who was his wife and sister, "Alas, that it should be the lot of Sarpedon whom I love so dearly to perish by the hand of Patroclus. I am in two minds whether to catch him up out of the fight and set him down safe and sound in the fertile land of Lycia, or to let him now fall by the hand of the son of Menoetius."
 
-
-
----
-
 And Juno answered, “Most dread son of Saturn, what is this that you are saying? Would you snatch a mortal man, whose doom has long been fated, out of the jaws of death? Do as you will, but we shall not all of us be of your mind. I say further, and lay my saying to your heart, that if you send Sarpedon safely to his own home, some other of the gods will be also wanting to escort his son out of battle, for there are many sons of gods fighting round the city of Troy, and you will make every one jealous. If, however, you are fond of him and pity him, let him indeed fall by the hand of Patroclus, but as soon as the life is gone out of him, send Death and sweet Sleep to bear him off the field and take him to the broad lands of Lycia, where his brothers and his kinsmen will bury him with mound and pillar, in due honour to the dead.”
 
 The sire of gods and men assented, but he shed a rain of blood upon the earth in honour of his son whom Patroclus was about to kill on the rich plain of Troy far from his home.
@@ -2097,10 +1632,6 @@ As he spoke the Trojans were plunged in extreme and ungovernable grief; for Sarp
 
 He spoke to men who of themselves were full eager; both sides, therefore, the Trojans and Lycians on the one hand, and the Myrmidons and Achaeans on the other, strengthened their battalions, and fought desperately about the body of Sarpedon,
 
-
-
----
-
 shouting fiercely the while. Mighty was the din of their armour as they came together, and Jove shed a thick darkness over the fight, to increase the toil of the battle over the body of his son.
 
 At first the Trojans made some headway against the Achaeans, for one of the best men among the Myrmidons was killed, Epeigeus, son of noble Agacles who had erewhile been king in the good city of Budeum; but presently, having killed a valiant kinsman of his own, he took refuge with Peleus and Thetis, who sent him to Ilius the land of noble steeds to fight the Trojans under Achilles. Hector now struck him on the head with a stone just as he had caught hold of the body, and his brains inside his helmet were all battered in, so that he fell face foremost upon the body of Sarpedon, and there died. Patroclus was enraged by the death of his comrade, and sped through the front ranks as swiftly as a hawk that swoops down on a flock of daws or starlings. Even so swiftly, O noble knight Patroclus, did you make straight for the Lycians and Trojans to avenge your comrade. Forthwith he struck Sthenelaus the son of Ithaemenes on the neck with a stone, and broke the tendons that join it to the head and spine. On this Hector and the front rank of his men gave ground. As far as a man can throw a javelin when competing for some prize, or even in battle—so far did the Trojans now retreat before the Achaeans. Glaucus, captain of the Lycians, was the first to rally them, by killing Bathycles son of Chalcon who lived in Hellas and was the richest man among the Myrmidons. Glaucus turned round suddenly, just as Bathycles who was pursuing him was about to lay hold of him, and drove his spear right into the middle of his chest, whereon he fell heavily to the ground, and the fall of so good a man filled the Achaeans with dismay, while the Trojans were exultant, and came up in a body round the corpse. Nevertheless the Achaeans, mindful of their prowess, bore straight down upon them.
@@ -2116,10 +1647,6 @@ He led the way as he spoke and the hero went forward with him. As the sound of w
 Thus he spoke. Apollo obeyed his father's saying, and came down from the heights of Ida into the thick of the fight; forthwith he took Sarpedon out of range of the weapons, and then bore him a long way off, where he washed him in the river, anointed him with ambrosia and clothed him in immortal raiment; this done, he committed him to the arms of the two fleet messengers, Death, and Sleep, who presently set him down in the rich land of Lycia.
 
 Meanwhile Patroclus, with many a shout to his horses and to Automedon, pursued the Trojans and Lycians in the pride and foolishness of his heart. Had he but obeyed the bidding of the son of Peleus, he would have escaped death and have been
-
-
-
----
 
 scatheless; but the counsels of Jove pass man's understanding; he will put even a brave man to flight and snatch victory from his grasp, or again he will set him on to fight, as he now did when he put a high spirit into the heart of Patroclus.
 
@@ -2137,10 +1664,6 @@ So long as the sun was still high in mid-heaven the weapons of either side were 
 
 On this his mind became clouded; his limbs failed him, and he stood as one dazed; whereon Euphorbus son of Panthous a Dardanian, the best spearman of his time, as also the finest horseman and fleetest runner, came behind him and struck him in the back with a spear, midway between the shoulders. This man as soon as ever he had come up with his chariot had
 
-
-
----
-
 dismounted twenty men, so proficient was he in all the arts of war—he it was, O knight Patroclus, that first drove a weapon into you, but he did not quite overpower you. Euphorbus then ran back into the crowd, after drawing his ashen spear out of the wound; he would not stand firm and wait for Patroclus, unarmed though he now was, to attack him; but Patroclus unnerved, alike by the blow the god had given him and by the spear-wound, drew back under cover of his men in fear for his life. Hector on this, seeing him to be wounded and giving ground, forced his way through the ranks, and when close up with him struck him in the lower part of the belly with a spear, driving the bronze point right through it, so that he fell heavily to the ground to the great grief of the Achaeans. As when a lion has fought some fierce wild boar and worsted him—the two fight furiously upon the mountains over some little fountain at which they would both drink, and the lion has beaten the boar till he can hardly breathe—even so did Hector son of Priam take the life of the brave son of Menoetius who had killed so many, striking him from close at hand, and vaunting over him the while. “Patroclus,” said he, “you deemed that you should sack our city, rob our Trojan women of their freedom, and carry them off in your ships to your own country. Fool; Hector and his fleet horses were ever straining their utmost to defend them. I am foremost of all the Trojan warriors to stave the day of bondage from off them; as for you, vultures shall devour you here. Poor wretch, Achilles with all his bravery availed you nothing; and yet I ween when you left him he charged you straitly saying, ‘Come not back to the ships, knight Patroclus, till you have rent the blood-stained shirt of murderous Hector about his body.’ Thus I ween did he charge you, and your fool’s heart answered him ‘yea’ within you.”
 
 Then, as the life ebbed out of you, you answered, O knight Patroclus: “Hector, vaunt as you will, for Jove the son of Saturn and Apollo have vouchsafed you victory; it is they who have vanquished me so easily, and they who have stripped the armour from my shoulders; had twenty such men as you attacked me, all of them would have fallen before my spear. Fate and the son of Leto have overpowered me, and among mortal men Euphorbus; you are yourself third only in the killing of me. I say further, and lay my saying to your heart, you too shall live but for a little season; death and the day of your doom are close upon you, and they will lay you low by the hand of Achilles son of Aeacus.”
@@ -2149,13 +1672,9 @@ When he had thus spoken his eyes were closed in death, his soul left his body an
 
 As he spoke he drew the bronze spear from the wound, planting his foot upon the body, which he thrust off and let lie on its back. He then went spear in hand after Automedon, squire of the fleet descendant of Aeacus, for he longed to lay him low, but the immortal steeds which the gods had given as a rich gift to Peleus bore him swiftly from the field.
 
-
-
----
-
 # BOOK XVII.
 
-The fight around the body of Patroclus.
+*The fight around the body of Patroclus.*
 
 Brave Menelaus son of Atreus now came to know that Patroclus had fallen, and made his way through the front ranks clad in full armour to bestride him. As a cow stands lowing over her first calf, even so did yellow-haired Menelaus bestride Patroclus. He held his round shield and his spear in front of him, resolute to kill any who should dare face him. But the son of Panthous had also noted the body, and came up to Menelaus saying, “Menelaus, son of Atreus, draw back, leave the body, and let the blood-stained spoils be. I was first of the Trojans and their brave allies to drive my spear into Patroclus, let me, therefore, have my full glory among the Trojans, or I will take aim and kill you.”
 
@@ -2168,10 +1687,6 @@ As he spoke he struck Menelaus full on the shield, but the spear did not go thro
 The god then went back into the toil and turmoil, but the soul of Hector was darkened with a cloud of grief; he looked along the ranks and saw Euphorbus lying on the ground with the blood still flowing from his wound, and Menelaus stripping him of his armour. On this he made his way to the front like a flame of fire, clad in his gleaming armour, and crying with a loud voice. When the son of Atreus heard him, he said to himself in his dismay, “Alas! what shall I do? I may not let the Trojans take the armour of Patroclus who has fallen fighting on my behalf, lest some Danaan who sees me should cry shame upon me. Still if for my honour’s sake I fight Hector and the Trojans single-handed, they will prove too many for me, for Hector is bringing them up in force. Why, however, should I thus hesitate? When a man fights in despite of heaven with one whom a god befriends, he will soon rue it. Let no Danaan think ill of me if I give place to Hector, for the hand of heaven is with him. Yet, if I could find Ajax, the two of us would fight Hector and heaven too, if we might only save the body of Patroclus for Achilles son of Peleus. This, of many evils would be the least.”
 
 While he was thus in two minds, the Trojans came up to him with Hector at their head; he therefore drew back and left the body, turning about like some bearded lion who is being chased by dogs and men from a stockyard with spears and hue and cry, whereon he is daunted and slinks sulkily off—even so did Menelaus son of Atreus turn and leave the body of Patroclus.
-
-103
-
----
 
 When among the body of his men, he looked around for mighty Ajax son of Telamon, and presently saw him on the extreme left of the fight, cheering on his men and exhorting them to keep on fighting, for Phoebus Apollo had spread a great panic among them. He ran up to him and said, “Ajax, my good friend, come with me at once to dead Patroclus, if so be that we may take the body to Achilles—as for his armour, Hector already has it.”
 
@@ -2191,10 +1706,6 @@ The son of Saturn bowed his portentous brows, and Hector fitted the armour to hi
 
 When he had thus spoken they charged full weight upon the Danaans with their spears held out before them, and the hopes of each ran high that he should force Ajax son of Telamon to yield up the body—fools that they were, for he was about to take the lives of many. Then Ajax said to Menelaus, “My good friend Menelaus, you and I shall hardly come out of this fight alive. I am less concerned for the body of Patroclus, who will shortly become meat for the dogs and vultures of Troy, than for the
 
-
-
----
-
 safety of my own head and yours. Hector has wrapped us round in a storm of battle from every quarter, and our destruction seems now certain. Call then upon the princes of the Danaans if there is any who can hear us.”
 
 Menelaus did as he said, and shouted to the Danaans for help at the top of his voice. “My friends,” he cried, “princes and counsellors of the Argives, all you who with Agamemnon and Menelaus drink at the public cost, and give orders each to his own people as Jove vouchsafes him power and glory, the fight is so thick about me that I cannot distinguish you severally; come on, therefore, every man unbidden, and think it shame that Patroclus should become meat and morsel for Trojan hounds.”
@@ -2210,10 +1721,6 @@ The Trojans would now have been worsted by the brave Achaeans and driven back to
 Aeneas knew Apollo when he looked straight at him, and shouted to Hector saying, “Hector and all other Trojans and allies, shame on us if we are beaten by the Achaeans and driven back to Ilius through our own cowardice. A god has just come up to me and told me that Jove the supreme disposer will be with us. Therefore let us make for the Danaans, that it may go hard with them ere they bear away dead Patroclus to the ships.”
 
 As he spoke he sprang out far in front of the others, who then rallied and again faced the Achaeans. Aeneas speared Leiocritus son of Arisbas, a valiant follower of Lycomedes, and Lycomedes was moved with pity as he saw him fall; he therefore went close up, and speared Apisaon son of Hippasus shepherd of his people in the liver under the midriff, so that he died; he had come from fertile Paeonia and was the best man of them all after Asteropaeus. Asteropaeus flew forward to avenge him and attack the Danaans, but this might no longer be, inasmuch as those about Patroclus were well covered by their shields, and held their spears in front of them, for Ajax had given them strict orders that no man was either to give ground, or to stand out before the others, but all were to hold well together about the body and fight hand to hand. Thus did huge Ajax bid them, and the earth ran red with blood as the corpses fell thick on one another alike on the side of the Trojans and allies, and
-
-
-
----
 
 on that of the Danaans; for these last, too, fought no bloodless fight though many fewer of them perished, through the care they took to defend and stand by one another.
 
@@ -2232,10 +1739,6 @@ The son of Saturn saw them and took pity upon their sorrow. He wagged his head, 
 As he spoke he breathed heart and strength into the horses so that they shook the dust from out of their manes, and bore their chariot swiftly into the fight that raged between Trojans and Achaeans. Behind them fought Automedon full of sorrow for his comrade, as a vulture amid a flock of geese. In and out, and here and there, full speed he dashed amid the throng of the Trojans, but for all the fury of his pursuit he killed no man, for he could not wield his spear and keep his horses in hand when alone in the chariot; at last, however, a comrade, Alcimedon, son of Laerces son of Haemon caught sight of him and came up behind his chariot. "Automedon," said he, "what god has put this folly into your heart and robbed you of your right mind, that you fight the Trojans in the front rank single-handed? He who was your comrade is slain, and Hector plumes himself on being armed in the armour of the descendant of Aeacus."
 
 Automedon son of Diores answered, "Alcimedon, there is no one else who can control and guide the immortal steeds so well as you can, save only Patroclus—while he was alive—peer of gods in counsel. Take then the whip and reins, while I go down from the car and fight."
-
-
-
----
 
 Alcimedon sprang on to the chariot, and caught up the whip and reins, while Automedon leaped from off the car. When Hector saw him he said to Aeneas who was near him, “Aeneas, counsellor of the mail-clad Trojans, I see the steeds of the fleet son of Aeacus come into battle with weak hands to drive them. I am sure, if you think well, that we might take them; they will not dare face us if we both attack them.”
 
@@ -2259,10 +1762,6 @@ A dark cloud of grief fell upon Hector as he heard, and he made his way to the f
 
 The panic was begun by Peneleos the Boeotian, for while keeping his face turned ever towards the foe he had been hit with a spear on the upper part of the shoulder; a spear thrown by Polydamas had grazed the top of the bone, for Polydamas had come up to him and struck him from close at hand. Then Hector in close combat struck Leitus son of noble Alectryon in the
 
-
-
----
-
 hand by the wrist, and disabled him from fighting further. He looked about him in dismay, knowing that never again should he wield spear in battle with the Trojans. While Hector was in pursuit of Leitus, Idomeneus struck him on the breastplate over his chest near the nipple; but the spear broke in the shaft, and the Trojans cheered aloud. Hector then aimed at Idomeneus son of Deucalion as he was standing on his chariot, and very narrowly missed him, but the spear hit Coiranus, a follower and charioteer of Meriones who had come with him from Lyctus. Idomeneus had left the ships on foot and would have afforded a great triumph to the Trojans if Coiranus had not driven quickly up to him, he therefore brought life and rescue to Idomeneus, but himself fell by the hand of murderous Hector. For Hector hit him on the jaw under the ear; the end of the spear drove out his teeth and cut his tongue in two pieces, so that he fell from his chariot and let the reins fall to the ground. Meriones gathered them up from the ground and took them into his own hands, then he said to Idomeneus, "Lay on, till you get back to the ships, for you must see that the day is no longer ours."
 
 On this Idomeneus lashed the horses to the ships, for fear had taken hold upon him.
@@ -2283,21 +1782,13 @@ Ajax answered, "Menelaus, you have said well: do you, then, and Meriones stoop d
 
 On this Menelaus and Meriones took the dead man in their arms and lifted him high aloft with a great effort. The Trojan host raised a hue and cry behind them when they saw the Achaeans bearing the body away, and flew after them like hounds attacking a wounded boar at the loo of a band of young huntsmen. For a while the hounds fly at him as though they would tear him in pieces, but now and again he turns on them in a fury, scaring and scattering them in all directions—even so did the
 
-
-
----
-
 Trojans for a while charge in a body, striking with sword and with spears pointed at both the ends, but when the two Ajaxes faced them and stood at bay, they would turn pale and no man dared press on to fight further about the dead.
 
 In this wise did the two heroes strain every nerve to bear the body to the ships out of the fight. The battle raged round them like fierce flames that when once kindled spread like wildfire over a city, and the houses fall in the glare of its burning—even such was the roar and tramp of men and horses that pursued them as they bore Patroclus from the field. Or as mules that put forth all their strength to draw some beam or great piece of ship’s timber down a rough mountain-track, and they pant and sweat as they go—even so did Menelaus and Meriones pant and sweat as they bore the body of Patroclus. Behind them the two Ajaxes held stoutly out. As some wooded mountain-spur that stretches across a plain will turn water and check the flow even of a great river, nor is there any stream strong enough to break through it—even so did the two Ajaxes face the Trojans and stem the tide of their fighting though they kept pouring on towards them and foremost among them all was Aeneas son of Anchises with valiant Hector. As a flock of daws or starlings fall to screaming and chattering when they see a falcon, foe to all small birds, come soaring near them, even so did the Achaean youth raise a babel of cries as they fled before Aeneas and Hector, unmindful of their former prowess. In the rout of the Danaans much goodly armour fell round about the trench, and of fighting there was no end.
 
-
-
----
-
 # BOOK XVIII.
 
-The grief of Achilles over Patroclus—The visit of Thetis to Vulcan and the armour that he made for Achilles.
+*The grief of Achilles over Patroclus—The visit of Thetis to Vulcan and the armour that he made for Achilles.*
 
 Thus then did they fight as it were a flaming fire. Meanwhile the fleet runner Antilochus, who had been sent as messenger, reached Achilles, and found him sitting by his tall ships and boding that which was indeed too surely true. “Alas,” said he to himself in the heaviness of his heart, “why are the Achaeans again scouring the plain and flocking towards the ships? Heaven grant the gods be not now bringing that sorrow upon me of which my mother Thetis spoke, saying that while I was yet alive the bravest of the Myrmidons should fall before the Trojans, and see the light of the sun no longer. I fear the brave son of Menoetius has fallen through his own daring and yet I bade him return to the ships as soon as he had driven back those that were bringing fire against them, and not join battle with Hector.”
 
@@ -2312,10 +1803,6 @@ She left the cave as she spoke, while the others followed weeping after, and the
 Achilles groaned and answered, “Mother, Olympian Jove has indeed vouchsafed me the fulfilment of my prayer, but what boots it to me, seeing that my dear comrade Patroclus has fallen—he whom I valued more than all others, and loved as dearly as my own life? I have lost him; aye, and Hector when he had killed him stripped the wondrous armour, so glorious to behold, which the gods gave to Peleus when they laid you in the couch of a mortal man. Would that you were still dwelling among the immortal sea-nymphs, and that Peleus had taken to himself some mortal bride. For now you shall have grief infinite by reason of the death of that son whom you can never welcome home—nay, I will not live nor go about among mankind unless Hector fall by my spear, and thus pay me for having slain Patroclus son of Menoetius.”
 
 Thetis wept and answered, “Then, my son, is your end near at hand—for your own death awaits you full soon after that of Hector.”
-
-
-
----
 
 Then said Achilles in his great grief, "I would die here and now, in that I could not save my comrade. He has fallen far from home, and in his hour of need my hand was not there to help him. What is there for me? Return to my own land I shall not, and I have brought no saving neither to Patroclus nor to my other comrades of whom so many have been slain by mighty Hector; I stay here by my ships a bootless burden upon the earth, I, who in fight have no peer among the Achaeans, though in council there are better than I. Therefore, perish strife both from among gods and men, and anger, wherein even a righteous man will harden his heart—which rises up in the soul of a man like smoke, and the taste thereof is sweeter than drops of honey. Even so has Agamemnon angered me. And yet—so be it, for it is over; I will force my soul into subjection as I needs must; I will go; I will pursue Hector who has slain him whom I loved so dearly, and will then abide my doom when it may please Jove and the other gods to send it. Even Hercules, the best beloved of Jove—even he could not escape the hand of death, but fate and Juno's fierce anger laid him low, as I too shall lie when I am dead if a like doom awaits me. Till then I will win fame, and will bid Trojan and Dardanian women wring tears from their tender cheeks with both their hands in the grievousness of their great sorrow; thus shall they know that he who has held aloof so long will hold aloof no longer. Hold me not back, therefore, in the love you bear me, for you shall not move me."
 
@@ -2339,10 +1826,6 @@ Iris said, "We know that your armour has been taken, but go as you are; go to th
 
 Iris left him when she had so spoken. But Achilles dear to Jove arose, and Minerva flung her tasselled aegis round his strong shoulders; she crowned his head with a halo of golden cloud from which she kindled a glow of gleaming fire. As the smoke that goes up into heaven from some city that is being beleaguered on an island far out at sea—all day long do men sally from the city and fight their hardest, and at the going down of the sun the line of beacon-fires blazes forth, flaring high for those that dwell near them to behold, if so be that they may come with their ships and succour them—even so did the light flare from the head of Achilles, as he stood by the trench, going beyond the wall—but he did not join the Achaeans for he heeded the charge which his mother laid upon him.
 
-
-
----
-
 There did he stand and shout aloud. Minerva also raised her voice from afar, and spread terror unspeakable among the Trojans. Ringing as the note of a trumpet that sounds alarm then the foe is at the gates of a city, even so brazen was the voice of the son of Aeacus, and when the Trojans heard its clarion tones they were dismayed; the horses turned back with their chariots for they boded mischief, and their drivers were awe-struck by the steady flame which the grey-eyed goddess had kindled above the head of the great son of Peleus.
 
 Thrice did Achilles raise his loud cry as he stood by the trench, and thrice were the Trojans and their brave allies thrown into confusion; whereon twelve of their noblest champions fell beneath the wheels of their chariots and perished by their own spears. The Achaeans to their great joy then drew Patroclus out of reach of the weapons, and laid him on a litter: his comrades stood mourning round him, and among them fleet Achilles who wept bitterly as he saw his true comrade lying dead upon his bier. He had sent him out with horses and chariots into battle, but his return he was not to welcome.
@@ -2358,10 +1841,6 @@ Hector looked fiercely at him and answered, "Polydamas, your words are not to my
 Thus spoke Hector; and the Trojans, fools that they were, shouted in applause, for Pallas Minerva had robbed them of their understanding. They gave ear to Hector with his evil counsel, but the wise words of Polydamas no man would heed. They took their supper throughout the host, and meanwhile through the whole night the Achaeans mourned Patroclus, and the son of Peleus led them in their lament. He laid his murderous hands upon the breast of his comrade, groaning again and again as a bearded lion when a man who was chasing deer has robbed him of his young in some dense forest; when the lion comes back he is furious, and searches dingle and dell to track the hunter if he can find him, for he is mad with rage—even so with many a sigh did Achilles speak among the Myrmidons saying, "Alas! vain were the words with which I cheered the hero Menoetius in his own house; I said that I would bring his brave son back again to Opoeis after he had sacked Ilius and taken his share of the spoils—but Jove does not give all men their heart's desire. The same soil shall be reddened here at Troy by the blood of us both, for I too shall never be welcomed home by the old knight Peleus, nor by my mother Thetis, but even in this place shall the earth cover me. Nevertheless, O Patroclus, now that I am left behind you, I will not bury you, till I have brought hither the head and armour of mighty Hector who has slain you. Twelve noble sons of Trojans will I behead before your bier to avenge you; till I have done so you shall lie as you are by the ships, and fair women of Troy and Dardanus, whom we have taken with spear and strength of arm when we sacked men's goodly cities, shall weep over you both night and day."
 
 Then Achilles told his men to set a large tripod upon the fire that they might wash the clotted gore from off Patroclus. Thereon they set a tripod full of bath water on to a clear fire: they threw sticks on to it to make it blaze, and the water became
-
-
-
----
 
 hot as the flame played about the belly of the tripod. When the water in the cauldron was boiling they washed the body, anointed it with oil, and closed its wounds with ointment that had been kept nine years. Then they laid it on a bier and covered it with a linen cloth from head to foot, and over this they laid a fair white robe. Thus all night long did the Myrmidons gather round Achilles to mourn Patroclus.
 
@@ -2380,10 +1859,6 @@ Thetis wept and answered, "Vulcan, is there another goddess in Olympus whom the 
 And Vulcan answered, "Take heart, and be no more disquieted about this matter; would that I could hide him from death's sight when his hour is come, so surely as I can find him armour that shall amaze the eyes of all who behold it."
 
 When he had so said he left her and went to his bellows, turning them towards the fire and bidding them do their office. Twenty bellows blew upon the melting-pots, and they blew blasts of every kind, some fierce to help him when he had need of them, and others less strong as Vulcan willed it in the course of his work. He threw tough copper into the fire, and tin, with
-
-
-
----
 
 silver and gold; he set his great anvil on its block, and with one hand grasped his mighty hammer while he took the tongs in the other.
 
@@ -2405,10 +1880,6 @@ He wrought also a vineyard, golden and fair to see, and the vines were loaded wi
 
 He wrought also a herd of horned cattle. He made the cows of gold and tin, and they lowed as they came full speed out of the yards to go and feed among the waving reeds that grow by the banks of the river. Along with the cattle there went four shepherds, all of them in gold, and their nine fleet dogs went with them. Two terrible lions had fastened on a bellowing bull that was with the foremost cows, and bellow as he might they haled him, while the dogs and men gave chase: the lions tore through the bull's thick hide and were gorging on his blood and bowels, but the herdsmen were afraid to do anything, and only hounded on their dogs; the dogs dared not fasten on the lions but stood by barking and keeping out of harm's way.
 
-
-
----
-
 The god wrought also a pasture in a fair mountain dell, and a large flock of sheep, with a homestead and huts, and sheltered sheepfolds.
 
 Furthermore he wrought a green, like that which Daedalus once made in Cnossus for lovely Ariadne. Hereon there danced youths and maidens whom all would woo, with their hands on one another's wrists. The maidens wore robes of light linen, and the youths well woven shirts that were slightly oiled. The girls were crowned with garlands, while the young men had daggers of gold that hung by silver baldrics; sometimes they would dance deftly in a ring with merry twinkling feet, as it were a potter sitting at his work and making trial of his wheel to see whether it will run, and sometimes they would go all in line with one another, and much people was gathered joyously about the green. There was a bard also to sing to them and play his lyre, while two tumblers went about performing in the midst of them when the man struck up with his tune.
@@ -2419,13 +1890,9 @@ Then when he had fashioned the shield so great and strong, he made a breastplate
 
 Lastly, when the famed lame god had made all the armour, he took it and set it before the mother of Achilles; whereon she darted like a falcon from the snowy summits of Olympus and bore away the gleaming armour from the house of Vulcan.
 
-
-
----
-
 # BOOK XIX.
 
-Achilles is reconciled with Agamemnon, puts on the armour which Vulcan had made him, and goes out to fight.
+*Achilles is reconciled with Agamemnon, puts on the armour which Vulcan had made him, and goes out to fight.*
 
 Now when Dawn in robe of saffron was hasting from the streams of Oceanus, to bring light to mortals and immortals, Thetis reached the ships with the armour that the god had given her. She found her son fallen about the body of Patroclus and weeping bitterly. Many also of his followers were weeping round him, but when the goddess came among them she clasped his hand in her own, saying, "My son, grieve as we may we must let this man lie, for it is by heaven's will that he has fallen; now, therefore, accept from Vulcan this rich and goodly armour, which no man has ever yet borne upon his shoulders."
 
@@ -2445,10 +1912,6 @@ Then Agamemnon spoke, rising in his place, and not going into the middle of the 
 
 "Time was when she fooled Jove himself, who they say is greatest whether of gods or men; for Juno, woman though she was, beguiled him on the day when Alcmena was to bring forth mighty Hercules in the fair city of Thebes. He told it out among the gods saying, 'Hear me, all gods and goddesses, that I may speak even as I am minded; this day shall an Ilithuia, helper of women who are in labour, bring a man child into the world who shall be lord over all that dwell about him who are of my blood and lineage.' Then said Juno all crafty and full of guile, 'You will play false, and will not hold to your word. Swear
 
-
-
----
-
 me, O Olympian, swear me a great oath, that he who shall this day fall between the feet of a woman, shall be lord over all that dwell about him who are of your blood and lineage.'
 
 “Thus she spoke, and Jove suspected her not, but swore the great oath, to his much ruing thereafter. For Juno darted down from the high summit of Olympus, and went in haste to Achaean Argos where she knew that the noble wife of Sthenelus son of Perseus then was. She being with child and in her seventh month, Juno brought the child to birth though there was a month still wanting, but she stayed the offspring of Alcmena, and kept back the Ilithuiae. Then she went to tell Jove the son of Saturn, and said, 'Father Jove, lord of the lightning—I have a word for your ear. There is a fine child born this day, Eurystheus, son to Sthenelus the son of Perseus; he is of your lineage; it is well, therefore, that he should reign over the Argives.'
@@ -2466,10 +1929,6 @@ Then said Achilles, “Son of Atreus, king of men Agamemnon, see to these matter
 Ulysses answered, “Achilles, son of Peleus, mightiest of all the Achaeans, in battle you are better than I, and that more than a little, but in counsel I am much before you, for I am older and of greater knowledge. Therefore be patient under my words. Fighting is a thing of which men soon surfeit, and when Jove, who is war’s steward, weighs the upshot, it may well prove that the straw which our sickles have reaped is far heavier than the grain. It may not be that the Achaeans should mourn the dead with their bellies; day by day men fall thick and threefold continually; when should we have respite from our sorrow? Let us mourn our dead for a day and bury them out of sight and mind, but let those of us who are left eat and drink that we may arm and fight our foes more fiercely. In that hour let no man hold back, waiting for a second summons; such summons shall bode ill for him who is found lagging behind at our ships; let us rather sally as one man and loose the fury of war upon the Trojans.”
 
 When he had thus spoken he took with him the sons of Nestor, with Meges son of Phyleus, Thoas, Meriones, Lycomedes son of Creontes, and Melanippus, and went to the tent of Agamemnon son of Atreus. The word was not sooner said than the deed was done: they brought out the seven tripods which Agamemnon had promised, with the twenty metal cauldrons and the
-
-
-
----
 
 twelve horses; they also brought the women skilled in useful arts, seven in number, with Briseis, which made eight. Ulysses weighed out the ten talents of gold and then led the way back, while the young Achaeans brought the rest of the gifts, and laid them in the middle of the assembly.
 
@@ -2491,10 +1950,6 @@ He wept as he spoke, and the elders sighed in concert as each thought on what he
 
 With these words he urged Minerva, who was already of the same mind. She darted down from heaven into the air like some falcon sailing on his broad wings and screaming. Meanwhile the Achaeans were arming throughout the host, and when Minerva had dropped nectar and ambrosia into Achilles so that no cruel hunger should cause his limbs to fail him, she went back to the house of her mighty father. Thick as the chill snow-flakes shed from the hand of Jove and borne on the keen blasts of the north wind, even so thick did the gleaming helmets, the bossed shields, the strongly plated breastplates, and the ashen spears stream from the ships. The sheen pierced the sky, the whole land was radiant with their flashing armour, and the sound of the tramp of their treading rose from under their feet. In the midst of them all Achilles put on his armour; he gnashed his teeth, his eyes gleamed like fire, for his grief was greater than he could bear. Thus, then, full of fury against the Trojans, did he don the gift of the god, the armour that Vulcan had made him.
 
-
-
----
-
 First he put on the goodly greaves fitted with angle-clasps, and next he did on the breastplate about his chest. He slung the silver-studded sword of bronze about his shoulders, and then took up the shield so great and strong that shone afar with a splendour as of the moon. As the light seen by sailors from out at sea, when men have lit a fire in their homestead high up among the mountains, but the sailors are carried out to sea by wind and storm far from the haven where they would be—even so did the gleam of Achilles' wondrous shield strike up into the heavens. He lifted the redoubtable helmet, and set it upon his head, from whence it shone like a star, and the golden plumes which Vulcan had set thick about the ridge of the helmet, waved all around it. Then Achilles made trial of himself in his armour to see whether it fitted him, so that his limbs could play freely under it, and it seemed to buoy him up as though it had been wings.
 
 He also drew his father's spear out of the spear-stand, a spear so great and heavy and strong that none of the Achaeans save only Achilles had strength to wield it; this was the spear of Pelian ash from the topmost ridges of Mt. Pelion, which Chiron had once given to Peleus, fraught with the death of heroes. Automedon and Alcimus busied themselves with the harnessing of his horses; they made the bands fast about them, and put the bit in their mouths, drawing the reins back towards the chariot. Automedon, whip in hand, sprang up behind the horses, and after him Achilles mounted in full armour, resplendent as the sun-god Hyperion. Then with a loud voice he chided with his father's horses saying, "Xanthus and Balius, famed offspring of Podarge—this time when we have done fighting be sure and bring your driver safely back to the host of the Achaeans, and do not leave him dead on the plain as you did Patroclus."
@@ -2505,13 +1960,9 @@ When he had thus said the Erinyes stayed his speech, and Achilles answered him i
 
 So saying, with a loud cry he drove his horses to the front.
 
-
-
----
-
 # BOOK XX.
 
-The gods hold a council and determine to watch the fight, from the hill Callicolone, and the barrow of Hercules—A fight between Achilles and Aeneas is interrupted by Neptune, who saves Aeneas—Achilles kills many Trojans.
+*The gods hold a council and determine to watch the fight, from the hill Callicolone, and the barrow of Hercules—A fight between Achilles and Aeneas is interrupted by Neptune, who saves Aeneas—Achilles kills many Trojans.*
 
 Thus, then, did the Achaeans arm by their ships round you, O son of Peleus, who were hungering for battle; while the Trojans over against them armed upon the rise of the plain.
 
@@ -2530,10 +1981,6 @@ Thus did the gods spur on both hosts to fight, and rouse fierce contention also 
 The gods, then, were thus ranged against one another. But the heart of Achilles was set on meeting Hector son of Priam, for it was with his blood that he longed above all things else to glut the stubborn lord of battle. Meanwhile Apollo set Aeneas on to attack the son of Peleus, and put courage into his heart, speaking with the voice of Lycaon son of Priam. In his likeness therefore, he said to Aeneas, "Aeneas, counsellor of the Trojans, where are now the brave words with which you vaunted over your wine before the Trojan princes, saying that you would fight Achilles son of Peleus in single combat?"
 
 And Aeneas answered, "Why do you thus bid me fight the proud son of Peleus, when I am in no mind to do so? Were I to face him now, it would not be for the first time. His spear has already put me to flight from Ida, when he attacked our cattle and sacked Lyrnessus and Pedasus; Jove indeed saved me in that he vouchsafed me strength to fly, else had I fallen by the
-
-
-
----
 
 hands of Achilles and Minerva, who went before him to protect him and urged him to fall upon the Lelegae and Trojans. No man may fight Achilles, for one of the gods is always with him as his guardian angel, and even were it not so, his weapon flies ever straight, and fails not to pierce the flesh of him who is against him; if heaven would let me fight him on even terms he should not soon overcome me, though he boasts that he is made of bronze.”
 
@@ -2554,10 +2001,6 @@ When they were now close up with one another Achilles was first to speak. “Aen
 Then Aeneas answered, “Son of Peleus, think not that your words can scare me as though I were a child. I too, if I will, can brag and talk unseemly. We know one another’s race and parentage as matters of common fame, though neither have you ever seen my parents nor I yours. Men say that you are son to noble Peleus, and that your mother is Thetis, fair-haired daughter of the sea. I have noble Anchises for my father, and Venus for my mother; the parents of one or other of us shall this day mourn a son, for it will be more than silly talk that shall part us when the fight is over. Learn, then, my lineage if you will—and it is known to many.
 
 “In the beginning Dardanus was the son of Jove, and founded Dardania, for Ilius was not yet stablished on the plain for men to dwell in, and her people still abode on the spurs of many-fountained Ida. Dardanus had a son, king Erichthonius, who was wealthiest of all men living; he had three thousand mares that fed by the water-meadows, they and their foals with them. Boreas was enamoured of them as they were feeding, and covered them in the semblance of a dark-maned stallion. Twelve
-
-
-
----
 
 filly foals did they conceive and bear him, and these, as they sped over the rich plain, would go bounding on over the ripe ears of corn and not break them; or again when they would disport themselves on the broad back of Ocean they could gallop on the crest of a breaker. Erichthonius begat Tros, king of the Trojans, and Tros had three noble sons, Ilus, Assaracus, and Ganymede who was comeliest of mortal men; wherefore the gods carried him off to be Jove's cup-bearer, for his beauty's sake, that he might dwell among the immortals. Ilus begat Laomedon, and Laomedon begat Tithonus, Priam, Lampus, Clytius, and Hiketaon of the stock of Mars. But Assaracus was father to Capys, and Capys to Anchises, who was my father, while Hector is son to Priam.
 
@@ -2597,23 +2040,15 @@ He hurled his spear as he spoke, but Minerva breathed upon it, and though she br
 
 On this he struck Dryops with his spear, about the middle of his neck, and he fell headlong at his feet. There he let him lie and stayed Demouchus son of Philetor, a man both brave and of great stature, by hitting him on the knee with a spear; then he smote him with his sword and killed him. After this he sprang on Laogonus and Dardanus, sons of Bias, and threw them from their chariot, the one with a blow from a thrown spear, while the other he cut down in hand-to-hand fight. There was also Tros the son of Alastor—he came up to Achilles and clasped his knees in the hope that he would spare him and not kill him but let him go, because they were both of the same age. Fool, he might have known that he should not prevail with him, for the man was in no mood for pity or forbearance but was in grim earnest. Therefore when Tros laid hold of his knees and sought a
 
-
-
----
-
 hearing for his prayers, Achilles drove his sword into his liver, and the liver came rolling out, while his bosom was all covered with the black blood that welled from the wound. Thus did death close his eyes as he lay lifeless.
 
 Achilles then went up to Mulius and struck him on the ear with a spear, and the bronze spear-head came right out at the other ear. He also struck Echeclus son of Agenor on the head with his sword, which became warm with the blood, while death and stern fate closed the eyes of Echeclus. Next in order the bronze point of his spear wounded Deucalion in the fore-arm where the sinews of the elbow are united, whereon he waited Achilles' onset with his arm hanging down and death staring him in the face. Achilles cut his head off with a blow from his sword and flung it helmet and all away from him, and the marrow came oozing out of his backbone as he lay. He then went in pursuit of Rhigmus, noble son of Peires, who had come from fertile Thrace, and struck him through the middle with a spear which fixed itself in his belly, so that he fell headlong from his chariot. He also speared Areithous squire to Rhigmus in the back as he was turning his horses in flight, and thrust him from his chariot, while the horses were struck with panic.
 
 As a fire raging in some mountain glen after long drought—and the dense forest is in a blaze, while the wind carries great tongues of fire in every direction—even so furiously did Achilles rage, wielding his spear as though he were a god, and giving chase to those whom he would slay, till the dark earth ran with blood. Or as one who yokes broad-browed oxen that they may tread barley in a threshing-floor—and it is soon bruised small under the feet of the lowing cattle—even so did the horses of Achilles trample on the shields and bodies of the slain. The axle underneath and the railing that ran round the car were bespattered with clots of blood thrown up by the horses' hoofs, and from the tyres of the wheels; but the son of Peleus pressed on to win still further glory, and his hands were bedrabbled with gore.
 
-
-
----
-
 # BOOK XXI.
 
-The fight between Achilles and the river Scamander—The gods fight among themselves—Achilles drives the Trojans within their gates.
+*The fight between Achilles and the river Scamander—The gods fight among themselves—Achilles drives the Trojans within their gates.*
 
 Now when they came to the ford of the full-flowing river Xanthus, begotten of immortal Jove, Achilles cut their forces in two: one half he chased over the plain towards the city by the same way that the Achaeans had taken when flying panic-stricken on the preceding day with Hector in full triumph; this way did they fly pell-mell, and Juno sent down a thick mist in front of them to stay them. The other half were hemmed in by the deep silver-eddying stream, and fell into it with a great uproar. The waters resounded, and the banks rang again, as they swam hither and thither with loud cries amid the whirling eddies. As locusts flying to a river before the blast of a grass fire—the flame comes on and on till at last it overtakes them and they huddle into the water—even so was the eddying stream of Xanthus filled with the uproar of men and horses, all struggling in confusion before Achilles.
 
@@ -2625,10 +2060,6 @@ Then Achilles said to himself in his surprise, “What marvel do I see here? If 
 
 Thus did he pause and ponder. But Lycaon came up to him dazed and trying hard to embrace his knees, for he would fain live, not die. Achilles thrust at him with his spear, meaning to kill him, but Lycaon ran crouching up to him and caught his knees, whereby the spear passed over his back, and stuck in the ground, hungering though it was for blood. With one hand he caught Achilles’ knees as he besought him, and with the other he clutched the spear and would not let it go. Then he said, “Achilles, have mercy upon me and spare me, for I am your suppliant. It was in your tents that I first broke bread on the day when you took me prisoner in the vineyard; after which you sold me away to Lemnos far from my father and my friends, and I brought you the price of a hundred oxen. I have paid three times as much to gain my freedom; it is but twelve days that I have come to Ilius after much suffering, and now cruel fate has again thrown me into your hands. Surely father Jove must hate me, that he has given me over to you a second time. Short of life indeed did my mother Laothoe bear me, daughter of aged Altes—of Altes who reigns over the warlike Lelegae and holds steep Pedasus on the river Satnioeis. Priam married his daughter along with many other women and two sons were born of her, both of whom you will have slain. Your spear slew noble Polydorus as he was fighting in the front ranks, and now evil will here befall me, for I fear that I shall not escape you since heaven has delivered me over to you. Furthermore I say, and lay my saying to your heart, spare me, for I am not of the same womb as Hector who slew your brave and noble comrade.”
 
-
-
----
-
 With such words did the princely son of Priam beseech Achilles; but Achilles answered him sternly. “Idiot,” said he, “talk not to me of ransom. Until Patroclus fell I preferred to give the Trojans quarter, and sold beyond the sea many of those whom I had taken alive; but now not a man shall live of those whom heaven delivers into my hands before the city of Ilius—and of all Trojans it shall fare hardest with the sons of Priam. Therefore, my friend, you too shall die. Why should you whine in this way? Patroclus fell, and he was a better man than you are. I too—see you not how I am great and goodly? I am son to a noble father, and have a goddess for my mother, but the hands of doom and death overshadow me all as surely. The day will come, either at dawn or dark, or at the noontide, when one shall take my life also in battle, either with his spear, or with an arrow sped from his bow.”
 
 Thus did he speak, and Lycaon’s heart sank within him. He loosed his hold of the spear, and held out both hands before him; but Achilles drew his keen blade, and struck him by the collar-bone on his neck; he plunged his two-edged sword into him to the very hilt, whereon he lay at full length on the ground, with the dark blood welling from him till the earth was soaked. Then Achilles caught him by the foot and flung him into the river to go down stream, vaunting over him the while, and saying, “Lie there among the fishes, who will lick the blood from your wound and gloat over it; your mother shall not lay you on any bier to mourn you, but the eddies of Scamander shall bear you into the broad bosom of the sea. There shall the fishes feed on the fat of Lycaon as they dart under the dark ripple of the waters—so perish all of you till we reach the citadel of strong Ilius—you in flight, and I following after to destroy you. The river with its broad silver stream shall serve you in no stead, for all the bulls you offered him and all the horses that you flung living into his waters. None the less miserably shall you perish till there is not a man of you but has paid in full for the death of Patroclus and the havoc you wrought among the Achaeans whom you have slain while I held aloof from battle.”
@@ -2638,10 +2069,6 @@ So spoke Achilles, but the river grew more and more angry, and pondered within h
 Thus did he defy him, and Achilles raised his spear of Pelian ash. Asteropaeus failed with both his spears, for he could use both hands alike; with the one spear he struck Achilles’ shield, but did not pierce it, for the layer of gold, gift of the god, stayed the point; with the other spear he grazed the elbow of Achilles’ right arm drawing dark blood, but the spear itself went by him and fixed itself in the ground, foiled of its bloody banquet. Then Achilles, fain to kill him, hurled his spear at Asteropaeus, but failed to hit him and struck the steep bank of the river, driving the spear half its length into the earth. The son of Peleus then drew his sword and sprang furiously upon him. Asteropaeus vainly tried to draw Achilles’ spear out of the bank by main force; thrice did he tug at it, trying with all his might to draw it out, and thrice he had to leave off trying; the fourth time he tried to bend and break it, but ere he could do so Achilles smote him with his sword and killed him. He struck him in the belly near the navel, so that all his bowels came gushing out on to the ground, and the darkness of death came over him as he lay gasping. Then Achilles set his foot on his chest and spoiled him of his armour, vaunting over him and saying, “Lie there—begotten of a river though you be, it is hard for you to strive with the offspring of Saturn’s son. You declare yourself sprung from the blood of a broad river, but I am of the seed of mighty Jove. My father is Peleus, son of Aeacus ruler over the many Myrmidons, and Aeacus was the son of Jove. Therefore as Jove is mightier than any river that flows into the sea, so are his children stronger than those of any river whatsoever. Moreover you have a great river hard by if he can be of any use to you, but there is no fighting against Jove the son of Saturn, with whom not even King Achelous can compare, nor the mighty stream of deep-flowing Oceanus, from whom all rivers and seas with all springs and deep wells proceed; even Oceanus fears the lightnings of great Jove, and his thunder that comes crashing out of heaven.”
 
 With this he drew his bronze spear out of the bank, and now that he had killed Asteropaeus, he let him lie where he was on the sand, with the dark water flowing over him and the eels and fishes busy nibbling and gnawing the fat that was about his kidneys. Then he went in chase of the Paeonians, who were flying along the bank of the river in panic when they saw their leader slain by the hands of the son of Peleus. Therein he slew Thersilochus, Mydon, Astypylus, Mnesus, Thrasius, Oeneus, and Ophelestes, and he would have slain yet others, had not the river in anger taken human form, and spoken to him from out the deep waters saying, “Achilles, if you excel all in strength, so do you also in wickedness, for the gods are ever with you to protect you: if, then, the son of Saturn has vouchsafed it to you to destroy all the Trojans, at any rate drive them out of my stream, and do your grim work on land. My fair waters are now filled with corpses, nor can I find any channel by which I may pour myself into the sea for I am choked with dead, and yet you go on mercilessly slaying. I am in despair, therefore, O captain of your host, trouble me no further.”
-
-
-
----
 
 Achilles answered, "So be it, Scamander, Jove-descended; but I will never cease dealing out death among the Trojans, till I have pent them up in their city, and made trial of Hector face to face, that I may learn whether he is to vanquish me, or I him."
 
@@ -2660,10 +2087,6 @@ When they had so said they went back to the other immortals, but Achilles strove
 On this he upraised his tumultuous flood high against Achilles, seething as it was with foam and blood and the bodies of the dead. The dark waters of the river stood upright and would have overwhelmed the son of Peleus, but Juno, trembling lest Achilles should be swept away in the mighty torrent, lifted her voice on high and called out to Vulcan her son. "Crook-foot," she cried, "my child, be up and doing, for I deem it is with you that Xanthus is fain to fight; help us at once, kindle a fierce fire; I will then bring up the west and the white south wind in a mighty hurricane from the sea, that shall bear the flames against the heads and armour of the Trojans and consume them, while you go along the banks of Xanthus burning his trees and wrapping him round with fire. Let him not turn you back neither by fair words nor foul, and slacken not till I shout and tell you. Then you may stay your flames."
 
 On this Vulcan kindled a fierce fire, which broke out first upon the plain and burned the many dead whom Achilles had killed and whose bodies were lying about in great numbers; by this means the plain was dried and the flood stayed. As the
-
-
-
----
 
 north wind, blowing on an orchard that has been sodden with autumn rain, soon dries it, and the heart of the owner is glad—even so the whole plain was dried and the dead bodies were consumed. Then he turned tongues of fire on to the river. He burned the elms the willows and the tamarisks, the lotus also, with the rushes and marshy herbage that grew abundantly by the banks of the river. The eels and fishes that go darting about everywhere in the water, these, too, were sorely harassed by the flames that cunning Vulcan had kindled, and the river himself was scalded, so that he spoke saying, “Vulcan, there is no god can hold his own against you. I cannot fight you when you flare out your flames in this way; strive with me no longer. Let Achilles drive the Trojans out of their city immediately. What have I to do with quarrelling and helping people?”
 
@@ -2684,10 +2107,6 @@ Thus she spoke. Minerva sped after Venus with a will, and made at her, striking 
 Juno smiled as she listened. Meanwhile King Neptune turned to Apollo saying, “Phoebus, why should we keep each other at arm’s length? it is not well, now that the others have begun fighting; it will be disgraceful to us if we return to Jove’s bronze-floored mansion on Olympus without having fought each other; therefore come on, you are the younger of the two, and I ought not to attack you, for I am older and have had more experience. Idiot, you have no sense, and forget how we two alone of all the gods fared hardly round about Ilius when we came from Jove’s house and worked for Laomedon a whole year at a stated wage and he gave us his orders. I built the Trojans the wall about their city, so wide and fair that it might be impregnable, while you, Phoebus, herded cattle for him in the dales of many valleyed Ida. When, however, the glad hours brought round the time of payment, mighty Laomedon robbed us of all our hire and sent us off with nothing but abuse. He threatened to bind us hand and foot and sell us over into some distant island. He tried, moreover, to cut off the ears of both of us, so we went away in a rage, furious about the payment he had promised us, and yet withheld; in spite of all this, you are now showing favour to his people, and will not join us in compassing the utter ruin of the proud Trojans with their wives and children.”
 
 And King Apollo answered, “Lord of the earthquake, you would have no respect for me if I were to fight you about a pack of miserable mortals, who come out like leaves in summer and eat the fruit of the field, and presently fall lifeless to the
-
-
-
----
 
 ground. Let us stay this fighting at once and let them settle it among themselves."
 
@@ -2711,21 +2130,13 @@ Then had the sons of the Achaeans taken the lofty gates of Troy if Apollo had no
 
 So saying he stood on his guard and awaited Achilles, for he was now fain to fight him. As a leopardess that bounds from out a thick covert to attack a hunter—she knows no fear and is not dismayed by the baying of the hounds; even though the man be too quick for her and wound her either with thrust or spear, still, though the spear has pierced her she will not give in till she has either caught him in her grip or been killed outright—even so did noble Agenor son of Antenor refuse to fly till he had made trial of Achilles, and took aim at him with his spear, holding his round shield before him and crying with a loud voice. "Of a truth," said he, "noble Achilles, you deem that you shall this day sack the city of the proud Trojans. Fool, there will be
 
-
-
----
-
 trouble enough yet before it, for there is many a brave man of us still inside who will stand in front of our dear parents with our wives and children, to defend Ilius. Here therefore, huge and mighty warrior though you be, here shall you die.”
 
 As he spoke his strong hand hurled his javelin from him, and the spear struck Achilles on the leg beneath the knee; the greave of newly wrought tin rang loudly, but the spear recoiled from the body of him whom it had struck, and did not pierce it, for the god’s gift stayed it. Achilles in his turn attacked noble Agenor, but Apollo would not vouchsafe him glory, for he snatched Agenor away and hid him in a thick mist, sending him out of the battle unmolested. Then he craftily drew the son of Peleus away from going after the host, for he put on the semblance of Agenor and stood in front of Achilles, who ran towards him to give him chase and pursued him over the corn lands of the plain, turning him towards the deep waters of the river Scamander. Apollo ran but a little way before him and beguiled Achilles by making him think all the time that he was on the point of overtaking him. Meanwhile the rabble of routed Trojans was thankful to crowd within the city till their numbers thronged it; no longer did they dare wait for one another outside the city walls, to learn who had escaped and who were fallen in fight, but all whose feet and knees could still carry them poured pell-mell into the town.
 
-
-
----
-
 # BOOK XXII.
 
-The death of Hector.
+*The death of Hector.*
 
 Thus the Trojans in the city, scared like fawns, wiped the sweat from off them and drank to quench their thirst, leaning against the goodly battlements, while the Achaeans with their shields laid upon their shoulders drew close up to the walls. But stern fate bade Hector stay where he was before Ilius and the Scaean gates. Then Phoebus Apollo spoke to the son of Peleus saying, “Why, son of Peleus, do you, who are but man, give chase to me who am immortal? Have you not yet found out that it is a god whom you pursue so furiously? You did not harass the Trojans whom you had routed, and now they are within their walls, while you have been decoyed hither away from them. Me you cannot kill, for death can take no hold upon me.”
 
@@ -2736,10 +2147,6 @@ On this, with fell intent he made towards the city, and as the winning horse in 
 The old man tore his grey hair as he spoke, but he moved not the heart of Hector. His mother hard by wept and moaned aloud as she bared her bosom and pointed to the breast which had suckled him. “Hector,” she cried, weeping bitterly the while, “Hector, my son, spurn not this breast, but have pity upon me too: if I have ever given you comfort from my own bosom, think on it now, dear son, and come within the wall to protect us from this man; stand not without to meet him. Should the wretch kill you, neither I nor your richly dowered wife shall ever weep, dear offshoot of myself, over the bed on which you lie, for dogs will devour you at the ships of the Achaeans.”
 
 Thus did the two with many tears implore their son, but they moved not the heart of Hector, and he stood his ground awaiting huge Achilles as he drew nearer towards him. As a serpent in its den upon the mountains, full fed with deadly poisons, waits for the approach of man—he is filled with fury and his eyes glare terribly as he goes writhing round his den—even so Hector leaned his shield against a tower that jutted out from the wall and stood where he was, undaunted.
-
-131
-
----
 
 "Alas," said he to himself in the heaviness of his heart, "if I go within the gates, Polydamas will be the first to heap reproach upon me, for it was he that urged me to lead the Trojans back to the city on that awful night when Achilles again came forth against us. I would not listen, but it would have been indeed better if I had done so. Now that my folly has destroyed the host, I dare not look Trojan men and Trojan women in the face, lest a worse man should say, 'Hector has ruined us by his self-confidence.' Surely it would be better for me to return after having fought Achilles and slain him, or to die gloriously here before the city. What, again, if I were to lay down my shield and helmet, lean my spear against the wall and go straight up to noble Achilles? What if I were to promise to give up Helen, who was the fountainhead of all this war, and all the treasure that Alexandrus brought with him in his ships to Troy, aye, and to let the Achaeans divide the half of everything that the city contains among themselves? I might make the Trojans, by the mouths of their princes, take a solemn oath that they would hide nothing, but would divide into two shares all that is within the city—but why argue with myself in this way? Were I to go up to him he would show me no kind of mercy; he would kill me then and there as easily as though I were a woman, when I had off my armour. There is no parleying with him from some rock or oak tree as young men and maidens prattle with one another. Better fight him at once, and learn to which of us Jove will vouchsafe victory."
 
@@ -2756,10 +2163,6 @@ And Jove answered, "My child, Trito-born, take heart. I did not speak in full ea
 Thus did he urge Minerva who was already eager, and down she darted from the topmost summits of Olympus.
 
 Achilles was still in full pursuit of Hector, as a hound chasing a fawn which he has started from its covert on the mountains, and hunts through glade and thicket. The fawn may try to elude him by crouching under cover of a bush, but he will scent her out and follow her up until he gets her—even so there was no escape for Hector from the fleet son of Peleus. Whenever he made a set to get near the Dardanian gates and under the walls, that his people might help him by showering down weapons from above, Achilles would gain on him and head him back towards the plain, keeping himself always on the city side. As a man in a dream who fails to lay hands upon another whom he is pursuing—the one cannot escape nor the other overtake—even so neither could Achilles come up with Hector, nor Hector break away from Achilles; nevertheless he might even yet have escaped death had not the time come when Apollo, who thus far had sustained his strength and nerved his running, was now no longer to stay by him. Achilles made signs to the Achaean host, and shook his head to show that no man was to aim a dart at Hector, lest another might win the glory of having hit him and he might himself come in second. Then, at last, as they were nearing the fountains for the fourth time, the father of all balanced his golden scales and placed a doom in each of them, one for Achilles and the other for Hector. As he held the scales by the middle, the doom of Hector fell down deep into the house of Hades—and then Phoebus Apollo left him. Thereon Minerva went close up to the son of Peleus and said, "Noble Achilles, favoured of heaven, we two shall surely take back to the ships a triumph for the Achaeans by slaying Hector, for all his lust of battle. Do what Apollo may as he lies grovelling before his father, aegis-bearing Jove, Hector cannot escape us longer. Stay here and take breath, while I go up to him and persuade him to make a stand and fight you."
-
-
-
----
 
 Thus spoke Minerva. Achilles obeyed her gladly, and stood still, leaning on his bronze-pointed ashen spear, while Minerva left him and went after Hector in the form and with the voice of Deiphobus. She came close up to him and said, “Dear brother, I see you are hard pressed by Achilles who is chasing you at full speed round the city of Priam, let us await his onset and stand on our defence.”
 
@@ -2778,10 +2181,6 @@ He poised his spear as he spoke and hurled it. His aim was true for he hit the m
 As he spoke he drew the keen blade that hung so great and strong by his side, and gathering himself together be sprang on Achilles like a soaring eagle which swoops down from the clouds on to some lamb or timid hare—even so did Hector brandish his sword and spring upon Achilles. Achilles mad with rage darted towards him, with his wondrous shield before his breast, and his gleaming helmet, made with four layers of metal, nodding fiercely forward. The thick tresses of gold with which Vulcan had crested the helmet floated round it, and as the evening star that shines brighter than all others through the stillness of night, even such was the gleam of the spear which Achilles poised in his right hand, fraught with the death of noble Hector. He eyed his fair flesh over and over to see where he could best wound it, but all was protected by the goodly armour of which Hector had spoiled Patroclus after he had slain him, save only the throat where the collar-bones divide the neck from the shoulders, and this is a most deadly place: here then did Achilles strike him as he was coming on towards him, and the point of his spear went right through the fleshy part of the neck, but it did not sever his windpipe so that he could still speak. Hector fell headlong, and Achilles vaunted over him saying, “Hector, you deemed that you should come off scatheless when you were spoiling Patroclus, and recked not of myself who was not with him. Fool that you were: for I, his comrade, mightier far than he, was still left behind him at the ships, and now I have laid you low. The Achaeans shall give him all due funeral rites, while dogs and vultures shall work their will upon yourself.”
 
 Then Hector said, as the life ebbed out of him, “I pray you by your life and knees, and by your parents, let not dogs devour me at the ships of the Achaeans, but accept the rich treasure of gold and bronze which my father and mother will offer you,
-
-
-
----
 
 and send my body home, that the Trojans and their wives may give me my dues of fire when I am dead.”
 
@@ -2803,23 +2202,15 @@ Thus did he speak with many tears, and all the people of the city joined in his 
 
 Hector’s wife had as yet heard nothing, for no one had come to tell her that her husband had remained without the gates. She was at her loom in an inner part of the house, weaving a double purple web, and embroidering it with many flowers. She told her maids to set a large tripod on the fire, so as to have a warm bath ready for Hector when he came out of battle; poor woman, she knew not that he was now beyond the reach of baths, and that Minerva had laid him low by the hands of Achilles. She heard the cry coming as from the wall, and trembled in every limb; the shuttle fell from her hands, and again she spoke to her waiting-women. “Two of you,” she said, “come with me that I may learn what it is that has befallen; I heard the voice of my husband’s honoured mother; my own heart beats as though it would come into my mouth and my limbs refuse to carry me; some great misfortune for Priam’s children must be at hand. May I never live to hear it, but I greatly fear that Achilles has cut off the retreat of brave Hector and has chased him on to the plain where he was single-handed; I fear he may have put an end
 
-
-
----
-
 to the reckless daring which possessed my husband, who would never remain with the body of his men, but would dash on far in front, foremost of them all in valour.”
 
 Her heart beat fast, and as she spoke she flew from the house like a maniac, with her waiting-women following after. When she reached the battlements and the crowd of people, she stood looking out upon the wall, and saw Hector being borne away in front of the city—the horses dragging him without heed or care over the ground towards the ships of the Achaeans. Her eyes were then shrouded as with the darkness of night and she fell fainting backwards. She tore the attiring from her head and flung it from her, the frontlet and net with its plaited band, and the veil which golden Venus had given her on the day when Hector took her with him from the house of Eetion, after having given countless gifts of wooing for her sake. Her husband’s sisters and the wives of his brothers crowded round her and supported her, for she was fain to die in her distraction; when she again presently breathed and came to herself, she sobbed and made lament among the Trojans saying, “Woe is me, O Hector; woe, indeed, that to share a common lot we were born, you at Troy in the house of Priam, and I at Thebes under the wooded mountain of Placus in the house of Eetion who brought me up when I was a child—ill-starred sire of an ill-starred daughter—would that he had never begotten me. You are now going into the house of Hades under the secret places of the earth, and you leave me a sorrowing widow in your house. The child, of whom you and I are the unhappy parents, is as yet a mere infant. Now that you are gone, O Hector, you can do nothing for him nor he for you. Even though he escape the horrors of this woeful war with the Achaeans, yet shall his life henceforth be one of labour and sorrow, for others will seize his lands. The day that robs a child of his parents severs him from his own kind; his head is bowed, his cheeks are wet with tears, and he will go about destitute among the friends of his father, plucking one by the cloak and another by the shirt. Some one or other of these may so far pity him as to hold the cup for a moment towards him and let him moisten his lips, but he must not drink enough to wet the roof of his mouth; then one whose parents are alive will drive him from the table with blows and angry words. ‘Out with you,’ he will say, ‘you have no father here,’ and the child will go crying back to his widowed mother—he, Astyanax, who erewhile would sit upon his father’s knees, and have none but the daintiest and choicest morsels set before him. When he had played till he was tired and went to sleep, he would lie in a bed, in the arms of his nurse, on a soft couch, knowing neither want nor care, whereas now that he has lost his father his lot will be full of hardship—he, whom the Trojans name Astyanax, because you, O Hector, were the only defence of their gates and battlements. The wriggling writhing worms will now eat you at the ships, far from your parents, when the dogs have glutted themselves upon you. You will lie naked, although in your house you have fine and goodly raiment made by hands of women. This will I now burn; it is of no use to you, for you can never again wear it, and thus you will have respect shown you by the Trojans both men and women.”
 
 In such wise did she cry aloud amid her tears, and the women joined in her lament.
 
-
-
----
-
 # BOOK XXIII.
 
-The funeral of Patroclus, and the funeral games.
+*The funeral of Patroclus, and the funeral games.*
 
 Thus did they make their moan throughout the city, while the Achaeans when they reached the Hellespont went back every man to his own ship. But Achilles would not let the Myrmidons go, and spoke to his brave comrades saying, “Myrmidons, famed horsemen and my own trusted friends, not yet, forsooth, let us unyoke, but with horse and chariot draw near to the body and mourn Patroclus, in due honour to the dead. When we have had full comfort of lamentation we will unyoke our horses and take supper all of us here.”
 
@@ -2855,10 +2246,6 @@ Thus did he vaunt, but the dogs came not about the body of Hector, for Jove’s 
 
 Now the pyre about dead Patroclus would not kindle. Achilles therefore bethought him of another matter; he went apart and prayed to the two winds Boreas and Zephyrus vowing them goodly offerings. He made them many drink-offerings from the golden cup and besought them to come and help him that the wood might make haste to kindle and the dead bodies be consumed. Fleet Iris heard him praying and started off to fetch the winds. They were holding high feast in the house of boisterous Zephyrus when Iris came running up to the stone threshold of the house and stood there, but as soon as they set eyes on her they all came towards her and each of them called her to him, but Iris would not sit down. “I cannot stay,” she said, “I must go back to the streams of Oceanus and the land of the Ethiopians who are offering hecatombs to the immortals, and I
 
-
-
----
-
 would have my share; but Achilles prays that Boreas and shrill Zephyrus will come to him, and he vows them goodly offerings; he would have you blow upon the pyre of Patroclus for whom all the Achaeans are lamenting.”
 
 With this she left them, and the two winds rose with a cry that rent the air and swept the clouds before them. They blew on and on until they came to the sea, and the waves rose high beneath them, but when they reached Troy they fell upon the pyre till the mighty flames roared under the blast that they blew. All night long did they blow hard and beat upon the fire, and all night long did Achilles grasp his double cup, drawing wine from a mixing-bowl of gold, and calling upon the spirit of dead Patroclus as he poured it upon the ground until the earth was drenched. As a father mourns when he is burning the bones of his bridegroom son whose death has wrung the hearts of his parents, even so did Achilles mourn while burning the body of his comrade, pacing round the bier with piteous groaning and lamentation.
@@ -2874,10 +2261,6 @@ The first prize he offered was for the chariot races—a woman skilled in all us
 Thus spoke the son of Peleus and the drivers of chariots bestirred themselves. First among them all uprose Eumelus, king of men, son of Admetus, a man excellent in horsemanship. Next to him rose mighty Diomed son of Tydeus; he yoked the Trojan horses which he had taken from Aeneas, when Apollo bore him out of the fight. Next to him, yellow-haired Menelaus son of Atreus rose and yoked his fleet horses, Agamemnon’s mare Aethe, and his own horse Podargus. The mare had been given to Agamemnon by Echepolus son of Anchises, that he might not have to follow him to Ilius, but might stay at home and take his ease; for Jove had endowed him with great wealth and he lived in spacious Sicyon. This mare, all eager for the race, did Menelaus put under the yoke.
 
 Fourth in order Antilochus, son to noble Nestor son of Neleus, made ready his horses. These were bred in Pylos, and his father came up to him to give him good advice of which, however, he stood in but little need. “Antilochus,” said Nestor, “you are young, but Jove and Neptune have loved you well, and have made you an excellent horseman. I need not therefore say much by way of instruction. You are skilful at wheeling your horses round the post, but the horses themselves are very slow, and it is this that will, I fear, mar your chances. The other drivers know less than you do, but their horses are fleeter; therefore, my dear son, see if you cannot hit upon some artifice whereby you may insure that the prize shall not slip through your fingers. The woodman does more by skill than by brute force; by skill the pilot guides his storm-tossed barque over the sea, and so by skill one driver can beat another. If a man go wide in rounding this way and that, whereas a man who knows what he is doing may have worse horses, but he will keep them well in hand when he sees the doubling-post; he knows the precise moment at which to pull the rein, and keeps his eye well on the man in front of him. I will give you this certain token which cannot escape your notice. There is a stump of a dead tree—oak or pine as it may be—some six feet above the ground, and not yet rotted away by rain; it stands at the fork of the road; it has two white stones set one on each side, and there is a clear course all round it. It may have been a monument to some one long since dead, or it may have been used as a doubling-post in days gone by;
-
-
-
----
 
 now, however, it has been fixed on by Achilles as the mark round which the chariots shall turn; hug it as close as you can, but as you stand in your chariot lean over a little to the left; urge on your right-hand horse with voice and lash, and give him a loose rein, but let the left-hand horse keep so close in, that the nave of your wheel shall almost graze the post; but mind the stone, or you will wound your horses and break your chariot in pieces, which would be sport for others but confusion for yourself. Therefore, my dear son, mind well what you are about, for if you can be first to round the post there is no chance of any one giving you the go-by later, not even though you had Adrestus's horse Arion behind you—a horse which is of divine race—or those of Laomedon, which are the noblest in this country.”
 
@@ -2898,10 +2281,6 @@ Then he called on his horses and said to them, "Keep your pace, and slacken not;
 The horses feared the rebuke of their master, and went faster, so that they were soon nearly up with the others.
 
 Meanwhile the Achaeans from their seats were watching how the horses went, as they scoured the plain amid clouds of their own dust. Idomeneus captain of the Cretans was first to make out the running, for he was not in the thick of the crowd, but stood on the most commanding part of the ground. The driver was a long way off, but Idomeneus could hear him shouting, and could see the foremost horse quite plainly—a chestnut with a round white star, like the moon, on its forehead. He stood up and
-
-
-
----
 
 said among the Argives, "My friends, princes and counsellors of the Argives, can you see the running as well as I can? There seems to be another pair in front now, and another driver; those that led off at the start must have been disabled out on the plain. I saw them at first making their way round the doubling-post, but now, though I search the plain of Troy, I cannot find them. Perhaps the reins fell from the driver's hand so that he lost command of his horses at the doubling-post, and could not turn it. I suppose he must have been thrown out there, and broken his chariot, while his mares have left the course and gone off wildly in a panic. Come up and see for yourselves, I cannot make out for certain, but the driver seems an Aetolian by descent, ruler over the Argives, brave Diomed the son of Tydeus."
 
@@ -2925,10 +2304,6 @@ He bade his comrade Automedon bring the breastplate from his tent, and he did so
 
 But Menelaus got up in a rage, furiously angry with Antilochus. An attendant placed his staff in his hands and bade the Argives keep silence: the hero then addressed them. "Antilochus," said he, "what is this from you who have been so far blameless? You have made me cut a poor figure and baulked my horses by flinging your own in front of them, though yours are much worse than mine are; therefore, O princes and counsellors of the Argives, judge between us and show no favour, lest one of the Achaeans say, 'Menelaus has got the mare through lying and corruption; his horses were far inferior to Antilochus's, but he has greater weight and influence.' Nay, I will determine the matter myself, and no man will blame me, for I shall do what is just. Come here, Antilochus, and stand, as our custom is, whip in hand before your chariot and horses; lay your hand on your steeds, and swear by earth-encircling Neptune that you did not purposely and guilefully get in the way of my horses."
 
-
-
----
-
 And Antilochus answered, “Forgive me; I am much younger, King Menelaus, than you are; you stand higher than I do and are the better man of the two; you know how easily young men are betrayed into indiscretion; their tempers are more hasty and they have less judgement; make due allowances therefore, and bear with me; I will of my own accord give up the mare that I have won, and if you claim any further chattel from my own possessions, I would rather yield it to you, at once, than fall from your good graces henceforth, and do wrong in the sight of heaven.”
 
 The son of Nestor then took the mare and gave her over to Menelaus, whose anger was thus appeased; as when dew falls upon a field of ripening corn, and the lands are bristling with the harvest—even so, O Menelaus, was your heart made glad within you. He turned to Antilochus and said, “Now, Antilochus, angry though I have been, I can give way to you of my own free will; you have never been headstrong nor ill-disposed hitherto, but this time your youth has got the better of your judgement; be careful how you outwit your betters in future; no one else could have brought me round so easily, but your good father, your brother, and yourself have all of you had infinite trouble on my behalf; I therefore yield to your entreaty, and will give up the mare to you, mine though it indeed be; the people will thus see that I am neither harsh nor vindictive.”
@@ -2944,10 +2319,6 @@ As he spoke there stood up a champion both brave and of great stature, a skilful
 They all held their peace, and no man rose save Euryalus son of Mecisteus, who was son of Talaus. Mecisteus went once to Thebes after the fall of Oedipus, to attend his funeral, and he beat all the people of Cadmus. The son of Tydeus was Euryalus’s second, cheering him on and hoping heartily that he would win. First he put a waistband round him and then he gave him some well-cut thongs of ox-hide; the two men being now girt went into the middle of the ring, and immediately fell to; heavily indeed did they punish one another and lay about them with their brawny fists. One could hear the horrid crashing of their jaws, and they sweated from every pore of their skin. Presently Epeus came on and gave Euryalus a blow on the jaw as he was looking round; Euryalus could not keep his legs; they gave way under him in a moment and he sprang up with a bound, as a fish leaps into the air near some shore that is all bestrewn with sea-wrack, when Boreas furs the top of the waves, and then falls back into deep water. But noble Epeus caught hold of him and raised him up; his comrades also came round him and led him from the ring, unsteady in his gait, his head hanging on one side, and spitting great clots of gore. They set him down in a swoon and then went to fetch the double cup.
 
 The son of Peleus now brought out the prizes for the third contest and showed them to the Argives. These were for the painful art of wrestling. For the winner there was a great tripod ready for setting upon the fire, and the Achaeans valued it
-
-
-
----
 
 among themselves at twelve oxen. For the loser he brought out a woman skilled in all manner of arts, and they valued her at four oxen. He rose and said among the Argives, “Stand forward, you who will essay this contest.”
 
@@ -2969,10 +2340,6 @@ Then the son of Peleus brought out the spear, helmet and shield that had been bo
 
 Forthwith uprose great Ajax the son of Telamon, as also mighty Diomed son of Tydeus. When they had put on their armour each on his own side of the ring, they both went into the middle eager to engage, and with fire flashing from their eyes. The Achaeans marvelled as they beheld them, and when the two were now close up with one another, thrice did they spring forward and thrice try to strike each other in close combat. Ajax pierced Diomed’s round shield, but did not draw blood, for the cuirass beneath the shield protected him; thereon the son of Tydeus from over his huge shield kept aiming continually at Ajax’s neck with the point of his spear, and the Achaeans alarmed for his safety bade them leave off fighting and divide the prize between them. Achilles then gave the great sword to the son of Tydeus, with its scabbard, and the leathern belt with which to hang it.
 
-
-
----
-
 Achilles next offered the massive iron quoit which mighty Eetion had erewhile been used to hurl, until Achilles had slain him and carried it off in his ships along with other spoils. He stood up and said among the Argives, “Stand forward, you who would essay this contest. He who wins it will have a store of iron that will last him five years as they go rolling round, and if his fair fields lie far from a town his shepherd or ploughman will not have to make a journey to buy iron, for he will have a stock of it on his own premises.”
 
 Then uprose the two mighty men Polypoetes and Leonteus, with Ajax son of Telamon and noble Epeus. They stood up one after the other and Epeus took the quoit, whirled it, and flung it from him, which set all the Achaeans laughing. After him threw Leonteus of the race of Mars. Ajax son of Telamon threw third, and sent the quoit beyond any mark that had been made yet, but when mighty Polypoetes took the quoit he hurled it as though it had been a stockman’s stick which he sends flying about among his cattle when he is driving them, so far did his throw out-distance those of the others. All who saw it roared applause, and his comrades carried the prize for him and set it on board his ship.
@@ -2985,13 +2352,9 @@ Then the son of Peleus brought in a spear and a cauldron that had never been on 
 
 King Agamemnon assented. So he gave the bronze spear to Meriones, and handed the goodly cauldron to Talthybius his esquire.
 
-
-
----
-
 # BOOK XXIV.
 
-Priam ransoms the body of Hector—Hector’s funeral.
+*Priam ransoms the body of Hector—Hector’s funeral.*
 
 The assembly now broke up and the people went their ways each to his own ship. There they made ready their supper, and then bethought them of the blessed boon of sleep; but Achilles still wept for thinking of his dear comrade, and sleep, before whom all things bow, could take no hold upon him. This way and that did he turn as he yearned after the might and manfulness of Patroclus; he thought of all they had done together, and all they had gone through both on the field of battle and on the waves of the weary sea. As he dwelt on these things he wept bitterly and lay now on his side, now on his back, and now face downwards, till at last he rose and went out as one distraught to wander upon the sea-shore. Then, when he saw dawn breaking over beach and sea, he yoked his horses to his chariot, and bound the body of Hector behind it that he might drag it about. Thrice did he drag it round the tomb of the son of Menoetius, and then went back into his tent, leaving the body on the ground full length and with its face downwards. But Apollo would not suffer it to be disfigured, for he pitied the man, dead though he now was; therefore he shielded him with his golden aegis continually, that he might take no hurt while Achilles was dragging him.
 
@@ -3004,10 +2367,6 @@ Juno spoke up in a rage. “This were well,” she cried, “O lord of the silve
 Then said Jove, “Juno, be not so bitter. Their honour shall not be equal, but of all that dwell in Ilius, Hector was dearest to the gods, as also to myself, for his offerings never failed me. Never was my altar stinted of its dues, nor of the drink-offerings and savour of sacrifice which we claim of right. I shall therefore permit the body of mighty Hector to be stolen; and yet this may hardly be without Achilles coming to know it, for his mother keeps night and day beside him. Let some one of you, therefore, send Thetis to me, and I will impart my counsel to her, namely that Achilles is to accept a ransom from Priam, and give up the body.”
 
 On this Iris fleet as the wind went forth to carry his message. Down she plunged into the dark sea midway between Samos and rocky Imbrus; the waters hissed as they closed over her, and she sank into the bottom as the lead at the end of an ox-horn, that is sped to carry death to fishes. She found Thetis sitting in a great cave with the other sea-goddesses gathered round her; there she sat in the midst of them weeping for her noble son who was to fall far from his own land, on the rich plains of Troy. Iris went up to her and said, “Rise Thetis; Jove, whose counsels fail not, bids you come to him.” And Thetis answered, “Why does the mighty god so bid me? I am in great grief, and shrink from going in and out among the immortals. Still, I will go, and the word that he may speak shall not be spoken in vain.”
-
-
-
----
 
 The goddess took her dark veil, than which there can be no robe more sombre, and went forth with fleet Iris leading the way before her. The waves of the sea opened them a path, and when they reached the shore they flew up into the heavens, where they found the all-seeing son of Saturn with the blessed gods that live for ever assembled near him. Minerva gave up her seat to her, and she sat down by the side of father Jove. Juno then placed a fair golden cup in her hand, and spoke to her in words of comfort, whereon Thetis drank and gave her back the cup; and the sire of gods and men was the first to speak.
 
@@ -3024,10 +2383,6 @@ On this Iris, fleet as the wind, sped forth to deliver her message. She went to 
 Iris went her way when she had thus spoken, and Priam told his sons to get a mule-waggon ready, and to make the body of the waggon fast upon the top of its bed. Then he went down into his fragrant store-room, high-vaulted, and made of cedar-wood, where his many treasures were kept, and he called Hecuba his wife. "Wife," said he, "a messenger has come to me from Olympus, and has told me to go to the ships of the Achaeans to ransom my dear son, taking with me such gifts as shall give satisfaction to Achilles. What think you of this matter? for my own part I am greatly moved to pass through the camps of the Achaeans and go to their ships."
 
 His wife cried aloud as she heard him, and said, "Alas, what has become of that judgement for which you have been ever famous both among strangers and your own people? How can you venture alone to the ships of the Achaeans, and look into the face of him who has slain so many of your brave sons? You must have iron courage, for if the cruel savage sees you and lays hold on you, he will know neither respect nor pity. Let us then weep Hector from afar here in our own house, for when I gave him birth the threads of overruling fate were spun for him that dogs should eat his flesh far from his parents, in the house of that terrible man on whose liver I would fain fasten and devour it. Thus would I avenge my son, who showed no cowardice
-
-
-
----
 
 when Achilles slew him, and thought neither of flight nor of avoiding battle as he stood in defence of Trojan men and Trojan women.”
 
@@ -3046,10 +2401,6 @@ And Priam answered, “Wife, I will do as you desire me; it is well to lift hand
 With this the old man bade the serving-woman pour pure water over his hands, and the woman came, bearing the water in a bowl. He washed his hands and took the cup from his wife; then he made the drink-offering and prayed, standing in the middle of the courtyard and turning his eyes to heaven. “Father Jove,” he said, “that rulest from Ida, most glorious and most great, grant that I may be received kindly and compassionately in the tents of Achilles; and send your swift messenger upon my right hand, the bird of omen which is strongest and most dear to you of all birds, that I may see it with my own eyes and trust it as I go forth to the ships of the Danaans.”
 
 So did he pray, and Jove the lord of counsel heard his prayer. Forthwith he sent an eagle, the most unerring portent of all birds that fly, the dusky hunter that men also call the Black Eagle. His wings were spread abroad on either side as wide as the well-made and well-bolted door of a rich man’s chamber. He came to them flying over the city upon their right hands, and when they saw him they were glad and their hearts took comfort within them. The old man made haste to mount his chariot, and drove out through the inner gateway and under the echoing gatehouse of the outer court. Before him went the mules drawing the four-wheeled waggon, and driven by wise Idaeus; behind these were the horses, which the old man lashed with his whip and drove swiftly through the city, while his friends followed after, wailing and lamenting for him as though he were on
-
-
-
----
 
 his road to death. As soon as they had come down from the city and had reached the plain, his sons and sons-in-law who had followed him went back to Ilius.
 
@@ -3079,10 +2430,6 @@ Then answered the slayer of Argus, guide and guardian, "Sir, you are tempting me
 
 The bringer of good luck then sprang on to the chariot, and seizing the whip and reins he breathed fresh spirit into the mules and horses. When they reached the trench and the wall that was before the ships, those who were on guard had just been getting their suppers, and the slayer of Argus threw them all into a deep sleep. Then he drew back the bolts to open the gates,
 
-
-
----
-
 and took Priam inside with the treasure he had upon his waggon. Ere long they came to the lofty dwelling of the son of Peleus for which the Myrmidons had cut pine and which they had built for their king; when they had built it they thatched it with coarse tussock-grass which they had mown out on the plain, and all round it they made a large courtyard, which was fenced with stakes set close together. The gate was barred with a single bolt of pine which it took three men to force into its place, and three to draw back so as to open the gate, but Achilles could draw it by himself. Mercury opened the gate for the old man, and brought in the treasure that he was taking with him for the son of Peleus. Then he sprang from the chariot on to the ground and said, "Sir, it is I, immortal Mercury, that am come with you, for my father sent me to escort you. I will now leave you, and will not enter into the presence of Achilles, for it might anger him that a god should befriend mortal men thus openly. Go you within, and embrace the knees of the son of Peleus: beseech him by his father, his lovely mother, and his son; thus you may move him."
 
 With these words Mercury went back to high Olympus. Priam sprang from his chariot to the ground, leaving Idaeus where he was, in charge of the mules and horses. The old man went straight into the house where Achilles, loved of the gods, was sitting. There he found him with his men seated at a distance from him: only two, the hero Automedon, and Alcimus of the race of Mars, were busy in attendance about his person, for he had but just done eating and drinking, and the table was still there. King Priam entered without their seeing him, and going right up to Achilles he clasped his knees and kissed the dread murderous hands that had slain so many of his sons.
@@ -3094,10 +2441,6 @@ Thus spoke Priam, and the heart of Achilles yearned as he bethought him of his f
 And Priam answered, "O king, bid me not be seated, while Hector is still lying uncared for in your tents, but accept the great ransom which I have brought you, and give him to me at once that I may look upon him. May you prosper with the ransom and reach your own land in safety, seeing that you have suffered me to live and to look upon the light of the sun."
 
 Achilles looked at him sternly and said, "Vex me, sir, no longer; I am of myself minded to give up the body of Hector. My mother, daughter of the old man of the sea, came to me from Jove to bid me deliver it to you. Moreover I know well, O Priam, and you cannot hide it, that some god has brought you to the ships of the Achaeans, for else, no man however strong and in his prime would dare to come to our host; he could neither pass our guard unseen, nor draw the bolt of my gates thus easily;
-
-
-
----
 
 therefore, provoke me no further, lest I sin against the word of Jove, and suffer you not, suppliant though you are, within my tents.”
 
@@ -3117,10 +2460,6 @@ As he spoke he laid his hand on the old man’s right wrist, in token that he sh
 
 And now both gods and mortals were fast asleep through the livelong night, but upon Mercury alone, the bringer of good luck, sleep could take no hold for he was thinking all the time how to get King Priam away from the ships without his being seen by the strong force of sentinels. He hovered therefore over Priam’s head and said, “Sir, now that Achilles has spared your life, you seem to have no fear about sleeping in the thick of your foes. You have paid a great ransom, and have received the body of your son; were you still alive and a prisoner the sons whom you have left at home would have to give three times as much to free you; and so it would be if Agamemnon and the other Achaeans were to know of your being here.”
 
-
-
----
-
 When he heard this the old man was afraid and roused his servant. Mercury then yoked their horses and mules, and drove them quickly through the host so that no man perceived them. When they came to the ford of eddying Xanthus, begotten of immortal Jove, Mercury went back to high Olympus, and dawn in robe of saffron began to break over all the land. Priam and Idaeus then drove on toward the city lamenting and making moan, and the mules drew the body of Hector. No one neither man nor woman saw them, till Cassandra, fair as golden Venus standing on Pergamus, caught sight of her dear father in his chariot, and his servant that was the city's herald with him. Then she saw him that was lying upon the bier, drawn by the mules, and with a loud cry she went about the city saying, "Come hither Trojans, men and women, and look on Hector; if ever you rejoiced to see him coming from battle when he was alive, look now on him that was the glory of our city and all our people."
 
 At this there was not man nor woman left in the city, so great a sorrow had possessed them. Hard by the gates they met Priam as he was bringing in the body. Hector's wife and his mother were the first to mourn him: they flew towards the waggon and laid their hands upon his head, while the crowd stood weeping round them. They would have stayed before the gates, weeping and lamenting the livelong day to the going down of the sun, had not Priam spoken to them from the chariot and said, "Make way for the mules to pass you. Afterwards when I have taken the body home you shall have your fill of weeping."
@@ -3136,124 +2475,3 @@ She wept as she spoke and the vast crowd that was gathered round her joined in h
 Forthwith they yoked their oxen and mules and gathered together before the city. Nine days long did they bring in great heaps of wood, and on the morning of the tenth day with many tears they took brave Hector forth, laid his dead body upon the summit of the pile, and set the fire thereto. Then when the child of morning, rosy-fingered dawn, appeared on the eleventh day, the people again assembled, round the pyre of mighty Hector. When they were got together, they first quenched the fire with wine wherever it was burning, and then his brothers and comrades with many a bitter tear gathered his white bones, wrapped them in soft robes of purple, and laid them in a golden urn, which they placed in a grave and covered over with large stones set close together. Then they built a barrow hurriedly over it keeping guard on every side lest the Achaeans should attack them before they had finished. When they had heaped up the barrow they went back again into the city, and being well assembled they held high feast in the house of Priam their king.
 
 Thus, then, did they celebrate the funeral of Hector tamer of horses.
-
-
-
----
-
-Updated editions will replace the previous one—the old editions will be renamed.
-
-Creating the works from print editions not protected by U.S. copyright law means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg™ electronic works to protect the PROJECT GUTENBERG™ concept and trademark. Project Gutenberg is a registered trademark, and may not be used if you charge for an eBook, except by following the terms of the trademark license, including paying royalties for use of the Project Gutenberg trademark. If you do not charge anything for copies of this eBook, complying with the trademark license is very easy. You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research. Project Gutenberg eBooks may be modified and printed and given away—you may do practically ANYTHING in the United States with eBooks not protected by U.S. copyright law. Redistribution is subject to the trademark license, especially commercial redistribution.
-
-START: FULL LICENSE
-
-151
-
----
-
-
-
----
-
-To protect the Project Gutenberg™ mission of promoting the free distribution of electronic works, by using or distributing this work (or any other work associated in any way with the phrase "Project Gutenberg"), you agree to comply with all the terms of the Full Project Gutenberg License available with this file or online at www.gutenberg.org/license.
-
-# Section 1. General Terms of Use and Redistributing Project Gutenberg electronic works
-
-1.A. By reading or using any part of this Project Gutenberg electronic work, you indicate that you have read, understand, agree to and accept all the terms of this license and intellectual property (trademark/copyright) agreement. If you do not agree to abide by all the terms of this agreement, you must cease using and return or destroy all copies of Project Gutenberg electronic works in your possession. If you paid a fee for obtaining a copy of or access to a Project Gutenberg electronic work and you do not agree to be bound by the terms of this agreement, you may obtain a refund from the person or entity to whom you paid the fee as set forth in paragraph 1.E.8.
-
-1.B. "Project Gutenberg" is a registered trademark. It may only be used on or associated in any way with an electronic work by people who agree to be bound by the terms of this agreement. There are a few things that you can do with most Project Gutenberg electronic works even without complying with the full terms of this agreement. See paragraph 1.C below. There are a lot of things you can do with Project Gutenberg electronic works if you follow the terms of this agreement and help preserve free future access to Project Gutenberg electronic works. See paragraph 1.E below.
-
-1.C. The Project Gutenberg Literary Archive Foundation ("the Foundation" or PGLAF), owns a compilation copyright in the collection of Project Gutenberg electronic works. Nearly all the individual works in the collection are in the public domain in the United States. If an individual work is unprotected by copyright law in the United States and you are located in the United States, we do not claim a right to prevent you from copying, distributing, performing, displaying or creating derivative works based on the work as long as all references to Project Gutenberg are removed. Of course, we hope that you will support the Project Gutenberg mission of promoting free access to electronic works by freely sharing Project Gutenberg works in compliance with the terms of this agreement for keeping the Project Gutenberg name associated with the work. You can easily comply with the terms of this agreement by keeping this work in the same format with its attached full Project Gutenberg License when you share it without charge with others.
-
-1.D. The copyright laws of the place where you are located also govern what you can do with this work. Copyright laws in most countries are in a constant state of change. If you are outside the United States, check the laws of your country in addition to the terms of this agreement before downloading, copying, displaying, performing, distributing or creating derivative works based on this work or any other Project Gutenberg work. The Foundation makes no representations concerning the copyright status of any work in any country other than the United States.
-
-1.E. Unless you have removed all references to Project Gutenberg:
-
-1.E.1. The following sentence, with active links to, or other immediate access to, the full Project Gutenberg License must appear prominently whenever any copy of a Project Gutenberg work (any work on which the phrase "Project Gutenberg" appears, or with which the phrase "Project Gutenberg" is associated) is accessed, displayed, performed, viewed, copied or distributed:
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg™ License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-1.E.2. If an individual Project Gutenberg electronic work is derived from texts not protected by U.S. copyright law (does not contain a notice indicating that it is posted with permission of the copyright holder), the work can be copied and distributed to anyone in the United States without paying any fees or charges. If you are redistributing or providing access to a work with the phrase "Project Gutenberg" associated with or appearing on the work, you must comply either with the requirements of paragraphs 1.E.1 through 1.E.7 or obtain permission for the use of the work and the Project Gutenberg trademark as set forth in paragraphs 1.E.8 or 1.E.9.
-
-1.E.3. If an individual Project Gutenberg electronic work is posted with the permission of the copyright holder, your use and distribution must comply with both paragraphs 1.E.1 through 1.E.7 and any additional terms imposed by the copyright holder.
-
-153
-
----
-
-Additional terms will be linked to the Project Gutenberg License for all works posted with the permission of the copyright holder found at the beginning of this work.
-
-1.E.4. Do not unlink or detach or remove the full Project Gutenberg License terms from this work, or any files containing a part of this work or any other work associated with Project Gutenberg.
-
-1.E.5. Do not copy, display, perform, distribute or redistribute this electronic work, or any part of this electronic work, without prominently displaying the sentence set forth in paragraph 1.E.1 with active links or immediate access to the full terms of the Project Gutenberg License.
-
-1.E.6. You may convert to and distribute this work in any binary, compressed, marked up, nonproprietary or proprietary form, including any word processing or hypertext form. However, if you provide access to or distribute copies of a Project Gutenberg work in a format other than "Plain Vanilla ASCII" or other format used in the official version posted on the official Project Gutenberg website (www.gutenberg.org), you must, at no additional cost, fee or expense to the user, provide a copy, a means of exporting a copy, or a means of obtaining a copy upon request, of the work in its original "Plain Vanilla ASCII" or other form. Any alternate format must include the full Project Gutenberg License as specified in paragraph 1.E.1.
-
-1.E.7. Do not charge a fee for access to, viewing, displaying, performing, copying or distributing any Project Gutenberg works unless you comply with paragraph 1.E.8 or 1.E.9.
-
-1.E.8. You may charge a reasonable fee for copies of or providing access to or distributing Project Gutenberg electronic works provided that:
-
-- You pay a royalty fee of 20% of the gross profits you derive from the use of Project Gutenberg works calculated using the method you already use to calculate your applicable taxes. The fee is owed to the owner of the Project Gutenberg trademark, but he has agreed to donate royalties under this paragraph to the Project Gutenberg Literary Archive Foundation. Royalty payments must be paid within 60 days following each date on which you prepare (or are legally required to prepare) your periodic tax returns. Royalty payments should be clearly marked as such and sent to the Project Gutenberg Literary Archive Foundation at the address specified in Section 4, "Information about donations to the Project Gutenberg Literary Archive Foundation."
-- You provide a full refund of any money paid by a user who notifies you in writing (or by e-mail) within 30 days of receipt that s/he does not agree to the terms of the full Project Gutenberg™ License. You must require such a user to return or destroy all copies of the works possessed in a physical medium and discontinue all use of and all access to other copies of Project Gutenberg™ works.
-- You provide, in accordance with paragraph 1.F.3, a full refund of any money paid for a work or a replacement copy, if a defect in the electronic work is discovered and reported to you within 90 days of receipt of the work.
-- You comply with all other terms of this agreement for free distribution of Project Gutenberg™ works.
-
-1.E.9. If you wish to charge a fee or distribute a Project Gutenberg™ electronic work or group of works on different terms than are set forth in this agreement, you must obtain permission in writing from the Project Gutenberg Literary Archive Foundation, the manager of the Project Gutenberg™ trademark. Contact the Foundation as set forth in Section 3 below.
-
-1.F.
-
-1.F.1. Project Gutenberg volunteers and employees expend considerable effort to identify, do copyright research on, transcribe and proofread works not protected by U.S. copyright law in creating the Project Gutenberg™ collection. Despite these efforts, Project Gutenberg™ electronic works, and the medium on which they may be stored, may contain "Defects," such as, but not limited to, incomplete, inaccurate or corrupt data, transcription errors, a copyright or other intellectual property infringement, a defective or damaged disk or other medium, a computer virus, or computer codes that damage or cannot be read by your equipment.
-
-1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right of Replacement or Refund" described in paragraph 1.F.3, the Project Gutenberg Literary Archive Foundation, the owner of the Project Gutenberg™ trademark, and any other party distributing a Project Gutenberg™ electronic work under this agreement, disclaim all liability to you for damages, costs and expenses, including legal fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE TRADEMARK OWNER, AND ANY DISTRIBUTOR
-
-
-
----
-
-```markdown
-UNDER THIS AGREEMENT WILL NOT BE LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH DAMAGE.
-
-1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a defect in this electronic work within 90 days of receiving it, you can receive a refund of the money (if any) you paid for it by sending a written explanation to the person you received the work from. If you received the work on a physical medium, you must return the medium with your written explanation. The person or entity that provided you with the defective work may elect to provide a replacement copy in lieu of a refund. If you received the work electronically, the person or entity providing it to you may choose to give you a second opportunity to receive the work electronically in lieu of a refund. If the second copy is also defective, you may demand a refund in writing without further opportunities to fix the problem.
-
-1.F.4. Except for the limited right of replacement or refund set forth in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
-
-1.F.5. Some states do not allow disclaimers of certain implied warranties or the exclusion or limitation of certain types of damages. If any disclaimer or limitation set forth in this agreement violates the law of the state applicable to this agreement, the agreement shall be interpreted to make the maximum disclaimer or limitation permitted by the applicable state law. The invalidity or unenforceability of any provision of this agreement shall not void the remaining provisions.
-
-1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg™ electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg™ electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg work, (b) alteration, modification, or additions or deletions to any Project Gutenberg work, and (c) any Defect you cause.
-
-## Section 2. Information about the Mission of Project Gutenberg
-
-Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life.
-
-Volunteers and financial support to provide volunteers with the assistance they need are critical to reaching Project Gutenberg's goals and ensuring that the Project Gutenberg collection will remain freely available for generations to come. In 2001, the Project Gutenberg Literary Archive Foundation was created to provide a secure and permanent future for Project Gutenberg and future generations. To learn more about the Project Gutenberg Literary Archive Foundation and how your efforts and donations can help, see Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
-
-## Section 3. Information about the Project Gutenberg Literary Archive Foundation
-
-The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service. The Foundation's EIN or federal tax identification number is 64-6221541. Contributions to the Project Gutenberg Literary Archive Foundation are tax deductible to the full extent permitted by U.S. federal laws and your state's laws.
-
-The Foundation's business office is located at 41 Watchung Plaza #516, Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up to date contact information can be found at the Foundation's website and official page at www.gutenberg.org/contact
-
-## Section 4. Information about Donations to the Project Gutenberg Literary Archive Foundation
-
-Project Gutenberg™ depends upon and cannot survive without widespread public support and donations to carry out its mission of increasing the number of public domain and licensed works that can be freely distributed in machine-readable form accessible by the widest array of equipment including outdated equipment. Many small donations ($1 to $5,000) are particularly important to maintaining tax exempt status with the IRS.
-
----
-
-The Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States. Compliance requirements are not uniform and it takes a considerable effort, much paperwork and many fees to meet and keep up with these requirements. We do not solicit donations in locations where we have not received written confirmation of compliance. To SEND DONATIONS or determine the status of compliance for any particular state visit www.gutenberg.org/donate.
-
-While we cannot and do not solicit contributions from states where we have not met the solicitation requirements, we know of no prohibition against accepting unsolicited donations from donors in such states who approach us with offers to donate.
-
-International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States. U.S. laws alone swamp our small staff.
-
-Please check the Project Gutenberg web pages for current donation methods and addresses. Donations are accepted in a number of other ways including checks, online payments and credit card donations. To donate, please visit: www.gutenberg.org/donate.
-
-## Section 5. General Information About Project Gutenberg electronic works
-
-Professor Michael S. Hart was the originator of the Project Gutenberg concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg eBooks with only a loose network of volunteer support.
-
-Project Gutenberg eBooks are often created from several printed editions, all of which are confirmed as not protected by copyright in the U.S. unless a copyright notice is included. Thus, we do not necessarily keep eBooks in compliance with any particular paper edition.
-
-Most people start at our website which has the main PG search facility: www.gutenberg.org.
-
-This website includes information about Project Gutenberg, including how to make donations to the Project Gutenberg Literary Archive Foundation, how to help produce our new eBooks, and how to subscribe to our email newsletter to hear about new eBooks.
-

@@ -17,5 +17,6 @@
   "era": "renaissance-scientific-revolution",
   "prerequisites": [
     "arnauld-port-royal-grammar"
-  ]
+  ],
+  "ocr_status": "pending"
 }

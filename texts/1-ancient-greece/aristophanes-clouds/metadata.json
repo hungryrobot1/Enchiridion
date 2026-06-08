@@ -6,8 +6,8 @@
   "year_translated": 1853,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg2562-images-3.pdf",
+  "format": "markdown",
+  "filename": "aristophanes-clouds.md",
   "description": "Satirical comedy lampooning Socrates and the Sophists",
   "topics": [
     "literature",
@@ -16,5 +16,6 @@
     "philosophy"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

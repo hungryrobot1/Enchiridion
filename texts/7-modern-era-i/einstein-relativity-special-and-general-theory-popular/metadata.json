@@ -16,5 +16,6 @@
   "era": "modern-era-i",
   "prerequisites": [
     "einstein-on-electrodynamics-of-moving-bodies"
-  ]
+  ],
+  "ocr_status": "pending"
 }

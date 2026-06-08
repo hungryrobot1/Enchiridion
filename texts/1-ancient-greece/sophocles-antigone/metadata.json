@@ -1,0 +1,21 @@
+{
+  "title": "Antigone",
+  "author": "Sophocles",
+  "translator": "F. Storr",
+  "year_written": "~441 BCE",
+  "year_translated": 1912,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "sophocles-antigone.md",
+  "description": "Third play of the Theban cycle. Antigone defies King Creon's edict to bury her brother, setting divine law against civic law and the will of the individual against the will of the state.",
+  "topics": [
+    "literature",
+    "drama",
+    "tragedy"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

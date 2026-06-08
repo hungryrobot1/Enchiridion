@@ -2,8 +2,11 @@
   "title": "Minkowski Spacetime Notation Guide",
   "type": "notation-guide",
   "era": "modern-era-i",
-  "texts": ["minkowski-space-and-time"],
+  "texts": [
+    "minkowski-space-and-time"
+  ],
   "description": "The spacetime interval, four-vectors, and Minkowski diagrams — supplementing Minkowski's own exposition with modern notation where needed",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

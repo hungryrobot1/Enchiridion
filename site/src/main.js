@@ -8,6 +8,11 @@ import { renderLanding } from './pages/landing.js';
 import { renderAbout } from './pages/about.js';
 import { renderGrandTour } from './pages/grand-tour.js';
 import { renderStub } from './pages/stub.js';
+import { renderExplore } from './pages/explore.js';
+import { renderChangelog } from './pages/changelog.js';
+import { renderTextReader } from './pages/text-reader.js';
+import { renderSupplementReader } from './pages/supplement-reader.js';
+import { renderModuleReader } from './pages/module-reader.js';
 
 const app = document.getElementById('app');
 app.appendChild(renderHeader());
@@ -19,14 +24,12 @@ app.appendChild(content);
 route('/', (container) => renderLanding(container));
 route('/about', (container) => renderAbout(container));
 route('/grand-tour', (container) => renderGrandTour(container));
-route('/explore', (container) => renderStub(container, {
-  title: 'Explore',
-  note: 'The browseable corpus surface is being rebuilt for v0.3. Check back soon.',
-}));
-route('/changelog', (container) => renderStub(container, {
-  title: 'Changelog',
-  note: 'Coming soon.',
-}));
+route('/explore', (container) => renderExplore(container));
+route('/changelog', (container, params) => renderChangelog(container, params));
+route('/changelog/:id', (container, params) => renderChangelog(container, params));
+route('/text/:id', (container, params) => renderTextReader(container, params));
+route('/supplement/:id', (container, params) => renderSupplementReader(container, params));
+route('/module/:id/:chapter', (container, params) => renderModuleReader(container, params));
 
 startRouter(content);
 

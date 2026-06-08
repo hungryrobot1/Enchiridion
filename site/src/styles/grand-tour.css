@@ -119,11 +119,54 @@
 
 .gt-item__passages {
   display: block;
+  margin-top: var(--space-2xs);
+}
+
+.gt-item__passages-summary {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   color: var(--color-ink-soft);
   font-style: italic;
-  margin-top: var(--space-2xs);
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  transition: color var(--transition);
+}
+
+.gt-item__passages-summary::-webkit-details-marker {
+  display: none;
+}
+
+.gt-item__passages-summary::before {
+  content: '›';
+  font-style: normal;
+  display: inline-block;
+  transition: transform var(--transition);
+  color: var(--color-ink-faint);
+}
+
+.gt-item__passages[open] .gt-item__passages-summary::before {
+  transform: rotate(90deg);
+}
+
+.gt-item__passages-summary:hover {
+  color: var(--color-accent-hover);
+}
+
+.gt-item__passages-list {
+  margin: var(--space-xs) 0 0 var(--space-md);
+  padding: 0;
+  list-style: disc;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  line-height: var(--line-height-list);
+}
+
+.gt-item__passages-list li {
+  margin-bottom: var(--space-3xs);
 }
 
 .gt-item__note {

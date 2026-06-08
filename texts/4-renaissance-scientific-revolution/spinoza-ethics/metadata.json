@@ -17,5 +17,6 @@
   "era": "renaissance-scientific-revolution",
   "prerequisites": [
     "descartes-meditations"
-  ]
+  ],
+  "ocr_status": "pending"
 }

@@ -16,5 +16,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "von-neumann-edvac"
-  ]
+  ],
+  "ocr_status": "pending"
 }

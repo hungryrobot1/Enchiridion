@@ -16,5 +16,6 @@
   "era": "nineteenth-century",
   "prerequisites": [
     "dedekind-essays-on-theory-of-numbers"
-  ]
+  ],
+  "ocr_status": "pending"
 }

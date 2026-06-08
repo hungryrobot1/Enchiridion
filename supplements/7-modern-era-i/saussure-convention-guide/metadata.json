@@ -2,8 +2,11 @@
   "title": "Saussure's Key Distinctions",
   "type": "convention-guide",
   "era": "modern-era-i",
-  "texts": ["saussure-course-in-general-linguistics"],
+  "texts": [
+    "saussure-course-in-general-linguistics"
+  ],
   "description": "The foundational terminology of structural linguistics — signifier and signified, langue and parole, synchronic and diachronic analysis, and the arbitrary nature of the sign",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

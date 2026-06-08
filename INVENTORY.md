@@ -1,19 +1,23 @@
 # Enchiridion Inventory
 
-_Generated 2026-05-19 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
+_Generated 2026-05-26 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
 
 ## Texts
 
 ### Ancient Greece
 
+- aeschylus-agamemnon
+- aeschylus-furies
+- aeschylus-libation-bearers
 - aeschylus-oresteia
+- aeschylus-prometheus-bound
 - apollonius-conic-sections
 - archimedes-equilibrium-of-planes
 - archimedes-floating-bodies
 - archimedes-geometrical-solutions
 - archimedes-heath-works
+- archimedes-quadrature-of-the-parabola
 - aristophanes-clouds
-- aristotle-categories
 - aristotle-de-anima
 - aristotle-metaphysics
 - aristotle-nicomachean-ethics
@@ -27,15 +31,20 @@ _Generated 2026-05-19 by `utilities/inventory.py`. Each entry is a directory nam
 - homer-iliad
 - homer-odyssey
 - plato-meno
+- plato-phaedo
 - plato-phaedrus
 - plato-symposium
 - plato-theaetetus
 - plato-timaeus
 - ptolemy-almagest
+- sophocles-antigone
+- sophocles-oedipus-at-colonus
+- sophocles-oedipus-the-king
 - sophocles-oedipus-trilogy
 
 ### Rome and Late Antiquity
 
+- aristotle-categories
 - augustine-city-of-god
 - augustine-confessions
 - boethius-consoltion-of-philosophy
@@ -97,6 +106,7 @@ _Generated 2026-05-19 by `utilities/inventory.py`. Each entry is a directory nam
 - pascal-arithmetic-triangle
 - pascal-pensees
 - shakespeare-hamlet
+- shakespeare-merchant-of-venice
 - shakespeare-tempest
 - smith-source-book-in-mathematics
 - spinoza-ethics
@@ -271,6 +281,7 @@ _Generated 2026-05-19 by `utilities/inventory.py`. Each entry is a directory nam
 - turing-computing-machinery-and-intelligence
 - turing-on-computable-numbers
 - universal-declaration-of-human-rights
+- vaswani-shazeer-attention-is-all-you-need
 - von-neumann-edvac
 - wachowski-the-matrix
 - wadler-propositions-as-types

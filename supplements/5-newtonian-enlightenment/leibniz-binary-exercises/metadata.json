@@ -2,8 +2,11 @@
   "title": "Binary Arithmetic Exercises",
   "type": "exercise-set",
   "era": "newtonian-enlightenment",
-  "texts": ["leibniz-binary-arithmetic"],
+  "texts": [
+    "leibniz-binary-arithmetic"
+  ],
   "description": "Binary conversion, arithmetic operations in base 2, and the conceptual bridge from Leibniz to Shannon and modern computation",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

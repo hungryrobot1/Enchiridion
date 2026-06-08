@@ -2,8 +2,11 @@
   "title": "Boolean Algebra Exercises",
   "type": "exercise-set",
   "era": "nineteenth-century",
-  "texts": ["boole-investigation-of-the-laws-of-thought"],
+  "texts": [
+    "boole-investigation-of-the-laws-of-thought"
+  ],
   "description": "Truth tables, logical operations, and Boolean algebra — building the bridge from Boole's Laws of Thought to digital logic and Shannon's circuits",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

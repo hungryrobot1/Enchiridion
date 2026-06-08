@@ -2,8 +2,13 @@
   "title": "Counterpoint Exercises",
   "type": "exercise-set",
   "era": "renaissance-scientific-revolution",
-  "texts": ["fux-study-of-counterpoint"],
+  "texts": [
+    "fux-study-of-counterpoint"
+  ],
   "description": "Writing counterpoint in the five species following Fux's method — cantus firmus exercises progressing through each species",
   "filename": "content.md",
-  "prerequisites": ["fux-counterpoint-convention-guide"]
+  "prerequisites": [
+    "fux-counterpoint-convention-guide"
+  ],
+  "content_status": "stub"
 }

@@ -2,8 +2,14 @@
   "title": "Dalton Atomic Theory Exercises",
   "type": "exercise-set",
   "era": "newtonian-enlightenment",
-  "texts": ["dalton-new-system-of-chemical-philosophy-i", "dalton-new-system-of-chemical-philosophy-ii"],
+  "texts": [
+    "dalton-new-system-of-chemical-philosophy-i",
+    "dalton-new-system-of-chemical-philosophy-ii"
+  ],
   "description": "Stoichiometry, atomic weight calculations, and the law of multiple proportions — working with Dalton's atomic theory",
   "filename": "content.md",
-  "prerequisites": ["dalton-notation-guide"]
+  "prerequisites": [
+    "dalton-notation-guide"
+  ],
+  "content_status": "stub"
 }

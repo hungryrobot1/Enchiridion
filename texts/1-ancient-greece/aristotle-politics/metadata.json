@@ -1,13 +1,13 @@
 {
   "title": "Politics",
   "author": "Aristotle",
-  "translator": "Benjamin Jowett",
+  "translator": "William Ellis",
   "year_written": "~350 BCE",
   "year_translated": 1885,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg6762-images-3.pdf",
+  "format": "markdown",
+  "filename": "aristotle-politics.md",
   "description": "Analysis of political communities, constitutions, and the best forms of government",
   "topics": [
     "philosophy",
@@ -16,5 +16,6 @@
   "era": "ancient-greece",
   "prerequisites": [
     "aristotle-nicomachean-ethics"
-  ]
+  ],
+  "ocr_status": "complete"
 }

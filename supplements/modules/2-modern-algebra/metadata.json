@@ -8,52 +8,85 @@
     {
       "filename": "01-variables-unknowns-and-equations.md",
       "title": "Variables, Unknowns, and Equations",
-      "alongside": ["diophantus-arithmetica"]
+      "alongside": [
+        "diophantus-arithmetica"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "02-from-geometric-to-algebraic-reasoning.md",
       "title": "From Geometric to Algebraic Reasoning",
-      "alongside": ["diophantus-arithmetica", "al-khwarizmi-algebra", "fibonacci-liber-abaci"]
+      "alongside": [
+        "diophantus-arithmetica",
+        "al-khwarizmi-algebra",
+        "fibonacci-liber-abaci"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "03-completing-the-square-and-equation-types.md",
       "title": "Completing the Square and Equation Types",
-      "alongside": ["diophantus-arithmetica", "al-khwarizmi-algebra"]
+      "alongside": [
+        "diophantus-arithmetica",
+        "al-khwarizmi-algebra"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "04-symbolic-notation-and-polynomials.md",
       "title": "Symbolic Notation and Polynomials",
-      "alongside": ["descartes-la-geometrie"]
+      "alongside": [
+        "descartes-la-geometrie"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "05-factoring-and-polynomial-equations.md",
       "title": "Factoring and Polynomial Equations",
-      "alongside": ["descartes-la-geometrie"]
+      "alongside": [
+        "descartes-la-geometrie"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "06-mathematical-induction-and-binomial-coefficients.md",
       "title": "Mathematical Induction and the Binomial Coefficients",
-      "alongside": ["pascal-arithmetic-triangle"]
+      "alongside": [
+        "pascal-arithmetic-triangle"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "07-sequences-series-and-generating-rules.md",
       "title": "Sequences, Series, and Generating Rules",
-      "alongside": []
+      "alongside": [],
+      "content_status": "stub"
     },
     {
       "filename": "08-trigonometric-ratios.md",
       "title": "Trigonometric Ratios",
-      "alongside": ["galileo-two-new-sciences", "kepler-harmonies-book-v", "huygens-treatise-on-light"]
+      "alongside": [
+        "galileo-two-new-sciences",
+        "kepler-harmonies-book-v",
+        "huygens-treatise-on-light"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "09-logarithmic-and-exponential-functions.md",
       "title": "Logarithmic and Exponential Functions",
-      "alongside": ["napier-construction-of-the-wonderful-canon-of-logarithms"]
+      "alongside": [
+        "napier-construction-of-the-wonderful-canon-of-logarithms"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "10-pre-calculus-synthesis.md",
       "title": "Pre-Calculus Synthesis",
-      "alongside": ["euler-elements-of-algebra"]
+      "alongside": [
+        "euler-elements-of-algebra"
+      ],
+      "content_status": "stub"
     }
   ]
 }

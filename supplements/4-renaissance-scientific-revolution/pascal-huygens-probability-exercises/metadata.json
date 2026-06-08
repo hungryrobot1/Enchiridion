@@ -2,8 +2,12 @@
   "title": "Pascal & Huygens Probability Exercises",
   "type": "exercise-set",
   "era": "renaissance-scientific-revolution",
-  "texts": ["pascal-arithmetic-triangle", "huygens-de-ratiociniis-in-ludo"],
+  "texts": [
+    "pascal-arithmetic-triangle",
+    "huygens-de-ratiociniis-in-ludo"
+  ],
   "description": "Properties of Pascal's triangle, problems from the Pascal-Fermat correspondence, and probability using Huygens' expectation framework",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

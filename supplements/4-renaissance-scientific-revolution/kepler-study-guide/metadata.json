@@ -2,8 +2,12 @@
   "title": "Kepler's Three Laws",
   "type": "study-guide",
   "era": "renaissance-scientific-revolution",
-  "texts": ["kepler-astronomia-novia-latin", "kepler-harmonies-book-v"],
+  "texts": [
+    "kepler-astronomia-novia-latin",
+    "kepler-harmonies-book-v"
+  ],
   "description": "The key arguments of Astronomia Nova for readers without Latin, the three laws of planetary motion, and exercises verifying the third law with solar system data",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

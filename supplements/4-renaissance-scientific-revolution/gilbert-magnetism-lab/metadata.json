@@ -2,8 +2,11 @@
   "title": "Magnetism Lab",
   "type": "lab-manual",
   "era": "renaissance-scientific-revolution",
-  "texts": ["gilbert-de-magnete"],
+  "texts": [
+    "gilbert-de-magnete"
+  ],
   "description": "Mapping magnetic fields, observing compass needle deflection, and reproducing Gilbert's key experiments with lodestones and iron",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

@@ -16,5 +16,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "djikstra-go-to-statement-considered-harmful"
-  ]
+  ],
+  "ocr_status": "pending"
 }

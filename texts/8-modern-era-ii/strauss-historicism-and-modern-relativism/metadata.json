@@ -16,5 +16,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "strauss-natural-right"
-  ]
+  ],
+  "ocr_status": "pending"
 }

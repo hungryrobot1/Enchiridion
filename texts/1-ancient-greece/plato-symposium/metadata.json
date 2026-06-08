@@ -6,13 +6,14 @@
   "year_translated": 1871,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg1600-images-3.pdf",
+  "format": "markdown",
+  "filename": "plato-symposium.md",
   "description": "Dialogue exploring the nature of love through speeches at a banquet",
   "topics": [
     "philosophy",
     "ethics"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

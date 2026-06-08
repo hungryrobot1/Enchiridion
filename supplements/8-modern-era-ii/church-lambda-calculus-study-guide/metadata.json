@@ -2,8 +2,12 @@
   "title": "Church and the Lambda Calculus",
   "type": "study-guide",
   "era": "modern-era-ii",
-  "texts": ["church-unsolvable-problem-of-elementary-number-theory", "church-calculi-of-lambda-conversion"],
+  "texts": [
+    "church-unsolvable-problem-of-elementary-number-theory",
+    "church-calculi-of-lambda-conversion"
+  ],
   "description": "Lambda calculus basics — reduction rules, Church encoding of numbers and booleans, and the bridge from mathematical logic to functional programming",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

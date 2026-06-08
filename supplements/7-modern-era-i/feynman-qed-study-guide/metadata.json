@@ -2,8 +2,11 @@
   "title": "Feynman's Path Integral Approach",
   "type": "study-guide",
   "era": "modern-era-i",
-  "texts": ["feynman-space-time-approach-to-quantum-electrodynamics"],
+  "texts": [
+    "feynman-space-time-approach-to-quantum-electrodynamics"
+  ],
   "description": "Framing the path integral approach to QED — what Feynman diagrams represent, the sum-over-histories idea, and what this paper achieves for quantum field theory",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

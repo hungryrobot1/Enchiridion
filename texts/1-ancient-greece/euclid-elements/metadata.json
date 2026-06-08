@@ -6,8 +6,8 @@
   "year_translated": 2007,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "Elements.pdf",
+  "format": "markdown",
+  "filename": "euclid-elements.md",
   "description": "Foundational treatise on geometry and number theory that defined axiomatic reasoning for two millennia",
   "topics": [
     "mathematics",
@@ -16,5 +16,6 @@
     "logic"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

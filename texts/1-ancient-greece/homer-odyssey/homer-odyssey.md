@@ -1,219 +1,16 @@
-# The Odyssey by Homer
+# THE ODYSSEY
 
 ![img-0.jpeg](images/img-0.jpeg)
 
-Rendered into English Prose by Samuel Butler
+# BOOK I.
 
----
-
-# The Odyssey by Homer
-
-![img-1.jpeg](images/img-1.jpeg)
-
-Rendered into English Prose by Samuel Butler
-
----
-
-
-
----
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-Title: The Odyssey
-
-Author: Homer
-
-Translator: Samuel Butler
-
-Release date: April 1, 1999 [eBook #1727]
-
-Most recently updated: December 2, 2023
-
-Language: English
-
-Other information and formats: www.gutenberg.org/ebooks/1727
-
-Credits: Jim Tinsley and David Widger
-
-*** START OF THE PROJECT GUTENBERG EBOOK THE ODYSSEY ***
-
-
-
----
-
-rendered into English prose for the use of those who cannot read the original
-
-PREFACE TO FIRST EDITION
-
-PREFACE TO SECOND EDITION
-
-THE ODYSSEY
-
-BOOK I.
-
-BOOK II.
-
-BOOK III.
-
-BOOK IV.
-
-BOOK V.
-
-BOOK VI.
-
-BOOK VII.
-
-BOOK VIII.
-
-BOOK IX.
-
-BOOK X.
-
-BOOK XI.
-
-BOOK XII.
-
-BOOK XIII.
-
-BOOK XIV.
-
-BOOK XV.
-
-BOOK XVI.
-
-BOOK XVII.
-
-BOOK XVIII.
-
-BOOK XIX.
-
-BOOK XX.
-
-BOOK XXI.
-
-BOOK XXII.
-
-BOOK XXIII.
-
-BOOK XXIV.
-
-FOOTNOTES:
-
-4
-
----
-
-AL PROFESSORE
-CAV. BIAGIO INGROIA,
-PREZIOSO ALLEATO
-L'AUTORE RICONOSCENTE.
-
----
-
-# PREFACE TO FIRST EDITION
-
-This translation is intended to supplement a work entitled “The Authoress of the Odyssey”, which I published in 1897. I could not give the whole “Odyssey” in that book without making it unwieldy, I therefore epitomised my translation, which was already completed and which I now publish in full.
-
-I shall not here argue the two main points dealt with in the work just mentioned; I have nothing either to add to, or to withdraw from, what I have there written. The points in question are:
-
-(1) that the “Odyssey” was written entirely at, and drawn entirely from, the place now called Trapani on the West Coast of Sicily, alike as regards the Phaeacian and the Ithaca scenes; while the voyages of Ulysses, when once he is within easy reach of Sicily, solve themselves into a periplus of the island, practically from Trapani back to Trapani, via the Lipari islands, the Straits of Messina, and the island of Pantellaria.
-
-(2) That the poem was entirely written by a very young woman, who lived at the place now called Trapani, and introduced herself into her work under the name of Nausicaa.
-
-The main arguments on which I base the first of these somewhat startling contentions, have been prominently and repeatedly before the English and Italian public ever since they appeared (without rejoinder) in the “Athenaeum” for January 30 and February 20, 1892. Both contentions were urged (also without rejoinder) in the Johnian “Eagle” for the Lent and October terms of the same year. Nothing to which I should reply has reached me from any quarter, and knowing how anxiously I have endeavoured to learn the existence of any flaws in my argument, I begin to feel some confidence that, did such flaws exist, I should have heard, at any rate about some of them, before now. Without, therefore, for a moment pretending to think that scholars generally acquiesce in my conclusions, I shall act as thinking them little likely so to gainsay me as that it will be incumbent upon me to reply, and shall confine myself to translating the “Odyssey” for English readers, with such notes as I think will be found useful. Among these I would especially call attention to one on xxii. 465-473 which Lord Grimthorpe has kindly allowed me to make public.
-
-I have repeated several of the illustrations used in “The Authoress of the Odyssey”, and have added two which I hope may bring the outer court of Ulysses’ house more vividly before the reader. I should like to explain that the presence of a man and a dog in one illustration is accidental, and was not observed by me till I developed the negative. In an appendix I have also reprinted the paragraphs explanatory of the plan of Ulysses’ house, together with the plan itself. The reader is recommended to study this plan with some attention.
-
-In the preface to my translation of the “Iliad” I have given my views as to the main principles by which a translator should be guided, and need not repeat them here, beyond pointing out that the initial liberty of translating poetry into prose involves the continual taking of more or less liberty throughout the translation; for much that is right in poetry is wrong in prose, and the exigencies of readable prose are the first things to be considered in a prose translation. That the reader, however, may see how far I have departed from strict construe, I will print here Messrs. Butcher and Lang’s translation of the sixty lines or so of the “Odyssey.” Their translation runs:
-
-Tell me, Muse, of that man, so ready at need, who wandered far and wide, after he had sacked the sacred citadel of Troy, and many were the men whose towns he saw and whose mind he learnt, yea, and many the woes he suffered in his heart on the deep, striving to win his own life and the return of his company. Nay, but even so he saved not his company, though he desired it sore. For through the blindness of their own hearts they perished, fools, who devoured the oxen of Helios Hyperion: but the god took from them their day of returning. Of these things, goddess, daughter of Zeus, whencesoever thou hast heard thereof, declare thou even unto us.
-
-Now all the rest, as many as fled from sheer destruction, were at home, and had escaped both war and sea, but Odysseus only, craving for his wife and for his homeward path, the lady nymph Calypso held, that fair goddess, in her hollow caves, longing to have him for her lord. But when now the year had come in the courses of the seasons, wherein the gods had ordained that he should return home to Ithaca, not even there was he quit of labours, not even among his own; but all the gods had pity on him save Poseidon, who raged continually against godlike Odysseus, till he came to his own country. Howbeit Poseidon had now departed for the distant Ethiopians, the Ethiopians that are sundered in twain, the uttermost of men, abiding some where Hyperion sinks and some where he rises. There he looked to receive his hecatomb of bulls and rams, there he made merry sitting at the feast, but the
-
-6
-
----
-
-other gods were gathered in the halls of Olympian Zeus. Then among them the father of men and gods began to speak, for he bethought him in his heart of noble Aegisthus, whom the son of Agamemnon, far-famed Orestes, slew. Thinking upon him he spake out among the Immortals:
-
-'Lo you now, how vainly mortal men do blame the gods! For of us they say comes evil, whereas they even of themselves, through the blindness of their own hearts, have sorrows beyond that which is ordained. Even as of late Aegisthus, beyond that which was ordained, took to him the wedded wife of the son of Atreus, and killed her lord on his return, and that with sheer doom before his eyes, since we had warned him by the embassy of Hermes the keen-sighted, the slayer of Argos, that he should neither kill the man, nor woo his wife. For the son of Atreus shall be avenged at the hand of Orestes, so soon as he shall come to man's estate and long for his own country. So spake Hermes, yet he prevailed not on the heart of Aegisthus, for all his good will; but now hath he paid one price for all.'
-
-And the goddess, grey-eyed Athene, answered him, saying: 'O father, our father Cronides, throned in the highest; that man assuredly lies in a death that is his due; so perish likewise all who work such deeds! But my heart is rent for wise Odysseus, the hapless one, who far from his friends this long while suffereth affliction in a sea-girt isle, where is the navel of the sea, a woodland isle, and therein a goddess hath her habitation, the daughter of the wizard Atlas, who knows the depths of every sea, and himself upholds the tall pillars which keep earth and sky asunder. His daughter it is that holds the hapless man in sorrow: and ever with soft and guileful tales she is wooing him to forgetfulness of Ithaca. But Odysseus yearning to see if it were but the smoke leap upwards from his own land, hath a desire to die. As for thee, thine heart regardeth it not at all, Olympian! What! Did not Odysseus by the ships of the Argives make thee free offering of sacrifice in the wide Trojan land? Wherefore wast thou then so wroth with him, O Zeus?'
-
-The "Odyssey" (as every one knows) abounds in passages borrowed from the "Iliad"; I had wished to print these in a slightly different type, with marginal references to the "Iliad," and had marked them to this end in my MS. I found, however, that the translation would be thus hopelessly scholasticised, and abandoned my intention. I would nevertheless urge on those who have the management of our University presses, that they would render a great service to students if they would publish a Greek text of the "Odyssey" with the Iliadic passages printed in a different type, and with marginal references. I have given the British Museum a copy of the "Odyssey" with the Iliadic passages underlined and referred to in MS.; I have also given an "Iliad" marked with all the Odyssean passages, and their references; but copies of both the "Iliad" and "Odyssey" so marked ought to be within easy reach of all students.
-
-Any one who at the present day discusses the questions that have arisen round the "Iliad" since Wolf's time, without keeping it well before his reader's mind that the "Odyssey" was demonstrably written from one single neighbourhood, and hence (even though nothing else pointed to this conclusion) presumably by one person only—that it was written certainly before 750, and in all probability before 1000 B.C.—that the writer of this very early poem was demonstrably familiar with the "Iliad" as we now have it, borrowing as freely from those books whose genuineness has been most impugned, as from those which are admitted to be by Homer—any one who fails to keep these points before his readers, is hardly dealing equitably by them. Any one on the other hand, who will mark his "Iliad" and his "Odyssey" from the copies in the British Museum above referred to, and who will draw the only inference that common sense can draw from the presence of so many identical passages in both poems, will, I believe, find no difficulty in assigning their proper value to a large number of books here and on the Continent that at present enjoy considerable reputations. Furthermore, and this perhaps is an advantage better worth securing, he will find that many puzzles of the "Odyssey" cease to puzzle him on the discovery that they arise from over-saturation with the "Iliad."
-
-Other difficulties will also disappear as soon as the development of the poem in the writer's mind is understood. I have dealt with this at some length in pp. 251-261 of "The Authoress of the Odyssey". Briefly, the "Odyssey" consists of two distinct poems: (1) The Return of Ulysses, which alone the Muse is asked to sing in the opening lines of the poem. This poem includes the Phaeacian episode, and the account of Ulysses' adventures as told by himself in Books ix.-xii. It consists of lines 1-79 (roughly) of Book i., of line 28 of Book v., and thence without intermission to the middle of line 187 of Book xiii., at which point the original scheme was abandoned.
-
-(2) The story of Penelope and the suitors, with the episode of Telemachus' voyage to Pylos. This poem begins with line 80 (roughly) of Book i., is continued to the end of Book iv., and not resumed till Ulysses wakes in the middle of line 187, Book xiii., from whence it continues to the end of Book xxiv.
-
-In "The Authoress of the Odyssey", I wrote:
-
-the introduction of lines xi., 115-137 and of line ix., 535, with the writing a new council of the gods at the beginning of Book v., to take the place of the one that was removed to Book i., 1-79, were the only things that were done to give even a semblance of unity to the old scheme and the new, and to
-
-
-
----
-
-conceal the fact that the Muse, after being asked to sing of one subject, spend two-thirds of her time in singing a very different one, with a climax for which no-one has asked her. For roughly the Return occupies eight Books, and Penelope and the Suitors sixteen.
-
-I believe this to be substantially correct.
-
-Lastly, to deal with a very unimportant point, I observe that the Leipsic Teubner edition of 894 makes Books ii. and iii. end with a comma. Stops are things of such far more recent date than the "Odyssey," that there does not seem much use in adhering to the text in so small a matter; still, from a spirit of mere conservatism, I have preferred to do so. Why [Greek] at the beginnings of Books ii. and viii., and [Greek], at the beginning of Book vii. should have initial capitals in an edition far too careful to admit a supposition of inadvertence, when [Greek] at the beginning of Books vi. and xiii., and [Greek] at the beginning of Book xvii. have no initial capitals, I cannot determine. No other Books of the "Odyssey" have initial capitals except the three mentioned unless the first word of the Book is a proper name.
-
-S. BUTLER.
-
-July 25, 1900.
-
----
-
-# PREFACE TO SECOND EDITION
-
-Butler’s Translation of the “Odyssey” appeared originally in 1900, and The Authoress of the Odyssey in 1897. In the preface to the new edition of “The Authoress”, which is published simultaneously with this new edition of the Translation, I have given some account of the genesis of the two books.
-
-The size of the original page has been reduced so as to make both books uniform with Butler’s other works; and, fortunately, it has been possible, by using a smaller type, to get the same number of words into each page, so that the references remain good, and, with the exception of a few minor alterations and rearrangements now to be enumerated so far as they affect the Translation, the new editions are faithful reprints of the original editions, with misprints and obvious errors corrected—no attempt having been made to edit them or to bring them up to date.
-
-(a) The Index has been revised.
-
-(b) Owing to the reduction in the size of the page it has been necessary to shorten some of the headlines, and here advantage has been taken of various corrections of and additions to the headlines and shoulder-notes made by Butler in his own copies of the two books.
-
-(c) For the most part each of the illustrations now occupies a page, whereas in the original editions they generally appeared two on the page. It has been necessary to reduce the plan of the House of Ulysses.
-
-On page 153 of “The Authoress” Butler says: “No great poet would compare his hero to a paunch full of blood and fat, cooking before the fire (xx, 24-28).” This passage is not given in the abridged Story of the “Odyssey” at the beginning of the book, but in the Translation it occurs in these words:
-
-“Thus he chided with his heart, and checked it into endurance, but he tossed about as one who turns a paunch full of blood and fat in front of a hot fire, doing it first on one side then on the other, that he may get it cooked as soon as possible; even so did he turn himself about from side to side, thinking all the time how, single-handed as he was, he should contrive to kill so large a body of men as the wicked suitors.”
-
-It looks as though in the interval between the publication of “The Authoress” (1897) and of the Translation (1900) Butler had changed his mind; for in the first case the comparison is between Ulysses and a paunch full, etc., and in the second it is between Ulysses and a man who turns a paunch full, etc. The second comparison is perhaps one which a great poet might make.
-
-In seeing the works through the press I have had the invaluable assistance of Mr. A. T. Bartholomew of the University Library, Cambridge, and of Mr. Donald S. Robertson, Fellow of Trinity College, Cambridge. To both these friends I give my most cordial thanks for the care and skill exercised by them. Mr. Robertson has found time for the labour of checking and correcting all the quotations from and references to the “Iliad” and “Odyssey,” and I believe that it could not have been better performed. It was, I know, a pleasure for him; and it would have been a pleasure also for Butler if he could have known that his work was being shepherded by the son of his old friend, Mr. H. R. Robertson, who more than half a century ago was a fellow-student with him at Cary’s School of Art in Streatham Street, Bloomsbury.
-
-HENRY FESTING JONES.
-
-120 MAIDA VALE, W.9.
-
-4th December, 1921.
-
----
-
-
-
----
-
-
-
----
-
-# BOOK I
-
-## THE GODS IN COUNCIL—MINERVA'S VISIT TO ITHACA—THE CHALLENGE FROM TELEMACHUS TO THE SUITORS.
+*The gods in council—Minerva's visit to Ithaca—The challenge from Telemachus to the suitors.*
 
 Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover he suffered much by sea while trying to save his own life and bring his men safely home; but do what he might he could not save his men, for they perished through their own sheer folly in eating the cattle of the Sun-god Hyperion; so the god prevented them from ever reaching home. Tell me, too, about all these things, oh daughter of Jove, from whatsoever source you may know them.
 
 So now all who escaped death in battle or by shipwreck had got safely home except Ulysses, and he, though he was longing to return to his wife and country, was detained by the goddess Calypso, who had got him into a large cave and wanted to marry him. But as years went by, there came a time when the gods settled that he should go back to Ithaca; even then, however, when he was among his own people, his troubles were not yet over; nevertheless all the gods had now begun to pity him except Neptune, who still persecuted him without ceasing and would not let him get home.
 
-Now Neptune had gone off to the Ethiopians, who are at the world's end, and lie in two halves, the one looking West and the other East.[1] He had gone there to accept a hecatomb of sheep and oxen, and was enjoying himself at his festival; but the other gods met in the house of Olympian Jove, and the sire of gods and men spoke first. At that moment he was thinking of Aegisthus, who had been killed by Agamemnon's son Orestes; so he said to the other gods:
+Now Neptune had gone off to the Ethiopians, who are at the world's end, and lie in two halves, the one looking West and the other East. He had gone there to accept a hecatomb of sheep and oxen, and was enjoying himself at his festival; but the other gods met in the house of Olympian Jove, and the sire of gods and men spoke first. At that moment he was thinking of Aegisthus, who had been killed by Agamemnon's son Orestes; so he said to the other gods:
 
 “See now, how men lay blame upon us gods for what is after all nothing but their own folly. Look at Aegisthus; he must needs make love to Agamemnon’s wife unrighteously and then kill Agamemnon, though he knew it would be the death of him; for I sent Mercury to warn him not to do either of these things, inasmuch as Orestes would be sure to take his revenge when he grew up and wanted to return home. Mercury told him this in all good will but he would not listen, and now he has paid for everything in full.”
 
@@ -225,19 +22,17 @@ And Minerva said, “Father, son of Saturn, King of kings, if, then, the gods no
 
 So saying she bound on her glittering golden sandals, imperishable, with which she can fly like the wind over land or sea; she grasped the redoubtable bronze-shod spear, so stout and sturdy and strong, wherewith she quells the ranks of heroes who have displeased her, and down she darted from the topmost summits of Olympus, whereon forthwith she was in Ithaca, at the gateway of Ulysses’ house, disguised as a visitor, Mentes, chief of the Taphians, and she held a bronze spear in her hand. There she found the lordly suitors seated on hides of the oxen which they had killed and eaten, and playing draughts in front of the house. Men-servants and pages were bustling about to wait upon them, some mixing wine with water in the mixing-bowls, some cleaning down the tables with wet sponges and laying them out again, and some cutting up great quantities of meat.
 
----
-
 Telemachus saw her long before any one else did. He was sitting moodily among the suitors thinking about his brave father, and how he would send them flying out of the house, if he were to come to his own again and be honoured as in days gone by. Thus brooding as he sat among them, he caught sight of Minerva and went straight to the gate, for he was vexed that a stranger should be kept waiting for admittance. He took her right hand in his own, and bade her give him her spear. “Welcome,” said he, “to our house, and when you have partaken of food you shall tell us what you have come for.”
 
-He led the way as he spoke, and Minerva followed him. When they were within he took her spear and set it in the spearstand against a strong bearing-post along with the many other spears of his unhappy father, and he conducted her to a richly decorated seat under which he threw a cloth of damask. There was a footstool also for her feet,[2] and he set another seat near her for himself, away from the suitors, that she might not be annoyed while eating by their noise and insolence, and that he might ask her more freely about his father.
+He led the way as he spoke, and Minerva followed him. When they were within he took her spear and set it in the spearstand against a strong bearing-post along with the many other spears of his unhappy father, and he conducted her to a richly decorated seat under which he threw a cloth of damask. There was a footstool also for her feet, and he set another seat near her for himself, away from the suitors, that she might not be annoyed while eating by their noise and insolence, and that he might ask her more freely about his father.
 
 A maid servant then brought them water in a beautiful golden ewer and poured it into a silver basin for them to wash their hands, and she drew a clean table beside them. An upper servant brought them bread, and offered them many good things of what there was in the house, the carver fetched them plates of all manner of meats and set cups of gold by their side, and a manservant brought them wine and poured it out for them.
 
-Then the suitors came in and took their places on the benches and seats.[3] Forthwith men servants poured water over their hands, maids went round with the bread-baskets, pages filled the mixing-bowls with wine and water, and they laid their hands upon the good things that were before them. As soon as they had had enough to eat and drink they wanted music and dancing, which are the crowning embellishments of a banquet, so a servant brought a lyre to Phemius, whom they compelled perforce to sing to them. As soon as he touched his lyre and began to sing Telemachus spoke low to Minerva, with his head close to hers that no man might hear.
+Then the suitors came in and took their places on the benches and seats. Forthwith men servants poured water over their hands, maids went round with the bread-baskets, pages filled the mixing-bowls with wine and water, and they laid their hands upon the good things that were before them. As soon as they had had enough to eat and drink they wanted music and dancing, which are the crowning embellishments of a banquet, so a servant brought a lyre to Phemius, whom they compelled perforce to sing to them. As soon as he touched his lyre and began to sing Telemachus spoke low to Minerva, with his head close to hers that no man might hear.
 
 “I hope, sir,” said he, “that you will not be offended with what I am going to say. Singing comes cheap to those who do not pay for it, and all this is done at the cost of one whose bones lie rotting in some wilderness or grinding to powder in the surf. If these men were to see my father come back to Ithaca they would pray for longer legs rather than a longer purse, for money would not serve them; but he, alas, has fallen on an ill fate, and even when people do sometimes say that he is coming, we no longer heed them; we shall never see him again. And now, sir, tell me and tell me true, who you are and where you come from. Tell me of your town and parents, what manner of ship you came in, how your crew brought you to Ithaca, and of what nation they declared themselves to be—for you cannot have come by land. Tell me also truly, for I want to know, are you a stranger to this house, or have you been here in my father’s time? In the old days we had many visitors for my father went about much himself.”
 
-And Minerva answered, “I will tell you truly and particularly all about it. I am Mentes, son of Anchialus, and I am King of the Taphians. I have come here with my ship and crew, on a voyage to men of a foreign tongue being bound for Temesa[4] with a cargo of iron, and I shall bring back copper. As for my ship, it lies over yonder off the open country away from the town, in the harbour Rheithron[5] under the wooded mountain Neritum.[6] Our fathers were friends before us, as old Laertes will tell you, if you will go and ask him. They say, however, that he never comes to town now, and lives by himself in the country, faring hardly, with an old woman to look after him and get his dinner for him, when he comes in tired from pottering about his vineyard. They told me your father was at home again, and that was why I came, but it seems the gods are still keeping him back, for he is not dead yet not on the mainland. It is more likely he is on some sea-girt island in mid ocean, or a prisoner among savages who are detaining him against his will. I am no prophet, and know very little about omens, but I speak as it is borne in upon me from heaven, and assure you that he will not be away much longer; for he is a man of such resource that even though he were in chains of iron he would find some means of getting home again. But tell me, and tell me true, can Ulysses really have such a fine looking fellow for a son? You are indeed wonderfully like him about the head and eyes, for we were close friends before he set sail for Troy where the flower of all the Argives went also. Since that time we have never either of us seen the other.”
+And Minerva answered, “I will tell you truly and particularly all about it. I am Mentes, son of Anchialus, and I am King of the Taphians. I have come here with my ship and crew, on a voyage to men of a foreign tongue being bound for Temesa with a cargo of iron, and I shall bring back copper. As for my ship, it lies over yonder off the open country away from the town, in the harbour Rheithron under the wooded mountain Neritum. Our fathers were friends before us, as old Laertes will tell you, if you will go and ask him. They say, however, that he never comes to town now, and lives by himself in the country, faring hardly, with an old woman to look after him and get his dinner for him, when he comes in tired from pottering about his vineyard. They told me your father was at home again, and that was why I came, but it seems the gods are still keeping him back, for he is not dead yet not on the mainland. It is more likely he is on some sea-girt island in mid ocean, or a prisoner among savages who are detaining him against his will. I am no prophet, and know very little about omens, but I speak as it is borne in upon me from heaven, and assure you that he will not be away much longer; for he is a man of such resource that even though he were in chains of iron he would find some means of getting home again. But tell me, and tell me true, can Ulysses really have such a fine looking fellow for a son? You are indeed wonderfully like him about the head and eyes, for we were close friends before he set sail for Troy where the flower of all the Argives went also. Since that time we have never either of us seen the other.”
 
 “My mother,” answered Telemachus, “tells me I am son to Ulysses, but it is a wise child that knows his own father. Would that I were son to one who had grown old upon his own estates, for, since you ask me, there is no more ill-starred man under heaven than he who they tell me is my father.”
 
@@ -245,9 +40,7 @@ And Minerva said, “There is no fear of your race dying out yet, while Penelope
 
 “Sir,” said Telemachus, “as regards your question, so long as my father was here it was well with us and with the house, but the gods in their displeasure have willed it otherwise, and have hidden him away more closely than mortal man was ever yet hidden. I could have borne it better even though he were dead, if he had fallen with his men before Troy, or had died with friends around him when the days of his fighting were done; for then the Achaeans would have built a mound over his ashes, and I should myself have been heir to his renown; but now the storm-winds have spirited him away we know not whither; he is
 
----
-
-gone without leaving so much as a trace behind him, and I inherit nothing but dismay. Nor does the matter end simply with grief for the loss of my father; heaven has laid sorrows upon me of yet another kind; for the chiefs from all our islands, Dulichium, Same, and the woodland island of Zacynthus, as also all the principal men of Ithaca itself, are eating up my house under the pretext of paying their court to my mother, who will neither point blank say that she will not marry,[7] nor yet bring matters to an end; so they are making havoc of my estate, and before long will do so also with myself.”
+gone without leaving so much as a trace behind him, and I inherit nothing but dismay. Nor does the matter end simply with grief for the loss of my father; heaven has laid sorrows upon me of yet another kind; for the chiefs from all our islands, Dulichium, Same, and the woodland island of Zacynthus, as also all the principal men of Ithaca itself, are eating up my house under the pretext of paying their court to my mother, who will neither point blank say that she will not marry, nor yet bring matters to an end; so they are making havoc of my estate, and before long will do so also with myself.”
 
 “Is that so?” exclaimed Minerva, “then you do indeed want Ulysses home again. Give him his helmet, shield, and a couple of lances, and if he is the man he was when I first knew him in our house, drinking and making merry, he would soon lay his hands about these rascally suitors, were he to stand once more upon his own threshold. He was then coming from Ephyra, where he had been to beg poison for his arrows from Ilus, son of Mermerus. Ilus feared the ever-living gods and would not give him any, but my father let him have some, for he was very fond of him. If Ulysses is the man he then was these suitors will have a short shrift and a sorry wedding.
 
@@ -259,15 +52,13 @@ Minerva answered, “Do not try to keep me, for I would be on my way at once. As
 
 With these words she flew away like a bird into the air, but she had given Telemachus courage, and had made him think more than ever about his father. He felt the change, wondered at it, and knew that the stranger had been a god, so he went straight to where the suitors were sitting.
 
-Phemius was still singing, and his hearers sat rapt in silence as he told the sad tale of the return from Troy, and the ills Minerva had laid upon the Achaeans. Penelope, daughter of Icarius, heard his song from her room upstairs, and came down by the great staircase, not alone, but attended by two of her handmaids. When she reached the suitors she stood by one of the bearing posts that supported the roof of the cloisters[8] with a staid maiden on either side of her. She held a veil, moreover, before her face, and was weeping bitterly.
+Phemius was still singing, and his hearers sat rapt in silence as he told the sad tale of the return from Troy, and the ills Minerva had laid upon the Achaeans. Penelope, daughter of Icarius, heard his song from her room upstairs, and came down by the great staircase, not alone, but attended by two of her handmaids. When she reached the suitors she stood by one of the bearing posts that supported the roof of the cloisters with a staid maiden on either side of her. She held a veil, moreover, before her face, and was weeping bitterly.
 
-“Phemius,” she cried, “you know many another feat of gods and heroes, such as poets love to celebrate. Sing the suitors some one of these, and let them drink their wine in silence, but cease this sad tale, for it breaks my sorrowful heart, and reminds me of my lost husband whom I mourn ever without ceasing, and whose name was great over all Hellas and middle Argos.”[9]
+“Phemius,” she cried, “you know many another feat of gods and heroes, such as poets love to celebrate. Sing the suitors some one of these, and let them drink their wine in silence, but cease this sad tale, for it breaks my sorrowful heart, and reminds me of my lost husband whom I mourn ever without ceasing, and whose name was great over all Hellas and middle Argos.”
 
-“Mother,” answered Telemachus, “let the bard sing what he has a mind to; bards do not make the ills they sing of; it is Jove, not they, who makes them, and who sends weal or woe upon mankind according to his own good pleasure. This fellow means no harm by singing the ill-fated return of the Danaans, for people always applaud the latest songs most warmly. Make up your mind to it and bear it; Ulysses is not the only man who never came back from Troy, but many another went down as well as he. Go, then, within the house and busy yourself with your daily duties, your loom, your distaff, and the ordering of your servants; for speech is man’s matter, and mine above all others [10]—for it is I who am master here.”
+“Mother,” answered Telemachus, “let the bard sing what he has a mind to; bards do not make the ills they sing of; it is Jove, not they, who makes them, and who sends weal or woe upon mankind according to his own good pleasure. This fellow means no harm by singing the ill-fated return of the Danaans, for people always applaud the latest songs most warmly. Make up your mind to it and bear it; Ulysses is not the only man who never came back from Troy, but many another went down as well as he. Go, then, within the house and busy yourself with your daily duties, your loom, your distaff, and the ordering of your servants; for speech is man’s matter, and mine above all others —for it is I who am master here.”
 
-She went wondering back into the house, and laid her son’s saying in her heart. Then, going upstairs with her handmaids into her room, she mourned her dear husband till Minerva shed sweet sleep over her eyes. But the suitors were clamorous throughout the covered cloisters[11], and prayed each one that he might be her bed fellow.
-
----
+She went wondering back into the house, and laid her son’s saying in her heart. Then, going upstairs with her handmaids into her room, she mourned her dear husband till Minerva shed sweet sleep over her eyes. But the suitors were clamorous throughout the covered cloisters, and prayed each one that he might be her bed fellow.
 
 Then Telemachus spoke, “Shameless,” he cried, “and insolent suitors, let us feast at our pleasure now, and let there be no brawling, for it is a rare thing to hear a man with such a divine voice as Phemius has; but in the morning meet me in full assembly that I may give you formal notice to depart, and feast at one another’s houses, turn and turn about, at your own cost. If on the other hand you choose to persist in spunging upon one man, heaven help me, but Jove shall reckon with you in full, and when you fall in my father’s house there shall be no man to avenge you.”
 
@@ -279,25 +70,23 @@ Then Eurymachus, son of Polybus, answered, “It rests with heaven to decide who
 
 “My father is dead and gone,” answered Telemachus, “and even if some rumour reaches me I put no more faith in it now. My mother does indeed sometimes send for a soothsayer and question him, but I give his prophecyings no heed. As for the stranger, he was Mentes, son of Anchialus, chief of the Taphians, an old friend of my father’s.” But in his heart he knew that it had been the goddess.
 
-The suitors then returned to their singing and dancing until the evening; but when night fell upon their pleasuring they went home to bed each in his own abode.[12] Telemachus’s room was high up in a tower[13] that looked on to the outer court; hither, then, he hied, brooding and full of thought. A good old woman, Euryclea, daughter of Ops, the son of Pisenor, went before him with a couple of blazing torches. Laertes had bought her with his own money when she was quite young; he gave the worth of twenty oxen for her, and shewed as much respect to her in his household as he did to his own wedded wife, but he did not take her to his bed for he feared his wife’s resentment.[14] She it was who now lighted Telemachus to his room, and she loved him better than any of the other women in the house did, for she had nursed him when he was a baby. He opened the door of his bed room and sat down upon the bed; as he took off his shirt[15] he gave it to the good old woman, who folded it tidily up, and hung it for him over a peg by his bed side, after which she went out, pulled the door to by a silver catch, and drew the bolt home by means of the strap.[16] But Telemachus as he lay covered with a woollen fleece kept thinking all night through of his intended voyage and of the counsel that Minerva had given him.
+The suitors then returned to their singing and dancing until the evening; but when night fell upon their pleasuring they went home to bed each in his own abode. Telemachus’s room was high up in a tower that looked on to the outer court; hither, then, he hied, brooding and full of thought. A good old woman, Euryclea, daughter of Ops, the son of Pisenor, went before him with a couple of blazing torches. Laertes had bought her with his own money when she was quite young; he gave the worth of twenty oxen for her, and shewed as much respect to her in his household as he did to his own wedded wife, but he did not take her to his bed for he feared his wife’s resentment. She it was who now lighted Telemachus to his room, and she loved him better than any of the other women in the house did, for she had nursed him when he was a baby. He opened the door of his bed room and sat down upon the bed; as he took off his shirt he gave it to the good old woman, who folded it tidily up, and hung it for him over a peg by his bed side, after which she went out, pulled the door to by a silver catch, and drew the bolt home by means of the strap. But Telemachus as he lay covered with a woollen fleece kept thinking all night through of his intended voyage and of the counsel that Minerva had given him.
 
----
+# BOOK II.
+
+*Assembly of the people of Ithaca—Speeches of Telemachus and of the suitors—Telemachus makes his preparations and starts for Pylos with Minerva disguised as Mentor.*
 
 Now when the child of morning, rosy-fingered Dawn, appeared Telemachus rose and dressed himself. He bound his sandals on to his comely feet, girded his sword about his shoulder, and left his room looking like an immortal god. He at once sent the criers round to call the people in assembly, so they called them and the people gathered thereon; then, when they were got together, he went to the place of assembly spear in hand—not alone, for his two hounds went with him. Minerva endowed him with a presence of such divine comeliness that all marvelled at him as he went by, and when he took his place in his father’s seat even the oldest councillors made way for him.
 
-Aegyptius, a man bent double with age, and of infinite experience, was the first to speak. His son Antiphus had gone with Ulysses to Ilius, land of noble steeds, but the savage Cyclops had killed him when they were all shut up in the cave, and had cooked his last dinner for him.[17] He had three sons left, of whom two still worked on their father’s land, while the third, Eurynomus, was one of the suitors; nevertheless their father could not get over the loss of Antiphus, and was still weeping for him when he began his speech.
+Aegyptius, a man bent double with age, and of infinite experience, was the first to speak. His son Antiphus had gone with Ulysses to Ilius, land of noble steeds, but the savage Cyclops had killed him when they were all shut up in the cave, and had cooked his last dinner for him. He had three sons left, of whom two still worked on their father’s land, while the third, Eurynomus, was one of the suitors; nevertheless their father could not get over the loss of Antiphus, and was still weeping for him when he began his speech.
 
 “Men of Ithaca,” he said, “hear my words. From the day Ulysses left us there has been no meeting of our councillors until now; who then can it be, whether old or young, that finds it so necessary to convene us? Has he got wind of some host approaching, and does he wish to warn us, or would he speak upon some other matter of public moment? I am sure he is an excellent person, and I hope Jove will grant him his heart’s desire.”
 
-Telemachus took this speech as of good omen and rose at once, for he was bursting with what he had to say. He stood in the middle of the assembly and the good herald Pisenor brought him his staff. Then, turning to Aegyptius, “Sir,” said he, “it is I, as you will shortly learn, who have convened you, for it is I who am the most aggrieved. I have not got wind of any host approaching about which I would warn you, nor is there any matter of public moment on which I would speak. My grievance is purely personal, and turns on two great misfortunes which have fallen upon my house. The first of these is the loss of my excellent father, who was chief among all you here present, and was like a father to every one of you; the second is much more serious, and ere long will be the utter ruin of my estate. The sons of all the chief men among you are pestering my mother to marry them against her will. They are afraid to go to her father Icarius, asking him to choose the one he likes best, and to provide marriage gifts for his daughter, but day by day they keep hanging about my father’s house, sacrificing our oxen, sheep, and fat goats for their banquets, and never giving so much as a thought to the quantity of wine they drink. No estate can stand such recklessness; we have now no Ulysses to ward off harm from our doors, and I cannot hold my own against them. I shall never all my days be as good a man as he was, still I would indeed defend myself if I had power to do so, for I cannot stand such treatment any longer; my house is being disgraced and ruined. Have respect, therefore, to your own consciences and to public opinion. Fear, too, the wrath of heaven, lest the gods should be displeased and turn upon you. I pray you by Jove and Themis, who is the beginning and the end of councils, [do not] hold back, my friends, and leave me singlehanded[18]—unless it be that my brave father Ulysses did some wrong to the Achaeans which you would now avenge on me, by aiding and abetting these suitors. Moreover, if I am to be eaten out of house and home at all, I had rather you did the eating yourselves, for I could then take action against you to some purpose, and serve you with notices from house to house till I got paid in full, whereas now I have no remedy.”[19]
+Telemachus took this speech as of good omen and rose at once, for he was bursting with what he had to say. He stood in the middle of the assembly and the good herald Pisenor brought him his staff. Then, turning to Aegyptius, “Sir,” said he, “it is I, as you will shortly learn, who have convened you, for it is I who am the most aggrieved. I have not got wind of any host approaching about which I would warn you, nor is there any matter of public moment on which I would speak. My grievance is purely personal, and turns on two great misfortunes which have fallen upon my house. The first of these is the loss of my excellent father, who was chief among all you here present, and was like a father to every one of you; the second is much more serious, and ere long will be the utter ruin of my estate. The sons of all the chief men among you are pestering my mother to marry them against her will. They are afraid to go to her father Icarius, asking him to choose the one he likes best, and to provide marriage gifts for his daughter, but day by day they keep hanging about my father’s house, sacrificing our oxen, sheep, and fat goats for their banquets, and never giving so much as a thought to the quantity of wine they drink. No estate can stand such recklessness; we have now no Ulysses to ward off harm from our doors, and I cannot hold my own against them. I shall never all my days be as good a man as he was, still I would indeed defend myself if I had power to do so, for I cannot stand such treatment any longer; my house is being disgraced and ruined. Have respect, therefore, to your own consciences and to public opinion. Fear, too, the wrath of heaven, lest the gods should be displeased and turn upon you. I pray you by Jove and Themis, who is the beginning and the end of councils, [do not] hold back, my friends, and leave me singlehanded—unless it be that my brave father Ulysses did some wrong to the Achaeans which you would now avenge on me, by aiding and abetting these suitors. Moreover, if I am to be eaten out of house and home at all, I had rather you did the eating yourselves, for I could then take action against you to some purpose, and serve you with notices from house to house till I got paid in full, whereas now I have no remedy.”
 
 With this Telemachus dashed his staff to the ground and burst into tears. Every one was very sorry for him, but they all sat still and no one ventured to make him an angry answer, save only Antinous, who spoke thus:
 
 “Telemachus, insolent braggart that you are, how dare you try to throw the blame upon us suitors? It is your mother’s fault not ours, for she is a very artful woman. This three years past, and close on four, she had been driving us out of our minds, by encouraging each one of us, and sending him messages without meaning one word of what she says. And then there was that other trick she played us. She set up a great tambour frame in her room, and began to work on an enormous piece of fine needlework. ‘Sweet hearts,’ said she, ‘Ulysses is indeed dead, still do not press me to marry again immediately, wait—for I would not have skill in needlework perish unrecorded—till I have completed a pall for the hero Laertes, to be in readiness against the time when death shall take him. He is very rich, and the women of the place will talk if he is laid out without a pall.”
-
-16
-
----
 
 "This was what she said, and we assented; whereon we could see her working on her great web all day long, but at night she would unpick the stitches again by torchlight. She fooled us in this way for three years and we never found her out, but as time wore on and she was now in her fourth year, one of her maids who knew what she was doing told us, and we caught her in the act of undoing her work, so she had to finish it whether she would or no. The suitors, therefore, make you this answer, that both you and the Achaeans may understand—'Send your mother away, and bid her marry the man of her own and of her father's choice'; for I do not know what will happen if she goes on plaguing us much longer with the airs she gives herself on the score of the accomplishments Minerva has taught her, and because she is so clever. We never yet heard of such a woman; we know all about Tyro, Alcmena, Mycene, and the famous women of old, but they were nothing to your mother any one of them. It was not fair of her to treat us in that way, and as long as she continues in the mind with which heaven has now endowed her, so long shall we go on eating up your estate; and I do not see why she should change, for she gets all the honour and glory, and it is you who pay for it, not she. Understand, then, that we will not go back to our lands, neither here nor elsewhere, till she has made her choice and married some one or other of us."
 
@@ -311,11 +100,7 @@ Eurymachus son of Polybus then said, "Go home, old man, and prophesy to your own
 
 Then Telemachus said, "Eurymachus, and you other suitors, I shall say no more, and entreat you no further, for the gods and the people of Ithaca now know my story. Give me, then, a ship and a crew of twenty men to take me hither and thither, and I will go to Sparta and to Pylos in quest of my father who has so long been missing. Some one may tell me something, or (and people often hear things in this way) some heaven-sent message may direct me. If I can hear of him as alive and on his way home I will put up with the waste you suitors will make for yet another twelve months. If on the other hand I hear of his death, I will return at once, celebrate his funeral rites with all due pomp, build a barrow to his memory, and make my mother marry again."
 
-
-
----
-
-With these words he sat down, and Mentor^{[20]} who had been a friend of Ulysses, and had been left in charge of everything with full authority over the servants, rose to speak. He, then, plainly and in all honesty addressed them thus:
+With these words he sat down, and Mentor who had been a friend of Ulysses, and had been left in charge of everything with full authority over the servants, rose to speak. He, then, plainly and in all honesty addressed them thus:
 
 “Hear me, men of Ithaca, I hope that you may never have a kind and well-disposed ruler any more, nor one who will govern you equitably; I hope that all your chiefs henceforward may be cruel and unjust, for there is not one of you but has forgotten Ulysses, who ruled you as though he were your father. I am not half so angry with the suitors, for if they choose to do violence in the naughtiness of their hearts, and wager their heads that Ulysses will not return, they can take the high hand and eat up his estate, but as for you others I am shocked at the way in which you all sit still without even trying to stop such scandalous goings on—which you could do if you chose, for you are many and they are few.”
 
@@ -333,15 +118,13 @@ Thus spoke Minerva daughter of Jove, and Telemachus lost no time in doing as the
 
 “Antinous,” answered Telemachus, “I cannot eat in peace, nor take pleasure of any kind with such men as you are. Was it not enough that you should waste so much good property of mine while I was yet a boy? Now that I am older and know more about it, I am also stronger, and whether here among this people, or by going to Pylos, I will do you all the harm I can. I shall go, and my going will not be in vain—though, thanks to you suitors, I have neither ship nor crew of my own, and must be passenger not captain.”
 
-As he spoke he snatched his hand from that of Antinous. Meanwhile the others went on getting dinner ready about the buildings,^{[21]} jeering at him tauntingly as they did so.
+As he spoke he snatched his hand from that of Antinous. Meanwhile the others went on getting dinner ready about the buildings, jeering at him tauntingly as they did so.
 
 “Telemachus,” said one youngster, “means to be the death of us; I suppose he thinks he can bring friends to help him from Pylos, or again from Sparta, where he seems bent on going. Or will he go to Ephyra as well, for poison to put in our wine and kill us?”
 
 Another said, “Perhaps if Telemachus goes on board ship, he will be like his father and perish far from his friends. In this case we should have plenty to do, for we could then divide up his property amongst us: as for the house we can let his mother and the man who marries her have that.”
 
 This was how they talked. But Telemachus went down into the lofty and spacious store-room where his father’s treasure of gold and bronze lay heaped up upon the floor, and where the linen and spare clothes were kept in open chests. Here, too, there was a store of fragrant olive oil, while casks of old, well-ripened wine, unblended and fit for a god to drink, were ranged
-
----
 
 against the wall in case Ulysses should come home again after all. The room was closed with well-made doors opening in the middle; moreover the faithful old house-keeper Euryclea, daughter of Ops the son of Pisenor, was in charge of everything both night and day. Telemachus called her to the store-room and said:
 
@@ -361,15 +144,15 @@ Furthermore she went to the house of Ulysses, and threw the suitors into a deep 
 
 On this she led the way, while Telemachus followed in her steps. When they got to the ship they found the crew waiting by the water side, and Telemachus said, “Now my men, help me to get the stores on board; they are all put together in the cloister, and my mother does not know anything about it, nor any of the maid servants except one.”
 
-With these words he led the way and the others followed after. When they had brought the things as he told them, Telemachus went on board, Minerva going before him and taking her seat in the stern of the vessel, while Telemachus sat beside her. Then the men loosed the hawsers and took their places on the benches. Minerva sent them a fair wind from the West,^{[22]} that whistled over the deep blue waves^{[23]} whereon Telemachus told them to catch hold of the ropes and hoist sail, and they did as he told them. They set the mast in its socket in the cross plank, raised it, and made it fast with the forestays; then they hoisted their white sails aloft with ropes of twisted ox hide. As the sail bellied out with the wind, the ship flew through the deep blue water, and the foam hissed against her bows as she sped onward. Then they made all fast throughout the ship, filled the mixing bowls to the brim, and made drink offerings to the immortal gods that are from everlasting, but more particularly to the grey-eyed daughter of Jove.
+With these words he led the way and the others followed after. When they had brought the things as he told them, Telemachus went on board, Minerva going before him and taking her seat in the stern of the vessel, while Telemachus sat beside her. Then the men loosed the hawsers and took their places on the benches. Minerva sent them a fair wind from the West, that whistled over the deep blue waves whereon Telemachus told them to catch hold of the ropes and hoist sail, and they did as he told them. They set the mast in its socket in the cross plank, raised it, and made it fast with the forestays; then they hoisted their white sails aloft with ropes of twisted ox hide. As the sail bellied out with the wind, the ship flew through the deep blue water, and the foam hissed against her bows as she sped onward. Then they made all fast throughout the ship, filled the mixing bowls to the brim, and made drink offerings to the immortal gods that are from everlasting, but more particularly to the grey-eyed daughter of Jove.
 
 Thus, then, the ship sped on her way through the watches of the night from dark till dawn.
 
----
+# BOOK III.
 
-## Book III Telemachus visits Nestor at Pylos.
+*Telemachus visits Nestor at Pylos.*
 
-but as the sun was rising from the fair sea^{[24]} into the firmament of heaven to shed light on mortals and immortals, they reached Pylos the city of Neleus. Now the people of Pylos were gathered on the sea shore to offer sacrifice of black bulls to Neptune lord of the Earthquake. There were nine guilds with five hundred men in each, and there were nine bulls to each guild. As they were eating the inward meats^{[25]} and burning the thigh bones [on the embers] in the name of Neptune, Telemachus and his crew arrived, furled their sails, brought their ship to anchor, and went ashore.
+but as the sun was rising from the fair sea into the firmament of heaven to shed light on mortals and immortals, they reached Pylos the city of Neleus. Now the people of Pylos were gathered on the sea shore to offer sacrifice of black bulls to Neptune lord of the Earthquake. There were nine guilds with five hundred men in each, and there were nine bulls to each guild. As they were eating the inward meats and burning the thigh bones [on the embers] in the name of Neptune, Telemachus and his crew arrived, furled their sails, brought their ship to anchor, and went ashore.
 
 Minerva led the way and Telemachus followed her. Presently she said, “Telemachus, you must not be in the least shy or nervous; you have taken this voyage to try and find out where your father is buried and how he came by his end; so go straight up to Nestor that we may see what he has got to tell us. Beg of him to speak the truth, and he will tell no lies, for he is an excellent person.”
 
@@ -377,11 +160,11 @@ Minerva led the way and Telemachus followed her. Presently she said, “Telemach
 
 “Some things, Telemachus,” answered Minerva, “will be suggested to you by your own instinct, and heaven will prompt you further; for I am assured that the gods have been with you from the time of your birth until now.”
 
-She then went quickly on, and Telemachus followed in her steps till they reached the place where the guilds of the Pylian people were assembled. There they found Nestor sitting with his sons, while his company round him were busy getting dinner ready, and putting pieces of meat on to the spits^{[26]} while other pieces were cooking. When they saw the strangers they crowded round them, took them by the hand and bade them take their places. Nestor’s son Pisistratus at once offered his hand to each of them, and seated them on some soft sheepskins that were lying on the sands near his father and his brother Thrasymedes. Then he gave them their portions of the inward meats and poured wine for them into a golden cup, handing it to Minerva first, and saluting her at the same time.
+She then went quickly on, and Telemachus followed in her steps till they reached the place where the guilds of the Pylian people were assembled. There they found Nestor sitting with his sons, while his company round him were busy getting dinner ready, and putting pieces of meat on to the spits while other pieces were cooking. When they saw the strangers they crowded round them, took them by the hand and bade them take their places. Nestor’s son Pisistratus at once offered his hand to each of them, and seated them on some soft sheepskins that were lying on the sands near his father and his brother Thrasymedes. Then he gave them their portions of the inward meats and poured wine for them into a golden cup, handing it to Minerva first, and saluting her at the same time.
 
 “Offer a prayer, sir,” said he, “to King Neptune, for it is his feast that you are joining; when you have duly prayed and made your drink offering, pass the cup to your friend that he may do so also. I doubt not that he too lifts his hands in prayer, for man cannot live without God in the world. Still he is younger than you are, and is much of an age with myself, so I will give you the precedence.”
 
-As he spoke he handed her the cup. Minerva thought it very right and proper of him to have given it to herself first;^{[27]} she accordingly began praying heartily to Neptune. “O thou,” she cried, “that encirclest the earth, vouchsafe to grant the prayers of thy servants that call upon thee. More especially we pray thee send down thy grace on Nestor and on his sons; thereafter also make the rest of the Pylian people some handsome return for the goodly hecatomb they are offering you. Lastly, grant Telemachus and myself a happy issue, in respect of the matter that has brought us in our ship to Pylos.”
+As he spoke he handed her the cup. Minerva thought it very right and proper of him to have given it to herself first; she accordingly began praying heartily to Neptune. “O thou,” she cried, “that encirclest the earth, vouchsafe to grant the prayers of thy servants that call upon thee. More especially we pray thee send down thy grace on Nestor and on his sons; thereafter also make the rest of the Pylian people some handsome return for the goodly hecatomb they are offering you. Lastly, grant Telemachus and myself a happy issue, in respect of the matter that has brought us in our ship to Pylos.”
 
 When she had thus made an end of praying, she handed the cup to Telemachus and he prayed likewise. By and by, when the outer meats were roasted and had been taken off the spits, the carvers gave every man his portion and they all made an excellent dinner. As soon as they had had enough to eat and drink, Nestor, knight of Gerene, began to speak.
 
@@ -389,9 +172,7 @@ When she had thus made an end of praying, she handed the cup to Telemachus and h
 
 Telemachus answered boldly, for Minerva had given him courage to ask about his father and get himself a good name.
 
-“Nestor,” said he, “son of Neleus, honour to the Achaean name, you ask whence we come, and I will tell you. We come from Ithaca under Neritum,^{[28]} and the matter about which I would speak is of private not public import. I seek news of my unhappy father Ulysses, who is said to have sacked the town of Troy in company with yourself. We know what fate befell each one of the other heroes who fought at Troy, but as regards Ulysses heaven has hidden from us the knowledge even that he is dead at all, for no one can certify us in what place he perished, nor say whether he fell in battle on the mainland, or was lost at sea amid the waves of Amphitrite. Therefore I am suppliant at your knees, if haply you may be pleased to tell me of his melancholy end, whether you saw it with your own eyes, or heard it from some other traveller, for he was a man born to trouble. Do not soften things out of any pity for me, but tell me in all plainness exactly what you saw. If my brave father Ulysses ever did you loyal service, either by word or deed, when you Achaeans were harassed among the Trojans, bear it in mind now as in my favour and tell me truly all.”
-
----
+“Nestor,” said he, “son of Neleus, honour to the Achaean name, you ask whence we come, and I will tell you. We come from Ithaca under Neritum, and the matter about which I would speak is of private not public import. I seek news of my unhappy father Ulysses, who is said to have sacked the town of Troy in company with yourself. We know what fate befell each one of the other heroes who fought at Troy, but as regards Ulysses heaven has hidden from us the knowledge even that he is dead at all, for no one can certify us in what place he perished, nor say whether he fell in battle on the mainland, or was lost at sea amid the waves of Amphitrite. Therefore I am suppliant at your knees, if haply you may be pleased to tell me of his melancholy end, whether you saw it with your own eyes, or heard it from some other traveller, for he was a man born to trouble. Do not soften things out of any pity for me, but tell me in all plainness exactly what you saw. If my brave father Ulysses ever did you loyal service, either by word or deed, when you Achaeans were harassed among the Trojans, bear it in mind now as in my favour and tell me truly all.”
 
 “My friend,” answered Nestor, “you recall a time of much sorrow to my mind, for the brave Achaeans suffered much both at sea, while privateering under Achilles, and when fighting before the great city of king Priam. Our best men all of them fell there—Ajax, Achilles, Patroclus peer of gods in counsel, and my own dear son Antilochus, a man singularly fleet of foot and in fight valiant. But we suffered much more than this; what mortal tongue indeed could tell the whole story? Though you were to stay here and question me for five years, or even six, I could not tell you all that the Achaeans suffered, and you would turn homeward weary of my tale before it ended. Nine long years did we try every kind of stratagem, but the hand of heaven was against us; during all this time there was no one who could compare with your father in subtlety—if indeed you are his son—I can hardly believe my eyes—and you talk just like him too—no one would say that people of such different ages could speak so much alike. He and I never had any kind of difference from first to last neither in camp nor council, but in singleness of heart and purpose we advised the Argives how all might be ordered for the best.
 
@@ -399,7 +180,7 @@ Telemachus answered boldly, for Minerva had given him courage to ask about his f
 
 “The sons of Atreus called a meeting which was not as it should be, for it was sunset and the Achaeans were heavy with wine. When they explained why they had called the people together, it seemed that Menelaus was for sailing homeward at once, and this displeased Agamemnon, who thought that we should wait till we had offered hecatombs to appease the anger of Minerva. Fool that he was, he might have known that he would not prevail with her, for when the gods have made up their minds they do not change them lightly. So the two stood bandying hard words, whereon the Achaeans sprang to their feet with a cry that rent the air, and were of two minds as to what they should do.
 
-“That night we rested and nursed our anger, for Jove was hatching mischief against us. But in the morning some of us drew our ships into the water and put our goods with our women on board, while the rest, about half in number, stayed behind with Agamemnon. We—the other half—embarked and sailed; and the ships went well, for heaven had smoothed the sea. When we reached Tenedos we offered sacrifices to the gods, for we were longing to get home; cruel Jove, however, did not yet mean that we should do so, and raised a second quarrel in the course of which some among us turned their ships back again, and sailed away under Ulysses to make their peace with Agamemnon; but I, and all the ships that were with me pressed forward, for I saw that mischief was brewing. The son of Tydeus went on also with me, and his crews with him. Later on Menelaus joined us at Lesbos, and found us making up our minds about our course—for we did not know whether to go outside Chios by the island of Psyra, keeping this to our left, or inside Chios, over against the stormy headland of Mimas. So we asked heaven for a sign, and were shown one to the effect that we should be soonest out of danger if we headed our ships across the open sea to Euboea. This we therefore did, and a fair wind sprang up which gave us a quick passage during the night to Geraestus,[29] where we offered many sacrifices to Neptune for having helped us so far on our way. Four days later Diomed and his men stationed their ships in Argos, but I held on for Pylos, and the wind never fell light from the day when heaven first made it fair for me.
+“That night we rested and nursed our anger, for Jove was hatching mischief against us. But in the morning some of us drew our ships into the water and put our goods with our women on board, while the rest, about half in number, stayed behind with Agamemnon. We—the other half—embarked and sailed; and the ships went well, for heaven had smoothed the sea. When we reached Tenedos we offered sacrifices to the gods, for we were longing to get home; cruel Jove, however, did not yet mean that we should do so, and raised a second quarrel in the course of which some among us turned their ships back again, and sailed away under Ulysses to make their peace with Agamemnon; but I, and all the ships that were with me pressed forward, for I saw that mischief was brewing. The son of Tydeus went on also with me, and his crews with him. Later on Menelaus joined us at Lesbos, and found us making up our minds about our course—for we did not know whether to go outside Chios by the island of Psyra, keeping this to our left, or inside Chios, over against the stormy headland of Mimas. So we asked heaven for a sign, and were shown one to the effect that we should be soonest out of danger if we headed our ships across the open sea to Euboea. This we therefore did, and a fair wind sprang up which gave us a quick passage during the night to Geraestus, where we offered many sacrifices to Neptune for having helped us so far on our way. Four days later Diomed and his men stationed their ships in Argos, but I held on for Pylos, and the wind never fell light from the day when heaven first made it fair for me.
 
 “Therefore, my dear young friend, I returned without hearing anything about the others. I know neither who got home safely nor who were lost but, as in duty bound, I will give you without reserve the reports that have reached me since I have been here in my own house. They say the Myrmidons returned home safely under Achilles’ son Neoptolemus; so also did the valiant son of Poias, Philoctetes. Idomeneus, again, lost no men at sea, and all his followers who escaped death in the field got safe home with him to Crete. No matter how far out of the world you live, you will have heard of Agamemnon and the bad end he came to at the hands of Aegisthus—and a fearful reckoning did Aegisthus presently pay. See what a good thing it is for a man to leave a son behind him to do as Orestes did, who killed false Aegisthus the murderer of his noble father. You too, then—for you are a tall smart-looking fellow—show your mettle and make yourself a name in story.”
 
@@ -411,17 +192,15 @@ Telemachus answered, “I can expect nothing of the kind; it would be far too mu
 
 On this Minerva said, “Telemachus, what are you talking about? Heaven has a long arm if it is minded to save a man; and if it were me, I should not care how much I suffered before getting home, provided I could be safe when I was once there. I
 
----
-
 would rather this, than get home quickly, and then be killed in my own house as Agamemnon was by the treachery of Aegisthus and his wife. Still, death is certain, and when a man's hour is come, not even the gods can save him, no matter how fond they are of him.”
 
 “Mentor,” answered Telemachus, “do not let us talk about it any more. There is no chance of my father’s ever coming back; the gods have long since counselled his destruction. There is something else, however, about which I should like to ask Nestor, for he knows much more than any one else does. They say he has reigned for three generations so that it is like talking to an immortal. Tell me, therefore, Nestor, and tell me true; how did Agamemnon come to die in that way? What was Menelaus doing? And how came false Aegisthus to kill so far better a man than himself? Was Menelaus away from Achaean Argos, voyaging elsewhere among mankind, that Aegisthus took heart and killed Agamemnon?”
 
 “I will tell you truly,” answered Nestor, “and indeed you have yourself divined how it all happened. If Menelaus when he got back from Troy had found Aegisthus still alive in his house, there would have been no barrow heaped up for him, not even when he was dead, but he would have been thrown outside the city to dogs and vultures, and not a woman would have mourned him, for he had done a deed of great wickedness; but we were over there, fighting hard at Troy, and Aegisthus, who was taking his ease quietly in the heart of Argos, cajoled Agamemnon’s wife Clytemnestra with incessant flattery.
 
-“At first she would have nothing to do with his wicked scheme, for she was of a good natural disposition;[30] moreover there was a bard with her, to whom Agamemnon had given strict orders on setting out for Troy, that he was to keep guard over his wife; but when heaven had counselled her destruction, Aegisthus carried this bard off to a desert island and left him there for crows and seagulls to batten upon—after which she went willingly enough to the house of Aegisthus. Then he offered many burnt sacrifices to the gods, and decorated many temples with tapestries and gilding, for he had succeeded far beyond his expectations.
+“At first she would have nothing to do with his wicked scheme, for she was of a good natural disposition; moreover there was a bard with her, to whom Agamemnon had given strict orders on setting out for Troy, that he was to keep guard over his wife; but when heaven had counselled her destruction, Aegisthus carried this bard off to a desert island and left him there for crows and seagulls to batten upon—after which she went willingly enough to the house of Aegisthus. Then he offered many burnt sacrifices to the gods, and decorated many temples with tapestries and gilding, for he had succeeded far beyond his expectations.
 
-“Meanwhile Menelaus and I were on our way home from Troy, on good terms with one another. When we got to Sunium, which is the point of Athens, Apollo with his painless shafts killed Phrontis the steersman of Menelaus’ ship (and never man knew better how to handle a vessel in rough weather) so that he died then and there with the helm in his hand, and Menelaus, though very anxious to press forward, had to wait in order to bury his comrade and give him his due funeral rites. Presently, when he too could put to sea again, and had sailed on as far as the Malean heads, Jove counselled evil against him and made it blow hard till the waves ran mountains high. Here he divided his fleet and took the one half towards Crete where the Cydonians dwell round about the waters of the river Iardanus. There is a high headland hereabouts stretching out into the sea from a place called Gortyn, and all along this part of the coast as far as Phaestus the sea runs high when there is a south wind blowing, but after Phaestus the coast is more protected, for a small headland can make a great shelter. Here this part of the fleet was driven on to the rocks and wrecked; but the crews just managed to save themselves. As for the other five ships, they were taken by winds and seas to Egypt, where Menelaus gathered much gold and substance among people of an alien speech. Meanwhile Aegisthus here at home plotted his evil deed. For seven years after he had killed Agamemnon he ruled in Mycene, and the people were obedient under him, but in the eighth year Orestes came back from Athens to be his bane, and killed the murderer of his father. Then he celebrated the funeral rites of his mother and of false Aegisthus by a banquet to the people of Argos, and on that very day Menelaus came home,[31] with as much treasure as his ships could carry.
+“Meanwhile Menelaus and I were on our way home from Troy, on good terms with one another. When we got to Sunium, which is the point of Athens, Apollo with his painless shafts killed Phrontis the steersman of Menelaus’ ship (and never man knew better how to handle a vessel in rough weather) so that he died then and there with the helm in his hand, and Menelaus, though very anxious to press forward, had to wait in order to bury his comrade and give him his due funeral rites. Presently, when he too could put to sea again, and had sailed on as far as the Malean heads, Jove counselled evil against him and made it blow hard till the waves ran mountains high. Here he divided his fleet and took the one half towards Crete where the Cydonians dwell round about the waters of the river Iardanus. There is a high headland hereabouts stretching out into the sea from a place called Gortyn, and all along this part of the coast as far as Phaestus the sea runs high when there is a south wind blowing, but after Phaestus the coast is more protected, for a small headland can make a great shelter. Here this part of the fleet was driven on to the rocks and wrecked; but the crews just managed to save themselves. As for the other five ships, they were taken by winds and seas to Egypt, where Menelaus gathered much gold and substance among people of an alien speech. Meanwhile Aegisthus here at home plotted his evil deed. For seven years after he had killed Agamemnon he ruled in Mycene, and the people were obedient under him, but in the eighth year Orestes came back from Athens to be his bane, and killed the murderer of his father. Then he celebrated the funeral rites of his mother and of false Aegisthus by a banquet to the people of Argos, and on that very day Menelaus came home, with as much treasure as his ships could carry.
 
 “Take my advice then, and do not go travelling about for long so far from home, nor leave your property with such dangerous people in your house; they will eat up everything you have among them, and you will have been on a fool’s errand. Still, I should advise you by all means to go and visit Menelaus, who has lately come off a voyage among such distant peoples as no man could ever hope to get back from, when the winds had once carried him so far out of his reckoning; even birds cannot fly the distance in a twelve-month, so vast and terrible are the seas that they must cross. Go to him, therefore, by sea, and take your own men with you; or if you would rather travel by land you can have a chariot, you can have horses, and here are my sons who can escort you to Lacedaemon where Menelaus lives. Beg of him to speak the truth, and he will tell you no lies, for he is an excellent person.”
 
@@ -430,10 +209,6 @@ As he spoke the sun set and it came on dark, whereon Minerva said, “Sir, all t
 Thus spoke the daughter of Jove, and they obeyed her saying. Men servants poured water over the hands of the guests, while pages filled the mixing-bowls with wine and water, and handed it round after giving every man his drink offering; then they threw the tongues of the victims into the fire, and stood up to make their drink offerings. When they had made their offerings and had drunk each as much as he was minded, Minerva and Telemachus were for going on board their ship, but Nestor caught them up at once and stayed them.
 
 “Heaven and the immortal gods,” he exclaimed, “forbid that you should leave my house to go on board of a ship. Do you think I am so poor and short of clothes, or that I have so few cloaks and as to be unable to find comfortable beds both for myself and for my guests? Let me tell you I have store both of rugs and cloaks, and shall not permit the son of my old friend Ulysses to camp down on the deck of a ship—not while I live—nor yet will my sons after me, but they will keep open house as I have done.”
-
-
-
----
 
 Then Minerva answered, “Sir, you have spoken well, and it will be much better that Telemachus should do as you have said; he, therefore, shall return with you and sleep at your house, but I must go back to give orders to my crew, and keep them in good heart. I am the only older person among them; the rest are all young men of Telemachus’ own age, who have taken this voyage out of friendship; so I must return to the ship and sleep there. Moreover to-morrow I must go to the Cauconians where I have a large sum of money long owing to me. As for Telemachus, now that he is your guest, send him to Lacedaemon in a chariot, and let one of your sons go with him. Be pleased to also provide him with your best and fleetest horses.”
 
@@ -447,27 +222,23 @@ Now when the child of morning rosy-fingered Dawn appeared, Nestor left his couch
 
 On this they hurried off on their several errands. The heifer was brought in from the plain, and Telemachus’s crew came from the ship; the goldsmith brought the anvil, hammer, and tongs, with which he worked his gold, and Minerva herself came to accept the sacrifice. Nestor gave out the gold, and the smith gilded the horns of the heifer that the goddess might have pleasure in their beauty. Then Stratius and Echephron brought her in by the horns; Aretus fetched water from the house in a ewer that had a flower pattern on it, and in his other hand he held a basket of barley meal; sturdy Thrasymedes stood by with a sharp axe, ready to strike the heifer, while Perseus held a bucket. Then Nestor began with washing his hands and sprinkling the barley meal, and he offered many a prayer to Minerva as he threw a lock from the heifer’s head upon the fire.
 
-When they had done praying and sprinkling the barley meal [32] Thrasymedes dealt his blow, and brought the heifer down with a stroke that cut through the tendons at the base of her neck, whereon the daughters and daughters in law of Nestor, and his venerable wife Eurydice (she was eldest daughter to Clymenus) screamed with delight. Then they lifted the heifer’s head from off the ground, and Pisistratus cut her throat. When she had done bleeding and was quite dead, they cut her up. They cut out the thigh bones all in due course, wrapped them round in two layers of fat, and set some pieces of raw meat on the top of them; then Nestor laid them upon the wood fire and poured wine over them, while the young men stood near him with five-pronged spits in their hands. When the thighs were burned and they had tasted the inward meats, they cut the rest of the meat up small, put the pieces on the spits and toasted them over the fire.
+When they had done praying and sprinkling the barley meal Thrasymedes dealt his blow, and brought the heifer down with a stroke that cut through the tendons at the base of her neck, whereon the daughters and daughters in law of Nestor, and his venerable wife Eurydice (she was eldest daughter to Clymenus) screamed with delight. Then they lifted the heifer’s head from off the ground, and Pisistratus cut her throat. When she had done bleeding and was quite dead, they cut her up. They cut out the thigh bones all in due course, wrapped them round in two layers of fat, and set some pieces of raw meat on the top of them; then Nestor laid them upon the wood fire and poured wine over them, while the young men stood near him with five-pronged spits in their hands. When the thighs were burned and they had tasted the inward meats, they cut the rest of the meat up small, put the pieces on the spits and toasted them over the fire.
 
-Meanwhile lovely Polycaste, Nestor’s youngest daughter, washed Telemachus. When she had washed him and anointed him with oil, she brought him a fair mantle and shirt, [33] and he looked like a god as he came from the bath and took his seat by the side of Nestor. When the outer meats were done they drew them off the spits and sat down to dinner where they were waited upon by some worthy henchmen, who kept pouring them out their wine in cups of gold. As soon as they had had enough to eat and drink Nestor said, “Sons, put Telemachus’s horses to the chariot that he may start at once.”
+Meanwhile lovely Polycaste, Nestor’s youngest daughter, washed Telemachus. When she had washed him and anointed him with oil, she brought him a fair mantle and shirt, and he looked like a god as he came from the bath and took his seat by the side of Nestor. When the outer meats were done they drew them off the spits and sat down to dinner where they were waited upon by some worthy henchmen, who kept pouring them out their wine in cups of gold. As soon as they had had enough to eat and drink Nestor said, “Sons, put Telemachus’s horses to the chariot that he may start at once.”
 
 Thus did he speak, and they did even as he had said, and yoked the fleet horses to the chariot. The housekeeper packed them up a provision of bread, wine, and sweet meats fit for the sons of princes. Then Telemachus got into the chariot, while Pisistratus gathered up the reins and took his seat beside him. He lashed the horses on and they flew forward nothing loth into the open country, leaving the high citadel of Pylos behind them. All that day did they travel, swaying the yoke upon their necks till the sun went down and darkness was over all the land. Then they reached Pherae where Diocles lived, who was son to
 
----
-
-Ortilochus and grandson to Alpheus. Here they passed the night and Diocles entertained them hospitably. When the child of morning, rosy-fingered Dawn, appeared, they again yoked their horses and drove out through the gateway under the echoing gatehouse.*[34]* Pisistratus lashed the horses on and they flew forward nothing loth; presently they came to the corn lands of the open country, and in the course of time completed their journey, so well did their steeds take them.*[35]*
+Ortilochus and grandson to Alpheus. Here they passed the night and Diocles entertained them hospitably. When the child of morning, rosy-fingered Dawn, appeared, they again yoked their horses and drove out through the gateway under the echoing gatehouse.** Pisistratus lashed the horses on and they flew forward nothing loth; presently they came to the corn lands of the open country, and in the course of time completed their journey, so well did their steeds take them.**
 
 Now when the sun had set and darkness was over the land,
 
----
+# BOOK IV.
 
-# BOOK IV
+*The visit to King Menelaus, who tells his story—Meanwhile the suitors in Ithaca plot against Telemachus.*
 
-## THE VISIT TO KING MENELAUS, WHO TELLS HIS STORY—MEANWHILE THE SUITORS IN ITHACA PLOT AGAINST TELEMACHUS.
+they reached the low lying city of Lacedaemon, where they drove straight to the abode of Menelaus [and found him in his own house, feasting with his many clansmen in honour of the wedding of his son, and also of his daughter, whom he was marrying to the son of that valiant warrior Achilles. He had given his consent and promised her to him while he was still at Troy, and now the gods were bringing the marriage about; so he was sending her with chariots and horses to the city of the Myrmidons over whom Achilles' son was reigning. For his only son he had found a bride from Sparta, the daughter of Alector. This son, Megapenthes, was born to him of a bondwoman, for heaven vouchsafed Helen no more children after she had borne Hermione, who was fair as golden Venus herself.
 
-they reached the low lying city of Lacedaemon, where they drove straight to the abode of Menelaus[36] [and found him in his own house, feasting with his many clansmen in honour of the wedding of his son, and also of his daughter, whom he was marrying to the son of that valiant warrior Achilles. He had given his consent and promised her to him while he was still at Troy, and now the gods were bringing the marriage about; so he was sending her with chariots and horses to the city of the Myrmidons over whom Achilles' son was reigning. For his only son he had found a bride from Sparta,[37] the daughter of Alector. This son, Megapenthes, was born to him of a bondwoman, for heaven vouchsafed Helen no more children after she had borne Hermione, who was fair as golden Venus herself.
-
-So the neighbours and kinsmen of Menelaus were feasting and making merry in his house. There was a bard also to sing to them and play his lyre, while two tumblers went about performing in the midst of them when the man struck up with his tune.[38]
+So the neighbours and kinsmen of Menelaus were feasting and making merry in his house. There was a bard also to sing to them and play his lyre, while two tumblers went about performing in the midst of them when the man struck up with his tune.
 
 Telemachus and the son of Nestor stayed their horses at the gate, whereon Eteoneus servant to Menelaus came out, and as soon as he saw them ran hurrying back into the house to tell his Master. He went close up to him and said, "Menelaus, there are some strangers come here, two men, who look like sons of Jove. What are we to do? Shall we take their horses out, or tell them to find friends elsewhere as they best can?"
 
@@ -479,19 +250,15 @@ When the servants had washed them and anointed them with oil, they brought them 
 
 Menelaus then greeted them saying, "Fall to, and welcome; when you have done supper I shall ask who you are, for the lineage of such men as you cannot have been lost. You must be descended from a line of sceptre-bearing kings, for poor people do not have such sons as you are."
 
-On this he handed them[39] a piece of fat roast loin, which had been set near him as being a prime part, and they laid their hands on the good things that were before them; as soon as they had had enough to eat and drink, Telemachus said to the son of Nestor, with his head so close that no one might hear, "Look, Pisistratus, man after my own heart, see the gleam of bronze and gold—of amber,[40] ivory, and silver. Everything is so splendid that it is like seeing the palace of Olympian Jove. I am lost in admiration."
+On this he handed them a piece of fat roast loin, which had been set near him as being a prime part, and they laid their hands on the good things that were before them; as soon as they had had enough to eat and drink, Telemachus said to the son of Nestor, with his head so close that no one might hear, "Look, Pisistratus, man after my own heart, see the gleam of bronze and gold—of amber, ivory, and silver. Everything is so splendid that it is like seeing the palace of Olympian Jove. I am lost in admiration."
 
-Menelaus overheard him and said, "No one, my sons, can hold his own with Jove, for his house and everything about him is immortal; but among mortal men—well, there may be another who has as much wealth as I have, or there may not; but at all events I have travelled much and have undergone much hardship, for it was nearly eight years before I could get home with my fleet. I went to Cyprus, Phoenicia and the Egyptians; I went also to the Ethiopians, the Sidonians, and the Erembians, and to Libya where the lambs have horns as soon as they are born, and the sheep lamb down three times a year. Every one in that country, whether master or man, has plenty of cheese, meat, and good milk, for the ewes yield all the year round. But while I was travelling and getting great riches among these people, my brother was secretly and shockingly murdered through the perfidy of his wicked wife, so that I have no pleasure in being lord of all this wealth. Whoever your parents may be they must have told you about all this, and of my heavy loss in the ruin[41] of a stately mansion fully and magnificently furnished. Would that I had only a third of what I now have so that I had stayed at home, and all those were living who perished on the plain of Troy, far from Argos. I often grieve, as I sit here in my house, for one and all of them. At times I cry aloud for sorrow, but
-
-
-
----
+Menelaus overheard him and said, "No one, my sons, can hold his own with Jove, for his house and everything about him is immortal; but among mortal men—well, there may be another who has as much wealth as I have, or there may not; but at all events I have travelled much and have undergone much hardship, for it was nearly eight years before I could get home with my fleet. I went to Cyprus, Phoenicia and the Egyptians; I went also to the Ethiopians, the Sidonians, and the Erembians, and to Libya where the lambs have horns as soon as they are born, and the sheep lamb down three times a year. Every one in that country, whether master or man, has plenty of cheese, meat, and good milk, for the ewes yield all the year round. But while I was travelling and getting great riches among these people, my brother was secretly and shockingly murdered through the perfidy of his wicked wife, so that I have no pleasure in being lord of all this wealth. Whoever your parents may be they must have told you about all this, and of my heavy loss in the ruin of a stately mansion fully and magnificently furnished. Would that I had only a third of what I now have so that I had stayed at home, and all those were living who perished on the plain of Troy, far from Argos. I often grieve, as I sit here in my house, for one and all of them. At times I cry aloud for sorrow, but
 
 presently I leave off again, for crying is cold comfort and one soon tires of it. Yet grieve for these as I may, I do so for one man more than for them all. I cannot even think of him without loathing both food and sleep, so miserable does he make me, for no one of all the Achaeans worked so hard or risked so much as he did. He took nothing by it, and has left a legacy of sorrow to myself, for he has been gone a long time, and we know not whether he is alive or dead. His old father, his long-suffering wife Penelope, and his son Telemachus, whom he left behind him an infant in arms, are plunged in grief on his account.”
 
 Thus spoke Menelaus, and the heart of Telemachus yearned as he bethought him of his father. Tears fell from his eyes as he heard him thus mentioned, so that he held his cloak before his face with both hands. When Menelaus saw this he doubted whether to let him choose his own time for speaking, or to ask him at once and find what it was all about.
 
-While he was thus in two minds Helen came down from her high vaulted and perfumed room, looking as lovely as Diana herself. Adraste brought her a seat, Alcippe a soft woollen rug while Phylo fetched her the silver work-box which Alcandra wife of Polybus had given her. Polybus lived in Egyptian Thebes, which is the richest city in the whole world; he gave Menelaus two baths, both of pure silver, two tripods, and ten talents of gold; besides all this, his wife gave Helen some beautiful presents, to wit, a golden distaff, and a silver work box that ran on wheels, with a gold band round the top of it. Phylo now placed this by her side, full of fine spun yarn, and a distaff charged with violet coloured wool was laid upon the top of it. Then Helen took her seat, put her feet upon the footstool, and began to question her husband.[42]
+While he was thus in two minds Helen came down from her high vaulted and perfumed room, looking as lovely as Diana herself. Adraste brought her a seat, Alcippe a soft woollen rug while Phylo fetched her the silver work-box which Alcandra wife of Polybus had given her. Polybus lived in Egyptian Thebes, which is the richest city in the whole world; he gave Menelaus two baths, both of pure silver, two tripods, and ten talents of gold; besides all this, his wife gave Helen some beautiful presents, to wit, a golden distaff, and a silver work box that ran on wheels, with a gold band round the top of it. Phylo now placed this by her side, full of fine spun yarn, and a distaff charged with violet coloured wool was laid upon the top of it. Then Helen took her seat, put her feet upon the footstool, and began to question her husband.
 
 “Do we know, Menelaus,” said she, “the names of these strangers who have come to visit us? Shall I guess right or wrong? —but I cannot help saying what I think. Never yet have I seen either man or woman so like somebody else (indeed when I look at him I hardly know what to think) as this young man is like Telemachus, whom Ulysses left as a baby behind him, when you Achaeans went to Troy with battle in your hearts, on account of my most shameless self.”
 
@@ -510,8 +277,6 @@ Thus did he speak, and his words set them all a weeping. Helen wept, Telemachus 
 On this Asphalion, one of the servants, poured water over their hands and they laid their hands on the good things that were before them.
 
 Then Jove’s daughter Helen bethought her of another matter. She drugged the wine with an herb that banishes all care, sorrow, and ill humour. Whoever drinks wine thus drugged cannot shed a single tear all the rest of the day, not even though his father and mother both of them drop down dead, or he sees a brother or a son hewn in pieces before his very eyes. This drug, of such sovereign power and virtue, had been given to Helen by Polydamna wife of Thon, a woman of Egypt, where there grow all sorts of herbs, some good to put into the mixing bowl and others poisonous. Moreover, every one in the whole
-
----
 
 country is a skilled physician, for they are of the race of Paeeon. When Helen had put this drug in the bowl, and had told the servants to serve the wine round, she said:
 
@@ -533,10 +298,6 @@ Menelaus on hearing this was very much shocked. “So,” he exclaimed, “these
 
 “I was trying to come on here, but the gods detained me in Egypt, for my hecatombs had not given them full satisfaction, and the gods are very strict about having their dues. Now off Egypt, about as far as a ship can sail in a day with a good stiff breeze behind her, there is an island called Pharos—it has a good harbour from which vessels can get out into open sea when they have taken in water—and here the gods becalmed me twenty days without so much as a breath of fair wind to help me forward. We should have run clean out of provisions and my men would have starved, if a goddess had not taken pity upon me and saved me in the person of Idothea, daughter to Proteus, the old man of the sea, for she had taken a great fancy to me.
 
-
-
----
-
 "She came to me one day when I was by myself, as I often was, for the men used to go with their barbed hooks, all over the island in the hope of catching a fish or two to save them from the pangs of hunger. 'Stranger,' said she, 'it seems to me that you like starving in this way—at any rate it does not greatly trouble you, for you stick here day after day, without even trying to get away though your men are dying by inches.'
 
 "'Let me tell you,' said I, 'whichever of the goddesses you may happen to be, that I am not staying here of my own accord, but must have offended the gods that live in heaven. Tell me, therefore, for the gods know everything, which of the immortals it is that is hindering me in this way, and tell me also how I may sail the sea so as to reach my home.'
@@ -545,13 +306,13 @@ Menelaus on hearing this was very much shocked. “So,” he exclaimed, “these
 
 "'Can you show me,' said I, 'some stratagem by means of which I may catch this old god without his suspecting it and finding me out? For a god is not easily caught—not by a mortal man.'
 
-"'Stranger,' said she, 'I will make it all quite clear to you. About the time when the sun shall have reached mid heaven, the old man of the sea comes up from under the waves, heralded by the West wind that furs the water over his head. As soon as he has come up he lies down, and goes to sleep in a great sea cave, where the seals—Halosydne's chickens as they call them—come up also from the grey sea, and go to sleep in shoals all round him; and a very strong and fish-like smell do they bring with them.[44] Early to-morrow morning I will take you to this place and will lay you in ambush. Pick out, therefore, the three best men you have in your fleet, and I will tell you all the tricks that the old man will play you.
+"'Stranger,' said she, 'I will make it all quite clear to you. About the time when the sun shall have reached mid heaven, the old man of the sea comes up from under the waves, heralded by the West wind that furs the water over his head. As soon as he has come up he lies down, and goes to sleep in a great sea cave, where the seals—Halosydne's chickens as they call them—come up also from the grey sea, and go to sleep in shoals all round him; and a very strong and fish-like smell do they bring with them. Early to-morrow morning I will take you to this place and will lay you in ambush. Pick out, therefore, the three best men you have in your fleet, and I will tell you all the tricks that the old man will play you.
 
 "First he will look over all his seals, and count them; then, when he has seen them and tallied them on his five fingers, he will go to sleep among them, as a shepherd among his sheep. The moment you see that he is asleep seize him; put forth all your strength and hold him fast, for he will do his very utmost to get away from you. He will turn himself into every kind of creature that goes upon the earth, and will become also both fire and water; but you must hold him fast and grip him tighter and tighter, till he begins to talk to you and comes back to what he was when you saw him go to sleep; then you may slacken your hold and let him go; and you can ask him which of the gods it is that is angry with you, and what you must do to reach your home over the seas.'
 
 "Having so said she dived under the waves, whereon I turned back to the place where my ships were ranged upon the shore; and my heart was clouded with care as I went along. When I reached my ship we got supper ready, for night was falling, and camped down upon the beach.
 
-"When the child of morning rosy-fingered Dawn appeared, I took the three men on whose prowess of all kinds I could most rely, and went along by the sea-side, praying heartily to heaven. Meanwhile the goddess fetched me up four seal skins from the bottom of the sea, all of them just skinned, for she meant playing a trick upon her father. Then she dug four pits for us to lie in, and sat down to wait till we should come up. When we were close to her, she made us lie down in the pits one after the other, and threw a seal skin over each of us. Our ambuscade would have been intolerable, for the stench of the fishy seals was most distressing[45]—who would go to bed with a sea monster if he could help it?—but here, too, the goddess helped us, and thought of something that gave us great relief, for she put some ambrosia under each man's nostrils, which was so fragrant that it killed the smell of the seals.[46]
+"When the child of morning rosy-fingered Dawn appeared, I took the three men on whose prowess of all kinds I could most rely, and went along by the sea-side, praying heartily to heaven. Meanwhile the goddess fetched me up four seal skins from the bottom of the sea, all of them just skinned, for she meant playing a trick upon her father. Then she dug four pits for us to lie in, and sat down to wait till we should come up. When we were close to her, she made us lie down in the pits one after the other, and threw a seal skin over each of us. Our ambuscade would have been intolerable, for the stench of the fishy seals was most distressing—who would go to bed with a sea monster if he could help it?—but here, too, the goddess helped us, and thought of something that gave us great relief, for she put some ambrosia under each man's nostrils, which was so fragrant that it killed the smell of the seals.
 
 "We waited the whole morning and made the best of it, watching the seals come up in hundreds to bask upon the sea shore, till at noon the old man of the sea came up too, and when he had found his fat seals he went over them and counted them. We were among the first he counted, and he never suspected any guile, but laid himself down to sleep as soon as he had done counting. Then we rushed upon him with a shout and seized him; on which he began at once with his old tricks, and changed himself first into a lion with a great mane; then all of a sudden he became a dragon, a leopard, a wild boar; the next moment he was running water, and then again directly he was a tree, but we stuck to him and never lost hold, till at last the cunning old creature became distressed, and said, 'Which of the gods was it, Son of Atreus, that hatched this plot with you for snaring me and seizing me against my will? What do you want?'
 
@@ -559,11 +320,7 @@ Menelaus on hearing this was very much shocked. “So,” he exclaimed, “these
 
 "Then,' he said, 'if you would finish your voyage and get home quickly, you must offer sacrifices to Jove and to the rest of the gods before embarking; for it is decreed that you shall not get back to your friends, and to your own house, till you have returned to the heaven-fed stream of Egypt, and offered holy hecatombs to the immortal gods that reign in heaven. When you have done this they will let you finish your voyage.'
 
-"I was broken hearted when I heard that I must go back all that long and terrible voyage to Egypt;[47] nevertheless, I answered, 'I will do all, old man, that you have laid upon me; but now tell me, and tell me true, whether all the Achaeans
-
-
-
----
+"I was broken hearted when I heard that I must go back all that long and terrible voyage to Egypt; nevertheless, I answered, 'I will do all, old man, that you have laid upon me; but now tell me, and tell me true, whether all the Achaeans
 
 whom Nestor and I left behind us when we set sail from Troy have got home safely, or whether any one of them came to a bad end either on board his own ship or among his friends when the days of his fighting were done.'
 
@@ -585,15 +342,11 @@ whom Nestor and I left behind us when we set sail from Troy have got home safely
 
 “Son of Atreus,” replied Telemachus, “do not press me to stay longer; I should be contented to remain with you for another twelve months; I find your conversation so delightful that I should never once wish myself at home with my parents; but my crew whom I have left at Pylos are already impatient, and you are detaining me from them. As for any present you may be disposed to make me, I had rather that it should be a piece of plate. I will take no horses back with me to Ithaca, but will leave them to adorn your own stables, for you have much flat ground in your kingdom where lotus thrives, as also meadow-sweet and wheat and barley, and oats with their white and spreading ears; whereas in Ithaca we have neither open fields nor
 
-
-
----
-
-racecourses, and the country is more fit for goats than horses, and I like it the better for that. [48] None of our islands have much level ground, suitable for horses, and Ithaca least of all.”
+racecourses, and the country is more fit for goats than horses, and I like it the better for that. None of our islands have much level ground, suitable for horses, and Ithaca least of all.”
 
 Menelaus smiled and took Telemachus’s hand within his own. “What you say,” said he, “shows that you come of good family. I both can, and will, make this exchange for you, by giving you the finest and most precious piece of plate in all my house. It is a mixing bowl by Vulcan’s own hand, of pure silver, except the rim, which is inlaid with gold. Phaedimus, king of the Sidonians, gave it me in the course of a visit which I paid him when I returned thither on my homeward journey. I will make you a present of it.”
 
-Thus did they converse [and guests kept coming to the king’s house. They brought sheep and wine, while their wives had put up bread for them to take with them; so they were busy cooking their dinners in the courts].[49]
+Thus did they converse [and guests kept coming to the king’s house. They brought sheep and wine, while their wives had put up bread for them to take with them; so they were busy cooking their dinners in the courts].
 
 Meanwhile the suitors were throwing discs or aiming with spears at a mark on the levelled ground in front of Ulysses’ house, and were behaving with all their old insolence. Antinous and Eurymachus, who were their ringleaders and much the foremost among them all, were sitting together when Noemon son of Phronius came up and said to Antinous,
 
@@ -620,8 +373,6 @@ Then Penelope’s heart sank within her, and for a long time she was speechless;
 Then he went downstairs again, leaving Penelope in an agony of grief. There were plenty of seats in the house, but she had no heart for sitting on any one of them; she could only fling herself on the floor of her own room and cry; whereon all the maids in the house, both old and young, gathered round her and began to cry too, till at last in a transport of sorrow she exclaimed,
 
 “My dears, heaven has been pleased to try me with more affliction than any other woman of my age and country. First I lost my brave and lion-hearted husband, who had every good quality under heaven, and whose name was great over all Hellas and
-
----
 
 middle Argos, and now my darling son is at the mercy of the winds and waves, without my having heard one word about his leaving home. You hussies, there was not one of you would so much as think of giving me a call out of my bed, though you all of you very well knew when he was starting. If I had known he meant taking this voyage, he would have had to give it up, no matter how much he was bent upon it, or leave me a corpse behind him—one or other. Now, however, go some of you and call old Dolius, who was given me by my father on my marriage, and who is my gardener. Bid him go at once and tell everything to Laertes, who may be able to hit on some plan for enlisting public sympathy on our side, as against those who are trying to exterminate his own race and that of Ulysses."
 
@@ -653,21 +404,13 @@ Then the vision said, "Take heart, and be not so much dismayed. There is one gon
 
 And the vision said, "I shall not tell you for certain whether he is alive or dead, and there is no use in idle conversation."
 
-
-
----
-
 Then it vanished through the thong-hole of the door and was dissipated into thin air; but Penelope rose from her sleep refreshed and comforted, so vivid had been her dream.
 
 Meantime the suitors went on board and sailed their ways over the sea, intent on murdering Telemachus. Now there is a rocky islet called Asteris, of no great size, in mid channel between Ithaca and Samos, and there is a harbour on either side of it where a ship can lie. Here then the Achaeans placed themselves in ambush.
 
+# BOOK V.
 
-
----
-
-# BOOK V
-
-CALYPSO—ULYSSES REACHES SCHERIA ON A RAFT.
+*Calypso—Ulysses reaches Scheria on a raft.*
 
 And now, as Dawn rose from her couch beside Tithonus—harbinger of light alike to mortals and immortals—the gods met in council and with them, Jove the lord of thunder, who is their king. Thereon Minerva began to tell them of the many sufferings of Ulysses, for she pitied him away there in the house of the nymph Calypso.
 
@@ -675,19 +418,17 @@ And now, as Dawn rose from her couch beside Tithonus—harbinger of light alike 
 
 “What, my dear, are you talking about?” replied her father, “did you not send him there yourself, because you thought it would help Ulysses to get home and punish the suitors? Besides, you are perfectly able to protect Telemachus, and to see him safely home again, while the suitors have to come hurry-skurrying back without having killed him.”
 
-When he had thus spoken, he said to his son Mercury, “Mercury, you are our messenger, go therefore and tell Calypso we have decreed that poor Ulysses is to return home. He is to be convoyed neither by gods nor men, but after a perilous voyage of twenty days upon a raft he is to reach fertile Scheria,[50] the land of the Phaeacians, who are near of kin to the gods, and will honour him as though he were one of ourselves. They will send him in a ship to his own country, and will give him more bronze and gold and raiment than he would have brought back from Troy, if he had had all his prize money and had got home without disaster. This is how we have settled that he shall return to his country and his friends.”
+When he had thus spoken, he said to his son Mercury, “Mercury, you are our messenger, go therefore and tell Calypso we have decreed that poor Ulysses is to return home. He is to be convoyed neither by gods nor men, but after a perilous voyage of twenty days upon a raft he is to reach fertile Scheria, the land of the Phaeacians, who are near of kin to the gods, and will honour him as though he were one of ourselves. They will send him in a ship to his own country, and will give him more bronze and gold and raiment than he would have brought back from Troy, if he had had all his prize money and had got home without disaster. This is how we have settled that he shall return to his country and his friends.”
 
 Thus he spoke, and Mercury, guide and guardian, slayer of Argus, did as he was told. Forthwith he bound on his glittering golden sandals with which he could fly like the wind over land and sea. He took the wand with which he seals men’s eyes in sleep or wakes them just as he pleases, and flew holding it in his hand over Pieria; then he swooped down through the firmament till he reached the level of the sea, whose waves he skimmed like a cormorant that flies fishing every hole and corner of the ocean, and drenching its thick plumage in the spray. He flew and flew over many a weary wave, but when at last he got to the island which was his journey’s end, he left the sea and went on by land till he came to the cave where the nymph Calypso lived.
 
-He found her at home. There was a large fire burning on the hearth, and one could smell from far the fragrant reek of burning cedar and sandal wood. As for herself, she was busy at her loom, shooting her golden shuttle through the warp and singing beautifully. Round her cave there was a thick wood of alder, poplar, and sweet smelling cypress trees, wherein all kinds of great birds had built their nests—owls, hawks, and chattering sea-crows that occupy their business in the waters. A vine loaded with grapes was trained and grew luxuriantly about the mouth of the cave; there were also four running rills of water in channels cut pretty close together, and turned hither and thither so as to irrigate the beds of violets and luscious herbage over which they flowed. [51] Even a god could not help being charmed with such a lovely spot, so Mercury stood still and looked at it; but when he had admired it sufficiently he went inside the cave.
+He found her at home. There was a large fire burning on the hearth, and one could smell from far the fragrant reek of burning cedar and sandal wood. As for herself, she was busy at her loom, shooting her golden shuttle through the warp and singing beautifully. Round her cave there was a thick wood of alder, poplar, and sweet smelling cypress trees, wherein all kinds of great birds had built their nests—owls, hawks, and chattering sea-crows that occupy their business in the waters. A vine loaded with grapes was trained and grew luxuriantly about the mouth of the cave; there were also four running rills of water in channels cut pretty close together, and turned hither and thither so as to irrigate the beds of violets and luscious herbage over which they flowed. Even a god could not help being charmed with such a lovely spot, so Mercury stood still and looked at it; but when he had admired it sufficiently he went inside the cave.
 
 Calypso knew him at once—for the gods all know each other, no matter how far they live from one another—but Ulysses was not within; he was on the sea-shore as usual, looking out upon the barren ocean with tears in his eyes, groaning and breaking his heart for sorrow. Calypso gave Mercury a seat and said: “Why have you come to see me, Mercury—honoured, and ever welcome—for you do not visit me often? Say what you want; I will do it for you at once if I can, and if it can be done at all; but come inside, and let me set refreshment before you.”
 
 As she spoke she drew a table loaded with ambrosia beside him and mixed him some red nectar, so Mercury ate and drank till he had had enough, and then said:
 
-“We are speaking god and goddess to one another, and you ask me why I have come here, and I will tell you truly as you would have me do. Jove sent me; it was no doing of mine; who could possibly want to come all this way over the sea where there are no cities full of people to offer me sacrifices or choice hecatombs? Nevertheless I had to come, for none of us other gods can cross Jove, nor transgress his orders. He says that you have here the most ill-starred of all those who fought nine years before the city of King Priam and sailed home in the tenth year after having sacked it. On their way home they sinned against Minerva,[52] who raised both wind and waves against them, so that all his brave companions perished, and he alone was
-
----
+“We are speaking god and goddess to one another, and you ask me why I have come here, and I will tell you truly as you would have me do. Jove sent me; it was no doing of mine; who could possibly want to come all this way over the sea where there are no cities full of people to offer me sacrifices or choice hecatombs? Nevertheless I had to come, for none of us other gods can cross Jove, nor transgress his orders. He says that you have here the most ill-starred of all those who fought nine years before the city of King Priam and sailed home in the tenth year after having sacked it. On their way home they sinned against Minerva, who raised both wind and waves against them, so that all his brave companions perished, and he alone was
 
 carried hither by wind and tide. Jove says that you are to let this man go at once, for it is decreed that he shall not perish here, far from his own people, but shall return to his house and country and see his friends again.”
 
@@ -711,9 +452,7 @@ When she had thus spoken she led the way rapidly before him, and Ulysses followe
 
 Presently the sun set and it became dark, whereon the pair retired into the inner part of the cave and went to bed.
 
-When the child of morning rosy-fingered Dawn appeared, Ulysses put on his shirt and cloak, while the goddess wore a dress of a light gossamer fabric, very fine and graceful, with a beautiful golden girdle about her waist and a veil to cover her head. She at once set herself to think how she could speed Ulysses on his way. So she gave him a great bronze axe that suited his hands; it was sharpened on both sides, and had a beautiful olive-wood handle fitted firmly on to it. She also gave him a sharp adze, and then led the way to the far end of the island where the largest trees grew—alder, poplar and pine, that reached the sky—very dry and well seasoned, so as to sail light for him in the water.[53] Then, when she had shown him where the best trees grew, Calypso went home, leaving him to cut them, which he soon finished doing. He cut down twenty trees in all and
-
----
+When the child of morning rosy-fingered Dawn appeared, Ulysses put on his shirt and cloak, while the goddess wore a dress of a light gossamer fabric, very fine and graceful, with a beautiful golden girdle about her waist and a veil to cover her head. She at once set herself to think how she could speed Ulysses on his way. So she gave him a great bronze axe that suited his hands; it was sharpened on both sides, and had a beautiful olive-wood handle fitted firmly on to it. She also gave him a sharp adze, and then led the way to the far end of the island where the largest trees grew—alder, poplar and pine, that reached the sky—very dry and well seasoned, so as to sail light for him in the water. Then, when she had shown him where the best trees grew, Calypso went home, leaving him to cut them, which he soon finished doing. He cut down twenty trees in all and
 
 adzed them smooth, squaring them by rule in good workmanlike fashion. Meanwhile Calypso came back with some augers, so he bored holes with them and fitted the timbers together with bolts and rivets. He made the raft as broad as a skilled shipwright makes the beam of a large vessel, and he fixed a deck on top of the ribs, and ran a gunwale all round it. He also made a mast with a yard arm, and a rudder to steer with. He fenced the raft all round with wicker hurdles as a protection against the waves, and then he threw on a quantity of wood. By and by Calypso brought him some linen to make the sails, and he made these too, excellently, making them fast with braces and sheets. Last of all, with the help of levers, he drew the raft down into the water.
 
@@ -733,8 +472,6 @@ But Ulysses did not know what to think. "Alas," he said to himself in his dismay
 
 While he was thus in two minds, Neptune sent a terrible great wave that seemed to rear itself above his head till it broke right over the raft, which then went to pieces as though it were a heap of dry chaff tossed about by a whirlwind. Ulysses got astride of one plank and rode upon it as if he were on horseback; he then took off the clothes Calypso had given him, bound Ino's veil under his arms, and plunged into the sea—meaning to swim on shore. King Neptune watched him as he did so, and wagged his head, muttering to himself and saying, "There now, swim up and down as you best can till you fall in with well-to-
 
----
-
 do people. I do not think you will be able to say that I have let you off too lightly.” On this he lashed his horses and drove to Aegae where his palace is.
 
 But Minerva resolved to help Ulysses, so she bound the ways of all the winds except one, and made them lie quite still; but she roused a good stiff breeze from the North that should lay the waters till Ulysses reached the land of the Phaeacians where he would be safe.
@@ -749,19 +486,15 @@ Here poor Ulysses would have certainly perished even in spite of his own destiny
 
 “Hear me, O King, whoever you may be, and save me from the anger of the sea-god Neptune, for I approach you prayerfully. Any one who has lost his way has at all times a claim even upon the gods, wherefore in my distress I draw near to your stream, and cling to the knees of your riverhood. Have mercy upon me, O king, for I declare myself your suppliant.”
 
-Then the god staid his stream and stilled the waves, making all calm before him, and bringing him safely into the mouth of the river. Here at last Ulysses’ knees and strong hands failed him, for the sea had completely broken him. His body was all swollen, and his mouth and nostrils ran down like a river with sea-water, so that he could neither breathe nor speak, and lay swooning from sheer exhaustion; presently, when he had got his breath and came to himself again, he took off the scarf that Ino had given him and threw it back into the salt[54] stream of the river, whereon Ino received it into her hands from the wave that bore it towards her. Then he left the river, laid himself down among the rushes, and kissed the bounteous earth.
+Then the god staid his stream and stilled the waves, making all calm before him, and bringing him safely into the mouth of the river. Here at last Ulysses’ knees and strong hands failed him, for the sea had completely broken him. His body was all swollen, and his mouth and nostrils ran down like a river with sea-water, so that he could neither breathe nor speak, and lay swooning from sheer exhaustion; presently, when he had got his breath and came to himself again, he took off the scarf that Ino had given him and threw it back into the salt stream of the river, whereon Ino received it into her hands from the wave that bore it towards her. Then he left the river, laid himself down among the rushes, and kissed the bounteous earth.
 
 “Alas,” he cried to himself in his dismay, “what ever will become of me, and how is it all to end? If I stay here upon the river bed through the long watches of the night, I am so exhausted that the bitter cold and damp may make an end of me—for towards sunrise there will be a keen wind blowing from off the river. If, on the other hand, I climb the hill side, find shelter in the woods, and sleep in some thicket, I may escape the cold and have a good night’s rest, but some savage beast may take advantage of me and devour me.”
 
 In the end he deemed it best to take to the woods, and he found one upon some high ground not far from the water. There he crept beneath two shoots of olive that grew from a single stock—the one an ungrafted sucker, while the other had been grafted. No wind, however squally, could break through the cover they afforded, nor could the sun’s rays pierce them, nor the rain get through them, so closely did they grow into one another. Ulysses crept under these and began to make himself a bed to lie on, for there was a great litter of dead leaves lying about—enough to make a covering for two or three men even in hard winter weather. He was glad enough to see this, so he laid himself down and heaped the leaves all round him. Then, as one who lives alone in the country, far from any neighbor, hides a brand as fire-seed in the ashes to save himself from having to get a light elsewhere, even so did Ulysses cover himself up with leaves; and Minerva shed a sweet sleep upon his eyes, closed his eyelids, and made him lose all memories of his sorrows.
 
+# BOOK VI.
 
-
----
-
-BOOK VI
-
-THE MEETING BETWEEN NAUSICAA AND ULYSSES.
+*The meeting between Nausicaa and Ulysses.*
 
 So here Ulysses slept, overcome by sleep and toil; but Minerva went off to the country and city of the Phaeacians—a people who used to live in the fair town of Hypereia, near the lawless Cyclopes. Now the Cyclopes were stronger than they and plundered them, so their king Nausithous moved them thence and settled them in Scheria, far from all other people. He surrounded the city with a wall, built houses and temples, and divided the lands among his people; but he was dead and gone to the house of Hades, and King Alcinous, whose counsels were inspired of heaven, was now reigning. To his house, then, did Minerva hie in furtherance of the return of Ulysses.
 
@@ -781,10 +514,6 @@ On this he gave his orders to the servants, who got the waggon out, harnessed th
 
 When they reached the water side they went to the washing cisterns, through which there ran at all times enough pure water to wash any quantity of linen, no matter how dirty. Here they unharnessed the mules and turned them out to feed on the sweet juicy herbage that grew by the water side. They took the clothes out of the waggon, put them in the water, and vied with one another in treading them in the pits to get the dirt out. After they had washed them and got them quite clean, they laid them out by the sea side, where the waves had raised a high beach of shingle, and set about washing themselves and anointing themselves with olive oil. Then they got their dinner by the side of the stream, and waited for the sun to finish drying the clothes. When they had done dinner they threw off the veils that covered their heads and began to play at ball, while Nausicaa
 
-
-
----
-
 sang for them. As the huntress Diana goes forth upon the mountains of Taygetus or Erymanthus to hunt wild boars or deer, and the wood nymphs, daughters of Aegis-bearing Jove, take their sport along with her (then is Leto proud at seeing her daughter stand a full head taller than the others, and eclipse the loveliest amid a whole bevy of beauties), even so did the girl outshine her handmaids.
 
 When it was time for them to start home, and they were folding the clothes and putting them into the waggon, Minerva began to consider how Ulysses should wake up and see the handsome girl who was to conduct him to the city of the Phaeacians. The girl, therefore, threw a ball at one of the maids, which missed her and fell into deep water. On this they all shouted, and the noise they made woke Ulysses, who sat up in his bed of leaves and began to wonder what it might all be.
@@ -793,7 +522,7 @@ When it was time for them to start home, and they were folding the clothes and p
 
 As he said this he crept from under his bush, and broke off a bough covered with thick leaves to hide his nakedness. He looked like some lion of the wilderness that stalks about exulting in his strength and defying both wind and rain; his eyes glare as he prowls in quest of oxen, sheep, or deer, for he is famished, and will dare break even into a well fenced homestead, trying to get at the sheep—even such did Ulysses seem to the young women, as he drew near to them all naked as he was, for he was in great want. On seeing one so unkempt and so begrimed with salt water, the others scampered off along the spits that jutted out into the sea, but the daughter of Alcinous stood firm, for Minerva put courage into her heart and took away all fear from her. She stood right in front of Ulysses, and he doubted whether he should go up to her, throw himself at her feet, and embrace her knees as a suppliant, or stay where he was and entreat her to give him some clothes and show him the way to the town. In the end he deemed it best to entreat her from a distance in case the girl should take offence at his coming near enough to clasp her knees, so he addressed her in honeyed and persuasive language.
 
-“O queen,” he said, “I implore your aid—but tell me, are you a goddess or are you a mortal woman? If you are a goddess and dwell in heaven, I can only conjecture that you are Jove’s daughter Diana, for your face and figure resemble none but hers; if on the other hand you are a mortal and live on earth, thrice happy are your father and mother—thrice happy, too, are your brothers and sisters; how proud and delighted they must feel when they see so fair a scion as yourself going out to a dance; most happy, however, of all will he be whose wedding gifts have been the richest, and who takes you to his own home. I never yet saw any one so beautiful, neither man nor woman, and am lost in admiration as I behold you. I can only compare you to a young palm tree which I saw when I was at Delos growing near the altar of Apollo—for I was there, too, with much people after me, when I was on that journey which has been the source of all my troubles. Never yet did such a young plant shoot out of the ground as that was, and I admired and wondered at it exactly as I now admire and wonder at yourself. I dare not clasp your knees, but I am in great distress; yesterday made the twentieth day that I had been tossing about upon the sea. The winds and waves have taken me all the way from the Ogygian island,[55] and now fate has flung me upon this coast that I may endure still further suffering; for I do not think that I have yet come to the end of it, but rather that heaven has still much evil in store for me.
+“O queen,” he said, “I implore your aid—but tell me, are you a goddess or are you a mortal woman? If you are a goddess and dwell in heaven, I can only conjecture that you are Jove’s daughter Diana, for your face and figure resemble none but hers; if on the other hand you are a mortal and live on earth, thrice happy are your father and mother—thrice happy, too, are your brothers and sisters; how proud and delighted they must feel when they see so fair a scion as yourself going out to a dance; most happy, however, of all will he be whose wedding gifts have been the richest, and who takes you to his own home. I never yet saw any one so beautiful, neither man nor woman, and am lost in admiration as I behold you. I can only compare you to a young palm tree which I saw when I was at Delos growing near the altar of Apollo—for I was there, too, with much people after me, when I was on that journey which has been the source of all my troubles. Never yet did such a young plant shoot out of the ground as that was, and I admired and wondered at it exactly as I now admire and wonder at yourself. I dare not clasp your knees, but I am in great distress; yesterday made the twentieth day that I had been tossing about upon the sea. The winds and waves have taken me all the way from the Ogygian island, and now fate has flung me upon this coast that I may endure still further suffering; for I do not think that I have yet come to the end of it, but rather that heaven has still much evil in store for me.
 
 “And now, O queen, have pity upon me, for you are the first person I have met, and I know no one else in this country. Show me the way to your town, and let me have anything that you may have brought hither to wrap your clothes in. May heaven grant you in all things your heart’s desire—husband, house, and a happy, peaceful home; for there is nothing better in this world than that man and wife should be of one mind in a house. It discomfits their enemies, makes the hearts of their friends glad, and they themselves know more about it than any one.”
 
@@ -801,9 +530,7 @@ To this Nausicaa answered, “Stranger, you appear to be a sensible, well-dispos
 
 Then she called her maids and said, “Stay where you are, you girls. Can you not see a man without running away from him? Do you take him for a robber or a murderer? Neither he nor any one else can come here to do us Phaeacians any harm, for we are dear to the gods, and live apart on a land’s end that juts into the sounding sea, and have nothing to do with any other people. This is only some poor man who has lost his way, and we must be kind to him, for strangers and foreigners in distress are under Jove’s protection, and will take what they can get and be thankful; so, girls, give the poor fellow something to eat and drink, and wash him in the stream at some place that is sheltered from the wind.”
 
-On this the maids left off running away and began calling one another back. They made Ulysses sit down in the shelter as Nausicaa had told them, and brought him a shirt and cloak. They also brought him the little golden cruse of oil, and told him to go and wash in the stream. But Ulysses said, “Young women, please to stand a little on one side that I may wash the brine from my shoulders and anoint myself with oil, for it is long enough since my skin has had a drop of oil upon it. I cannot wash as long as you all keep standing there. I am ashamed to strip[56] before a number of good looking young women.”
-
----
+On this the maids left off running away and began calling one another back. They made Ulysses sit down in the shelter as Nausicaa had told them, and brought him a shirt and cloak. They also brought him the little golden cruse of oil, and told him to go and wash in the stream. But Ulysses said, “Young women, please to stand a little on one side that I may wash the brine from my shoulders and anoint myself with oil, for it is long enough since my skin has had a drop of oil upon it. I cannot wash as long as you all keep standing there. I am ashamed to strip before a number of good looking young women.”
 
 Then they stood on one side and went to tell the girl, while Ulysses washed himself in the stream and scrubbed the brine from his back and from his broad shoulders. When he had thoroughly washed himself, and had got the brine out of his hair, he anointed himself with oil, and put on the clothes which the girl had given him; Minerva then made him look taller and stronger than before, she also made the hair grow thick on the top of his head, and flow down in curls like hyacinth blossoms; she glorified him about the head and shoulders as a skilful workman who has studied art of all kinds under Vulcan and Minerva enriches a piece of silver plate by gilding it—and his work is full of beauty. Then he went and sat down a little way off upon the beach, looking quite young and handsome, and the girl gazed on him with admiration; then she said to her maids:
 
@@ -823,15 +550,11 @@ So saying she lashed the mules with her whip and they left the river. The mules 
 
 Thus did he pray, and Minerva heard his prayer, but she would not show herself to him openly, for she was afraid of her uncle Neptune, who was still furious in his endeavors to prevent Ulysses from getting home.
 
+# BOOK VII.
 
+*Reception of Ulysses at the palace of King Alcinous.*
 
----
-
-## BOOK VII
-
-### RECEPTION OF ULYSSES AT THE PALACE OF KING ALCINOUS.
-
-Thus, then, did Ulysses wait and pray; but the girl drove on to the town. When she reached her father's house she drew up at the gateway, and her brothers—comely as the gods—gathered round her, took the mules out of the waggon, and carried the clothes into the house, while she went to her own room, where an old servant, Eurymedusa of Apeira, lit the fire for her. This old woman had been brought by sea from Apeira, and had been chosen as a prize for Alcinous because he was king over the Phaeacians, and the people obeyed him as though he were a god.[57] She had been nurse to Nausicaa, and had now lit the fire for her, and brought her supper for her into her own room.
+Thus, then, did Ulysses wait and pray; but the girl drove on to the town. When she reached her father's house she drew up at the gateway, and her brothers—comely as the gods—gathered round her, took the mules out of the waggon, and carried the clothes into the house, while she went to her own room, where an old servant, Eurymedusa of Apeira, lit the fire for her. This old woman had been brought by sea from Apeira, and had been chosen as a prize for Alcinous because he was king over the Phaeacians, and the people obeyed him as though he were a god. She had been nurse to Nausicaa, and had now lit the fire for her, and brought her supper for her into her own room.
 
 Presently Ulysses got up to go towards the town; and Minerva shed a thick mist all round him to hide him in case any of the proud Phaeacians who met him should be rude to him, or ask him who he was. Then, as he was just entering the town, she came towards him in the likeness of a little girl carrying a pitcher. She stood right in front of him, and Ulysses said:
 
@@ -843,21 +566,19 @@ On this she led the way, and Ulysses followed in her steps; but not one of the P
 
 “This is the house, father stranger, which you would have me show you. You will find a number of great people sitting at table, but do not be afraid; go straight in, for the bolder a man is the more likely he is to carry his point, even though he is a stranger. First find the queen. Her name is Arete, and she comes of the same family as her husband Alcinous. They both descend originally from Neptune, who was father to Nausithous by Periboea, a woman of great beauty. Periboea was the youngest daughter of Eurymedon, who at one time reigned over the giants, but he ruined his ill-fated people and lost his own life to boot.
 
-“Neptune, however, lay with his daughter, and she had a son by him, the great Nausithous, who reigned over the Phaeacians. Nausithous had two sons Rhexenor and Alcinous;[58] Apollo killed the first of them while he was still a bridegroom and without male issue; but he left a daughter Arete, whom Alcinous married, and honours as no other woman is honoured of all those that keep house along with their husbands.
+“Neptune, however, lay with his daughter, and she had a son by him, the great Nausithous, who reigned over the Phaeacians. Nausithous had two sons Rhexenor and Alcinous; Apollo killed the first of them while he was still a bridegroom and without male issue; but he left a daughter Arete, whom Alcinous married, and honours as no other woman is honoured of all those that keep house along with their husbands.
 
 “Thus she both was, and still is, respected beyond measure by her children, by Alcinous himself, and by the whole people, who look upon her as a goddess, and greet her whenever she goes about the city, for she is a thoroughly good woman both in head and heart, and when any women are friends of hers, she will help their husbands also to settle their disputes. If you can gain her good will, you may have every hope of seeing your friends again, and getting safely back to your home and country.”
 
-Then Minerva left Scheria and went away over the sea. She went to Marathon[59] and to the spacious streets of Athens, where she entered the abode of Erechtheus; but Ulysses went on to the house of Alcinous, and he pondered much as he paused a while before reaching the threshold of bronze, for the splendour of the palace was like that of the sun or moon. The walls on either side were of bronze from end to end, and the cornice was of blue enamel. The doors were gold, and hung on pillars of silver that rose from a floor of bronze, while the lintel was silver and the hook of the door was of gold.
+Then Minerva left Scheria and went away over the sea. She went to Marathon and to the spacious streets of Athens, where she entered the abode of Erechtheus; but Ulysses went on to the house of Alcinous, and he pondered much as he paused a while before reaching the threshold of bronze, for the splendour of the palace was like that of the sun or moon. The walls on either side were of bronze from end to end, and the cornice was of blue enamel. The doors were gold, and hung on pillars of silver that rose from a floor of bronze, while the lintel was silver and the hook of the door was of gold.
 
-On either side there stood gold and silver mastiffs which Vulcan, with his consummate skill, had fashioned expressly to keep watch over the palace of king Alcinous; so they were immortal and could never grow old. Seats were ranged all along the wall, here and there from one end to the other, with coverings of fine woven work which the women of the house had made. Here the chief persons of the Phaeacians used to sit and eat and drink, for there was abundance at all seasons; and there were golden figures of young men with lighted torches in their hands, raised on pedestals, to give light by night to those who were at table. There are[60] fifty maid servants in the house, some of whom are always grinding rich yellow grain at the mill, while others work at the loom, or sit and spin, and their shuttles go backwards and forwards like the fluttering of aspen leaves, while
-
----
+On either side there stood gold and silver mastiffs which Vulcan, with his consummate skill, had fashioned expressly to keep watch over the palace of king Alcinous; so they were immortal and could never grow old. Seats were ranged all along the wall, here and there from one end to the other, with coverings of fine woven work which the women of the house had made. Here the chief persons of the Phaeacians used to sit and eat and drink, for there was abundance at all seasons; and there were golden figures of young men with lighted torches in their hands, raised on pedestals, to give light by night to those who were at table. There are fifty maid servants in the house, some of whom are always grinding rich yellow grain at the mill, while others work at the loom, or sit and spin, and their shuttles go backwards and forwards like the fluttering of aspen leaves, while
 
 the linen is so closely woven that it will turn oil. As the Phaeacians are the best sailors in the world, so their women excel all others in weaving, for Minerva has taught them all manner of useful arts, and they are very intelligent.
 
 Outside the gate of the outer court there is a large garden of about four acres with a wall all round it. It is full of beautiful trees—pears, pomegranates, and the most delicious apples. There are luscious figs also, and olives in full growth. The fruits never rot nor fail all the year round, neither winter nor summer, for the air is so soft that a new crop ripens before the old has dropped. Pear grows on pear, apple on apple, and fig on fig, and so also with the grapes, for there is an excellent vineyard: on the level ground of a part of this, the grapes are being made into raisins; in another part they are being gathered; some are being trodden in the wine tubs, others further on have shed their blossom and are beginning to show fruit, others again are just changing colour. In the furthest part of the ground there are beautifully arranged beds of flowers that are in bloom all the year round. Two streams go through it, the one turned in ducts throughout the whole garden, while the other is carried under the ground of the outer court to the house itself, and the town's people draw water from it. Such, then, were the splendours with which the gods had endowed the house of king Alcinous.
 
-So here Ulysses stood for a while and looked about him, but when he had looked long enough he crossed the threshold and went within the precincts of the house. There he found all the chief people among the Phaeacians making their drink offerings to Mercury, which they always did the last thing before going away for the night.[61] He went straight through the court, still hidden by the cloak of darkness in which Minerva had enveloped him, till he reached Arete and King Alcinous; then he laid his hands upon the knees of the queen, and at that moment the miraculous darkness fell away from him and he became visible. Every one was speechless with surprise at seeing a man there, but Ulysses began at once with his petition.
+So here Ulysses stood for a while and looked about him, but when he had looked long enough he crossed the threshold and went within the precincts of the house. There he found all the chief people among the Phaeacians making their drink offerings to Mercury, which they always did the last thing before going away for the night. He went straight through the court, still hidden by the cloak of darkness in which Minerva had enveloped him, till he reached Arete and King Alcinous; then he laid his hands upon the knees of the queen, and at that moment the miraculous darkness fell away from him and he became visible. Every one was speechless with surprise at seeing a man there, but Ulysses began at once with his petition.
 
 “Queen Arete,” he exclaimed, “daughter of great Rhexenor, in my distress I humbly pray you, as also your husband and these your guests (whom may heaven prosper with long life and happiness, and may they leave their possessions to their children, and all the honours conferred upon them by the state) to help me home to my own country as soon as possible; for I have been long in trouble and away from my friends.”
 
@@ -869,11 +590,9 @@ When Alcinous heard this he took Ulysses by the hand, raised him from the hearth
 
 Pontonous then mixed wine and water, and handed it round after giving every man his drink-offering. When they had made their offerings, and had drunk each as much as he was minded, Alcinous said:
 
-“Aldermen and town councillors of the Phaeacians, hear my words. You have had your supper, so now go home to bed. Tomorrow morning I shall invite a still larger number of aldermen, and will give a sacrificial banquet in honour of our guest; we can then discuss the question of his escort, and consider how we may at once send him back rejoicing to his own country without trouble or inconvenience to himself, no matter how distant it may be. We must see that he comes to no harm while on his homeward journey, but when he is once at home he will have to take the luck he was born with for better or worse like other people. It is possible, however, that the stranger is one of the immortals who has come down from heaven to visit us; but in this case the gods are departing from their usual practice, for hitherto they have made themselves perfectly clear to us when we have been offering them hecatombs. They come and sit at our feasts just like one of our selves, and if any solitary wayfarer happens to stumble upon some one or other of them, they affect no concealment, for we are as near of kin to the gods as the Cyclopes and the savage giants are.”[62]
+“Aldermen and town councillors of the Phaeacians, hear my words. You have had your supper, so now go home to bed. Tomorrow morning I shall invite a still larger number of aldermen, and will give a sacrificial banquet in honour of our guest; we can then discuss the question of his escort, and consider how we may at once send him back rejoicing to his own country without trouble or inconvenience to himself, no matter how distant it may be. We must see that he comes to no harm while on his homeward journey, but when he is once at home he will have to take the luck he was born with for better or worse like other people. It is possible, however, that the stranger is one of the immortals who has come down from heaven to visit us; but in this case the gods are departing from their usual practice, for hitherto they have made themselves perfectly clear to us when we have been offering them hecatombs. They come and sit at our feasts just like one of our selves, and if any solitary wayfarer happens to stumble upon some one or other of them, they affect no concealment, for we are as near of kin to the gods as the Cyclopes and the savage giants are.”
 
-Then Ulysses said: “Pray, Alcinous, do not take any such notion into your head. I have nothing of the immortal about me, neither in body nor mind, and most resemble those among you who are the most afflicted. Indeed, were I to tell you all that heaven has seen fit to lay upon me, you would say that I was still worse off than they are. Nevertheless, let me sup in spite of sorrow, for an empty stomach is a very importunate thing, and thrusts itself on a man's notice no matter how dire is his distress. I am in great trouble, yet it insists that I shall eat and drink, bids me lay aside all memory of my sorrows and dwell only on the due replenishing of itself. As for yourselves, do as you propose, and at break of day set about helping me to get home. I shall be content to die if I may first once more behold my property, my bondsmen, and all the greatness of my house.”[63]
-
----
+Then Ulysses said: “Pray, Alcinous, do not take any such notion into your head. I have nothing of the immortal about me, neither in body nor mind, and most resemble those among you who are the most afflicted. Indeed, were I to tell you all that heaven has seen fit to lay upon me, you would say that I was still worse off than they are. Nevertheless, let me sup in spite of sorrow, for an empty stomach is a very importunate thing, and thrusts itself on a man's notice no matter how dire is his distress. I am in great trouble, yet it insists that I shall eat and drink, bids me lay aside all memory of my sorrows and dwell only on the due replenishing of itself. As for yourselves, do as you propose, and at break of day set about helping me to get home. I shall be content to die if I may first once more behold my property, my bondsmen, and all the greatness of my house.”
 
 Thus did he speak. Every one approved his saying, and agreed that he should have his escort inasmuch as he had spoken reasonably. Then when they had made their drink offerings, and had drunk each as much as he was minded they went home to bed every man in his own abode, leaving Ulysses in the cloister with Arete and Alcinous while the servants were taking the things away after supper. Arete was the first to speak, for she recognised the shirt, cloak, and good clothes that Ulysses was wearing, as the work of herself and of her maids; so she said, “Stranger, before we go any further, there is a question I should like to ask you. Who, and whence are you, and who gave you those clothes? Did you not say you had come here from beyond the sea?”
 
@@ -887,31 +606,25 @@ Then Alcinous said, “Stranger, it was very wrong of my daughter not to bring y
 
 “Pray do not scold her,” replied Ulysses; “she is not to blame. She did tell me to follow along with the maids, but I was ashamed and afraid, for I thought you might perhaps be displeased if you saw me. Every human being is sometimes a little suspicious and irritable.”
 
-“Stranger,” replied Alcinous, “I am not the kind of man to get angry about nothing; it is always better to be reasonable; but by Father Jove, Minerva, and Apollo, now that I see what kind of person you are, and how much you think as I do, I wish you would stay here, marry my daughter, and become my son-in-law. If you will stay I will give you a house and an estate, but no one (heaven forbid) shall keep you here against your own wish, and that you may be sure of this I will attend tomorrow to the matter of your escort. You can sleep[64] during the whole voyage if you like, and the men shall sail you over smooth waters either to your own home, or wherever you please, even though it be a long way further off than Euboea, which those of my people who saw it when they took yellow-haired Rhadamanthus to see Tityus the son of Gaia, tell me is the furthest of any place—and yet they did the whole voyage in a single day without distressing themselves, and came back again afterwards. You will thus see how much my ships excel all others, and what magnificent oarsmen my sailors are.”
+“Stranger,” replied Alcinous, “I am not the kind of man to get angry about nothing; it is always better to be reasonable; but by Father Jove, Minerva, and Apollo, now that I see what kind of person you are, and how much you think as I do, I wish you would stay here, marry my daughter, and become my son-in-law. If you will stay I will give you a house and an estate, but no one (heaven forbid) shall keep you here against your own wish, and that you may be sure of this I will attend tomorrow to the matter of your escort. You can sleep during the whole voyage if you like, and the men shall sail you over smooth waters either to your own home, or wherever you please, even though it be a long way further off than Euboea, which those of my people who saw it when they took yellow-haired Rhadamanthus to see Tityus the son of Gaia, tell me is the furthest of any place—and yet they did the whole voyage in a single day without distressing themselves, and came back again afterwards. You will thus see how much my ships excel all others, and what magnificent oarsmen my sailors are.”
 
 Then was Ulysses glad and prayed aloud saying, “Father Jove, grant that Alcinous may do all as he has said, for so he will win an imperishable name among mankind, and at the same time I shall return to my country.”
 
 Thus did they converse. Then Arete told her maids to set a bed in the room that was in the gatehouse, and make it with good red rugs, and to spread coverlets on the top of them with woollen cloaks for Ulysses to wear. The maids thereon went out with torches in their hands, and when they had made the bed they came up to Ulysses and said, “Rise, sir stranger, and come with us for your bed is ready,” and glad indeed was he to go to his rest.
 
----
-
 So Ulysses slept in a bed placed in a room over the echoing gateway; but Alcinous lay in the inner part of the house, with the queen his wife by his side.
 
+# BOOK VIII.
 
-
----
-
-# BOOK VIII
-
-## BANQUET IN THE HOUSE OF ALCINOUS—THE GAMES.
+*Banquet in the house of Alcinous—The games.*
 
 Now when the child of morning, rosy-fingered Dawn, appeared, Alcinous and Ulysses both rose, and Alcinous led the way to the Phaeacian place of assembly, which was near the ships. When they got there they sat down side by side on a seat of polished stone, while Minerva took the form of one of Alcinous' servants, and went round the town in order to help Ulysses to get home. She went up to the citizens, man by man, and said, "Aldermen and town councillors of the Phaeacians, come to the assembly all of you and listen to the stranger who has just come off a long voyage to the house of King Alcinous; he looks like an immortal god."
 
 With these words she made them all want to come, and they flocked to the assembly till seats and standing room were alike crowded. Every one was struck with the appearance of Ulysses, for Minerva had beautified him about the head and shoulders, making him look taller and stouter than he really was, that he might impress the Phaeacians favourably as being a very remarkable man, and might come off well in the many trials of skill to which they would challenge him. Then, when they were got together, Alcinous spoke:
 
-"Hear me," said he, "aldermen and town councillors of the Phaeacians, that I may speak even as I am minded. This stranger, whoever he may be, has found his way to my house from somewhere or other either East or West. He wants an escort and wishes to have the matter settled. Let us then get one ready for him, as we have done for others before him; indeed, no one who ever yet came to my house has been able to complain of me for not speeding on his way soon enough. Let us draw a ship into the sea—one that has never yet made a voyage—and man her with two and fifty of our smartest young sailors. Then when you have made fast your oars each by his own seat, leave the ship and come to my house to prepare a feast.[65] I will find you in everything. I am giving these instructions to the young men who will form the crew, for as regards you aldermen and town councillors, you will join me in entertaining our guest in the cloisters. I can take no excuses, and we will have Demodocus to sing to us; for there is no bard like him whatever he may choose to sing about."
+"Hear me," said he, "aldermen and town councillors of the Phaeacians, that I may speak even as I am minded. This stranger, whoever he may be, has found his way to my house from somewhere or other either East or West. He wants an escort and wishes to have the matter settled. Let us then get one ready for him, as we have done for others before him; indeed, no one who ever yet came to my house has been able to complain of me for not speeding on his way soon enough. Let us draw a ship into the sea—one that has never yet made a voyage—and man her with two and fifty of our smartest young sailors. Then when you have made fast your oars each by his own seat, leave the ship and come to my house to prepare a feast. I will find you in everything. I am giving these instructions to the young men who will form the crew, for as regards you aldermen and town councillors, you will join me in entertaining our guest in the cloisters. I can take no excuses, and we will have Demodocus to sing to us; for there is no bard like him whatever he may choose to sing about."
 
-Alcinous then led the way, and the others followed after, while a servant went to fetch Demodocus. The fifty-two picked oarsmen went to the sea shore as they had been told, and when they got there they drew the ship into the water, got her mast and sails inside her, bound the oars to the thole-pins with twisted thongs of leather, all in due course, and spread the white sails aloft. They moored the vessel a little way out from land, and then came on shore and went to the house of King Alcinous. The out houses,[66] yards, and all the precincts were filled with crowds of men in great multitudes both old and young; and Alcinous killed them a dozen sheep, eight full grown pigs, and two oxen. These they skinned and dressed so as to provide a magnificent banquet.
+Alcinous then led the way, and the others followed after, while a servant went to fetch Demodocus. The fifty-two picked oarsmen went to the sea shore as they had been told, and when they got there they drew the ship into the water, got her mast and sails inside her, bound the oars to the thole-pins with twisted thongs of leather, all in due course, and spread the white sails aloft. They moored the vessel a little way out from land, and then came on shore and went to the house of King Alcinous. The out houses, yards, and all the precincts were filled with crowds of men in great multitudes both old and young; and Alcinous killed them a dozen sheep, eight full grown pigs, and two oxen. These they skinned and dressed so as to provide a magnificent banquet.
 
 A servant presently led in the famous bard Demodocus, whom the muse had dearly loved, but to whom she had given both good and evil, for though she had endowed him with a divine gift of song, she had robbed him of his eyesight. Pontonous set a seat for him among the guests, leaning it up against a bearing-post. He hung the lyre for him on a peg over his head, and showed him where he was to feel for it with his hands. He also set a fair table with a basket of victuals by his side, and a cup of wine from which he might drink whenever he was so disposed.
 
@@ -919,13 +632,9 @@ The company then laid their hands upon the good things that were before them, bu
 
 Thus sang the bard, but Ulysses drew his purple mantle over his head and covered his face, for he was ashamed to let the Phaeacians see that he was weeping. When the bard left off singing he wiped the tears from his eyes, uncovered his face, and, taking his cup, made a drink-offering to the gods; but when the Phaeacians pressed Demodocus to sing further, for they delighted in his lays, then Ulysses again drew his mantle over his head and wept bitterly. No one noticed his distress except Alcinous, who was sitting near him, and heard the heavy sighs that he was heaving. So he at once said, "Aldermen and town councillors of the Phaeacians, we have had enough now, both of the feast, and of the minstrelsy that is its due accompaniment; let us proceed therefore to the athletic sports, so that our guest on his return home may be able to tell his friends how much we surpass all other nations as boxers, wrestlers, jumpers, and runners."
 
-44
-
----
-
 With these words he led the way, and the others followed after. A servant hung Demodocus's lyre on its peg for him, led him out of the cloister, and set him on the same way as that along which all the chief men of the Phaeacians were going to see the sports; a crowd of several thousands of people followed them, and there were many excellent competitors for all the prizes. Acroneos, Ocyalus, Elatreus, Nauteus, Prymneus, Anchialus, Eretmeus, Ponteus, Proreus, Thoon, Anabesineus, and Amphialus son of Polyneus son of Tecton. There was also Euryalus son of Naubolus, who was like Mars himself, and was the best looking man among the Phaeacians except Laodamas. Three sons of Alcinous, Laodamas, Halios, and Clytoneus, competed also.
 
-The foot races came first. The course was set out for them from the starting post, and they raised a dust upon the plain as they all flew forward at the same moment. Clytoneus came in first by a long way; he left every one else behind him by the length of the furrow that a couple of mules can plough in a fallow field.[67] They then turned to the painful art of wrestling, and here Euryalus proved to be the best man. Amphialus excelled all the others in jumping, while at throwing the disc there was no one who could approach Elatreus. Alcinous's son Laodamas was the best boxer, and he it was who presently said, when they had all been diverted with the games, “Let us ask the stranger whether he excels in any of these sports; he seems very powerfully built; his thighs, calves, hands, and neck are of prodigious strength, nor is he at all old, but he has suffered much lately, and there is nothing like the sea for making havoc with a man, no matter how strong he is.”
+The foot races came first. The course was set out for them from the starting post, and they raised a dust upon the plain as they all flew forward at the same moment. Clytoneus came in first by a long way; he left every one else behind him by the length of the furrow that a couple of mules can plough in a fallow field. They then turned to the painful art of wrestling, and here Euryalus proved to be the best man. Amphialus excelled all the others in jumping, while at throwing the disc there was no one who could approach Elatreus. Alcinous's son Laodamas was the best boxer, and he it was who presently said, when they had all been diverted with the games, “Let us ask the stranger whether he excels in any of these sports; he seems very powerfully built; his thighs, calves, hands, and neck are of prodigious strength, nor is he at all old, but he has suffered much lately, and there is nothing like the sea for making havoc with a man, no matter how strong he is.”
 
 “You are quite right, Laodamas,” replied Euryalus, “go up to your guest and speak to him about it yourself.”
 
@@ -937,11 +646,9 @@ Then Euryalus reviled him outright and said, “I gather, then, that you are uns
 
 “For shame, Sir,” answered Ulysses, fiercely, “you are an insolent fellow—so true is it that the gods do not grace all men alike in speech, person, and understanding. One man may be of weak presence, but heaven has adorned this with such a good conversation that he charms every one who sees him; his honeyed moderation carries his hearers with him so that he is leader in all assemblies of his fellows, and wherever he goes he is looked up to. Another may be as handsome as a god, but his good looks are not crowned with discretion. This is your case. No god could make a finer looking fellow than you are, but you are a fool. Your ill-judged remarks have made me exceedingly angry, and you are quite mistaken, for I excel in a great many athletic exercises; indeed, so long as I had youth and strength, I was among the first athletes of the age. Now, however, I am worn out by labour and sorrow, for I have gone through much both on the field of battle and by the waves of the weary sea; still, in spite of all this I will compete, for your taunts have stung me to the quick.”
 
-So he hurried up without even taking his cloak off, and seized a disc, larger, more massive and much heavier than those used by the Phaeacians when disc-throwing among themselves.[68] Then, swinging it back, he threw it from his brawny hand, and it made a humming sound in the air as he did so. The Phaeacians quailed beneath the rushing of its flight as it sped gracefully from his hand, and flew beyond any mark that had been made yet. Minerva, in the form of a man, came and marked the place where it had fallen. “A blind man, Sir,” said she, “could easily tell your mark by groping for it—it is so far ahead of any other. You may make your mind easy about this contest, for no Phaeacian can come near to such a throw as yours.”
+So he hurried up without even taking his cloak off, and seized a disc, larger, more massive and much heavier than those used by the Phaeacians when disc-throwing among themselves. Then, swinging it back, he threw it from his brawny hand, and it made a humming sound in the air as he did so. The Phaeacians quailed beneath the rushing of its flight as it sped gracefully from his hand, and flew beyond any mark that had been made yet. Minerva, in the form of a man, came and marked the place where it had fallen. “A blind man, Sir,” said she, “could easily tell your mark by groping for it—it is so far ahead of any other. You may make your mind easy about this contest, for no Phaeacian can come near to such a throw as yours.”
 
 Ulysses was glad when he found he had a friend among the lookers-on, so he began to speak more pleasantly. “Young men,” said he, “come up to that throw if you can, and I will throw another disc as heavy or even heavier. If anyone wants to have a bout with me let him come on, for I am exceedingly angry; I will box, wrestle, or run, I do not care what it is, with any man of you all except Laodamas, but not with him because I am his guest, and one cannot compete with one's own personal friend. At least I do not think it a prudent or a sensible thing for a guest to challenge his host's family at any game, especially when he is in a foreign country. He will cut the ground from under his own feet if he does; but I make no exception as regards any one else, for I want to have the matter out and know which is the best man. I am a good hand at every kind of athletic sport known among mankind. I am an excellent archer. In battle I am always the first to bring a man down with my arrow, no matter how many more are taking aim at him alongside of me. Philoctetes was the only man who could shoot better than I could when we Achaeans were before Troy and in practice. I far excel every one else in the whole world, of those who still eat bread upon the face of the earth, but I should not like to shoot against the mighty dead, such as Hercules, or Eurytus the Oechalian—men who could shoot against the gods themselves. This in fact was how Eurytus came prematurely by his end, for Apollo was angry with him and killed him because he challenged him as an archer. I can throw a dart farther than any one else can shoot an
-
----
 
 arrow. Running is the only point in respect of which I am afraid some of the Phaeacians might beat me, for I have been brought down very low at sea; my provisions ran short, and therefore I am still weak.”
 
@@ -949,7 +656,7 @@ They all held their peace except King Alcinous, who began, “Sir, we have had m
 
 On this a servant hurried off to bring the lyre from the king’s house, and the nine men who had been chosen as stewards stood forward. It was their business to manage everything connected with the sports, so they made the ground smooth and marked a wide space for the dancers. Presently the servant came back with Demodocus’s lyre, and he took his place in the midst of them, whereon the best young dancers in the town began to foot and trip it so nimbly that Ulysses was delighted with the merry twinkling of their feet.
 
-Meanwhile the bard began to sing the loves of Mars and Venus, and how they first began their intrigue in the house of Vulcan. Mars made Venus many presents, and defiled King Vulcan’s marriage bed, so the sun, who saw what they were about, told Vulcan. Vulcan was very angry when he heard such dreadful news, so he went to his smithy brooding mischief, got his great anvil into its place, and began to forge some chains which none could either unloose or break, so that they might stay there in that place.[69] When he had finished his snare he went into his bedroom and festooned the bed-posts all over with chains like cobwebs; he also let many hang down from the great beam of the ceiling. Not even a god could see them so fine and subtle were they. As soon as he had spread the chains all over the bed, he made as though he were setting out for the fair state of Lemnos, which of all places in the world was the one he was most fond of. But Mars kept no blind look out, and as soon as he saw him start, hurried off to his house, burning with love for Venus.
+Meanwhile the bard began to sing the loves of Mars and Venus, and how they first began their intrigue in the house of Vulcan. Mars made Venus many presents, and defiled King Vulcan’s marriage bed, so the sun, who saw what they were about, told Vulcan. Vulcan was very angry when he heard such dreadful news, so he went to his smithy brooding mischief, got his great anvil into its place, and began to forge some chains which none could either unloose or break, so that they might stay there in that place. When he had finished his snare he went into his bedroom and festooned the bed-posts all over with chains like cobwebs; he also let many hang down from the great beam of the ceiling. Not even a god could see them so fine and subtle were they. As soon as he had spread the chains all over the bed, he made as though he were setting out for the fair state of Lemnos, which of all places in the world was the one he was most fond of. But Mars kept no blind look out, and as soon as he saw him start, hurried off to his house, burning with love for Venus.
 
 Now Venus was just come in from a visit to her father Jove, and was about sitting down when Mars came inside the house, and said as he took her hand in his own, “Let us go to the couch of Vulcan: he is not at home, but is gone off to Lemnos among the Sintians, whose speech is barbarous.”
 
@@ -968,10 +675,6 @@ Thus did they converse, but King Apollo said to Mercury, “Messenger Mercury, g
 The immortal gods burst out laughing as they heard him, but Neptune took it all seriously, and kept on imploring Vulcan to set Mars free again. “Let him go,” he cried, “and I will undertake, as you require, that he shall pay you all the damages that are held reasonable among the immortal gods.”
 
 “Do not,” replied Vulcan, “ask me to do this; a bad man’s bond is bad security; what remedy could I enforce against you if Mars should go away and leave his debts behind him along with his chains?”
-
-
-
----
 
 “Vulcan,” said Neptune, “if Mars goes away without paying his damages, I will pay you myself.” So Vulcan answered, “In this case I cannot and must not refuse you.”
 
@@ -993,11 +696,11 @@ To which Ulysses answered, “Good luck to you too my friend, and may the gods g
 
 With these words he girded the sword about his shoulders and towards sundown the presents began to make their appearance, as the servants of the donors kept bringing them to the house of King Alcinous; here his sons received them, and placed them under their mother’s charge. Then Alcinous led the way to the house and bade his guests take their seats.
 
-“Wife,” said he, turning to Queen Arete, “Go, fetch the best chest we have, and put a clean cloak and shirt in it. Also, set a copper on the fire and heat some water; our guest will take a warm bath; see also to the careful packing of the presents that the noble Phaeacians have made him; he will thus better enjoy both his supper and the singing that will follow. I shall myself give him this golden goblet—which is of exquisite workmanship—that he may be reminded of me for the rest of his life whenever he makes a drink offering to Jove, or to any of the gods.”[70]
+“Wife,” said he, turning to Queen Arete, “Go, fetch the best chest we have, and put a clean cloak and shirt in it. Also, set a copper on the fire and heat some water; our guest will take a warm bath; see also to the careful packing of the presents that the noble Phaeacians have made him; he will thus better enjoy both his supper and the singing that will follow. I shall myself give him this golden goblet—which is of exquisite workmanship—that he may be reminded of me for the rest of his life whenever he makes a drink offering to Jove, or to any of the gods.”
 
-Then Arete told her maids to set a large tripod upon the fire as fast as they could, whereon they set a tripod full of bath water on to a clear fire; they threw on sticks to make it blaze, and the water became hot as the flame played about the belly of the tripod.[71] Meanwhile Arete brought a magnificent chest from her own room, and inside it she packed all the beautiful presents of gold and raiment which the Phaeacians had brought. Lastly she added a cloak and a good shirt from Alcinous, and said to Ulysses:
+Then Arete told her maids to set a large tripod upon the fire as fast as they could, whereon they set a tripod full of bath water on to a clear fire; they threw on sticks to make it blaze, and the water became hot as the flame played about the belly of the tripod. Meanwhile Arete brought a magnificent chest from her own room, and inside it she packed all the beautiful presents of gold and raiment which the Phaeacians had brought. Lastly she added a cloak and a good shirt from Alcinous, and said to Ulysses:
 
-“See to the lid yourself, and have the whole bound round at once, for fear any one should rob you by the way when you are asleep in your ship.” [72]
+“See to the lid yourself, and have the whole bound round at once, for fear any one should rob you by the way when you are asleep in your ship.” 
 
 When Ulysses heard this he put the lid on the chest and made it fast with a bond that Circe had taught him. He had done so before an upper servant told him to come to the bath and wash himself. He was very glad of a warm bath, for he had had no one to wait upon him ever since he left the house of Calypso, who as long as he remained with her had taken as good care of him as though he had been a god. When the servants had done washing and anointing him with oil, and had given him a clean cloak and shirt, he left the bath room and joined the guests who were sitting over their wine. Lovely Nausicaa stood by one of the bearing-posts supporting the roof of the cloister, and admired him as she saw him pass. “Farewell stranger,” said she, “do not forget me when you are safe at home again, for it is to me first that you owe a ransom for having saved your life.”
 
@@ -1005,49 +708,41 @@ And Ulysses said, “Nausicaa, daughter of great Alcinous, may Jove the mighty h
 
 When he had said this, he seated himself beside Alcinous. Supper was then served, and the wine was mixed for drinking. A servant led in the favourite bard Demodocus, and set him in the midst of the company, near one of the bearing-posts
 
----
-
 supporting the cloister, that he might lean against it. Then Ulysses cut off a piece of roast pork with plenty of fat (for there was abundance left on the joint) and said to a servant, “Take this piece of pork over to Demodocus and tell him to eat it; for all the pain his lays may cause me I will salute him none the less; bards are honoured and respected throughout the world, for the muse teaches them their songs and loves them.”
 
 The servant carried the pork in his fingers over to Demodocus, who took it and was very much pleased. They then laid their hands on the good things that were before them, and as soon as they had had to eat and drink, Ulysses said to Demodocus, “Demodocus, there is no one in the world whom I admire more than I do you. You must have studied under the Muse, Jove’s daughter, and under Apollo, so accurately do you sing the return of the Achaeans with all their sufferings and adventures. If you were not there yourself, you must have heard it all from some one who was. Now, however, change your song and tell us of the wooden horse which Epeus made with the assistance of Minerva, and which Ulysses got by stratagem into the fort of Troy after freighting it with the men who afterwards sacked the city. If you will sing this tale aright I will tell all the world how magnificently heaven has endowed you.”
 
-The bard inspired of heaven took up the story at the point where some of the Argives set fire to their tents and sailed away while others, hidden within the horse,[73] were waiting with Ulysses in the Trojan place of assembly. For the Trojans themselves had drawn the horse into their fortress, and it stood there while they sat in council round it, and were in three minds as to what they should do. Some were for breaking it up then and there; others would have it dragged to the top of the rock on which the fortress stood, and then thrown down the precipice; while yet others were for letting it remain as an offering and propitiation for the gods. And this was how they settled it in the end, for the city was doomed when it took in that horse, within which were all the bravest of the Argives waiting to bring death and destruction on the Trojans. Anon he sang how the sons of the Achaeans issued from the horse, and sacked the town, breaking out from their ambuscade. He sang how they overran the city hither and thither and ravaged it, and how Ulysses went raging like Mars along with Menelaus to the house of Deiphobus. It was there that the fight raged most furiously, nevertheless by Minerva’s help he was victorious.
+The bard inspired of heaven took up the story at the point where some of the Argives set fire to their tents and sailed away while others, hidden within the horse, were waiting with Ulysses in the Trojan place of assembly. For the Trojans themselves had drawn the horse into their fortress, and it stood there while they sat in council round it, and were in three minds as to what they should do. Some were for breaking it up then and there; others would have it dragged to the top of the rock on which the fortress stood, and then thrown down the precipice; while yet others were for letting it remain as an offering and propitiation for the gods. And this was how they settled it in the end, for the city was doomed when it took in that horse, within which were all the bravest of the Argives waiting to bring death and destruction on the Trojans. Anon he sang how the sons of the Achaeans issued from the horse, and sacked the town, breaking out from their ambuscade. He sang how they overran the city hither and thither and ravaged it, and how Ulysses went raging like Mars along with Menelaus to the house of Deiphobus. It was there that the fight raged most furiously, nevertheless by Minerva’s help he was victorious.
 
 All this he told, but Ulysses was overcome as he heard him, and his cheeks were wet with tears. He wept as a woman weeps when she throws herself on the body of her husband who has fallen before his own city and people, fighting bravely in defence of his home and children. She screams aloud and flings her arms about him as he lies gasping for breath and dying, but her enemies beat her from behind about the back and shoulders, and carry her off into slavery, to a life of labour and sorrow, and the beauty fades from her cheeks—even so piteously did Ulysses weep, but none of those present perceived his tears except Alcinous, who was sitting near him, and could hear the sobs and sighs that he was heaving. The king, therefore, at once rose and said:
 
 “Aldermen and town councillors of the Phaeacians, let Demodocus cease his song, for there are those present who do not seem to like it. From the moment that we had done supper and Demodocus began to sing, our guest has been all the time groaning and lamenting. He is evidently in great trouble, so let the bard leave off, that we may all enjoy ourselves, hosts and guest alike. This will be much more as it should be, for all these festivities, with the escort and the presents that we are making with so much good will are wholly in his honour, and any one with even a moderate amount of right feeling knows that he ought to treat a guest and a suppliant as though he were his own brother.
 
-“Therefore, Sir, do you on your part affect no more concealment nor reserve in the matter about which I shall ask you; it will be more polite in you to give me a plain answer; tell me the name by which your father and mother over yonder used to call you, and by which you were known among your neighbours and fellow-citizens. There is no one, neither rich nor poor, who is absolutely without any name whatever, for people’s fathers and mothers give them names as soon as they are born. Tell me also your country, nation, and city, that our ships may shape their purpose accordingly and take you there. For the Phaeacians have no pilots; their vessels have no rudders as those of other nations have, but the ships themselves understand what it is that we are thinking about and want; they know all the cities and countries in the whole world, and can traverse the sea just as well even when it is covered with mist and cloud, so that there is no danger of being wrecked or coming to any harm. Still I do remember hearing my father say that Neptune was angry with us for being too easy-going in the matter of giving people escorts. He said that one of these days he should wreck a ship of ours as it was returning from having escorted some one,[74] and bury our city under a high mountain. This is what my father used to say, but whether the god will carry out his threat or no is a matter which he will decide for himself.
+“Therefore, Sir, do you on your part affect no more concealment nor reserve in the matter about which I shall ask you; it will be more polite in you to give me a plain answer; tell me the name by which your father and mother over yonder used to call you, and by which you were known among your neighbours and fellow-citizens. There is no one, neither rich nor poor, who is absolutely without any name whatever, for people’s fathers and mothers give them names as soon as they are born. Tell me also your country, nation, and city, that our ships may shape their purpose accordingly and take you there. For the Phaeacians have no pilots; their vessels have no rudders as those of other nations have, but the ships themselves understand what it is that we are thinking about and want; they know all the cities and countries in the whole world, and can traverse the sea just as well even when it is covered with mist and cloud, so that there is no danger of being wrecked or coming to any harm. Still I do remember hearing my father say that Neptune was angry with us for being too easy-going in the matter of giving people escorts. He said that one of these days he should wreck a ship of ours as it was returning from having escorted some one, and bury our city under a high mountain. This is what my father used to say, but whether the god will carry out his threat or no is a matter which he will decide for himself.
 
 “And now, tell me and tell me true. Where have you been wandering, and in what countries have you travelled? Tell us of the peoples themselves, and of their cities—who were hostile, savage and uncivilised, and who, on the other hand, hospitable and humane. Tell us also why you are made so unhappy on hearing about the return of the Argive Danaans from Troy. The gods arranged all this, and sent them their misfortunes in order that future generations might have something to sing about. Did you lose some brave kinsman of your wife’s when you were before Troy? a son-in-law or father-in-law—which are the nearest relations a man has outside his own flesh and blood? or was it some brave and kindly-natured comrade—for a good friend is as dear to a man as his own brother?”
 
-##
+# BOOK IX.
 
----
-
-# BOOK IX
-
-ULYSSES DECLARES HIMSELF AND BEGINS HIS STORY—THE CICONS, LOTOPHAGI, AND CYCLOPES.
+*Ulysses declares himself and begins his story—The Cicons, Lotophagi, and Cyclopes.*
 
 And Ulysses answered, “King Alcinous, it is a good thing to hear a bard with such a divine voice as this man has. There is nothing better or more delightful than when a whole people make merry together, with the guests sitting orderly to listen, while the table is loaded with bread and meats, and the cup-bearer draws wine and fills his cup for every man. This is indeed as fair a sight as a man can see. Now, however, since you are inclined to ask the story of my sorrows, and rekindle my own sad memories in respect of them, I do not know how to begin, nor yet how to continue and conclude my tale, for the hand of heaven has been laid heavily upon me.
 
-“Firstly, then, I will tell you my name that you too may know it, and one day, if I outlive this time of sorrow, may become my guests though I live so far away from all of you. I am Ulysses son of Laertes, renowned among mankind for all manner of subtlety, so that my fame ascends to heaven. I live in Ithaca, where there is a high mountain called Neritum, covered with forests; and not far from it there is a group of islands very near to one another—Dulichium, Same, and the wooded island of Zacynthus. It lies squat on the horizon, all highest up in the sea towards the sunset, while the others lie away from it towards dawn.[75] It is a rugged island, but it breeds brave men, and my eyes know none that they better love to look upon. The goddess Calypso kept me with her in her cave, and wanted me to marry her, as did also the cunning Aeaean goddess Circe; but they could neither of them persuade me, for there is nothing dearer to a man than his own country and his parents, and however splendid a home he may have in a foreign country, if it be far from father or mother, he does not care about it. Now, however, I will tell you of the many hazardous adventures which by Jove’s will I met with on my return from Troy.
+“Firstly, then, I will tell you my name that you too may know it, and one day, if I outlive this time of sorrow, may become my guests though I live so far away from all of you. I am Ulysses son of Laertes, renowned among mankind for all manner of subtlety, so that my fame ascends to heaven. I live in Ithaca, where there is a high mountain called Neritum, covered with forests; and not far from it there is a group of islands very near to one another—Dulichium, Same, and the wooded island of Zacynthus. It lies squat on the horizon, all highest up in the sea towards the sunset, while the others lie away from it towards dawn. It is a rugged island, but it breeds brave men, and my eyes know none that they better love to look upon. The goddess Calypso kept me with her in her cave, and wanted me to marry her, as did also the cunning Aeaean goddess Circe; but they could neither of them persuade me, for there is nothing dearer to a man than his own country and his parents, and however splendid a home he may have in a foreign country, if it be far from father or mother, he does not care about it. Now, however, I will tell you of the many hazardous adventures which by Jove’s will I met with on my return from Troy.
 
-“When I had set sail thence the wind took me first to Ismarus, which is the city of the Cicons. There I sacked the town and put the people to the sword. We took their wives and also much booty, which we divided equitably amongst us, so that none might have reason to complain. I then said that we had better make off at once, but my men very foolishly would not obey me, so they staid there drinking much wine and killing great numbers of sheep and oxen on the sea shore. Meanwhile the Cicons cried out for help to other Cicons who lived inland. These were more in number, and stronger, and they were more skilled in the art of war, for they could fight, either from chariots or on foot as the occasion served; in the morning, therefore, they came as thick as leaves and bloom in summer, and the hand of heaven was against us, so that we were hard pressed. They set the battle in array near the ships, and the hosts aimed their bronze-shod spears at one another.[76] So long as the day waxed and it was still morning, we held our own against them, though they were more in number than we; but as the sun went down, towards the time when men loose their oxen, the Cicons got the better of us, and we lost half a dozen men from every ship we had; so we got away with those that were left.
+“When I had set sail thence the wind took me first to Ismarus, which is the city of the Cicons. There I sacked the town and put the people to the sword. We took their wives and also much booty, which we divided equitably amongst us, so that none might have reason to complain. I then said that we had better make off at once, but my men very foolishly would not obey me, so they staid there drinking much wine and killing great numbers of sheep and oxen on the sea shore. Meanwhile the Cicons cried out for help to other Cicons who lived inland. These were more in number, and stronger, and they were more skilled in the art of war, for they could fight, either from chariots or on foot as the occasion served; in the morning, therefore, they came as thick as leaves and bloom in summer, and the hand of heaven was against us, so that we were hard pressed. They set the battle in array near the ships, and the hosts aimed their bronze-shod spears at one another. So long as the day waxed and it was still morning, we held our own against them, though they were more in number than we; but as the sun went down, towards the time when men loose their oxen, the Cicons got the better of us, and we lost half a dozen men from every ship we had; so we got away with those that were left.
 
 “Thence we sailed onward with sorrow in our hearts, but glad to have escaped death though we had lost our comrades, nor did we leave till we had thrice invoked each one of the poor fellows who had perished by the hands of the Cicons. Then Jove raised the North wind against us till it blew a hurricane, so that land and sky were hidden in thick clouds, and night sprang forth out of the heavens. We let the ships run before the gale, but the force of the wind tore our sails to tatters, so we took them down for fear of shipwreck, and rowed our hardest towards the land. There we lay two days and two nights suffering much alike from toil and distress of mind, but on the morning of the third day we again raised our masts, set sail, and took our places, letting the wind and steersmen direct our ship. I should have got home at that time unharmed had not the North wind and the currents been against me as I was doubling Cape Malea, and set me off my course hard by the island of Cythera.
 
-“I was driven thence by foul winds for a space of nine days upon the sea, but on the tenth day we reached the land of the Lotus-eaters, who live on a food that comes from a kind of flower. Here we landed to take in fresh water, and our crews got their mid-day meal on the shore near the ships. When they had eaten and drunk I sent two of my company to see what manner of men the people of the place might be, and they had a third man under them. They started at once, and went about among the Lotus-eaters, who did them no hurt, but gave them to eat of the lotus, which was so delicious that those who ate of it left off caring about home, and did not even want to go back and say what had happened to them, but were for staying and munching lotus[77] with the Lotus-eaters without thinking further of their return; nevertheless, though they wept bitterly I forced them back to the ships and made them fast under the benches. Then I told the rest to go on board at once, lest any of them should taste of the lotus and leave off wanting to get home, so they took their places and smote the grey sea with their oars.
+“I was driven thence by foul winds for a space of nine days upon the sea, but on the tenth day we reached the land of the Lotus-eaters, who live on a food that comes from a kind of flower. Here we landed to take in fresh water, and our crews got their mid-day meal on the shore near the ships. When they had eaten and drunk I sent two of my company to see what manner of men the people of the place might be, and they had a third man under them. They started at once, and went about among the Lotus-eaters, who did them no hurt, but gave them to eat of the lotus, which was so delicious that those who ate of it left off caring about home, and did not even want to go back and say what had happened to them, but were for staying and munching lotus with the Lotus-eaters without thinking further of their return; nevertheless, though they wept bitterly I forced them back to the ships and made them fast under the benches. Then I told the rest to go on board at once, lest any of them should taste of the lotus and leave off wanting to get home, so they took their places and smote the grey sea with their oars.
 
 “We sailed hence, always in much distress, till we came to the land of the lawless and inhuman Cyclopes. Now the Cyclopes neither plant nor plough, but trust in providence, and live on such wheat, barley, and grapes as grow wild without any kind of
 
----
-
 tillage, and their wild grapes yield them wine as the sun and the rain may grow them. They have no laws nor assemblies of the people, but live in caves on the tops of high mountains; each is lord and master in his family, and they take no account of their neighbours.
 
-“Now off their harbour there lies a wooded and fertile island not quite close to the land of the Cyclopes, but still not far. It is over-run with wild goats, that breed there in great numbers and are never disturbed by foot of man; for sportsmen—who as a rule will suffer so much hardship in forest or among mountain precipices—do not go there, nor yet again is it ever ploughed or fed down, but it lies a wilderness untilled and unsown from year to year, and has no living thing upon it but only goats. For the Cyclopes have no ships, nor yet shipwrights who could make ships for them; they cannot therefore go from city to city, or sail over the sea to one another's country as people who have ships can do; if they had had these they would have colonised the island,[78] for it is a very good one, and would yield everything in due season. There are meadows that in some places come right down to the sea shore, well watered and full of luscious grass; grapes would do there excellently; there is level land for ploughing, and it would always yield heavily at harvest time, for the soil is deep. There is a good harbour where no cables are wanted, nor yet anchors, nor need a ship be moored, but all one has to do is to beach one's vessel and stay there till the wind becomes fair for putting out to sea again. At the head of the harbour there is a spring of clear water coming out of a cave, and there are poplars growing all round it.
+“Now off their harbour there lies a wooded and fertile island not quite close to the land of the Cyclopes, but still not far. It is over-run with wild goats, that breed there in great numbers and are never disturbed by foot of man; for sportsmen—who as a rule will suffer so much hardship in forest or among mountain precipices—do not go there, nor yet again is it ever ploughed or fed down, but it lies a wilderness untilled and unsown from year to year, and has no living thing upon it but only goats. For the Cyclopes have no ships, nor yet shipwrights who could make ships for them; they cannot therefore go from city to city, or sail over the sea to one another's country as people who have ships can do; if they had had these they would have colonised the island, for it is a very good one, and would yield everything in due season. There are meadows that in some places come right down to the sea shore, well watered and full of luscious grass; grapes would do there excellently; there is level land for ploughing, and it would always yield heavily at harvest time, for the soil is deep. There is a good harbour where no cables are wanted, nor yet anchors, nor need a ship be moored, but all one has to do is to beach one's vessel and stay there till the wind becomes fair for putting out to sea again. At the head of the harbour there is a spring of clear water coming out of a cave, and there are poplars growing all round it.
 
-“Here we entered, but so dark was the night that some god must have brought us in, for there was nothing whatever to be seen. A thick mist hung all round our ships;[79] the moon was hidden behind a mass of clouds so that no one could have seen the island if he had looked for it, nor were there any breakers to tell us we were close in shore before we found ourselves upon the land itself; when, however, we had beached the ships, we took down the sails, went ashore and camped upon the beach till daybreak.
+“Here we entered, but so dark was the night that some god must have brought us in, for there was nothing whatever to be seen. A thick mist hung all round our ships; the moon was hidden behind a mass of clouds so that no one could have seen the island if he had looked for it, nor were there any breakers to tell us we were close in shore before we found ourselves upon the land itself; when, however, we had beached the ships, we took down the sails, went ashore and camped upon the beach till daybreak.
 
 “When the child of morning, rosy-fingered Dawn appeared, we admired the island and wandered all over it, while the nymphs Jove's daughters roused the wild goats that we might get some meat for our dinner. On this we fetched our spears and bows and arrows from the ships, and dividing ourselves into three bands began to shoot the goats. Heaven sent us excellent sport; I had twelve ships with me, and each ship got nine goats, while my own ship had ten; thus through the livelong day to the going down of the sun we ate and drank our fill, and we had plenty of wine left, for each one of us had taken many jars full when we sacked the city of the Cicons, and this had not yet run out. While we were feasting we kept turning our eyes towards the land of the Cyclopes, which was hard by, and saw the smoke of their stubble fires. We could almost fancy we heard their voices and the bleating of their sheep and goats, but when the sun went down and it came on dark, we camped down upon the beach, and next morning I called a council.
 
@@ -1057,9 +752,7 @@ tillage, and their wild grapes yield them wine as the sun and the rain may grow 
 
 “I told my men to draw the ship ashore, and stay where they were, all but the twelve best among them, who were to go along with myself. I also took a goatskin of sweet black wine which had been given me by Maron, son of Euanthes, who was priest of Apollo the patron god of Ismarus, and lived within the wooded precincts of the temple. When we were sacking the city we respected him, and spared his life, as also his wife and child; so he made me some presents of great value—seven talents of fine gold, and a bowl of silver, with twelve jars of sweet wine, unblended, and of the most exquisite flavour. Not a man nor maid in the house knew about it, but only himself, his wife, and one housekeeper: when he drank it he mixed twenty parts of water to one of wine, and yet the fragrance from the mixing-bowl was so exquisite that it was impossible to refrain from drinking. I filled a large skin with this wine, and took a wallet full of provisions with me, for my mind misgave me that I might have to deal with some savage who would be of great strength, and would respect neither right nor law.
 
-“We soon reached his cave, but he was out shepherding, so we went inside and took stock of all that we could see. His cheese-racks were loaded with cheeses, and he had more lambs and kids than his pens could hold. They were kept in separate flocks; first there were the hoggets, then the oldest of the younger lambs and lastly the very young ones[80] all kept apart from one another; as for his dairy, all the vessels, bowls, and milk pails into which he milked, were swimming with whey. When they saw all this, my men begged me to let them first steal some cheeses, and make off with them to the ship; they would then return, drive down the lambs and kids, put them on board and sail away with them. It would have been indeed better if we had done so but I would not listen to them, for I wanted to see the owner himself, in the hope that he might give me a present. When, however, we saw him my poor men found him ill to deal with.
-
----
+“We soon reached his cave, but he was out shepherding, so we went inside and took stock of all that we could see. His cheese-racks were loaded with cheeses, and he had more lambs and kids than his pens could hold. They were kept in separate flocks; first there were the hoggets, then the oldest of the younger lambs and lastly the very young ones all kept apart from one another; as for his dairy, all the vessels, bowls, and milk pails into which he milked, were swimming with whey. When they saw all this, my men begged me to let them first steal some cheeses, and make off with them to the ship; they would then return, drive down the lambs and kids, put them on board and sail away with them. It would have been indeed better if we had done so but I would not listen to them, for I wanted to see the owner himself, in the hope that he might give me a present. When, however, we saw him my poor men found him ill to deal with.
 
 "We lit a fire, offered some of the cheeses in sacrifice, ate others of them, and then sat waiting till the Cyclops should come in with his sheep. When he came, he brought in with him a huge load of dry firewood to light the fire for his supper, and this he flung with such a noise on to the floor of his cave that we hid ourselves for fear at the far end of the cavern. Meanwhile he drove all the ewes inside, as well as the she-goats that he was going to milk, leaving the males, both rams and he-goats, outside in the yards. Then he rolled a huge stone to the mouth of the cave—so huge that two and twenty strong four-wheeled waggons would not be enough to draw it from its place against the doorway. When he had so done he sat down and milked his ewes and goats, all in due course, and then let each of them have her own young. He curdled half the milk and set it aside in wicker strainers, but the other half he poured into bowls that he might drink it for his supper. When he had got through with all his work, he lit the fire, and then caught sight of us, whereon he said:
 
@@ -1078,10 +771,6 @@ tillage, and their wild grapes yield them wine as the sun and the rain may grow 
 "In the end I deemed it would be the best plan to do as follows: The Cyclops had a great club which was lying near one of the sheep pens; it was of green olive wood, and he had cut it intending to use it for a staff as soon as it should be dry. It was so huge that we could only compare it to the mast of a twenty-oared merchant vessel of large burden, and able to venture out into open sea. I went up to this club and cut off about six feet of it; I then gave this piece to the men and told them to fine it evenly off at one end, which they proceeded to do, and lastly I brought it to a point myself, charring the end in the fire to make it harder. When I had done this I hid it under dung, which was lying about all over the cave, and told the men to cast lots which of them should venture along with myself to lift it and bore it into the monster's eye while he was asleep. The lot fell upon the very four whom I should have chosen, and I myself made five. In the evening the wretch came back from shepherding, and drove his flocks into the cave—this time driving them all inside, and not leaving any in the yards; I suppose some fancy must have taken him, or a god must have prompted him to do so. As soon as he had put the stone back to its place against the door, he sat down, milked his ewes and his goats all quite rightly, and then let each have her own young one; when he had got through with all this work, he gripped up two more of my men, and made his supper off them. So I went up to him with an ivy-wood bowl of black wine in my hands:
 
 "Look here, Cyclops," said I, you have been eating a great deal of man's flesh, so take this and drink some wine, that you may see what kind of liquor we had on board my ship. I was bringing it to you as a drink-offering, in the hope that you would take compassion upon me and further me on my way home, whereas all you do is to go on ramping and raving most
-
-
-
----
 
 intolerably. You ought to be ashamed of yourself; how can you expect people to come see you any more if you treat them in this way?'
 
@@ -1107,15 +796,11 @@ intolerably. You ought to be ashamed of yourself; how can you expect people to c
 
 "My good ram, what is it that makes you the last to leave my cave this morning? You are not wont to let the ewes go before you, but lead the mob with a run whether to flowery mead or bubbling fountain, and are the first to come home again at night; but now you lag last of all. Is it because you know your master has lost his eye, and are sorry because that wicked Noman and his horrid crew has got him down in his drink and blinded him? But I will have his life yet. If you could understand and talk, you would tell me where the wretch is hiding, and I would dash his brains upon the ground till they flew all over the cave. I should thus have some satisfaction for the harm this no-good Noman has done me."
 
-
-
----
-
 “As he spoke he drove the ram outside, but when we were a little way out from the cave and yards, I first got from under the ram's belly, and then freed my comrades; as for the sheep, which were very fat, by constantly heading them in the right direction we managed to drive them down to the ship. The crew rejoiced greatly at seeing those of us who had escaped death, but wept for the others whom the Cyclops had killed. However, I made signs to them by nodding and frowning that they were to hush their crying, and told them to get all the sheep on board at once and put out to sea; so they went aboard, took their places, and smote the grey sea with their oars. Then, when I had got as far out as my voice would reach, I began to jeer at the Cyclops.
 
 “‘Cyclops,’ said I, ‘you should have taken better measure of your man before eating up his comrades in your cave. You wretch, eat up your visitors in your own house? You might have known that your sin would find you out, and now Jove and the other gods have punished you.’
 
-“He got more and more furious as he heard me, so he tore the top from off a high mountain, and flung it just in front of my ship so that it was within a little of hitting the end of the rudder.[81] The sea quaked as the rock fell into it, and the wash of the wave it raised carried us back towards the mainland, and forced us towards the shore. But I snatched up a long pole and kept the ship off, making signs to my men by nodding my head, that they must row for their lives, whereon they laid out with a will. When we had got twice as far as we were before, I was for jeering at the Cyclops again, but the men begged and prayed of me to hold my tongue.
+“He got more and more furious as he heard me, so he tore the top from off a high mountain, and flung it just in front of my ship so that it was within a little of hitting the end of the rudder. The sea quaked as the rock fell into it, and the wash of the wave it raised carried us back towards the mainland, and forced us towards the shore. But I snatched up a long pole and kept the ship off, making signs to my men by nodding my head, that they must row for their lives, whereon they laid out with a will. When we had got twice as far as we were before, I was for jeering at the Cyclops again, but the men begged and prayed of me to hold my tongue.
 
 “‘Do not,’ they exclaimed, ‘be mad enough to provoke this savage creature further; he has thrown one rock at us already which drove us back again to the mainland, and we made sure it had been the death of us; if he had then heard any further sound of voices he would have pounded our heads and our ship's timbers into a jelly with the rugged rocks he would have heaved at us, for he can throw them a long way.’
 
@@ -1125,7 +810,7 @@ intolerably. You ought to be ashamed of yourself; how can you expect people to c
 
 “Then I said, ‘I wish I could be as sure of killing you outright and sending you down to the house of Hades, as I am that it will take more than Neptune to cure that eye of yours.’
 
-“On this he lifted up his hands to the firmament of heaven and prayed, saying, ‘Hear me, great Neptune; if I am indeed your own true begotten son, grant that Ulysses may never reach his home alive; or if he must get back to his friends at last, let him do so late and in sore plight after losing all his men [let him reach his home in another man's ship and find trouble in his house.’[82]
+“On this he lifted up his hands to the firmament of heaven and prayed, saying, ‘Hear me, great Neptune; if I am indeed your own true begotten son, grant that Ulysses may never reach his home alive; or if he must get back to his friends at last, let him do so late and in sore plight after losing all his men [let him reach his home in another man's ship and find trouble in his house.’
 
 “Thus did he pray, and Neptune heard his prayer. Then he picked up a rock much larger than the first, swung it aloft and hurled it with prodigious force. It fell just short of the ship, but was within a little of hitting the end of the rudder. The sea quaked as the rock fell into it, and the wash of the wave it raised drove us onwards on our way towards the shore of the island.
 
@@ -1133,13 +818,11 @@ intolerably. You ought to be ashamed of yourself; how can you expect people to c
 
 “Thus through the livelong day to the going down of the sun we feasted our fill on meat and drink, but when the sun went down and it came on dark, we camped upon the beach. When the child of morning rosy-fingered Dawn appeared, I bade my men on board and loose the hawsers. Then they took their places and smote the grey sea with their oars; so we sailed on with sorrow in our hearts, but glad to have escaped death though we had lost our comrades.
 
----
+# BOOK X.
 
-# BOOK X
+*Aeolus, the Laestrygones, Circe.*
 
-AEOLUS, THE LAESTRYGONES, CIRCE.
-
-“Thence we went on to the Aeolian island where lives Aeolus son of Hippotas, dear to the immortal gods. It is an island that floats (as it were) upon the sea,[83] iron bound with a wall that girds it. Now, Aeolus has six daughters and six lusty sons, so he made the sons marry the daughters, and they all live with their dear father and mother, feasting and enjoying every conceivable kind of luxury. All day long the atmosphere of the house is loaded with the savour of roasting meats till it groans again, yard and all; but by night they sleep on their well made bedsteads, each with his own wife between the blankets. These were the people among whom we had now come.
+“Thence we went on to the Aeolian island where lives Aeolus son of Hippotas, dear to the immortal gods. It is an island that floats (as it were) upon the sea, iron bound with a wall that girds it. Now, Aeolus has six daughters and six lusty sons, so he made the sons marry the daughters, and they all live with their dear father and mother, feasting and enjoying every conceivable kind of luxury. All day long the atmosphere of the house is loaded with the savour of roasting meats till it groans again, yard and all; but by night they sleep on their well made bedsteads, each with his own wife between the blankets. These were the people among whom we had now come.
 
 “Aeolus entertained me for a whole month asking me questions all the time about Troy, the Argive fleet, and the return of the Achaeans. I told him exactly how everything had happened, and when I said I must go, and asked him to further me on my way, he made no sort of difficulty, but set about doing so at once. Moreover, he flayed me a prime ox-hide to hold the ways of the roaring winds, which he shut up in the hide as in a sack—for Jove had made him captain over the winds, and he could stir or still each one of them according to his own pleasure. He put the sack in the ship and bound the mouth so tightly with a silver thread that not even a breath of a side-wind could blow from any quarter. The West wind which was fair for us did he alone let blow as it chose; but it all came to nothing, for we were lost through our own folly.
 
@@ -1153,11 +836,9 @@ AEOLUS, THE LAESTRYGONES, CIRCE.
 
 “I spoke as movingly as I could, but they said nothing, till their father answered, ‘Vilest of mankind, get you gone at once out of the island; him whom heaven hates will I in no wise help. Be off, for you come here as one abhorred of heaven.' And with these words he sent me sorrowing from his door.
 
-“Thence we sailed sadly on till the men were worn out with long and fruitless rowing, for there was no longer any wind to help them. Six days, night and day did we toil, and on the seventh day we reached the rocky stronghold of Lamus—Telepylus, the city of the Laestrygonians, where the shepherd who is driving in his sheep and goats [to be milked] salutes him who is driving out his flock [to feed] and this last answers the salute. In that country a man who could do without sleep might earn double wages, one as a herdsman of cattle, and another as a shepherd, for they work much the same by night as they do by day.[84]
+“Thence we sailed sadly on till the men were worn out with long and fruitless rowing, for there was no longer any wind to help them. Six days, night and day did we toil, and on the seventh day we reached the rocky stronghold of Lamus—Telepylus, the city of the Laestrygonians, where the shepherd who is driving in his sheep and goats [to be milked] salutes him who is driving out his flock [to feed] and this last answers the salute. In that country a man who could do without sleep might earn double wages, one as a herdsman of cattle, and another as a shepherd, for they work much the same by night as they do by day.
 
 “When we reached the harbour we found it land-locked under steep cliffs, with a narrow entrance between two headlands. My captains took all their ships inside, and made them fast close to one another, for there was never so much as a breath of wind inside, but it was always dead calm. I kept my own ship outside, and moored it to a rock at the very end of the point; then I climbed a high rock to reconnoitre, but could see no sign neither of man nor cattle, only some smoke rising from the ground. So I sent two of my company with an attendant to find out what sort of people the inhabitants were.
-
----
 
 "The men when they got on shore followed a level road by which the people draw their firewood from the mountains into the town, till presently they met a young woman who had come outside to fetch water, and who was daughter to a Laestrygonian named Antiphates. She was going to the fountain Artacia from which the people bring in their water, and when my men had come close up to her, they asked her who the king of that country might be, and over what kind of people he ruled; so she directed them to her father's house, but when they got there they found his wife to be a giantess as huge as a mountain, and they were horrified at the sight of her.
 
@@ -1167,13 +848,11 @@ AEOLUS, THE LAESTRYGONES, CIRCE.
 
 "When I had nearly got back to the ship some god took pity upon my solitude, and sent a fine antlered stag right into the middle of my path. He was coming down his pasture in the forest to drink of the river, for the heat of the sun drove him, and as he passed I struck him in the middle of the back; the bronze point of the spear went clean through him, and he lay groaning in the dust until the life went out of him. Then I set my foot upon him, drew my spear from the wound, and laid it down; I also gathered rough grass and rushes and twisted them into a fathom or so of good stout rope, with which I bound the four feet of the noble creature together; having so done I hung him round my neck and walked back to the ship leaning upon my spear, for the stag was much too big for me to be able to carry him on my shoulder, steadying him with one hand. As I threw him down in front of the ship, I called the men and spoke cheeringly man by man to each of them. 'Look here my friends,' said I, 'we are not going to die so much before our time after all, and at any rate we will not starve so long as we have got something to eat and drink on board.' On this they uncovered their heads upon the sea shore and admired the stag, for he was indeed a splendid fellow. Then, when they had feasted their eyes upon him sufficiently, they washed their hands and began to cook him for dinner.
 
-"Thus through the livelong day to the going down of the sun we stayed there eating and drinking our fill, but when the sun went down and it came on dark, we camped upon the sea shore. When the child of morning, rosy-fingered Dawn, appeared, I called a council and said, 'My friends, we are in very great difficulties; listen therefore to me. We have no idea where the sun either sets or rises,[85] so that we do not even know East from West. I see no way out of it; nevertheless, we must try and find one. We are certainly on an island, for I went as high as I could this morning, and saw the sea reaching all round it to the horizon; it lies low, but towards the middle I saw smoke rising from out of a thick forest of trees.'
+"Thus through the livelong day to the going down of the sun we stayed there eating and drinking our fill, but when the sun went down and it came on dark, we camped upon the sea shore. When the child of morning, rosy-fingered Dawn, appeared, I called a council and said, 'My friends, we are in very great difficulties; listen therefore to me. We have no idea where the sun either sets or rises, so that we do not even know East from West. I see no way out of it; nevertheless, we must try and find one. We are certainly on an island, for I went as high as I could this morning, and saw the sea reaching all round it to the horizon; it lies low, but towards the middle I saw smoke rising from out of a thick forest of trees.'
 
 "Their hearts sank as they heard me, for they remembered how they had been treated by the Laestrygonian Antiphates, and by the savage ogre Polyphemus. They wept bitterly in their dismay, but there was nothing to be got by crying, so I divided them into two companies and set a captain over each; I gave one company to Eurylochus, while I took command of the other myself. Then we cast lots in a helmet, and the lot fell upon Eurylochus; so he set out with his twenty-two men, and they wept, as also did we who were left behind.
 
-"When they reached Circe's house they found it built of cut stones, on a site that could be seen from far, in the middle of the forest. There were wild mountain wolves and lions prowling all round it—poor bewitched creatures whom she had tamed by her enchantments and drugged into subjection. They did not attack my men, but wagged their great tails, fawned upon them, and rubbed their noses lovingly against them.[86] As hounds crowd round their master when they see him coming from dinner—for they know he will bring them something—even so did these wolves and lions with their great claws fawn upon my men, but the men were terribly frightened at seeing such strange creatures. Presently they reached the gates of the goddess's house, and as they stood there they could hear Circe within, singing most beautifully as she worked at her loom, making a web so fine, so soft, and of such dazzling colours as no one but a goddess could weave. On this Polites, whom I valued and trusted
-
----
+"When they reached Circe's house they found it built of cut stones, on a site that could be seen from far, in the middle of the forest. There were wild mountain wolves and lions prowling all round it—poor bewitched creatures whom she had tamed by her enchantments and drugged into subjection. They did not attack my men, but wagged their great tails, fawned upon them, and rubbed their noses lovingly against them. As hounds crowd round their master when they see him coming from dinner—for they know he will bring them something—even so did these wolves and lions with their great claws fawn upon my men, but the men were terribly frightened at seeing such strange creatures. Presently they reached the gates of the goddess's house, and as they stood there they could hear Circe within, singing most beautifully as she worked at her loom, making a web so fine, so soft, and of such dazzling colours as no one but a goddess could weave. On this Polites, whom I valued and trusted
 
 more than any other of my men, said, 'There is some one inside working at a loom and singing most beautifully; the whole place resounds with it, let us call her and see whether she is woman or goddess.'
 
@@ -1197,15 +876,11 @@ more than any other of my men, said, 'There is some one inside working at a loom
 
 “But I rushed at her with my sword drawn as though I would kill her, whereon she fell with a loud scream, clasped my knees, and spoke piteously, saying, ‘Who and whence are you? from what place and people have you come? How can it be that my drugs have no power to charm you? Never yet was any man able to stand so much as a taste of the herb I gave you; you must be spell-proof; surely you can be none other than the bold hero Ulysses, who Mercury always said would come here some day with his ship while on his way home from Troy; so be it then; sheathe your sword and let us go to bed, that we may make friends and learn to trust each other.’
 
-
-
----
-
 “And I answered, ‘Circe, how can you expect me to be friendly with you when you have just been turning all my men into pigs? And now that you have got me here myself, you mean me mischief when you ask me to go to bed with you, and will unman me and make me fit for nothing. I shall certainly not consent to go to bed with you unless you will first take your solemn oath to plot no further harm against me.’
 
 “So she swore at once as I had told her, and when she had completed her oath then I went to bed with her.
 
-“Meanwhile her four servants, who are her housemaids, set about their work. They are the children of the groves and fountains, and of the holy waters that run down into the sea. One of them spread a fair purple cloth over a seat, and laid a carpet underneath it. Another brought tables of silver up to the seats, and set them with baskets of gold. A third mixed some sweet wine with water in a silver bowl and put golden cups upon the tables, while the fourth brought in water and set it to boil in a large cauldron over a good fire which she had lighted. When the water in the cauldron was boiling,[67] she poured cold into it till it was just as I liked it, and then she set me in a bath and began washing me from the cauldron about the head and shoulders, to take the tire and stiffness out of my limbs. As soon as she had done washing me and anointing me with oil, she arrayed me in a good cloak and shirt and led me to a richly decorated seat inlaid with silver; there was a footstool also under my feet. A maid servant then brought me water in a beautiful golden ewer and poured it into a silver basin for me to wash my hands, and she drew a clean table beside me; an upper servant brought me bread and offered me many things of what there was in the house, and then Circe bade me eat, but I would not, and sat without heeding what was before me, still moody and suspicious.
+“Meanwhile her four servants, who are her housemaids, set about their work. They are the children of the groves and fountains, and of the holy waters that run down into the sea. One of them spread a fair purple cloth over a seat, and laid a carpet underneath it. Another brought tables of silver up to the seats, and set them with baskets of gold. A third mixed some sweet wine with water in a silver bowl and put golden cups upon the tables, while the fourth brought in water and set it to boil in a large cauldron over a good fire which she had lighted. When the water in the cauldron was boiling, she poured cold into it till it was just as I liked it, and then she set me in a bath and began washing me from the cauldron about the head and shoulders, to take the tire and stiffness out of my limbs. As soon as she had done washing me and anointing me with oil, she arrayed me in a good cloak and shirt and led me to a richly decorated seat inlaid with silver; there was a footstool also under my feet. A maid servant then brought me water in a beautiful golden ewer and poured it into a silver basin for me to wash my hands, and she drew a clean table beside me; an upper servant brought me bread and offered me many things of what there was in the house, and then Circe bade me eat, but I would not, and sat without heeding what was before me, still moody and suspicious.
 
 “When Circe saw me sitting there without eating, and in great grief, she came to me and said, ‘Ulysses, why do you sit like that as though you were dumb, gnawing at your own heart, and refusing both meat and drink? Is it that you are still suspicious? You ought not to be, for I have already sworn solemnly that I will not hurt you.’
 
@@ -1224,8 +899,6 @@ more than any other of my men, said, 'There is some one inside working at a loom
 “On this we all went inland, and Eurylochus was not left behind after all, but came on too, for he was frightened by the severe reprimand that I had given him.
 
 “Meanwhile Circe had been seeing that the men who had been left behind were washed and anointed with olive oil; she had also given them woollen cloaks and shirts, and when we came we found them all comfortably at dinner in her house. As soon as the men saw each other face to face and knew one another, they wept for joy and cried aloud till the whole palace rang again. Thereon Circe came up to me and said, ‘Ulysses, noble son of Laertes, tell your men to leave off crying; I know how much you have all of you suffered at sea, and how ill you have fared among cruel savages on the mainland, but that is over now, so stay here, and eat and drink till you are once more as strong and hearty as you were when you left Ithaca; for at present
-
----
 
 you are weakened both in body and mind; you keep all the time thinking of the hardships you have suffered during your travels, so that you have no more cheerfulness left in you.'
 
@@ -1251,15 +924,13 @@ you are weakened both in body and mind; you keep all the time thinking of the ha
 
 “The men were broken-hearted as they heard me, and threw themselves on the ground groaning and tearing their hair, but they did not mend matters by crying. When we reached the sea shore, weeping and lamenting our fate, Circe brought the ram and the ewe, and we made them fast hard by the ship. She passed through the midst of us without our knowing it, for who can see the comings and goings of a god, if the god does not wish to be seen?
 
+# BOOK XI.
 
-
----
-
-# THE VISIT TO THE DEAD.[88]
+*The visit to the dead.*
 
 “Then, when we had got down to the sea shore we drew our ship into the water and got her mast and sails into her; we also put the sheep on board and took our places, weeping and in great distress of mind. Circe, that great and cunning goddess, sent us a fair wind that blew dead aft and staid steadily with us keeping our sails all the time well filled; so we did whatever wanted doing to the ship’s gear and let her go as the wind and helmsman headed her. All day long her sails were full as she held her course over the sea, but when the sun went down and darkness was over all the earth, we got into the deep waters of the river Oceanus, where lie the land and city of the Cimmerians who live enshrouded in mist and darkness which the rays of the sun never pierce neither at his rising nor as he goes down again out of the heavens, but the poor wretches live in one long melancholy night. When we got there we beached the ship, took the sheep out of her, and went along by the waters of Oceanus till we came to the place of which Circe had told us.
 
-“Here Perimedes and Eurylochus held the victims, while I drew my sword and dug the trench a cubit each way. I made a drink-offering to all the dead, first with honey and milk, then with wine, and thirdly with water, and I sprinkled white barley meal over the whole, praying earnestly to the poor feckless ghosts, and promising them that when I got back to Ithaca I would sacrifice a barren heifer for them, the best I had, and would load the pyre with good things. I also particularly promised that Teiresias should have a black sheep to himself, the best in all my flocks. When I had prayed sufficiently to the dead, I cut the throats of the two sheep and let the blood run into the trench, whereon the ghosts came trooping up from Erebus—brides,[89] young bachelors, old men worn out with toil, maids who had been crossed in love, and brave men who had been killed in battle, with their armour still smirched with blood; they came from every quarter and flitted round the trench with a strange kind of screaming sound that made me turn pale with fear. When I saw them coming I told the men to be quick and flay the carcasses of the two dead sheep and make burnt offerings of them, and at the same time to repeat prayers to Hades and to Proserpine; but I sat where I was with my sword drawn and would not let the poor feckless ghosts come near the blood till Teiresias should have answered my questions.
+“Here Perimedes and Eurylochus held the victims, while I drew my sword and dug the trench a cubit each way. I made a drink-offering to all the dead, first with honey and milk, then with wine, and thirdly with water, and I sprinkled white barley meal over the whole, praying earnestly to the poor feckless ghosts, and promising them that when I got back to Ithaca I would sacrifice a barren heifer for them, the best I had, and would load the pyre with good things. I also particularly promised that Teiresias should have a black sheep to himself, the best in all my flocks. When I had prayed sufficiently to the dead, I cut the throats of the two sheep and let the blood run into the trench, whereon the ghosts came trooping up from Erebus—brides, young bachelors, old men worn out with toil, maids who had been crossed in love, and brave men who had been killed in battle, with their armour still smirched with blood; they came from every quarter and flitted round the trench with a strange kind of screaming sound that made me turn pale with fear. When I saw them coming I told the men to be quick and flay the carcasses of the two dead sheep and make burnt offerings of them, and at the same time to repeat prayers to Hades and to Proserpine; but I sat where I was with my sword drawn and would not let the poor feckless ghosts come near the blood till Teiresias should have answered my questions.
 
 “The first ghost that came was that of my comrade Elpenor, for he had not yet been laid beneath the earth. We had left his body unwaked and unburied in Circe’s house, for we had had too much else to do. I was very sorry for him, and cried when I saw him: ‘Elpenor,’ said I, ‘how did you come down here into this gloom and darkness? You have got here on foot quicker than I have with my ship.’
 
@@ -1273,13 +944,9 @@ you are weakened both in body and mind; you keep all the time thinking of the ha
 
 “‘You want to know,’ said he, ‘about your return home, but heaven will make this hard for you. I do not think that you will escape the eye of Neptune, who still nurses his bitter grudge against you for having blinded his son. Still, after much suffering you may get home if you can restrain yourself and your companions when your ship reaches the Thrinacian island, where you will find the sheep and cattle belonging to the sun, who sees and gives ear to everything. If you leave these flocks unharmed and think of nothing but of getting home, you may yet after much hardship reach Ithaca; but if you harm them, then I forewarn
 
-59
-
----
-
 you of the destruction both of your ship and of your men. Even though you may yourself escape, you will return in bad plight after losing all your men, [in another man's ship, and you will find trouble in your house, which will be overrun by high-handed people, who are devouring your substance under the pretext of paying court and making presents to your wife.
 
-“When you get home you will take your revenge on these suitors; and after you have killed them by force or fraud in your own house, you must take a well made oar and carry it on and on, till you come to a country where the people have never heard of the sea and do not even mix salt with their food, nor do they know anything about ships, and oars that are as the wings of a ship. I will give you this certain token which cannot escape your notice. A wayfarer will meet you and will say it must be a winnowing shovel that you have got upon your shoulder; on this you must fix the oar in the ground and sacrifice a ram, a bull, and a boar to Neptune.[90] Then go home and offer hecatombs to all the gods in heaven one after the other. As for yourself, death shall come to you from the sea, and your life shall ebb away very gently when you are full of years and peace of mind, and your people shall bless you. All that I have said will come true].”[91]
+“When you get home you will take your revenge on these suitors; and after you have killed them by force or fraud in your own house, you must take a well made oar and carry it on and on, till you come to a country where the people have never heard of the sea and do not even mix salt with their food, nor do they know anything about ships, and oars that are as the wings of a ship. I will give you this certain token which cannot escape your notice. A wayfarer will meet you and will say it must be a winnowing shovel that you have got upon your shoulder; on this you must fix the oar in the ground and sacrifice a ram, a bull, and a boar to Neptune. Then go home and offer hecatombs to all the gods in heaven one after the other. As for yourself, death shall come to you from the sea, and your life shall ebb away very gently when you are full of years and peace of mind, and your people shall bless you. All that I have said will come true].”
 
 “This, I answered, must be as it may please heaven, but tell me and tell me and tell me true, I see my poor mother's ghost close by us; she is sitting by the blood without saying a word, and though I am her own son she does not remember me and speak to me; tell me, Sir, how I can make her know me.”
 
@@ -1289,7 +956,7 @@ you of the destruction both of your ship and of your men. Even though you may yo
 
 “Mother,” said I, I was forced to come here to consult the ghost of the Theban prophet Teiresias. I have never yet been near the Achaean land nor set foot on my native country, and I have had nothing but one long series of misfortunes from the very first day that I set out with Agamemnon for Ilius, the land of noble steeds, to fight the Trojans. But tell me, and tell me true, in what way did you die? Did you have a long illness, or did heaven vouchsafe you a gentle easy passage to eternity? Tell me also about my father, and the son whom I left behind me, is my property still in their hands, or has some one else got hold of it, who thinks that I shall not return to claim it? Tell me again what my wife intends doing, and in what mind she is; does she live with my son and guard my estate securely, or has she made the best match she could and married again?’
 
-“My mother answered, ‘Your wife still remains in your house, but she is in great distress of mind and spends her whole time in tears both night and day. No one as yet has got possession of your fine property, and Telemachus still holds your lands undisturbed. He has to entertain largely, as of course he must, considering his position as a magistrate,[92] and how every one invites him; your father remains at his old place in the country and never goes near the town. He has no comfortable bed nor bedding; in the winter he sleeps on the floor in front of the fire with the men and goes about all in rags, but in summer, when the warm weather comes on again, he lies out in the vineyard on a bed of vine leaves thrown any how upon the ground. He grieves continually about your never having come home, and suffers more and more as he grows older. As for my own end it was in this wise: heaven did not take me swiftly and painlessly in my own house, nor was I attacked by any illness such as those that generally wear people out and kill them, but my longing to know what you were doing and the force of my affection for you—this it was that was the death of me.”[93]
+“My mother answered, ‘Your wife still remains in your house, but she is in great distress of mind and spends her whole time in tears both night and day. No one as yet has got possession of your fine property, and Telemachus still holds your lands undisturbed. He has to entertain largely, as of course he must, considering his position as a magistrate, and how every one invites him; your father remains at his old place in the country and never goes near the town. He has no comfortable bed nor bedding; in the winter he sleeps on the floor in front of the fire with the men and goes about all in rags, but in summer, when the warm weather comes on again, he lies out in the vineyard on a bed of vine leaves thrown any how upon the ground. He grieves continually about your never having come home, and suffers more and more as he grows older. As for my own end it was in this wise: heaven did not take me swiftly and painlessly in my own house, nor was I attacked by any illness such as those that generally wear people out and kill them, but my longing to know what you were doing and the force of my affection for you—this it was that was the death of me.”
 
 “Then I tried to find some way of embracing my poor mother's ghost. Thrice I sprang towards her and tried to clasp her in my arms, but each time she flitted from my embrace as it were a dream or phantom, and being touched to the quick I said to her, ‘Mother, why do you not stay still when I would embrace you? If we could throw our arms around one another we might find sad comfort in the sharing of our sorrows even in the house of Hades; does Proserpine want to lay a still further load of grief upon me by mocking me with a phantom only?’
 
@@ -1297,9 +964,7 @@ you of the destruction both of your ship and of your men. Even though you may yo
 
 “Thus did we converse, and anon Proserpine sent up the ghosts of the wives and daughters of all the most famous men. They gathered in crowds about the blood, and I considered how I might question them severally. In the end I deemed that it would be best to draw the keen blade that hung by my sturdy thigh, and keep them from all drinking the blood at once. So they came up one after the other, and each one as I questioned her told me her race and lineage.
 
-“The first I saw was Tyro. She was daughter of Salmoneus and wife of Cretheus the son of Aeolus.[94] She fell in love with the river Enipeus who is much the most beautiful river in the whole world. Once when she was taking a walk by his side as usual, Neptune, disguised as her lover, lay with her at the mouth of the river, and a huge blue wave arched itself like a
-
----
+“The first I saw was Tyro. She was daughter of Salmoneus and wife of Cretheus the son of Aeolus. She fell in love with the river Enipeus who is much the most beautiful river in the whole world. Once when she was taking a walk by his side as usual, Neptune, disguised as her lover, lay with her at the mouth of the river, and a huge blue wave arched itself like a
 
 mountain over them to hide both woman and god, whereon he loosed her virgin girdle and laid her in a deep slumber. When the god had accomplished the deed of love, he took her hand in his own and said, ‘Tyro, rejoice in all good will; the embraces of the gods are not fruitless, and you will have fine twins about this time twelve months. Take great care of them. I am Neptune, so now go home, but hold your tongue and do not tell any one.'
 
@@ -1311,7 +976,7 @@ mountain over them to hide both woman and god, whereon he loosed her virgin gird
 
 “I also saw fair Epicaste mother of king Oedipodes whose awful lot it was to marry her own son without suspecting it. He married her after having killed his father, but the gods proclaimed the whole story to the world; whereon he remained king of Thebes, in great grief for the spite the gods had borne him; but Epicaste went to the house of the mighty jailor Hades, having hanged herself for grief, and the avenging spirits haunted him as for an outraged mother—to his ruing bitterly thereafter.
 
-“Then I saw Chloris, whom Neleus married for her beauty, having given priceless presents for her. She was youngest daughter to Amphion son of Iasus and king of Minyan Orchomenus, and was Queen in Pylos. She bore Nestor, Chromius, and Periclymenus, and she also bore that marvellously lovely woman Pero, who was wooed by all the country round; but Neleus would only give her to him who should raid the cattle of Iphicles from the grazing grounds of Phylace, and this was a hard task. The only man who would undertake to raid them was a certain excellent seer,[95] but the will of heaven was against him, for the rangers of the cattle caught him and put him in prison; nevertheless when a full year had passed and the same season came round again, Iphicles set him at liberty, after he had expounded all the oracles of heaven. Thus, then, was the will of Jove accomplished.
+“Then I saw Chloris, whom Neleus married for her beauty, having given priceless presents for her. She was youngest daughter to Amphion son of Iasus and king of Minyan Orchomenus, and was Queen in Pylos. She bore Nestor, Chromius, and Periclymenus, and she also bore that marvellously lovely woman Pero, who was wooed by all the country round; but Neleus would only give her to him who should raid the cattle of Iphicles from the grazing grounds of Phylace, and this was a hard task. The only man who would undertake to raid them was a certain excellent seer, but the will of heaven was against him, for the rangers of the cattle caught him and put him in prison; nevertheless when a full year had passed and the same season came round again, Iphicles set him at liberty, after he had expounded all the oracles of heaven. Thus, then, was the will of Jove accomplished.
 
 “And I saw Leda the wife of Tyndarus, who bore him two famous sons, Castor breaker of horses, and Pollux the mighty boxer. Both these heroes are lying under the earth, though they are still alive, for by a special dispensation of Jove, they die and come to life again, each one of them every other day throughout all time, and they have the rank of gods.
 
@@ -1331,8 +996,6 @@ Then spoke the aged hero Echeneus who was one of the oldest men among them, “M
 
 And Ulysses answered, “King Alcinous, if you were to bid me to stay here for a whole twelve months, and then speed me on my way, loaded with your noble gifts, I should obey you gladly and it would redound greatly to my advantage, for I should
 
----
-
 return fuller-handed to my own people, and should thus be more respected and beloved by all who see me when I get back to Ithaca.”
 
 “Ulysses,” replied Alcinous, “not one of us who sees you has any idea that you are a charlatan or a swindler. I know there are many people going about who tell such plausible stories that it is very hard to see through them, but there is a style about your language which assures me of your good disposition. Moreover you have told the story of your own misfortunes, and those of the Argives, as though you were a practiced bard; but tell me, and tell me true, whether you saw any of the mighty heroes who went to Troy at the same time with yourself, and perished there. The evenings are still at their longest, and it is not yet bed time—go on, therefore, with your divine story, for I could stay here listening till tomorrow morning, so long as you will continue to tell us of your adventures.”
@@ -1345,7 +1008,7 @@ return fuller-handed to my own people, and should thus be more respected and bel
 
 “And I said, ‘In truth Jove has hated the house of Atreus from first to last in the matter of their women’s counsels. See how many of us fell for Helen’s sake, and now it seems that Clytemnestra hatched mischief against you too during your absence.’
 
-“‘Be sure, therefore,’ continued Agamemnon, ‘and not be too friendly even with your own wife. Do not tell her all that you know perfectly well yourself. Tell her a part only, and keep your own counsel about the rest. Not that your wife, Ulysses, is likely to murder you, for Penelope is a very admirable woman, and has an excellent nature. We left her a young bride with an infant at her breast when we set out for Troy. This child no doubt is now grown up happily to man’s estate,[96] and he and his father will have a joyful meeting and embrace one another as it is right they should do, whereas my wicked wife did not even allow me the happiness of looking upon my son, but killed me ere I could do so. Furthermore I say—and lay my saying to your heart—do not tell people when you are bringing your ship to Ithaca, but steal a march upon them, for after all this there is no trusting women. But now tell me, and tell me true, can you give me any news of my son Orestes? Is he in Orchomenus, or at Pylos, or is he at Sparta with Menelaus—for I presume that he is still living.’
+“‘Be sure, therefore,’ continued Agamemnon, ‘and not be too friendly even with your own wife. Do not tell her all that you know perfectly well yourself. Tell her a part only, and keep your own counsel about the rest. Not that your wife, Ulysses, is likely to murder you, for Penelope is a very admirable woman, and has an excellent nature. We left her a young bride with an infant at her breast when we set out for Troy. This child no doubt is now grown up happily to man’s estate, and he and his father will have a joyful meeting and embrace one another as it is right they should do, whereas my wicked wife did not even allow me the happiness of looking upon my son, but killed me ere I could do so. Furthermore I say—and lay my saying to your heart—do not tell people when you are bringing your ship to Ithaca, but steal a march upon them, for after all this there is no trusting women. But now tell me, and tell me true, can you give me any news of my son Orestes? Is he in Orchomenus, or at Pylos, or is he at Sparta with Menelaus—for I presume that he is still living.’
 
 “And I said, ‘Agamemnon, why do you ask me? I do not know whether your son is alive or dead, and it is not right to talk when one does not know.’
 
@@ -1354,8 +1017,6 @@ return fuller-handed to my own people, and should thus be more respected and bel
 “And I said, ‘Achilles, son of Peleus, foremost champion of the Achaeans, I came to consult Teiresias, and see if he could advise me about my return home to Ithaca, for I have never yet been able to get near the Achaean land, nor to set foot in my own country, but have been in trouble all the time. As for you, Achilles, no one was ever yet so fortunate as you have been, nor ever will be, for you were adored by all us Argives as long as you were alive, and now that you are here you are a great prince among the dead. Do not, therefore, take it so much to heart even if you are dead.’
 
 “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have heard anything about my father Peleus—does he still rule among the
-
----
 
 Myrmidons, or do they show him no respect throughout Hellas and Phthia now that he is old and his limbs fail him? Could I but stand by his side, in the light of day, with the same strength that I had when I killed the bravest of our foes upon the plain of Troy—could I but be as I then was and go even for a short time to my father's house, any one who tried to do him violence or supersede him would soon rue it.'
 
@@ -1367,7 +1028,7 @@ Myrmidons, or do they show him no respect throughout Hellas and Phthia now that 
 
 "When I saw him I tried to pacify him and said, 'Ajax, will you not forget and forgive even in death, but must the judgement about that hateful armour still rankle with you? It cost us Argives dear enough to lose such a tower of strength as you were to us. We mourned you as much as we mourned Achilles son of Peleus himself, nor can the blame be laid on anything but on the spite which Jove bore against the Danaans, for it was this that made him counsel your destruction—come hither, therefore, bring your proud spirit into subjection, and hear what I can tell you.'
 
-"He would not answer, but turned away to Erebus and to the other ghosts; nevertheless, I should have made him talk to me in spite of his being so angry, or I should have gone on talking to him,[97] only that there were still others among the dead whom I desired to see.
+"He would not answer, but turned away to Erebus and to the other ghosts; nevertheless, I should have made him talk to me in spite of his being so angry, or I should have gone on talking to him, only that there were still others among the dead whom I desired to see.
 
 "Then I saw Minos son of Jove with his golden sceptre in his hand sitting in judgement on the dead, and the ghosts were gathered sitting and standing round him in the spacious house of Hades, to learn his sentences upon them.
 
@@ -1377,25 +1038,17 @@ Myrmidons, or do they show him no respect throughout Hellas and Phthia now that 
 
 "I saw also the dreadful fate of Tantalus, who stood in a lake that reached his chin; he was dying to quench his thirst, but could never reach the water, for whenever the poor creature stooped to drink, it dried up and vanished, so that there was nothing but dry ground—parched by the spite of heaven. There were tall trees, moreover, that shed their fruit over his head—pears, pomegranates, apples, sweet figs and juicy olives, but whenever the poor creature stretched out his hand to take some, the wind tossed the branches back again to the clouds.
 
-"And I saw Sisyphus at his endless task raising his prodigious stone with both his hands. With hands and feet he tried to roll it up to the top of the hill, but always, just before he could roll it over on to the other side, its weight would be too much for him, and the pitiless stone[98] would come thundering down again on to the plain. Then he would begin trying to push it up hill again, and the sweat ran off him and the steam rose after him.
+"And I saw Sisyphus at his endless task raising his prodigious stone with both his hands. With hands and feet he tried to roll it up to the top of the hill, but always, just before he could roll it over on to the other side, its weight would be too much for him, and the pitiless stone would come thundering down again on to the plain. Then he would begin trying to push it up hill again, and the sweat ran off him and the steam rose after him.
 
 "After him I saw mighty Hercules, but it was his phantom only, for he is feasting ever with the immortal gods, and has lovely Hebe to wife, who is daughter of Jove and Juno. The ghosts were screaming round him like scared birds flying all whithers. He looked black as night with his bare bow in his hands and his arrow on the string, glaring around as though ever on the point of taking aim. About his breast there was a wondrous golden belt adorned in the most marvellous fashion with bears, wild boars, and lions with gleaming eyes; there was also war, battle, and death. The man who made that belt, do what he might, would never be able to make another like it. Hercules knew me at once when he saw me, and spoke piteously, saying, 'My poor Ulysses, noble son of Laertes, are you too leading the same sorry kind of life that I did when I was above ground? I was son of Jove, but I went through an infinity of suffering, for I became bondsman to one who was far beneath me—a low
-
-
-
----
 
 fellow who set me all manner of labours. He once sent me here to fetch the hell-hound—for he did not think he could find anything harder for me than this, but I got the hound out of Hades and brought him to him, for Mercury and Minerva helped me.'
 
 "On this Hercules went down again into the house of Hades, but I stayed where I was in case some other of the mighty dead should come to me. And I should have seen still other of them that are gone before, whom I would fain have seen—Theseus and Pirithous—glorious children of the gods, but so many thousands of ghosts came round me and uttered such appalling cries, that I was panic stricken lest Proserpine should send up from the house of Hades the head of that awful monster Gorgon. On this I hastened back to my ship and ordered my men to go on board at once and loose the hawsers; so they embarked and took their places, whereon the ship went down the stream of the river Oceanus. We had to row at first, but presently a fair wind sprang up.
 
+# BOOK XII.
 
-
----
-
-BOOK XII
-
-THE SIRENS, SCYLLA AND CHARYBDIS, THE CATTLE OF THE SUN.
+*The Sirens, Scylla and Charybdis, the cattle of the Sun.*
 
 “After we were clear of the river Oceanus, and had got out into the open sea, we went on till we reached the Aeaean island where there is dawn and sun-rise as in other places. We then drew our ship on to the sands and got out of her on to the shore, where we went to sleep and waited till day should break.
 
@@ -1405,15 +1058,13 @@ THE SIRENS, SCYLLA AND CHARYBDIS, THE CATTLE OF THE SUN.
 
 “We agreed to do as she had said, and feasted through the livelong day to the going down of the sun, but when the sun had set and it came on dark, the men laid themselves down to sleep by the stern cables of the ship. Then Circe took me by the hand and bade me be seated away from the others, while she reclined by my side and asked me all about our adventures.
 
-“‘So far so good,’ said she, when I had ended my story, ‘and now pay attention to what I am about to tell you—heaven itself, indeed, will recall it to your recollection. First you will come to the Sirens who enchant all who come near them. If any one unwarily draws in too close and hears the singing of the Sirens, his wife and children will never welcome him home again, for they sit in a green field and warble him to death with the sweetness of their song. There is a great heap of dead men's bones lying all around, with the flesh still rotting off them. Therefore pass these Sirens by, and stop your men's ears with wax that none of them may hear; but if you like you can listen yourself, for you may get the men to bind you as you stand upright on a cross piece half way up the mast,[99] and they must lash the rope's ends to the mast itself, that you may have the pleasure of listening. If you beg and pray the men to unloose you, then they must bind you faster.
+“‘So far so good,’ said she, when I had ended my story, ‘and now pay attention to what I am about to tell you—heaven itself, indeed, will recall it to your recollection. First you will come to the Sirens who enchant all who come near them. If any one unwarily draws in too close and hears the singing of the Sirens, his wife and children will never welcome him home again, for they sit in a green field and warble him to death with the sweetness of their song. There is a great heap of dead men's bones lying all around, with the flesh still rotting off them. Therefore pass these Sirens by, and stop your men's ears with wax that none of them may hear; but if you like you can listen yourself, for you may get the men to bind you as you stand upright on a cross piece half way up the mast, and they must lash the rope's ends to the mast itself, that you may have the pleasure of listening. If you beg and pray the men to unloose you, then they must bind you faster.
 
-“‘When your crew have taken you past these Sirens, I cannot give you coherent directions[100] as to which of two courses you are to take; I will lay the two alternatives before you, and you must consider them for yourself. On the one hand there are some overhanging rocks against which the deep blue waves of Amphitrite beat with terrific fury; the blessed gods call these rocks the Wanderers. Here not even a bird may pass, no, not even the timid doves that bring ambrosia to Father Jove, but the sheer rock always carries off one of them, and Father Jove has to send another to make up their number; no ship that ever yet came to these rocks has got away again, but the waves and whirlwinds of fire are freighted with wreckage and with the bodies of dead men. The only vessel that ever sailed and got through, was the famous Argo on her way from the house of Aetes, and she too would have gone against these great rocks, only that Juno piloted her past them for the love she bore to Jason.
+“‘When your crew have taken you past these Sirens, I cannot give you coherent directions as to which of two courses you are to take; I will lay the two alternatives before you, and you must consider them for yourself. On the one hand there are some overhanging rocks against which the deep blue waves of Amphitrite beat with terrific fury; the blessed gods call these rocks the Wanderers. Here not even a bird may pass, no, not even the timid doves that bring ambrosia to Father Jove, but the sheer rock always carries off one of them, and Father Jove has to send another to make up their number; no ship that ever yet came to these rocks has got away again, but the waves and whirlwinds of fire are freighted with wreckage and with the bodies of dead men. The only vessel that ever sailed and got through, was the famous Argo on her way from the house of Aetes, and she too would have gone against these great rocks, only that Juno piloted her past them for the love she bore to Jason.
 
 “‘Of these two rocks the one reaches heaven and its peak is lost in a dark cloud. This never leaves it, so that the top is never clear not even in summer and early autumn. No man though he had twenty hands and twenty feet could get a foothold on it and climb it, for it runs sheer up, as smooth as though it had been polished. In the middle of it there is a large cavern, looking West and turned towards Erebus; you must take your ship this way, but the cave is so high up that not even the stoutest archer could send an arrow into it. Inside it Scylla sits and yelps with a voice that you might take to be that of a young hound, but in truth she is a dreadful monster and no one—not even a god—could face her without being terror-struck. She has twelve misshapen feet, and six necks of the most prodigious length; and at the end of each neck she has a frightful head with three rows of teeth in each, all set very close together, so that they would crunch any one to death in a moment, and she sits deep within her shady cell thrusting out her heads and peering all round the rock, fishing for dolphins or dogfish or any larger monster that she can catch, of the thousands with which Amphitrite teems. No ship ever yet got past her without losing some men, for she shoots out all her heads at once, and carries off a man in each mouth.
 
-“‘You will find the other rock lie lower, but they are so close together that there is not more than a bow-shot between them. [A large fig tree in full leaf[101] grows upon it], and under it lies the sucking whirlpool of Charybdis. Three times in the day does she vomit forth her waters, and three times she sucks them down again; see that you be not there when she is sucking, for
-
----
+“‘You will find the other rock lie lower, but they are so close together that there is not more than a bow-shot between them. [A large fig tree in full leaf grows upon it], and under it lies the sucking whirlpool of Charybdis. Three times in the day does she vomit forth her waters, and three times she sucks them down again; see that you be not there when she is sucking, for
 
 if you are, Neptune himself could not save you; you must hug the Scylla side and drive ship by as fast as you can, for you had better lose six men than your whole crew.'
 
@@ -1427,23 +1078,21 @@ if you are, Neptune himself could not save you; you must hug the Scylla side and
 
 “Then, being much troubled in mind, I said to my men, ‘My friends, it is not right that one or two of us alone should know the prophecies that Circe has made me, I will therefore tell you about them, so that whether we live or die we may do so with our eyes open. First she said we were to keep clear of the Sirens, who sit and sing most beautifully in a field of flowers; but she said I might hear them myself so long as no one else did. Therefore, take me and bind me to the crosspiece half way up the mast; bind me as I stand upright, with a bond so fast that I cannot possibly break away, and lash the rope's ends to the mast itself. If I beg and pray you to set me free, then bind me more tightly still.'
 
-“I had hardly finished telling everything to the men before we reached the island of the two Sirens,[102] for the wind had been very favourable. Then all of a sudden it fell dead calm; there was not a breath of wind nor a ripple upon the water, so the men furled the sails and stowed them; then taking to their oars they whitened the water with the foam they raised in rowing. Meanwhile I look a large wheel of wax and cut it up small with my sword. Then I kneaded the wax in my strong hands till it became soft, which it soon did between the kneading and the rays of the sun-god son of Hyperion. Then I stopped the ears of all my men, and they bound me hands and feet to the mast as I stood upright on the cross piece; but they went on rowing themselves. When we had got within earshot of the land, and the ship was going at a good rate, the Sirens saw that we were getting in shore and began with their singing.
+“I had hardly finished telling everything to the men before we reached the island of the two Sirens, for the wind had been very favourable. Then all of a sudden it fell dead calm; there was not a breath of wind nor a ripple upon the water, so the men furled the sails and stowed them; then taking to their oars they whitened the water with the foam they raised in rowing. Meanwhile I look a large wheel of wax and cut it up small with my sword. Then I kneaded the wax in my strong hands till it became soft, which it soon did between the kneading and the rays of the sun-god son of Hyperion. Then I stopped the ears of all my men, and they bound me hands and feet to the mast as I stood upright on the cross piece; but they went on rowing themselves. When we had got within earshot of the land, and the ship was going at a good rate, the Sirens saw that we were getting in shore and began with their singing.
 
 “‘Come here,' they sang, ‘renowned Ulysses, honour to the Achaean name, and listen to our two voices. No one ever sailed past us without staying to hear the enchanting sweetness of our song—and he who listens will go on his way not only charmed, but wiser, for we know all the ills that the gods laid upon the Argives and Trojans before Troy, and can tell you everything that is going to happen over the whole world.'
 
 “They sang these words most musically, and as I longed to hear them further I made signs by frowning to my men that they should set me free; but they quickened their stroke, and Eurylochus and Perimedes bound me with still stronger bonds till we had got out of hearing of the Sirens' voices. Then my men took the wax from their ears and unbound me.
 
-“Immediately after we had got past the island I saw a great wave from which spray was rising, and I heard a loud roaring sound. The men were so frightened that they loosed hold of their oars, for the whole sea resounded with the rushing of the waters,[103] but the ship stayed where it was, for the men had left off rowing. I went round, therefore, and exhorted them man by man not to lose heart.
+“Immediately after we had got past the island I saw a great wave from which spray was rising, and I heard a loud roaring sound. The men were so frightened that they loosed hold of their oars, for the whole sea resounded with the rushing of the waters, but the ship stayed where it was, for the men had left off rowing. I went round, therefore, and exhorted them man by man not to lose heart.
 
 “‘My friends,' said I, ‘this is not the first time that we have been in danger, and we are in nothing like so bad a case as when the Cyclops shut us up in his cave; nevertheless, my courage and wise counsel saved us then, and we shall live to look back on all this as well. Now, therefore, let us all do as I say, trust in Jove and row on with might and main. As for you, coxswain, these are your orders; attend to them, for the ship is in your hands; turn her head away from these steaming rapids and hug the rock, or she will give you the slip and be over yonder before you know where you are, and you will be the death of us.'
 
 “So they did as I told them; but I said nothing about the awful monster Scylla, for I knew the men would not go on rowing if I did, but would huddle together in the hold. In one thing only did I disobey Circe's strict instructions—I put on my armour.
 
----
-
 Then seizing two strong spears I took my stand on the ship's bows, for it was there that I expected first to see the monster of the rock, who was to do my men so much harm; but I could not make her out anywhere, though I strained my eyes with looking the gloomy rock all over and over.
 
-“Then we entered the Straits in great fear of mind, for on the one hand was Scylla, and on the other dread Charybdis kept sucking up the salt water. As she vomited it up, it was like the water in a cauldron when it is boiling over upon a great fire, and the spray reached the top of the rocks on either side. When she began to suck again, we could see the water all inside whirling round and round, and it made a deafening sound as it broke against the rocks. We could see the bottom of the whirlpool all black with sand and mud, and the men were at their wits ends for fear. While we were taken up with this, and were expecting each moment to be our last, Scylla pounced down suddenly upon us and snatched up my six best men. I was looking at once after both ship and men, and in a moment I saw their hands and feet ever so high above me, struggling in the air as Scylla was carrying them off, and I heard them call out my name in one last despairing cry. As a fisherman, seated, spear in hand, upon some jutting rock[104] throws bait into the water to deceive the poor little fishes, and spears them with the ox's horn with which his spear is shod, throwing them gasping on to the land as he catches them one by one—even so did Scylla land these panting creatures on her rock and munch them up at the mouth of her den, while they screamed and stretched out their hands to me in their mortal agony. This was the most sickening sight that I saw throughout all my voyages.
+“Then we entered the Straits in great fear of mind, for on the one hand was Scylla, and on the other dread Charybdis kept sucking up the salt water. As she vomited it up, it was like the water in a cauldron when it is boiling over upon a great fire, and the spray reached the top of the rocks on either side. When she began to suck again, we could see the water all inside whirling round and round, and it made a deafening sound as it broke against the rocks. We could see the bottom of the whirlpool all black with sand and mud, and the men were at their wits ends for fear. While we were taken up with this, and were expecting each moment to be our last, Scylla pounced down suddenly upon us and snatched up my six best men. I was looking at once after both ship and men, and in a moment I saw their hands and feet ever so high above me, struggling in the air as Scylla was carrying them off, and I heard them call out my name in one last despairing cry. As a fisherman, seated, spear in hand, upon some jutting rock throws bait into the water to deceive the poor little fishes, and spears them with the ox's horn with which his spear is shod, throwing them gasping on to the land as he catches them one by one—even so did Scylla land these panting creatures on her rock and munch them up at the mouth of her den, while they screamed and stretched out their hands to me in their mortal agony. This was the most sickening sight that I saw throughout all my voyages.
 
 “When we had passed the [Wandering] rocks, with Scylla and terrible Charybdis, we reached the noble island of the sun-god, where were the goodly cattle and sheep belonging to the sun Hyperion. While still at sea in my ship I could bear the cattle lowing as they came home to the yards, and the sheep bleating. Then I remembered what the blind Theban prophet Teiresias had told me, and how carefully Aeaean Circe had warned me to shun the island of the blessed sun-god. So being much troubled I said to the men, ‘My men, I know you are hard pressed, but listen while I tell you the prophecy that Teiresias made me, and how carefully Aeaean Circe warned me to shun the island of the blessed sun-god, for it was here, she said, that our worst danger would lie. Head the ship, therefore, away from the island.'
 
@@ -1457,11 +1106,9 @@ Then seizing two strong spears I took my stand on the ship's bows, for it was th
 
 “‘My friends,' said I, ‘we have meat and drink in the ship, let us mind, therefore, and not touch the cattle, or we shall suffer for it; for these cattle and sheep belong to the mighty sun, who sees and gives ear to everything.' And again they promised that they would obey.
 
-“For a whole month the wind blew steadily from the South, and there was no other wind, but only South and East.[105] As long as corn and wine held out the men did not touch the cattle when they were hungry; when, however, they had eaten all there was in the ship, they were forced to go further afield, with hook and line, catching birds, and taking whatever they could lay their hands on; for they were starving. One day, therefore, I went up inland that I might pray heaven to show me some means of getting away. When I had gone far enough to be clear of all my men, and had found a place that was well sheltered from the wind, I washed my hands and prayed to all the gods in Olympus till by and by they sent me off into a sweet sleep.
+“For a whole month the wind blew steadily from the South, and there was no other wind, but only South and East. As long as corn and wine held out the men did not touch the cattle when they were hungry; when, however, they had eaten all there was in the ship, they were forced to go further afield, with hook and line, catching birds, and taking whatever they could lay their hands on; for they were starving. One day, therefore, I went up inland that I might pray heaven to show me some means of getting away. When I had gone far enough to be clear of all my men, and had found a place that was well sheltered from the wind, I washed my hands and prayed to all the gods in Olympus till by and by they sent me off into a sweet sleep.
 
 “Meanwhile Eurylochus had been giving evil counsel to the men, ‘Listen to me,' said he, ‘my poor comrades. All deaths are bad enough but there is none so bad as famine. Why should not we drive in the best of these cows and offer them in sacrifice to the immortal gods? If we ever get back to Ithaca, we can build a fine temple to the sun-god and enrich it with every kind of ornament; if, however, he is determined to sink our ship out of revenge for these horned cattle, and the other gods are of the
-
----
 
 same mind, I for one would rather drink salt water once for all and have done with it, than be starved to death by inches in such a desert island as this is.'
 
@@ -1483,13 +1130,13 @@ same mind, I for one would rather drink salt water once for all and have done wi
 
 “I stuck to the ship till the sea knocked her sides from her keel (which drifted about by itself) and struck the mast out of her in the direction of the keel; but there was a backstay of stout ox-thong still hanging about it, and with this I lashed the mast and keel together, and getting astride of them was carried wherever the winds chose to take me.
 
-“[The gale from the West had now spent its force, and the wind got into the South again, which frightened me lest I should be taken back to the terrible whirlpool of Charybdis. This indeed was what actually happened, for I was borne along by the waves all night, and by sunrise had reached the rock of Scylla, and the whirlpool. She was then sucking down the salt sea water,[106] but I was carried aloft toward the fig tree, which I caught hold of and clung on to like a bat. I could not plant my feet anywhere so as to stand securely, for the roots were a long way off and the boughs that overshadowed the whole pool were too high, too vast, and too far apart for me to reach them; so I hung patiently on, waiting till the pool should discharge my mast and raft again—and a very long while it seemed. A jury-man is not more glad to get home to supper, after having been long detained in court by troublesome cases, than I was to see my raft beginning to work its way out of the whirlpool again. At last I let go with my hands and feet, and fell heavily into the sea, hard by my raft on to which I then got, and began to row with my hands. As for Scylla, the father of gods and men would not let her get further sight of me—otherwise I should have certainly been lost.[107]
+“[The gale from the West had now spent its force, and the wind got into the South again, which frightened me lest I should be taken back to the terrible whirlpool of Charybdis. This indeed was what actually happened, for I was borne along by the waves all night, and by sunrise had reached the rock of Scylla, and the whirlpool. She was then sucking down the salt sea water, but I was carried aloft toward the fig tree, which I caught hold of and clung on to like a bat. I could not plant my feet anywhere so as to stand securely, for the roots were a long way off and the boughs that overshadowed the whole pool were too high, too vast, and too far apart for me to reach them; so I hung patiently on, waiting till the pool should discharge my mast and raft again—and a very long while it seemed. A jury-man is not more glad to get home to supper, after having been long detained in court by troublesome cases, than I was to see my raft beginning to work its way out of the whirlpool again. At last I let go with my hands and feet, and fell heavily into the sea, hard by my raft on to which I then got, and began to row with my hands. As for Scylla, the father of gods and men would not let her get further sight of me—otherwise I should have certainly been lost.
 
 “Hence I was carried along for nine days till on the tenth night the gods stranded me on the Ogygian island, where dwells the great and powerful goddess Calypso. She took me in and was kind to me, but I need say no more about this, for I told you and your noble wife all about it yesterday, and I hate saying the same thing over and over again.”
 
----
+# BOOK XIII.
 
-## Book XIII: Ulysses leaves Scheria and Returns to Ithaca
+*Ulysses leaves Scheria and returns to Ithaca.*
 
 Thus did he speak, and they all held their peace throughout the covered cloister, enthralled by the charm of his story, till presently Alcinous began to speak.
 
@@ -1511,11 +1158,9 @@ The ship bounded forward on her way as a four in hand chariot flies over the cou
 
 When the bright star that heralds the approach of dawn began to show, the ship drew near to land. Now there is in Ithaca a haven of the old merman Phorcys, which lies between two points that break the line of the sea and shut the harbour in. These shelter it from the storms of wind and sea that rage outside, so that, when once within it, a ship may lie without being even moored. At the head of this harbour there is a large olive tree, and at no great distance a fine overarching cavern sacred to the nymphs who are called Naiads. There are mixing bowls within it and wine-jars of stone, and the bees hive there. Moreover, there are great looms of stone on which the nymphs weave their robes of sea purple—very curious to see—and at all times
 
----
-
 there is water within it. It has two entrances, one facing North by which mortals can go down into the cave, while the other comes from the South and is more mysterious; mortals cannot possibly get in by it, it is the way taken by the gods.
 
-Into this harbour, then, they took their ship, for they knew the place.[114] She had so much way upon her that she ran half her own length on to the shore;[115] when, however, they had landed, the first thing they did was to lift Ulysses with his rug and linen sheet out of the ship, and lay him down upon the sand still fast asleep. Then they took out the presents which Minerva had persuaded the Phaeacians to give him when he was setting out on his voyage homewards. They put these all together by the root of the olive tree, away from the road, for fear some passer by[116] might come and steal them before Ulysses awoke; and then they made the best of their way home again.
+Into this harbour, then, they took their ship, for they knew the place. She had so much way upon her that she ran half her own length on to the shore; when, however, they had landed, the first thing they did was to lift Ulysses with his rug and linen sheet out of the ship, and lay him down upon the sand still fast asleep. Then they took out the presents which Minerva had persuaded the Phaeacians to give him when he was setting out on his voyage homewards. They put these all together by the root of the olive tree, away from the road, for fear some passer by might come and steal them before Ulysses awoke; and then they made the best of their way home again.
 
 But Neptune did not forget the threats with which he had already threatened Ulysses, so he took counsel with Jove. “Father Jove,” said he, “I shall no longer be held in any sort of respect among you gods, if mortals like the Phaeacians, who are my own flesh and blood, show such small regard for me. I said I would let Ulysses get home when he had suffered sufficiently. I did not say that he should never get home at all, for I knew you had already nodded your head about it, and promised that he should do so; but now they have brought him in a ship fast asleep and have landed him in Ithaca after loading him with more magnificent presents of bronze, gold, and raiment than he would ever have brought back from Troy, if he had had his share of the spoil and got home without misadventure.”
 
@@ -1529,15 +1174,13 @@ When earth-encircling Neptune heard this he went to Scheria where the Phaeacians
 
 The Phaeacians then began talking among themselves, and one would turn towards his neighbour, saying, “Bless my heart, who is it that can have rooted the ship in the sea just as she was getting into port? We could see the whole of her only a moment ago.”
 
-This was how they talked, but they knew nothing about it; and Alcinous said, “I remember now the old prophecy of my father. He said that Neptune would be angry with us for taking every one so safely over the sea, and would one day wreck a Phaeacian ship as it was returning from an escort, and bury our city under a high mountain. This was what my old father used to say, and now it is all coming true.[117] Now therefore let us all do as I say; in the first place we must leave off giving people escorts when they come here, and in the next let us sacrifice twelve picked bulls to Neptune that he may have mercy upon us, and not bury our city under the high mountain.” When the people heard this they were afraid and got ready the bulls.
+This was how they talked, but they knew nothing about it; and Alcinous said, “I remember now the old prophecy of my father. He said that Neptune would be angry with us for taking every one so safely over the sea, and would one day wreck a Phaeacian ship as it was returning from an escort, and bury our city under a high mountain. This was what my old father used to say, and now it is all coming true. Now therefore let us all do as I say; in the first place we must leave off giving people escorts when they come here, and in the next let us sacrifice twelve picked bulls to Neptune that he may have mercy upon us, and not bury our city under the high mountain.” When the people heard this they were afraid and got ready the bulls.
 
-Thus did the chiefs and rulers of the Phaeacians pray to king Neptune, standing round his altar; and at the same time[118] Ulysses woke up once more upon his own soil. He had been so long away that he did not know it again; moreover, Jove's daughter Minerva had made it a foggy day, so that people might not know of his having come, and that she might tell him everything without either his wife or his fellow citizens and friends recognising him[119] until he had taken his revenge upon the wicked suitors. Everything, therefore, seemed quite different to him—the long straight tracks, the harbours, the precipices, and the goodly trees, appeared all changed as he started up and looked upon his native land. So he smote his thighs with the flat of his hands and cried aloud despairingly.
+Thus did the chiefs and rulers of the Phaeacians pray to king Neptune, standing round his altar; and at the same time Ulysses woke up once more upon his own soil. He had been so long away that he did not know it again; moreover, Jove's daughter Minerva had made it a foggy day, so that people might not know of his having come, and that she might tell him everything without either his wife or his fellow citizens and friends recognising him until he had taken his revenge upon the wicked suitors. Everything, therefore, seemed quite different to him—the long straight tracks, the harbours, the precipices, and the goodly trees, appeared all changed as he started up and looked upon his native land. So he smote his thighs with the flat of his hands and cried aloud despairingly.
 
 “Alas,” he exclaimed, “among what manner of people am I fallen? Are they savage and uncivilised or hospitable and humane? Where shall I put all this treasure, and which way shall I go? I wish I had staid over there with the Phaeacians; or I could have gone to some other great chief who would have been good to me and given me an escort. As it is I do not know where to put my treasure, and I cannot leave it here for fear somebody else should get hold of it. In good truth the chiefs and rulers of the Phaeacians have not been dealing fairly by me, and have left me in the wrong country; they said they would take me back to Ithaca and they have not done so: may Jove the protector of suppliants chastise them, for he watches over everybody and punishes those who do wrong. Still, I suppose I must count my goods and see if the crew have gone off with any of them.”
 
 He counted his goodly coppers and cauldrons, his gold and all his clothes, but there was nothing missing; still he kept grieving about not being in his own country, and wandered up and down by the shore of the sounding sea bewailing his hard fate. Then Minerva came up to him disguised as a young shepherd of delicate and princely mien, with a good cloak folded
-
----
 
 double about her shoulders; she had sandals on her comely feet and held a javelin in her hand. Ulysses was glad when he saw her, and went straight up to her.
 
@@ -1551,13 +1194,9 @@ Ulysses was glad at finding himself, as Minerva told him, in his own country, an
 
 Such was his story, but Minerva smiled and caressed him with her hand. Then she took the form of a woman, fair, stately, and wise, “He must be indeed a shifty lying fellow,” said she, “who could surpass you in all manner of craft even though you had a god for your antagonist. Dare devil that you are, full of guile, unwearying in deceit, can you not drop your tricks and your instinctive falsehood, even now that you are in your own country again? We will say no more, however, about this, for we can both of us deceive upon occasion—you are the most accomplished counsellor and orator among all mankind, while I for diplomacy and subtlety have no equal among the gods. Did you not know Jove’s daughter Minerva—me, who have been ever with you, who kept watch over you in all your troubles, and who made the Phaeacians take so great a liking to you? And now, again, I am come here to talk things over with you, and help you to hide the treasure I made the Phaeacians give you; I want to tell you about the troubles that await you in your own house; you have got to face them, but tell no one, neither man nor woman, that you have come home again. Bear everything, and put up with every man’s insolence, without a word.”
 
-And Ulysses answered, “A man, goddess, may know a great deal, but you are so constantly changing your appearance that when he meets you it is a hard matter for him to know whether it is you or not. This much, however, I know exceedingly well; you were very kind to me as long as we Achaeans were fighting before Troy, but from the day on which we went on board ship after having sacked the city of Priam, and heaven dispersed us—from that day, Minerva, I saw no more of you, and cannot ever remember your coming to my ship to help me in a difficulty; I had to wander on sick and sorry till the gods delivered me from evil and I reached the city of the Phaeacians, where you encouraged me and took me into the town.[120] And now, I beseech you in your father’s name, tell me the truth, for I do not believe I am really back in Ithaca. I am in some other country and you are mocking me and deceiving me in all you have been saying. Tell me then truly, have I really got back to my own country?”
+And Ulysses answered, “A man, goddess, may know a great deal, but you are so constantly changing your appearance that when he meets you it is a hard matter for him to know whether it is you or not. This much, however, I know exceedingly well; you were very kind to me as long as we Achaeans were fighting before Troy, but from the day on which we went on board ship after having sacked the city of Priam, and heaven dispersed us—from that day, Minerva, I saw no more of you, and cannot ever remember your coming to my ship to help me in a difficulty; I had to wander on sick and sorry till the gods delivered me from evil and I reached the city of the Phaeacians, where you encouraged me and took me into the town. And now, I beseech you in your father’s name, tell me the truth, for I do not believe I am really back in Ithaca. I am in some other country and you are mocking me and deceiving me in all you have been saying. Tell me then truly, have I really got back to my own country?”
 
-“You are always taking something of that sort in your head,” replied Minerva, “and that is why I cannot desert you in your afflictions; you are so plausible, shrewd and shifty. Any one but yourself on returning from so long a voyage would at once have gone home to see his wife and children, but you do not seem to care about asking after them or hearing any news about them till you have exploited your wife, who remains at home vainly grieving for you, and having no peace night or day for the tears she sheds on your behalf. As for my not coming near you, I was never uneasy about you, for I was certain you would get back safely though you would lose all your men, and I did not wish to quarrel with my uncle Neptune, who never forgave you for having blinded his son.[121] I will now, however, point out to you the lie of the land, and you will then perhaps believe me. This is the haven of the old merman Phorcys, and here is the olive tree that grows at the head of it; [near it is the cave sacred to the Naiads;[122] here too is the overarching cavern in which you have offered many an acceptable hecatomb to the nymphs, and this is the wooded mountain Neritum.”
-
-
-
----
+“You are always taking something of that sort in your head,” replied Minerva, “and that is why I cannot desert you in your afflictions; you are so plausible, shrewd and shifty. Any one but yourself on returning from so long a voyage would at once have gone home to see his wife and children, but you do not seem to care about asking after them or hearing any news about them till you have exploited your wife, who remains at home vainly grieving for you, and having no peace night or day for the tears she sheds on your behalf. As for my not coming near you, I was never uneasy about you, for I was certain you would get back safely though you would lose all your men, and I did not wish to quarrel with my uncle Neptune, who never forgave you for having blinded his son. I will now, however, point out to you the lie of the land, and you will then perhaps believe me. This is the haven of the old merman Phorcys, and here is the olive tree that grows at the head of it; [near it is the cave sacred to the Naiads; here too is the overarching cavern in which you have offered many an acceptable hecatomb to the nymphs, and this is the wooded mountain Neritum.”
 
 As she spoke the goddess dispersed the mist and the land appeared. Then Ulysses rejoiced at finding himself again in his own land, and kissed the bounteous soil; he lifted up his hands and prayed to the nymphs, saying, “Naiad nymphs, daughters of Jove, I made sure that I was never again to see you, now therefore I greet you with all loving salutations, and I will bring you offerings as in the old days, if Jove's redoubtable daughter will grant me life, and bring my son to manhood.”
 
@@ -1565,11 +1204,11 @@ As she spoke the goddess dispersed the mist and the land appeared. Then Ulysses 
 
 Therewith she went down into the cave to look for the safest hiding places, while Ulysses brought up all the treasure of gold, bronze, and good clothing which the Phaeacians had given him. They stowed everything carefully away, and Minerva set a stone against the door of the cave. Then the two sat down by the root of the great olive, and consulted how to compass the destruction of the wicked suitors.
 
-“Ulysses,” said Minerva, “noble son of Laertes, think how you can lay hands on these disreputable people who have been lording it in your house these three years, courting your wife and making wedding presents to her, while she does nothing but lament your absence, giving hope and sending encouraging messages[123] to every one of them, but meaning the very opposite of all she says.”
+“Ulysses,” said Minerva, “noble son of Laertes, think how you can lay hands on these disreputable people who have been lording it in your house these three years, courting your wife and making wedding presents to her, while she does nothing but lament your absence, giving hope and sending encouraging messages to every one of them, but meaning the very opposite of all she says.”
 
 And Ulysses answered, “In good truth, goddess, it seems I should have come to much the same bad end in my own house as Agamemnon did, if you had not given me such timely information. Advise me how I shall best avenge myself. Stand by my side and put your courage into my heart as on the day when we loosed Troy's fair diadem from her brow. Help me now as you did then, and I will fight three hundred men, if you, goddess, will be with me.”
 
-“Trust me for that,” said she, “I will not lose sight of you when once we set about it, and I imagine that some of those who are devouring your substance will then bespatter the pavement with their blood and brains. I will begin by disguising you so that no human being shall know you; I will cover your body with wrinkles; you shall lose all your yellow hair; I will clothe you in a garment that shall fill all who see it with loathing; I will blear your fine eyes for you, and make you an unseemly object in the sight of the suitors, of your wife, and of the son whom you left behind you. Then go at once to the swineherd who is in charge of your pigs; he has been always well affected towards you, and is devoted to Penelope and your son; you will find him feeding his pigs near the rock that is called Raven[124] by the fountain Arethusa, where they are fattening on beechmast and spring water after their manner. Stay with him and find out how things are going, while I proceed to Sparta and see your son, who is with Menelaus at Lacedaemon, where he has gone to try and find out whether you are still alive.”[125]
+“Trust me for that,” said she, “I will not lose sight of you when once we set about it, and I imagine that some of those who are devouring your substance will then bespatter the pavement with their blood and brains. I will begin by disguising you so that no human being shall know you; I will cover your body with wrinkles; you shall lose all your yellow hair; I will clothe you in a garment that shall fill all who see it with loathing; I will blear your fine eyes for you, and make you an unseemly object in the sight of the suitors, of your wife, and of the son whom you left behind you. Then go at once to the swineherd who is in charge of your pigs; he has been always well affected towards you, and is devoted to Penelope and your son; you will find him feeding his pigs near the rock that is called Raven by the fountain Arethusa, where they are fattening on beechmast and spring water after their manner. Stay with him and find out how things are going, while I proceed to Sparta and see your son, who is with Menelaus at Lacedaemon, where he has gone to try and find out whether you are still alive.”
 
 “But why,” said Ulysses, “did you not tell him, for you knew all about it? Did you want him too to go sailing about amid all kinds of hardship while others are eating up his estate?”
 
@@ -1579,13 +1218,11 @@ As she spoke Minerva touched him with her wand and covered him with wrinkles, to
 
 When the pair had thus laid their plans they parted, and the goddess went straight to Lacedaemon to fetch Telemachus.
 
----
+# BOOK XIV.
 
-# BOOK XIV
+*Ulysses in the hut with Eumaeus.*
 
-## ULYSSES IN THE HUT WITH EUMAEUS.
-
-Ulysses now left the haven, and took the rough track up through the wooded country and over the crest of the mountain till he reached the place where Minerva had said that he would find the swineherd, who was the most thrifty servant he had. He found him sitting in front of his hut, which was by the yards that he had built on a site which could be seen from far. He had made them spacious[126] and fair to see, with a free run for the pigs all round them; he had built them during his master's absence, of stones which he had gathered out of the ground, without saying anything to Penelope or Laertes, and he had fenced them on top with thorn bushes. Outside the yard he had run a strong fence of oaken posts, split, and set pretty close together, while inside he had built twelve styes near one another for the sows to lie in. There were fifty pigs wallowing in each stye, all of them breeding sows; but the boars slept outside and were much fewer in number, for the suitors kept on eating them, and the swineherd had to send them the best he had continually. There were three hundred and sixty boar pigs, and the herdsman's four hounds, which were as fierce as wolves, slept always with them. The swineherd was at that moment cutting out a pair of sandals[127] from a good stout ox hide. Three of his men were out herding the pigs in one place or another, and he had sent the fourth to town with a boar that he had been forced to send the suitors that they might sacrifice it and have their fill of meat.
+Ulysses now left the haven, and took the rough track up through the wooded country and over the crest of the mountain till he reached the place where Minerva had said that he would find the swineherd, who was the most thrifty servant he had. He found him sitting in front of his hut, which was by the yards that he had built on a site which could be seen from far. He had made them spacious and fair to see, with a free run for the pigs all round them; he had built them during his master's absence, of stones which he had gathered out of the ground, without saying anything to Penelope or Laertes, and he had fenced them on top with thorn bushes. Outside the yard he had run a strong fence of oaken posts, split, and set pretty close together, while inside he had built twelve styes near one another for the sows to lie in. There were fifty pigs wallowing in each stye, all of them breeding sows; but the boars slept outside and were much fewer in number, for the suitors kept on eating them, and the swineherd had to send them the best he had continually. There were three hundred and sixty boar pigs, and the herdsman's four hounds, which were as fierce as wolves, slept always with them. The swineherd was at that moment cutting out a pair of sandals from a good stout ox hide. Three of his men were out herding the pigs in one place or another, and he had sent the fourth to town with a boar that he had been forced to send the suitors that they might sacrifice it and have their fill of meat.
 
 When the hounds saw Ulysses they set up a furious barking and flew at him, but Ulysses was cunning enough to sit down and loose his hold of the stick that he had in his hand: still, he would have been torn by them in his own homestead had not the swineherd dropped his ox hide, rushed full speed through the gate of the yard and driven the dogs off by shouting and throwing stones at them. Then he said to Ulysses, "Old man, the dogs were likely to have made short work of you, and then you would have got me into trouble. The gods have given me quite enough worries without that, for I have lost the best of masters, and am in continual grief on his account. I have to attend swine for other people to eat, while he, if he yet lives to see the light of day, is starving in some distant land. But come inside, and when you have had your fill of bread and wine, tell me where you come from, and all about your misfortunes."
 
@@ -1596,8 +1233,6 @@ To this you answered, O swineherd Eumaeus, "Stranger, though a still poorer man 
 As he spoke he bound his girdle round him and went to the styes where the young sucking pigs were penned. He picked out two which he brought back with him and sacrificed. He singed them, cut them up, and spitted them; when the meat was cooked he brought it all in and set it before Ulysses, hot and still on the spit, whereon Ulysses sprinkled it over with white barley meal. The swineherd then mixed wine in a bowl of ivy-wood, and taking a seat opposite Ulysses told him to begin.
 
 "Fall to, stranger," said he, "on a dish of servant's pork. The fat pigs have to go to the suitors, who eat them up without shame or scruple; but the blessed gods love not such shameful doings, and respect those who do what is lawful and right. Even the fierce freebooters who go raiding on other people's land, and Jove gives them their spoil—even they, when they have filled their ships and got home again live conscience-stricken, and look fearfully for judgement; but some god seems to have told these people that Ulysses is dead and gone; they will not, therefore, go back to their own homes and make their offers of marriage in the usual way, but waste his estate by force, without fear or stint. Not a day or night comes out of heaven, but they sacrifice not one victim nor two only, and they take the run of his wine, for he was exceedingly rich. No other great man either in Ithaca or on the mainland is as rich as he was; he had as much as twenty men put together. I will tell you what he had. There are twelve herds of cattle upon the main land, and as many flocks of sheep, there are also twelve droves of pigs, while his own men and hired strangers feed him twelve widely spreading herds of goats. Here in Ithaca he runs even large flocks of goats on
-
----
 
 the far end of the island, and they are in the charge of excellent goat herds. Each one of these sends the suitors the best goat in the flock every day. As for myself, I am in charge of the pigs that you see here, and I have to keep picking out the best I have and sending it to them.”
 
@@ -1615,10 +1250,6 @@ And Ulysses answered, “I will tell you all about it. If there were meat and wi
 
 “My house grew apace and I became a great man among the Cretans, but when Jove counselled that terrible expedition, in which so many perished, the people required me and Idomeneus to lead their ships to Troy, and there was no way out of it, for
 
-
-
----
-
 they insisted on our doing so. There we fought for nine whole years, but in the tenth we sacked the city of Priam and sailed home again as heaven dispersed us. Then it was that Jove devised evil against me. I spent but one month happily with my children, wife, and property, and then I conceived the idea of making a descent on Egypt, so I fitted out a fine fleet and manned it. I had nine ships, and the people flocked to fill them. For six days I and my men made feast, and I found them many victims both for sacrifice to the gods and for themselves, but on the seventh day we went on board and set sail from Crete with a fair North wind behind us though we were going down a river. Nothing went ill with any of our ships, and we had no sickness on board, but sat where we were and let the ships go as the wind and steersmen took them. On the fifth day we reached the river Aegyptus; there I stationed my ships in the river, bidding my men stay by them and keep guard over them while I sent out scouts to reconnoitre from every point of vantage.
 
 "But the men disobeyed my orders, took to their own devices, and ravaged the land of the Egyptians, killing the men, and taking their wives and children captive. The alarm was soon carried to the city, and when they heard the war cry, the people came out at daybreak till the plain was filled with horsemen and foot soldiers and with the gleam of armour. Then Jove spread panic among my men, and they would no longer face the enemy, for they found themselves surrounded. The Egyptians killed many of us, and took the rest alive to do forced labour for them. Jove, however, put it in my mind to do thus—and I wish I had died then and there in Egypt instead, for there was much sorrow in store for me—I took off my helmet and shield and dropped my spear from my hand; then I went straight up to the king's chariot, clasped his knees and kissed them, whereon he spared my life, bade me get into his chariot, and took me weeping to his own home. Many made at me with their ashen spears and tried to kill me in their fury, but the king protected me, for he feared the wrath of Jove the protector of strangers, who punishes those who do evil.
@@ -1632,10 +1263,6 @@ they insisted on our doing so. There we fought for nine whole years, but in the 
 "These men hatched a plot against me that would have reduced me to the very extreme of misery, for when the ship had got some way out from land they resolved on selling me as a slave. They stripped me of the shirt and cloak that I was wearing, and gave me instead the tattered old clouts in which you now see me; then, towards nightfall, they reached the tilled lands of Ithaca, and there they bound me with a strong rope fast in the ship, while they went on shore to get supper by the sea side. But the gods soon undid my bonds for me, and having drawn my rags over my head I slid down the rudder into the sea, where I struck out and swam till I was well clear of them, and came ashore near a thick wood in which I lay concealed. They were very angry at my having escaped and went searching about for me, till at last they thought it was no further use and went back to their ship. The gods, having hidden me thus easily, then took me to a good man's door—for it seems that I am not to die yet awhile."
 
 To this you answered, O swineherd Eumaeus, "Poor unhappy stranger, I have found the story of your misfortunes extremely interesting, but that part about Ulysses is not right; and you will never get me to believe it. Why should a man like you go about telling lies in this way? I know all about the return of my master. The gods one and all of them detest him, or they would
-
-
-
----
 
 have taken him before Troy, or let him die with friends around him when the days of his fighting were done; for then the Achaeans would have built a mound over his ashes and his son would have been heir to his renown, but now the storm winds have spirited him away we know not whither.
 
@@ -1655,10 +1282,6 @@ As he spoke he cut off the first piece and offered it as a burnt sacrifice to th
 
 Now the night came on stormy and very dark, for there was no moon. It poured without ceasing, and the wind blew strong from the West, which is a wet quarter, so Ulysses thought he would see whether Eumaeus, in the excellent care he took of him, would take off his own cloak and give it him, or make one of his men give him one. "Listen to me," said he, "Eumaeus and the rest of you; when I have said a prayer I will tell you something. It is the wine that makes me talk in this way; wine will make even a wise man fall to singing; it will make him chuckle and dance and say many a word that he had better leave unspoken; still, as I have begun, I will go on. Would that I were still young and strong as when we got up an ambuscade before Troy. Menelaus and Ulysses were the leaders, but I was in command also, for the other two would have it so. When we had come up to the wall of the city we crouched down beneath our armour and lay there under cover of the reeds and thick brushwood that grew about the swamp. It came on to freeze with a North wind blowing; the snow fell small and fine like hoar frost, and our shields were coated thick with rime. The others had all got cloaks and shirts, and slept comfortably enough with their shields about their shoulders, but I had carelessly left my cloak behind me, not thinking that I should be too cold, and had gone off in nothing but my shirt and shield. When the night was two-thirds through and the stars had shifted their places, I nudged Ulysses who was close to me with my elbow, and he at once gave me his ear.
 
-
-
----
-
 “Ulysses,” said I, “this cold will be the death of me, for I have no cloak; some god fooled me into setting off with nothing on but my shirt, and I do not know what to do.”
 
 “Ulysses, who was as crafty as he was valiant, hit upon the following plan:
@@ -1675,19 +1298,15 @@ With this he got up and made a bed for Ulysses by throwing some goatskins and sh
 
 Thus did Ulysses sleep, and the young men slept beside him. But the swineherd did not like sleeping away from his pigs, so he got ready to go outside, and Ulysses was glad to see that he looked after his property during his master’s absence. First he slung his sword over his brawny shoulders and put on a thick cloak to keep out the wind. He also took the skin of a large and well fed goat, and a javelin in case of attack from men or dogs. Thus equipped he went to his rest where the pigs were camping under an overhanging rock that gave them shelter from the North wind.
 
+# BOOK XV.
 
-
----
-
-# BOOK XV
-
-MINERVA SUMMONS TELEMACHUS FROM LACEDAEMON—HE MEETS WITH THEOCLYMENUS AT PYLOS AND BRINGS HIM TO ITHACA—ON LANDING HE GOES TO THE HUT OF EUMAEUS.
+*Minerva summons Telemachus from Lacedaemon—He meets with Theoclymenus at Pylos and brings him to Ithaca—On landing he goes to the hut of Eumaeus.*
 
 But Minerva went to the fair city of Lacedaemon to tell Ulysses' son that he was to return at once. She found him and Pisistratus sleeping in the forecourt of Menelaus's house; Pisistratus was fast asleep, but Telemachus could get no rest all night for thinking of his unhappy father, so Minerva went close up to him and said:
 
-"Telemachus, you should not remain so far away from home any longer, nor leave your property with such dangerous people in your house; they will eat up everything you have among them, and you will have been on a fool's errand. Ask Menelaus to send you home at once if you wish to find your excellent mother still there when you get back. Her father and brothers are already urging her to marry Eurymachus, who has given her more than any of the others, and has been greatly increasing his wedding presents. I hope nothing valuable may have been taken from the house in spite of you, but you know what women are—they always want to do the best they can for the man who marries them, and never give another thought to the children of their first husband, nor to their father either when he is dead and done with. Go home, therefore, and put everything in charge of the most respectable woman servant that you have, until it shall please heaven to send you a wife of your own. Let me tell you also of another matter which you had better attend to. The chief men among the suitors are lying in wait for you in the Strait[128] between Ithaca and Samos, and they mean to kill you before you can reach home. I do not much think they will succeed; it is more likely that some of those who are now eating up your property will find a grave themselves. Sail night and day, and keep your ship well away from the islands; the god who watches over you and protects you will send you a fair wind. As soon as you get to Ithaca send your ship and men on to the town, but yourself go straight to the swineherd who has charge of your pigs; he is well disposed towards you, stay with him, therefore, for the night, and then send him to Penelope to tell her that you have got back safe from Pylos."
+"Telemachus, you should not remain so far away from home any longer, nor leave your property with such dangerous people in your house; they will eat up everything you have among them, and you will have been on a fool's errand. Ask Menelaus to send you home at once if you wish to find your excellent mother still there when you get back. Her father and brothers are already urging her to marry Eurymachus, who has given her more than any of the others, and has been greatly increasing his wedding presents. I hope nothing valuable may have been taken from the house in spite of you, but you know what women are—they always want to do the best they can for the man who marries them, and never give another thought to the children of their first husband, nor to their father either when he is dead and done with. Go home, therefore, and put everything in charge of the most respectable woman servant that you have, until it shall please heaven to send you a wife of your own. Let me tell you also of another matter which you had better attend to. The chief men among the suitors are lying in wait for you in the Strait between Ithaca and Samos, and they mean to kill you before you can reach home. I do not much think they will succeed; it is more likely that some of those who are now eating up your property will find a grave themselves. Sail night and day, and keep your ship well away from the islands; the god who watches over you and protects you will send you a fair wind. As soon as you get to Ithaca send your ship and men on to the town, but yourself go straight to the swineherd who has charge of your pigs; he is well disposed towards you, stay with him, therefore, for the night, and then send him to Penelope to tell her that you have got back safe from Pylos."
 
-Then she went back to Olympus; but Telemachus stirred Pisistratus with his heel to rouse him, and said, "Wake up Pisistratus, and yoke the horses to the chariot, for we must set off home."[129]
+Then she went back to Olympus; but Telemachus stirred Pisistratus with his heel to rouse him, and said, "Wake up Pisistratus, and yoke the horses to the chariot, for we must set off home."
 
 But Pisistratus said, "No matter what hurry we are in we cannot drive in the dark. It will be morning soon; wait till Menelaus has brought his presents and put them in the chariot for us; and let him say good bye to us in the usual way. So long as he lives a guest should never forget a host who has shown him kindness."
 
@@ -1697,9 +1316,7 @@ And Menelaus answered, "Telemachus, if you insist on going I will not detain you
 
 "Menelaus," replied Telemachus, "I want to go home at once, for when I came away I left my property without protection, and fear that while looking for my father I shall come to ruin myself, or find that something valuable has been stolen during my absence."
 
-When Menelaus heard this he immediately told his wife and servants to prepare a sufficient dinner from what there might be in the house. At this moment Eteoneus joined him, for he lived close by and had just got up; so Menelaus told him to light the fire and cook some meat, which he at once did. Then Menelaus went down into his fragrant store room,[130] not alone, but Helen went too, with Megapenthes. When he reached the place where the treasures of his house were kept, he selected a double cup, and told his son Megapenthes to bring also a silver mixing bowl. Meanwhile Helen went to the chest where she kept the lovely dresses which she had made with her own hands, and took out one that was largest and most beautifully enriched with embroidery; it glittered like a star, and lay at the very bottom of the chest.[131] Then they all came back through the house again till they got to Telemachus, and Menelaus said, "Telemachus, may Jove, the mighty husband of Juno, bring
-
----
+When Menelaus heard this he immediately told his wife and servants to prepare a sufficient dinner from what there might be in the house. At this moment Eteoneus joined him, for he lived close by and had just got up; so Menelaus told him to light the fire and cook some meat, which he at once did. Then Menelaus went down into his fragrant store room, not alone, but Helen went too, with Megapenthes. When he reached the place where the treasures of his house were kept, he selected a double cup, and told his son Megapenthes to bring also a silver mixing bowl. Meanwhile Helen went to the chest where she kept the lovely dresses which she had made with her own hands, and took out one that was largest and most beautifully enriched with embroidery; it glittered like a star, and lay at the very bottom of the chest. Then they all came back through the house again till they got to Telemachus, and Menelaus said, "Telemachus, may Jove, the mighty husband of Juno, bring
 
 you safely home according to your desire. I will now present you with the finest and most precious piece of plate in all my house. It is a mixing bowl of pure silver, except the rim, which is inlaid with gold, and it is the work of Vulcan. Phaedimus king of the Sidonians made me a present of it in the course of a visit that I paid him while I was on my return home. I should like to give it to you.”
 
@@ -1727,10 +1344,6 @@ With this he drove his goodly steeds back to the city of the Pylians and soon re
 
 Thus did he speak, and they went on board even as he had said. But as Telemachus was thus busied, praying also and sacrificing to Minerva in the ship’s stern, there came to him a man from a distant country, a seer, who was flying from Argos because he had killed a man. He was descended from Melampus, who used to live in Pylos, the land of sheep; he was rich and owned a great house, but he was driven into exile by the great and powerful king Neleus. Neleus seized his goods and held them for a whole year, during which he was a close prisoner in the house of king Phylacus, and in much distress of mind both
 
-
-
----
-
 on account of the daughter of Neleus and because he was haunted by a great sorrow that dread Erinys had laid upon him. In the end, however, he escaped with his life, drove the cattle from Phylace to Pylos, avenged the wrong that had been done him, and gave the daughter of Neleus to his brother. Then he left the country and went to Argos, where it was ordained that he should reign over much people. There he married, established himself, and had two famous sons Antiphates and Mantius. Antiphates became father of Oicleus, and Oicleus of Amphiaraus, who was dearly loved both by Jove and by Apollo, but he did not live to old age, for he was killed in Thebes by reason of a woman's gifts. His sons were Alcmaeon and Amphilochus. Mantius, the other son of Melampus, was father to Polypheides and Cleitus. Aurora, throned in gold, carried off Cleitus for his beauty's sake, that he might dwell among the immortals, but Apollo made Polypheides the greatest seer in the whole world now that Amphiaraus was dead. He quarrelled with his father and went to live in Hyperesia, where he remained and prophesied for all men.
 
 His son, Theoclymenus, it was who now came up to Telemachus as he was making drink-offerings and praying in his ship. "Friend," said he, "now that I find you sacrificing in this place, I beseech you by your sacrifices themselves, and by the god to whom you make them, I pray you also by your own head and by those of your followers tell me the truth and nothing but the truth. Who and whence are you? Tell me also of your town and parents."
@@ -1743,7 +1356,7 @@ Telemachus said, "I will answer you quite truly. I am from Ithaca, and my father
 
 On this he received Theoclymenus' spear and laid it down on the deck of the ship. He went on board and sat in the stern, bidding Theoclymenus sit beside him; then the men let go the hawsers. Telemachus told them to catch hold of the ropes, and they made all haste to do so. They set the mast in its socket in the cross plank, raised it and made it fast with the forestays, and they hoisted their white sails with sheets of twisted ox hide. Minerva sent them a fair wind that blew fresh and strong to take the ship on her course as fast as possible. Thus then they passed by Crouni and Chalcis.
 
-Presently the sun set and darkness was over all the land. The vessel made a quick passage to Pheae and thence on to Elis, where the Epeans rule. Telemachus then headed her for the flying islands,[132] wondering within himself whether he should escape death or should be taken prisoner.
+Presently the sun set and darkness was over all the land. The vessel made a quick passage to Pheae and thence on to Elis, where the Epeans rule. Telemachus then headed her for the flying islands, wondering within himself whether he should escape death or should be taken prisoner.
 
 Meanwhile Ulysses and the swineherd were eating their supper in the hut, and the men supped with them. As soon as they had had to eat and drink, Ulysses began trying to prove the swineherd and see whether he would continue to treat him kindly, and ask him to stay on at the station or pack him off to the city; so he said:
 
@@ -1753,17 +1366,13 @@ The swineherd was very much disturbed when he heard this. "Heaven help me," he e
 
 Ulysses answered, "I hope you may be as dear to the gods as you are to me, for having saved me from going about and getting into trouble; there is nothing worse than being always on the tramp; still, when men have once got low down in the world they will go through a great deal on behalf of their miserable bellies. Since, however, you press me to stay here and await the return of Telemachus, tell me about Ulysses' mother, and his father whom he left on the threshold of old age when he set out for Troy. Are they still living or are they already dead and in the house of Hades?"
 
-
-
----
-
-“I will tell you all about them,” replied Eumaeus, “Laertes is still living and prays heaven to let him depart peacefully in his own house, for he is terribly distressed about the absence of his son, and also about the death of his wife, which grieved him greatly and aged him more than anything else did. She came to an unhappy end[133] through sorrow for her son: may no friend or neighbour who has dealt kindly by me come to such an end as she did. As long as she was still living, though she was always grieving, I used to like seeing her and asking her how she did, for she brought me up along with her daughter Ctimene, the youngest of her children; we were boy and girl together, and she made little difference between us. When, however, we both grew up, they sent Ctimene to Same and received a splendid dowry for her. As for me, my mistress gave me a good shirt and cloak with a pair of sandals for my feet, and sent me off into the country, but she was just as fond of me as ever. This is all over now. Still it has pleased heaven to prosper my work in the situation which I now hold. I have enough to eat and drink, and can find something for any respectable stranger who comes here; but there is no getting a kind word or deed out of my mistress, for the house has fallen into the hands of wicked people. Servants want sometimes to see their mistress and have a talk with her; they like to have something to eat and drink at the house, and something too to take back with them into the country. This is what will keep servants in a good humour.”
+“I will tell you all about them,” replied Eumaeus, “Laertes is still living and prays heaven to let him depart peacefully in his own house, for he is terribly distressed about the absence of his son, and also about the death of his wife, which grieved him greatly and aged him more than anything else did. She came to an unhappy end through sorrow for her son: may no friend or neighbour who has dealt kindly by me come to such an end as she did. As long as she was still living, though she was always grieving, I used to like seeing her and asking her how she did, for she brought me up along with her daughter Ctimene, the youngest of her children; we were boy and girl together, and she made little difference between us. When, however, we both grew up, they sent Ctimene to Same and received a splendid dowry for her. As for me, my mistress gave me a good shirt and cloak with a pair of sandals for my feet, and sent me off into the country, but she was just as fond of me as ever. This is all over now. Still it has pleased heaven to prosper my work in the situation which I now hold. I have enough to eat and drink, and can find something for any respectable stranger who comes here; but there is no getting a kind word or deed out of my mistress, for the house has fallen into the hands of wicked people. Servants want sometimes to see their mistress and have a talk with her; they like to have something to eat and drink at the house, and something too to take back with them into the country. This is what will keep servants in a good humour.”
 
 Ulysses answered, “Then you must have been a very little fellow, Eumaeus, when you were taken so far away from your home and parents. Tell me, and tell me true, was the city in which your father and mother lived sacked and pillaged, or did some enemies carry you off when you were alone tending sheep or cattle, ship you off here, and sell you for whatever your master gave them?”
 
 “Stranger,” replied Eumaeus, “as regards your question: sit still, make yourself comfortable, drink your wine, and listen to me. The nights are now at their longest; there is plenty of time both for sleeping and sitting up talking together; you ought not to go to bed till bed time, too much sleep is as bad as too little; if any one of the others wishes to go to bed let him leave us and do so; he can then take my master's pigs out when he has done breakfast in the morning. We too will sit here eating and drinking in the hut, and telling one another stories about our misfortunes; for when a man has suffered much, and been buffeted about in the world, he takes pleasure in recalling the memory of sorrows that have long gone by. As regards your question, then, my tale is as follows:
 
-“You may have heard of an island called Syra that lies over above Ortygia,[134] where the land begins to turn round and look in another direction.[135] It is not very thickly peopled, but the soil is good, with much pasture fit for cattle and sheep, and it abounds with wine and wheat. Dearth never comes there, nor are the people plagued by any sickness, but when they grow old Apollo comes with Diana and kills them with his painless shafts. It contains two communities, and the whole country is divided between these two. My father Ctesius son of Ormenus, a man comparable to the gods, reigned over both.
+“You may have heard of an island called Syra that lies over above Ortygia, where the land begins to turn round and look in another direction. It is not very thickly peopled, but the soil is good, with much pasture fit for cattle and sheep, and it abounds with wine and wheat. Dearth never comes there, nor are the people plagued by any sickness, but when they grow old Apollo comes with Diana and kills them with his painless shafts. It contains two communities, and the whole country is divided between these two. My father Ctesius son of Ormenus, a man comparable to the gods, reigned over both.
 
 “Now to this place there came some cunning traders from Phoenicia (for the Phoenicians are great mariners) in a ship which they had freighted with gewgaws of all kinds. There happened to be a Phoenician woman in my father's house, very tall and comely, and an excellent servant; these scoundrels got hold of her one day when she was washing near their ship, seduced her, and cajoled her in ways that no woman can resist, no matter how good she may be by nature. The man who had seduced her asked her who she was and where she came from, and on this she told him her father's name. ‘I come from Sidon,' said she, ‘and am daughter to Arybas, a man rolling in wealth. One day as I was coming into the town from the country, some Taphian pirates seized me and took me here over the sea, where they sold me to the man who owns this house, and he gave them their price for me.'
 
@@ -1775,19 +1384,17 @@ Ulysses answered, “Then you must have been a very little fellow, Eumaeus, when
 
 “On this she went back to the house. The Phoenicians stayed a whole year till they had loaded their ship with much precious merchandise, and then, when they had got freight enough, they sent to tell the woman. Their messenger, a very cunning fellow, came to my father's house bringing a necklace of gold with amber beads strung among it; and while my mother and the servants had it in their hands admiring it and bargaining about it, he made a sign quietly to the woman and then went back to the ship, whereon she took me by the hand and led me out of the house. In the fore part of the house she saw the tables set with the cups of guests who had been feasting with my father, as being in attendance on him; these were now all gone to a meeting of the public assembly, so she snatched up three cups and carried them off in the bosom of her dress, while I followed her, for I knew no better. The sun was now set, and darkness was over all the land, so we hurried on as fast as we could till we reached the harbour, where the Phoenician ship was lying. When they had got on board they sailed their ways over the sea, taking us
 
----
-
 with them, and Jove sent then a fair wind; six days did we sail both night and day, but on the seventh day Diana struck the woman and she fell heavily down into the ship's hold as though she were a sea gull alighting on the water; so they threw her overboard to the seals and fishes, and I was left all sorrowful and alone. Presently the winds and waves took the ship to Ithaca, where Laertes gave sundry of his chattels for me, and thus it was that ever I came to set eyes upon this country.”
 
 Ulysses answered, “Eumaeus, I have heard the story of your misfortunes with the most lively interest and pity, but Jove has given you good as well as evil, for in spite of everything you have a good master, who sees that you always have enough to eat and drink; and you lead a good life, whereas I am still going about begging my way from city to city.”
 
-Thus did they converse, and they had only a very little time left for sleep, for it was soon daybreak. In the mean time Telemachus and his crew were nearing land, so they loosed the sails, took down the mast, and rowed the ship into the harbour. [136] They cast out their mooring stones and made fast the hawsers; they then got out upon the sea shore, mixed their wine, and got dinner ready. As soon as they had had enough to eat and drink Telemachus said, “Take the ship on to the town, but leave me here, for I want to look after the herdsmen on one of my farms. In the evening, when I have seen all I want, I will come down to the city, and to-morrow morning in return for your trouble I will give you all a good dinner with meat and wine.” [137]
+Thus did they converse, and they had only a very little time left for sleep, for it was soon daybreak. In the mean time Telemachus and his crew were nearing land, so they loosed the sails, took down the mast, and rowed the ship into the harbour. They cast out their mooring stones and made fast the hawsers; they then got out upon the sea shore, mixed their wine, and got dinner ready. As soon as they had had enough to eat and drink Telemachus said, “Take the ship on to the town, but leave me here, for I want to look after the herdsmen on one of my farms. In the evening, when I have seen all I want, I will come down to the city, and to-morrow morning in return for your trouble I will give you all a good dinner with meat and wine.” 
 
 Then Theoclymenus said, “And what, my dear young friend, is to become of me? To whose house, among all your chief men, am I to repair? or shall I go straight to your own house and to your mother?”
 
 “At any other time,” replied Telemachus, “I should have bidden you go to my own house, for you would find no want of hospitality; at the present moment, however, you would not be comfortable there, for I shall be away, and my mother will not see you; she does not often show herself even to the suitors, but sits at her loom weaving in an upper chamber, out of their way; but I can tell you a man whose house you can go to—I mean Eurymachus the son of Polybus, who is held in the highest estimation by every one in Ithaca. He is much the best man and the most persistent wooer, of all those who are paying court to my mother and trying to take Ulysses’ place. Jove, however, in heaven alone knows whether or no they will come to a bad end before the marriage takes place.”
 
-As he was speaking a bird flew by upon his right hand—a hawk, Apollo’s messenger. It held a dove in its talons, and the feathers, as it tore them off,[138] fell to the ground midway between Telemachus and the ship. On this Theoclymenus called him apart and caught him by the hand. “Telemachus,” said he, “that bird did not fly on your right hand without having been sent there by some god. As soon as I saw it I knew it was an omen; it means that you will remain powerful and that there will be no house in Ithaca more royal than your own.”
+As he was speaking a bird flew by upon his right hand—a hawk, Apollo’s messenger. It held a dove in its talons, and the feathers, as it tore them off, fell to the ground midway between Telemachus and the ship. On this Theoclymenus called him apart and caught him by the hand. “Telemachus,” said he, “that bird did not fly on your right hand without having been sent there by some god. As soon as I saw it I knew it was an omen; it means that you will remain powerful and that there will be no house in Ithaca more royal than your own.”
 
 “I wish it may prove so,” answered Telemachus. “If it does, I will show you so much good will and give you so many presents that all who meet you will congratulate you.”
 
@@ -1797,13 +1404,9 @@ And Piraeus answered, “Telemachus, you may stay away as long as you please, bu
 
 As he spoke he went on board, and bade the others do so also and loose the hawsers, so they took their places in the ship. But Telemachus bound on his sandals, and took a long and doughty spear with a head of sharpened bronze from the deck of the ship. Then they loosed the hawsers, thrust the ship off from land, and made on towards the city as they had been told to do, while Telemachus strode on as fast as he could, till he reached the homestead where his countless herds of swine were feeding, and where dwelt the excellent swineherd, who was so devoted a servant to his master.
 
+# BOOK XVI.
 
-
----
-
-BOOK XVI
-
-ULYSSES REVEALS HIMSELF TO TELEMACHUS.
+*Ulysses reveals himself to Telemachus.*
 
 Meanwhile Ulysses and the swineherd had lit a fire in the hut and were were getting breakfast ready at daybreak, for they had sent the men out with the pigs. When Telemachus came up, the dogs did not bark but fawned upon him, so Ulysses, hearing the sound of feet and noticing that the dogs did not bark, said to Eumaeus:
 
@@ -1825,9 +1428,7 @@ To this you answered, O swineherd Eumaeus, “My son, I will tell you the real t
 
 “I am very much distressed,” said Telemachus, “by what you have just told me. How can I take this stranger into my house? I am as yet young, and am not strong enough to hold my own if any man attacks me. My mother cannot make up her mind whether to stay where she is and look after the house out of respect for public opinion and the memory of her husband, or whether the time is now come for her to take the best man of those who are wooing her, and the one who will make her the most advantageous offer; still, as the stranger has come to your station I will find him a cloak and shirt of good wear, with a sword and sandals, and will send him wherever he wants to go. Or if you like you can keep him here at the station, and I will send him clothes and food that he may be no burden on you and on your men; but I will not have him go near the suitors, for they are very insolent, and are sure to ill treat him in a way that would greatly grieve me; no matter how valiant a man may be he can do nothing against numbers, for they will be too strong for him.”
 
-Then Ulysses said, “Sir, it is right that I should say something myself. I am much shocked about what you have said about the insolent way in which the suitors are behaving in despite of such a man as you are. Tell me, do you submit to such treatment tamely, or has some god set your people against you? May you not complain of your brothers—for it is to these that a man may look for support, however great his quarrel may be? I wish I were as young as you are and in my present mind; if I were son to Ulysses, or, indeed, Ulysses himself, I would rather some one came and cut my head off, but I would go to the house and be the bane of every one of these men.[139] If they were too many for me—I being single-handed—I would rather
-
----
+Then Ulysses said, “Sir, it is right that I should say something myself. I am much shocked about what you have said about the insolent way in which the suitors are behaving in despite of such a man as you are. Tell me, do you submit to such treatment tamely, or has some god set your people against you? May you not complain of your brothers—for it is to these that a man may look for support, however great his quarrel may be? I wish I were as young as you are and in my present mind; if I were son to Ulysses, or, indeed, Ulysses himself, I would rather some one came and cut my head off, but I would go to the house and be the bane of every one of these men. If they were too many for me—I being single-handed—I would rather
 
 die fighting in my own house than see such disgraceful sights day after day, strangers grossly maltreated, and men dragging the women servants about the house in an unseemly way, wine drawn recklessly, and bread wasted all to no purpose for an end that shall never be accomplished.”
 
@@ -1855,10 +1456,6 @@ Ulysses answered, “Telemachus, you ought not to be so immeasurably astonished 
 
 As he spoke he sat down, and Telemachus threw his arms about his father and wept. They were both so much moved that they cried aloud like eagles or vultures with crooked talons that have been robbed of their half fledged young by peasants. Thus piteously did they weep, and the sun would have gone down upon their mourning if Telemachus had not suddenly said, “In what ship, my dear father, did your crew bring you to Ithaca? Of what nation did they declare themselves to be—for you cannot have come by land?”
 
-
-
----
-
 "I will tell you the truth, my son," replied Ulysses. "It was the Phaeacians who brought me here. They are great sailors, and are in the habit of giving escorts to any one who reaches their coasts. They took me over the sea while I was fast asleep, and landed me in Ithaca, after giving me many presents in bronze, gold, and raiment. These things by heaven's mercy are lying concealed in a cave, and I am now come here on the suggestion of Minerva that we may consult about killing our enemies. First, therefore, give me a list of the suitors, with their number, that I may learn who, and how many, they are. I can then turn the matter over in my mind, and see whether we two can fight the whole body of them ourselves, or whether we must find others to help us."
 
 To this Telemachus answered, "Father, I have always heard of your renown both in the field and in council, but the task you talk of is a very great one: I am awed at the mere thought of it; two men cannot stand against many and brave ones. There are not ten suitors only, nor twice ten, but ten many times over; you shall learn their number at once. There are fifty-two chosen youths from Dulichium, and they have six servants; from Same there are twenty-four; twenty young Achaeans from Zacynthus, and twelve from Ithaca itself, all of them well born. They have with them a servant Medon, a bard, and two men who can carve at table. If we face such numbers as this, you may have bitter cause to rue your coming, and your revenge. See whether you cannot think of some one who would be willing to come and help us."
@@ -1878,10 +1475,6 @@ The suitors were surprised and angry at what had happened, so they went outside 
 "My friends," said he, "this voyage of Telemachus's is a very serious matter; we had made sure that it would come to nothing. Now, however, let us draw a ship into the water, and get a crew together to send after the others and tell them to come back as fast as they can."
 
 He had hardly done speaking when Amphinomus turned in his place and saw the ship inside the harbour, with the crew lowering her sails, and putting by their oars; so he laughed, and said to the others, "We need not send them any message, for
-
-
-
----
 
 they are here. Some god must have told them, or else they saw the ship go by, and could not overtake her.”
 
@@ -1909,13 +1502,9 @@ On hearing this Telemachus smiled to his father, but so that Eumaeus could not s
 
 Then, when they had finished their work and the meal was ready, they ate it, and every man had his full share so that all were satisfied. As soon as they had had enough to eat and drink, they laid down to rest and enjoyed the boon of sleep.
 
+# BOOK XVII.
 
-
----
-
-# BOOK XVII
-
-TELEMACHUS AND HIS MOTHER MEET—ULYSSES AND EUMAEUS COME DOWN TO THE TOWN, AND ULYSSES IS INSULTED BY MELANTHIUS—HE IS RECOGNISED BY THE DOG ARGOS—HE IS INSULTED AND PRESENTLY STRUCK BY ANTINOUS WITH A STOOL—PENELOPE DESIRES THAT HE SHALL BE SENT TO HER.
+*Telemachus and his mother meet—Ulysses and Eumaeus come down to the town, and Ulysses is insulted by Melanthius—He is recognised by the dog Argos—He is insulted and presently struck by Antinous with a stool—Penelope desires that he shall be sent to her.*
 
 When the child of morning, rosy-fingered Dawn, appeared, Telemachus bound on his sandals and took a strong spear that suited his hands, for he wanted to go into the city. “Old friend,” said he to the swineherd, “I will now go to the town and show myself to my mother, for she will never leave off grieving till she has seen me. As for this unfortunate stranger, take him to the town and let him beg there of any one who will give him a drink and a piece of bread. I have trouble enough of my own, and cannot be burdened with other people. If this makes him angry so much the worse for him, but I like to say what I mean.”
 
@@ -1935,8 +1524,6 @@ Telemachus went through, and out of, the cloisters spear in hand—not alone, fo
 
 With these words he took Theoclymenus to his own house. When they got there they laid their cloaks on the benches and seats, went into the baths, and washed themselves. When the maids had washed and anointed them, and had given them cloaks and shirts, they took their seats at table. A maid servant then brought them water in a beautiful golden ewer, and poured it into a silver basin for them to wash their hands; and she drew a clean table beside them. An upper servant brought them bread and offered them many good things of what there was in the house. Opposite them sat Penelope, reclining on a couch by one of the bearing-posts of the cloister, and spinning. Then they laid their hands on the good things that were before them, and as soon as they had had enough to eat and drink Penelope said:
 
----
-
 “Telemachus, I shall go upstairs and lie down on that sad couch, which I have not ceased to water with my tears, from the day Ulysses set out for Troy with the sons of Atreus. You failed, however, to make it clear to me before the suitors came back to the house, whether or no you had been able to hear anything about the return of your father.”
 
 “I will tell you then truth,” replied her son. “We went to Pylos and saw Nestor, who took me to his house and treated me as hospitably as though I were a son of his own who had just returned after a long absence; so also did his sons; but he said he had not heard a word from any human being about Ulysses, whether he was alive or dead. He sent me, therefore, with a chariot and horses to Menelaus. There I saw Helen, for whose sake so many, both Argives and Trojans, were in heaven's wisdom doomed to suffer. Menelaus asked me what it was that had brought me to Lacedaemon, and I told him the whole truth, whereon he said, ‘So, then, these cowards would usurp a brave man's bed? A hind might as well lay her new-born young in the lair of a lion, and then go off to feed in the forest or in some grassy dell. The lion, when he comes back to his lair, will make short work with the pair of them, and so will Ulysses with these suitors. By father Jove, Minerva, and Apollo, if Ulysses is still the man that he was when he wrestled with Philomeleides in Lesbos, and threw him so heavily that all the Greeks cheered him—if he is still such, and were to come near these suitors, they would have a short shrift and a sorry wedding. As regards your question, however, I will not prevaricate nor deceive you, but what the old man of the sea told me, so much will I tell you in full. He said he could see Ulysses on an island sorrowing bitterly in the house of the nymph Calypso, who was keeping him prisoner, and he could not reach his home, for he had no ships nor sailors to take him over the sea.' This was what Menelaus told me, and when I had heard his story I came away; the gods then gave me a fair wind and soon brought me safe home again.”
@@ -1947,17 +1534,15 @@ With these words he moved the heart of Penelope. Then Theoclymenus said to her:
 
 “May it be even so,” answered Penelope; “if your words come true, you shall have such gifts and such good will from me that all who see you shall congratulate you.”
 
-Thus did they converse. Meanwhile the suitors were throwing discs, or aiming with spears at a mark on the levelled ground in front of the house, and behaving with all their old insolence. But when it was now time for dinner, and the flock of sheep and goats had come into the town from all the country round,[140] with their shepherds as usual, then Medon, who was their favourite servant, and who waited upon them at table, said, “Now then, my young masters, you have had enough sport, so come inside that we may get dinner ready. Dinner is not a bad thing, at dinner time.”
+Thus did they converse. Meanwhile the suitors were throwing discs, or aiming with spears at a mark on the levelled ground in front of the house, and behaving with all their old insolence. But when it was now time for dinner, and the flock of sheep and goats had come into the town from all the country round, with their shepherds as usual, then Medon, who was their favourite servant, and who waited upon them at table, said, “Now then, my young masters, you have had enough sport, so come inside that we may get dinner ready. Dinner is not a bad thing, at dinner time.”
 
-They left their sports as he told them, and when they were within the house, they laid their cloaks on the benches and seats inside, and then sacrificed some sheep, goats, pigs, and a heifer, all of them fat and well grown.[141] Thus they made ready for their meal. In the meantime Ulysses and the swineherd were about starting for the town, and the swineherd said, “Stranger, I suppose you still want to go to town to-day, as my master said you were to do; for my own part I should have liked you to stay here as a station hand, but I must do as my master tells me, or he will scold me later on, and a scolding from one's master is a very serious thing. Let us then be off, for it is now broad day; it will be night again directly and then you will find it colder.”[142]
+They left their sports as he told them, and when they were within the house, they laid their cloaks on the benches and seats inside, and then sacrificed some sheep, goats, pigs, and a heifer, all of them fat and well grown. Thus they made ready for their meal. In the meantime Ulysses and the swineherd were about starting for the town, and the swineherd said, “Stranger, I suppose you still want to go to town to-day, as my master said you were to do; for my own part I should have liked you to stay here as a station hand, but I must do as my master tells me, or he will scold me later on, and a scolding from one's master is a very serious thing. Let us then be off, for it is now broad day; it will be night again directly and then you will find it colder.”
 
 “I know, and understand you,” replied Ulysses; “you need say no more. Let us be going, but if you have a stick ready cut, let me have it to walk with, for you say the road is a very rough one.”
 
-As he spoke he threw his shabby old tattered wallet over his shoulders, by the cord from which it hung, and Eumaeus gave him a stick to his liking. The two then started, leaving the station in charge of the dogs and herdsmen who remained behind; the swineherd led the way and his master followed after, looking like some broken down old tramp as he leaned upon his staff, and his clothes were all in rags. When they had got over the rough steep ground and were nearing the city, they reached the fountain from which the citizens drew their water. This had been made by Ithacus, Neritus, and Polyctor. There was a grove of water-loving poplars planted in a circle all round it, and the clear cold water came down to it from a rock high up,[143] while above the fountain there was an altar to the nymphs, at which all wayfarers used to sacrifice. Here Melanthius son of Dolius overtook them as he was driving down some goats, the best in his flock, for the suitors' dinner, and there were two shepherds with him. When he saw Eumaeus and Ulysses he reviled them with outrageous and unseemly language, which made Ulysses very angry.
+As he spoke he threw his shabby old tattered wallet over his shoulders, by the cord from which it hung, and Eumaeus gave him a stick to his liking. The two then started, leaving the station in charge of the dogs and herdsmen who remained behind; the swineherd led the way and his master followed after, looking like some broken down old tramp as he leaned upon his staff, and his clothes were all in rags. When they had got over the rough steep ground and were nearing the city, they reached the fountain from which the citizens drew their water. This had been made by Ithacus, Neritus, and Polyctor. There was a grove of water-loving poplars planted in a circle all round it, and the clear cold water came down to it from a rock high up, while above the fountain there was an altar to the nymphs, at which all wayfarers used to sacrifice. Here Melanthius son of Dolius overtook them as he was driving down some goats, the best in his flock, for the suitors' dinner, and there were two shepherds with him. When he saw Eumaeus and Ulysses he reviled them with outrageous and unseemly language, which made Ulysses very angry.
 
-“There you go,” cried he, “and a precious pair you are. See how heaven brings birds of the same feather to one another. Where, pray, master swineherd, are you taking this poor miserable object? It would make any one sick to see such a creature at table. A fellow like this never won a prize for anything in his life, but will go about rubbing his shoulders against every man's door post, and begging, not for swords and cauldrons[144] like a man, but only for a few scraps not worth begging for. If you would give him to me for a hand on my station, he might do to clean out the folds, or bring a bit of sweet feed to the kids, and
-
----
+“There you go,” cried he, “and a precious pair you are. See how heaven brings birds of the same feather to one another. Where, pray, master swineherd, are you taking this poor miserable object? It would make any one sick to see such a creature at table. A fellow like this never won a prize for anything in his life, but will go about rubbing his shoulders against every man's door post, and begging, not for swords and cauldrons like a man, but only for a few scraps not worth begging for. If you would give him to me for a hand on my station, he might do to clean out the folds, or bring a bit of sweet feed to the kids, and
 
 he could fatten his thighs as much as he pleased on whey; but he has taken to bad ways and will not go about any kind of work; he will do nothing but beg victuals all the town over, to feed his insatiable belly. I say, therefore—and it shall surely be—if he goes near Ulysses' house he will get his head broken by the stools they will fling at him, till they turn him out.”
 
@@ -1987,10 +1572,6 @@ Telemachus saw Eumaeus long before any one else did, and beckoned him to come an
 
 Immediately afterwards Ulysses came inside, looking like a poor miserable old beggar, leaning on his staff and with his clothes all in rags. He sat down upon the threshold of ash-wood just inside the doors leading from the outer to the inner court, and against a bearing-post of cypress-wood which the carpenter had skilfully planed, and had made to join truly with rule and line. Telemachus took a whole loaf from the bread-basket, with as much meat as he could hold in his two hands, and said to
 
-
-
----
-
 Eumaeus, “Take this to the stranger, and tell him to go the round of the suitors, and beg from them; a beggar must not be shamefaced.”
 
 So Eumaeus went up to him and said, “Stranger, Telemachus sends you this, and says you are to go the round of the suitors begging, for beggars must not be shamefaced.”
@@ -2015,13 +1596,11 @@ As he spoke he drew the stool on which he rested his dainty feet from under the 
 
 “But the men disobeyed my orders, took to their own devices, and ravaged the land of the Egyptians, killing the men, and taking their wives and children captives. The alarm was soon carried to the city, and when they heard the war-cry, the people came out at daybreak till the plain was filled with soldiers horse and foot, and with the gleam of armour. Then Jove spread panic among my men, and they would no longer face the enemy, for they found themselves surrounded. The Egyptians killed many of us, and took the rest alive to do forced labour for them; as for myself, they gave me to a friend who met them, to take to Cyprus, Dmetor by name, son of Iasus, who was a great man in Cyprus. Thence I am come hither in a state of great misery.”
 
-Then Antinous said, “What god can have sent such a pestilence to plague us during our dinner? Get out, into the open part of the court,[145] or I will give you Egypt and Cyprus over again for your insolence and importunity; you have begged of all the others, and they have given you lavishly, for they have abundance round them, and it is easy to be free with other people’s property when there is plenty of it.”
+Then Antinous said, “What god can have sent such a pestilence to plague us during our dinner? Get out, into the open part of the court, or I will give you Egypt and Cyprus over again for your insolence and importunity; you have begged of all the others, and they have given you lavishly, for they have abundance round them, and it is easy to be free with other people’s property when there is plenty of it.”
 
 On this Ulysses began to move off, and said, “Your looks, my fine sir, are better than your breeding; if you were in your own house you would not spare a poor man so much as a pinch of salt, for though you are in another man’s, and surrounded with abundance, you cannot find it in you to give him even a piece of bread.”
 
 This made Antinous very angry, and he scowled at him saying, “You shall pay for this before you get clear of the court.” With these words he threw a footstool at him, and hit him on the right shoulder blade near the top of his back. Ulysses stood
-
----
 
 firm as a rock and the blow did not even stagger him, but he shook his head in silence as he brooded on his revenge. Then he went back to the threshold and sat down there, laying his well filled wallet at his feet.
 
@@ -2029,11 +1608,11 @@ firm as a rock and the blow did not even stagger him, but he shook his head in s
 
 “Sit where you are, and eat your victuals in silence, or be off elsewhere,” shouted Antinous. “If you say more I will have you dragged hand and foot through the courts, and the servants shall flay you alive.”
 
-The other suitors were much displeased at this, and one of the young men said, “Antinous, you did ill in striking that poor wretch of a tramp: it will be worse for you if he should turn out to be some god—and we know the gods go about disguised in all sorts of ways as people from foreign countries, and travel about the world to see who do amiss and who righteously.”[146]
+The other suitors were much displeased at this, and one of the young men said, “Antinous, you did ill in striking that poor wretch of a tramp: it will be worse for you if he should turn out to be some god—and we know the gods go about disguised in all sorts of ways as people from foreign countries, and travel about the world to see who do amiss and who righteously.”
 
 Thus said the suitors, but Antinous paid them no heed. Meanwhile Telemachus was furious about the blow that had been given to his father, and though no tear fell from him, he shook his head in silence and brooded on his revenge.
 
-Now when Penelope heard that the beggar had been struck in the banqueting-cloister, she said before her maids, “Would that Apollo would so strike you, Antinous,” and her waiting woman Eurynome answered, “If our prayers were answered not one of the suitors would ever again see the sun rise.” Then Penelope said, “Nurse,[147] I hate every single one of them, for they mean nothing but mischief, but I hate Antinous like the darkness of death itself. A poor unfortunate tramp has come begging about the house for sheer want. Every one else has given him something to put in his wallet, but Antinous has hit him on the right shoulder-blade with a footstool.”
+Now when Penelope heard that the beggar had been struck in the banqueting-cloister, she said before her maids, “Would that Apollo would so strike you, Antinous,” and her waiting woman Eurynome answered, “If our prayers were answered not one of the suitors would ever again see the sun rise.” Then Penelope said, “Nurse, I hate every single one of them, for they mean nothing but mischief, but I hate Antinous like the darkness of death itself. A poor unfortunate tramp has come begging about the house for sheer want. Every one else has given him something to put in his wallet, but Antinous has hit him on the right shoulder-blade with a footstool.”
 
 Thus did she talk with her maids as she sat in her own room, and in the meantime Ulysses was getting his dinner. Then she called for the swineherd and said, “Eumaeus, go and tell the stranger to come here, I want to see him and ask him some questions. He seems to have travelled much, and he may have seen or heard something of my unhappy husband.”
 
@@ -2049,8 +1628,6 @@ When Eumaeus heard this he went straight to Ulysses and said, “Father stranger
 
 The swineherd went back when he heard this, and Penelope said as she saw him cross the threshold, “Why do you not bring him here, Eumaeus? Is he afraid that some one will ill-treat him, or is he shy of coming inside the house at all? Beggars should not be shamefaced.”
 
----
-
 To this you answered, O swineherd Eumaeus, "The stranger is quite reasonable. He is avoiding the suitors, and is only doing what any one else would do. He asks you to wait till sundown, and it will be much better, madam, that you should have him all to yourself, when you can hear him and talk to him as you will."
 
 "The man is no fool," answered Penelope, "it would very likely be as he says, for there are no such abominable people in the whole world as these men are."
@@ -2061,15 +1638,11 @@ When she had done speaking Eumaeus went back to the suitors, for he had explaine
 
 On this Eumaeus took his seat again, and when he had finished his dinner he left the courts and the cloister with the men at table, and went back to his pigs. As for the suitors, they presently began to amuse themselves with singing and dancing, for it was now getting on towards evening.
 
+# BOOK XVIII.
 
+*The fight with Irus—Ulysses warns Amphinomus—Penelope gets presents from the suitors—The braziers—Ulysses rebukes Eurymachus.*
 
----
-
-# BOOK XVIII
-
-THE FIGHT WITH IRUS—ULYSSES WARNS AMPHINOMUS—PENELOPE GETS PRESENTS FROM THE SUITORS—THE BRAZIERS—ULYSSES REBUKES EURYMACHUS.
-
-Now there came a certain common tramp who used to go begging all over the city of Ithaca, and was notorious as an incorrigible glutton and drunkard. This man had no strength nor stay in him, but he was a great hulking fellow to look at; his real name, the one his mother gave him, was Arnaeus, but the young men of the place called him Irus,[148] because he used to run errands for any one who would send him. As soon as he came he began to insult Ulysses, and to try and drive him out of his own house.
+Now there came a certain common tramp who used to go begging all over the city of Ithaca, and was notorious as an incorrigible glutton and drunkard. This man had no strength nor stay in him, but he was a great hulking fellow to look at; his real name, the one his mother gave him, was Arnaeus, but the young men of the place called him Irus, because he used to run errands for any one who would send him. As soon as he came he began to insult Ulysses, and to try and drive him out of his own house.
 
 “Be off, old man,” he cried, “from the doorway, or you shall be dragged out neck and heels. Do you not see that they are all giving me the wink, and wanting me to turn you out by force, only I do not like to do so? Get up then, and go of yourself, or we shall come to blows.”
 
@@ -2077,7 +1650,7 @@ Ulysses frowned on him and said, “My friend, I do you no manner of harm; peopl
 
 Irus was very angry and answered, “You filthy glutton, you run on trippingly like an old fish-fag. I have a good mind to lay both hands about you, and knock your teeth out of your head like so many boar’s tusks. Get ready, therefore, and let these people here stand by and look on. You will never be able to fight one who is so much younger than yourself.”
 
-Thus roundly did they rate one another on the smooth pavement in front of the doorway,[149] and when Antinous saw what was going on he laughed heartily and said to the others, “This is the finest sport that you ever saw; heaven never yet sent anything like it into this house. The stranger and Irus have quarreled and are going to fight, let us set them on to do so at once.”
+Thus roundly did they rate one another on the smooth pavement in front of the doorway, and when Antinous saw what was going on he laughed heartily and said to the others, “This is the finest sport that you ever saw; heaven never yet sent anything like it into this house. The stranger and Irus have quarreled and are going to fight, let us set them on to do so at once.”
 
 The suitors all came up laughing, and gathered round the two ragged tramps. “Listen to me,” said Antinous, “there are some goats’ paunches down at the fire, which we have filled with blood and fat, and set aside for supper; he who is victorious and proves himself to be the better man shall have his pick of the lot; he shall be free of our table and we will not allow any other beggar about the house at all.”
 
@@ -2090,8 +1663,6 @@ Every one assented, and Ulysses girded his old rags about his loins, thus baring
 Irus began to be very uneasy as he heard them, but the servants girded him by force, and brought him [into the open part of the court] in such a fright that his limbs were all of a tremble. Antinous scolded him and said, “You swaggering bully, you ought never to have been born at all if you are afraid of such an old broken down creature as this tramp is. I say, therefore—and it shall surely be—if he beats you and proves himself the better man, I shall pack you off on board ship to the mainland and send you to king Echetus, who kills every one that comes near him. He will cut off your nose and ears, and draw out your entrails for the dogs to eat.”
 
 This frightened Irus still more, but they brought him into the middle of the court, and the two men raised their hands to fight. Then Ulysses considered whether he should let drive so hard at him as to make an end of him then and there, or whether he should give him a lighter blow that should only knock him down; in the end he deemed it best to give the lighter blow for fear the Achaeans should begin to suspect who he was. Then they began to fight, and Irus hit Ulysses on the right shoulder; but Ulysses gave Irus a blow on the neck under the ear that broke in the bones of his skull, and the blood came gushing out of his
-
----
 
 mouth; he fell groaning in the dust, gnashing his teeth and kicking on the ground, but the suitors threw up their hands and nearly died of laughter, as Ulysses caught hold of him by the foot and dragged him into the outer court as far as the gate-house. There he propped him up against the wall and put his staff in his hands. “Sit here,” said he, “and keep the dogs and pigs off; you are a pitiful creature, and if you try to make yourself king of the beggars any more you shall fare still worse.”
 
@@ -2109,15 +1680,13 @@ Then Minerva put it into the mind of Penelope to show herself to the suitors, th
 
 “I know, Eurynome,” replied Penelope, “that you mean well, but do not try and persuade me to wash and to anoint myself, for heaven robbed me of all my beauty on the day my husband sailed; nevertheless, tell Autonoe and Hippodamia that I want them. They must be with me when I am in the cloister; I am not going among the men alone; it would not be proper for me to do so.”
 
-On this the old woman[150] went out of the room to bid the maids go to their mistress. In the meantime Minerva bethought her of another matter, and sent Penelope off into a sweet slumber; so she lay down on her couch and her limbs became heavy with sleep. Then the goddess shed grace and beauty over her that all the Achaeans might admire her. She washed her face with the ambrosial loveliness that Venus wears when she goes dancing with the Graces; she made her taller and of a more commanding figure, while as for her complexion it was whiter than sawn ivory. When Minerva had done all this she went away, whereon the maids came in from the women's room and woke Penelope with the sound of their talking.
+On this the old woman went out of the room to bid the maids go to their mistress. In the meantime Minerva bethought her of another matter, and sent Penelope off into a sweet slumber; so she lay down on her couch and her limbs became heavy with sleep. Then the goddess shed grace and beauty over her that all the Achaeans might admire her. She washed her face with the ambrosial loveliness that Venus wears when she goes dancing with the Graces; she made her taller and of a more commanding figure, while as for her complexion it was whiter than sawn ivory. When Minerva had done all this she went away, whereon the maids came in from the women's room and woke Penelope with the sound of their talking.
 
 “What an exquisitely delicious sleep I have been having,” said she, as she passed her hands over her face, “in spite of all my misery. I wish Diana would let me die so sweetly now at this very moment, that I might no longer waste in despair for the loss of my dear husband, who possessed every kind of good quality and was the most distinguished man among the Achaeans.”
 
 With these words she came down from her upper room, not alone but attended by two of her maidens, and when she reached the suitors she stood by one of the bearing-posts supporting the roof of the cloister, holding a veil before her face, and with a staid maid servant on either side of her. As they beheld her the suitors were so overpowered and became so desperately enamoured of her, that each one prayed he might win her for his own bed fellow.
 
 “Telemachus,” said she, addressing her son, “I fear you are no longer so discreet and well conducted as you used to be. When you were younger you had a greater sense of propriety; now, however, that you are grown up, though a stranger to look
-
----
 
 at you would take you for the son of a well to do father as far as size and good looks go, your conduct is by no means what it should be. What is all this disturbance that has been going on, and how came you to allow a stranger to be so disgracefully ill-treated? What would have happened if he had suffered serious injury while a suppliant in our house? Surely this would have been very discreditable to you.”
 
@@ -2133,15 +1702,13 @@ Then Antinous said, “Queen Penelope, daughter of Icarius, take as many present
 
 The others applauded what Antinous had said, and each one sent his servant to bring his present. Antinous’s man returned with a large and lovely dress most exquisitely embroidered. It had twelve beautifully made brooch pins of pure gold with which to fasten it. Eurymachus immediately brought her a magnificent chain of gold and amber beads that gleamed like sunlight. Eurydamas’s two men returned with some earrings fashioned into three brilliant pendants which glistened most beautifully; while king Pisander son of Polyctor gave her a necklace of the rarest workmanship, and every one else brought her a beautiful present of some kind.
 
-Then the queen went back to her room upstairs, and her maids brought the presents after her. Meanwhile the suitors took to singing and dancing, and stayed till evening came. They danced and sang till it grew dark; they then brought in three braziers[151] to give light, and piled them up with chopped firewood very old and dry, and they lit torches from them, which the maids held up turn and turn about. Then Ulysses said:
+Then the queen went back to her room upstairs, and her maids brought the presents after her. Meanwhile the suitors took to singing and dancing, and stayed till evening came. They danced and sang till it grew dark; they then brought in three braziers to give light, and piled them up with chopped firewood very old and dry, and they lit torches from them, which the maids held up turn and turn about. Then Ulysses said:
 
 “Maids, servants of Ulysses who has so long been absent, go to the queen inside the house; sit with her and amuse her, or spin, and pick wool. I will hold the light for all these people. They may stay till morning, but shall not beat me, for I can stand a great deal.”
 
 The maids looked at one another and laughed, while pretty Melantho began to gibe at him contemptuously. She was daughter to Dolius, but had been brought up by Penelope, who used to give her toys to play with, and looked after her when she was a child; but in spite of all this she showed no consideration for the sorrows of her mistress, and used to misconduct herself with Eurymachus, with whom she was in love.
 
 “Poor wretch,” said she, “are you gone clean out of your mind? Go and sleep in some smithy, or place of public gossips, instead of chattering here. Are you not ashamed of opening your mouth before your betters—so many of them too? Has the wine been getting into your head, or do you always babble in this way? You seem to have lost your wits because you beat the
-
----
 
 tramp Irus; take care that a better man than he does not come and cudgel you about the head till he pack you bleeding out of the house."
 
@@ -2163,15 +1730,9 @@ The suitors bit their lips and marvelled at the boldness of his speech; but Amph
 
 Thus did he speak, and his saying pleased them well, so Mulius of Dulichium, servant to Amphinomus, mixed them a bowl of wine and water and handed it round to each of them man by man, whereon they made their drink-offerings to the blessed gods: Then, when they had made their drink-offerings and had drunk each one as he was minded, they took their several ways each of them to his own abode.
 
+# BOOK XIX.
 
-
----
-
-# BOOK XIX
-
-TELEMACHUS AND ULYSSES REMOVE THE ARMOUR—ULYSSES INTERVIEWS
-PENELOPE—EURYCLEA WASHES HIS FEET AND RECOGNISES THE SCAR ON HIS LEG—
-PENELOPE TELLS HER DREAM TO ULYSSES.
+*Telemachus and Ulysses remove the armour—Ulysses interviews Penelope—Euryclea washes his feet and recognises the scar on his leg—Penelope tells her dream to Ulysses.*
 
 Ulysses was left in the cloister, pondering on the means whereby with Minerva’s help he might be able to kill the suitors. Presently he said to Telemachus, “Telemachus, we must get the armour together and take it down inside. Make some excuse when the suitors ask you why you have removed it. Say that you have taken it to be out of the way of the smoke, inasmuch as it is no longer what it was when Ulysses went away, but has become soiled and begrimed with soot. Add to this more particularly that you are afraid Jove may set them on to quarrel over their wine, and that they may do each other some harm which may disgrace both banquet and wooing, for the sight of arms sometimes tempts people to use them.”
 
@@ -2193,8 +1754,6 @@ Ulysses scowled at her and answered, “My good woman, why should you be so angr
 
 Penelope heard what he was saying and scolded the maid, “Impudent baggage,” said she, “I see how abominably you are behaving, and you shall smart for it. You knew perfectly well, for I told you myself, that I was going to see the stranger and ask him about my husband, for whose sake I am in such continual sorrow.”
 
----
-
 Then she said to her head waiting woman Eurynome, “Bring a seat with a fleece upon it, for the stranger to sit upon while he tells his story, and listens to what I have to say. I wish to ask him some questions.”
 
 Eurynome brought the seat at once and set a fleece upon it, and as soon as Ulysses had sat down Penelope began by saying, “Stranger, I shall first ask you who and whence are you? Tell me of your town and parents.”
@@ -2203,13 +1762,11 @@ Eurynome brought the seat at once and set a fleece upon it, and as soon as Ulyss
 
 Then Penelope answered, “Stranger, heaven robbed me of all beauty, whether of face or figure, when the Argives set sail for Troy and my dear husband with them. If he were to return and look after my affairs I should be both more respected and should show a better presence to the world. As it is, I am oppressed with care, and with the afflictions which heaven has seen fit to heap upon me. The chiefs from all our islands—Dulichium, Same, and Zacynthus, as also from Ithaca itself, are wooing me against my will and are wasting my estate. I can therefore show no attention to strangers, nor suppliants, nor to people who say that they are skilled artisans, but am all the time broken-hearted about Ulysses. They want me to marry again at once, and I have to invent stratagems in order to deceive them. In the first place heaven put it in my mind to set up a great tambour-frame in my room, and to begin working upon an enormous piece of fine needlework. Then I said to them, ‘Sweethearts, Ulysses is indeed dead, still, do not press me to marry again immediately; wait—for I would not have my skill in needlework perish unrecorded—till I have finished making a pall for the hero Laertes, to be ready against the time when death shall take him. He is very rich, and the women of the place will talk if he is laid out without a pall.' This was what I said, and they assented; whereon I used to keep working at my great web all day long, but at night I would unpick the stitches again by torch light. I fooled them in this way for three years without their finding it out, but as time wore on and I was now in my fourth year, in the waning of moons, and many days had been accomplished, those good for nothing hussies my maids betrayed me to the suitors, who broke in upon me and caught me; they were very angry with me, so I was forced to finish my work whether I would or no. And now I do not see how I can find any further shift for getting out of this marriage. My parents are putting great pressure upon me, and my son chafes at the ravages the suitors are making upon his estate, for he is now old enough to understand all about it and is perfectly able to look after his own affairs, for heaven has blessed him with an excellent disposition. Still, notwithstanding all this, tell me who you are and where you come from—for you must have had father and mother of some sort; you cannot be the son of an oak or of a rock.”
 
-Then Ulysses answered, “Madam, wife of Ulysses, since you persist in asking me about my family, I will answer, no matter what it costs me: people must expect to be pained when they have been exiles as long as I have, and suffered as much among as many peoples. Nevertheless, as regards your question I will tell you all you ask. There is a fair and fruitful island in mid-ocean called Crete; it is thickly peopled and there are ninety cities in it: the people speak many different languages which overlap one another, for there are Achaeans, brave Eteocretans, Dorians of three-fold race, and noble Pelasgi. There is a great town there, Cnossus, where Minos reigned who every nine years had a conference with Jove himself.[152] Minos was father to Deucalion, whose son I am, for Deucalion had two sons Idomeneus and myself. Idomeneus sailed for Troy, and I, who am the younger, am called Aethon; my brother, however, was at once the older and the more valiant of the two; hence it was in Crete that I saw Ulysses and showed him hospitality, for the winds took him there as he was on his way to Troy, carrying him out of his course from cape Malea and leaving him in Amnisus off the cave of Ilithuia, where the harbours are difficult to enter and he could hardly find shelter from the winds that were then raging. As soon as he got there he went into the town and asked for Idomeneus, claiming to be his old and valued friend, but Idomeneus had already set sail for Troy some ten or twelve days earlier, so I took him to my own house and showed him every kind of hospitality, for I had abundance of everything. Moreover, I fed the men who were with him with barley meal from the public store, and got subscriptions of wine and oxen for them to sacrifice to their heart's content. They stayed with me twelve days, for there was a gale blowing from the North so strong that one could hardly keep one's feet on land. I suppose some unfriendly god had raised it for them, but on the thirteenth day the wind dropped, and they got away.”
+Then Ulysses answered, “Madam, wife of Ulysses, since you persist in asking me about my family, I will answer, no matter what it costs me: people must expect to be pained when they have been exiles as long as I have, and suffered as much among as many peoples. Nevertheless, as regards your question I will tell you all you ask. There is a fair and fruitful island in mid-ocean called Crete; it is thickly peopled and there are ninety cities in it: the people speak many different languages which overlap one another, for there are Achaeans, brave Eteocretans, Dorians of three-fold race, and noble Pelasgi. There is a great town there, Cnossus, where Minos reigned who every nine years had a conference with Jove himself. Minos was father to Deucalion, whose son I am, for Deucalion had two sons Idomeneus and myself. Idomeneus sailed for Troy, and I, who am the younger, am called Aethon; my brother, however, was at once the older and the more valiant of the two; hence it was in Crete that I saw Ulysses and showed him hospitality, for the winds took him there as he was on his way to Troy, carrying him out of his course from cape Malea and leaving him in Amnisus off the cave of Ilithuia, where the harbours are difficult to enter and he could hardly find shelter from the winds that were then raging. As soon as he got there he went into the town and asked for Idomeneus, claiming to be his old and valued friend, but Idomeneus had already set sail for Troy some ten or twelve days earlier, so I took him to my own house and showed him every kind of hospitality, for I had abundance of everything. Moreover, I fed the men who were with him with barley meal from the public store, and got subscriptions of wine and oxen for them to sacrifice to their heart's content. They stayed with me twelve days, for there was a gale blowing from the North so strong that one could hardly keep one's feet on land. I suppose some unfriendly god had raised it for them, but on the thirteenth day the wind dropped, and they got away.”
 
 Many a plausible tale did Ulysses further tell her, and Penelope wept as she listened, for her heart was melted. As the snow wastes upon the mountain tops when the winds from South East and West have breathed upon it and thawed it till the rivers run bank full with water, even so did her cheeks overflow with tears for the husband who was all the time sitting by her side. Ulysses felt for her and was sorry for her, but he kept his eyes as hard as horn or iron without letting them so much as quiver, so cunningly did he restrain his tears. Then, when she had relieved herself by weeping, she turned to him again and said: “Now, stranger, I shall put you to the test and see whether or no you really did entertain my husband and his men, as you say you did. Tell me, then, how he was dressed, what kind of a man he was to look at, and so also with his companions.”
 
----
-
-“Madam,” answered Ulysses, “it is such a long time ago that I can hardly say. Twenty years are come and gone since he left my home, and went elsewhither; but I will tell you as well as I can recollect. Ulysses wore a mantle of purple wool, double lined, and it was fastened by a gold brooch with two catches for the pin. On the face of this there was a device that shewed a dog holding a spotted fawn between his fore paws, and watching it as it lay panting upon the ground. Every one marvelled at the way in which these things had been done in gold, the dog looking at the fawn, and strangling it, while the fawn was struggling convulsively to escape.[153] As for the shirt that he wore next his skin, it was so soft that it fitted him like the skin of an onion, and glistened in the sunlight to the admiration of all the women who beheld it. Furthermore I say, and lay my saying to your heart, that I do not know whether Ulysses wore these clothes when he left home, or whether one of his companions had given them to him while he was on his voyage; or possibly some one at whose house he was staying made him a present of them, for he was a man of many friends and had few equals among the Achaeans. I myself gave him a sword of bronze and a beautiful purple mantle, double lined, with a shirt that went down to his feet, and I sent him on board his ship with every mark of honour. He had a servant with him, a little older than himself, and I can tell you what he was like; his shoulders were hunched,[154] he was dark, and he had thick curly hair. His name was Eurybates, and Ulysses treated him with greater familiarity than he did any of the others, as being the most like-minded with himself.”
+“Madam,” answered Ulysses, “it is such a long time ago that I can hardly say. Twenty years are come and gone since he left my home, and went elsewhither; but I will tell you as well as I can recollect. Ulysses wore a mantle of purple wool, double lined, and it was fastened by a gold brooch with two catches for the pin. On the face of this there was a device that shewed a dog holding a spotted fawn between his fore paws, and watching it as it lay panting upon the ground. Every one marvelled at the way in which these things had been done in gold, the dog looking at the fawn, and strangling it, while the fawn was struggling convulsively to escape. As for the shirt that he wore next his skin, it was so soft that it fitted him like the skin of an onion, and glistened in the sunlight to the admiration of all the women who beheld it. Furthermore I say, and lay my saying to your heart, that I do not know whether Ulysses wore these clothes when he left home, or whether one of his companions had given them to him while he was on his voyage; or possibly some one at whose house he was staying made him a present of them, for he was a man of many friends and had few equals among the Achaeans. I myself gave him a sword of bronze and a beautiful purple mantle, double lined, with a shirt that went down to his feet, and I sent him on board his ship with every mark of honour. He had a servant with him, a little older than himself, and I can tell you what he was like; his shoulders were hunched, he was dark, and he had thick curly hair. His name was Eurybates, and Ulysses treated him with greater familiarity than he did any of the others, as being the most like-minded with himself.”
 
 Penelope was moved still more deeply as she heard the indisputable proofs that Ulysses laid before her; and when she had again found relief in tears she said to him, “Stranger, I was already disposed to pity you, but henceforth you shall be honoured and made welcome in my house. It was I who gave Ulysses the clothes you speak of. I took them out of the store room and folded them up myself, and I gave him also the gold brooch to wear as an ornament. Alas! I shall never welcome him home again. It was by an ill fate that he ever set out for that detested city whose very name I cannot bring myself even to mention.”
 
@@ -2218,8 +1775,6 @@ Then Ulysses answered, “Madam, wife of Ulysses, do not disfigure yourself furt
 “May it be even so,” answered Penelope; “if your words come true you shall have such gifts and such good will from me that all who see you shall congratulate you; but I know very well how it will be. Ulysses will not return, neither will you get your escort hence, for so surely as that Ulysses ever was, there are now no longer any such masters in the house as he was, to receive honourable strangers or to further them on their way home. And now, you maids, wash his feet for him, and make him a bed on a couch with rugs and blankets, that he may be warm and quiet till morning. Then, at day break wash him and anoint him again, that he may sit in the cloister and take his meals with Telemachus. It shall be the worse for any one of these hateful people who is uncivil to him; like it or not, he shall have no more to do in this house. For how, sir, shall you be able to learn whether or no I am superior to others of my sex both in goodness of heart and understanding, if I let you dine in my cloisters squalid and ill clad? Men live but for a little season; if they are hard, and deal hardly, people wish them ill so long as they are alive, and speak contemptuously of them when they are dead, but he that is righteous and deals righteously, the people tell of his praise among all lands, and many shall call him blessed.”
 
 Ulysses answered, “Madam, I have foresworn rugs and blankets from the day that I left the snowy ranges of Crete to go on shipboard. I will lie as I have lain on many a sleepless night hitherto. Night after night have I passed in any rough sleeping place, and waited for morning. Nor, again, do I like having my feet washed; I shall not let any of the young hussies about your house touch my feet; but, if you have any old and respectable woman who has gone through as much trouble as I have, I will allow her to wash them.”
-
----
 
 To this Penelope said, "My dear sir, of all the guests who ever yet came to my house there never was one who spoke in all things with such admirable propriety as you do. There happens to be in the house a most respectable old woman—the same who received my poor dear husband in her arms the night he was born, and nursed him in infancy. She is very feeble now, but she shall wash your feet." "Come here," said she, "Euryclea, and wash your master's age-mate; I suppose Ulysses' hands and feet are very much the same now as his are, for trouble ages all of us dreadfully fast."
 
@@ -2235,10 +1790,6 @@ Ulysses, therefore, went to Parnassus to get the presents from Autolycus, who wi
 
 When the child of morning, rosy-fingered Dawn, appeared, the sons of Autolycus went out with their hounds hunting, and Ulysses went too. They climbed the wooded slopes of Parnassus and soon reached its breezy upland valleys; but as the sun was beginning to beat upon the fields, fresh-risen from the slow still currents of Oceanus, they came to a mountain dell. The dogs were in front searching for the tracks of the beast they were chasing, and after them came the sons of Autolycus, among whom was Ulysses, close behind the dogs, and he had a long spear in his hand. Here was the lair of a huge boar among some thick brushwood, so dense that the wind and rain could not get through it, nor could the sun's rays pierce it, and the ground underneath lay thick with fallen leaves. The boar heard the noise of the men's feet, and the hounds baying on every side as the huntsmen came up to him, so he rushed from his lair, raised the bristles on his neck, and stood at bay with fire flashing from his eyes. Ulysses was the first to raise his spear and try to drive it into the brute, but the boar was too quick for him, and charged him sideways, ripping him above the knee with a gash that tore deep though it did not reach the bone. As for the boar, Ulysses hit him on the right shoulder, and the point of the spear went right through him, so that he fell groaning in the dust until the life went out of him. The sons of Autolycus busied themselves with the carcass of the boar, and bound Ulysses' wound; then, after saying a spell to stop the bleeding, they went home as fast as they could. But when Autolycus and his sons had thoroughly healed Ulysses, they made him some splendid presents, and sent him back to Ithaca with much mutual good will. When he got back, his father and mother were rejoiced to see him, and asked him all about it, and how he had hurt himself to get the scar; so he told them how the boar had ripped him when he was out hunting with Autolycus and his sons on Mt. Parnassus.
 
-
-
----
-
 As soon as Euryclea had got the scarred limb in her hands and had well hold of it, she recognised it and dropped the foot at once. The leg fell into the bath, which rang out and was overturned, so that all the water was spilt on the ground; Euryclea's eyes between her joy and her grief filled with tears, and she could not speak, but she caught Ulysses by the beard and said, "My dear child, I am sure you must be Ulysses himself, only I did not know you till I had actually touched and handled you."
 
 As she spoke she looked towards Penelope, as though wanting to tell her that her dear husband was in the house, but Penelope was unable to look in that direction and observe what was going on, for Minerva had diverted her attention; so Ulysses caught Euryclea by the throat with his right hand and with his left drew her close to him, and said, "Nurse, do you wish to be the ruin of me, you who nursed me at your own breast, now that after twenty years of wandering I am at last come to my own home again? Since it has been borne in upon you by heaven to recognise me, hold your tongue, and do not say a word about it to any one else in the house, for if you do I tell you—and it shall surely be—that if heaven grants me to take the lives of these suitors, I will not spare you, though you are my own nurse, when I am killing the other women."
@@ -2249,7 +1800,7 @@ And Ulysses answered, "Nurse, you ought not to speak in that way; I am well able
 
 As he said this Euryclea left the cloister to fetch some more water, for the first had been all spilt; and when she had washed him and anointed him with oil, Ulysses drew his seat nearer to the fire to warm himself, and hid the scar under his rags. Then Penelope began talking to him and said:
 
-"Stranger, I should like to speak with you briefly about another matter. It is indeed nearly bed time—for those, at least, who can sleep in spite of sorrow. As for myself, heaven has given me a life of such unmeasurable woe, that even by day when I am attending to my duties and looking after the servants, I am still weeping and lamenting during the whole time; then, when night comes, and we all of us go to bed, I lie awake thinking, and my heart becomes a prey to the most incessant and cruel tortures. As the dun nightingale, daughter of Pandareus, sings in the early spring from her seat in shadiest covert hid, and with many a plaintive trill pours out the tale how by mishap she killed her own child Itylus, son of king Zethus, even so does my mind toss and turn in its uncertainty whether I ought to stay with my son here, and safeguard my substance, my bondsmen, and the greatness of my house, out of regard to public opinion and the memory of my late husband, or whether it is not now time for me to go with the best of these suitors who are wooing me and making me such magnificent presents. As long as my son was still young, and unable to understand, he would not hear of my leaving my husband's house, but now that he is full grown he begs and prays me to do so, being incensed at the way in which the suitors are eating up his property. Listen, then, to a dream that I have had and interpret it for me if you can. I have twenty geese about the house that eat mash out of a trough,[155] and of which I am exceedingly fond. I dreamed that a great eagle came swooping down from a mountain, and dug his curved beak into the neck of each of them till he had killed them all. Presently he soared off into the sky, and left them lying dead about the yard; whereon I wept in my dream till all my maids gathered round me, so piteously was I grieving because the eagle had killed my geese. Then he came back again, and perching on a projecting rafter spoke to me with human voice, and told me to leave off crying. 'Be of good courage,' he said, 'daughter of Icarius; this is no dream, but a vision of good omen that shall surely come to pass. The geese are the suitors, and I am no longer an eagle, but your own husband, who am come back to you, and who will bring these suitors to a disgraceful end.' On this I woke, and when I looked out I saw my geese at the trough eating their mash as usual."
+"Stranger, I should like to speak with you briefly about another matter. It is indeed nearly bed time—for those, at least, who can sleep in spite of sorrow. As for myself, heaven has given me a life of such unmeasurable woe, that even by day when I am attending to my duties and looking after the servants, I am still weeping and lamenting during the whole time; then, when night comes, and we all of us go to bed, I lie awake thinking, and my heart becomes a prey to the most incessant and cruel tortures. As the dun nightingale, daughter of Pandareus, sings in the early spring from her seat in shadiest covert hid, and with many a plaintive trill pours out the tale how by mishap she killed her own child Itylus, son of king Zethus, even so does my mind toss and turn in its uncertainty whether I ought to stay with my son here, and safeguard my substance, my bondsmen, and the greatness of my house, out of regard to public opinion and the memory of my late husband, or whether it is not now time for me to go with the best of these suitors who are wooing me and making me such magnificent presents. As long as my son was still young, and unable to understand, he would not hear of my leaving my husband's house, but now that he is full grown he begs and prays me to do so, being incensed at the way in which the suitors are eating up his property. Listen, then, to a dream that I have had and interpret it for me if you can. I have twenty geese about the house that eat mash out of a trough, and of which I am exceedingly fond. I dreamed that a great eagle came swooping down from a mountain, and dug his curved beak into the neck of each of them till he had killed them all. Presently he soared off into the sky, and left them lying dead about the yard; whereon I wept in my dream till all my maids gathered round me, so piteously was I grieving because the eagle had killed my geese. Then he came back again, and perching on a projecting rafter spoke to me with human voice, and told me to leave off crying. 'Be of good courage,' he said, 'daughter of Icarius; this is no dream, but a vision of good omen that shall surely come to pass. The geese are the suitors, and I am no longer an eagle, but your own husband, who am come back to you, and who will bring these suitors to a disgraceful end.' On this I woke, and when I looked out I saw my geese at the trough eating their mash as usual."
 
 "This dream, Madam," replied Ulysses, "can admit but of one interpretation, for had not Ulysses himself told you how it shall be fulfilled? The death of the suitors is portended, and not one single one of them will escape."
 
@@ -2257,21 +1808,15 @@ And Penelope answered, "Stranger, dreams are very curious and unaccountable thin
 
 Then Ulysses answered, "Madam, wife of Ulysses, you need not defer your tournament, for Ulysses will return ere ever they can string the bow, handle it how they will, and send their arrows through the iron."
 
-
-
----
-
 To this Penelope said, “As long, sir, as you will sit here and talk to me, I can have no desire to go to bed. Still, people cannot do permanently without sleep, and heaven has appointed us dwellers on earth a time for all things. I will therefore go upstairs and recline upon that couch which I have never ceased to flood with my tears from the day Ulysses set out for the city with a hateful name.”
 
 She then went upstairs to her own room, not alone, but attended by her maidens, and when there, she lamented her dear husband till Minerva shed sweet sleep over her eyelids.
 
+# BOOK XX.
 
+*Ulysses cannot sleep—Penelope's prayer to Diana—The two signs from heaven—Eumaeus and Philoetius arrive—The suitors dine—Ctesippus throws an ox's foot at Ulysses—Theoclymenus foretells disaster and leaves the house.*
 
----
-
-ULYSSES CANNOT SLEEP—PENELOPE'S PRAYER TO DIANA—THE TWO SIGNS FROM HEAVEN—EUMAEUS AND PHILOETIUS ARRIVE—THE SUITORS DINE—CTESIPPUS THROWS AN OX'S FOOT AT ULYSSES—THEOCLYMENUS FORETELLS DISASTER AND LEAVES THE HOUSE.
-
-Ulysses slept in the cloister upon an undressed bullock's hide, on the top of which he threw several skins of the sheep the suitors had eaten, and Eurynome[156] threw a cloak over him after he had laid himself down. There, then, Ulysses lay wakefully brooding upon the way in which he should kill the suitors; and by and by, the women who had been in the habit of misconducting themselves with them, left the house giggling and laughing with one another. This made Ulysses very angry, and he doubted whether to get up and kill every single one of them then and there, or to let them sleep one more and last time with the suitors. His heart growled within him, and as a bitch with puppies growls and shows her teeth when she sees a stranger, so did his heart growl with anger at the evil deeds that were being done: but he beat his breast and said, "Heart, be still, you had worse than this to bear on the day when the terrible Cyclops ate your brave companions; yet you bore it in silence till your cunning got you safe out of the cave, though you made sure of being killed."
+Ulysses slept in the cloister upon an undressed bullock's hide, on the top of which he threw several skins of the sheep the suitors had eaten, and Eurynome threw a cloak over him after he had laid himself down. There, then, Ulysses lay wakefully brooding upon the way in which he should kill the suitors; and by and by, the women who had been in the habit of misconducting themselves with them, left the house giggling and laughing with one another. This made Ulysses very angry, and he doubted whether to get up and kill every single one of them then and there, or to let them sleep one more and last time with the suitors. His heart growled within him, and as a bitch with puppies growls and shows her teeth when she sees a stranger, so did his heart growl with anger at the evil deeds that were being done: but he beat his breast and said, "Heart, be still, you had worse than this to bear on the day when the terrible Cyclops ate your brave companions; yet you bore it in silence till your cunning got you safe out of the cave, though you made sure of being killed."
 
 Thus he chided with his heart, and checked it into endurance, but he tossed about as one who turns a paunch full of blood and fat in front of a hot fire, doing it first on one side and then on the other, that he may get it cooked as soon as possible, even so did he turn himself about from side to side, thinking all the time how, single handed as he was, he should contrive to kill so large a body of men as the wicked suitors. But by and by Minerva came down from heaven in the likeness of a woman, and hovered over his head saying, "My poor unhappy man, why do you lie awake in this way? This is your house: your wife is safe inside it, and so is your son who is just such a young man as any father may be proud of."
 
@@ -2285,10 +1830,6 @@ While Ulysses was thus yielding himself to a very deep slumber that eased the bu
 
 On this the day broke, but Ulysses heard the sound of her weeping, and it puzzled him, for it seemed as though she already knew him and was by his side. Then he gathered up the cloak and the fleeces on which he had lain, and set them on a seat in the cloister, but he took the bullock's hide out into the open. He lifted up his hands to heaven, and prayed, saying "Father Jove, since you have seen fit to bring me over land and sea to my own home after all the afflictions you have laid upon me, give me
 
-103
-
----
-
 a sign out of the mouth of some one or other of those who are now waking within the house, and let me have another sign of some kind from outside.”
 
 Thus did he pray. Jove heard his prayer and forthwith thundered high up among the clouds from the splendour of Olympus, and Ulysses was glad when he heard it. At the same time within the house, a miller-woman from hard by in the mill room lifted up her voice and gave him another sign. There were twelve miller-women whose business it was to grind wheat and barley which are the staff of life. The others had ground their task and had gone to take their rest, but this one had not yet finished, for she was not so strong as they were, and when she heard the thunder she stopped grinding and gave the sign to her master. “Father Jove,” said she, “you, who rule over heaven and earth, you have thundered from a clear sky without so much as a cloud in it, and this means something for somebody; grant the prayer, then, of me your poor servant who calls upon you, and let this be the very last day that the suitors dine in the house of Ulysses. They have worn me out with labour of grinding meal for them, and I hope they may never have another dinner anywhere at all.”
@@ -2297,7 +1838,7 @@ Ulysses was glad when he heard the omens conveyed to him by the woman’s speech
 
 Then the other maids in the house rose and lit the fire on the hearth; Telemachus also rose and put on his clothes. He girded his sword about his shoulder, bound his sandals on to his comely feet, and took a doughty spear with a point of sharpened bronze; then he went to the threshold of the cloister and said to Euryclea, “Nurse, did you make the stranger comfortable both as regards bed and board, or did you let him shift for himself?—for my mother, good woman though she is, has a way of paying great attention to second-rate people, and of neglecting others who are in reality much better men.”
 
-“Do not find fault child,” said Euryclea, “when there is no one to find fault with. The stranger sat and drank his wine as long as he liked: your mother did ask him if he would take any more bread and he said he would not. When he wanted to go to bed she told the servants to make one for him, but he said he was such a wretched outcast that he would not sleep on a bed and under blankets; he insisted on having an undressed bullock’s hide and some sheepskins put for him in the cloister and I threw a cloak over him myself.”[157]
+“Do not find fault child,” said Euryclea, “when there is no one to find fault with. The stranger sat and drank his wine as long as he liked: your mother did ask him if he would take any more bread and he said he would not. When he wanted to go to bed she told the servants to make one for him, but he said he was such a wretched outcast that he would not sleep on a bed and under blankets; he insisted on having an undressed bullock’s hide and some sheepskins put for him in the cloister and I threw a cloak over him myself.”
 
 Then Telemachus went out of the court to the place where the Achaeans were meeting in assembly; he had his spear in his hand, and he was not alone, for his two dogs went with him. But Euryclea called the maids and said, “Come, wake up; set about sweeping the cloisters and sprinkling them with water to lay the dust; put the covers on the seats; wipe down the tables, some of you, with a wet sponge; clean out the mixing-jugs and the cups, and go for water from the fountain at once; the suitors will be here directly; they will be here early, for it is a feast day.”
 
@@ -2310,8 +1851,6 @@ Thus did they converse; meanwhile Melanthius the goatherd came up, for he too wa
 Ulysses made no answer, but bowed his head and brooded. Then a third man, Philoetius, joined them, who was bringing in a barren heifer and some goats. These were brought over by the boatmen who are there to take people over when any one comes to them. So Philoetius made his heifer and his goats secure under the gatehouse, and then went up to the swineherd. “Who, Swineherd,” said he, “is this stranger that is lately come here? Is he one of your men? What is his family? Where does he come from? Poor fellow, he looks as if he had been some great man, but the gods give sorrow to whom they will—even to kings if it so pleases them.”
 
 As he spoke he went up to Ulysses and saluted him with his right hand; “Good day to you, father stranger,” said he, “you seem to be very poorly off now, but I hope you will have better times by and by. Father Jove, of all gods you are the most malicious. We are your own children, yet you show us no mercy in all our misery and afflictions. A sweat came over me when I saw this man, and my eyes filled with tears, for he reminds me of Ulysses, who I fear is going about in just such rags as this man’s are, if indeed he is still among the living. If he is already dead and in the house of Hades, then, alas! for my good master, who made me his stockman when I was quite young among the Cephallenians, and now his cattle are countless; no one could have done better with them than I have, for they have bred like ears of corn; nevertheless I have to keep bringing them in for others to eat, who take no heed to his son though he is in the house, and fear not the wrath of heaven, but are already eager to divide Ulysses’ property among them because he has been away so long. I have often thought—only it would not be right
-
----
 
 while his son is living—of going off with the cattle to some foreign country; bad as this would be, it is still harder to stay here and be ill-treated about other people's herds. My position is intolerable, and I should long since have run away and put myself under the protection of some other chief, only that I believe my poor master will yet return, and send all these suitors flying out of the house.”
 
@@ -2341,8 +1880,6 @@ They all held their peace till at last Agelaus son of Damastor said, “No one s
 
 To this Telemachus answered, “By Jove, Agelaus, and by the sorrows of my unhappy father, who has either perished far from Ithaca, or is wandering in some distant land, I throw no obstacles in the way of my mother's marriage; on the contrary I
 
----
-
 urge her to choose whomsoever she will, and I will give her numberless gifts into the bargain, but I dare not insist point blank that she shall leave the house against her own wishes. Heaven forbid that I should do this.”
 
 Minerva now made the suitors fall to laughing immoderately, and set their wits wandering; but they were laughing with a forced laughter. Their meat became smeared with blood; their eyes filled with tears, and their hearts were heavy with forebodings. Theoclymenus saw this and said, “Unhappy men, what is it that ails you? There is a shroud of darkness drawn over you from head to foot, your cheeks are wet with tears; the air is alive with wailing voices; the walls and roof-beams drip blood; the gate of the cloisters and the court beyond them are full of ghosts trooping down into the night of hell; the sun is blotted out of heaven, and a blighting gloom is over all the land.”
@@ -2357,15 +1894,13 @@ Telemachus gave him no heed, but sat silently watching his father, expecting eve
 
 Meanwhile the daughter of Icarius, wise Penelope, had had a rich seat placed for her facing the court and cloisters, so that she could hear what every one was saying. The dinner indeed had been prepared amid much merriment; it had been both good and abundant, for they had sacrificed many victims; but the supper was yet to come, and nothing can be conceived more gruesome than the meal which a goddess and a brave man were soon to lay before them—for they had brought their doom upon themselves.
 
+# BOOK XXI.
 
-
----
-
-# THE TRIAL OF THE AXES, DURING WHICH ULYSSES REVEALS HIMSELF TO EUMAEUS AND PHILOETIUS
+*The trial of the axes, during which Ulysses reveals himself to Eumaeus and Philoetius.*
 
 Minerva now put it in Penelope's mind to make the suitors try their skill with the bow and with the iron axes, in contest among themselves, as a means of bringing about their destruction. She went upstairs and got the store-room key, which was made of bronze and had a handle of ivory; she then went with her maidens into the store-room at the end of the house, where her husband's treasures of gold, bronze, and wrought iron were kept, and where was also his bow, and the quiver full of deadly arrows that had been given him by a friend whom he had met in Lacedaemon—Iphitus the son of Eurytus. The two fell in with one another in Messene at the house of Ortilochus, where Ulysses was staying in order to recover a debt that was owing from the whole people; for the Messenians had carried off three hundred sheep from Ithaca, and had sailed away with them and with their shepherds. In quest of these Ulysses took a long journey while still quite young, for his father and the other chieftains sent him on a mission to recover them. Iphitus had gone there also to try and get back twelve brood mares that he had lost, and the mule foals that were running with them. These mares were the death of him in the end, for when he went to the house of Jove's son, mighty Hercules, who performed such prodigies of valour, Hercules to his shame killed him, though he was his guest, for he feared not heaven's vengeance, nor yet respected his own table which he had set before Iphitus, but killed him in spite of everything, and kept the mares himself. It was when claiming these that Iphitus met Ulysses, and gave him the bow which mighty Eurytus had been used to carry, and which on his death had been left by him to his son. Ulysses gave him in return a sword and a spear, and this was the beginning of a fast friendship, although they never visited at one another's houses, for Jove's son Hercules killed Iphitus ere they could do so. This bow, then, given him by Iphitus, had not been taken with him by Ulysses when he sailed for Troy; he had used it so long as he had been at home, but had left it behind as having been a keepsake from a valued friend.
 
-Penelope presently reached the oak threshold of the store-room; the carpenter had planed this duly, and had drawn a line on it so as to get it quite straight; he had then set the door posts into it and hung the doors. She loosed the strap from the handle of the door, put in the key, and drove it straight home to shoot back the bolts that held the doors;[161] these flew open with a noise like a bull bellowing in a meadow, and Penelope stepped upon the raised platform, where the chests stood in which the fair linen and clothes were laid by along with fragrant herbs: reaching thence, she took down the bow with its bow case from the peg on which it hung. She sat down with it on her knees, weeping bitterly as she took the bow out of its case, and when her tears had relieved her, she went to the cloister where the suitors were, carrying the bow and the quiver, with the many deadly arrows that were inside it. Along with her came her maidens, bearing a chest that contained much iron and bronze which her husband had won as prizes. When she reached the suitors, she stood by one of the bearing-posts supporting the roof of the cloister, holding a veil before her face, and with a maid on either side of her. Then she said:
+Penelope presently reached the oak threshold of the store-room; the carpenter had planed this duly, and had drawn a line on it so as to get it quite straight; he had then set the door posts into it and hung the doors. She loosed the strap from the handle of the door, put in the key, and drove it straight home to shoot back the bolts that held the doors; these flew open with a noise like a bull bellowing in a meadow, and Penelope stepped upon the raised platform, where the chests stood in which the fair linen and clothes were laid by along with fragrant herbs: reaching thence, she took down the bow with its bow case from the peg on which it hung. She sat down with it on her knees, weeping bitterly as she took the bow out of its case, and when her tears had relieved her, she went to the cloister where the suitors were, carrying the bow and the quiver, with the many deadly arrows that were inside it. Along with her came her maidens, bearing a chest that contained much iron and bronze which her husband had won as prizes. When she reached the suitors, she stood by one of the bearing-posts supporting the roof of the cloister, holding a veil before her face, and with a maid on either side of her. Then she said:
 
 "Listen to me you suitors, who persist in abusing the hospitality of this house because its owner has been long absent, and without other pretext than that you want to marry me; this, then, being the prize that you are contending for, I will bring out the mighty bow of Ulysses, and whomsoever of you shall string it most easily and send his arrow through each one of twelve axes, him will I follow and quit this house of my lawful husband, so goodly, and so abounding in wealth. But even so I doubt not that I shall remember it in my dreams."
 
@@ -2375,13 +1910,9 @@ This was what he said, but all the time he was expecting to be able to string th
 
 Then Telemachus spoke. "Great heavens!" he exclaimed, "Jove must have robbed me of my senses. Here is my dear and excellent mother saying she will quit this house and marry again, yet I am laughing and enjoying myself as though there were nothing happening. But, suitors, as the contest has been agreed upon, let it go forward. It is for a woman whose peer is not to
 
-107
-
----
-
 be found in Pylos, Argos, or Mycene, nor yet in Ithaca nor on the mainland. You know this as well as I do; what need have I to speak in praise of my mother? Come on, then, make no excuses for delay, but let us see whether you can string the bow or no. I too will make trial of it, for if I can string it and shoot through the iron, I shall not suffer my mother to quit this house with a stranger, not if I can win the prizes which my father won before me.”
 
-As he spoke he sprang from his seat, threw his crimson cloak from him, and took his sword from his shoulder. First he set the axes in a row, in a long groove which he had dug for them, and had made straight by line.[162] Then he stamped the earth tight round them, and everyone was surprised when they saw him set them up so orderly, though he had never seen anything of the kind before. This done, he went on to the pavement to make trial of the bow; thrice did he tug at it, trying with all his might to draw the string, and thrice he had to leave off, though he had hoped to string the bow and shoot through the iron. He was trying for the fourth time, and would have strung it had not Ulysses made a sign to check him in spite of all his eagerness. So he said:
+As he spoke he sprang from his seat, threw his crimson cloak from him, and took his sword from his shoulder. First he set the axes in a row, in a long groove which he had dug for them, and had made straight by line. Then he stamped the earth tight round them, and everyone was surprised when they saw him set them up so orderly, though he had never seen anything of the kind before. This done, he went on to the pavement to make trial of the bow; thrice did he tug at it, trying with all his might to draw the string, and thrice he had to leave off, though he had hoped to string the bow and shoot through the iron. He was trying for the fourth time, and would have strung it had not Ulysses made a sign to check him in spite of all his eagerness. So he said:
 
 “Alas! I shall either be always feeble and of no prowess, or I am too young, and have not yet reached my full strength so as to be able to hold my own if any one attacks me. You others, therefore, who are stronger than I, make trial of the bow and get this contest settled.”
 
@@ -2389,9 +1920,9 @@ On this he put the bow down, letting it lean against the door [that led into the
 
 “Come on each of you in his turn, going towards the right from the place at which the cupbearer begins when he is handing round the wine.”
 
-The rest agreed, and Leiodes son of Oenops was the first to rise. He was sacrificial priest to the suitors, and sat in the corner near the mixing-bowl. [163] He was the only man who hated their evil deeds and was indignant with the others. He was now the first to take the bow and arrow, so he went on to the pavement to make his trial, but he could not string the bow, for his hands were weak and unused to hard work, they therefore soon grew tired, and he said to the suitors, “My friends, I cannot string it; let another have it, this bow shall take the life and soul out of many a chief among us, for it is better to die than to live after having missed the prize that we have so long striven for, and which has brought us so long together. Some one of us is even now hoping and praying that he may marry Penelope, but when he has seen this bow and tried it, let him woo and make bridal offerings to some other woman, and let Penelope marry whoever makes her the best offer and whose lot it is to win her.”
+The rest agreed, and Leiodes son of Oenops was the first to rise. He was sacrificial priest to the suitors, and sat in the corner near the mixing-bowl. He was the only man who hated their evil deeds and was indignant with the others. He was now the first to take the bow and arrow, so he went on to the pavement to make his trial, but he could not string the bow, for his hands were weak and unused to hard work, they therefore soon grew tired, and he said to the suitors, “My friends, I cannot string it; let another have it, this bow shall take the life and soul out of many a chief among us, for it is better to die than to live after having missed the prize that we have so long striven for, and which has brought us so long together. Some one of us is even now hoping and praying that he may marry Penelope, but when he has seen this bow and tried it, let him woo and make bridal offerings to some other woman, and let Penelope marry whoever makes her the best offer and whose lot it is to win her.”
 
-On this he put the bow down, letting it lean against the door,[164] with the arrow standing against the tip of the bow. Then he took his seat again on the seat from which he had risen; and Antinous rebuked him saying:
+On this he put the bow down, letting it lean against the door, with the arrow standing against the tip of the bow. Then he took his seat again on the seat from which he had risen; and Antinous rebuked him saying:
 
 “Leiodes, what are you talking about? Your words are monstrous and intolerable; it makes me angry to listen to you. Shall, then, this bow take the life of many a chief among us, merely because you cannot bend it yourself? True, you were not born to be an archer, but there are others who will soon string it.”
 
@@ -2406,10 +1937,6 @@ Then the swineherd and the stockman left the cloisters together, and Ulysses fol
 “Father Jove,” answered the stockman, “would indeed that you might so ordain it. If some god were but to bring Ulysses back, you should see with what might and main I would fight for him.”
 
 In like words Eumaeus prayed to all the gods that Ulysses might return; when, therefore, he saw for certain what mind they were of, Ulysses said, “It is I, Ulysses, who am here. I have suffered much, but at last, in the twentieth year, I am come back to my own country. I find that you two alone of all my servants are glad that I should do so, for I have not heard any of the others praying for my return. To you two, therefore, will I unfold the truth as it shall be. If heaven shall deliver the suitors into my hands, I will find wives for both of you, will give you house and holding close to my own, and you shall be to me as though you were brothers and friends of Telemachus. I will now give you convincing proofs that you may know me and be assured. See, here is the scar from the boar’s tooth that ripped me when I was out hunting on Mt. Parnassus with the sons of Autolycus.”
-
-##
-
----
 
 As he spoke he drew his rags aside from the great scar, and when they had examined it thoroughly, they both of them wept about Ulysses, threw their arms round him, and kissed his head and shoulders, while Ulysses kissed their hands and faces in return. The sun would have gone down upon their mourning if Ulysses had not checked them and said:
 
@@ -2433,10 +1960,6 @@ Penelope then spoke to him. "Antinous," said she, "it is not right that you shou
 
 "Eurymachus," Penelope answered, "people who persist in eating up the estate of a great chieftain and dishonouring his house must not expect others to think well of them. Why then should you mind if men talk as you think they will? This stranger is strong and well-built, he says moreover that he is of noble birth. Give him the bow, and let us see whether he can string it or no. I say—and it shall surely be—that if Apollo vouchsafes him the glory of stringing it, I will give him a cloak and
 
-
-
----
-
 shirt of good wear, with a javelin to keep off dogs and robbers, and a sharp sword. I will also give him sandals, and will see him sent safely wherever he wants to go.”
 
 Then Telemachus said, “Mother, I am the only man either in Ithaca or in the islands that are over against Elis who has the right to let any one have the bow or to refuse it. No one shall force me one way or the other, not even though I choose to make the stranger a present of the bow outright, and let him take it away with him. Go, then, within the house and busy yourself with your daily duties, your loom, your distaff, and the ordering of your servants. This bow is a man's matter, and mine above all others, for it is I who am master here.”
@@ -2457,25 +1980,23 @@ Another said, “I hope he may be no more successful in other things than he is 
 
 But Ulysses, when he had taken it up and examined it all over, strung it as easily as a skilled bard strings a new peg of his lyre and makes the twisted gut fast at both ends. Then he took it in his right hand to prove the string, and it sang sweetly under his touch like the twittering of a swallow. The suitors were dismayed, and turned colour as they heard it; at that moment, moreover, Jove thundered loudly as a sign, and the heart of Ulysses rejoiced as he heard the omen that the son of scheming Saturn had sent him.
 
-He took an arrow that was lying upon the table[165]—for those which the Achaeans were so shortly about to taste were all inside the quiver—he laid it on the centre-piece of the bow, and drew the notch of the arrow and the string toward him, still seated on his seat. When he had taken aim he let fly, and his arrow pierced every one of the handle-holes of the axes from the first onwards till it had gone right through them, and into the outer courtyard. Then he said to Telemachus:
+He took an arrow that was lying upon the table—for those which the Achaeans were so shortly about to taste were all inside the quiver—he laid it on the centre-piece of the bow, and drew the notch of the arrow and the string toward him, still seated on his seat. When he had taken aim he let fly, and his arrow pierced every one of the handle-holes of the axes from the first onwards till it had gone right through them, and into the outer courtyard. Then he said to Telemachus:
 
 “Your guest has not disgraced you, Telemachus. I did not miss what I aimed at, and I was not long in stringing my bow. I am still strong, and not as the suitors twit me with being. Now, however, it is time for the Achaeans to prepare supper while there is still daylight, and then otherwise to disport themselves with song and dance which are the crowning ornaments of a banquet.”
 
 As he spoke he made a sign with his eyebrows, and Telemachus girded on his sword, grasped his spear, and stood armed beside his father's seat.
 
----
+# BOOK XXII.
 
-BOOK XXII
-
-THE KILLING OF THE SUITORS—THE MAIDS WHO HAVE MISCONDUCTED THEMSELVES ARE MADE TO CLEANSE THE CLOISTERS AND ARE THEN HANGED.
+*The killing of the suitors—The maids who have misconducted themselves are made to cleanse the cloisters and are then hanged.*
 
 Then Ulysses tore off his rags, and sprang on to the broad pavement with his bow and his quiver full of arrows. He shed the arrows on to the ground at his feet and said, “The mighty contest is at an end. I will now see whether Apollo will vouchsafe it to me to hit another mark which no man has yet hit.”
 
-On this he aimed a deadly arrow at Antinous, who was about to take up a two-handled gold cup to drink his wine and already had it in his hands. He had no thought of death—who amongst all the revellers would think that one man, however brave, would stand alone among so many and kill him? The arrow struck Antinous in the throat, and the point went clean through his neck, so that he fell over and the cup dropped from his hand, while a thick stream of blood gushed from his nostrils. He kicked the table from him and upset the things on it, so that the bread and roasted meats were all soiled as they fell over on to the ground.[166] The suitors were in an uproar when they saw that a man had been hit; they sprang in dismay one and all of them from their seats and looked everywhere towards the walls, but there was neither shield nor spear, and they rebuked Ulysses very angrily. “Stranger,” said they, “you shall pay for shooting people in this way: you shall see no other contest; you are a doomed man; he whom you have slain was the foremost youth in Ithaca, and the vultures shall devour you for having killed him.”
+On this he aimed a deadly arrow at Antinous, who was about to take up a two-handled gold cup to drink his wine and already had it in his hands. He had no thought of death—who amongst all the revellers would think that one man, however brave, would stand alone among so many and kill him? The arrow struck Antinous in the throat, and the point went clean through his neck, so that he fell over and the cup dropped from his hand, while a thick stream of blood gushed from his nostrils. He kicked the table from him and upset the things on it, so that the bread and roasted meats were all soiled as they fell over on to the ground. The suitors were in an uproar when they saw that a man had been hit; they sprang in dismay one and all of them from their seats and looked everywhere towards the walls, but there was neither shield nor spear, and they rebuked Ulysses very angrily. “Stranger,” said they, “you shall pay for shooting people in this way: you shall see no other contest; you are a doomed man; he whom you have slain was the foremost youth in Ithaca, and the vultures shall devour you for having killed him.”
 
 Thus they spoke, for they thought that he had killed Antinous by mistake, and did not perceive that death was hanging over the head of every one of them. But Ulysses glared at them and said:
 
-“Dogs, did you think that I should not come back from Troy? You have wasted my substance,[167] have forced my women servants to lie with you, and have wooed my wife while I was still living. You have feared neither God nor man, and now you shall die.”
+“Dogs, did you think that I should not come back from Troy? You have wasted my substance, have forced my women servants to lie with you, and have wooed my wife while I was still living. You have feared neither God nor man, and now you shall die.”
 
 They turned pale with fear as he spoke, and every man looked round about to see whither he might fly for safety, but Eurymachus alone spoke.
 
@@ -2491,25 +2012,23 @@ As he spoke he drew his keen blade of bronze, sharpened on both sides, and with 
 
 Then Amphinomus drew his sword and made straight at Ulysses to try and get him away from the door; but Telemachus was too quick for him, and struck him from behind; the spear caught him between the shoulders and went right through his chest, so that he fell heavily to the ground and struck the earth with his forehead. Then Telemachus sprang away from him, leaving his spear still in the body, for he feared that if he stayed to draw it out, some one of the Achaeans might come up and hack at him with his sword, or knock him down, so he set off at a run, and immediately was at his father’s side. Then he said:
 
----
-
 “Father, let me bring you a shield, two spears, and a brass helmet for your temples. I will arm myself as well, and will bring other armour for the swineherd and the stockman, for we had better be armed.”
 
 “Run and fetch them,” answered Ulysses, “while my arrows hold out, or when I am alone they may get me away from the door.”
 
-Telemachus did as his father said, and went off to the store room where the armour was kept. He chose four shields, eight spears, and four brass helmets with horse-hair plumes. He brought them with all speed to his father, and armed himself first, while the stockman and the swineherd also put on their armour, and took their places near Ulysses. Meanwhile Ulysses, as long as his arrows lasted, had been shooting the suitors one by one, and they fell thick on one another: when his arrows gave out, he set the bow to stand against the end wall of the house by the door post, and hung a shield four hides thick about his shoulders; on his comely head he set his helmet, well wrought with a crest of horse-hair that nodded menacingly above it,[168] and he grasped two redoubtable bronze-shod spears.
+Telemachus did as his father said, and went off to the store room where the armour was kept. He chose four shields, eight spears, and four brass helmets with horse-hair plumes. He brought them with all speed to his father, and armed himself first, while the stockman and the swineherd also put on their armour, and took their places near Ulysses. Meanwhile Ulysses, as long as his arrows lasted, had been shooting the suitors one by one, and they fell thick on one another: when his arrows gave out, he set the bow to stand against the end wall of the house by the door post, and hung a shield four hides thick about his shoulders; on his comely head he set his helmet, well wrought with a crest of horse-hair that nodded menacingly above it, and he grasped two redoubtable bronze-shod spears.
 
-Now there was a trap door[169] on the wall, while at one end of the pavement[170] there was an exit leading to a narrow passage, and this exit was closed by a well-made door. Ulysses told Philoetius to stand by this door and guard it, for only one person could attack it at a time. But Agelaus shouted out, “Cannot some one go up to the trap door and tell the people what is going on? Help would come at once, and we should soon make an end of this man and his shooting.”
+Now there was a trap door on the wall, while at one end of the pavement there was an exit leading to a narrow passage, and this exit was closed by a well-made door. Ulysses told Philoetius to stand by this door and guard it, for only one person could attack it at a time. But Agelaus shouted out, “Cannot some one go up to the trap door and tell the people what is going on? Help would come at once, and we should soon make an end of this man and his shooting.”
 
 “This may not be, Agelaus,” answered Melanthius, “the mouth of the narrow passage is dangerously near the entrance to the outer court. One brave man could prevent any number from getting in. But I know what I will do, I will bring you arms from the store-room, for I am sure it is there that Ulysses and his son have put them.”
 
-On this the goatherd Melanthius went by back passages to the store-room of Ulysses’ house. There he chose twelve shields, with as many helmets and spears, and brought them back as fast as he could to give them to the suitors. Ulysses’ heart began to fail him when he saw the suitors[171] putting on their armour and brandishing their spears. He saw the greatness of the danger, and said to Telemachus, “Some one of the women inside is helping the suitors against us, or it may be Melanthius.”
+On this the goatherd Melanthius went by back passages to the store-room of Ulysses’ house. There he chose twelve shields, with as many helmets and spears, and brought them back as fast as he could to give them to the suitors. Ulysses’ heart began to fail him when he saw the suitors putting on their armour and brandishing their spears. He saw the greatness of the danger, and said to Telemachus, “Some one of the women inside is helping the suitors against us, or it may be Melanthius.”
 
 Telemachus answered, “The fault, father, is mine, and mine only; I left the store room door open, and they have kept a sharper look out than I have. Go, Eumaeus, put the door to, and see whether it is one of the women who is doing this, or whether, as I suspect, it is Melanthius the son of Dolius.”
 
 Thus did they converse. Meanwhile Melanthius was again going to the store room to fetch more armour, but the swineherd saw him and said to Ulysses who was beside him, “Ulysses, noble son of Laertes, it is that scoundrel Melanthius, just as we suspected, who is going to the store room. Say, shall I kill him, if I can get the better of him, or shall I bring him here that you may take your own revenge for all the many wrongs that he has done in your house?”
 
-Ulysses answered, “Telemachus and I will hold these suitors in check, no matter what they do; go back both of you and bind Melanthius’ hands and feet behind him. Throw him into the store room and make the door fast behind you; then fasten a noose about his body, and string him close up to the rafters from a high bearing-post,[172] that he may linger on in an agony.”
+Ulysses answered, “Telemachus and I will hold these suitors in check, no matter what they do; go back both of you and bind Melanthius’ hands and feet behind him. Throw him into the store room and make the door fast behind you; then fasten a noose about his body, and string him close up to the rafters from a high bearing-post, that he may linger on in an agony.”
 
 Thus did he speak, and they did even as he had said; they went to the store room, which they entered before Melanthius saw them, for he was busy searching for arms in the innermost part of the room, so the two took their stand on either side of the door and waited. By and by Melanthius came out with a helmet in one hand, and an old dry-rotted shield in the other, which had been borne by Laertes when he was young, but which had been long since thrown aside, and the straps had become unsewn; on this the two seized him, dragged him back by the hair, and threw him struggling to the ground. They bent his hands and feet well behind his back, and bound them tight with a painful bond as Ulysses had told them; then they fastened a noose about his body and strung him up from a high pillar till he was close up to the rafters, and over him did you then vaunt, O swineherd Eumaeus saying, “Melanthius, you will pass the night on a soft bed as you deserve. You will know very well when morning comes from the streams of Oceanus, and it is time for you to be driving in your goats for the suitors to feast on.”
 
@@ -2517,9 +2036,7 @@ There, then, they left him in very cruel bondage, and having put on their armour
 
 But all the time he felt sure it was Minerva, and the suitors from the other side raised an uproar when they saw her. Agelaus was the first to reproach her. “Mentor,” he cried, “do not let Ulysses beguile you into siding with him and fighting the suitors. This is what we will do: when we have killed these people, father and son, we will kill you too. You shall pay for it with your head, and when we have killed you, we will take all you have, in doors or out, and bring it into hotch-pot with Ulysses’ property; we will not let your sons live in your house, nor your daughters, nor shall your widow continue to live in the city of Ithaca.”
 
-This made Minerva still more furious, so she scolded Ulysses very angrily.[173] “Ulysses,” said she, “your strength and prowess are no longer what they were when you fought for nine long years among the Trojans about the noble lady Helen. You killed many a man in those days, and it was through your stratagem that Priam’s city was taken. How comes it that you are so
-
----
+This made Minerva still more furious, so she scolded Ulysses very angrily. “Ulysses,” said she, “your strength and prowess are no longer what they were when you fought for nine long years among the Trojans about the noble lady Helen. You killed many a man in those days, and it was through your stratagem that Priam’s city was taken. How comes it that you are so
 
 lamentably less valiant now that you are on your own ground, face to face with the suitors in your own house? Come on, my good fellow, stand by my side and see how Mentor, son of Alcimus shall fight your foes and requite your kindnesses conferred upon him.”
 
@@ -2541,11 +2058,9 @@ Ulysses looked sternly at him and answered, “If you were their sacrificing pri
 
 With these words he picked up the sword that Agelaus had dropped when he was being killed, and which was lying upon the ground. Then he struck Leiodes on the back of his neck, so that his head fell rolling in the dust while he was yet speaking.
 
-The minstrel Phemius son of Terpes—he who had been forced by the suitors to sing to them—now tried to save his life. He was standing near towards the trap door,[174] and held his lyre in his hand. He did not know whether to fly out of the cloister and sit down by the altar of Jove that was in the outer court, and on which both Laertes and Ulysses had offered up the thigh bones of many an ox, or whether to go straight up to Ulysses and embrace his knees, but in the end he deemed it best to embrace Ulysses’ knees. So he laid his lyre on the ground between the mixing bowl [175] and the silver-studded seat; then going up to Ulysses he caught hold of his knees and said, “Ulysses, I beseech you have mercy on me and spare me. You will be sorry for it afterwards if you kill a bard who can sing both for gods and men as I can. I make all my lays myself, and heaven visits me with every kind of inspiration. I would sing to you as though you were a god, do not therefore be in such a hurry to cut my head off. Your own son Telemachus will tell you that I did not want to frequent your house and sing to the suitors after their meals, but they were too many and too strong for me, so they made me.”
+The minstrel Phemius son of Terpes—he who had been forced by the suitors to sing to them—now tried to save his life. He was standing near towards the trap door, and held his lyre in his hand. He did not know whether to fly out of the cloister and sit down by the altar of Jove that was in the outer court, and on which both Laertes and Ulysses had offered up the thigh bones of many an ox, or whether to go straight up to Ulysses and embrace his knees, but in the end he deemed it best to embrace Ulysses’ knees. So he laid his lyre on the ground between the mixing bowl and the silver-studded seat; then going up to Ulysses he caught hold of his knees and said, “Ulysses, I beseech you have mercy on me and spare me. You will be sorry for it afterwards if you kill a bard who can sing both for gods and men as I can. I make all my lays myself, and heaven visits me with every kind of inspiration. I would sing to you as though you were a god, do not therefore be in such a hurry to cut my head off. Your own son Telemachus will tell you that I did not want to frequent your house and sing to the suitors after their meals, but they were too many and too strong for me, so they made me.”
 
 Telemachus heard him, and at once went up to his father. “Hold!” he cried, “the man is guiltless, do him no hurt; and we will spare Medon too, who was always good to me when I was a boy, unless Philoetius or Eumaeus has already killed him, or he has fallen in your way when you were raging about the court.”
-
----
 
 Medon caught these words of Telemachus, for he was crouching under a seat beneath which he had hidden by covering himself up with a freshly flayed heifer's hide, so he threw off the hide, went up to Telemachus, and laid hold of his knees.
 
@@ -2559,9 +2074,9 @@ Then Ulysses said to Telemachus, “Call nurse Euryclea; I have something to say
 
 Telemachus went and knocked at the door of the women's room. “Make haste,” said he, “you old woman who have been set over all the other women in the house. Come outside; my father wishes to speak to you.”
 
-When Euryclea heard this she unfastened the door of the women's room and came out, following Telemachus. She found Ulysses among the corpses bespattered with blood and filth like a lion that has just been devouring an ox, and his breast and both his cheeks are all bloody, so that he is a fearful sight; even so was Ulysses besmirched from head to foot with gore. When she saw all the corpses and such a quantity of blood, she was beginning to cry out for joy, for she saw that a great deed had been done; but Ulysses checked her, “Old woman,” said he, “rejoice in silence; restrain yourself, and do not make any noise about it; it is an unholy thing to vaunt over dead men. Heaven's doom and their own evil deeds have brought these men to destruction, for they respected no man in the whole world, neither rich nor poor, who came near them, and they have come to a bad end as a punishment for their wickedness and folly. Now, however, tell me which of the women in the house have misconducted themselves, and who are innocent.”[176]
+When Euryclea heard this she unfastened the door of the women's room and came out, following Telemachus. She found Ulysses among the corpses bespattered with blood and filth like a lion that has just been devouring an ox, and his breast and both his cheeks are all bloody, so that he is a fearful sight; even so was Ulysses besmirched from head to foot with gore. When she saw all the corpses and such a quantity of blood, she was beginning to cry out for joy, for she saw that a great deed had been done; but Ulysses checked her, “Old woman,” said he, “rejoice in silence; restrain yourself, and do not make any noise about it; it is an unholy thing to vaunt over dead men. Heaven's doom and their own evil deeds have brought these men to destruction, for they respected no man in the whole world, neither rich nor poor, who came near them, and they have come to a bad end as a punishment for their wickedness and folly. Now, however, tell me which of the women in the house have misconducted themselves, and who are innocent.”
 
-“I will tell you the truth, my son,” answered Euryclea. “There are fifty women in the house whom we teach to do things, such as carding wool, and all kinds of household work. Of these, twelve in all[177] have misbehaved, and have been wanting in respect to me, and also to Penelope. They showed no disrespect to Telemachus, for he has only lately grown and his mother never permitted him to give orders to the female servants; but let me go upstairs and tell your wife all that has happened, for some god has been sending her to sleep.”
+“I will tell you the truth, my son,” answered Euryclea. “There are fifty women in the house whom we teach to do things, such as carding wool, and all kinds of household work. Of these, twelve in all have misbehaved, and have been wanting in respect to me, and also to Penelope. They showed no disrespect to Telemachus, for he has only lately grown and his mother never permitted him to give orders to the female servants; but let me go upstairs and tell your wife all that has happened, for some god has been sending her to sleep.”
 
 “Do not wake her yet,” answered Ulysses, “but tell the women who have misconducted themselves to come to me.”
 
@@ -2569,25 +2084,21 @@ Euryclea left the cloister to tell the women, and make them come to Ulysses; in 
 
 On this the women came down in a body, weeping and wailing bitterly. First they carried the dead bodies out, and propped them up against one another in the gatehouse. Ulysses ordered them about and made them do their work quickly, so they had to carry the bodies out. When they had done this, they cleaned all the tables and seats with sponges and water, while Telemachus and the two others shovelled up the blood and dirt from the ground, and the women carried it all away and put it out of doors. Then when they had made the whole place quite clean and orderly, they took the women out and hemmed them in the narrow space between the wall of the domed room and that of the yard, so that they could not get away: and Telemachus said to the other two, “I shall not let these women die a clean death, for they were insolent to me and my mother, and used to sleep with the suitors.”
 
-So saying he made a ship's cable fast to one of the bearing-posts that supported the roof of the domed room, and secured it all around the building, at a good height, lest any of the women's feet should touch the ground; and as thrushes or doves beat against a net that has been set for them in a thicket just as they were getting to their nest, and a terrible fate awaits them, even so did the women have to put their heads in nooses one after the other and die most miserably.[178] Their feet moved convulsively for a while, but not for very long.
+So saying he made a ship's cable fast to one of the bearing-posts that supported the roof of the domed room, and secured it all around the building, at a good height, lest any of the women's feet should touch the ground; and as thrushes or doves beat against a net that has been set for them in a thicket just as they were getting to their nest, and a terrible fate awaits them, even so did the women have to put their heads in nooses one after the other and die most miserably. Their feet moved convulsively for a while, but not for very long.
 
 As for Melanthius, they took him through the cloister into the inner court. There they cut off his nose and his ears; they drew out his vitals and gave them to the dogs raw, and then in their fury they cut off his hands and his feet.
 
 When they had done this they washed their hands and feet and went back into the house, for all was now over; and Ulysses said to the dear old nurse Euryclea, “Bring me sulphur, which cleanses all pollution, and fetch fire also that I may burn it, and purify the cloisters. Go, moreover, and tell Penelope to come here with her attendants, and also all the maidservants that are in the house.”
 
----
-
 "All that you have said is true," answered Euryclea, "but let me bring you some clean clothes—a shirt and cloak. Do not keep these rags on your back any longer. It is not right."
 
 "First light me a fire," replied Ulysses.
 
-She brought the fire and sulphur, as he had bidden her, and Ulysses thoroughly purified the cloisters and both the inner and outer courts. Then she went inside to call the women and tell them what had happened; whereon they came from their apartment with torches in their hands, and pressed round Ulysses to embrace him, kissing his head and shoulders and taking hold of his hands. It made him feel as if he should like to weep, for he remembered every one of them.[179]
+She brought the fire and sulphur, as he had bidden her, and Ulysses thoroughly purified the cloisters and both the inner and outer courts. Then she went inside to call the women and tell them what had happened; whereon they came from their apartment with torches in their hands, and pressed round Ulysses to embrace him, kissing his head and shoulders and taking hold of his hands. It made him feel as if he should like to weep, for he remembered every one of them.
 
----
+# BOOK XXIII.
 
-BOOK XXIII
-
-PENELOPE EVENTUALLY RECOGNISES HER HUSBAND—EARLY IN THE MORNING ULYSSES, TELEMACHUS, EUMAEUS, AND PHILOETIUS LEAVE THE TOWN.
+*Penelope eventually recognises her husband—Early in the morning Ulysses, Telemachus, Eumaeus, and Philoetius leave the town.*
 
 Euryclea now went upstairs laughing to tell her mistress that her dear husband had come home. Her aged knees became young again and her feet were nimble for joy as she went up to her mistress and bent over her head to speak to her. “Wake up Penelope, my dear child,” she exclaimed, “and see with your own eyes something that you have been wanting this long time past. Ulysses has at last indeed come home again, and has killed the suitors who were giving so much trouble in his house, eating up his estate and ill treating his son.”
 
@@ -2605,9 +2116,7 @@ Then nurse Euryclea said, “My child, what are you talking about? but you were 
 
 “My dear nurse,” said Penelope, “however wise you may be you can hardly fathom the counsels of the gods. Nevertheless, we will go in search of my son, that I may see the corpses of the suitors, and the man who has killed them.”
 
-On this she came down from her upper room, and while doing so she considered whether she should keep at a distance from her husband and question him, or whether she should at once go up to him and embrace him. When, however, she had crossed the stone floor of the cloister, she sat down opposite Ulysses by the fire, against the wall at right angles [180] [to that by which she had entered], while Ulysses sat near one of the bearing-posts, looking upon the ground, and waiting to see what his brave wife would say to him when she saw him. For a long time she sat silent and as one lost in amazement. At one moment she looked him full in the face, but then again directly, she was misled by his shabby clothes and failed to recognise him, [181] till Telemachus began to reproach her and said:
-
----
+On this she came down from her upper room, and while doing so she considered whether she should keep at a distance from her husband and question him, or whether she should at once go up to him and embrace him. When, however, she had crossed the stone floor of the cloister, she sat down opposite Ulysses by the fire, against the wall at right angles [to that by which she had entered], while Ulysses sat near one of the bearing-posts, looking upon the ground, and waiting to see what his brave wife would say to him when she saw him. For a long time she sat silent and as one lost in amazement. At one moment she looked him full in the face, but then again directly, she was misled by his shabby clothes and failed to recognise him, till Telemachus began to reproach her and said:
 
 “Mother—but you are so hard that I cannot call you by such a name—why do you keep away from my father in this way? Why do you not sit by his side and begin talking to him and asking him questions? No other woman could bear to keep away from her husband when he had come back to her after twenty years of absence, and after having gone through so much; but your heart always was as hard as a stone.”
 
@@ -2619,7 +2128,7 @@ Ulysses smiled at this, and said to Telemachus, “Let your mother put me to any
 
 “I will say what I think will be best,” answered Ulysses. “First wash and put your shirts on; tell the maids also to go to their own room and dress; Phemius shall then strike up a dance tune on his lyre, so that if people outside hear, or any of the neighbours, or some one going along the street happens to notice it, they may think there is a wedding in the house, and no rumours about the death of the suitors will get about in the town, before we can escape to the woods upon my own land. Once there, we will settle which of the courses heaven vouchsafes us shall seem wisest.”
 
-Thus did he speak, and they did even as he had said. First they washed and put their shirts on, while the women got ready. Then Phemius took his lyre and set them all longing for sweet song and stately dance. The house re-echoed with the sound of men and women dancing, and the people outside said, “I suppose the queen has been getting married at last. She ought to be ashamed of herself for not continuing to protect her husband's property until he comes home.”[182]
+Thus did he speak, and they did even as he had said. First they washed and put their shirts on, while the women got ready. Then Phemius took his lyre and set them all longing for sweet song and stately dance. The house re-echoed with the sound of men and women dancing, and the people outside said, “I suppose the queen has been getting married at last. She ought to be ashamed of herself for not continuing to protect her husband's property until he comes home.”
 
 This was what they said, but they did not know what it was that had been happening. The upper servant Eurynome washed and anointed Ulysses in his own house and gave him a shirt and cloak, while Minerva made him look taller and stronger than before; she also made the hair grow thick on the top of his head, and flow down in curls like hyacinth blossoms; she glorified him about the head and shoulders just as a skilful workman who has studied art of all kinds under Vulcan or Minerva—and his work is full of beauty—enriches a piece of silver plate by gilding it. He came from the bath looking like one of the immortals, and sat down opposite his wife on the seat he had left. “My dear,” said he, “heaven has endowed you with a heart more unyielding than woman ever yet had. No other woman could bear to keep away from her husband when he had come back to her after twenty years of absence, and after having gone through so much. But come, nurse, get a bed ready for me; I will sleep alone, for this woman has a heart as hard as iron.”
 
@@ -2628,8 +2137,6 @@ This was what they said, but they did not know what it was that had been happeni
 She said this to try him, but Ulysses was very angry and said, “Wife, I am much displeased at what you have just been saying. Who has been taking my bed from the place in which I left it? He must have found it a hard task, no matter how skilled a workman he was, unless some god came and helped him to shift it. There is no man living, however strong and in his prime, who could move it from its place, for it is a marvellous curiosity which I made with my very own hands. There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing. This I dressed roughly from the root upwards and then worked with carpenter's tools well and skilfully, straightening my work by drawing a line on the wood, and making it into a bed-prop. I then bored a hole down the middle, and made it the centre-post of my bed, at which I worked till I had finished it, inlaying it with gold and silver; after this I stretched a hide of crimson leather from one side of it to the other. So you see I know all about it, and I desire to learn whether it is still there, or whether any one has been removing it by cutting down the olive tree at its roots.”
 
 When she heard the sure proofs Ulysses now gave her, she fairly broke down. She flew weeping to his side, flung her arms about his neck, and kissed him. “Do not be angry with me Ulysses,” she cried, “you, who are the wisest of mankind. We have suffered, both of us. Heaven has denied us the happiness of spending our youth, and of growing old, together; do not then be aggrieved or take it amiss that I did not embrace you thus as soon as I saw you. I have been shuddering all the time through fear that someone might come here and deceive me with a lying story; for there are many very wicked people going about.
-
----
 
 Jove's daughter Helen would never have yielded herself to a man from a foreign country, if she had known that the sons of Achaeans would come after her and bring her back. Heaven put it in her heart to do wrong, and she gave no thought to that sin, which has been the source of all our sorrows. Now, however, that you have convinced me by showing that you know all about our bed (which no human being has ever seen but you and I and a single maidservant, the daughter of Actor, who was given me by my father on my marriage, and who keeps the doors of our room) hard of belief though I have been I can mistrust no longer.”
 
@@ -2643,27 +2150,19 @@ At last, however, Ulysses said, “Wife, we have not yet reached the end of our 
 
 And Penelope said, “If the gods are going to vouchsafe you a happier time in your old age, you may hope then to have some respite from misfortune.”
 
-Thus did they converse. Meanwhile Eurynome and the nurse took torches and made the bed ready with soft coverlets; as soon as they had laid them, the nurse went back into the house to go to her rest, leaving the bed chamber woman Eurynome[183] to show Ulysses and Penelope to bed by torch light. When she had conducted them to their room she went back, and they then came joyfully to the rites of their own old bed. Telemachus, Philoetius, and the swineherd now left off dancing, and made the women leave off also. They then laid themselves down to sleep in the cloisters.
+Thus did they converse. Meanwhile Eurynome and the nurse took torches and made the bed ready with soft coverlets; as soon as they had laid them, the nurse went back into the house to go to her rest, leaving the bed chamber woman Eurynome to show Ulysses and Penelope to bed by torch light. When she had conducted them to their room she went back, and they then came joyfully to the rites of their own old bed. Telemachus, Philoetius, and the swineherd now left off dancing, and made the women leave off also. They then laid themselves down to sleep in the cloisters.
 
 When Ulysses and Penelope had had their fill of love they fell talking with one another. She told him how much she had had to bear in seeing the house filled with a crowd of wicked suitors who had killed so many sheep and oxen on her account, and had drunk so many casks of wine. Ulysses in his turn told her what he had suffered, and how much trouble he had himself given to other people. He told her everything, and she was so delighted to listen that she never went to sleep till he had ended his whole story.
 
 He began with his victory over the Cicons, and how he thence reached the fertile land of the Lotus-eaters. He told her all about the Cyclops and how he had punished him for having so ruthlessly eaten his brave comrades; how he then went on to Aeolus, who received him hospitably and furthered him on his way, but even so he was not to reach home, for to his great grief a hurricane carried him out to sea again; how he went on to the Laestrygonian city Telepylos, where the people destroyed all his ships with their crews, save himself and his own ship only. Then he told of cunning Circe and her craft, and how he sailed to the chill house of Hades, to consult the ghost of the Theban prophet Teiresias, and how he saw his old comrades in arms, and his mother who bore him and brought him up when he was a child; how he then heard the wondrous singing of the Sirens, and went on to the wandering rocks and terrible Charybdis and to Scylla, whom no man had ever yet passed in safety; how his men then ate the cattle of the sun-god, and how Jove therefore struck the ship with his thunderbolts, so that all his men perished together, himself alone being left alive; how at last he reached the Ogygian island and the nymph Calypso, who kept him there in a cave, and fed him, and wanted him to marry her, in which case she intended making him immortal so that he should never grow old, but she could not persuade him to let her do so; and how after much suffering he had found his way to the Phaeacians, who had treated him as though he had been a god, and sent him back in a ship to his own country after having given him gold, bronze, and raiment in great abundance. This was the last thing about which he told her, for here a deep sleep took hold upon him and eased the burden of his sorrows.
 
-
-
----
-
-Then Minerva bethought her of another matter. When she deemed that Ulysses had had both of his wife and of repose, she bade gold-enthroned Dawn rise out of Oceanus that she might shed light upon mankind. On this, Ulysses rose from his comfortable bed and said to Penelope, “Wife, we have both of us had our full share of troubles, you, here, in lamenting my absence, and I in being prevented from getting home though I was longing all the time to do so. Now, however, that we have at last come together, take care of the property that is in the house. As for the sheep and goats which the wicked suitors have eaten, I will take many myself by force from other people, and will compel the Achaeans to make good the rest till they shall have filled all my yards. I am now going to the wooded lands out in the country to see my father who has so long been grieved on my account, and to yourself I will give these instructions, though you have little need of them. At sunrise it will at once get abroad that I have been killing the suitors; go upstairs, therefore,[184] and stay there with your women. See nobody and ask no questions.”[185]
+Then Minerva bethought her of another matter. When she deemed that Ulysses had had both of his wife and of repose, she bade gold-enthroned Dawn rise out of Oceanus that she might shed light upon mankind. On this, Ulysses rose from his comfortable bed and said to Penelope, “Wife, we have both of us had our full share of troubles, you, here, in lamenting my absence, and I in being prevented from getting home though I was longing all the time to do so. Now, however, that we have at last come together, take care of the property that is in the house. As for the sheep and goats which the wicked suitors have eaten, I will take many myself by force from other people, and will compel the Achaeans to make good the rest till they shall have filled all my yards. I am now going to the wooded lands out in the country to see my father who has so long been grieved on my account, and to yourself I will give these instructions, though you have little need of them. At sunrise it will at once get abroad that I have been killing the suitors; go upstairs, therefore, and stay there with your women. See nobody and ask no questions.”
 
 As he spoke he girded on his armour. Then he roused Telemachus, Philoetius, and Eumaeus, and told them all to put on their armour also. This they did, and armed themselves. When they had done so, they opened the gates and sallied forth, Ulysses leading the way. It was now daylight, but Minerva nevertheless concealed them in darkness and led them quickly out of the town.
 
+# BOOK XXIV.
 
-
----
-
-# BOOK XXIV
-
-THE GHOSTS OF THE SUITORS IN HADES—ULYSSES AND HIS MEN GO TO THE HOUSE OF LAERTES—THE PEOPLE OF ITHACA COME OUT TO ATTACK ULYSSES, BUT MINERVA CONCLUDES A PEACE.
+*The ghosts of the suitors in Hades—Ulysses and his men go to the house of Laertes—The people of Ithaca come out to attack Ulysses, but Minerva concludes a peace.*
 
 Then Mercury of Cyllene summoned the ghosts of the suitors, and in his hand he held the fair golden wand with which he seals men's eyes in sleep or wakes them just as he pleases; with this he roused the ghosts and led them, while they followed whining and gibbering behind him. As bats fly squealing in the hollow of some great cave, when one of them has fallen out of the cluster in which they hang, even so did the ghosts whine and squeal as Mercury the healer of sorrow led them down into the dark abode of death. When they had passed the waters of Oceanus and the rock Leucas, they came to the gates of the sun and the land of dreams, whereon they reached the meadow of asphodel where dwell the souls and shadows of them that can labour no more.
 
@@ -2679,13 +2178,11 @@ They gathered round the ghost of the son of Peleus, and the ghost of Agamemnon j
 
 “Over these the host of the Argives built a noble tomb, on a point jutting out over the open Hellespont, that it might be seen from far out upon the sea by those now living and by them that shall be born hereafter. Your mother begged prizes from the gods, and offered them to be contended for by the noblest of the Achaeans. You must have been present at the funeral of many a hero, when the young men gird themselves and make ready to contend for prizes on the death of some great chieftain, but you never saw such prizes as silver-footed Thetis offered in your honour; for the gods loved you well. Thus even in death your fame, Achilles, has not been lost, and your name lives evermore among all mankind. But as for me, what solace had I when the days of my fighting were done? For Jove willed my destruction on my return, by the hands of Aegisthus and those of my wicked wife.”
 
----
-
 Thus did they converse, and presently Mercury came up to them with the ghosts of the suitors who had been killed by Ulysses. The ghosts of Agamemnon and Achilles were astonished at seeing them, and went up to them at once. The ghost of Agamemnon recognised Amphimedon son of Melaneus, who lived in Ithaca and had been his host, so it began to talk to him.
 
 “Amphimedon,” it said, “what has happened to all you fine young men—all of an age too—that you are come down here under the ground? One could pick no finer body of men from any city. Did Neptune raise his winds and waves against you when you were at sea, or did your enemies make an end of you on the mainland when you were cattle-lifting or sheep-stealing, or while fighting in defence of their wives and city? Answer my question, for I have been your guest. Do you not remember how I came to your house with Menelaus, to persuade Ulysses to join us with his ships against Troy? It was a whole month ere we could resume our voyage, for we had hard work to persuade Ulysses to come with us.”
 
-And the ghost of Amphimedon answered, “Agamemnon, son of Atreus, king of men, I remember everything that you have said, and will tell you fully and accurately about the way in which our end was brought about. Ulysses had been long gone, and we were courting his wife, who did not say point blank that she would not marry, nor yet bring matters to an end, for she meant to compass our destruction: this, then, was the trick she played us. She set up a great tambour frame in her room and began to work on an enormous piece of fine needlework. ‘Sweethearts,’ said she, ‘Ulysses is indeed dead, still, do not press me to marry again immediately; wait—for I would not have my skill in needlework perish unrecorded—till I have completed a pall for the hero Laertes, against the time when death shall take him. He is very rich, and the women of the place will talk if he is laid out without a pall.’ This is what she said, and we assented; whereupon we could see her working upon her great web all day long, but at night she would unpick the stitches again by torchlight. She fooled us in this way for three years without our finding it out, but as time wore on and she was now in her fourth year, in the waning of moons and many days had been accomplished, one of her maids who knew what she was doing told us, and we caught her in the act of undoing her work, so she had to finish it whether she would or no; and when she showed us the robe she had made, after she had had it washed,[186] its splendour was as that of the sun or moon.
+And the ghost of Amphimedon answered, “Agamemnon, son of Atreus, king of men, I remember everything that you have said, and will tell you fully and accurately about the way in which our end was brought about. Ulysses had been long gone, and we were courting his wife, who did not say point blank that she would not marry, nor yet bring matters to an end, for she meant to compass our destruction: this, then, was the trick she played us. She set up a great tambour frame in her room and began to work on an enormous piece of fine needlework. ‘Sweethearts,’ said she, ‘Ulysses is indeed dead, still, do not press me to marry again immediately; wait—for I would not have my skill in needlework perish unrecorded—till I have completed a pall for the hero Laertes, against the time when death shall take him. He is very rich, and the women of the place will talk if he is laid out without a pall.’ This is what she said, and we assented; whereupon we could see her working upon her great web all day long, but at night she would unpick the stitches again by torchlight. She fooled us in this way for three years without our finding it out, but as time wore on and she was now in her fourth year, in the waning of moons and many days had been accomplished, one of her maids who knew what she was doing told us, and we caught her in the act of undoing her work, so she had to finish it whether she would or no; and when she showed us the robe she had made, after she had had it washed, its splendour was as that of the sun or moon.
 
 “Then some malicious god conveyed Ulysses to the upland farm where his swineherd lives. Thither presently came also his son, returning from a voyage to Pylos, and the two came to the town when they had hatched their plot for our destruction. Telemachus came first, and then after him, accompanied by the swineherd, came Ulysses, clad in rags and leaning on a staff as though he were some miserable old beggar. He came so unexpectedly that none of us knew him, not even the older ones among us, and we reviled him and threw things at him. He endured both being struck and insulted without a word, though he was in his own house; but when the will of Aegis-bearing Jove inspired him, he and Telemachus took the armour and hid it in an inner chamber, bolting the doors behind them. Then he cunningly made his wife offer his bow and a quantity of iron to be contended for by us ill-fated suitors; and this was the beginning of our end, for not one of us could string the bow—nor nearly do so. When it was about to reach the hands of Ulysses, we all of us shouted out that it should not be given him, no matter what he might say, but Telemachus insisted on his having it. When he had got it in his hands he strung it with ease and sent his arrow through the iron. Then he stood on the floor of the cloister and poured his arrows on the ground, glaring fiercely about him. First he killed Antinous, and then, aiming straight before him, he let fly his deadly darts and they fell thick on one another. It was plain that some one of the gods was helping them, for they fell upon us with might and main throughout the cloisters, and there was a hideous sound of groaning as our brains were being battered in, and the ground seethed with our blood. This, Agamemnon, is how we came by our end, and our bodies are lying still uncared for in the house of Ulysses, for our friends at home do not yet know what has happened, so that they cannot lay us out and wash the black blood from our wounds, making moan over us according to the offices due to the departed.”
 
@@ -2696,8 +2193,6 @@ Thus did they converse in the house of Hades deep down within the bowels of the 
 “Go to the house, and kill the best pig that you can find for dinner. Meanwhile I want to see whether my father will know me, or fail to recognise me after so long an absence.”
 
 He then took off his armour and gave it to Eumaeus and Philoetius, who went straight on to the house, while he turned off into the vineyard to make trial of his father. As he went down into the great orchard, he did not see Dolius, nor any of his sons nor of the other bondsmen, for they were all gathering thorns to make a fence for the vineyard, at the place where the old man had told them; he therefore found his father alone, hoeing a vine. He had on a dirty old shirt, patched and very shabby; his legs
-
----
 
 were bound round with thongs of oxhide to save him from the brambles, and he also wore sleeves of leather; he had a goat skin cap on his head, and was looking very woe-begone. When Ulysses saw him so worn, so old and full of sorrow, he stood still under a tall pear tree and began to weep. He doubted whether to embrace him, kiss him, and tell him all about his having come home, or whether he should first question him and see what he would say. In the end he deemed it best to be crafty with him, so in this mind he went up to his father, who was bending down and digging about a plant.
 
@@ -2715,10 +2210,6 @@ A dark cloud of sorrow fell upon Laertes as he listened. He filled both hands wi
 
 Laertes’ strength failed him when he heard the convincing proofs which his son had given him. He threw his arms about him, and Ulysses had to support him, or he would have gone off into a swoon; but as soon as he came to, and was beginning to recover his senses, he said, “O father Jove, then you gods are still in Olympus after all, if the suitors have really been punished
 
-
-
----
-
 for their insolence and folly. Nevertheless, I am much afraid that I shall have all the townspeople of Ithaca up here directly, and they will be sending messengers everywhere throughout the cities of the Cephallenians.”
 
 Ulysses answered, “Take heart and do not trouble yourself about that, but let us go into the house hard by your garden. I have already told Telemachus, Philoetius, and Eumaeus to go on there and get dinner ready as soon as possible.”
@@ -2729,7 +2220,7 @@ Laertes answered, “Would, by Father Jove, Minerva, and Apollo, that I were the
 
 Thus did they converse; but the others, when they had finished their work and the feast was ready, left off working, and took each his proper place on the benches and seats. Then they began eating; by and by old Dolius and his sons left their work and came up, for their mother, the Sicel woman who looked after Laertes now that he was growing old, had been to fetch them. When they saw Ulysses and were certain it was he, they stood there lost in astonishment; but Ulysses scolded them good naturedly and said, “Sit down to your dinner, old man, and never mind about your surprise; we have been wanting to begin for some time and have been waiting for you.”
 
-Then Dolius put out both his hands and went up to Ulysses. “Sir,” said he, seizing his master’s hand and kissing it at the wrist, “we have long been wishing you home: and now heaven has restored you to us after we had given up hoping. All hail, therefore, and may the gods prosper you.[187] But tell me, does Penelope already know of your return, or shall we send some one to tell her?”
+Then Dolius put out both his hands and went up to Ulysses. “Sir,” said he, seizing his master’s hand and kissing it at the wrist, “we have long been wishing you home: and now heaven has restored you to us after we had given up hoping. All hail, therefore, and may the gods prosper you. But tell me, does Penelope already know of your return, or shall we send some one to tell her?”
 
 “Old man,” answered Ulysses, “she knows already, so you need not trouble about that.” On this he took his seat, and the sons of Dolius gathered round Ulysses to give him greeting and embrace him one after the other; then they took their seats in due order near Dolius their father.
 
@@ -2742,8 +2233,6 @@ On this pale fear laid hold of them, and old Halitherses, son of Mastor, rose to
 “Men of Ithaca, it is all your own fault that things have turned out as they have; you would not listen to me, nor yet to Mentor, when we bade you check the folly of your sons who were doing much wrong in the wantonness of their hearts—wasting the substance and dishonouring the wife of a chieftain who they thought would not return. Now, however, let it be as I say, and do as I tell you. Do not go out against Ulysses, or you may find that you have been drawing down evil on your own heads.”
 
 This was what he said, and more than half raised a loud shout, and at once left the assembly. But the rest stayed where they were, for the speech of Halitherses displeased them, and they sided with Eupeithes; they therefore hurried off for their armour, and when they had armed themselves, they met together in front of the city, and Eupeithes led them on in their folly. He thought he was going to avenge the murder of his son, whereas in truth he was never to return, but was himself to perish in his attempt.
-
----
 
 Then Minerva said to Jove, "Father, son of Saturn, king of kings, answer me this question—What do you propose to do? Will you set them fighting still further, or will you make peace between them?"
 
@@ -2768,677 +2257,3 @@ As she spoke she infused fresh vigour into him, and when he had prayed to her he
 On this pale fear seized every one; they were so frightened that their arms dropped from their hands and fell upon the ground at the sound of the goddess' voice, and they fled back to the city for their lives. But Ulysses gave a great cry, and gathering himself together swooped down like a soaring eagle. Then the son of Saturn sent a thunderbolt of fire that fell just in front of Minerva, so she said to Ulysses, "Ulysses, noble son of Laertes, stop this warful strife, or Jove will be angry with you."
 
 Thus spoke Minerva, and Ulysses obeyed her gladly. Then Minerva assumed the form and voice of Mentor, and presently made a covenant of peace between the two contending parties.
-
-
-
----
-
-# FOOTNOTES:
-
-[1]
-[Black races are evidently known to the writer as stretching all across Africa, one half looking West on to the Atlantic, and the other East on to the Indian Ocean.]
-
-[2]
-[The original use of the footstool was probably less to rest the feet than to keep them (especially when bare) from a floor which was often wet and dirty.]
-
-[3]
-[The θρόνος or seat, is occasionally called “high,” as being higher than the θρήνος or low footstool. It was probably no higher than an ordinary chair is now, and seems to have had no back.]
-
-[4]
-[Temesa was on the West Coast of the toe of Italy, in what is now the gulf of Sta Eufemia. It was famous in remote times for its copper mines, which, however, were worked out when Strabo wrote.]
-
-[5]
-[i.e. “with a current in it”—see illustrations and map near the end of bks. v. and vi. respectively.]
-
-[6]
-[Reading Νηρίτω for Νηίο, cf. “Od.” iii. 81 where the same mistake is made, and xiii. 351 where the mountain is called Neritum, the same place being intended both here and in book xiii.]
-
-[7]
-[It is never plausibly explained why Penelope cannot do this, and from bk. ii. it is clear that she kept on deliberately encouraging the suitors, though we are asked to believe that she was only fooling them.]
-
-[8]
-[See note on “Od.” i. 365.]
-
-[9]
-[Middle Argos means the Peleponnese which, however, is never so called in the “Iliad”. I presume “middle” means “middle between the two Greek-speaking countries of Asia Minor and Sicily, with South Italy”; for that parts of Sicily and also large parts, though not the whole of South Italy, were inhabited by Greek-speaking races centuries before the Dorian colonisations can hardly be doubted. The Sicians, and also the Sicels, both of them probably spoke Greek.]
-
-[10]
-[cf. “II.” vi. 490-495. In the “Iliad” it is “war,” not “speech,” that is a man’s matter. It argues a certain hardness, or at any rate dislike of the “Iliad” on the part of the writer of the “Odyssey,” that she should have adopted Hector’s farewell to Andromache here, as elsewhere in the poem, for a scene of such inferior pathos.]
-
-[11]
-[μέγαρα ποσέντα The whole open court with the covered cloister running round it was called μέγαρον, or μέγαρα, but the covered part was distinguished by being called “shady” or “shadow-giving”. It was in this part that the tables for the suitors were laid. The Fountain Court at Hampton Court may serve as an illustration (save as regards the use of arches instead of wooden supports and rafters) and the arrangement is still common in Sicily. The usual translation “shadowy” or “dusky” halls, gives a false idea of the scene.]
-
-[12]
-[The reader will note the extreme care which the writer takes to make it clear that none of the suitors were allowed to sleep in Ulysses’ house.]
-
-[13]
-[See Appendix; g, in plan of Ulysses’ house.]
-
-[14]
-[I imagine this passage to be a rejoinder to “II.” xxiii. 702-705 in which a tripod is valued at twelve oxen, and a good useful maid of all work at only four. The scrupulous regard of Laertes for his wife’s feelings is of a piece with the extreme jealousy for the honour of woman, which is manifest throughout the “Odyssey”.]
-
-[15]
-[χπόνα “The χπόν, or tunica, was a shirt or shift, and served as the chief under garment of the Greeks and Romans, whether men or women.” Smith’s Dictionary of Greek and Roman Antiquities, under “Tunica”.]
-
-[16]
-[Doors fastened to all intents and purposes as here described may be seen in the older houses at Trapani. There is a slot on the outer side of the door by means of which a person who has left the room can shoot the bolt. My bedroom at the Albergo Centrale was fastened in this way.]
-
-[17]
-[πύματον δ’ ὁσλίππατο δόρτιον. So we vulgarly say “had cooked his goose,” or “had settled his hash.” Ægyptius cannot of course know of the fate Antiphus had met with, for there had as yet been no news of or from Ulysses.]
-
-[18]
-[“II.” xxii. 416. σχέσθε φίλοι, καὶ μ’ οἷον ἐάπατε…… The authoress has bungled by borrowing these words verbatim from the “Iliad”, without prefixing the necessary “do not,” which I have supplied.]
-
-125
-
----
-
-[19]
-[ i.e. you have money, and could pay when I got judgment, whereas the suitors are men of straw.]
-[20]
-[cf. "II." ii. 76.  $\hat{\eta}$  to  $\hat{\sigma}$  γ'  $\hat{\omega}_{\zeta}$  εἰπών κατ' ἀρ' ἐζετὸ τοῦσι δ' ἀνέστη
-Νέστοφ, ὅς ῥα.
-ὅ πριν εὖ φρονίων ἀγωρήσετω καὶ μετέεσεν.
-The Odyssean passage runs—
-“ἤ τοῦ δ γ' ὦς εἰπὼ κατ' ἀρ' ἐζετὸ τοῦσι δ' ἀνέστη
-Μεντοῦ ὅς ῥ’.
-ὅ πριν εὖ φρονίων ἀγωρήσετω καὶ μετέεσεν.
-Is it possible not to suspect that the name Mentor was coined upon that of Nestor?]
-[21]
-[ i.e. in the outer court, and in the uncovered part of the inner house.]
-[22]
-[ This would be fair from Sicily, which was doing duty for Ithaca in the mind of the writer, but a North wind would have been preferable for a voyage from the real Ithaca to Pylos.]
-[23]
-[ κελάδοντ' ἐπὶ οἵνοπα πόντον The wind does not whistle over waves. It only whistles through rigging or some other obstacle that cuts it.]
-[24]
-[cf. "II." v.20. Ἰδαῖος δ' ἀπόροσσι λαῖον περικαλλέα δίαρον, the Odyssean line is ἡέλως δ' ἀπόροσσι λαῖον περικαλλέα λίμνην. There can be no doubt that the Odyssean line was suggested by the Iliadic, but nothing can explain why Idarus jumping from his chariot should suggest to the writer of the "Odyssey" the sun jumping from the sea. The probability is that she never gave the matter a thought, but took the line in question as an effect of saturation with the "Iliad," and of unconscious cerebration. The "Odyssey" contains many such examples.]
-[25]
-[ The heart, liver, lights, kidneys, etc. were taken out from the inside and eaten first as being more readily cooked; the {Greek}, or bone meat, was cooking while the {Greek} or inward parts were being eaten. I imagine that the thigh bones made a kind of gridiron, while at the same time the marrow inside them got cooked.]
-[26]
-[ i.e. skewers, either single, double, or even five pronged. The meat would be pierced with the skewer, and laid over the ashes to grill—the two ends of the skewer being supported in whatever way convenient. Meat so cooking may be seen in any eating house in Smyrna, or any Eastern town. When I rode across the Troad from the Dardanelles to Hissarlik and Mount Ida, I noticed that my dragoman and his men did all our outdoor cooking exactly in the Odyssean and Iliadic fashion.]
-[27]
-[cf. "II." xvii. 567. {Greek} The Odyssean lines are—{Greek}]
-[28]
-[Reading {Greek} for {Greek}, cf. "Od." i. 186.]
-[29]
-[ The geography of the Agean as above described is correct, but is probably taken from the lost poem, the Nosti, the existence of which is referred to "Od." i. 326, 327 and 350, &amp;c. A glance at the map will show that heaven advised its supplicants quite correctly.]
-[30]
-[ The writer—ever jealous for the honour of women—extenuates Clytemnestra's guilt as far as possible, and explains it as due to her having been left unprotected, and fallen into the hands of a wicked man.]
-[31]
-[ The Greek is {Greek} cf. "Iliad" ii. 408 {Greek} Surely the {Greek} of the Odyssean passage was due to the {Greek} of the "Iliad." No other reason suggests itself for the making Menelaus return on the very day of the feast given by Orestes. The fact that in the "Iliad" Menelaus came to a banquet without waiting for an invitation, determines the writer of the "Odyssey" to make him come to a banquet, also uninvited, but as circumstances did not permit of his having been invited, his coming uninvited is shown to have been due to chance. I do not think the authoress thought all this out, but attribute the strangeness of the coincidence to unconscious cerebration and saturation.]
-[32]
-[cf. "II." I. 458, II. 421. The writer here interrupts an Iliadic passage (to which she returns immediately) for the double purpose of dwelling upon the slaughter of the heifer, and of letting Nestor's wife and daughter enjoy it also. A male writer, if he was borrowing from the "Iliad," would have stuck to his borrowing.]
-[33]
-[cf. "II." xxiv. 587, 588 where the lines refer to the washing the dead body of Hector.]
-[34]
-[ See illustration on opposite page. The yard is typical of many that may be seen in Sicily. The existing ground-plan is probably unmodified from Odyssean, and indeed long pre-Odyssean times, but the earlier buildings would have no arches, and would, one would suppose, be mainly timber. The Odyssean {Greek} were the sheds that ran round the yard as the arches do now. The {Greek} was the one through which the main entrance passed, and which was hence "noisy," or reverberating. It had an upper story in which visitors were often lodged.]
-[35]
-[ This journey is an impossible one. Telemachus and Pisistratus would have been obliged to drive over the Taygetus range, over which there has never yet been a road for wheeled vehicles. It is plain therefore that the audience for whom the "Odyssey" was written was one that would be unlikely to know anything about the topography of the Peloponnese, so that the writer might take what liberties she chose.]
-[36]
-[ The lines which I have enclosed in brackets are evidently an afterthought—added probably by the writer herself—for they evince the same instinctively greater interest in anything that may concern a woman, which is so noticeable throughout the poem. There is no
-
-126
-
----
-
-further sign of any special festivities nor of any other guests than Telemachus and Pisistratus, until lines 621-624 (ordinarily enclosed in brackets) are abruptly introduced, probably with a view of trying to carry off the introduction of the lines now in question.
-
-The addition was, I imagine, suggested by a desire to excuse and explain the non-appearance of Hermione in bk. xv., as also of both Hermione and Megapenthes in the rest of bk. iv. Megapenthes in bk. xv. seems to be still a bachelor: the presumption therefore is that bk. xv. was written before the story of his marriage here given. I take it he is only married here because his sister is being married. She having been properly attended to, Megapenthes might as well be married at the same time. Hermione could not now be less than thirty.
-
-I have dealt with this passage somewhat more fully in my “Authoress of the Odyssey”, p. 136-138. See also p. 256 of the same book.]
-
-[37]
-[ Sparta and Lacedaemon are here treated as two different places, though in other parts of the poem it is clear that the writer understands them as one. The catalogue in the “Iliad,” which the writer is here presumably following, makes the same mistake (“II.” ii. 581, 582)]
-
-[38]
-[ These last three lines are identical with “II.” vxiii. 604-606.]
-
-[39]
-[ From the Greek {Greek} it is plain that Menelaus took up the piece of meat with his fingers.]
-
-[40]
-[ Amber is never mentioned in the “Iliad.” Sicily, where I suppose the “Odyssey” to have been written, has always been, and still is, one of the principal amber producing countries. It was probably the only one known in the Odyssean age. See “The Authoress of the Odyssey,” Longmans 1898, p. 186.]
-
-[41]
-[ This no doubt refers to the story told in the last poem of the Cypria about Paris and Helen robbing Menelaus of the greater part of his treasures, when they sailed together for Troy.]
-
-[42]
-[ It is inconceivable that Helen should enter thus, in the middle of supper, intending to work with her distaff, if great festivities were going on. Telemachus and Pisistratus are evidently dining en famille.]
-
-[43]
-[ In the Italian insurrection of 1848, eight young men who were being hotly pursued by the Austrian police hid themselves inside Donatello’s colossal wooden horse in the Salone at Padua, and remained there for a week being fed by their confederates. In 1898 the last survivor was carried round Padua in triumph.]
-
-[44]
-[ The Greek is {Greek}. Is it unfair to argue that the writer is a person of somewhat delicate sensibility, to whom a strong smell of fish is distasteful?]
-
-[45]
-[ The Greek is {Greek}. I believe this to be a hit at the writer’s own countrymen who were of Phocaean descent, and the next following line to be a rejoinder to complaints made against her in bk. vi. 273-288, to the effect that she gave herself airs and would marry none of her own people. For that the writer of the “Odyssey” was the person who has been introduced into the poem under the name of Nausicaa, I cannot bring myself to question. I may remind English readers that {Greek} (i.e. phoca) means “seal.” Seals almost always appear on Phocaean coins.]
-
-[46]
-[ Surely here again we are in the hands of a writer of delicate sensibility. It is not as though the seals were stale; they had only just been killed. The writer, however is obviously laughing at her own countrymen, and insulting them as openly as she dares.]
-
-[47]
-[ We were told above (lines 356, 357) that it was only one day’s sail.]
-
-[48]
-[ I give the usual translation, but I do not believe the Greek will warrant it. The Greek reads {Greek}.
-
-This is usually held to mean that Ithaca is an island fit for breeding goats, and on that account more delectable to the speaker than it would have been if it were fit for breeding horses. I find little authority for such a translation; the most equitable translation of the text as it stands is, “Ithaca is an island fit for breeding goats, and delectable rather than fit for breeding horses; for not one of the islands is good driving ground, nor well meadowed.” Surely the writer does not mean that a pleasant or delectable island would not be fit for breeding horses? The most equitable translation, therefore, of the present text being thus halt and impotent, we may suspect corruption, and I hazard the following emendation, though I have not adopted it in my translation, as fearing that it would be deemed too fanciful. I would read:—{Greek}.
-
-As far as scanning goes the {Greek} is not necessary; {Greek} iv. 72, (Footnote Greek) iv. 233, to go no further afield than earlier lines of the same book, give sufficient authority for {Greek}, but the {Greek} would not be redundant; it would emphasise the surprise of the contrast, and I should prefer to have it, though it is not very important either way. This reading of course should be translated “Ithaca is an island fit for breeding goats, and (by your leave) itself a horseman rather than fit for breeding horses—for not one of the islands is good and well meadowed ground.”
-
-This would be sure to baffle the Alexandrian editors. “How,” they would ask themselves, “could an island be a horseman?” and they would cast about for an emendation. A visit to the top of Mt. Eryx might perhaps make the meaning intelligible, and suggest my proposed restoration of the text to the reader as readily as it did to myself.
-
-I have elsewhere stated my conviction that the writer of the “Odyssey” was familiar with the old Sican city at the top of Mt. Eryx, and that the Aegadean islands which are so striking when seen thence did duty with her for the Ionian islands—Marettimo, the highest and most westerly of the group, standing for Ithaca. When seen from the top of Mt. Eryx Marettimo shows as it should do according to “Od.” ix. 25, 26, “on the horizon, all highest up in the sea towards the West,” while the other islands lie “some way off it to the East.” As we descend to Trapani, Marettimo appears to sink on to the top of the island of Levanzo, behind which it disappears. My friend, the late Signor E. Biaggini, pointed to it once as it was just standing on the top of Levanzo, and said to me “Come cavalca bene” (“How well it rides”), and this immediately suggested my emendation to me. Later on I found in the hymn to the Pythian Apollo (which abounds with tags taken from the “Odyssey”) a line ending {Greek} which strengthened my suspicion that this was the original ending of the second of the two lines above under consideration.]
-
-127
-
----
-
-[49]
-[See note on line 3 of this book. The reader will observe that the writer has been unable to keep the women out of an interpolation consisting only of four lines.]
-[50]
-[ Scheria means a piece of land jutting out into the sea. In my “Authoress of the Odyssey” I thought “Jutland” would be a suitable translation, but it has been pointed out to me that “Jutland” only means the land of the Jutes.]
-[51]
-[Irrigation as here described is common in gardens near Trapani. The water that supplies the ducts is drawn from wells by a mule who turns a wheel with buckets on it.]
-[52]
-[There is not a word here about the cattle of the sun-god.]
-[53]
-[The writer evidently thought that green, growing wood might also be well seasoned.]
-[54]
-[The reader will note that the river was flowing with salt water i.e. that it was tidal.]
-[55]
-[Then the Ogygian island was not so far off, but that Nausicaa might be assumed to know where it was.]
-[56]
-[Greek {Greek}]
-[57]
-[I suspect a family joke, or sly allusion to some thing of which we know nothing, in this story of Eurymedusa’s having been brought from Apeira. The Greek word “apeiros” means “inexperienced,” “ignorant.” Is it possible that Eurymedusa was notoriously incompetent?]
-[58]
-[Polyphemus was also son to Neptune, see “Od.” ix. 412, 529. he was therefore half brother to Nausithous, half uncle to King Alcinous, and half great uncle to Nausicaa.]
-[59]
-[It would seem as though the writer thought that Marathon was close to Athens.]
-[60]
-[Here the writer, knowing that she is drawing (with embellishments) from things actually existing, becomes impatient of past tenses and slides into the present.]
-[61]
-[This is hidden malice, implying that the Phaeacian magnates were no better than they should be. The final drink-offering should have been made to Jove or Neptune, not to the god of thievishness and rascality of all kinds. In line 164 we do indeed find Echeneus proposing that a drink-offering should be made to Jove, but Mercury is evidently, according to our authoress, the god who was most likely to be of use to them.]
-[62]
-[The fact of Alcinous knowing anything about the Cyclopes suggests that in the writer’s mind Scheria and the country of the Cyclopes were not very far from one another. I take the Cyclopes and the giants to be one and the same people.]
-[63]
-[“My property, etc.” The authoress is here adopting an Iliadic line (xix. 333), and this must account for the absence of all reference to Penelope. If she had happened to remember “Il.” v. 213, she would doubtless have appropriated it by preference, for that line reads “my country, my wife, and all the greatness of my house.”]
-[64]
-[The at first inexplicable sleep of Ulysses (bk. xiii. 79, etc.) is here, as also in viii. 445, being obviously prepared. The writer evidently attached the utmost importance to it. Those who know that the harbour which did duty with the writer of the “Odyssey” for the one in which Ulysses landed in Ithaca, was only about 2 miles from the place in which Ulysses is now talking with Alcinous, will understand why the sleep was so necessary.]
-[65]
-[There were two classes—the lower who were found in provisions which they had to cook for themselves in the yards and outer precincts, where they would also eat—and the upper who would eat in the cloisters of the inner court, and have their cooking done for them.]
-[66]
-[Translation very dubious. I suppose the {Greek} here to be the covered sheds that ran round the outer courtyard. See illustrations at the end of bk. iii.]
-[67]
-[The writer apparently deems that the words “as compared with what oxen can plough in the same time” go without saying. Not so the writer of the “Iliad” from which the Odyssean passage is probably taken. He explains that mules can plough quicker than oxen (“Il.” x. 351-353)]
-[68]
-[It was very fortunate that such a disc happened to be there, seeing that none like it were in common use.]
-[69]
-[“Il.” xiii. 37. Here, as so often elsewhere in the “Odyssey,” the appropriation of an Iliadic line which is not quite appropriate puzzles the reader. The “they” is not the chains, nor yet Mars and Venus. It is an overflow from the Iliadic passage in which Neptune hobbles his horses in bonds “which none could either unloose or break so that they might stay there in that place.” If the line would have scanned without the addition of the words “so that they might stay there in that place,” they would have been omitted in the “Odyssey.”]
-
----
-
-[70]
-[ The reader will note that Alcinous never goes beyond saying that he is going to give the goblet; he never gives it. Elsewhere in both “Iliad” and “Odyssey” the offer of a present is immediately followed by the statement that it was given and received gladly—Alcinous actually does give a chest and a cloak and shirt—probably also some of the corn and wine for the long two-mile voyage was provided by him—but it is quite plain that he gave no talent and no cup.]
-
-[71]
-[ “Il.” xviii. 344-349. These lines in the “Iliad” tell of the preparation for washing the body of Patroclus, and I am not pleased that the writer of the “Odyssey” should have adopted them here.]
-
-[72]
-[ see note [64] : ]
-
-[73]
-[ see note [43] : ]
-
-[74]
-[ The reader will find this threat fulfilled in bk. xiii]
-
-[75]
-[ If the other islands lay some distance away from Ithaca (which the word {Greek} suggests), what becomes of the πάρθμος or gut between Ithaca and Samos which we hear of in Bks. iv. and xv.? I suspect that the authoress in her mind makes Telemachus come back from Pylos to the Lilybaean promontory and thence to Trapani through the strait between the Isola Grande and the mainland—the island of Asteria being the one on which Motya afterwards stood.]
-
-[76]
-[ “Il.” xviii. 533-534. The sudden lapse into the third person here for a couple of lines is due to the fact that the two Iliadic lines taken are in the third person.]
-
-[77]
-[ cf. “Il.” ii. 776. The words in both “Iliad” and “Odyssey” are [Footnote Greek]. In the “Iliad” they are used of the horses of Achilles’ followers as they stood idle, “champing lotus.”]
-
-[78]
-[ I take all this passage about the Cyclopes having no ships to be sarcastic—meaning, “You people of Drepanum have no excuse for not colonising the island of Favognana, which you could easily do, for you have plenty of ships, and the island is a very good one.” For that the island so fully described here is the Aegadean or “goat” island of Favognana, and that the Cyclopes are the old Sican inhabitants of Mt. Eryx should not be doubted.]
-
-[79]
-[ For the reasons why it was necessary that the night should be so exceptionally dark see “The Authoress of the Odyssey” pp. 188-189.]
-
-[80]
-[ None but such lambs as would suck if they were with their mothers would be left in the yard. The older lambs should have been out feeding. The authoress has got it all wrong, but it does not matter. See “The Authoress of the Odyssey” p. 148.]
-
-[81]
-[ This line is enclosed in brackets in the received text, and is omitted (with note) by Messrs. Butcher &amp; Lang. But lines enclosed in brackets are almost always genuine; all that brackets mean is that the bracketed passage puzzled some early editor, who nevertheless found it too well established in the text to venture on omitting it. In the present case the line bracketed is the very last which a full-grown male editor would be likely to interpolate. It is safer to infer that the writer, a young woman, not knowing or caring at which end of the ship the rudder should be, determined to make sure by placing it at both ends, which we shall find she presently does by repeating it (line 340) at the stern of the ship. As for the two rocks thrown, the first I take to be the Asinelli, see map facing p. 80. The second I see as the two contiguous islands of the Formiche, which are treated as one, see map facing p. 108. The Asinelli is an island shaped like a boat, and pointing to the island of Favognana. I think the authoress’s compatriots, who probably did not like her much better that she did them, jeered at the absurdity of Ulysses’ conduct, and saw the Asinelli or “donkeys,” not as the rock thrown by Polyphemus, but as the boat itself containing Ulysses and his men.]
-
-[82]
-[ This line exists in the text here but not in the corresponding passage xii. 141. I am inclined to think it is interpolated (probably by the poetess herself) from the first of lines xi. 115-137, which I can hardly doubt were added by the writer when the scheme of the work was enlarged and altered. See “The Authoress of the Odyssey” pp. 254-255.]
-
-[83]
-[ “Floating” (πἰκοπή) is not to be taken literally. The island itself, as apart from its inhabitants, was quite normal. There is no indication of its moving during the month that Ulysses stayed with Aeolus, and on his return from his unfortunate voyage, he seems to have found it in the same place. The πἰκοπή in fact should no more be pressed than θοῇm as applied to islands, “Odyssey” xv. 299—where they are called “flying” because the ship would fly past them. So also the “Wanderers,” as explained by Buttmann; see note on “Odyssey” xii. 57.]
-
-[84]
-[ Literally “for the ways of the night and of the day are near.” I have seen what Mr. Andrew Lang says (“Homer and the Epic,” p. 236, and “Longman’s Magazine” for January, 1898, p. 277) about the “amber route” and the “Sacred Way” in this connection; but until he gives his grounds for holding that the Mediterranean peoples in the Odyssean age used to go far North for their amber instead of getting it in Sicily, where it is still found in considerable quantities, I do not know what weight I ought to attach to his opinion. I have been unable to find grounds for asserting that B.C. 1000 there was any commerce between the Mediterranean and the “Far North,” but I shall be very ready to learn if Mr. Lang will enlighten me. See “The Authoress of the Odyssey” pp. 185-186.]
-
-[85]
-[ One would have thought that when the sun was driving the stag down to the water, Ulysses might have observed its whereabouts.]
-
-[86]
-[ See Hobbes of Malmesbury’s translation.]
-
-[87]
-[ “Il.” vxiii. 349. Again the writer draws from the washing the body of Patroclus—which offends.]
-
-
-
----
-
-[88]
-[This visit is wholly without topographical significance.]
-
-[89]
-[Brides presented themselves instinctively to the imagination of the writer, as the phase of humanity which she found most interesting.]
-
-[90]
-[Ulysses was, in fact, to become a missionary and preach Neptune to people who knew not his name. I was fortunate enough to meet in Sicily a woman carrying one of these winnowing shovels; it was not much shorter than an oar, and I was able at once to see what the writer of the “Odyssey” intended.]
-
-[91]
-[I suppose the lines I have enclosed in brackets to have been added by the author when she enlarged her original scheme by the addition of books i.-iv. and xiii. (from line 187)-xxiv. The reader will observe that in the corresponding passage (xii. 137-141) the prophecy ends with “after losing all your comrades,” and that there is no allusion to the suitors. For fuller explanation see “The Authoress of the Odyssey” pp. 254-255.]
-
-[92]
-[The reader will remember that we are in the first year of Ulysses’ wanderings, Telemachus therefore was only eleven years old. The same anachronism is made later on in this book. See “The Authoress of the Odyssey” pp. 132-133.]
-
-[93]
-[Tradition says that she had hanged herself. Cf. “Odyssey” xv. 355, etc.]
-
-[94]
-[Not to be confounded with Aeolus king of the winds.]
-
-[95]
-[Melampus, vide book xv. 223, etc.]
-
-[96]
-[I have already said in a note on bk. xi. 186 that at this point of Ulysses’ voyage Telemachus could only be between eleven and twelve years old.]
-
-[97]
-[Is the writer a man or a woman?]
-
-[98]
-[Cf. “II.” iv. 521. {Greek}. The Odyssean line reads, {Greek}. The famous dactylism, therefore, of the Odyssean line was probably suggested by that of the Ileadic rather than by a desire to accommodate sound to sense. At any rate the double coincidence of a dactylic line, and an ending {Greek}, seems conclusive as to the familiarity of the writer of the “Odyssey” with the Iliadic line.]
-
-[99]
-[Off the coast of Sicily and South Italy, in the month of May, I have seen men fastened half way up a boat’s mast with their feet resting on a crosspiece, just large enough to support them. From this point of vantage they spear sword-fish. When I saw men thus employed I could hardly doubt that the writer of the “Odyssey” had seen others like them, and had them in her mind when describing the binding of Ulysses. I have therefore with some diffidence ventured to depart from the received translation of ἱστειόδι (cf. Alcaeus frag. 18, where, however, it is very hard to say what ἱστειόδι means). In Sophocles’ Lexicon I find a reference to Chrysostom (I, 242, A. Ed. Benedictine Paris 1834-1839) for the word ἱστειόδι, which is probably the same as ἱστειόδι, but I have looked for the passage in vain.]
-
-[100]
-[The writer is at fault here and tries to put it off on Circe. When Ulysses comes to take the route prescribed by Circe, he ought to pass either the Wanderers or some other difficulty of which we are not told, but he does not do so. The Planctae, or Wanderers, merge into Scylla and Charybdis, and the alternative between them and something untold merges into the alternative whether Ulysses had better choose Scylla or Charybdis. Yet from line 260, it seems we are to consider the Wanderers as having been passed by Ulysses; this appears even more plainly from xxiii. 327, in which Ulysses expressly mentions the Wandering rocks as having been between the Sirens and Scylla and Charybdis. The writer, however, is evidently unaware that she does not quite understand her own story; her difficulty was perhaps due to the fact that though Trapanese sailors had given her a fair idea as to where all her other localities really were, no one in those days more than in our own could localise the Planctae, which in fact, as Buttmann has argued, were derived not from any particular spot, but from sailors’ tales about the difficulties of navigating the group of the Aeolian islands as a whole (see note on “Od.” x. 3). Still the matter of the poor doves caught her fancy, so she would not forgo them. The whirlwinds of fire and the smoke that hangs on Scylla suggests allusion to Stromboli and perhaps even Etna. Scylla is on the Italian side, and therefore may be said to look West. It is about 8 miles thence to the Sicilian coast, so Ulysses may be perfectly well told that after passing Scylla he will come to the Thrinacian island or Sicily. Charybdis is transposed to a site some few miles to the north of its actual position.]
-
-[101]
-[I suppose this line to have been intercalated by the author when lines 426-446 were added.]
-
-[102]
-[For the reasons which enable us to identify the island of the two Sirens with the Lipari island now Salinas—the ancient Didyme, or “twin” island—see The Authoress of the Odyssey, pp. 195, 196. The two Sirens doubtless were, as their name suggests, the whistling gusts, or avalanches of air that at times descend without a moment’s warning from the two lofty mountains of Salinas—as also from all high points in the neighbourhood.]
-
-[103]
-[See Admiral Smyth on the currents in the Straits of Messina, quoted in “The Authoress of the Odyssey,” p. 197.]
-
-[104]
-[In the islands of Favognana and Marettimo off Trapani I have seen men fish exactly as here described. They chew bread into a paste and throw it into the sea to attract the fish, which they then spear. No line is used.]
-
-[105]
-[The writer evidently regards Ulysses as on a coast that looked East at no great distance south of the Straits of Messina somewhere, say, near Tauromenium, now Taormina.]
-
-
-
----
-
-[106]
-Surely there must be a line missing here to tell us that the keel and mast were carried down into Charybdis. Besides, the aorist {Greek} in its present surrounding is perplexing. I have translated it as though it were an imperfect; I see Messrs. Butcher and Lang translate it as a pluperfect, but surely Charybdis was in the act of sucking down the water when Ulysses arrived.
-
-[107]
-I suppose the passage within brackets to have been an afterthought but to have been written by the same hand as the rest of the poem. I suppose xii. 103 to have been also added by the writer when she decided on sending Ulysses back to Charybdis. The simile suggests the hand of the wife or daughter of a magistrate who had often seen her father come in cross and tired.
-
-[108]
-[Gr. músohúóniás, This puts coined money out of the question, but nevertheless implies that the gold had been worked into ornaments of some kind.]
-
-[109]
-[I suppose Teiresias' prophecy of bk. xi. 114-120 had made no impression on Ulysses. More probably the prophecy was an afterthought, intercalated, as I have already said, by the authoress when she changed her scheme.]
-
-[110]
-[A male writer would have made Ulysses say, not "may you give satisfaction to your wives," but "may your wives give satisfaction to you."]
-
-[111]
-[See note [64].]
-
-[112]
-[The land was in reality the shallow inlet, now the salt works of S. Cusumano—the neighbourhood of Trapani and Mt. Eryx being made to do double duty, both as Scheria and Ithaca. Hence the necessity for making Ulysses set out after dark, fall instantly into a profound sleep, and wake up on a morning so foggy that he could not see anything till the interviews between Neptune and Jove and between Ulysses and Minerva should have given the audience time to accept the situation. See illustrations and map near the end of bks. v. and vi. respectively.]
-
-[113]
-[This cave, which is identifiable with singular completeness, is now called the "grotta del toro," probably a corruption of "tesoro," for it is held to contain a treasure. See The Authoress of the Odyssey, pp. 167-170.]
-
-[114]
-[Probably they would.]
-
-[115]
-[Then it had a shallow shelving bottom.]
-
-[116]
-[Doubtless the road would pass the harbour in Odyssean times as it passes the salt works now; indeed, if there is to be a road at all there is no other level ground which it could take. See map above referred to.]
-
-[117]
-[The rock at the end of the Northern harbour of Trapani, to which I suppose the writer of the "Odyssey" to be here referring, still bears the name Malconsiglio—"the rock of evil counsel." There is a legend that it was a ship of Turkish pirates who were intending to attack Trapani, but the "Madonna di Trapani" crushed them under this rock just as they were coming into port. My friend Cavaliere Giannitrapani of Trapani told me that his father used to tell him when he was a boy that if he would drop exactly three drops of oil on to the water near the rock, he would see the ship still at the bottom. The legend is evidently a Christianised version of the Odyssean story, while the name supplies the additional detail that the disaster happened in consequence of an evil counsel.]
-
-[118]
-[It would seem then that the ship had got all the way back from Ithaca in about a quarter of an hour.]
-
-[119]
-[And may we not add "and also to prevent his recognising that he was only in the place where he had met Nausicaa two days earlier."]
-
-[120]
-[All this is to excuse the entire absence of Minerva from books ix.-xii., which I suppose had been written already, before the authoress had determined on making Minerva so prominent a character.]
-
-[121]
-[We have met with this somewhat lame attempt to cover the writer's change of scheme at the end of bk. vi.]
-
-[122]
-[I take the following from The Authoress of the Odyssey, p. 167. "It is clear from the text that there were two [caves] not one, but some one has enclosed in brackets the two lines in which the second cave is mentioned, I presume because he found himself puzzled by having a second cave sprung upon him when up to this point he had only been told of one.
-
-"I venture to think that if he had known the ground he would not have been puzzled, for there are two caves, distant about 80 or 100 yards from one another." The cave in which Ulysses hid his treasure is, as I have already said, identifiable with singular completeness. The other cave presents no special features, neither in the poem nor in nature.]
-
-[123]
-[There is no attempt to disguise the fact that Penelope had long given encouragement to the suitors. The only defence set up is that she did not really mean to encourage them. Would it not have been wiser to have tried a little discouragement?]
-
-[124]
-[See map near the end of bk. vi. Ruccazzù dei corvi of course means "the rock of the ravens." Both name and ravens still exist.]
-
-[125]
-[See The Authoress of the Odyssey, pp. 140, 141. The real reason for sending Telemachus to Pylos and Lacedaemon was that the authoress might get Helen of Troy into her poem. He was sent at the only point in the story at which he could be sent, so he must have gone then or not at all.]
-
-
-
----
-
-[126]
-[ The site I assign to Eumaeus's hut, close to the Ruccazzù dei corvi, is about 2,000 feet above the sea, and commands an extensive view.]
-[127]
-[ Sandals such as Eumaeus was making are still worn in the Abruzzi and elsewhere. An oblong piece of leather forms the sole: holes are cut at the four corners, and through these holes leathern straps are passed, which are bound round the foot and cross-gartered up the calf.]
-[128]
-[ See note [75] : ]
-[129]
-[ Telemachus like many another good young man seems to expect every one to fetch and carry for him.]
-[130]
-[ "Il." vi. 288. The store room was fragrant because it was made of cedar wood. See "Il." xxiv. 192.]
-[131]
-[ cf. "Il." vi. 289 and 293-296. The dress was kept at the bottom of the chest as one that would only be wanted on the greatest occasions; but surely the marriage of Hermione and of Megapenthes (bk, iv. ad init.) might have induced Helen to wear it on the preceding evening, in which case it could hardly have got back. We find no hint here of Megapenthes' recent marriage.]
-[132]
-[ See note [83].]
-[133]
-[cf. "Od." xi. 196, etc.]
-[134]
-[ The names Syra and Ortygia, on which island a great part of the Doric Syracuse was originally built, suggest that even in Odyssean times there was a prehistoric Syracuse, the existence of which was known to the writer of the poem.]
-[135]
-[ Literally "where are the turnings of the sun." Assuming, as we may safely do, that the Syra and Ortygia of the "Odyssey" refer to Syracuse, it is the fact that not far to the South of these places the land turns sharply round, so that mariners following the coast would find the sun upon the other side of their ship to that on which they'd had it hitherto.
-Mr. A. S. Griffith has kindly called my attention to Herod iv. 42, where, speaking of the circumnavigation of Africa by Phoenician mariners under Necos, he writes:
-"On their return they declared—I for my part do not believe them, but perhaps others may—that in sailing round Libya [i.e. Africa] they had the sun upon their right hand. In this way was the extent of Libya first discovered.
-"I take it that Eumaeus was made to have come from Syracuse because the writer thought she rather ought to have made something happen at Syracuse during her account of the voyages of Ulysses. She could not, however, break his long drift from Charybdis to the island of Pantellaria; she therefore resolved to make it up to Syracuse in another way."
-Modern excavations establish the existence of two and only two pre-Dorian communities at Syracuse; they were, so Dr. Orsi informed me, at Plemmirio and Cozzo Pantano. See The Authoress of the Odyssey, pp. 211-213.]
-[136]
-[ This harbour is again evidently the harbour in which Ulysses had landed, i.e. the harbour that is now the salt works of S. Cusumano.]
-[137]
-[ This never can have been anything but very niggardly pay for some eight or nine days' service. I suppose the crew were to consider the pleasure of having had a trip to Pylos as a set off. There is no trace of the dinner as having been actually given, either on the following or any other morning.]
-[138]
-[ No hawk can tear its prey while it is on the wing.]
-[139]
-[ The text is here apparently corrupt, and will not make sense as it stands. I follow Messrs. Butcher &amp; Lang in omitting line 101.]
-[140]
-[ i.e. to be milked, as in South Italian and Sicilian towns at the present day.]
-[141]
-[ The butchering and making ready the carcases took place partly in the outer yard and partly in the open part of the inner court.]
-[142]
-[ These words cannot mean that it would be afternoon soon after they were spoken. Ulysses and Eumaeus reached the town which was "some way off" (xvii. 25) in time for the suitor's early meal (xvii. 170 and 176) say at ten or eleven o' clock. The context of the rest of the book shows this. Eumaeus and Ulysses, therefore, cannot have started later than eight or nine, and Eumaeus's words must be taken as an exaggeration for the purpose of making Ulysses bestir himself.]
-[143]
-[ I imagine the fountain to have been somewhere about where the church of the Madonna di Trapani now stands, and to have been fed with water from what is now called the Fontana Diffali on Mt. Eryx.]
-[144]
-[ From this and other passages in the "Odyssey" it appears that we are in an age anterior to the use of coined money—an age when cauldrons, tripods, swords, cattle, chattels of all kinds, measures of corn, wine, or oil, etc. etc., not to say pieces of gold, silver, bronze, or even iron, wrought more or less, but unstamped, were the nearest approach to a currency that had as yet been reached.]
-[145]
-[Gr. ἐς μέσπον.]
-
-132
-
----
-
-[146]
-[I correct these proofs abroad and am not within reach of Hesiod, but surely this passage suggests acquaintance with the Works and Ways, though it by no means compels it.]
-[147]
-[It would seem as though Eurynome and Euryclea were the same person. See note 156]
-[148]
-[It is plain, therefore, that Iris was commonly accepted as the messenger of the gods, though our authoress will never permit her to fetch or carry for any one.]
-[149]
-[i.e. the doorway leading from the inner to the outer court.]
-[150]
-[See note 156]
-[151]
-[These, I imagine, must have been in the open part of the inner courtyard, where the maids also stood, and threw the light of their torches into the covered cloister that ran all round it. The smoke would otherwise have been intolerable.]
-[152]
-[Translation very uncertain; vide Liddell and Scott, under {Greek}]
-[153]
-[See photo on opposite page.]
-[154]
-[cf. "II." ii. 184, and 217, 218. An additional and well-marked feature being wanted to convince Penelope, the writer has taken the hunched shoulders of Thersites (who is mentioned immediately after Eurybates in the "Iliad") and put them on to Eurybates' back.]
-[155]
-[This is how geese are now fed in Sicily, at any rate in summer, when the grass is all burnt up. I have never seen them grazing.]
-[156]
-[Lower down (line 143) Euryclea says it was herself that had thrown the cloak over Ulysses—for the plural should not be taken as implying more than one person. The writer is evidently still fluctuating between Euryclea and Eurynome as the name for the old nurse. She probably originally meant to call her Euryclea, but finding it not immediately easy to make Euryclea scan in xvii. 495, she hastily called her Eurynome, intending either to alter this name later or to change the earlier Euryclea's into Eurynome. She then drifted in to Eurynome as convenience further directed, still nevertheless hankering after Euryclea, till at last she found that the path of least resistance would lie in the direction of making Eurynome and Euryclea two persons. Therefore in xxiii. 289-292 both Eurynome and "the nurse" (who can be none other than Euryclea) come on together. I do not say that this is feminine, but it is not unfeminine.]
-[157]
-[See note [156]]
-[158]
-[This, I take it, was immediately in front of the main entrance of the inner courtyard into the body of the house.]
-[159]
-[This is the only allusion to Sardinia in either "Iliad" or "Odyssey."]
-[160]
-[The normal translation of the Greek word would be "holding back," "curbing," "restraining," but I cannot think that the writer meant this—she must have been using the word in its other sense of "having," "holding," "keeping," "maintaining."]
-[161]
-[I have vainly tried to realise the construction of the fastening here described.]
-[162]
-[See plan of Ulysses' house in the appendix. It is evident that the open part of the court had no flooring but the natural soil.]
-[163]
-[See plan of Ulysses' house, and note [175].]
-[164]
-[i.e. the door that led into the body of the house.]
-[165]
-[This was, no doubt, the little table that was set for Ulysses, "Od." xx. 259.]
-
-Surely the difficulty of this passage has been overrated. I suppose the iron part of the axe to have been wedged into the handle, or bound securely to it—the handle being half buried in the ground. The axe would be placed edgeways towards the archer, and he would have to shoot his arrow through the hole into which the handle was fitted when the axe was in use. Twelve axes were placed in a row all at the same height, all exactly in front of one another, all edgeways to Ulysses whose arrow passed through all the holes from the first onward. I cannot see how the Greek can bear any other interpretation, the words being, {Greek}
-
-"He did not miss a single hole from the first onwards." {Greek} according to Liddell and Scott being "the hole for the handle of an axe, etc.," while {Greek} ("Od." v. 236) is, according to the same authorities, the handle itself. The feat is absurdly impossible, but our authoress sometimes has a soul above impossibilities.
-[166]
-[The reader will note how the spoiling of good food distresses the writer even in such a supreme moment as this.]
-[167]
-[Here we have it again. Waste of substance comes first.]
-
-133
-
----
-
-[168]
-[cf. "II." iii. 337 and three other places. It is strange that the author of the "Iliad" should find a little horse-hair so alarming. Possibly enough she was merely borrowing a common form line from some earlier poet—or poetess—for this is a woman's line rather than a man's.]
-[169]
-[Or perhaps simply "window." See plan in the appendix.]
-[170]
-[i.e. the pavement on which Ulysses was standing.]
-[171]
-[The interpretation of lines 126-143 is most dubious, and at best we are in a region of melodrama: cf., however, i. 425, etc. from which it appears that there was a tower in the outer court, and that Telemachus used to sleep in it. The ἡρπαθόρα I take to be a door, or trap door, leading on to the roof above Telemachus's bed room, which we are told was in a place that could be seen from all round—or it might be simply a window in Telemachus's room looking out into the street. From the top of the tower the outer world was to be told what was going on, but people could not get in by the ἡρπαθόρα: they would have to come in by the main entrance, and Melanthius explains that the mouth of the narrow passage (which was in the lands of Ulysses and his friends) commanded the only entrance by which help could come, so that there would be nothing gained by raising an alarm.
-
-As for the ᾠὀγες of line 143, no commentator ancient or modern has been able to say what was intended—but whatever they were, Melanthius could never carry twelve shields, twelve helmets, and twelve spears. Moreover, where he could go the others could go also. If a dozen suitors had followed Melanthius into the house they could have attacked Ulysses in the rear, in which case, unless Minerva had intervened promptly, the "Odyssey" would have had a different ending. But throughout the scene we are in a region of extravagance rather than of true fiction—it cannot be taken seriously by any but the very serious, until we come to the episode of Phemius and Medon, where the writer begins to be at home again.]
-[172]
-[I presume it was intended that there should be a hook driven into the bearing-post.]
-[173]
-[What for?]
-[174]
-[Gr: {Greek}. This is not {Greek}.]
-[175]
-[From lines 333 and 341 of this book, and lines 145 and 146 of bk. xxi we can locate the approach to the {Greek} with some certainty.]
-[176]
-[But in xix. 500-502 Ulysses scolded Euryclea for offering information on this very point, and declared himself quite able to settle it for himself.]
-[177]
-[There were a hundred and eight Suitors.]
-[178]
-[Lord Grimthorpe, whose understanding does not lend itself to easy imposition, has been good enough to write to me about my conviction that the "Odyssey" was written by a woman, and to send me remarks upon the gross absurdity of the incident here recorded. It is plain that all the authoress cared about was that the women should be hanged: as for attempting to realise, or to make her readers realise, how the hanging was done, this was of no consequence. The reader must take her word for it and ask no questions. Lord Grimthorpe wrote:
-
-"I had better send you my ideas about Nausicaa's hanging of the maids (not 'maidens,' of whom Froude wrote so well in his 'Science of History') before I forget it all. Luckily for me Liddell &amp; Scott have specially translated most of the doubtful words, referring to this very place.
-
-"A ship's cable. I don't know how big a ship she meant, but it must have been a very small one indeed if its 'cable' could be used to tie tightly round a woman's neck, and still more round a dozen of them 'in a row,' besides being strong enough to hold them and pull them all up.
-
-"A dozen average women would need the weight and strength of more than a dozen strong heavy men even over the best pulley hung to the roof over them; and the idea of pulling them up by a rope hang anyhow round a pillar {Greek} is absurdly impossible; and how a dozen of them could be hung dangling round one post is a problem which a senior wrangler would be puzzled to answer... She had better have let Telemachus use his sword as he had intended till she changed his mind for him."
-
-[179]
-[Then they had all been in Ulysses' service over twenty years; perhaps the twelve guilty ones had been engaged more recently.]
-[180]
-[Translation very doubtful—cf. "It." xxiv. 598.]
-[181]
-[But why could she not at once ask to see the scar, of which Euryclea had told her, or why could not Ulysses have shown it to her?]
-[182]
-[The people of Ithaca seem to have been as fond of carping as the Phaeacians were in vi. 273, etc.]
-[183]
-[See note [156]. Ulysses's bed room does not appear to have been upstairs, nor yet quite within the house. Is it possible that it was "the domed room" round the outside of which the erring maids were, for aught we have heard to the contrary, still hanging?]
-[184]
-[Ulysses bedroom in the mind of the writer is here too apparently down stairs.]
-[185]
-[Penelope having been now sufficiently whitewashed, disappears from the poem.]
-
-134
-
----
-
-[186]
-
-[So practised a washerwoman as our authoress doubtless knew that by this time the web must have become such a wreck that it would have gone to pieces in the wash.]
-
-A lady points out to me, just as these sheets are leaving my hands, that no really good needlewoman—no one, indeed, whose work or character was worth consideration—could have endured, no matter for what reason, the unpicking of her day’s work, day after day for between three and four years.]
-
-[187]
-
-[We must suppose Dolius not yet to know that his son Melanthius had been tortured, mutilated, and left to die by Ulysses’ orders on the preceding day, and that his daughter Melantho had been hanged. Dolius was probably exceptionally simple-minded, and his name was ironical. So on Mt. Erys I was shown a man who was always called Sonza Malizia or “Guileless”—he being held exceptionally cunning.]
-
----
-
-Updated editions will replace the previous one—the old editions will be renamed.
-
-Creating the works from print editions not protected by U.S. copyright law means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg™ electronic works to protect the PROJECT GUTENBERG™ concept and trademark. Project Gutenberg is a registered trademark, and may not be used if you charge for an eBook, except by following the terms of the trademark license, including paying royalties for use of the Project Gutenberg trademark. If you do not charge anything for copies of this eBook, complying with the trademark license is very easy. You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research. Project Gutenberg eBooks may be modified and printed and given away—you may do practically ANYTHING in the United States with eBooks not protected by U.S. copyright law. Redistribution is subject to the trademark license, especially commercial redistribution.
-
-START: FULL LICENSE
-
-136
-
----
-
-
-
----
-
-To protect the Project Gutenberg™ mission of promoting the free distribution of electronic works, by using or distributing this work (or any other work associated in any way with the phrase "Project Gutenberg"), you agree to comply with all the terms of the Full Project Gutenberg License available with this file or online at www.gutenberg.org/license.
-
-# Section 1. General Terms of Use and Redistributing Project Gutenberg electronic works
-
-1.A. By reading or using any part of this Project Gutenberg electronic work, you indicate that you have read, understand, agree to and accept all the terms of this license and intellectual property (trademark/copyright) agreement. If you do not agree to abide by all the terms of this agreement, you must cease using and return or destroy all copies of Project Gutenberg electronic works in your possession. If you paid a fee for obtaining a copy of or access to a Project Gutenberg electronic work and you do not agree to be bound by the terms of this agreement, you may obtain a refund from the person or entity to whom you paid the fee as set forth in paragraph 1.E.8.
-
-1.B. "Project Gutenberg" is a registered trademark. It may only be used on or associated in any way with an electronic work by people who agree to be bound by the terms of this agreement. There are a few things that you can do with most Project Gutenberg electronic works even without complying with the full terms of this agreement. See paragraph 1.C below. There are a lot of things you can do with Project Gutenberg electronic works if you follow the terms of this agreement and help preserve free future access to Project Gutenberg electronic works. See paragraph 1.E below.
-
-1.C. The Project Gutenberg Literary Archive Foundation ("the Foundation" or PGLAF), owns a compilation copyright in the collection of Project Gutenberg electronic works. Nearly all the individual works in the collection are in the public domain in the United States. If an individual work is unprotected by copyright law in the United States and you are located in the United States, we do not claim a right to prevent you from copying, distributing, performing, displaying or creating derivative works based on the work as long as all references to Project Gutenberg are removed. Of course, we hope that you will support the Project Gutenberg mission of promoting free access to electronic works by freely sharing Project Gutenberg works in compliance with the terms of this agreement for keeping the Project Gutenberg name associated with the work. You can easily comply with the terms of this agreement by keeping this work in the same format with its attached full Project Gutenberg License when you share it without charge with others.
-
-1.D. The copyright laws of the place where you are located also govern what you can do with this work. Copyright laws in most countries are in a constant state of change. If you are outside the United States, check the laws of your country in addition to the terms of this agreement before downloading, copying, displaying, performing, distributing or creating derivative works based on this work or any other Project Gutenberg work. The Foundation makes no representations concerning the copyright status of any work in any country other than the United States.
-
-1.E. Unless you have removed all references to Project Gutenberg:
-
-1.E.1. The following sentence, with active links to, or other immediate access to, the full Project Gutenberg License must appear prominently whenever any copy of a Project Gutenberg work (any work on which the phrase "Project Gutenberg" appears, or with which the phrase "Project Gutenberg" is associated) is accessed, displayed, performed, viewed, copied or distributed:
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg™ License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-1.E.2. If an individual Project Gutenberg electronic work is derived from texts not protected by U.S. copyright law (does not contain a notice indicating that it is posted with permission of the copyright holder), the work can be copied and distributed to anyone in the United States without paying any fees or charges. If you are redistributing or providing access to a work with the phrase "Project Gutenberg" associated with or appearing on the work, you must comply either with the requirements of paragraphs 1.E.1 through 1.E.7 or obtain permission for the use of the work and the Project Gutenberg trademark as set forth in paragraphs 1.E.8 or 1.E.9.
-
-1.E.3. If an individual Project Gutenberg electronic work is posted with the permission of the copyright holder, your use and distribution must comply with both paragraphs 1.E.1 through 1.E.7 and any additional terms imposed by the copyright holder.
-
-138
-
----
-
-Additional terms will be linked to the Project Gutenberg License for all works posted with the permission of the copyright holder found at the beginning of this work.
-
-1.E.4. Do not unlink or detach or remove the full Project Gutenberg License terms from this work, or any files containing a part of this work or any other work associated with Project Gutenberg.
-
-1.E.5. Do not copy, display, perform, distribute or redistribute this electronic work, or any part of this electronic work, without prominently displaying the sentence set forth in paragraph 1.E.1 with active links or immediate access to the full terms of the Project Gutenberg License.
-
-1.E.6. You may convert to and distribute this work in any binary, compressed, marked up, nonproprietary or proprietary form, including any word processing or hypertext form. However, if you provide access to or distribute copies of a Project Gutenberg work in a format other than "Plain Vanilla ASCII" or other format used in the official version posted on the official Project Gutenberg website (www.gutenberg.org), you must, at no additional cost, fee or expense to the user, provide a copy, a means of exporting a copy, or a means of obtaining a copy upon request, of the work in its original "Plain Vanilla ASCII" or other form. Any alternate format must include the full Project Gutenberg License as specified in paragraph 1.E.1.
-
-1.E.7. Do not charge a fee for access to, viewing, displaying, performing, copying or distributing any Project Gutenberg works unless you comply with paragraph 1.E.8 or 1.E.9.
-
-1.E.8. You may charge a reasonable fee for copies of or providing access to or distributing Project Gutenberg electronic works provided that:
-
-- You pay a royalty fee of 20% of the gross profits you derive from the use of Project Gutenberg works calculated using the method you already use to calculate your applicable taxes. The fee is owed to the owner of the Project Gutenberg trademark, but he has agreed to donate royalties under this paragraph to the Project Gutenberg Literary Archive Foundation. Royalty payments must be paid within 60 days following each date on which you prepare (or are legally required to prepare) your periodic tax returns. Royalty payments should be clearly marked as such and sent to the Project Gutenberg Literary Archive Foundation at the address specified in Section 4, "Information about donations to the Project Gutenberg Literary Archive Foundation."
-- You provide a full refund of any money paid by a user who notifies you in writing (or by e-mail) within 30 days of receipt that s/he does not agree to the terms of the full Project Gutenberg™ License. You must require such a user to return or destroy all copies of the works possessed in a physical medium and discontinue all use of and all access to other copies of Project Gutenberg™ works.
-- You provide, in accordance with paragraph 1.F.3, a full refund of any money paid for a work or a replacement copy, if a defect in the electronic work is discovered and reported to you within 90 days of receipt of the work.
-- You comply with all other terms of this agreement for free distribution of Project Gutenberg™ works.
-
-1.E.9. If you wish to charge a fee or distribute a Project Gutenberg™ electronic work or group of works on different terms than are set forth in this agreement, you must obtain permission in writing from the Project Gutenberg Literary Archive Foundation, the manager of the Project Gutenberg™ trademark. Contact the Foundation as set forth in Section 3 below.
-
-1.F.
-
-1.F.1. Project Gutenberg volunteers and employees expend considerable effort to identify, do copyright research on, transcribe and proofread works not protected by U.S. copyright law in creating the Project Gutenberg™ collection. Despite these efforts, Project Gutenberg™ electronic works, and the medium on which they may be stored, may contain "Defects," such as, but not limited to, incomplete, inaccurate or corrupt data, transcription errors, a copyright or other intellectual property infringement, a defective or damaged disk or other medium, a computer virus, or computer codes that damage or cannot be read by your equipment.
-
-1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right of Replacement or Refund" described in paragraph 1.F.3, the Project Gutenberg Literary Archive Foundation, the owner of the Project Gutenberg™ trademark, and any other party distributing a Project Gutenberg™ electronic work under this agreement, disclaim all liability to you for damages, costs and expenses, including legal fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE TRADEMARK OWNER, AND ANY DISTRIBUTOR
-
-
-
----
-
-```markdown
-UNDER THIS AGREEMENT WILL NOT BE LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH DAMAGE.
-
-1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a defect in this electronic work within 90 days of receiving it, you can receive a refund of the money (if any) you paid for it by sending a written explanation to the person you received the work from. If you received the work on a physical medium, you must return the medium with your written explanation. The person or entity that provided you with the defective work may elect to provide a replacement copy in lieu of a refund. If you received the work electronically, the person or entity providing it to you may choose to give you a second opportunity to receive the work electronically in lieu of a refund. If the second copy is also defective, you may demand a refund in writing without further opportunities to fix the problem.
-
-1.F.4. Except for the limited right of replacement or refund set forth in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
-
-1.F.5. Some states do not allow disclaimers of certain implied warranties or the exclusion or limitation of certain types of damages. If any disclaimer or limitation set forth in this agreement violates the law of the state applicable to this agreement, the agreement shall be interpreted to make the maximum disclaimer or limitation permitted by the applicable state law. The invalidity or unenforceability of any provision of this agreement shall not void the remaining provisions.
-
-1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg™ electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg™ electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg work, (b) alteration, modification, or additions or deletions to any Project Gutenberg work, and (c) any Defect you cause.
-
-## Section 2. Information about the Mission of Project Gutenberg
-
-Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life.
-
-Volunteers and financial support to provide volunteers with the assistance they need are critical to reaching Project Gutenberg's goals and ensuring that the Project Gutenberg collection will remain freely available for generations to come. In 2001, the Project Gutenberg Literary Archive Foundation was created to provide a secure and permanent future for Project Gutenberg and future generations. To learn more about the Project Gutenberg Literary Archive Foundation and how your efforts and donations can help, see Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
-
-## Section 3. Information about the Project Gutenberg Literary Archive Foundation
-
-The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service. The Foundation's EIN or federal tax identification number is 64-6221541. Contributions to the Project Gutenberg Literary Archive Foundation are tax deductible to the full extent permitted by U.S. federal laws and your state's laws.
-
-The Foundation's business office is located at 41 Watchung Plaza #516, Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up to date contact information can be found at the Foundation's website and official page at www.gutenberg.org/contact
-
-## Section 4. Information about Donations to the Project Gutenberg Literary Archive Foundation
-
-Project Gutenberg™ depends upon and cannot survive without widespread public support and donations to carry out its mission of increasing the number of public domain and licensed works that can be freely distributed in machine-readable form accessible by the widest array of equipment including outdated equipment. Many small donations ($1 to $5,000) are particularly important to maintaining tax exempt status with the IRS.
-
----
-
-The Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States. Compliance requirements are not uniform and it takes a considerable effort, much paperwork and many fees to meet and keep up with these requirements. We do not solicit donations in locations where we have not received written confirmation of compliance. To SEND DONATIONS or determine the status of compliance for any particular state visit www.gutenberg.org/donate.
-
-While we cannot and do not solicit contributions from states where we have not met the solicitation requirements, we know of no prohibition against accepting unsolicited donations from donors in such states who approach us with offers to donate.
-
-International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States. U.S. laws alone swamp our small staff.
-
-Please check the Project Gutenberg web pages for current donation methods and addresses. Donations are accepted in a number of other ways including checks, online payments and credit card donations. To donate, please visit: www.gutenberg.org/donate.
-
-## Section 5. General Information About Project Gutenberg electronic works
-
-Professor Michael S. Hart was the originator of the Project Gutenberg concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg eBooks with only a loose network of volunteer support.
-
-Project Gutenberg eBooks are often created from several printed editions, all of which are confirmed as not protected by copyright in the U.S. unless a copyright notice is included. Thus, we do not necessarily keep eBooks in compliance with any particular paper edition.
-
-Most people start at our website which has the main PG search facility: www.gutenberg.org.
-
-This website includes information about Project Gutenberg, including how to make donations to the Project Gutenberg Literary Archive Foundation, how to help produce our new eBooks, and how to subscribe to our email newsletter to hear about new eBooks.
-

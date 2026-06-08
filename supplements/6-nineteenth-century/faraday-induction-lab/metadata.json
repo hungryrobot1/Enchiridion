@@ -2,8 +2,13 @@
   "title": "Electromagnetic Induction Lab",
   "type": "lab-manual",
   "era": "nineteenth-century",
-  "texts": ["faraday-experimental-researches-in-electricity"],
+  "texts": [
+    "faraday-experimental-researches-in-electricity"
+  ],
   "description": "Building a simple motor or generator — demonstrating electromagnetic induction with magnets and coils of wire",
   "filename": "content.md",
-  "prerequisites": ["galvanometer-lab"]
+  "prerequisites": [
+    "galvanometer-lab"
+  ],
+  "content_status": "stub"
 }

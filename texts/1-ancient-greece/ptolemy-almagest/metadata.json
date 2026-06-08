@@ -6,8 +6,8 @@
   "year_translated": 1984,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "Ptolemy's Almagest -- Toomer.pdf",
+  "format": "markdown",
+  "filename": "ptolemy-almagest.md",
   "description": "Comprehensive mathematical model of the heavens that dominated astronomy for 1400 years",
   "topics": [
     "astronomy",
@@ -16,5 +16,6 @@
   "era": "ancient-greece",
   "prerequisites": [
     "euclid-elements"
-  ]
+  ],
+  "ocr_status": "needs-cleanup"
 }

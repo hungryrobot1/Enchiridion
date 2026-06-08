@@ -2,8 +2,11 @@
   "title": "Camera Obscura Lab",
   "type": "lab-manual",
   "era": "islamic-golden-age-medieval",
-  "texts": ["alhazen-book-of-optics"],
+  "texts": [
+    "alhazen-book-of-optics"
+  ],
   "description": "Build a camera obscura and experiment with image formation, light propagation, and the behavior of pinhole images",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

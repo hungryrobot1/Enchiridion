@@ -1,0 +1,21 @@
+{
+  "title": "The Furies",
+  "author": "Aeschylus",
+  "translator": "E.D.A. Morshead",
+  "year_written": "458 BCE",
+  "year_translated": 1904,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "aeschylus-furies.md",
+  "description": "Third play of the Oresteia (the Eumenides). Orestes is tried before Athena and a jury of Athenian citizens — the founding myth of trial by law, transmuting blood-vengeance into civic justice.",
+  "topics": [
+    "literature",
+    "drama",
+    "tragedy"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

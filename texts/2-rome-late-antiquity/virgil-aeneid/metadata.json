@@ -17,5 +17,6 @@
   "prerequisites": [
     "homer-iliad",
     "homer-odyssey"
-  ]
+  ],
+  "ocr_status": "pending"
 }

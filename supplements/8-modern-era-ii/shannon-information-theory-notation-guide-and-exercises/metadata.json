@@ -2,8 +2,11 @@
   "title": "Shannon: Information Theory — Notation Guide & Exercises",
   "type": "exercise-set",
   "era": "modern-era-ii",
-  "texts": ["shannon-a-mathematical-theory-of-communication"],
+  "texts": [
+    "shannon-a-mathematical-theory-of-communication"
+  ],
   "description": "Shannon's key equations in modern notation — entropy, channel capacity, redundancy — with exercises computing information content and channel limits",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

@@ -2,8 +2,11 @@
   "title": "Opticks Lab",
   "type": "lab-manual",
   "era": "newtonian-enlightenment",
-  "texts": ["newton-opticks"],
+  "texts": [
+    "newton-opticks"
+  ],
   "description": "Prism experiments with light dispersion, observing Newton's rings, and exploring the behavior of white light — reproducing Newton's key optical discoveries with safe, household materials",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

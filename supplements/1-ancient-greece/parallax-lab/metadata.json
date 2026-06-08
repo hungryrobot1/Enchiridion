@@ -2,8 +2,11 @@
   "title": "Measuring with Parallax",
   "type": "lab-manual",
   "era": "ancient-greece",
-  "texts": ["ptolemy-almagest"],
+  "texts": [
+    "ptolemy-almagest"
+  ],
   "description": "Geometric reasoning for the apparent shift of an observed object against its background — the conceptual key to lunar, solar, and stellar distance measurement in the long arc of astronomy",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

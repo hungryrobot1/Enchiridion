@@ -1,14 +1,14 @@
 {
-  "title": "The Works of Archimedes",
+  "title": "Geometrical Solutions",
   "author": "Archimedes",
   "translator": "Thomas Heath",
   "year_written": "~250 BCE",
   "year_translated": 1897,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "7825-pdf.pdf",
-  "description": "Foundational works on geometry, mechanics, hydrostatics, and the method of exhaustion",
+  "format": "markdown",
+  "filename": "archimedes-geometrical-solutions.md",
+  "description": "Development of the method of exhaustion, a way of approximating the area of a shape using polygons.",
   "topics": [
     "mathematics",
     "geometry",
@@ -18,5 +18,6 @@
   "era": "ancient-greece",
   "prerequisites": [
     "euclid-elements"
-  ]
+  ],
+  "ocr_status": "complete"
 }

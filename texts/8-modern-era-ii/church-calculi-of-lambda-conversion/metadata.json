@@ -18,5 +18,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "church-unsolvable-problem-of-elementary-number-theory"
-  ]
+  ],
+  "ocr_status": "pending"
 }

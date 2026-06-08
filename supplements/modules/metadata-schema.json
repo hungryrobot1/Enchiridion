@@ -42,6 +42,11 @@
           "title": {
             "type": "string",
             "description": "Display title for the resource"
+          },
+          "content_status": {
+            "type": "string",
+            "description": "Authoring status of the resource",
+            "enum": ["complete", "draft", "stub"]
           }
         },
         "additionalProperties": false
@@ -66,6 +71,11 @@
             "type": "array",
             "items": { "type": "string" },
             "description": "Directory names of texts this chapter is meant to accompany"
+          },
+          "content_status": {
+            "type": "string",
+            "description": "Authoring status of the chapter",
+            "enum": ["complete", "draft", "stub"]
           }
         },
         "additionalProperties": false

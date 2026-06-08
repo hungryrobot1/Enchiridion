@@ -2,48 +2,79 @@
   "title": "Programming Languages and Paradigms",
   "type": "module",
   "description": "A survey of programming paradigms through their foundational texts — from lambda calculus and LISP through C and structured programming to type theory and formal verification. Reading competence across paradigms, not deep fluency in any one language.",
-  "prerequisites": ["5-computation-first-principles"],
+  "prerequisites": [
+    "5-computation-first-principles"
+  ],
   "references": [],
   "chapters": [
     {
       "filename": "01-from-machine-code-to-abstraction.md",
       "title": "From Machine Code to Abstraction",
-      "alongside": ["backus-can-programming-be-liberated-form-the-von-neumann-style"]
+      "alongside": [
+        "backus-can-programming-be-liberated-form-the-von-neumann-style"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "02-the-lambda-calculus.md",
       "title": "The Lambda Calculus",
-      "alongside": ["church-calculi-of-lambda-conversion", "church-unsolvable-problem-of-elementary-number-theory"]
+      "alongside": [
+        "church-calculi-of-lambda-conversion",
+        "church-unsolvable-problem-of-elementary-number-theory"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "03-lisp-and-symbolic-computation.md",
       "title": "LISP and Symbolic Computation",
-      "alongside": ["mccarthy-recursive-functions-of-symbolic-expressions"]
+      "alongside": [
+        "mccarthy-recursive-functions-of-symbolic-expressions"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "04-c-and-the-machine-model.md",
       "title": "C and the Machine Model",
-      "alongside": ["ritchie-development-of-the-c-programming-language", "ritchie-thompson-the-unix-time-sharing-system"]
+      "alongside": [
+        "ritchie-development-of-the-c-programming-language",
+        "ritchie-thompson-the-unix-time-sharing-system"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "05-structured-programming-and-discipline.md",
       "title": "Structured Programming and Discipline",
-      "alongside": ["djikstra-go-to-statement-considered-harmful", "djikstra-notes-on-structured-programming"]
+      "alongside": [
+        "djikstra-go-to-statement-considered-harmful",
+        "djikstra-notes-on-structured-programming"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "06-types-proofs-and-curry-howard.md",
       "title": "Types, Proofs, and the Curry-Howard Correspondence",
-      "alongside": ["wadler-propositions-as-types", "curry-functionality-in-combinatory-logic", "martin-lof-logical-constants"]
+      "alongside": [
+        "wadler-propositions-as-types",
+        "curry-functionality-in-combinatory-logic",
+        "martin-lof-logical-constants"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "07-program-correctness-and-hoare-logic.md",
       "title": "Program Correctness and Hoare Logic",
-      "alongside": ["hoare-an-axiomatic-basis-for-computer-programming"]
+      "alongside": [
+        "hoare-an-axiomatic-basis-for-computer-programming"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "08-formal-verification-capstone.md",
       "title": "Formal Verification — Capstone",
-      "alongside": ["hoare-an-axiomatic-basis-for-computer-programming"]
+      "alongside": [
+        "hoare-an-axiomatic-basis-for-computer-programming"
+      ],
+      "content_status": "stub"
     }
   ]
 }

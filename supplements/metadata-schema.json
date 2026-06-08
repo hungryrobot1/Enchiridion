@@ -59,6 +59,15 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Directory names of prerequisite supplements"
+    },
+    "content_status": {
+      "type": "string",
+      "description": "Authoring status of the supplement",
+      "enum": [
+        "complete",
+        "draft",
+        "stub"
+      ]
     }
   },
   "additionalProperties": false

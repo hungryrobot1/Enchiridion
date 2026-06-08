@@ -3,7 +3,7 @@ import { loadSyllabus } from '../lib/syllabus-loader.js';
 import { loadIndex } from '../lib/index-loader.js';
 import { loadSupplements } from '../lib/supplement-loader.js';
 import { loadModules } from '../lib/module-loader.js';
-import { statusForItem, STATUS_LABEL } from '../lib/content-status.js';
+import { displayStatusForText, displayStatusForContent, STATUS_LABEL } from '../lib/content-status.js';
 
 const TYPE_BADGE = {
   text: 'text',
@@ -71,7 +71,7 @@ function renderItem(item, isTributary, hasNextTributary, ctx) {
     return renderMissingItem(item, isTributary);
   }
 
-  const status = statusForItem(item);
+  const status = resolved.status || 'none';
   const statusLabel = STATUS_LABEL[status] || '';
   const classes = ['gt-item'];
   if (isTributary) classes.push('gt-item--tributary');
@@ -88,7 +88,7 @@ function renderItem(item, isTributary, hasNextTributary, ctx) {
       <div class="gt-item__body">
         <a class="gt-item__title" href="${resolved.href}">${resolved.title}</a>
         ${resolved.meta ? `<span class="gt-item__meta">${resolved.meta}</span>` : ''}
-        ${item.passages ? `<span class="gt-item__passages">Recommended: ${item.passages.join('; ')}</span>` : ''}
+        ${item.passages ? renderPassages(item.passages) : ''}
         ${item.note ? `<span class="gt-item__note">${item.note}</span>` : ''}
       </div>
       <span class="gt-item__badge">${TYPE_BADGE[item.type] || item.type}</span>
@@ -123,6 +123,7 @@ function resolveItem(item, ctx) {
       title: text.title,
       meta: text.author,
       href: `#/text/${item.id}`,
+      status: displayStatusForText(text.ocr_status),
     };
   }
   if (item.type === 'supplement') {
@@ -132,6 +133,7 @@ function resolveItem(item, ctx) {
       title: s.title,
       meta: s.description || '',
       href: `#/supplement/${item.id}`,
+      status: displayStatusForContent(s.content_status),
     };
   }
   if (item.type === 'module_chapter') {
@@ -144,9 +146,20 @@ function resolveItem(item, ctx) {
       title: chapter.title,
       meta: m.title,
       href: `#/module/${item.id}/${chapterStem}`,
+      status: displayStatusForContent(chapter.content_status),
     };
   }
   return null;
+}
+
+function renderPassages(passages) {
+  const items = passages.map(p => `<li>${p}</li>`).join('');
+  return `
+    <details class="gt-item__passages">
+      <summary class="gt-item__passages-summary">Recommended passages</summary>
+      <ul class="gt-item__passages-list">${items}</ul>
+    </details>
+  `;
 }
 
 function indexBy(arr, key) {

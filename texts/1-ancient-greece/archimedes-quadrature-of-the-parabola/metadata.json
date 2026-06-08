@@ -1,0 +1,21 @@
+{
+  "title": "Quadrature of the Parabola",
+  "author": "Archimedes",
+  "translator": "Thomas Heath",
+  "year_written": "~250 BCE",
+  "year_translated": 1897,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "archimedes-quadrature-of-the-parabola.md",
+  "description": "Archimedes's determination that the area of a parabolic segment is four-thirds that of its inscribed triangle, proved both mechanically (by an imagined balance) and geometrically (by exhaustion).",
+  "topics": [
+    "mathematics",
+    "geometry"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [
+    "euclid-elements"
+  ],
+  "ocr_status": "complete"
+}

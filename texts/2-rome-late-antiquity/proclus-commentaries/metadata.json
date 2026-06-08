@@ -18,5 +18,6 @@
   "era": "rome-late-antiquity",
   "prerequisites": [
     "euclid-elements"
-  ]
+  ],
+  "ocr_status": "pending"
 }

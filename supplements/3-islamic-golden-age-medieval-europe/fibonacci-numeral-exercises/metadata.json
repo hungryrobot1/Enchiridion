@@ -2,8 +2,11 @@
   "title": "Fibonacci Numeral Exercises",
   "type": "exercise-set",
   "era": "islamic-golden-age-medieval",
-  "texts": ["fibonacci-liber-abaci"],
+  "texts": [
+    "fibonacci-liber-abaci"
+  ],
   "description": "Arithmetic in Roman vs. Hindu-Arabic numerals — long division, multiplication, and the Fibonacci sequence as a study in recurrence",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

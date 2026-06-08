@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "markdown",
-  "filename": "fisher-genetical-theory-of-natural-selection.md",
+  "format": "pdf",
+  "filename": "geneticaltheoryo031631mbp.pdf",
   "description": "Mathematical unification of Mendelian genetics with Darwinian evolution",
   "topics": [
     "biology",
@@ -19,5 +19,6 @@
   "prerequisites": [
     "mendel-experiments-on-plant-hybridization",
     "darwin-origin-of-species"
-  ]
+  ],
+  "ocr_status": "pending"
 }

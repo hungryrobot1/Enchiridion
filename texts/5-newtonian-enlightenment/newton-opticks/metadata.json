@@ -16,5 +16,6 @@
   "era": "newtonian-enlightenment",
   "prerequisites": [
     "newton-principia"
-  ]
+  ],
+  "ocr_status": "pending"
 }

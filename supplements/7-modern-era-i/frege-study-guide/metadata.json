@@ -2,8 +2,11 @@
   "title": "Frege and the Logicist Program",
   "type": "study-guide",
   "era": "modern-era-i",
-  "texts": ["frege-grundlagen-der-arithmetik-german"],
+  "texts": [
+    "frege-grundlagen-der-arithmetik-german"
+  ],
   "description": "The key arguments of Grundlagen der Arithmetik for non-German readers — Frege's logicist program, the definition of number, and why Russell's paradox shattered the foundations",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "church-calculi-of-lambda-conversion"
-  ]
+  ],
+  "ocr_status": "pending"
 }

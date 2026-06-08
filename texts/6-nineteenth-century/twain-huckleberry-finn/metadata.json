@@ -14,5 +14,6 @@
     "novel"
   ],
   "era": "nineteenth-century",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "pending"
 }

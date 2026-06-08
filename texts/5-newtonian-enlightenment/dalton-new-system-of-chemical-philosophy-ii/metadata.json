@@ -16,5 +16,6 @@
   "era": "newtonian-enlightenment",
   "prerequisites": [
     "dalton-new-system-of-chemical-philosophy-i"
-  ]
+  ],
+  "ocr_status": "pending"
 }

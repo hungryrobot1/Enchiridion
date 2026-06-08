@@ -18,5 +18,6 @@
   "era": "renaissance-scientific-revolution",
   "prerequisites": [
     "kepler-astronomia-novia-latin"
-  ]
+  ],
+  "ocr_status": "pending"
 }

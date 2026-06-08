@@ -6,8 +6,8 @@
   "year_translated": 1930,
   "language": "English",
   "original_language": "Greek",
-  "format": "txt",
-  "filename": "physics.mb.txt",
+  "format": "markdown",
+  "filename": "physics.mb.md",
   "description": "Foundational text in natural philosophy, exploration into the nature of the physical world.",
   "topics": [
     "philosophy",
@@ -16,5 +16,6 @@
   "era": "ancient-greece",
   "prerequisites": [
     "aristotle-categories"
-  ]
+  ],
+  "ocr_status": "complete"
 }

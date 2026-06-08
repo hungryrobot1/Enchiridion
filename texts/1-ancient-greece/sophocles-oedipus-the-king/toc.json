@@ -1,0 +1,17 @@
+{
+  "title": "Oedipus the King",
+  "sections": [
+    { "title": "Dramatis Personae" },
+    { "title": "Prologue — The plague and the oracle" },
+    { "title": "Parodos — A hymn to the gods of Thebes" },
+    { "title": "First Episode — The curse and Teiresias" },
+    { "title": "First Stasimon — The flight of the unknown killer" },
+    { "title": "Second Episode — Creon's defense and the crossroads" },
+    { "title": "Second Stasimon — Hubris and the laws of heaven" },
+    { "title": "Third Episode — Polybus, the Corinthian messenger, and Jocasta's flight" },
+    { "title": "Third Stasimon — Who was your mother?" },
+    { "title": "Fourth Episode — The herdsman and the recognition" },
+    { "title": "Fourth Stasimon — A meditation on greatness" },
+    { "title": "Exodos — The blinding and the lamentation" }
+  ]
+}

@@ -2,8 +2,11 @@
   "title": "Reading Leviathan",
   "type": "study-guide",
   "era": "newtonian-enlightenment",
-  "texts": ["hobbes-leviathan"],
+  "texts": [
+    "hobbes-leviathan"
+  ],
   "description": "Recommended selections from Leviathan — the key chapters on the state of nature, social contract, and sovereignty, for extracting Hobbes's core arguments from a large text",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

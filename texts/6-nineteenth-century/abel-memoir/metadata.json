@@ -9,7 +9,14 @@
   "format": "pdf",
   "filename": "abels-proof-pesic-appendix-a.pdf",
   "description": "Abel's proof that no general algebraic formula exists for solving polynomial equations of degree five or higher — a landmark impossibility result that closed a question open since antiquity.",
-  "topics": ["mathematics", "algebra", "group theory"],
+  "topics": [
+    "mathematics",
+    "algebra",
+    "group theory"
+  ],
   "era": "nineteenth-century",
-  "prerequisites": ["euler-elements-of-algebra"]
+  "prerequisites": [
+    "euler-elements-of-algebra"
+  ],
+  "ocr_status": "pending"
 }

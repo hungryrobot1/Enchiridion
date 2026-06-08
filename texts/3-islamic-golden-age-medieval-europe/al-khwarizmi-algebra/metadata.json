@@ -16,5 +16,6 @@
   "era": "islamic-golden-age-medieval",
   "prerequisites": [
     "euclid-elements"
-  ]
+  ],
+  "ocr_status": "pending"
 }

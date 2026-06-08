@@ -3,7 +3,17 @@
   "title": "Enchiridion Text Metadata",
   "description": "Schema for metadata.json files in each text directory",
   "type": "object",
-  "required": ["title", "author", "year_written", "language", "original_language", "format", "filename", "topics", "era"],
+  "required": [
+    "title",
+    "author",
+    "year_written",
+    "language",
+    "original_language",
+    "format",
+    "filename",
+    "topics",
+    "era"
+  ],
   "properties": {
     "title": {
       "type": "string",
@@ -14,21 +24,38 @@
       "description": "Primary author(s), comma-separated if multiple"
     },
     "translator": {
-      "type": ["string", "null"],
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Translator name, if applicable"
     },
     "year_written": {
-      "type": ["integer", "string"],
+      "type": [
+        "integer",
+        "string"
+      ],
       "description": "Year originally written/published. Use string for approximate dates (e.g., '~300 BCE', '1905')"
     },
     "year_translated": {
-      "type": ["integer", "null"],
+      "type": [
+        "integer",
+        "null"
+      ],
       "description": "Year of the English translation used, if applicable"
     },
     "language": {
       "type": "string",
       "description": "Language of the text file in the repo",
-      "enum": ["English", "Latin", "French", "German", "Greek", "Italian", "Arabic"]
+      "enum": [
+        "English",
+        "Latin",
+        "French",
+        "German",
+        "Greek",
+        "Italian",
+        "Arabic"
+      ]
     },
     "original_language": {
       "type": "string",
@@ -37,7 +64,20 @@
     "format": {
       "type": "string",
       "description": "File format of the text in the repo",
-      "enum": ["epub", "pdf", "txt", "html"]
+      "enum": [
+        "epub",
+        "pdf",
+        "txt",
+        "html",
+        "markdown"
+      ]
+    },
+    "layout": {
+      "type": "string",
+      "description": "Optional rendering hint for markdown texts. 'verse' preserves single-newline line breaks for poetry, blank verse, and dramatic dialogue. Omit for ordinary prose.",
+      "enum": [
+        "verse"
+      ]
     },
     "filename": {
       "type": "string",
@@ -49,27 +89,72 @@
     },
     "topics": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Subject tags for filtering",
       "examples": [
-        ["mathematics", "geometry"],
-        ["philosophy", "epistemology"],
-        ["physics", "quantum-mechanics"],
-        ["computer-science", "algorithms"],
-        ["literature", "drama"],
-        ["chemistry", "atomic-theory"],
-        ["biology", "evolution"],
-        ["political-thought"],
-        ["music-theory"],
-        ["astronomy"],
-        ["medicine"],
-        ["engineering"],
-        ["optics"],
-        ["probability"],
-        ["logic"],
-        ["ethics"],
-        ["metaphysics"],
-        ["theology"]
+        [
+          "mathematics",
+          "geometry"
+        ],
+        [
+          "philosophy",
+          "epistemology"
+        ],
+        [
+          "physics",
+          "quantum-mechanics"
+        ],
+        [
+          "computer-science",
+          "algorithms"
+        ],
+        [
+          "literature",
+          "drama"
+        ],
+        [
+          "chemistry",
+          "atomic-theory"
+        ],
+        [
+          "biology",
+          "evolution"
+        ],
+        [
+          "political-thought"
+        ],
+        [
+          "music-theory"
+        ],
+        [
+          "astronomy"
+        ],
+        [
+          "medicine"
+        ],
+        [
+          "engineering"
+        ],
+        [
+          "optics"
+        ],
+        [
+          "probability"
+        ],
+        [
+          "logic"
+        ],
+        [
+          "ethics"
+        ],
+        [
+          "metaphysics"
+        ],
+        [
+          "theology"
+        ]
       ]
     },
     "era": {
@@ -88,13 +173,27 @@
     },
     "prerequisites": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Directory names of immediate predecessor texts (one layer deep, temporally proximal). Chain rather than accumulate — e.g., Maxwell → Einstein special → Einstein general, not Euclid → ... → Einstein."
     },
     "supplements": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Directory names of supplements that accompany this text. Populated as supplements are authored."
+    },
+    "ocr_status": {
+      "type": "string",
+      "description": "Whether the text is ready to read in clean markdown form",
+      "enum": [
+        "complete",
+        "needs-cleanup",
+        "pending",
+        "not-applicable"
+      ]
     }
   },
   "additionalProperties": false

@@ -6,8 +6,9 @@
   "year_translated": 1902,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg35173-images-3.pdf",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "euripedes-bacchae.md",
   "description": "Tragedy exploring the destructive power of Dionysus and the limits of rational control",
   "topics": [
     "literature",
@@ -15,5 +16,6 @@
     "tragedy"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

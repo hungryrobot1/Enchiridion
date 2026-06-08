@@ -17,5 +17,6 @@
   "era": "islamic-golden-age-medieval",
   "prerequisites": [
     "al-farabi-philosophy-of-plato-and-aristotle"
-  ]
+  ],
+  "ocr_status": "pending"
 }

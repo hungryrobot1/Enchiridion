@@ -18,5 +18,6 @@
   "prerequisites": [
     "newton-principia",
     "euler-elements-of-algebra"
-  ]
+  ],
+  "ocr_status": "pending"
 }

@@ -1,0 +1,20 @@
+{
+  "title": "Categories",
+  "author": "Aristotle",
+  "translator": "E.M. Edghill",
+  "year_written": "~350 BCE",
+  "year_translated": 1928,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "aristotle-categories.md",
+  "description": "Classification of all things that can be the subject or predicate of a proposition",
+  "topics": [
+    "philosophy",
+    "logic",
+    "metaphysics"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

@@ -23,7 +23,7 @@ export default defineConfig({
           let url = decodeURIComponent(req.url);
           // Strip the base path so we can resolve against the repo root.
           if (url.startsWith('/Enchiridion/')) url = url.replace('/Enchiridion', '');
-          if (url.startsWith('/texts/') || url.startsWith('/supplements/') || url.startsWith('/syllabi/')) {
+          if (url.startsWith('/texts/') || url.startsWith('/supplements/') || url.startsWith('/syllabi/') || url.startsWith('/changelogs/')) {
             const filePath = path.join(repoRoot, url);
             if (fs.existsSync(filePath)) {
               const stream = fs.createReadStream(filePath);

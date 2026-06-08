@@ -6,8 +6,8 @@
   "year_translated": 1871,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg1643-images-3.pdf",
+  "format": "markdown",
+  "filename": "plato-meno.md",
   "description": "Dialogue on the nature of virtue and whether knowledge can be taught",
   "topics": [
     "philosophy",
@@ -15,5 +15,6 @@
     "ethics"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

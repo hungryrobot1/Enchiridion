@@ -17,5 +17,6 @@
   "era": "renaissance-scientific-revolution",
   "prerequisites": [
     "galileo-starry-messenger"
-  ]
+  ],
+  "ocr_status": "pending"
 }

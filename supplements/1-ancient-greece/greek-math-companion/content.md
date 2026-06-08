@@ -85,7 +85,7 @@ The technical heart of the theory of proportion is the definition of when two ra
 
 In symbols: $A : B :: C : D$ exactly when, for every pair of positive integers $m$ and $n$, the comparisons $mA$ vs $nB$ and $mC$ vs $nD$ always come out the same way (both greater, both equal, or both less).
 
-What makes this definition powerful is that it works for incommensurable magnitudes. It does not assume the ratios are expressible as fractions; it characterizes equality of ratio entirely in terms of comparisons. Read slowly the first time. Read it again. The reward is real.
+What makes this definition powerful is that it works for incommensurable magnitudes. It does not assume the ratios are expressible as fractions; it characterizes equality of ratio entirely in terms of comparisons. It is worthwhile to become very familiar with this definition.
 
 #### Example: Incommensurability of the diagonal
 

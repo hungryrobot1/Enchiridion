@@ -2,8 +2,11 @@
   "title": "Curry and Combinatory Logic",
   "type": "study-guide",
   "era": "modern-era-i",
-  "texts": ["curry-functionality-in-combinatory-logic"],
+  "texts": [
+    "curry-functionality-in-combinatory-logic"
+  ],
   "description": "Combinatory logic framed for readers coming from Frege and Russell — what combinators are, how they relate to the lambda calculus, and why 'functionality' matters for computation",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

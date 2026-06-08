@@ -1,0 +1,20 @@
+{
+  "title": "Attention Is All You Need",
+  "author": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin",
+  "translator": null,
+  "year_written": 2017,
+  "year_translated": null,
+  "language": "English",
+  "original_language": "English",
+  "format": "pdf",
+  "filename": "1706.03762v7.pdf",
+  "description": "Paper introducing the Transformer architecture, the foundation of modern large language models",
+  "topics": [
+    "computer-science",
+    "machine-learning",
+    "artificial-intelligence"
+  ],
+  "era": "modern-era-ii",
+  "prerequisites": [],
+  "ocr_status": "pending"
+}

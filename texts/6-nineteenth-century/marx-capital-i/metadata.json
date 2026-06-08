@@ -17,5 +17,6 @@
   "era": "nineteenth-century",
   "prerequisites": [
     "smith-wealth-of-nations"
-  ]
+  ],
+  "ocr_status": "pending"
 }

@@ -1,0 +1,20 @@
+{
+  "title": "Prometheus Bound",
+  "author": "Aeschylus",
+  "translator": "Theodore Alois Buckley",
+  "year_written": "~430 BCE",
+  "year_translated": 1908,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "aeschylus-prometheus-bound.md",
+  "description": "Tragedy of the Titan punished for giving fire to mortals, dramatizing defiance against tyrannical order",
+  "topics": [
+    "literature",
+    "drama",
+    "tragedy"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

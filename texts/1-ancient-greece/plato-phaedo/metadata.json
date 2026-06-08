@@ -1,0 +1,20 @@
+{
+  "title": "Phaedo",
+  "author": "Plato",
+  "translator": "Benjamin Jowett",
+  "year_written": "~385 BCE",
+  "year_translated": 1871,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "plato-phaedo.md",
+  "description": "Dialogue depicting Socrates's final hours, with four arguments for the soul's immortality",
+  "topics": [
+    "philosophy",
+    "metaphysics",
+    "ethics"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

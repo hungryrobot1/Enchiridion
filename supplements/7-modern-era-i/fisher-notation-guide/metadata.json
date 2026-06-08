@@ -2,8 +2,13 @@
   "title": "Fisher Statistical Genetics Notation Guide",
   "type": "notation-guide",
   "era": "modern-era-i",
-  "texts": ["fisher-genetical-theory-of-natural-selection"],
+  "texts": [
+    "fisher-genetical-theory-of-natural-selection"
+  ],
   "description": "Fisher's statistical genetics notation translated to modern conventions — the modern synthesis expressed in contemporary terms",
   "filename": "content.md",
-  "prerequisites": ["galton-notation-guide"]
+  "prerequisites": [
+    "galton-notation-guide"
+  ],
+  "content_status": "stub"
 }

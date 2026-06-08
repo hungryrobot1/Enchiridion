@@ -1,12 +1,6 @@
-THE CONICS OF APOLLONIUS.
+# THE CONICS OF APOLLONIUS.
 
----
-
-.
-
----
-
-THE CONE.
+# THE CONE.
 
 If a straight line indefinite in length, and passing always through a fixed point, be made to move round the circumference of a circle which is not in the same plane with the point, so as to pass successively through every point of that circumference, the moving straight line will trace out the surface of a **double cone**, or two similar cones lying in opposite directions and meeting in the fixed point, which is the **apex** of each cone.
 
@@ -18,11 +12,9 @@ If a cone be cut by a plane passing through the apex, the resulting section is a
 
 Let there be a cone whose apex is $A$ and whose base is the circle $BC$, and let $O$ be the centre of the circle, so that $AO$ is the axis of the cone. Suppose now that the cone is cut by any plane parallel to the plane of the base $BC$, as $DE$, and let
 
-H. C. 1
 
 ---
 
-2 THE CONICS OF APOLLONIUS.
 
 the axis $AO$ meet the plane $DE$ in $o$. Let $p$ be any point on the intersection of the plane $DE$ and the surface of the cone. Join $Ap$ and produce it to meet the circumference of the circle $BC$ in $P$. Join $OP$, $op$.
 
@@ -40,13 +32,12 @@ Therefore $op$ is constant for all points on the section of the surface by the p
 
 Hence *all sections of the cone which are parallel to the circular base are circles.* [I. 4.]*
 
-Next, let the cone be cut by a plane passing through the axis and perpendicular to the plane of the base $BC$, and let the section be the triangle $ABC$. Conceive another plane $HK$ drawn at right angles to the plane of the triangle $ABC$ and cutting off from it the triangle $AHK$ such that $AHK$ is similar to the triangle $ABC$ but lies in the contrary sense, i.e. such that the angle $AKH$ is equal to the angle $ABC$. Then the section of the cone by the plane $HK$ is called a **subcontrary** section ($\partial\pi\varepsilon\alpha\nu\taui\alpha\ \tauo\mu\eta$).
+Next, let the cone be cut by a plane passing through the axis and perpendicular to the plane of the base $BC$, and let the section be the triangle $ABC$. Conceive another plane $HK$ drawn at right angles to the plane of the triangle $ABC$ and cutting off from it the triangle $AHK$ such that $AHK$ is similar to the triangle $ABC$ but lies in the contrary sense, i.e. such that the angle $AKH$ is equal to the angle $ABC$. Then the section of the cone by the plane $HK$ is called a **subcontrary** section (ὑπεναντία τομή).
 
 * The references in this form, here and throughout the book, are to the original propositions of Apollonius.
 
 ---
 
-THE CONE. 3
 
 Let $P$ be any point on the intersection of the plane $HK$ with the surface, and $F$ any point on the circumference of the circle $BC$. Draw $PM$, $FL$ each perpendicular to the plane of the triangle $ABC$, meeting the straight lines $HK$, $BC$ respectively in $M$, $L$. Then $PM$, $FL$ are parallel.
 
@@ -78,7 +69,6 @@ Suppose a cone to be cut by any plane through the axis making the triangular sec
 
 ---
 
-4 THE CONICS OF APOLLONIUS.
 
 the circumference of the base in $F$, and let $FLF'$ be the chord perpendicular to $BC$. Join $AL$, $AF'$. Then the straight line through $Q$ parallel to $HK$ is also parallel to $FLF'$; it follows therefore that the parallel through $Q$ will meet both $AL$ and $AF'$. And $AL$ is in the plane of the axial triangle $ABC$. Therefore the parallel through $Q$ will meet both the plane of the axial triangle and the other side of the surface of the cone, since $AF''$ lies on the cone.
 
@@ -98,7 +88,6 @@ Then this parallel will, if produced to meet the other side of the surface in $Q
 
 ---
 
-THE CONE. 5
 
 triangle. But it lies also in the plane of the section $DPE$; it will therefore meet, and be bisected by, $PM$.
 
@@ -116,7 +105,6 @@ Again, if $PM$ be the diameter of a section made by a plane cutting the circular
 
 ---
 
-6 THE CONICS OF APOLLONIUS.
 
 For, if we take any point $V$ on $PM$ produced and draw through it $HK$ parallel to $BC$, and $QQ'$ parallel to $DE$, the plane through $HK$, $QQ'$ is parallel to that through $DE$, $BC$, i.e. to the base. Therefore the section $HQKQ'$ is a circle. And $D, E, Q, Q'$ are all on the surface of the cone and are also on the cutting plane. Therefore the section $DPE$ extends to the circle $HQK$, and in like manner to the circular section through any point on $PM$ produced, and therefore to any distance from $P$. [I. 8.]
 
@@ -130,7 +118,6 @@ For let the plane of the section meet the plane of the base in $DME$, a straight
 
 ---
 
-THE CONE. 7
 
 circular base. Take the axial triangle through $BC$ meeting the plane of section in the straight line $PP'$. Then $P, P', M$ are all points in the plane of the axial triangle and in the plane of section. Therefore $PP'M$ is a straight line.
 
@@ -172,7 +159,6 @@ Suppose, as usual, that the plane of section cuts the circular base in a straigh
 
 ---
 
-8 THE CONICS OF APOLLONIUS.
 
 whose base $BC$ is that diameter of the base of the cone which bisects $DME$ at right angles at the point $M$. Then, if the plane of the section and the plane of the axial triangle intersect in the straight line $PM$, $PM$ is a diameter of the section bisecting all chords of the section, as $QQ'$, which are drawn parallel to $DE$.
 
@@ -194,7 +180,6 @@ Let $HK$ be drawn through $V$ parallel to $BC$. Then, since $QV$ is also paralle
 
 ---
 
-THE CONE. 9
 
 produces a circular section whose diameter is $HK$. Also $QV$ is at right angles to $HK$.
 
@@ -268,7 +253,6 @@ $$
 
 ---
 
-10 THE CONICS OF APOLLONIUS.
 
 Then, by similar triangles,
 
@@ -306,7 +290,6 @@ which is simply the Cartesian equation of the hyperbola referred to oblique axes
 
 ---
 
-THE CONE. 11
 
 $PL$ is called the *latus rectum* or the *parameter of the ordinates* as before, and $PP'$ is called the *transverse* ($\dot{\eta}\pi\lambda\alpha\gamma\alpha$). The fuller expression *transverse diameter* ($\dot{\eta}\pi\lambda\alpha\gamma\alpha\delta\alpha\mu\epsilon\tau\rho\sigma$) is also used; and, even more commonly, Apollonius speaks of the diameter and the corresponding parameter together, calling the latter the *latus rectum* (i.e. the *erect side*, $\dot{\eta}\partial\rho\theta\alpha\pi\lambda\epsilon\nu\rho\dot{\alpha}$), and the former the *transverse side* ($\dot{\eta}\pi\lambda\alpha\gamma\alpha\pi\lambda\epsilon\nu\rho\dot{\alpha}$), of the *figure* ($\epsilon\dot{\iota}\delta\sigma\gamma$) on, or applied to, the diameter ($\pi\rho\dot{\sigma}\tau\dot{\eta}\delta\alpha\mu\epsilon\tau\rho\varphi$), i.e. of the rectangle contained by $PL$, $PP'$ as drawn.
 
@@ -338,7 +321,6 @@ $$
 
 ---
 
-12 THE CONICS OF APOLLONIUS.
 
 Draw $HK$ through $V$ parallel to $BC$. Then, as before,
 
@@ -369,9 +351,7 @@ $$QV^2:PV.PV' = PL:PP'$$
 
 that, for any fixed diameter $PP'$,
 
-$$QV^2:PV.P'V \text{ is a constant ratio,}$
-
-or $QV^2$ varies as $PV.P'V$.]
+$QV^2:PV.P'V$ is a constant ratio, or $QV^2$ varies as $PV.P'V$.]
 
 * Apollonius describes the rectangle $PR$ as applied to the *latus rectum* but falling short by a figure similar and similarly situated to that contained by $PP'$ and $PL$, i.e. falling short of the rectangle $VL$ by the rectangle $LR$.
 
@@ -383,7 +363,6 @@ Thus Apollonius' enunciation simply expresses the Cartesian equation referred to
 
 ---
 
-THE CONE. 13
 
 ## Proposition 4.
 
@@ -399,8 +378,6 @@ Let $BC$ be that diameter of the base which bisects $DE$ at right angles, and le
 
 ---
 
-14
-THE CONICS OF APOLLONIUS.
 
 Let $FAF'$ be drawn through $A$ parallel to $MM'$, the straight line joining the middle points of $DE$, $D'E'$ and meeting $CA$, $B'A$ respectively in $P$, $P'$.
 
@@ -438,7 +415,7 @@ $$ \therefore PL = P'L' $$
 
 ## Proposition 5.
 
-### [I. 15.]
+[I. 15.]
 
 If through $C$, the middle point of the diameter $PP'$ of an ellipse, a double ordinate $DCD'$ be drawn to $PP'$, $DCD'$ will bisect all chords parallel to $PP'$, and will therefore be a diameter the ordinates to which are parallel to $PP'$.
 
@@ -452,7 +429,6 @@ Also the parameter of the ordinates to $DCD'$ will be a third proportional to $D
 
 ---
 
-16 THE CONICS OF APOLLONIUS.
 
 Then, if $PL$ is the parameter of the ordinates, and if $P'L$ is joined and $VR, CE, V'R'$ drawn parallel to $PL$ to meet $P'L$, we have [Prop. 3]
 
@@ -567,7 +543,6 @@ $$
 
 ---
 
-THE DIAMETER AND ITS CONJUGATE. 17
 
 Thus $DK$ is the parameter of the ordinates to $DD'$, such as $Qv$.
 
@@ -606,11 +581,9 @@ If any straight line be drawn parallel to $PP'$, the given diameter, and meeting
 
 Let $QV, Q'V'$ be ordinates to $PP'$, and let $PL, P'L'$ be the parameters of the ordinates in each branch so that [Prop. 4]
 
-H. C. 2
 
 ---
 
-18 THE CONICS OF APOLLONIUS.
 
 $PL = P'L'$. Draw $VR$, $V'R'$ parallel to $PL$, $P'L'$, and let $PL'$, $P'L'$ be joined and produced to meet $V'R'$, $VR$ respectively in $R'$, $R$.
 
@@ -664,7 +637,7 @@ $$PV = P'V'$$
 
 DEF. The middle point of the diameter of an ellipse or hyperbola is called the **centre**; and the straight line drawn parallel to the ordinates of the diameter, of a length equal to the mean proportional between the diameter and the parameter, and bisected at the centre, is called the **secondary diameter** (δεύτερα διάμετρος).
 
-**Proposition 7.**
+## Proposition 7.
 
 [I. 20.]
 
@@ -674,9 +647,8 @@ This is at once evident from Prop. 1.
 
 ---
 
-THE DIAMETER AND ITS CONJUGATE. 19
 
-# Proposition 8.
+## Proposition 8.
 
 [I. 21.]
 
@@ -723,7 +695,6 @@ $$
 
 ---
 
-20 THE CONICS OF APOLLONIUS.
 
 Similarly $Q'V'^{2}: PV'.P'V' = PL:PP'$.
 
@@ -739,7 +710,7 @@ $$
 QV^{2} \propto PV. P'V.
 $$
 
-**Proposition 9.**
+## Proposition 9.
 
 [I. 29.]
 
@@ -765,9 +736,8 @@ Hence $QC$, if produced, will cut the opposite branch.
 
 ---
 
-THE DIAMETER AND ITS CONJUGATE. 21
 
-# Proposition 10.
+## Proposition 10.
 
 [I. 30.]
 
@@ -851,7 +821,6 @@ and let $V'QM$ be drawn parallel to $QV$, meeting the curve in $Q'$ and $PK$ in 
 
 ---
 
-TANGENTS. 23
 
 Then $ KV^2 : PV^2 = PL : PV' $
 
@@ -880,7 +849,6 @@ Let $ PF $ be parallel to the ordinates to $ PP $, and, if possible, let $ PK $ 
 
 ---
 
-24 THE CONICS OF APOLLONIUS.
 
 pendicular to $PV$. Join $P'L$ and let it (produced if necessary) meet $VR$ in $R$.
 
@@ -928,9 +896,8 @@ Hence no straight line can fall between $PF$ and the curve.
 
 ---
 
-TANGENTS. 25
 
-# Proposition 12.
+## Proposition 12.
 
 [I. 33, 35.]
 
@@ -981,7 +948,6 @@ Therefore $TQ$ does not at any point fall within the curve, and is therefore a t
 
 ---
 
-26 THE CONICS OF APOLLONIUS.
 
 Conversely, if the tangent at $Q$ meet the diameter produced outside the curve in the point $T$, $TP = PV$. Also no straight line can fall between $TQ$ and the curve.
 
@@ -999,7 +965,6 @@ We have to prove that no point on $TQ$ or $TQ$ produced falls within the curve.
 
 ---
 
-TANGENTS. 27
 
 If possible, let a point $K$ on $TQ$ or $TQ$ produced fall within the curve*; draw $Q'KV'$ parallel to an ordinate meeting the curve in $Q'$. Join $P'Q$, $V'Q$, producing them if necessary, and draw through $P'$, $P$ parallels to $TQ$ meeting $V'Q$, $VQ$ in $I$, $O$ and $H$, $N$ respectively. Also let the parallel through $P$ meet $P'Q$ in $M$.
 
@@ -1035,10 +1000,9 @@ $$
 It follows that $P'H.PN:TQ^2 &gt; P'I.OP:TQ^2$;
 $$
 \therefore \text{ by similar triangles } \\
-P'V.PV:TV^2 &gt; P'V'.PV':TV'^2, \\
+P'V.PV:TV^2 &gt; P'V'.PV':TV'^2,
 $$
 or
-$$
 $$
 P'V.PV:P'V'.PV' &gt; TV^2:TV'^2;
 $$
@@ -1065,7 +1029,6 @@ Also no other straight line can fall between $TQ$ and the curve.
 
 ---
 
-28 THE CONICS OF APOLLONIUS.
 
 ## Proposition 14.
 
@@ -1113,7 +1076,6 @@ $$
 
 ---
 
-TANGENTS. 29
 
 (2) Since $CV: CP = CP: CT$,
 $CV \sim CP: CV = CP \sim CT: CP$,
@@ -1172,7 +1134,6 @@ $QV: CV = Cv: Qv$,
 
 ---
 
-30 THE CONICS OF APOLLONIUS.
 
 and
 $$
@@ -1242,7 +1203,7 @@ $$
 Thus
 
 $$
-QV \cdot QO = PV \cdot PV' \quad \dots \dots \dots \dots \dots \tag{1}.
+QV \cdot QO = PV \cdot PV' \tag{1}
 $$
 
 Also $QV:QK = (CP:CM)\cdot (p:PP') = (CP:CM)\cdot (QV:QO),$
@@ -1254,7 +1215,7 @@ $$
 $$
 
 $$
-\therefore QO:QK = CP:CM \quad \dots \dots \dots \dots \dots \tag{2}.
+\therefore QO:QK = CP:CM \tag{2}
 $$
 
 But
@@ -1273,7 +1234,6 @@ $$
 
 ---
 
-32 THE CONICS OF APOLLONIUS.
 
 $$
 \begin{array}{l}
@@ -1349,7 +1309,7 @@ TV = 2PV; \text{ [Prop. 12]}
 $$
 
 $$
-\therefore \triangle QTV = (EV) \dots \dots \dots \dots \dots \tag{1}.
+\therefore \triangle QTV = (EV) \tag{1}
 $$
 
 Also $QV^2: RW^2 = PV: PW$;
@@ -1378,11 +1338,9 @@ $$
 
 ![img-28.jpeg](images/img-28.jpeg)
 
-H. C. 3
 
 ---
 
-34 THE CONICS OF APOLLONIUS.
 
 ![img-29.jpeg](images/img-29.jpeg)
 
@@ -1463,7 +1421,6 @@ $$
 
 ---
 
-36 THE CONICS OF APOLLONIUS.
 
 and the triangles $QvC$, $Qvt$ are the halves of equiangular parallelograms on $Cv$ (or $QV$) and $Qv$ (or $CV$) respectively: also $CPK$ is the triangle on $CP$ similar to $Qvt$.
 
@@ -1475,7 +1432,8 @@ $\therefore \triangle CPK = \triangle CQt.$
 Again, the triangle $Cfw$ is similar to the triangle $CQv$, and the triangle $Rwu$ to the triangle $Qvt$. Therefore, for the ordinate $RW$,
 $\triangle Cfw = \triangle Ruw \sim \triangle CPK = \triangle Ruw \sim \triangle CQt.$
 
-**Proposition 20.**
+## Proposition 20.
+
 [I. 46.]
 
 In a parabola the straight line drawn through any point parallel to the diameter bisects all chords parallel to the tangent at the point.
@@ -1505,21 +1463,9 @@ TRANSITION TO A NEW DIAMETER. 37
 
 In a hyperbola, an ellipse, or a circle, the line joining any point to the centre bisects the chords parallel to the tangent at the point.
 
-## Proposition 22.
-
-[I. 47, 48.]
-
-In a hyperbola, an ellipse, or a circle, the line joining any point to the centre bisects the chords parallel to the tangent at the point.
-
-## Proposition 23.
-
-[I. 47, 48.]
-
-In a hyperbola, an ellipse, or a circle, the line joining any point to the centre bisects the chords parallel to the tangent at the point.
-
-## Proposition 24.
-
-[I. 47, 48.]
+![img-34a.jpeg](images/img-34a.jpeg)
+![img-34b.jpeg](images/img-34b.jpeg)
+![img-34c.jpeg](images/img-34c.jpeg)
 
 If $QT$ be the given tangent and $RR'$ any parallel chord, let $RW$, $R'W'$, $PE$ be drawn ordinate-wise to $PP'$, and let $CQ$ meet them in $F$, $F'$, $E$ respectively. Further let $CQ$ meet $RR'$ in $M$.
 
@@ -1537,7 +1483,6 @@ $$
 
 ---
 
-38 THE CONICS OF APOLLONIUS.
 
 Thus (1), as the figure is drawn for the *hyperbola*,
 
@@ -1710,7 +1655,6 @@ $$
 
 ---
 
-40 THE CONICS OF APOLLONIUS.
 
 and erected perpendicular to $QC$; if further $Q'L$ be joined (where $Q'$ is on $QC$ produced and $CQ = CQ'$), and $MK$ be drawn parallel to $QL$ to meet $Q'L$ in $K$ (where $M$ is the point of concourse of $CQ$ and $RR'$, a chord parallel to the tangent at $Q$): then it is to be proved that
 
@@ -1814,7 +1758,6 @@ Complete the parallelogram $ACOE$, and about $AE$ as diameter, in a plane perpen
 
 ---
 
-PROBLEMS. 43
 
 apex and the said circle as base. Then the cone is a right cone because $OE = AC = OA$.
 
@@ -1856,7 +1799,6 @@ Therefore $p$ is the parameter of the parabola corresponding to the diameter $PM
 
 ---
 
-44 THE CONICS OF APOLLONIUS.
 
 ## Proposition 25. (Problem.)
 
@@ -1886,7 +1828,6 @@ $A'O$, $DO$. Draw $AE$ parallel to $DO$ meeting $A'O$ produced in $E$. Let $DO$ 
 
 ---
 
-PROBLEMS. 45
 
 Then
 $$
@@ -1914,15 +1855,14 @@ $$
 
 But
 $$
-\left\{
-\begin{array}{c}
+\left.\begin{array}{l}
 A'B:BO = OM:MH \\
 BA:BO = OM:MK
-\end{array}
-\right.
-\quad \text{by similar triangles}, \\
+\end{array}\right\} \text{by similar triangles,}
+$$
+
+$$
 \therefore A'B.BA:BO^2 = OM^2:HM.MK.
-\end{array}
 $$
 
 Hence
@@ -1942,7 +1882,6 @@ $$
 
 ---
 
-46 THE CONICS OF APOLLONIUS.
 
 Join $NC$ meeting $PT$ in $T$, and take $A$ on $CN$ such that $CA^2 = CT.CN$. Join $PN$ and produce it to $K$ so that
 
@@ -1988,7 +1927,6 @@ The proof is obvious.
 
 ---
 
-PROBLEMS. 47
 
 Also $PT$ will be the tangent at $P$ because $CT \cdot CN = CA^2$. Therefore $CP$ will be a diameter of the hyperbola bisecting
 
@@ -2020,7 +1958,7 @@ therefore $p$ is the parameter corresponding to the diameter $PP'$.
 
 The opposite branch of the hyperbola with vertex $A'$ can be described in the same way.
 
-**Proposition 26. (Problem.)**
+## Proposition 26. (Problem.)
 
 [I. 60.]
 
@@ -2030,7 +1968,6 @@ Let $PP', DD'$ be the two straight lines bisecting each other at $C$.
 
 ---
 
-48 THE CONICS OF APOLLONIUS.
 
 From $P$ draw $PL$ perpendicular to $PP'$ and of such a length that $PP'.PL = DD'^2$; then, as in Prop. 25, describe a double hyperbola with diameter $PP'$ and parameter $PL$ and such that the ordinates in it to $PP'$ are parallel to $DD'$.
 
@@ -2044,7 +1981,7 @@ Then $DD'$, $PP'$ are conjugate diameters to this hyperbola, and $DD'$ is the tr
 
 The two hyperbolas so constructed are called **conjugate** hyperbolas, and that last drawn is the hyperbola **conjugate** to the first.
 
-**Proposition 27.** (Problem.)
+## Proposition 27. (Problem.)
 [I. 56, 57, 58.]
 
 Given a diameter of an ellipse, the corresponding parameter, and the angle of inclination between the diameter and its ordinates: to find the ellipse.
@@ -2053,7 +1990,6 @@ First, let the angle of inclination be a right angle, and let the diameter be gr
 
 ---
 
-PROBLEMS. 49
 
 Let $AA'$ be the diameter and $AL$, a straight line of length $p_a$ perpendicular to it, the parameter.
 
@@ -2078,11 +2014,9 @@ whence $\angle OHK = \angle OKH$
 
 and $OH = OK$.
 
-H. C. 4
 
 ---
 
-50 THE CONICS OF APOLLONIUS.
 
 With $O$ as vertex, and as base the circle drawn with diameter $HK$ and in a plane perpendicular to that of the triangle $OHK$, let a cone be described. This cone will be a right cone because $OH = OK$.
 
@@ -2123,7 +2057,6 @@ thus $AA' &gt; AL$.
 
 ---
 
-PROBLEMS. 51
 Now with $AA'$ as diameter and $AL$ as the corresponding parameter describe an ellipse in which the ordinates to $AA'$ are perpendicular to it, as above.
 
 This will be the ellipse required, for
@@ -2157,13 +2090,12 @@ Take a point $N$, on the semicircle which has $CP$ for its diameter, such that $
 
 $$
 NH^2: CH.HP = PL: PP'*.
-*
-This construction like that in Prop. 25 is assumed without explanation. If $NH$ be supposed to meet the other semicircle on $CP$ as diameter in $N'$, the
-4—2
+$$
+
+* This construction like that in Prop. 25 is assumed without explanation. If $NH$ be supposed to meet the other semicircle on $CP$ as diameter in $N'$, the
 
 ---
 
-52 THE CONICS OF APOLLONIUS.
 
 Join $CN$ and produce it to meet $PT$ in $T$. Take $A$, on $CT$, such that $CT.CN = CA^2$, and produce $AC$ to $A'$ so that $AC = CA'$. Join $PN$ and produce it to $K$ so that $AN.NK = PN^2$. Join $A'K$. Draw $EAM$ through $A$ perpendicular to $CA$ (and therefore parallel to $NK$) meeting $CP$ produced in $E$, $PT$ in $O$, and $A'K$ produced in $M$.
 
@@ -2243,7 +2175,6 @@ $$
 
 ---
 
-54 THE CONICS OF APOLLONIUS.
 
 But
 
@@ -2251,7 +2182,7 @@ $$p: PP' = QV^2: PV. P'V.$$
 
 $$\therefore PV. P'V = CV^2,$$
 
-i.e. $$CV^2 - CP^2 = CV^2$$, which is absurd.
+i.e. $CV^2 - CP^2 = CV^2$, which is absurd.
 
 Therefore $CL$ does not meet the hyperbola in any finite point, and the same is true for $CL'$.
 
@@ -2281,11 +2212,10 @@ Therefore conjugate hyperbolas have their asymptotes common.
 
 ---
 
-ASYMPTOTES. 55
 
-# Proposition 29.
+## Proposition 29.
 
-## [II. 2.]
+[II. 2.]
 
 No straight line through $C$ within the angle between the asymptotes can itself be an asymptote.
 
@@ -2300,7 +2230,7 @@ And, since $PKRL$ is a parallelogram, $PK = LR$, $PL = KR$.
 Therefore $QR &gt; PL$. Also $R'Q &gt; PL'$;
 
 $$
-\therefore RQ \cdot QR' &gt; PL \cdot PL', \text{ or } PL' \quad \dots \dots \dots \dots (1).
+\therefore RQ \cdot QR' &gt; PL \cdot PL', \text{ or } PL' \tag{1}
 $$
 
 Again $RV^2: CV^2 = PL^2: CP^2 = p: PP'$, [Prop. 28]
@@ -2329,7 +2259,6 @@ Therefore $CK$ cannot be an asymptote.
 
 ---
 
-56 THE CONICS OF APOLLONIUS.
 
 ## Proposition 30.
 
@@ -2363,9 +2292,8 @@ Take a length $p$ such that $LL'^2 = p \cdot PP'$, and with diameter $PP'$ and p
 
 ---
 
-ASYMPTOTES. 57
 
-# Proposition 32.
+## Proposition 32.
 
 [II. 8, 10.]
 
@@ -2426,7 +2354,6 @@ $$
 
 ---
 
-58 THE CONICS OF APOLLONIUS.
 
 ## Proposition 33.
 
@@ -2484,7 +2411,6 @@ $$
 
 ---
 
-ASYMPTOTES. 59
 
 ## Proposition 34.
 
@@ -2514,7 +2440,6 @@ or $HQ \cdot QK = hq \cdot qk.$
 
 ---
 
-60 THE CONICS OF APOLLONIUS.
 
 ## Proposition 35.
 
@@ -2562,9 +2487,8 @@ Therefore $EF$ does not meet the hyperbola in a second point $R'$.
 
 ---
 
-ASYMPTOTES. 61
 
-# Proposition 36.
+## Proposition 36.
 
 [II. 14.]
 
@@ -2605,7 +2529,6 @@ $$
 
 ---
 
-62 THE CONICS OF APOLLONIUS.
 
 ## Proposition 37.
 
@@ -2627,9 +2550,8 @@ whence, by addition,  $DQ = DQ'$.
 
 ---
 
-ASYMPTOTES. 63
 
-# Proposition 38.
+## Proposition 38.
 
 [II. 23.]
 
@@ -2663,7 +2585,7 @@ $$
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES.
+# TANGENTS, CONJUGATE DIAMETERS AND AXES.
 
 ## Proposition 39.
 
@@ -2690,7 +2612,6 @@ $$
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 65
 
 and
 
@@ -2716,7 +2637,7 @@ $$ \angle QCV = \angle UEW. $$
 
 But $ \angle VCE = \angle CEW $, since $EW$, $CV$ are parallel.
 
-Therefore, by subtraction, $ \angle QCE = \angle CEU. $$
+Therefore, by subtraction, $ \angle QCE = \angle CEU. $
 
 Hence $EU$ is parallel to $CQ$.
 
@@ -2726,13 +2647,13 @@ $$ HE: EO = EU: S, $$
 
 so that $S$ is equal to half the parameter of the ordinates to the diameter $EE'$ of the conjugate hyperbola. [Prop. 23]
 
-Also $ Ct.\, QV = CD^2, \text{ (since } QV = Cv), $$
+Also $ Ct.\, QV = CD^2, \text{ (since } QV = Cv), $
 
 or
 
 $$ Ct: QV = Ct^2: CD^2. $$
 
-Now $ Ct: QV = tT: TQ = \triangle tCT: \triangle CQT, $$
+Now $ Ct: QV = tT: TQ = \triangle tCT: \triangle CQT, $
 
 and
 
@@ -2766,12 +2687,9 @@ And similarly it may be proved that $EE'^2$ is equal to the rectangle contained 
 
 Therefore $QQ'$, $EE'$ are conjugate diameters. [Prop. 26]
 
-H. C.
-5
 
 ---
 
-66 THE CONICS OF APOLLONIUS.
 
 ## Proposition 40.
 
@@ -2811,7 +2729,6 @@ Then, since $RH$ is parallel to $QQ'$, and $QV = Q'V$, $RK = KH$.
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 67
 
 Also, since $RR'$ is a chord parallel to $QQ'$ bisected by the diameter $EV$, $RK = KR'$.
 
@@ -2823,7 +2740,7 @@ Conversely, the diameter of the conic drawn through $T$, the point of intersecti
 
 [This is separately proved by Apollonius by means of an easy reductio ad absurdum.]
 
-**Proposition 42.**
+## Proposition 42.
 
 [II. 40.]
 
@@ -2833,7 +2750,6 @@ If $tQ$, $tQ'$ be tangents to opposite branches of a hyperbola, and a chord $RR'
 
 ---
 
-68 THE CONICS OF APOLLONIUS.
 
 Join *vt*. *vt* is then the diameter conjugate to the transverse diameter drawn parallel to $QQ'$, i.e. to $PP'$.
 
@@ -2845,7 +2761,7 @@ $$
 
 Therefore the relation between $v$ and $t$ is reciprocal, and the tangents at $R$, $R'$ intersect in $v$.
 
-**Proposition 43.**
+## Proposition 43.
 
 [II. 26, 41, 42.]
 
@@ -2863,7 +2779,6 @@ Then $Qq$, $Rr$ shall not bisect one another. For, if possible, let each be bise
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 69
 
 Then, since $Qq$ is bisected in $O$ and $Pp$ is a diameter parallel to it, $CO$, $Pp$ are conjugate diameters.
 
@@ -2901,7 +2816,6 @@ And there is only one axis because there is only one diameter which bisects $QQ'
 
 ---
 
-70 THE CONICS OF APOLLONIUS.
 
 (2) In the case of a *central conic*, take any point $P$ on the conic, and with centre $C$ and radius $CP$ describe a circle cutting the conic in $P, P', Q', Q$.
 
@@ -2913,7 +2827,7 @@ Let $PP', PQ$ be two common chords not passing through the centre, and let $N, M
 
 Then $CN$, $CM$ will both be axes because they are both diameters bisecting chords at right angles. They are also conjugate because each bisects chords parallel to the other.
 
-**Proposition 46.**
+## Proposition 46.
 
 [II. 48.]
 
@@ -2929,7 +2843,6 @@ curve again in $R$. Join $CP$, $CR$.
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 71
 
 Then, since $CL$ is an axis, $P'L = LR$; therefore also
 
@@ -2995,7 +2908,6 @@ Hence $CL$ is not an axis.
 
 ---
 
-72 THE CONICS OF APOLLONIUS.
 
 ## Proposition 47. (Problem.)
 
@@ -3021,9 +2933,8 @@ $OP$ is the tangent required, because $PV$, being parallel to the tangent at $B$
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 73
 
-# Proposition 48. (Problem.)
+## Proposition 48. (Problem.)
 
 [II. 49.]
 
@@ -3063,7 +2974,6 @@ Therefore $OQ$ is the tangent at $Q$. [Prop. 13]
 
 ---
 
-74 THE CONICS OF APOLLONIUS.
 
 **Case III.** Let the point $O$ be on one of the asymptotes. Bisect $CO$ at $H$, and through $H$ draw $HP$ parallel to the other
 
@@ -3087,7 +2997,6 @@ Join $CO$. Take any chord $Qq$ parallel to $CO$, and let $V$ be its middle point
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 75
 
 ## Proposition 49. (Problem.)
 
@@ -3117,7 +3026,6 @@ $$
 
 ---
 
-76 THE CONICS OF APOLLONIUS.
 
 Since
 
@@ -3155,7 +3063,6 @@ greater than the angle between the axis and an asymptote, or half that between t
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 77
 
 We have then $CA^2: AZ^2$ (or $CA^2: CB^2$) = $EF^2: FH^2$.
 
@@ -3212,7 +3119,7 @@ $$
 
 Hence $\angle PTN = \angle DEF$.
 
-**Proposition 51.**
+## Proposition 51.
 
 [II. 52.]
 
@@ -3224,7 +3131,6 @@ Then $PC$ is either parallel to $BA'$ or not parallel to it.
 
 ---
 
-78 THE CONICS OF APOLLONIUS.
 
 First, let $PC$ be parallel to $BA'$. Then, by parallels, $CP$ bisects $AB$. Therefore the tangent at $P$ is parallel to $AB$, and $\angle CPT = \angle A'BA$.
 
@@ -3272,7 +3178,6 @@ $$
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 79
 
 and, doubling the antecedents,
 
@@ -3328,7 +3233,7 @@ $$ \angle CPT = \angle ERF; $$
 
 whence it follows that
 
-$$ \angle CPT $ is less than $ \angle EHF $, or
+$\angle CPT$ is less than $\angle EHF$, or
 
 $$ \angle ABA'. $$
 
@@ -3344,7 +3249,6 @@ I. In the case of the parabola the given angle must be an acute angle, and, sinc
 
 ---
 
-80 THE CONICS OF APOLLONIUS.
 
 II. In the case of a central conic, the angle $CPT$ must be acute for the *hyperbola*, and for the *ellipse* it must not be less than a right angle, nor greater than the angle $ABA'$, as proved in Prop. 51.
 
@@ -3366,7 +3270,6 @@ Next suppose $\theta$ to be any acute angle for the *hyperbola*, and for the *el
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 81
 
 Imagine a segment of a circle taken containing an angle $(EDF)$ equal to the angle $\theta$. Then, if a point $D$ on the circumference of the segment could be found such that, if $DM$ be the perpendicular on the base $EF$, the ratio $EM \cdot MF : DM^2$ is equal to the ratio $CA^2 : CB^2$, i.e. to the ratio $CN \cdot NT : PN^2$, we should have
 
@@ -3414,11 +3317,9 @@ $$
 
 * These conclusions are taken for granted by Apollonius, but they are easily proved.
 
-H. C. 6
 
 ---
 
-82 THE CONICS OF APOLLONIUS.
 
 This is effected as follows:
 
@@ -3476,7 +3377,6 @@ $$
 
 ---
 
-TANGENTS, CONJUGATE DIAMETERS AND AXES. 83
 ```markdown
 whence
 $CA^2:CB^2>FI^2:IL^2$
@@ -3525,7 +3425,6 @@ and $\square EV = \triangle QTV.$
 
 ---
 
-EXTENSIONS OF PROPOSITIONS 17—19. 85
 
 Subtracting the common area $OPVQ$,
 
@@ -3573,7 +3472,6 @@ $$
 
 ---
 
-86 THE CONICS OF APOLLONIUS.
 
 tangent at $P$ to meet the conjugate hyperbola in $D$, and draw $QV$ also parallel to $PE$ meeting $CP$ in $V$. Then $CP$, $CD$ are conjugate diameters of both hyperbolas, and $QV$ is drawn ordinate-wise to $CP$.
 
@@ -3594,7 +3492,7 @@ $$
 \therefore \Delta CQT = \Delta CPE.
 $$
 
-**Proposition 54.**
+## Proposition 54.
 
 [III. 2, 6.]
 
@@ -3604,7 +3502,6 @@ If we keep the notation of the last proposition, and if $R$ be
 
 ---
 
-EXTENSIONS OF PROPOSITIONS 17—19. 87
 
 any other point on the conic, let $RU$ be drawn parallel to $QT$ to meet the diameter through $P$ in $U$, and let a parallel through $R$ to the tangent at $P$ meet $QT$ and the diameters through $Q, P$ in $H, F, W$ respectively. Then
 
@@ -3659,11 +3556,10 @@ $$
 
 ---
 
-88 THE CONICS OF APOLLONIUS.
 
 and, adding $(IJ)$ to both,
 
-$$FJR'F' = JU'UR...(2).$$
+$$FJR'F' = JU'UR \tag{2}$$
 
 ![img-88.jpeg](images/img-88.jpeg)
 Fig. 1.
@@ -3679,11 +3575,10 @@ II. In figs. 4, 5, 6 we have [Props. 18, 53]
 
 $$\triangle R'U'W' = \triangle CF'W' - \triangle CQT,$$
 
-so that $$\triangle CQT = \text{quadrilateral } CU'R'F',$$
+so that $\triangle CQT = \text{quadrilateral } CU'R'F',$
 
 ---
 
-EXTENSIONS OF PROPOSITIONS 17—19. 89
 
 and, adding the quadrilateral $CF'H'T$, we have
 
@@ -3729,17 +3624,16 @@ Fig. 6.
 
 ---
 
-90 THE CONICS OF APOLLONIUS.
 
 and, adding (III) to each side,
 
 $$ F'IRF = H'TU'R' + H'TUI $$
 
-$$ = IUU'R' \quad \text{...} \quad (1). $$
+$$ = IUU'R' \tag{1} $$
 
 Then, subtracting (IJ) from each side in fig. 4, and subtracting each side from (IJ) in figs. 5, 6, we obtain
 
-$$ FJR'F' = JU'UR \quad \text{...} \quad (2), $$
+$$ FJR'F' = JU'UR \tag{2} $$
 
 (the quadrilaterals in fig. 6 being the differences between the triangles $ FJM', F'R'M' $ and between the triangles $ JU'W, RUW $ respectively).
 
@@ -3765,7 +3659,6 @@ $$ \therefore CQ:CE = CP:CT, $$
 
 ---
 
-EXTENSIONS OF PROPOSITIONS 17—19. 91
 
 whence $QQ': EQ = PP': TP,$
 
@@ -3811,7 +3704,6 @@ $$
 
 ---
 
-92 THE CONICS OF APOLLONIUS.
 
 and, subtracting the quadrilateral $CwhQ$,
 
@@ -3867,9 +3759,8 @@ a property of which Apollonius gives a separate proof.]
 
 ---
 
-EXTENSIONS OF PROPOSITIONS 17—19. 93
 
-# Proposition 58.
+## Proposition 58.
 
 [III. 15.]
 
@@ -3900,7 +3791,6 @@ $$
 
 ---
 
-94 THE CONICS OF APOLLONIUS.
 
 $$
 \begin{array}{l}
@@ -3912,7 +3802,7 @@ $$
 
 Hence $D'C \cdot CG = CQ \cdot QT,$
 
-or $\triangle D'CG = \triangle CQT$...(1).
+or $\triangle D'CG = \triangle CQT$ (1).
 
 Again, $CM : MU = CQ : QT$
 
@@ -3920,14 +3810,14 @@ $$
 \begin{array}{l}
 = (CQ : \frac{p}{2}) \cdot (p : 2QT) \\
 = (p' : D'D'') \cdot (OQ : QE) \\
-= (p' : D'D'') \cdot (RM : MF) \dots \dots (2).
+= (p' : D'D'') \cdot (RM : MF) \tag{2}
 \end{array}
 $$
 
 Therefore the triangles $CMU$, $RMF$, $D'CG$, being respectively half of equiangular parallelograms on $CM$ (or $Rv$), $RM$ (or $Cv$), $CD'$, the last two of which are similar while the sides of the first two are connected by the relation (2), have the property of Prop. 16.
 
 $$
-\therefore \triangle RMF \sim \triangle CMU = \triangle D'CG = \triangle CQT \dots \dots \dots (3).
+\therefore \triangle RMF \sim \triangle CMU = \triangle D'CG = \triangle CQT \tag{3}
 $$
 
 If $R'$ be another point on the conjugate hyperbola, we have, by subtraction,
@@ -3939,7 +3829,7 @@ $$
 And, adding $(IJ)$,
 
 $$
-F'IRF = IUU'R' \quad \dots \dots \dots \dots \dots \dots (4)
+F'IRF = IUU'R' \tag{4}
 $$
 
 ---
@@ -3981,7 +3871,7 @@ RW^2: OP^2 = \triangle RUW: \triangle OPT;
 $$
 
 $$
-\therefore RJ. Jr: OP^2 = JU'UR: \triangle OPT \quad \dots \dots \dots \dots (1).
+\therefore RJ. Jr: OP^2 = JU'UR: \triangle OPT \tag{1}
 $$
 
 Again
@@ -4009,12 +3899,11 @@ R'M'^2: OQ^2 = \triangle R'F'M': \triangle OQE;
 $$
 
 $$
-\therefore R'J. Jr': OQ^2 = FJR'F': \triangle OQE \quad \dots \dots \dots (2).
+\therefore R'J. Jr': OQ^2 = FJR'F': \triangle OQE \tag{2}
 $$
 
 ---
 
-96 THE CONICS OF APOLLONIUS.
 
 Comparing (1) and (2), we have
 
@@ -4070,7 +3959,6 @@ where $qK$ is parallel to $Qt$ and meets $Ct$ produced in $K$.
 
 ---
 
-RECTANGLES UNDER SEGMENTS OF INTERSECTING CHORDS. 97
 
 But, comparing (1) and (2), we have
 
@@ -4132,11 +4020,9 @@ O Q^{2}: \Delta O Q E &amp;= R M^{2}: \Delta R M F \\
 \end{aligned}
 $$
 
-H. C. 7
 
 ---
 
-98 THE CONICS OF APOLLONIUS.
 
 and, in the same way,
 
@@ -4184,7 +4070,6 @@ $$ \therefore CD^2 : CP^2 = K'O. Ok': KO. Ok. $$
 
 ---
 
-RECTANGLES UNDER SEGMENTS OF INTERSECTING CHORDS. 99
 
 [From this point Apollonius distinguishes five cases: (1) where $O$ is in the angle $LCL'$, (2) where $O$ is on one of the asymptotes, (3) where $O$ is in the angle $LCk$ or its opposite, (4) where $O$ is within one of the branches of the original hyperbola, (5) where $O$ lies within one of the branches of the conjugate hyperbola. The proof is similar in all these cases, and it will be sufficient to take case (1), that represented in the accompanying figure.]
 
@@ -4251,7 +4136,6 @@ $$
 
 ---
 
-100 THE CONICS OF APOLLONIUS
 
 ## Proposition 61.
 
@@ -4317,7 +4201,7 @@ $$
 or
 
 $$
-RO^2 + Or^2 : R'O^2 + Or'^2 = CP^2 : CD^2 \quad \dots \dots \dots \tag{A},
+RO^2 + Or^2 : R'O^2 + Or'^2 = CP^2 : CD^2 \tag{A}
 $$
 
 while, for the ellipse,
@@ -4332,7 +4216,7 @@ $$
 whence
 
 $$
-\frac{RO^2 + Or^2}{CP^2} + \frac{R'O^2 + Or'^2}{CD^2} = 4 \quad \dots \dots \dots \tag{B}.
+\frac{RO^2 + Or^2}{CP^2} + \frac{R'O^2 + Or'^2}{CD^2} = 4 \tag{B}
 $$
 
 (2) We have to prove that, in the hyperbolas,
@@ -4415,7 +4299,6 @@ $$
 
 ---
 
-HARMONIC PROPERTIES OF POLES AND POLARS. 103
 
 Also
 $$ CV. CT = CP^2; $$
@@ -4427,30 +4310,29 @@ $$ CT(CW + TW) = CV. CT, $$
 and
 $$ TW = WV. $$
 
-It follows by parallels that $$ TR = RM. $$
-Again $$ CP^2: PL^2 = W'V^2: W'R'^2; $$
+It follows by parallels that $ TR = RM. $
+Again $ CP^2: PL^2 = W'V^2: W'R'^2; $
 $$ \therefore W'V^2: W'R'^2 = PW'. W'P': W'R'^2, $$
-so that $$ PW'. W'P' = W'V^2. $$
-And $$ CV. CT = CP^2; $$
+so that $ PW'. W'P' = W'V^2. $
+And $ CV. CT = CP^2; $
 $$ \therefore CW'^2 = CV. CT + W'V^2, $$
-whence, as before, $$ TW' = W'V, $$
-and $$ NR' = R'V. $$
+whence, as before, $ TW' = W'V, $
+and $ NR' = R'V. $
 (2).
 
-II. Next let $$ Q, q $$ be on opposite branches, and let $$ P'P $$ be the diameter parallel to $$ Qq $. Draw the tangent $$ PL $$, and the ordinates from $$ R, R' $$, as before.
+II. Next let $ Q, q $ be on opposite branches, and let $ P'P $ be the diameter parallel to $ Qq $. Draw the tangent $ PL $, and the ordinates from $ R, R' $, as before.
 
-Let $$ TM, CP $$ intersect in $$ K $$.
+Let $ TM, CP $ intersect in $ K $.
 
-Then, since the triangles $$ CPL, KWR $ $$
-are similar,
+Then, since the triangles $ CPL, KWR $ are similar,
 $$ CP^2: PL^2 = KW^2: WR^2, $$
 and
 $$ CP^2: CD^2 = PW. WP': WR^2; $$
 $$ \therefore KW^2 = PW. WP'. $$
 
-Hence, adding $$ CP^2 $,
+Hence, adding $ CP^2, $
 $$ CW^2 [= Rw^2] = KW^2 + CP^2. $$
-But $$ Rw^2: KW^2 + CP^2 = Tw^2: RW^2 + PL^2, $$
+But $ Rw^2: KW^2 + CP^2 = Tw^2: RW^2 + PL^2, $
 by similar triangles.
 
 Therefore
@@ -4459,7 +4341,6 @@ $$ = Cw^2 + CV. CT, $$
 
 ---
 
-104 THE CONICS OF APOLLONIUS.
 
 whence $Tw - Cw = CV$, or $Tw = wV$;
 
@@ -4512,7 +4393,7 @@ $$
 
 ![img-100.jpeg](images/img-100.jpeg)
 
-**Proposition 63.**
+## Proposition 63.
 
 [III. 35, 36.]
 
@@ -4524,17 +4405,16 @@ $$
 
 ---
 
-HARMONIC PROPERTIES OF POLES AND POLARS. 105
 
 We have, drawing parallels through $L$, $Q$, $P$, $Q'$ to both asymptotes as in the figures,
 
-$$ LQ = Q'L' $; whence, by similar triangles, $DL = IQ' = CF $
+$ LQ = Q'L'; $ whence, by similar triangles, $ DL = IQ' = CF $
 
 $$ \therefore CD = FL, $$
 
 and
 
-$$ CD : DL = FL : LD $
+$$ CD : DL = FL : LD $$
 
 $$ = Q'L : LQ $$
 
@@ -4552,17 +4432,17 @@ $$ = (MC) : (EW) $$
 
 since
 
-$$ (CQ) = (CP) = (EW) $. [Prop. 34]
+$ (CQ) = (CP) = (EW). $ [Prop. 34]
 
 Therefore
 
 $$ (MC) : (EW) = (MC) \pm (HD) : (EW) \pm (DW) $$
 
-$$ = (MH) : (EU) \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots $$
+$$ = (MH) : (EU) \tag{1} $$
 
 Now
 
-$$ (DG) = (HE) $. [Prop. 34]
+$ (DG) = (HE). $ [Prop. 34]
 
 Therefore, subtracting $CX$ from both,
 
@@ -4586,7 +4466,6 @@ Join $PQ$ and produce it both ways to meet the asymptotes in $R, R'$. Draw $PV$ 
 
 ---
 
-106 THE CONICS OF APOLLONIUS.
 
 Then
 $$ LV = VL' $$
@@ -4601,7 +4480,7 @@ or
 $$ QQ': OQ = LL': QL; $$
 $$ \therefore Q'O: OQ = LQ': LQ. $$
 
-**Proposition 64.**
+## Proposition 64.
 [III. 37, 38, 39, 40.]
 
 (1) If $TQ$, $Tq$ be tangents to a conic and any straight line be drawn through $T$ meeting the conic and the chord of contact, the straight line is divided harmonically;
@@ -4619,7 +4498,6 @@ i.e. in the figures drawn below
 
 ---
 
-HARMONIC PROPERTIES OF POLES AND POLARS. 107
 
 Let $TP$ be the diameter bisecting $Qq$ in $V$. Draw as usual $HRFW, H'R'F'W', EP$ ordinate-wise to the diameter $TP$; and draw $RU, R'U'$ parallel to $QT$ meeting $TP$ in $U, U'$.
 
@@ -4676,7 +4554,6 @@ $$
 
 ---
 
-108 THE CONICS OF APOLLONIUS.
 
 Also $ RV^2 : VR'^2 = HQ^2 : QH'^2 $
 
@@ -4724,7 +4601,6 @@ Let $V$ be the middle point of $PR$, and join $qV$, which is therefore a diamete
 
 ---
 
-110 THE CONICS OF APOLLONIUS.
 
 Now, if $qV$ passes through $Q$, the proposition is obvious, and the ratios will all be ratios of equality.
 
@@ -4736,7 +4612,7 @@ whence, by parallels,
 
 $$ Pr = rT, \quad T'p = pR, \quad qF = FR. $$
 
-Then (1) $$ rP : PT = EP : Pq = 1 : 2, $$
+Then (1) $ rP : PT = EP : Pq = 1 : 2, $
 
 and, alternately,
 
@@ -4750,15 +4626,15 @@ $$ rP : Pq = OP : PR, $$
 
 and
 
-$$ Pr : rq = PO : OR \quad \dots \dots \dots \dots \dots \tag{1} $$
+$$ Pr : rq = PO : OR \tag{1} $$
 
-(2) $$ rQ : Qp = PU : RW, $$
+(2) $ rQ : Qp = PU : RW, $
 
 since $PU = 2rQ$, and $RW = 2pQ$;
 
-$$ \therefore rQ : Qp = PO : OR \quad \dots \dots \dots \dots \dots \tag{2} $$
+$$ \therefore rQ : Qp = PO : OR \tag{2} $$
 
-(3) $$ FR : Rq = pR : RT', $$
+(3) $ FR : Rq = pR : RT', $
 
 and, alternately,
 
@@ -4770,7 +4646,7 @@ Therefore, doubling the antecedents,
 
 $$ qR : Rp = PR : RO, $$
 
-whence $$ qp : pR = PO : OR \quad \dots \dots \dots \dots \dots \tag{3} $$
+whence $ qp : pR = PO : OR \tag{3} $
 
 It follows from (1), (2) and (3) that
 
@@ -4778,9 +4654,8 @@ $$ Pr : rq = rQ : Qp = qp : pR. $$
 
 ---
 
-INTERCEPTS MADE ON TWO TANGENTS BY A THIRD. 111
 
-# Proposition 66.
+## Proposition 66.
 
 [III. 42.]
 
@@ -4836,7 +4711,6 @@ $$
 
 ---
 
-112 THE CONICS OF APOLLONIUS.
 
 ## Proposition 67.
 
@@ -4904,17 +4778,15 @@ The foci are not spoken of by Apollonius under any equivalent of that name, but 
 
 the ellipse falling short, by a square figure." This determines two points, which are accordingly τὰ ἐκ τῆς παραβολῆς γενηθέντα
 
-H. C.
 
 ---
 
-114 THE CONICS OF APOLLONIUS.
 
 σημεία. That is, we are to suppose a rectangle applied to the axis as base which is equal to $CB^2$ but which exceeds or falls short of the rectangle of equal altitude described on the whole axis by a square. Thus in the figures drawn the rectangles $AF$, $A'F$ are respectively to be equal to $CB^2$, the base $AS'$ falling short of $AA'$ in the ellipse, and the base $A'S$ exceeding $A'A$ in the hyperbola, while $S'F$ or $SF$ is equal to $S'A'$ or $SA$ respectively.
 
 The focus of a parabola is not used or mentioned by Apollonius.
 
-**Proposition 69.**
+## Proposition 69.
 
 [III. 45, 46.]
 
@@ -4941,7 +4813,6 @@ $$
 
 ---
 
-FOCAL PROPERTIES OF CENTRAL CONICS. 115
 
 ![img-115.jpeg](images/img-115.jpeg)
 
@@ -4966,7 +4837,7 @@ $$
 
 In like manner $\angle r'rS' = \angle ArS.$
 
-**Proposition 70.**
+## Proposition 70.
 
 [III. 47.]
 
@@ -4980,7 +4851,6 @@ For $\angle Or'R = \angle S'r'A'$, and the angles at $R$, $A'$ are right; $\ther
 
 ---
 
-116 THE CONICS OF APOLLONIUS.
 
 Therefore
 $$ A' r': r' R = S' r': r' O $$
@@ -4988,7 +4858,7 @@ $$ = S r: r O, \text{ by similar triangles}, $$
 $$ = A r: r R, $$
 because the triangles $ArS$, $RrO$ are similar;
 $$\therefore r' R: R r = A' r': A r $$
-$$ = A' T: T A \text{...(1).} $$
+$$ = A' T: T A \tag{1} $$
 Again, if $PN$ be drawn perpendicular to the axis, we have [Prop. 13]
 $$ A' T: T A = A' N: N A $$
 $$ = r' P: P r, \text{ by parallels}. $$
@@ -4997,7 +4867,7 @@ and therefore $R$ coincides with $P$.
 
 It follows that $OP$ is perpendicular to the tangent at $P$.
 
-**Proposition 71.**
+## Proposition 71.
 
 [III. 48.]
 
@@ -5012,7 +4882,7 @@ and the angles $S O r$, $S' O r'$ are equal, being the same or opposite angles.
 Therefore
 $$\angle S P r = \angle S' P r'.$$
 
-**Proposition 72.**
+## Proposition 72.
 
 [III. 49, 50.]
 
@@ -5022,7 +4892,6 @@ $$\angle S P r = \angle S' P r'.$$
 
 ---
 
-FOCAL PROPERTIES OF CENTRAL CONICS. 117
 
 Draw $SY$ perpendicular to the tangent, and join $AY$, $YA'$. Let the rest of the construction be as in the foregoing propositions.
 
@@ -5088,7 +4957,6 @@ And similarly for $CY$.
 
 ---
 
-118 THE CONICS OF APOLLONIUS.
 
 ## Proposition 73.
 
@@ -5113,7 +4981,7 @@ $$
 
 ---
 
-# THE LOCUS WITH RESPECT TO THREE LINES &amp;c.
+# THE LOCUS WITH RESPECT TO THREE LINES ETC.
 
 ## Proposition 74.
 
@@ -5131,7 +4999,6 @@ $$
 
 ---
 
-120 THE CONICS OF APOLLONIUS.
 
 Draw the ordinate $QV$ to $PP'$.
 
@@ -5168,7 +5035,6 @@ where $P$ is the point of contact of a tangent parallel to $QQ'$.
 
 ---
 
-THE LOCUS WITH RESPECT TO THREE LINES ETC. 121
 
 Draw through $R$ the ordinate $RW$ (parallel to $QQ'$) meeting the curve again in $R'$ and meeting $TQ$, $TQ'$ in $K$, $K'$ respectively; also let the tangent at $P$ meet $TQ$, $TQ'$ in $L$, $L'$. Then, since $PV$ bisects $QQ'$, it bisects $LL'$, $KK'$, $RR'$ also.
 
@@ -5206,7 +5072,6 @@ $$
 
 ---
 
-122 THE CONICS OF APOLLONIUS.
 
 ## Proposition 76.
 
@@ -5250,7 +5115,6 @@ $$
 
 ---
 
-THE LOCUS WITH RESPECT TO THREE LINES ETC. 123
 
 Now suppose $Q_1, Q_2, T_1$ in the accompanying figure substituted for $Q, Q', T$ respectively in the first figure of Prop. 75, and we have
 
@@ -5280,7 +5144,6 @@ But $Rv_1$ is the distance of $R$ from $Q_1Q_2$, the chord of contact measured i
 
 ---
 
-124 THE CONICS OF APOLLONIUS.
 
 other fixed directions, they will be similarly related, and the constant value of the ratio will alone be changed.
 
@@ -5322,7 +5185,6 @@ $$
 
 ---
 
-THE LOCUS WITH RESPECT TO THREE LINES ETC. 125
 
 But $Rv_1$, $Rv_2$, $Rv_3$, $Rv_4$ are straight lines drawn in fixed directions (parallel to $CT_1$, etc.) to meet the sides of the inscribed quadrilateral $Q_1Q_2Q_3Q_4$.
 
@@ -5367,7 +5229,6 @@ There follow a large number of propositions with regard to the number of points 
 
 ---
 
-INTERSECTING CONICS. 127
 
 Group I. Propositions depending on the more elementary considerations affecting conics.
 
@@ -5389,7 +5250,6 @@ The conic, being a one-branch curve, must have its concavity in the opposite dir
 
 ---
 
-128 THE CONICS OF APOLLONIUS.
 
 Both the conic and the branch which it touches must be on the same side of the common tangent and therefore will be
 
@@ -5409,7 +5269,6 @@ For, if possible, let the second branch of the former meet one branch of the lat
 
 ---
 
-INTERSECTING CONICS. 129
 
 the same argument as in the last proposition. For *DE* crosses one asymptotal angle of each hyperbola, and it will therefore not meet either of the branches opposite to the branches *DE*. Hence those branches are separated by *DE* and therefore cannot meet one another: which contradicts the hypothesis.
 
@@ -5423,11 +5282,9 @@ Similarly, if the two branches *DE* touch, the result will be the same, an impos
 
 *A, B* being the points of meeting with the first branch and
 
-H. C. 9
 
 ---
 
-130 THE CONICS OF APOLLONIUS.
 
 $C$ that with the opposite branch, by the same principle as before, neither $AC$ nor $BC$ will meet the branch opposite to $ACB$. Also they will not meet the branch $C$ opposite to $AB$ in any other point than $C$, for, if either met it in two points, it would not meet the branch $AB$, which, however, it does, by hypothesis.
 
@@ -5441,7 +5298,7 @@ The figure is like that in (6) above except that in this case $D$ and $E$ are tw
 
 **Group II.** containing propositions capable of being expressed in one general enunciation as follows:
 
-### Proposition 78.
+## Proposition 78.
 
 No two conics (including under the term a hyperbola with two branches) can intersect in more than four points.
 
@@ -5451,7 +5308,6 @@ No two conics (including under the term a hyperbola with two branches) can inter
 
 ---
 
-INTERSECTING CONICS. 131
 
 If possible, let there be five points of intersection $A, B, C, D, E$, being *successive* intersections, so that there are no others between. Join $AB$, $DC$ and produce them. Then
 
@@ -5492,7 +5348,6 @@ This is clear from the fact that [Group I. 3] the conic meeting one branch will 
 
 ---
 
-132 THE CONICS OF APOLLONIUS.
 
 3. If one branch of a hyperbola cut each branch of a second hyperbola in two points, the opposite branch of the first hyperbola will not meet either branch of the second. [IV. 43.]
 
@@ -5506,7 +5361,6 @@ The proof is like that of 1 (a) above. If $E$ is the supposed fifth point and $T
 
 ---
 
-INTERSECTING CONICS. 133
 
 Let the first two branches intersect in $A$, $B$, $C$, and (if possible) the other two in $D$, $E$. Then
 
@@ -5523,7 +5377,7 @@ Let the tangents at $P$, $Q$ and $P'$, $Q'$ meet in $T$, $T'$.
 Let $CRR'$ be parallel to $AO$ and meet the hyperbolas in $R$, $R'$, and $DO$ in $O'$.
 
 Then
-$$ TP^2 : TQ^2 = AO \cdot OB : DO \cdot OE $
+$$ TP^2 : TQ^2 = AO \cdot OB : DO \cdot OE $$
 $$ = T'P'^2 : T'Q'^2. \quad [Prop. 59] $$
 
 It follows that
@@ -5538,7 +5392,6 @@ Therefore, etc.
 
 ---
 
-134 THE CONICS OF APOLLONIUS.
 
 Let $A$, $A'$ be the two branches of the first hyperbola and $B, B'$ the two branches of the second.
 
@@ -5560,7 +5413,7 @@ And similarly for all possible cases.
 
 Group III. being particular cases of
 
-**Proposition 79.**
+## Proposition 79.
 
 Two conics (including double hyperbolas) which touch at one point cannot intersect in more than two other points.
 
@@ -5570,7 +5423,6 @@ The proof follows the method of Prop. 78 (1) above.
 
 ---
 
-INTERSECTING CONICS. 135
 
 2. If one branch of a hyperbola touch one branch of another in one point and meet the other branch of the second hyperbola in two points, the opposite branch of the first will not meet either branch of the second. [IV. 47.]
 
@@ -5594,7 +5446,7 @@ The proofs of the separate cases follow the methods employed in Group I. 3, 5, a
 
 Group IV. merging in
 
-**Proposition 80.**
+## Proposition 80.
 
 No two conics touching each other at two points can intersect at any other point.
 
@@ -5602,7 +5454,6 @@ No two conics touching each other at two points can intersect at any other point
 
 ---
 
-136 THE CONICS OF APOLLONIUS.
 
 Suppose the conics touch at $A$, $B$. Then, if possible, let them also cut at $C$.
 
@@ -5626,7 +5477,6 @@ Then $T$ is within the asymptotes to $AB$, and therefore $CT$ falls within the a
 
 ---
 
-INTERSECTING CONICS. 137
 
 4. If one branch of one hyperbola touch one branch of another in one point, and if also the other branches touch in one point, the concavities of each pair being in the same direction, there are no other points of intersection. [IV. 52.]
 
@@ -5672,7 +5522,6 @@ The proof is similar to the preceding.
 
 ---
 
-138 THE CONICS OF APOLLONIUS.
 
 4. A hyperbola cannot have double contact with another hyperbola having the same centre. [IV. 33.]
 
@@ -5725,7 +5574,6 @@ In the particular case where $P$ is between $C$ and $A'$ in the
 
 ---
 
-140 THE CONICS OF APOLLONIUS.
 
 ellipse, the quadrilateral becomes the difference between two triangles, and
 
@@ -5737,7 +5585,7 @@ $$ BC^2 = 2 \triangle CAM. $$
 
 [The two last cases are proved by Apollonius in separate propositions. Cf. the note on Prop. 23 above, p. 40.]
 
-**Proposition 82.**
+## Proposition 82.
 
 [V. 4.]
 
@@ -5765,7 +5613,6 @@ $$ = AE^2 + AN^2. $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 141
 
 Thus $PE^2 &gt; AE^2$ and increases with $AN$, i.e. as $P$ moves further and further from $A$.
 
@@ -5799,7 +5646,6 @@ $$
 
 ---
 
-142 THE CONICS OF APOLLONIUS.
 
 Now $PN^2 = 2$ (quadrilateral $MANH$), [Prop. 81] and $EN^2 = 2 \triangle ENK$;
 
@@ -5850,7 +5696,6 @@ $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 143
 
 ## Proposition 84.
 
@@ -5908,7 +5753,6 @@ then, if $NP$ is drawn perpendicular to the axis meeting the curve in $P$, $PG$ 
 
 ---
 
-144 THE CONICS OF APOLLONIUS.
 
 If $P'$ be any other point on the curve, $P'G$ increases as $P'$ moves further from $P$ in either direction.
 
@@ -5951,7 +5795,7 @@ Thus it is clear that $PG$ is the minimum straight line from $G$ to the curve [o
 
 And $P'G$ increases with $NN'$, i.e. as $P'$ moves further from $P$ in either direction.
 
-**Proposition 86.**
+## Proposition 86.
 
 [V. 9, 10, 11.]
 
@@ -5963,7 +5807,6 @@ $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 145
 
 then, if the ordinate through $N$ meet the curve in $P$, $PG$ is the **minimum** straight line from $G$ to the curve [or $PG$ is the normal at $P$]; and, if $P'$ be any other point on the curve, $P'G$ increases as $P'$ moves further from $P$ on either side.
 
@@ -6001,12 +5844,9 @@ $$NG^2 = 2 \triangle HNG.$$
 
 Therefore, by addition, $PG^2 = 2 \text{ (quadrilateral } AMHG\text{)}$.
 
-H. C.
-10
 
 ---
 
-146 THE CONICS OF APOLLONIUS.
 
 Also $P'G^2 = P'N'^2 + N'G^2 = 2$ (quadr. $AMKN') + 2\Delta H'N'G = 2$ (quadr. $AMHG) + 2\Delta HH'K$.
 
@@ -6025,7 +5865,7 @@ In the ellipse $GA'$ will be the *maximum* straight line from $G$ to the curve, 
 
 **Cor.** In the particular case where $G$ coincides with $C$, the centre, the two minimum straight lines are proved in a similar manner to be $CB$, $CB'$, and the two maxima $CA$, $CA'$, and $CP$ increases continually as $P$ moves from $B$ to $A$.
 
-**Proposition 87.**
+## Proposition 87.
 
 [V. 12.]
 
@@ -6044,7 +5884,6 @@ $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 147
 
 Therefore, *a fortiori*,
 
@@ -6084,7 +5923,6 @@ The method of proof is the same for all three cases, and only the first case of 
 
 ---
 
-148 THE CONICS OF APOLLONIUS.
 
 By Prop. 81 (which is applicable to either axis) we have, if $Bm = \frac{Pb}{2} = BE'$, and $Pn$ meets $Cm$, $E'm$ in $h$, $k$ respectively,
 
@@ -6119,9 +5957,8 @@ The proof follows the method of Props. 84, 87.
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 149
 
-# Proposition 90.
+## Proposition 90.
 
 [V. 20, 21, 22.]
 
@@ -6155,8 +5992,6 @@ it follows that $ng = nh$. Also $gn' = n'k$, and $hi = ik$, where $hi$ is perpen
 
 ---
 
-150
-THE CONICS OF APOLLONIUS.
 
 Now
 $$ Pn^2 = 2 \text{ (quadrilateral } mBnh), $$
@@ -6180,7 +6015,6 @@ $$ Cn : ng = CB^2 : CA^2. $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 151
 
 ## Proposition 91.
 
@@ -6193,7 +6027,7 @@ If $g$ be on the minor axis of an ellipse, and $gP$ is a maximum straight line f
 ![img-143.jpeg](images/img-143.jpeg)
 
 We have
-$$ Cn : ng = BB' : p_b $$ [Prop. 90]
+$ Cn : ng = BB' : p_b $ [Prop. 90]
 $$ [ = CB^2 : CA^2 ] $$
 $$ = p_a : AA'. $$
 
@@ -6213,7 +6047,6 @@ Only one normal can be drawn from any one point of a conic, whether such normal 
 
 ---
 
-152 THE CONICS OF APOLLONIUS.
 
 This is at once proved by *reductio ad absurdum* on assuming that $PG, PH$ (meeting the axis $AA'$ in $G, H$) are minimum straight lines from $G$ and $H$ to the curve, and on a similar assumption for the minor axis of an ellipse.
 
@@ -6255,7 +6088,6 @@ $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 153
 
 (2) For the *hyperbola* or *ellipse*
 
@@ -6284,7 +6116,7 @@ Then $\angle GKP &gt; \angle GPK$, and therefore $GP &gt; GK$.
 
 Hence a fortiori $GP &gt; GQ$, where $Q$ is the point in which $GK$ cuts the conic; and this is impossible because $GP$ is a *minimum*. Therefore &amp;c.]
 
-**Proposition 94.**
+## Proposition 94.
 
 [V. 31, 33, 34.]
 
@@ -6292,7 +6124,6 @@ Hence a fortiori $GP &gt; GQ$, where $Q$ is the point in which $GK$ cuts the con
 
 ---
 
-154 THE CONICS OF APOLLONIUS.
 
 (2) If $O'$ be any point on $OP$ produced outside the conic, then, of all straight lines drawn from $O'$ to meet the conic in one point but not produced so as to meet it in a second point, $O'P$ will be the minimum; and of the rest that which is nearer to it will be less than that which is more remote.
 
@@ -6312,7 +6143,6 @@ Secondly, let $OP$ be a minimum. If possible, let $TP$ cut the curve again in $Q
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 155
 
 (2) Let $O'$ be any point on $OP$ produced. Draw the tangent at $P$, as $PK$, which is therefore at right angles to $OP$. Then draw $O'Q$, $O'R$ to meet the curve in one point only, and let $O'Q$ meet $PK$ in $K$.
 
@@ -6336,7 +6166,6 @@ Join $RP, RQ$. Then the angle $O'QR$ is obtuse, and therefore the angle $O'RQ$ i
 
 ---
 
-156 THE CONICS OF APOLLONIUS.
 
 (a) For the parabola
 
@@ -6384,7 +6213,6 @@ $$ AL: AM &gt; PN: NG. $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 157
 
 But
 $$ AL : AM = CA : AL, \quad \text{[Prop. 28]} $$
@@ -6407,7 +6235,7 @@ whence it follows that $Pg, P'g'$ must cross at a point $O$ before cutting the m
 
 And, by (2) above, $O$ lies below $AC$; therefore $O$ lies within the $\angle ACB'$.
 
-**Proposition 96.**
+## Proposition 96.
 
 [V. 41, 42, 43.]
 
@@ -6419,7 +6247,6 @@ And, by (2) above, $O$ lies below $AC$; therefore $O$ lies within the $\angle AC
 
 ---
 
-158 THE CONICS OF APOLLONIUS.
 
 (2) (a) Let $CL, CL'$ be the asymptotes, and let the tangent at $A$ meet them in $L, L'$. Take $AM$ equal to $\frac{p_a}{2}$. Let $PG$ be any normal and $PN$ the ordinate.
 
@@ -6459,7 +6286,6 @@ $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 159
 
 Join $CK$, and produce it to meet the hyperbola in $P$, and let $PN$ be the ordinate, and $PG$ the normal, at $P$.
 
@@ -6500,7 +6326,6 @@ Therefore normals at points between $A$ and $P$ will not meet the asymptote $CL'
 
 ---
 
-160 THE CONICS OF APOLLONIUS.
 
 ## Proposition 97.
 
@@ -6524,7 +6349,6 @@ Let $P_1P_2$ meet the axis in $T$, and draw the ordinates $P_1N_1$, $P_2N_2$.
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 161
 
 Draw $OM$ perpendicular to the axis, and measure $MH$ towards the vertex equal to $\frac{p_a}{2}$.
 
@@ -6539,7 +6363,7 @@ $MH: HN_2 = N_2G_2: G_2M$
 $= P_2N_2: MO,$ by similar triangles.
 
 Therefore
-$HM. MO = P_2N_2. N_2H$ } ... (A).
+$HM. MO = P_2N_2. N_2H$ } (A).
 
 Similarly
 $HM. MO = P_1N_1. N_1H$ }
@@ -6550,23 +6374,23 @@ $= TN_2: TN_1,$
 
 whence
 $N_1N_2: HN_1 = N_1N_2: TN_2;$
-$\therefore TN_2 = HN_1$ } ... (B).
+$\therefore TN_2 = HN_1$ } (B).
 and
 $TN_1 = HN_2$ }
 
 If $P$ be a variable point and $PN$ the ordinate*, we have now three cases:
 
-$TN &lt; TN_1$ or $HN_2$ ... (1),
-$TN &gt; TN_1$ or $HN_2$, but $&lt; TN_2$ or $HN_1$ ... (2),
-$TN &gt; TN_2$ or $HN_1$ ... (3).
+$TN &lt; TN_1$ or $HN_2$ (1),
+$TN &gt; TN_1$ or $HN_2$, but $&lt; TN_2$ or $HN_1$ (2),
+$TN &gt; TN_2$ or $HN_1$ (3).
 
 Thus, denoting the several cases by the numbers (1), (2), (3), we have
 
 $$
 \begin{aligned}
-N_2N: TN &amp;&gt; N_2N: HN_2 ... (1), \\
-&amp;&lt; N_2N: HN_2 ... (2), \\
-&amp;&lt; N_2N: HN_2 ... (3),
+N_2N: TN &amp;&gt; N_2N: HN_2 \quad (1), \\
+&amp;&lt; N_2N: HN_2 \quad (2), \\
+&amp;&lt; N_2N: HN_2 \quad (3),
 \end{aligned}
 $$
 
@@ -6574,19 +6398,17 @@ and we derive respectively
 
 $$
 \begin{aligned}
-TN_2: TN &amp;&gt; HN: HN_2 ... (1), \\
-&amp;&lt; HN: HN_2 ... (2), \\
-&amp;&gt; HN: HN_2 ... (3).
+TN_2: TN &amp;&gt; HN: HN_2 \quad (1), \\
+&amp;&lt; HN: HN_2 \quad (2), \\
+&amp;&gt; HN: HN_2 \quad (3).
 \end{aligned}
 $$
 
 * It will be observed that there are three sets of points $P, N, K,$ in the figure denoted by the same letters. This is done in order to exhibit the three different cases; and it is only necessary to bear in mind that attention must be confined to one at a time as indicated in the course of the proof.
 
-H. C. 11
 
 ---
 
-162 THE CONICS OF APOLLONIUS.
 
 If $NP$ meet $P_1P_2$ in $F$, we have, by similar triangles,
 
@@ -6662,7 +6484,6 @@ and let $OM$ be similarly divided at $L$. Draw $HVR$ parallel to $OM$ and $LVE$,
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 163
 
 Suppose $P_2P_1$ produced to meet $EL$ in $T$, and let $P_1N_1, P_2N_2$ meet it in $U_1, U_2$.
 
@@ -6674,7 +6495,6 @@ Take any other point $P$ on the curve. Join $OP$ meeting the axes in $K, k$, and
 
 ---
 
-164 THE CONICS OF APOLLONIUS.
 
 Now
 
@@ -6793,7 +6613,6 @@ $$
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 165
 
 But $P_{2}U_{2} \cdot U_{2}V = CE \cdot EV$, from above,
 
@@ -6801,7 +6620,11 @@ $$= LO \cdot OR, \because CE : LO = OR : EV;$$
 
 $\therefore LO \cdot OR &gt; PU \cdot UV.$
 
-Suppose (2) that $AN &gt; AN_{1}$ but $<an_{2}$. $="" $tu_{1}="" then="">U_{1}U : TU_{1} &gt; U_{1}U : UV,$
+Suppose (2) that $AN &gt; AN_{1}$ but $&lt; AN_{2}$.
+
+Then $TU_{1} &lt; UV;$
+
+$\therefore U_{1}U : TU_{1} &gt; U_{1}U : UV,$
 
 whence $TU : TU_{1} &gt; U_{1}V : UV;$
 
@@ -6851,11 +6674,10 @@ $\therefore LU : US \stackrel{&gt;}{_<} LU : LV,$
 
 and
 
-$$LV \stackrel{&gt;}{_<} US.$$</US.$</></}lu:></an_{2}$.>
+$$LV \stackrel{&gt;}{_<} US.$$
 
 ---
 
-166 THE CONICS OF APOLLONIUS.
 
 It follows that
 
@@ -6927,7 +6749,6 @@ This follows at once from the preceding propositions.
 
 ---
 
-NORMALS AS MAXIMA AND MINIMA. 167
 
 Cor. 3. Four normals at points on one semi-ellipse bounded by the major axis cannot meet at one point.
 
@@ -6935,7 +6756,7 @@ For, if four such normals cut the major axis and meet in one point, the centre m
 
 In cases (1) and (3) a contradiction of the preceding proposition is involved, and in case (2) a contradiction of Prop. 95 (3) which requires two points of intersection, one on each side of the minor axis.
 
-**Proposition 98.**
+## Proposition 98.
 
 [V. 49, 50.]
 
@@ -6991,7 +6812,7 @@ If $AM$ measured along the axis be greater than $\frac{p_a}{2}$ (but in the case
 
 (c) if $OM &lt; y$, two normals can be so drawn through $O$, and, if $OP$ be any other straight line drawn to the curve, $NK$ is less or greater than $NG$ according as $OP$ is not, or is, intermediate between the two normals.
 
-## I. Suppose the conic is a PARABOLA.
+### I. Suppose the conic is a PARABOLA.
 
 Measure $MH$ towards the vertex equal to $\frac{p_a}{2}$, and divide $AH$ at $N_1$ so that $HN_1 = 2N_1A$.
 
@@ -7031,7 +6852,6 @@ Next let $P$ be any other point. Join $OP$ meeting the axis in $K$, and let the 
 
 ---
 
-170 THE CONICS OF APOLLONIUS.
 
 |  Then, if $AN < AN_1$, we have, | If $AN > AN_1$,  |
 | --- | --- |
@@ -7135,9 +6955,8 @@ which is the Cartesian equation of the **evolute** of a parabola.]
 
 ---
 
-172 THE CONICS OF APOLLONIUS.
 
-## II. Let the curve be a HYPERBOLA or an ELLIPSE.
+### II. Let the curve be a HYPERBOLA or an ELLIPSE.
 
 We have $AM &gt; \frac{p_a}{2}$, so that $CA : AM &lt; AA' : p_a$.
 
@@ -7182,7 +7001,7 @@ $$
 \begin{aligned}
 y: P_1N_1 &amp;= (CM:MH). (HN_1: N_1C) \\
 &amp;= (OM:ML). (HN_1: N_1C); \\
-\therefore N_1U_1: P_1N_1 &gt; HN_1: N_1C \quad \text{... (1)},
+\therefore N_1U_1: P_1N_1 &gt; HN_1: N_1C \tag{1}
 \end{aligned}
 $$
 
@@ -7217,7 +7036,6 @@ $$
 
 ---
 
-174 THE CONICS OF APOLLONIUS.
 
 Next let $P$ be any other point than $P_1$, and let $U, N, K$ have the same relation to $P$ that $U_1, N_1, K_1$ have to $P_1$.
 
@@ -7392,7 +7210,6 @@ Therefore $PO$ is not a normal, and $NK &lt; NG$.
 
 ---
 
-176 THE CONICS OF APOLLONIUS.
 
 (c) Lastly, if $OM &lt; y$, we shall have in this case
 
@@ -7432,24 +7249,26 @@ $$
 x = CM, \\
 CH \overline{HM} = \frac{a^{2}}{b^{2}}, \text{ or } \frac{CH}{x - CH} = \frac{a^{2}}{b^{2}}
 \end{array}
-\right\} \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots
+\right\} \tag{1}
 $$
 
 Also
 
 $$
-\frac{y}{P_{1}N_{1}} = \frac{CM}{MH} \cdot \frac{HN_{1}}{N_{1}C} \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \tag{2},
+\frac{y}{P_{1}N_{1}} = \frac{CM}{MH} \cdot \frac{HN_{1}}{N_{1}C} \tag{2}
 $$
 
 and
 
 $$
-\frac{CN_{1}^{2}}{a^{2}} \mp \frac{P_{1}N_{1}^{2}}{b^{2}} = 1 \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots
+\frac{CN_{1}^{2}}{a^{2}} \mp \frac{P_{1}N_{1}^{2}}{b^{2}} = 1 \tag{3}
 $$
 
 where the upper sign refers to the hyperbola.
 
-And, lastly, $a: CN_{1} = CN_{1}: CI = CI: CH$ ... (4).
+And, lastly,
+
+$$a: CN_{1} = CN_{1}: CI = CI: CH \tag{4}$$
 
 From (4) $CN_{1}^{2} = a.CI,$
 
@@ -7460,7 +7279,7 @@ CN_{1} = \frac{a.CH}{CI};
 $$
 
 $$
-\therefore CN_{1}^{3} = a^{2}.CH \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots \dots
+\therefore CN_{1}^{3} = a^{2}.CH \tag{5}
 $$
 
 Now, from (2),
@@ -7474,11 +7293,9 @@ $$
 \end{aligned}
 $$
 
-H. C. 12
 
 ---
 
-178 THE CONICS OF APOLLONIUS.
 
 Thus
 $$ P_1 N_1^2 = \frac{b^2 y}{a^2 \pm b^2} $$
@@ -7503,7 +7320,7 @@ $$ \left( \frac{ax}{a^2 \pm b^2} \right)^{\frac{3}{2}} \mp \left( \frac{by}{a^2 
 or
 $$ (ax)^{\frac{3}{2}} \mp (by)^{\frac{3}{2}} = (a^2 \pm b^2)^{\frac{3}{2}} $$
 
-**Proposition 100.**
+## Proposition 100.
 
 [V. 53, 54.]
 
@@ -7574,7 +7391,6 @@ and draw $LI$, $IH$ parallel and perpendicular to the axis respectively. Then wi
 
 ---
 
-CONSTRUCTION OF NORMALS. 181
 
 This will meet the ellipse in some point $P_1$. For, drawing $AD$, the tangent at $A$, to meet $IL$ produced in $D$, we have
 
@@ -7641,7 +7457,6 @@ Then, since two normals [at $P_1, B$] meet in $F$, $FP$ is not a normal, but $NK
 
 ---
 
-182 THE CONICS OF APOLLONIUS.
 
 ## Proposition 102.
 
@@ -7665,7 +7480,6 @@ $$
 
 ---
 
-CONSTRUCTION OF NORMALS. 183
 
 Then draw $HIR$ perpendicular to the axis, and $ILR'$ through $L$ parallel to the axis.
 
@@ -7679,7 +7493,6 @@ Then draw $HIR$ perpendicular to the axis, and $ILR'$ through $L$ parallel to th
 
 ---
 
-184 THE CONICS OF APOLLONIUS.
 
 Then $OP$ will be a normal.
 
@@ -7695,7 +7508,7 @@ $\therefore CH: HM = OL: LM.$
 
 Therefore, alternately,
 
-$MK: MC = NH: HC$ ...(A).
+$MK: MC = NH: HC$ (A).
 
 In case (2) $OL: LM = CH: HM,$
 
@@ -7739,7 +7552,6 @@ and $OP$ is the normal at $P$.
 
 ---
 
-CONSTRUCTION OF NORMALS. 185
 
 (3) For the *hyperbola*, in the particular case where $M$ coincides with $C$, or $O$ is on the conjugate axis, we need only divide $OC$ in $L$, so that
 
@@ -7765,7 +7577,7 @@ $$
 
 [The particular case is that in which the hyperbola used in the construction reduces to two straight lines.]
 
-**Proposition 103.**
+## Proposition 103.
 
 [V. 62, 63.]
 
@@ -7777,7 +7589,6 @@ If $O$ be an internal point, we can draw through $O$ a normal to the conic.
 
 ---
 
-186 THE CONICS OF APOLLONIUS.
 
 The construction and proof proceed as in the preceding proposition, *mutatis mutandis*.
 
@@ -7848,7 +7659,6 @@ but, in the case where $OM = y$, $NK &lt; NG$ for any point $P$ between $A$ and 
 
 ---
 
-188 THE CONICS OF APOLLONIUS.
 
 Also for any point $P$ more remote from $A$ than $P$, it is still true that $NK &lt; NG$.
 
@@ -7870,7 +7680,6 @@ Therefore $OP$ is not equal to $OA$.
 
 ---
 
-OTHER PROPOSITIONS RESPECTING MAXIMA AND MINIMA. 189
 
 In this case the circle drawn with $O$ as centre and $OP$ as radius must cut $AM$ in some point, $D$. And an absurdity is proved in the same manner as before.
 
@@ -7888,7 +7697,6 @@ II. Where only one normal, $OP_{1}$, cutting the axis can be drawn from $O$, the
 
 ---
 
-190 THE CONICS OF APOLLONIUS.
 
 It only remains therefore to prove that
 
@@ -7914,7 +7722,7 @@ $$
 
 Thus the proposition is completely established.
 
-**Proposition 105. (Lemma.)**
+## Proposition 105. (Lemma.)
 
 [V. 68, 69, 70, 71.]
 
@@ -7924,7 +7732,6 @@ The proposition is proved at once for the parabola and hyperbola and for the cas
 
 ---
 
-OTHER PROPOSITIONS RESPECTING MAXIMA AND MINIMA. 191
 
 Therefore the base $TQ$ is less than the base $TQ'$.
 
@@ -7954,7 +7761,6 @@ If from a point $O$ below the axis of a parabola or hyperbola it is possible to 
 
 ---
 
-192 THE CONICS OF APOLLONIUS.
 
 (1) if $P$ lies between $A$ and $P_2$, $OP_1$ is the **greatest** of all the lines $OP$, and that which is nearer to $OP_1$ on each side is greater than that which is more remote;
 
@@ -7992,7 +7798,7 @@ Thus the proposition is established.
 
 OTHER MAXIMA AND MINIMA. 193
 
-# Proposition 107.
+## Proposition 107.
 
 [V. 73.]
 
@@ -8006,12 +7812,9 @@ Thus for all points $P$ between $A'$ and $B$, since $K$ is nearer to $A'$ than $
 
 For any point $P'$ between $B$ and $P_1$ we use the method of Prop. 106, drawing the tangents at $P'$ and $B$, meeting in $T$.
 
-H. C.
-13
 
 ---
 
-194 THE CONICS OF APOLLONIUS.
 
 Thus we derive at once that $OB &lt; OP'$, and similarly that $OP'$ increases continually as $P'$ passes from $B$ to $P_1$.
 
@@ -8035,7 +7838,7 @@ That $OP$ increases as $P$ moves from $B$ to $P_2$, and diminishes as it passes 
 
 OTHER MAXIMA AND MINIMA. 195
 
-# Proposition 109.
+## Proposition 109.
 
 [V. 75, 76, 77.]
 
@@ -8108,7 +7911,6 @@ $$
 
 ---
 
-196 THE CONICS OF APOLLONIUS.
 
 As particular cases of the foregoing propositions we have
 
@@ -8136,7 +7938,6 @@ As particular cases of the foregoing propositions we have
 
 ---
 
-198 THE CONICS OF APOLLONIUS.
 
 ## Proposition 110.
 
@@ -8176,7 +7977,6 @@ Therefore a parabola and hyperbola cannot be equal.
 
 ---
 
-EQUAL AND SIMILAR CONICS. 199
 
 ## Proposition 112.
 
@@ -8218,7 +8018,6 @@ Draw tangents at $P$, $p$ meeting the axes in $T$, $t$ respectively. Then the an
 
 ---
 
-200 THE CONICS OF APOLLONIUS.
 
 Let $V, v$ be the middle points of $AQ, aq$, so that $V, v$ lie on $CP, cp$ respectively.
 
@@ -8248,7 +8047,6 @@ and, since the angle $AVC$ is equal to the angle $avc$, it follows that the angl
 
 ---
 
-EQUAL AND SIMILAR CONICS. 201
 
 [For, if $K, k$ be the centres of the circles, and $I, i$ the middle points of $AR, ar$, we derive from $(\alpha)$
 
@@ -8276,7 +8074,6 @@ $$
 
 ---
 
-202 THE CONICS OF APOLLONIUS.
 
 hence the halves of these angles, or of their supplements, are equal, or
 
@@ -8296,7 +8093,7 @@ whence the ratio of $AA'$ to its parameter and that of $aa'$ to its parameter ar
 
 Therefore (by the previous case) the conics are similar.
 
-**Proposition 113.**
+## Proposition 113.
 
 [VI. 14, 15.]
 
@@ -8304,7 +8101,7 @@ A parabola is neither similar to a hyperbola nor to an ellipse; and a hyperbola 
 
 [Proved by reductio ad absurdum from the ordinate properties.]
 
-**Proposition 114.**
+## Proposition 114.
 
 [VI. 17, 18.]
 
@@ -8320,7 +8117,6 @@ and if $QQ'$, $qq'$ be the chords through $V$, $v$ parallel to $PT$, $pt$ respec
 
 ---
 
-EQUAL AND SIMILAR CONICS. 203
 
 I. Let the conics be *parabolas*.
 
@@ -8368,7 +8164,6 @@ $$QV: PV = qv: pv.$$
 
 ---
 
-204 THE CONICS OF APOLLONIUS.
 
 Similarly, if $V', v'$ be points on $PV$, $pv$ such that
 
@@ -8445,7 +8240,6 @@ II. If the curves be hyperbolas or ellipses, suppose a similar construction made
 
 ---
 
-EQUAL AND SIMILAR CONICS. 205
 
 Therefore $PN^2:CN.NT = pn^2:cn.nt.$ [Prop. 14]
 
@@ -8463,7 +8257,13 @@ It follows that the triangles $OPH$, $oph$ are similar.
 
 Therefore $OP:PH = op:ph.$
 
-But $OP:PH = PL:2PT\Big{\{}\atop op:ph = pl:2pt\Big{\}},$
+But
+$$
+\left.\begin{array}{l}
+OP:PH = PL:2PT \\
+op:ph = pl:2pt
+\end{array}\right\},
+$$
 
 whence $PL:PT = pl:pt.$
 
@@ -8509,7 +8309,6 @@ $$
 
 ---
 
-206 THE CONICS OF APOLLONIUS.
 
 Then
 $$ QV^2 : Q'V'^2 = qv^2 : q'v'^2; $$
@@ -8561,7 +8360,6 @@ and the proposition is proved.
 
 ---
 
-EQUAL AND SIMILAR CONICS. 207
 
 ## Proposition 115.
 
@@ -8589,7 +8387,6 @@ REESE LIBRARY OF THE UNIVERSITY OF CALIFORNIA
 
 ---
 
-208 THE CONICS OF APOLLONIUS.
 
 Hence the rectangles $PL$, $PP'$ and $pl$, $pp'$ are similar.
 
@@ -8619,13 +8416,9 @@ $$
 al: OA = BC^z: BO, OC.
 $$
 
-H. C.
-
-14
 
 ---
 
-210 THE CONICS OF APOLLONIUS.
 
 Draw $AM$ parallel to $OC$ meeting $BC$ in $M$, and through $AM$ draw a plane at right angles to the plane $OBC$ and cutting the circular base in $DME$.
 
@@ -8641,7 +8434,7 @@ whence $AL = al$, and the parabola is equal to the given one [Prop. 110].
 
 No other parabola with vertex on $OB$ can be found which is equal to the given parabola except $DAE$. For, if another such parabola were possible, its plane must be perpendicular to the plane $OBC$ and its axis must be parallel to $OC$. If $A'$ were the supposed vertex and $A'L'$ the latus rectum, we should have $A'L' : A'O = BC^2 : BO \cdot OC = AL : AO$. Thus, if $A'$ does not coincide with $A$, $A'L'$ cannot be equal to $AL$ or $al$, and the parabola cannot be equal to the given one.
 
-**Proposition 118.**
+## Proposition 118.
 
 [VI. 29.]
 
@@ -8655,7 +8448,6 @@ Let a circle be circumscribed about the axial triangle $OBC$, and produce $OI$ t
 
 ---
 
-PROBLEMS. 211
 ```markdown
 Then
 $$
@@ -8693,14 +8485,10 @@ $$
 $$
 $$
 = AA' : AL \text{ or } A_1A_1' : A_1L_1.
-```
-```
-```
-14—2
+$$
 
 ---
 
-212 THE CONICS OF APOLLONIUS.
 
 where $AL, A_{1}L_{1}$ are the parameters of $AA', A_{1}A_{1}'$ in the sections respectively.
 
@@ -8746,9 +8534,8 @@ But $ON^2 &gt; OI^2$, while $BI \cdot IC &gt; BN \cdot NC$: which is absurd.
 
 ---
 
-PROBLEMS. 213
 
-# Proposition 119.
+## Proposition 119.
 
 [VI. 30.]
 
@@ -8770,7 +8557,6 @@ The proof follows the method of the preceding proposition.
 
 ---
 
-214 THE CONICS OF APOLLONIUS.
 
 ## Proposition 120.
 
@@ -8810,7 +8596,6 @@ $$
 
 ---
 
-PROBLEMS. 215
 
 Hence $AL$ is the latus rectum of the parabolic section of the cone made by the plane of the given parabola. It is also the latus rectum of the given parabola.
 
@@ -8840,7 +8625,7 @@ $$
 
 Therefore $AL'$, $AL$ cannot be equal; or the given parabola is not a section of the cone $FAR$.
 
-**Proposition 121.**
+## Proposition 121.
 
 [VI. 32.]
 
@@ -8848,7 +8633,6 @@ To find a right cone similar to a given one and containing a given hyperbola as 
 
 ---
 
-216 THE CONICS OF APOLLONIUS.
 
 Let a plane be drawn through the axis of the given hyperbola and perpendicular to its plane; and on $A'A$, in the plane so described, describe a segment of a circle containing an angle equal to the exterior angle $B'OC$ at the vertex of the given cone. Complete the circle, and let $EF$ be the diameter of it bisecting $AA'$ at right angles in $I$. Join $A'E$, $AE$, and draw $AG$ parallel to $EF$ meeting $A'E$ produced in $G$.
 
@@ -8874,12 +8658,13 @@ $$
 so that
 $$
 FI: IE &lt; AA': AL.
+$$
+
 ![img-184.jpeg](images/img-184.jpeg)
 ![img-185.jpeg](images/img-185.jpeg)
 
 ---
 
-PROBLEMS. 217
 
 Take a point $H$ on $EI$ such that $FI: IH = AA': AL$, and through $H$ draw the chord $QQ'$ of the circle parallel to $AA'$. Join $A'Q$, $AQ$, and in the plane of the circle draw $AR$ making with $AQ$ an angle equal to the angle $OBC$. Let $AR$ meet $A'Q$ produced in $R$, and $QQ'$ produced in $N$.
 
@@ -8938,7 +8723,6 @@ Therefore [Prop. 2] $AL$ is the parameter of the hyperbolic section of the cone 
 
 ---
 
-218 THE CONICS OF APOLLONIUS.
 
 Another such cone is found by taking the point $Q'$ instead of $Q$ and proceeding as before.
 
@@ -8996,9 +8780,8 @@ Therefore, etc.
 
 ---
 
-PROBLEMS. 219
 
-# Proposition 122.
+## Proposition 122.
 
 [VI. 33.]
 
@@ -9022,7 +8805,6 @@ This cone will be such that the given ellipse is one of its sections.
 
 ---
 
-220 THE CONICS OF APOLLONIUS.
 
 For, since $FQ$, $AR$ are parallel,
 
@@ -9109,7 +8891,6 @@ $$
 
 ---
 
-222 THE CONICS OF APOLLONIUS.
 
 Produce $AN$ to $K$, so that
 
@@ -9165,7 +8946,7 @@ The same proposition is true if $AA'$ is the *minor* axis of an ellipse and $p_a
 
 LENGTHS OF CONJUGATE DIAMETERS. 223
 
-# Proposition 125 (Lemma).
+## Proposition 125 (Lemma).
 
 [VII. 4.]
 
@@ -9189,7 +8970,7 @@ $$
 
 Also, since $CD$ is parallel to $PT$, it is conjugate to $CP$.
 
-Therefore $\frac{p}{2} \cdot CP = CD^2$ ...(1).
+Therefore $\frac{p}{2} \cdot CP = CD^2$ (1).
 
 Now $OP : PE = TP : PF$;
 
@@ -9197,7 +8978,7 @@ $$
 \therefore \frac{p}{2} : PT = PT : PF,
 $$
 
-or $\frac{p}{2} \cdot PF = PT^2$ ...(2).
+or $\frac{p}{2} \cdot PF = PT^2$ (2).
 
 From (1) and (2) we have
 
@@ -9210,7 +8991,6 @@ $$
 
 ---
 
-224 THE CONICS OF APOLLONIUS.
 
 ## Proposition 126 (Lemma).
 
@@ -9315,11 +9095,9 @@ CP^2 : CD^2 &amp;= (AM : A'M) \cdot (A'Q^2 : AQ^2) \\
 \end{aligned}
 $$
 
-H. C. 15
 
 ---
 
-THE CONICS OF APOLLONIUS.
 
 ![img-194.jpeg](images/img-194.jpeg)
 
@@ -9388,7 +9166,6 @@ Now
 
 $$ A'Q^2 : A'M.MH' = AA' : AH' $$
 $$
-$$
 = AA' : A'H
 $$
 $$
@@ -9403,15 +9180,11 @@ Therefore, from above,
 
 $$ AA'^2 : PP'^2 = A'H : MH' $$
 $$
-$$
 = A'H. MH' : MH'^2.
 $$
 
-15—2
-
 ---
 
-228 THE CONICS OF APOLLONIUS.
 
 Again, $PP'^2: DD'^2 = MH': MH \ldots (\beta)$, [Prop. 127]
 
@@ -9420,7 +9193,7 @@ $$
 $$
 
 $$
-\therefore PP': DD' = MH': \sqrt{MH \cdot MH'} \quad \dots \dots (\gamma).
+\therefore PP': DD' = MH': \sqrt{MH \cdot MH'} \tag{\gamma}
 $$
 
 Hence $PP': PP' \pm DD' = MH': MH' \pm \sqrt{MH \cdot MH'}$,
@@ -9457,7 +9230,7 @@ $$
 AA'^2: (PP'^2 \pm DD'^2) = A'H: MH \pm MH'.
 $$
 
-**Proposition 129.**
+## Proposition 129.
 
 [VII. 12, 13, 29, 30.]
 
@@ -9484,7 +9257,7 @@ $$
 or
 
 $$
-AA'^2: AA'^2 \pm BB'^2 = A'H: HH' \quad \dots \dots \dots \dots \dots (\alpha).
+AA'^2: AA'^2 \pm BB'^2 = A'H: HH' \tag{\alpha}
 $$
 
 ---
@@ -9520,11 +9293,11 @@ $$AA^{\prime 2}:PP^{\prime 2}\sim DD^{\prime 2} = A^{\prime}H:2CM;$$
 
 and for both the ellipse and hyperbola, if $p$ denote the parameter of the ordinates to $PP'$,
 
-(2) $$AA^{\prime 2}:p^{2} = A^{\prime}H.MH^{\prime}:MH^{2},$$
+(2) $AA^{\prime 2}:p^{2} = A^{\prime}H.MH^{\prime}:MH^{2},$
 
 (3) $$AA^{\prime 2}:(PP^{\prime}\pm p)^{2} = A^{\prime}H.MH^{\prime}:(MH\pm MH^{\prime})^{2},$$
 
-(4) $$AA^{\prime 2}:PP^{\prime}.p = A^{\prime}H:MH,$$
+(4) $AA^{\prime 2}:PP^{\prime}.p = A^{\prime}H:MH,$
 
 (5) $$AA^{\prime 2}:PP^{\prime 2}\pm p^{2} = A^{\prime}H.MH^{\prime}:MH^{\prime 2}\pm MH^{2}.$$
 
@@ -9542,7 +9315,6 @@ $$AA^{\prime 2}:PP^{\prime 2}\sim DD^{\prime 2} = A^{\prime}H:2CM.$$
 
 ---
 
-230 THE CONICS OF APOLLONIUS.
 
 (2) For either curve
 
@@ -9613,7 +9385,7 @@ $$
 \therefore AA'^2: PP'^2 \pm p^2 = A'H \cdot MH': MH'^2 \pm MH^2.
 $$
 
-**Proposition 131.**
+## Proposition 131.
 
 [VII. 21, 22, 23.]
 
@@ -9677,7 +9449,7 @@ $$
 
 and $PP' = DD'$ always.
 
-**Proposition 132.**
+## Proposition 132.
 
 [VII. 24.]
 
@@ -9691,53 +9463,56 @@ and the latter ratio diminishes continually as $P$ moves from $A$ to $B$.
 
 ---
 
-232 THE CONICS OF APOLLONIUS.
 
-We have $$CA^2:CB^2 = AN.NA':PN^2;$$
+We have $CA^2:CB^2 = AN.NA':PN^2;$
 
-$$.. AN.NA' &gt; PN^2,$$
+$$\therefore AN.NA' &gt; PN^2,$$
 
-and, adding $$CN^2$$ to each,
+and, adding $CN^2$ to each,
 
 $$CA^2 &gt; CP^2,$$
 
-or $$AA' &gt; PP'$$ ……………………………… (1).
+or
+
+$$AA' &gt; PP' \tag{1}$$
 
 ![img-198.jpeg](images/img-198.jpeg)
 
-Also $$CB^2:CA^2 = BM.MB':DM^2,$$
+Also $CB^2:CA^2 = BM.MB':DM^2,$
 
-where $$DM$$ is the ordinate to $$BB'$$.
+where $DM$ is the ordinate to $BB'$.
 
-Therefore $$BM.MB' &lt; DM^2,$$
+Therefore $BM.MB' &lt; DM^2,$
 
-and, adding $$CM^2$$, $$CB^2 &lt; CD^2;$$
+and, adding $CM^2$, $CB^2 &lt; CD^2;$
 
-$$.. BB' &lt; DD'$$ ……………………………… (2).
+$$\therefore BB' &lt; DD' \tag{2}$$
 
-Again, if $$P_1P_1'$$$,$$D_1D_1'$$ be another pair of conjugates, $$P_1$$ being further from $$A$$ than $$P$$, $$D_1$$ will be further from $$B$$ than $$D$$.
+Again, if $P_1P_1', D_1D_1'$ be another pair of conjugates, $P_1$ being further from $A$ than $P$, $D_1$ will be further from $B$ than $D$.
 
-And $$AN.NA':AN_1.N_1A' = PN^2:P_1N_1^2.$$
+And $AN.NA':AN_1.N_1A' = PN^2:P_1N_1^2.$
 
-But $$AN_1.N_1A' &gt; AN.NA';$$
+But $AN_1.N_1A' &gt; AN.NA';$
 
-$$.. P_1N_1^2 &gt; PN^2,$$
+$$\therefore P_1N_1^2 &gt; PN^2,$$
 
-and $$AN_1.N_1A' - AN.NA' &gt; P_1N_1^2 - PN^2.$$
+and $AN_1.N_1A' - AN.NA' &gt; P_1N_1^2 - PN^2.$
 
-But, as above, $$AN_1.N_1A' &gt; P_1N_1^2,$$
+But, as above, $AN_1.N_1A' &gt; P_1N_1^2,$
 
-and $$AN_1.N_1A' - AN.NA' = CN^2 - CN_1^2;$$
+and $AN_1.N_1A' - AN.NA' = CN^2 - CN_1^2;$
 
-$$.. CN^2 - CN_1^2 &gt; P_1N_1^2 - PN^2;$$
+$$\therefore CN^2 - CN_1^2 &gt; P_1N_1^2 - PN^2;$$
 
-thus $$CP^2 &gt; CP_1^2,$$
+thus $CP^2 &gt; CP_1^2,$
 
-or $$PP' &gt; P_1P_1'$$ ……………………………… (3).
+or
+
+$$PP' &gt; P_1P_1' \tag{3}$$
 
 In an exactly similar manner we prove that
 
-$$DD' &lt; D_1D_1'$$ ……………………………… (4).
+$$DD' &lt; D_1D_1' \tag{4}$$
 
 ---
 
@@ -9767,7 +9542,7 @@ where $PP', DD'$ are any conjugate diameters other than the axes.
 
 (1) For the hyperbola
 
-$$AA'^2 \sim BB'^2 = PP'^2 \sim DD'^2$$ [Prop. 129]
+$AA'^2 \sim BB'^2 = PP'^2 \sim DD'^2$ [Prop. 129]
 
 or $(AA' + BB').(AA' \sim BB') = (PP' + DD').(PP' \sim DD'),$
 
@@ -9793,7 +9568,7 @@ $$
 
 But
 
-$$AA'^2 + BB'^2 = PP'^2 + DD'^2;$$ [Prop. 129]
+$AA'^2 + BB'^2 = PP'^2 + DD'^2;$ [Prop. 129]
 
 $$
 \therefore AA' + BB' &lt; PP' + DD'.
@@ -9803,7 +9578,6 @@ $$
 
 ---
 
-234 THE CONICS OF APOLLONIUS.
 
 Similarly it may be proved that $PP' + DD'$ increases as $P$ moves from $A$ until $PP'$, $DD'$ take the position of the equal conjugate diameters, when it begins to diminish again.
 
@@ -9918,14 +9692,13 @@ $$
 or
 
 $$
-CT.CN:PO.CT = CA.CB:CT.PN \quad \dots \dots . (1).
+CT.CN:PO.CT = CA.CB:CT.PN \tag{1}
 $$
 
 ![img-199.jpeg](images/img-199.jpeg)
 
 ---
 
-236 THE CONICS OF APOLLONIUS.
 
 ![img-200.jpeg](images/img-200.jpeg)
 
@@ -9967,7 +9740,7 @@ $$
 \square LL'MM' = AA' \cdot BB'.
 $$
 
-**Proposition 137.**
+## Proposition 137.
 
 [VII. 33, 34, 35.]
 
@@ -10009,10 +9782,8 @@ as in the preceding propositions.
 
 ---
 
-238
-THE CONICS OF APOLLONIUS.
 
-Therefore $AA'^2: p_a^2 = A'H \cdot AH': AH^2$ ...(α).
+Therefore $AA'^2: p_a^2 = A'H \cdot AH': AH^2$ (α).
 
 We have now $AH &gt; AH'$ but $\neq 2AH'$.
 
@@ -10022,7 +9793,7 @@ $$
 \therefore MH + HA: AH &gt; AH: AH',
 $$
 
-or $(MH + HA)AH' &gt; AH^2$ ...(β).
+or $(MH + HA)AH' &gt; AH^2$ (β).
 
 It follows that
 
@@ -10038,7 +9809,7 @@ Therefore, componendo,
 $$
 \begin{array}{l}
 MH': AH' &lt; (MH + HA)AM + AH^2: AH^2 \\
-&lt; MH^2: AH^2...(\gamma),
+&lt; MH^2: AH^2 \quad (\gamma),
 \end{array}
 $$
 
@@ -10154,7 +9925,6 @@ Hence the proposition is established.
 
 ---
 
-240 THE CONICS OF APOLLONIUS.
 
 ## Proposition 138.
 
@@ -10266,11 +10036,9 @@ $$
 \therefore 4(AH + AH')AM : (AH + AH')^2;
 $$
 
-H. C. 16
 
 ---
 
-242 THE CONICS OF APOLLONIUS.
 
 and, componendo,
 
@@ -10422,9 +10190,8 @@ Hence the proposition is established.
 
 ---
 
-244 THE CONICS OF APOLLONIUS.
 
-# Proposition 141.
+## Proposition 141.
 
 [VII. 41.]
 
@@ -10554,7 +10321,6 @@ where $PP'$ is any diameter, and $PP'^2 + p^2$ increases as $P$ moves away from 
 
 ---
 
-246 THE CONICS OF APOLLONIUS.
 
 (3) if $AA'^2 &lt; \frac{1}{2}(AA' \sim p_a)^2$, then there will be found on either side of the axis a diameter $P_0P_0'$ such that $P_0P_0'^2 = \frac{1}{2}(P_0P_0' \sim p_a)^2$, and $P_0P_0'^2 + p_a^2$ will be less than $PP'^2 + p^2$, where $PP'$ is any other diameter. Also $PP'^2 + p^2$ will be the smaller the nearer $PP'$ is to $P_0P_0'$.
 
@@ -10721,7 +10487,6 @@ and so on.
 
 ---
 
-248 THE CONICS OF APOLLONIUS.
 
 ## Proposition 145.
 
@@ -10797,27 +10562,27 @@ $$
 \therefore A'H. AH': A'H^2 + A'H'^2 &gt; A'H. MH': MH^2 + MH'^2,
 $$
 
-whence $$AA'^2 : (AA'^2 + p_a^2) &gt; AA'^2 : (PP'^2 + p^2),$$
+whence $AA'^2 : (AA'^2 + p_a^2) &gt; AA'^2 : (PP'^2 + p^2),$
 
 [Prop. 130 (5)]
 
-or $$AA'^2 + p_a^2 &lt; PP'^2 + p^2.$$
+or $AA'^2 + p_a^2 &lt; PP'^2 + p^2.$
 
-Again, either $$MH &lt; M_1H'$$, or $$MH \notin M_1H'$$.
+Again, either $MH &lt; M_1H'$, or $MH \notin M_1H'$.
 
 (a) Let
 
 $$MH &lt; M_1H'$$
 
-Then $$MH^2 + MH'^2 &gt; M_1H^2 + M_1H'^2,$$
+Then $MH^2 + MH'^2 &gt; M_1H^2 + M_1H'^2,$
 
-and $$M_1H^2 + M_1H'^2 &gt; M_1H'.2(M_1H' - MH)^*$$
+and $M_1H^2 + M_1H'^2 &gt; M_1H'.2(M_1H' - MH)^*$
 
 $$
 \therefore MM_1.2(M_1H' - MH): M_1H'.2(M_1H' - MH), \text{ or } MM_1: M_1H', &gt; MM_1.2(M_1H' - MH): M_1H^2 + M_1H'^2.
 $$
 
-But $$MH^2 + MH'^2 - (M_1H^2 + M_1H'^2) = 2(CM^2 - CM_1^2)$$;
+But $MH^2 + MH'^2 - (M_1H^2 + M_1H'^2) = 2(CM^2 - CM_1^2)$;
 
 $$
 \therefore MM_1.2(M_1H' - MH) + M_1H^2 + M_1H'^2 = MH^2 + MH'^2;
@@ -10833,7 +10598,7 @@ $$A'H. MH': MH^2 + MH'^2 &gt; A'H. M_1H': M_1H^2 + M_1H'^2,$$
 
 and $$AA'^2 : PP'^2 + p^2 &gt; AA'^2 : P_1P_1'^2 + p_1^2, \text{ [Prop. 130 (5)]}$$
 
-so that $$PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$$
+so that $PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$
 
 (b) If
 
@@ -10845,13 +10610,13 @@ and it results, in the same way as before, that
 
 $$A'H. MH': MH^2 + MH'^2 &gt; A'H. M_1H': M_1H^2 + M_1H'^2,$$
 
-and $$PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$$
+and $PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$
 
 Lastly, since
 
 $$A'H. A'H': A'H^2 + A'H'^2 = AA'^2 : BB'^2 + p_b^2,$$
 
-and $$A'H. M_1H': M_1H^2 + M_1H'^2 = AA'^2 : P_1P_1'^2 + p_1^2,$$
+and $A'H. M_1H': M_1H^2 + M_1H'^2 = AA'^2 : P_1P_1'^2 + p_1^2,$
 
 * As in (1) above,
 
@@ -10859,7 +10624,6 @@ $$M_1H^2 + M_1H'^2 &gt; 2A'M_1. M_1H' &gt; M_1H'.2(M_1H' - A'H') &gt; M_1H'.2(M_
 
 ---
 
-250 THE CONICS OF APOLLONIUS.
 
 it is shown in the same manner that
 
@@ -10961,7 +10725,7 @@ $$
 
 etc.
 
-**Proposition 146.**
+## Proposition 146.
 
 [VII. 49, 50.]
 
@@ -11031,7 +10795,6 @@ $$
 
 ---
 
-252 THE CONICS OF APOLLONIUS.
 
 and, proceeding as before, we find
 
@@ -11062,7 +10825,7 @@ $\therefore PP'^2 \sim p^2 &gt; AA'^2 \sim p_a \cdot AA'$ but $&lt; 2(AA'^2 \sim
 
 $$MH': AH' &gt; MH: AH;$$
 
-$\therefore MH': AH' &gt; MH' + MH: AH' + AH,$$
+$\therefore MH': AH' &gt; MH' + MH: AH' + AH,$
 
 and
 
@@ -11107,7 +10870,7 @@ $$&gt; 2(AA'^2 \sim p_a \cdot AA').$$
 
 LENGTHS OF CONJUGATE DIAMETERS. 253
 
-# Proposition 147.
+## Proposition 147.
 
 [VII. 51.]
 
@@ -11179,7 +10942,6 @@ $$
 
 ---
 
-254 THE CONICS OF APOLLONIUS.
 
 Then, if $M_1$ corresponds to another point $P_1$, and $AM_1 &gt; AM$, we have
 
@@ -11212,87 +10974,3 @@ and $PP'^2 \sim p^2$ increases as $P$ moves nearer to $B$, being a *maximum* whe
 ![img-203.jpeg](images/img-203.jpeg)
 
 CAMBRIDGE : PRINTED BY J. AND C. F. CLAY, AT THE UNIVERSITY PRESS.
-
----
-
-# SOME PUBLICATIONS OF
-## The Cambridge University Press.
-
-Diophantos of Alexandria; a Study in the History of Greek Algebra. By T. L. Heath, M.A., Fellow of Trinity College, Cambridge. Demy 8vo. 7s. 6d.
-
-Greek Mathematics, Short History of, by J. Gow, Litt.D., formerly Fellow of Trinity College. Demy 8vo. 10s. 6d.
-
-Geometrical Conics. By F. S. Macaulay, M.A., Assistant Master at St Paul's School. Crown 8vo. 4s. 6d.
-
-A Treatise on Abel's Theorem. By H. F. Baker, M.A., Fellow of St John's College, Cambridge, University Lecturer in Mathematics. Royal 8vo. [In the Press.
-
-A Treatise on the Theory of Functions of a Complex Variable. By A. R. Forsyth, Sc.D., F.R.S., Sadlerian Professor of Pure Mathematics in the University of Cambridge and Fellow of Trinity College. Royal 8vo. 21s. Net.
-
-A Treatise on Plane Trigonometry. By E. W. Hobson, Sc.D., F.R.S., Fellow and Tutor of Christ's College. Demy 8vo. 12s.
-
-A Treatise on the Lunar Theory. By E. W. Brown, M.A., Fellow of Christ's College, Cambridge, Professor of Applied Mathematics in Haverford College, Pennsylvania. Royal 8vo. 15s.
-
-Mathematical Papers of the late Arthur Cayley, Sc.D., F.R.S., Sadlerian Professor of Pure Mathematics in the University of Cambridge. Demy 4to. To be completed in 13 vols. Volumes I, II, III, IV, V, VI, VII, VIII, and IX. 25s. each. [Vol. X. In the Press.
-
----
-
-Page
-
-Bargain
-Walter
-Hugger
-Rubens
-Miscato
-Mead
-
-Meadow ?
-
-Other parties?
-
-Meadow 13
-
----
-
-.
-
----
-
-14 DAY USE
-RETURN TO DESK FROM WHICH BORROWED
-LOAN DEPT.
-This book is due on the last date stamped below, or on the date to which renewed. Renewed books are subject to immediate recall.
-
-|  RECEIVED | MAY 11 2003  |
-| --- | --- |
-|  LOAN 6 '67 - 3 PM |   |
-|  RECEIVED | OCT 10 '69 - 8 AM  |
-|  LOAN DEPT. |   |
-|  VERSITY 0 | MAY 5 1971 6 3  |
-|  REC'D LD APR 26 '72 - 7 PM 5 9 |   |
-|  MAR 19 1973 - 1 |   |
-|  REC'D LD MAR 5 '73 - 12 P' |   |
-|  REC'D DEC 10 2003 |   |
-|  JAN 10 1976 0 |   |
-|  G. Universi. Bera. |   |
-
-LIBRARY OF THE UNIVERSITY OF CALIFORNIA
-LIBRARY OF THE UNIVERSITY OF CALIFORNIA
-LIBRARY OF THE UNIVERSITY OF CALIFORNIA
-
----
-
-U. C. BERKELEY LIBRARIES
-CO47466292
-
-THE UNIVERSITY OF CALIFORNIA
-LIBRARY OF THE UNIVERSITY OF CALIFORNIA
-
-![img-204.jpeg](images/img-204.jpeg)
-![img-205.jpeg](images/img-205.jpeg)
-![img-206.jpeg](images/img-206.jpeg)
-![img-207.jpeg](images/img-207.jpeg)
-![img-208.jpeg](images/img-208.jpeg)
-
----
-
-.

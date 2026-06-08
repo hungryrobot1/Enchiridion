@@ -6,8 +6,8 @@
   "year_translated": 1900,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg1727-images-3.pdf",
+  "format": "markdown",
+  "filename": "homer-odyssey.md",
   "description": "Epic poem following Odysseus's long journey home from Troy, exploring cunning, endurance, and the longing for homecoming",
   "topics": [
     "literature",
@@ -16,5 +16,6 @@
   "era": "ancient-greece",
   "prerequisites": [
     "homer-iliad"
-  ]
+  ],
+  "ocr_status": "complete"
 }

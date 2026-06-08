@@ -17,5 +17,6 @@
   "era": "renaissance-scientific-revolution",
   "prerequisites": [
     "copernicus-revolutions"
-  ]
+  ],
+  "ocr_status": "pending"
 }

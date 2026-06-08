@@ -2,53 +2,82 @@
   "title": "Calculus",
   "type": "module",
   "description": "From the problems that demanded calculus through vector calculus — following Newton and Leibniz through Maxwell. The module retraces Archimedes and Fermat with algebraic tools, develops single-variable calculus alongside the Principia, then extends to multivariable and vector calculus as demanded by electrodynamics.",
-  "prerequisites": ["2-modern-algebra"],
+  "prerequisites": [
+    "2-modern-algebra"
+  ],
   "references": [],
   "chapters": [
     {
       "filename": "01-pre-calculus-synthesis.md",
       "title": "Pre-Calculus Synthesis — Fermat, Archimedes, and the Problems that Demanded Calculus",
-      "alongside": ["smith-source-book-in-mathematics", "archimedes-geometrical-solutions"]
+      "alongside": [
+        "smith-source-book-in-mathematics",
+        "archimedes-geometrical-solutions"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "02-limits-and-continuity.md",
       "title": "Limits and Continuity",
-      "alongside": ["newton-principia"]
+      "alongside": [
+        "newton-principia"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "03-the-derivative.md",
       "title": "The Derivative",
-      "alongside": ["newton-principia"]
+      "alongside": [
+        "newton-principia"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "04-applications-of-differentiation.md",
       "title": "Applications of Differentiation",
-      "alongside": ["newton-principia", "newton-opticks"]
+      "alongside": [
+        "newton-principia",
+        "newton-opticks"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "05-the-integral-and-the-fundamental-theorem.md",
       "title": "The Integral and the Fundamental Theorem",
-      "alongside": ["leibniz-philosophical-works"]
+      "alongside": [
+        "leibniz-philosophical-works"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "06-techniques-of-integration.md",
       "title": "Techniques of Integration",
-      "alongside": []
+      "alongside": [],
+      "content_status": "stub"
     },
     {
       "filename": "07-differential-equations.md",
       "title": "Differential Equations",
-      "alongside": ["carnot-motive-power-of-heat"]
+      "alongside": [
+        "carnot-motive-power-of-heat"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "08-multivariable-calculus.md",
       "title": "Multivariable Calculus — Partial Derivatives and Multiple Integrals",
-      "alongside": ["maxwell-elementary-treatise-on-electricity"]
+      "alongside": [
+        "maxwell-elementary-treatise-on-electricity"
+      ],
+      "content_status": "stub"
     },
     {
       "filename": "09-vector-calculus.md",
       "title": "Vector Calculus",
-      "alongside": ["maxwell-treatise-on-electricity-and-magnitism"]
+      "alongside": [
+        "maxwell-treatise-on-electricity-and-magnitism"
+      ],
+      "content_status": "stub"
     }
   ]
 }

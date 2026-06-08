@@ -9,7 +9,16 @@
   "format": "pdf",
   "filename": "whatislife-schrodinger.pdf",
   "description": "Schrödinger's exploration of how physics and chemistry account for the events in living cells, anticipating the discovery of DNA's structure",
-  "topics": ["biology", "physics", "genetics", "philosophy-of-science"],
+  "topics": [
+    "biology",
+    "physics",
+    "genetics",
+    "philosophy-of-science"
+  ],
   "era": "modern-era-i",
-  "prerequisites": ["mendel-experiments-on-plant-hybridization", "de-broglie-on-the-theory-of-quanta"]
+  "prerequisites": [
+    "mendel-experiments-on-plant-hybridization",
+    "de-broglie-on-the-theory-of-quanta"
+  ],
+  "ocr_status": "pending"
 }

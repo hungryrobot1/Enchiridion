@@ -6,8 +6,8 @@
   "year_translated": 1871,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg1572-images-3.pdf",
+  "format": "markdown",
+  "filename": "plato-timaeus.md",
   "description": "Cosmological dialogue on the creation of the universe and the nature of matter",
   "topics": [
     "philosophy",
@@ -15,5 +15,6 @@
     "cosmology"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "pending"
 }

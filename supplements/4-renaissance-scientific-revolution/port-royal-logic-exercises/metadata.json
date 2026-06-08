@@ -2,8 +2,11 @@
   "title": "Port-Royal Logic Exercises",
   "type": "exercise-set",
   "era": "renaissance-scientific-revolution",
-  "texts": ["arnauld-port-royal-logic"],
+  "texts": [
+    "arnauld-port-royal-logic"
+  ],
   "description": "Logic problems in the Port-Royal style — propositions, syllogisms, and fallacies, continuing the formal logic thread from Aristotle",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

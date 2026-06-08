@@ -14,5 +14,6 @@
     "probability"
   ],
   "era": "newtonian-enlightenment",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "pending"
 }

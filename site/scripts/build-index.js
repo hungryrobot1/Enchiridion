@@ -7,9 +7,11 @@ const PROJECT_ROOT = join(__dirname, '..', '..');
 const TEXTS_DIR = join(PROJECT_ROOT, 'texts');
 const SUPPLEMENTS_DIR = join(PROJECT_ROOT, 'supplements');
 const MODULES_DIR = join(SUPPLEMENTS_DIR, 'modules');
+const CHANGELOGS_DIR = join(PROJECT_ROOT, 'changelogs');
 const TEXT_OUTPUT = join(__dirname, '..', 'public', 'text-index.json');
 const SUPPLEMENT_OUTPUT = join(__dirname, '..', 'public', 'supplement-index.json');
 const MODULE_OUTPUT = join(__dirname, '..', 'public', 'module-index.json');
+const CHANGELOG_OUTPUT = join(__dirname, '..', 'public', 'changelog-index.json');
 
 const ERA_DISPLAY = {
   'ancient-greece': 'Ancient Greece (~600 BCE – 200 CE)',
@@ -73,12 +75,14 @@ async function buildTextIndex() {
         language: meta.language,
         original_language: meta.original_language,
         format: meta.format,
+        layout: meta.layout || null,
         filename: meta.filename,
         description: meta.description || '',
         topics: meta.topics || [],
         era: meta.era,
         prerequisites: meta.prerequisites || [],
         supplements: meta.supplements || [],
+        ocr_status: meta.ocr_status || 'pending',
       };
 
       texts.push(entry);
@@ -172,6 +176,7 @@ async function buildSupplementIndex() {
         texts: meta.texts || [],
         description: meta.description || '',
         prerequisites: meta.prerequisites || [],
+        content_status: meta.content_status || 'stub',
       };
 
       if (meta.url) entry.url = meta.url;
@@ -220,6 +225,7 @@ async function buildSupplementIndex() {
           texts: meta.texts || [],
           description: meta.description || '',
           prerequisites: meta.prerequisites || [],
+          content_status: meta.content_status || 'stub',
         };
 
         if (meta.url) entry.url = meta.url;
@@ -337,11 +343,16 @@ async function buildModuleIndex() {
       description: meta.description || '',
       prerequisites: meta.prerequisites || [],
       references,
-      resources: (meta.resources || []).map(r => ({ filename: r.filename, title: r.title })),
+      resources: (meta.resources || []).map(r => ({
+        filename: r.filename,
+        title: r.title,
+        content_status: r.content_status || 'stub',
+      })),
       chapters: (meta.chapters || []).map(ch => ({
         filename: ch.filename,
         title: ch.title,
         alongside: ch.alongside || [],
+        content_status: ch.content_status || 'stub',
       })),
     });
   }
@@ -350,10 +361,50 @@ async function buildModuleIndex() {
   console.log(`Built module-index.json: ${modules.length} modules`);
 }
 
+async function buildChangelogIndex() {
+  const entries = [];
+
+  let entryDirs;
+  try {
+    entryDirs = (await readdir(CHANGELOGS_DIR, { withFileTypes: true }))
+      .filter(d => d.isDirectory());
+  } catch {
+    console.log('No changelogs directory found, skipping changelog index');
+    await writeFile(CHANGELOG_OUTPUT, JSON.stringify({ entries: [] }));
+    return;
+  }
+
+  for (const dir of entryDirs) {
+    const metaPath = join(CHANGELOGS_DIR, dir.name, 'metadata.json');
+    let meta;
+    try {
+      meta = JSON.parse(await readFile(metaPath, 'utf-8'));
+    } catch {
+      console.warn(`Skipping changelog ${dir.name}: could not read metadata`);
+      continue;
+    }
+
+    entries.push({
+      id: meta.id,
+      title: meta.title,
+      date: meta.date,
+      summary: meta.summary || '',
+      filename: meta.filename,
+      path: `changelogs/${dir.name}/${meta.filename}`,
+    });
+  }
+
+  entries.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+  await writeFile(CHANGELOG_OUTPUT, JSON.stringify({ entries }));
+  console.log(`Built changelog-index.json: ${entries.length} entries`);
+}
+
 async function buildAll() {
   await buildTextIndex();
   await buildSupplementIndex();
   await buildModuleIndex();
+  await buildChangelogIndex();
 }
 
 buildAll().catch(err => {

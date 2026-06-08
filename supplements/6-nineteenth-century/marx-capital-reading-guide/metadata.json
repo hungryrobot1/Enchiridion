@@ -2,8 +2,11 @@
   "title": "Reading Capital",
   "type": "study-guide",
   "era": "nineteenth-century",
-  "texts": ["marx-capital-i"],
+  "texts": [
+    "marx-capital-i"
+  ],
   "description": "Recommended selections from Capital Vol. 1 — key chapters on commodities, labor theory of value, surplus value, and primitive accumulation",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

@@ -2,8 +2,14 @@
   "title": "Archimedes: The Method of Mechanical Theorems",
   "type": "study-guide",
   "era": "ancient-greece",
-  "texts": ["archimedes-geometrical-solutions", "archimedes-heath-works"],
+  "texts": [
+    "archimedes-geometrical-solutions",
+    "archimedes-heath-works"
+  ],
   "description": "Study guide for the Method — Archimedes's mechanical heuristic of weighing geometric slices on an imaginary lever to discover areas and volumes. A pre-trigonometric seed of integral calculus and a rare glimpse of a classical mathematician showing his working rather than his finished proof",
   "filename": "content.md",
-  "prerequisites": ["euclidean-notation-guide"]
+  "prerequisites": [
+    "euclidean-notation-guide"
+  ],
+  "content_status": "complete"
 }

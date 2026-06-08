@@ -18,5 +18,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "mucculloch-pitts-a-logical-calculus-of-the-ideas-immanent-in-nervious-activity"
-  ]
+  ],
+  "ocr_status": "pending"
 }

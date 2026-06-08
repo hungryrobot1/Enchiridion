@@ -16,5 +16,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "diffie-helman-new-directions-in-cryptography"
-  ]
+  ],
+  "ocr_status": "pending"
 }

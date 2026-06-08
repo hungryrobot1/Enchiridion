@@ -15,61 +15,93 @@
   "resources": [
     {
       "filename": "vocabulary.md",
-      "title": "Master Vocabulary List"
+      "title": "Master Vocabulary List",
+      "content_status": "stub"
     },
     {
       "filename": "exercises-euclid.md",
-      "title": "Translation Exercises: Euclid"
+      "title": "Translation Exercises: Euclid",
+      "content_status": "stub"
     },
     {
       "filename": "exercises-philosophy.md",
-      "title": "Translation Exercises: Philosophy and Literature"
+      "title": "Translation Exercises: Philosophy and Literature",
+      "content_status": "stub"
     },
     {
       "filename": "exercises-bible.md",
-      "title": "Translation Exercises: The Bible"
+      "title": "Translation Exercises: The Bible",
+      "content_status": "stub"
     }
   ],
   "chapters": [
     {
       "filename": "00-introduction.md",
       "title": "Introduction & Expectations",
-      "alongside": []
+      "alongside": [],
+      "content_status": "complete"
     },
     {
       "filename": "01-alphabet-and-reading-aloud.md",
       "title": "The Greek Alphabet & Reading Aloud",
-      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+      "alongside": [
+        "euclid-elements",
+        "dionysus-thrax-art-of-grammar"
+      ],
+      "content_status": "complete"
     },
     {
       "filename": "02-orienting-to-the-tools.md",
       "title": "Orienting to the Tools — Smyth, Perseus, and the LSJ",
-      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+      "alongside": [
+        "euclid-elements",
+        "dionysus-thrax-art-of-grammar"
+      ],
+      "content_status": "complete"
     },
     {
       "filename": "03-the-case-system-and-the-article.md",
       "title": "The Case System and the Article",
-      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+      "alongside": [
+        "euclid-elements",
+        "dionysus-thrax-art-of-grammar"
+      ],
+      "content_status": "complete"
     },
     {
       "filename": "04-noun-declensions-in-practice.md",
       "title": "Noun Declensions in Practice",
-      "alongside": ["euclid-elements", "dionysus-thrax-art-of-grammar"]
+      "alongside": [
+        "euclid-elements",
+        "dionysus-thrax-art-of-grammar"
+      ],
+      "content_status": "complete"
     },
     {
       "filename": "05-verbs-tense-mood-and-the-participle.md",
       "title": "Verbs: Tense, Mood, and the Participle",
-      "alongside": ["euclid-elements", "aristotle-categories", "aristotle-physics"]
+      "alongside": [
+        "euclid-elements",
+        "aristotle-categories",
+        "aristotle-physics"
+      ],
+      "content_status": "complete"
     },
     {
       "filename": "06-reading-attic-prose-and-verse.md",
       "title": "Reading Attic Prose and Verse — Capstone",
-      "alongside": ["plato-meno"]
+      "alongside": [
+        "plato-meno"
+      ],
+      "content_status": "complete"
     },
     {
       "filename": "07-koine-transition.md",
       "title": "The Koine Transition",
-      "alongside": ["holy-bible-kjv"]
+      "alongside": [
+        "holy-bible-kjv"
+      ],
+      "content_status": "complete"
     }
   ]
 }

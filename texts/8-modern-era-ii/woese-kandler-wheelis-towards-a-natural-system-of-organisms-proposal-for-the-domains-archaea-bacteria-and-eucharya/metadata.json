@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "woese-fox-phylogenetic-structure-of-the-prokaryotic-domain-the-primary-kingdoms"
-  ]
+  ],
+  "ocr_status": "pending"
 }

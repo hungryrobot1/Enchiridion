@@ -16,5 +16,6 @@
   "era": "modern-era-i",
   "prerequisites": [
     "rutherford-scattering-of-a-and-b-particles-by-matter-and-the-structure-of-the-atom"
-  ]
+  ],
+  "ocr_status": "pending"
 }

@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "franklin-gosling-molecular-configuration-in-sodium-thymonucleate"
-  ]
+  ],
+  "ocr_status": "pending"
 }

@@ -16,5 +16,6 @@
   "era": "modern-era-i",
   "prerequisites": [
     "bohr-constitution-of-atoms-and-molecules"
-  ]
+  ],
+  "ocr_status": "pending"
 }

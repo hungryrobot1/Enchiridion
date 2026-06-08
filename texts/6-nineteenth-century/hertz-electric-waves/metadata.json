@@ -16,5 +16,6 @@
   "era": "nineteenth-century",
   "prerequisites": [
     "maxwell-treatise-on-electricity-and-magnitism"
-  ]
+  ],
+  "ocr_status": "pending"
 }

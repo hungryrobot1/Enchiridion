@@ -7,5 +7,6 @@
   ],
   "description": "Experiments with levers, balance points, and mechanical advantage — Archimedes' law of the lever",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "complete"
 }

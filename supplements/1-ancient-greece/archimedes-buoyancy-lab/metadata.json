@@ -7,5 +7,6 @@
   ],
   "description": "Hands-on experiments with buoyancy, volumetric displacement, and density — the crown problem and floating bodies",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "complete"
 }

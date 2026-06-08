@@ -2,8 +2,11 @@
   "title": "Nicomachus Notation Guide",
   "type": "notation-guide",
   "era": "rome-late-antiquity",
-  "texts": ["nicomachus-arithmetic"],
+  "texts": [
+    "nicomachus-arithmetic"
+  ],
   "description": "Nicomachus's verbal descriptions of figurate numbers, perfect numbers, and arithmetic relationships translated to modern notation",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

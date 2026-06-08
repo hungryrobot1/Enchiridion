@@ -2,8 +2,13 @@
   "title": "Newton Principia Notation Guide",
   "type": "notation-guide",
   "era": "newtonian-enlightenment",
-  "texts": ["newton-principia"],
+  "texts": [
+    "newton-principia"
+  ],
   "description": "Newton's geometric calculus translated to modern Leibnizian notation — fluxions and fluents become derivatives and integrals",
   "filename": "content.md",
-  "prerequisites": ["euclidean-notation-guide"]
+  "prerequisites": [
+    "euclidean-notation-guide"
+  ],
+  "content_status": "stub"
 }

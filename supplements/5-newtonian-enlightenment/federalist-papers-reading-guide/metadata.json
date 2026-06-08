@@ -2,8 +2,11 @@
   "title": "Reading The Federalist Papers",
   "type": "study-guide",
   "era": "newtonian-enlightenment",
-  "texts": ["hamilton-madison-jay-federalist-papers"],
+  "texts": [
+    "hamilton-madison-jay-federalist-papers"
+  ],
   "description": "Recommended key papers from the 85 Federalist essays — Nos. 10, 51, 70, 78, and others essential to understanding the American constitutional design",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

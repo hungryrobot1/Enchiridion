@@ -16,5 +16,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "ritchie-thompson-the-unix-time-sharing-system"
-  ]
+  ],
+  "ocr_status": "pending"
 }

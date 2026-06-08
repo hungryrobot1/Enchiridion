@@ -6,13 +6,14 @@
   "year_translated": 1874,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "grammarofdionysi00dionuoft.pdf",
+  "format": "markdown",
+  "filename": "dionysus-thrax-art-of-grammar.md",
   "description": "The first known formal treatment of Greek grammar",
   "topics": [
     "grammar",
     "philosophy-of-language"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

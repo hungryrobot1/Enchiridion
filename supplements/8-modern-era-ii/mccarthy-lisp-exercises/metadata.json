@@ -2,8 +2,11 @@
   "title": "McCarthy LISP Exercises",
   "type": "exercise-set",
   "era": "modern-era-ii",
-  "texts": ["mccarthy-recursive-functions-of-symbolic-expressions"],
+  "texts": [
+    "mccarthy-recursive-functions-of-symbolic-expressions"
+  ],
   "description": "Basic LISP operations — car, cdr, cons, recursive list processing, and implementing simple functions in the language McCarthy invented",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

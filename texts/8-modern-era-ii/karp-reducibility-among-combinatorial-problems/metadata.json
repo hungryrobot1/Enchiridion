@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "cook-complexity-of-theorem-proving-procedures"
-  ]
+  ],
+  "ocr_status": "pending"
 }

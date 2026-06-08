@@ -2,8 +2,11 @@
   "title": "Al-Khwarizmi Notation Guide",
   "type": "notation-guide",
   "era": "islamic-golden-age-medieval",
-  "texts": ["al-khwarizmi-algebra"],
+  "texts": [
+    "al-khwarizmi-algebra"
+  ],
   "description": "Rhetorical algebra translated to modern symbolic notation — 'a square and ten roots equal thirty-nine' becomes x² + 10x = 39",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

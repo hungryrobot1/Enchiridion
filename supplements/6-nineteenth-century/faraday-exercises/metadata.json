@@ -2,8 +2,11 @@
   "title": "Faraday Exercises",
   "type": "exercise-set",
   "era": "nineteenth-century",
-  "texts": ["faraday-experimental-researches-in-electricity"],
+  "texts": [
+    "faraday-experimental-researches-in-electricity"
+  ],
   "description": "Field line reasoning, electromagnetic induction problems, and Faraday's conceptual approach to electromagnetism",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

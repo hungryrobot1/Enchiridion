@@ -17,5 +17,6 @@
   "era": "newtonian-enlightenment",
   "prerequisites": [
     "hume-enquiry-concerning-human-understanding"
-  ]
+  ],
+  "ocr_status": "pending"
 }

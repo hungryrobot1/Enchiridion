@@ -14,5 +14,6 @@
     "political-philosophy"
   ],
   "era": "newtonian-enlightenment",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "pending"
 }

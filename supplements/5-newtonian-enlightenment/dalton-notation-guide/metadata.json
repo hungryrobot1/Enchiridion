@@ -2,8 +2,14 @@
   "title": "Dalton Notation Guide",
   "type": "notation-guide",
   "era": "newtonian-enlightenment",
-  "texts": ["dalton-new-system-of-chemical-philosophy-i", "dalton-new-system-of-chemical-philosophy-ii"],
+  "texts": [
+    "dalton-new-system-of-chemical-philosophy-i",
+    "dalton-new-system-of-chemical-philosophy-ii"
+  ],
   "description": "Dalton's atomic symbols and diagrams translated to modern chemical notation and the periodic table",
   "filename": "content.md",
-  "prerequisites": ["lavoisier-notation-guide"]
+  "prerequisites": [
+    "lavoisier-notation-guide"
+  ],
+  "content_status": "stub"
 }

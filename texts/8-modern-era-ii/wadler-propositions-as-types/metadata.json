@@ -18,5 +18,6 @@
   "prerequisites": [
     "church-calculi-of-lambda-conversion",
     "godel-on-formally-undecidable-propositions"
-  ]
+  ],
+  "ocr_status": "pending"
 }

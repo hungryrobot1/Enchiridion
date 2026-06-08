@@ -6,8 +6,8 @@
   "year_translated": 1871,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg1726-images-3.pdf",
+  "format": "markdown",
+  "filename": "plato-theaetetus.md",
   "description": "Dialogue investigating the nature of knowledge and the definition of episteme",
   "topics": [
     "philosophy",
@@ -16,5 +16,6 @@
   "era": "ancient-greece",
   "prerequisites": [
     "plato-meno"
-  ]
+  ],
+  "ocr_status": "complete"
 }

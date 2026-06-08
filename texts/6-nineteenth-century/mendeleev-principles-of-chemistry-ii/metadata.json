@@ -16,5 +16,6 @@
   "era": "nineteenth-century",
   "prerequisites": [
     "mendeleev-principles-of-chemistry-i"
-  ]
+  ],
+  "ocr_status": "pending"
 }

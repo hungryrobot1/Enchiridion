@@ -2,8 +2,12 @@
   "title": "Reading Hegel",
   "type": "convention-guide",
   "era": "modern-era-i",
-  "texts": ["hegel-philosophy-of-history", "hegel-philosophy-of-right"],
+  "texts": [
+    "hegel-philosophy-of-history",
+    "hegel-philosophy-of-right"
+  ],
   "description": "The dialectical method, key Hegelian terminology, and recommended selections — a map for navigating Hegel's system without getting lost in the language",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

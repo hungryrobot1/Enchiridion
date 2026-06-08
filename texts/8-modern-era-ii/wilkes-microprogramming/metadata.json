@@ -9,7 +9,14 @@
   "format": "markdown",
   "filename": "wilkes-microprogramming.md",
   "description": "Introduction of microprogramming as a systematic method for designing the control unit of a stored-program computer",
-  "topics": ["computer-science", "computer-architecture", "hardware"],
+  "topics": [
+    "computer-science",
+    "computer-architecture",
+    "hardware"
+  ],
   "era": "modern-era-ii",
-  "prerequisites": ["von-neumann-edvac"]
+  "prerequisites": [
+    "von-neumann-edvac"
+  ],
+  "ocr_status": "pending"
 }

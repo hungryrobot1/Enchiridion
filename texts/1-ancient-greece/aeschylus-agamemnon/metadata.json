@@ -1,0 +1,21 @@
+{
+  "title": "Agamemnon",
+  "author": "Aeschylus",
+  "translator": "E.D.A. Morshead",
+  "year_written": "458 BCE",
+  "year_translated": 1904,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "aeschylus-agamemnon.md",
+  "description": "First play of the Oresteia. The king returns victorious from Troy and is murdered by his wife Clytemnestra, setting the cycle of vengeance in motion.",
+  "topics": [
+    "literature",
+    "drama",
+    "tragedy"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

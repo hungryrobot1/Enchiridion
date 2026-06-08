@@ -2,8 +2,11 @@
   "title": "Carnot: Thermodynamics — Notation Guide & Exercises",
   "type": "exercise-set",
   "era": "nineteenth-century",
-  "texts": ["carnot-motive-power-of-heat"],
+  "texts": [
+    "carnot-motive-power-of-heat"
+  ],
   "description": "Carnot's heat engine analysis translated to modern thermodynamic notation, with exercises on the Carnot cycle, efficiency, and the second law",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

@@ -6,8 +6,8 @@
   "year_translated": 1871,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg1636-images-3.pdf",
+  "format": "markdown",
+  "filename": "plato-phaedrus.md",
   "description": "Dialogue on rhetoric, the soul, and the nature of love and beauty",
   "topics": [
     "philosophy",
@@ -15,5 +15,6 @@
     "rhetoric"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

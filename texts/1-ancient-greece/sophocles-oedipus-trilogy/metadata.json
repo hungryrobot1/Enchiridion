@@ -6,8 +6,8 @@
   "year_translated": 1912,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg31-images-3.pdf",
+  "format": "markdown",
+  "filename": "sophocles-oedipus-trilogy.md",
   "description": "Three tragedies exploring fate, knowledge, and moral responsibility",
   "topics": [
     "literature",
@@ -15,5 +15,6 @@
     "tragedy"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

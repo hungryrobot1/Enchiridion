@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Enchiridion Changelog Metadata",
+  "description": "Schema for metadata.json files in each changelog entry directory",
+  "type": "object",
+  "required": ["id", "title", "date", "filename"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Version identifier (e.g., '0.3', '0.3.1'). Used as the route slug."
+    },
+    "title": {
+      "type": "string",
+      "description": "Short title for the entry, rendered as a subtitle under the version number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Publication date in ISO format (YYYY-MM-DD)"
+    },
+    "summary": {
+      "type": "string",
+      "description": "One-line summary shown in the sidebar listing"
+    },
+    "filename": {
+      "type": "string",
+      "description": "Filename of the entry's markdown body (e.g., 'entry.md')"
+    }
+  },
+  "additionalProperties": false
+}

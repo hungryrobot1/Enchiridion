@@ -9,7 +9,15 @@
   "format": "pdf",
   "filename": "40213-pdf.pdf",
   "description": "Galois's first memoir, introducing the concept of a group of permutations to explain when and why polynomial equations are solvable by radicals — the founding document of group theory, published posthumously in 1846.",
-  "topics": ["mathematics", "algebra", "group theory"],
+  "topics": [
+    "mathematics",
+    "algebra",
+    "group theory"
+  ],
   "era": "nineteenth-century",
-  "prerequisites": ["euler-elements-of-algebra", "abel-memoir"]
+  "prerequisites": [
+    "euler-elements-of-algebra",
+    "abel-memoir"
+  ],
+  "ocr_status": "pending"
 }

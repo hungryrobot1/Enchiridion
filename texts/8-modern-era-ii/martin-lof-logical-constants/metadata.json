@@ -19,5 +19,6 @@
   "prerequisites": [
     "church-calculi-of-lambda-conversion",
     "hoare-an-axiomatic-basis-for-computer-programming"
-  ]
+  ],
+  "ocr_status": "pending"
 }

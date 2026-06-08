@@ -2,8 +2,11 @@
   "title": "Observing the Celestial Sphere",
   "type": "lab-manual",
   "era": "ancient-greece",
-  "texts": ["ptolemy-almagest"],
+  "texts": [
+    "ptolemy-almagest"
+  ],
   "description": "Identifying the constellations of the zodiac, locating the ecliptic, and following a planet through its motions — the celestial sphere as Ptolemy describes it, observed firsthand with naked eye or planetarium software",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

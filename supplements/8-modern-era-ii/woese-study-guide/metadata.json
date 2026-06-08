@@ -2,8 +2,12 @@
   "title": "Woese and the Three Domains of Life",
   "type": "study-guide",
   "era": "modern-era-ii",
-  "texts": ["woese-fox-phylogenetic-structure-of-the-prokaryotic-domain-the-primary-kingdoms", "woese-kandler-wheelis-towards-a-natural-system-of-organisms-proposal-for-the-domains-archaea-bacteria-and-eucharya"],
+  "texts": [
+    "woese-fox-phylogenetic-structure-of-the-prokaryotic-domain-the-primary-kingdoms",
+    "woese-kandler-wheelis-towards-a-natural-system-of-organisms-proposal-for-the-domains-archaea-bacteria-and-eucharya"
+  ],
   "description": "What 16S rRNA sequencing revealed about the tree of life — the discovery of Archaea, the three-domain system, and why molecular phylogenetics is a conceptual revolution",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

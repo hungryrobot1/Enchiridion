@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "nirenberg-matthaei-dependence-of-cell-free-protein-synthesis"
-  ]
+  ],
+  "ocr_status": "pending"
 }

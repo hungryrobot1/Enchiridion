@@ -1,0 +1,21 @@
+{
+  "title": "The Libation Bearers",
+  "author": "Aeschylus",
+  "translator": "E.D.A. Morshead",
+  "year_written": "458 BCE",
+  "year_translated": 1904,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "aeschylus-libation-bearers.md",
+  "description": "Second play of the Oresteia. Orestes returns to avenge his father, killing his mother Clytemnestra — and is pursued by the Furies for matricide.",
+  "topics": [
+    "literature",
+    "drama",
+    "tragedy"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

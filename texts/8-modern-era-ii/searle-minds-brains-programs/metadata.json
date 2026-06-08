@@ -17,5 +17,6 @@
   "era": "modern-era-ii",
   "prerequisites": [
     "turing-computing-machinery-and-intelligence"
-  ]
+  ],
+  "ocr_status": "pending"
 }

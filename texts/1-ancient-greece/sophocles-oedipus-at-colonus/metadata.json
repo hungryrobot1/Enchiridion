@@ -1,0 +1,21 @@
+{
+  "title": "Oedipus at Colonus",
+  "author": "Sophocles",
+  "translator": "F. Storr",
+  "year_written": "~406 BCE",
+  "year_translated": 1912,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "sophocles-oedipus-at-colonus.md",
+  "description": "Second play of the Theban cycle. The exiled Oedipus, near death, arrives at Colonus outside Athens and becomes a sacred figure whose burial place will protect the city.",
+  "topics": [
+    "literature",
+    "drama",
+    "tragedy"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

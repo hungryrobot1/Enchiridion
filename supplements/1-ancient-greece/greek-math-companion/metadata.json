@@ -2,8 +2,13 @@
   "title": "Reading Greek Mathematics",
   "type": "study-guide",
   "era": "ancient-greece",
-  "texts": ["euclid-elements", "apollonius-conic-sections", "ptolemy-almagest"],
+  "texts": [
+    "euclid-elements",
+    "apollonius-conic-sections",
+    "ptolemy-almagest"
+  ],
   "description": "Orientation to the structure of Greek mathematical propositions, with notation guidance for Euclid and conceptual primers for Apollonius and Ptolemy",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "complete"
 }

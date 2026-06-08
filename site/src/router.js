@@ -39,6 +39,12 @@ export function getCurrentRoute() {
   return window.location.hash.replace(/^#\/?/, '/');
 }
 
+let previousHash = null;
+
+export function getPreviousHash() {
+  return previousHash;
+}
+
 export function startRouter(container) {
   async function handleRoute() {
     const hash = window.location.hash || '#/';
@@ -62,6 +68,8 @@ export function startRouter(container) {
       const href = link.getAttribute('href');
       link.classList.toggle('site-header__link--active', href === hash || (hash === '#/' && href === '#/'));
     });
+
+    previousHash = hash;
   }
 
   window.addEventListener('hashchange', handleRoute);

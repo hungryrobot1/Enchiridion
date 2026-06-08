@@ -6,13 +6,14 @@
   "year_translated": 1908,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg8438-images-3.pdf",
+  "format": "markdown",
+  "filename": "aristotle-nicomachean-ethics.md",
   "description": "Systematic inquiry into the nature of the good life, virtue, and human flourishing",
   "topics": [
     "philosophy",
     "ethics"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

@@ -2,8 +2,11 @@
   "title": "Reading Principia Mathematica",
   "type": "convention-guide",
   "era": "modern-era-i",
-  "texts": ["russell-whitehead-principia"],
+  "texts": [
+    "russell-whitehead-principia"
+  ],
   "description": "The notation system of Principia Mathematica, recommended selections, and what the logicist program looks like in practice — a guide for selective engagement with a massive text",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

@@ -9,7 +9,14 @@
   "format": "pdf",
   "filename": "geometricalresea00lobaiala.pdf",
   "description": "Lobachevsky's development of non-Euclidean geometry, demonstrating a consistent geometry in which Euclid's parallel postulate does not hold",
-  "topics": ["mathematics", "geometry", "non-euclidean-geometry"],
+  "topics": [
+    "mathematics",
+    "geometry",
+    "non-euclidean-geometry"
+  ],
   "era": "nineteenth-century",
-  "prerequisites": ["gauss-general-investigations-of-curved-surfaces"]
+  "prerequisites": [
+    "gauss-general-investigations-of-curved-surfaces"
+  ],
+  "ocr_status": "pending"
 }

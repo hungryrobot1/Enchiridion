@@ -1,0 +1,27 @@
+{
+  "title": "Apollonius — Treatise on Conic Sections (Heath, 1896)",
+  "running_header": "THE CONICS OF APOLLONIUS",
+  "sections": [
+    { "title": "THE CONE", "page": 1 },
+    { "title": "THE DIAMETER AND ITS CONJUGATE", "page": 15 },
+    { "title": "TANGENTS", "page": 22 },
+    { "title": "PROPOSITIONS LEADING TO THE REFERENCE OF A CONIC TO ANY NEW DIAMETER AND THE TANGENT AT ITS EXTREMITY", "page": 31 },
+    { "title": "CONSTRUCTION OF CONICS FROM CERTAIN DATA", "page": 42 },
+    { "title": "ASYMPTOTES", "page": 53 },
+    { "title": "TANGENTS, CONJUGATE DIAMETERS AND AXES", "page": 64 },
+    { "title": "EXTENSIONS OF PROPOSITIONS 17—19", "page": 84 },
+    { "title": "RECTANGLES UNDER SEGMENTS OF INTERSECTING CHORDS", "page": 95 },
+    { "title": "HARMONIC PROPERTIES OF POLES AND POLARS", "page": 102 },
+    { "title": "INTERCEPTS MADE ON TWO TANGENTS BY A THIRD", "page": 109 },
+    { "title": "FOCAL PROPERTIES OF CENTRAL CONICS", "page": 113 },
+    { "title": "THE LOCUS WITH RESPECT TO THREE LINES ETC.", "page": 119 },
+    { "title": "INTERSECTING CONICS", "page": 126 },
+    { "title": "NORMALS AS MAXIMA AND MINIMA", "page": 139 },
+    { "title": "PROPOSITIONS LEADING IMMEDIATELY TO THE DETERMINATION OF THE EVOLUTE", "page": 168 },
+    { "title": "CONSTRUCTION OF NORMALS", "page": 180 },
+    { "title": "OTHER PROPOSITIONS RESPECTING MAXIMA AND MINIMA", "page": 187 },
+    { "title": "EQUAL AND SIMILAR CONICS", "page": 197 },
+    { "title": "PROBLEMS", "page": 209 },
+    { "title": "VALUES OF CERTAIN FUNCTIONS OF THE LENGTHS OF CONJUGATE DIAMETERS", "page": 221 }
+  ]
+}

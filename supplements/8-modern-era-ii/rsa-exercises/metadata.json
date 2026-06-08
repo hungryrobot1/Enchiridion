@@ -2,8 +2,13 @@
   "title": "RSA Algorithm Exercises",
   "type": "exercise-set",
   "era": "modern-era-ii",
-  "texts": ["rivest-shamir-adleman-a-method-for-obtaining-digital-signatures-and-public-key-cryptosystems"],
+  "texts": [
+    "rivest-shamir-adleman-a-method-for-obtaining-digital-signatures-and-public-key-cryptosystems"
+  ],
   "description": "Working through RSA encryption and decryption by hand — key generation, modular exponentiation, and why factoring large numbers is hard",
   "filename": "content.md",
-  "prerequisites": ["diffie-hellman-exercises"]
+  "prerequisites": [
+    "diffie-hellman-exercises"
+  ],
+  "content_status": "stub"
 }

@@ -6,8 +6,8 @@
   "year_translated": 1904,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg8604-images-3.pdf",
+  "format": "markdown",
+  "filename": "aeschylus-oresteia.md",
   "description": "Trilogy of tragedies exploring justice, vengeance, and the founding of democratic law",
   "topics": [
     "literature",
@@ -15,5 +15,6 @@
     "tragedy"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

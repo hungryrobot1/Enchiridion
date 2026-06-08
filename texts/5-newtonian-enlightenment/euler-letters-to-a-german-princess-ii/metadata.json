@@ -17,5 +17,6 @@
   "era": "newtonian-enlightenment",
   "prerequisites": [
     "euler-letters-to-a-german-princess-i"
-  ]
+  ],
+  "ocr_status": "pending"
 }

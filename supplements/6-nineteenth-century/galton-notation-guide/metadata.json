@@ -2,8 +2,11 @@
   "title": "Galton Statistical Methods Notation Guide",
   "type": "notation-guide",
   "era": "nineteenth-century",
-  "texts": ["galton-natural-inheritance"],
+  "texts": [
+    "galton-natural-inheritance"
+  ],
   "description": "Galton's statistical methods translated to modern notation — regression, the normal distribution, and the origins of biometrics",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

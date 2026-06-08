@@ -2,8 +2,11 @@
   "title": "Gibbs Statistical Mechanics Notation Guide",
   "type": "notation-guide",
   "era": "modern-era-i",
-  "texts": ["gibbs-elementary-principles-in-statistical-mechanics"],
+  "texts": [
+    "gibbs-elementary-principles-in-statistical-mechanics"
+  ],
   "description": "Gibbs's statistical mechanics formalism translated to modern notation — ensembles, partition functions, and the bridge from thermodynamics to statistical description",
   "filename": "content.md",
-  "prerequisites": []
+  "prerequisites": [],
+  "content_status": "stub"
 }

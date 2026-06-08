@@ -17,5 +17,6 @@
   "era": "renaissance-scientific-revolution",
   "prerequisites": [
     "descartes-discourse-on-method"
-  ]
+  ],
+  "ocr_status": "pending"
 }

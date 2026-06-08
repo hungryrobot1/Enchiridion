@@ -56,9 +56,7 @@ TRANSLATED BY E.D.A. MORSHEAD
 
 INTRODUCTORY NOTE
 
-AGAMEMNON
-
-THE LIBATION-BEARERS
+**AGAMEMNON:** THE LIBATION-BEARERS
 
 THE FURIES
 
@@ -82,9 +80,7 @@ CHORUS
 AGAMEMNON
 AEGISTHUS
 CLYTEMNESTRA
-CASSANDRA
-
-The Scene is the Palace of Atreus at Mycenae. In front of the Palace stand statues of the gods, and altars prepared for sacrifices.
+**CASSANDRA:** The Scene is the Palace of Atreus at Mycenae. In front of the Palace stand statues of the gods, and altars prepared for sacrifices.
 
 A Watchman
 
@@ -153,9 +149,7 @@ To others, nought remember nor discern.
 
 [Exit. The chorus of old men of Mycenae enter, each leaning on a staff. During their song Clytemnestra appears in the background, kindling the altars.]
 
-## CHORUS
-
-Ten livelong years have rolled away,
+**CHORUS:** Ten livelong years have rolled away,
 Since the twin lords of sceptred sway,
 By Zeus endowed with pride of place,
 The doughty chiefs of Atreus’ race,
@@ -480,53 +474,38 @@ Or the fair tidings of a flatt’ring hope,
 That bids thee spread the light from shrine to shrine,
 I, fain to hear, yet grudge not if thou hide.
 
-**CLYTEMNESTRA**
-As saith the adage, *From the womb of Night*
+**CLYTEMNESTRA:** As saith the adage, *From the womb of Night*
 Spring forth, with promise fair, the young child Light.
 Ay—fairer even than all hope my news—
 By Grecian hands is Priam’s city ta’en!
 
-**CHORUS**
-What say’st thou? doubtful heart makes treach’rous ear.
+**CHORUS:** What say’st thou? doubtful heart makes treach’rous ear.
 
-**CLYTEMNESTRA**
-Hear then again, and plainly—Troy is ours!
+**CLYTEMNESTRA:** Hear then again, and plainly—Troy is ours!
 
-**CHORUS**
-Thrills thro’ my heart such joy as wakens tears.
+**CHORUS:** Thrills thro’ my heart such joy as wakens tears.
 
-**CLYTEMNESTRA**
-Ay, thro’ those tears thine eye looks loyalty.
+**CLYTEMNESTRA:** Ay, thro’ those tears thine eye looks loyalty.
 
-**CHORUS**
-But hast thou proof, to make assurance sure?
+**CHORUS:** But hast thou proof, to make assurance sure?
 
-**CLYTEMNESTRA**
-Go to; I have—unless the god has lied.
+**CLYTEMNESTRA:** Go to; I have—unless the god has lied.
 
-**CHORUS**
-Hath some night-vision won thee to belief?
+**CHORUS:** Hath some night-vision won thee to belief?
 
-**CLYTEMNESTRA**
-Out on all presage of a slumb’rous soul!
+**CLYTEMNESTRA:** Out on all presage of a slumb’rous soul!
 
-**CHORUS**
-But wert thou cheered by Rumour’s wingless word?
+**CHORUS:** But wert thou cheered by Rumour’s wingless word?
 
-**CLYTEMNESTRA**
-Peace—thou dost chide me as a credulous girl.
+**CLYTEMNESTRA:** Peace—thou dost chide me as a credulous girl.
 
-**CHORUS**
-Say then, how long ago the city fell?
+**CHORUS:** Say then, how long ago the city fell?
 
-**CLYTEMNESTRA**
-Even in this night that now brings forth the dawn.
+**CLYTEMNESTRA:** Even in this night that now brings forth the dawn.
 
-**CHORUS**
-Yet who so swift could speed the message here?
+**CHORUS:** Yet who so swift could speed the message here?
 
-**CLYTEMNESTRA**
-From Ida’s top Hephaestus, lord of fire,
+**CLYTEMNESTRA:** From Ida’s top Hephaestus, lord of fire,
 Sent forth his sign; and on, and ever on,
 Beacon to beacon sped the courier-flame.
 From Ida to the crag, that Hermes loves,
@@ -572,15 +551,11 @@ Sights the end first, and glows unto the goal.
 And Troy is ta’en, and by this sign my lord
 Tells me the tale, and ye have learned my word.
 
-## CHORUS
-
-To heaven, O queen, will I upraise new song:
+**CHORUS:** To heaven, O queen, will I upraise new song:
 But, wouldst thou speak once more, I fain would hear
 From first to last the marvel of the tale.
 
-## CLYTEMNESTRA
-
-Think you—this very morn—the Greeks in Troy,
+**CLYTEMNESTRA:** Think you—this very morn—the Greeks in Troy,
 And loud therein the voice of utter wail!
 Within one cup pour vinegar and oil,
 And look! unblent, unreconciled, they war.
@@ -622,9 +597,7 @@ The tale and eke its warning, pray with me,
 Luck sway the scale, with no uncertain poise.
 For my fair hopes are changed to fairer joys.
 
-## CHORUS
-
-A gracious word thy woman's lips have told,
+**CHORUS:** A gracious word thy woman's lips have told,
 Worthy a wise man's utterance, O my queen;
 Now with clear trust in thy convincing tale
 I set me to salute the gods with song,
@@ -895,47 +868,33 @@ A bloody harvest of his home and land
 Gone down to death, and for his guilt and lust
 His father’s race pays double in the dust.
 
-**CHORUS**
-Hail, herald of the Greeks, new-come from war.
+**CHORUS:** Hail, herald of the Greeks, new-come from war.
 
-**HERALD**
-All hail! not death itself can fright me now.
+**HERALD:** All hail! not death itself can fright me now.
 
-**CHORUS**
-Was thine heart wrung with longing for thy land?
+**CHORUS:** Was thine heart wrung with longing for thy land?
 
-**HERALD**
-So that this joy doth brim mine eyes with tears.
+**HERALD:** So that this joy doth brim mine eyes with tears.
 
-**CHORUS**
-On you too then this sweet distress did fall—
+**CHORUS:** On you too then this sweet distress did fall—
 
-**HERALD**
-How say’st thou? make me master of thy word.
+**HERALD:** How say’st thou? make me master of thy word.
 
-**CHORUS**
-You longed for us who pined for you again.
+**CHORUS:** You longed for us who pined for you again.
 
-**HERALD**
-Craved the land us who craved it, love for love?
+**HERALD:** Craved the land us who craved it, love for love?
 
-**CHORUS**
-Yea till my brooding heart moaned out with pain.
+**CHORUS:** Yea till my brooding heart moaned out with pain.
 
-**HERALD**
-Whence thy despair, that mars the army’s joy?
+**HERALD:** Whence thy despair, that mars the army’s joy?
 
-**CHORUS**
-*Sole cure of wrong is silence, saith the saw.*
+**CHORUS:** *Sole cure of wrong is silence, saith the saw.*
 
-**HERALD**
-Thy kings afar, couldst thou fear other men?
+**HERALD:** Thy kings afar, couldst thou fear other men?
 
-**CHORUS**
-Death had been sweet, as thou didst say but now.
+**CHORUS:** Death had been sweet, as thou didst say but now.
 
-**HERALD**
-’Tis true; Fate smiles at last. Throughout our toil,
+**HERALD:** ’Tis true; Fate smiles at last. Throughout our toil,
 These many years, some chances issued fair,
 And some, I wot, were chequered with a curse.
 But who, on earth, hath won the bliss of heaven,
@@ -979,9 +938,7 @@ The city and its chieftains, and repay
 The meed of gratitude to Zeus who willed
 And wrought the deed. So stands the tale fulfilled.
 
-## CHORUS
-
-Thy words o’erbear my doubt: for news of good,
+**CHORUS:** Thy words o’erbear my doubt: for news of good,
 The ear of age hath ever youth enow:
 But those within and Clytemnestra’s self
 Would fain hear all; glad thou their ears and mine.
@@ -1026,66 +983,44 @@ The store whereon he set his master-seal.
 Be steel deep-dyed, before ye look to see
 Ill joy, ill fame, from other wight, in me!
 
-## HERALD
-
-’Tis fairly said: thus speaks a noble dame,
+**HERALD:** ’Tis fairly said: thus speaks a noble dame,
 Nor speaks amiss, when truth informs the boast.
 
 
 
 ---
 
-# CHORUS
-
-So has she spoken—be it yours to learn
+**CHORUS:** So has she spoken—be it yours to learn
 By clear interpreters her specious word.
 Turn to me, herald—tell me if anon
 The second well-loved lord of Argos comes?
 Hath Menelaus safely sped with you?
 
-# HERALD
-
-Alas—brief boon unto my friends it were,
+**HERALD:** Alas—brief boon unto my friends it were,
 To flatter them, for truth, with falsehoods fair!
 
-# CHORUS
-
-Speak joy, if truth be joy, but truth, at worst—
+**CHORUS:** Speak joy, if truth be joy, but truth, at worst—
 Too plainly, truth and joy are here divorced.
 
-# HERALD
-
-The hero and his bark were rapt away
+**HERALD:** The hero and his bark were rapt away
 Far from the Grecian fleet? ’tis truth I say.
 
-# CHORUS
-
-Whether in all men’s sight from Ilion borne,
+**CHORUS:** Whether in all men’s sight from Ilion borne,
 Or from the fleet by stress of weather torn?
 
-# HERALD
-
-Full on the mark thy shaft of speech doth light,
+**HERALD:** Full on the mark thy shaft of speech doth light,
 And one short word hath told long woes aright.
 
-# CHORUS
-
-But say, what now of him each comrade saith?
+**CHORUS:** But say, what now of him each comrade saith?
 What their forebodings, of his life or death?
 
-# HERALD
-
-Ask me no more: the truth is known to none,
+**HERALD:** Ask me no more: the truth is known to none,
 Save the earth-fostering, all-surveying Sun,
 
-# CHORUS
-
-Say, by what doom the fleet of Greece was driven?
+**CHORUS:** Say, by what doom the fleet of Greece was driven?
 How rose, how sank the storm, the wrath of heaven?
 
-# HERALD
-
-Nay, ill it were to mar with sorrow’s tale
+**HERALD:** Nay, ill it were to mar with sorrow’s tale
 The day of blissful news. The gods demand
 Thanksgiving sundered from solicitude.
 If one as herald came with rueful face
@@ -1143,9 +1078,7 @@ Who wills not yet to wipe his race away,
 Hope still there is that homeward he may wend.
 Enough—thou hast the truth unto the end.
 
-## CHORUS
-
-Say, from whose lips the presage fell?
+**CHORUS:** Say, from whose lips the presage fell?
 Who read the future all too well,
 And named her, in her natal hour,
 Helen, the bride with war for dower?
@@ -1305,9 +1238,7 @@ And who were faithless found.
 
 [Enter Agamemnon in a chariot, accompanied by Cassandra. He speaks without descending.]
 
-## AGAMEMNON
-
-First, as is meet, a king’s All-hail be said
+**AGAMEMNON:** First, as is meet, a king’s All-hail be said
 To Argos, and the gods that guard the land—
 Gods who with me availed to speed us home,
 With me availed to wring from Priam’s town
@@ -1373,9 +1304,7 @@ And long may Victory tarry in my train!
 
 [Enter Clytemnestra, followed by maidens bearing purple robes.
 
-## CLYTEMNESTRA
-
-Old men of Argos, lieges of our realm,
+**CLYTEMNESTRA:** Old men of Argos, lieges of our realm,
 Shame shall not bid me shrink lest ye should see
 The love I bear my lord. Such blushing fear
 Dies at the last from hearts of human kind.
@@ -1461,8 +1390,7 @@ For what remains,
 Zeal unsubdued by sleep shall nerve my hand
 To work as right and as the gods command.
 
-**AGAMEMNON**
-Daughter of Leda, watcher o’er my home,
+**AGAMEMNON:** Daughter of Leda, watcher o’er my home,
 Thy greeting well befits mine absence long,
 For late and hardly has it reached its end.
 Know, that the praise which honour bids us crave,
@@ -1485,53 +1413,37 @@ Bethink thee of the adage, Call none blest
 Till peaceful death have crowned a life of weal.
 ’Tis said: I fain would fare unvexed by fear.
 
-**CLYTEMNESTRA**
-Nay, but unsay it—thwart not thou my will!
+**CLYTEMNESTRA:** Nay, but unsay it—thwart not thou my will!
 
-**AGAMEMNON**
-Know, I have said, and will not mar my word.
+**AGAMEMNON:** Know, I have said, and will not mar my word.
 
-**CLYTEMNESTRA**
-Was it fear made this meekness to the gods?
+**CLYTEMNESTRA:** Was it fear made this meekness to the gods?
 
-**AGAMEMNON**
-If cause be cause, ’tis mine for this resolve.
+**AGAMEMNON:** If cause be cause, ’tis mine for this resolve.
 
-**CLYTEMNESTRA**
-What, think’st thou, in thy place had Priam done?
+**CLYTEMNESTRA:** What, think’st thou, in thy place had Priam done?
 
-**AGAMEMNON**
-He surely would have walked on broidered robes.
+**AGAMEMNON:** He surely would have walked on broidered robes.
 
-**CLYTEMNESTRA**
-Then fear not thou the voice of human blame.
+**CLYTEMNESTRA:** Then fear not thou the voice of human blame.
 
-**AGAMEMNON**
-Yet mighty is the murmur of a crowd.
+**AGAMEMNON:** Yet mighty is the murmur of a crowd.
 
-**CLYTEMNESTRA**
-Shrink not from envy, appanage of bliss.
+**CLYTEMNESTRA:** Shrink not from envy, appanage of bliss.
 
-**AGAMEMNON**
-War is not woman’s part, nor war of words.
+**AGAMEMNON:** War is not woman’s part, nor war of words.
 
-**CLYTEMNESTRA**
-Yet happy victors well may yield therein.
+**CLYTEMNESTRA:** Yet happy victors well may yield therein.
 
-**AGAMEMNON**
-Dost crave for triumph in this petty strife?
+**AGAMEMNON:** Dost crave for triumph in this petty strife?
 
 27
 
 ---
 
-# CLYTEMNESTRA
+**CLYTEMNESTRA:** Yield; of thy grace permit me to prevail!
 
-Yield; of thy grace permit me to prevail!
-
-# AGAMEMNON
-
-Then, if thou wilt, let some one stoop to loose
+**AGAMEMNON:** Then, if thou wilt, let some one stoop to loose
 Swiftly these sandals, slaves beneath my foot:
 And stepping thus upon the sea’s rich dye,
 I pray, *Let none among the gods look down*
@@ -1548,9 +1460,7 @@ Gift of the army to its chief and lord.
 —Now, since in this my will bows down to thine,
 I will pass in on purples to my home.
 
-# CLYTEMNESTRA
-
-A Sea there is—and who shall stay its springs?
+**CLYTEMNESTRA:** A Sea there is—and who shall stay its springs?
 And deep within its breast, a mighty store,
 Precious as silver, of the purple dye,
 Whereby the dipped robe doth its tint renew.
@@ -1573,9 +1483,7 @@ And whatsoe’er it be, work forth thy will!
 
 [Exeunt all but Cassandra and the Chorus.]
 
-# CHORUS
-
-Wherefore for ever on the wings of fear
+**CHORUS:** Wherefore for ever on the wings of fear
 Hovers a vision drear
 Before my boding heart? a strain,
 Unbidden and unwelcome, thrills mine ear,
@@ -1670,20 +1578,14 @@ But thou—within the toils of Fate thou art—
 If such thy will, I urge thee to obey;
 Yet I misdoubt thou dost nor hear nor heed.
 
-## CLYTEMNESTRA
-
-I wot—unless like swallows she doth use
+**CLYTEMNESTRA:** I wot—unless like swallows she doth use
 Some strange barbarian tongue from oversea—
 My words must speak persuasion to her soul.
 
-## CHORUS
-
-Obey: there is no gentler way than this.
+**CHORUS:** Obey: there is no gentler way than this.
 Step from the car’s high seat and follow her.
 
-## CLYTEMNESTRA
-
-Truce to this bootless waiting here without!
+**CLYTEMNESTRA:** Truce to this bootless waiting here without!
 I will not stay: beside the central shrine
 The victims stand, prepared for knife and fire—
 Offerings from hearts beyond all hope made glad.
@@ -1692,15 +1594,11 @@ Thou—if thou reckest aught of my command,
 From these my words, let thy barbarian hand
 Fulfil by gesture the default of speech.
 
-## CHORUS
-
-No native is she, thus to read thy words
+**CHORUS:** No native is she, thus to read thy words
 Unaided: like some wild thing of the wood,
 New-trapped, behold! she shrinks and glares on thee.
 
-## CLYTEMNESTRA
-
-’Tis madness and the rule of mind distraught,
+**CLYTEMNESTRA:** ’Tis madness and the rule of mind distraught,
 Since she beheld her city sink in fire,
 And hither comes, nor brooks the bit, until
 In foam and blood her wrath be champed away.
@@ -1709,42 +1607,28 @@ Unheeded thus to cast away my words.
 
 [Exit Clytemnestra.
 
-## CHORUS
-
-But with me pity sits in anger’s place.
+**CHORUS:** But with me pity sits in anger’s place.
 Poor maiden, come thou from the car; no way
 There is but this—take up thy servitude.
 
-## CASSANDRA
-
-Woe, woe, alas! Earth, Mother Earth! and thou
+**CASSANDRA:** Woe, woe, alas! Earth, Mother Earth! and thou
 Apollo, Apollo!
 
-## CHORUS
-
-Peace! shriek not to the bright prophetic god,
+**CHORUS:** Peace! shriek not to the bright prophetic god,
 Who will not brook the suppliance of woe.
 
-## CASSANDRA
-
-Woe, woe, alas! Earth, Mother Earth! and thou
+**CASSANDRA:** Woe, woe, alas! Earth, Mother Earth! and thou
 Apollo, Apollo!
 
-## CHORUS
-
-Hark, with wild curse she calls anew on him,
+**CHORUS:** Hark, with wild curse she calls anew on him,
 Who stands far off and loathes the voice of wail.
 
-## CASSANDRA
-
-Apollo, Apollo!
+**CASSANDRA:** Apollo, Apollo!
 God of all ways, but only Death’s to me,
 Once and again, O thou, Destroyer named,
 Thou hast destroyed me, thou, my love of old!
 
-## CHORUS
-
-She grows presageful of her woes to come,
+**CHORUS:** She grows presageful of her woes to come,
 
 30
 
@@ -1752,51 +1636,42 @@ She grows presageful of her woes to come,
 
 Slave tho’ she be, instinct with prophecy.
 
-## CASSANDRA
-Apollo, Apollo!
+**CASSANDRA:** Apollo, Apollo!
 God of all ways, but only Death’s to me,
 O thou Apollo, thou Destroyer named!
 What way hast led me, to what evil home?
 
-## CHORUS
-Know’st thou it not? The home of Atreus’ race:
+**CHORUS:** Know’st thou it not? The home of Atreus’ race:
 Take these my words for sooth and ask no more.
 
-## CASSANDRA
-Home cursed of God! Bear witness unto me,
+**CASSANDRA:** Home cursed of God! Bear witness unto me,
 Ye visioned woes within—
 The blood-stained hands of them that smite their kin—
 The strangling noose, and, spattered o’er
 With human blood, the reeking floor!
 
-## CHORUS
-How like a sleuth-hound questing on the track,
+**CHORUS:** How like a sleuth-hound questing on the track,
 Keen-scented unto blood and death she hies!
 
-## CASSANDRA
-Ah! can the ghostly guidance fail,
+**CASSANDRA:** Ah! can the ghostly guidance fail,
 Whereby my prophet-soul is onwards led?
 Look! for their flesh the spectre-children wail,
 Their sodden limbs on which their father fed!
 
-## CHORUS
-Long since we knew of thy prophetic fame,—
+**CHORUS:** Long since we knew of thy prophetic fame,—
 But for those deeds we seek no prophet’s tongue.
 
-## CASSANDRA
-God! ’tis another crime—
+**CASSANDRA:** God! ’tis another crime—
 Worse than the storied woe of olden time,
 Cureless, abhorred, that one is plotting here—
 A shaming death, for those that should be dear!
 Alas! and far away, in foreign land,
 He that should help doth stand!
 
-## CHORUS
-I knew th’ old tales, the city rings withal—
+**CHORUS:** I knew th’ old tales, the city rings withal—
 But now thy speech is dark, beyond my ken.
 
-## CASSANDRA
-O wretch, O purpose fell!
+**CASSANDRA:** O wretch, O purpose fell!
 Thou for thy wedded lord
 The cleansing wave hast poured—
 A treacherous welcome!
@@ -1804,12 +1679,10 @@ How the sequel tell?
 Too soon ’twill come, too soon, for now, even now,
 She smites him, blow on blow!
 
-## CHORUS
-Riddles beyond my rede—I peer in vain
+**CHORUS:** Riddles beyond my rede—I peer in vain
 Thro’ the dim films that screen the prophecy.
 
-## CASSANDRA
-God! a new sight! a net, a snare of hell,
+**CASSANDRA:** God! a new sight! a net, a snare of hell,
 Set by her hand—herself a snare more fell!
 A wedded wife, she slays her lord,
 Helped by another hand!
@@ -1821,9 +1694,7 @@ Raise the wild cry above the sacrifice abhorred!
 
 ---
 
-# CHORUS
-
-Why biddest thou some fiend, I know not whom,
+**CHORUS:** Why biddest thou some fiend, I know not whom,
 Shriek o’er the house? Thine is no cheering word.
 Back to my heart in frozen fear I feel
 My waning life-blood run—
@@ -1831,9 +1702,7 @@ The blood that round the wounding steel
 Ebbs slow, as sinks life’s parting sun—
 Swift, swift and sure, some woe comes pressing on!
 
-# CASSANDRA
-
-Away, away—keep him away—
+**CASSANDRA:** Away, away—keep him away—
 The monarch of the herd, the pasture’s pride,
 Far from his mate! In treach’rous wrath,
 Muffling his swarthy horns, with secret scathe
@@ -1842,9 +1711,7 @@ Hark! in the brimming bath,
 The heavy plash—the dying cry—
 Hark—in the laver—hark, he falls by treachery!
 
-# CHORUS
-
-I read amiss dark sayings such as thine,
+**CHORUS:** I read amiss dark sayings such as thine,
 Yet something warns me that they tell of ill.
 O dark prophetic speech,
 Ill tidings dost thou teach
@@ -1853,41 +1720,31 @@ Ever some tale of awe and woe
 Thro’ all thy windings manifold
 Do we unriddle and unfold!
 
-# CASSANDRA
-
-Ah well-a-day! the cup of agony,
+**CASSANDRA:** Ah well-a-day! the cup of agony,
 Whereof I chant, foams with a draught for me.
 Ah lord, ah leader, thou hast led me here—
 Was’t but to die with thee whose doom is near?
 
-# CHORUS
-
-Distraught thou art, divinely stirred,
+**CHORUS:** Distraught thou art, divinely stirred,
 And wailest for thyself a tuneless lay,
 As piteous as the ceaseless tale
 Wherewith the brown melodious bird
 Doth ever Itys! Itys! wail,
 Deep-bowered in sorrow, all its little life-time’s day!
 
-# CASSANDRA
-
-Ah for thy fate, O shrill-voiced nightingale!
+**CASSANDRA:** Ah for thy fate, O shrill-voiced nightingale!
 Some solace for thy woes did Heaven afford,
 Clothed thee with soft brown plumes, and life apart from wail—
 But for my death is edged the double-biting sword!
 
-# CHORUS
-
-What pangs are these, what fruitless pain,
+**CHORUS:** What pangs are these, what fruitless pain,
 Sent on thee from on high?
 Thou chantest terror’s frantic strain,
 Yet in shrill measured melody.
 How thus unerring canst thou sweep along
 The prophet’s path of boding song?
 
-# CASSANDRA
-
-Woe, Paris, woe on thee! thy bridal joy
+**CASSANDRA:** Woe, Paris, woe on thee! thy bridal joy
 Was death and fire upon thy race and Troy!
 And woe for thee, Scamander’s flood!
 Beside thy banks, O river fair,
@@ -1899,16 +1756,14 @@ From childhood unto maidenhood!
 Now not by thine, but by Cocytus' stream
 And Acheron's banks shall ring my boding scream.
 
-**CHORUS**
-Too plain is all, too plain!
+**CHORUS:** Too plain is all, too plain!
 A child might read aright thy fateful strain.
 Deep in my heart their piercing fang
 Terror and sorrow set, the while I heard
 That piteous, low, tender word,
 Yet to mine ear and heart a crushing pang.
 
-**CASSANDRA**
-Woe for my city, woe for Ilion's fall!
+**CASSANDRA:** Woe for my city, woe for Ilion's fall!
 Father, how oft with sanguine stain
 Streamed on thine altar-stone the blood of cattle, slain
 That heaven might guard our wall!
@@ -1916,15 +1771,13 @@ But all was shed in vain.
 Low lie the shattered towers whereas they fell,
 And I—ah burning heart!—shall soon lie low as well.
 
-**CHORUS**
-Of sorrow is thy song, of sorrow still!
+**CHORUS:** Of sorrow is thy song, of sorrow still!
 Alas, what power of ill
 Sits heavy on thy heart and bids thee tell
 In tears of perfect moan thy deadly tale?
 Some woe—I know not what—must close thy piteous wail.
 
-**CASSANDRA**
-List! for no more the presage of my soul,
+**CASSANDRA:** List! for no more the presage of my soul,
 Bride-like, shall peer from its secluding veil;
 But as the morning wind blows clear the east,
 More bright shall blow the wind of prophecy,
@@ -1951,8 +1804,7 @@ The wandering hag, the pest of every door—
 Attest ye now, She knows in very sooth
 The house's curse, the storied infamy.
 
-**CHORUS**
-Yet how should oath—how loyally soe'er
+**CHORUS:** Yet how should oath—how loyally soe'er
 I swear it—aught avail thee? In good sooth,
 My wonder meets thy claim: I stand amazed
 That thou, a maiden born beyond the seas,
@@ -1963,44 +1815,31 @@ Tales of a city of an alien tongue.
 
 ---
 
-CASSANDRA
-That is my power—a boon Apollo gave.
+**CASSANDRA:** That is my power—a boon Apollo gave.
 
-CHORUS
-God though he were, yearning for mortal maid?
+**CHORUS:** God though he were, yearning for mortal maid?
 
-CASSANDRA
-Ay! what seemed shame of old is shame no more.
+**CASSANDRA:** Ay! what seemed shame of old is shame no more.
 
-CHORUS
-Such finer sense suits not with slavery.
+**CHORUS:** Such finer sense suits not with slavery.
 
-CASSANDRA
-He strove to win me, panting for my love.
+**CASSANDRA:** He strove to win me, panting for my love.
 
-CHORUS
-Came ye by compact unto bridal joys?
+**CHORUS:** Came ye by compact unto bridal joys?
 
-CASSANDRA
-Nay—for I plighted troth, then foiled the god.
+**CASSANDRA:** Nay—for I plighted troth, then foiled the god.
 
-CHORUS
-Wert thou already dowered with prescience?
+**CHORUS:** Wert thou already dowered with prescience?
 
-CASSANDRA
-Yea—prophetess to Troy of all her doom.
+**CASSANDRA:** Yea—prophetess to Troy of all her doom.
 
-CHORUS
-How left thee then Apollo’s wrath unscathed?
+**CHORUS:** How left thee then Apollo’s wrath unscathed?
 
-CASSANDRA
-I, false to him, seemed prophet false to all.
+**CASSANDRA:** I, false to him, seemed prophet false to all.
 
-CHORUS
-Not so—to us at least thy words seem sooth.
+**CHORUS:** Not so—to us at least thy words seem sooth.
 
-CASSANDRA
-Woe for me, woe! Again the agony—
+**CASSANDRA:** Woe for me, woe! Again the agony—
 Dread pain that sees the future all too well
 With ghastly preludes whirls and racks my soul.
 Behold ye—yonder on the palace roof
@@ -2037,46 +1876,34 @@ Nay then, believe me not: what skills belief
 Or disbelief? Fate works its will—and thou
 Wilt see and say in ruth, *Her tale was true.*
 
-**CHORUS**
-Ah—‘tis Thyestes’ feast on kindred flesh—
+**CHORUS:** Ah—‘tis Thyestes’ feast on kindred flesh—
 I guess her meaning and with horror thrill,
 Hearing no shadow’d hint of th’ o’er-true tale,
 But its full hatefulness: yet, for the rest,
 Far from the track I roam, and know no more.
 
-**CASSANDRA**
-‘Tis Agamemnon’s doom thou shalt behold.
+**CASSANDRA:** ‘Tis Agamemnon’s doom thou shalt behold.
 
-**CHORUS**
-Peace, hapless woman, to thy boding words!
+**CHORUS:** Peace, hapless woman, to thy boding words!
 
-**CASSANDRA**
-Far from my speech stands he who sains and saves.
+**CASSANDRA:** Far from my speech stands he who sains and saves.
 
-**CHORUS**
-Ay—were such doom at hand—which God forbid!
+**CHORUS:** Ay—were such doom at hand—which God forbid!
 
-**CASSANDRA**
-Thou prayest idly—these move swift to slay.
+**CASSANDRA:** Thou prayest idly—these move swift to slay.
 
-**CHORUS**
-What man prepares a deed of such despite?
+**CHORUS:** What man prepares a deed of such despite?
 
-**CASSANDRA**
-Fool! thus to read amiss mine oracles.
+**CASSANDRA:** Fool! thus to read amiss mine oracles.
 
-**CHORUS**
-Deviser and device are dark to me.
+**CHORUS:** Deviser and device are dark to me.
 
-**CASSANDRA**
-Dark! all too well I speak the Grecian tongue.
+**CASSANDRA:** Dark! all too well I speak the Grecian tongue.
 
-**CHORUS**
-Ay—but in thine, as in Apollo’s strains,
+**CHORUS:** Ay—but in thine, as in Apollo’s strains,
 Familiar is the tongue, but dark the thought.
 
-**CASSANDRA**
-Ah ah the fire! it waxes, nears me now—
+**CASSANDRA:** Ah ah the fire! it waxes, nears me now—
 Woe, woe for me, Apollo of the dawn!
 
 Lo, how the woman-thing, the lioness
@@ -2133,59 +1960,43 @@ Grant me one boon—a swift and mortal stroke,
 That all unwrung by pain, with ebbing blood
 Shed forth in quiet death, I close mine eyes.
 
-**CHORUS**
-Maid of mysterious woes, mysterious lore,
+**CHORUS:** Maid of mysterious woes, mysterious lore,
 Long was thy prophecy: but if aright
 Thou readest all thy fate, how, thus unscared,
 Dost thou approach the altar of thy doom,
 As fronts the knife some victim, heaven-controlled?
 
-**CASSANDRA**
-Friends, there is no avoidance in delay.
+**CASSANDRA:** Friends, there is no avoidance in delay.
 
-**CHORUS**
-Yet who delays the longest, his the gain.
+**CHORUS:** Yet who delays the longest, his the gain.
 
-**CASSANDRA**
-The day is come—flight were small gain to me!
+**CASSANDRA:** The day is come—flight were small gain to me!
 
-**CHORUS**
-O brave endurance of a soul resolved!
+**CHORUS:** O brave endurance of a soul resolved!
 
-**CASSANDRA**
-That were ill praise, for those of happier doom.
+**CASSANDRA:** That were ill praise, for those of happier doom.
 
-**CHORUS**
-All fame is happy, even famous death.
+**CHORUS:** All fame is happy, even famous death.
 
-**CASSANDRA**
-Ah sire, ah brethren, famous once were ye!
+**CASSANDRA:** Ah sire, ah brethren, famous once were ye!
 
-**CHORUS**
-What fear is this that scares thee from the house?
+**CHORUS:** What fear is this that scares thee from the house?
 
-**CASSANDRA**
-Pah!
+**CASSANDRA:** Pah!
 
-**CHORUS**
-What is this cry? some dark despair of soul?
+**CHORUS:** What is this cry? some dark despair of soul?
 
-**CASSANDRA**
-Pah! the house fumes with stench and spilth of blood.
+**CASSANDRA:** Pah! the house fumes with stench and spilth of blood.
 
 ---
 
-CHORUS
-How? ’tis the smell of household offerings.
+**CHORUS:** How? ’tis the smell of household offerings.
 
-CASSANDRA
-’Tis rank as charnel-scent from open graves.
+**CASSANDRA:** ’Tis rank as charnel-scent from open graves.
 
-CHORUS
-Thou canst not mean this scented Syrian nard?
+**CHORUS:** Thou canst not mean this scented Syrian nard?
 
-CASSANDRA
-Nay, let me pass within to cry aloud
+**CASSANDRA:** Nay, let me pass within to cry aloud
 The monarch’s fate and mine—enough of life.
 Ah friends!
 Bear to me witness, since I fall in death,
@@ -2196,11 +2007,9 @@ A woman for a woman, and a man
 Falls, for a man ill-wedded to his curse.
 Grant me this boon—the last before I die.
 
-CHORUS
-Brave to the last! I mourn thy doom foreseen.
+**CHORUS:** Brave to the last! I mourn thy doom foreseen.
 
-CASSANDRA
-Once more one utterance, but not of wail,
+**CASSANDRA:** Once more one utterance, but not of wail,
 Though for my death—and then I speak no more.
 Sun! thou whose beam I shall not see again,
 To thee I cry, Let those whom vengeance calls
@@ -2213,8 +2022,7 @@ And this I deem less piteous, of the twain.
 
 [Exit into the palace.
 
-CHORUS
-Too true it is! our mortal state
+**CHORUS:** Too true it is! our mortal state
 With bliss is never satiate,
 And none, before the palace high
 And stately of prosperity,
@@ -2232,103 +2040,71 @@ Peace to that braggart’s vaunting vain,
 Who, having heard the chieftain’s tale,
 Yet boasts of bliss untouched by bale!
 
-VOICE OF AGAMEMNON
-O I am sped—a deep, a mortal blow.
+**VOICE OF AGAMEMNON:** O I am sped—a deep, a mortal blow.
 
-CHORUS
-Listen, listen! who is screaming as in mortal agony?
+**CHORUS:** Listen, listen! who is screaming as in mortal agony?
 
 A loud cry from within.
 
 ---
 
-VOICE OF AGAMEMNON
+**VOICE OF AGAMEMNON:** O! O! again, another, another blow!
 
-O! O! again, another, another blow!
-
-CHORUS
-
-The bloody act is over—I have heard the monarch’s cry—
+**CHORUS:** The bloody act is over—I have heard the monarch’s cry—
 
 Let us swiftly take some counsel, lest we too be doomed to die.
 
-ONE OF THE CHORUS
-
-’Tis best, I judge, aloud for aid to call,
+**ONE OF THE CHORUS:** ’Tis best, I judge, aloud for aid to call,
 
 “Ho! loyal Argives! to the palace, all!”
 
-ANOTHER
-
-Better, I deem, ourselves to bear the aid,
+**ANOTHER:** Better, I deem, ourselves to bear the aid,
 
 And drag the deed to light, while drips the blade.
 
-ANOTHER
-
-Such will is mine, and what thou say’st I say:
+**ANOTHER:** Such will is mine, and what thou say’st I say:
 
 Swiftly to act! the time brooks no delay.
 
-ANOTHER
-
-Ay, for ’tis plain, this prelude of their song
+**ANOTHER:** Ay, for ’tis plain, this prelude of their song
 
 Foretells its close in tyranny and wrong.
 
-ANOTHER
-
-Behold, we tarry—but thy name, Delay,
+**ANOTHER:** Behold, we tarry—but thy name, Delay,
 
 They spurn, and press with sleepless hand to slay.
 
-ANOTHER
-
-I know not what ’twere well to counsel now—
+**ANOTHER:** I know not what ’twere well to counsel now—
 
 Who wills to act, ’tis his to counsel how.
 
-ANOTHER
-
-Thy doubt is mine: for when a man is slain,
+**ANOTHER:** Thy doubt is mine: for when a man is slain,
 
 I have no words to bring his life again.
 
-ANOTHER
-
-What? e’en for life’s sake, bow us to obey
+**ANOTHER:** What? e’en for life’s sake, bow us to obey
 
 These house-defilers and their tyrant sway?
 
-ANOTHER
-
-Unmanly doom! ’twere better far to die—
+**ANOTHER:** Unmanly doom! ’twere better far to die—
 
 Death is a gentler lord than tyranny.
 
-ANOTHER
-
-Think well—must cry or sign of woe or pain
+**ANOTHER:** Think well—must cry or sign of woe or pain
 
 Fix our conclusion that the chief is slain?
 
-ANOTHER
-
-Such talk befits us when the deed we see—
+**ANOTHER:** Such talk befits us when the deed we see—
 
 Conjecture dwells afar from certainty.
 
-LEADER OF THE CHORUS
-
-I read one will from many a diverse word,
+**LEADER OF THE CHORUS:** I read one will from many a diverse word,
 
 To know aright, how stands it with our lord!
 
 [The scene opens, disclosing Clytemnestra, who comes forward. The body of Agamemnon lies, muffled in a long robe, within a silver-sided laver; the corpse of Cassandra is laid beside him.]
 
-CLYTEMNESTRA
-
-Ho, ye who heard me speak so long and oft
+**CLYTEMNESTRA:** Ho, ye who heard me speak so long and oft
 
 The glozing word that led me to my will—
 
@@ -2378,14 +2154,10 @@ Justly—ay, more than justly—on his corpse
 Who filled his home with curses as with wine,
 And thus returned to drain the cup he filled.
 
-## CHORUS
-
-I marvel at thy tongue’s audacity,
+**CHORUS:** I marvel at thy tongue’s audacity,
 To vaunt thus loudly o’er a husband slain.
 
-## CLYTEMNESTRA
-
-Ye hold me as a woman, weak of will,
+**CLYTEMNESTRA:** Ye hold me as a woman, weak of will,
 And strive to sway me: but my heart is stout,
 Nor fears to speak its uttermost to you,
 Albeit ye know its message. Praise or blame,
@@ -2395,9 +2167,7 @@ My husband once—and him this hand of mine,
 A right contriver, fashioned for his death.
 Behold the deed!
 
-## CHORUS
-
-Woman, what deadly birth,
+**CHORUS:** Woman, what deadly birth,
 What venomed essence of the earth
 Or dark distilment of the wave,
 To thee such passion gave,
@@ -2408,9 +2178,7 @@ Our king by thee cut off, hewn down!
 Go forth—they cry—accursèd and forlorn,
 To hate and scorn!
 
-## CLYTEMNESTRA
-
-O ye just men, who speak my sentence now,
+**CLYTEMNESTRA:** O ye just men, who speak my sentence now,
 The city’s hate, the ban of all my realm!
 Ye had no voice of old to launch such doom
 On him, my husband, when he held as light
@@ -2434,8 +2202,7 @@ As mine now doth, to bow beneath your sway:
 If God say nay, it shall be yours to learn
 By chastisement a late humility.
 
-**CHORUS**
-Bold is thy craft, and proud
+**CHORUS:** Bold is thy craft, and proud
 Thy confidence, thy vaunting loud;
 Thy soul, that chose a murd’ress’ fate,
 Is all with blood elate—
@@ -2446,8 +2213,7 @@ But Fate prepares for thee thy lot—
 Smitten as thou didst smite, without a friend,
 To meet thine end!
 
-**CLYTEMNESTRA**
-Hear then the sanction of the oath I swear—
+**CLYTEMNESTRA:** Hear then the sanction of the oath I swear—
 By the great vengeance for my murdered child,
 By Até, by the Fury unto whom
 This man lies sacrificed by hand of mine,
@@ -2469,8 +2235,7 @@ Sang her last dirge, and lies, as erst she lay,
 Close to his side, and to my couch has left
 A sweet new taste of joys that know no fear.
 
-**CHORUS**
-Ah woe and well-a-day! I would that Fate—
+**CHORUS:** Ah woe and well-a-day! I would that Fate—
 Not bearing agony too great,
 Nor stretching me too long on couch of pain—
 Would bid mine eyelids keep
@@ -2496,9 +2261,7 @@ O thou that erst, these halls within,
 Wert unto all a rock of strife,
 A husband’s bane!
 
-## CLYTEMNESTRA
-
-Peace! pray not thou for death as though
+**CLYTEMNESTRA:** Peace! pray not thou for death as though
 Thine heart was whelmed beneath this woe,
 Nor turn thy wrath aside to ban
 The name of Helen, nor recall
@@ -2507,9 +2270,7 @@ Sent down to death the Danaan lords,
 To sleep at Troy the sleep of swords,
 And wrought the woe that shattered all.
 
-## CHORUS
-
-Fiend of the race! that swoopest fell
+**CHORUS:** Fiend of the race! that swoopest fell
 Upon the double stock of Tantalus,
 Lording it o’er me by a woman’s will,
 Stern, manful, and imperious—
@@ -2518,18 +2279,14 @@ Thy very form I see,
 Like some grim raven, perched upon the slain,
 Exulting o’er the crime, aloud, in tuneless strain!
 
-## CLYTEMNESTRA
-
-Right was that word—thou namest well
+**CLYTEMNESTRA:** Right was that word—thou namest well
 The brooding race-fiend, triply fell!
 From him it is that murder’s thirst,
 Blood-lapping, inwardly is nursed—
 Ere time the ancient scar can sain,
 New blood comes welling forth again.
 
-## CHORUS
-
-Grim is his wrath and heavy on our home,
+**CHORUS:** Grim is his wrath and heavy on our home,
 That fiend of whom thy voice has cried,
 Alas, an omened cry of woe unsatisfied,
 An all-devouring doom!
@@ -2550,9 +2307,7 @@ Pant forth thy life and die!
 A death of shame—ah woe on woe!
 A treach’rous hand, a cleaving blow!
 
-## CLYTEMNESTRA
-
-My guilt thou harpest, o’er and o’er!
+**CLYTEMNESTRA:** My guilt thou harpest, o’er and o’er!
 I bid thee reckon me no more
 As Agamemnon’s spouse.
 
@@ -2568,8 +2323,7 @@ The king hath slain.—
 Yea, for the murdered children’s life,
 A chieftain’s in requital ta’en.
 
-**CHORUS**
-Thou guiltless of this murder, thou!
+**CHORUS:** Thou guiltless of this murder, thou!
 Who dares such thought avow?
 Yet it may be, wroth for the parent’s deed,
 The fiend hath holpen thee to slay the son.
@@ -2589,8 +2343,7 @@ Pant forth thy life and die!
 A death of shame—ah woe on woe!
 A treach’rous hand, a cleaving blow!
 
-**CLYTEMNESTRA**
-I deem not that the death he died
+**CLYTEMNESTRA:** I deem not that the death he died
 Had overmuch of shame:
 For this was he who did provide
 Foul wrong unto his house and name:
@@ -2603,8 +2356,7 @@ For by the sword his sin he wrought,
 And by the sword himself is brought
 Among the dead to dwell.
 
-**CHORUS**
-Ah whither shall I fly?
+**CHORUS:** Ah whither shall I fly?
 For all in ruin sinks the kingly hall;
 Nor swift device nor shift of thought have I,
 To ’scape its fall.
@@ -2637,9 +2389,7 @@ Shall weep the tears of loyal grief?
 Who speak above his lowly grave
 The last sad praises of the brave?
 
-## CLYTEMNESTRA
-
-Peace! for such task is none of thine.
+**CLYTEMNESTRA:** Peace! for such task is none of thine.
 By me he fell, by me he died,
 And now his burial rites be mine!
 Yet from these halls no mourners' train
@@ -2649,9 +2399,7 @@ His child shall spring unto his side,
 And in a daughter's loving wise
 Shall clasp and kiss him once again!
 
-## CHORUS
-
-Lo! sin by sin and sorrow dogg'd by sorrow—
+**CHORUS:** Lo! sin by sin and sorrow dogg'd by sorrow—
 And who the end can know?
 The slayer of to-day shall die to-morrow—
 The wage of wrong is woe.
@@ -2664,9 +2412,7 @@ These halls of high estate—
 And none can wrench from off the home of sin
 The clinging grasp of fate.
 
-## CLYTEMNESTRA
-
-Now walks thy word aright, to tell
+**CLYTEMNESTRA:** Now walks thy word aright, to tell
 This ancient truth of oracle;
 But I with vows of sooth will pray
 To him, the power that holdeth sway
@@ -2688,9 +2434,7 @@ Is ended, by my deed!
 
 [Enter Aegisthus.
 
-## AEGISTHUS
-
-Dawn of the day of rightful vengeance, hail!
+**AEGISTHUS:** Dawn of the day of rightful vengeance, hail!
 I dare at length aver that gods above
 Have care of men and heed of earthly wrongs.
 I, I who stand and thus exult to see
@@ -2738,8 +2482,7 @@ Plotting and planning all that malice bade.
 And death itself were honour now to me,
 Beholding him in Justice’ ambush ta’en.
 
-**CHORUS**
-Aegisthus, for this insolence of thine
+**CHORUS:** Aegisthus, for this insolence of thine
 That vaunts itself in evil, take my scorn.
 Of thine own will, thou sayest, thou hast slain
 The chieftain, by thine own unaided plot
@@ -2747,8 +2490,7 @@ Devised the piteous death: I rede thee well,
 Think not thy head shall ’scape, when right prevails,
 The people’s ban, the stones of death and doom.
 
-**AEGISTHUS**
-This word from thee, this word from one who rows
+**AEGISTHUS:** This word from thee, this word from one who rows
 Low at the oars beneath, what time we rule,
 We of the upper tier? Thou’lt know anon,
 ’Tis bitter to be taught again in age,
@@ -2763,15 +2505,11 @@ Against the pricks, unto thy proper pain!
 
 ---
 
-# CHORUS
-
-Thou womanish man, waiting till war did cease,
+**CHORUS:** Thou womanish man, waiting till war did cease,
 Home-watcher and defiler of the couch,
 And arch-deviser of the chieftain’s doom!
 
-# AEGISTHUS
-
-Bold words again! but they shall end in tears.
+**AEGISTHUS:** Bold words again! but they shall end in tears.
 The very converse, thine, of Orpheus’ tongue:
 He roused and led in ecstasy of joy
 All things that heard his voice melodious;
@@ -2779,15 +2517,11 @@ But thou as with the futile cry of curs
 Wilt draw men wrathfully upon thee. Peace!
 Or strong subjection soon shall tame thy tongue.
 
-# CHORUS
-
-Ay, thou art one to hold an Argive down—
+**CHORUS:** Ay, thou art one to hold an Argive down—
 Thou, skilled to plan the murder of the king,
 But not with thine own hand to smite the blow!
 
-# AEGISTHUS
-
-That fraudful force was woman’s very part,
+**AEGISTHUS:** That fraudful force was woman’s very part,
 Not mine, whom deep suspicion from of old
 Would have debarred. Now by his treasure’s aid
 My purpose holds to rule the citizens.
@@ -2798,9 +2532,7 @@ But to the shafts with heaviest harness bound.
 Famine, the grim mate of the dungeon dark,
 Shall look on him and shall behold him tame.
 
-# CHORUS
-
-Thou losel soul, was then thy strength too slight
+**CHORUS:** Thou losel soul, was then thy strength too slight
 To deal in murder, while a woman’s hand,
 Staining and shaming Argos and its gods,
 Availed to slay him? Ho, if anywhere
@@ -2808,25 +2540,15 @@ The light of life smite on Orestes’ eyes,
 Let him, returning by some guardian fate,
 Hew down with force her paramour and her!
 
-# AEGISTHUS
+**AEGISTHUS:** How thy word and act shall issue, thou shalt shortly understand.
 
-How thy word and act shall issue, thou shalt shortly understand.
+**CHORUS:** Up to action, O my comrades! for the fight is hard at hand. Swift, your right hands to the sword hilt! bare the weapon as for strife—
 
-# CHORUS
+**AEGISTHUS:** Lo! I too am standing ready, hand on hilt for death or life.
 
-Up to action, O my comrades! for the fight is hard at hand. Swift, your right hands to the sword hilt! bare the weapon as for strife—
+**CHORUS:** ’Twas thy word and we accept it: onward to the chance of war!
 
-# AEGISTHUS
-
-Lo! I too am standing ready, hand on hilt for death or life.
-
-# CHORUS
-
-’Twas thy word and we accept it: onward to the chance of war!
-
-# CLYTEMNESTRA
-
-Nay, enough, enough, my champion! we will smite and slay no more.
+**CLYTEMNESTRA:** Nay, enough, enough, my champion! we will smite and slay no more.
 Already have we reaped enough the harvest-field of guilt:
 Enough of wrong and murder, let no other blood be spilt.
 Peace, old men! and pass away unto the homes by Fate decreed,
@@ -2835,38 +2557,28 @@ But enough of toils and troubles—be the end, if ever, now,
 Ere thy talon, O Avenger, deal another deadly blow.
 ’Tis a woman’s word of warning, and let who will list thereto.
 
-# AEGISTHUS
-
-But that these should loose and lavish reckless blossoms of the tongue,
+**AEGISTHUS:** But that these should loose and lavish reckless blossoms of the tongue,
 
 ---
 
 And in hazard of their fortune cast upon me words of wrong,
 And forget the law of subjects, and revile their ruler’s word—
 
-**CHORUS**
-Ruler? but ’tis not for Argives, thus to own a dastard lord!
+**CHORUS:** Ruler? but ’tis not for Argives, thus to own a dastard lord!
 
-**AEGISTHUS**
-I will follow to chastise thee in my coming days of sway.
+**AEGISTHUS:** I will follow to chastise thee in my coming days of sway.
 
-**CHORUS**
-Not if Fortune guide Orestes safely on his homeward way.
+**CHORUS:** Not if Fortune guide Orestes safely on his homeward way.
 
-**AEGISTHUS**
-Ah, well I know how exiles feed on hopes of their return.
+**AEGISTHUS:** Ah, well I know how exiles feed on hopes of their return.
 
-**CHORUS**
-Fare and batten on pollution of the right, while ’tis thy turn.
+**CHORUS:** Fare and batten on pollution of the right, while ’tis thy turn.
 
-**AEGISTHUS**
-Thou shalt pay, be well assurèd, heavy quittance for thy pride
+**AEGISTHUS:** Thou shalt pay, be well assurèd, heavy quittance for thy pride
 
-**CHORUS**
-Crow and strut, with her to watch thee, like a cock, his mate beside!
+**CHORUS:** Crow and strut, with her to watch thee, like a cock, his mate beside!
 
-**CLYTEMNESTRA**
-Heed not thou too highly of them—let the cur-pack growl and yell:
+**CLYTEMNESTRA:** Heed not thou too highly of them—let the cur-pack growl and yell:
 I and thou will rule the palace and will order all things well.
 
 [Exeunt.
@@ -2893,9 +2605,7 @@ AEGISTHUS
 
 AN ATTENDANT
 
-PYLADES
-
-The Scene is the Tomb of Agamemnon at Mycenae; afterwards, the Palace of Atreus, hard by the Tomb.
+**PYLADES:** The Scene is the Tomb of Agamemnon at Mycenae; afterwards, the Palace of Atreus, hard by the Tomb.
 
 Orestes
 
@@ -2938,9 +2648,7 @@ Wherefore these women throng in suppliance.
 [Exeunt Pylades and Orestes; enter the Chorus bearing vessels for libation; Electra follows them; they pace slowly towards
 the tomb of Agamemnon.
 
-# CHORUS
-
-Forth from the royal halls by high command
+**CHORUS:** Forth from the royal halls by high command
 I bear libations for the dead.
 
 Rings on my smitten breast my smiting hand,
@@ -3027,8 +2735,7 @@ Wailing the monarch’s fruitless fate,
 Hiding my face within my robe, and fain
 Of tears, and chilled with frost of hidden pain.
 
-**ELECTRA**
-Hand maidens, orderers of the palace-halls,
+**ELECTRA:** Hand maidens, orderers of the palace-halls,
 Since at my side ye come, a suppliant train,
 Companions of this offering, counsel me
 As best befits the time: for I, who pour
@@ -3056,74 +2763,46 @@ Within your breast: the day of death and doom
 Awaits alike the freeman and the slave.
 Speak, then, if aught thou know’st to aid us more.
 
-**CHORUS**
-Thou biddest; I will speak my soul’s thought out,
+**CHORUS:** Thou biddest; I will speak my soul’s thought out,
 Revering as a shrine thy father’s grave.
 
-**ELECTRA**
-Say then thy say, as thou his tomb reverest.
+**ELECTRA:** Say then thy say, as thou his tomb reverest.
 
-**CHORUS**
-Speak solemn words to them that love, and pour.
+**CHORUS:** Speak solemn words to them that love, and pour.
 
-**ELECTRA**
-And of his kin whom dare I name as kind?
+**ELECTRA:** And of his kin whom dare I name as kind?
 
-**CHORUS**
-Thyself; and next, whoe’er Aegisthus scorns.
+**CHORUS:** Thyself; and next, whoe’er Aegisthus scorns.
 
-**ELECTRA**
-Then ’tis myself and thou, my prayer must name.
+**ELECTRA:** Then ’tis myself and thou, my prayer must name.
 
-**CHORUS**
-Whoe’er they be, ’tis thine to know and name them.
+**CHORUS:** Whoe’er they be, ’tis thine to know and name them.
 
-**ELECTRA**
-Is there no other we may claim as ours?
+**ELECTRA:** Is there no other we may claim as ours?
 
 49
 
 ---
 
-# CHORUS
+**CHORUS:** Think of Orestes, though far-off he be.
 
-Think of Orestes, though far-off he be.
+**ELECTRA:** Right well in this too hast thou schooled my thought.
 
-# ELECTRA
+**CHORUS:** Mindfully, next, on those who shed the blood—
 
-Right well in this too hast thou schooled my thought.
+**ELECTRA:** Pray on them what? expound, instruct my doubt.
 
-# CHORUS
+**CHORUS:** This; Upon them some god or mortal come——
 
-Mindfully, next, on those who shed the blood—
+**ELECTRA:** As judge or as avenger? speak thy thought.
 
-# ELECTRA
+**CHORUS:** Pray in set terms, Who shall the slayer slay.
 
-Pray on them what? expound, instruct my doubt.
+**ELECTRA:** Beseemeth it to ask such boon of heaven?
 
-# CHORUS
+**CHORUS:** How not, to wreak a wrong upon a foe?
 
-This; Upon them some god or mortal come——
-
-# ELECTRA
-
-As judge or as avenger? speak thy thought.
-
-# CHORUS
-
-Pray in set terms, Who shall the slayer slay.
-
-# ELECTRA
-
-Beseemeth it to ask such boon of heaven?
-
-# CHORUS
-
-How not, to wreak a wrong upon a foe?
-
-# ELECTRA
-
-O mighty Hermes, warder of the shades,
+**ELECTRA:** O mighty Hermes, warder of the shades,
 Herald of upper and of under world,
 Proclaim and usher down my prayer’s appeal
 Unto the gods below, that they with eyes
@@ -3170,8 +2849,7 @@ Your lips ring out above the dead man’s grave.
 
 [She pours the libations.]
 
-## CHORUS
-Woe, woe, woe!
+**CHORUS:** Woe, woe, woe!
 Let the teardrop fall, plashing on the ground
 Where our lord lies low:
 Fall and cleanse away the cursed libation’s stain,
@@ -3189,64 +2867,45 @@ Bend the northern bow?
 Who with hand upon the hilt himself will thrust with glaive,
 Thrust and slay and save?
 
-## ELECTRA
-Lo! the earth drinks them, to my sire they pass—
+**ELECTRA:** Lo! the earth drinks them, to my sire they pass—
 Learn ye with me of this thing new and strange.
 
-## CHORUS
-Speak thou; my breast doth palpitate with fear.
+**CHORUS:** Speak thou; my breast doth palpitate with fear.
 
-## ELECTRA
-I see upon the tomb a curl new shorn.
+**ELECTRA:** I see upon the tomb a curl new shorn.
 
-## CHORUS
-Shorn from what man or what deep-girded maid?
+**CHORUS:** Shorn from what man or what deep-girded maid?
 
-## ELECTRA
-That may he guess who will; the sign is plain.
+**ELECTRA:** That may he guess who will; the sign is plain.
 
-## CHORUS
-Let me learn this of thee; let youth prompt age.
+**CHORUS:** Let me learn this of thee; let youth prompt age.
 
-## ELECTRA
-None is there here but I, to clip such gift.
+**ELECTRA:** None is there here but I, to clip such gift.
 
-## CHORUS
-For they who thus should mourn him hate him sore.
+**CHORUS:** For they who thus should mourn him hate him sore.
 
-## ELECTRA
-And lo! in truth the hair exceeding like—
+**ELECTRA:** And lo! in truth the hair exceeding like—
 
-## CHORUS
-Like to what locks and whose? instruct me that.
+**CHORUS:** Like to what locks and whose? instruct me that.
 
-## ELECTRA
-Like unto those my father’s children wear.
+**ELECTRA:** Like unto those my father’s children wear.
 
-## CHORUS
-Then is this lock Orestes’ secret gift?
+**CHORUS:** Then is this lock Orestes’ secret gift?
 
-## ELECTRA
-Most like it is unto the curls he wore,
+**ELECTRA:** Most like it is unto the curls he wore,
 
-## CHORUS
-Yet how dared he to come unto his home?
+**CHORUS:** Yet how dared he to come unto his home?
 
-## ELECTRA
-He hath but sent it, clipt to mourn his sire.
+**ELECTRA:** He hath but sent it, clipt to mourn his sire.
 
 51
 
 ---
 
-# CHORUS
-
-It is a sorrow grievous as his death,
+**CHORUS:** It is a sorrow grievous as his death,
 That he should live yet never dare return.
 
-# ELECTRA
-
-Yea, and my heart o'erflows with gall of grief,
+**ELECTRA:** Yea, and my heart o'erflows with gall of grief,
 And I am pierced as with a cleaving dart;
 Like to the first drops after drought, my tears
 Fall down at will, a bitter bursting tide,
@@ -3285,50 +2944,31 @@ Alas! for doubt and anguish rack my mind.
 
 Pray thou, in gratitude for prayers fulfilled, Fair fall the rest of what I ask of heaven.
 
-# ELECTRA
+**ELECTRA:** Wherefore? what win I from the gods by prayer?
 
-Wherefore? what win I from the gods by prayer?
+**ORESTES:** This, that thine eyes behold thy heart's desire.
 
-# ORESTES
+**ELECTRA:** On whom of mortals know'st thou that I call?
 
-This, that thine eyes behold thy heart's desire.
+**ORESTES:** I know thy yearning for Orestes deep.
 
-# ELECTRA
+**ELECTRA:** Say then, wherein event hath crowned my prayer?
 
-On whom of mortals know'st thou that I call?
+**ORESTES:** I, I am he; seek not one more akin.
 
-# ORESTES
-
-I know thy yearning for Orestes deep.
-
-# ELECTRA
-
-Say then, wherein event hath crowned my prayer?
-
-# ORESTES
-
-I, I am he; seek not one more akin.
-
-# ELECTRA
-
-Some fraud, O stranger, weavest thou for me?
+**ELECTRA:** Some fraud, O stranger, weavest thou for me?
 
 ---
 
-ORESTES
-Against myself I weave it, if I weave.
+**ORESTES:** Against myself I weave it, if I weave.
 
-ELECTRA
-Ah, thou hast mind to mock me in my woe!
+**ELECTRA:** Ah, thou hast mind to mock me in my woe!
 
-ORESTES
-'Tis at mine own I mock then, mocking thine.
+**ORESTES:** 'Tis at mine own I mock then, mocking thine.
 
-ELECTRA
-Speak I with thee then as Orestes' self?
+**ELECTRA:** Speak I with thee then as Orestes' self?
 
-ORESTES
-My very face thou see'st and know'st me not,
+**ORESTES:** My very face thou see'st and know'st me not,
 And yet but now, when thou didst see the lock
 Shorn for my father's grave, and when thy quest
 Was eager on the footprints I had made,
@@ -3340,8 +2980,7 @@ The shuttle-prints, the creature wrought thereon—
 Refrain thyself, nor prudence lose in joy,
 For well I wot, our kin are less than kind.
 
-ELECTRA
-O thou that art unto our father's home
+**ELECTRA:** O thou that art unto our father's home
 Love, grief and hope, for thee the tears ran down,
 For thee, the son, the saviour that should be;
 Trust thou thine arm and win thy father's halls!
@@ -3357,8 +2996,7 @@ A brother leal, sole stay of love to me.
 Now by thy side be strength and right, and Zeus
 Saviour almighty, stand to aid the twain!
 
-ORESTES
-Zeus, Zeus! look down on our estate and us,
+**ORESTES:** Zeus, Zeus! look down on our estate and us,
 The orphaned brood of him, our eagle-sire,
 Whom to his death a fearful serpent brought
 Enwinding him in coils; and we, bereft
@@ -3368,8 +3006,7 @@ Such quarry as he slew. Lo! I and she,
 Electra, stand before thee, fatherless,
 And each alike cast out and homeless made.
 
-ELECTRA
-And if thou leave to death the brood of him
+**ELECTRA:** And if thou leave to death the brood of him
 Whose altar blazed for thee, whose reverence
 Was thine, all thine,—whence, in the after years,
 Shall any hand like his adorn thy shrine
@@ -3384,17 +3021,13 @@ None on high festivals will fend thy shrine
 Stoop thou to raise us! strong the race shall show,
 Though puny now it seem, and fallen low.
 
-## CHORUS
-
-O children, saviours of your father’s home,
+**CHORUS:** O children, saviours of your father’s home,
 Beware ye of your words, lest one should hear
 And bear them, for the tongue hath lust to tell,
 Unto our masters—whom God grant to me
 In pitchy reek of fun’ral flame to see!
 
-## ORESTES
-
-Nay, mighty is Apollo’s oracle
+**ORESTES:** Nay, mighty is Apollo’s oracle
 And shall not fail me, whom it bade to pass
 Thro’ all this peril; clear the voice rang out
 With many warnings, sternly threatening
@@ -3449,9 +3082,7 @@ Soon shall he know, confronted by a man.
 
 ---
 
-# CHORUS
-
-Mighty Fates, on you we call!
+**CHORUS:** Mighty Fates, on you we call!
 Bid the will of Zeus ordain
 Power to those, to whom again
 Justice turns with hand and aid!
@@ -3465,9 +3096,7 @@ List an immemorial word—
 Whosoe’er shall take the sword
 Shall perish by the sword.
 
-# ORESTES
-
-Father, unblest in death, O father mine!
+**ORESTES:** Father, unblest in death, O father mine!
 What breath of word or deed
 Can I waft on thee from this far confine
 Unto thy lowly bed,—
@@ -3476,9 +3105,7 @@ Hope’s counter-gleam of fire?
 Yet the loud dirge of praise brings grace undying
 Unto each parted sire.
 
-# CHORUS
-
-O child, the spirit of the dead,
+**CHORUS:** O child, the spirit of the dead,
 Altho’ upon his flesh have fed
 The grim teeth of the flame,
 Is quelled not; after many days
@@ -3490,9 +3117,7 @@ Swelling, shrilling, urged on high,
 The vengeful dirge, for parents slain,
 Shall strive and shall attain.
 
-# ELECTRA
-
-Hear me too, even me, O father, hear!
+**ELECTRA:** Hear me too, even me, O father, hear!
 Not by one child alone these groans, these tears are shed
 Upon thy sepulchre.
 Each, each, where thou art lowly laid,
@@ -3502,18 +3127,14 @@ Comfort is there none to say!
 Strive and wrestle as we may,
 Still stands doom invincible.
 
-# CHORUS
-
-Nay, if so he will, the god
+**CHORUS:** Nay, if so he will, the god
 Still our tears to joy can turn
 He can bid a triumph-ode
 Drown the dirge beside this urn;
 He to kingly halls can greet
 The child restored, the homeward-guided feet.
 
-# ORESTES
-
-Ah my father! hadst thou lain
+**ORESTES:** Ah my father! hadst thou lain
 Under Ilion’s wall,
 By some Lycian spearman slain,
 Thou hadst left in this thine hall
@@ -3527,9 +3148,7 @@ Heavily had stood thy tomb,
 Heaped on high; but, quenched in pride,
 Grief were light unto thy home.
 
-## CHORUS
-
-Loved and honoured hadst thou lain
+**CHORUS:** Loved and honoured hadst thou lain
 By the dead that nobly fell,
 In the under-world again,
 Where are throned the kings of hell,
@@ -3541,9 +3160,7 @@ King of kings who bear the crown
 And the staff, to which in awe
 Mortal men bow down.
 
-## ELECTRA
-
-Nay O father, I were fain
+**ELECTRA:** Nay O father, I were fain
 Other fate had fallen on thee.
 Ill it were if thou hadst lain
 One among the common slain,
@@ -3554,9 +3171,7 @@ We had heard as from afar
 Deaths of those who should have died
 ’Mid the chance of war.
 
-## CHORUS
-
-O child, forbear! things all too high thou sayest.
+**CHORUS:** O child, forbear! things all too high thou sayest.
 Easy, but vain, thy cry!
 A boon above all gold is that thou prayest,
 An unreached destiny,
@@ -3569,16 +3184,12 @@ Blood stains the guilty pride
 Of the accursed who rule on earth, and Fate
 Stands on the children’s side.
 
-## ELECTRA
-
-That hath sped thro’ mine ear, like a shaft from a bow!
+**ELECTRA:** That hath sped thro’ mine ear, like a shaft from a bow!
 Zeus, Zeus! it is thou who dost send from below
 A doom on the desperate doer—ere long
 On a mother a father shall visit his wrong.
 
-## CHORUS
-
-Be it mine to upraise thro’ the reek of the pyre
+**CHORUS:** Be it mine to upraise thro’ the reek of the pyre
 The chant of delight, while the funeral fire
 Devoureth the corpse of a man that is slain
 And a woman laid low!
@@ -3591,9 +3202,7 @@ Flits and waves to and fro.
 
 ---
 
-# ORESTES
-
-Zeus, thou alone to us art parent now.
+**ORESTES:** Zeus, thou alone to us art parent now.
 
 Smite with a rending blow
 
@@ -3605,9 +3214,7 @@ O Earth, unto my prayer—
 
 Yea, hear O mother Earth, and monarchy of hell!
 
-# CHORUS
-
-Nay, the law is sternly set—
+**CHORUS:** Nay, the law is sternly set—
 
 Blood-drops shed upon the ground
 
@@ -3619,9 +3226,7 @@ Calling guilt of olden time,
 
 A Fury, crowning crime with crime.
 
-# ELECTRA
-
-Where, where are ye, avenging powers,
+**ELECTRA:** Where, where are ye, avenging powers,
 
 Puissant Furies of the slain?
 
@@ -3633,9 +3238,7 @@ O Zeus, what home henceforth is ours,
 
 What refuge to attain?
 
-# CHORUS
-
-Lo, at your wail my heart throbs, wildly stirred;
+**CHORUS:** Lo, at your wail my heart throbs, wildly stirred;
 
 Now am I born with sadness,
 
@@ -3647,9 +3250,7 @@ She, thrusting grief away, lifts up mine eyes
 
 To the new dawn of gladness.
 
-# ORESTES
-
-Skills it to tell of aught save wrong on wrong,
+**ORESTES:** Skills it to tell of aught save wrong on wrong,
 
 Wrought by our mother’s deed?
 
@@ -3661,9 +3262,7 @@ Her children’s soul is wolfish, born from hers,
 
 And softens not by prayers.
 
-# CHORUS
-
-I dealt upon my breast the blow
+**CHORUS:** I dealt upon my breast the blow
 
 That Asian mourning women know;
 
@@ -3679,9 +3278,7 @@ From head to breast; distraught with blows
 
 Throb dizzily my brows.
 
-# ELECTRA
-
-Aweless in hate, O mother, sternly brave!
+**ELECTRA:** Aweless in hate, O mother, sternly brave!
 
 As in a foeman’s grave
 
@@ -3693,9 +3290,7 @@ Thy husband, thine, yet for his obsequies,
 
 Thou bad’st no wail arise!
 
-# ORESTES
-
-Alas the shameful burial thou dost speak!
+**ORESTES:** Alas the shameful burial thou dost speak!
 
 Yet I the vengeance of his shame will wreak—
 
@@ -3708,8 +3303,7 @@ That shall achieve mine hand!
 Grant me to thrust her life away, and I
 Will dare to die!
 
-**CHORUS**
-List thou the deed! Hewn down and foully torn,
+**CHORUS:** List thou the deed! Hewn down and foully torn,
 He to the tomb was borne;
 Yea, by her hand, the deed who wrought,
 With like dishonour to the grave was brought,
@@ -3718,8 +3312,7 @@ Thy life to crush, O child, by murder of thy sire:
 Bethink thee, hearing, of the shame, the pain
 Wherewith that sire was slain!
 
-**ELECTRA**
-Yea, such was the doom of my sire; well-a-day,
+**ELECTRA:** Yea, such was the doom of my sire; well-a-day,
 I was thrust from his side,—
 As a dog from the chamber they thrust me away,
 And in place of my laughter rose sobbing and tears,
@@ -3727,49 +3320,39 @@ As in darkness I lay.
 O father, if this word can pass to thine ears,
 To thy soul let it reach and abide!
 
-**CHORUS**
-Let it pass, let it pierce, through the sense of thine ear,
+**CHORUS:** Let it pass, let it pierce, through the sense of thine ear,
 To thy soul, where in silence it waiteth the hour!
 The past is accomplished; but rouse thee to hear
 What the future prepareth; awake and appear,
 Our champion, in wrath and in power!
 
-**ORESTES**
-O father, to thy loved ones come in aid.
+**ORESTES:** O father, to thy loved ones come in aid.
 
-**ELECTRA**
-With tears I call on thee.
+**ELECTRA:** With tears I call on thee.
 
-**CHORUS**
-Listen and rise to light!
+**CHORUS:** Listen and rise to light!
 Be thou with us, be thou against the foe!
 Swiftly this cry arises—even so
 Pray we, the loyal band, as we have prayed!
 
-**ORESTES**
-Let their might meet with mine, and their right with my right.
+**ORESTES:** Let their might meet with mine, and their right with my right.
 
-**ELECTRA**
-O ye Gods, it is yours to decree.
+**ELECTRA:** O ye Gods, it is yours to decree.
 
-**CHORUS**
-Ye call unto the dead; I quake to hear.
+**CHORUS:** Ye call unto the dead; I quake to hear.
 Fate is ordained of old, and shall fulfil your prayer.
 
-**ELECTRA**
-Alas, the inborn curse that haunts our home,
+**ELECTRA:** Alas, the inborn curse that haunts our home,
 Of Atè’s bloodstained scourge the tuneless sound!
 Alas, the deep insufferable doom,
 The stanchless wound!
 
-**ORESTES**
-It shall be stanched, the task is ours,—
+**ORESTES:** It shall be stanched, the task is ours,—
 Not by a stranger’s, but by kindred hand,
 Shall be chased forth the blood-fiend of our land.
 Be this our spoken spell, to call Earth’s nether powers!
 
-**CHORUS**
-Lords of a dark eternity,
+**CHORUS:** Lords of a dark eternity,
 To you has come the children’s cry,
 
 
@@ -3779,57 +3362,43 @@ To you has come the children’s cry,
 Send up from hell, fulfil your aid
 To them who prayed.
 
-## ORESTES
-O father, murdered in unkingly wise,
+**ORESTES:** O father, murdered in unkingly wise,
 Fulfil my prayer, grant me thine halls to sway.
 
-## ELECTRA
-To me too, grant this boon—dark death to deal
+**ELECTRA:** To me too, grant this boon—dark death to deal
 Unto Aegisthus, and to 'scape my doom.
 
-## ORESTES
-So shall the rightful feasts that mortals pay
+**ORESTES:** So shall the rightful feasts that mortals pay
 Be set for thee; else, not for thee shall rise
 The scented reek of altars fed with flesh,
 But thou shall lie dishonoured: hear thou me!
 
-## ELECTRA
-I too, from my full heritage restored,
+**ELECTRA:** I too, from my full heritage restored,
 Will pour the lustral streams, what time I pass
 Forth as a bride from these paternal halls,
 And honour first, beyond all graves, thy tomb.
 
-## ORESTES
-Earth, send my sire to fend me in the fight!
+**ORESTES:** Earth, send my sire to fend me in the fight!
 
-## ELECTRA
-Give fair-faced fortune, O Persephone!
+**ELECTRA:** Give fair-faced fortune, O Persephone!
 
-## ORESTES
-Bethink thee, father, in the laver slain—
+**ORESTES:** Bethink thee, father, in the laver slain—
 
-## ELECTRA
-Bethink thee of the net they handselled for thee!
+**ELECTRA:** Bethink thee of the net they handselled for thee!
 
-## ORESTES
-Bonds not of brass ensnared thee, father mine.
+**ORESTES:** Bonds not of brass ensnared thee, father mine.
 
-## ELECTRA
-Yea, the ill craft of an enfolding robe.
+**ELECTRA:** Yea, the ill craft of an enfolding robe.
 
-## ORESTES
-By this our bitter speech arise, O sire!
+**ORESTES:** By this our bitter speech arise, O sire!
 
-## ELECTRA
-Raise thou thine head at love’s last, dearest call!
+**ELECTRA:** Raise thou thine head at love’s last, dearest call!
 
-## ORESTES
-Yea, speed forth Right to aid thy kinsmen’s cause;
+**ORESTES:** Yea, speed forth Right to aid thy kinsmen’s cause;
 Grip for grip, let them grasp the foe, if thou
 Willest in triumph to forget thy fall.
 
-## ELECTRA
-Hear me, O father, once again hear me.
+**ELECTRA:** Hear me, O father, once again hear me.
 Lo! at thy tomb, two fledglings of thy brood—
 A man-child and a maid; hold them in ruth,
 Nor wipe them out, the last of Pelops’ line.
@@ -3841,8 +3410,7 @@ Which save the flex-mesh, in the depth submerged.
 Listen, this wail of ours doth rise for thee,
 And as thou heedest it thyself art saved.
 
-## CHORUS
-In sooth, a blameless prayer ye spake at length—
+**CHORUS:** In sooth, a blameless prayer ye spake at length—
 The tomb’s requital for its dirge denied:
 
 59
@@ -3852,9 +3420,7 @@ The tomb’s requital for its dirge denied:
 Now, for the rest, as thou art fixed to do,
 Take fortune by the hand and work thy will.
 
-## ORESTES
-
-The doom is set; and yet I fain would ask—
+**ORESTES:** The doom is set; and yet I fain would ask—
 Not swerving from the course of my resolve,—
 Wherefore she sent these offerings, and why
 She softens all too late her cureless deed?
@@ -3867,61 +3433,37 @@ Who seeks with other wealth or wine outpoured
 To atone the deed. So stands the word, nor fails.
 Yet would I know her thought; speak, if thou knowest.
 
-## CHORUS
-
-I know it, son; for at her side I stood.
+**CHORUS:** I know it, son; for at her side I stood.
 'Twas the night-wandering terror of a dream
 That flung her shivering from her couch, and bade her—
 Her, the accursed of God—these offerings send.
 
-## ORESTES
+**ORESTES:** Heard ye the dream, to tell it forth aright?
 
-Heard ye the dream, to tell it forth aright?
+**CHORUS:** Yea, from herself; her womb a serpent bare.
 
-## CHORUS
+**ORESTES:** What then the sum and issue of the tale?
 
-Yea, from herself; her womb a serpent bare.
+**CHORUS:** Even as a swaddled child, she lull’d the thing.
 
-## ORESTES
+**ORESTES:** What suckling craved the creature, born full-fanged?
 
-What then the sum and issue of the tale?
+**CHORUS:** Yet in her dreams she proffered it the breast.
 
-## CHORUS
+**ORESTES:** How? did the hateful thing not bite her teat?
 
-Even as a swaddled child, she lull’d the thing.
+**CHORUS:** Yea, and sucked forth a blood-gout in the milk.
 
-## ORESTES
+**ORESTES:** Not vain this dream—it bodes a man’s revenge.
 
-What suckling craved the creature, born full-fanged?
-
-## CHORUS
-
-Yet in her dreams she proffered it the breast.
-
-## ORESTES
-
-How? did the hateful thing not bite her teat?
-
-## CHORUS
-
-Yea, and sucked forth a blood-gout in the milk.
-
-## ORESTES
-
-Not vain this dream—it bodes a man’s revenge.
-
-## CHORUS
-
-Then out of sleep she started with a cry,
+**CHORUS:** Then out of sleep she started with a cry,
 And thro’ the palace for their mistress’ aid
 Full many lamps, that erst lay blind with night,
 Flared into light; then, even as mourners use,
 She sends these offerings, in hope to win
 A cure to cleave and sunder sin from doom.
 
-## ORESTES
-
-Earth and my father’s grave, to you I call—
+**ORESTES:** Earth and my father’s grave, to you I call—
 Give this her dream fulfilment, and thro’ me.
 I read it in each part coincident,
 With what shall be; for mark, that serpent sprang
@@ -3940,12 +3482,10 @@ The death of blood she dies; and I, 'tis I,
 In semblance of a serpent, that must slay her.
 Thou art my seer, and thus I read the dream.
 
-**CHORUS**
-So do; yet ere thou doest, speak to us,
+**CHORUS:** So do; yet ere thou doest, speak to us,
 Siding some act, some, by not acting, aid.
 
-**ORESTES**
-Brief my command: I bid my sister pass
+**ORESTES:** Brief my command: I bid my sister pass
 In silence to the house, and all I bid
 This my design with wariness conceal,
 That they who did by craft a chieftain slay
@@ -3985,8 +3525,7 @@ And guide to victory my striving sword.
 
 [Exit with Pylades.
 
-**CHORUS**
-Many and marvellous the things of fear
+**CHORUS:** Many and marvellous the things of fear
 Earth’s breast doth bear;
 And the sea’s lap with many monsters teems,
 And windy levin-bolts and meteor gleams
@@ -4060,8 +3599,7 @@ Anon, anon!
 
 Speak, from what land art thou, and sent from whom?
 
-ORESTES
-Go, tell to them who rule the palace-halls,
+**ORESTES:** Go, tell to them who rule the palace-halls,
 Since ’tis to them I come with tidings new—
 
 62
@@ -4080,18 +3618,14 @@ But each to each doth tell his meaning clear.
 
 [Enter Clytemnestra.
 
-## CLYTEMNESTRA
-
-Speak on, O strangers; have ye need of aught?
+**CLYTEMNESTRA:** Speak on, O strangers; have ye need of aught?
 Here is whate’er beseems a house like this—
 Warm bath and bed, tired Nature’s soft restorer,
 And courteous eyes to greet you; and if aught
 Of graver import needeth act as well,
 That, as man’s charge, I to a man will tell.
 
-## ORESTES
-
-A Daulian man am I, from Phocis bound,
+**ORESTES:** A Daulian man am I, from Phocis bound,
 And as with mine own travel-scrip self-laden
 I went toward Argos, parting hitherward
 With travelling foot, there did encounter me
@@ -4114,9 +3648,7 @@ Not knowing if I speak unto his kin
 Who rule his home; but well, I deem, it were,
 Such news should earliest reach a parent’s ear.
 
-## CLYTEMNESTRA
-
-Ah woe is me! thy word our ruin tells;
+**CLYTEMNESTRA:** Ah woe is me! thy word our ruin tells;
 From roof-tree unto base are we despoiled.—
 O thou whom nevermore we wrestle down,
 Thou Fury of this home, how oft and oft
@@ -4128,9 +3660,7 @@ Safe from the mire of death stood warily,—
 Was the home’s hope to cure th’ exulting wrong;
 Now thou ordainest, Let the ill abide.
 
-## ORESTES
-
-To host and hostess thus with fortune blest,
+**ORESTES:** To host and hostess thus with fortune blest,
 Lief had I come with better news to bear
 Unto your greeting and acquaintanceship;
 For what goodwill lies deeper than the bond
@@ -4142,9 +3672,7 @@ As well I deem, if I, who pledged my faith
 To one, and greetings from the other had,
 Bore not aright the tidings 'twixt the twain.
 
-## CLYTEMNESTRA
-
-Whate'er thy news, thou shalt not welcome lack,
+**CLYTEMNESTRA:** Whate'er thy news, thou shalt not welcome lack,
 Meet and deserved, nor scant our grace shall be.
 Hadst them thyself not come, such tale to tell,
 Another, sure, had borne it to our ears.
@@ -4164,9 +3692,7 @@ With them will counsel how this hap to bear
 
 [Exit Clytemnestra.
 
-## CHORUS
-
-So be it done—
+**CHORUS:** So be it done—
 Sister-servants, when draws nigh
 Time for us aloud to cry
 Orestes and his victory?
@@ -4188,9 +3714,7 @@ Some grief unbidden walketh at thy side.
 
 [Enter Kilissa, a nurse.
 
-## KILISSA
-
-My mistress bids me, with what speed I may,
+**KILISSA:** My mistress bids me, with what speed I may,
 Call in Aegisthus to the stranger guests,
 That he may come, and standing face to face,
 A man with men, may thus more clearly learn
@@ -4232,51 +3756,38 @@ And now he’s dead—alack and well-a-day!
 Yet must I go to him whose wrongful power
 Pollutes this house—fair tidings these to him!
 
-**CHORUS**
-Say then, with what array she bids him come?
+**CHORUS:** Say then, with what array she bids him come?
 
-**KILISSA**
-What say’st thou! Speak more clearly for mine ear.
+**KILISSA:** What say’st thou! Speak more clearly for mine ear.
 
-**CHORUS**
-Bids she bring henchmen, or to come alone?
+**CHORUS:** Bids she bring henchmen, or to come alone?
 
-**KILISSA**
-She bids him bring a spear-armed body-guard.
+**KILISSA:** She bids him bring a spear-armed body-guard.
 
-**CHORUS**
-Nay, tell not that unto our loathéd lord,
+**CHORUS:** Nay, tell not that unto our loathéd lord,
 But speed to him, put on the mien of joy,
 Say, Come along, fear nought, the news is good:
 A bearer can tell straight a twisted tale.
 
-**KILISSA**
-Does then thy mind in this new tale find joy?
+**KILISSA:** Does then thy mind in this new tale find joy?
 
-**CHORUS**
-What if Zeus bid our ill wind veer to fair?
+**CHORUS:** What if Zeus bid our ill wind veer to fair?
 
-**KILISSA**
-And how? the home’s hope with Orestes dies.
+**KILISSA:** And how? the home’s hope with Orestes dies.
 
-**CHORUS**
-Not yet—a seer, though feeble, this might see.
+**CHORUS:** Not yet—a seer, though feeble, this might see.
 
-**KILISSA**
-What say’st thou? Know’st thou aught, this tale belying?
+**KILISSA:** What say’st thou? Know’st thou aught, this tale belying?
 
-**CHORUS**
-Go, tell the news to him, perform thine hest,—
+**CHORUS:** Go, tell the news to him, perform thine hest,—
 What the gods will, themselves can well provide.
 
-**KILISSA**
-Well, I will go, herein obeying thee;
+**KILISSA:** Well, I will go, herein obeying thee;
 And luck fall fair, with favour sent from heaven.
 
 [Exit.
 
-**CHORUS**
-Zeus, sire of them who on Olympus dwell,
+**CHORUS:** Zeus, sire of them who on Olympus dwell,
 Hear thou, O hear my prayer!
 Grant to my rightful lords to prosper well
 
@@ -4347,9 +3858,7 @@ And do to utter death him that pollutes thy home.
 
 ---
 
-# AEGISTHUS
-
-Hither and not unsummoned have I come;
+**AEGISTHUS:** Hither and not unsummoned have I come;
 For a new rumour, borne by stranger men
 Arriving hither, hath attained mine ears,
 Of hap unwished-for, even Orestes’ death.
@@ -4361,25 +3870,19 @@ Or are they tales, of woman’s terror born,
 That fly in the void air, and die disproved?
 Canst thou tell aught, and prove it to my soul?
 
-# CHORUS
-
-What we have heard, we heard; go thou within
+**CHORUS:** What we have heard, we heard; go thou within
 Thyself to ask the strangers of their tale.
 Strengthless are tidings, thro’ another heard;
 Question is his, to whom the tale is brought.
 
-# AEGISTHUS
-
-I too will meet and test the messenger,
+**AEGISTHUS:** I too will meet and test the messenger,
 Whether himself stood witness of the death,
 Or tells it merely from dim rumour learnt:
 None shall cheat me, whose soul hath watchful eyes.
 
 [Exit.
 
-# CHORUS
-
-Zeus, Zeus! what word to me is given?
+**CHORUS:** Zeus, Zeus! what word to me is given?
 What cry or prayer, invoking heaven,
 Shall first by me be utterèd?
 What speech of craft? nor all revealing,
@@ -4401,22 +3904,16 @@ Ho for the victory!
 
 [A loud cry within.
 
-# VOICE OF AEGISTHUS
+**VOICE OF AEGISTHUS:** Help, help, alas!
 
-Help, help, alas!
-
-# CHORUS
-
-Ho there, ho! how is’t within?
+**CHORUS:** Ho there, ho! how is’t within?
 Is’t done? is’t over? Stand we here aloof
 While it is wrought, that guiltless we may seem
 Of this dark deed; with death is strife fulfilled.
 
 [Enter a slave
 
-# SLAVE
-
-O woe, O woe, my lord is done to death!
+**SLAVE:** O woe, O woe, my lord is done to death!
 Woe, woe, and woe again, AEgisthus gone!
 Hasten, fling wide the doors, unloose the bolts
 
@@ -4433,17 +3930,11 @@ And soon shall sink, hewn thro' as justice wills.
 
 [Enter Clytemnestra.
 
-## CLYTEMNESTRA
+**CLYTEMNESTRA:** What ails thee, raising this ado for us?
 
-What ails thee, raising this ado for us?
+**SLAVE:** I say the dead are come to slay the living.
 
-## SLAVE
-
-I say the dead are come to slay the living.
-
-## CLYTEMNESTRA
-
-Alack, I read thy riddles all too clear—
+**CLYTEMNESTRA:** Alack, I read thy riddles all too clear—
 We slew by craft and by like craft shall die.
 Swift, bring the axe that slew my lord of old;
 I'll know anon or death or victory—
@@ -4451,38 +3942,24 @@ So stands the curse, so I confront it here.
 
 [Enter Orestes, his sword dropping with blood.
 
-## ORESTES
+**ORESTES:** Thee too I seek: for him what's done will serve.
 
-Thee too I seek: for him what's done will serve.
+**CLYTEMNESTRA:** Woe, woe! Aegisthus, spouse and champion, slain!
 
-## CLYTEMNESTRA
-
-Woe, woe! Aegisthus, spouse and champion, slain!
-
-## ORESTES
-
-What lov'st the man? then in his grave lie down,
+**ORESTES:** What lov'st the man? then in his grave lie down,
 Be his in death, desert him nevermore!
 
-## CLYTEMNESTSA
-
-Stay, child, and fear to strike. O son, this breast
+**CLYTEMNESTRA:** Stay, child, and fear to strike. O son, this breast
 Pillowed thine head full oft, while, drowsed with sleep,
 Thy toothless mouth drew mother's milk from me.
 
-## ORESTES
+**ORESTES:** Can I my mother spare? speak, Pylades,
 
-Can I my mother spare? speak, Pylades,
-
-## PYLADES
-
-Where then would fall the hest Apollo gave
+**PYLADES:** Where then would fall the hest Apollo gave
 At Delphi, where the solemn compact sworn?
 Choose thou the hate of all men, not of gods.
 
-## ORESTES
-
-Thou dost prevail; I hold thy counsel good.
+**ORESTES:** Thou dost prevail; I hold thy counsel good.
 
 [To Clytemnestra.
 
@@ -4491,85 +3968,58 @@ With him whom in his life thou lovedst more
 Than Agamemnon, sleep in death, the meed
 For hate where love, and love where hate was due!
 
-## CLYTEMNESTRA
+**CLYTEMNESTRA:** I nursed thee young; must I forego mine eld?
 
-I nursed thee young; must I forego mine eld?
+**ORESTES:** Thou slew'st my father; shalt thou dwell with me?
 
-## ORESTES
+**CLYTEMNESTRA:** Fate bore a share in these things, O my child!
 
-Thou slew'st my father; shalt thou dwell with me?
-
-## CLYTEMNESTRA
-
-Fate bore a share in these things, O my child!
-
-## ORESTES
-
-Fate also doth provide this doom for thee.
+**ORESTES:** Fate also doth provide this doom for thee.
 
 68
 
 ---
 
-CLYTEMNESTRA
-Beware, O my child, a parent’s dying curse.
+**CLYTEMNESTRA:** Beware, O my child, a parent’s dying curse.
 
-ORESTES
-A parent who did cast me out to ill!
+**ORESTES:** A parent who did cast me out to ill!
 
-CLYTEMNESTRA
-Not cast thee out, but to a friendly home.
+**CLYTEMNESTRA:** Not cast thee out, but to a friendly home.
 
-ORESTES
-Born free, I was by twofold bargain sold.
+**ORESTES:** Born free, I was by twofold bargain sold.
 
-CLYTEMNESTRA
-Where then the price that I received for thee?
+**CLYTEMNESTRA:** Where then the price that I received for thee?
 
-ORESTES
-The price of shame; I taunt thee not more plainly.
+**ORESTES:** The price of shame; I taunt thee not more plainly.
 
-CLYTEMNESTRA
-Nay, but recount thy father’s lewdness too.
+**CLYTEMNESTRA:** Nay, but recount thy father’s lewdness too.
 
-ORESTES
-Home-keeping, chide not him who toils without.
+**ORESTES:** Home-keeping, chide not him who toils without.
 
-CLYTEMNESTRA
-’Tis hard for wives to live as widows, child.
+**CLYTEMNESTRA:** ’Tis hard for wives to live as widows, child.
 
-ORESTES
-The absent husband toils for them at home.
+**ORESTES:** The absent husband toils for them at home.
 
-CLYTEMNESTRA
-Thou growest fain to slay thy mother, child
+**CLYTEMNESTRA:** Thou growest fain to slay thy mother, child
 
-ORESTES
-Nay, ’tis thyself wilt slay thyself, not I.
+**ORESTES:** Nay, ’tis thyself wilt slay thyself, not I.
 
-CLYTEMNESTRA
-Beware thy mother’s vengeful hounds from hell.
+**CLYTEMNESTRA:** Beware thy mother’s vengeful hounds from hell.
 
-ORESTES
-How shall I ’scape my father’s, sparing thee?
+**ORESTES:** How shall I ’scape my father’s, sparing thee?
 
-CLYTEMNESTRA
-Living, I cry as to a tomb, unheard.
+**CLYTEMNESTRA:** Living, I cry as to a tomb, unheard.
 
-ORESTES
-My father’s fate ordains this doom for thee.
+**ORESTES:** My father’s fate ordains this doom for thee.
 
-CLYTEMNESTRA
-Ah, me! this snake it was I bore and nursed.
+**CLYTEMNESTRA:** Ah, me! this snake it was I bore and nursed.
 
-ORESTES
-Ay, right prophetic was thy visioned fear.
+**ORESTES:** Ay, right prophetic was thy visioned fear.
 Shameful thy deed was—die the death of shame!
 
 [Exit, driving Clytemnestra before him.]
 
-CHORUS
-Lo, even for these I mourn, a double death:
+**CHORUS:** Lo, even for these I mourn, a double death:
 Yet since Orestes, driven on by doom,
 Thus crowns the height of murders manifold,
 I say, ’tis well—that not in night and death
@@ -4626,9 +4076,7 @@ Lo, freedom's light hath come!
 
 [The scene opens, disclosing Orestes standing over the corpses of Aegisthus and Clytemnestra; in one hand he holds his sword, in the other the robe in which Agamemnon was entangled and slain.]
 
-## ORESTES
-
-There lies our country's twofold tyranny,
+**ORESTES:** There lies our country's twofold tyranny,
 My father's slayers, spoilers of my home.
 Erst were they royal, sitting on the throne,
 And loving are they yet,—their common fate
@@ -4672,14 +4120,12 @@ Full oft exult in heat of villainy.
 Ne’er have my house so cursed an indweller—
 Heaven send me, rather, childless to be slain!
 
-**CHORUS**
-Woe for each desperate deed!
+**CHORUS:** Woe for each desperate deed!
 Woe for the queen, with shame of life bereft!
 And ah, for him who still is left,
 Madness, dark blossom of a bloody seed!
 
-**ORESTES**
-Did she the deed or not? this robe gives proof,
+**ORESTES:** Did she the deed or not? this robe gives proof,
 Imbrued with blood that bathed Aegisthus’ sword:
 Look, how the spurted stain combines with time
 To blur the many dyes that once adorned
@@ -4689,14 +4135,12 @@ Hear, O thou woven web that slew my sire!
 I grieve for deed and death and all my home—
 Victor, pollution’s damnéd stain for prize.
 
-**CHORUS**
-Alas, that none of mortal men
+**CHORUS:** Alas, that none of mortal men
 Can pass his life untouched by pain!
 Behold, one woe is here—
 Another loometh near.
 
-**ORESTES**
-Hark ye and learn—for what the end shall be
+**ORESTES:** Hark ye and learn—for what the end shall be
 For me I know not: breaking from the curb
 My spirit whirls me off, a conquered prey,
 Borne as a charioteer by steeds distraught
@@ -4729,47 +4173,38 @@ How came on me this dread fatality.
 Living, I pass a banished wanderer hence,
 To leave in death the memory of this cry.
 
-**CHORUS**
-Nay, but the deed is well; link not thy lips
+**CHORUS:** Nay, but the deed is well; link not thy lips
 To speech ill-starred, nor vent ill-boding words—
 Who hast to Argos her full freedom given,
 Lopping two serpents’ heads with timely blow.
 
-**ORESTES**
-Look, look, alas!
+**ORESTES:** Look, look, alas!
 Handmaidens, see—what Gorgon shapes throng up;
 Dusky their robes and all their hair enwound—
 Snakes coiled with snakes—off, off, I must away!
 
-**CHORUS**
-Most loyal of all sons unto thy sire,
+**CHORUS:** Most loyal of all sons unto thy sire,
 What visions thus distract thee? Hold, abide;
 Great was thy victory, and shalt thou fear?
 
-**ORESTES**
-These are no dreams, void shapes of haunting ill,
+**ORESTES:** These are no dreams, void shapes of haunting ill,
 But clear to sight my mother’s hell-hounds come!
 
-**CHORUS**
-Nay, the fresh bloodshed still imbrues thine hands,
+**CHORUS:** Nay, the fresh bloodshed still imbrues thine hands,
 And thence distraction sinks into thy soul.
 
-**ORESTES**
-O king Apollo—see, they swarm and throng—
+**ORESTES:** O king Apollo—see, they swarm and throng—
 Black blood of hatred dripping from their eyes!
 
-**CHORUS**
-One remedy thou hast; go, touch the shrine
+**CHORUS:** One remedy thou hast; go, touch the shrine
 Of Loxias, and rid thee of these woes.
 
-**ORESTES**
-Ye can behold them not, but I behold them.
+**ORESTES:** Ye can behold them not, but I behold them.
 Up and away! I dare abide no more.
 
 [Exit
 
-**CHORUS**
-Farewell then as thou mayst,—the god thy friend
+**CHORUS:** Farewell then as thou mayst,—the god thy friend
 Guard thee and aid with chances favouring.
 
 Behold, the storm of woe divine
@@ -4906,9 +4341,7 @@ Of other homes—behold, his own to cleanse!
 
 [The scene opens, disclosing the interior of the temple: Orestes clings to the central altar; the Furies lie slumbering at a little distance; Apollo and Hermes appear from the innermost shrine.
 
-**APOLLO**
-
-Lo, I desert thee never: to the end,
+**APOLLO:** Lo, I desert thee never: to the end,
 Hard at thy side as now, or sundered far,
 I am thy guard, and to thine enemies
 Implacably oppose me: look on them,
@@ -4938,15 +4371,11 @@ Skilled to contrive for thee deliverance
 From all this woe. Be such my pledge to thee,
 For by my hest thou didst thy mother slay.
 
-## ORESTES
-
-O king Apollo, since right well thou know'st
+**ORESTES:** O king Apollo, since right well thou know'st
 What justice bids, have heed, fulfil the same,—
 Thy strength is all-sufficient to achieve.
 
-## APOLLO
-
-Have thou too heed, nor let thy fear prevail
+**APOLLO:** Have thou too heed, nor let thy fear prevail
 Above thy will. And do thou guard him, Hermes,
 Whose blood is brother unto mine, whose sire
 The same high God. Men call thee guide and guard,
@@ -4956,9 +4385,7 @@ Boon of fair escort, upon man conferred.
 
 [Exeunt Apollo, Hermes, and Orestes. The Ghost of Clytemnestra near
 
-## GHOST OF CLYTEMNESTRA
-
-Sleep on! awake! what skills your sleep to me—
+**GHOST OF CLYTEMNESTRA:** Sleep on! awake! what skills your sleep to me—
 Me, among all the dead by you dishonoured—
 Me from whom never, in the world of death,
 Dieth this curse, 'Tis she who smote and slew,
@@ -5011,9 +4438,7 @@ Have quelled your dragon-anger, once so fell!
 THE FURIES (muttering more fiercely and loudly)
 Seize, seize, seize, seize—mark, yonder!
 
-GHOST
-
-In dreams ye chase a prey, and like some hound,
+**GHOST:** In dreams ye chase a prey, and like some hound,
 That even in sleep doth ply his woodland toil,
 Ye bell and bay. What do ye, sleeping here?
 Be not o’ercome with toil, nor sleep-subdued,
@@ -5031,8 +4456,7 @@ Up! rouse another as I rouse thee; up!
 Sleep’st thou? Rise up, and spurning sleep away,
 See we if false to us this prelude rang.
 
-CHORUS OF FURIES
-Alack, alack, O sisters, we have toiled,
+**CHORUS OF FURIES:** Alack, alack, O sisters, we have toiled,
 O much and vainly have we toiled and borne!
 Vainly! and all we wrought the gods have foiled,
 And turned us to scorn!
@@ -5078,9 +4502,7 @@ Descending on his head who foully slew.
 
 {Re-enter Apollo from the inner shrine.
 
-# APOLLO
-
-Out! I command you. Out from this my home—
+**APOLLO:** Out! I command you. Out from this my home—
 Haste, tarry not! Out from the mystic shrine,
 Lest thy lot be to take into thy breast
 The winged bright dart that from my golden string
@@ -5104,58 +4526,37 @@ Nor bring pollution by your touch on all
 That nears you. Hence! and roam unshepherded—
 No god there is to tend such herd as you.
 
-# CHORUS
-
-O king Apollo, in our turn hear us.
+**CHORUS:** O king Apollo, in our turn hear us.
 Thou hast’ not only part in these ill things,
 But art chief cause and doer of the same.
 
-# APOLLO
+**APOLLO:** How? stretch thy speech to tell this, and have done.
 
-How? stretch thy speech to tell this, and have done.
+**CHORUS:** Thine oracle bade this man slay his mother.
 
-# CHORUS
+**APOLLO:** I bade him quit his sire’s death,—wherefore not?
 
-Thine oracle bade this man slay his mother.
+**CHORUS:** Then didst thou aid and guard red-handed crime.
 
-# APOLLO
+**APOLLO:** Yea, and I bade him to this temple flee.
 
-I bade him quit his sire’s death,—wherefore not?
-
-# CHORUS
-
-Then didst thou aid and guard red-handed crime.
-
-# APOLLO
-
-Yea, and I bade him to this temple flee.
-
-# CHORUS
-
-And yet forsooth dost chide us following him!
+**CHORUS:** And yet forsooth dost chide us following him!
 
 ---
 
-APOLLO
-Ay—not for you it is, to near this fane.
+**APOLLO:** Ay—not for you it is, to near this fane.
 
-CHORUS
-Yet is such office ours, imposed by fate.
+**CHORUS:** Yet is such office ours, imposed by fate.
 
-APOLLO
-What office? vaunt the thing ye deem so fair.
+**APOLLO:** What office? vaunt the thing ye deem so fair.
 
-CHORUS
-From home to home we chase the matricide.
+**CHORUS:** From home to home we chase the matricide.
 
-APOLLO
-What? to avenge a wife who slays her lord?
+**APOLLO:** What? to avenge a wife who slays her lord?
 
-CHORUS
-That is not blood outpoured by kindred hands.
+**CHORUS:** That is not blood outpoured by kindred hands.
 
-APOLLO
-How darkly ye dishonour and annul
+**APOLLO:** How darkly ye dishonour and annul
 The troth to which the high accomplishments,
 Hera and Zeus, do honour. Yea, and thus
 Is Aphrodite to dishonour cast,
@@ -5172,25 +4573,19 @@ Against one deed, but all too placable
 Unto the other, minishing the crime.
 But in this cause shall Pallas guard the right.
 
-CHORUS
-Deem not my quest shall ever quit that man.
+**CHORUS:** Deem not my quest shall ever quit that man.
 
-APOLLO
-Follow then, make thee double toil in vain!
+**APOLLO:** Follow then, make thee double toil in vain!
 
-CHORUS
-Think not by speech mine office to curtail.
+**CHORUS:** Think not by speech mine office to curtail.
 
-APOLLO
-None hast thou, that I would accept of thee!
+**APOLLO:** None hast thou, that I would accept of thee!
 
-CHORUS
-Yea, high thine honour by the throne of Zeus:
+**CHORUS:** Yea, high thine honour by the throne of Zeus:
 But I, drawn on by scent of mother’s blood,
 Seek vengeance on this man and hound him down.
 
-APOLLO
-But I will stand beside him; ’tis for me
+**APOLLO:** But I will stand beside him; ’tis for me
 To guard my suppliant: gods and men alike
 Do dread the curse of such an one betrayed,
 And in me Fear and Will say Leave him not.
@@ -5199,8 +4594,7 @@ And in me Fear and Will say Leave him not.
 The scene changes to Athens. In the foreground, the Temple of Athena on the Acropolis; her statue stands in the centre;
 Orestes is seen clinging to it.
 
-ORESTES
-Look on me, queen Athena; lo, I come
+**ORESTES:** Look on me, queen Athena; lo, I come
 By Loxias’ behest; thou of thy grace
 Receive me, driven of avenging powers—
 Not now a red-hand slayer unannealed,
@@ -5214,9 +4608,7 @@ I roamed, obedient to Apollo’s hest,
 And come at last, O Goddess, to thy fane,
 And clinging to thine image, bide my doom.
 
-## CHORUS
-
-Ho! clear is here the trace of him we seek:
+**CHORUS:** Ho! clear is here the trace of him we seek:
 Follow the track of blood, the silent sign!
 Like to some hound that hunts a wounded fawn,
 We snuff along the scent of dripping gore,
@@ -5269,9 +4661,7 @@ The judgment-seat of Death;
 Yea, Death, beholding every man’s endeavour
 Recordeth it for ever.
 
-## ORESTES
-
-I, schooled in many miseries, have learnt
+**ORESTES:** I, schooled in many miseries, have learnt
 How many refuges of cleansing shrines
 There be; I know when law alloweth speech
 And when imposeth silence. Lo, I stand
@@ -5307,9 +4697,7 @@ I cry to her to come, where'er she be,
 (And she, as goddess, from afar can hear,)
 And aid and free me, set among my foes.
 
-## CHORUS
-
-Thee not Apollo nor Athena's strength
+**CHORUS:** Thee not Apollo nor Athena's strength
 Can save from perishing, a castaway
 Amid the Lost, where no delight shall meet
 Thy soul—a bloodless prey of nether powers,
@@ -5447,9 +4835,7 @@ And sunless dark I dwell.
 
 [Enter Athena from above.]
 
-## ATHENA
-
-Far off I heard the clamour of your cry,
+**ATHENA:** Far off I heard the clamour of your cry,
 As by Scamander’s side I set my foot
 Asserting right upon the land given o’er
 To me by those who o’er Achaia’s host
@@ -5471,68 +4857,47 @@ Like to no shape which mortal women wear.
 Yet to stand by and chide a monstrous form
 Is all unjust—from such words Right revolts.
 
-## CHORUS
-
-O child of Zeus, one word shall tell thee all.
+**CHORUS:** O child of Zeus, one word shall tell thee all.
 We are the children of eternal Night,
 And Furies in the underworld are called.
 
-## ATHENA
-
-I know your lineage now and eke your name.
+**ATHENA:** I know your lineage now and eke your name.
 
 ---
 
-CHORUS
-Yea, and eftsoons indeed my rights shalt know.
+**CHORUS:** Yea, and eftsoons indeed my rights shalt know.
 
-ATHENA
-Fain would I learn them; speak them clearly forth.
+**ATHENA:** Fain would I learn them; speak them clearly forth.
 
-CHORUS
-We chase from home the murderers of men.
+**CHORUS:** We chase from home the murderers of men.
 
-ATHENA
-And where at last can he that slew make pause?
+**ATHENA:** And where at last can he that slew make pause?
 
-CHORUS
-Where this is law—All joy abandon here.
+**CHORUS:** Where this is law—All joy abandon here.
 
-ATHENA
-Say, do ye bay this man to such a flight?
+**ATHENA:** Say, do ye bay this man to such a flight?
 
-CHORUS
-Yea, for of choice he did his mother slay.
+**CHORUS:** Yea, for of choice he did his mother slay.
 
-ATHENA
-Urged by no fear of other wrath and doom?
+**ATHENA:** Urged by no fear of other wrath and doom?
 
-CHORUS
-What spur can rightly goad to matricide?
+**CHORUS:** What spur can rightly goad to matricide?
 
-ATHENA
-Two stand to plead—one only have I heard.
+**ATHENA:** Two stand to plead—one only have I heard.
 
-CHORUS
-He will not swear nor challenge us to oath.
+**CHORUS:** He will not swear nor challenge us to oath.
 
-ATHENA
-The form of justice, not its deed, thou willest.
+**ATHENA:** The form of justice, not its deed, thou willest.
 
-CHORUS
-Prove thou that word; thou art not scant of skill.
+**CHORUS:** Prove thou that word; thou art not scant of skill.
 
-ATHENA
-I say that oaths shall not enforce the wrong.
+**ATHENA:** I say that oaths shall not enforce the wrong.
 
-CHORUS
-Then test the cause, judge and award the right.
+**CHORUS:** Then test the cause, judge and award the right.
 
-ATHENA
-Will ye to me then this decision trust?
+**ATHENA:** Will ye to me then this decision trust?
 
-CHORUS
-Yea, reverencing true child of worthy sire.
+**CHORUS:** Yea, reverencing true child of worthy sire.
 
 ATHENA (to Orestes)
 O man unknown, make thou thy plea in turn.
@@ -5544,8 +4909,7 @@ Clasping this statue, as Ixion sat,
 A sacred suppliant for Zeus to cleanse,—
 To all this answer me in words made plain.
 
-ORESTES
-O queen Athena, first from thy last words
+**ORESTES:** O queen Athena, first from thy last words
 Will I a great solicitude remove.
 Not one blood-guilty am I; no foul stain
 Clings to thine image from my clinging hand;
@@ -5579,8 +4943,7 @@ Unless by me the guilty found their doom.
 Do thou decide if right or wrong were done—
 Thy dooming, whatsoever it be, contents me.
 
-**ATHENA**
-Too mighty is this matter, whatsoever
+**ATHENA:** Too mighty is this matter, whatsoever
 Of mortals claims to judge hereof aright.
 Yea, me, even me, eternal Right forbids
 To judge the issues of blood-guilt, and wrath
@@ -5610,8 +4973,7 @@ And pledge your oath to utter nought of wrong.
 
 [Exit Athena.
 
-**CHORUS**
-Now are they all undone, the ancient laws,
+**CHORUS:** Now are they all undone, the ancient laws,
 If here the slayer’s cause
 Prevail; new wrong for ancient right shall be
 If matricide go free.
@@ -5708,8 +5070,7 @@ Unwept, for ever, to the dead forgotten world.
 
 [Re-enter Athena, with twelve Athenian citizens.]
 
-ATHENA
-O herald, make proclaim, bid all men come.
+**ATHENA:** O herald, make proclaim, bid all men come.
 Then let the shrill blast of the Tyrrhene trump,
 Fulfilled with mortal breath, thro’ the wide air
 Peal a loud summons, bidding all men heed.
@@ -5720,12 +5081,10 @@ And these men, that the cause be judged aright.
 
 [Apollo approaches.]
 
-CHORUS
-O king Apollo, rule what is thine own,
+**CHORUS:** O king Apollo, rule what is thine own,
 But in this thing what share pertains to thee?
 
-APOLLO
-First, as a witness come I, for this man
+**APOLLO:** First, as a witness come I, for this man
 Is suppliant of mine by sacred right,
 Guest of my holy hearth and cleansed by me
 Of blood-guilt: then, to set me at his side
@@ -5738,86 +5097,63 @@ ATHENA (to the Chorus)
 For rightfully shall they whose plaint is tried
 Tell the tale first and set the matter clear.
 
-CHORUS
-Though we be many, brief shall be our tale.
+**CHORUS:** Though we be many, brief shall be our tale.
 (To Orestes) Answer thou, setting word to match with word;
 And first avow—hast thou thy mother slain?
 
-ORESTES
-I slew her. I deny no word hereof.
+**ORESTES:** I slew her. I deny no word hereof.
 
-CHORUS
-Three falls decide the wrestle—this is one.
+**CHORUS:** Three falls decide the wrestle—this is one.
 
-ORESTES
-Thou vauntest thee—but o’er no final fall.
+**ORESTES:** Thou vauntest thee—but o’er no final fall.
 
-CHORUS
-Yet must thou tell the manner of thy deed.
+**CHORUS:** Yet must thou tell the manner of thy deed.
 
 87
 
 ---
 
-ORESTES
-Drawn sword in hand, I gashed her neck. 'Tis told.
+**ORESTES:** Drawn sword in hand, I gashed her neck. 'Tis told.
 
-CHORUS
-But by whose word, whose craft, wert thou impelled?
+**CHORUS:** But by whose word, whose craft, wert thou impelled?
 
-ORESTES
-By oracles of him who here attests me.
+**ORESTES:** By oracles of him who here attests me.
 
-CHORUS
-The prophet-god bade thee thy mother slay?
+**CHORUS:** The prophet-god bade thee thy mother slay?
 
-ORESTES
-Yea, and thro’ him less ill I fared, till now.
+**ORESTES:** Yea, and thro’ him less ill I fared, till now.
 
-CHORUS
-If the vote grip thee, thou shalt change that word.
+**CHORUS:** If the vote grip thee, thou shalt change that word.
 
-ORESTES
-Strong is my hope; my buried sire shall aid.
+**ORESTES:** Strong is my hope; my buried sire shall aid.
 
-CHORUS
-Go to now, trust the dead, a matricide!
+**CHORUS:** Go to now, trust the dead, a matricide!
 
-ORESTES
-Yea, for in her combined two stains of sin.
+**ORESTES:** Yea, for in her combined two stains of sin.
 
-CHORUS
-How? speak this clearly to the judges’ mind.
+**CHORUS:** How? speak this clearly to the judges’ mind.
 
-ORESTES
-Slaying her husband, she did slay my sire.
+**ORESTES:** Slaying her husband, she did slay my sire.
 
-CHORUS
-Therefore thou livest; death assoils her deed.
+**CHORUS:** Therefore thou livest; death assoils her deed.
 
-ORESTES
-Then while she lived why didst thou hunt her not?
+**ORESTES:** Then while she lived why didst thou hunt her not?
 
-CHORUS
-She was not kin by blood to him she slew.
+**CHORUS:** She was not kin by blood to him she slew.
 
-ORESTES
-And I, am I by blood my mother’s kin?
+**ORESTES:** And I, am I by blood my mother’s kin?
 
-CHORUS
-O cursed with murder’s guilt, how else wert thou
+**CHORUS:** O cursed with murder’s guilt, how else wert thou
 The burden of her womb? Dost thou forswear
 Thy mother’s kinship, closest bond of love?
 
-ORESTES
-It is thine hour, Apollo—speak the law,
+**ORESTES:** It is thine hour, Apollo—speak the law,
 Averring if this deed were justly done;
 For done it is, and clear and undenied.
 But if to thee this murder’s cause seem right
 Or wrongful, speak—that I to these may tell.
 
-APOLLO
-To you, Athena’s mighty council-court,
+**APOLLO:** To you, Athena’s mighty council-court,
 Justly for justice will I plead, even I,
 The prophet-god, nor cheat you by one word.
 For never spake I from my prophet-seat
@@ -5830,16 +5166,12 @@ For oaths prevail not over Zeus’ command.
 
 ---
 
-# CHORUS
-
-Go to; thou sayest that from Zeus befel
+**CHORUS:** Go to; thou sayest that from Zeus befel
 The oracle that this Orestes bade
 With vengeance quit the slaying of his sire,
 And hold as nought his mother’s right of kin!
 
-# APOLLO
-
-Yea, for it stands not with a common death,
+**APOLLO:** Yea, for it stands not with a common death,
 That he should die, a chieftain and a king
 Decked with the sceptre which high heaven confers—
 Die, and by female hands, not smitten down
@@ -5859,17 +5191,13 @@ The majesty of Greece, the fleet’s high lord:
 Such as I tell it, let it gall your ears,
 Who stand as judges to decide this cause.
 
-# CHORUS
-
-Zeus, as thou sayest, holds a father’s death
+**CHORUS:** Zeus, as thou sayest, holds a father’s death
 As first of crimes,—yet he of his own act
 Cast into chains his father, Cronos old:
 How suits that deed with that which now ye tell?
 O ye who judge, I bid ye mark my words!
 
-# APOLLO
-
-O monsters loathed of all, O scorn of gods,
+**APOLLO:** O monsters loathed of all, O scorn of gods,
 He that hath bound may loose: a cure there is,
 Yea, many a plan that can unbind the chain.
 But when the thirsty dust sucks up man’s blood
@@ -5878,17 +5206,13 @@ No chant nor charm for this my Sire hath wrought.
 All else there is, he moulds and shifts at will,
 Not scant of strength nor breath, whate’er he do.
 
-# CHORUS
-
-Think yet, for what acquittal thou dost plead:
+**CHORUS:** Think yet, for what acquittal thou dost plead:
 He who hath shed a mother’s kindred blood,
 Shall he in Argos dwell, where dwelt his sire?
 How shall he stand before the city’s shrines,
 How share the clansmen’s holy lustral bowl?
 
-# APOLLO
-
-This too I answer; mark a soothfast word,
+**APOLLO:** This too I answer; mark a soothfast word,
 Not the true parent is the woman’s womb
 That bears the child; she doth but nurse the seed
 New-sown: the male is parent; she for him,
@@ -5914,23 +5238,19 @@ Mayst win and hold him faithful, and his line,
 And that for aye this pledge and troth remain
 To children’s children of Athenian seed.
 
-**ATHENA**
-Enough is said; I bid the judges now
+**ATHENA:** Enough is said; I bid the judges now
 With pure intent deliver just award.
 
-**CHORUS**
-We too have shot our every shaft of speech,
+**CHORUS:** We too have shot our every shaft of speech,
 And now abide to hear the doom of law.
 
 **ATHENA** (to Apollo and Orestes)
 Say, how ordaining shall I ’scape your blame?
 
-**APOLLO**
-I spake, ye heard; enough. O stranger men,
+**APOLLO:** I spake, ye heard; enough. O stranger men,
 Heed well your oath as ye decide the cause.
 
-**ATHENA**
-O men of Athens, ye who first do judge
+**ATHENA:** O men of Athens, ye who first do judge
 The law of bloodshed, hear me now ordain.
 Here to all time for Aegeus’ Attic host
 Shall stand this council-court of judges sworn,
@@ -5975,53 +5295,41 @@ Your oath revering. Lo, my word is said.
 
 [The twelve judges come forward, one by one, to the urns of decision; the first votes; as each of the others follows, the Chorus and Apollo speak alternately.
 
-**CHORUS**
-I rede ye well, beware! nor put to shame,
+**CHORUS:** I rede ye well, beware! nor put to shame,
 In aught, this grievous company of hell.
 
-**APOLLO**
-I too would warn you, fear mine oracles—
+**APOLLO:** I too would warn you, fear mine oracles—
 From Zeus they are,—nor make them void of fruit.
 
-**CHORUS**
-Presumptuous is thy claim, blood-guilt to judge,
+**CHORUS:** Presumptuous is thy claim, blood-guilt to judge,
 And false henceforth thine oracles shall be.
 
-**APOLLO**
-Failed then the counsels of my sire, when turned
+**APOLLO:** Failed then the counsels of my sire, when turned
 Ixion, first of slayers, to his side?
 
-**CHORUS**
-These are but words; but I, if justice fail me,
+**CHORUS:** These are but words; but I, if justice fail me,
 Will haunt this land in grim and deadly deed.
 
-**APOLLO**
-Scorn of the younger and the elder gods
+**APOLLO:** Scorn of the younger and the elder gods
 Art thou: ’tis I that shall prevail anon.
 
-**CHORUS**
-Thus didst thou too of old in Pheres’ halls,
+**CHORUS:** Thus didst thou too of old in Pheres’ halls,
 O’erreaching Fate to make a mortal deathless.
 
-**APOLLO**
-Was it not well, my worshipper to aid,
+**APOLLO:** Was it not well, my worshipper to aid,
 Then most of all when hardest was the need?
 
-**CHORUS**
-I say thou didst annul the lots of life,
+**CHORUS:** I say thou didst annul the lots of life,
 Cheating with wine the deities of eld.
 
-**APOLLO**
-I say thou shalt anon, thy pleadings foiled,
+**APOLLO:** I say thou shalt anon, thy pleadings foiled,
 Spit venom vainly on thine enemies.
 
-**CHORUS**
-Since this young god o’errides mine ancient right,
+**CHORUS:** Since this young god o’errides mine ancient right,
 I tarry but to claim your law, not knowing
 If wrath of mine shall blast your state or spare
 
-**ATHENA**
-Mine is the right to add the final vote,
+**ATHENA:** Mine is the right to add the final vote,
 And I award it to Orestes’ cause.
 For me no mother bore within her womb,
 And, save for wedlock evermore eschewed,
@@ -6039,31 +5347,24 @@ Swiftly shake forth the lots from either urn.
 
 ---
 
-ORESTES
-O bright Apollo, what shall be the end?
+**ORESTES:** O bright Apollo, what shall be the end?
 
-CHORUS
-O Night, dark mother mine, dost mark these things?
+**CHORUS:** O Night, dark mother mine, dost mark these things?
 
-OSESTES
-Now shall my doom be life, or strangling cords.
+**ORESTES:** Now shall my doom be life, or strangling cords.
 
-CHORUS
-And mine, lost honour or a wider sway.
+**CHORUS:** And mine, lost honour or a wider sway.
 
-APOLLO
-O stranger judges, sum aright the count
+**APOLLO:** O stranger judges, sum aright the count
 Of votes cast forth, and, parting them, take heed
 Ye err not in decision. The default
 Of one vote only bringeth ruin deep,
 One, cast aright, doth stablish house and home.
 
-ATHENA
-Behold, this man is free from guilt of blood,
+**ATHENA:** Behold, this man is free from guilt of blood,
 For half the votes condemn him, half set free!
 
-ORESTES
-O Pallas, light and safety of my home,
+**ORESTES:** O Pallas, light and safety of my home,
 Thou, thou hast given me back to dwell once more
 In that my fatherland, amerced of which
 I wandered; now shall Grecian lips say this,
@@ -6093,8 +5394,7 @@ And, strong to save, bring victory to thy spear.
 
 [Exit Orestes, with Apollo.
 
-CHORUS
-Woe on you, younger gods! the ancient right
+**CHORUS:** Woe on you, younger gods! the ancient right
 Ye have o'erridden, rent it from my hands.
 
 I am dishonoured of you, thrust to scorn!
@@ -6117,8 +5417,7 @@ Are we, a bitter injury have borne!
 Alack, O sisters, O dishonoured brood
 Of mother Night!
 
-**ATHENA**
-Nay, bow ye to my words, chafe not nor moan:
+**ATHENA:** Nay, bow ye to my words, chafe not nor moan:
 Ye are not worsted nor disgraced; behold,
 With balanced vote the cause had issue fair,
 Nor in the end did aught dishonour thee.
@@ -6138,8 +5437,7 @@ By your indwelling presence, while ye sit
 Hard by your sacred shrines that gleam with oil
 Of sacrifice, and by this folk adored.
 
-**CHORUS**
-Woe on you, younger gods! the ancient right
+**CHORUS:** Woe on you, younger gods! the ancient right
 Ye have o’erridden, rent it from my hands.
 I am dishonoured of you, thrust to scorn!
 But heavily my wrath
@@ -6158,8 +5456,7 @@ Are we, a bitter injury have borne!
 Alack, O sisters, O dishonoured brood
 Of mother Night!
 
-**ATHENA**
-Dishonoured are ye not; turn not, I pray.
+**ATHENA:** Dishonoured are ye not; turn not, I pray.
 As goddesses your swelling wrath on men,
 Nor make the friendly earth despiteful to them.
 I too have Zeus for champion—’tis enough—
@@ -6178,8 +5475,7 @@ Shall pour its teeming firstfruits unto you,
 Gifts for fair childbirth and for wedlock’s crown:
 Thus honoured, praise my spoken pledge for aye.
 
-**CHORUS**
-I, I dishonoured in this earth to dwell,—
+**CHORUS:** I, I dishonoured in this earth to dwell,—
 Ancient of days and wisdom! I breathe forth
 Poison and breath of frenzied ire. O Earth,
 Woe, woe, for thee, for me!
@@ -6189,8 +5485,7 @@ Whom from mine ancient rights the gods have thrust,
 And brought me to the dust—
 Woe, woe is me!—with craft invincible.
 
-**ATHENA**
-Older art thou than I, and I will bear
+**ATHENA:** Older art thou than I, and I will bear
 With this thy fury. Know, although thou be
 More wise in ancient wisdom, yet have I
 From Zeus no scanted measure of the same,
@@ -6219,8 +5514,7 @@ I proffer thee—within this land of lands,
 Most loved of gods, with me to show and share
 Fair mercy, gratitude and grace as fair.
 
-**CHORUS**
-I, I dishonoured in this earth to dwell,—
+**CHORUS:** I, I dishonoured in this earth to dwell,—
 Ancient of days and wisdom! I breathe forth
 Poison and breath of frenzied ire. O Earth,
 Woe, woe for thee, for me!
@@ -6234,8 +5528,7 @@ Woe, woe is me!—with craft invincible.
 
 ---
 
-ATHENA
-I will not weary of soft words to thee,
+**ATHENA:** I will not weary of soft words to thee,
 That never mayst thou say, Behold me spurned,
 An elder by a younger deity,
 And from this land rejected and forlorn,
@@ -6249,41 +5542,29 @@ Or wasting plague upon this folk. ’Tis thine,
 If so thou wilt, inheritress to be
 Of this my land, its utmost grace to win.
 
-CHORUS
-O queen, what refuge dost thou promise me?
+**CHORUS:** O queen, what refuge dost thou promise me?
 
-ATHENA
-Refuge untouched by bale: take thou my boon.
+**ATHENA:** Refuge untouched by bale: take thou my boon.
 
-CHORUS
-What, if I take it, shall mine honour be?
+**CHORUS:** What, if I take it, shall mine honour be?
 
-ATHENA
-No house shall prosper without grace of thine.
+**ATHENA:** No house shall prosper without grace of thine.
 
-CHORUS
-Canst thou achieve and grant such power to me?
+**CHORUS:** Canst thou achieve and grant such power to me?
 
-ATHENA
-Yea, for my hand shall bless thy worshippers.
+**ATHENA:** Yea, for my hand shall bless thy worshippers.
 
-CHORUS
-And wilt thou pledge me this for time eterne?
+**CHORUS:** And wilt thou pledge me this for time eterne?
 
-ATHENA
-Yea: none can bid me pledge beyond my power.
+**ATHENA:** Yea: none can bid me pledge beyond my power.
 
-CHORUS
-Lo, I desist from wrath, appeased by thee.
+**CHORUS:** Lo, I desist from wrath, appeased by thee.
 
-ATHENA
-Then in the land’s heart shalt thou win thee friends.
+**ATHENA:** Then in the land’s heart shalt thou win thee friends.
 
-CHORUS
-What chant dost bid me raise, to greet the land?
+**CHORUS:** What chant dost bid me raise, to greet the land?
 
-ATHENA
-Such as aspires towards a victory
+**ATHENA:** Such as aspires towards a victory
 Unrued by any: chants from breast of earth,
 From wave, from sky; and let the wild winds’ breath
 Pass with soft sunlight o’er the lap of land,—
@@ -6298,8 +5579,7 @@ But I, if wars must be, and their loud clash
 And carnage, for my town, will ne’er endure
 That aught but victory shall crown her fame.
 
-CHORUS
-Lo, I accept it; at her very side
+**CHORUS:** Lo, I accept it; at her very side
 Doth Pallas bid me dwell:
 
 ---
@@ -6315,8 +5595,7 @@ The glory of the sunlight and the skies
 Shall bid from earth arise
 Warm wavelets of new life and glad prosperity.
 
-**ATHENA**
-Behold, with gracious heart well pleased
+**ATHENA:** Behold, with gracious heart well pleased
 I for my citizens do grant
 Fulfilment of this covenant:
 And here, their wrath at length appeased,
@@ -6336,8 +5615,7 @@ On earth were high, and loud his boast,
 Victim of silent ire and hate
 He dwells among the Lost.
 
-**CHORUS**
-To my blessing now give ear.—
+**CHORUS:** To my blessing now give ear.—
 Scorching blight nor singèd air
 Never blast thine olives fair!
 Drouth, that wasteth bud and plant,
@@ -6351,8 +5629,7 @@ Rich in new god-given treasure;
 Here let men the powers adore
 For sudden gifts unhoped before!
 
-**ATHENA**
-O hearken, warders of the wall
+**ATHENA:** O hearken, warders of the wall
 That guards mine Athens, what a dower
 Is unto her ordained and given!
 For mighty is the Furies’ power,
@@ -6363,8 +5640,7 @@ And some in joy and peace shall sing;
 But unto other some they bring
 Sad life and tear-dimmed eye.
 
-**CHORUS**
-And far away I ban thee and remove,
+**CHORUS:** And far away I ban thee and remove,
 Untimely death of youths too soon brought low!
 
 96
@@ -6380,8 +5656,7 @@ Queens who in time and in eternity
 Do rule, a present power for righteousness,
 Honoured beyond all Gods, hear ye and grant my cry!
 
-**ATHENA**
-And I too, I with joy am fain,
+**ATHENA:** And I too, I with joy am fain,
 Hearing your voice this gift ordain
 Unto my land. High thanks be thine,
 Persuasion, who with eyes divine
@@ -6393,8 +5668,7 @@ And ye and I will strive nor fail,
 That good may stand in evil’s stead,
 And lasting bliss for bale.
 
-**CHORUS**
-And nevermore these walls within
+**CHORUS:** And nevermore these walls within
 Shall echo fierce sedition’s din
 Unslaked with blood and crime;
 The thirsty dust shall nevermore
@@ -6407,8 +5681,7 @@ And common friendship, that for man
 Hath oft made blessing out of ban,
 Be ours unto all time.
 
-**ATHENA**
-Skill they, or not, the path to find
+**ATHENA:** Skill they, or not, the path to find
 Of favouring speech and presage kind?
 Yea, even from these, who, grim and stern,
 Glared anger upon you of old,
@@ -6420,16 +5693,14 @@ And ye shall make your town and land
 Sure, propped on Justice’ saving hand,
 And Fame’s eternity.
 
-**CHORUS**
-Hail ye, all hail! and yet again, all hail
+**CHORUS:** Hail ye, all hail! and yet again, all hail
 O Athens, happy in a weal secured!
 O ye who sit by Zeus’ right hand, nor fail
 Of wisdom set among you and assured,
 Loved of the well-loved Goddess-Maid! the King
 Of gods doth reverence you, beneath her guarding wing.
 
-**ATHENA**
-All hail unto each honoured guest!
+**ATHENA:** All hail unto each honoured guest!
 Whom to the chambers of your rest
 ’Tis mine to lead, and to provide
 The hallowed torch, the guard and guide.
@@ -6452,16 +5723,14 @@ Athenian evermore. To you
 Fair be their will henceforth, to do
 Whate’er may bless and aid!
 
-**CHORUS**
-Hail to you all! hail yet again,
+**CHORUS:** Hail to you all! hail yet again,
 All who love Athens, Gods and men,
 Adoring her as Pallas’ home!
 And while ye reverence what ye grant—
 My sacred shrine and hidden haunt—
 Blameless and blissful be your doom!
 
-**ATHENA**
-Once more I praise the promise of your vows,
+**ATHENA:** Once more I praise the promise of your vows,
 And now I bid the golden torches’ glow
 Pass down before you to the hidden depth
 Of earth, by mine own sacred servants borne,
@@ -6476,8 +5745,7 @@ Henceforth be seen to bless the life of men.
 
 [Athena leads the procession downwards into the Cave of the Furies, under Areopagus: as they go, the escort of women and children chant aloud.]
 
-**CHANT**
-With loyalty we lead you; proudly go,
+**CHANT:** With loyalty we lead you; proudly go,
 Night’s childless children, to your home below!
 (O citizens, awhile from words forbear!)
 To darkness’ deep primeval lair,
@@ -6514,7 +5782,7 @@ Updated editions will replace the previous one—the old editions will be rename
 
 Creating the works from print editions not protected by U.S. copyright law means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg™ electronic works to protect the PROJECT GUTENBERG™ concept and trademark. Project Gutenberg is a registered trademark, and may not be used if you charge for an eBook, except by following the terms of the trademark license, including paying royalties for use of the Project Gutenberg trademark. If you do not charge anything for copies of this eBook, complying with the trademark license is very easy. You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research. Project Gutenberg eBooks may be modified and printed and given away—you may do practically ANYTHING in the United States with eBooks not protected by U.S. copyright law. Redistribution is subject to the trademark license, especially commercial redistribution.
 
-START: FULL LICENSE
+**START:** FULL LICENSE
 
 
 

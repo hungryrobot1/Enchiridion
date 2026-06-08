@@ -1,0 +1,21 @@
+{
+  "title": "Oedipus the King",
+  "author": "Sophocles",
+  "translator": "F. Storr",
+  "year_written": "~429 BCE",
+  "year_translated": 1912,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "sophocles-oedipus-the-king.md",
+  "description": "First play of the Theban cycle. Oedipus, king of Thebes, investigates the plague afflicting his city and discovers, step by relentless step, that he himself is the source of the pollution.",
+  "topics": [
+    "literature",
+    "drama",
+    "tragedy"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

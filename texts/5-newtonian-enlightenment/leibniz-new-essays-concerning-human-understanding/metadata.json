@@ -17,5 +17,6 @@
   "era": "newtonian-enlightenment",
   "prerequisites": [
     "leibniz-monadology-and-other-writings"
-  ]
+  ],
+  "ocr_status": "pending"
 }

@@ -6,13 +6,14 @@
   "year_translated": 1898,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg2199-images-3.pdf",
+  "format": "markdown",
+  "filename": "homer-iliad.md",
   "description": "Epic poem of the Trojan War centering on the wrath of Achilles, exploring honor, mortality, and the human cost of conflict",
   "topics": [
     "literature",
     "epic-poetry"
   ],
   "era": "ancient-greece",
-  "prerequisites": []
+  "prerequisites": [],
+  "ocr_status": "complete"
 }

@@ -89,7 +89,9 @@ PROOF_INTRO_RE = re.compile(
     r")\b"
 )
 TERMINAL_PUNCT = set(".!?:;\"'”’)]")
-CONTINUATION_PUNCT = set(",(—–")
+# `-` : a paragraph ending in a hyphen is a mid-word page-break split
+# (`παραλ-` / `ληλόγραμμον`); unambiguous continuation.
+CONTINUATION_PUNCT = set(",(—–-")
 
 
 def is_blank(line: str) -> bool:
@@ -102,6 +104,10 @@ def starts_structural(nxt: str) -> bool:
     if not s:
         return True
     if s.startswith("#"):
+        return True
+    if s.startswith("<"):
+        # HTML tag or comment (interlinear divs, page markers) — never a
+        # prose continuation.
         return True
     if s.startswith(">"):
         return True
@@ -131,6 +137,8 @@ def is_structural_line(line: str) -> bool:
     if not s:
         return True
     if s.startswith("#"):
+        return True
+    if s.startswith("<"):
         return True
     if s.startswith("|"):
         return True

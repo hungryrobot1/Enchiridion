@@ -42,9 +42,10 @@ All scripts default to dry-run; pass `--apply` (or equivalent) to write.
 |---|---|
 | `lint-math.py` | Detect unbalanced `$`/`$$` and Greek-letter glue slips (`\taui`, `\alphaX`). Reports only — fix manually. Regex-based; flags syntactic suspicions. Pair with `check-math.js` for render-aware coverage. |
 | `check-math.js` | **Render-aware** math diagnostics. Walks every `$...$` and `$$...$$` block in the file, runs each through KaTeX with `throwOnError: true`, and reports blocks that fail to render — with line numbers and the exact KaTeX error message. Catches issues `lint-math.py` can't (missing `}` inside `\text{}`, undefined control sequences, double superscripts, etc.) while ignoring syntactic patterns KaTeX silently accepts. Run from project root: `node ocr/check-math.js <markdown-path>` or no arg to scan everything under `texts/`. Uses the same `KATEX_MACROS` config as the renderer (`site/src/readers/md-reader.js`), so reported failures are what the reader actually sees. See "Render-aware math diagnostics" below. |
+| `check-raw-latex.js` | **Render-aware** scan for LaTeX that leaked *outside* `$...$` or `$$...$$` delimiters. Mirrors `md-reader.js`'s pipeline (placeholder extraction → marked) then walks the markdown for surviving `\` characters not consumed by markdown escaping. Reports one line per finding with source line number and 120-char preview. Catches bare math runs the OCR left unwrapped (`\therefore`, `\angle`, bare `\begin{array}`) — these would render as ugly raw LaTeX to the reader. Run from project root: `node ocr/check-raw-latex.js <markdown-path>`. Companion to `check-math.js`: that one says "this math doesn't render"; this one says "this math isn't being treated as math at all." See "Diagnostic triad" below. |
 | `collapse-inline-display.py` | Demote mid-prose `$$X$$` to inline `$X$` when the block is short, single-line, and embedded in surrounding text. |
 | `strip-running-headers.py` | ToC-driven. Strips book-level + section-level running headers, bare page-number lines, and `H. C. <n>` printer's marks. Promotes the first occurrence of each ToC section title to `# heading`. Idempotent. |
-| `rejoin-split-paragraphs.py` | Find stray `---` rules that split a single paragraph in two (page break, Stephanus marker, etc.) and merge the halves. Dialogue-safe: refuses to merge across speaker tags, headings, lists, or terminal punctuation. |
+| `rejoin-split-paragraphs.py` | Find paragraph pairs split by OCR artifacts (page breaks, footnote intrusions) and merge the halves. Two modes: `--rule` finds stray `---` rules between halves (legacy behavior, useful for non-math texts where `---` rarely appears in tables); `--blank` finds blank-line-separated splits where prev ends mid-clause and next looks like a continuation (better fit for math-heavy texts where `---` is reserved for table syntax). Dialogue-safe: refuses to merge across structural lines (headings, list items, speaker tags, table rows, images, code fences, display math, figure captions, bracketed-letter list openers `[a]`/`[b]`, classical-proof markers like `I say that`). Reports candidates grouped by category (`continuation-punct-','`, `next-lowercase`, `next-opens-bracket`, `midword-then-capital`, `other`) so they can be selectively applied with `--categories "cat1;cat2;…"` (semicolon-separated). `--min-words N` adds a `-short` suffix to categories where either side has fewer than N words, isolating short-line patterns (sub-section labels, math lead-ins) that usually shouldn't merge. Pass `--verse` to join with newline instead of space for verse texts. See "Diagnostic triad" below. |
 | `normalize-abbreviated-speakers.py` | Rewrite abbreviated speaker tags (`ST.`, `Vul.`, `Pₐ.`) to canonical `NAME:` form using a per-text `--speakers ABBR=FULL,…` map. NFKD-folds Unicode subscripts so OCR artifacts (`Pₐ`, `I₀`) match. Requires a space after the period — bare `NAME.` on its own line (cast lists) is not touched. Built for tragedy texts where each character is introduced full-name then abbreviated thereafter. |
 | `normalize-fullname-speakers.py` | Collapse four-variant full-name speaker tags — h1 (`# CHORUS`), h2 (`## CHORUS`), bold (`**CHORUS**`), plain (`CHORUS`) — to canonical `**NAME:** speech` Plato form, joining the first speech line onto the tag. Mandatory `--speakers` allowlist (`NAME,NAME,...` or `OCRTYPO=CANONICAL,...`) prevents false-positives on play titles and emphatic prose. Cast-list guard: refuses to merge if the next non-blank line is itself an all-caps tag. Optional features: trailing period (Loeb convention `OEDIPUS.`), `--verse` flag emits `**NAME**\n\nspeech` bare-bold form, optional `(...)` parenthetical cue rendered as italic suffix (`**PENTHEUS** *(brutally)*`). Built for translations (e.g. Morshead's Oresteia, Murray's Bacchae) that interleave decoration styles for the same speaker. |
 | `bold-speakers.py` | Wrap all-caps speaker tags (`SOCRATES:`, `A SLAVE OF MENO:`) in `**…**` for visual scannability in dialogue-format texts. Idempotent. Acts as the verification pass after `normalize-abbreviated-speakers.py` — count should match. |
@@ -54,6 +55,40 @@ All scripts default to dry-run; pass `--apply` (or equivalent) to write.
 | `repair-unclosed-stage-directions.py` | Auto-repair for OCR-dropped closing brackets. In any paragraph where `[` and `]` counts differ by one, appends `]` at the end of the last non-blank line. Handles both single-line (`[Exit X.`) and multi-line stage directions transparently. Discovered as the dominant anomaly pattern across Morshead's Oresteia and Murray's Bacchae. |
 | `collapse-verse-blanks.py` | Collapse OCR-inserted blank lines between consecutive verse lines within a single speaker block. Conservative rule: only collapses blanks within runs of 3+ verse lines separated by single blanks — a lone blank between two tight verse blocks is preserved as a genuine stanza break. Skips speaker tags, headings, stage directions, strophe/antistrophe markers, list items, images, and horizontal rules as boundaries. Run only on texts with `layout: "verse"` in metadata. |
 | `collect_images.py` | After hand-splitting a multi-treatise OCR output, copy the referenced images into a sibling `images/` folder. |
+
+## PDF-native extraction (bilingual / clean-embedded-text PDFs)
+
+For PDFs with clean embedded text (e.g. Fitzpatrick's Euclid), deterministic
+PyMuPDF extraction replaces Mistral OCR entirely: crop + split + extract +
+scaffold. Greek polytonic comes through perfectly, and there is no per-text
+OCR cost.
+
+| Script | Purpose |
+|---|---|
+| `crop-pdf.py` | Crop pages by margins or bbox. Used to trim headers/footers and split bilingual two-column PDFs into single-column halves. |
+| `extract-text.py` | Embedded-text extraction, cropbox-aware, `--min-font-size` filters footnote residue. `--space-gap-em 0.15` recovers word spaces that TeX-typeset PDFs encode positionally without space glyphs (pervasive in polytonic Greek: "δὲὁΓ"); char-gap analysis shows intra-word gaps <0.05 em and word gaps 0.20–0.45 em with an empty valley between, so the threshold is unambiguous. |
+| `swap-lang-div-text.py` | Swap improved re-extracted text into one language's divs of a bilingual working file. Whitespace-only by construction: a paragraph is replaced only when its despaced character stream exactly matches the new extraction (asserted); anything else is left unchanged and reported. Safe on hand-edited files; handles hand-split (pause) divs via block-cursor + stream-fallback matching. |
+| `join-line-wrap-hyphens.py` / `expand-typeset-ligatures.py` | Text cleanup: re-join `re- spectively` line-wrap hyphens (Latin + polytonic Greek); expand `ﬁ`/`ﬂ` ligatures. Compound-aware: keeps the hyphen when the hyphenated form (`right-angles`) outnumbers the joined form elsewhere in the document — the corpus itself distinguishes a broken compound from a broken word. |
+| `strip-pdf-text.py` | Emit a geometry-identical **render twin** of a PDF with all text removed except diagram point-labels (a line survives only if every span is 1–3 all-caps chars, no punctuation; one exception: a *leading* orphaned `.`/`,` before labels — `'. A'` — is redacted alone, since a *trailing* one — `'AB .'` — marks a justified paragraph's short last line, i.e. prose). Redaction-based: `text=REMOVE, images=NONE, graphics=LINE_ART_NONE` — the `graphics` arg is load-bearing; pymupdf's default *removes line art touched by a redaction* and would eat the diagrams. |
+| `extract-pdf-images.py` | Diagram extraction, attributed to `Proposition N` / `Lemma` / `Corollary` headings by y-order; sequential `img-NNNN.png` filenames; `manifest.json` is the canonical filename → (book, prop, subunit) map. **Preferred mode:** `--twin <stripped.pdf>` — detection and rendering run against the strip-pdf-text twin. Any ink on a stripped page is diagram content by construction, so detection is ink-band analysis (sees Type 3 glyph strokes and XObjects that `get_drawings()` misses), bands merge unless a prose line separates them, and crops physically cannot contain prose. Each manifest entry records the point labels captured in the crop (`labels`), for downstream mapping verification; label tokens found inside a diagram bbox on a line the strip *redacted* are reported as `eaten_labels` warnings — a non-empty list means a visible label is missing from the rendered crop (strip-predicate blind spot; fix the predicate, don't ignore). Legacy mode (no `--twin`) clusters `get_drawings()` bboxes with label-aware expansion — kept for PDFs where a twin can't be built. |
+| `text-specific-tools/euclid/rewrite-euclid-image-refs.py` | Euclid-specific (in `ocr/text-specific-tools/euclid/` with `build-euclid-scaffold.py`): point scaffold image refs at a fresh extraction's manifest. Subunit-aware (routes Lemma/Corollary-tagged images under the right heading). Idempotent — strips and re-inserts refs, prose untouched. **Caution:** re-running re-stacks refs under headings, clobbering hand-placed mid-proof image positions — teach it to preserve those first. |
+| `audit-diagram-coverage.py` | Per-unit OK / PARTIAL / MISSING / SILENT report: compares each unit's label-cluster artifacts (ground truth for "diagram expected") against the labels inside its image's bbox. The acceptance gate for any extraction rerun. |
+| `build-diagram-contact-sheet.py` | One-page HTML review sheet for human mapping verification: one row per unit with heading, English enunciation snippet, diagram thumbnail(s) + captured labels. Highlights SILENT rows (no census ground truth), flags label mismatches (letters in image never used in unit prose — wrong-mapping tripwire; isolated flags are usually just unnamed construction points), and indexes units with multiple diagrams (hand-placement candidates). Write the output to the text root so image paths resolve. |
+| `repair-partial-diagrams.py` / `recover-missing-diagrams.py` | **Legacy** — workarounds for the two blind spots of legacy-mode extraction (label-clipping bboxes; strokes invisible to `get_drawings()`). Twin mode removes both at the root; superseded on any text with a render twin. |
+| `text-specific-tools/euclid/extract-lexicon.py` | Decodes text set in fonts with missing/bogus ToUnicode CMaps. Fitzpatrick's lexicon Greek is dvipdfm Type 3 with junk glyph names AND a 5-entry garbage ToUnicode — but the byte layout matches the book's embedded CFF `grmn1000`, whose encoding array names every glyph (`uni1F24`, `alphatonos`, …). Parse that with fontTools, decode via `get_texttrace()` glyph ids (never trust PyMuPDF's char guesses for these fonts), reassemble two-column hanging-indent entries. The pattern (CFF-encoding-as-Rosetta-stone + GID-level decoding) generalizes to any TeX-era PDF whose extraction yields Latin mojibake for Greek. |
+
+Twin-mode sequence (Euclid English side, 545 pp ≈ 10 min strip + 30 s extract):
+
+```bash
+python3 ocr/strip-pdf-text.py source/Elements-english.pdf source/Elements-english-stripped.pdf
+python3 ocr/extract-pdf-images.py source/Elements-english.pdf english-images/ \
+    --twin source/Elements-english-stripped.pdf
+python3 ocr/text-specific-tools/euclid/rewrite-euclid-image-refs.py --scaffold euclid-elements.md \
+    --manifest english-images/manifest.json --english source/extracted-english.md \
+    --output <out.md>
+python3 ocr/audit-diagram-coverage.py --scaffold <out.md> \
+    --manifest english-images/manifest.json --pdf source/Elements-english.pdf
+```
 
 ## Drama pipeline
 
@@ -147,6 +182,30 @@ node ocr/check-math.js texts/.../foo.md 2>&1 | \
 ```
 
 Iterate: fix wholesale categories first, re-run, fix the next category, until only individual edge cases remain. The remaining handful get manual attention.
+
+## Diagnostic triad
+
+For math-heavy texts we run three diagnostics that attack from different angles. Each answers a question the others can't, and the three together describe the failure surface.
+
+| Tool | Strategy | What it catches | What it misses |
+|---|---|---|---|
+| `lint-math.py` | Regex over the source markdown | Cheap syntactic suspects: unbalanced `$`/`$$`, Greek-letter glue (`\taui`), obvious typos | Anything that regex can't predict — undefined macros, missing braces deep in `\text{}`, semantic OCR errors |
+| `check-math.js` | Run KaTeX as the consumer | Real render failures with parser-error messages and line numbers — the definitive list of what the reader sees broken | Math that *looks* fine to KaTeX but is wrong (Greek-letter point-label confused for an English letter, sexagesimal `;` rendered as `:`, etc.). Math that escaped its `$...$` wrapper entirely |
+| `check-raw-latex.js` | Run marked as the consumer, then scan output for surviving `\` | Bare LaTeX leaked into prose (the `\therefore`, `\angle`, unclosed math blocks). Pairs with `check-math.js`: that one verifies the math we have is good, this one verifies math we *think* is missing actually is | Things that aren't LaTeX-shaped (sexagesimal value rendered as plain text, Greek letters mis-OCR'd as Latin) |
+
+The shared principle is [consumer-correctness](../README.md) — when a downstream tool consumes our output (KaTeX, marked), run that tool as part of diagnostics rather than reimplementing its rules in a regex linter. The consumer is the ground truth; everything else is approximation. `lint-math.py` is the cheap fast pre-filter; the two `check-*.js` tools are the authoritative checks.
+
+### Recommended sequence
+
+```sh
+python3 ocr/lint-math.py texts/.../foo.md     # cheap syntactic pre-filter
+node ocr/check-math.js texts/.../foo.md        # render failures (KaTeX)
+node ocr/check-raw-latex.js texts/.../foo.md   # raw-LaTeX leaks (marked)
+```
+
+Each tool returns exit code 1 if it finds anything, 0 if clean. A text is post-processing-complete when all three return 0.
+
+What none of the three can verify: that the math content *as transcribed* matches the source. OCR can produce well-formed, well-rendered, well-wrapped LaTeX that says the wrong number. That's a separate problem we don't currently solve — see the project memory on math-text correctness limits.
 
 ## `toc.json` schema
 

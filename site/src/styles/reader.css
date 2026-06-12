@@ -410,6 +410,70 @@
   margin-top: var(--space-2xs);
 }
 
+/* Interlinear bilingual layout. The Greek/English pair lives in
+ * `.md-reader__interlinear-row` — a 2-column grid where each language
+ * column grows to its content's height. Alignment is enforced only at
+ * heading boundaries (the wrapping h2 / figure sit outside the row),
+ * which matches how propositional texts naturally align: prose length
+ * drifts between languages but converges at each proposition. */
+.md-reader__interlinear-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  margin: var(--space-md) 0;
+  align-items: start;
+  /* Break out of the prose column: at half of --max-width-prose each,
+   * the two language columns are too narrow a measure. Give the row up
+   * to 1.7× the prose width (≈0.8× prose width per column), capped so
+   * it never spills past the viewport. Centered via margin-left since
+   * the prose container itself stays at --max-width-prose. */
+  --interlinear-row-width: min(170%, calc(100vw - 5rem));
+  width: var(--interlinear-row-width);
+  margin-left: calc((100% - var(--interlinear-row-width)) / 2);
+}
+
+.md-reader__interlinear-row > .lang-grc,
+.md-reader__interlinear-row > .lang-en {
+  min-width: 0;  /* allow flex/grid children to shrink below content */
+}
+
+/* Greek column tinted slightly to make the language boundary visible at
+ * a glance, plus the Greek-text serif treatment. The English column
+ * keeps the body's default styling. */
+.md-reader__interlinear-row > .lang-grc {
+  font-family: var(--font-serif);
+  color: var(--color-ink);
+  padding-right: var(--space-md);
+  border-right: 1px solid var(--color-rule);
+}
+
+.md-reader__interlinear-row > .lang-grc > p,
+.md-reader__interlinear-row > .lang-en > p {
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.md-reader__interlinear-row > .lang-grc > :last-child,
+.md-reader__interlinear-row > .lang-en > :last-child {
+  margin-bottom: 0;
+}
+
+/* On narrow viewports, stack the two columns so the text remains
+ * readable. Greek above English (source-order). */
+@media (max-width: 800px) {
+  .md-reader__interlinear-row {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+    width: 100%;
+    margin-left: 0;
+  }
+  .md-reader__interlinear-row > .lang-grc {
+    border-right: none;
+    border-bottom: 1px solid var(--color-rule);
+    padding-right: 0;
+    padding-bottom: var(--space-md);
+  }
+}
+
 @media (max-width: 640px) {
   .reader__header {
     padding: var(--space-sm) var(--space-md);

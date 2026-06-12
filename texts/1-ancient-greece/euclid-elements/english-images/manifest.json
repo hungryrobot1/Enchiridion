@@ -1,0 +1,11691 @@
+[
+  {
+    "page": 8,
+    "kind": "diagram",
+    "bbox": [
+      36.96,
+      92.67999999999999,
+      221.52,
+      223.24
+    ],
+    "book": 1,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0001.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 9,
+    "kind": "diagram",
+    "bbox": [
+      29.759999999999998,
+      83.91999999999999,
+      236.28,
+      304.48
+    ],
+    "book": 1,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0002.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 10,
+    "kind": "diagram",
+    "bbox": [
+      19.68,
+      61.0,
+      234.48000000000002,
+      226.48000000000002
+    ],
+    "book": 1,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0003.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 10,
+    "kind": "diagram",
+    "bbox": [
+      13.2,
+      390.88,
+      242.4,
+      491.91999999999996
+    ],
+    "book": 1,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0004.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 11,
+    "kind": "diagram",
+    "bbox": [
+      74.76,
+      405.5199999999999,
+      181.20000000000002,
+      542.1999999999999
+    ],
+    "book": 1,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0005.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 12,
+    "kind": "diagram",
+    "bbox": [
+      55.32,
+      452.32,
+      197.76000000000002,
+      582.16
+    ],
+    "book": 1,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0006.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 13,
+    "kind": "diagram",
+    "bbox": [
+      51.36,
+      340.36,
+      201.0,
+      451.84
+    ],
+    "book": 1,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0007.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 14,
+    "kind": "diagram",
+    "bbox": [
+      36.96,
+      173.68,
+      218.64000000000001,
+      303.52
+    ],
+    "book": 1,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0008.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 15,
+    "kind": "diagram",
+    "bbox": [
+      57.480000000000004,
+      94.11999999999999,
+      194.52,
+      277.6
+    ],
+    "book": 1,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0009.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 16,
+    "kind": "diagram",
+    "bbox": [
+      35.88,
+      60.75999999999999,
+      216.84,
+      208.24
+    ],
+    "book": 1,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0010.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 16,
+    "kind": "diagram",
+    "bbox": [
+      26.52,
+      300.15999999999997,
+      238.8,
+      435.03999999999996
+    ],
+    "book": 1,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0011.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 17,
+    "kind": "diagram",
+    "bbox": [
+      21.12,
+      148.35999999999999,
+      244.20000000000002,
+      311.68
+    ],
+    "book": 1,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0012.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 18,
+    "kind": "diagram",
+    "bbox": [
+      59.28,
+      112.83999999999999,
+      206.76000000000002,
+      262.12
+    ],
+    "book": 1,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0013.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 19,
+    "kind": "diagram",
+    "bbox": [
+      47.4,
+      116.07999999999998,
+      219.0,
+      250.95999999999998
+    ],
+    "book": 1,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0014.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 20,
+    "kind": "diagram",
+    "bbox": [
+      41.64,
+      47.56,
+      224.4,
+      218.08
+    ],
+    "book": 1,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0015.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 21,
+    "kind": "diagram",
+    "bbox": [
+      25.44,
+      130.96,
+      241.32000000000002,
+      330.64
+    ],
+    "book": 1,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0016.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 21,
+    "kind": "diagram",
+    "bbox": [
+      20.04,
+      452.79999999999995,
+      245.64000000000001,
+      588.04
+    ],
+    "book": 1,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0017.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 22,
+    "kind": "diagram",
+    "bbox": [
+      28.68,
+      244.35999999999999,
+      236.28,
+      371.32
+    ],
+    "book": 1,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0018.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 23,
+    "kind": "diagram",
+    "bbox": [
+      90.60000000000001,
+      107.43999999999998,
+      176.16,
+      307.12
+    ],
+    "book": 1,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0019.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 23,
+    "kind": "diagram",
+    "bbox": [
+      58.92,
+      410.44,
+      207.12,
+      574.12
+    ],
+    "book": 1,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0020.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 24,
+    "kind": "diagram",
+    "bbox": [
+      36.24,
+      295.24,
+      229.08,
+      408.52
+    ],
+    "book": 1,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0021.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 25,
+    "kind": "diagram",
+    "bbox": [
+      10.32,
+      279.88,
+      255.72,
+      450.76
+    ],
+    "book": 1,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0022.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 26,
+    "kind": "diagram",
+    "bbox": [
+      47.4,
+      244.83999999999997,
+      217.92000000000002,
+      407.44
+    ],
+    "book": 1,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0023.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 27,
+    "kind": "diagram",
+    "bbox": [
+      58.92,
+      115.83999999999999,
+      207.48000000000002,
+      265.48
+    ],
+    "book": 1,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0024.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 28,
+    "kind": "diagram",
+    "bbox": [
+      59.64,
+      115.83999999999999,
+      206.04000000000002,
+      264.4
+    ],
+    "book": 1,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0025.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 29,
+    "kind": "diagram",
+    "bbox": [
+      26.880000000000003,
+      131.44,
+      238.8,
+      244.0
+    ],
+    "book": 1,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0026.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 30,
+    "kind": "diagram",
+    "bbox": [
+      16.8,
+      398.08,
+      249.96,
+      510.28
+    ],
+    "book": 1,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0027.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 31,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      255.88,
+      227.64000000000001,
+      418.84
+    ],
+    "book": 1,
+    "prop": 28,
+    "subunit": null,
+    "filename": "img-0028.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 32,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      187.71999999999997,
+      227.64000000000001,
+      350.67999999999995
+    ],
+    "book": 1,
+    "prop": 29,
+    "subunit": null,
+    "filename": "img-0029.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 33,
+    "kind": "diagram",
+    "bbox": [
+      30.120000000000005,
+      165.04,
+      234.84,
+      312.52
+    ],
+    "book": 1,
+    "prop": 30,
+    "subunit": null,
+    "filename": "img-0030.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 34,
+    "kind": "diagram",
+    "bbox": [
+      22.2,
+      35.199999999999996,
+      243.48000000000002,
+      130.12
+    ],
+    "book": 1,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0031.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 34,
+    "kind": "diagram",
+    "bbox": [
+      27.96,
+      290.92,
+      238.44,
+      440.2
+    ],
+    "book": 1,
+    "prop": 32,
+    "subunit": null,
+    "filename": "img-0032.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 35,
+    "kind": "diagram",
+    "bbox": [
+      25.080000000000002,
+      244.0,
+      241.32000000000002,
+      371.68
+    ],
+    "book": 1,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0033.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 36,
+    "kind": "diagram",
+    "bbox": [
+      38.76,
+      149.79999999999998,
+      227.28,
+      277.48
+    ],
+    "book": 1,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0034.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 37,
+    "kind": "diagram",
+    "bbox": [
+      29.4,
+      140.08,
+      236.28,
+      253.36
+    ],
+    "book": 1,
+    "prop": 35,
+    "subunit": null,
+    "filename": "img-0035.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 38,
+    "kind": "diagram",
+    "bbox": [
+      29.759999999999998,
+      23.56,
+      237.0,
+      137.2
+    ],
+    "book": 1,
+    "prop": 36,
+    "subunit": null,
+    "filename": "img-0036.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 38,
+    "kind": "diagram",
+    "bbox": [
+      9.24,
+      380.55999999999995,
+      257.88,
+      475.84
+    ],
+    "book": 1,
+    "prop": 37,
+    "subunit": null,
+    "filename": "img-0037.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 39,
+    "kind": "diagram",
+    "bbox": [
+      16.080000000000002,
+      183.76,
+      249.60000000000002,
+      296.67999999999995
+    ],
+    "book": 1,
+    "prop": 38,
+    "subunit": null,
+    "filename": "img-0038.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 40,
+    "kind": "diagram",
+    "bbox": [
+      36.6,
+      23.919999999999998,
+      230.16,
+      136.84
+    ],
+    "book": 1,
+    "prop": 39,
+    "subunit": null,
+    "filename": "img-0039.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 40,
+    "kind": "diagram",
+    "bbox": [
+      26.880000000000003,
+      369.99999999999994,
+      239.16,
+      483.28
+    ],
+    "book": 1,
+    "prop": 40,
+    "subunit": null,
+    "filename": "img-0040.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 41,
+    "kind": "diagram",
+    "bbox": [
+      22.2,
+      194.43999999999997,
+      244.20000000000002,
+      336.52
+    ],
+    "book": 1,
+    "prop": 41,
+    "subunit": null,
+    "filename": "img-0041.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 42,
+    "kind": "diagram",
+    "bbox": [
+      19.32,
+      9.639999999999999,
+      247.8,
+      151.0
+    ],
+    "book": 1,
+    "prop": 42,
+    "subunit": null,
+    "filename": "img-0042.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 43,
+    "kind": "diagram",
+    "bbox": [
+      26.880000000000003,
+      23.439999999999998,
+      238.8,
+      151.12
+    ],
+    "book": 1,
+    "prop": 43,
+    "subunit": null,
+    "filename": "img-0043.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 43,
+    "kind": "diagram",
+    "bbox": [
+      64.32000000000001,
+      263.56,
+      201.72,
+      462.88
+    ],
+    "book": 1,
+    "prop": 44,
+    "subunit": null,
+    "filename": "img-0044.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 45,
+    "kind": "diagram",
+    "bbox": [
+      60.72,
+      155.07999999999998,
+      205.68,
+      354.4
+    ],
+    "book": 1,
+    "prop": 45,
+    "subunit": null,
+    "filename": "img-0045.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 46,
+    "kind": "diagram",
+    "bbox": [
+      89.52000000000001,
+      107.43999999999998,
+      175.8,
+      292.36
+    ],
+    "book": 1,
+    "prop": 46,
+    "subunit": null,
+    "filename": "img-0046.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 47,
+    "kind": "diagram",
+    "bbox": [
+      25.8,
+      239.68,
+      240.6,
+      496.6
+    ],
+    "book": 1,
+    "prop": 47,
+    "subunit": null,
+    "filename": "img-0047.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 48,
+    "kind": "diagram",
+    "bbox": [
+      77.64,
+      89.07999999999998,
+      189.12,
+      230.79999999999998
+    ],
+    "book": 1,
+    "prop": 48,
+    "subunit": null,
+    "filename": "img-0048.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 50,
+    "kind": "diagram",
+    "bbox": [
+      25.080000000000002,
+      206.79999999999998,
+      240.96,
+      370.12
+    ],
+    "book": 2,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0049.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 51,
+    "kind": "diagram",
+    "bbox": [
+      62.16,
+      208.24,
+      203.52,
+      370.84000000000003
+    ],
+    "book": 2,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0050.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 52,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      113.79999999999998,
+      226.20000000000002,
+      262.72
+    ],
+    "book": 2,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0051.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 53,
+    "kind": "diagram",
+    "bbox": [
+      51.72,
+      23.56,
+      213.96,
+      186.88000000000002
+    ],
+    "book": 2,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0052.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 54,
+    "kind": "diagram",
+    "bbox": [
+      16.8,
+      258.76,
+      249.60000000000002,
+      393.64
+    ],
+    "book": 2,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0053.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 55,
+    "kind": "diagram",
+    "bbox": [
+      35.160000000000004,
+      356.32,
+      230.88,
+      491.2
+    ],
+    "book": 2,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0054.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 56,
+    "kind": "diagram",
+    "bbox": [
+      52.440000000000005,
+      422.92,
+      213.24,
+      586.24
+    ],
+    "book": 2,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0055.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 58,
+    "kind": "diagram",
+    "bbox": [
+      40.92,
+      9.04,
+      226.20000000000002,
+      193.96
+    ],
+    "book": 2,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0056.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U"
+    ]
+  },
+  {
+    "page": 59,
+    "kind": "diagram",
+    "bbox": [
+      22.92,
+      306.76,
+      242.4,
+      441.28
+    ],
+    "book": 2,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0057.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 61,
+    "kind": "diagram",
+    "bbox": [
+      19.32,
+      126.75999999999999,
+      245.64000000000001,
+      276.03999999999996
+    ],
+    "book": 2,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0058.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 63,
+    "kind": "diagram",
+    "bbox": [
+      65.04,
+      8.8,
+      200.28,
+      212.44
+    ],
+    "book": 2,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0059.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 64,
+    "kind": "diagram",
+    "bbox": [
+      22.92,
+      231.87999999999997,
+      242.4,
+      366.4
+    ],
+    "book": 2,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0060.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 65,
+    "kind": "diagram",
+    "bbox": [
+      57.84,
+      279.4,
+      207.84,
+      428.67999999999995
+    ],
+    "book": 2,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0061.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 66,
+    "kind": "diagram",
+    "bbox": [
+      10.32,
+      269.67999999999995,
+      255.0,
+      418.59999999999997
+    ],
+    "book": 2,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0062.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 71,
+    "kind": "diagram",
+    "bbox": [
+      61.08,
+      156.04,
+      205.32,
+      319.72
+    ],
+    "book": 3,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0063.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 72,
+    "kind": "diagram",
+    "bbox": [
+      52.440000000000005,
+      155.55999999999997,
+      213.96,
+      318.52
+    ],
+    "book": 3,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0064.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 73,
+    "kind": "diagram",
+    "bbox": [
+      56.04,
+      47.56,
+      209.64000000000001,
+      210.88000000000002
+    ],
+    "book": 3,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0065.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 74,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      84.03999999999999,
+      217.92000000000002,
+      232.6
+    ],
+    "book": 3,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0066.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 74,
+    "kind": "diagram",
+    "bbox": [
+      60.36,
+      337.0,
+      206.4,
+      485.2
+    ],
+    "book": 3,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0067.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 75,
+    "kind": "diagram",
+    "bbox": [
+      49.56,
+      115.71999999999998,
+      216.84,
+      279.4
+    ],
+    "book": 3,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0068.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 76,
+    "kind": "diagram",
+    "bbox": [
+      36.24,
+      23.56,
+      229.08,
+      208.48000000000002
+    ],
+    "book": 3,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0069.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 78,
+    "kind": "diagram",
+    "bbox": [
+      41.28,
+      119.07999999999998,
+      225.12,
+      304.0
+    ],
+    "book": 3,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0070.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 80,
+    "kind": "diagram",
+    "bbox": [
+      52.440000000000005,
+      23.56,
+      214.68,
+      187.24
+    ],
+    "book": 3,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0071.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 81,
+    "kind": "diagram",
+    "bbox": [
+      35.160000000000004,
+      8.8,
+      231.6,
+      172.84
+    ],
+    "book": 3,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0072.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 82,
+    "kind": "diagram",
+    "bbox": [
+      53.52,
+      23.56,
+      212.88,
+      187.24
+    ],
+    "book": 3,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0073.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 82,
+    "kind": "diagram",
+    "bbox": [
+      46.32,
+      311.56,
+      220.08,
+      496.84
+    ],
+    "book": 3,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0074.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 83,
+    "kind": "diagram",
+    "bbox": [
+      53.88,
+      184.83999999999997,
+      212.52,
+      348.15999999999997
+    ],
+    "book": 3,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0075.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 84,
+    "kind": "diagram",
+    "bbox": [
+      57.120000000000005,
+      173.68,
+      209.28,
+      337.0
+    ],
+    "book": 3,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0076.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 86,
+    "kind": "diagram",
+    "bbox": [
+      59.64,
+      120.39999999999999,
+      206.76000000000002,
+      284.08000000000004
+    ],
+    "book": 3,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0077.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 87,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      47.56,
+      228.0,
+      196.48000000000002
+    ],
+    "book": 3,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0078.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 88,
+    "kind": "diagram",
+    "bbox": [
+      51.72,
+      165.28,
+      215.4,
+      328.96000000000004
+    ],
+    "book": 3,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0079.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 89,
+    "kind": "diagram",
+    "bbox": [
+      44.160000000000004,
+      112.71999999999998,
+      222.24,
+      276.03999999999996
+    ],
+    "book": 3,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0080.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 90,
+    "kind": "diagram",
+    "bbox": [
+      34.800000000000004,
+      35.56,
+      231.6,
+      199.24
+    ],
+    "book": 3,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0081.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 91,
+    "kind": "diagram",
+    "bbox": [
+      53.160000000000004,
+      9.639999999999999,
+      212.88,
+      172.24
+    ],
+    "book": 3,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0082.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 91,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      348.04,
+      218.28,
+      511.36
+    ],
+    "book": 3,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0083.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 92,
+    "kind": "diagram",
+    "bbox": [
+      45.6,
+      124.83999999999999,
+      219.72,
+      287.44
+    ],
+    "book": 3,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0084.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 93,
+    "kind": "diagram",
+    "bbox": [
+      6.720000000000001,
+      35.56,
+      258.96000000000004,
+      130.12
+    ],
+    "book": 3,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0085.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 93,
+    "kind": "diagram",
+    "bbox": [
+      54.24,
+      282.28000000000003,
+      211.44,
+      460.0
+    ],
+    "book": 3,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0086.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 94,
+    "kind": "diagram",
+    "bbox": [
+      15.36,
+      173.32,
+      251.76000000000002,
+      272.56
+    ],
+    "book": 3,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0087.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 95,
+    "kind": "diagram",
+    "bbox": [
+      18.96,
+      247.35999999999999,
+      247.8,
+      360.64
+    ],
+    "book": 3,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0088.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 96,
+    "kind": "diagram",
+    "bbox": [
+      10.32,
+      100.35999999999999,
+      255.72,
+      213.64
+    ],
+    "book": 3,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0089.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 97,
+    "kind": "diagram",
+    "bbox": [
+      16.080000000000002,
+      23.439999999999998,
+      249.60000000000002,
+      143.92
+    ],
+    "book": 3,
+    "prop": 28,
+    "subunit": null,
+    "filename": "img-0090.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 97,
+    "kind": "diagram",
+    "bbox": [
+      9.96,
+      414.76,
+      256.8,
+      542.4399999999999
+    ],
+    "book": 3,
+    "prop": 29,
+    "subunit": null,
+    "filename": "img-0091.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 98,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      199.35999999999999,
+      226.20000000000002,
+      298.24
+    ],
+    "book": 3,
+    "prop": 30,
+    "subunit": null,
+    "filename": "img-0092.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 99,
+    "kind": "diagram",
+    "bbox": [
+      47.760000000000005,
+      35.199999999999996,
+      218.64000000000001,
+      198.88000000000002
+    ],
+    "book": 3,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0093.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 100,
+    "kind": "diagram",
+    "bbox": [
+      40.2,
+      315.88,
+      226.56,
+      472.71999999999997
+    ],
+    "book": 3,
+    "prop": 32,
+    "subunit": null,
+    "filename": "img-0094.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 101,
+    "kind": "diagram",
+    "bbox": [
+      0.6000000000000001,
+      387.88,
+      264.0,
+      502.96
+    ],
+    "book": 3,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0095.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 103,
+    "kind": "diagram",
+    "bbox": [
+      22.560000000000002,
+      235.6,
+      243.84,
+      370.12
+    ],
+    "book": 3,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0096.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 104,
+    "kind": "diagram",
+    "bbox": [
+      13.920000000000002,
+      91.71999999999998,
+      253.20000000000002,
+      205.0
+    ],
+    "book": 3,
+    "prop": 35,
+    "subunit": null,
+    "filename": "img-0097.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 105,
+    "kind": "diagram",
+    "bbox": [
+      13.2,
+      282.88,
+      253.92000000000002,
+      417.76
+    ],
+    "book": 3,
+    "prop": 36,
+    "subunit": null,
+    "filename": "img-0098.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 107,
+    "kind": "diagram",
+    "bbox": [
+      30.840000000000003,
+      71.8,
+      235.92000000000002,
+      202.72000000000003
+    ],
+    "book": 3,
+    "prop": 37,
+    "subunit": null,
+    "filename": "img-0099.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 110,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      396.87999999999994,
+      222.96,
+      560.1999999999999
+    ],
+    "book": 4,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0100.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 111,
+    "kind": "diagram",
+    "bbox": [
+      12.120000000000001,
+      241.95999999999998,
+      253.56,
+      391.24
+    ],
+    "book": 4,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0101.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 112,
+    "kind": "diagram",
+    "bbox": [
+      21.12,
+      134.56,
+      245.28,
+      269.08
+    ],
+    "book": 4,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0102.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 113,
+    "kind": "diagram",
+    "bbox": [
+      27.96,
+      149.79999999999998,
+      237.72,
+      298.72
+    ],
+    "book": 4,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0103.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 114,
+    "kind": "diagram",
+    "bbox": [
+      9.6,
+      161.44,
+      256.8,
+      242.68
+    ],
+    "book": 4,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0104.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 115,
+    "kind": "diagram",
+    "bbox": [
+      53.160000000000004,
+      127.36000000000001,
+      212.88,
+      291.04
+    ],
+    "book": 4,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0105.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 116,
+    "kind": "diagram",
+    "bbox": [
+      53.52,
+      35.56,
+      212.52,
+      198.88000000000002
+    ],
+    "book": 4,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0106.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 117,
+    "kind": "diagram",
+    "bbox": [
+      53.160000000000004,
+      63.75999999999999,
+      212.16,
+      227.44
+    ],
+    "book": 4,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0107.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 118,
+    "kind": "diagram",
+    "bbox": [
+      53.160000000000004,
+      35.199999999999996,
+      212.88,
+      198.88000000000002
+    ],
+    "book": 4,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0108.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 119,
+    "kind": "diagram",
+    "bbox": [
+      49.2,
+      9.28,
+      217.20000000000002,
+      172.24
+    ],
+    "book": 4,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0109.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 120,
+    "kind": "diagram",
+    "bbox": [
+      17.52,
+      23.56,
+      249.24,
+      158.08
+    ],
+    "book": 4,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0110.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 121,
+    "kind": "diagram",
+    "bbox": [
+      56.4,
+      9.04,
+      210.72,
+      158.32000000000002
+    ],
+    "book": 4,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0111.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 122,
+    "kind": "diagram",
+    "bbox": [
+      51.0,
+      373.84,
+      215.04000000000002,
+      537.52
+    ],
+    "book": 4,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0112.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 124,
+    "kind": "diagram",
+    "bbox": [
+      51.0,
+      35.56,
+      215.4,
+      198.88000000000002
+    ],
+    "book": 4,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0113.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 125,
+    "kind": "diagram",
+    "bbox": [
+      76.56,
+      47.44,
+      190.56,
+      225.51999999999998
+    ],
+    "book": 4,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0114.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 126,
+    "kind": "diagram",
+    "bbox": [
+      52.800000000000004,
+      347.56,
+      213.96,
+      511.24
+    ],
+    "book": 4,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0115.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 132,
+    "kind": "diagram",
+    "bbox": [
+      15.36,
+      47.56,
+      251.76000000000002,
+      95.68
+    ],
+    "book": 5,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0116.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 133,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      35.199999999999996,
+      234.48000000000002,
+      148.48
+    ],
+    "book": 5,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0117.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 134,
+    "kind": "diagram",
+    "bbox": [
+      21.12,
+      226.72,
+      244.92000000000002,
+      374.91999999999996
+    ],
+    "book": 5,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0118.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 135,
+    "kind": "diagram",
+    "bbox": [
+      59.28,
+      35.56,
+      206.4,
+      256.48
+    ],
+    "book": 5,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0119.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 136,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      91.11999999999999,
+      217.56,
+      145.72
+    ],
+    "book": 5,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0120.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 137,
+    "kind": "diagram",
+    "bbox": [
+      50.64,
+      95.55999999999999,
+      215.4,
+      230.07999999999998
+    ],
+    "book": 5,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0121.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 138,
+    "kind": "diagram",
+    "bbox": [
+      26.880000000000003,
+      35.56,
+      239.16,
+      94.84
+    ],
+    "book": 5,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0122.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 139,
+    "kind": "diagram",
+    "bbox": [
+      8.88,
+      9.16,
+      258.24,
+      143.68
+    ],
+    "book": 5,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0123.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 140,
+    "kind": "diagram",
+    "bbox": [
+      27.96,
+      355.24,
+      238.08,
+      396.15999999999997
+    ],
+    "book": 5,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0124.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 141,
+    "kind": "diagram",
+    "bbox": [
+      17.52,
+      35.67999999999999,
+      248.16,
+      76.96
+    ],
+    "book": 5,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0125.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 141,
+    "kind": "diagram",
+    "bbox": [
+      17.88,
+      430.84,
+      248.16,
+      490.47999999999996
+    ],
+    "book": 5,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0126.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 142,
+    "kind": "diagram",
+    "bbox": [
+      16.8,
+      361.84,
+      249.24,
+      460.36
+    ],
+    "book": 5,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0127.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 143,
+    "kind": "diagram",
+    "bbox": [
+      12.48,
+      373.48,
+      254.28,
+      425.92
+    ],
+    "book": 5,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0128.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 144,
+    "kind": "diagram",
+    "bbox": [
+      51.36,
+      376.84,
+      214.32000000000002,
+      417.75999999999993
+    ],
+    "book": 5,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0129.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 145,
+    "kind": "diagram",
+    "bbox": [
+      41.28,
+      139.72,
+      224.4,
+      202.24
+    ],
+    "book": 5,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0130.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 146,
+    "kind": "diagram",
+    "bbox": [
+      36.6,
+      9.16,
+      229.44,
+      86.08
+    ],
+    "book": 5,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0131.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 146,
+    "kind": "diagram",
+    "bbox": [
+      31.200000000000003,
+      435.52,
+      235.56,
+      512.0799999999999
+    ],
+    "book": 5,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0132.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 147,
+    "kind": "diagram",
+    "bbox": [
+      37.68,
+      529.3599999999999,
+      228.72,
+      583.9599999999999
+    ],
+    "book": 5,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0133.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 148,
+    "kind": "diagram",
+    "bbox": [
+      37.68,
+      401.8,
+      228.36,
+      449.56
+    ],
+    "book": 5,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0134.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 149,
+    "kind": "diagram",
+    "bbox": [
+      33.72,
+      385.48,
+      232.32000000000002,
+      441.15999999999997
+    ],
+    "book": 5,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0135.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 150,
+    "kind": "diagram",
+    "bbox": [
+      13.920000000000002,
+      330.76,
+      252.12,
+      386.43999999999994
+    ],
+    "book": 5,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0136.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 151,
+    "kind": "diagram",
+    "bbox": [
+      7.800000000000001,
+      219.51999999999998,
+      258.6,
+      266.91999999999996
+    ],
+    "book": 5,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0137.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 152,
+    "kind": "diagram",
+    "bbox": [
+      17.88,
+      134.44,
+      248.16,
+      193.72
+    ],
+    "book": 5,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0138.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 153,
+    "kind": "diagram",
+    "bbox": [
+      33.0,
+      233.68,
+      233.04000000000002,
+      339.04
+    ],
+    "book": 5,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0139.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 154,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      125.79999999999998,
+      226.56,
+      231.88
+    ],
+    "book": 5,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0140.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 156,
+    "kind": "diagram",
+    "bbox": [
+      15.36,
+      193.48,
+      251.76000000000002,
+      342.76
+    ],
+    "book": 6,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0141.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 157,
+    "kind": "diagram",
+    "bbox": [
+      20.04,
+      435.75999999999993,
+      246.36,
+      584.3199999999999
+    ],
+    "book": 6,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0142.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 159,
+    "kind": "diagram",
+    "bbox": [
+      28.32,
+      23.919999999999998,
+      238.08,
+      172.48000000000002
+    ],
+    "book": 6,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0143.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 160,
+    "kind": "diagram",
+    "bbox": [
+      15.36,
+      92.19999999999999,
+      250.32000000000002,
+      255.88
+    ],
+    "book": 6,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0144.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 161,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      104.07999999999998,
+      224.76000000000002,
+      267.04
+    ],
+    "book": 6,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0145.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 162,
+    "kind": "diagram",
+    "bbox": [
+      30.840000000000003,
+      211.71999999999997,
+      236.28,
+      375.03999999999996
+    ],
+    "book": 6,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0146.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 163,
+    "kind": "diagram",
+    "bbox": [
+      30.840000000000003,
+      268.23999999999995,
+      235.92000000000002,
+      431.55999999999995
+    ],
+    "book": 6,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0147.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 165,
+    "kind": "diagram",
+    "bbox": [
+      12.120000000000001,
+      47.56,
+      253.56,
+      196.84
+    ],
+    "book": 6,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0148.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 166,
+    "kind": "diagram",
+    "bbox": [
+      33.0,
+      205.48,
+      232.32000000000002,
+      339.28
+    ],
+    "book": 6,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0149.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 167,
+    "kind": "diagram",
+    "bbox": [
+      36.24,
+      9.28,
+      230.16,
+      172.6
+    ],
+    "book": 6,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0150.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 168,
+    "kind": "diagram",
+    "bbox": [
+      76.92,
+      23.919999999999998,
+      189.84,
+      208.84
+    ],
+    "book": 6,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0151.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 168,
+    "kind": "diagram",
+    "bbox": [
+      44.160000000000004,
+      309.16,
+      221.16,
+      472.48
+    ],
+    "book": 6,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0152.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 169,
+    "kind": "diagram",
+    "bbox": [
+      41.64,
+      126.16,
+      224.76000000000002,
+      239.07999999999998
+    ],
+    "book": 6,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0153.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 170,
+    "kind": "diagram",
+    "bbox": [
+      33.72,
+      35.199999999999996,
+      232.32000000000002,
+      198.88000000000002
+    ],
+    "book": 6,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0154.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 171,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      35.199999999999996,
+      227.64000000000001,
+      198.88000000000002
+    ],
+    "book": 6,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0155.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 172,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      47.56,
+      247.8,
+      142.84
+    ],
+    "book": 6,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0156.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 173,
+    "kind": "diagram",
+    "bbox": [
+      25.44,
+      148.72,
+      240.24,
+      218.44
+    ],
+    "book": 6,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0157.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 174,
+    "kind": "diagram",
+    "bbox": [
+      9.24,
+      88.83999999999999,
+      257.15999999999997,
+      208.95999999999998
+    ],
+    "book": 6,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0158.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 175,
+    "kind": "diagram",
+    "bbox": [
+      12.84,
+      79.83999999999999,
+      253.20000000000002,
+      186.28
+    ],
+    "book": 6,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0159.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 176,
+    "kind": "diagram",
+    "bbox": [
+      13.560000000000002,
+      162.16,
+      253.20000000000002,
+      296.67999999999995
+    ],
+    "book": 6,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0160.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 178,
+    "kind": "diagram",
+    "bbox": [
+      36.96,
+      325.96,
+      229.44,
+      510.15999999999997
+    ],
+    "book": 6,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0161.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 179,
+    "kind": "diagram",
+    "bbox": [
+      47.04,
+      160.72,
+      219.0,
+      381.64
+    ],
+    "book": 6,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0162.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 181,
+    "kind": "diagram",
+    "bbox": [
+      24.0,
+      154.96,
+      242.76000000000002,
+      304.24
+    ],
+    "book": 6,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0163.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 182,
+    "kind": "diagram",
+    "bbox": [
+      20.76,
+      274.6,
+      245.28,
+      423.88
+    ],
+    "book": 6,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0164.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 183,
+    "kind": "diagram",
+    "bbox": [
+      17.88,
+      8.68,
+      248.88,
+      111.16
+    ],
+    "book": 6,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0165.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 184,
+    "kind": "diagram",
+    "bbox": [
+      7.4399999999999995,
+      47.56,
+      259.32,
+      196.84
+    ],
+    "book": 6,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0166.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 185,
+    "kind": "diagram",
+    "bbox": [
+      14.64,
+      83.55999999999999,
+      252.12,
+      232.83999999999997
+    ],
+    "book": 6,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0167.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 186,
+    "kind": "diagram",
+    "bbox": [
+      10.68,
+      95.07999999999998,
+      256.8,
+      229.95999999999998
+    ],
+    "book": 6,
+    "prop": 28,
+    "subunit": null,
+    "filename": "img-0168.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 187,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      305.67999999999995,
+      248.16,
+      440.19999999999993
+    ],
+    "book": 6,
+    "prop": 29,
+    "subunit": null,
+    "filename": "img-0169.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "V",
+      "W",
+      "X"
+    ]
+  },
+  {
+    "page": 188,
+    "kind": "diagram",
+    "bbox": [
+      76.56,
+      437.19999999999993,
+      189.12,
+      599.8
+    ],
+    "book": 6,
+    "prop": 30,
+    "subunit": null,
+    "filename": "img-0170.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "H"
+    ]
+  },
+  {
+    "page": 189,
+    "kind": "diagram",
+    "bbox": [
+      17.88,
+      330.15999999999997,
+      247.8,
+      477.64
+    ],
+    "book": 6,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0171.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 190,
+    "kind": "diagram",
+    "bbox": [
+      40.56,
+      340.23999999999995,
+      226.20000000000002,
+      489.15999999999997
+    ],
+    "book": 6,
+    "prop": 32,
+    "subunit": null,
+    "filename": "img-0172.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 191,
+    "kind": "diagram",
+    "bbox": [
+      16.44,
+      340.23999999999995,
+      249.96,
+      452.79999999999995
+    ],
+    "book": 6,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0173.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 195,
+    "kind": "diagram",
+    "bbox": [
+      73.32000000000001,
+      308.2,
+      192.72,
+      442.35999999999996
+    ],
+    "book": 7,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0174.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 196,
+    "kind": "diagram",
+    "bbox": [
+      75.48,
+      244.35999999999999,
+      190.56,
+      378.52
+    ],
+    "book": 7,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0175.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 197,
+    "kind": "diagram",
+    "bbox": [
+      38.76,
+      383.08,
+      225.84,
+      531.28
+    ],
+    "book": 7,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0176.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 199,
+    "kind": "diagram",
+    "bbox": [
+      89.88000000000001,
+      72.03999999999999,
+      176.16,
+      219.88
+    ],
+    "book": 7,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0177.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 199,
+    "kind": "diagram",
+    "bbox": [
+      63.24000000000001,
+      456.04,
+      203.16,
+      604.24
+    ],
+    "book": 7,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0178.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 200,
+    "kind": "diagram",
+    "bbox": [
+      74.04,
+      353.67999999999995,
+      192.72,
+      502.24
+    ],
+    "book": 7,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0179.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 201,
+    "kind": "diagram",
+    "bbox": [
+      25.44,
+      217.84,
+      240.6,
+      275.68
+    ],
+    "book": 7,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0180.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 202,
+    "kind": "diagram",
+    "bbox": [
+      40.92,
+      23.919999999999998,
+      224.76000000000002,
+      128.2
+    ],
+    "book": 7,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0181.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 203,
+    "kind": "diagram",
+    "bbox": [
+      79.08,
+      23.919999999999998,
+      186.96,
+      172.48000000000002
+    ],
+    "book": 7,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0182.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 204,
+    "kind": "diagram",
+    "bbox": [
+      78.36,
+      35.56,
+      188.4,
+      184.48000000000002
+    ],
+    "book": 7,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0183.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 205,
+    "kind": "diagram",
+    "bbox": [
+      107.88000000000001,
+      9.52,
+      157.44,
+      158.08
+    ],
+    "book": 7,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0184.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 205,
+    "kind": "diagram",
+    "bbox": [
+      76.92,
+      340.71999999999997,
+      189.12,
+      489.64
+    ],
+    "book": 7,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0185.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 206,
+    "kind": "diagram",
+    "bbox": [
+      76.92,
+      76.96,
+      189.12,
+      225.88
+    ],
+    "book": 7,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0186.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 206,
+    "kind": "diagram",
+    "bbox": [
+      17.52,
+      458.92,
+      248.52,
+      511.36
+    ],
+    "book": 7,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0187.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 207,
+    "kind": "diagram",
+    "bbox": [
+      21.48,
+      185.32,
+      244.92000000000002,
+      237.4
+    ],
+    "book": 7,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0188.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 208,
+    "kind": "diagram",
+    "bbox": [
+      26.16,
+      66.88,
+      239.52,
+      187.0
+    ],
+    "book": 7,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0189.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 208,
+    "kind": "diagram",
+    "bbox": [
+      18.240000000000002,
+      488.79999999999995,
+      247.8,
+      558.8799999999999
+    ],
+    "book": 7,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0190.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 209,
+    "kind": "diagram",
+    "bbox": [
+      38.76,
+      206.43999999999997,
+      227.28,
+      319.35999999999996
+    ],
+    "book": 7,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0191.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 210,
+    "kind": "diagram",
+    "bbox": [
+      42.72,
+      9.04,
+      223.68,
+      157.96
+    ],
+    "book": 7,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0192.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 211,
+    "kind": "diagram",
+    "bbox": [
+      72.96000000000001,
+      9.16,
+      192.72,
+      157.36
+    ],
+    "book": 7,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0193.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 212,
+    "kind": "diagram",
+    "bbox": [
+      57.120000000000005,
+      9.04,
+      208.56,
+      142.84
+    ],
+    "book": 7,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0194.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 212,
+    "kind": "diagram",
+    "bbox": [
+      51.36,
+      423.88,
+      214.32000000000002,
+      543.64
+    ],
+    "book": 7,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0195.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 213,
+    "kind": "diagram",
+    "bbox": [
+      76.2,
+      233.32,
+      194.88,
+      378.64
+    ],
+    "book": 7,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0196.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 214,
+    "kind": "diagram",
+    "bbox": [
+      44.88,
+      9.04,
+      220.8,
+      157.60000000000002
+    ],
+    "book": 7,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0197.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 215,
+    "kind": "diagram",
+    "bbox": [
+      67.2,
+      35.67999999999999,
+      198.84,
+      183.88
+    ],
+    "book": 7,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0198.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 215,
+    "kind": "diagram",
+    "bbox": [
+      31.560000000000002,
+      348.15999999999997,
+      234.48000000000002,
+      425.0799999999999
+    ],
+    "book": 7,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0199.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 216,
+    "kind": "diagram",
+    "bbox": [
+      38.04,
+      111.52,
+      227.64000000000001,
+      259.72
+    ],
+    "book": 7,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0200.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 217,
+    "kind": "diagram",
+    "bbox": [
+      33.72,
+      9.16,
+      233.04000000000002,
+      64.48
+    ],
+    "book": 7,
+    "prop": 28,
+    "subunit": null,
+    "filename": "img-0201.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 217,
+    "kind": "diagram",
+    "bbox": [
+      59.64,
+      431.43999999999994,
+      206.04000000000002,
+      494.31999999999994
+    ],
+    "book": 7,
+    "prop": 29,
+    "subunit": null,
+    "filename": "img-0202.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 218,
+    "kind": "diagram",
+    "bbox": [
+      51.36,
+      104.19999999999999,
+      214.32000000000002,
+      223.95999999999998
+    ],
+    "book": 7,
+    "prop": 30,
+    "subunit": null,
+    "filename": "img-0203.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 219,
+    "kind": "diagram",
+    "bbox": [
+      63.60000000000001,
+      191.07999999999998,
+      201.72,
+      260.79999999999995
+    ],
+    "book": 7,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0204.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 219,
+    "kind": "diagram",
+    "bbox": [
+      66.12,
+      349.48,
+      199.20000000000002,
+      368.44
+    ],
+    "book": 7,
+    "prop": 32,
+    "subunit": null,
+    "filename": "img-0205.png",
+    "labels": [
+      "A"
+    ]
+  },
+  {
+    "page": 220,
+    "kind": "diagram",
+    "bbox": [
+      21.12,
+      8.68,
+      245.28,
+      107.56
+    ],
+    "book": 7,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0206.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 221,
+    "kind": "diagram",
+    "bbox": [
+      24.0,
+      36.03999999999999,
+      241.68,
+      127.0
+    ],
+    "book": 7,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0207.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 221,
+    "kind": "diagram",
+    "bbox": [
+      43.08,
+      472.96,
+      222.6,
+      586.24
+    ],
+    "book": 7,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0207-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 222,
+    "kind": "diagram",
+    "bbox": [
+      25.080000000000002,
+      427.11999999999995,
+      241.32000000000002,
+      503.67999999999995
+    ],
+    "book": 7,
+    "prop": 35,
+    "subunit": null,
+    "filename": "img-0208.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 223,
+    "kind": "diagram",
+    "bbox": [
+      38.4,
+      115.83999999999999,
+      226.92000000000002,
+      250.35999999999999
+    ],
+    "book": 7,
+    "prop": 36,
+    "subunit": null,
+    "filename": "img-0209.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 224,
+    "kind": "diagram",
+    "bbox": [
+      54.6,
+      149.2,
+      211.08,
+      240.15999999999997
+    ],
+    "book": 7,
+    "prop": 37,
+    "subunit": null,
+    "filename": "img-0210.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 224,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      472.36,
+      217.20000000000002,
+      563.3199999999999
+    ],
+    "book": 7,
+    "prop": 38,
+    "subunit": null,
+    "filename": "img-0211.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 225,
+    "kind": "diagram",
+    "bbox": [
+      53.88,
+      152.08,
+      212.16,
+      314.68
+    ],
+    "book": 7,
+    "prop": 39,
+    "subunit": null,
+    "filename": "img-0212.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 228,
+    "kind": "diagram",
+    "bbox": [
+      22.92,
+      92.19999999999999,
+      243.12,
+      161.92
+    ],
+    "book": 8,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0213.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 229,
+    "kind": "diagram",
+    "bbox": [
+      23.64,
+      9.16,
+      242.4,
+      158.08
+    ],
+    "book": 8,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0214.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 230,
+    "kind": "diagram",
+    "bbox": [
+      11.76,
+      153.52,
+      254.64000000000001,
+      302.44
+    ],
+    "book": 8,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0215.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 231,
+    "kind": "diagram",
+    "bbox": [
+      10.32,
+      91.83999999999999,
+      256.08000000000004,
+      219.51999999999998
+    ],
+    "book": 8,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0216.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 232,
+    "kind": "diagram",
+    "bbox": [
+      26.16,
+      70.83999999999999,
+      240.24,
+      256.12
+    ],
+    "book": 8,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0216-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ]
+  },
+  {
+    "page": 233,
+    "kind": "diagram",
+    "bbox": [
+      61.08,
+      212.32,
+      205.32,
+      361.6
+    ],
+    "book": 8,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0217.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 234,
+    "kind": "diagram",
+    "bbox": [
+      56.760000000000005,
+      148.83999999999997,
+      209.28,
+      297.76
+    ],
+    "book": 8,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0218.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 235,
+    "kind": "diagram",
+    "bbox": [
+      66.84,
+      23.919999999999998,
+      199.20000000000002,
+      114.88
+    ],
+    "book": 8,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0219.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 235,
+    "kind": "diagram",
+    "bbox": [
+      34.800000000000004,
+      287.43999999999994,
+      231.24,
+      450.76
+    ],
+    "book": 8,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0220.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 236,
+    "kind": "diagram",
+    "bbox": [
+      23.28,
+      367.11999999999995,
+      242.76000000000002,
+      516.04
+    ],
+    "book": 8,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0221.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 238,
+    "kind": "diagram",
+    "bbox": [
+      17.88,
+      8.68,
+      248.16,
+      143.56
+    ],
+    "book": 8,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0222.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 239,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      118.6,
+      217.20000000000002,
+      209.56
+    ],
+    "book": 8,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0223.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 240,
+    "kind": "diagram",
+    "bbox": [
+      15.36,
+      23.439999999999998,
+      250.68,
+      100.36
+    ],
+    "book": 8,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0224.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 241,
+    "kind": "diagram",
+    "bbox": [
+      14.280000000000001,
+      107.43999999999998,
+      251.76000000000002,
+      270.76
+    ],
+    "book": 8,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0225.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q"
+    ]
+  },
+  {
+    "page": 242,
+    "kind": "diagram",
+    "bbox": [
+      21.12,
+      9.04,
+      244.56,
+      85.96
+    ],
+    "book": 8,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0226.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 242,
+    "kind": "diagram",
+    "bbox": [
+      12.120000000000001,
+      476.68,
+      253.92000000000002,
+      604.0
+    ],
+    "book": 8,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0227.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 243,
+    "kind": "diagram",
+    "bbox": [
+      38.04,
+      307.59999999999997,
+      236.28,
+      348.15999999999997
+    ],
+    "book": 8,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0228.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 244,
+    "kind": "diagram",
+    "bbox": [
+      38.04,
+      9.04,
+      236.28,
+      49.96000000000001
+    ],
+    "book": 8,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0229.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 244,
+    "kind": "diagram",
+    "bbox": [
+      25.8,
+      283.11999999999995,
+      240.24,
+      360.76
+    ],
+    "book": 8,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0230.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 245,
+    "kind": "diagram",
+    "bbox": [
+      13.2,
+      246.27999999999997,
+      253.56,
+      388.36
+    ],
+    "book": 8,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0231.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 247,
+    "kind": "diagram",
+    "bbox": [
+      27.96,
+      59.44,
+      238.08,
+      136.72
+    ],
+    "book": 8,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0232.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 248,
+    "kind": "diagram",
+    "bbox": [
+      16.080000000000002,
+      394.24,
+      249.96,
+      542.8
+    ],
+    "book": 8,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0233.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 249,
+    "kind": "diagram",
+    "bbox": [
+      79.8,
+      110.43999999999998,
+      186.24,
+      173.32
+    ],
+    "book": 8,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0234.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 249,
+    "kind": "diagram",
+    "bbox": [
+      77.28,
+      321.76,
+      197.4,
+      412.71999999999997
+    ],
+    "book": 8,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0235.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 249,
+    "kind": "diagram",
+    "bbox": [
+      22.2,
+      564.88,
+      243.84,
+      605.8000000000001
+    ],
+    "book": 8,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0236.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 250,
+    "kind": "diagram",
+    "bbox": [
+      13.920000000000002,
+      198.99999999999997,
+      252.48000000000002,
+      269.08
+    ],
+    "book": 8,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0237.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 250,
+    "kind": "diagram",
+    "bbox": [
+      20.04,
+      528.88,
+      246.0,
+      591.04
+    ],
+    "book": 8,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0238.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 251,
+    "kind": "diagram",
+    "bbox": [
+      26.52,
+      208.35999999999999,
+      239.52,
+      285.28
+    ],
+    "book": 8,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0239.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 254,
+    "kind": "diagram",
+    "bbox": [
+      24.0,
+      80.19999999999999,
+      241.68,
+      171.16
+    ],
+    "book": 9,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0240.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 254,
+    "kind": "diagram",
+    "bbox": [
+      61.44,
+      415.71999999999997,
+      204.24,
+      513.8799999999999
+    ],
+    "book": 9,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0241.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 255,
+    "kind": "diagram",
+    "bbox": [
+      60.72,
+      148.83999999999997,
+      204.96,
+      239.79999999999998
+    ],
+    "book": 9,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0242.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 256,
+    "kind": "diagram",
+    "bbox": [
+      65.04,
+      23.919999999999998,
+      200.28,
+      114.88
+    ],
+    "book": 9,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0243.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 256,
+    "kind": "diagram",
+    "bbox": [
+      54.6,
+      326.44,
+      211.08,
+      417.4
+    ],
+    "book": 9,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0244.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 257,
+    "kind": "diagram",
+    "bbox": [
+      54.24,
+      23.56,
+      211.8,
+      86.44
+    ],
+    "book": 9,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0245.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 257,
+    "kind": "diagram",
+    "bbox": [
+      56.4,
+      389.8,
+      209.28,
+      502.71999999999997
+    ],
+    "book": 9,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0246.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 258,
+    "kind": "diagram",
+    "bbox": [
+      63.60000000000001,
+      184.48,
+      202.08,
+      319.0
+    ],
+    "book": 9,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0247.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 259,
+    "kind": "diagram",
+    "bbox": [
+      63.60000000000001,
+      259.36,
+      202.08,
+      393.88
+    ],
+    "book": 9,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0248.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 260,
+    "kind": "diagram",
+    "bbox": [
+      63.60000000000001,
+      319.24,
+      202.08,
+      453.4
+    ],
+    "book": 9,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0249.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 261,
+    "kind": "diagram",
+    "bbox": [
+      64.32000000000001,
+      414.88,
+      201.36,
+      535.0
+    ],
+    "book": 9,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0250.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 262,
+    "kind": "diagram",
+    "bbox": [
+      25.080000000000002,
+      274.6,
+      241.32000000000002,
+      359.08
+    ],
+    "book": 9,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0251.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 264,
+    "kind": "diagram",
+    "bbox": [
+      38.4,
+      35.56,
+      227.28,
+      119.68
+    ],
+    "book": 9,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0252.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 265,
+    "kind": "diagram",
+    "bbox": [
+      34.800000000000004,
+      343.24,
+      230.88,
+      412.96
+    ],
+    "book": 9,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0253.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 266,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      116.19999999999999,
+      247.44,
+      193.12
+    ],
+    "book": 9,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0254.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 267,
+    "kind": "diagram",
+    "bbox": [
+      76.56,
+      294.64,
+      189.12,
+      364.36
+    ],
+    "book": 9,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0255.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 268,
+    "kind": "diagram",
+    "bbox": [
+      76.56,
+      71.8,
+      189.12,
+      170.32
+    ],
+    "book": 9,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0256.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 268,
+    "kind": "diagram",
+    "bbox": [
+      10.68,
+      450.15999999999997,
+      255.36,
+      483.88
+    ],
+    "book": 9,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0257.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 269,
+    "kind": "diagram",
+    "bbox": [
+      71.52,
+      271.59999999999997,
+      194.52,
+      370.12
+    ],
+    "book": 9,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0258.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 271,
+    "kind": "diagram",
+    "bbox": [
+      27.240000000000002,
+      79.83999999999999,
+      238.44,
+      177.64
+    ],
+    "book": 9,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0259.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 271,
+    "kind": "diagram",
+    "bbox": [
+      17.16,
+      497.8,
+      249.60000000000002,
+      523.24
+    ],
+    "book": 9,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0260.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 272,
+    "kind": "diagram",
+    "bbox": [
+      17.16,
+      88.83999999999999,
+      249.60000000000002,
+      114.28
+    ],
+    "book": 9,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0261.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 272,
+    "kind": "diagram",
+    "bbox": [
+      37.68,
+      299.91999999999996,
+      228.72,
+      325.35999999999996
+    ],
+    "book": 9,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0262.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 272,
+    "kind": "diagram",
+    "bbox": [
+      39.480000000000004,
+      490.12,
+      226.20000000000002,
+      515.92
+    ],
+    "book": 9,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0263.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 273,
+    "kind": "diagram",
+    "bbox": [
+      39.480000000000004,
+      80.19999999999999,
+      226.20000000000002,
+      105.63999999999999
+    ],
+    "book": 9,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0264.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 273,
+    "kind": "diagram",
+    "bbox": [
+      45.24,
+      258.64,
+      220.44,
+      284.08
+    ],
+    "book": 9,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0265.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 273,
+    "kind": "diagram",
+    "bbox": [
+      33.72,
+      433.48,
+      231.96,
+      458.92
+    ],
+    "book": 9,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0266.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 274,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      9.16,
+      217.56,
+      72.03999999999999
+    ],
+    "book": 9,
+    "prop": 28,
+    "subunit": null,
+    "filename": "img-0267.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 274,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      247.23999999999998,
+      217.56,
+      310.12
+    ],
+    "book": 9,
+    "prop": 29,
+    "subunit": null,
+    "filename": "img-0268.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 274,
+    "kind": "diagram",
+    "bbox": [
+      59.64,
+      473.32,
+      206.04000000000002,
+      536.1999999999999
+    ],
+    "book": 9,
+    "prop": 30,
+    "subunit": null,
+    "filename": "img-0269.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 275,
+    "kind": "diagram",
+    "bbox": [
+      55.32,
+      127.84,
+      210.72,
+      211.95999999999998
+    ],
+    "book": 9,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0270.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 275,
+    "kind": "diagram",
+    "bbox": [
+      55.32,
+      444.15999999999997,
+      210.72,
+      528.28
+    ],
+    "book": 9,
+    "prop": 32,
+    "subunit": null,
+    "filename": "img-0271.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 276,
+    "kind": "diagram",
+    "bbox": [
+      74.4,
+      172.35999999999999,
+      191.28,
+      189.88
+    ],
+    "book": 9,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0272.png",
+    "labels": [
+      "A"
+    ]
+  },
+  {
+    "page": 276,
+    "kind": "diagram",
+    "bbox": [
+      74.4,
+      401.32,
+      191.28,
+      418.84
+    ],
+    "book": 9,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0273.png",
+    "labels": [
+      "A"
+    ]
+  },
+  {
+    "page": 277,
+    "kind": "diagram",
+    "bbox": [
+      38.4,
+      127.84,
+      228.0,
+      247.24
+    ],
+    "book": 9,
+    "prop": 35,
+    "subunit": null,
+    "filename": "img-0274.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 278,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      95.91999999999999,
+      248.52,
+      330.16
+    ],
+    "book": 9,
+    "prop": 36,
+    "subunit": null,
+    "filename": "img-0275.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q"
+    ]
+  },
+  {
+    "page": 283,
+    "kind": "diagram",
+    "bbox": [
+      57.480000000000004,
+      95.07999999999998,
+      209.28,
+      179.56
+    ],
+    "book": 10,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0276.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 284,
+    "kind": "diagram",
+    "bbox": [
+      12.84,
+      47.199999999999996,
+      254.28,
+      117.64000000000001
+    ],
+    "book": 10,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0277.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 284,
+    "kind": "diagram",
+    "bbox": [
+      31.560000000000002,
+      408.15999999999997,
+      235.20000000000002,
+      492.64
+    ],
+    "book": 10,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0278.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 285,
+    "kind": "diagram",
+    "bbox": [
+      53.160000000000004,
+      469.12,
+      212.88,
+      560.44
+    ],
+    "book": 10,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0279.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 287,
+    "kind": "diagram",
+    "bbox": [
+      46.32,
+      55.12,
+      220.08,
+      117.28
+    ],
+    "book": 10,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0280.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 287,
+    "kind": "diagram",
+    "bbox": [
+      25.8,
+      507.75999999999993,
+      240.24,
+      570.64
+    ],
+    "book": 10,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0281.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 289,
+    "kind": "diagram",
+    "bbox": [
+      87.0,
+      9.16,
+      179.04000000000002,
+      50.08
+    ],
+    "book": 10,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0282.png",
+    "labels": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "page": 289,
+    "kind": "diagram",
+    "bbox": [
+      87.0,
+      186.76,
+      179.04000000000002,
+      227.32
+    ],
+    "book": 10,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0283.png",
+    "labels": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "page": 289,
+    "kind": "diagram",
+    "bbox": [
+      27.96,
+      534.7599999999999,
+      238.08,
+      576.04
+    ],
+    "book": 10,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0284.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 291,
+    "kind": "diagram",
+    "bbox": [
+      62.519999999999996,
+      217.95999999999998,
+      203.16,
+      331.24
+    ],
+    "book": 10,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0285.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 292,
+    "kind": "diagram",
+    "bbox": [
+      10.32,
+      197.32,
+      255.36,
+      238.24
+    ],
+    "book": 10,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0286.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 293,
+    "kind": "diagram",
+    "bbox": [
+      13.560000000000002,
+      71.44,
+      252.84,
+      149.07999999999998
+    ],
+    "book": 10,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0287.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 293,
+    "kind": "diagram",
+    "bbox": [
+      54.24,
+      369.03999999999996,
+      211.8,
+      431.2
+    ],
+    "book": 10,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0288.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 294,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      23.439999999999998,
+      227.28,
+      114.76
+    ],
+    "book": 10,
+    "prop": 13,
+    "subunit": "Lemma",
+    "filename": "img-0288-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 295,
+    "kind": "diagram",
+    "bbox": [
+      68.64,
+      84.52,
+      196.68,
+      232.72000000000003
+    ],
+    "book": 10,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0289.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 296,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      9.16,
+      224.4,
+      57.28
+    ],
+    "book": 10,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0290.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 296,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      352.36,
+      224.4,
+      400.48
+    ],
+    "book": 10,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0291.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 297,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      242.92,
+      222.24,
+      341.8
+    ],
+    "book": 10,
+    "prop": 16,
+    "subunit": "Lemma",
+    "filename": "img-0291-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 298,
+    "kind": "diagram",
+    "bbox": [
+      42.36,
+      179.2,
+      223.32000000000002,
+      263.67999999999995
+    ],
+    "book": 10,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0292.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 300,
+    "kind": "diagram",
+    "bbox": [
+      41.28,
+      9.16,
+      225.12,
+      72.03999999999999
+    ],
+    "book": 10,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0293.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 301,
+    "kind": "diagram",
+    "bbox": [
+      51.36,
+      35.56,
+      214.68,
+      184.48000000000002
+    ],
+    "book": 10,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0294.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 301,
+    "kind": "diagram",
+    "bbox": [
+      81.60000000000001,
+      372.4,
+      185.52,
+      557.6800000000001
+    ],
+    "book": 10,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0295.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 302,
+    "kind": "diagram",
+    "bbox": [
+      81.60000000000001,
+      201.04,
+      185.52,
+      386.32
+    ],
+    "book": 10,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0296.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 303,
+    "kind": "diagram",
+    "bbox": [
+      60.36,
+      75.52,
+      206.76000000000002,
+      159.64
+    ],
+    "book": 10,
+    "prop": 21,
+    "subunit": "Lemma",
+    "filename": "img-0296-b.png",
+    "labels": [
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 303,
+    "kind": "diagram",
+    "bbox": [
+      62.16,
+      404.0799999999999,
+      204.24,
+      553.3599999999999
+    ],
+    "book": 10,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0297.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 305,
+    "kind": "diagram",
+    "bbox": [
+      46.68,
+      191.07999999999998,
+      219.0,
+      346.84000000000003
+    ],
+    "book": 10,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0298.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 306,
+    "kind": "diagram",
+    "bbox": [
+      85.56,
+      9.04,
+      180.48000000000002,
+      172.00000000000003
+    ],
+    "book": 10,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0299.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 306,
+    "kind": "diagram",
+    "bbox": [
+      27.6,
+      240.04,
+      238.8,
+      374.56
+    ],
+    "book": 10,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0300.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 307,
+    "kind": "diagram",
+    "bbox": [
+      26.52,
+      367.84,
+      239.88,
+      502.71999999999997
+    ],
+    "book": 10,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0301.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 308,
+    "kind": "diagram",
+    "bbox": [
+      87.72,
+      469.48,
+      178.68,
+      588.88
+    ],
+    "book": 10,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0302.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 309,
+    "kind": "diagram",
+    "bbox": [
+      21.12,
+      374.92,
+      244.56,
+      430.6
+    ],
+    "book": 10,
+    "prop": 28,
+    "subunit": null,
+    "filename": "img-0303.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 310,
+    "kind": "diagram",
+    "bbox": [
+      53.160000000000004,
+      229.48,
+      212.52,
+      255.64
+    ],
+    "book": 10,
+    "prop": 28,
+    "subunit": "Lemma I",
+    "filename": "img-0303-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 311,
+    "kind": "diagram",
+    "bbox": [
+      31.92,
+      51.76,
+      234.12,
+      85.47999999999999
+    ],
+    "book": 10,
+    "prop": 28,
+    "subunit": "Lemma II",
+    "filename": "img-0303-c.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 312,
+    "kind": "diagram",
+    "bbox": [
+      48.120000000000005,
+      199.71999999999997,
+      217.92000000000002,
+      327.03999999999996
+    ],
+    "book": 10,
+    "prop": 29,
+    "subunit": null,
+    "filename": "img-0304.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 313,
+    "kind": "diagram",
+    "bbox": [
+      48.120000000000005,
+      318.28000000000003,
+      217.92000000000002,
+      445.6
+    ],
+    "book": 10,
+    "prop": 30,
+    "subunit": null,
+    "filename": "img-0305.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 314,
+    "kind": "diagram",
+    "bbox": [
+      75.12,
+      270.76,
+      190.56,
+      390.52
+    ],
+    "book": 10,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0306.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 315,
+    "kind": "diagram",
+    "bbox": [
+      16.080000000000002,
+      401.8,
+      249.96,
+      461.08
+    ],
+    "book": 10,
+    "prop": 32,
+    "subunit": null,
+    "filename": "img-0307.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 317,
+    "kind": "diagram",
+    "bbox": [
+      44.160000000000004,
+      35.67999999999999,
+      222.6,
+      183.88
+    ],
+    "book": 10,
+    "prop": 32,
+    "subunit": "Lemma",
+    "filename": "img-0307-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 318,
+    "kind": "diagram",
+    "bbox": [
+      20.400000000000002,
+      83.55999999999999,
+      245.64000000000001,
+      160.48
+    ],
+    "book": 10,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0308.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 319,
+    "kind": "diagram",
+    "bbox": [
+      20.400000000000002,
+      104.55999999999999,
+      245.64000000000001,
+      181.48
+    ],
+    "book": 10,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0309.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 320,
+    "kind": "diagram",
+    "bbox": [
+      20.400000000000002,
+      165.04,
+      245.64000000000001,
+      241.95999999999998
+    ],
+    "book": 10,
+    "prop": 35,
+    "subunit": null,
+    "filename": "img-0310.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 321,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      227.07999999999998,
+      224.4,
+      253.23999999999998
+    ],
+    "book": 10,
+    "prop": 36,
+    "subunit": null,
+    "filename": "img-0311.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 322,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      102.27999999999999,
+      224.4,
+      128.44
+    ],
+    "book": 10,
+    "prop": 37,
+    "subunit": null,
+    "filename": "img-0312.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 322,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      469.12,
+      227.28,
+      596.8
+    ],
+    "book": 10,
+    "prop": 38,
+    "subunit": null,
+    "filename": "img-0313.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 324,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      116.67999999999999,
+      224.4,
+      142.48
+    ],
+    "book": 10,
+    "prop": 39,
+    "subunit": null,
+    "filename": "img-0314.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 324,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      524.68,
+      224.4,
+      550.84
+    ],
+    "book": 10,
+    "prop": 40,
+    "subunit": null,
+    "filename": "img-0315.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 325,
+    "kind": "diagram",
+    "bbox": [
+      57.120000000000005,
+      297.99999999999994,
+      208.92000000000002,
+      461.67999999999995
+    ],
+    "book": 10,
+    "prop": 41,
+    "subunit": null,
+    "filename": "img-0316.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 326,
+    "kind": "diagram",
+    "bbox": [
+      45.24,
+      354.15999999999997,
+      220.44,
+      379.59999999999997
+    ],
+    "book": 10,
+    "prop": 41,
+    "subunit": "Lemma",
+    "filename": "img-0316-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 327,
+    "kind": "diagram",
+    "bbox": [
+      39.480000000000004,
+      184.72,
+      226.20000000000002,
+      210.16
+    ],
+    "book": 10,
+    "prop": 42,
+    "subunit": null,
+    "filename": "img-0317.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 328,
+    "kind": "diagram",
+    "bbox": [
+      39.480000000000004,
+      148.11999999999998,
+      226.20000000000002,
+      173.55999999999997
+    ],
+    "book": 10,
+    "prop": 43,
+    "subunit": null,
+    "filename": "img-0318.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 329,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      9.16,
+      227.64000000000001,
+      122.08
+    ],
+    "book": 10,
+    "prop": 44,
+    "subunit": null,
+    "filename": "img-0319.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 330,
+    "kind": "diagram",
+    "bbox": [
+      39.480000000000004,
+      374.92,
+      226.20000000000002,
+      400.71999999999997
+    ],
+    "book": 10,
+    "prop": 45,
+    "subunit": null,
+    "filename": "img-0320.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 331,
+    "kind": "diagram",
+    "bbox": [
+      39.480000000000004,
+      186.99999999999997,
+      226.20000000000002,
+      212.43999999999997
+    ],
+    "book": 10,
+    "prop": 46,
+    "subunit": null,
+    "filename": "img-0321.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 332,
+    "kind": "diagram",
+    "bbox": [
+      45.96,
+      8.8,
+      220.8,
+      158.08
+    ],
+    "book": 10,
+    "prop": 47,
+    "subunit": null,
+    "filename": "img-0322.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 334,
+    "kind": "diagram",
+    "bbox": [
+      48.480000000000004,
+      179.44,
+      218.28,
+      255.27999999999997
+    ],
+    "book": 10,
+    "prop": 48,
+    "subunit": null,
+    "filename": "img-0323.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 335,
+    "kind": "diagram",
+    "bbox": [
+      24.36,
+      9.52,
+      242.04000000000002,
+      85.36
+    ],
+    "book": 10,
+    "prop": 49,
+    "subunit": null,
+    "filename": "img-0324.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 336,
+    "kind": "diagram",
+    "bbox": [
+      38.76,
+      68.19999999999999,
+      228.0,
+      151.6
+    ],
+    "book": 10,
+    "prop": 50,
+    "subunit": null,
+    "filename": "img-0325.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 337,
+    "kind": "diagram",
+    "bbox": [
+      45.96,
+      377.91999999999996,
+      220.44,
+      469.59999999999997
+    ],
+    "book": 10,
+    "prop": 51,
+    "subunit": null,
+    "filename": "img-0326.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 338,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      410.44,
+      227.64000000000001,
+      509.67999999999995
+    ],
+    "book": 10,
+    "prop": 52,
+    "subunit": null,
+    "filename": "img-0327.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 339,
+    "kind": "diagram",
+    "bbox": [
+      27.240000000000002,
+      446.79999999999995,
+      239.16,
+      523.0
+    ],
+    "book": 10,
+    "prop": 53,
+    "subunit": null,
+    "filename": "img-0328.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 341,
+    "kind": "diagram",
+    "bbox": [
+      70.8,
+      242.32,
+      195.96,
+      369.64
+    ],
+    "book": 10,
+    "prop": 53,
+    "subunit": "Lemma",
+    "filename": "img-0328-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 342,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      105.99999999999999,
+      247.8,
+      204.16
+    ],
+    "book": 10,
+    "prop": 54,
+    "subunit": null,
+    "filename": "img-0329.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 344,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      9.639999999999999,
+      247.8,
+      107.80000000000001
+    ],
+    "book": 10,
+    "prop": 55,
+    "subunit": null,
+    "filename": "img-0330.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 345,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      450.63999999999993,
+      247.8,
+      548.4399999999999
+    ],
+    "book": 10,
+    "prop": 56,
+    "subunit": null,
+    "filename": "img-0331.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 346,
+    "kind": "diagram",
+    "bbox": [
+      18.6,
+      423.4,
+      247.8,
+      521.56
+    ],
+    "book": 10,
+    "prop": 57,
+    "subunit": null,
+    "filename": "img-0332.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 348,
+    "kind": "diagram",
+    "bbox": [
+      14.280000000000001,
+      96.03999999999999,
+      252.12,
+      197.8
+    ],
+    "book": 10,
+    "prop": 58,
+    "subunit": null,
+    "filename": "img-0333.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 349,
+    "kind": "diagram",
+    "bbox": [
+      14.280000000000001,
+      105.75999999999999,
+      252.12,
+      207.51999999999998
+    ],
+    "book": 10,
+    "prop": 59,
+    "subunit": null,
+    "filename": "img-0334.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 350,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      100.35999999999999,
+      223.68,
+      126.16
+    ],
+    "book": 10,
+    "prop": 59,
+    "subunit": "Lemma",
+    "filename": "img-0334-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 350,
+    "kind": "diagram",
+    "bbox": [
+      54.24,
+      395.08,
+      211.8,
+      508.71999999999997
+    ],
+    "book": 10,
+    "prop": 60,
+    "subunit": null,
+    "filename": "img-0335.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 352,
+    "kind": "diagram",
+    "bbox": [
+      51.72,
+      219.39999999999998,
+      214.32000000000002,
+      336.28
+    ],
+    "book": 10,
+    "prop": 61,
+    "subunit": null,
+    "filename": "img-0336.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 353,
+    "kind": "diagram",
+    "bbox": [
+      54.24,
+      314.56,
+      211.8,
+      428.2
+    ],
+    "book": 10,
+    "prop": 62,
+    "subunit": null,
+    "filename": "img-0337.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 354,
+    "kind": "diagram",
+    "bbox": [
+      49.2,
+      421.96,
+      216.84,
+      542.4399999999999
+    ],
+    "book": 10,
+    "prop": 63,
+    "subunit": null,
+    "filename": "img-0338.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 356,
+    "kind": "diagram",
+    "bbox": [
+      54.24,
+      35.199999999999996,
+      211.8,
+      148.48
+    ],
+    "book": 10,
+    "prop": 64,
+    "subunit": null,
+    "filename": "img-0339.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 357,
+    "kind": "diagram",
+    "bbox": [
+      49.2,
+      35.199999999999996,
+      216.84,
+      155.68
+    ],
+    "book": 10,
+    "prop": 65,
+    "subunit": null,
+    "filename": "img-0340.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 358,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      47.44,
+      233.76000000000002,
+      102.03999999999999
+    ],
+    "book": 10,
+    "prop": 66,
+    "subunit": null,
+    "filename": "img-0341.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 359,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      364.11999999999995,
+      233.76000000000002,
+      418.35999999999996
+    ],
+    "book": 10,
+    "prop": 67,
+    "subunit": null,
+    "filename": "img-0342.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 360,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      351.75999999999993,
+      233.76000000000002,
+      406.35999999999996
+    ],
+    "book": 10,
+    "prop": 68,
+    "subunit": null,
+    "filename": "img-0343.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 361,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      423.75999999999993,
+      233.76000000000002,
+      477.99999999999994
+    ],
+    "book": 10,
+    "prop": 69,
+    "subunit": null,
+    "filename": "img-0344.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 362,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      188.07999999999998,
+      233.76000000000002,
+      242.32
+    ],
+    "book": 10,
+    "prop": 70,
+    "subunit": null,
+    "filename": "img-0345.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 363,
+    "kind": "diagram",
+    "bbox": [
+      34.800000000000004,
+      83.43999999999998,
+      231.6,
+      232.35999999999999
+    ],
+    "book": 10,
+    "prop": 71,
+    "subunit": null,
+    "filename": "img-0346.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K"
+    ]
+  },
+  {
+    "page": 365,
+    "kind": "diagram",
+    "bbox": [
+      34.800000000000004,
+      184.35999999999999,
+      231.6,
+      333.64
+    ],
+    "book": 10,
+    "prop": 72,
+    "subunit": null,
+    "filename": "img-0347.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K"
+    ]
+  },
+  {
+    "page": 367,
+    "kind": "diagram",
+    "bbox": [
+      56.760000000000005,
+      208.35999999999999,
+      208.92000000000002,
+      233.79999999999998
+    ],
+    "book": 10,
+    "prop": 73,
+    "subunit": null,
+    "filename": "img-0348.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 368,
+    "kind": "diagram",
+    "bbox": [
+      56.760000000000005,
+      35.56,
+      208.92000000000002,
+      61.0
+    ],
+    "book": 10,
+    "prop": 74,
+    "subunit": null,
+    "filename": "img-0349.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 369,
+    "kind": "diagram",
+    "bbox": [
+      72.96000000000001,
+      8.68,
+      193.44,
+      136.36
+    ],
+    "book": 10,
+    "prop": 75,
+    "subunit": null,
+    "filename": "img-0350.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ]
+  },
+  {
+    "page": 370,
+    "kind": "diagram",
+    "bbox": [
+      63.96000000000001,
+      186.76,
+      201.72,
+      210.4
+    ],
+    "book": 10,
+    "prop": 76,
+    "subunit": null,
+    "filename": "img-0351.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 370,
+    "kind": "diagram",
+    "bbox": [
+      63.96000000000001,
+      549.9999999999999,
+      201.72,
+      573.6399999999999
+    ],
+    "book": 10,
+    "prop": 77,
+    "subunit": null,
+    "filename": "img-0352.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 371,
+    "kind": "diagram",
+    "bbox": [
+      50.64,
+      326.92,
+      215.76000000000002,
+      454.6
+    ],
+    "book": 10,
+    "prop": 78,
+    "subunit": null,
+    "filename": "img-0353.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ]
+  },
+  {
+    "page": 372,
+    "kind": "diagram",
+    "bbox": [
+      31.200000000000003,
+      379.71999999999997,
+      234.84,
+      402.63999999999993
+    ],
+    "book": 10,
+    "prop": 79,
+    "subunit": null,
+    "filename": "img-0354.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 373,
+    "kind": "diagram",
+    "bbox": [
+      31.200000000000003,
+      294.64,
+      234.84,
+      317.56
+    ],
+    "book": 10,
+    "prop": 80,
+    "subunit": null,
+    "filename": "img-0355.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 374,
+    "kind": "diagram",
+    "bbox": [
+      38.76,
+      270.28000000000003,
+      228.0,
+      390.76
+    ],
+    "book": 10,
+    "prop": 81,
+    "subunit": null,
+    "filename": "img-0356.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 376,
+    "kind": "diagram",
+    "bbox": [
+      35.160000000000004,
+      112.83999999999999,
+      231.24,
+      135.4
+    ],
+    "book": 10,
+    "prop": 82,
+    "subunit": null,
+    "filename": "img-0357.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 376,
+    "kind": "diagram",
+    "bbox": [
+      35.160000000000004,
+      594.16,
+      231.24,
+      616.72
+    ],
+    "book": 10,
+    "prop": 83,
+    "subunit": null,
+    "filename": "img-0358.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 378,
+    "kind": "diagram",
+    "bbox": [
+      38.76,
+      9.04,
+      228.0,
+      129.51999999999998
+    ],
+    "book": 10,
+    "prop": 84,
+    "subunit": null,
+    "filename": "img-0359.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 380,
+    "kind": "diagram",
+    "bbox": [
+      28.68,
+      9.04,
+      237.72,
+      60.760000000000005
+    ],
+    "book": 10,
+    "prop": 85,
+    "subunit": null,
+    "filename": "img-0360.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 381,
+    "kind": "diagram",
+    "bbox": [
+      28.68,
+      226.96,
+      237.72,
+      278.68
+    ],
+    "book": 10,
+    "prop": 86,
+    "subunit": null,
+    "filename": "img-0361.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 382,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      8.68,
+      234.48000000000002,
+      85.96
+    ],
+    "book": 10,
+    "prop": 87,
+    "subunit": null,
+    "filename": "img-0362.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 383,
+    "kind": "diagram",
+    "bbox": [
+      28.68,
+      313.84,
+      237.72,
+      365.56
+    ],
+    "book": 10,
+    "prop": 88,
+    "subunit": null,
+    "filename": "img-0363.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 384,
+    "kind": "diagram",
+    "bbox": [
+      24.36,
+      329.92,
+      242.04000000000002,
+      378.4
+    ],
+    "book": 10,
+    "prop": 89,
+    "subunit": null,
+    "filename": "img-0364.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 385,
+    "kind": "diagram",
+    "bbox": [
+      22.2,
+      418.47999999999996,
+      244.20000000000002,
+      502.59999999999997
+    ],
+    "book": 10,
+    "prop": 90,
+    "subunit": null,
+    "filename": "img-0365.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 387,
+    "kind": "diagram",
+    "bbox": [
+      15.0,
+      102.75999999999999,
+      251.76000000000002,
+      201.64
+    ],
+    "book": 10,
+    "prop": 91,
+    "subunit": null,
+    "filename": "img-0366.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 388,
+    "kind": "diagram",
+    "bbox": [
+      15.0,
+      519.28,
+      251.76000000000002,
+      618.16
+    ],
+    "book": 10,
+    "prop": 92,
+    "subunit": null,
+    "filename": "img-0367.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 390,
+    "kind": "diagram",
+    "bbox": [
+      15.0,
+      421.12,
+      251.76000000000002,
+      520.36
+    ],
+    "book": 10,
+    "prop": 93,
+    "subunit": null,
+    "filename": "img-0368.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 392,
+    "kind": "diagram",
+    "bbox": [
+      15.0,
+      486.28,
+      251.76000000000002,
+      585.16
+    ],
+    "book": 10,
+    "prop": 94,
+    "subunit": null,
+    "filename": "img-0369.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 394,
+    "kind": "diagram",
+    "bbox": [
+      15.0,
+      271.24,
+      251.76000000000002,
+      370.12
+    ],
+    "book": 10,
+    "prop": 95,
+    "subunit": null,
+    "filename": "img-0370.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 395,
+    "kind": "diagram",
+    "bbox": [
+      15.0,
+      462.28,
+      251.76000000000002,
+      561.16
+    ],
+    "book": 10,
+    "prop": 96,
+    "subunit": null,
+    "filename": "img-0371.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 397,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      184.35999999999999,
+      223.68,
+      304.84
+    ],
+    "book": 10,
+    "prop": 97,
+    "subunit": null,
+    "filename": "img-0372.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 399,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      406.12,
+      223.68,
+      526.6
+    ],
+    "book": 10,
+    "prop": 98,
+    "subunit": null,
+    "filename": "img-0373.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 400,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      379.11999999999995,
+      223.68,
+      499.23999999999995
+    ],
+    "book": 10,
+    "prop": 99,
+    "subunit": null,
+    "filename": "img-0374.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 402,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      291.88,
+      223.68,
+      412.35999999999996
+    ],
+    "book": 10,
+    "prop": 100,
+    "subunit": null,
+    "filename": "img-0375.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 404,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      137.2,
+      223.68,
+      257.67999999999995
+    ],
+    "book": 10,
+    "prop": 101,
+    "subunit": null,
+    "filename": "img-0376.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 405,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      399.75999999999993,
+      223.68,
+      520.24
+    ],
+    "book": 10,
+    "prop": 102,
+    "subunit": null,
+    "filename": "img-0377.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 407,
+    "kind": "diagram",
+    "bbox": [
+      59.28,
+      125.07999999999998,
+      207.48000000000002,
+      179.32
+    ],
+    "book": 10,
+    "prop": 103,
+    "subunit": null,
+    "filename": "img-0378.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 408,
+    "kind": "diagram",
+    "bbox": [
+      59.28,
+      220.72,
+      207.48000000000002,
+      274.96
+    ],
+    "book": 10,
+    "prop": 104,
+    "subunit": null,
+    "filename": "img-0379.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 409,
+    "kind": "diagram",
+    "bbox": [
+      59.28,
+      196.72,
+      207.48000000000002,
+      251.32
+    ],
+    "book": 10,
+    "prop": 105,
+    "subunit": null,
+    "filename": "img-0380.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 410,
+    "kind": "diagram",
+    "bbox": [
+      59.28,
+      148.72,
+      207.48000000000002,
+      203.32
+    ],
+    "book": 10,
+    "prop": 106,
+    "subunit": null,
+    "filename": "img-0381.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 410,
+    "kind": "diagram",
+    "bbox": [
+      59.28,
+      555.76,
+      207.48000000000002,
+      610.0
+    ],
+    "book": 10,
+    "prop": 107,
+    "subunit": null,
+    "filename": "img-0382.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 411,
+    "kind": "diagram",
+    "bbox": [
+      12.48,
+      375.4,
+      253.92000000000002,
+      489.03999999999996
+    ],
+    "book": 10,
+    "prop": 108,
+    "subunit": null,
+    "filename": "img-0383.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 413,
+    "kind": "diagram",
+    "bbox": [
+      52.800000000000004,
+      83.43999999999998,
+      213.6,
+      232.72
+    ],
+    "book": 10,
+    "prop": 109,
+    "subunit": null,
+    "filename": "img-0384.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 414,
+    "kind": "diagram",
+    "bbox": [
+      45.24,
+      9.16,
+      221.52,
+      172.84
+    ],
+    "book": 10,
+    "prop": 110,
+    "subunit": null,
+    "filename": "img-0385.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 415,
+    "kind": "diagram",
+    "bbox": [
+      60.36,
+      64.83999999999999,
+      205.68,
+      242.92000000000002
+    ],
+    "book": 10,
+    "prop": 111,
+    "subunit": null,
+    "filename": "img-0386.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 417,
+    "kind": "diagram",
+    "bbox": [
+      24.0,
+      325.48,
+      242.4,
+      394.84
+    ],
+    "book": 10,
+    "prop": 112,
+    "subunit": null,
+    "filename": "img-0387.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 419,
+    "kind": "diagram",
+    "bbox": [
+      33.0,
+      206.43999999999997,
+      233.4,
+      275.79999999999995
+    ],
+    "book": 10,
+    "prop": 113,
+    "subunit": null,
+    "filename": "img-0388.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 421,
+    "kind": "diagram",
+    "bbox": [
+      60.72,
+      112.71999999999998,
+      205.68,
+      246.88
+    ],
+    "book": 10,
+    "prop": 114,
+    "subunit": null,
+    "filename": "img-0389.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 422,
+    "kind": "diagram",
+    "bbox": [
+      57.120000000000005,
+      250.59999999999997,
+      209.28,
+      327.52
+    ],
+    "book": 10,
+    "prop": 115,
+    "subunit": null,
+    "filename": "img-0390.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 426,
+    "kind": "diagram",
+    "bbox": [
+      61.44,
+      35.56,
+      204.96,
+      219.76000000000002
+    ],
+    "book": 11,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0391.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 426,
+    "kind": "diagram",
+    "bbox": [
+      53.88,
+      366.88,
+      212.88,
+      516.16
+    ],
+    "book": 11,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0392.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 427,
+    "kind": "diagram",
+    "bbox": [
+      66.12,
+      269.32,
+      201.36,
+      403.12
+    ],
+    "book": 11,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0393.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 428,
+    "kind": "diagram",
+    "bbox": [
+      31.92,
+      78.88,
+      234.84,
+      227.07999999999998
+    ],
+    "book": 11,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0394.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 429,
+    "kind": "diagram",
+    "bbox": [
+      46.68,
+      402.76,
+      220.44,
+      551.3199999999999
+    ],
+    "book": 11,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0395.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 430,
+    "kind": "diagram",
+    "bbox": [
+      44.160000000000004,
+      344.2,
+      222.96,
+      492.76
+    ],
+    "book": 11,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0396.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 431,
+    "kind": "diagram",
+    "bbox": [
+      32.28,
+      433.48,
+      233.76000000000002,
+      546.76
+    ],
+    "book": 11,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0397.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 432,
+    "kind": "diagram",
+    "bbox": [
+      67.92,
+      232.23999999999998,
+      198.84,
+      417.15999999999997
+    ],
+    "book": 11,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0398.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 433,
+    "kind": "diagram",
+    "bbox": [
+      35.52,
+      474.76,
+      231.24,
+      594.88
+    ],
+    "book": 11,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0399.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 434,
+    "kind": "diagram",
+    "bbox": [
+      44.52,
+      283.72,
+      221.88,
+      431.92
+    ],
+    "book": 11,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0400.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 435,
+    "kind": "diagram",
+    "bbox": [
+      39.120000000000005,
+      187.71999999999997,
+      227.64000000000001,
+      372.28
+    ],
+    "book": 11,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0401.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 436,
+    "kind": "diagram",
+    "bbox": [
+      41.64,
+      268.36,
+      225.48000000000002,
+      470.56
+    ],
+    "book": 11,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0402.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 437,
+    "kind": "diagram",
+    "bbox": [
+      42.36,
+      112.83999999999999,
+      224.76000000000002,
+      297.04
+    ],
+    "book": 11,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0403.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 438,
+    "kind": "diagram",
+    "bbox": [
+      15.720000000000002,
+      8.8,
+      251.4,
+      158.08
+    ],
+    "book": 11,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0404.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 439,
+    "kind": "diagram",
+    "bbox": [
+      61.8,
+      9.639999999999999,
+      204.96,
+      171.51999999999998
+    ],
+    "book": 11,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0405.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 440,
+    "kind": "diagram",
+    "bbox": [
+      12.84,
+      9.16,
+      253.56,
+      158.44
+    ],
+    "book": 11,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0406.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 441,
+    "kind": "diagram",
+    "bbox": [
+      36.24,
+      95.19999999999999,
+      231.24,
+      316.48
+    ],
+    "book": 11,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0407.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 442,
+    "kind": "diagram",
+    "bbox": [
+      38.4,
+      154.83999999999997,
+      228.0,
+      303.4
+    ],
+    "book": 11,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0408.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  {
+    "page": 442,
+    "kind": "diagram",
+    "bbox": [
+      47.760000000000005,
+      421.0,
+      218.64000000000001,
+      583.96
+    ],
+    "book": 11,
+    "prop": 19,
+    "subunit": null,
+    "filename": "img-0409.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 443,
+    "kind": "diagram",
+    "bbox": [
+      26.16,
+      319.24,
+      240.96,
+      431.79999999999995
+    ],
+    "book": 11,
+    "prop": 20,
+    "subunit": null,
+    "filename": "img-0410.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 444,
+    "kind": "diagram",
+    "bbox": [
+      31.560000000000002,
+      308.2,
+      234.84,
+      421.47999999999996
+    ],
+    "book": 11,
+    "prop": 21,
+    "subunit": null,
+    "filename": "img-0411.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 445,
+    "kind": "diagram",
+    "bbox": [
+      14.64,
+      325.96,
+      251.76000000000002,
+      396.4
+    ],
+    "book": 11,
+    "prop": 22,
+    "subunit": null,
+    "filename": "img-0412.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 446,
+    "kind": "diagram",
+    "bbox": [
+      9.6,
+      351.75999999999993,
+      256.8,
+      436.59999999999997
+    ],
+    "book": 11,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0413.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K"
+    ]
+  },
+  {
+    "page": 447,
+    "kind": "diagram",
+    "bbox": [
+      48.120000000000005,
+      35.56,
+      218.64000000000001,
+      184.48000000000002
+    ],
+    "book": 11,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0413-b.png",
+    "labels": [
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R"
+    ]
+  },
+  {
+    "page": 449,
+    "kind": "diagram",
+    "bbox": [
+      43.800000000000004,
+      9.16,
+      222.24,
+      100.48
+    ],
+    "book": 11,
+    "prop": 23,
+    "subunit": null,
+    "filename": "img-0413-c.png",
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "page": 449,
+    "kind": "diagram",
+    "bbox": [
+      20.400000000000002,
+      415.24,
+      246.0,
+      528.16
+    ],
+    "book": 11,
+    "prop": 24,
+    "subunit": null,
+    "filename": "img-0414.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 450,
+    "kind": "diagram",
+    "bbox": [
+      17.88,
+      392.55999999999995,
+      248.88,
+      511.23999999999995
+    ],
+    "book": 11,
+    "prop": 25,
+    "subunit": null,
+    "filename": "img-0415.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y"
+    ]
+  },
+  {
+    "page": 452,
+    "kind": "diagram",
+    "bbox": [
+      8.88,
+      9.04,
+      257.88,
+      143.56
+    ],
+    "book": 11,
+    "prop": 26,
+    "subunit": null,
+    "filename": "img-0416.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 453,
+    "kind": "diagram",
+    "bbox": [
+      12.48,
+      280.0,
+      253.56,
+      393.28
+    ],
+    "book": 11,
+    "prop": 27,
+    "subunit": null,
+    "filename": "img-0417.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 454,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      35.56,
+      224.76000000000002,
+      169.72
+    ],
+    "book": 11,
+    "prop": 28,
+    "subunit": null,
+    "filename": "img-0418.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 454,
+    "kind": "diagram",
+    "bbox": [
+      18.96,
+      477.5199999999999,
+      248.16,
+      604.8399999999999
+    ],
+    "book": 11,
+    "prop": 29,
+    "subunit": null,
+    "filename": "img-0419.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 455,
+    "kind": "diagram",
+    "bbox": [
+      35.52,
+      426.76,
+      231.24,
+      590.8
+    ],
+    "book": 11,
+    "prop": 30,
+    "subunit": null,
+    "filename": "img-0420.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R"
+    ]
+  },
+  {
+    "page": 457,
+    "kind": "diagram",
+    "bbox": [
+      25.8,
+      11.559999999999999,
+      239.88,
+      301.59999999999997
+    ],
+    "book": 11,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0421.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y"
+    ]
+  },
+  {
+    "page": 458,
+    "kind": "diagram",
+    "bbox": [
+      9.24,
+      251.55999999999997,
+      257.15999999999997,
+      385.36
+    ],
+    "book": 11,
+    "prop": 31,
+    "subunit": null,
+    "filename": "img-0421-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y"
+    ]
+  },
+  {
+    "page": 459,
+    "kind": "diagram",
+    "bbox": [
+      5.280000000000001,
+      88.71999999999998,
+      261.48,
+      166.35999999999999
+    ],
+    "book": 11,
+    "prop": 32,
+    "subunit": null,
+    "filename": "img-0422.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 460,
+    "kind": "diagram",
+    "bbox": [
+      70.44,
+      9.52,
+      197.4,
+      151.24
+    ],
+    "book": 11,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0423.png",
+    "labels": [
+      "C",
+      "D",
+      "F",
+      "N",
+      "R"
+    ]
+  },
+  {
+    "page": 461,
+    "kind": "diagram",
+    "bbox": [
+      22.2,
+      59.199999999999996,
+      244.20000000000002,
+      244.12
+    ],
+    "book": 11,
+    "prop": 33,
+    "subunit": null,
+    "filename": "img-0423-b.png",
+    "labels": [
+      "A",
+      "B",
+      "E",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "O",
+      "P",
+      "Q"
+    ]
+  },
+  {
+    "page": 462,
+    "kind": "diagram",
+    "bbox": [
+      27.6,
+      47.56,
+      239.52,
+      189.64000000000001
+    ],
+    "book": 11,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0424.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "T",
+      "V"
+    ]
+  },
+  {
+    "page": 463,
+    "kind": "diagram",
+    "bbox": [
+      36.24,
+      143.2,
+      230.52,
+      364.12
+    ],
+    "book": 11,
+    "prop": 34,
+    "subunit": null,
+    "filename": "img-0424-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y"
+    ]
+  },
+  {
+    "page": 465,
+    "kind": "diagram",
+    "bbox": [
+      36.6,
+      59.67999999999999,
+      230.16,
+      236.32
+    ],
+    "book": 11,
+    "prop": 35,
+    "subunit": null,
+    "filename": "img-0425.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 467,
+    "kind": "diagram",
+    "bbox": [
+      12.84,
+      9.16,
+      254.28,
+      144.04
+    ],
+    "book": 11,
+    "prop": 36,
+    "subunit": null,
+    "filename": "img-0426.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 468,
+    "kind": "diagram",
+    "bbox": [
+      10.32,
+      71.44,
+      256.44,
+      213.88
+    ],
+    "book": 11,
+    "prop": 37,
+    "subunit": null,
+    "filename": "img-0427.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 469,
+    "kind": "diagram",
+    "bbox": [
+      51.0,
+      9.52,
+      216.12,
+      180.04
+    ],
+    "book": 11,
+    "prop": 38,
+    "subunit": null,
+    "filename": "img-0428.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U"
+    ]
+  },
+  {
+    "page": 470,
+    "kind": "diagram",
+    "bbox": [
+      14.64,
+      104.07999999999998,
+      251.76000000000002,
+      195.76
+    ],
+    "book": 11,
+    "prop": 39,
+    "subunit": null,
+    "filename": "img-0429.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 472,
+    "kind": "diagram",
+    "bbox": [
+      19.32,
+      67.71999999999998,
+      247.8,
+      181.0
+    ],
+    "book": 12,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0430.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 473,
+    "kind": "diagram",
+    "bbox": [
+      20.04,
+      47.44,
+      246.72,
+      268.0
+    ],
+    "book": 12,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0431.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ]
+  },
+  {
+    "page": 475,
+    "kind": "diagram",
+    "bbox": [
+      60.0,
+      332.32,
+      206.04000000000002,
+      495.28
+    ],
+    "book": 12,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0432.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 478,
+    "kind": "diagram",
+    "bbox": [
+      8.88,
+      71.19999999999999,
+      257.52,
+      220.48000000000002
+    ],
+    "book": 12,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0433.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V"
+    ]
+  },
+  {
+    "page": 480,
+    "kind": "diagram",
+    "bbox": [
+      11.040000000000001,
+      54.75999999999999,
+      255.0,
+      160.84
+    ],
+    "book": 12,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0434.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 481,
+    "kind": "diagram",
+    "bbox": [
+      9.96,
+      343.24,
+      257.15999999999997,
+      492.52
+    ],
+    "book": 12,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0435.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 482,
+    "kind": "diagram",
+    "bbox": [
+      41.64,
+      352.23999999999995,
+      225.48000000000002,
+      536.8
+    ],
+    "book": 12,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0436.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 484,
+    "kind": "diagram",
+    "bbox": [
+      9.96,
+      9.04,
+      257.15999999999997,
+      157.96
+    ],
+    "book": 12,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0437.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R"
+    ]
+  },
+  {
+    "page": 485,
+    "kind": "diagram",
+    "bbox": [
+      30.840000000000003,
+      295.24,
+      235.92000000000002,
+      480.52
+    ],
+    "book": 12,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0438.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "L",
+      "M",
+      "O",
+      "P",
+      "Q",
+      "R"
+    ]
+  },
+  {
+    "page": 487,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      47.92,
+      225.48000000000002,
+      232.48000000000002
+    ],
+    "book": 12,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0439.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  {
+    "page": 490,
+    "kind": "diagram",
+    "bbox": [
+      9.24,
+      8.68,
+      257.15999999999997,
+      107.92
+    ],
+    "book": 12,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0440.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X"
+    ]
+  },
+  {
+    "page": 492,
+    "kind": "diagram",
+    "bbox": [
+      4.0,
+      71.44,
+      260.04,
+      199.12
+    ],
+    "book": 12,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0441.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ],
+    "note": "left edge nudged to 4.0pt to drop Greek-column bleed sliver"
+  },
+  {
+    "page": 495,
+    "kind": "diagram",
+    "bbox": [
+      11.76,
+      243.87999999999997,
+      255.0,
+      328.71999999999997
+    ],
+    "book": 12,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0442.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W"
+    ]
+  },
+  {
+    "page": 496,
+    "kind": "diagram",
+    "bbox": [
+      37.68,
+      296.08,
+      228.72,
+      429.88
+    ],
+    "book": 12,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0443.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 497,
+    "kind": "diagram",
+    "bbox": [
+      12.120000000000001,
+      151.84,
+      254.28,
+      235.95999999999998
+    ],
+    "book": 12,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0444.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U"
+    ]
+  },
+  {
+    "page": 498,
+    "kind": "diagram",
+    "bbox": [
+      48.84,
+      343.72,
+      217.56,
+      491.92
+    ],
+    "book": 12,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0445.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 499,
+    "kind": "diagram",
+    "bbox": [
+      9.6,
+      255.76,
+      256.8,
+      505.12
+    ],
+    "book": 12,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0446.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y"
+    ]
+  },
+  {
+    "page": 503,
+    "kind": "diagram",
+    "bbox": [
+      15.0,
+      415.71999999999997,
+      251.76000000000002,
+      615.4
+    ],
+    "book": 12,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0447.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 506,
+    "kind": "diagram",
+    "bbox": [
+      65.4,
+      80.19999999999999,
+      201.0,
+      265.12
+    ],
+    "book": 13,
+    "prop": 1,
+    "subunit": null,
+    "filename": "img-0448.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P"
+    ]
+  },
+  {
+    "page": 507,
+    "kind": "diagram",
+    "bbox": [
+      64.68,
+      112.83999999999999,
+      201.72,
+      298.12
+    ],
+    "book": 13,
+    "prop": 2,
+    "subunit": null,
+    "filename": "img-0449.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ]
+  },
+  {
+    "page": 508,
+    "kind": "diagram",
+    "bbox": [
+      40.56,
+      379.84,
+      226.56,
+      565.48
+    ],
+    "book": 13,
+    "prop": 3,
+    "subunit": null,
+    "filename": "img-0450.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ]
+  },
+  {
+    "page": 509,
+    "kind": "diagram",
+    "bbox": [
+      41.64,
+      343.24,
+      225.48000000000002,
+      528.52
+    ],
+    "book": 13,
+    "prop": 4,
+    "subunit": null,
+    "filename": "img-0451.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 510,
+    "kind": "diagram",
+    "bbox": [
+      22.92,
+      318.88,
+      243.48000000000002,
+      467.79999999999995
+    ],
+    "book": 13,
+    "prop": 5,
+    "subunit": null,
+    "filename": "img-0452.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 511,
+    "kind": "diagram",
+    "bbox": [
+      21.12,
+      223.6,
+      244.56,
+      249.04
+    ],
+    "book": 13,
+    "prop": 6,
+    "subunit": null,
+    "filename": "img-0453.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 512,
+    "kind": "diagram",
+    "bbox": [
+      59.64,
+      112.83999999999999,
+      207.84,
+      261.76
+    ],
+    "book": 13,
+    "prop": 7,
+    "subunit": null,
+    "filename": "img-0454.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 513,
+    "kind": "diagram",
+    "bbox": [
+      58.56,
+      267.88,
+      208.20000000000002,
+      417.15999999999997
+    ],
+    "book": 13,
+    "prop": 8,
+    "subunit": null,
+    "filename": "img-0455.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "H"
+    ]
+  },
+  {
+    "page": 514,
+    "kind": "diagram",
+    "bbox": [
+      61.8,
+      368.68,
+      205.32,
+      535.24
+    ],
+    "book": 13,
+    "prop": 9,
+    "subunit": null,
+    "filename": "img-0456.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 515,
+    "kind": "diagram",
+    "bbox": [
+      45.6,
+      437.67999999999995,
+      221.16,
+      622.96
+    ],
+    "book": 13,
+    "prop": 10,
+    "subunit": null,
+    "filename": "img-0457.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 517,
+    "kind": "diagram",
+    "bbox": [
+      34.800000000000004,
+      294.64,
+      232.32000000000002,
+      479.92
+    ],
+    "book": 13,
+    "prop": 11,
+    "subunit": null,
+    "filename": "img-0458.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 520,
+    "kind": "diagram",
+    "bbox": [
+      50.64,
+      9.04,
+      216.12,
+      193.96
+    ],
+    "book": 13,
+    "prop": 12,
+    "subunit": null,
+    "filename": "img-0459.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "page": 521,
+    "kind": "diagram",
+    "bbox": [
+      46.68,
+      9.16,
+      219.0,
+      265.72
+    ],
+    "book": 13,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0460.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L"
+    ]
+  },
+  {
+    "page": 523,
+    "kind": "diagram",
+    "bbox": [
+      48.84,
+      9.16,
+      217.20000000000002,
+      194.08
+    ],
+    "book": 13,
+    "prop": 13,
+    "subunit": null,
+    "filename": "img-0460-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  {
+    "page": 524,
+    "kind": "diagram",
+    "bbox": [
+      43.440000000000005,
+      119.07999999999998,
+      222.6,
+      358.0
+    ],
+    "book": 13,
+    "prop": 14,
+    "subunit": null,
+    "filename": "img-0461.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M"
+    ]
+  },
+  {
+    "page": 526,
+    "kind": "diagram",
+    "bbox": [
+      57.84,
+      9.52,
+      207.84,
+      230.44
+    ],
+    "book": 13,
+    "prop": 15,
+    "subunit": null,
+    "filename": "img-0462.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 527,
+    "kind": "diagram",
+    "bbox": [
+      29.759999999999998,
+      138.27999999999997,
+      235.92000000000002,
+      251.2
+    ],
+    "book": 13,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0463.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "page": 528,
+    "kind": "diagram",
+    "bbox": [
+      7.4399999999999995,
+      203.55999999999997,
+      260.40000000000003,
+      460.12
+    ],
+    "book": 13,
+    "prop": 16,
+    "subunit": null,
+    "filename": "img-0463-b.png",
+    "labels": [
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Z"
+    ]
+  },
+  {
+    "page": 531,
+    "kind": "diagram",
+    "bbox": [
+      42.0,
+      9.52,
+      225.12,
+      230.08
+    ],
+    "book": 13,
+    "prop": 17,
+    "subunit": null,
+    "filename": "img-0464.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Z"
+    ]
+  },
+  {
+    "page": 534,
+    "kind": "diagram",
+    "bbox": [
+      43.08,
+      357.99999999999994,
+      223.32000000000002,
+      525.28
+    ],
+    "book": 13,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0465.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "K",
+      "L",
+      "M",
+      "N"
+    ]
+  },
+  {
+    "page": 538,
+    "kind": "diagram",
+    "bbox": [
+      58.2,
+      143.44,
+      208.20000000000002,
+      292.0
+    ],
+    "book": 13,
+    "prop": 18,
+    "subunit": null,
+    "filename": "img-0465-b.png",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  }
+]

@@ -14,3 +14,4 @@ adding-new-supplements.md
 format-standards.md
 site/node_modules/
 site/public/text-index.json
+**/__pycache__/

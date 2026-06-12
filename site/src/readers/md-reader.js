@@ -180,6 +180,7 @@ export default {
     wrapper.className = 'md-reader';
     if (opts.layout === 'verse') wrapper.dataset.layout = 'verse';
     wrapper.innerHTML = html;
+    wrapInterlinearGroups(wrapper);
     wrapCollapsibleSections(wrapper);
     wrapImagesWithControls(wrapper);
 
@@ -262,6 +263,39 @@ function wrapImagesWithControls(root) {
     figure.appendChild(controls);
   }
 }
+
+// Re-wrap interlinear text pairs into side-by-side rows. Bilingual texts
+// (Euclid, eventually others) carry `<div class="lang-grc">` and
+// `<div class="lang-en">` adjacent in source order; we group each pair
+// with its preceding heading and any intervening figure into one
+// `.md-reader__interlinear` container so the heading anchors both
+// columns. The two language columns each grow to their content's natural
+// height; the row's overall height is the max of the two. This means
+// alignment is only enforced at heading boundaries (the proposition is
+// the anchor), not within prose — which is the right tradeoff because
+// language-pair lengths drift by paragraph but match at structural
+// boundaries.
+function wrapInterlinearGroups(root) {
+  // Find every lang-grc div, then check whether it's immediately followed
+  // by a lang-en div. Group those pairs.
+  const grcDivs = Array.from(root.querySelectorAll(':scope > div.lang-grc'));
+  for (const grc of grcDivs) {
+    // Already wrapped? skip.
+    if (grc.parentElement?.classList.contains('md-reader__interlinear-row')) {
+      continue;
+    }
+    const en = grc.nextElementSibling;
+    if (!en || !en.classList?.contains('lang-en')) continue;
+
+    // Build a row container that holds the two language divs side-by-side.
+    const row = document.createElement('div');
+    row.className = 'md-reader__interlinear-row';
+    grc.replaceWith(row);
+    row.appendChild(grc);
+    row.appendChild(en);
+  }
+}
+
 
 // Wrap each <h1> (except the first — the title) and its following siblings
 // up to the next <h1> in a <details>/<summary>, so major partitions can fold.

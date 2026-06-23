@@ -2,6 +2,7 @@ import '../styles/changelog.css';
 import { loadChangelog } from '../lib/changelog-loader.js';
 import { navigate } from '../router.js';
 import mdReader from '../readers/md-reader.js';
+import { buildRawUrl } from '../lib/url-builder.js';
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -75,8 +76,10 @@ export async function renderChangelog(container, params) {
   container.appendChild(root);
 
   const body = root.querySelector('#changelog-body');
-  const base = import.meta.env.BASE_URL || '/';
-  const url = `${base}${active.path}`;
+  // Entry markdown lives in the repo root (changelogs/<ver>/entry.md), not in
+  // the site's published assets — fetch via buildRawUrl like all repo-root
+  // content (repo root in dev, raw.githubusercontent in production).
+  const url = buildRawUrl(active.path);
   try {
     await mdReader.render(body, url);
   } catch (err) {

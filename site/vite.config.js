@@ -9,7 +9,7 @@ const repoRoot = path.resolve(__dirname, '..');
 
 export default defineConfig({
   root: '.',
-  base: '/Enchiridion/',
+  base: '/',
   publicDir: 'public',
   build: {
     outDir: '../docs',

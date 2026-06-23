@@ -166,4 +166,4 @@ The final words of the New Testament. Visionary, urgent, liturgical. ἔρχου
 
 ---
 
-*The full text of the Bible in English is in your [library](https://hungryrobot1.github.io/Enchiridion/#/read/2-rome-late-antiquity/holy-bible-kjv). Reading the English first will orient you before working through the Greek — as with the Meno, there is no shame in knowing where you are going.*
+*The full text of the Bible in English is in your [library](#/read/2-rome-late-antiquity/holy-bible-kjv). Reading the English first will orient you before working through the Greek — as with the Meno, there is no shame in knowing where you are going.*

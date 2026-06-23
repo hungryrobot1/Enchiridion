@@ -5,17 +5,6 @@ function pickOne() {
   return SAMPLE_WORKS[Math.floor(Math.random() * SAMPLE_WORKS.length)];
 }
 
-const ERAS = [
-  { name: 'Ancient Greece', count: 27 },
-  { name: 'Rome and Late Antiquity', count: 18 },
-  { name: 'Islamic Golden Age and Medieval Europe', count: 13 },
-  { name: 'Renaissance and Scientific Revolution', count: 27 },
-  { name: 'Newtonian Enlightenment', count: 26 },
-  { name: 'Nineteenth Century', count: 38 },
-  { name: 'Modern Era I', count: 48 },
-  { name: 'Modern Era II', count: 58 },
-];
-
 export function renderLanding(container) {
   const featured = pickOne();
 
@@ -28,9 +17,9 @@ export function renderLanding(container) {
       <p class="landing__subtitle">A <em>Great Books</em> Curriculum for STEM</p>
       <p class="landing__description">
         A self-directed reading sequence through primary sources in mathematics,
-        science, and philosophy &mdash; <strong>~255 texts</strong> across eight
+        science, and philosophy &mdash; <strong>over 250 texts</strong> across eight
         chronological eras, from Homer to the present. Open source, built in public,
-        currently version 0.2.
+        currently version 0.3.
       </p>
     </section>
 
@@ -52,16 +41,6 @@ export function renderLanding(container) {
         <div class="landing__card-title">Explore</div>
       </a>
     </div>
-
-    <section class="landing__eras">
-      <h2 class="landing__eras-heading">Eight Eras</h2>
-      ${ERAS.map(era => `
-        <div class="landing__era">
-          <span class="landing__era-name">${era.name}</span>
-          <span class="landing__era-count">${era.count}</span>
-        </div>
-      `).join('')}
-    </section>
 
     <footer class="landing__footer">
       <a href="#/about">About</a>

@@ -23,5 +23,13 @@ export async function renderSupplementReader(container, params) {
     path: supplement.path,
     format: supplement.format,
     repoUrl: buildRepoUrl(supplement.path),
+    linkRewriter: (href) => {
+      // Cross-supplement links are written as sibling-directory paths,
+      // e.g. ../archimedes-levers-lab/content.md — the parent directory
+      // name is the target supplement's id (the route is #/supplement/<id>).
+      const match = href.match(/(?:^|\/)([^/]+)\/content\.md$/);
+      if (match) return `#/supplement/${match[1]}`;
+      return null;
+    },
   });
 }

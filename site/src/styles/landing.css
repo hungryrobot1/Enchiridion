@@ -128,44 +128,6 @@
   color: var(--color-accent-hover);
 }
 
-.landing__eras {
-  max-width: var(--max-width-prose);
-  margin: 0 auto var(--space-3xl);
-}
-
-.landing__eras-heading {
-  font-family: var(--font-serif);
-  font-size: var(--text-xl);
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: var(--space-xl);
-  color: var(--color-ink);
-}
-
-.landing__era {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: var(--space-sm) 0;
-  border-bottom: 1px solid var(--color-rule);
-}
-
-.landing__era:last-child {
-  border-bottom: none;
-}
-
-.landing__era-name {
-  font-family: var(--font-serif);
-  font-size: var(--text-base);
-  color: var(--color-ink);
-}
-
-.landing__era-count {
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--color-ink-faint);
-}
-
 .landing__footer {
   margin-top: var(--space-4xl);
   padding-top: var(--space-lg);

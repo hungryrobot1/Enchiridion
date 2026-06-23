@@ -1,5 +1,5 @@
-const SHELL_CACHE = 'enchiridion-shell-v1';
-const TEXT_CACHE = 'enchiridion-texts-v1';
+const SHELL_CACHE = 'enchiridion-shell-v2';
+const TEXT_CACHE = 'enchiridion-texts-v2';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();
@@ -39,7 +39,7 @@ self.addEventListener('fetch', (event) => {
   }
 
   // Site assets — network-first with cache fallback
-  if (url.pathname.startsWith('/Enchiridion/')) {
+  if (url.origin === self.location.origin) {
     event.respondWith(
       fetch(event.request)
         .then(response => {

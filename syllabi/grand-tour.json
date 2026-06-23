@@ -12,7 +12,7 @@
         {
           "type": "text",
           "id": "euclid-elements",
-          "note": "This book takes time, aim for 3 - 5 propositions a day while reading through the rest of the texts. Finish before starting Ptolemy. Complete passages TBD.",
+          "note": "This book takes time, aim for 3 - 5 propositions a day while reading through the rest of the texts. Finish before starting Ptolemy.",
           "passages": [
             "Book I",
             "Book V definitions",
@@ -89,7 +89,7 @@
           "type": "text",
           "id": "hippocrates-genuine-works",
           "passages": [
-            "selected case histories and the Hippocratic Oath, TBD"
+            "Selected case histories and the Hippocratic Oath; specific selections in preparation."
           ]
         },
         {
@@ -116,7 +116,7 @@
           "type": "text",
           "id": "aristotle-nicomachean-ethics",
           "passages": [
-            "TBD"
+            "Full text recommended; a curated selection is in preparation."
           ]
         },
         {
@@ -129,14 +129,14 @@
           "type": "text",
           "id": "aristotle-politics",
           "passages": [
-            "TBD"
+            "Full text recommended; a curated selection is in preparation."
           ]
         },
         {
           "type": "text",
           "id": "aristotle-physics",
           "passages": [
-            "TBD"
+            "Full text recommended; a curated selection is in preparation."
           ]
         },
         {
@@ -151,7 +151,7 @@
         {
           "type": "text",
           "id": "ptolemy-almagest",
-          "note": "Finish Euclid before starting this. Passages TBD.",
+          "note": "Finish Euclid before starting this.",
           "passages": [
             "Book I introduction",
             "Book I chapters on the celestial sphere"
@@ -188,14 +188,14 @@
           "type": "text",
           "id": "aristotle-metaphysics",
           "passages": [
-            "TBD"
+            "Full text recommended; a curated selection is in preparation."
           ]
         },
         {
           "type": "text",
           "id": "apollonius-conic-sections",
           "passages": [
-            "Book I, definitions and propositions 1–15, complete passages TBD"
+            "Book I: definitions and propositions 1–15"
           ],
           "note": "Long-running. Begin here and continue alongside Sophocles and the remaining Archimedes treatises."
         },
@@ -235,7 +235,7 @@
           "type": "text",
           "id": "aristotle-de-anima",
           "passages": [
-            "TBD"
+            "Full text recommended; a curated selection is in preparation."
           ]
         },
         {

@@ -45,10 +45,22 @@ export function getPreviousHash() {
   return previousHash;
 }
 
+// Window scroll position per hash, captured on navigation away. Restored
+// only when returning from a reader route (text/supplement/module) so the
+// user lands back at their place in a long syllabus or catalog; every
+// other navigation starts at the top, like a fresh page load.
+const savedScroll = new Map();
+const READER_ROUTE_RE = /^#\/(text|supplement|module)\//;
+
 export function startRouter(container) {
   async function handleRoute() {
     const hash = window.location.hash || '#/';
     const match = matchRoute(hash);
+
+    const fromHash = previousHash;
+    if (fromHash !== null) {
+      savedScroll.set(fromHash, window.scrollY);
+    }
 
     if (currentCleanup) {
       currentCleanup();
@@ -61,6 +73,14 @@ export function startRouter(container) {
     } else {
       // Default to home
       window.location.hash = '#/';
+    }
+
+    const saved = savedScroll.get(hash);
+    if (fromHash !== null && READER_ROUTE_RE.test(fromHash) && saved !== undefined) {
+      // Returning from a reader: restore after layout settles.
+      requestAnimationFrame(() => window.scrollTo(0, saved));
+    } else {
+      window.scrollTo(0, 0);
     }
 
     // Update active nav link

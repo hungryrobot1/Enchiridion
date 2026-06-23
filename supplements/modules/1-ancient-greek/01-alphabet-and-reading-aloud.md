@@ -1,6 +1,6 @@
 # Chapter 1: The Greek Alphabet & Reading Aloud
 
-You are about to learn to read Greek. Not to translate it — that comes later — but to look at Greek text and produce sound from it. This is a smaller step than it seems. The Greek alphabet is the ancestor of the Latin one you already know, and more than half its letters will be immediately recognizable.
+Here you'll learn how to read Greek. Not how to make sense of it, that comes later, but literally how to look at Greek text on a page or screen and produce the correct sounds for it. The Greek alphabet is the ancestor of the Latin one you already know, and many of its letters should look recognizable immediately.
 
 By the end of this chapter you should be able to:
 
@@ -8,6 +8,8 @@ By the end of this chapter you should be able to:
 - Read a passage of Greek aloud with reasonable pronunciation
 - Transliterate common Greek words into Latin script and back
 - Identify Greek letters in Euclid's geometric diagrams
+
+This chapter will have you reading some Euclid, so it is recommended that you have already started working through the *Elements* in English, as well as read the first part to the [Greek Math Companion](../../1-ancient-greece/greek-math-companion/content.md).
 
 ## The Alphabet
 
@@ -28,7 +30,7 @@ Greek has 24 letters. Seven are vowels (α, ε, η, ι, ο, υ, ω), and sevente
 | Λ λ | lambda | **l** as in *lamp* |
 | Μ μ | mu | **m** as in *man* |
 | Ν ν | nu | **n** as in *net* |
-| Ξ ξ | xi | **ks** as in *box* |
+| Ξ ξ | xi | **ks** as in *box* (or *ksi* as in *taxi* when by itself) |
 | Ο ο | omicron | **o** as in *not* (short) |
 | Π π | pi | **p** as in *pen* |
 | Ρ ρ | rho | **r** (trilled, as in Spanish or Italian) |
@@ -42,7 +44,7 @@ Greek has 24 letters. Seven are vowels (α, ε, η, ι, ο, υ, ω), and sevente
 
 A few things to notice:
 
-**Letters you already know.** Alpha, beta, delta, epsilon, iota, kappa, mu, nu, omicron, pi, tau — these look and sound close to their Latin counterparts. That's because the Latin alphabet descends from the Greek (via Etruscan).
+**Letters you might already know.** Alpha, beta, delta, epsilon, iota, kappa, mu, nu, omicron, pi, tau — these look and sound close to their Latin counterparts. That's because the Latin alphabet descends from the Greek.
 
 **False friends.** Watch out for: Η/η is *eta* (a long "ay" sound), not the English letter H. Ρ/ρ is *rho* (an r-sound), not P. Χ/χ is *chi* (a guttural k), not X. Ν/ν is *nu*, not V.
 
@@ -85,9 +87,9 @@ Greek words carry one of three accent marks:
 - **Grave** (ὰ) — replaces an acute on the last syllable when another word follows
 - **Circumflex** (ᾶ) — a rise-and-fall in pitch, only on long vowels
 
-Ancient Greek was a *pitch-accent* language, not a *stress-accent* language like English. The accented syllable was spoken at a higher musical pitch, not simply louder. When reading aloud, a slight lift on the accented syllable is sufficient — do not slam down on it the way English stresses syllables.
+Ancient Greek was a *pitch-accent* language, not a *stress-accent* language like English. The accented syllable was spoken at a higher musical pitch, not simply louder. When reading aloud, a slight lift on the accented syllable is sufficient.
 
-For now, just notice where the accents fall. The rules governing accent placement are systematic but complex; Smyth covers them thoroughly and you can return to them as needed.
+For now, just notice where the accents fall and try your best. The rules governing accent placement are systematic but complex; Smyth covers them thoroughly and you can return to them as needed.
 
 ## Punctuation
 
@@ -119,7 +121,7 @@ You do not need to read all of these sections now. Skim the first few sections (
 
 ### Exercise 1: Learn the Letters
 
-Write out the Greek alphabet from memory — uppercase and lowercase — three to five times a day. Say each letter's name aloud as you write it. This is rote work, but it is the foundation of everything that follows. A few days of practice is usually sufficient.
+Write out the Greek alphabet from memory — uppercase and lowercase — a few times every day. Say each letter's name aloud as you write it. This is rote work but is the foundation of everything that follows. A few days of practice will be sufficient.
 
 ### Exercise 2: Transliteration (Greek → Latin Script)
 
@@ -187,9 +189,9 @@ Note: Don't worry about getting the accents and breathings right yet. If you got
 
 ### Exercise 4: Reading Euclid Aloud
 
-Open the Elements to Proposition I.1 — the construction of an equilateral triangle on a given line. You will see the Greek text on the left page and the English translation on the right, with matching geometric diagrams.
+Open the Elements to Proposition I.1 — the construction of an equilateral triangle on a given line. You will see the Greek text on the left side of the page and the English translation on the right. Only the English diagrams are provided on this site but you can download the source if you'd like to see both.
 
-Begin with the diagram labels. In the Greek diagram, the vertices are labeled with Greek capital letters: Α, Β, Γ, Δ, Ε. In the English diagram, the same points are labeled A, B, C, D, E. Notice the mapping:
+Now, begin with the diagram labels. In the Greek, the vertices are labeled with Greek capital letters: Α, Β, Γ, Δ, Ε. In the English diagram, the same points are labeled A, B, C, D, E. Notice the mapping:
 
 | Greek | English | Name |
 |-------|---------|------|
@@ -199,8 +201,6 @@ Begin with the diagram labels. In the Greek diagram, the vertices are labeled wi
 | Δ | D | Delta |
 | Ε | E | Epsilon |
 
-This is not coincidence — the Latin letters *are* the Greek letters, inherited and modified. When Euclid writes ΑΒ, he means the line segment from A to B.
-
 Now read the enunciation (the first line) aloud:
 
 > Ἐπὶ τῆς δοθείσης εὐθείας πεπερασμένης τρίγωνον ἰσόπλευρον συστήσασθαι.
@@ -208,23 +208,23 @@ Now read the enunciation (the first line) aloud:
 Take it slowly. Sound out each word letter by letter:
 
 - **Ἐπὶ** — epi (upon)
-- **τῆς** — tēs (the, genitive feminine)
+- **τῆς** — tēs (the)
 - **δοθείσης** — dotheisēs (given)
 - **εὐθείας** — eutheias (straight line)
 - **πεπερασμένης** — peperasmenēs (finite, bounded)
-- **τρίγωνον** — trigōnon (triangle — you can hear it)
+- **τρίγωνον** — trigōnon (triangle)
 - **ἰσόπλευρον** — isopleuron (equilateral — *iso* + *pleuron*, equal-sided)
 - **συστήσασθαι** — sustēsasthai (to construct)
 
 "Upon the given finite straight line, to construct an equilateral triangle."
 
-You have just read Euclid in Greek. The words themselves are not yet meaningful to you as grammar — that comes in later chapters. But the sounds are real, and several of the words are already recognizable: *trigōnon* (triangle), *isopleuron* (equilateral), *epi* (upon, as in *epicenter*).
+You have just read Euclid in Ancient Greek. The words themselves may not yet be meaningful to you grammatically, but the sounds are real, and several may already be recognizable: *trigōnon* (triangle), *isopleuron* (equilateral), *epi* (upon, as in *epicenter*).
 
-Continue reading through the rest of Proposition I.1, using the English on the facing page as your guide. Don't try to understand the grammar — just practice producing the sounds. Notice how many words recur: κύκλος (*kuklos*, circle), κέντρον (*kentron*, center), σημεῖον (*sēmeion*, point), εὐθεῖα (*eutheia*, straight line), ἴση (*isē*, equal).
+Continue reading through the rest of Proposition I.1, using the English as your guide. Just practice producing the sounds. Notice how many words recur: κύκλος (*kuklos*, circle), κέντρον (*kentron*, center), σημεῖον (*sēmeion*, point), εὐθεῖα (*eutheia*, straight line), ἴση (*isē*, equal).
 
 ### Exercise 5: First Vocabulary
 
-The following words appear constantly in Euclid and in Greek philosophical writing generally. Learn to recognize them on sight. You do not need to memorize the definitions perfectly — just build familiarity.
+The following words appear constantly in Euclid and in Greek philosophical writing generally. Learn to recognize them on sight. You do not need to memorize the definitions perfectly.
 
 **From Euclid:**
 
@@ -241,6 +241,8 @@ The following words appear constantly in Euclid and in Greek philosophical writi
 | ἴσος, ἴση, ἴσον | isos, isē, ison | equal |
 | ὅπερ ἔδει δεῖξαι | hoper edei deixai | Q.E.D. ("which was to be shown") |
 | ὅπερ ἔδει ποιῆσαι | hoper edei poiēsai | Q.E.F. ("which was to be done") |
+
+Note: This is just a modest list. A comprehensive, Euclid-specific lexicon is provided by Fitzpatrick in the final section of *Elements* in your library.
 
 **From philosophy:**
 

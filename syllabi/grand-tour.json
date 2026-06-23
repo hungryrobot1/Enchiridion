@@ -94,6 +94,14 @@
         },
         {
           "type": "text",
+          "id": "archimedes-floating-bodies"
+        },
+        {
+          "type": "supplement",
+          "id": "archimedes-buoyancy-lab"
+        },
+        {
+          "type": "text",
           "id": "aeschylus-agamemnon"
         },
         {
@@ -112,19 +120,17 @@
           ]
         },
         {
+          "type": "module_chapter",
+          "id": "1-ancient-greek",
+          "chapter": "04-noun-declensions-in-practice",
+          "note": "Includes exercises drawn from Plato and Euclid."
+        },
+        {
           "type": "text",
           "id": "aristotle-politics",
           "passages": [
             "TBD"
           ]
-        },
-        {
-          "type": "text",
-          "id": "archimedes-floating-bodies"
-        },
-        {
-          "type": "supplement",
-          "id": "archimedes-buoyancy-lab"
         },
         {
           "type": "text",
@@ -138,10 +144,9 @@
           "id": "plato-theaetetus"
         },
         {
-          "type": "module_chapter",
-          "id": "1-ancient-greek",
-          "chapter": "04-noun-declensions-in-practice",
-          "note": "Includes exercises drawn from Plato and Euclid."
+          "type": "supplement",
+          "id": "eratosthenes-measurement-lab",
+          "note": "Standalone observational lab; no surviving Eratosthenes primary text in the corpus. Precedes the parallax lab, which builds on its method."
         },
         {
           "type": "text",
@@ -154,15 +159,13 @@
         },
         {
           "type": "supplement",
-          "id": "parallax-lab"
+          "id": "parallax-lab",
+          "note": "Builds directly on the Eratosthenes lab (size from one viewpoint to distance from two). Anchored on Almagest V.11-13."
         },
         {
           "type": "supplement",
-          "id": "ptolemy-observation-lab"
-        },
-        {
-          "type": "supplement",
-          "id": "sun-observation-lab"
+          "id": "ptolemy-observation-lab",
+          "note": "Pairs with the Almagest: the celestial sphere observed, plus a sexagesimal solar computation."
         },
         {
           "type": "text",
@@ -189,11 +192,6 @@
           ]
         },
         {
-          "type": "supplement",
-          "id": "eratosthenes-measurement-lab",
-          "note": "Standalone observational lab; no surviving Eratosthenes primary text in the corpus."
-        },
-        {
           "type": "text",
           "id": "apollonius-conic-sections",
           "passages": [
@@ -203,15 +201,15 @@
         },
         {
           "type": "text",
-          "id": "sophocles-oedipus-the-king"
-        },
-        {
-          "type": "text",
           "id": "archimedes-quadrature-of-the-parabola"
         },
         {
           "type": "supplement",
           "id": "archimedes-quadrature-exercises"
+        },
+        {
+          "type": "text",
+          "id": "sophocles-oedipus-the-king"
         },
         {
           "type": "text",

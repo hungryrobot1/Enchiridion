@@ -5,8 +5,10 @@
   "texts": [
     "archimedes-floating-bodies"
   ],
-  "description": "Hands-on experiments with buoyancy, volumetric displacement, and density — the crown problem and floating bodies",
+  "description": "Hands-on experiments with buoyancy and volumetric displacement — the crown problem, floating bodies, and the construction of a unit of mass from displacement",
   "filename": "content.md",
-  "prerequisites": [],
+  "prerequisites": [
+    "archimedes-levers-lab"
+  ],
   "content_status": "complete"
 }

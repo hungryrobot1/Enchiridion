@@ -43,7 +43,7 @@ The genitive expresses a relationship between two nouns, most commonly translate
 
 Here γραμμῆς is the genitive of γραμμή (line). The ending changed from -ή to -ῆς to signal "of a line." This is the same word you met in Definition 2 (γραμμὴ δὲ μῆκος ἀπλατές, "a line is breadthless length"), where it was nominative.
 
-The genitive is the most versatile Greek case. Smyth devotes pages 312–336 to its uses. For now, "of" will serve you well in most contexts.
+The genitive is the most versatile Greek case. Smyth devotes §1289 - 1449 to its uses. For now, "of" will serve you well in most contexts.
 
 ### Dative — "To," "For," "With," "By Means Of"
 

@@ -2,7 +2,7 @@
 
 > Deriving the law of the lever from Archimedes's postulates, then testing it with balance experiments — from ratio to measurement, and back again
 
-Archimedes did statics the way Euclid did geometry. He laid down postulates about balance, and from those postulates he mathematically proved physical facts. This is one of the earliest surviving examples of physics derived *deductively* rather than empirically. No experiments are reported in Archimedes's treatise. He does not say "I balanced two stones on a ruler and here is what I observed." He says: equal weights at equal distances are in equilibrium. That is a postulate, from which he derived theorems.
+If you've already started reading Euclid, then Archimedes's approach will feel somewhat familiar. The key difference is that this work deals with the physical domain instead of pure geometry. Here, Archimedes laid down postulates about balance, and from those postulates he mathematically proved physical facts. This is one of the earliest surviving examples of physics derived *deductively* rather than empirically. No experiments are reported in this treatise. He does not say "I balanced two stones on a ruler and here is what I observed." He says: equal weights at equal distances are in equilibrium. That is a postulate, from which he derived theorems.
 
 It is worth asking: where did these postulates come from?
 
@@ -10,13 +10,13 @@ In his writing, there is no groundwork discussion, no argument from prior author
 
 What results is a geometric argument about weights and distances — an argument whose conclusions are testable, but whose *justification* is not experimental. The justification is in the form of proofs. Here, claims about the physical world are derived through abstraction.
 
-This lab asks you to do two things. First, read his postulates and one of his proofs. Second, build a lever and test whether reality agrees. These are not the same activity, and keeping them distinct is part of the lesson.
+This lab asks you to do two things. First, read his postulates and one of his proofs. Second, build a lever and test whether reality agrees.
 
 When Archimedes writes about *magnitudes* and *distances*, he is not using grams or meters. He has no unit of mass — the concept would not be formalized for another two thousand years. What he has is *ratios*. Two weights are equal, or one is twice the other, or their relation is some other proportion. The distance from the fulcrum to one weight stands in some ratio to the distance from the fulcrum to the other. The physics lives in the *proportion*, not in any absolute measurement. When Archimedes proves that "two magnitudes balance at distances reciprocally proportional to the magnitudes," the claim holds whether the magnitudes are measured in grams, stones, or coins-of-unknown-weight. The proof does not care.
 
 This is the same move Euclid's *Elements* makes in Book V's theory of proportion. The Greeks were extraordinarily careful about ratios because they had no choice — they lacked a standardized scheme for converting a quantity of one kind (weight, length, time) into a number divorced from a physical reference.
 
-You are going to respect this structure in the experimental section. The first pass uses ratios only — unlabeled weights, relative distances. The second pass converts to grams and centimeters. The second pass is a convenience, not a deepening. The proof was already there.
+The experimental section of this supplement attempts to faithfully respect this approach to science. The work uses ratios only — unlabeled weights, relative distances, the question of whether balance obtains. No object is weighed and no distance is converted to a standard unit. This is not a limitation imposed for period flavor; it is the form in which the law of the lever actually lives, and working inside it surfaces a question about measurement that the convenience of a modern scale would quietly skip over.
 
 ## The Postulates
 
@@ -44,7 +44,7 @@ Postulate 1 is an idealization of something easily observed physically. It conta
 
 Postulates 2 and 3 are about perturbation: add weight to a balanced system, and the system tips toward the addition. Remove weight, and it tips toward what is left. These sound obvious, but they are what let Archimedes run proofs by *taking differences* — if two unequal weights did balance at equal distances, he argues, then removing the difference from the heavier side should still leave them balanced (by Postulate 3), which contradicts Postulate 1. Therefore they do not balance in the first place. This is the shape of Proposition 2. It is also the shape of Proposition 1, and of most of what follows.
 
-Postulate 6 is the one that looks like bookkeeping but is actually doing deep work. It says that *if two specific magnitudes balance at specific distances, then any two other magnitudes equal to them (at those same distances) also balance.* This postulate is a *conservation rule* for the abstract category of "weight," asserting that what matters about a weight, for purposes of balance, is its magnitude and nothing else. This is what makes the law of the lever a statement about ratios rather than about specific objects: the identity of the weights doesn't matter, only their magnitudes.
+Postulate 6 is the one that feels trivial but is actually doing deep work. It says that *if two specific magnitudes balance at specific distances, then any two other magnitudes equal to them (at those same distances) also balance.* This postulate is a *conservation rule* for the abstract category of "weight," asserting that what matters about a weight, for purposes of balance, is its magnitude and nothing else. This is what makes the law of the lever a statement about ratios rather than about specific objects: the identity of the weights doesn't matter, only their magnitudes.
 
 Postulate 7 is closer to a definition than an observation; it presupposes that figures *have* centers of gravity, treating those centers as objects we can locate and reason about.
 
@@ -58,13 +58,13 @@ $$
 
 or equivalently, *w*₁ *d*₁ = *w*₂ *d*₂.
 
+![img-98.jpeg](images/img-98.jpeg)
+
 Archimedes actually proves this in two stages. Proposition 6 handles the *commensurable* case — when the two magnitudes stand in a rational ratio, like 2:1 or 3:2. Proposition 7 extends the result to the *incommensurable* case, using the double-contradiction technique developed in Euclid Book V. For our purposes, the commensurable proof carries the essential insight; the incommensurable extension is a matter of careful completion.
 
 The commensurable proof works by *redistributing* the weights. Archimedes takes the two magnitudes A and B balancing at C with distances in the ratio DC:CE, then subdivides each weight into a number of equal parts (using a common measure *O*), and redistributes those parts evenly along the beam. The resulting system is *equal weights at equal distances* — a configuration already known to balance, by Postulate 1. Since the redistribution preserves the location of the center of gravity (by Postulate 6 and Proposition 5), the original configuration must also have balanced at C.
 
-The logical structure is worth sitting with. Archimedes does not derive the law of the lever from a more fundamental principle about force or energy — those concepts are centuries away. He derives it from the claim that a *specific case* balances (equal weights at equal distances, Postulate 1) combined with a *conservation rule* for centers of gravity (Postulate 6). The law of the lever, in his hands, is a theorem about how to re-express any balanced configuration as a chain of equivalent configurations, ending at one whose balance is postulated.
-
-*[Diagram placeholder: Proposition 6 beam geometry. A horizontal beam LK with points L, D, H, C, E, K marked in order. Fulcrum at C. Weight B at D (to left of fulcrum), weight A at E (to right). Distance DC equals half of HK; distance CE equals half of LH. Below the beam, show the redistribution: B subdivided into equal parts placed at the midpoints of the segments N along HK, and A subdivided similarly along LH.]*
+It is worth noting that Archimedes does not derive the law of the lever from a more fundamental principle about force or energy — those concepts are centuries away. He derives it from the claim that a *specific case* balances (equal weights at equal distances, Postulate 1) combined with a *conservation rule* for centers of gravity (Postulate 6). The law of the lever, in his hands, is a theorem about how to re-express any balanced configuration as a chain of equivalent configurations, ending at one whose balance is postulated.
 
 ## Part 1: Build the Apparatus
 
@@ -74,8 +74,7 @@ You need a beam, a fulcrum, and weights. The simplest serviceable apparatus is a
 - A rigid ruler or straight stick, 30 cm or longer. A wooden meter stick is ideal; a plastic ruler will also work.
 - A pencil (for the fulcrum).
 - A collection of identical small objects to use as unit weights: coins of the same denomination, identical washers, identical nuts, dry beans, or identical paperclips. You want at least 20.
-- (For Part 3) A kitchen scale that reads to 1 g.
-- (For Part 3) A tape measure or a second ruler.
+- (For Part 3) Stiff cardboard, a pin, and string, to find the center of gravity of a cut-out triangle.
 
 **Construction.**
 1. Place the pencil on a flat surface, oriented perpendicular to the direction the beam will lie.
@@ -118,31 +117,19 @@ Now move one of the coins. At what distance does the 2-coin side need to sit to 
 
 **What you have done.** You have verified Propositions 1, 2, and 6 of Book I of *On the Equilibrium of Planes*, using only the equipment Archimedes could have used and information no more precise than he had. You do not know how much each coin weighs in grams. You do not know the beam's length in centimeters. You know only that the coins are equal, that the distances are in certain ratios, and that the beam balances when the ratios are reciprocal.
 
-This is the lever law in its original form. Everything else is conversion.
+This is the lever law in its original form.
 
-## Part 3: Converting to Modern Units
+## Why Stop at Ratios?
 
-Now introduce the scale and the tape measure. The physics does not change; only the language does.
+The experiments above confirmed the law of the lever multiple times over, yet none of them required knowing the weight of a single coin. Every prediction was a prediction about a ratio — two-to-one, three-to-one, three-to-two — and every ratio was enough. The law is a statement about proportions, and proportions were the only quantities it called for. Archimedes proved the law without a unit of mass because the law does not contain one; the content lies entirely in the relation between one weight and another.
 
-**Measure your unit weight.** Place one of your reference objects (a coin, a washer, whichever you were using) on the scale and record its mass in grams. Record to the nearest gram; tenths of a gram would be better but are not essential.
+This invites a question to set against the apparatus. A balance is a precise instrument, sensitive to a difference of one coin. Suppose the task were not to compare two weights but to *produce* one — to derive from the lever alone a single definite unit of weight, some standard quantity specifiable enough that anyone could reconstruct it without access to those particular coins. The reader is encouraged to attempt this before continuing, and to note where things run aground.
 
-**Measure your distances.** Use the tape measure to convert the distance marks on your beam into centimeters from the fulcrum.
+This is a difference in kind rather than a deficiency in the apparatus. A ratio and a unit are distinct sorts of quantity, and the second is not entailed by the first. A unit enters only by stipulation — a particular object is designated the standard, after which the balance will propagate a number to every other weight faithfully. The designation is not itself an operation the balance can carry out. Put simply, the ratio is prior; the unit is derived.
 
-**Repeat one of the experiments above, now in SI units.**
+If the lever can only ever *compare* a unit and never derive one, it remains to be seen whether some other principle might *construct* a unit of mass from the world rather than stipulating it — or whether a unit is unavoidably something carried in from outside, beyond the reach of any instrument to generate. The matter is not settled here.
 
-Take Experiment 2 (the 2:1 configuration). Two coins weigh *m* grams total (where *m* is twice the per-coin mass you measured); one coin weighs *m*/2. The distances are now in centimeters. Plug into the law of the lever:
-
-$$
-m \cdot d_1 = \frac{m}{2} \cdot d_2
-$$
-
-Does the equation balance numerically with the distances you measured? It should, to within a few percent. The sources of error are several — the coins are not exactly identical in mass, the ruler is not perfectly uniform, the pencil fulcrum is not a mathematical line.
-
-**What the scale added.** Nothing, in terms of physics. The lever was in balance before you knew what a gram was, and it remains in balance after. What the scale adds is *portability*: the ability to communicate the configuration to someone in another city who has different coins and a different ruler. A statement about grams and centimeters travels; a statement about "two coins here balance one coin there" does not.
-
-This is what modern unit systems buy you. It is not a deeper truth. It is a translation layer.
-
-## Part 4: Centers of Gravity
+## Part 3: Centers of Gravity
 
 Archimedes's treatise goes on from the law of the lever to derive the centers of gravity of geometric figures — the center of gravity of a triangle (Proposition 14), of a parallelogram (Propositions 9 and 10), of a trapezium (Proposition 15). These propositions use the law of the lever as a tool: they ask where a compound figure would balance, given what is already known about how weights combine.
 
@@ -156,25 +143,10 @@ You can replicate the core of this reasoning with a piece of cardboard.
 4. Repeat with a second vertex. You now have two lines. They intersect at a single point.
 5. The center of gravity is at the intersection. To confirm, try to balance the triangle on the tip of a pencil at that point. If you were careful, it balances.
 
-What you have just found empirically, Archimedes proves deductively in Proposition 14: *the center of gravity of a triangle is the intersection of its medians.* The medians are the line segments from each vertex to the midpoint of the opposite side. Your plumb lines, if you hung the triangle from each vertex in turn, would coincide with the medians — and all three would meet at a single point, known today as the *centroid*.
-
-Archimedes did not need to cut cardboard and hang it. He derived the centroid from the law of the lever, the properties of similar triangles, and a careful argument about how a compound shape decomposes into parts whose centers of gravity are known. His proof is longer than the experiment, and in one sense less satisfying — it never actually shows you the balance point with your eyes. But in another sense it is more powerful: the proof establishes *why* the medians meet at the centroid, not just *that* they do.
-
-The experiment and the proof answer different questions. The experiment answers: where is the balance point of *this* triangle? The proof answers: where is the balance point of *any* triangle? Archimedes's treatise is concerned with the second question throughout.
+What you have just found empirically, Archimedes proves deductively in Proposition 14: *the center of gravity of a triangle is the intersection of its medians.* The medians are the line segments from each vertex to the midpoint of the opposite side. Your plumb lines, if you hung the triangle from each vertex in turn, would coincide with the medians, and all three would meet at a single point, known today as the *centroid*.
 
 ## Closing
 
-You have tested the law of the lever, first in pure ratios, then in grams and centimeters, and you have found a center of gravity. The first you did the way Archimedes could have done it, if he had cared to. The second you did in a language he would not recognize but whose content he would approve of. The third you did by a method that *complements* rather than replaces his deductive derivation.
+Physics, for Archimedes, is something one does with postulates and proofs. The world is the testing ground of physics, but is it also the origin of its axioms?
 
-What is worth elevating in Archimedes's lever treatise, as much as any particular proposition, is the *form* of the reasoning. Physics, for Archimedes, is something one does with postulates and proofs. The world is the test of the physics, but it is not the origin of the physics. The origin is a small number of claims about balance — claims so simple they can be stated in a few sentences — from which everything else follows.
-
-He is asserting that beneath the messiness of the observable world there is a clean lawful behavior that the real lever approximates, and that the clean behavior is the domain of physics. The choice to reason about the idealization rather than the observation is a methodological commitment. It is the move that makes mathematical physics possible at all — the move of taking a phenomenon the world only ever serves up in messy form and selecting a clean idealization to reason about. Archimedes is the earliest surviving instance of that move applied to mechanics. Every later attempt to mathematize a physical phenomenon, whether successful or not, is downstream of the gambit he makes here.
-
----
-
-## References for Further Work
-
-- Archimedes, *On the Equilibrium of Planes* Book I, in this curriculum at `texts/1-ancient-greece/archimedes-equilibrium-of-planes/`. Book II extends the analysis to the centers of gravity of parabolic segments; not required for this lab.
-- Heath, T. L., *The Works of Archimedes* (1897). The complete Heath edition, including Equilibrium of Planes and Floating Bodies alongside the geometric works, is at `texts/1-ancient-greece/archimedes-heath-works/`.
-- For the background on commensurable and incommensurable magnitudes: Euclid's *Elements* Book V.
-- Dijksterhuis, E. J., *Archimedes* (1956, English translation 1987). Scholarly analysis of Archimedes's methods, including a careful discussion of the logical structure of the Equilibrium arguments.
+You have tested the law of the lever in pure ratios, and you have found a center of gravity. The first you did the way Archimedes could have done it, if he had cared to. The second you did by a method that *complements* rather than replaces his deductive derivation. Between them sits a question the ratios raised and did not resolve — what it would take to derive a unit rather than declare one — which this lab is not equipped to answer.

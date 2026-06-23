@@ -6,7 +6,7 @@
 
 ## What Archimedes Set Out to Do
 
-The letter to Dositheus states the result plainly. Take a parabola, and cut it with a straight line — the straight line is the *base* of the segment, and the part of the parabola cut off by it is the *segment*. Inside the segment, inscribe a triangle whose base is the same straight line and whose third vertex is the point on the parabola farthest from that base (the point where the tangent is parallel to the base). Archimedes claims:
+The letter to Dositheus states the application plainly. Take a parabola, and cut it with a straight line — the straight line is the *base* of the segment, and the part of the parabola cut off by it is the *segment*. Inside the segment, inscribe a triangle whose base is the same straight line and whose third vertex is the point on the parabola farthest from that base (the point where the tangent is parallel to the base). Archimedes claims:
 
 > The area of the parabolic segment is four-thirds the area of the inscribed triangle.
 
@@ -14,7 +14,7 @@ This is the *quadrature*: the construction of a rectilineal area equal to a curv
 
 The treatise gives two proofs of this single result. The first is *mechanical*: Archimedes weighs the segment against the triangle on an imaginary lever, treating geometric figures as physical objects with weight distributed by area. The second is *geometric*: a strict, synthetic proof by exhaustion, using only the methods of Euclid. Archimedes himself describes the relation between the two: *first as investigated by means of mechanics, and afterwards too as demonstrated by geometry.* The mechanical proof is how he found the result. The geometric proof is how he established it.
 
-This supplement follows that order. We sketch the mechanical reasoning first — briefly, since the central pedagogical work belongs to the rigorous proof — and then walk through the exhaustion argument step by step, with exercises that ask you to reconstruct each part for yourself.
+This supplement follows that order. We briefly sketch the mechanical reasoning first and then walk through the exhaustion argument step by step, with exercises that ask you to reconstruct each part for yourself.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Before working through this supplement, you should be comfortable with:
 - Euclid's theory of proportion (Book V), particularly the meaning of *A is to B as C is to D* and the technique of comparing magnitudes
 - The basic elements of conic sections — at least, what a parabola is and how it is generated as a section of a cone (see again [Reading Greek Mathematics](../greek-math-companion/content.md))
 
-You do not need to have read Apollonius's *Conics* in full. Archimedes assumes a handful of properties of the parabola, which we will state when needed.
+You need not have read Apollonius's *Conics* in full. Archimedes assumes a handful of properties of the parabola, which we will state when needed.
 
 ## The Setup
 
@@ -32,7 +32,7 @@ Throughout the proof, fix the following configuration. Let $Qq$ be the chord tha
 
 The line through $P$ parallel to the axis of the parabola is the *diameter* of the segment. It bisects every chord parallel to $Qq$, including $Qq$ itself. Call $V$ the midpoint of $Qq$; then $PV$ lies along the diameter.
 
-<!-- TODO: diagram showing parabolic segment with chord Qq, vertex P, midpoint V, inscribed triangle PQq -->
+![img-128.jpeg](images/img-128.jpeg)
 
 We want to show:
 
@@ -50,7 +50,7 @@ $$\text{(area of segment)} = \frac{4}{3} T.$$
 
 Archimedes is candid that this argument is *not* a proof. It treats geometric figures as if they had weight; it assumes that an area can be decomposed into a sum of indivisible strips, each balanced individually. The Greek standard of demonstration does not admit such reasoning. But the argument *finds* the answer, and once the answer is known, the work of proving it rigorously can begin.
 
-This is the procedure Archimedes elsewhere calls his *method*: discover by mechanics, demonstrate by geometry. He returns to it explicitly in his letter to Eratosthenes, in the treatise known as *The Method of Mechanical Theorems*. For now, what matters is that the value $\frac{4}{3} T$ is not pulled from the air. It is the conclusion of a physical argument, which the geometric proof must now justify.
+This is the procedure Archimedes elsewhere calls his *method*: discover by mechanics, demonstrate by geometry. For now, what matters is that the value $\frac{4}{3} T$ is not pulled from the air. It is the conclusion of a physical argument, which the geometric proof must now justify.
 
 ### Exercise 1: The discovery vs. demonstration distinction
 
@@ -76,7 +76,7 @@ We take these in turn.
 
 The first inscribed figure is the triangle $PQq$, with area $T$. The segment, however, contains regions outside this triangle: two smaller parabolic segments, one on each side, with bases $PQ$ and $Pq$ respectively.
 
-For each of these smaller segments, repeat the construction. In the segment with base $PQ$, find the point on the parabola whose tangent is parallel to $PQ$; call it $P_1$. Inscribe the triangle $P_1 P Q$. Similarly, find $P_2$ in the segment with base $Pq$, and inscribe triangle $P_2 P q$. We now have an inscribed pentagon (or hexagon, depending on how you count): the original triangle plus two more triangles in the side-segments.
+For each of these smaller segments, repeat the construction. In the segment with base $PQ$, find the point on the parabola whose tangent is parallel to $PQ$; call it $R$. Inscribe the triangle $RPQ$. Similarly, find $r$ in the segment with base $Pq$, and inscribe triangle $rPq$. We now have an inscribed pentagon (or hexagon, depending on how you count): the original triangle plus two more triangles in the side-segments.
 
 Archimedes proves a key lemma about the areas of these new triangles:
 
@@ -86,13 +86,13 @@ Together, the two new triangles add area $\frac{2}{8} T = \frac{1}{4} T$ to the 
 
 $$T, \quad T + \tfrac{1}{4} T, \quad T + \tfrac{1}{4} T + \tfrac{1}{16} T, \quad T + \tfrac{1}{4} T + \tfrac{1}{16} T + \tfrac{1}{64} T, \quad \ldots$$
 
-<!-- TODO: diagram showing the first three stages of inscribed polygons within the parabolic segment -->
+![img-129.jpeg](images/img-129.jpeg)
 
-The lemma — that each new triangle is one-eighth the area of the triangle in the segment that contains it — is the geometric core of the construction, and it depends on a specific property of the parabola, which Archimedes establishes earlier in the treatise. The property in modern paraphrase: if $V$ is the midpoint of a chord $Qq$ of a parabola and $P$ is the vertex of the corresponding segment, and if $V'$ is the midpoint of $PQ$ with $P'$ the vertex of the smaller segment cut off by $PQ$, then the distance from $P'$ to $PQ$ is one-quarter the distance from $P$ to $Qq$, while the base $PQ$ is half the corresponding base $Qq$. The triangles' areas — base times height, halved — are then in the ratio $\frac{1}{2} \times \frac{1}{4} = \frac{1}{8}$.
+The lemma — that each new triangle is one-eighth the area of the triangle in the segment that contains it — is the geometric core of the construction, and it depends on a specific property of the parabola, which Archimedes establishes earlier in the treatise. The property in modern paraphrase: if $V$ is the midpoint of a chord $Qq$ of a parabola and $P$ is the vertex of the corresponding segment, and if $V'$ is the midpoint of $PQ$ with $R$ the vertex of the smaller segment cut off by $PQ$, then the distance from $R$ to $PQ$ is one-quarter the distance from $P$ to $Qq$, while the base $PQ$ is half the corresponding base $Qq$. The triangles' areas — base times height, halved — are then in the ratio $\frac{1}{2} \times \frac{1}{4} = \frac{1}{8}$.
 
 ### Exercise 2: The one-eighth lemma
 
-Using the property of the parabola stated above (that the distance from the new vertex $P'$ to the chord $PQ$ is one-quarter the distance from $P$ to $Qq$, and that the new base $PQ$ is half the original base $Qq$), verify directly that the area of the new triangle $P_1 P Q$ is one-eighth the area of $PQq$.
+Using the property of the parabola stated above (that the distance from the new vertex $R$ to the chord $PQ$ is one-quarter the distance from $P$ to $Qq$, and that the new base $PQ$ is half the original base $Qq$), verify directly that the area of the new triangle $RPQ$ is one-eighth the area of $PQq$.
 
 Hint: write the area of each triangle as half base times height, and form the ratio. Do not use coordinates; reason about the segments and their lengths.
 
@@ -109,14 +109,6 @@ Archimedes does not have a notion of an infinite sum, nor does he take any limit
 In other words, at each stage, if you add to the inscribed sum a *correction term* equal to one-third of the last triangle added, you obtain exactly $\frac{4}{3} T$. This identity is purely arithmetic, provable by direct manipulation, and it holds for every $n$.
 
 The correction term $\frac{1}{3} \cdot \frac{1}{4^n} T$ is the bridge to the limit-style argument that follows. As $n$ increases, the last triangle added becomes arbitrarily small — and so does the correction. But Archimedes never says "in the limit." He says: at every stage, the inscribed sum differs from $\frac{4}{3} T$ by exactly this much, and this much can be made smaller than any specified area.
-
-### Exercise 3: The geometric identity
-
-Prove Proposition 23 directly: that for every positive integer $n$,
-
-$$T + \tfrac{1}{4} T + \tfrac{1}{16} T + \cdots + \tfrac{1}{4^n} T + \tfrac{1}{3} \cdot \tfrac{1}{4^n} T = \tfrac{4}{3} T.$$
-
-Do this by multiplying both sides by an appropriate factor and simplifying. The identity is purely about powers of $\frac{1}{4}$ and the constant $T$; no geometry is needed at this stage.
 
 ### Stage 3: The Double Reductio
 
@@ -138,13 +130,13 @@ Then the difference $\frac{4}{3} T - K$ is a definite positive area. Choose $n$ 
 
 Both alternatives are impossible. Therefore $K = \frac{4}{3} T$.
 
-### Exercise 4: Reconstructing Case 1
+### Exercise 3: Reconstructing Case 1
 
 Write out Case 1 of the double reductio in your own words, paying attention to the use of the Archimedean lemma. Specifically, justify the step where we claim the area outside the inscribed polygon can be made smaller than any specified amount. Why does this follow from the lemma?
 
 Hint: the area outside the inscribed polygon at stage $n$ is the sum of small "leftover" parabolic segments. Each is contained in a triangle (a circumscribed triangle with the same base, of which the inscribed triangle is one-half — Archimedes proves this in an earlier proposition). At each stage of subdivision, the leftover area is more than halved. Apply the lemma.
 
-### Exercise 5: Why two cases?
+### Exercise 4: Why two cases?
 
 Why does Archimedes need *both* cases — ruling out both greater and less — of the reductio to prove equality? Couldn't he prove the result by showing only that $K \leq \frac{4}{3} T$, since the inscribed polygons are always contained in the segment? Explain why or why not.
 
@@ -152,10 +144,6 @@ Why does Archimedes need *both* cases — ruling out both greater and less — o
 
 ## Closing
 
-The *Quadrature of the Parabola* contains a result and a method. The result is striking enough on its own — that an irrational, curvilinear area can be expressed exactly as a rational multiple of a triangle. But the method is the deeper achievement. Archimedes demonstrates that geometric reasoning can handle figures bounded by curves, provided one is patient enough to inscribe polygons within them and rigorous enough to rule out, by reductio, every alternative to the result one wishes to establish.
+Archimedes demonstrates that geometric reasoning can handle figures bounded by curves, provided one is patient enough to inscribe polygons within them and rigorous enough to rule out, by reductio, every alternative to the result one wishes to establish.
 
-The double reductio depends critically on the Archimedean lemma — the principle that any positive magnitude, halved enough times, becomes smaller than any prescribed magnitude. This lemma is what makes the proof work without taking limits, without summing infinite series, without anything that the Greek standard of demonstration would refuse. The inscribed polygons never *reach* $\frac{4}{3} T$; they only get close enough that no other value can be the segment's area. That is enough.
-
-You have now seen, in the act, what the method of exhaustion can do. Hold onto the experience. You will encounter related techniques again — both within Archimedes's own corpus and in the long arc of mathematical reasoning about curves and the regions they bound.
-
-The full text of the *Quadrature* is in your library at `texts/1-ancient-greece/archimedes-heath-works`, in Heath's translation of the *Works of Archimedes*. The two proofs — mechanical and geometric — are presented in full there, with Heath's editorial commentary explaining the technical conic-section properties Archimedes assumes.
+The double reductio depends critically on the principle that any positive magnitude, halved enough times, becomes smaller than any prescribed magnitude. This lemma is what makes the proof work without taking limits, without summing infinite series, without anything that the Greek standard of demonstration would refuse. The inscribed polygons never *reach* $\frac{4}{3} T$; they only get close enough that no other value can be the segment's area. You will encounter related techniques both within Archimedes's own corpus and in the long arc of mathematical reasoning about curves and the regions they bound.

@@ -4,9 +4,7 @@
 
 "Archimedes to Dositheus greeting.
 
-On a former occasion I sent you the investigations which I had up to that time completed, including the proofs, showing that any segment bounded by a straight line and a section of a right-angled cone [a parabola] is four-thirds of the triangle which has the same base with the segment and equal height. Since then certain theorems not hitherto demonstrated (ἀνελέγκτων) have occurred to me, and I have worked out the proofs of them. They are these: first, that the surface of any sphere is four times its greatest circle (τοῦ μεγίστου κύκλου); next, that the surface of any segment of a sphere is equal to a circle whose radius (ἡ ἐκ τοῦ κέντρου) is equal to the straight line drawn from the vertex (κορυφή) of the segment to the circumference of the circle which is the base of the segment; and, further, that any cylinder having its base equal to the greatest circle of those in the sphere, and height equal to the diameter of the sphere, is itself [i.e. in content] half as large again as the sphere, and its surface also [including its bases] is half as large again as the surface of the sphere. Now these properties were all along naturally inherent in the figures referred to (αὐτῇ τῇ φύσει προυπῆρχεν περὶ τὰ εἰρημένα σχήματα), but remained unknown to those who were before my time engaged in the study of geometry. Having, however, now discovered that the properties are true of these figures, I cannot feel any hesitation
-
-in setting them side by side both with my former investigations and with those of the theorems of Eudoxus on solids which are held to be most irrefragably established, namely, that any pyramid is one third part of the prism which has the same base with the pyramid and equal height, and that any cone is one third part of the cylinder which has the same base with the cone and equal height. For, though these properties also were naturally inherent in the figures all along, yet they were in fact unknown to all the many able geometers who lived before Eudoxus, and had not been observed by any one. Now, however, it will be open to those who possess the requisite ability to examine these discoveries of mine. They ought to have been published while Conon was still alive, for I should conceive that he would best have been able to grasp them and to pronounce upon them the appropriate verdict; but, as I judge it well to communicate them to those who are conversant with mathematics, I send them to you with the proofs written out, which it will be open to mathematicians to examine. Farewell.
+On a former occasion I sent you the investigations which I had up to that time completed, including the proofs, showing that any segment bounded by a straight line and a section of a right-angled cone [a parabola] is four-thirds of the triangle which has the same base with the segment and equal height. Since then certain theorems not hitherto demonstrated (ἀνελέγκτων) have occurred to me, and I have worked out the proofs of them. They are these: first, that the surface of any sphere is four times its greatest circle (τοῦ μεγίστου κύκλου); next, that the surface of any segment of a sphere is equal to a circle whose radius (ἡ ἐκ τοῦ κέντρου) is equal to the straight line drawn from the vertex (κορυφή) of the segment to the circumference of the circle which is the base of the segment; and, further, that any cylinder having its base equal to the greatest circle of those in the sphere, and height equal to the diameter of the sphere, is itself [i.e. in content] half as large again as the sphere, and its surface also [including its bases] is half as large again as the surface of the sphere. Now these properties were all along naturally inherent in the figures referred to (αὐτῇ τῇ φύσει προυπῆρχεν περὶ τὰ εἰρημένα σχήματα), but remained unknown to those who were before my time engaged in the study of geometry. Having, however, now discovered that the properties are true of these figures, I cannot feel any hesitation in setting them side by side both with my former investigations and with those of the theorems of Eudoxus on solids which are held to be most irrefragably established, namely, that any pyramid is one third part of the prism which has the same base with the pyramid and equal height, and that any cone is one third part of the cylinder which has the same base with the cone and equal height. For, though these properties also were naturally inherent in the figures all along, yet they were in fact unknown to all the many able geometers who lived before Eudoxus, and had not been observed by any one. Now, however, it will be open to those who possess the requisite ability to examine these discoveries of mine. They ought to have been published while Conon was still alive, for I should conceive that he would best have been able to grasp them and to pronounce upon them the appropriate verdict; but, as I judge it well to communicate them to those who are conversant with mathematics, I send them to you with the proofs written out, which it will be open to mathematicians to examine. Farewell.
 
 I first set out the axioms* and the assumptions which I have used for the proofs of my propositions.
 
@@ -465,8 +463,6 @@ from above.
 
 But (polygon about $B$) : (polygon in $B$) $&lt; S : B$.
 
-H. A. 2
-
 Therefore
 
 $$
@@ -584,8 +580,6 @@ $$
 = (\text{polygon about } A) : (\text{surface of pyramid excluding base}).
 \end{array}
 $$
-
-2—2
 
 Therefore
 
@@ -935,9 +929,7 @@ Take a great circle $ABC$... of a sphere, and inscribe in it a regular polygon w
 
 Then, if the polygon and great circle revolve together about the diameter $AA'$, the angular points of the polygon, except $A$, $A'$, will describe circles on the surface of the sphere at right angles to the diameter $AA'$. Also the sides of the polygon will describe portions of conical surfaces, e.g. $BC$ will describe a surface forming part of a cone whose base is a circle about $CC'$ as diameter and whose apex is the point in which $CB$, $C'B'$ produced meet each other and the diameter $AA'$.
 
-Comparing the hemisphere $MAM'$ and that half of the figure described by the revolution of the polygon which is included in the hemisphere, we see that the surface of the hemisphere and the surface of the inscribed figure have the same boundaries in one plane (viz. the circle on $MM'$ as
-
-diameter), the former surface entirely includes the latter, and they are both concave in the same direction.
+Comparing the hemisphere $MAM'$ and that half of the figure described by the revolution of the polygon which is included in the hemisphere, we see that the surface of the hemisphere and the surface of the inscribed figure have the same boundaries in one plane (viz. the circle on $MM'$ as diameter), the former surface entirely includes the latter, and they are both concave in the same direction.
 
 Therefore [Assumptions, 4] the surface of the hemisphere is greater than that of the inscribed figure; and the same is true of the other halves of the figures.
 
@@ -1042,8 +1034,6 @@ Let any side, as $BM$, touch the inner circle in $K$, and let $K'$ be the point 
 Then the circle described by the revolution of $KK'$ about $AA'$ is the boundary in one plane of two surfaces
 
 (1) the surface formed by the revolution of the circular segment $KaK'$, and
-
-3—2
 
 (2) the surface formed by the revolution of the part $KB...A...B'K'$ of the polygon.
 
@@ -1218,9 +1208,7 @@ Between $\beta$ and $\gamma$ place two arithmetic means $\delta, \epsilon$.
 
 As before, let similar regular polygons with sides $4n$ in number be circumscribed, about and inscribed in the great circle, such that their sides are in a ratio less than $\beta : \delta$.
 
-Imagine the diameter $aa'$ of the circle to be in the same straight line with a diameter of both polygons, and imagine the latter to revolve with the circle about $aa'$, describing the
-
-surfaces of two solids of revolution. The volumes of these solids are therefore in the triplicate ratio of their sides. [Prop. 32]
+Imagine the diameter $aa'$ of the circle to be in the same straight line with a diameter of both polygons, and imagine the latter to revolve with the circle about $aa'$, describing the surfaces of two solids of revolution. The volumes of these solids are therefore in the triplicate ratio of their sides. [Prop. 32]
 
 Thus (vol. of outer solid): (vol. of inscribed solid)
 
@@ -1364,7 +1352,7 @@ $$
 AB \left(BB' + CC' + \dots + KK' + LM\right).
 $$
 
-But this rectangle $\begin{array}[]{l} = A'B. \text{AM} \\ &lt; A'A. \text{AM} \\ &lt; AL' \end{array}$ [Prop. 22]
+But this rectangle $\begin{array}{l} = A'B. \text{AM} \\ &lt; A'A. \text{AM} \\ &lt; AL' \end{array}$ [Prop. 22]
 
 ![img-30.jpeg](images/img-30.jpeg)
 
@@ -1382,9 +1370,7 @@ Then the rhombus $OBAB'$ is equal to a cone whose base is equal to the surface o
 
 [Prop. 18]
 
-Again, if $CB$, $C'B'$ meet in $T$, the solid described by the triangle $BOC$ as the polygon revolves about $AO$ is the difference
-
-between the rhombi $OCTC'$ and $OBTB'$, and is therefore equal to a cone whose base is equal to the surface of the frustum $BCC'B'$ and whose height is $p$. [Prop. 20]
+Again, if $CB$, $C'B'$ meet in $T$, the solid described by the triangle $BOC$ as the polygon revolves about $AO$ is the difference between the rhombi $OCTC'$ and $OBTB'$, and is therefore equal to a cone whose base is equal to the surface of the frustum $BCC'B'$ and whose height is $p$. [Prop. 20]
 
 Similarly for the part of the solid described by the triangle $COD$ as the polygon revolves; and so on.
 
@@ -1400,9 +1386,7 @@ This latter cone is less than a cone with height equal to $OA$ and with base equ
 
 ## Proposition 39.
 
-Let $lal'$ be a segment of a great circle of a sphere, being less than a semicircle. Let $O$ be the centre of the sphere, and join $Ol, Ol'$. Suppose a polygon circumscribed about the sector $Olal'$ such that its sides, excluding the two radii, are $2n$ in number
-
-and all equal, as $LK, \ldots BA, AB', \ldots K'L'$; and let $OA$ be that radius of the great circle which bisects the segment $lal'$.
+Let $lal'$ be a segment of a great circle of a sphere, being less than a semicircle. Let $O$ be the centre of the sphere, and join $Ol, Ol'$. Suppose a polygon circumscribed about the sector $Olal'$ such that its sides, excluding the two radii, are $2n$ in number and all equal, as $LK, \ldots BA, AB', \ldots K'L'$; and let $OA$ be that radius of the great circle which bisects the segment $lal'$.
 
 The circle circumscribing the polygon will then have the same centre $O$ as the given great circle.
 
@@ -1514,8 +1498,6 @@ ON : On = AB : ab.
 $$
 
 Therefore the volume of the circumscribed solid together with the cone $OLL'$ is to the volume of the inscribed solid together with the cone $Oll'$ as $AB^3$ is to $ab^3$ [Lemma 5].
-
-4—2
 
 ## Proposition 42.
 
@@ -2129,8 +2111,6 @@ Q. E. D.
 
 **Note.** The solution of the subsidiary problem to which the original problem of Prop. 4 is reduced, and of which Archimedes promises a discussion, is given in a highly interesting and important note by Eutocius, who introduces the subject with the following explanation.
 
-H. A. 5
-
 "He [Archimedes] promised to give a solution of this problem at the end, but we do not find the promise kept in any of the copies. Hence we find that Dionysodorus too failed to light upon the promised discussion and, being unable to grapple with the omitted lemma, approached the original problem in a different way, which I shall describe later. Diocles also expressed in his work *περὶ πυρίων* the opinion that Archimedes made the promise but did not perform it, and tried to supply the omission himself. His attempt I shall also give in its order. It will however be seen to have no relation to the omitted discussion but to give, like Dionysodorus, a construction arrived at by a different method of proof. On the other hand, as the result of unremitting and extensive research, I found in a certain old book some theorems discussed which, although the reverse of clear owing to errors and in many ways faulty as regards the figures, nevertheless gave the substance of what I sought, and moreover to some extent kept to the Doric dialect affected by Archimedes, while they retained the names familiar in old usage, the parabola being called a section of a right-angled cone, and the hyperbola a section of an obtuse-angled cone; whence I was led to consider whether these theorems might not in fact be what he promised he would give at the end. For this reason I paid them the closer attention, and, after finding great difficulty with the actual text owing to the multitude of the mistakes above referred to, I made out the sense gradually and now proceed to set it out, as well as I can, in more familiar and clearer language. And first the theorem will be treated generally, in order that what Archimedes says about the limits of possibility may be made clear; after which there will follow the special application to the conditions stated in his analysis of the problem."
 
 The investigation which follows may be thus reproduced. The general problem is:
@@ -2202,8 +2182,6 @@ AM.MB^2 = AC.D.
 $$
 
 But $AC.D$ is given, and it will be proved later that the maximum value of $AM.MB^2$ is that which it assumes when $BM = 2AM$.
-
-5—2
 
 Hence it is a necessary condition of the possibility of a solution that $AC.D$ must not be greater than $\frac{1}{2}AB.(\frac{3}{8}AB)^2$, or $\frac{4}{27}AB^2$.
 
@@ -2662,7 +2640,7 @@ Hence $Q$ lies on a given rectangular hyperbola.
 
 Thus $Q$ is determined as the intersection of a given ellipse
 
-* There is a mistake in the Greek text here which seems to have escaped the notice of all the editors up to the present. The words are ἐὰν ἄρα ποιήσωμεν, ὡς τὴν Δ πρὸς τὴν διπλασίαν τῆς Γ, οὕτως τὴν ΤΤ πρὸς ἄλλην τινα ὡς τὴν Φ, i.e. (with the lettering above) “ If we take a length $p$ such that $D:2C = PP':p.” This cannot be right, because we should then have
+* There is a mistake in the Greek text here which seems to have escaped the notice of all the editors up to the present. The words are ἐὰν ἄρα ποιήσωμεν, ὡς τὴν Δ πρὸς τὴν διπλασίαν τῆς Γ, οὕτως τὴν ΤΤ πρὸς ἄλλην τινα ὡς τὴν Φ, i.e. (with the lettering above) “ If we take a length $p$ such that $D:2C = PP':p$.” This cannot be right, because we should then have
 
 $$
 QV^2:PV.P'V = PP':p,
@@ -2825,9 +2803,7 @@ or
 
 $$ BB'^2: ef^2 = BB':S. $$
 
-Thus $BB': ef = ef: S = S: R$,
-
-and $ef, S$ are two mean proportionals in continued proportion between $BB', R$.
+Thus $BB': ef = ef: S = S: R$, and $ef, S$ are two mean proportionals in continued proportion between $BB', R$.
 
 **Synthesis.** Let $ABB'$, $DEF$ be great circles, $AA'$, $DD'$ the diameters bisecting $BB'$, $EF$ at right angles in $M, G$ respectively, and $O, C$ the centres.
 
@@ -2840,8 +2816,6 @@ $$ KG: EF = HM: R, $$
 and between $BB', R$ take two mean proportionals $ef, S$.
 
 On $ef$ as base describe a segment of a circle with vertex $d$ and similar to the segment of a circle $DEF$. Complete the circle, and let $dd'$ be the diameter through $d$, and $c$ the centre. Conceive a sphere constructed of which $def$ is a great circle, and through $ef$ draw a plane at right angles to $dd'$.
-
-H. A.
 
 Then shall *def* be the required segment of a sphere.
 
@@ -2875,9 +2849,7 @@ Let *ABB'* be the segment to whose surface the surface of the required segment i
 
 Let *DEF* be the segment to which the required segment is to be similar, *DED'F* the great circle cutting the base of the segment at right angles in *EF*. Let *DD'* be the diameter bisecting *EF* at right angles in *G*.
 
-Suppose the problem solved, *def* being a segment similar to *DEF* and having its surface equal to that of *ABB'*; and
-
-complete the figure for *def* as for *DEF*, corresponding points being denoted by small and capital letters respectively.
+Suppose the problem solved, *def* being a segment similar to *DEF* and having its surface equal to that of *ABB'*; and complete the figure for *def* as for *DEF*, corresponding points being denoted by small and capital letters respectively.
 
 ![img-47.jpeg](images/img-47.jpeg)
 
@@ -2924,8 +2896,6 @@ d'd: AB = D'D: DF \quad \text{(1)}.
 $$
 
 Describe a circle on $d'd$ as diameter, and conceive a sphere constructed of which this circle is a great circle.
-
-6—2
 
 Divide $d'd$ at $g$ so that
 
@@ -3382,8 +3352,10 @@ Thirdly, let $OF$ bisect the angle $AOE$ and meet $AE$ in $F$.
 We thus obtain the result [corresponding to (3) and (5) above] that
 
 $$
-OA : AF \left[ \left(1162\frac{1}{8} + 1172\frac{1}{8}\right) : 153 \right] \\
+\begin{aligned}
+OA : AF &amp;\left[ \left(1162\frac{1}{8} + 1172\frac{1}{8}\right) : 153 \right] \\
 &amp;&gt; 2334\frac{1}{4} : 153 \quad \text{(7).}
+\end{aligned}
 $$
 
 [Therefore
@@ -3528,7 +3500,7 @@ $&lt; 1007:66$...(5).
 $$
 \begin{aligned}
 AB^2:BF^2 &amp;&lt; (1007^2 + 66^2):66^2 \\
-&amp;&lt; 1018405:4356$.
+&amp;&lt; 1018405:4356.
 \end{aligned}
 $$
 
@@ -3600,8 +3572,6 @@ I. Concerning the right-angled conoid it was laid down that, if a section of a r
 
 * The whole of this introductory matter, including the definitions, is translated literally from the Greek text in order that the terminology of Archimedes may be faithfully represented. When this has once been set out, nothing will be lost by returning to modern phraseology and notation. These will accordingly be employed, as usual, when we come to the actual propositions of the treatise.
 
-7—2
-
 return to the position from which it started, the figure comprehended by the section of the right-angled cone is called a **right-angled conoid**, and the diameter which has remained fixed is called its **axis**, while its **vertex** is the point in which the axis meets ($\bar{a}\pi\tau\epsilon\tau a\iota$) the surface of the conoid. And if a plane touch the right-angled conoid, and another plane drawn parallel to the tangent plane cut off a segment of the conoid, the **base** of the segment cut off is defined as the portion intercepted by the section of the conoid on the cutting plane, the **vertex** [of the segment] as the point in which the first plane touches the conoid, and the **axis** [of the segment] as the portion cut off within the segment from the line drawn through the vertex of the segment parallel to the axis of the conoid.
 
 The questions propounded for consideration were
@@ -3628,9 +3598,7 @@ III. Concerning spheroidal figures we lay down the following premisses. If a sec
 
 The following questions about spheroids are propounded for consideration,
 
-(1) why, if one of the spheroidal figures be cut by a plane
-
-through the centre at right angles to the axis, each of the resulting segments will be double of the cone having the same base as the segment and the same axis; while, if the plane of section be at right angles to the axis without passing through the centre, (a) the greater of the resulting segments will bear to the cone which has the same base as the segment and the same axis the ratio which the line equal to the sum of half the straight line which is the axis of the spheroid and the axis of the lesser segment bears to the axis of the lesser segment, and (b) the lesser segment bears to the cone which has the same base as the segment and the same axis the ratio which the line equal to the sum of half the straight line which is the axis of the spheroid and the axis of the greater segment bears to the axis of the greater segment;
+(1) why, if one of the spheroidal figures be cut by a plane through the centre at right angles to the axis, each of the resulting segments will be double of the cone having the same base as the segment and the same axis; while, if the plane of section be at right angles to the axis without passing through the centre, (a) the greater of the resulting segments will bear to the cone which has the same base as the segment and the same axis the ratio which the line equal to the sum of half the straight line which is the axis of the spheroid and the axis of the lesser segment bears to the axis of the lesser segment, and (b) the lesser segment bears to the cone which has the same base as the segment and the same axis the ratio which the line equal to the sum of half the straight line which is the axis of the spheroid and the axis of the greater segment bears to the axis of the greater segment;
 
 (2) why, if one of the spheroids be cut by a plane passing through the centre but not at right angles to the axis, each of the resulting segments will be double of the figure having the same base as the segment and the same axis and consisting of a segment of a cone*.
 
@@ -3656,9 +3624,7 @@ After prefixing therefore the theorems and directions ($\dot{\epsilon}\pi\iota$-
 
 If a cone be cut by a plane meeting all the sides [generators] of the cone, the section will be either a circle or a section of an acute-angled cone [an ellipse]. If then the section be a circle, it is clear that the segment cut off from the cone towards the same parts as the vertex of the cone will be a cone. But, if the section be a section of an acute-angled cone [an ellipse], let the figure cut off from the cone towards the same parts as the vertex of the cone be called a segment of a cone. Let the base of the segment be defined as the plane comprehended by the section of the acute-angled cone, its vertex as the point which is also the vertex of the cone, and its axis as the straight line joining the vertex of the cone to the centre of the section of the acute-angled cone.
 
-And if a cylinder be cut by two parallel planes meeting all the sides [generators] of the cylinder, the sections will be either circles or sections of acute-angled cones [ellipses] equal and similar to one another. If then the sections be circles, it is clear that the figure cut off from the cylinder between the parallel planes will be a cylinder. But, if the sections be sections of acute-angled cones [ellipses], let the figure cut off from the cylinder between the parallel planes be called a frustum ($\tau\acute{\circ}\mu\sigma\varsigma$) of a cylinder. And let the bases of the
-
-frustum be defined as the planes comprehended by the sections of the acute-angled cones [ellipses], and the **axis** as the straight line joining the centres of the sections of the acute-angled cones, so that the axis will be in the same straight line with the axis of the cylinder.”
+And if a cylinder be cut by two parallel planes meeting all the sides [generators] of the cylinder, the sections will be either circles or sections of acute-angled cones [ellipses] equal and similar to one another. If then the sections be circles, it is clear that the figure cut off from the cylinder between the parallel planes will be a cylinder. But, if the sections be sections of acute-angled cones [ellipses], let the figure cut off from the cylinder between the parallel planes be called a frustum ($\tau\acute{\circ}\mu\sigma\varsigma$) of a cylinder. And let the bases of the frustum be defined as the planes comprehended by the sections of the acute-angled cones [ellipses], and the **axis** as the straight line joining the centres of the sections of the acute-angled cones, so that the axis will be in the same straight line with the axis of the cylinder.”
 
 ## Lemma.
 
@@ -3725,23 +3691,14 @@ and $A_1: B_1 = A_2: B_2,$
 
 while $B_1: B_3 = B_2: B_4,$
 
-we have, *ex aequali*, $\left\{
-\begin{array}{l}
+we have, *ex aequali*,
+
+$$
+\left.\begin{array}{l}
 A_3: B_3 = A_4: B_4. \\
-B_3: C_3 = B_4: C_4, \text{ and so on } \left\{
-\begin{array}{l}
-A_1: A_2 = A_3, \\
-B_1: A_2 = C_1: C_2 = \ldots
-\end{array}
-\right.
-\end{array}
-\right.$
-$\left\{
-\begin{array}{l}
-A_1: C_1 = C_2 = C_3. \\
-B_1: C_1 = C_2 = C_4.
-\end{array}
-\right.$
+\text{Similarly} \quad B_3: C_3 = B_4: C_4, \text{ and so on}
+\end{array}\right\} \tag{$\gamma$}
+$$
 
 Again, it follows from equations (α) that
 
@@ -4035,7 +3992,7 @@ Thus $$BH \cdot AH = QD \cdot PV,$$
 
 and therefore $$\triangle ABB' = \triangle PQQ';$$
 
-that is, the area of the triangle $$PQQ'$$$ is constant so long as $$PV$$ is of constant length.
+that is, the area of the triangle $PQQ'$ is constant so long as $PV$ is of constant length.
 
 Hence also the area of the segment $$PQQ'$$ is constant under the same conditions; for the segment is equal to $$\frac{4}{3}\triangle PQQ'$$.
 
@@ -4065,9 +4022,7 @@ That is to say, $$(AM - AO)^2 = AM \cdot (AM + AM' - 2AO),$$
 
 or $$AO^2 = AM \cdot AM'.$$
 
-And, since $$QM^2 = p_a \cdot AM$$, and $$Q'M'^2 = p_a \cdot AM'$$,
-
-it follows that $$QM \cdot Q'M' = p_a \cdot AO \quad$$
+And, since $$QM^2 = p_a \cdot AM$$, and $$Q'M'^2 = p_a \cdot AM'$$, it follows that $$QM \cdot Q'M' = p_a \cdot AO \quad$$
 
 Now $$QV^2 : QD^2 = QV^2 : \left( \frac{QM + Q'M'}{2} \right)^2$$
 
@@ -4109,9 +4064,7 @@ Let this be done, and inscribe in the auxiliary circle of the ellipse the polygo
 
 Suppose that $P'$ denotes the area of the polygon inscribed in the auxiliary circle, and $P$ that of the polygon inscribed in the ellipse.
 
-Then, since all the lines $eM, fN, \ldots$ are cut in the same proportions at $E, F, \ldots$,
-
-i.e. $eM : EM = fN : FN = \ldots = bC : BC,$
+Then, since all the lines $eM, fN, \ldots$ are cut in the same proportions at $E, F, \ldots$, i.e. $eM : EM = fN : FN = \ldots = bC : BC,$
 
 the pairs of triangles, as $eAM, EAM$, and the pairs of trapeziums, as $eMNf, EMNF$, are all in the same ratio to one another as $bC$ to $BC$, or as $CA$ to $CB$.
 
@@ -4438,9 +4391,7 @@ $$
 QM^2 = DM \cdot ME.
 $$
 
-Again, if $PT$ be that tangent to the parabolic section in the
-
-plane of the paper which is parallel to $RR'$, and if the tangent at $A$ meet $PT$ in $O$, then, from the property of the parabola,
+Again, if $PT$ be that tangent to the parabolic section in the plane of the paper which is parallel to $RR'$, and if the tangent at $A$ meet $PT$ in $O$, then, from the property of the parabola,
 
 $$
 \begin{array}{l}
@@ -4534,9 +4485,7 @@ This is proved by the same method as the last proposition.
 
 (2) If any conoid or spheroid be cut by a plane through the axis, and if through any tangent to the resulting conic a plane be erected at right angles to the plane of section, the plane so erected will touch the conoid or spheroid in the same point as that in which the line touches the conic.
 
-For it cannot meet the surface at any other point. If it did, the perpendicular from the second point on the cutting
-
-plane would be perpendicular also to the tangent to the conic and would therefore fall outside the surface. But it must fall within it.
+For it cannot meet the surface at any other point. If it did, the perpendicular from the second point on the cutting plane would be perpendicular also to the tangent to the conic and would therefore fall outside the surface. But it must fall within it.
 [Prop. 11 (4)]
 
 (3) *If two parallel planes touch any of the spheroidal figures, the line joining the points of contact will pass through the centre of the spheroid.*
@@ -4576,9 +4525,7 @@ and in all the cases it will follow that AD bisects BC in D.
 
 Then A will be the vertex of the segment, and AD will be its axis.
 
-Further, the base of the segment will be a circle or an ellipse with BC as diameter or as an axis respectively, and with centre D. We can therefore describe through this circle
-
-or ellipse a cylinder or a ‘frustum’ of a cylinder whose axis is $AD$. [Prop. 9]
+Further, the base of the segment will be a circle or an ellipse with BC as diameter or as an axis respectively, and with centre D. We can therefore describe through this circle or ellipse a cylinder or a ‘frustum’ of a cylinder whose axis is $AD$. [Prop. 9]
 
 ![img-67.jpeg](images/img-67.jpeg)
 
@@ -4629,9 +4576,7 @@ If not, the segment must be either greater or less than $X$.
 
 I. If possible, let the segment be greater than $X$.
 
-We can then inscribe and circumscribe, as in the last
-
-proposition, figures made up of cylinders or frusta of cylinders with equal height and such that
+We can then inscribe and circumscribe, as in the last proposition, figures made up of cylinders or frusta of cylinders with equal height and such that
 
 $$
 (\text{circumscribed fig.}) - (\text{inscribed fig.}) &lt; (\text{segment}) - X.
@@ -4842,7 +4787,7 @@ and we have to prove that $V$ is equal to the segment.
 Now
 
 $$
-\text{(cylinder or frustum } EB'): \text{(cone or segmt. of cone } ABB') = 3 : 1.}
+\text{(cylinder or frustum } EB'): \text{(cone or segmt. of cone } ABB') = 3 : 1.
 $$
 
 Therefore, by means of $(\alpha)$,
@@ -5167,8 +5112,6 @@ $$
 
 and so on.
 
-H. A. 10
-
 Lastly (last in $EB'$): (last in circumscribed fig.)
 
 $$= S : \text{(last gnomon).}$$
@@ -5201,7 +5144,7 @@ Instead therefore of Prop. 2 we use the Lemma to Prop. 2, Cor. 1, given above [O
 
 (segment $ABB'$): (cone or segment of cone $ABB'$) = $2:1$.
 
-[This result can also be obtained by simply substituting $CA$ for $AD$ in the ratio $(3CA - AD): (2CA - AD).]
+[This result can also be obtained by simply substituting $CA$ for $AD$ in the ratio $(3CA - AD): (2CA - AD)$.]
 
 ## Propositions 31, 32.
 
@@ -5217,9 +5160,7 @@ Draw the tangents to the ellipse which are parallel to $PP'$; let them touch the
 
 Then (1) if the cutting plane be perpendicular to the axis of the spheroid, $AA'$ will be that axis, and $A$, $A'$ will be the vertices of the spheroid as well as of the segments. Also the sections of the spheroid by the cutting plane and all planes parallel to it will be circles.
 
-(2) If the cutting plane be not perpendicular to the axis,
-
-the base of the segments will be an ellipse of which $PP'$ is an axis, and the sections of the spheroid by all planes parallel to the cutting plane will be similar ellipses.
+(2) If the cutting plane be not perpendicular to the axis, the base of the segments will be an ellipse of which $PP'$ is an axis, and the sections of the spheroid by all planes parallel to the cutting plane will be similar ellipses.
 
 Draw a plane through $C$ parallel to the base of the segments and meeting the plane of the paper in $BB'$.
 
@@ -5424,9 +5365,7 @@ After these came the following propositions about the spiral,
 
 † This should be presumably ‘the conoid,’ not ‘the cone.’
 
-which are as it were another sort of problem having nothing in common with the foregoing; and I have written out the proofs of them for you in this book. They are as follows. If a straight line of which one extremity remains fixed be made to revolve at a uniform rate in a plane until it returns to the position from which it started, and if, at the same time as the straight line revolves, a point move at a uniform rate along the straight line, starting from the fixed extremity, the point will describe a spiral in the plane. I say then that the area bounded by the spiral and the straight line which has returned to the position from which it started is a third part of the circle described with the fixed point as centre and with radius the length traversed by the point along the straight line during the one revolution. And, if a straight line touch the spiral at the extreme end of the spiral, and another straight line be drawn at right angles to the line which has revolved and resumed its position from the fixed extremity of it, so as to meet the tangent, I say that the straight line so drawn to meet it is equal to the circumference of the circle. Again, if the revolving line and the point moving along it make several revolutions and return to the position from which the straight line started, I say that the area added by the spiral in the third revolution will be double of that added in the second, that in the fourth three times, that in the fifth four times, and generally the areas added in the later revolutions will be multiples of that added in the second revolution according to the successive numbers, while the area bounded by the spiral in the first revolution is a sixth part of that added in the second revolution. Also, if on the spiral described in one revolution two points be taken and straight lines be drawn joining them to the fixed extremity of the revolving line, and if two circles be drawn with the fixed point as centre and radii the lines drawn to the fixed extremity of the straight line, and the shorter of the two lines be produced, I say that (1) the area bounded by the circumference of the greater circle in the direction of (the part of) the spiral included between the straight lines, the spiral (itself) and the produced straight line will bear to (2) the area bounded by the circumference of the lesser circle, the same (part of the) spiral and the
-
-straight line joining their extremities the ratio which (3) the radius of the lesser circle together with two thirds of the excess of the radius of the greater circle over the radius of the lesser bears to (4) the radius of the lesser circle together with one third of the said excess.
+which are as it were another sort of problem having nothing in common with the foregoing; and I have written out the proofs of them for you in this book. They are as follows. If a straight line of which one extremity remains fixed be made to revolve at a uniform rate in a plane until it returns to the position from which it started, and if, at the same time as the straight line revolves, a point move at a uniform rate along the straight line, starting from the fixed extremity, the point will describe a spiral in the plane. I say then that the area bounded by the spiral and the straight line which has returned to the position from which it started is a third part of the circle described with the fixed point as centre and with radius the length traversed by the point along the straight line during the one revolution. And, if a straight line touch the spiral at the extreme end of the spiral, and another straight line be drawn at right angles to the line which has revolved and resumed its position from the fixed extremity of it, so as to meet the tangent, I say that the straight line so drawn to meet it is equal to the circumference of the circle. Again, if the revolving line and the point moving along it make several revolutions and return to the position from which the straight line started, I say that the area added by the spiral in the third revolution will be double of that added in the second, that in the fourth three times, that in the fifth four times, and generally the areas added in the later revolutions will be multiples of that added in the second revolution according to the successive numbers, while the area bounded by the spiral in the first revolution is a sixth part of that added in the second revolution. Also, if on the spiral described in one revolution two points be taken and straight lines be drawn joining them to the fixed extremity of the revolving line, and if two circles be drawn with the fixed point as centre and radii the lines drawn to the fixed extremity of the straight line, and the shorter of the two lines be produced, I say that (1) the area bounded by the circumference of the greater circle in the direction of (the part of) the spiral included between the straight lines, the spiral (itself) and the produced straight line will bear to (2) the area bounded by the circumference of the lesser circle, the same (part of the) spiral and the straight line joining their extremities the ratio which (3) the radius of the lesser circle together with two thirds of the excess of the radius of the greater circle over the radius of the lesser bears to (4) the radius of the lesser circle together with one third of the said excess.
 
 The proofs then of these theorems and others relating to the spiral are given in the present book. Prefixed to them, after the manner usual in other geometrical works, are the propositions necessary to the proofs of them. And here too, as in the books previously published, I assume the following lemma, that, if there be (two) unequal lines or (two) unequal areas, the excess by which the greater exceeds the less can, by being [continually] added to itself, be made to exceed any given magnitude among those which are comparable with [it and with] one another."
 
@@ -5670,11 +5609,7 @@ $$
 
 Describe a circle through the points $O, T, C$, and produce $OB$ to meet this circle in $K$.
 
-Then, since $TB &gt; BC$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a line $OGQ$, meeting $CT$ in $G$, and the
-
-H. A. 11
-
-circle about $OTC$ in $Q$, such that $GQ = BK^*$. Let $OQ$ meet the original circle in $P$ and $AB$ produced in $F$.
+Then, since $TB &gt; BC$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a line $OGQ$, meeting $CT$ in $G$, and the circle about $OTC$ in $Q$, such that $GQ = BK^*$. Let $OQ$ meet the original circle in $P$ and $AB$ produced in $F$.
 
 We now prove, exactly as in the last proposition, that
 
@@ -6362,9 +6297,7 @@ in the above proof the area of the sector $$ KLP $$ of the circle drawn with $$ 
 
 We can prove also, by the same method, that, if $$ P $$ be a point on the second, or any later turn, as the nth, the complete area described by the radius vector from the beginning up to the time when it reaches the position $$ OP $$ is, if $$ C $$ denote the area of the complete circle with $$ O $$ as centre and $$ OP $$ as radius, $$ \frac{1}{3} (C + \text{sector } KLP) $$ or $$ \frac{1}{3} (n - 1. C + \text{sector } KLP) $$ respectively.
 
-The area so described by the radius vector is of course not the same thing as the area bounded by the last complete turn
-
-of the spiral ending at $P$ and the intercepted portion of the radius vector $OP$. Thus, suppose $R_1$ to be the area bounded by the first turn of the spiral and $OA_1$ (the first turn ending at $A_1$ on the initial line), $R_2$ the area added to this by the second complete turn ending at $A_2$ on the initial line, and so on. $R_1$ has then been described twice by the radius vector when it arrives at the position $OA_2$; when the radius vector arrives at the position $OA_3$, it has described $R_1$ three times, the ring $R_2$ twice, and the ring $R_3$ once; and so on.
+The area so described by the radius vector is of course not the same thing as the area bounded by the last complete turn of the spiral ending at $P$ and the intercepted portion of the radius vector $OP$. Thus, suppose $R_1$ to be the area bounded by the first turn of the spiral and $OA_1$ (the first turn ending at $A_1$ on the initial line), $R_2$ the area added to this by the second complete turn ending at $A_2$ on the initial line, and so on. $R_1$ has then been described twice by the radius vector when it arrives at the position $OA_2$; when the radius vector arrives at the position $OA_3$, it has described $R_1$ three times, the ring $R_2$ twice, and the ring $R_3$ once; and so on.
 
 Thus, generally, if $C_n$ denote the area of the ‘nth circle,’ we shall have
 
@@ -6602,7 +6535,7 @@ $$
 and
 $$
 \begin{aligned}
-\text('third circle')} &amp;= 9 \text{ ('first circle')} \\
+\text{('third circle')} &amp;= 9 \text{ ('first circle')} \\
 &amp;= 27 R_1;
 \end{aligned}
 $$
@@ -6786,9 +6719,7 @@ Let $A, B$ be two unequal weights (of which $A$ is the greater) balancing about 
 
 ![img-98.jpeg](images/img-98.jpeg)
 
-Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline
-
-towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
+Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
 
 Hence $AC &lt; CB$.
 
@@ -6917,8 +6848,6 @@ For, by the last proposition, the centre of gravity lies on each of the lines wh
 ### Alternative proof.
 
 Let $ABCD$ be the given parallelogram, and $BD$ a diagonal. Then the triangles $ABD$, $CDB$ are equal and similar, so that [Post. 4], if one be applied to the other, their centres of gravity will fall one upon the other.
-
-13—2
 
 Suppose $F$ to be the centre of gravity of the triangle $ABD$. Let $G$ be the middle point of $BD$. Join $FG$ and produce it to $H$, so that $FG = GH$.
 
@@ -7227,9 +7156,7 @@ Hence $C$ is the centre of gravity of $P$, $P'$ taken together.
 
 And it is plain
 
-(1) that the lines joining the two angles of the figure so inscribed which are nearest to the vertex of the segment, and the next
-
-pairs of angles in order, will be parallel to the base of the segment,
+(1) that the lines joining the two angles of the figure so inscribed which are nearest to the vertex of the segment, and the next pairs of angles in order, will be parallel to the base of the segment,
 
 (2) that the said lines will be bisected by the diameter of the segment, and
 
@@ -7328,9 +7255,7 @@ $$
 PP': pp' = QQ': qq' = RR': rr' = BB': bb'.
 $$
 
-Since then $RR': BB' = rr': bb'$, and these ratios respectively determine the proportion in which $NO$, $no$ are divided
-
-by the centres of gravity of the trapezia $BRR'B'$, $brr'b'$ [I. 15], it follows that the centres of gravity of the trapezia divide $NO$, $no$ in the same ratio.
+Since then $RR': BB' = rr': bb'$, and these ratios respectively determine the proportion in which $NO$, $no$ are divided by the centres of gravity of the trapezia $BRR'B'$, $brr'b'$ [I. 15], it follows that the centres of gravity of the trapezia divide $NO$, $no$ in the same ratio.
 
 ![img-107.jpeg](images/img-107.jpeg)
 
@@ -7417,7 +7342,7 @@ If now the centre of gravity of the triangle $ABB'$ be $F$, the centre of gravit
 
 ![img-110.jpeg](images/img-110.jpeg)
 
-(sum of segments $AQB, AQ'B') : $\triangle ABB' = FG : GK$. [I. 6, 7]
+(sum of segments $AQB, AQ'B'$) : $\triangle ABB' = FG : GK$. [I. 6, 7]
 
 * There is clearly some interpolation in the text here, which has the words καὶ ἐπεὶ παραλληλόγραμμόν ἐστι τὸ ΘΖΗΙ. It is not yet proved that $H'D'DH$ is a parallelogram; this can only be inferred from the fact that $H, H'$ divide $QD, Q'D'$ respectively in the same ratio. But this latter property does not appear till Prop. 7, and is then only enunciated of similar segments. The interpolation must have been made before Eutocius' time, because he has a note on the phrase, and explains it by gravely assuming that $H, H'$ divide $QD, Q'D'$ respectively in the same ratio.
 
@@ -7915,12 +7840,12 @@ $$ON:OG=\ [5\ (ao+ap)+10\ (aq+an)]:\ (2ao+4aq+6an+3ap).$$
 
 Therefore
 
-$$(2ao+4aq+6an+3ap):\ \{5\ (ao+ap)+10\ (aq+an)] = OG:ON$$
+$$(2ao+4aq+6an+3ap):\ \{5\ (ao+ap)+10\ (aq+an)\} = OG:ON$$
 $$= OG:on.$$
 
 And
 $$ap:(ao-ap)=ap:op$$
-$$= GF:OL, \text{ by hypothesis,}$
+$$= GF:OL, \text{ by hypothesis,}$$
 $$= GF:\frac{3}{8}on,$$
 
 while $ao$, $aq$, $an$, $ap$ are in continued proportion.
@@ -7948,9 +7873,7 @@ Thus, since $F$, $H$ are the centres of gravity of the segments $BAB'$, $PAP'$ r
 
 # THE SAND-RECKONER.
 
-"There are some, king Gelon, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily but also that which is found in every region whether inhabited or uninhabited. Again there are some who, without regarding it as infinite, yet think that no number has been named which is great enough to exceed its multitude. And it is clear that they who hold this view, if they imagined a mass made up of sand in other respects as large as the mass of the earth, including in it all the seas and the hollows of the earth filled up to a height equal to that of the highest of the mountains, would be many times further still from recognising that any number could be expressed which exceeded the multitude of the sand so taken. But I will try to show you by means of geometrical proofs, which you will be able to follow, that, of the numbers named by me and given in the work which I sent to Zeuxippus, some exceed not only the number of the mass of sand equal in magnitude to the earth filled up in the way described, but also that of a mass equal in magnitude to the universe. Now you are aware that 'universe' is the name given by most astronomers to the sphere whose centre is the centre of the earth and whose radius is equal to the straight line between the centre of the sun and the centre of the earth. This is the common account (τὰ γραφόμενα), as you have heard from astronomers. But Aristarchus of Samos brought out a
-
-book consisting of some hypotheses, in which the premisses lead to the result that the universe is many times greater than that now so called. His hypotheses are that the fixed stars and the sun remain unmoved, that the earth revolves about the sun in the circumference of a circle, the sun lying in the middle of the orbit, and that the sphere of the fixed stars, situated about the same centre as the sun, is so great that the circle in which he supposes the earth to revolve bears such a proportion to the distance of the fixed stars as the centre of the sphere bears to its surface. Now it is easy to see that this is impossible; for, since the centre of the sphere has no magnitude, we cannot conceive it to bear any ratio whatever to the surface of the sphere. We must however take Aristarchus to mean this: since we conceive the earth to be, as it were, the centre of the universe, the ratio which the earth bears to what we describe as the ‘universe’ is the same as the ratio which the sphere containing the circle in which he supposes the earth to revolve bears to the sphere of the fixed stars. For he adapts the proofs of his results to a hypothesis of this kind, and in particular he appears to suppose the magnitude of the sphere in which he represents the earth as moving to be equal to what we call the ‘universe.’
+"There are some, king Gelon, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily but also that which is found in every region whether inhabited or uninhabited. Again there are some who, without regarding it as infinite, yet think that no number has been named which is great enough to exceed its multitude. And it is clear that they who hold this view, if they imagined a mass made up of sand in other respects as large as the mass of the earth, including in it all the seas and the hollows of the earth filled up to a height equal to that of the highest of the mountains, would be many times further still from recognising that any number could be expressed which exceeded the multitude of the sand so taken. But I will try to show you by means of geometrical proofs, which you will be able to follow, that, of the numbers named by me and given in the work which I sent to Zeuxippus, some exceed not only the number of the mass of sand equal in magnitude to the earth filled up in the way described, but also that of a mass equal in magnitude to the universe. Now you are aware that 'universe' is the name given by most astronomers to the sphere whose centre is the centre of the earth and whose radius is equal to the straight line between the centre of the sun and the centre of the earth. This is the common account (τὰ γραφόμενα), as you have heard from astronomers. But Aristarchus of Samos brought out a book consisting of some hypotheses, in which the premisses lead to the result that the universe is many times greater than that now so called. His hypotheses are that the fixed stars and the sun remain unmoved, that the earth revolves about the sun in the circumference of a circle, the sun lying in the middle of the orbit, and that the sphere of the fixed stars, situated about the same centre as the sun, is so great that the circle in which he supposes the earth to revolve bears such a proportion to the distance of the fixed stars as the centre of the sphere bears to its surface. Now it is easy to see that this is impossible; for, since the centre of the sphere has no magnitude, we cannot conceive it to bear any ratio whatever to the surface of the sphere. We must however take Aristarchus to mean this: since we conceive the earth to be, as it were, the centre of the universe, the ratio which the earth bears to what we describe as the ‘universe’ is the same as the ratio which the sphere containing the circle in which he supposes the earth to revolve bears to the sphere of the fixed stars. For he adapts the proofs of his results to a hypothesis of this kind, and in particular he appears to suppose the magnitude of the sphere in which he represents the earth as moving to be equal to what we call the ‘universe.’
 
 I say then that, even if a sphere were made up of the sand, as great as Aristarchus supposes the sphere of the fixed stars to be, I shall still prove that, of the numbers named in the *Principles**, some exceed in multitude the number of the sand which is equal in magnitude to the sphere referred to, provided that the following assumptions be made.
 
@@ -8122,9 +8045,7 @@ It follows that the arc $AB$ is greater than $\frac{1}{812}$th of the circumfere
 
 Hence, *a fortiori*,
 
-$AB$ &gt; (side of chiliagon inscribed in great circle),
-
-and $AB$ is equal to the diameter of the sun, as proved above.
+$AB$ &gt; (side of chiliagon inscribed in great circle), and $AB$ is equal to the diameter of the sun, as proved above.
 
 **The following results can now be proved :**
 
@@ -8302,13 +8223,13 @@ From this we can prove further that *a sphere of the size attributed by Aristarc
 For, by hypothesis,
 
 $$
-(\text{earth}):\left(‘\text{universe}\’ \right) = \left(‘\text{universe}\’ \right):\left(\text{sphere of fixed stars}.\right)
+(\text{earth}):\left(‘\text{universe}’ \right) = \left(‘\text{universe}’ \right):\left(\text{sphere of fixed stars}.\right)
 $$
 
 And [p. 227]
 
 $$
-\left(\text{diameter of ‘universe}\’ \right) &lt; 10,000\ (\text{diam. of earth});
+\left(\text{diameter of ‘universe}’ \right) &lt; 10,000\ (\text{diam. of earth});
 $$
 
 whence
@@ -8670,9 +8591,7 @@ It is required to prove that
 
 ![img-123.jpeg](images/img-123.jpeg)
 
-Suppose $AO$ made equal to $OQ$, and conceive $QOA$ as a lever placed horizontally and supported at $O$. Suppose the triangle $EqQ$ suspended from $OQ$ in the position drawn, and suppose that the trapezium $EO_1$ in the position drawn is balanced by an area $P_1$ suspended from $A$, the trapezium $E_1O_2$ in the position drawn is balanced by the area $P_2$ suspended
-
-from $A$, and so on, the triangle $E_n O_n Q$ being in like manner balanced by $P_{n+1}$.
+Suppose $AO$ made equal to $OQ$, and conceive $QOA$ as a lever placed horizontally and supported at $O$. Suppose the triangle $EqQ$ suspended from $OQ$ in the position drawn, and suppose that the trapezium $EO_1$ in the position drawn is balanced by an area $P_1$ suspended from $A$, the trapezium $E_1O_2$ in the position drawn is balanced by the area $P_2$ suspended from $A$, and so on, the triangle $E_n O_n Q$ being in like manner balanced by $P_{n+1}$.
 
 Then $P_1 + P_2 + \ldots + P_{n+1}$ will balance the whole triangle $EqQ$ as drawn, and therefore
 
@@ -9195,9 +9114,7 @@ Conceive also another pyramid in the fluid with vertex $O$, continuous with the 
 
 Lastly, let $STUV$ be a part of the fluid within the second pyramid equal and similar to the part $BGHC$ of the solid, and let $SV$ be at the surface of the fluid.
 
-Then the pressures on $PQ$, $QR$ are unequal, that on $PQ$ being the greater. Hence the part at $QR$ will be set in motion
-
-by that at $PQ$, and the fluid will not be at rest; which is contrary to the hypothesis.
+Then the pressures on $PQ$, $QR$ are unequal, that on $PQ$ being the greater. Hence the part at $QR$ will be set in motion by that at $PQ$, and the fluid will not be at rest; which is contrary to the hypothesis.
 
 Therefore the solid will not stand out above the surface.
 
@@ -9229,11 +9146,7 @@ Then, since the pressure on the parts of the fluid at $PQ$, $QR$ must be equal i
 
 If a solid lighter than a fluid be forcibly immersed in it, the solid will be driven upwards by a force equal to the difference between its weight and the weight of the fluid displaced.
 
-For let $A$ be completely immersed in the fluid, and let $G$ represent the weight of $A$, and $(G + H)$ the weight of an equal volume of the fluid. Take a solid $D$, whose weight is $H$
-
-H, A.                                                                 17
-
-and add it to $A$. Then the weight of $(A + D)$ is less than that of an equal volume of the fluid; and, if $(A + D)$ is immersed in the fluid, it will project so that its weight will be equal to the weight of the fluid displaced. But its weight is $(G + H)$.
+For let $A$ be completely immersed in the fluid, and let $G$ represent the weight of $A$, and $(G + H)$ the weight of an equal volume of the fluid. Take a solid $D$, whose weight is $H$ and add it to $A$. Then the weight of $(A + D)$ is less than that of an equal volume of the fluid; and, if $(A + D)$ is immersed in the fluid, it will project so that its weight will be equal to the weight of the fluid displaced. But its weight is $(G + H)$.
 
 ![img-134.jpeg](images/img-134.jpeg)
 
@@ -9454,9 +9367,7 @@ $$
 
 ## Proposition 3.
 
-If a right segment of a paraboloid of revolution whose axis is not greater than $\frac{3}{4}p$ (where $p$ is the parameter), and whose specific gravity is less than that of a fluid, be placed in the fluid with its axis inclined at any angle to the vertical, but so that its
-
-base is entirely submerged, the solid will not remain in that position but will return to the position in which the axis is vertical.
+If a right segment of a paraboloid of revolution whose axis is not greater than $\frac{3}{4}p$ (where $p$ is the parameter), and whose specific gravity is less than that of a fluid, be placed in the fluid with its axis inclined at any angle to the vertical, but so that its base is entirely submerged, the solid will not remain in that position but will return to the position in which the axis is vertical.
 
 Let the axis of the paraboloid be $AN$, and through $AN$ draw a plane perpendicular to the surface of the fluid intersecting the paraboloid in the parabola $BAB'$, the base of the segment in $BNB'$, and the plane of the surface of the fluid in the chord $QQ'$ of the parabola.
 
@@ -9513,9 +9424,7 @@ or
 $AR = (AN - \frac{3}{4}p)$.
 
 Thus
-$(AN - \frac{3}{4}p)^2 : AN^2 = AR^2 : AN^2$,
-
-and therefore the ratio of the specific gravity of the solid to that of the fluid is, by the enunciation, not less than the ratio $AR^2 : AN^2$.
+$(AN - \frac{3}{4}p)^2 : AN^2 = AR^2 : AN^2$, and therefore the ratio of the specific gravity of the solid to that of the fluid is, by the enunciation, not less than the ratio $AR^2 : AN^2$.
 
 But, by Prop. 1, the former ratio is equal to the ratio of the immersed portion to the whole solid, i.e. to the ratio $PV^2 : AN^2$ [On Conoids and Spheroids, Prop. 24].
 
@@ -9716,8 +9625,6 @@ $$ PV. AK - PI. KM = AK^2 - AK. UM + \frac{UM^2}{4} = (AK - \frac{UM}{2})^2, $$
 and accordingly
 $$ (PV. AK - PI. KM) \text{ cannot be negative.} $$
 
-H. A. 18
-
 Then, since $CO = \frac{1}{2}p$, $CL$ must be perpendicular to $PT$ and therefore to the surface of the fluid.
 
 And the forces acting on the immersed portion of the paraboloid and the portion above the surface act respectively upwards and downwards along lines through $F$ and $H$ parallel to $CL$.
@@ -9834,9 +9741,7 @@ The proof is the same if the point $I$ is not on $VP$ but on $VP$ produced.
 
 ## Proposition 8.
 
-Given a solid in the form of a right segment of a paraboloid of revolution whose axis $AM$ is greater than $\frac{3}{4}p$, but such that $AM : \frac{1}{2}p &lt; 15 : 4$, and whose specific gravity bears to that of a fluid a ratio less than $(AM - \frac{3}{4}p)^3 : AM^3$, then, if the solid be placed in the fluid so that its base does not touch the fluid and its axis is inclined at an angle to the vertical, the solid will not return to the position in which its axis is vertical and will not
-
-remain in any position except that in which its axis makes with the surface of the fluid a certain angle to be described.
+Given a solid in the form of a right segment of a paraboloid of revolution whose axis $AM$ is greater than $\frac{3}{4}p$, but such that $AM : \frac{1}{2}p &lt; 15 : 4$, and whose specific gravity bears to that of a fluid a ratio less than $(AM - \frac{3}{4}p)^3 : AM^3$, then, if the solid be placed in the fluid so that its base does not touch the fluid and its axis is inclined at an angle to the vertical, the solid will not return to the position in which its axis is vertical and will not remain in any position except that in which its axis makes with the surface of the fluid a certain angle to be described.
 
 Let $am$ be taken equal to the axis $AM$, and let $c$ be a point on $am$ such that $ac = 2cm$. Measure $co$ along $ca$ equal to $\frac{1}{2}p$, and $or$ along $oc$ equal to $\frac{1}{2}ao$.
 
@@ -9868,14 +9773,12 @@ whence $(X + Y) &lt; ar$, and therefore $X &lt; ao$.
 Measure $ob$ along $oa$ equal to $X$, and draw $bd$ perpendicular to $ab$ and of such length that
 
 $$
-bd^* = \frac{1}{2}co \cdot ab \quad \tag{\beta}.
+bd^* = \frac{1}{2}co \cdot ab \quad \tag{$\beta$}.
 $$
 
 Join $ad$.
 
-Now let the solid be placed in the fluid with its axis $AM$ inclined at an angle to the vertical. Through $AM$ draw a plane perpendicular to the surface of the fluid, and let this
-
-plane cut the paraboloid in the parabola $BAB'$ and the plane of the surface of the fluid in the chord $QQ'$ of the parabola.
+Now let the solid be placed in the fluid with its axis $AM$ inclined at an angle to the vertical. Through $AM$ draw a plane perpendicular to the surface of the fluid, and let this plane cut the paraboloid in the parabola $BAB'$ and the plane of the surface of the fluid in the chord $QQ'$ of the parabola.
 
 Draw the tangent $PT$ parallel to $QQ'$, touching at $P$, and let $PV$ be the diameter bisecting $QQ'$ in $V$ (or the axis of the immersed portion of the solid), and $PN$ the ordinate from $P$.
 
@@ -10122,9 +10025,7 @@ Then, since $CO = \frac{1}{2}p$, $CL$ is perpendicular to $PT$ and to the surfac
 
 Hence the solid will not rest but turn in the direction of diminishing the angle $MTP$.
 
-II. Exactly as in the last proposition, we prove that, if the angle $MTP$ be less than the angle $dab$, the solid will not remain
-
-in its position but will turn in the direction of increasing the angle $MTP$.
+II. Exactly as in the last proposition, we prove that, if the angle $MTP$ be less than the angle $dab$, the solid will not remain in its position but will turn in the direction of increasing the angle $MTP$.
 
 ![img-148.jpeg](images/img-148.jpeg)
 
@@ -10350,17 +10251,13 @@ the solid will rest and remain in a position with its base more submerged;
 
 (V.) if
 
-(spec. gr. of solid): (spec. gr. of fluid) $&lt; P_{1}P_{2}^{2}: AM^{2}$,
-
-the solid will rest in a position in which its axis is inclined to the surface of the fluid at an angle less than $T_{1}$, but so that the base does not even touch the surface at one point.
+(spec. gr. of solid): (spec. gr. of fluid) $&lt; P_{1}P_{2}^{2}: AM^{2}$, the solid will rest in a position in which its axis is inclined to the surface of the fluid at an angle less than $T_{1}$, but so that the base does not even touch the surface at one point.
 
 (Proof.)
 
 (I.) Since $AM &gt; \frac{3}{4}p$, and
 
-(spec. gr. of solid): (spec. gr. of fluid) $\div (AM - \frac{3}{4}p)^{2}: AM^{2}$,
-
-it follows, by Prop. 4, that the solid will be in stable equilibrium with its axis vertical.
+(spec. gr. of solid): (spec. gr. of fluid) $\div (AM - \frac{3}{4}p)^{2}: AM^{2}$, it follows, by Prop. 4, that the solid will be in stable equilibrium with its axis vertical.
 
 (II.) In this case
 
@@ -10376,9 +10273,7 @@ $l^{2}: AM^{2}$,
 
 so that $l &lt; AR$ but $&gt; Q_{1}Q_{2}$.
 
-Place $P'V'$ between the two parabolas $BAB_{1}, BP_{2}Q_{3}M$ equal
-
-to $l$ and parallel to $AM^*$; and let $P'V'$ meet the intermediate parabola in $F'$.
+Place $P'V'$ between the two parabolas $BAB_{1}, BP_{2}Q_{3}M$ equal to $l$ and parallel to $AM^*$; and let $P'V'$ meet the intermediate parabola in $F'$.
 
 Then, by the same proof as before, we obtain
 
@@ -10580,9 +10475,7 @@ Thus the paraboloid will remain in the position in which one point $B$ of the ba
 
 (III. b) In the case where
 
-(spec. gr. of solid): (spec. gr. of fluid) = $P_1P_2^2 : AM^2$,
-
-we can prove in the same way that, if the solid be placed in the fluid so that its axis is inclined to the vertical and its base does not anywhere touch the surface of the fluid, the solid will take up and rest in the position in which one point only of the base touches the surface, and the axis is inclined to it at an angle equal to $T_1$ (in the figure on p. 284).
+(spec. gr. of solid): (spec. gr. of fluid) = $P_1P_2^2 : AM^2$, we can prove in the same way that, if the solid be placed in the fluid so that its axis is inclined to the vertical and its base does not anywhere touch the surface of the fluid, the solid will take up and rest in the position in which one point only of the base touches the surface, and the axis is inclined to it at an angle equal to $T_1$ (in the figure on p. 284).
 
 (IV.) In this case
 
@@ -11022,7 +10915,6 @@ For the same reason $AGE$, $CGH$ are straight lines.
 
 Let $AF$ produced meet $CD$ in $D$, and let $AE$ produced meet the outer semicircle in $I$. Join $BI$, $ID$.
 
-H. A.                                                                 20
 
 Then, since the angles $AFB$, $ACD$ are right, the straight lines $AD$, $AB$ are such that the perpendiculars on each from the extremity of the other meet in the point $E$. Therefore, by the properties of triangles, $AE$ is perpendicular to the line joining $B$ to $D$.
 
@@ -11082,8 +10974,6 @@ Join $AG$, $GD$ and $BH$, $HD$. Then, by Prop. 1, $AGD$, $BHD$ are straight line
 For a like reason $AEH$, $BFG$ are straight lines, as also are $CEG$, $CFH$.
 
 Let $AD$ meet the semicircle on $AC$ in $I$, and let $BD$ meet the semicircle on $CB$ in $K$. Join $CI$, $CK$ meeting $AE$, $BF$
-
-20—2
 
 respectively in $L$, $M$, and let $GL$, $HM$ produced meet $AB$ in $N$, $P$ respectively.
 
@@ -11902,12 +11792,8 @@ $$t^2 - 4729494u^2 = 1,$$
 
 and the curious reader is referred to Amthor’s paper itself. Suffice it to say that he develops $\sqrt{4729494}$ in the form of a continued fraction as far as the period which occurs after 91 convergents, and, after an arduous piece of work, arrives at the conclusion that
 
-$$W = 1598 \langle \overline{206541} \rangle,$
+$$W = 1598 \langle \overline{206541} \rangle,$$
 
-where $\langle \overline{206541} \rangle$ represents the fact that there are 206541 more digits to follow, and that, with the same notation,
+where $\langle \overline{206541} \rangle$ represents the fact that there are 206541 more digits to follow, and that, with the same notation, the whole number of cattle $= 7766 \langle \overline{206541} \rangle$.
 
-the whole number of cattle $= 7766 \langle \overline{206541} \rangle$.
-
-One may well be excused for doubting whether Archimedes solved the complete problem, having regard to the enormous
-
-size of the numbers and the great difficulties inherent in the work. By way of giving an idea of the space which would be required for merely writing down the results when obtained, Amthor remarks that the large seven-figured logarithmic tables contain on one page 50 lines with 50 figures or so in each, say altogether 2500 figures; therefore one of the eight unknown quantities would, when found, occupy $82\frac{1}{2}$ such pages, and to write down all the eight numbers would require a volume of 660 pages!]
+One may well be excused for doubting whether Archimedes solved the complete problem, having regard to the enormous size of the numbers and the great difficulties inherent in the work. By way of giving an idea of the space which would be required for merely writing down the results when obtained, Amthor remarks that the large seven-figured logarithmic tables contain on one page 50 lines with 50 figures or so in each, say altogether 2500 figures; therefore one of the eight unknown quantities would, when found, occupy $82\frac{1}{2}$ such pages, and to write down all the eight numbers would require a volume of 660 pages!]

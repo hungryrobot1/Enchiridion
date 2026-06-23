@@ -38,9 +38,7 @@ Let $A, B$ be two unequal weights (of which $A$ is the greater) balancing about 
 
 ![img-98.jpeg](images/img-98.jpeg)
 
-Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline
-
-towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
+Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
 
 Hence $AC &lt; CB$.
 
@@ -169,8 +167,6 @@ For, by the last proposition, the centre of gravity lies on each of the lines wh
 ### Alternative proof.
 
 Let $ABCD$ be the given parallelogram, and $BD$ a diagonal. Then the triangles $ABD$, $CDB$ are equal and similar, so that [Post. 4], if one be applied to the other, their centres of gravity will fall one upon the other.
-
-13—2
 
 Suppose $F$ to be the centre of gravity of the triangle $ABD$. Let $G$ be the middle point of $BD$. Join $FG$ and produce it to $H$, so that $FG = GH$.
 

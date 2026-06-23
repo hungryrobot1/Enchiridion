@@ -21,7 +21,7 @@ export const STATUS_LABEL = {
   ready: 'Production-ready',
   progress: 'In progress',
   stub: 'Stub — not yet written',
-  'needs-cleanup': 'OCR done, needs cleanup',
+  'needs-cleanup': 'Readable; refinements pending',
   none: '',
 };
 

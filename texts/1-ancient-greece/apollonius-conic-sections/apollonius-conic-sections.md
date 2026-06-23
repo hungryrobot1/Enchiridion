@@ -12,9 +12,7 @@ If a cone be cut by a plane passing through the apex, the resulting section is a
 
 Let there be a cone whose apex is $A$ and whose base is the circle $BC$, and let $O$ be the centre of the circle, so that $AO$ is the axis of the cone. Suppose now that the cone is cut by any plane parallel to the plane of the base $BC$, as $DE$, and let
 
-
 ---
-
 
 the axis $AO$ meet the plane $DE$ in $o$. Let $p$ be any point on the intersection of the plane $DE$ and the surface of the cone. Join $Ap$ and produce it to meet the circumference of the circle $BC$ in $P$. Join $OP$, $op$.
 
@@ -37,7 +35,6 @@ Next, let the cone be cut by a plane passing through the axis and perpendicular 
 * The references in this form, here and throughout the book, are to the original propositions of Apollonius.
 
 ---
-
 
 Let $P$ be any point on the intersection of the plane $HK$ with the surface, and $F$ any point on the circumference of the circle $BC$. Draw $PM$, $FL$ each perpendicular to the plane of the triangle $ABC$, meeting the straight lines $HK$, $BC$ respectively in $M$, $L$. Then $PM$, $FL$ are parallel.
 
@@ -65,10 +62,7 @@ Thus there are two series of circular sections of an oblique cone, one series be
 
 Suppose a cone to be cut by any plane through the axis making the triangular section $ABC$, so that $BC$ is a diameter of the circular base. Let $H$ be any point on the circumference of the base, let $HK$ be perpendicular to the diameter $BC$, and let a parallel to $HK$ be drawn from any point $Q$ on the surface of the cone but not lying in the plane of the axial triangle. Further, let $AQ$ be joined and produced, if necessary, to meet
 
-1—2
-
 ---
-
 
 the circumference of the base in $F$, and let $FLF'$ be the chord perpendicular to $BC$. Join $AL$, $AF'$. Then the straight line through $Q$ parallel to $HK$ is also parallel to $FLF'$; it follows therefore that the parallel through $Q$ will meet both $AL$ and $AF'$. And $AL$ is in the plane of the axial triangle $ABC$. Therefore the parallel through $Q$ will meet both the plane of the axial triangle and the other side of the surface of the cone, since $AF''$ lies on the cone.
 
@@ -88,7 +82,6 @@ Then this parallel will, if produced to meet the other side of the surface in $Q
 
 ---
 
-
 triangle. But it lies also in the plane of the section $DPE$; it will therefore meet, and be bisected by, $PM$.
 
 Therefore $PM$ bisects any chord of the section which is parallel to $DE$.
@@ -105,7 +98,6 @@ Again, if $PM$ be the diameter of a section made by a plane cutting the circular
 
 ---
 
-
 For, if we take any point $V$ on $PM$ produced and draw through it $HK$ parallel to $BC$, and $QQ'$ parallel to $DE$, the plane through $HK$, $QQ'$ is parallel to that through $DE$, $BC$, i.e. to the base. Therefore the section $HQKQ'$ is a circle. And $D, E, Q, Q'$ are all on the surface of the cone and are also on the cutting plane. Therefore the section $DPE$ extends to the circle $HQK$, and in like manner to the circular section through any point on $PM$ produced, and therefore to any distance from $P$. [I. 8.]
 
 ![img-3.jpeg](images/img-3.jpeg)
@@ -117,7 +109,6 @@ If on the other hand $PM$ meets $AC$, the section does not extend to infinity. I
 For let the plane of the section meet the plane of the base in $DME$, a straight line perpendicular to $BC$, a diameter of the
 
 ---
-
 
 circular base. Take the axial triangle through $BC$ meeting the plane of section in the straight line $PP'$. Then $P, P', M$ are all points in the plane of the axial triangle and in the plane of section. Therefore $PP'M$ is a straight line.
 
@@ -159,7 +150,6 @@ Suppose, as usual, that the plane of section cuts the circular base in a straigh
 
 ---
 
-
 whose base $BC$ is that diameter of the base of the cone which bisects $DME$ at right angles at the point $M$. Then, if the plane of the section and the plane of the axial triangle intersect in the straight line $PM$, $PM$ is a diameter of the section bisecting all chords of the section, as $QQ'$, which are drawn parallel to $DE$.
 
 If $QQ'$ is so bisected in $V$, $QV$ is said to be an **ordinate**, or a straight line **drawn ordinate-wise** (τεταγμένως κατηγμένη), to the diameter $PM$; and the length $PV$ cut off from the diameter by any ordinate $QV$ will be called the **abscissa** of $QV$.
@@ -179,7 +169,6 @@ Let $HK$ be drawn through $V$ parallel to $BC$. Then, since $QV$ is also paralle
 ![img-5.jpeg](images/img-5.jpeg)
 
 ---
-
 
 produces a circular section whose diameter is $HK$. Also $QV$ is at right angles to $HK$.
 
@@ -253,7 +242,6 @@ $$
 
 ---
 
-
 Then, by similar triangles,
 
 $$
@@ -276,9 +264,7 @@ QV^2:PV.P'V = PL:PP' \\
 \end{array}
 $$
 
-Hence
-
-It follows that the square on the ordinate is equal to a rectangle whose height is equal to the abscissa and whose base lies along the fixed straight line $PL$ but overlaps ($\dot{v}πe\rho\beta\dot{a}\lambda\lambda\epsilon\iota$) it by a length equal to the difference between $VR$ and $PL^*$. Hence the section is called a HYPERBOLA.
+Hence it follows that the square on the ordinate is equal to a rectangle whose height is equal to the abscissa and whose base lies along the fixed straight line $PL$ but overlaps ($\dot{v}πe\rho\beta\dot{a}\lambda\lambda\epsilon\iota$) it by a length equal to the difference between $VR$ and $PL^*$. Hence the section is called a HYPERBOLA.
 
 * Apollonius describes the rectangle $PR$ as applied to the latus rectum but exceeding by a figure similar and similarly situated to that contained by $PP'$ and $PL$, i.e. exceeding the rectangle $VL$ by the rectangle $LR$. Thus, if $QV=y$, $PV=x$, $PL=p$, and $PP'=d$,
 
@@ -289,7 +275,6 @@ $$
 which is simply the Cartesian equation of the hyperbola referred to oblique axes consisting of a diameter and the tangent at its extremity.
 
 ---
-
 
 $PL$ is called the *latus rectum* or the *parameter of the ordinates* as before, and $PP'$ is called the *transverse* ($\dot{\eta}\pi\lambda\alpha\gamma\alpha$). The fuller expression *transverse diameter* ($\dot{\eta}\pi\lambda\alpha\gamma\alpha\delta\alpha\mu\epsilon\tau\rho\sigma$) is also used; and, even more commonly, Apollonius speaks of the diameter and the corresponding parameter together, calling the latter the *latus rectum* (i.e. the *erect side*, $\dot{\eta}\partial\rho\theta\alpha\pi\lambda\epsilon\nu\rho\dot{\alpha}$), and the former the *transverse side* ($\dot{\eta}\pi\lambda\alpha\gamma\alpha\pi\lambda\epsilon\nu\rho\dot{\alpha}$), of the *figure* ($\epsilon\dot{\iota}\delta\sigma\gamma$) on, or applied to, the diameter ($\pi\rho\dot{\sigma}\tau\dot{\eta}\delta\alpha\mu\epsilon\tau\rho\varphi$), i.e. of the rectangle contained by $PL$, $PP'$ as drawn.
 
@@ -320,7 +305,6 @@ $$
 ![img-7.jpeg](images/img-7.jpeg)
 
 ---
-
 
 Draw $HK$ through $V$ parallel to $BC$. Then, as before,
 
@@ -363,7 +347,6 @@ Thus Apollonius' enunciation simply expresses the Cartesian equation referred to
 
 ---
 
-
 ## Proposition 4.
 
 [I. 14.]
@@ -377,7 +360,6 @@ Let $BC$ be the circle about which the straight line generating the cone revolve
 Let $BC$ be that diameter of the base which bisects $DE$ at right angles, and let a plane pass through $BC$ and the apex $A$ cutting the circle $B'C'$ in $B'C'$, which will therefore be a diameter of that circle and will cut $D'E'$ at right angles, since $B'C'$ is parallel to $BC$, and $D'E'$ to $DE$.
 
 ---
-
 
 Let $FAF'$ be drawn through $A$ parallel to $MM'$, the straight line joining the middle points of $DE$, $D'E'$ and meeting $CA$, $B'A$ respectively in $P$, $P'$.
 
@@ -428,7 +410,6 @@ Also the parameter of the ordinates to $DCD'$ will be a third proportional to $D
 ![img-9.jpeg](images/img-9.jpeg)
 
 ---
-
 
 Then, if $PL$ is the parameter of the ordinates, and if $P'L$ is joined and $VR, CE, V'R'$ drawn parallel to $PL$ to meet $P'L$, we have [Prop. 3]
 
@@ -543,7 +524,6 @@ $$
 
 ---
 
-
 Thus $DK$ is the parameter of the ordinates to $DD'$, such as $Qv$.
 
 Therefore the parameter of the ordinates to $DD'$ is a third proportional to $DD'$, $PP'$.
@@ -581,9 +561,7 @@ If any straight line be drawn parallel to $PP'$, the given diameter, and meeting
 
 Let $QV, Q'V'$ be ordinates to $PP'$, and let $PL, P'L'$ be the parameters of the ordinates in each branch so that [Prop. 4]
 
-
 ---
-
 
 $PL = P'L'$. Draw $VR$, $V'R'$ parallel to $PL$, $P'L'$, and let $PL'$, $P'L'$ be joined and produced to meet $V'R'$, $VR$ respectively in $R'$, $R$.
 
@@ -647,7 +625,6 @@ This is at once evident from Prop. 1.
 
 ---
 
-
 ## Proposition 8.
 
 [I. 21.]
@@ -691,10 +668,7 @@ $$
 \end{array}
 $$
 
-2—2
-
 ---
-
 
 Similarly $Q'V'^{2}: PV'.P'V' = PL:PP'$.
 
@@ -735,7 +709,6 @@ Therefore $QCK$ is a straight line.
 Hence $QC$, if produced, will cut the opposite branch.
 
 ---
-
 
 ## Proposition 10.
 
@@ -821,7 +794,6 @@ and let $V'QM$ be drawn parallel to $QV$, meeting the curve in $Q'$ and $PK$ in 
 
 ---
 
-
 Then $ KV^2 : PV^2 = PL : PV' $
 
 $$
@@ -848,7 +820,6 @@ Therefore no straight line can fall between $ PF $ and the curve.
 Let $ PF $ be parallel to the ordinates to $ PP $, and, if possible, let $ PK $ fall between $ PF $ and the curve. Draw $ KV $ parallel to the ordinates, meeting the curve in $ Q $, and draw $ VR $ per-
 
 ---
-
 
 pendicular to $PV$. Join $P'L$ and let it (produced if necessary) meet $VR$ in $R$.
 
@@ -895,7 +866,6 @@ Thus $PK$ cuts the curve in $Q'$, and therefore does not fall outside it: which 
 Hence no straight line can fall between $PF$ and the curve.
 
 ---
-
 
 ## Proposition 12.
 
@@ -948,7 +918,6 @@ Therefore $TQ$ does not at any point fall within the curve, and is therefore a t
 
 ---
 
-
 Conversely, if the tangent at $Q$ meet the diameter produced outside the curve in the point $T$, $TP = PV$. Also no straight line can fall between $TQ$ and the curve.
 
 [Apollonius gives a separate proof of this, using the method of reductio ad absurdum.]
@@ -964,7 +933,6 @@ We have to prove that no point on $TQ$ or $TQ$ produced falls within the curve.
 ![img-22.jpeg](images/img-22.jpeg)
 
 ---
-
 
 If possible, let a point $K$ on $TQ$ or $TQ$ produced fall within the curve*; draw $Q'KV'$ parallel to an ordinate meeting the curve in $Q'$. Join $P'Q$, $V'Q$, producing them if necessary, and draw through $P'$, $P$ parallels to $TQ$ meeting $V'Q$, $VQ$ in $I$, $O$ and $H$, $N$ respectively. Also let the parallel through $P$ meet $P'Q$ in $M$.
 
@@ -1029,7 +997,6 @@ Also no other straight line can fall between $TQ$ and the curve.
 
 ---
 
-
 ## Proposition 14.
 
 [I. 37, 39.]
@@ -1075,7 +1042,6 @@ CV.CT = CP^2.
 $$
 
 ---
-
 
 (2) Since $CV: CP = CP: CT$,
 $CV \sim CP: CV = CP \sim CT: CP$,
@@ -1133,7 +1099,6 @@ But
 $QV: CV = Cv: Qv$,
 
 ---
-
 
 and
 $$
@@ -1234,7 +1199,6 @@ $$
 
 ---
 
-
 $$
 \begin{array}{l}
 \therefore CP^2 : CP \cdot CM = QV \cdot QO : QV \cdot QK \\
@@ -1248,9 +1212,7 @@ $$
 CP^2 : PV \cdot P'V = (PM) : (VK) \quad \text{(3)}.
 $$
 
-Hence $CP^2 \mp PV \cdot P'V : CP^2 = (PM) \mp (VK) : (PM)$,
-
-where the upper sign applies to the *ellipse* and *circle* and the lower to the *hyperbola*.
+Hence $CP^2 \mp PV \cdot P'V : CP^2 = (PM) \mp (VK) : (PM)$, where the upper sign applies to the *ellipse* and *circle* and the lower to the *hyperbola*.
 
 $$
 \therefore CV^2 : CP^2 = (PM) \mp (VK) : (PM),
@@ -1289,8 +1251,6 @@ $$
 $$
 
 ---
-
-TRANSITION TO A NEW DIAMETER. 33
 
 ## Proposition 17.
 
@@ -1338,9 +1298,7 @@ $$
 
 ![img-28.jpeg](images/img-28.jpeg)
 
-
 ---
-
 
 ![img-29.jpeg](images/img-29.jpeg)
 
@@ -1380,8 +1338,6 @@ $$\triangle RXU = \gamma y^2.$$
 
 ---
 
-TRANSITION TO A NEW DIAMETER. 35
-
 Hence, if $x, y$ are the coordinates of $R$,
 
 $$
@@ -1417,10 +1373,7 @@ Q V: C V = (p: P P ^ {\prime}). (V T: Q V) \\
 \end{array}
 $$
 
-3—2
-
 ---
-
 
 and the triangles $QvC$, $Qvt$ are the halves of equiangular parallelograms on $Cv$ (or $QV$) and $Qv$ (or $CV$) respectively: also $CPK$ is the triangle on $CP$ similar to $Qvt$.
 
@@ -1455,8 +1408,6 @@ $\therefore RM = MR'$.
 
 ---
 
-TRANSITION TO A NEW DIAMETER. 37
-
 ## Proposition 21.
 
 [I. 47, 48.]
@@ -1482,7 +1433,6 @@ $$
 $$
 
 ---
-
 
 Thus (1), as the figure is drawn for the *hyperbola*,
 
@@ -1575,8 +1525,6 @@ Hence, from the $\Delta$ and $CQT$, $CQ'T'$, it follows that $QT$, $Q'T'$ are pa
 
 ---
 
-TRANSITION TO A NEW DIAMETER. 39
-
 ## Proposition 22.
 
 [I. 49.]
@@ -1655,7 +1603,6 @@ $$
 
 ---
 
-
 and erected perpendicular to $QC$; if further $Q'L$ be joined (where $Q'$ is on $QC$ produced and $CQ = CQ'$), and $MK$ be drawn parallel to $QL$ to meet $Q'L$ in $K$ (where $M$ is the point of concourse of $CQ$ and $RR'$, a chord parallel to the tangent at $Q$): then it is to be proved that
 
 $$
@@ -1716,8 +1663,6 @@ $$
 
 ---
 
-TRANSITION TO A NEW DIAMETER. 41
-
 Now
 $$ QT: MU = CQ: CM = QH: MN $$
 $$ \therefore QH + MN: QT + MU = QH: QT = RM: MF \text{ [from (A)]}; $$
@@ -1757,7 +1702,6 @@ Complete the parallelogram $ACOE$, and about $AE$ as diameter, in a plane perpen
 ![img-36.jpeg](images/img-36.jpeg)
 
 ---
-
 
 apex and the said circle as base. Then the cone is a right cone because $OE = AC = OA$.
 
@@ -1799,7 +1743,6 @@ Therefore $p$ is the parameter of the parabola corresponding to the diameter $PM
 
 ---
 
-
 ## Proposition 25. (Problem.)
 
 [I. 54, 55, 59.]
@@ -1827,7 +1770,6 @@ Draw $GO$ parallel to $AA'$, meeting the circle in $O$. Join $AO$,
 $A'O$, $DO$. Draw $AE$ parallel to $DO$ meeting $A'O$ produced in $E$. Let $DO$ meet $AA'$ in $B$.
 
 ---
-
 
 Then
 $$
@@ -1882,7 +1824,6 @@ $$
 
 ---
 
-
 Join $NC$ meeting $PT$ in $T$, and take $A$ on $CN$ such that $CA^2 = CT.CN$. Join $PN$ and produce it to $K$ so that
 
 $$
@@ -1927,7 +1868,6 @@ The proof is obvious.
 
 ---
 
-
 Also $PT$ will be the tangent at $P$ because $CT \cdot CN = CA^2$. Therefore $CP$ will be a diameter of the hyperbola bisecting
 
 ![img-39.jpeg](images/img-39.jpeg)
@@ -1968,7 +1908,6 @@ Let $PP', DD'$ be the two straight lines bisecting each other at $C$.
 
 ---
 
-
 From $P$ draw $PL$ perpendicular to $PP'$ and of such a length that $PP'.PL = DD'^2$; then, as in Prop. 25, describe a double hyperbola with diameter $PP'$ and parameter $PL$ and such that the ordinates in it to $PP'$ are parallel to $DD'$.
 
 Then $PP'$, $DD'$ are conjugate diameters of the hyperbola so constructed.
@@ -1989,7 +1928,6 @@ Given a diameter of an ellipse, the corresponding parameter, and the angle of in
 First, let the angle of inclination be a right angle, and let the diameter be greater than its parameter.
 
 ---
-
 
 Let $AA'$ be the diameter and $AL$, a straight line of length $p_a$ perpendicular to it, the parameter.
 
@@ -2014,9 +1952,7 @@ whence $\angle OHK = \angle OKH$
 
 and $OH = OK$.
 
-
 ---
-
 
 With $O$ as vertex, and as base the circle drawn with diameter $HK$ and in a plane perpendicular to that of the triangle $OHK$, let a cone be described. This cone will be a right cone because $OH = OK$.
 
@@ -2096,7 +2032,6 @@ $$
 
 ---
 
-
 Join $CN$ and produce it to meet $PT$ in $T$. Take $A$, on $CT$, such that $CT.CN = CA^2$, and produce $AC$ to $A'$ so that $AC = CA'$. Join $PN$ and produce it to $K$ so that $AN.NK = PN^2$. Join $A'K$. Draw $EAM$ through $A$ perpendicular to $CA$ (and therefore parallel to $NK$) meeting $CP$ produced in $E$, $PT$ in $O$, and $A'K$ produced in $M$.
 
 Then with axis $AA'$ and parameter $AM$ describe an ellipse as in the first part of this proposition. This will be the ellipse required.
@@ -2175,7 +2110,6 @@ $$
 
 ---
 
-
 But
 
 $$p: PP' = QV^2: PV. P'V.$$
@@ -2211,7 +2145,6 @@ Similarly $DL = DM' = D'L' = D'M = CP$, and $LM$, $L'M'$ are the asymptotes of t
 Therefore conjugate hyperbolas have their asymptotes common.
 
 ---
-
 
 ## Proposition 29.
 
@@ -2259,7 +2192,6 @@ Therefore $CK$ cannot be an asymptote.
 
 ---
 
-
 ## Proposition 30.
 
 [II. 3.]
@@ -2291,7 +2223,6 @@ Take a length $p$ such that $LL'^2 = p \cdot PP'$, and with diameter $PP'$ and p
 [Prop. 25]
 
 ---
-
 
 ## Proposition 32.
 
@@ -2354,7 +2285,6 @@ $$
 
 ---
 
-
 ## Proposition 33.
 
 [II. 11, 16.]
@@ -2411,7 +2341,6 @@ $$
 
 ---
 
-
 ## Proposition 34.
 
 [II. 12.]
@@ -2439,7 +2368,6 @@ $\therefore HQ : hq = qk : QK,$
 or $HQ \cdot QK = hq \cdot qk.$
 
 ---
-
 
 ## Proposition 35.
 
@@ -2487,7 +2415,6 @@ Therefore $EF$ does not meet the hyperbola in a second point $R'$.
 
 ---
 
-
 ## Proposition 36.
 
 [II. 14.]
@@ -2529,7 +2456,6 @@ $$
 
 ---
 
-
 ## Proposition 37.
 
 [II. 19.]
@@ -2549,7 +2475,6 @@ Also [Prop. 33]  $LQ = MQ';$
 whence, by addition,  $DQ = DQ'$.
 
 ---
-
 
 ## Proposition 38.
 
@@ -2611,7 +2536,6 @@ $$
 $$
 
 ---
-
 
 and
 
@@ -2687,9 +2611,7 @@ And similarly it may be proved that $EE'^2$ is equal to the rectangle contained 
 
 Therefore $QQ'$, $EE'$ are conjugate diameters. [Prop. 26]
 
-
 ---
-
 
 ## Proposition 40.
 
@@ -2729,7 +2651,6 @@ Then, since $RH$ is parallel to $QQ'$, and $QV = Q'V$, $RK = KH$.
 
 ---
 
-
 Also, since $RR'$ is a chord parallel to $QQ'$ bisected by the diameter $EV$, $RK = KR'$.
 
 Therefore $KR' = KH$: which is impossible.
@@ -2746,10 +2667,7 @@ Conversely, the diameter of the conic drawn through $T$, the point of intersecti
 
 If $tQ$, $tQ'$ be tangents to opposite branches of a hyperbola, and a chord $RR'$ be drawn through $t$ parallel to $QQ'$, then the lines joining $R, R'$ to $v$, the middle point of $QQ'$, will be tangents at $R, R'$.
 
-5—2
-
 ---
-
 
 Join *vt*. *vt* is then the diameter conjugate to the transverse diameter drawn parallel to $QQ'$, i.e. to $PP'$.
 
@@ -2778,7 +2696,6 @@ Let $Qq$, $Rr$, two chords not passing through the centre, meet in $O$. Join $CO
 Then $Qq$, $Rr$ shall not bisect one another. For, if possible, let each be bisected in $O$.
 
 ---
-
 
 Then, since $Qq$ is bisected in $O$ and $Pp$ is a diameter parallel to it, $CO$, $Pp$ are conjugate diameters.
 
@@ -2816,7 +2733,6 @@ And there is only one axis because there is only one diameter which bisects $QQ'
 
 ---
 
-
 (2) In the case of a *central conic*, take any point $P$ on the conic, and with centre $C$ and radius $CP$ describe a circle cutting the conic in $P, P', Q', Q$.
 
 ![img-61.jpeg](images/img-61.jpeg)
@@ -2842,7 +2758,6 @@ If possible, let there be another axis $CL$. Through $P'$ draw $P'L$ perpendicul
 curve again in $R$. Join $CP$, $CR$.
 
 ---
-
 
 Then, since $CL$ is an axis, $P'L = LR$; therefore also
 
@@ -2908,7 +2823,6 @@ Hence $CL$ is not an axis.
 
 ---
 
-
 ## Proposition 47. (Problem.)
 
 [II. 49.]
@@ -2932,7 +2846,6 @@ $OP$ is the tangent required, because $PV$, being parallel to the tangent at $B$
 [This construction obviously gives the two tangents through $O$.]
 
 ---
-
 
 ## Proposition 48. (Problem.)
 
@@ -2974,7 +2887,6 @@ Therefore $OQ$ is the tangent at $Q$. [Prop. 13]
 
 ---
 
-
 **Case III.** Let the point $O$ be on one of the asymptotes. Bisect $CO$ at $H$, and through $H$ draw $HP$ parallel to the other
 
 ![img-67.jpeg](images/img-67.jpeg)
@@ -2996,7 +2908,6 @@ Therefore $OL$ touches the hyperbola at $P$. [Props. 28, 30]
 Join $CO$. Take any chord $Qq$ parallel to $CO$, and let $V$ be its middle point. Draw through $V$ the diameter $PP'$. Then $PP'$ is the diameter conjugate to $CO$. Now take on $OC$ produced a point $w$ such that $CO \cdot Cw = \frac{1}{4}p \cdot PP' [= CD^{\sharp}]$, and draw through $w$ the straight line $wR$ parallel to $PP'$ meeting the curve in $R$. Join $OR$. Then, since $Rw$ is parallel to $CP$ and $Cw$ conjugate to it, while $CO \cdot Cw = CD^{\sharp}$, $OR$ is the tangent at $R$. [Prop. 15]
 
 ---
-
 
 ## Proposition 49. (Problem.)
 
@@ -3025,7 +2936,6 @@ $$
 $$
 
 ---
-
 
 Since
 
@@ -3062,7 +2972,6 @@ Then, for the *hyperbola*, it is a necessary condition of the possibility of the
 greater than the angle between the axis and an asymptote, or half that between the asymptotes. If $DEF$ be the given angle and $DF$ be at right angles to $EF$, let $H$ be so taken on $DF$ that $\angle HEF = \angle ACZ$, or half the angle between the asymptotes. Let $AZ$ be the tangent at $A$ meeting an asymptote in $Z$.
 
 ---
-
 
 We have then $CA^2: AZ^2$ (or $CA^2: CB^2$) = $EF^2: FH^2$.
 
@@ -3131,7 +3040,6 @@ Then $PC$ is either parallel to $BA'$ or not parallel to it.
 
 ---
 
-
 First, let $PC$ be parallel to $BA'$. Then, by parallels, $CP$ bisects $AB$. Therefore the tangent at $P$ is parallel to $AB$, and $\angle CPT = \angle A'BA$.
 
 Secondly, suppose that $PC$ is not parallel to $BA'$, and we have in that case, drawing $PN$ perpendicular to the axis,
@@ -3177,7 +3085,6 @@ $$
 $$
 
 ---
-
 
 and, doubling the antecedents,
 
@@ -3249,7 +3156,6 @@ I. In the case of the parabola the given angle must be an acute angle, and, sinc
 
 ---
 
-
 II. In the case of a central conic, the angle $CPT$ must be acute for the *hyperbola*, and for the *ellipse* it must not be less than a right angle, nor greater than the angle $ABA'$, as proved in Prop. 51.
 
 Suppose $\theta$ to be the given angle, and take first the particular case for the *ellipse* in which the angle $\theta$ is equal to the angle $ABA'$. In this case we have simply, as in Prop. 51, to draw $CP$ parallel to $BA'$ (or $AB$) and to draw through $P$ a parallel to the chord $AB$ (or $A'B$).
@@ -3269,7 +3175,6 @@ Next suppose $\theta$ to be any acute angle for the *hyperbola*, and for the *el
 ![img-79.jpeg](images/img-79.jpeg)
 
 ---
-
 
 Imagine a segment of a circle taken containing an angle $(EDF)$ equal to the angle $\theta$. Then, if a point $D$ on the circumference of the segment could be found such that, if $DM$ be the perpendicular on the base $EF$, the ratio $EM \cdot MF : DM^2$ is equal to the ratio $CA^2 : CB^2$, i.e. to the ratio $CN \cdot NT : PN^2$, we should have
 
@@ -3317,9 +3222,7 @@ $$
 
 * These conclusions are taken for granted by Apollonius, but they are easily proved.
 
-
 ---
-
 
 This is effected as follows:
 
@@ -3395,8 +3298,6 @@ Hence, if $H$ be such a point that
 $\delta\beta:\beta\gamma=OI:IH,$
 $IH$ is less than $IL.$
 
-6—2
-
 ---
 
 # EXTENSIONS OF PROPOSITIONS 17—19.
@@ -3424,7 +3325,6 @@ so that $TV = 2PV,$
 and $\square EV = \triangle QTV.$
 
 ---
-
 
 Subtracting the common area $OPVQ$,
 
@@ -3472,7 +3372,6 @@ $$
 
 ---
 
-
 tangent at $P$ to meet the conjugate hyperbola in $D$, and draw $QV$ also parallel to $PE$ meeting $CP$ in $V$. Then $CP$, $CD$ are conjugate diameters of both hyperbolas, and $QV$ is drawn ordinate-wise to $CP$.
 
 Therefore [Prop. 15]
@@ -3501,7 +3400,6 @@ If we keep the notation of the last proposition, and if $R$ be
 ![img-86.jpeg](images/img-86.jpeg)
 
 ---
-
 
 any other point on the conic, let $RU$ be drawn parallel to $QT$ to meet the diameter through $P$ in $U$, and let a parallel through $R$ to the tangent at $P$ meet $QT$ and the diameters through $Q, P$ in $H, F, W$ respectively. Then
 
@@ -3556,7 +3454,6 @@ $$
 
 ---
 
-
 and, adding $(IJ)$ to both,
 
 $$FJR'F' = JU'UR \tag{2}$$
@@ -3578,7 +3475,6 @@ $$\triangle R'U'W' = \triangle CF'W' - \triangle CQT,$$
 so that $\triangle CQT = \text{quadrilateral } CU'R'F',$
 
 ---
-
 
 and, adding the quadrilateral $CF'H'T$, we have
 
@@ -3624,7 +3520,6 @@ Fig. 6.
 
 ---
 
-
 and, adding (III) to each side,
 
 $$ F'IRF = H'TU'R' + H'TUI $$
@@ -3658,7 +3553,6 @@ $$ CQ. CT = CP. CE; $$
 $$ \therefore CQ:CE = CP:CT, $$
 
 ---
-
 
 whence $QQ': EQ = PP': TP,$
 
@@ -3703,7 +3597,6 @@ $$
 $$
 
 ---
-
 
 and, subtracting the quadrilateral $CwhQ$,
 
@@ -3759,7 +3652,6 @@ a property of which Apollonius gives a separate proof.]
 
 ---
 
-
 ## Proposition 58.
 
 [III. 15.]
@@ -3790,7 +3682,6 @@ OQ : QE = p : 2QT = \frac{p}{2} : QT;
 $$
 
 ---
-
 
 $$
 \begin{array}{l}
@@ -3904,7 +3795,6 @@ $$
 
 ---
 
-
 Comparing (1) and (2), we have
 
 $$ JU'UR = FJR'F', \text{ by Prop. 55.} $$
@@ -3958,7 +3848,6 @@ $$ \therefore R'i.ir':tq^2 = iuu'R':\triangle tqK \quad \text{(2)}, $$
 where $qK$ is parallel to $Qt$ and meets $Ct$ produced in $K$.
 
 ---
-
 
 But, comparing (1) and (2), we have
 
@@ -4020,9 +3909,7 @@ O Q^{2}: \Delta O Q E &amp;= R M^{2}: \Delta R M F \\
 \end{aligned}
 $$
 
-
 ---
-
 
 and, in the same way,
 
@@ -4069,7 +3956,6 @@ $$ PL': CP = Ok': Ok; $$
 $$ \therefore CD^2 : CP^2 = K'O. Ok': KO. Ok. $$
 
 ---
-
 
 [From this point Apollonius distinguishes five cases: (1) where $O$ is in the angle $LCL'$, (2) where $O$ is on one of the asymptotes, (3) where $O$ is in the angle $LCk$ or its opposite, (4) where $O$ is within one of the branches of the original hyperbola, (5) where $O$ lies within one of the branches of the conjugate hyperbola. The proof is similar in all these cases, and it will be sufficient to take case (1), that represented in the accompanying figure.]
 
@@ -4132,10 +4018,7 @@ $$
 \frac{R'O. Or'}{CD^2} \pm \frac{RO. Or}{CP^2} = 2.
 $$
 
-7—2
-
 ---
-
 
 ## Proposition 61.
 
@@ -4180,8 +4063,6 @@ CP^2 : CD^2 &amp;= PW \cdot WP' : RW^2 \\
 $$
 
 ---
-
-INTERSECTING CHORDS. 101
 
 (taking the upper sign for the hyperbolas and the lower for the ellipse);
 
@@ -4299,7 +4180,6 @@ $$
 
 ---
 
-
 Also
 $$ CV. CT = CP^2; $$
 $$ \therefore PW. WP' + CP^2 = CV. CT + TW^2, $$
@@ -4341,7 +4221,6 @@ $$ = Cw^2 + CV. CT, $$
 
 ---
 
-
 whence $Tw - Cw = CV$, or $Tw = wV$;
 
 $$
@@ -4365,7 +4244,7 @@ $$
 
 whence, as before, $Tw' = w'V$,
 
-and, by parallels, $NR' = R'V$ \quad \text{(2)}.
+and, by parallels, $NR' = R'V$ (2).
 
 III. The particular case in which one of the tangents is a tangent at infinity, or an asymptote, is separately proved as follows.
 
@@ -4404,7 +4283,6 @@ LQ':LQ = Q'O:OQ.
 $$
 
 ---
-
 
 We have, drawing parallels through $L$, $Q$, $P$, $Q'$ to both asymptotes as in the figures,
 
@@ -4466,7 +4344,6 @@ Join $PQ$ and produce it both ways to meet the asymptotes in $R, R'$. Draw $PV$ 
 
 ---
 
-
 Then
 $$ LV = VL' $$
 But
@@ -4497,7 +4374,6 @@ i.e. in the figures drawn below
 ![img-104.jpeg](images/img-104.jpeg)
 
 ---
-
 
 Let $TP$ be the diameter bisecting $Qq$ in $V$. Draw as usual $HRFW, H'R'F'W', EP$ ordinate-wise to the diameter $TP$; and draw $RU, R'U'$ parallel to $QT$ meeting $TP$ in $U, U'$.
 
@@ -4554,7 +4430,6 @@ $$
 
 ---
 
-
 Also $ RV^2 : VR'^2 = HQ^2 : QH'^2 $
 
 $$
@@ -4601,7 +4476,6 @@ Let $V$ be the middle point of $PR$, and join $qV$, which is therefore a diamete
 
 ---
 
-
 Now, if $qV$ passes through $Q$, the proposition is obvious, and the ratios will all be ratios of equality.
 
 If not, we have, by the properties of tangents, drawing $EBF$ the tangent at the point $B$ where $qV$ meets the curve,
@@ -4646,14 +4520,13 @@ Therefore, doubling the antecedents,
 
 $$ qR : Rp = PR : RO, $$
 
-whence $ qp : pR = PO : OR \tag{3} $
+whence $qp : pR = PO : OR$ (3)
 
 It follows from (1), (2) and (3) that
 
 $$ Pr : rq = rQ : Qp = qp : pR. $$
 
 ---
-
 
 ## Proposition 66.
 
@@ -4710,7 +4583,6 @@ $$
 $$
 
 ---
-
 
 ## Proposition 67.
 
@@ -4778,9 +4650,7 @@ The foci are not spoken of by Apollonius under any equivalent of that name, but 
 
 the ellipse falling short, by a square figure." This determines two points, which are accordingly τὰ ἐκ τῆς παραβολῆς γενηθέντα
 
-
 ---
-
 
 σημεία. That is, we are to suppose a rectangle applied to the axis as base which is equal to $CB^2$ but which exceeds or falls short of the rectangle of equal altitude described on the whole axis by a square. Thus in the figures drawn the rectangles $AF$, $A'F$ are respectively to be equal to $CB^2$, the base $AS'$ falling short of $AA'$ in the ellipse, and the base $A'S$ exceeding $A'A$ in the hyperbola, while $S'F$ or $SF$ is equal to $S'A'$ or $SA$ respectively.
 
@@ -4812,7 +4682,6 @@ r A : A S = S A ^ {\prime} : A ^ {\prime} r ^ {\prime}.
 $$
 
 ---
-
 
 ![img-115.jpeg](images/img-115.jpeg)
 
@@ -4847,10 +4716,7 @@ Suppose that $OR$ is the perpendicular from $O$ to the tangent at $P$. We shall 
 
 For $\angle Or'R = \angle S'r'A'$, and the angles at $R$, $A'$ are right; $\therefore$ the triangles $Or'R$, $S'r'A'$ are similar.
 
-8—2
-
 ---
-
 
 Therefore
 $$ A' r': r' R = S' r': r' O $$
@@ -4891,7 +4757,6 @@ $$\angle S P r = \angle S' P r'.$$
 (2) The line drawn through $C$ parallel to either of the focal distances of $P$ to meet the tangent will be equal in length to $CA$, or $CA'$.
 
 ---
-
 
 Draw $SY$ perpendicular to the tangent, and join $AY$, $YA'$. Let the rest of the construction be as in the foregoing propositions.
 
@@ -4957,7 +4822,6 @@ And similarly for $CY$.
 
 ---
 
-
 ## Proposition 73.
 
 [III. 51, 52.]
@@ -4999,7 +4863,6 @@ $$
 
 ---
 
-
 Draw the ordinate $QV$ to $PP'$.
 
 Now $p: PP' = QV^2: PV \cdot P'V$ [Prop. 8]
@@ -5034,7 +4897,6 @@ where $P$ is the point of contact of a tangent parallel to $QQ'$.
 ![img-118.jpeg](images/img-118.jpeg)
 
 ---
-
 
 Draw through $R$ the ordinate $RW$ (parallel to $QQ'$) meeting the curve again in $R'$ and meeting $TQ$, $TQ'$ in $K$, $K'$ respectively; also let the tangent at $P$ meet $TQ$, $TQ'$ in $L$, $L'$. Then, since $PV$ bisects $QQ'$, it bisects $LL'$, $KK'$, $RR'$ also.
 
@@ -5071,7 +4933,6 @@ $$
 $$
 
 ---
-
 
 ## Proposition 76.
 
@@ -5115,7 +4976,6 @@ $$
 
 ---
 
-
 Now suppose $Q_1, Q_2, T_1$ in the accompanying figure substituted for $Q, Q', T$ respectively in the first figure of Prop. 75, and we have
 
 $$Q_1 r \cdot Q_2 r' = \text{(const.)}$$
@@ -5143,7 +5003,6 @@ $$Rv_1^2: Q_1 q_1 \cdot Q_2 q_2' = \text{(const.)}.$$
 But $Rv_1$ is the distance of $R$ from $Q_1Q_2$, the chord of contact measured in a fixed direction (parallel to $CT_1$); and $Q_1q_1, Q_2q_2'$ are equal to the distances of $R$ from the tangents $T_1Q_1, T_1Q_2$ respectively, measured in a fixed direction (parallel to the chord of contact). If the distances are measured in any
 
 ---
-
 
 other fixed directions, they will be similarly related, and the constant value of the ratio will alone be changed.
 
@@ -5184,7 +5043,6 @@ $$
 $$
 
 ---
-
 
 But $Rv_1$, $Rv_2$, $Rv_3$, $Rv_4$ are straight lines drawn in fixed directions (parallel to $CT_1$, etc.) to meet the sides of the inscribed quadrilateral $Q_1Q_2Q_3Q_4$.
 
@@ -5229,7 +5087,6 @@ There follow a large number of propositions with regard to the number of points 
 
 ---
 
-
 Group I. Propositions depending on the more elementary considerations affecting conics.
 
 1. Two conics having their concavities in opposite directions will not meet in more than two points. [IV. 35.]
@@ -5250,7 +5107,6 @@ The conic, being a one-branch curve, must have its concavity in the opposite dir
 
 ---
 
-
 Both the conic and the branch which it touches must be on the same side of the common tangent and therefore will be
 
 ![img-123.jpeg](images/img-123.jpeg)
@@ -5269,7 +5125,6 @@ For, if possible, let the second branch of the former meet one branch of the lat
 
 ---
 
-
 the same argument as in the last proposition. For *DE* crosses one asymptotal angle of each hyperbola, and it will therefore not meet either of the branches opposite to the branches *DE*. Hence those branches are separated by *DE* and therefore cannot meet one another: which contradicts the hypothesis.
 
 ![img-125.jpeg](images/img-125.jpeg)
@@ -5282,9 +5137,7 @@ Similarly, if the two branches *DE* touch, the result will be the same, an impos
 
 *A, B* being the points of meeting with the first branch and
 
-
 ---
-
 
 $C$ that with the opposite branch, by the same principle as before, neither $AC$ nor $BC$ will meet the branch opposite to $ACB$. Also they will not meet the branch $C$ opposite to $AB$ in any other point than $C$, for, if either met it in two points, it would not meet the branch $AB$, which, however, it does, by hypothesis.
 
@@ -5307,7 +5160,6 @@ No two conics (including under the term a hyperbola with two branches) can inter
 ![img-127.jpeg](images/img-127.jpeg)
 
 ---
-
 
 If possible, let there be five points of intersection $A, B, C, D, E$, being *successive* intersections, so that there are no others between. Join $AB$, $DC$ and produce them. Then
 
@@ -5344,10 +5196,7 @@ Thus the conics do not intersect in more than four points.
 
 This is clear from the fact that [Group I. 3] the conic meeting one branch will not meet the opposite branch in more points than two.
 
-9—2
-
 ---
-
 
 3. If one branch of a hyperbola cut each branch of a second hyperbola in two points, the opposite branch of the first hyperbola will not meet either branch of the second. [IV. 43.]
 
@@ -5360,7 +5209,6 @@ The proof is like that of 1 (a) above. If $E$ is the supposed fifth point and $T
 5. If one branch of a hyperbola meet one branch of a second in three points, the other branch of the first will not meet the other branch of the second in more than one point. [IV. 46.]
 
 ---
-
 
 Let the first two branches intersect in $A$, $B$, $C$, and (if possible) the other two in $D$, $E$. Then
 
@@ -5392,7 +5240,6 @@ Therefore, etc.
 
 ---
 
-
 Let $A$, $A'$ be the two branches of the first hyperbola and $B, B'$ the two branches of the second.
 
 ![img-130.jpeg](images/img-130.jpeg)
@@ -5422,7 +5269,6 @@ Two conics (including double hyperbolas) which touch at one point cannot interse
 The proof follows the method of Prop. 78 (1) above.
 
 ---
-
 
 2. If one branch of a hyperbola touch one branch of another in one point and meet the other branch of the second hyperbola in two points, the opposite branch of the first will not meet either branch of the second. [IV. 47.]
 
@@ -5454,7 +5300,6 @@ No two conics touching each other at two points can intersect at any other point
 
 ---
 
-
 Suppose the conics touch at $A$, $B$. Then, if possible, let them also cut at $C$.
 
 (a) If the tangents are not parallel and $C$ does not lie between $A$ and $B$, the proposition is proved from the harmonic property;
@@ -5476,7 +5321,6 @@ Let the branch $AB$ touch the branches $AC$, $BE$ in $A$, $B$. Draw the tangents
 Then $T$ is within the asymptotes to $AB$, and therefore $CT$ falls within the angle $ATB$. But $BT$, touching $BE$, cannot meet the opposite branch $AC$. Therefore $BT$ falls on the side of $CT$ remote from the branch $AC$, or $CT$ passes through the angle adjacent to $ATB$; which is impossible, since it falls within the angle $ATB$.
 
 ---
-
 
 4. If one branch of one hyperbola touch one branch of another in one point, and if also the other branches touch in one point, the concavities of each pair being in the same direction, there are no other points of intersection. [IV. 52.]
 
@@ -5521,7 +5365,6 @@ And for the parabola $P'V = P'T$: therefore the hyperbola falls outside the para
 The proof is similar to the preceding.
 
 ---
-
 
 4. A hyperbola cannot have double contact with another hyperbola having the same centre. [IV. 33.]
 
@@ -5574,7 +5417,6 @@ In the particular case where $P$ is between $C$ and $A'$ in the
 
 ---
 
-
 ellipse, the quadrilateral becomes the difference between two triangles, and
 
 $$ P'N'^2 = 2 \left( \triangle CAM - \triangle CN'H' \right). $$
@@ -5613,7 +5455,6 @@ $$ = AE^2 + AN^2. $$
 
 ---
 
-
 Thus $PE^2 &gt; AE^2$ and increases with $AN$, i.e. as $P$ moves further and further from $A$.
 
 Also the *minimum* value of $PE$ is $AE$, or $AE$ is the shortest straight line from $E$ to the curve.
@@ -5645,7 +5486,6 @@ $$
 * The area represented by the second term on the right-hand side of the equation is of course described, in Apollonius’ phrase, as the rectangle on the base $AN$ similar to that contained by the axis (as base) and the sum (or difference) of the axis and its parameter. A similar remark applies to the similar expression on the next page.
 
 ---
-
 
 Now $PN^2 = 2$ (quadrilateral $MANH$), [Prop. 81] and $EN^2 = 2 \triangle ENK$;
 
@@ -5695,7 +5535,6 @@ AE^2 + AA'(AA' - p_a) &amp;= AE^2 + AA'^2 - 2AE.AA' \\
 $$
 
 ---
-
 
 ## Proposition 84.
 
@@ -5753,7 +5592,6 @@ then, if $NP$ is drawn perpendicular to the axis meeting the curve in $P$, $PG$ 
 
 ---
 
-
 If $P'$ be any other point on the curve, $P'G$ increases as $P'$ moves further from $P$ in either direction.
 
 Also
@@ -5807,7 +5645,6 @@ $$
 
 ---
 
-
 then, if the ordinate through $N$ meet the curve in $P$, $PG$ is the **minimum** straight line from $G$ to the curve [or $PG$ is the normal at $P$]; and, if $P'$ be any other point on the curve, $P'G$ increases as $P'$ moves further from $P$ on either side.
 
 Also
@@ -5844,9 +5681,7 @@ $$NG^2 = 2 \triangle HNG.$$
 
 Therefore, by addition, $PG^2 = 2 \text{ (quadrilateral } AMHG\text{)}$.
 
-
 ---
-
 
 Also $P'G^2 = P'N'^2 + N'G^2 = 2$ (quadr. $AMKN') + 2\Delta H'N'G = 2$ (quadr. $AMHG) + 2\Delta HH'K$.
 
@@ -5884,7 +5719,6 @@ $$
 
 ---
 
-
 Therefore, *a fortiori*,
 
 $$
@@ -5919,10 +5753,7 @@ The method of proof is the same for all three cases, and only the first case of 
 
 ![img-141.jpeg](images/img-141.jpeg)
 
-10—2
-
 ---
-
 
 By Prop. 81 (which is applicable to either axis) we have, if $Bm = \frac{Pb}{2} = BE'$, and $Pn$ meets $Cm$, $E'm$ in $h$, $k$ respectively,
 
@@ -5957,7 +5788,6 @@ The proof follows the method of Props. 84, 87.
 
 ---
 
-
 ## Proposition 90.
 
 [V. 20, 21, 22.]
@@ -5986,12 +5816,9 @@ $$
 C_n: ng = BB': p_b = BC:Bm,
 $$
 
-and $C_n: nh = BC:Bm$, by similar triangles,
-
-it follows that $ng = nh$. Also $gn' = n'k$, and $hi = ik$, where $hi$ is perpendicular to $P'n'$.
+and $C_n: nh = BC:Bm$, by similar triangles, it follows that $ng = nh$. Also $gn' = n'k$, and $hi = ik$, where $hi$ is perpendicular to $P'n'$.
 
 ---
-
 
 Now
 $$ Pn^2 = 2 \text{ (quadrilateral } mBnh), $$
@@ -6014,7 +5841,6 @@ $$ Cn : ng = CB^2 : CA^2. $$
 [This corollary is proved separately by *reductio ad absurdum*.]
 
 ---
-
 
 ## Proposition 91.
 
@@ -6046,7 +5872,6 @@ or $PG$ is the normal determined as the *minimum* straight line from $G$. [Prop.
 Only one normal can be drawn from any one point of a conic, whether such normal be regarded as the minimum straight line from the point in which it meets $AA'$, or as the maximum straight line from the point in which (in the case of an ellipse) it meets the minor axis.
 
 ---
-
 
 This is at once proved by *reductio ad absurdum* on assuming that $PG, PH$ (meeting the axis $AA'$ in $G, H$) are minimum straight lines from $G$ and $H$ to the curve, and on a similar assumption for the minor axis of an ellipse.
 
@@ -6088,7 +5913,6 @@ $$
 
 ---
 
-
 (2) For the *hyperbola* or *ellipse*
 
 $$
@@ -6124,7 +5948,6 @@ Hence a fortiori $GP &gt; GQ$, where $Q$ is the point in which $GK$ cuts the con
 
 ---
 
-
 (2) If $O'$ be any point on $OP$ produced outside the conic, then, of all straight lines drawn from $O'$ to meet the conic in one point but not produced so as to meet it in a second point, $O'P$ will be the minimum; and of the rest that which is nearer to it will be less than that which is more remote.
 
 (1) First, let $OP$ be a maximum. Then, if $TP$ does not touch the conic, let it cut it again at $Q$, and draw $OK$ to meet $PQ$ in $K$ and the curve in $R$.
@@ -6142,7 +5965,6 @@ Secondly, let $OP$ be a minimum. If possible, let $TP$ cut the curve again in $Q
 ![img-148.jpeg](images/img-148.jpeg)
 
 ---
-
 
 (2) Let $O'$ be any point on $OP$ produced. Draw the tangent at $P$, as $PK$, which is therefore at right angles to $OP$. Then draw $O'Q$, $O'R$ to meet the curve in one point only, and let $O'Q$ meet $PK$ in $K$.
 
@@ -6165,7 +5987,6 @@ Join $RP, RQ$. Then the angle $O'QR$ is obtuse, and therefore the angle $O'RQ$ i
 (1) Suppose $P'$ is further from the vertex than $P$. Then, since $PG, P'G'$ are minimum straight lines from $G, G'$ to the curve, we have
 
 ---
-
 
 (a) For the parabola
 
@@ -6213,7 +6034,6 @@ $$ AL: AM &gt; PN: NG. $$
 
 ---
 
-
 But
 $$ AL : AM = CA : AL, \quad \text{[Prop. 28]} $$
 $$ \therefore CA : AL &gt; PN : NG; $$
@@ -6246,7 +6066,6 @@ And, by (2) above, $O$ lies below $AC$; therefore $O$ lies within the $\angle AC
 (1) For the ellipse the proposition is sufficiently obvious, and in the parabola, since $PG$ meets a diameter (the axis), it will meet another diameter, viz. that through the point of contact of the tangent parallel to $PG$, i.e. the diameter bisecting it. Therefore it will meet the curve again.
 
 ---
-
 
 (2) (a) Let $CL, CL'$ be the asymptotes, and let the tangent at $A$ meet them in $L, L'$. Take $AM$ equal to $\frac{p_a}{2}$. Let $PG$ be any normal and $PN$ the ordinate.
 
@@ -6285,7 +6104,6 @@ KA : AM = LA : AC.
 $$
 
 ---
-
 
 Join $CK$, and produce it to meet the hyperbola in $P$, and let $PN$ be the ordinate, and $PG$ the normal, at $P$.
 
@@ -6326,7 +6144,6 @@ Therefore normals at points between $A$ and $P$ will not meet the asymptote $CL'
 
 ---
 
-
 ## Proposition 97.
 
 [V. 44, 45, 46, 47, 48.]
@@ -6348,7 +6165,6 @@ and $AG &gt; AK$ when $P$ does not lie between $P_1$ and $P_2$.
 Let $P_1P_2$ meet the axis in $T$, and draw the ordinates $P_1N_1$, $P_2N_2$.
 
 ---
-
 
 Draw $OM$ perpendicular to the axis, and measure $MH$ towards the vertex equal to $\frac{p_a}{2}$.
 
@@ -6406,9 +6222,7 @@ $$
 
 * It will be observed that there are three sets of points $P, N, K,$ in the figure denoted by the same letters. This is done in order to exhibit the three different cases; and it is only necessary to bear in mind that attention must be confined to one at a time as indicated in the course of the proof.
 
-
 ---
-
 
 If $NP$ meet $P_1P_2$ in $F$, we have, by similar triangles,
 
@@ -6484,17 +6298,13 @@ and let $OM$ be similarly divided at $L$. Draw $HVR$ parallel to $OM$ and $LVE$,
 
 ---
 
-
 Suppose $P_2P_1$ produced to meet $EL$ in $T$, and let $P_1N_1, P_2N_2$ meet it in $U_1, U_2$.
 
 ![img-155.jpeg](images/img-155.jpeg)
 
 Take any other point $P$ on the curve. Join $OP$ meeting the axes in $K, k$, and let $PN$ meet $P_1P_2$ in $Q$ and $EL$ in $U$.
 
-11—2
-
 ---
-
 
 Now
 
@@ -6613,7 +6423,6 @@ $$
 
 ---
 
-
 But $P_{2}U_{2} \cdot U_{2}V = CE \cdot EV$, from above,
 
 $$= LO \cdot OR, \because CE : LO = OR : EV;$$
@@ -6677,7 +6486,6 @@ and
 $$LV \stackrel{&gt;}{_<} US.$$
 
 ---
-
 
 It follows that
 
@@ -6749,7 +6557,6 @@ This follows at once from the preceding propositions.
 
 ---
 
-
 Cor. 3. Four normals at points on one semi-ellipse bounded by the major axis cannot meet at one point.
 
 For, if four such normals cut the major axis and meet in one point, the centre must (1) separate one normal from the three others, or (2) must separate two from the other two, or (3) must lie on one of them.
@@ -6818,8 +6625,6 @@ Measure $MH$ towards the vertex equal to $\frac{p_a}{2}$, and divide $AH$ at $N_
 
 ---
 
-PROPOSITIONS DETERMINING THE EVOLUTE. 169
-
 Take a length $y$ such that
 
 $$
@@ -6852,7 +6657,6 @@ Next let $P$ be any other point. Join $OP$ meeting the axis in $K$, and let the 
 
 ---
 
-
 |  Then, if $AN < AN_1$, we have, | If $AN > AN_1$,  |
 | --- | --- |
 |  since $N_1T = 2AN_1 = N_1H$, | $N_1T > NH$;  |
@@ -6883,8 +6687,6 @@ Next let $P$ be any other point. Join $OP$ meeting the axis in $K$, and let the 
 |  Let $N_1R$ be measured along $N_1P_1$ so that | $OM.MH = RN_1.N_1H$.  |
 
 ---
-
-PROPOSITIONS DETERMINING THE EVOLUTE. 171
 
 Thus $R$ lies within the curve.
 
@@ -6955,7 +6757,6 @@ which is the Cartesian equation of the **evolute** of a parabola.]
 
 ---
 
-
 ### II. Let the curve be a HYPERBOLA or an ELLIPSE.
 
 We have $AM &gt; \frac{p_a}{2}$, so that $CA : AM &lt; AA' : p_a$.
@@ -6967,8 +6768,6 @@ We have $AM &gt; \frac{p_a}{2}$, so that $CA : AM &lt; AA' : p_a$.
 Therefore, if $H$ be taken on $AM$ such that $CH : HM = AA' : p_a$, $H$ will fall between $A$ and $M$.
 
 ---
-
-PROPOSITIONS DETERMINING THE EVOLUTE. 173
 
 Take two mean proportionals $CN_1$, $CI$ between $CA$ and $CH^*$, and let $P_1N_1$ be the ordinate through $N_1$.
 
@@ -7035,7 +6834,6 @@ $$
 * For Apollonius' method of finding two mean proportionals see the Introduction.
 
 ---
-
 
 Next let $P$ be any other point than $P_1$, and let $U, N, K$ have the same relation to $P$ that $U_1, N_1, K_1$ have to $P_1$.
 
@@ -7171,8 +6969,6 @@ $$
 
 ---
 
-PROPOSITIONS DETERMINING THE EVOLUTE. 175
-
 $$ P_1u_1 \cdot u_1v = CH \cdot Hv; $$
 $$ \therefore CH \cdot Hv &gt; Pu \cdot uv, $$
 and, adding or subtracting the rectangle $uU \cdot UV$,
@@ -7210,7 +7006,6 @@ Therefore $PO$ is not a normal, and $NK &lt; NG$.
 
 ---
 
-
 (c) Lastly, if $OM &lt; y$, we shall have in this case
 
 $$N_1U_1: P_1N_1 &lt; HN_1: N_1C,$$
@@ -7220,8 +7015,6 @@ $$N_1U_1: P_1N_1 &lt; HN_1: N_1C,$$
 ![img-160.jpeg](images/img-160.jpeg)
 
 ---
-
-PROPOSITIONS DETERMINING THE EVOLUTE. 177
 
 and we shall derive
 
@@ -7293,9 +7086,7 @@ $$
 \end{aligned}
 $$
 
-
 ---
-
 
 Thus
 $$ P_1 N_1^2 = \frac{b^2 y}{a^2 \pm b^2} $$
@@ -7345,8 +7136,6 @@ $$ NK &lt; NG. $$
 
 ---
 
-PROPOSITIONS DETERMINING THE EVOLUTE. 179
-
 (b) Suppose now that
 
 $$ O'B : BC &lt; AA' : p_a. $$
@@ -7366,8 +7155,6 @@ $$
 $$
 
 $PO'$, $BO'$ are then two normals through $O'$, and the rest of the proposition follows from Prop. 97.
-
-12—2
 
 ---
 
@@ -7390,7 +7177,6 @@ and draw $LI$, $IH$ parallel and perpendicular to the axis respectively. Then wi
 ![img-162.jpeg](images/img-162.jpeg)
 
 ---
-
 
 This will meet the ellipse in some point $P_1$. For, drawing $AD$, the tangent at $A$, to meet $IL$ produced in $D$, we have
 
@@ -7457,7 +7243,6 @@ Then, since two normals [at $P_1, B$] meet in $F$, $FP$ is not a normal, but $NK
 
 ---
 
-
 ## Proposition 102.
 
 [V. 58, 59, 60, 61.]
@@ -7480,7 +7265,6 @@ $$
 
 ---
 
-
 Then draw $HIR$ perpendicular to the axis, and $ILR'$ through $L$ parallel to the axis.
 
 ![img-164.jpeg](images/img-164.jpeg)
@@ -7493,12 +7277,9 @@ Then draw $HIR$ perpendicular to the axis, and $ILR'$ through $L$ parallel to th
 
 ---
 
-
 Then $OP$ will be a normal.
 
-For we have (1) $MK: HN = MK: LR'$,
-
-since $OR = PR'$, and therefore $IL = UR'$.
+For we have (1) $MK: HN = MK: LR'$, since $OR = PR'$, and therefore $IL = UR'$.
 
 Therefore $MK: HN = MO: OL$, by similar triangles,
 
@@ -7552,7 +7333,6 @@ and $OP$ is the normal at $P$.
 
 ---
 
-
 (3) For the *hyperbola*, in the particular case where $M$ coincides with $C$, or $O$ is on the conjugate axis, we need only divide $OC$ in $L$, so that
 
 $$
@@ -7588,7 +7368,6 @@ If $O$ be an internal point, we can draw through $O$ a normal to the conic.
 ![img-167.jpeg](images/img-167.jpeg)
 
 ---
-
 
 The construction and proof proceed as in the preceding proposition, *mutatis mutandis*.
 
@@ -7659,7 +7438,6 @@ but, in the case where $OM = y$, $NK &lt; NG$ for any point $P$ between $A$ and 
 
 ---
 
-
 Also for any point $P$ more remote from $A$ than $P$, it is still true that $NK &lt; NG$.
 
 I. Consider now the case of any of the three conics where, for all points $P, NK &lt; NG$.
@@ -7680,7 +7458,6 @@ Therefore $OP$ is not equal to $OA$.
 
 ---
 
-
 In this case the circle drawn with $O$ as centre and $OP$ as radius must cut $AM$ in some point, $D$. And an absurdity is proved in the same manner as before.
 
 Therefore $OP$ is neither equal to $OA$ nor less than $OA$, i.e. $OA &lt; OP$.
@@ -7696,7 +7473,6 @@ II. Where only one normal, $OP_{1}$, cutting the axis can be drawn from $O$, the
 ![img-169.jpeg](images/img-169.jpeg)
 
 ---
-
 
 It only remains therefore to prove that
 
@@ -7732,7 +7508,6 @@ The proposition is proved at once for the parabola and hyperbola and for the cas
 
 ---
 
-
 Therefore the base $TQ$ is less than the base $TQ'$.
 
 ![img-170.jpeg](images/img-170.jpeg)
@@ -7760,7 +7535,6 @@ $$
 If from a point $O$ below the axis of a parabola or hyperbola it is possible to draw two normals $OP_1$, $OP_2$ cutting the axis ($P_1$ being nearer to the vertex $A$ than $P_2$), and if further $P$ be any other point on the curve and $OP$ be joined, then
 
 ---
-
 
 (1) if $P$ lies between $A$ and $P_2$, $OP_1$ is the **greatest** of all the lines $OP$, and that which is nearer to $OP_1$ on each side is greater than that which is more remote;
 
@@ -7796,8 +7570,6 @@ Thus the proposition is established.
 
 ---
 
-OTHER MAXIMA AND MINIMA. 193
-
 ## Proposition 107.
 
 [V. 73.]
@@ -7812,9 +7584,7 @@ Thus for all points $P$ between $A'$ and $B$, since $K$ is nearer to $A'$ than $
 
 For any point $P'$ between $B$ and $P_1$ we use the method of Prop. 106, drawing the tangents at $P'$ and $B$, meeting in $T$.
 
-
 ---
-
 
 Thus we derive at once that $OB &lt; OP'$, and similarly that $OP'$ increases continually as $P'$ passes from $B$ to $P_1$.
 
@@ -7835,8 +7605,6 @@ That $OP$ increases as $P$ moves from $B$ to $P_2$, and diminishes as it passes 
 ![img-174.jpeg](images/img-174.jpeg)
 
 ---
-
-OTHER MAXIMA AND MINIMA. 195
 
 ## Proposition 109.
 
@@ -7907,10 +7675,7 @@ $$
 P_1P_3 = \frac{1}{2} \left( \frac{R}{2} \right) \cdot 1000 = 10000
 $$
 
-13—2
-
 ---
-
 
 As particular cases of the foregoing propositions we have
 
@@ -7937,7 +7702,6 @@ As particular cases of the foregoing propositions we have
 6. Segments are *similar* in which the angles between the respective bases and diameters are equal, and in which, parallels to the base being drawn from points on each segment to meet the diameter at points proportionally distant from the vertex, each parallel is respectively proportional to the corresponding abscissa in each.
 
 ---
-
 
 ## Proposition 110.
 
@@ -7977,7 +7741,6 @@ Therefore a parabola and hyperbola cannot be equal.
 
 ---
 
-
 ## Proposition 112.
 
 [VI. 11, 12, 13.]
@@ -8008,16 +7771,13 @@ $$
 \therefore PN^2 : AN^2 = pn^2 : an^2,
 $$
 
-or $PN : AN = pn : an$,
-
-and the condition of similarity is satisfied (Def. 2).
+or $PN : AN = pn : an$, and the condition of similarity is satisfied (Def. 2).
 
 Again, let $PP', pp'$ be diameters in two hyperbolas or two ellipses, such that the corresponding ordinates make equal angles with the diameters, and the ratios of each diameter to its parameter are equal.
 
 Draw tangents at $P$, $p$ meeting the axes in $T$, $t$ respectively. Then the angles $CPT$, $cpt$ are equal. Draw $AH$, $ah$ perpendicular to the axes and meeting $CP$, $cp$ in $H$, $h$; and on $CH$, $ch$ as diameters describe circles, which therefore pass respectively through $A$, $a$. Draw $QAR$, $qar$ through $A$, $a$ parallel respectively to the tangents at $P$, $p$ and meeting the circles just described in $R$, $r$.
 
 ---
-
 
 Let $V, v$ be the middle points of $AQ, aq$, so that $V, v$ lie on $CP, cp$ respectively.
 
@@ -8047,7 +7807,6 @@ and, since the angle $AVC$ is equal to the angle $avc$, it follows that the angl
 
 ---
 
-
 [For, if $K, k$ be the centres of the circles, and $I, i$ the middle points of $AR, ar$, we derive from $(\alpha)$
 
 $$
@@ -8073,7 +7832,6 @@ $$
 $$
 
 ---
-
 
 hence the halves of these angles, or of their supplements, are equal, or
 
@@ -8116,7 +7874,6 @@ and if $QQ'$, $qq'$ be the chords through $V$, $v$ parallel to $PT$, $pt$ respec
 (2) And, conversely, if the segments are similar and similarly situated, $PV: PT = pv: pt$, and the tangents are equally inclined to the axes.
 
 ---
-
 
 I. Let the conics be *parabolas*.
 
@@ -8163,7 +7920,6 @@ and, since $QV$ is a mean proportional between $PV$, $PL$, and $qv$ between $pv$
 $$QV: PV = qv: pv.$$
 
 ---
-
 
 Similarly, if $V', v'$ be points on $PV$, $pv$ such that
 
@@ -8240,7 +7996,6 @@ II. If the curves be hyperbolas or ellipses, suppose a similar construction made
 
 ---
 
-
 Therefore $PN^2:CN.NT = pn^2:cn.nt.$ [Prop. 14]
 
 Also the angles $PTN$, $ptn$ are equal,
@@ -8309,7 +8064,6 @@ $$
 
 ---
 
-
 Then
 $$ QV^2 : Q'V'^2 = qv^2 : q'v'^2; $$
 ∴ $ PV \cdot VP' : PV' \cdot V'P' = pv \cdot vp' : pv' \cdot v'p' $,
@@ -8360,7 +8114,6 @@ and the proposition is proved.
 
 ---
 
-
 ## Proposition 115.
 
 [VI. 21, 22.]
@@ -8386,7 +8139,6 @@ $$PL:PP' = BF.FC:AF^2 = pl:pp'.$$
 REESE LIBRARY OF THE UNIVERSITY OF CALIFORNIA
 
 ---
-
 
 Hence the rectangles $PL$, $PP'$ and $pl$, $pp'$ are similar.
 
@@ -8416,9 +8168,7 @@ $$
 al: OA = BC^z: BO, OC.
 $$
 
-
 ---
-
 
 Draw $AM$ parallel to $OC$ meeting $BC$ in $M$, and through $AM$ draw a plane at right angles to the plane $OBC$ and cutting the circular base in $DME$.
 
@@ -8489,7 +8239,6 @@ $$
 
 ---
 
-
 where $AL, A_{1}L_{1}$ are the parameters of $AA', A_{1}A_{1}'$ in the sections respectively.
 
 It follows, since $AA' = A_{1}A' = aa'$,
@@ -8534,7 +8283,6 @@ But $ON^2 &gt; OI^2$, while $BI \cdot IC &gt; BN \cdot NC$: which is absurd.
 
 ---
 
-
 ## Proposition 119.
 
 [VI. 30.]
@@ -8556,7 +8304,6 @@ Next suppose planes drawn through $AA', A, A'$ each perpendicular to the plane o
 The proof follows the method of the preceding proposition.
 
 ---
-
 
 ## Proposition 120.
 
@@ -8596,7 +8343,6 @@ $$
 
 ---
 
-
 Hence $AL$ is the latus rectum of the parabolic section of the cone made by the plane of the given parabola. It is also the latus rectum of the given parabola.
 
 Therefore the given parabola is itself the parabolic section, and $EAM$ is the cone required.
@@ -8633,7 +8379,6 @@ To find a right cone similar to a given one and containing a given hyperbola as 
 
 ---
 
-
 Let a plane be drawn through the axis of the given hyperbola and perpendicular to its plane; and on $A'A$, in the plane so described, describe a segment of a circle containing an angle equal to the exterior angle $B'OC$ at the vertex of the given cone. Complete the circle, and let $EF$ be the diameter of it bisecting $AA'$ at right angles in $I$. Join $A'E$, $AE$, and draw $AG$ parallel to $EF$ meeting $A'E$ produced in $G$.
 
 Then, since $EF$ bisects the angle $A'EA$, the angle $EGA$ is equal to the angle $EAG$. And the angle $AEG$ is equal to the angle $BOC$, so that the triangles $EAG$, $OBC$ are similar.
@@ -8664,7 +8409,6 @@ $$
 ![img-185.jpeg](images/img-185.jpeg)
 
 ---
-
 
 Take a point $H$ on $EI$ such that $FI: IH = AA': AL$, and through $H$ draw the chord $QQ'$ of the circle parallel to $AA'$. Join $A'Q$, $AQ$, and in the plane of the circle draw $AR$ making with $AQ$ an angle equal to the angle $OBC$. Let $AR$ meet $A'Q$ produced in $R$, and $QQ'$ produced in $N$.
 
@@ -8723,7 +8467,6 @@ Therefore [Prop. 2] $AL$ is the parameter of the hyperbolic section of the cone 
 
 ---
 
-
 Another such cone is found by taking the point $Q'$ instead of $Q$ and proceeding as before.
 
 No other right cone except these two can be found which is similar to the given one, has its apex on the same side of the plane of the given hyperbola, and contains that hyperbola as a section.
@@ -8780,7 +8523,6 @@ Therefore, etc.
 
 ---
 
-
 ## Proposition 122.
 
 [VI. 33.]
@@ -8804,7 +8546,6 @@ Conceive a cone drawn with $Q$ as apex and as base the circle on $AR$ as diamete
 This cone will be such that the given ellipse is one of its sections.
 
 ---
-
 
 For, since $FQ$, $AR$ are parallel,
 
@@ -8891,7 +8632,6 @@ $$
 
 ---
 
-
 Produce $AN$ to $K$, so that
 
 $$AN.NK = PN^2;$$
@@ -8944,8 +8684,6 @@ The same proposition is true if $AA'$ is the *minor* axis of an ellipse and $p_a
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 223
-
 ## Proposition 125 (Lemma).
 
 [VII. 4.]
@@ -8991,7 +8729,6 @@ $$
 
 ---
 
-
 ## Proposition 126 (Lemma).
 
 [VII. 5.]
@@ -9029,7 +8766,7 @@ by the property of the parabola.
 
 But $TN = 2AN.$ [Prop. 12]
 
-Therefore $AL = 2NG$ \quad \text{(2)};
+Therefore $AL = 2NG$ (2);
 
 thus $AL + 4AN = 2(TN + NG)$
 
@@ -9041,8 +8778,6 @@ $$
 $$
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 225
 
 [Note. The property of the normal ($NG$ = half the latus rectum) is incidentally proved here by regarding it as the perpendicular through $P$ to the tangent at that point. Cf. Prop. 85 where the normal is regarded as the minimum straight line from $G$ to the curve.]
 
@@ -9095,9 +8830,7 @@ CP^2 : CD^2 &amp;= (AM : A'M) \cdot (A'Q^2 : AQ^2) \\
 \end{aligned}
 $$
 
-
 ---
-
 
 ![img-194.jpeg](images/img-194.jpeg)
 
@@ -9108,8 +8841,6 @@ $$
 ![img-197.jpeg](images/img-197.jpeg)
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 227
 
 But, by Prop. 124,
 
@@ -9185,7 +8916,6 @@ $$
 
 ---
 
-
 Again, $PP'^2: DD'^2 = MH': MH \ldots (\beta)$, [Prop. 127]
 
 $$
@@ -9193,7 +8923,7 @@ $$
 $$
 
 $$
-\therefore PP': DD' = MH': \sqrt{MH \cdot MH'} \tag{\gamma}
+\therefore PP': DD' = MH': \sqrt{MH \cdot MH'} \tag{$\gamma$}
 $$
 
 Hence $PP': PP' \pm DD' = MH': MH' \pm \sqrt{MH \cdot MH'}$,
@@ -9257,12 +8987,10 @@ $$
 or
 
 $$
-AA'^2: AA'^2 \pm BB'^2 = A'H: HH' \tag{\alpha}
+AA'^2: AA'^2 \pm BB'^2 = A'H: HH' \tag{$\alpha$}
 $$
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 229
 
 Again, by $(\alpha)$ in Prop. 128 (1),
 
@@ -9314,7 +9042,6 @@ Therefore for the ellipse
 $$AA^{\prime 2}:PP^{\prime 2}\sim DD^{\prime 2} = A^{\prime}H:2CM.$$
 
 ---
-
 
 (2) For either curve
 
@@ -9395,8 +9122,6 @@ Also, if $AA' = BB'$, $PP' = DD'$.
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 231
-
 (1) Of the figures of Prop. 127, the first corresponds to the case where $AA' &gt; BB'$, and the second to the case where $AA' &lt; BB'$.
 
 Taking then the $\left\{ \begin{array}{l} \text{first} \\ \text{second} \end{array} \right\}$ figure respectively, it follows from
@@ -9463,7 +9188,6 @@ and the latter ratio diminishes continually as $P$ moves from $A$ to $B$.
 
 ---
 
-
 We have $CA^2:CB^2 = AN.NA':PN^2;$
 
 $$\therefore AN.NA' &gt; PN^2,$$
@@ -9515,8 +9239,6 @@ In an exactly similar manner we prove that
 $$DD' &lt; D_1D_1' \tag{4}$$
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 233
 
 We have therefore, by (1) and (2),
 
@@ -9578,7 +9300,6 @@ $$
 
 ---
 
-
 Similarly it may be proved that $PP' + DD'$ increases as $P$ moves from $A$ until $PP'$, $DD'$ take the position of the equal conjugate diameters, when it begins to diminish again.
 
 ## Proposition 134.
@@ -9631,8 +9352,6 @@ $$(AA' + BB')^2 &lt; (PP' + DD')^2.$$
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 235
-
 And, for the ellipse,
 
 $$
@@ -9653,9 +9372,7 @@ For the hyperbola [proof omitted in Apollonius] $PP' &gt; AA'$, $DD' &gt; BB'$, 
 
 [VII. 31.]
 
-If $PP', DD'$ be two conjugate diameters in an ellipse or in conjugate hyperbolas, and if tangents be drawn at the four extremities forming a parallelogram $LL'MM'$, then
-
-the parallelogram $LL'MM' = \text{rect.} AA'.BB'$.
+If $PP', DD'$ be two conjugate diameters in an ellipse or in conjugate hyperbolas, and if tangents be drawn at the four extremities forming a parallelogram $LL'MM'$, then the parallelogram $LL'MM' = \text{rect.} AA'.BB'$.
 
 Let the tangents at $P$, $D$ meet the axis $AA'$ in $T$, $T'$ respectively. Let $PN$ be an ordinate to $AA'$, and take a length $PO$ such that
 
@@ -9698,7 +9415,6 @@ $$
 ![img-199.jpeg](images/img-199.jpeg)
 
 ---
-
 
 ![img-200.jpeg](images/img-200.jpeg)
 
@@ -9750,8 +9466,6 @@ Supposing $p_a$ to be the parameter corresponding to the axis $AA'$ in a hyperbo
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 237
-
 (2) if $AA'$ be less than $p_a$ but not less than $\frac{p_a}{2}$, then $p_a &lt; p$, and $p$ increases as $P$ moves away from $A$;
 
 (3) if $AA' &lt; \frac{p_a}{2}$, there can be found a diameter $P_o P_o'$ on either side of the axis such that $p_o = 2P_o P_o'$. Also $p_o$ is less than any other parameter $p$, and $p$ increases as $P$ moves further from $P_o$ in either direction.
@@ -9781,7 +9495,6 @@ as in the preceding propositions.
 ![img-201.jpeg](images/img-201.jpeg)
 
 ---
-
 
 Therefore $AA'^2: p_a^2 = A'H \cdot AH': AH^2$ (α).
 
@@ -9853,8 +9566,6 @@ so that $p &lt; p_1$, and the proposition is proved.
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 239
-
 (3) Now let $AA'$ be less than $\frac{p_d}{2}$.
 
 Take a point $M_0$ such that $HH' = H'M_0$, and let $Q_0, P_0$ be related to $M_0$ in the same way that $Q, P$ are to $M$.
@@ -9925,7 +9636,6 @@ Hence the proposition is established.
 
 ---
 
-
 ## Proposition 138.
 
 [VII. 36.]
@@ -9984,8 +9694,6 @@ In an ellipse, if $P_0 P_0'$, $D_0 D_0'$ be the equal conjugate diameters and $P
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 241
-
 (2) $BB' \sim p_b$ is the **maximum** value of $PP' \sim p$ for all points $P$ between $B$ and $P_0$, and $PP' \sim p$ diminishes continually as $P$ passes from $B$ to $P_0$,
 
 (3) $BB' \sim p_b &gt; AA' \sim p_a$.
@@ -10036,9 +9744,7 @@ $$
 \therefore 4(AH + AH')AM : (AH + AH')^2;
 $$
 
-
 ---
-
 
 and, componendo,
 
@@ -10105,8 +9811,6 @@ $$M_0H' &gt; MH';$$
 $$\therefore (M_0H + M_0H')^2 &gt; (M_0H + MH') \cdot 4M_0H'.$$
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 243
 
 Subtracting from each side the rectangle $(M_0H + MH') \cdot 4MM_0$,
 
@@ -10186,10 +9890,7 @@ and so on.
 
 Hence the proposition is established.
 
-16—2
-
 ---
-
 
 ## Proposition 141.
 
@@ -10237,9 +9938,7 @@ $$
 
 Again $AA'^2: (PP' + p)^2 = A'H \cdot MH': HH'^2$, [Prop. 130 (3)]
 
-and $AA'^2: (P_1P_1' + p_1)^2 = A'H \cdot M_1H': HH'^2$,
-
-where $P_1$ is between $P$ and $B$, from which it follows, since
+and $AA'^2: (P_1P_1' + p_1)^2 = A'H \cdot M_1H': HH'^2$, where $P_1$ is between $P$ and $B$, from which it follows, since
 
 $$
 AH' &gt; MH' &gt; M_1H' &gt; A'H',
@@ -10262,8 +9961,6 @@ $$
 and the proposition follows.
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 245
 
 ## Proposition 142.
 
@@ -10320,7 +10017,6 @@ $$
 where $PP'$ is any diameter, and $PP'^2 + p^2$ increases as $P$ moves away from $A$;
 
 ---
-
 
 (3) if $AA'^2 &lt; \frac{1}{2}(AA' \sim p_a)^2$, then there will be found on either side of the axis a diameter $P_0P_0'$ such that $P_0P_0'^2 = \frac{1}{2}(P_0P_0' \sim p_a)^2$, and $P_0P_0'^2 + p_a^2$ will be less than $PP'^2 + p^2$, where $PP'$ is any other diameter. Also $PP'^2 + p^2$ will be the smaller the nearer $PP'$ is to $P_0P_0'$.
 
@@ -10414,8 +10110,6 @@ $$
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 247
-
 (3) Let $AA'$ be less than $\frac{1}{2}(AA' - p_0)^2$,
 so that
 $$
@@ -10487,7 +10181,6 @@ and so on.
 
 ---
 
-
 ## Proposition 145.
 
 [VII. 47, 48.]
@@ -10551,8 +10244,6 @@ $$
 and, since $2A'M \cdot AM + MH^2 + MH'^2 = A'H^2 + A'H'^2$,
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 249
 
 we have, *componendo*,
 
@@ -10623,7 +10314,6 @@ and $A'H. M_1H': M_1H^2 + M_1H'^2 = AA'^2 : P_1P_1'^2 + p_1^2,$
 $$M_1H^2 + M_1H'^2 &gt; 2A'M_1. M_1H' &gt; M_1H'.2(M_1H' - A'H') &gt; M_1H'.2(M_1H' - MH), \text{ a fortiori.}$$
 
 ---
-
 
 it is shown in the same manner that
 
@@ -10706,8 +10396,6 @@ and we prove, in the same manner as above,
 $$PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$$
 
 ---
-
-LENGTHS OF CONJUGATE DIAMETERS. 251
 
 And, since $2HH'.CM_1 &gt; 2AH.M_1H'$
 
@@ -10795,7 +10483,6 @@ $$
 
 ---
 
-
 and, proceeding as before, we find
 
 $$PP'^2 \sim p^2 &lt; P_1 P_1'^2 \sim p_1^2,$$
@@ -10868,8 +10555,6 @@ $$&gt; 2(AA'^2 \sim p_a \cdot AA').$$
 
 ---
 
-LENGTHS OF CONJUGATE DIAMETERS. 253
-
 ## Proposition 147.
 
 [VII. 51.]
@@ -10941,7 +10626,6 @@ $$
 (2) $P$ must in this case lie between $B$ and the extremity of either of the equal conjugate diameters, and $M$ will lie between $C$ and $A'$ if $P$ is on the quadrant $AB$.
 
 ---
-
 
 Then, if $M_1$ corresponds to another point $P_1$, and $AM_1 &gt; AM$, we have
 

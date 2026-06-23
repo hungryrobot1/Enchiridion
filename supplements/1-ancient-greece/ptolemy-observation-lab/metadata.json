@@ -5,8 +5,8 @@
   "texts": [
     "ptolemy-almagest"
   ],
-  "description": "Identifying the constellations of the zodiac, locating the ecliptic, and following a planet through its motions — the celestial sphere as Ptolemy describes it, observed firsthand with naked eye or planetarium software",
+  "description": "Identifying the zodiac and ecliptic in Stellarium, watching a planet go retrograde, and computing the Sun's position in Ptolemy's own sexagesimal mean-motion arithmetic — then checking the prediction against the sky",
   "filename": "content.md",
   "prerequisites": [],
-  "content_status": "stub"
+  "content_status": "complete"
 }

@@ -158,6 +158,10 @@ def prev_wants_continuation(prev: str) -> bool:
     p = prev.rstrip()
     if not p:
         return False
+    if RULE_RE.match(p):
+        # A `---` page-break rule ends with '-' but is never a wrapped
+        # word; --rule mode owns these.
+        return False
     last = p[-1]
     if last in TERMINAL_PUNCT:
         return False

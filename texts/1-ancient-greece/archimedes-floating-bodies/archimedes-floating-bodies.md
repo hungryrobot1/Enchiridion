@@ -50,9 +50,7 @@ Conceive also another pyramid in the fluid with vertex $O$, continuous with the 
 
 Lastly, let $STUV$ be a part of the fluid within the second pyramid equal and similar to the part $BGHC$ of the solid, and let $SV$ be at the surface of the fluid.
 
-Then the pressures on $PQ$, $QR$ are unequal, that on $PQ$ being the greater. Hence the part at $QR$ will be set in motion
-
-by that at $PQ$, and the fluid will not be at rest; which is contrary to the hypothesis.
+Then the pressures on $PQ$, $QR$ are unequal, that on $PQ$ being the greater. Hence the part at $QR$ will be set in motion by that at $PQ$, and the fluid will not be at rest; which is contrary to the hypothesis.
 
 Therefore the solid will not stand out above the surface.
 
@@ -84,11 +82,7 @@ Then, since the pressure on the parts of the fluid at $PQ$, $QR$ must be equal i
 
 If a solid lighter than a fluid be forcibly immersed in it, the solid will be driven upwards by a force equal to the difference between its weight and the weight of the fluid displaced.
 
-For let $A$ be completely immersed in the fluid, and let $G$ represent the weight of $A$, and $(G + H)$ the weight of an equal volume of the fluid. Take a solid $D$, whose weight is $H$
-
-H, A.                                                                 17
-
-and add it to $A$. Then the weight of $(A + D)$ is less than that of an equal volume of the fluid; and, if $(A + D)$ is immersed in the fluid, it will project so that its weight will be equal to the weight of the fluid displaced. But its weight is $(G + H)$.
+For let $A$ be completely immersed in the fluid, and let $G$ represent the weight of $A$, and $(G + H)$ the weight of an equal volume of the fluid. Take a solid $D$, whose weight is $H$ and add it to $A$. Then the weight of $(A + D)$ is less than that of an equal volume of the fluid; and, if $(A + D)$ is immersed in the fluid, it will project so that its weight will be equal to the weight of the fluid displaced. But its weight is $(G + H)$.
 
 ![img-134.jpeg](images/img-134.jpeg)
 

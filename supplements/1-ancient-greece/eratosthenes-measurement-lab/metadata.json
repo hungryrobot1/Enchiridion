@@ -6,7 +6,7 @@
     "euclid-elements",
     "archimedes-geometrical-solutions"
   ],
-  "description": "Deriving physical units from nature — estimating the Earth's circumference à la Eratosthenes, measuring with cubits and stades, and grounding mathematics in physical experience",
+  "description": "Estimating the Earth's circumference à la Eratosthenes — turning a shadow, a known distance, and a single geometric argument into the size of the planet",
   "filename": "content.md",
   "prerequisites": [],
   "content_status": "complete"

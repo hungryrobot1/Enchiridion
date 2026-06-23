@@ -123,6 +123,26 @@
   color: var(--color-ink);
 }
 
+/* Verse layout: legitimate verse lines run longer than the prose measure
+ * (p99 ≈ 73 chars across the verse corpus; the prose column fits ~72).
+ * Widen so a long line doesn't orphan its trailing word onto a wrap that
+ * reads as a false verse line. */
+.reader__content--prose:has(> .md-reader[data-layout="verse"]) {
+  max-width: 44rem;
+}
+
+/* KaTeX typesets ~21% larger than body text by default, which makes
+ * inline math jump out of mixed unicode/LaTeX prose (Almagest et al.).
+ * Scale down to harmonize Computer Modern's x-height with the body
+ * serif; display math keeps a touch more presence. Tune by eye. */
+.reader__content--prose .katex {
+  font-size: 0.915em;
+}
+
+.reader__content--prose .katex-display .katex {
+  font-size: 0.915em;
+}
+
 .reader__content--prose h1,
 .reader__content--prose h2,
 .reader__content--prose h3,
@@ -133,10 +153,22 @@
   margin: var(--space-xl) 0 var(--space-md);
 }
 
-.reader__content--prose h1 { font-size: var(--text-xl); }
-.reader__content--prose h2 { font-size: var(--text-lg); }
-.reader__content--prose h3 { font-size: var(--text-md); }
-.reader__content--prose h4 { font-size: var(--text-base); font-style: italic; }
+.reader__content--prose h1 {
+  font-size: var(--text-xl);
+}
+
+.reader__content--prose h2 {
+  font-size: var(--text-lg);
+}
+
+.reader__content--prose h3 {
+  font-size: var(--text-md);
+}
+
+.reader__content--prose h4 {
+  font-size: var(--text-base);
+  font-style: italic;
+}
 
 .reader__content--prose p {
   margin: 0 0 var(--space-md);
@@ -159,8 +191,13 @@
   line-height: var(--line-height-list);
 }
 
-.reader__content--prose ul { list-style: disc; }
-.reader__content--prose ol { list-style: decimal; }
+.reader__content--prose ul {
+  list-style: disc;
+}
+
+.reader__content--prose ol {
+  list-style: decimal;
+}
 
 .reader__content--prose li {
   margin-bottom: var(--space-2xs);
@@ -306,7 +343,7 @@
   transition: transform 0.15s ease;
 }
 
-.md-reader__section[open] > .md-reader__section-summary::before {
+.md-reader__section[open]>.md-reader__section-summary::before {
   transform: translateY(-75%) rotate(45deg);
 }
 
@@ -406,7 +443,7 @@
   margin-bottom: 0;
 }
 
-.md-reader[data-layout="verse"] p:has(> strong:only-child) + p {
+.md-reader[data-layout="verse"] p:has(> strong:only-child)+p {
   margin-top: var(--space-2xs);
 }
 
@@ -432,28 +469,29 @@
   margin-left: calc((100% - var(--interlinear-row-width)) / 2);
 }
 
-.md-reader__interlinear-row > .lang-grc,
-.md-reader__interlinear-row > .lang-en {
-  min-width: 0;  /* allow flex/grid children to shrink below content */
+.md-reader__interlinear-row>.lang-grc,
+.md-reader__interlinear-row>.lang-en {
+  min-width: 0;
+  /* allow flex/grid children to shrink below content */
 }
 
 /* Greek column tinted slightly to make the language boundary visible at
  * a glance, plus the Greek-text serif treatment. The English column
  * keeps the body's default styling. */
-.md-reader__interlinear-row > .lang-grc {
+.md-reader__interlinear-row>.lang-grc {
   font-family: var(--font-serif);
   color: var(--color-ink);
   padding-right: var(--space-md);
   border-right: 1px solid var(--color-rule);
 }
 
-.md-reader__interlinear-row > .lang-grc > p,
-.md-reader__interlinear-row > .lang-en > p {
+.md-reader__interlinear-row>.lang-grc>p,
+.md-reader__interlinear-row>.lang-en>p {
   margin: 0 0 var(--space-sm) 0;
 }
 
-.md-reader__interlinear-row > .lang-grc > :last-child,
-.md-reader__interlinear-row > .lang-en > :last-child {
+.md-reader__interlinear-row>.lang-grc> :last-child,
+.md-reader__interlinear-row>.lang-en> :last-child {
   margin-bottom: 0;
 }
 
@@ -466,7 +504,8 @@
     width: 100%;
     margin-left: 0;
   }
-  .md-reader__interlinear-row > .lang-grc {
+
+  .md-reader__interlinear-row>.lang-grc {
     border-right: none;
     border-bottom: 1px solid var(--color-rule);
     padding-right: 0;

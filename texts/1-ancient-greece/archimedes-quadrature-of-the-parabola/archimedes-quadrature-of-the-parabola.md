@@ -330,9 +330,7 @@ It is required to prove that
 
 ![img-123.jpeg](images/img-123.jpeg)
 
-Suppose $AO$ made equal to $OQ$, and conceive $QOA$ as a lever placed horizontally and supported at $O$. Suppose the triangle $EqQ$ suspended from $OQ$ in the position drawn, and suppose that the trapezium $EO_1$ in the position drawn is balanced by an area $P_1$ suspended from $A$, the trapezium $E_1O_2$ in the position drawn is balanced by the area $P_2$ suspended
-
-from $A$, and so on, the triangle $E_n O_n Q$ being in like manner balanced by $P_{n+1}$.
+Suppose $AO$ made equal to $OQ$, and conceive $QOA$ as a lever placed horizontally and supported at $O$. Suppose the triangle $EqQ$ suspended from $OQ$ in the position drawn, and suppose that the trapezium $EO_1$ in the position drawn is balanced by an area $P_1$ suspended from $A$, the trapezium $E_1O_2$ in the position drawn is balanced by the area $P_2$ suspended from $A$, and so on, the triangle $E_n O_n Q$ being in like manner balanced by $P_{n+1}$.
 
 Then $P_1 + P_2 + \ldots + P_{n+1}$ will balance the whole triangle $EqQ$ as drawn, and therefore
 

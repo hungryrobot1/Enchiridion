@@ -1,6 +1,6 @@
 # Chapter 2: Orienting to the Tools — Smyth, Perseus, and the LSJ
 
-In Chapter 1 you learned to produce sound from Greek text. Now you need to learn how to find out what the sounds mean. This chapter introduces the three tools you will rely on throughout your Greek studies, gives you the connective vocabulary that holds Greek arguments together, and walks you through your first real translation exercise.
+In Chapter 1 you learned how to pronounce Greek words. Now you need to learn how to find out what those words mean. This chapter introduces the three tools you will rely on throughout your Greek studies. You will be given some connective vocabulary that holds Greek arguments together, and walk through your first real translation exercise.
 
 By the end of this chapter you should be able to:
 
@@ -12,9 +12,9 @@ By the end of this chapter you should be able to:
 
 ## A Note on Morphology
 
-Before diving into the tools, a word about what you are learning when you learn Greek grammar. Greek is a *morphological* language — it changes the shapes of words (their endings, prefixes, internal vowels) to express grammatical relationships. The technical term for this is *inflection*. When we say Greek "inflects" its nouns and verbs, we mean it modifies their form to signal who is doing what to whom, when, and how.
+Before diving into the tools, a word about what you are learning when you learn Greek grammar. Greek is a *morphological* language. It changes the shapes of words (their endings, prefixes, internal vowels) to express grammatical relationships. The technical term for this is *inflection*. When we say Greek "inflects" its nouns and verbs, we mean it modifies their form to signal who is doing what to whom, when, and how.
 
-English does this a little: "run" becomes "runs," "ran," "running." But Greek does it pervasively. A single Greek verb can appear in hundreds of different forms, and a noun might have ten or more. This is why tools like Smyth and Perseus are so important — they help you decode these forms until the patterns become familiar.
+English does this a little: "run" becomes "runs," "ran," "running." But Greek does it pervasively. A single Greek verb can appear in hundreds of different forms, and a noun might have ten or more. This is why tools like Smyth and Perseus are so important, they help you decode these forms until the patterns become familiar.
 
 The study of how words change form is called *morphology* (from the Greek μορφή, *morphē*, "form" + λόγος, *logos*, "study"). You will encounter this term frequently as you work through the grammar. Parts II and III of Smyth are essentially a morphological reference.
 
@@ -36,9 +36,11 @@ Herbert Weir Smyth's *A Greek Grammar for Colleges* (1920) is a comprehensive re
 2. If you need to understand *why* the word has that form — what the case means, why the verb is in that tense — look up the relevant section in Smyth
 3. The index at the back is your friend. So is the table of contents.
 
-**What to study vs. what to skim.** You are not trying to memorize paradigm tables. You are trying to build a mental map of where things are so you can find them when you need them. In Part II, skim the noun declension tables (§196–285) to see what they look like. Read the overview of the case system (§1279–1353 in Part IV) to understand what each case *does*. You can always return for the details.
+You don't need to memorize paradigm tables for the work we do here. In Part II, skim the noun declension tables (§196–285) to see what they look like. Read the overview of the case system (§1279–1353 in Part IV) to understand what each case *does*. You can always return for details.
 
-**PDF vs. Perseus.** You have Smyth in two forms: the PDF (for offline study and the original page layouts) and the digital version on Perseus (searchable, with hyperlinked paragraph numbers). Use whichever suits the moment.
+**PDF vs. Perseus.** You have Smyth in two forms: the PDF (for offline study and the original page layouts) and the digital version on Perseus (searchable, with hyperlinked paragraph numbers). Use whichever you prefer.
+
+[Here](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007) is a link to the Perseus digital version.
 
 ## The Perseus Digital Library
 
@@ -52,19 +54,33 @@ Perseus is an extraordinary resource. For Greek texts, it provides:
 
 1. Click the word
 2. Perseus displays possible parsings (sometimes a form is ambiguous — it could be more than one case or tense)
-3. Click through to the LSJ entry for the full range of meanings
+3. Click through to the LSJ or Middle-Liddel entry for the full range of meanings
 
-**A worked example.** Open the Perseus Greek text of Euclid's Elements. Find the word εὐθεῖα in any proposition. Click it. Perseus will tell you something like:
+**A worked example.** Open the Perseus Greek text of Euclid's Elements.
 
-> εὐθεῖα — from εὐθύς (straight, direct) — feminine nominative singular adjective
+1. Go to `perseus.tufts.edu` and navigate to the `Collections/Texts` section and select Greek and Roman. Take a second to see what texts are in the collection and then find Euclid's Elements. [Link](https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman).
+2. Select the Heiberg Greek edition. It will bring you to the first definition in Book I: "σημεῖόν ἐστιν, οὗ μέρος οὐθέν."
+3. You should see three horizontal bars towards the top of the page labeled `book`, `type`, and '`number`. On the `type` bar, select `Prop` (the largest segment). This will navigate you to the propositions in Book I.
 
-This tells you: the word is an adjective meaning "straight," in the feminine form (because it agrees with γραμμή, "line," which is feminine in Greek). The full phrase εὐθεῖα γραμμή means "straight line" — but Greek often drops the noun when it's obvious, so εὐθεῖα alone means "straight line" in geometric contexts.
+Find the word εὐθεῖα in any proposition. Click it. Perseus will open a new tab showing the word's morphology. It will look something like:
 
-You don't need to have memorized feminine nominative adjective endings to understand this. Perseus told you. Over time, you will start recognizing the patterns yourself.
+> εὐθεῖα	adj sg fem nom
+
+This tells you that the word is an adjective in the singular feminine nominative form. The word is in the feminine form because it agrees with γραμμή, "line," which is feminine in Greek. The full phrase εὐθεῖα γραμμή means "straight line" but Greek often drops the noun when it's obvious, so εὐθεῖα alone means "straight line" in geometric contexts. The nominative form indicates that εὐθεῖα is the subject of the sentence.
+
+You will also notice that Perseus provides a number of options for quick lookup in different lexicons. For your entry of εὐθεῖα you should see:
+
+> (Show lexicon entry in LSJ Middle Liddell Slater Autenrieth) (search)
+
+These are all lexicons which provide more information about the word. Check out the differences between them and go with whichever is your favorite. The LSJ tends to be the most detailed so it's what we recommend.
+
+Lastly, take note on the right side of your screen the search tool. You can use that to search for specific words. Just remember to reference the Greek text table to correctly type words. For instance, when using the search tool, εὐθεῖα would be typed as:
+
+> eu)qei=a
 
 ## The LSJ Lexicon
 
-The Liddell-Scott-Jones *Greek-English Lexicon* is the standard dictionary of Ancient Greek. It is comprehensive and sometimes intimidating — entries for common words can run to several columns. A few tips:
+The Liddell-Scott-Jones *Greek-English Lexicon* is the standard dictionary of Ancient Greek. It is comprehensive, but sometimes intimidating, as entries for common words can run to several columns. A few tips:
 
 **Reading an entry.** LSJ entries are organized by meaning, with the most basic or earliest sense first. Sub-entries (marked I, II, III, then 1, 2, 3, then a, b, c) give progressively more specialized or later meanings. Citations after each meaning tell you which author uses the word in that sense.
 
@@ -73,11 +89,19 @@ The Liddell-Scott-Jones *Greek-English Lexicon* is the standard dictionary of An
 - Whether it's a noun, verb, adjective, etc.
 - For nouns: the genitive form and the gender (these appear right after the headword and tell you which declension pattern the noun follows)
 
-**Don't get lost in the sub-entries.** For a word like λόγος, the LSJ entry is enormous — it covers everything from "word" to "reason" to "ratio" to "account." Read the first few senses, note the range, and come back later if you want to deep dive into specific words. For translation exercises, context will usually tell you which meaning is active.
+**Don't get lost in the sub-entries.** For a word like λόγος, the LSJ entry is enormous — it covers everything from "word" to "reason" to "ratio" to "account". Read the first few senses, note the range, and come back later if you want to deep dive into specific words. For translation exercises, context will usually tell you which meaning is active.
+
+## Scaife Viewer
+
+You may have noticed when navigating the library that some texts are available in the Scaife viewer. It's worth taking the time to explore that as well.
+
+The Greek Euclid in the Scaife viewer is available [here](https://scaife.perseus.org/reader/urn:cts:greekLit:tlg1799.tlg001.perseus-grc2:1.def.1-1.def.5/).
+
+Some quick things to note about the Scaife viewer. For some texts, you can select `add parallel version` and it will allow you to view Greek and English alongside each other. If you click on the arrow on the upper right of your screen it will expand a sidebar with the word study tool. In the Scaife viewer it is recommended to select `highlight` mode, this will allow you to click on words and immediately get their parsing and lexicon entries. Not all texts are available in the Scaife viewer, but you might find it to be a slightly better user experience when available.
 
 ## Logical Connectors
 
-Greek argumentative prose — Euclid, Aristotle, Plato — is held together by a small set of connecting words (called "particles"). Learning these gives you the skeleton of any argument before you understand the flesh.
+Greek argumentative prose — Euclid, Aristotle, Plato — is held together by a small set of connecting words called "particles". Learning these gives you the skeleton of any argument before you understand the flesh.
 
 | Greek | Transliteration | Meaning | Usage |
 |-------|----------------|---------|-------|
@@ -149,7 +173,7 @@ Don't memorize these by rote. They will become familiar through repeated encount
 
 ## Smyth Reference
 
-The following Smyth sections are relevant to this chapter's material. Paragraph numbers to be filled in after review.
+The following Smyth sections are relevant to this chapter's material.
 
 - Particles (overview): §2769-2774
 - καί: §2868-2891
@@ -240,7 +264,7 @@ Pay particular attention to:
 
 You are not expected to translate this cold. You have the English right there. The goal is to follow the Greek closely enough that you can see *how* it says what it says — which words carry the logical structure, which carry the geometric content.
 
-This is what reading Greek with reference support looks like. It is slow, and it is real.
+This is what reading Greek with reference support looks like. It is slow, but it is a real way of interacting with the original language.
 
 ## Dionysius Thrax
 

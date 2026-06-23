@@ -103,11 +103,11 @@ $$\frac{d}{s} = \sqrt{2} \notin \mathbb{Q}$$
 
 ### Circles
 
-| Euclid | Modern | Meaning |
-|--------|--------|---------|
-| "a circle with center A and radius AB" | Circle centered at $A$ with radius $r = AB$ | |
-| "the circumference of the circle" | The circle itself (the curve, not the interior) | |
-| "a straight line drawn from the center to the circumference" | Radius $r$ | |
+| Euclid | Modern |
+|--------|--------|
+| "a circle with center A and radius AB" | Circle centered at $A$ with radius $r = AB$ |
+| "the circumference of the circle" | The circle itself (the curve, not the interior) |
+| "a straight line drawn from the center to the circumference" | Radius $r$ |
 
 ### Common Notions and Postulates
 

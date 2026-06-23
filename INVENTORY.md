@@ -1,6 +1,6 @@
 # Enchiridion Inventory
 
-_Generated 2026-05-26 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
+_Generated 2026-06-23 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
 
 ## Texts
 
@@ -306,7 +306,6 @@ _Generated 2026-05-26 by `utilities/inventory.py`. Each entry is a directory nam
 - greek-math-companion
 - parallax-lab
 - ptolemy-observation-lab
-- sun-observation-lab
 
 ### Rome and Late Antiquity
 

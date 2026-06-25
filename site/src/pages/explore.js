@@ -201,9 +201,16 @@ function buildRows(textIndex, supplementIndex, moduleIndex) {
     });
   }
 
+  // Lead with texts — the complete, readable corpus — so a first-time visitor
+  // (often arriving on mobile from a shared link) sees a real library rather
+  // than a stack of not-yet-written modules. Supplements follow; modules, the
+  // most stub-heavy type for now, sort last. Within each type the existing
+  // era → year → title ordering applies.
+  const TYPE_ORDER = { text: 0, reference: 1, supplement: 1, module: 2 };
   rows.sort((a, b) => {
-    if (a.type === 'module' && b.type !== 'module') return -1;
-    if (b.type === 'module' && a.type !== 'module') return 1;
+    const ta = TYPE_ORDER[a.type] ?? 9;
+    const tb = TYPE_ORDER[b.type] ?? 9;
+    if (ta !== tb) return ta - tb;
     if (a.sortEra !== b.sortEra) return a.sortEra - b.sortEra;
     if (a.sortYear !== b.sortYear) return a.sortYear - b.sortYear;
     return a.title.localeCompare(b.title);

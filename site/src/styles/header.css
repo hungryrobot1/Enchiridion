@@ -57,12 +57,78 @@
   border-bottom-color: var(--color-accent);
 }
 
+/* Hamburger toggle — hidden on wide viewports, shown below the breakpoint. */
+.site-header__toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.site-header__toggle span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--color-ink);
+  border-radius: 1px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Animate the three bars into an X when the menu is open. */
+.site-header--menu-open .site-header__toggle span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.site-header--menu-open .site-header__toggle span:nth-child(2) {
+  opacity: 0;
+}
+
+.site-header--menu-open .site-header__toggle span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 @media (max-width: 640px) {
   .site-header__inner {
     padding: 0 var(--space-md);
   }
 
+  .site-header__toggle {
+    display: flex;
+  }
+
+  /* Collapse the nav into a dropdown panel below the header bar. */
   .site-header__nav {
-    gap: var(--space-md);
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background: var(--color-paper);
+    border-bottom: 1px solid var(--color-rule);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    padding: var(--space-sm) 0;
+    display: none;
+  }
+
+  .site-header--menu-open .site-header__nav {
+    display: flex;
+  }
+
+  .site-header__link {
+    padding: var(--space-md) var(--space-lg);
+    border-bottom: none;
+    font-size: var(--text-base);
+  }
+
+  .site-header__link--active {
+    border-bottom-color: transparent;
+    color: var(--color-accent);
   }
 }

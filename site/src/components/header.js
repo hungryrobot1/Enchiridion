@@ -30,7 +30,29 @@ export function renderHeader() {
     nav.appendChild(link);
   }
 
+  // Hamburger toggle — shown only on narrow viewports via CSS. On wide
+  // viewports the nav is always visible and the button is hidden.
+  const toggle = document.createElement('button');
+  toggle.className = 'site-header__toggle';
+  toggle.setAttribute('aria-label', 'Toggle navigation menu');
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.innerHTML = '<span></span><span></span><span></span>';
+
+  const closeMenu = () => {
+    header.classList.remove('site-header--menu-open');
+    toggle.setAttribute('aria-expanded', 'false');
+  };
+
+  toggle.addEventListener('click', () => {
+    const open = header.classList.toggle('site-header--menu-open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+
+  // Close the menu whenever navigation happens (a link tap changes the hash).
+  window.addEventListener('hashchange', closeMenu);
+
   inner.appendChild(wordmark);
+  inner.appendChild(toggle);
   inner.appendChild(nav);
   header.appendChild(inner);
 

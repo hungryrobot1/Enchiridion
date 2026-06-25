@@ -346,6 +346,21 @@
   position: relative;
 }
 
+/* Nested sections (e.g. Euclid's propositions within a book) step down in
+   heading size and indent so the hierarchy reads at a glance. */
+.md-reader__section[data-level="2"] > .md-reader__section-summary {
+  font-size: var(--text-lg);
+}
+
+.md-reader__section[data-level="3"] > .md-reader__section-summary,
+.md-reader__section[data-level="4"] > .md-reader__section-summary {
+  font-size: var(--text-base);
+}
+
+.md-reader__section .md-reader__section {
+  margin-left: var(--space-md);
+}
+
 .md-reader__section-summary::-webkit-details-marker {
   display: none;
 }

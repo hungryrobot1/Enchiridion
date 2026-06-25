@@ -174,30 +174,36 @@ export default {
       },
     });
 
-    const html = md.parse(text);
+    const blocksById = new Map(blocks.map(b => [b.id, b]));
 
     const wrapper = document.createElement('div');
     wrapper.className = 'md-reader';
     if (opts.layout === 'verse') wrapper.dataset.layout = 'verse';
-    wrapper.innerHTML = html;
-    wrapInterlinearGroups(wrapper);
-    wrapCollapsibleSections(wrapper);
-    wrapImagesWithControls(wrapper);
 
-    // KaTeX is rendered lazily per section. The title region above the first
-    // <details> is rendered eagerly; each section renders on first open.
-    const blocksById = new Map(blocks.map(b => [b.id, b]));
-    for (const child of Array.from(wrapper.children)) {
-      if (child.tagName === 'DETAILS') continue;
-      renderLatexPlaceholdersIn(child, blocksById);
-    }
+    // Split the *markdown* (not the parsed HTML) into the eager title region
+    // and a list of collapsible sections, delimited by headings. The critical
+    // point: each slice is run through `marked` independently, so the tokenizer
+    // only ever sees a small input. marked's block tokenization is super-linear
+    // in document length on large texts (the whole Iliad spends ~30s tokenizing
+    // on an iPad, almost all in `blockTokens` retrying table/html/blockquote
+    // rules line by line) — splitting before parsing turns one O(n²) pass over
+    // the document into many cheap passes, and defers all but the title region
+    // until a section is opened.
+    //
+    // Sectioning is recursive by heading depth: a `#` section splits its body
+    // on `##`, each `##` on `###`, and so on. A single section can itself be
+    // huge (Euclid's Book X, the Almagest's longer chapters), so without the
+    // recursion the same hang just moves to the section's toggle. Each level is
+    // parsed only when its parent opens; the deepest sections (no further
+    // subheadings) parse their content directly.
+    const ctx = { md, blocksById };
+    const { preambleMd, sections } = splitMarkdownIntoSections(text, 1);
 
-    for (const section of wrapper.querySelectorAll(':scope > details.md-reader__section')) {
-      section.addEventListener('toggle', () => {
-        if (!section.open || section.dataset.mathRendered === '1') return;
-        section.dataset.mathRendered = '1';
-        renderLatexPlaceholdersIn(section, blocksById);
-      });
+    wrapper.innerHTML = md.parse(preambleMd);
+    finalizeSubtree(wrapper, blocksById);
+
+    for (const section of sections) {
+      wrapper.appendChild(buildSection(section, 1, ctx));
     }
 
     container.innerHTML = '';
@@ -297,30 +303,96 @@ function wrapInterlinearGroups(root) {
 }
 
 
-// Wrap each <h1> (except the first — the title) and its following siblings
-// up to the next <h1> in a <details>/<summary>, so major partitions can fold.
-function wrapCollapsibleSections(root) {
-  const h1s = Array.from(root.querySelectorAll(':scope > h1'));
-  if (h1s.length <= 1) return;
+// Split raw markdown at headings of exactly `level` (`#` count). Operates line
+// by line on the string — no parsing happens here, so each slice can be run
+// through `marked` independently and lazily. Everything before the first such
+// heading is the `preambleMd`; each heading at that level starts a section.
+// Returns { preambleMd, sections: [{ headingMd, bodyMd }] }.
+//
+// At the top level (1) the document title `# THE ...` is itself a level-1
+// heading, so the preamble naturally captures the title region. Heading lines
+// inside fenced code blocks are ignored so a code comment like `# foo` can't be
+// mistaken for a section boundary.
+function splitMarkdownIntoSections(text, level) {
+  const lines = text.split('\n');
+  const headingRe = new RegExp(`^#{${level}} (?!#)`);
 
-  for (let i = 1; i < h1s.length; i++) {
-    const heading = h1s[i];
-    const details = document.createElement('details');
-    details.className = 'md-reader__section';
-    details.open = false;
-
-    const summary = document.createElement('summary');
-    summary.className = 'md-reader__section-summary';
-    summary.innerHTML = heading.innerHTML;
-    details.appendChild(summary);
-
-    let node = heading.nextSibling;
-    while (node && !(node.nodeType === 1 && node.tagName === 'H1')) {
-      const next = node.nextSibling;
-      details.appendChild(node);
-      node = next;
-    }
-
-    heading.replaceWith(details);
+  const headingLineIndices = [];
+  let inFence = false;
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^(```|~~~)/.test(line)) inFence = !inFence;
+    if (!inFence && headingRe.test(line)) headingLineIndices.push(i);
   }
+
+  const sliceLines = (start, end) => lines.slice(start, end).join('\n');
+
+  // No headings at this level: the whole slice is preamble, no sub-sections.
+  if (headingLineIndices.length === 0) {
+    return { preambleMd: text, sections: [] };
+  }
+
+  // At the top level, the title `# THE ...` is a heading too, so the title
+  // region is the content up to the *second* heading. At deeper levels there is
+  // no title, so the preamble is whatever precedes the first heading.
+  const firstSectionIdx = level === 1 ? 1 : 0;
+  const preambleEnd = headingLineIndices[firstSectionIdx] ?? lines.length;
+  const preambleMd = sliceLines(0, preambleEnd);
+
+  const sections = [];
+  for (let s = firstSectionIdx; s < headingLineIndices.length; s++) {
+    const start = headingLineIndices[s];
+    const end = s + 1 < headingLineIndices.length ? headingLineIndices[s + 1] : lines.length;
+    const headingMd = lines[start].replace(/^#+\s+/, '');
+    const bodyMd = sliceLines(start + 1, end);
+    sections.push({ headingMd, bodyMd });
+  }
+
+  return { preambleMd, sections };
+}
+
+// Build one collapsible section as a <details> whose contents are constructed
+// lazily on first open. On open it splits its own body at the next heading
+// level and recurses, so an arbitrarily large/deep section (Euclid Book X, the
+// Almagest's chapters) never tokenizes more than its own preamble in one pass.
+function buildSection({ headingMd, bodyMd }, level, ctx) {
+  const { md, blocksById } = ctx;
+
+  const details = document.createElement('details');
+  details.className = 'md-reader__section';
+  details.dataset.level = String(level);
+  details.open = false;
+
+  const summary = document.createElement('summary');
+  summary.className = 'md-reader__section-summary';
+  summary.innerHTML = md.parseInline(headingMd);
+  details.appendChild(summary);
+
+  const body = document.createElement('div');
+  details.appendChild(body);
+
+  let built = false;
+  details.addEventListener('toggle', () => {
+    if (!details.open || built) return;
+    built = true;
+
+    const { preambleMd, sections } = splitMarkdownIntoSections(bodyMd, level + 1);
+    body.innerHTML = md.parse(preambleMd);
+    finalizeSubtree(body, blocksById);
+
+    for (const sub of sections) {
+      body.appendChild(buildSection(sub, level + 1, ctx));
+    }
+  });
+
+  return details;
+}
+
+// Run the structural passes (interlinear grouping, image controls) and render
+// any KaTeX placeholders, scoped to a freshly-built subtree. Called once for
+// the title region and once per section when it is first opened.
+function finalizeSubtree(root, blocksById) {
+  wrapInterlinearGroups(root);
+  wrapImagesWithControls(root);
+  renderLatexPlaceholdersIn(root, blocksById);
 }

@@ -15,8 +15,17 @@
           "note": "This book takes time, aim for 3 - 5 propositions a day while reading through the rest of the texts. Finish before starting Ptolemy.",
           "passages": [
             "Book I",
-            "Book V definitions",
-            "Book VII"
+            "Book II: Propositions 11 and 14",
+            "Book III: Propositions 16 and 31",
+            "Book IV: Propositions 10–11",
+            "Book V: definitions; Propositions 4–5, 7, 9, 11–12, 16, 22, 25",
+            "Book VI: definitions; Propositions 1–2, 8, 19–20, 31",
+            "Book VII: definitions; Propositions 1–10, 16, 19, 29–32",
+            "Book IX: Propositions 20, 35–36",
+            "Book X: Propositions 1–2, 9–10",
+            "Book XI: definitions",
+            "Book XII: Proposition 2",
+            "Book XIII"
           ]
         },
         {
@@ -50,7 +59,7 @@
         {
           "type": "text",
           "id": "dionysus-thrax-art-of-grammar",
-          "note": "the grammarians' own account of the language, available as reference from here onward"
+          "note": "The grammarians' own account of the language, available as reference from here onward"
         },
         {
           "type": "text",
@@ -58,7 +67,11 @@
         },
         {
           "type": "text",
-          "id": "archimedes-equilibrium-of-planes"
+          "id": "archimedes-equilibrium-of-planes",
+          "passages": [
+            "Postulates and Propositions 1–7",
+            "Propositions 14–15"
+          ]
         },
         {
           "type": "supplement",
@@ -83,18 +96,27 @@
         },
         {
           "type": "text",
-          "id": "aristotle-parts-of-animals"
+          "id": "aristotle-parts-of-animals",
+          "passages": [
+            "Book I"
+          ]
         },
         {
           "type": "text",
           "id": "hippocrates-genuine-works",
           "passages": [
-            "Selected case histories and the Hippocratic Oath; specific selections in preparation."
+            "The Oath",
+            "On Ancient Medicine",
+            "On Airs, Waters, and Places",
+            "The Epidemics, Books I and III"
           ]
         },
         {
           "type": "text",
-          "id": "archimedes-floating-bodies"
+          "id": "archimedes-floating-bodies",
+          "passages": [
+            "Postulates and Propositions 1–7"
+          ]
         },
         {
           "type": "supplement",
@@ -116,7 +138,9 @@
           "type": "text",
           "id": "aristotle-nicomachean-ethics",
           "passages": [
-            "Full text recommended; a curated selection is in preparation."
+            "Books I–II",
+            "Book VI",
+            "Book X"
           ]
         },
         {
@@ -129,14 +153,16 @@
           "type": "text",
           "id": "aristotle-politics",
           "passages": [
-            "Full text recommended; a curated selection is in preparation."
+            "Books I and III",
+            "Book VIII"
           ]
         },
         {
           "type": "text",
           "id": "aristotle-physics",
           "passages": [
-            "Full text recommended; a curated selection is in preparation."
+            "Books I–II",
+            "Book VIII"
           ]
         },
         {
@@ -188,7 +214,9 @@
           "type": "text",
           "id": "aristotle-metaphysics",
           "passages": [
-            "Full text recommended; a curated selection is in preparation."
+            "Book I",
+            "Book IV",
+            "Book XII"
           ]
         },
         {
@@ -201,7 +229,11 @@
         },
         {
           "type": "text",
-          "id": "archimedes-quadrature-of-the-parabola"
+          "id": "archimedes-quadrature-of-the-parabola",
+          "passages": [
+            "Propositions 1–5",
+            "Propositions 18–24"
+          ]
         },
         {
           "type": "supplement",
@@ -217,7 +249,11 @@
         },
         {
           "type": "text",
-          "id": "archimedes-geometrical-solutions"
+          "id": "archimedes-geometrical-solutions",
+          "passages": [
+            "The prefatory letter to Eratosthenes",
+            "Propositions 1–3"
+          ]
         },
         {
           "type": "supplement",
@@ -235,7 +271,7 @@
           "type": "text",
           "id": "aristotle-de-anima",
           "passages": [
-            "Full text recommended; a curated selection is in preparation."
+            "Books II–III"
           ]
         },
         {

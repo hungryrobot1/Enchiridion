@@ -19,7 +19,7 @@ export function renderLanding(container) {
         A self-directed reading sequence through primary sources in mathematics,
         science, and philosophy &mdash; <strong>over 250 texts</strong> across eight
         chronological eras, from Homer to the present. Open source, built in public,
-        currently version 0.3.
+        currently version 0.3.1.
       </p>
     </section>
 
@@ -41,6 +41,8 @@ export function renderLanding(container) {
         <div class="landing__card-title">Explore</div>
       </a>
     </div>
+
+    <a class="landing__updates" href="#/changelog">Read about the latest updates &rarr;</a>
 
     <footer class="landing__footer">
       <a href="#/about">About</a>

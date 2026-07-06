@@ -10,7 +10,9 @@ export function navigate(hash) {
 }
 
 function matchRoute(hash) {
-  const path = hash.replace(/^#\/?/, '/');
+  // A section deep-link rides after the route as `?s=<section-path>` — strip
+  // it before matching; the markdown reader reads it back from the hash.
+  const path = hash.replace(/^#\/?/, '/').split('?')[0];
   for (const { pattern, handler } of routes) {
     const params = matchPattern(pattern, path);
     if (params !== null) return { handler, params };

@@ -1,0 +1,19 @@
+{
+  "title": "Topics",
+  "author": "Aristotle",
+  "translator": "W.A. Pickard-Cambridge",
+  "year_written": "~350 BCE",
+  "year_translated": 1928,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "AristotleOrganoncollectedWorks-split.pdf",
+  "description": "Dialectical reasoning — how to argue from accepted opinions, and the classification of arguments",
+  "topics": [
+    "philosophy",
+    "logic"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "pending"
+}

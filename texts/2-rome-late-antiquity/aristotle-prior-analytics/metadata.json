@@ -1,0 +1,19 @@
+{
+  "title": "Prior Analytics",
+  "author": "Aristotle",
+  "translator": "A.J. Jenkinson",
+  "year_written": "~350 BCE",
+  "year_translated": 1928,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "AristotleOrganoncollectedWorks-split.pdf",
+  "description": "The theory of the syllogism — formal deductive inference from premises to conclusion",
+  "topics": [
+    "philosophy",
+    "logic"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "pending"
+}

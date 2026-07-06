@@ -1,0 +1,20 @@
+{
+  "title": "The Collected Works of Aristotle",
+  "author": "Aristotle",
+  "translator": "Various",
+  "year_written": "~350 BCE",
+  "language": "English",
+  "original_language": "Greek",
+  "format": "pdf",
+  "filename": "AristotleOrganoncollectedWorks.pdf",
+  "description": "Single-volume collection of Aristotle's works in the Oxford translation — the source edition from which the six Organon texts were sliced, plus seventeen further works beyond the logical corpus",
+  "topics": [
+    "philosophy",
+    "logic",
+    "natural-philosophy",
+    "metaphysics"
+  ],
+  "era": "ancient-greece",
+  "prerequisites": [],
+  "ocr_status": "pending"
+}

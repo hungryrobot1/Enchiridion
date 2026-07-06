@@ -8,6 +8,8 @@
 
 ## Book I: Definitions
 
+*Ready after Chapter 4.*
+
 *Definitions 1–23. Short, formulaic statements — ideal for early practice with cases and the article. Each definition is a single sentence or two. You already know most of the geometric vocabulary from the module's vocabulary list.*
 
 The definitions establish Euclid's terms: point, line, surface, angle, circle, triangle, square, parallel lines, and the various kinds of angles and figures. They are the simplest Greek in the Elements — almost no verbs, mostly copulative constructions ("A point is that which has no part").
@@ -65,6 +67,8 @@ Work through all 23. They go quickly.
 
 ## Book I: Postulates and Common Notions
 
+*Ready after Chapter 4.*
+
 *Postulates 1–5, Common Notions 1–5. Philosophically dense in minimal Greek.*
 
 The five postulates are requests: "let it be demanded that..." (ᾐτήσθω). They ask for permission to draw lines, extend lines, describe circles, and assert that all right angles are equal. The fifth postulate — the parallel postulate — is the most famous axiom in the history of mathematics. Its Greek is longer and more syntactically involved than the other four. It will repay careful parsing.
@@ -107,6 +111,8 @@ The common notions are self-evident truths: things equal to the same thing are e
 
 ## Book I: Selected Propositions
 
+*Ready after Chapter 5.*
+
 ### Proposition I.1 — Constructing an Equilateral Triangle
 
 *The very first proposition in the Elements.* Given a finite straight line, construct an equilateral triangle upon it. This is a *construction* (πρόβλημα), not a theorem (θεώρημα), so it ends with ὅπερ ἔδει ποιῆσαι (Q.E.F. — "which was to be done") rather than ὅπερ ἔδει δεῖξαι (Q.E.D. — "which was to be shown"). Short, elegant, and discussed in the module chapters. Here, you will fully translate it. [Proposition I.1 on Persues](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D1%3Atype%3DProp%3Anumber%3D1)
@@ -135,6 +141,8 @@ The common notions are self-evident truths: things equal to the same thing are e
 
 ## Book V: Definitions — Ratio and Proportion
 
+*Ready after Chapter 4.*
+
 *Definitions 1–5 (at minimum). The conceptual foundation for the theory of proportion.*
 
 Book V is where Euclid handles ratios between magnitudes — a theory attributed to Eudoxus. The definitions introduce λόγος (ratio), ἀναλογία (proportion), and the famous Definition 5, which defines when magnitudes are "in the same ratio." Definition 5 is one of the most important single sentences in the history of mathematics: it provides a rigorous treatment of proportion that handles incommensurable magnitudes — a problem the Pythagoreans had discovered but not solved.
@@ -155,11 +163,15 @@ The Greek is more abstract than Book I — fewer triangles and circles, more tal
 
 ## Book V: Proposition 19 — Remainders in Proportion
 
+*Ready after Chapter 5.*
+
 *If, as a whole is to a whole, so is a part subtracted to a part subtracted, the remainder will also be to the remainder as whole to whole.* This proposition puts the proportion formula ὡς ... πρὸς ..., οὕτως ... πρὸς ... to work in a concrete proof. The enunciation reads almost like a proverb. Grammatically, watch for the passive aorist participle ἀφαιρεθέν ("the part having been subtracted") and the characteristic lettered-magnitude constructions (ὅλον τὸ ΑΒ, λοιπὸν τὸ ΕΒ). The proof is short and self-contained — a good exercise after absorbing the definitions above. [Proposition V.19 on Perseus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D5%3Atype%3DProp%3Anumber%3D19)
 
 ---
 
 ## Book VII: Definitions — Number Theory
+
+*Ready after Chapter 4.*
 
 *Definitions 1–22. Euclid's arithmetic vocabulary.*
 
@@ -215,6 +227,8 @@ These definitions are short and formulaic, like Book I's — accessible Greek wi
 
 ## Book X: Definitions — Commensurability and Irrationality
 
+*Ready after Chapter 4.*
+
 *Definitions 1–4. The groundwork for Euclid's treatment of irrational magnitudes.*
 
 Book X is the longest and most technical book of the Elements. Its four opening definitions establish the key distinctions: commensurable (σύμμετρα) and incommensurable (ἀσύμμετρα) magnitudes, and rational (ῥητά) and irrational (ἄλογα) magnitudes. These four short statements set up the entire investigation.
@@ -232,6 +246,8 @@ The vocabulary is striking: ἄλογος literally means "without ratio" or "wi
 ---
 
 ## Book X: Proposition 10 — The Existence of Incommensurable Magnitudes
+
+*Ready after Chapter 5.*
 
 *To find two straight lines incommensurable with a given straight line, one commensurable in square only, the other incommensurable in square also.* This proposition gestures at one of the deepest results in ancient mathematics: that irrational magnitudes exist, and that they come in different kinds. The proof is constructive and relatively short. It brings together the vocabulary from the Book X definitions and gives concrete mathematical meaning to the abstract distinctions established there. [Proposition X.10 on Perseus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0085%3Abook%3D10%3Atype%3DProp+1%3Anumber%3D10)
 

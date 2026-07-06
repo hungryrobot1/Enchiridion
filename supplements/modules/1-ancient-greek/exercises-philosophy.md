@@ -8,11 +8,14 @@
 
 ## Heraclitus — Fragments
 
+*Ready after Chapter 5.*
+
 *Short, dense, oracular. Heraclitus writes in a compressed style that resists easy translation — each fragment is a puzzle. The Greek text is provided directly; translate them one at a time, as you would the Proverbs.*
 
-*Fragments are numbered following the Diels-Kranz system. See Burnet's edition in your references for more, or consult the digital copy (interlinerar provided) from [heraclitusfragments.com](https://heraclitusfragments.com/files/ge.html).*
+*Fragments are numbered following the Diels-Kranz system. See Burnet's edition in your references for more, or consult the digital copy (interlinear provided) from [heraclitusfragments.com](https://heraclitusfragments.com/files/ge.html).*
 
 **Fragment 1** (opening of his book)
+*The hardest fragment in the set, placed first only because Heraclitus placed it first. It opens with a genitive absolute in Ionic dress (ἐόντος, where Attic writes ὄντος) — Chapter 5 works through this very clause. If it resists you, warm up on Fragment 93 and the shorter fragments, then return.*
 τοῦ δὲ λόγου τοῦδ ἐόντος ἀεὶ ἀξύνετοι γίνονται ἄνθρωποι καὶ πρόσθεν ἢ ἀκοῦσαι καὶ ἀκούσαντες τὸ πρῶτον· γινομένων γὰρ πάντων κατὰ τὸν λόγον τόνδε ἀπείροισιν ἐοίκασι πειρώμενοι καὶ ἐπέων καὶ ἔργων τοιούτων ὁκοίων ἐγὼ διηγεῦμαι κατὰ φύσιν διαιρέων ἕκαστον καὶ φράζων ὅκως ἔχει· τοὺς δὲ ἄλλους ἀνθρώπους λανθάνει ὁκόσα ἐγερθέντες ποιοῦσιν ὅκωσπερ ὁκόσα εὕδοντες ἐπιλανθάνονται
 
 **Fragment 12** (ever-changing river)
@@ -51,6 +54,8 @@
 ---
 
 ## Sappho — Selected Fragments
+
+*Ready after Chapter 5.*
 
 *Lyric poetry in the Aeolic dialect. Sappho's Greek differs from the Attic you have been learning — different vowel sounds, different verb forms, a different music. But the core grammar is the same, and the emotional directness of her language makes it surprisingly accessible. Consult the Wharton edition in your references for text and commentary.*
 
@@ -185,6 +190,8 @@ Four lines of absolute simplicity and loneliness. The most frequently anthologiz
 
 ## Aristotle — Selected Passages
 
+*Ready after Chapter 5.*
+
 *Aristotle's prose is dense, technical, and precise — the opposite of Heraclitus. Where Heraclitus compresses, Aristotle distinguishes. His sentences are often long but logically structured: if you follow the argument, the grammar follows. These passages introduce key Aristotelian concepts that recur throughout the curriculum.*
 
 **Metaphysics 980a21 — "All human beings by nature desire to know"**
@@ -214,6 +221,8 @@ The problem statement: how is it possible to know what is good and yet fail to d
 ---
 
 ## Plato — Selected Passages
+
+*Ready after Chapter 6.*
 
 *Plato's dialogues are conversations, and his Greek reads like speech — questions, interruptions, ironic asides. The syntax is more fluid than Aristotle's but can be deceptively complex, especially when Socrates builds an argument through nested conditional clauses. The Meno slave boy passage is the module's capstone; the others are for further exploration.*
 
@@ -248,6 +257,8 @@ Timaeus lays out the cosmological framework: what always *is* (τὸ ὂν ἀε
 ---
 
 ## One-Liners and Famous Expressions
+
+*Ready after Chapter 3.*
 
 *Translate these on sight. Many are paraphrases or condensations rather than direct quotations, but they capture ideas that defined Greek thought. Each one is a meditation.*
 

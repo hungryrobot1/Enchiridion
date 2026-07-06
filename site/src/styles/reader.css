@@ -72,6 +72,23 @@
   transition: color var(--transition), border-color var(--transition);
 }
 
+.reader__lang-select {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
+  padding: var(--space-2xs) var(--space-xs);
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.reader__lang-select:hover {
+  color: var(--color-ink);
+  border-color: var(--color-accent-hover);
+}
+
 .reader__btn:hover {
   color: var(--color-accent-hover);
   border-color: var(--color-accent-hover);
@@ -329,6 +346,9 @@
 .md-reader__section {
   margin: var(--space-xl) 0 0;
   border-top: 1px solid var(--color-rule);
+  /* Deep-linked sections scroll to the top of the viewport; keep the summary
+     clear of the sticky site header. */
+  scroll-margin-top: calc(var(--header-height) + var(--space-sm));
 }
 
 .md-reader__section[open] {
@@ -384,6 +404,51 @@
 
 .md-reader__section-summary:hover {
   color: var(--color-accent);
+}
+
+/* Section deep links: the § copy-link button, revealed on hover/focus. */
+.md-reader__anchor {
+  margin-left: var(--space-sm);
+  padding: 0 var(--space-2xs);
+  font-family: var(--font-serif);
+  font-size: 0.7em;
+  color: var(--color-ink-faint);
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition), color var(--transition);
+}
+
+.md-reader__section-summary:hover .md-reader__anchor,
+.md-reader__anchor:focus-visible {
+  opacity: 1;
+}
+
+/* Touch devices have no hover: keep the anchor faintly visible instead of
+   leaving an invisible tap target next to every heading. */
+@media (hover: none) {
+  .md-reader__anchor {
+    opacity: 0.45;
+  }
+}
+
+.md-reader__anchor:hover {
+  color: var(--color-accent);
+}
+
+/* Brief flash on the summary a deep link landed on. */
+.md-reader__section-summary--targeted {
+  animation: md-reader-target-flash 2s ease;
+}
+
+@keyframes md-reader-target-flash {
+  0%, 60% {
+    background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+  }
+  100% {
+    background: transparent;
+  }
 }
 
 .pdf-reader-container {
@@ -546,6 +611,29 @@
     padding-right: 0;
     padding-bottom: var(--space-md);
   }
+}
+
+/* Language display mode for interlinear texts, set by the toolbar selector
+ * (`data-lang` on .md-reader). Single-language modes hide the other language
+ * and collapse the rows back into the normal prose column. Pure CSS, so
+ * sections built lazily after a mode change inherit it automatically. */
+.md-reader[data-lang="en"] .lang-grc,
+.md-reader[data-lang="grc"] .lang-en {
+  display: none;
+}
+
+.md-reader[data-lang="en"] .md-reader__interlinear-row,
+.md-reader[data-lang="grc"] .md-reader__interlinear-row {
+  grid-template-columns: 1fr;
+  --interlinear-row-width: 100%;
+  width: 100%;
+  margin-left: 0;
+}
+
+.md-reader[data-lang="grc"] .md-reader__interlinear-row>.lang-grc {
+  border-right: none;
+  border-bottom: none;
+  padding-right: 0;
 }
 
 @media (max-width: 640px) {

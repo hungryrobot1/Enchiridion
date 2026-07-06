@@ -2,6 +2,8 @@
 
 *Additional translation passages from the Septuagint and New Testament to accompany Chapter 7 of the Ancient Greek module. You have spent the module reading Euclid, Heraclitus, Sappho, and Plato. Now the same language carries different freight — the Greek of the Jewish and Christian scriptures, shaped by Hebrew thought, theological urgency, and centuries of liturgical use.*
 
+*Ready after Chapter 7.*
+
 *These passages are invitations, not assignments. Pick what draws you. Some are short enough for a single sitting; others will take sustained work. The New Testament links go to Perseus Hopper, where you can click any word for morphological parsing. The Septuagint links go to Scaife, which provides the Greek text with an English interlinear but without word-by-word parsing — you will need to use the LSJ and Smyth more actively.*
 
 ---

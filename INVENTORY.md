@@ -1,6 +1,6 @@
 # Enchiridion Inventory
 
-_Generated 2026-06-23 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
+_Generated 2026-07-06 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
 
 ## Texts
 
@@ -18,6 +18,7 @@ _Generated 2026-06-23 by `utilities/inventory.py`. Each entry is a directory nam
 - archimedes-heath-works
 - archimedes-quadrature-of-the-parabola
 - aristophanes-clouds
+- aristotle-collective-works
 - aristotle-de-anima
 - aristotle-metaphysics
 - aristotle-nicomachean-ethics
@@ -45,6 +46,11 @@ _Generated 2026-06-23 by `utilities/inventory.py`. Each entry is a directory nam
 ### Rome and Late Antiquity
 
 - aristotle-categories
+- aristotle-on-interpretation
+- aristotle-posterior-analytics
+- aristotle-prior-analytics
+- aristotle-sophistical-refutations
+- aristotle-topics
 - augustine-city-of-god
 - augustine-confessions
 - boethius-consoltion-of-philosophy
@@ -193,6 +199,7 @@ _Generated 2026-06-23 by `utilities/inventory.py`. Each entry is a directory nam
 - de-broglie-on-the-theory-of-quanta
 - dewey-the-public-and-its-problems
 - dirac-quantum-theory-of-the-electron
+- dodge-v-ford
 - du-bois-the-souls-of-black-folk
 - einstein-does-inertia-of-a-body-depend-upon-its-content
 - einstein-foundation-of-general-theory-of-relativity
@@ -217,6 +224,7 @@ _Generated 2026-06-23 by `utilities/inventory.py`. Each entry is a directory nam
 - kafka-metamorphosis
 - kierkegaard-selections
 - lovelace-sketch-of-the-analytical-engine
+- marinetti-futurist-manifesto
 - minkowski-space-and-time
 - nietzsche-beyond-good-and-evil
 - nietzsche-geneaology-of-morals
@@ -278,6 +286,7 @@ _Generated 2026-06-23 by `utilities/inventory.py`. Each entry is a directory nam
 - stepanov-mcjones-elements-of-programming
 - strauss-historicism-and-modern-relativism
 - strauss-natural-right
+- trump-inaugural-2017
 - turing-computing-machinery-and-intelligence
 - turing-on-computable-numbers
 - universal-declaration-of-human-rights

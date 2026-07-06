@@ -202,12 +202,27 @@ export default {
     wrapper.innerHTML = md.parse(preambleMd);
     finalizeSubtree(wrapper, blocksById);
 
+    const usedSlugs = new Set();
     for (const section of sections) {
-      wrapper.appendChild(buildSection(section, 1, ctx));
+      wrapper.appendChild(buildSection(section, 1, ctx, '', usedSlugs));
     }
 
     container.innerHTML = '';
     container.appendChild(wrapper);
+
+    // Interlinear texts get a language-display selector in the shell toolbar:
+    // Interlinear (default) / English only / Greek only. Visibility is CSS
+    // keyed off `data-lang` on the wrapper, so lazily-built sections inherit
+    // the mode with no re-render — and the selector doubles as a signal of
+    // what kind of text this is before any section is opened.
+    if (shell && /class="lang-grc"/.test(text)) {
+      mountLangSelector(shell, wrapper);
+    }
+
+    // Deep link: `#/route?s=<section-path>` opens the named section (building
+    // each lazy ancestor on the way down) and scrolls to it.
+    const targetSection = parseSectionParam();
+    if (targetSection) openSectionPath(wrapper, targetSection);
 
     return () => {
       container.innerHTML = '';
@@ -355,7 +370,15 @@ function splitMarkdownIntoSections(text, level) {
 // lazily on first open. On open it splits its own body at the next heading
 // level and recurses, so an arbitrarily large/deep section (Euclid Book X, the
 // Almagest's chapters) never tokenizes more than its own preamble in one pass.
-function buildSection({ headingMd, bodyMd }, level, ctx) {
+//
+// Each section carries a stable id in `data-section`: the slugified heading
+// path from the document root (e.g. "book-x/proposition-9"). These are the
+// anchors that `?s=` deep links target. The lazy build is exposed through
+// `sectionBuilders` so a deep link can construct ancestors synchronously
+// instead of waiting on the async toggle event.
+const sectionBuilders = new WeakMap();
+
+function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) {
   const { md, blocksById } = ctx;
 
   const details = document.createElement('details');
@@ -363,29 +386,121 @@ function buildSection({ headingMd, bodyMd }, level, ctx) {
   details.dataset.level = String(level);
   details.open = false;
 
+  const slug = uniqueSlug(slugifyHeading(headingMd), usedSlugs);
+  const path = parentPath ? `${parentPath}/${slug}` : slug;
+  details.dataset.section = path;
+
   const summary = document.createElement('summary');
   summary.className = 'md-reader__section-summary';
   summary.innerHTML = md.parseInline(headingMd);
+  summary.appendChild(buildAnchorButton(path));
   details.appendChild(summary);
 
   const body = document.createElement('div');
   details.appendChild(body);
 
   let built = false;
-  details.addEventListener('toggle', () => {
-    if (!details.open || built) return;
+  const ensureBuilt = () => {
+    if (built) return;
     built = true;
 
     const { preambleMd, sections } = splitMarkdownIntoSections(bodyMd, level + 1);
     body.innerHTML = md.parse(preambleMd);
     finalizeSubtree(body, blocksById);
 
+    const childSlugs = new Set();
     for (const sub of sections) {
-      body.appendChild(buildSection(sub, level + 1, ctx));
+      body.appendChild(buildSection(sub, level + 1, ctx, path, childSlugs));
     }
+  };
+  sectionBuilders.set(details, ensureBuilt);
+  details.addEventListener('toggle', () => {
+    if (details.open) ensureBuilt();
   });
 
   return details;
+}
+
+// Slug for one heading: markdown emphasis stripped, lowercased, non-alphanumeric
+// runs collapsed to hyphens. Unicode letters (Greek headings) survive.
+function slugifyHeading(headingMd) {
+  const slug = headingMd
+    .replace(/[*_`~]/g, '')
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, '-')
+    .replace(/^-+|-+$/g, '');
+  return slug || 'section';
+}
+
+function uniqueSlug(slug, used) {
+  let candidate = slug;
+  for (let n = 2; used.has(candidate); n++) candidate = `${slug}-${n}`;
+  used.add(candidate);
+  return candidate;
+}
+
+// Read the `?s=<section-path>` deep-link parameter from the current hash.
+function parseSectionParam() {
+  const hash = window.location.hash;
+  const q = hash.indexOf('?');
+  if (q === -1) return null;
+  return new URLSearchParams(hash.slice(q + 1)).get('s');
+}
+
+// Walk a section path from the root, building and opening each ancestor, then
+// scroll the deepest section found into view. Tolerates a partially-matching
+// path (opens as far as it can); scroll-margin-top in CSS keeps the summary
+// clear of the sticky header.
+function openSectionPath(wrapper, path) {
+  const segments = path.split('/').filter(Boolean);
+  let scope = wrapper;
+  let target = null;
+  let progressive = '';
+
+  for (const segment of segments) {
+    progressive = progressive ? `${progressive}/${segment}` : segment;
+    const next = scope.querySelector(`details[data-section="${progressive}"]`);
+    if (!next) break;
+    const ensureBuilt = sectionBuilders.get(next);
+    if (ensureBuilt) ensureBuilt();
+    next.open = true;
+    target = next;
+    scope = next;
+  }
+
+  if (!target) return;
+  requestAnimationFrame(() => {
+    target.scrollIntoView({ block: 'start' });
+    const summary = target.querySelector(':scope > summary');
+    if (summary) {
+      summary.classList.add('md-reader__section-summary--targeted');
+      setTimeout(() => summary.classList.remove('md-reader__section-summary--targeted'), 2000);
+    }
+  });
+}
+
+// The § button on each section summary: copies a deep link to that section.
+// Click must not toggle the <details> it sits inside.
+function buildAnchorButton(path) {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'md-reader__anchor';
+  btn.title = 'Copy link to this section';
+  btn.setAttribute('aria-label', 'Copy link to this section');
+  btn.textContent = '§';
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const base = window.location.href.split('#')[0];
+    const route = window.location.hash.split('?')[0] || '#/';
+    const link = `${base}${route}?s=${path}`;
+    if (!navigator.clipboard) return;
+    navigator.clipboard.writeText(link).then(() => {
+      btn.textContent = '✓';
+      setTimeout(() => { btn.textContent = '§'; }, 1200);
+    });
+  });
+  return btn;
 }
 
 // Run the structural passes (interlinear grouping, image controls) and render
@@ -395,4 +510,37 @@ function finalizeSubtree(root, blocksById) {
   wrapInterlinearGroups(root);
   wrapImagesWithControls(root);
   renderLatexPlaceholdersIn(root, blocksById);
+}
+
+// Language-display selector for interlinear (bilingual) texts. The chosen
+// mode persists across texts and visits.
+const LANG_MODE_KEY = 'enchiridion:lang-mode';
+const LANG_MODES = ['both', 'en', 'grc'];
+
+function mountLangSelector(shell, wrapper) {
+  const actions = shell.querySelector('.reader__actions');
+  if (!actions || actions.querySelector('.reader__lang-select')) return;
+
+  const select = document.createElement('select');
+  select.className = 'reader__lang-select';
+  select.title = 'Language display';
+  select.setAttribute('aria-label', 'Language display');
+  select.innerHTML = `
+    <option value="both">Interlinear</option>
+    <option value="en">English</option>
+    <option value="grc">Greek</option>
+  `;
+
+  let saved = 'both';
+  try { saved = localStorage.getItem(LANG_MODE_KEY) || 'both'; } catch { /* unavailable */ }
+  if (!LANG_MODES.includes(saved)) saved = 'both';
+  select.value = saved;
+  wrapper.dataset.lang = saved;
+
+  select.addEventListener('change', () => {
+    wrapper.dataset.lang = select.value;
+    try { localStorage.setItem(LANG_MODE_KEY, select.value); } catch { /* unavailable */ }
+  });
+
+  actions.insertBefore(select, actions.firstElementChild);
 }

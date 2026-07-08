@@ -72,7 +72,11 @@ Suppose $BC$ measured along $BA$ equal to $D$, and let $GH$ be any straight line
 
 Then, if $CA$ be added to itself a sufficient number of times, the sum will exceed $D$. Let $AF$ be this sum, and take $E$ on $GH$ produced such that $GH$ is the same multiple of $HE$ that $AF$ is of $AC$.
 
-Thus $EH: HG = AC: AF$.
+Thus
+
+$$
+EH: HG = AC: AF.
+$$
 
 But, since $AF &gt; D$ (or $CB$),
 
@@ -124,7 +128,11 @@ $$
 
 and the angles at $H, L$ are right;
 
-therefore $MK:LK &gt; OC:OH$
+therefore
+
+$$
+MK:LK &gt; OC:OH
+$$
 
 $$
 \begin{array}{l}
@@ -224,7 +232,11 @@ Let $ABC$ be the circular base of the cone, and $O$ its apex.
 
 Draw a chord $AB$ in the circle, and join $OA$, $OB$. Bisect the arc $ACB$ in $C$, and join $AC$, $BC$, $OC$.
 
-Then $\triangle OAC + \triangle OBC &gt; \triangle OAB$.
+Then
+
+$$
+\triangle OAC + \triangle OBC &gt; \triangle OAB.
+$$
 
 ![img-7.jpeg](images/img-7.jpeg)
 
@@ -585,7 +597,11 @@ Therefore
 
 $$(\text{surface of pyramid}) = (\text{polygon about } B).$$
 
-Now $(\text{polygon about } B): (\text{polygon in } B) &lt; S : B.$
+Now
+
+$$
+(\text{polygon about } B): (\text{polygon in } B) &lt; S : B.
+$$
 
 Therefore
 
@@ -609,7 +625,9 @@ $$(\text{polygon in } A): (\text{polygon in } B) = C^2 : E^2$$
 
 $$= C : D$$
 
-$&gt; (\text{polygon in } A): (\text{surface of pyramid excluding base}).$
+$$
+&gt; (\text{polygon in } A): (\text{surface of pyramid excluding base}).
+$$
 
 This is clear because the ratio of $C$ to $D$ is greater than the ratio of the perpendicular from the centre of $A$ on a side of the polygon to the perpendicular from the apex of the cone on the same side*.
 
@@ -617,9 +635,17 @@ Therefore
 
 $$(\text{surface of pyramid}) &gt; (\text{polygon in } B).$$
 
-But $(\text{polygon about } B): (\text{polygon in } B) &lt; B : S.$
+But
 
-Therefore, $a \text{ fortiori},$
+$$
+(\text{polygon about } B): (\text{polygon in } B) &lt; B : S.
+$$
+
+Therefore,
+
+$$
+a \text{ fortiori},
+$$
 
 $$(\text{polygon about } B): (\text{surface of pyramid}) &lt; B : S;$$
 
@@ -671,7 +697,11 @@ $$
 
 ![img-11.jpeg](images/img-11.jpeg)
 
-Hence $OA \cdot AC - OD \cdot DF = DA \cdot AC + DA \cdot DF$
+Hence
+
+$$
+OA \cdot AC - OD \cdot DF = DA \cdot AC + DA \cdot DF
+$$
 
 $$
 = DA \cdot (AC + DF).
@@ -756,7 +786,11 @@ $$
 
 But [Lemma 1] $OD : CD = (\text{rhombus } OABB) : (\text{cone } DAB)$,
 
-and $LP : CD = (\text{cone } LMN) : (\text{cone } DAB)$.
+and
+
+$$
+LP : CD = (\text{cone } LMN) : (\text{cone } DAB).
+$$
 
 It follows that
 
@@ -981,9 +1015,17 @@ $$
 (BB' + CC' + \dots + YY'): AA' = A'B: AB, \quad [\text{Prop. 21}]
 $$
 
-whence $AB(BB' + CC' + \dots + YY') = AA'.A'B.$
+whence
 
-Hence $(\text{radius of } R)^2 = AA'.A'B$
+$$
+AB(BB' + CC' + \dots + YY') = AA'.A'B.
+$$
+
+Hence
+
+$$
+(\text{radius of } R)^2 = AA'.A'B
+$$
 
 $$
 &lt; AA'^2.
@@ -1228,15 +1270,27 @@ But this is impossible, since the volume of the circumscribed
 
 Take $x$ such that $\beta: \delta = \delta : x$.
 
-Thus $\beta - \delta : \beta = \delta - x : \delta$
+Thus
+
+$$
+\beta - \delta : \beta = \delta - x : \delta
+$$
 
 and, since $\beta &gt; \delta$, $\beta - \delta &gt; \delta - x$.
 
 But, by hypothesis, $\beta - \delta = \delta - \epsilon$.
 
-Therefore $\delta - \epsilon &gt; \delta - x$,
+Therefore
 
-or $x &gt; \epsilon$.
+$$
+\delta - \epsilon &gt; \delta - x,
+$$
+
+or
+
+$$
+x &gt; \epsilon.
+$$
 
 Again, suppose $\delta : x = x : y$,
 
@@ -1244,13 +1298,21 @@ and, as before, we have $\delta - x &gt; x - y$,
 
 so that, a fortiori, $\delta - \epsilon &gt; x - y$.
 
-Therefore $\epsilon - \gamma &gt; x - y$;
+Therefore
+
+$$
+\epsilon - \gamma &gt; x - y;
+$$
 
 and, since $x &gt; \epsilon$, $y &gt; \gamma$.
 
 Now, by hypothesis, $\beta, \delta, x, y$ are in continued proportion;
 
-therefore $\beta^{3}: \delta^{3} = \beta : y$
+therefore
+
+$$
+\beta^{3}: \delta^{3} = \beta : y
+$$
 
 $$
 &lt; \beta : \gamma.
@@ -1610,13 +1672,21 @@ $$
 &lt; S: R, \text{ by hypothesis.}
 $$
 
-Now $(V + \text{cone } OLL') &gt; S$.
+Now
+
+$$
+(V + \text{cone } OLL') &gt; S.
+$$
 
 Therefore also $(v + \text{cone } Oll') &gt; R$.
 
 But this is impossible, by Prop. 38, Cor. combined with Props. 42, 43.
 
-Hence $S \neq R$.
+Hence
+
+$$
+S \neq R.
+$$
 
 II. Suppose, if possible, that $S &lt; R$.
 
@@ -1634,9 +1704,17 @@ $$
 (V + \text{cone } OLL'): (v + \text{cone } Oll') &lt; R: S.
 $$
 
-Now $(v + \text{cone } Oll') &lt; S$.
+Now
 
-Therefore $(V + \text{cone } OLL') &lt; R$;
+$$
+(v + \text{cone } Oll') &lt; S.
+$$
+
+Therefore
+
+$$
+(V + \text{cone } OLL') &lt; R;
+$$
 
 which is impossible, by Prop. 40, Cor. 2 combined with Props. 42, 43.
 
@@ -1689,7 +1767,11 @@ EF^2 = AB \cdot MN
 \tag{2}
 $$
 
-Hence $AB : EF = EF : MN$
+Hence
+
+$$
+AB : EF = EF : MN
+$$
 
 and, combining (1) and (2), we have
 
@@ -1703,7 +1785,11 @@ $$
 AB : EF = MN : OD.
 $$
 
-Therefore $AB : EF = EF : MN = MN : OD$
+Therefore
+
+$$
+AB : EF = EF : MN = MN : OD
+$$
 
 and $EF, MN$ are two mean proportionals between $AB, OD$.
 
@@ -1887,7 +1973,11 @@ $$
 AM: MA' = H:K.
 $$
 
-Then $AM: MA' = AB^2: A'B^2$
+Then
+
+$$
+AM: MA' = AB^2: A'B^2
+$$
 
 $$
 \begin{aligned}
@@ -1948,11 +2038,23 @@ and, from (2), $A'M: MA = H'M: OA + AM$
 
 $$ = A'H': OA \quad \text{(6)}. $$
 
-Thus $HA: AO = OA': A'H'$
+Thus
 
-whence $OH: OA' = OH': A'H'$
+$$
+HA: AO = OA': A'H'
+$$
 
-or $OH: OH' = OA': A'H'$
+whence
+
+$$
+OH: OA' = OH': A'H'
+$$
+
+or
+
+$$
+OH: OH' = OA': A'H'
+$$
 
 It follows that
 
@@ -1962,7 +2064,11 @@ or
 
 $$ HH'. H'A' = OH'^2. $$
 
-Therefore $HH': H'A' = OH'^2: H'A'^2$
+Therefore
+
+$$
+HH': H'A' = OH'^2: H'A'^2
+$$
 
 $$ = AA'^2: A'M^2, \text{ by means of (6)} $$
 
@@ -2149,7 +2255,11 @@ $$
 
 ![img-43.jpeg](images/img-43.jpeg)
 
-It follows that $PN^2 = MB^2 = EL.EN$.
+It follows that
+
+$$
+PN^2 = MB^2 = EL.EN.
+$$
 
 Hence, if a parabola be described with vertex $E$, axis $EN$, and parameter equal to $EL$, it will pass through $P$; and it will be given in position, since $EL$ is given.
 
@@ -2339,7 +2449,11 @@ By the property of the parabola,
 
 $$ qR^2 = EL'.ER, $$
 
-so that $QR^2 &lt; EL'.ER$.
+so that
+
+$$
+QR^2 &lt; EL'.ER.
+$$
 
 Suppose $QR^2 = EL.ER$,
 
@@ -2355,7 +2469,11 @@ or
 
 $$ AM.MB^2 = CE.EL.AC. $$
 
-Therefore $AM.MB^2 &lt; CE.EL'.AC$
+Therefore
+
+$$
+AM.MB^2 &lt; CE.EL'.AC
+$$
 
 $$ &lt; AO.OB^2. $$
 
@@ -2547,9 +2665,17 @@ $$
 = FA : AM, \text{ by similar triangles},
 $$
 
-whence $HA = FA$.
+whence
 
-Similarly $H'A' = A'E$.
+$$
+HA = FA.
+$$
+
+Similarly
+
+$$
+H'A' = A'E.
+$$
 
 Next,
 
@@ -2600,11 +2726,23 @@ $$
 P'V: PV = R'M: MR.
 $$
 
-Therefore $PV.P'V:PV^2 = RM.MR':RM^2.$
+Therefore
 
-But $PV^2 = 2RM^2.$
+$$
+PV.P'V:PV^2 = RM.MR':RM^2.
+$$
 
-Therefore $PV.P'V = 2RM.MR'.$
+But
+
+$$
+PV^2 = 2RM^2.
+$$
+
+Therefore
+
+$$
+PV.P'V = 2RM.MR'.
+$$
 
 And it was shown that
 
@@ -2612,9 +2750,17 @@ $$
 RM.MR':MH'^2 = C : D.
 $$
 
-Hence $PV.P'V:MH'^2 = 2C : D.$
+Hence
 
-But $MH' = A'M + A'E = VM + MQ = QV.$
+$$
+PV.P'V:MH'^2 = 2C : D.
+$$
+
+But
+
+$$
+MH' = A'M + A'E = VM + MQ = QV.
+$$
 
 Therefore $QV^2:PV.P'V = D:2C$, a given ratio.
 
@@ -2785,7 +2931,11 @@ Hence
 
 But, since the segments $DEF$, $def$ are similar, so are the cones $KEF$, $kef$.
 
-Therefore $KG: EF = kg: ef$.
+Therefore
+
+$$
+KG: EF = kg: ef.
+$$
 
 And the ratio $KG: EF$ is given. Therefore the ratio $kg: ef$ is given.
 
@@ -2827,9 +2977,17 @@ $$cd' + d'g : d'g = kg : gd.$$
 
 The cones *KEF*, *kef* are then similar.
 
-Therefore $kg : ef = KG : EF = HM : R,$
+Therefore
 
-whence $kg : HM = ef : R.$
+$$
+kg : ef = KG : EF = HM : R,
+$$
+
+whence
+
+$$
+kg : HM = ef : R.
+$$
 
 But, since *BB'*, *ef*, *S*, *R* are in continued proportion,
 
@@ -3050,7 +3208,11 @@ KM: MH &amp;= H'A': A'K, \text{ since } A'K = OA', \\
 \end{aligned}
 $$
 
-Therefore $H'M. MH &lt; KM^3.$
+Therefore
+
+$$
+H'M. MH &lt; KM^3.
+$$
 
 It follows that
 
@@ -3099,7 +3261,11 @@ $$
 
 Thus $H'A': A'K = A'N^2: A'K^2$ ...(3).
 
-Also $H'A': A'N = A'N: A'K,$
+Also
+
+$$
+H'A': A'N = A'N: A'K,
+$$
 
 and, *componendo*,
 
@@ -3107,7 +3273,11 @@ $$
 H'N: A'N = NK: A'K,
 $$
 
-whence $A'N^2: A'K^2 = H'N^2: NK^2.$
+whence
+
+$$
+A'N^2: A'K^2 = H'N^2: NK^2.
+$$
 
 Therefore, by (3),
 
@@ -3425,7 +3595,11 @@ Therefore the circumference of the circle (being less than the perimeter of the 
 
 II. Next let $AB$ be the diameter of a circle, and let $AC$, meeting the circle in $C$, make the angle $CAB$ equal to one-third of a right angle. Join $BC$.
 
-Then $AC : CB \ [= \sqrt{3} : 1] &lt; 1351 : 780$.
+Then
+
+$$
+AC : CB \ [= \sqrt{3} : 1] &lt; 1351 : 780.
+$$
 
 *First*, let $AD$ bisect the angle $BAC$ and meet $BC$ in $d$ and the circle in $D$. Join $BD$.
 
@@ -3444,7 +3618,11 @@ It follows that the triangles $ADB$, $[ACd]$, $BDd$ are similar.
 
 ![img-55.jpeg](images/img-55.jpeg)
 
-Therefore $AD : DB = BD : Dd$
+Therefore
+
+$$
+AD : DB = BD : Dd
+$$
 
 $$
 \begin{aligned}
@@ -3455,7 +3633,11 @@ $$
 \end{aligned}
 $$
 
-or $BA + AC : BC = AD : DB$.
+or
+
+$$
+BA + AC : BC = AD : DB.
+$$
 
 [But $AC:CB &lt; 1351:780$, from above,
 
@@ -3638,21 +3820,45 @@ If $S_n = A_1 + A_2 + \ldots + A_{n-1} + A_n,$
 
 we have also $S_n = A_n + A_{n-1} + A_{n-2} + \ldots + A_1.$
 
-And $A_1 + A_{n-1} = A_2 + A_{n-2} = \ldots = A_n.$
+And
 
-Therefore $2S_n = (n + 1)A_n,$
+$$
+A_1 + A_{n-1} = A_2 + A_{n-2} = \ldots = A_n.
+$$
 
-whence $n \cdot A_n &lt; 2S_n,$
+Therefore
 
-and $n \cdot A_n &gt; 2S_{n-1}.$
+$$
+2S_n = (n + 1)A_n,
+$$
+
+whence
+
+$$
+n \cdot A_n &lt; 2S_n,
+$$
+
+and
+
+$$
+n \cdot A_n &gt; 2S_{n-1}.
+$$
 
 Thus, if the progression is $a, 2a, \ldots, na,$
 
 $$ S_n = \frac{n(n + 1)}{2}a, $$
 
-and $n^a a &lt; 2S_n,$
+and
 
-but $&gt; 2S_{n-1}.]$
+$$
+n^a a &lt; 2S_n,
+$$
+
+but
+
+$$
+&gt; 2S_{n-1}.]
+$$
 
 ## Proposition 1.
 
@@ -3687,7 +3893,11 @@ The proof is as follows.
 
 Since $A_3: A_1 = A_4: A_2,$
 
-and $A_1: B_1 = A_2: B_2,$
+and
+
+$$
+A_1: B_1 = A_2: B_2,
+$$
 
 while $B_1: B_3 = B_2: B_4,$
 
@@ -3712,9 +3922,17 @@ $$
 A_1: A_2 = (A_1 + B_1 + C_1 + \ldots + K_1): (A_2 + B_2 + \ldots + K_2).
 $$
 
-or $(A_1 + B_1 + C_1 + \ldots + K_1): A_1 = (A_2 + B_2 + C_2 + \ldots + K_2): A_2$;
+or
 
-and $A_1: A_3 = A_2: A_4,$
+$$
+(A_1 + B_1 + C_1 + \ldots + K_1): A_1 = (A_2 + B_2 + C_2 + \ldots + K_2): A_2;
+$$
+
+and
+
+$$
+A_1: A_3 = A_2: A_4,
+$$
 
 while from equations (γ) it follows in like manner that
 
@@ -3793,9 +4011,13 @@ Now $2A_3 \cdot A_{n-2} = A_1 \cdot 4A_{n-3}$, because $A_3 = 2A_1$,
 
 $2A_3 \cdot A_{n-3} = A_1 \cdot 6A_{n-3}$, because $A_3 = 3A_1$,
 
-$\dots \dots \dots \dots \dots \dots \dots \dots$
+$$
+\dots \dots \dots \dots \dots \dots \dots \dots
+$$
 
-$2A_{n-1} \cdot A_1 = A_1 \cdot 2(n-1)A_1$.
+$$
+2A_{n-1} \cdot A_1 = A_1 \cdot 2(n-1)A_1.
+$$
 
 It follows that
 
@@ -3809,7 +4031,11 @@ $$
 A_1^2 + A_2^2 + \dots + A_n^2.
 $$
 
-For $A_n^2 = A_1(n \cdot A_n)$
+For
+
+$$
+A_n^2 = A_1(n \cdot A_n)
+$$
 
 $$
 = A_1 [A_n + (n-1)A_n] = A_1 [A_n + 2(A_{n-1} + A_{n-2} + \dots + A_1)],
@@ -3819,13 +4045,23 @@ $$
 \text{because } (n-1)A_n = A_{n-1} + A_1 + A_{n-2} + A_2 + \dots \dots \dots + A_1 + A_{n-1}.
 $$
 
-Similarly $A_{n-1}^2 = A_1 [A_{n-1} + 2(A_{n-2} + A_{n-3} + \dots + A_1)],$
+Similarly
 
-$\dots \dots \dots \dots \dots \dots \dots \dots$
+$$
+A_{n-1}^2 = A_1 [A_{n-1} + 2(A_{n-2} + A_{n-3} + \dots + A_1)],
+$$
 
-$A_2^2 = A_1 (A_2 + 2A_1)$,
+$$
+\dots \dots \dots \dots \dots \dots \dots \dots
+$$
 
-$A_1^2 = A_1 \cdot A_1$;
+$$
+A_2^2 = A_1 (A_2 + 2A_1),
+$$
+
+$$
+A_1^2 = A_1 \cdot A_1;
+$$
 
 whence, by addition,
 
@@ -3843,7 +4079,11 @@ $$n \cdot A_n^2 &lt; 3(A_1^2 + A_2^2 + \ldots + A_n^2) \quad \text{(1).}$$
 
 Also $A_n^2 = A_1\{A_n + 2(A_{n-1} + A_{n-2} + \ldots + A_1)\}$, as above,
 
-so that $A_n^2 &gt; A_1(A_n + A_{n-1} + \ldots + A_1)$,
+so that
+
+$$
+A_n^2 &gt; A_1(A_n + A_{n-1} + \ldots + A_1),
+$$
 
 and therefore
 
@@ -3860,7 +4100,11 @@ $$n \cdot A_n^2 &gt; 3(A_1^2 + A_2^2 + \ldots + A_{n-1}^2) \quad \text{(2).}$$
 $$(n + 1) n^2 a^2 + a (a + 2a + \ldots + na)$$
 $$= 3 \left\{ a^2 + (2a)^2 + (3a)^2 + \ldots + (na)^2 \right\}.$$
 
-Therefore $a^2 + (2a)^2 + (3a)^2 + \ldots + (na)^2$
+Therefore
+
+$$
+a^2 + (2a)^2 + (3a)^2 + \ldots + (na)^2
+$$
 
 $$= \frac{a^2}{3} \left\{ (n + 1) n^2 + \frac{n(n + 1)}{2} \right\}$$
 
@@ -3886,7 +4130,11 @@ $$
 
 then $n \cdot A_n : (A_1 + A_2 + \ldots + A_n) &lt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right),$
 
-and $n \cdot A_n : (A_1 + A_2 + \ldots + A_{n-1}) &gt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right).$
+and
+
+$$
+n \cdot A_n : (A_1 + A_2 + \ldots + A_{n-1}) &gt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right).
+$$
 
 For, by the Lemma immediately preceding Prop. 1,
 
@@ -3894,7 +4142,11 @@ $$
 n \cdot anx &lt; 2 (ax + a \cdot 2x + \ldots + a \cdot nx),
 $$
 
-and $&gt; 2 (ax + a \cdot 2x + \ldots + a \cdot n - 1 \cdot x).$
+and
+
+$$
+&gt; 2 (ax + a \cdot 2x + \ldots + a \cdot n - 1 \cdot x).
+$$
 
 Also, by the Lemma preceding this proposition,
 
@@ -3902,7 +4154,11 @@ $$
 n \cdot (nx)^2 &lt; 3 \left[ x^2 + (2x)^2 + (3x)^2 + \ldots + (nx)^2 \right]
 $$
 
-and $&gt; 3 \left[ x^2 + (2x)^2 + \ldots + (n - 1 \cdot x)^2 \right].$
+and
+
+$$
+&gt; 3 \left[ x^2 + (2x)^2 + \ldots + (n - 1 \cdot x)^2 \right].
+$$
 
 Hence
 
@@ -4182,7 +4438,11 @@ Q M^2 : H M. M K = B M. M D : H M. M K \\
 \end{array}
 $$
 
-Therefore $QM^2:PN^2 = HM.MK:BN.NB'$
+Therefore
+
+$$
+QM^2:PN^2 = HM.MK:BN.NB'
+$$
 
 $$
 = OM^2:ON^2;
@@ -4325,7 +4585,11 @@ Lastly, draw $QH$ perpendicular to $NM$ produced. $QH$ will then be perpendicula
 
 Now $QH^2: QM^2 = KR^2: OR^2$, by similar triangles.
 
-And $QM^2: AN.NA' = DM. ME: AN.NA'$
+And
+
+$$
+QM^2: AN.NA' = DM. ME: AN.NA'
+$$
 
 $$
 = OD^2: CA^2.
@@ -4400,7 +4664,11 @@ DM. ME: RM. MR' = AO^2: OP^2 \quad [\text{Prop. 3 (1)}] \\
 \end{array}
 $$
 
-Therefore $QM^2: RM. MR' = AO^2: OT^2$
+Therefore
+
+$$
+QM^2: RM. MR' = AO^2: OT^2
+$$
 
 $$
 = R'H^4: RR'^2,
@@ -4634,7 +4902,11 @@ $$BD + HO + \ldots &gt; 2(TO + SN + \ldots).$$
 
 Therefore (cylinder or frustum $EC$) &gt; 2 (inscribed fig.),
 
-or $X &gt; (\text{inscribed fig.})$
+or
+
+$$
+X &gt; (\text{inscribed fig.})
+$$
 
 which is impossible, by $(\alpha)$ above.
 
@@ -5536,11 +5808,23 @@ Then, since $BC &gt; BT$, and $OB$ is perpendicular to $CT$, it is possible to d
 
 Let $OGQ$ meet $AB$ in $F$ and the original circle in $P$.
 
-Now $CG.GT = OG.GQ;$
+Now
 
-and $OF:OG = BT:GT,$
+$$
+CG.GT = OG.GQ;
+$$
 
-so that $OF.GT = OG.BT.$
+and
+
+$$
+OF:OG = BT:GT,
+$$
+
+so that
+
+$$
+OF.GT = OG.BT.
+$$
 
 It follows that
 
@@ -5559,7 +5843,11 @@ CG: OF = GQ: BT \\
 \end{array}
 $$
 
-Hence $OP: OF = BC: CG,$
+Hence
+
+$$
+OP: OF = BC: CG,
+$$
 
 and therefore $PF: OP = BG: BC,$
 
@@ -5993,7 +6281,11 @@ where $OF$ meets the spiral in $Q$. [Prop. 15]
 
 Therefore, since $OA = OP$, $FO &lt; OQ$; which is impossible.
 
-Hence $OB \neq c$.
+Hence
+
+$$
+OB \neq c.
+$$
 
 (2) If possible, suppose $OB &lt; c$.
 
@@ -6072,7 +6364,11 @@ $$
 
 because $(\operatorname{arc} A'P) &gt; A'P$ and $OD' &gt; 2c'$.
 
-Therefore $FO : PO &lt; (2c' + \operatorname{arc} A'P) : 2c'$
+Therefore
+
+$$
+FO : PO &lt; (2c' + \operatorname{arc} A'P) : 2c'
+$$
 
 $$
 &lt; OQ : OA'. \quad [Prop. 15, Cor.]
@@ -6080,7 +6376,11 @@ $$
 
 Hence $FO &lt; OQ$; which is impossible.
 
-Thus $OB' \gg 2c'$.
+Thus
+
+$$
+OB' \gg 2c'.
+$$
 
 Similarly, as in the case of the ‘first circle’, we can prove that
 
@@ -6088,7 +6388,11 @@ $$
 OB' \not\ll 2c'.
 $$
 
-Therefore $OB' = 2c'$.
+Therefore
+
+$$
+OB' = 2c'.
+$$
 
 III. Proceeding, in like manner, to the ‘third’ and succeeding circles, we shall prove that
 
@@ -6146,11 +6450,19 @@ FO:QO &amp;&lt; (\operatorname{arc} KRQ): (\operatorname{arc} KRP) \\
 \end{aligned}
 $$
 
-But $QO = OP$.
+But
+
+$$
+QO = OP.
+$$
 
 Therefore $FO &lt; OQ'$; which is impossible.
 
-Hence $OT \nmid (\arc KRP)$.
+Hence
+
+$$
+OT \nmid (\arc KRP).
+$$
 
 (2) The proof that $OT \nmid (\arc KRP)$ follows the method of Prop. 18, I. (2), exactly as the above follows that of Prop. 18, I. (1).
 
@@ -6237,7 +6549,11 @@ $$
 F - R_1 &lt; \frac{1}{3}C_1 - R_1,
 $$
 
-whence $F &lt; \frac{1}{3}C_1$.
+whence
+
+$$
+F &lt; \frac{1}{3}C_1.
+$$
 
 Let $OP, OQ, \ldots$ be the radii of the circular sectors, beginning from the smallest. The radius of the largest is of course $OA$.
 
@@ -6267,7 +6583,11 @@ We can then *inscribe* a figure made up of similar sectors of circles such that,
 
 $$R_1 - f &lt; R_1 - \frac{1}{3}C_1,$$
 
-whence $f &gt; \frac{1}{3}C_1$.
+whence
+
+$$
+f &gt; \frac{1}{3}C_1.
+$$
 
 If there are $(n - 1)$ sectors, their radii, as $OP, OQ, \ldots$, form an ascending arithmetical progression in which the least term is equal to the common difference, and the greatest term, as $OY$, is equal to $(n - 1)OP$.
 
@@ -6395,7 +6715,11 @@ Let $BC$ be an arc measured in the ‘forward’ direction on any turn of the sp
 
 Take a circle such that the square of its radius is equal to $OC \cdot OB + \frac{1}{3}(OC - OB)^2$, and let $\sigma$ be a sector in it whose central angle is equal to the angle $BOC$.
 
-Thus $\sigma : (\text{sector } OB'C) = \{OC \cdot OB + \frac{1}{3}(OC - OB)^2\} : OC^2$,
+Thus
+
+$$
+\sigma : (\text{sector } OB'C) = \{OC \cdot OB + \frac{1}{3}(OC - OB)^2\} : OC^2,
+$$
 
 and we have therefore to prove that
 
@@ -6484,11 +6808,19 @@ $$
 
 whence (sector $OB'C$): $f &gt;$ (sector $OB'C$): $\sigma$,
 
-so that $f &lt; \sigma$.
+so that
+
+$$
+f &lt; \sigma.
+$$
 
 But this is impossible, because $f &gt; \sigma$.
 
-Therefore $S \neq \sigma$.
+Therefore
+
+$$
+S \neq \sigma.
+$$
 
 Since then $S$ is neither greater nor less than $\sigma$, it follows that
 
@@ -6512,7 +6844,11 @@ $$
 
 Again, the area of the spiral bounded by $OA_{2}$ is equal to $R_{1} + R_{2}$ (i.e. the area bounded by the first turn and $OA_{1}$, together with the ring added by the second turn). Also the ‘second circle’ is four times the ‘first circle,’ and therefore equal to $12R_{1}$.
 
-Hence $(R_{1} + R_{2}):12R_{1} = 7:12,$
+Hence
+
+$$
+(R_{1} + R_{2}):12R_{1} = 7:12,
+$$
 
 or
 
@@ -6721,7 +7057,11 @@ Let $A, B$ be two unequal weights (of which $A$ is the greater) balancing about 
 
 Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
 
-Hence $AC &lt; CB$.
+Hence
+
+$$
+AC &lt; CB.
+$$
 
 Conversely, if the weights balance, and $AC &lt; CB$, then $A &gt; B$.
 
@@ -7091,9 +7431,17 @@ $$
 \end{array}
 $$
 
-But $\triangle DBC : \triangle ABD = BC : AD$.
+But
 
-Therefore $BC : AD = VG : GW$.
+$$
+\triangle DBC : \triangle ABD = BC : AD.
+$$
+
+Therefore
+
+$$
+BC : AD = VG : GW.
+$$
 
 It follows that
 
@@ -7186,7 +7534,11 @@ BG: GL = BO: OA, \text{ by parallels}, \\
 \end{array}
 $$
 
-whence $GL = gl$.
+whence
+
+$$
+GL = gl.
+$$
 
 Again [ibid., Prop. 4]
 
@@ -7354,7 +7706,11 @@ $$
 
 [Hence $FG : GK &gt; FF' : F'L$,
 
-or $GK : FG &lt; F'L : FF'$,
+or
+
+$$
+GK : FG &lt; F'L : FF',
+$$
 
 and, componendo, $FK : FG &lt; FL : FF'$, while $FK &gt; FL$.]
 
@@ -7606,7 +7962,11 @@ $$
 \frac{2a + 4b + 4c + 2d}{2c + d} = \frac{a - c}{z} \quad \text{(4)},
 $$
 
-so that $z &lt; (c - d)$.
+so that
+
+$$
+z &lt; (c - d).
+$$
 
 Therefore
 
@@ -7794,7 +8154,11 @@ $$
 \end{array}
 $$
 
-Now $BO^2 \cdot (2PN + BO) : BO^3 = (2PN + BO) : BO$
+Now
+
+$$
+BO^2 \cdot (2PN + BO) : BO^3 = (2PN + BO) : BO
+$$
 
 $$
 = (2aq + ao) : ao, \text{ by (4)},
@@ -7919,7 +8283,11 @@ Join $EO$, $OF$, $OG$, $OP$, $OQ$, $AB$, and let $AB$ meet $CO$ in $M$.
 
 Now $CO &gt; EO$, since the sun is just above the horizon.
 
-Therefore $\angle PEQ &gt; \angle FCG$.
+Therefore
+
+$$
+\angle PEQ &gt; \angle FCG.
+$$
 
 $$
 \begin{array}{r l}
@@ -8075,7 +8443,11 @@ But the perimeter of any regular polygon with more sides than 6 inscribed in a c
 
 (perimeter of chiliagon) $&gt; 3d_u$.
 
-It follows that $d_u &lt; 10,000d_e$.
+It follows that
+
+$$
+d_u &lt; 10,000d_e.
+$$
 
 (2) (Perimeter of earth) $\neq 3,000,000$ stadia. [Assumption 1]
 and (perimeter of earth) $&gt; 3d_e$.
@@ -8818,7 +9190,11 @@ $$
 VT = 2PV.
 $$
 
-Hence $\triangle EqQ = 4\triangle PQq$.
+Hence
+
+$$
+\triangle EqQ = 4\triangle PQq.
+$$
 
 But, by Prop. 16, the area of the segment is equal to $\frac{1}{3}\triangle EqQ$.
 
@@ -8897,15 +9273,35 @@ $$
 P V = \frac{4}{3} R M.
 $$
 
-Also $PV = 2 Y M.$
+Also
 
-Therefore $Y M = 2 R Y,$
+$$
+PV = 2 Y M.
+$$
 
-and $\triangle P Q M = 2 \triangle P R Q.$
+Therefore
 
-Hence $\triangle P Q V = 4 \triangle P R Q,$
+$$
+Y M = 2 R Y,
+$$
 
-and $\triangle P Q q = 8 \triangle P R Q.$
+and
+
+$$
+\triangle P Q M = 2 \triangle P R Q.
+$$
+
+Hence
+
+$$
+\triangle P Q V = 4 \triangle P R Q,
+$$
+
+and
+
+$$
+\triangle P Q q = 8 \triangle P R Q.
+$$
 
 ![img-129.jpeg](images/img-129.jpeg)
 
@@ -9182,11 +9578,23 @@ It follows that the weight of fluid displaced by a weight $w_{1}$ of gold is $\f
 
 (3) Lastly, weigh the crown itself in the fluid, and let $F$ be the loss of weight. Therefore the weight of fluid displaced by the crown is $F$.
 
-It follows that $\frac{w_1}{W} \cdot F_1 + \frac{w_2}{W} \cdot F_2 = F$,
+It follows that
 
-or $w_1F_1 + w_2F_2 = (w_1 + w_2)F$,
+$$
+\frac{w_1}{W} \cdot F_1 + \frac{w_2}{W} \cdot F_2 = F,
+$$
 
-whence $\frac{w_1}{w_2} = \frac{F_2 - F}{F - F_1}$.
+or
+
+$$
+w_1F_1 + w_2F_2 = (w_1 + w_2)F,
+$$
+
+whence
+
+$$
+\frac{w_1}{w_2} = \frac{F_2 - F}{F - F_1}.
+$$
 
 This procedure corresponds pretty closely to that described in the poem *de ponderibus et mensuris* (written probably about 500 A.D.)* purporting to explain Archimedes’ method. According to the author of this poem, we first take two equal weights of pure gold and pure silver respectively and weigh them against each other when both immersed in water; this gives the relation between their weights in water and therefore between their loss of weight in water. Next we take the mixture of gold and silver and an equal weight of pure silver and weigh them against each other in water in the same manner.
 
@@ -9203,7 +9611,11 @@ fluid, $V_{1}$ say; therefore a weight $w_{1}$ of gold displaces a volume $\frac
 
 (3) the weight $W$ of silver displaces a certain volume of fluid, say $V_{2}$; therefore a weight $w_{2}$ of silver displaces a volume $\frac{w_{2}}{W} \cdot V_{2}$ of fluid.
 
-It follows that $V = \frac{w_{1}}{W} \cdot V_{1} + \frac{w_{2}}{W} \cdot V_{2},$
+It follows that
+
+$$
+V = \frac{w_{1}}{W} \cdot V_{1} + \frac{w_{2}}{W} \cdot V_{2},
+$$
 
 whence, since $W = w_{1} + w_{2},$
 
@@ -9349,7 +9761,11 @@ $$
 x = \frac{p}{4} \cot^2 \theta \cdot \cos \theta + \frac{2}{3} h \cos \theta,
 $$
 
-whence $x' - x = \cos \theta \left\{ \frac{p}{4} (\cot^2 \theta + 2) - \frac{2}{3} (h - k) \right\}.$
+whence
+
+$$
+x' - x = \cos \theta \left\{ \frac{p}{4} (\cot^2 \theta + 2) - \frac{2}{3} (h - k) \right\}.
+$$
 
 In order that the segment of the paraboloid may turn in the direction of increasing the angle $PTN$, $x'$ must be greater than $x$, or the expression just found must be positive.
 
@@ -9403,7 +9819,11 @@ Let $C$ be the centre of gravity of the whole solid, $F$ that of the immersed po
 
 Now, since $AN = \frac{3}{2}AC,$
 
-and $AN &gt; \frac{3}{4}p,$
+and
+
+$$
+AN &gt; \frac{3}{4}p,
+$$
 
 it follows that $AC &gt; \frac{p}{2}$.
 
@@ -10263,13 +10683,19 @@ the solid will rest and remain in a position with its base more submerged;
 
 (spec. gr. of solid): (spec. gr. of fluid) $&lt; AR^{2}: AM^{2}$
 
-but $&gt; Q_{1}Q_{2}^{2}: AM^{2}$.
+but
+
+$$
+&gt; Q_{1}Q_{2}^{2}: AM^{2}.
+$$
 
 ![img-150.jpeg](images/img-150.jpeg)
 
 Suppose the ratio of the specific gravities to be equal to
 
-$l^{2}: AM^{2}$,
+$$
+l^{2}: AM^{2},
+$$
 
 so that $l &lt; AR$ but $&gt; Q_{1}Q_{2}$.
 
@@ -10401,7 +10827,11 @@ $$
 
 Thus the segments in the two figures, namely $BP'Q'$, $BPQ$, are equal and similar.
 
-Therefore $\angle PTN = \angle P'T'N'$.
+Therefore
+
+$$
+\angle PTN = \angle P'T'N'.
+$$
 
 Also $AT = AT'$, $AN = AN'$, $PN = P'N'$.
 
@@ -10449,9 +10879,17 @@ Therefore $Q_{1}Q_{2} = PV$; and the segments $QPQ', BQ_{1}q$ of the paraboloid 
 
 It follows that the angle between $QQ'$ and $BB'$ is less than the angle $B_{1}Bq$.
 
-Therefore $\angle U &lt; \angle PTN,$
+Therefore
 
-whence $AN' &gt; AN,$
+$$
+\angle U &lt; \angle PTN,
+$$
+
+whence
+
+$$
+AN' &gt; AN,
+$$
 
 and therefore $N'O$ (or $Q_{1}Q_{2}) &lt; PL,$
 
@@ -10505,13 +10943,25 @@ Then, as before, we have $PV = l = P'V'$.
 
 Thus the segments $BP'q$, $QPQ'$ of the paraboloid are equal in volume; and it follows that the angle between $QQ'$ and $BB'$ is less than the angle $B_1Bq$.
 
-Therefore $\angle P'T'N' &lt; \angle PTN$,
+Therefore
+
+$$
+\angle P'T'N' &lt; \angle PTN,
+$$
 
 and hence $AN' &gt; AN$,
 
-so that $NO &gt; N'O$,
+so that
 
-i.e. $PL &gt; P'I$
+$$
+NO &gt; N'O,
+$$
+
+i.e.
+
+$$
+PL &gt; P'I
+$$
 
 $&gt; P'F'$, a fortiori.
 
@@ -10531,7 +10981,11 @@ It follows that $AN = AN'$, $NO = N'O$,
 
 and therefore $P'I = PL$,
 
-whence $PL &gt; 2LV$.
+whence
+
+$$
+PL &gt; 2LV.
+$$
 
 ![img-157.jpeg](images/img-157.jpeg)
 
@@ -10563,11 +11017,19 @@ $$
 
 and the segments $BPQ$, $BP_1q$ are equal and similar.
 
-Therefore $\angle PTN = \angle P'T'N'$
+Therefore
+
+$$
+\angle PTN = \angle P'T'N'
+$$
 
 and $AN = AN'$, $N'O = NO$.
 
-Therefore $PL = P'I$,
+Therefore
+
+$$
+PL = P'I,
+$$
 
 whence it follows that $PL &lt; 2LV$.
 
@@ -10591,11 +11053,23 @@ $$
 
 and therefore $NO \not\prec N_1O$, where $P_1N_1$ is the ordinate of $P_1$.
 
-Hence $PL \not\prec P_1P_2$.
+Hence
 
-But $P_1P_2 &gt; P'F'$.
+$$
+PL \not\prec P_1P_2.
+$$
 
-Therefore $PL &gt; \frac{2}{3}PV$,
+But
+
+$$
+P_1P_2 &gt; P'F'.
+$$
+
+Therefore
+
+$$
+PL &gt; \frac{2}{3}PV,
+$$
 
 so that $F$, the centre of gravity of the immersed portion of the solid, lies between $P$ and $L$.
 
@@ -10813,11 +11287,19 @@ Join $PA, PQ, PD, DQ$.
 
 * The segment in the figure of the ms. appears to have been a semicircle, though the proposition is equally true of any segment. But the case where the segment is a semicircle brings the proposition into close connexion with a proposition in Ptolemy's $\mu \epsilon \gamma \acute{\alpha} \lambda \eta$ σόνταξις, I. 9 (p. 31, ed. Halma; cf. the reproduction in Cantor's (lesch. d. Mathematik, I. (1894), p. 389). Ptolemy's object is to connect by an equation the lengths of the chord of an arc and the chord of half the arc. Substantially his procedure is as follows. Suppose $AP$, $PQ$ to be equal arcs, $AB$ the diameter through $A$; and let $AP$, $PQ$, $AQ$, $PB$, $QB$ be joined. Measure $BD$ along $BA$ equal to $BQ$. The perpendicular $PN$ is now drawn, and it is proved that $PA = PD$, and $AN = ND$.
 
-Then $AN = \frac{1}{2}(BA - BD) = \frac{1}{2}(BA - BQ) = \frac{1}{2}(BA - \sqrt{BA^2 - AQ^2})$.
+Then
+
+$$
+AN = \frac{1}{2}(BA - BD) = \frac{1}{2}(BA - BQ) = \frac{1}{2}(BA - \sqrt{BA^2 - AQ^2}).
+$$
 
 And, by similar triangles, $AN:AP = AP:AB$.
 
-Therefore $AP^2 = AB \cdot AN$
+Therefore
+
+$$
+AP^2 = AB \cdot AN
+$$
 
 $$
 = \frac{1}{2} (AB - \sqrt{AB^2 - AQ^2}) \cdot AB.
@@ -10853,9 +11335,17 @@ $$
 PA = PD.
 $$
 
-Therefore $PQ = PD$,
+Therefore
 
-and $\angle PQD = \angle PDQ$.
+$$
+PQ = PD,
+$$
+
+and
+
+$$
+\angle PQD = \angle PDQ.
+$$
 
 Now, since $A$, $P$, $Q$, $B$ are concyclic,
 
@@ -10863,13 +11353,21 @@ $$
 \angle PAD + \angle PQB = (\text{two right angles}),
 $$
 
-whence $\angle PDA + \angle PQB = (\text{two right angles})$
+whence
+
+$$
+\angle PDA + \angle PQB = (\text{two right angles})
+$$
 
 $$
 = \angle PDA + \angle PDB.
 $$
 
-Therefore $\angle PQB = \angle PDB$;
+Therefore
+
+$$
+\angle PQB = \angle PDB;
+$$
 
 and, since the parts, the angles $PQD$, $PDQ$, are equal,
 
@@ -10877,13 +11375,21 @@ $$
 \angle BQD = \angle BDQ,
 $$
 
-and $BQ = BD$.
+and
+
+$$
+BQ = BD.
+$$
 
 ## Proposition 4.
 
 If $AB$ be the diameter of a semicircle and $N$ any point on $AB$, and if semicircles be described within the first semicircle and having $AN$, $BN$ as diameters respectively, the figure included between the circumferences of the three semicircles is “what Archimedes called an ἄρβηλος*”; and its area is equal to the circle on $PN$ as diameter, where $PN$ is perpendicular to $AB$ and meets the original semicircle in $P$.
 
-For $AB^2 = AN^2 + NB^2 + 2AN \cdot NB$
+For
+
+$$
+AB^2 = AN^2 + NB^2 + 2AN \cdot NB
+$$
 
 $$
 = AN^2 + NB^2 + 2PN^2.
@@ -10916,6 +11422,9 @@ For the same reason $AGE$, $CGH$ are straight lines.
 Let $AF$ produced meet $CD$ in $D$, and let $AE$ produced meet the outer semicircle in $I$. Join $BI$, $ID$.
 
 
+
+
+
 Then, since the angles $AFB$, $ACD$ are right, the straight lines $AD$, $AB$ are such that the perpendiculars on each from the extremity of the other meet in the point $E$. Therefore, by the properties of triangles, $AE$ is perpendicular to the line joining $B$ to $D$.
 
 ![img-164.jpeg](images/img-164.jpeg)
@@ -10926,13 +11435,21 @@ Therefore $BID$ is a straight line.
 
 Now, since the angles at $G$, $I$ are right, $CH$ is parallel to $BD$.
 
-Therefore $AB : BC = AD : DH$
+Therefore
+
+$$
+AB : BC = AD : DH
+$$
 
 $$
 = AC : HE,
 $$
 
-so that $AC \cdot CB = AB \cdot HE$.
+so that
+
+$$
+AC \cdot CB = AB \cdot HE.
+$$
 
 In like manner, if $d$ is the diameter of the other circle, we can prove that $AC \cdot CB = AB \cdot d$.
 
@@ -10983,25 +11500,51 @@ Similarly $HMP$ is perpendicular to $CB$.
 
 Again, since the angles at $I, K, D$ are right, $CK$ is parallel to $AD$, and $CI$ to $BD$.
 
-Therefore $AC:CB = AL:LH$
+Therefore
 
-$= AN:NP,$
+$$
+AC:CB = AL:LH
+$$
 
-and $BC:CA = BM:MG$
+$$
+= AN:NP,
+$$
 
-$= BP:PN.$
+and
 
-Hence $AN:NP = NP:PB,$
+$$
+BC:CA = BM:MG
+$$
+
+$$
+= BP:PN.
+$$
+
+Hence
+
+$$
+AN:NP = NP:PB,
+$$
 
 or $AN, NP, PB$ are in continued proportion*.
 
 Now, in the case where $AC = \frac{3}{2} CB$,
 
-$AN = \frac{3}{2} NP = \frac{9}{4} PB,$
+$$
+AN = \frac{3}{2} NP = \frac{9}{4} PB,
+$$
 
-whence $BP:PN:NA:AB = 4:6:9:19.$
+whence
 
-Therefore $GH = NP = \frac{6}{19} AB.$
+$$
+BP:PN:NA:AB = 4:6:9:19.
+$$
+
+Therefore
+
+$$
+GH = NP = \frac{6}{19} AB.
+$$
 
 And similarly $GH$ can be found when $AC:CB$ is equal to any other given ratio†.
 
@@ -11239,7 +11782,11 @@ But $\angle TPR = \angle PAB$, and $\angle TQR = \angle QBA$,
 
 in the alternate segments;
 
-therefore $\angle TPR + \angle TQR = \angle PRQ$.
+therefore
+
+$$
+\angle TPR + \angle TQR = \angle PRQ.
+$$
 
 It follows from this that $TP = TQ = TR$.
 
@@ -11251,11 +11798,19 @@ $$
 
 And, by hypothesis, $\angle PRQ = \angle TPR + TQR$.
 
-By addition, $\angle POQ + \angle PRQ = \angle TPR + OQR$.
+By addition,
+
+$$
+\angle POQ + \angle PRQ = \angle TPR + OQR.
+$$
 
 It follows that, in the quadrilateral $OPRQ$, the opposite angles are together equal to two right angles. Therefore a circle will go round $OPQR$, and $T$ is its centre, because $TP = TO = TQ$. Therefore $TR = TP$.]
 
-Thus $\angle TRP = \angle TPR = \angle PAM.$
+Thus
+
+$$
+\angle TRP = \angle TPR = \angle PAM.
+$$
 
 Adding to each the angle $PRM$,
 
@@ -11266,9 +11821,17 @@ $$
 \end{array}
 $$
 
-Therefore $\angle APR + \angle AMR = (\text{two right angles}),$
+Therefore
 
-whence $\angle AMR = (\text{a right angle})^{\bullet}.$
+$$
+\angle APR + \angle AMR = (\text{two right angles}),
+$$
+
+whence
+
+$$
+\angle AMR = (\text{a right angle})^{\bullet}.
+$$
 
 ## Proposition 13.
 
@@ -11280,17 +11843,31 @@ $$
 
 Let $O$ be the centre of the circle, and $OH$ perpendicular to $CD$. Join $BM$, and produce $HO$ to meet $BM$ in $K$.
 
-Then $CH = HD$.
+Then
+
+$$
+CH = HD.
+$$
 
 And, by parallels,
 
 since $BO = OA,$
 
-$BK = KM.$
+$$
+BK = KM.
+$$
 
-Therefore $NH = HM.$
+Therefore
 
-Accordingly $CN = DM$.
+$$
+NH = HM.
+$$
+
+Accordingly
+
+$$
+CN = DM.
+$$
 
 ![img-171.jpeg](images/img-171.jpeg)
 
@@ -11457,7 +12034,11 @@ $$
 EA = MO.
 $$
 
-Therefore $EM = AO$.
+Therefore
+
+$$
+EM = AO.
+$$
 
 Moreover $DE = DO$; and it follows that, since $DE$ is equal to the side of an inscribed hexagon, and $DC$ is the side of an inscribed decagon, $EC$ is divided at $D$ in extreme and mean ratio [i.e. $EC : ED = ED : DC$]; “and this is proved in the book of the Elements.” [Eucl. xiii. 9, “If the side of the hexagon and the side of the decagon inscribed in the same circle be put together, the whole straight line is divided in extreme and mean ratio, and the greater segment is the side of the hexagon.”]
 
@@ -11649,7 +12230,11 @@ $$
 u = 117423, \quad v = 1,
 $$
 
-so that $n = uv = 117423 = 3^4 \cdot 4349,$
+so that
+
+$$
+n = uv = 117423 = 3^4 \cdot 4349,
+$$
 
 whence it follows that
 
@@ -11797,3 +12382,6 @@ $$W = 1598 \langle \overline{206541} \rangle,$$
 where $\langle \overline{206541} \rangle$ represents the fact that there are 206541 more digits to follow, and that, with the same notation, the whole number of cattle $= 7766 \langle \overline{206541} \rangle$.
 
 One may well be excused for doubting whether Archimedes solved the complete problem, having regard to the enormous size of the numbers and the great difficulties inherent in the work. By way of giving an idea of the space which would be required for merely writing down the results when obtained, Amthor remarks that the large seven-figured logarithmic tables contain on one page 50 lines with 50 figures or so in each, say altogether 2500 figures; therefore one of the eight unknown quantities would, when found, occupy $82\frac{1}{2}$ such pages, and to write down all the eight numbers would require a volume of 660 pages!]
+
+
+

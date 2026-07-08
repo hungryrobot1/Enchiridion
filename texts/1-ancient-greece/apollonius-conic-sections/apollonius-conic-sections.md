@@ -50,7 +50,11 @@ Therefore in the triangles $HDM$, $EKM$ the angles $HDM$, $EKM$ are equal, as al
 
 Therefore the triangles $HDM$, $EKM$ are similar.
 
-Hence $HM : MD = EM : MK$.
+Hence
+
+$$
+HM : MD = EM : MK.
+$$
 
 $$
 \therefore HM \cdot MK = DM \cdot ME = PM^2.
@@ -427,7 +431,11 @@ $$
 \therefore PV \cdot VR = PV' \cdot V'R'.
 $$
 
-Hence $PV: PV' = V'R': VR = P'V': P'V.$
+Hence
+
+$$
+PV: PV' = V'R': VR = P'V': P'V.
+$$
 
 $$
 \therefore PV: PV' \sim PV = P'V': P'V \sim P'V',
@@ -465,9 +473,17 @@ Then, since $PC = CP'$, $PS = SL$ and $CE = EH$;
 
 $\therefore$ the parallelogram $(PE) = (SH)$.
 
-Also $(PR) = (VS) + (SR) = (SU) + (RH)$.
+Also
 
-By subtraction, $(PE) - (PR) = (RE)$;
+$$
+(PR) = (VS) + (SR) = (SU) + (RH).
+$$
+
+By subtraction,
+
+$$
+(PE) - (PR) = (RE);
+$$
 
 $$
 \therefore CD^2 - QV^2 = RT \cdot TE.
@@ -574,11 +590,15 @@ $\therefore PV \cdot VR = P'V' \cdot V'R'$, and $V'R' : VR = PV : P'V'$.
 Also
 $$PV' : V'R' = PP' : P'L' = P'P : PL = P'V : VR.$$
 
-$\therefore PV' : P'V = V'R' : VR$
+$$
+\therefore PV' : P'V = V'R' : VR
+$$
 
 $= PV : P'V'$, from above;
 
-$\therefore PV' : PV = P'V : P'V'$
+$$
+\therefore PV' : PV = P'V : P'V'
+$$
 
 and
 $$PV' + PV : PV = P'V + P'V' : P'V',$$
@@ -586,7 +606,9 @@ $$PV' + PV : PV = P'V + P'V' : P'V',$$
 or
 $$VV' : PV = VV' : P'V';$$
 
-$\therefore PV = P'V'$
+$$
+\therefore PV = P'V'
+$$
 
 But
 $$CP = CP';$$
@@ -670,7 +692,11 @@ $$
 
 ---
 
-Similarly $Q'V'^{2}: PV'.P'V' = PL:PP'$.
+Similarly
+
+$$
+Q'V'^{2}: PV'.P'V' = PL:PP'.
+$$
 
 $$
 \therefore QV^{2}: Q'V'^{2} = PV. P'V: PV'. P'V';
@@ -794,7 +820,11 @@ and let $V'QM$ be drawn parallel to $QV$, meeting the curve in $Q'$ and $PK$ in 
 
 ---
 
-Then $ KV^2 : PV^2 = PL : PV' $
+Then
+
+$$
+KV^2 : PV^2 = PL : PV'
+$$
 
 $$
 \begin{array}{l}
@@ -831,13 +861,21 @@ Take a point $S$ on $VR$ produced such that $KV^2 = PV \cdot VS$. Join $PS$ and 
 
 ![img-20.jpeg](images/img-20.jpeg)
 
-Now $KV^2 = PV \cdot VS$,
+Now
+
+$$
+KV^2 = PV \cdot VS,
+$$
 
 $$
 \therefore VS : KV = KV : PV,
 $$
 
-so that $VS : PV = KV^2 : PV^2$.
+so that
+
+$$
+VS : PV = KV^2 : PV^2.
+$$
 
 Hence, by parallels,
 
@@ -877,7 +915,11 @@ We have to prove that the straight line $TQ$ or $TQ$ produced does not fall with
 
 For, if possible, let $K$, a point on $TQ$ or $TQ$ produced, fall within the curve*, and through $K$ draw $Q'KV'$ parallel to an ordinate and meeting the diameter in $V'$ and the curve in $Q'$.
 
-Then $Q'V'^2:QV^2$
+Then
+
+$$
+Q'V'^2:QV^2
+$$
 
 $$
 \begin{array}{l}
@@ -1171,7 +1213,11 @@ $$
 QV \cdot QO = PV \cdot PV' \tag{1}
 $$
 
-Also $QV:QK = (CP:CM)\cdot (p:PP') = (CP:CM)\cdot (QV:QO),$
+Also
+
+$$
+QV:QK = (CP:CM)\cdot (p:PP') = (CP:CM)\cdot (QV:QO),
+$$
 
 or
 
@@ -1220,13 +1266,25 @@ $$
 
 and hence $(VN) : (PM) = (PM) \mp (VK) : (PM)$,
 
-so that $(VN) = (PM) \mp (VK)$,
+so that
 
-or $(VN) \pm (VK) = (PM)$.
+$$
+(VN) = (PM) \mp (VK),
+$$
+
+or
+
+$$
+(VN) \pm (VK) = (PM).
+$$
 
 [The above proof is reproduced as given by Apollonius in order to show his method of dealing with a somewhat complicated problem by purely geometrical means. The proposition is more shortly proved by a method more akin to algebra as follows.
 
-We have $QV^2 : CV^2 \sim CP^2 = CD^2 : CP^2$,
+We have
+
+$$
+QV^2 : CV^2 \sim CP^2 = CD^2 : CP^2,
+$$
 
 and $\frac{QV}{QK} = \frac{CD^2}{CP^2} \cdot \frac{CP}{CM}$, or $QV = QK \cdot \frac{CD^2}{CP \cdot CM}$;
 
@@ -1272,7 +1330,11 @@ $$
 \therefore \triangle QTV = (EV) \tag{1}
 $$
 
-Also $QV^2: RW^2 = PV: PW$;
+Also
+
+$$
+QV^2: RW^2 = PV: PW;
+$$
 
 $$
 \therefore \triangle QTV: \triangle RUW = (EV): (EW),
@@ -1948,9 +2010,17 @@ $$
 
 and $HK$ is parallel to $OE$,
 
-whence $\angle OHK = \angle OKH$
+whence
 
-and $OH = OK$.
+$$
+\angle OHK = \angle OKH
+$$
+
+and
+
+$$
+OH = OK.
+$$
 
 ---
 
@@ -1989,7 +2059,11 @@ $$ AA'^2 = BB'.BM; $$
 and draw $AL$, parallel to $BB'$, such that
 $$ BM : BB' = AA' : AL; $$
 
-thus $AA' &gt; AL$.
+thus
+
+$$
+AA' &gt; AL.
+$$
 
 ---
 
@@ -2099,7 +2173,11 @@ then $CL, CL'$ produced will not meet the curve in any finite point and are acco
 
 ordinate $QV$, which will accordingly be parallel to $LL'$.
 
-Now $p: PP' = p \cdot PP': PP'^2$
+Now
+
+$$
+p: PP' = p \cdot PP': PP'^2
+$$
 
 $$
 \begin{array}{l}
@@ -2174,7 +2252,11 @@ $$
 = QV^2: CV^2 - CP^2;
 $$
 
-thus $RV^2: CV^2 = QV^2: CV^2 - CP^2$
+thus
+
+$$
+RV^2: CV^2 = QV^2: CV^2 - CP^2
+$$
 
 $$
 = RV^2 - QV^2: CP^2;
@@ -2184,7 +2266,11 @@ $$
 \therefore PL^2: CP^2 = RV^2 - QV^2: CP^2,
 $$
 
-whence $PL^2 = RV^2 - QV^2 = RQ \cdot QR'$,
+whence
+
+$$
+PL^2 = RV^2 - QV^2 = RQ \cdot QR',
+$$
 
 which is impossible, by (1) above.
 
@@ -2242,7 +2328,11 @@ Also the tangent at $P$ meets the asymptotes (in $L, L'$). Therefore $Qq$ parall
 
 Then (1), since $Qq$ is parallel to $LL'$, and $LP = PL'$, it follows that $RV = Vr$.
 
-But $QV = Vq$;
+But
+
+$$
+QV = Vq;
+$$
 
 therefore, subtracting, $QR = qr$.
 
@@ -2357,15 +2447,31 @@ Let $Qq$ meet the asymptotes in $R, r$.
 
 We have $RQ \cdot Qr = Rq \cdot qr$; [Prop. 32]
 
-$\therefore RQ : Rq = qr : Qr.$
+$$
+\therefore RQ : Rq = qr : Qr.
+$$
 
-But $RQ : Rq = HQ : hq,$
+But
 
-and $qr : Qr = qk : QK$;
+$$
+RQ : Rq = HQ : hq,
+$$
 
-$\therefore HQ : hq = qk : QK,$
+and
 
-or $HQ \cdot QK = hq \cdot qk.$
+$$
+qr : Qr = qk : QK;
+$$
+
+$$
+\therefore HQ : hq = qk : QK,
+$$
+
+or
+
+$$
+HQ \cdot QK = hq \cdot qk.
+$$
 
 ---
 
@@ -2571,13 +2677,21 @@ $$ HE: EO = EU: S, $$
 
 so that $S$ is equal to half the parameter of the ordinates to the diameter $EE'$ of the conjugate hyperbola. [Prop. 23]
 
-Also $ Ct.\, QV = CD^2, \text{ (since } QV = Cv), $
+Also
+
+$$
+Ct.\, QV = CD^2, \text{ (since } QV = Cv),
+$$
 
 or
 
 $$ Ct: QV = Ct^2: CD^2. $$
 
-Now $ Ct: QV = tT: TQ = \triangle tCT: \triangle CQT, $
+Now
+
+$$
+Ct: QV = tT: TQ = \triangle tCT: \triangle CQT,
+$$
 
 and
 
@@ -2585,9 +2699,17 @@ $$ Ct^2: CD^2 = \triangle tCT: \triangle CDH = \triangle tCT: \triangle CEU $$
 
 [as in Prop. 23].
 
-It follows that $ \triangle CQT = \triangle CEU. $
+It follows that
 
-And $ \angle CQT = \angle CEU. $
+$$
+\triangle CQT = \triangle CEU.
+$$
+
+And
+
+$$
+\angle CQT = \angle CEU.
+$$
 
 $$ \therefore CQ.\, QT = CE.\, EU \quad \text{[Prop. 23]}. $$
 
@@ -2785,7 +2907,11 @@ $$
 \therefore CK^2 - CH^2 = HP^2 - KR^2 \quad \text{(1)}.
 $$
 
-Now $BK \cdot KB' + CK^2 = CB^2$,
+Now
+
+$$
+BK \cdot KB' + CK^2 = CB^2,
+$$
 
 and
 
@@ -2897,7 +3023,11 @@ Then, by parallels,
 
 $$OP: PL = OH: HC,$$
 
-whence $OP = PL$.
+whence
+
+$$
+OP = PL.
+$$
 
 Therefore $OL$ touches the hyperbola at $P$. [Props. 28, 30]
 
@@ -2985,7 +3115,11 @@ $$
 CA^2: CB^2 = KF \cdot FE: FD^2.
 $$
 
-Thus $KF^2: FD^2 &gt; CA^2: AZ^2$.
+Thus
+
+$$
+KF^2: FD^2 &gt; CA^2: AZ^2.
+$$
 
 Therefore, if $DK$ be joined, the angle $DKF$ is less than the angle $ACZ$. Hence, if the angle $ACP$ be made equal to the angle $DKF$, $CP$ must meet the hyperbola in some point $P$.
 
@@ -3026,7 +3160,11 @@ $$
 \therefore PN: NT = DF: FE.
 $$
 
-Hence $\angle PTN = \angle DEF$.
+Hence
+
+$$
+\angle PTN = \angle DEF.
+$$
 
 ## Proposition 51.
 
@@ -3194,7 +3332,11 @@ The construction would then be as follows:
 
 Draw $CP$ so that the angle $PCN$ is equal to the angle $DEM$, and draw the tangent at $P$ meeting the axis $AA'$ in $T$. Also let $PN$ be perpendicular to the axis $AA'$.
 
-Then $CN \cdot NT : PN^2 = CA^2 : CB^2 = EM \cdot MF : DM^2,$
+Then
+
+$$
+CN \cdot NT : PN^2 = CA^2 : CB^2 = EM \cdot MF : DM^2,
+$$
 
 and the triangles $PCN$, $DEM$ are similar, whence it follows that the triangles $PTN$, $DFM$ are similar, and therefore also the triangles $CPT$, $EDF^*$.
 
@@ -3246,7 +3388,11 @@ Draw $HD$ parallel to $EF$ to meet the segment in $D$. Let $DK$ be the chord thr
 
 Draw $OR$ bisecting $DK$ at right angles.
 
-Then $RD : DM = OH : HI = \delta\gamma : \gamma\beta.$
+Then
+
+$$
+RD : DM = OH : HI = \delta\gamma : \gamma\beta.
+$$
 
 Therefore, doubling the two antecedents,
 
@@ -3254,7 +3400,11 @@ $$
 KD : DM = \alpha\gamma : \gamma\beta;
 $$
 
-so that $KM : DM = \alpha\beta : \beta\gamma.$
+so that
+
+$$
+KM : DM = \alpha\beta : \beta\gamma.
+$$
 
 Thus
 
@@ -8277,7 +8427,11 @@ For, if possible, let there be such a section, and let $ON$ be drawn parallel to
 
 Then we must have $aa' : al = ON^2 : BN \cdot NC$,
 
-so that $OI^2 : BI \cdot IC &gt; ON^2 : BN \cdot NC$.
+so that
+
+$$
+OI^2 : BI \cdot IC &gt; ON^2 : BN \cdot NC.
+$$
 
 But $ON^2 &gt; OI^2$, while $BI \cdot IC &gt; BN \cdot NC$: which is absurd.
 
@@ -8319,19 +8473,31 @@ Let $AM$ be taken of such a length that $AL:AM=BC:BO$, and on $AM$ as base, in t
 
 The cone $EAM$ will be the cone required.
 
-For $\angle MAN = \angle OBC = \angle EAM = \angle EMA$;
+For
+
+$$
+\angle MAN = \angle OBC = \angle EAM = \angle EMA;
+$$
 
 therefore $EM$ is parallel to $AN$, the axis of the parabola.
 
 Thus the plane of the given parabola cuts the cone in a section which is also a parabola.
 
-Now $AL:AM=BC:BO$
+Now
+
+$$
+AL:AM=BC:BO
+$$
 
 $$
 = AM:AE,
 $$
 
-or $AM^2 = EA.AL;$
+or
+
+$$
+AM^2 = EA.AL;
+$$
 
 $$
 \therefore AM^2:AE.EM = AL:EM
@@ -8674,11 +8840,19 @@ or
 
 $$AK: NH = AA': A'H.$$
 
-Thus $AN.AK:AN.NH = AA':A'H$.
+Thus
+
+$$
+AN.AK:AN.NH = AA':A'H.
+$$
 
 But $AN.AK = AP^2$, since $AN.NK = PN^2$.
 
-Therefore $AP^2:AN.NH = AA':A'H$.
+Therefore
+
+$$
+AP^2:AN.NH = AA':A'H.
+$$
 
 The same proposition is true if $AA'$ is the *minor* axis of an ellipse and $p_a$ the corresponding parameter.
 
@@ -8710,7 +8884,11 @@ Also, since $CD$ is parallel to $PT$, it is conjugate to $CP$.
 
 Therefore $\frac{p}{2} \cdot CP = CD^2$ (1).
 
-Now $OP : PE = TP : PF$;
+Now
+
+$$
+OP : PE = TP : PF;
+$$
 
 $$
 \therefore \frac{p}{2} : PT = PT : PF,
@@ -8768,7 +8946,11 @@ But $TN = 2AN.$ [Prop. 12]
 
 Therefore $AL = 2NG$ (2);
 
-thus $AL + 4AN = 2(TN + NG)$
+thus
+
+$$
+AL + 4AN = 2(TN + NG)
+$$
 
 $$
 \begin{array}{l}
@@ -8926,9 +9108,17 @@ $$
 \therefore PP': DD' = MH': \sqrt{MH \cdot MH'} \tag{$\gamma$}
 $$
 
-Hence $PP': PP' \pm DD' = MH': MH' \pm \sqrt{MH \cdot MH'}$,
+Hence
 
-and $PP'^2: (PP' \pm DD')^2 = MH'^2: (MH' \pm \sqrt{MH \cdot MH'})^2$.
+$$
+PP': PP' \pm DD' = MH': MH' \pm \sqrt{MH \cdot MH'},
+$$
+
+and
+
+$$
+PP'^2: (PP' \pm DD')^2 = MH'^2: (MH' \pm \sqrt{MH \cdot MH'})^2.
+$$
 
 Therefore by $(\alpha)$ above, ex aequali,
 
@@ -9150,7 +9340,11 @@ $$
 
 while $MH' : MH \left\{ \begin{array}{l} \text{diminishes} \\ \text{or increases} \end{array} \right\}$ continually as $M$ moves further from $A$, i.e. as $Q$, or $P$, moves further from $A$ along the curve.
 
-Therefore $AA'^2 : BB'^2_{\text{or}&lt;} PP'^2 : DD'^2$,
+Therefore
+
+$$
+AA'^2 : BB'^2_{\text{or}&lt;} PP'^2 : DD'^2,
+$$
 
 and the latter ratio $\left\{ \begin{array}{l} \text{diminishes} \\ \text{or increases} \end{array} \right\}$ as $P$ moves further from $A$.
 
@@ -9188,7 +9382,11 @@ and the latter ratio diminishes continually as $P$ moves from $A$ to $B$.
 
 ---
 
-We have $CA^2:CB^2 = AN.NA':PN^2;$
+We have
+
+$$
+CA^2:CB^2 = AN.NA':PN^2;
+$$
 
 $$\therefore AN.NA' &gt; PN^2,$$
 
@@ -9202,11 +9400,19 @@ $$AA' &gt; PP' \tag{1}$$
 
 ![img-198.jpeg](images/img-198.jpeg)
 
-Also $CB^2:CA^2 = BM.MB':DM^2,$
+Also
+
+$$
+CB^2:CA^2 = BM.MB':DM^2,
+$$
 
 where $DM$ is the ordinate to $BB'$.
 
-Therefore $BM.MB' &lt; DM^2,$
+Therefore
+
+$$
+BM.MB' &lt; DM^2,
+$$
 
 and, adding $CM^2$, $CB^2 &lt; CD^2;$
 
@@ -9214,21 +9420,41 @@ $$\therefore BB' &lt; DD' \tag{2}$$
 
 Again, if $P_1P_1', D_1D_1'$ be another pair of conjugates, $P_1$ being further from $A$ than $P$, $D_1$ will be further from $B$ than $D$.
 
-And $AN.NA':AN_1.N_1A' = PN^2:P_1N_1^2.$
+And
 
-But $AN_1.N_1A' &gt; AN.NA';$
+$$
+AN.NA':AN_1.N_1A' = PN^2:P_1N_1^2.
+$$
+
+But
+
+$$
+AN_1.N_1A' &gt; AN.NA';
+$$
 
 $$\therefore P_1N_1^2 &gt; PN^2,$$
 
-and $AN_1.N_1A' - AN.NA' &gt; P_1N_1^2 - PN^2.$
+and
+
+$$
+AN_1.N_1A' - AN.NA' &gt; P_1N_1^2 - PN^2.
+$$
 
 But, as above, $AN_1.N_1A' &gt; P_1N_1^2,$
 
-and $AN_1.N_1A' - AN.NA' = CN^2 - CN_1^2;$
+and
+
+$$
+AN_1.N_1A' - AN.NA' = CN^2 - CN_1^2;
+$$
 
 $$\therefore CN^2 - CN_1^2 &gt; P_1N_1^2 - PN^2;$$
 
-thus $CP^2 &gt; CP_1^2,$
+thus
+
+$$
+CP^2 &gt; CP_1^2,
+$$
 
 or
 
@@ -9266,7 +9492,11 @@ where $PP', DD'$ are any conjugate diameters other than the axes.
 
 $AA'^2 \sim BB'^2 = PP'^2 \sim DD'^2$ [Prop. 129]
 
-or $(AA' + BB').(AA' \sim BB') = (PP' + DD').(PP' \sim DD'),$
+or
+
+$$
+(AA' + BB').(AA' \sim BB') = (PP' + DD').(PP' \sim DD'),
+$$
 
 and, by the aid of Prop. 131,
 
@@ -9420,7 +9650,11 @@ $$
 
 Again, $PT^2: CD^2 = NT: CN$, [Prop. 125]
 
-so that $2\Delta CPT: 2\Delta T'DC = NT: CN$.
+so that
+
+$$
+2\Delta CPT: 2\Delta T'DC = NT: CN.
+$$
 
 But the parallelogram $(CL)$ is a mean proportional between $2\Delta CPT$ and $2\Delta T'DC$,
 
@@ -9444,7 +9678,11 @@ $$
 \end{array}
 $$
 
-And $2\Delta CPT = CT \cdot PN$;
+And
+
+$$
+2\Delta CPT = CT \cdot PN;
+$$
 
 $$
 \therefore (CL) = CA \cdot CB,
@@ -9500,7 +9738,11 @@ Therefore $AA'^2: p_a^2 = A'H \cdot AH': AH^2$ (α).
 
 We have now $AH &gt; AH'$ but $\neq 2AH'$.
 
-And $MH + HA &gt; 2AH$;
+And
+
+$$
+MH + HA &gt; 2AH;
+$$
 
 $$
 \therefore MH + HA: AH &gt; AH: AH',
@@ -9526,7 +9768,11 @@ MH': AH' &lt; (MH + HA)AM + AH^2: AH^2 \\
 \end{array}
 $$
 
-whence $A'H \cdot MH': A'H \cdot AH' &lt; MH^2: AH^2$,
+whence
+
+$$
+A'H \cdot MH': A'H \cdot AH' &lt; MH^2: AH^2,
+$$
 
 or, alternately,
 
@@ -9536,9 +9782,17 @@ $$
 
 But, by Prop. 130 (2), and by the result (α) above, these ratios are respectively equal to $AA'^2: p^2$, and $AA'^2: p_a^2$.
 
-Therefore $AA'^2: p^2 &lt; AA'^2: p_a^2$,
+Therefore
 
-or $p_a &lt; p$.
+$$
+AA'^2: p^2 &lt; AA'^2: p_a^2,
+$$
+
+or
+
+$$
+p_a &lt; p.
+$$
 
 Again, if $P_1$ be a point further from $A$ than $P$ is, and if $A'Q_1$ is parallel to $CP_1$, and $M_1$ is the foot of the ordinate $QM_1$, then, since $AH \neq 2AH'$,
 
@@ -9548,7 +9802,11 @@ $$
 
 also $M_1H + HM &gt; 2MH$.
 
-Thus $(M_1H + HM)MH' &gt; MH^2$.
+Thus
+
+$$
+(M_1H + HM)MH' &gt; MH^2.
+$$
 
 This is a similar relation to that in (β) above except that $M$ is substituted for $A$, and $M_1$ for $M$.
 
@@ -9558,9 +9816,17 @@ $$
 M_1H': MH' &lt; M_1H^2: MH^2,
 $$
 
-whence $A'H \cdot M_1H': M_1H^2 &lt; A'H \cdot MH': MH^2$,
+whence
 
-or $AA'^2: p_1^2 &lt; AA'^2: p^2$,
+$$
+A'H \cdot M_1H': M_1H^2 &lt; A'H \cdot MH': MH^2,
+$$
+
+or
+
+$$
+AA'^2: p_1^2 &lt; AA'^2: p^2,
+$$
 
 so that $p &lt; p_1$, and the proposition is proved.
 
@@ -9580,7 +9846,11 @@ $$
 
 Next, let $P$ be a point on the curve between $P_0$ and $A$, and $Q, M$ corresponding points.
 
-Then $M_0H'.H'M &lt; HH'^2$,
+Then
+
+$$
+M_0H'.H'M &lt; HH'^2,
+$$
 
 since $MH' &lt; M_0H'$.
 
@@ -9608,7 +9878,11 @@ $$
 AA'^2: p_0^2 &gt; AA'^2: p^2.
 $$
 
-Therefore $p &gt; p_0$.
+Therefore
+
+$$
+p &gt; p_0.
+$$
 
 And in like manner we prove that $p$ increases as $P$ moves from $P_0$ to $A$.
 
@@ -9654,7 +9928,11 @@ $$
 A'H: HA = AH': H'A' = AA': p_a,
 $$
 
-whence $AA'^2: (AA' \sim p_a)^2 = A'H \cdot AH': HH'^2$.
+whence
+
+$$
+AA'^2: (AA' \sim p_a)^2 = A'H \cdot AH': HH'^2.
+$$
 
 Also [Prop. 130 (3)]
 
@@ -9662,13 +9940,21 @@ $$
 AA'^2: (PP' \sim p)^2 = A'H \cdot MH': HH'^2.
 $$
 
-But $A'H \cdot MH' &gt; A'H \cdot AH'$;
+But
+
+$$
+A'H \cdot MH' &gt; A'H \cdot AH';
+$$
 
 $$
 \therefore AA'^2: (PP' \sim p)^2 &gt; AA'^2: (AA' \sim p_a)^2.
 $$
 
-Hence $AA' \sim p_a &gt; PP' \sim p$.
+Hence
+
+$$
+AA' \sim p_a &gt; PP' \sim p.
+$$
 
 Similarly, if $P_1$, $M_1$ be further from $A$ than $P$, $M$ are, we have
 
@@ -9736,7 +10022,11 @@ $$
 AH' \notin \frac{1}{4}(AH + AH'),
 $$
 
-and $(AH + AH'). 4AH' \notin (AH + AH')^2$.
+and
+
+$$
+(AH + AH'). 4AH' \notin (AH + AH')^2.
+$$
 
 Hence $4(AH + AH')AM : 4(AH + AH')AH'$, or $AM : AH'$,
 
@@ -9910,19 +10200,31 @@ A'H: HA = AH': H'A' \\
 \end{array}
 $$
 
-Then $AA'^2: (AA' + p_a)^2 = A'H^2: HH'^2$
+Then
+
+$$
+AA'^2: (AA' + p_a)^2 = A'H^2: HH'^2
+$$
 
 $$
 = A'H \cdot AH': HH'^2 \quad \text{(a)}.
 $$
 
-Also $AA'^2: BB'^2 = AA': p_a = A'H: A'H'$
+Also
+
+$$
+AA'^2: BB'^2 = AA': p_a = A'H: A'H'
+$$
 
 $$
 = A'H \cdot A'H': A'H'^2
 $$
 
-and $BB'^2: (BB' + p_b)^2 = A'H'^2: HH'^2$
+and
+
+$$
+BB'^2: (BB' + p_b)^2 = A'H'^2: HH'^2
+$$
 
 Therefore, *ex aequali*,
 
@@ -9974,7 +10276,11 @@ $$
 
 and $PP'.p$ increases as $P$ moves away from $A$.
 
-We have $A'H:HA = AA'^2:AA'.p_a$,
+We have
+
+$$
+A'H:HA = AA'^2:AA'.p_a,
+$$
 
 and $A'H:MH = AA'^2:PP'.p$, [Prop. 130 (4)]
 
@@ -10193,15 +10499,27 @@ In an ellipse,
 
 (1) Suppose $AA'^2 \ngeq \frac{1}{2}(AA' + p_a)^2$.
 
-Now $A'H \cdot AH' : A'H^2 + A'H'^2 = AA'^2 : AA'^2 + p_a^2$.
+Now
 
-Also $AA'^2 : BB'^2 = p_b : BB' = AA' : p_a = A'H : A'H'$
+$$
+A'H \cdot AH' : A'H^2 + A'H'^2 = AA'^2 : AA'^2 + p_a^2.
+$$
+
+Also
+
+$$
+AA'^2 : BB'^2 = p_b : BB' = AA' : p_a = A'H : A'H'
+$$
 
 $$
 = A'H \cdot A'H' : A'H'^2,
 $$
 
-and $BB'^2 : (BB'^2 + p_b^2) = A'H'^2 : A'H^2 + A'H'^2$;
+and
+
+$$
+BB'^2 : (BB'^2 + p_b^2) = A'H'^2 : A'H^2 + A'H'^2;
+$$
 
 hence, *ex aequali*,
 
@@ -10225,7 +10543,11 @@ $$
 \therefore 2A'H \cdot AH' \ngeq HH'^2,
 $$
 
-whence $2A'H \cdot MH' &lt; HH'^2$.
+whence
+
+$$
+2A'H \cdot MH' &lt; HH'^2.
+$$
 
 Subtracting $2MH \cdot MH'$, we have
 
@@ -10253,11 +10575,19 @@ $$
 \therefore A'H. AH': A'H^2 + A'H'^2 &gt; A'H. MH': MH^2 + MH'^2,
 $$
 
-whence $AA'^2 : (AA'^2 + p_a^2) &gt; AA'^2 : (PP'^2 + p^2),$
+whence
+
+$$
+AA'^2 : (AA'^2 + p_a^2) &gt; AA'^2 : (PP'^2 + p^2),
+$$
 
 [Prop. 130 (5)]
 
-or $AA'^2 + p_a^2 &lt; PP'^2 + p^2.$
+or
+
+$$
+AA'^2 + p_a^2 &lt; PP'^2 + p^2.
+$$
 
 Again, either $MH &lt; M_1H'$, or $MH \notin M_1H'$.
 
@@ -10265,15 +10595,27 @@ Again, either $MH &lt; M_1H'$, or $MH \notin M_1H'$.
 
 $$MH &lt; M_1H'$$
 
-Then $MH^2 + MH'^2 &gt; M_1H^2 + M_1H'^2,$
+Then
 
-and $M_1H^2 + M_1H'^2 &gt; M_1H'.2(M_1H' - MH)^*$
+$$
+MH^2 + MH'^2 &gt; M_1H^2 + M_1H'^2,
+$$
+
+and
+
+$$
+M_1H^2 + M_1H'^2 &gt; M_1H'.2(M_1H' - MH)^*
+$$
 
 $$
 \therefore MM_1.2(M_1H' - MH): M_1H'.2(M_1H' - MH), \text{ or } MM_1: M_1H', &gt; MM_1.2(M_1H' - MH): M_1H^2 + M_1H'^2.
 $$
 
-But $MH^2 + MH'^2 - (M_1H^2 + M_1H'^2) = 2(CM^2 - CM_1^2)$;
+But
+
+$$
+MH^2 + MH'^2 - (M_1H^2 + M_1H'^2) = 2(CM^2 - CM_1^2);
+$$
 
 $$
 \therefore MM_1.2(M_1H' - MH) + M_1H^2 + M_1H'^2 = MH^2 + MH'^2;
@@ -10289,7 +10631,11 @@ $$A'H. MH': MH^2 + MH'^2 &gt; A'H. M_1H': M_1H^2 + M_1H'^2,$$
 
 and $$AA'^2 : PP'^2 + p^2 &gt; AA'^2 : P_1P_1'^2 + p_1^2, \text{ [Prop. 130 (5)]}$$
 
-so that $PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$
+so that
+
+$$
+PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.
+$$
 
 (b) If
 
@@ -10301,13 +10647,21 @@ and it results, in the same way as before, that
 
 $$A'H. MH': MH^2 + MH'^2 &gt; A'H. M_1H': M_1H^2 + M_1H'^2,$$
 
-and $PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$
+and
+
+$$
+PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.
+$$
 
 Lastly, since
 
 $$A'H. A'H': A'H^2 + A'H'^2 = AA'^2 : BB'^2 + p_b^2,$$
 
-and $A'H. M_1H': M_1H^2 + M_1H'^2 = AA'^2 : P_1P_1'^2 + p_1^2,$
+and
+
+$$
+A'H. M_1H': M_1H^2 + M_1H'^2 = AA'^2 : P_1P_1'^2 + p_1^2,
+$$
 
 * As in (1) above,
 
@@ -10433,11 +10787,19 @@ also $PP'^2 \sim p^2 &gt; 2(AA'^2 \sim p_a.AA')$.
 
 (1) As usual, $A'H: AH = AH': A'H' = AA': p_a$;
 
-$\therefore A'H.AH': AH'^2 \sim AH^2 = AA'^2: AA'^2 \sim p_a^2.$
+$$
+\therefore A'H.AH': AH'^2 \sim AH^2 = AA'^2: AA'^2 \sim p_a^2.
+$$
 
-Now $MH': AH' &lt; MH: AH$;
+Now
 
-$\therefore MH': AH' &lt; MH' + MH: AH' + AH$
+$$
+MH': AH' &lt; MH: AH;
+$$
+
+$$
+\therefore MH': AH' &lt; MH' + MH: AH' + AH
+$$
 
 $$
 \begin{array}{l}
@@ -10512,7 +10874,9 @@ $\therefore PP'^2 \sim p^2 &gt; AA'^2 \sim p_a \cdot AA'$ but $&lt; 2(AA'^2 \sim
 
 $$MH': AH' &gt; MH: AH;$$
 
-$\therefore MH': AH' &gt; MH' + MH: AH' + AH,$
+$$
+\therefore MH': AH' &gt; MH' + MH: AH' + AH,
+$$
 
 and
 
@@ -10536,7 +10900,9 @@ Lastly, if $PP'$ be produced to $O$ so that $PO = p$,
 
 $$AA'^2 \sim p_a \cdot AA' = PP'^2 \sim p \cdot PP' \quad \text{[Prop. 129]}$$
 
-$= PP' \cdot OP'$.
+$$
+= PP' \cdot OP'.
+$$
 
 And
 
@@ -10658,3 +11024,6 @@ and $PP'^2 \sim p^2$ increases as $P$ moves nearer to $B$, being a *maximum* whe
 ![img-203.jpeg](images/img-203.jpeg)
 
 CAMBRIDGE : PRINTED BY J. AND C. F. CLAY, AT THE UNIVERSITY PRESS.
+
+
+

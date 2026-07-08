@@ -40,7 +40,11 @@ Let $A, B$ be two unequal weights (of which $A$ is the greater) balancing about 
 
 Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
 
-Hence $AC &lt; CB$.
+Hence
+
+$$
+AC &lt; CB.
+$$
 
 Conversely, if the weights balance, and $AC &lt; CB$, then $A &gt; B$.
 
@@ -410,9 +414,17 @@ $$
 \end{array}
 $$
 
-But $\triangle DBC : \triangle ABD = BC : AD$.
+But
 
-Therefore $BC : AD = VG : GW$.
+$$
+\triangle DBC : \triangle ABD = BC : AD.
+$$
+
+Therefore
+
+$$
+BC : AD = VG : GW.
+$$
 
 It follows that
 
@@ -424,3 +436,4 @@ $$
 $$
 
 * This easy deduction from Prop. 14 is assumed by Archimedes without proof.
+

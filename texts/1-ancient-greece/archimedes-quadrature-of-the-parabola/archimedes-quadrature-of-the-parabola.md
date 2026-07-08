@@ -557,7 +557,11 @@ $$
 VT = 2PV.
 $$
 
-Hence $\triangle EqQ = 4\triangle PQq$.
+Hence
+
+$$
+\triangle EqQ = 4\triangle PQq.
+$$
 
 But, by Prop. 16, the area of the segment is equal to $\frac{1}{3}\triangle EqQ$.
 
@@ -636,15 +640,35 @@ $$
 P V = \frac{4}{3} R M.
 $$
 
-Also $PV = 2 Y M.$
+Also
 
-Therefore $Y M = 2 R Y,$
+$$
+PV = 2 Y M.
+$$
 
-and $\triangle P Q M = 2 \triangle P R Q.$
+Therefore
 
-Hence $\triangle P Q V = 4 \triangle P R Q,$
+$$
+Y M = 2 R Y,
+$$
 
-and $\triangle P Q q = 8 \triangle P R Q.$
+and
+
+$$
+\triangle P Q M = 2 \triangle P R Q.
+$$
+
+Hence
+
+$$
+\triangle P Q V = 4 \triangle P R Q,
+$$
+
+and
+
+$$
+\triangle P Q q = 8 \triangle P R Q.
+$$
 
 ![img-129.jpeg](images/img-129.jpeg)
 
@@ -800,3 +824,4 @@ Thus, since the segment is neither greater nor less than $K$,
 $$
 \text{(area of segment } PQq) = K = \frac{4}{3}\triangle PQq.
 $$
+

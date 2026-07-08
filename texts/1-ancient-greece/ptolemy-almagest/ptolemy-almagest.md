@@ -1476,7 +1476,11 @@ $$
 \therefore \mathrm{GZ:ZH} = (\mathrm{GZ:DZ}).(\mathrm{DB:BA}).
 $$
 
-But $\mathrm{GZ:ZH} = \mathrm{GE:EA}$.
+But
+
+$$
+\mathrm{GZ:ZH} = \mathrm{GE:EA}.
+$$
 
 $$
 \therefore \mathrm{GE:EA} = (\mathrm{GZ:DZ}).(\mathrm{DB:BA}). \tag{13.2}
@@ -2446,7 +2450,11 @@ Fig. 2.9
 
 angles equal to the angles of spherical triangle BΘL, since the three corresponding sides in each triangle are equal, HB to BΘ, HK to ΘL, and BK to BL. All this has been proven previously.
 
-Therefore $\angle KHB = \angle B\Theta L = \angle Z\Theta E$.
+Therefore
+
+$$
+\angle KHB = \angle B\Theta L = \angle Z\Theta E.
+$$
 
 Q.E.D.
 
@@ -2458,7 +2466,9 @@ $\angle ZDB + \angle ZEG = 2$ right angles [10.2]
 
 [Proof:] This too is immediately obvious. For since points D and E are equidistant from the same solstice, arc DZ = arc ZE.
 
-$\therefore \angle ZDB = \angle ZEB.$
+$$
+\therefore \angle ZDB = \angle ZEB.
+$$
 
 But $\angle ZEB + \angle ZEG = 2$ right angles.
 
@@ -2745,7 +2755,9 @@ $$
 
 [Proof:] Since $\angle DEZ$ is the same as $\angle DHB$, and $\angle DEK = \angle DHL$ [supplements of equal angles DEG, DHG], by addition [of $\angle DHB$ to $\angle DHL$], $\angle LHB = \angle DEZ + \angle DEK$.
 
-$\therefore \angle LHB + \angle KEZ = 2 \angle DEZ.$
+$$
+\therefore \angle LHB + \angle KEZ = 2 \angle DEZ.
+$$
 
 Now again draw a similar figure [Fig. 2.21], except that the culminating point on the segment [of the ecliptic] east [of the meridian], namely A, should be south of the zenith G, while the culminating point on the segment west [of the meridian], namely B, should be north of the zenith.
 
@@ -2763,7 +2775,11 @@ $$ \angle \text{GEZ} + \angle \text{LHB} = 2 \angle \text{DEZ plus 2 right angle
 
 $$ \angle \text{DHG} = \angle \text{DEG} $$
 
-and $\angle \text{DHG} + \angle \text{DHL} = 2 \text{ right angles,}$
+and
+
+$$
+\angle \text{DHG} + \angle \text{DHL} = 2 \text{ right angles,}
+$$
 
 $$ \therefore \angle \text{DEG} + \angle \text{DHL} = 2 \text{ right angles.} $$
 
@@ -3681,7 +3697,11 @@ concentre, and KZ on the epicycle, are all similar), and that the difference bet
 
 Since, in the quadrilateral BDΘZ, the opposite sides are equal, ZΘ to BD and BZ to DΘ, BDΘZ is a parallelogram.
 
-Therefore $\angle E\Theta Z = \angle ADB = \angle ZBK$.
+Therefore
+
+$$
+\angle E\Theta Z = \angle ADB = \angle ZBK.
+$$
 
 Therefore, since they are angles at the centre [of circles], the arcs subtended by them are also similar, i.e.
 
@@ -5430,7 +5450,9 @@ Now in a mean [synodic] month occur two revolutions of the epicycle on the eccen
 
 $\therefore \angle AEB = 88;56^{\circ}$ (remainder [when $271;4^{\circ}$ is subtracted] from $360^{\circ}$). So drop perpendicular DK from D on to EB.
 
-$\therefore \angle DEB = \begin{cases} 88;56^{\circ} & \text{where 4 right angles} = 360^{\circ} \\ 177;52^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ}. \end{cases}$
+$$
+\therefore \angle DEB = \begin{cases} 88;56^{\circ} & \text{where 4 right angles} = 360^{\circ} \\ 177;52^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ}. \end{cases}
+$$
 
 Therefore in the circle about right-angled triangle DEK,
 
@@ -5457,11 +5479,21 @@ $$
 DK \approx 10;19^\circ \text{ also,}
 $$
 
-and $\text{EK} = 0;12^\circ$.
+and
 
-But $BK = DB - DK$.
+$$
+\text{EK} = 0;12^\circ.
+$$
 
-$\therefore \text{BK} = 48;36^\circ \text{ in the same units,}$
+But
+
+$$
+BK = DB - DK.
+$$
+
+$$
+\therefore \text{BK} = 48;36^\circ \text{ in the same units,}
+$$
 
 and, by addition, $\text{BE} [= \text{BK} + \text{EK}] = 48;48^\circ$.
 
@@ -5552,7 +5584,11 @@ $$
 \angle A E B = 177;52^\circ \circ \quad \text{and} \quad \angle E B N = 23;42^\circ \circ \quad \text{where 2 right angles} = 360^\circ \text{,}
 $$
 
-by subtraction, $ \angle E N B = 154;10^\circ \circ $.
+by subtraction,
+
+$$
+\angle E N B = 154;10^\circ \circ.
+$$
 
 Therefore in the circle about right-angled triangle ENX,
 
@@ -5619,7 +5655,11 @@ So in the circle about right-angled triangle BHL,
 
 $$ \text{BL} = 27; 34^\circ \text{ where hypotenuse BH} = 120^\circ, \text{} $$
 
-and $\text{arc BL} = 26; 34^\circ.$
+and
+
+$$
+\text{arc BL} = 26; 34^\circ.
+$$
 
 $$ \therefore \angle \text{BHL} = 26; 34^\circ \text{ where 2 right angles} = 360^\circ \text{,} $$
 
@@ -5902,9 +5942,17 @@ $$
 \mathrm{DM} = \mathrm{ZX} = 0;51^{\mathrm{p}}
 $$
 
-and $\mathrm{ME} = \mathrm{EX} = 10;17^{\mathrm{p}}$.
+and
 
-And since $\mathrm{BM}^2 = \mathrm{BD}^2 - \mathrm{DM}^2$,
+$$
+\mathrm{ME} = \mathrm{EX} = 10;17^{\mathrm{p}}.
+$$
+
+And since
+
+$$
+\mathrm{BM}^2 = \mathrm{BD}^2 - \mathrm{DM}^2,
+$$
 
 $$
 \mathrm{BM} \approx 49;41^{\mathrm{p}}.
@@ -6540,7 +6588,9 @@ Fig. 5.18
 
 And AD and AE are given from the quantities AB and BD, BE (we speak in terms of straight lines, since the difference [from arcs] is negligible), since $AB + BD = AD$
 
-$AB + BE = AE$
+$$
+AB + BE = AE
+$$
 
 And the angles BAD and BAE can thence be derived.
 
@@ -6584,7 +6634,11 @@ and $\mathrm{DK} = \mathrm{EL} = 4;20^\circ$.
 First let us suppose the moon to be at E:
 so we subtract the $2;30^\circ$ from the $45^\circ$ of arc ZB, since the moon’s distance in latitude is in the same direction as the zenith (i.e. they are either both south or both north of the ecliptic).
 
-Thus $\mathrm{arc} \mathrm{ZL} = 42;30^\circ$.
+Thus
+
+$$
+\mathrm{arc} \mathrm{ZL} = 42;30^\circ.
+$$
 
 Secondly, suppose the moon to be at point D. Then we add $[2;30^\circ]$ to the $45^\circ$, since the relative positions are reversed, and
 $\mathrm{ZK} = 47;30^\circ$.
@@ -6977,9 +7031,17 @@ And AG = 23;30 minutes, since it is less than AB by 1⁄2ths of the sun’s diam
 ![img-102.jpeg](images/img-102.jpeg)
 Fig. K
 
-So $\mathrm{AG}^2 = 552;15$
+So
 
-Hence $\mathrm{BG}^2 = 429;32$
+$$
+\mathrm{AG}^2 = 552;15
+$$
+
+Hence
+
+$$
+\mathrm{BG}^2 = 429;32
+$$
 
 and $\mathrm{BG} \approx 20;43$ minutes.
 
@@ -6989,7 +7051,9 @@ For the moon's least distance
 
 $\mathrm{AB} = 33;20$ minutes [p. 295].
 
-$\therefore \mathrm{AB}^2 = 1111;7$
+$$
+\therefore \mathrm{AB}^2 = 1111;7
+$$
 
 And $\mathrm{AG} = [0;33,20^{\circ} - 0;7,50^{\circ} = ]25;30$ minutes, so $\mathrm{AG}^2 = 650;15$
 
@@ -7005,7 +7069,11 @@ Then, for the moon's greatest distance, $\mathrm{AB} = 56;24$ minutes [p. 296], 
 
 and $\mathrm{AG} = 48;34$ minutes, since it is less than AB by $\frac{1}{4}$ of the lunar diameter, i.e. (for the moon's greatest distance) 7;50 minutes.
 
-So $\mathrm{AG}^2 = 2358;43$
+So
+
+$$
+\mathrm{AG}^2 = 2358;43
+$$
 
 Hence, by subtraction, $\mathrm{BG}^2 = 822;15$
 
@@ -7017,11 +7085,17 @@ For the [moon's] least distance
 
 $\mathrm{AB} = 63;36$ minutes [p. 296],
 
-so $\mathrm{AB}^2 = 4044;58$
+so
+
+$$
+\mathrm{AB}^2 = 4044;58
+$$
 
 And $AG = 54;46$ minutes, since the difference [between AB and AG], 8;50 minutes, is, again, $\frac{1}{4}$ of the moon’s diameter, [here] at least distance.
 
-$\therefore AG = 2999;23.$
+$$
+\therefore AG = 2999;23.
+$$
 
 So, by subtraction, $BG = 1045;35$, and $BG = 32;20$ minutes.
 
@@ -7043,7 +7117,11 @@ So let us take [for an example] an eclipse for which the entry [in the table] is
 
 $$(\mathrm{AB} - \mathrm{AD}) = \quad (\mathrm{AZ} - \mathrm{AD}) \quad = \quad 1\frac{1}{4} \text{ lunar diameters} $$
 
-and $(\mathrm{AG} - \mathrm{AD}) = (\mathrm{AE} - \mathrm{AD}) = \quad \frac{1}{4} \text{ lunar diameter}$.
+and
+
+$$
+(\mathrm{AG} - \mathrm{AD}) = (\mathrm{AE} - \mathrm{AD}) = \quad \frac{1}{4} \text{ lunar diameter}.
+$$
 
 Then, for the moon’s greatest distance, as before [p. 299], $\mathrm{AB} = 56;24$ minutes and $\mathrm{AB}^2 = 3180;58$.
 
@@ -7132,7 +7210,11 @@ And, in the same units, we showed that
 
 Therefore, by subtraction, $ \text{area of segment ADGK} = 8;24^p $
 
-and $ \text{area of segment AZGK} = 8;3^p. $
+and
+
+$$
+\text{area of segment AZGK} = 8;3^p.
+$$
 
 So, by addition, $ \text{area of AZGD} = 16;27^p $ where $ \text{area of circle ABGD} = 113;6^p. $
 
@@ -7166,9 +7248,13 @@ Here again, where $ E\Theta = 18;36^p $, by assumption.
 
 ∴ $ K\Theta - EK = (\Theta A - AE) / E\Theta = 11;8^p. $
 
-So $ EK $ comes out to $ 3;44^p $ and $ K\Theta $ to $ 14;52^p.
+So $ EK $ comes out to $ 3;44^p $ and $ K\Theta $ to $ 14;52^p. $
 
-Hence $ AK = KG = 4;42^p. $
+Hence
+
+$$
+AK = KG = 4;42^p.
+$$
 
 Accordingly, the area of triangle $ AEG = 17;33^p $ and the area of triangle $ A\Theta G = 69;52^p. $
 
@@ -7180,7 +7266,11 @@ Therefore the corresponding arcs are:
 
 $$ \text{arc ADG} = 103;8^\circ \text{ of circle ABGD} $$
 
-and $ \text{arc AZG} = 35;4^\circ \text{ of circle AZGH}. $
+and
+
+$$
+\text{arc AZG} = 35;4^\circ \text{ of circle AZGH}.
+$$
 
 Therefore, by the previous argument, $ \text{area of sector AEGD} = 32;24^p $ where, as was shown, $ \text{area of circle ABGD} = 113;6^p $ and, in the same units, $ \text{area of sector AGΘZ} = 74;28^p, $
 
@@ -7399,6 +7489,9 @@ and 4 columns. The first column contains the digits of actual obscuration, measu
 
 ## 13. Determination of the inclinations
 Thus, as a preliminary, we determine, by the method explained [VI 9–10], the time of each significant point [in the eclipse] listed above, and, from the times, those points on the ecliptic which are rising and setting at those moments, and, from the diagram [Fig. 6.7], the situation [of ecliptic] with respect to the horizon. Then, when the centre of the moon (the apparent centre at solar eclipses and the true centre at lunar eclipses) is exactly on the ecliptic, we get the inclination for a solar eclipse at the beginning of the eclipse, and the inclination for a lunar eclipse at the end of the partial phase and also at the end of emersion, from the situation on the horizon of the point of the ecliptic setting at the moment in question; we get the inclination for a solar eclipse at the end of the eclipse, and the inclination for a lunar eclipse at the beginning of the eclipse and the beginning of emersion [i.e. end of totality], from the [horizon situation] of the rising-point of the ecliptic. When the moon’s centre is not exactly on the ecliptic, we take from the table the angles corresponding to the relevant magnitude [of the eclipse] in digits, and apply those angles to the intersection of horizon and ecliptic.
+
+
+
 
 
 | 1 Digits | 2 Sun Beginning of Eclipse and End of Emersion | 3 Moon Beginning of Eclipse and End of Emersion | 4 [Moon] End of Partial Phase and Beginning of Emersion |
@@ -10205,13 +10298,19 @@ $$
 
 But HZ is common [to triangles BHZ, DHZ]
 
-and $\angle BHZ = \angle DHZ$.
+and
+
+$$
+\angle BHZ = \angle DHZ.
+$$
 
 Therefore base BZ = base DZ and $\angle HBZ = \angle HDZ$.
 
 But also BL = DM (radii of the epicycle), and the angles at L and M are right.
 
-$\therefore \angle BZL = \angle DZM.$
+$$
+\therefore \angle BZL = \angle DZM.
+$$
 
 Q.E.D.
 
@@ -10401,7 +10500,11 @@ Again, the difference between the above greatest elongations, $6^{\circ}$, compr
 
 86 IX 6 p. 448. But it is assumed rather than ‘proven’ there.
 
-Therefore $\angle B\Theta H = \left\{ \begin{array}{ll}3^{\circ} & \text{where 4 right angles} = 360^{\circ}\\ 6^{\circ \circ} & \text{where 2 right angles} = 360^{\circ \circ}. \end{array} \right.$
+Therefore
+
+$$
+\angle B\Theta H = \left\{ \begin{array}{ll}3^{\circ} & \text{where 4 right angles} = 360^{\circ}\\ 6^{\circ \circ} & \text{where 2 right angles} = 360^{\circ \circ}. \end{array} \right.
+$$
 
 Therefore in the circle about right-angled triangle BH $\Theta$
 
@@ -10411,7 +10514,9 @@ and $\mathrm{BH} = 6;17^{\circ}$ where hypotenuse $\mathrm{B}\Theta = 120^{\circ
 
 Therefore where $\mathrm{B}\Theta = 99;9^{\circ}$ and likewise $\mathrm{BZ} = 10;25^{\circ}$
 
-$\mathrm{BH} = 5;12^{\circ}$
+$$
+\mathrm{BH} = 5;12^{\circ}
+$$
 
 Therefore BH is approximately half BZ, and $\mathrm{BH}\approx \mathrm{HZ}\approx 5;12^{\circ}$ , where the radius of the epicycle is $39;9^{\circ}$
 
@@ -10426,7 +10531,9 @@ Now $\angle MZH$ is right, and $\angle \Theta ZH$ is practically a right angle (
 
 and it has been demonstrated that where the epicycle radius is $39;9^{\circ}$
 
-$\mathrm{NZ} = \mathrm{AZ} = 109;34^{\circ}$
+$$
+\mathrm{NZ} = \mathrm{AZ} = 109;34^{\circ}
+$$
 
 and $\mathrm{Z}\Theta = \mathrm{B}\Theta = 99;9^{\circ}$ .88
 
@@ -10458,17 +10565,27 @@ $$ \angle \Theta DK = 47\frac{3}{4}° \text{ where 4 right angles } = 360° $$
 
 Now both $ \angle ABH $ and $ \angle AGL $ subtend the side of the [inscribed] triangle and are equal to $ 120° $ where 2 right angles $ = 180° $;
 
-so $ \angle GBH = \angle DGL = 60° $;
+so
+
+$$
+\angle GBH = \angle DGL = 60°;
+$$
 
 and $ \angle BHG = \angle BGH $ (BG = BH, by hypothesis).
 
 But $ \angle BHG + \angle BGH = 120° $ (supplement [to $ \angle GBH = 60° $]).
 
-$ \therefore \angle BHG = \angle BGH = 60° $.
+$$
+\therefore \angle BHG = \angle BGH = 60°.
+$$
 
 So triangle BGH is equiangular and equilateral.
 
-And $ \angle DGL = \angle BGH $.
+And
+
+$$
+\angle DGL = \angle BGH.
+$$
 
 So points H, G and Z lie on a straight line.
 
@@ -10564,7 +10681,11 @@ Therefore where $BG = 3^{\circ}$, $GH = 2;11^{\circ}$.
 
 Again, since $\angle BGH = 137;26^{\circ \circ}$
 
-and $\angle BGM = 85;8^{\circ \circ}$
+and
+
+$$
+\angle BGM = 85;8^{\circ \circ}
+$$
 
 where 2 right angles = 360°, by subtraction, $\angle HGM = 52;18^{\circ \circ}$ in the same units.
 
@@ -11310,7 +11431,7 @@ DK ≈ 13;7 where the radius of the eccentric, KL = $60^{\circ44}$.
 Furthermore, since
 GN = $\frac{1}{2}GE = 59;11^{\circ}$ where diameter LM = $120^{\circ}$,
 and, as we showed, GD = 50;32 in the same units,
-by subtraction, DN = 8;39 where DK was computed as 13;7$$.
+by subtraction, DN = 8;39 where DK was computed as 13;7.
 
 Therefore in the circle about right-angled triangle DKN,
 DN = 79;8 where hypotenuse DK = $120^{\circ}$,
@@ -11497,7 +11618,11 @@ arc NQ = 18;54°.
 
 But we showed that ∠ NGQ = 17;14°° in the same units.
 
-Therefore by subtraction, $\angle \mathrm{GNH} = \begin{cases} 1;40^{\circ} \text{ in the same units.} \\ 0;50^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{cases}$
+Therefore by subtraction,
+
+$$
+\angle \mathrm{GNH} = \begin{cases} 1;40^{\circ} \text{ in the same units.} \\ 0;50^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{cases}
+$$
 
 That $[0;50^{\circ}]$, then, is the amount of arc MY of the ecliptic.
 
@@ -11650,7 +11775,11 @@ Therefore where $D\Theta = 6^P$ and the radius of the eccentric, $DG = 60^P$,
 
 $$DF = 4;11^P $$
 
-and $F\Theta = 4;17^P$.
+and
+
+$$
+F\Theta = 4;17^P.
+$$
 
 And since $DG - DF = GF$, we find that $GF = 59;51^P$ in the same units.
 
@@ -11754,7 +11883,11 @@ $$
 \text{and} \quad \text{ZM} = 4;24^{\text{p}}.
 $$
 
-And since $\text{DB}^2 - \text{DM}^2 = \text{BM}^2$,
+And since
+
+$$
+\text{DB}^2 - \text{DM}^2 = \text{BM}^2,
+$$
 
 $$
 \text{BM} = 59;52^{\text{p}} \text{ in the same units}.
@@ -11770,7 +11903,9 @@ $$
 \text{arc } \text{EL} = 16;44^{\circ}
 $$
 
-$\therefore \angle \text{ZBE} = 16;44^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}$.
+$$
+\therefore \angle \text{ZBE} = 16;44^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}.
+$$
 
 Furthermore, the apparent distance of the planet Mars in advance of the perigee G,
 
@@ -12074,7 +12209,11 @@ $$
 A\Theta = 91;52^\circ \quad \text{where hypotenuse } EA = 120^\circ. \tag{}
 $$
 
-and $E\Theta = 77;12^\circ$
+and
+
+$$
+E\Theta = 77;12^\circ
+$$
 
 Therefore where AE, as was shown, is 78;2°, and DE = 120°,
 
@@ -12082,7 +12221,11 @@ $$
 A\Theta = 59;44^\circ
 $$
 
-and $E\Theta = 50;12^\circ$.
+and
+
+$$
+E\Theta = 50;12^\circ.
+$$
 
 But the whole line EB was shown to be 210;58° in the same units.
 
@@ -12360,7 +12503,11 @@ $$
 \text{and} ZH = 2;16^{\circ}.
 $$
 
-And since $GD - DH = GH$,
+And since
+
+$$
+GD - DH = GH,
+$$
 
 $$
 GH \approx 59;59^{\circ}.
@@ -12961,7 +13108,9 @@ and we showed that $\mathrm{ED} = 55;23^{\circ}$ in the same units, by subtracti
 
 Therefore where hypotenuse [of right-angled triangle DKN] $\mathrm{DK} = 120^{\circ}$
 
-$\mathrm{DN} = 73;11^{\circ}$
+$$
+\mathrm{DN} = 73;11^{\circ}
+$$
 
 25 DG and ED have been computed with only small inaccuracies (I find 64;5,21 and 55;23,39 for Ptolemy's 64;5 and 55;23), but the resulting value for the eccentricity, 7;3,33°, differs significantly from Ptolemy's 7;8°.
 
@@ -13127,7 +13276,11 @@ $$
 DH = 40;45^{\circ}
 $$
 
-and $\angle ZH = 112;52^{\circ}$
+and
+
+$$
+\angle ZH = 112;52^{\circ}
+$$
 
 $$
 \arc ZH = 120^{\circ}.
@@ -13139,7 +13292,11 @@ $$
 DH = 1;13^{\circ}
 $$
 
-and $\angle ZH = 3;21^{\circ}$.
+and
+
+$$
+\angle ZH = 3;21^{\circ}.
+$$
 
 And, since $DB - DH = BH$,
 
@@ -13221,7 +13378,11 @@ $$
 \mathrm{DH} = 3;1^\circ
 $$
 
-and $\mathrm{ZH} = 1;54^\circ$.
+and
+
+$$
+\mathrm{ZH} = 1;54^\circ.
+$$
 
 Again, since $\mathrm{DG}^2 \sim \mathrm{DH}^2 = \mathrm{GH}^2$, $\mathrm{GH} = 59;56^\circ$ in the same units.
 
@@ -14566,7 +14727,11 @@ $$
 EG: GZ = 3;5,31 : 0;40,11,
 $$
 
-and $EG.GZ = 2;4,14$.
+and
+
+$$
+EG.GZ = 2;4,14.
+$$
 
 Furthermore, GA:AH = 54;20 : 39;30,
 DG:GH = 93;50 : 14;50,
@@ -14608,7 +14773,9 @@ $$
 
 And, by subtraction, $\angle$ ZGA, which represents the [amount of] retrogradation due to the planet’s speed, is $[90^\circ - \angle$ GAΘ =] 26;9,49°, while $\angle$ ZAH, which represents the [motion in] apparent anomaly, is $[\angle$ GAΘ - $\angle$ ZAΘ =] 11;11,6°. To the latter correspond [motions in] corrected longitude of 20;33,42°, and in mean longitude of 16;52,52°, according to the ratios [of the speeds] at the perigee. So half the retrogradation comes out as
 
-$[26;9,49^\circ - 20;33,42^\circ =] 5;36,7^\circ \text{ and about } 321^\circ,$
+$$
+[26;9,49^\circ - 20;33,42^\circ =] 5;36,7^\circ \text{ and about } 321^\circ,
+$$
 
 and the total retrogradation is
 
@@ -14742,9 +14909,17 @@ $$
 \end{align*}
 $$
 
-Accordingly $\angle \text{ZAΘ} = 52;39,5^\circ$
+Accordingly
 
-and $\angle \text{GAΘ} = 63;50,11^\circ$.
+$$
+\angle \text{ZAΘ} = 52;39,5^\circ
+$$
+
+and
+
+$$
+\angle \text{GAΘ} = 63;50,11^\circ.
+$$
 
 And, by subtraction, $\angle \text{ZGA}$, which represents the [amount of] retrogradation due to the planet’s speed, is $[90^\circ - \angle \text{GAΘ} =] 26;9,49^\circ$, while $\angle \text{ZAH}$, which represents the [motion in] apparent anomaly, is $[\angle \text{GAΘ} - \angle \text{ZAΘ} =] 11;11,6^\circ$. To the latter correspond [motions in] corrected longitude of $20;33,42^\circ$, and in mean longitude of $16;52,52^\circ$, according to the ratios [of the speeds] at the perigee. So half the retrogradation comes out as
 
@@ -14907,7 +15082,11 @@ $$
 \arc x G\Theta = 122;56,27^{\circ}.
 $$
 
-Accordingly $\angle ZA\Theta = 47;24,27^{\circ}$
+Accordingly
+
+$$
+\angle ZA\Theta = 47;24,27^{\circ}
+$$
 
 and
 
@@ -14973,7 +15152,11 @@ $$
 \end{array}
 $$
 
-Accordingly $\angle ZA\Theta = 50; 19, 47^{\circ}$
+Accordingly
+
+$$
+\angle ZA\Theta = 50; 19, 47^{\circ}
+$$
 
 $$
 \text{and } \angle GA\Theta = 62; 4, 11^{\circ}.
@@ -15108,7 +15291,11 @@ $$
 \end{array}
 $$
 
-Accordingly $\angle ZA\Theta = 43; 15,32^{\circ}$
+Accordingly
+
+$$
+\angle ZA\Theta = 43; 15,32^{\circ}
+$$
 
 $$
 \text{and } \angle \Theta AG = 76; 13,58^{\circ}.
@@ -15727,7 +15914,11 @@ $$
 \angle \mathrm{ZEH} = \left\{ \begin{array}{l} 0;26^{\circ} \text{ for Saturn} \\ 0;24^{\circ} \text{ for Jupiter}, \\ 0;34^{\circ} \text{ for Saturn} \\ 0;36^{\circ} \text{ for Jupiter}. \end{array} \right.
 $$
 
-and $\angle \mathrm{ZEK} = \left\{ \begin{array}{l} 0;34^{\circ} \text{ for Saturn} \\ 0;36^{\circ} \text{ for Jupiter}. \end{array} \right.$
+and
+
+$$
+\angle \mathrm{ZEK} = \left\{ \begin{array}{l} 0;34^{\circ} \text{ for Saturn} \\ 0;36^{\circ} \text{ for Jupiter}. \end{array} \right.
+$$
 
 So, by subtraction [from $\angle \mathrm{AEK}$], the inclination of the eccentric
 
@@ -16088,9 +16279,15 @@ So the corresponding chords
 
 Therefore, where line $\mathrm{AK} = 53;5^{\mathrm{p}}$,
 
-$\mathrm{BK} = 2;41^{\mathrm{p}}$
+$$
+\mathrm{BK} = 2;41^{\mathrm{p}}
+$$
 
-and $\mathrm{AB} = 53;1^{\mathrm{p}}$.
+and
+
+$$
+\mathrm{AB} = 53;1^{\mathrm{p}}.
+$$
 
 And since $\mathrm{AB}^2 + \mathrm{BL}^2 = \mathrm{AL}^2$, and BL was shown to be $4;36^{\mathrm{p}}$ in the same units, $\mathrm{AL} = 53;13^{\mathrm{p}}$ in the same units.
 
@@ -16572,11 +16769,19 @@ $$
 
 But since the amount by which $\angle$ DAZ exceeds $\angle$ HAZ represents the resulting difference in the equation in longitude, we must immediately compute this too, by finding the amounts of these angles. For we showed that, where line $\text{DH} = 1;50^{\circ}$, hypotenuse $\text{AD} = 41;40^{\circ}$ and $\text{DZ} = 29;58^{\circ}$;
 
-and $\text{AD}^2 - \text{DH}^2 = \text{AH}^2$
+and
+
+$$
+\text{AD}^2 - \text{DH}^2 = \text{AH}^2
+$$
 
 while $\text{ZD}^2 - \text{DH}^2 = \text{HZ}^2$;
 
-so $\text{AH} = 41;37^{\circ}$
+so
+
+$$
+\text{AH} = 41;37^{\circ}
+$$
 
 and $\text{HZ} = 29;55^{\circ}$ in the same units.
 
@@ -16596,7 +16801,11 @@ Thus the equation in longitude computed according to the slant was less by one m
 
 For Mercury [see Fig. 13.14], where the radius of the epicycle is $22;30^{\circ}$, the greatest distance, as we demonstrated, is $69^{\circ}$, and the distance diametrically opposite to that $57^{\circ}$; the mean between these two is calculated as $63^{\circ}$ in the same units.
 
-So $\text{AB:BD} = 63 : 22;30$.
+So
+
+$$
+\text{AB:BD} = 63 : 22;30.
+$$
 
 And since $\text{AB}^2 - \text{DB}^2 = \text{AD}^2$, $\text{AD} = 58;51^{\circ}$.
 
@@ -17138,3 +17347,6 @@ See also HAMA 255 for a suggestion to emend Venus, Morning Rising, Aries, to 2;0
 ## 11. Epilogue of the treatise
 
 We have now completed these additional topics, Syrus, and have shown the way to deal with almost all the topics which should, at least to my mind, be subjected to theory for the purposes of this kind of treatise, at any rate as far as the time up to our own days contributed to greater accuracy in our discoveries or in corrections [of earlier discoveries], and as far as was suggested by a memorandum directed only toward scientific usefulness, and not towards ostentation. So at this point our present discussion can be terminated at an appropriate place and at the right length.
+
+
+

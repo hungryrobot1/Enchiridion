@@ -118,11 +118,23 @@ It follows that the weight of fluid displaced by a weight $w_{1}$ of gold is $\f
 
 (3) Lastly, weigh the crown itself in the fluid, and let $F$ be the loss of weight. Therefore the weight of fluid displaced by the crown is $F$.
 
-It follows that $\frac{w_1}{W} \cdot F_1 + \frac{w_2}{W} \cdot F_2 = F$,
+It follows that
 
-or $w_1F_1 + w_2F_2 = (w_1 + w_2)F$,
+$$
+\frac{w_1}{W} \cdot F_1 + \frac{w_2}{W} \cdot F_2 = F,
+$$
 
-whence $\frac{w_1}{w_2} = \frac{F_2 - F}{F - F_1}$.
+or
+
+$$
+w_1F_1 + w_2F_2 = (w_1 + w_2)F,
+$$
+
+whence
+
+$$
+\frac{w_1}{w_2} = \frac{F_2 - F}{F - F_1}.
+$$
 
 This procedure corresponds pretty closely to that described in the poem *de ponderibus et mensuris* (written probably about 500 A.D.)* purporting to explain Archimedes’ method. According to the author of this poem, we first take two equal weights of pure gold and pure silver respectively and weigh them against each other when both immersed in water; this gives the relation between their weights in water and therefore between their loss of weight in water. Next we take the mixture of gold and silver and an equal weight of pure silver and weigh them against each other in water in the same manner.
 
@@ -139,7 +151,11 @@ fluid, $V_{1}$ say; therefore a weight $w_{1}$ of gold displaces a volume $\frac
 
 (3) the weight $W$ of silver displaces a certain volume of fluid, say $V_{2}$; therefore a weight $w_{2}$ of silver displaces a volume $\frac{w_{2}}{W} \cdot V_{2}$ of fluid.
 
-It follows that $V = \frac{w_{1}}{W} \cdot V_{1} + \frac{w_{2}}{W} \cdot V_{2},$
+It follows that
+
+$$
+V = \frac{w_{1}}{W} \cdot V_{1} + \frac{w_{2}}{W} \cdot V_{2},
+$$
 
 whence, since $W = w_{1} + w_{2},$
 
@@ -180,3 +196,4 @@ Join $OH$.
 Then the weight of the portion of the solid outside the fluid acts along $FO$, and the pressure of the fluid on the immersed portion along $OH$, while the weight of the immersed portion acts along $HO$ and is by hypothesis less than the pressure of the fluid acting along $OH$.
 
 Hence there will not be equilibrium, but the part of the segment towards $A$ will ascend and the part towards $B$ descend, until $DE$ assumes a position perpendicular to the surface of the fluid.
+

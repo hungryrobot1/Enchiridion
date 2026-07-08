@@ -60,6 +60,13 @@ export async function renderModuleReader(container, params) {
     repoUrl: buildRepoUrl(path),
     chapterNav,
     linkRewriter: (href) => {
+      // A link targeting `<dir>/content.md` points at a supplement in another
+      // tree (e.g. ../../1-ancient-greece/greek-math-companion/content.md) —
+      // the parent directory name is the supplement id. Module chapters and
+      // resources never use a content.md filename, so the shape is
+      // unambiguous. Same convention as the supplement reader's rewriter.
+      const supplement = href.match(/(?:^|\/)([^/]+)\/content\.md$/);
+      if (supplement) return `#/supplement/${supplement[1]}`;
       const linkStem = href.replace(/^\.?\//, '').replace(/\.md$/, '');
       return `#/module/${id}/${linkStem}`;
     },

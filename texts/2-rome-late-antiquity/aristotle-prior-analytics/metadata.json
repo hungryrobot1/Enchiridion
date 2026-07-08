@@ -6,8 +6,8 @@
   "year_translated": 1928,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "AristotleOrganoncollectedWorks-split.pdf",
+  "format": "markdown",
+  "filename": "aristotle-prior-analytics.md",
   "description": "The theory of the syllogism — formal deductive inference from premises to conclusion",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

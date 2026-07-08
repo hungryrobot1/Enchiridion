@@ -5,8 +5,8 @@
   "year_written": "~350 BCE",
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "AristotleOrganoncollectedWorks.pdf",
+  "format": "markdown",
+  "filename": "aristotle-collective-works.md",
   "description": "Single-volume collection of Aristotle's works in the Oxford translation — the source edition from which the six Organon texts were sliced, plus seventeen further works beyond the logical corpus",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "ancient-greece",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-cleanup"
 }

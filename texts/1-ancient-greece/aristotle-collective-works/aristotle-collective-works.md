@@ -3,30 +3,6 @@
 
 *Translated under the editorship of W. D. Ross*
 
-Organon I – Categories    2 Organon II - On Interpretation   47
-
-Organon III - Prior Analytics   81 Organon IV - Posterior Analytics  221
-
-Organon V – Topics     326 Organon VI - On Sophistical Refutations 533
-
-Physics       602 On the Heavens     852
-
-On Generation and Corruption   952 Meteorology     1 033
-
-On the Soul     1 159 Parva Naturalia    1 256
-
-History of Animals    1 389 On the Parts of Animals   1 791
-
-On the Motion of Animals  1 966 On the Gait of Animals   1 984
-
-On the Generation of Animals  2 009 Metaphysics     2 205
-
-Nicomachean Ethics   2 536 Politics      2 788
-
-Athenian Constitution   3 050 Rhetoric      3 132
-
-Poetics      3 308
-
 # Categories
 
 *Translated by E. M. Edghill*
@@ -477,7 +453,7 @@ A. Affirmation Man is just
 
  B. Denial Man is not just
 
-  
+
 
 D. Denial Man is not not-just
 
@@ -491,7 +467,7 @@ A’. Affirmation Every man is just
 
  B’. Denial Not every man is just
 
-  
+
 
 D’. Denial Not every man is not-just
 
@@ -599,7 +575,7 @@ It is not impossible that it should be. It is impossible that it should be.
 
 It is not necessary that it should be. It is necessary that it should not be.
 
- 
+
 
 C. D.
 

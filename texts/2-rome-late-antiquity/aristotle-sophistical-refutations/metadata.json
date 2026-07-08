@@ -6,8 +6,8 @@
   "year_translated": 1928,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "AristotleOrganoncollectedWorks-split.pdf",
+  "format": "markdown",
+  "filename": "aristotle-sophistical-refutations.md",
   "description": "Fallacies and how they deceive — the classification of arguments that appear valid but are not",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

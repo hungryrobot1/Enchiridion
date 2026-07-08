@@ -6,8 +6,8 @@
   "year_translated": 1928,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "AristotleOrganoncollectedWorks-split.pdf",
+  "format": "markdown",
+  "filename": "aristotle-topics.md",
   "description": "Dialectical reasoning — how to argue from accepted opinions, and the classification of arguments",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

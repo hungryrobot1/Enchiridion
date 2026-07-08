@@ -6,8 +6,8 @@
   "year_translated": 1928,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "AristotleOrganoncollectedWorks-split.pdf",
+  "format": "markdown",
+  "filename": "aristotle-on-interpretation.md",
   "description": "Propositions, truth, and contradiction — how language asserts and denies, including the sea-battle problem of future contingents",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

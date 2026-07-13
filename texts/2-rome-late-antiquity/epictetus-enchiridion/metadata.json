@@ -1,13 +1,13 @@
 {
-  "title": "Discourses and Enchiridion",
+  "title": "The Enchiridion",
   "author": "Epictetus",
-  "translator": "George Long",
+  "translator": "Thomas W. Higginson",
   "year_written": "~125",
-  "year_translated": 1877,
+  "year_translated": 1865,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg45109-images-3.pdf",
+  "format": "markdown",
+  "filename": "epictetus-enchiridion.md",
   "description": "Stoic manual on what is and is not within our control",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

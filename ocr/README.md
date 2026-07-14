@@ -90,6 +90,63 @@ python3 ocr/audit-diagram-coverage.py --scaffold <out.md> \
     --manifest english-images/manifest.json --pdf source/Elements-english.pdf
 ```
 
+## Extraction track (ordinary prose texts)
+
+The general path for any text-native PDF (the corpus audit classifies which —
+see below). Proven on the Aristotle collected works, the Enchiridion, and the
+Meditations. Bilingual/diagram-heavy texts use the PDF-native section above
+instead; scans go to Mistral OCR.
+
+```bash
+python3 ocr/recon-pdf.py source.pdf                 # 1. recon (ALWAYS first)
+python3 ocr/crop-pdf.py source.pdf source/cropped.pdf --bbox …   # 2. crop page numbers
+python3 ocr/extract-text.py source/cropped.pdf source/raw.md --pages A-B  # 3. content span only
+python3 ocr/text-specific-tools/<author>/partition-<text>.py …  # 4. structure
+python3 ocr/join-line-wrap-hyphens.py <out.md>                   # 5a. hyphen wraps
+python3 ocr/rejoin-split-paragraphs.py --blank <out.md>          # 5b. page-boundary splits
+#    review the category report; --apply with selected categories.
+#    Leave "other" (both sides read complete) unless individually verified.
+```
+
+**Recon first, always.** `recon-pdf.py` reports fonts, heading tiers,
+Gutenberg START/END markers, page-number y-clusters (with a suggested crop
+box), numeral candidates, and image census in one pass. The heading-tier
+inventory *is* the document's structural skeleton; the partition script is
+written from it.
+
+**Verify the translator.** Check the PDF's own title block against
+`metadata.json` before processing — two of the first three texts through this
+track were mislabeled (Higginson filed as Long; Casaubon filed as Long).
+Correct the metadata to describe the actual file.
+
+**Apparatus policy (pedagogical, non-negotiable):** the text's markdown
+carries the text itself and nothing else. Strip Gutenberg boilerplate,
+edition contents pages, editor/translator introductions, notes-on-the-text,
+bibliographies, appendices, glossaries, and editorial footnotes together with
+their `[N]` markers in the body. Authorial footnotes stay; so do the
+translator's bracketed interpolations inside sentences ("[for negligence]").
+The apparatus remains accessible in the source PDF and the raw extract under
+`source/` — stripped, not destroyed.
+
+**Structure conventions:** titles stay ALL CAPS as typeset. Chapter/book
+markers become headings validated by sequence (a standalone numeral is a
+heading only if it is 1 or previous+1, resetting at book boundaries — a stray
+number in prose can never silently become a heading; zero-warning runs are
+the norm on clean editions).
+
+**Heading promotion is a length decision, not an automatic step.** The
+reader lazily parses per-h1 section; multiple h1s are what save long texts
+from eager-parsing (the mobile hang class). Short texts read better as one
+continuous scroll. Rule of thumb: under ~100 KB of markdown, keep one h1 and
+let it flow (Enchiridion); above that, promote major divisions to h1
+(Meditations at ~300 KB, books as h1). Deeper structure nests under `##`/`###`
+— the reader recurses.
+
+**Per-text tools** live in `ocr/text-specific-tools/<author>/` and are the
+canonical record of that edition's structure decisions — write the docstring
+as documentation. The corpus-wide candidacy map is `ocr/corpus-audit.md` /
+`.json` (regenerate with `ocr/survey-corpus.py`).
+
 ## Drama pipeline
 
 Greek drama and dialogue texts use a different post-processing sequence from math/sci. The conventions emerged from processing all five Plato dialogues, Aeschylus's Oresteia + Prometheus Bound, Sophocles's Theban trilogy, Euripides's Bacchae, and Aristophanes's Clouds. Two layout modes are supported:

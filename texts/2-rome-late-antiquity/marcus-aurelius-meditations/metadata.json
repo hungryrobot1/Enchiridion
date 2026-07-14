@@ -1,13 +1,13 @@
 {
   "title": "Meditations",
   "author": "Marcus Aurelius",
-  "translator": "George Long",
+  "translator": "Meric Casaubon",
   "year_written": "~180",
-  "year_translated": 1862,
+  "year_translated": 1634,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg2680-images-3.pdf",
+  "format": "markdown",
+  "filename": "marcus-aurelius-meditations.md",
   "description": "Personal reflections of a Roman emperor on Stoic philosophy and duty",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

@@ -142,6 +142,21 @@ let it flow (Enchiridion); above that, promote major divisions to h1
 (Meditations at ~300 KB, books as h1). Deeper structure nests under `##`/`###`
 — the reader recurses.
 
+**The sibling epub is a witness.** Most PG-derived texts ship with a matching
+epub (`pg*-images-3.epub`) built from the same transcription. Use it two
+ways: (a) token-for-token cross-validation of the extracted text, and (b) as
+a paragraph-break oracle — a paragraph break that falls exactly on a PDF page
+turn is invisible in the PDF's geometry but plain in the epub's continuous
+HTML. No dedicated tooling: unzip + strip tags inline in the partition
+script. Exemplar: `text-specific-tools/lucretius/partition-de-rerum-natura.py`
+(9,730 verse lines reconciled, zero warnings; 34 page-turn breaks recovered).
+Two related caveats proven on real texts: some PG PDFs mark paragraphs ONLY
+by first-line indent inside page-sized blocks, silently defeating
+`extract-text.py`'s block paragraphing (read the PDF line geometry directly —
+exemplar: `text-specific-tools/augustine/partition-confessions.py`), and
+`extract-text.py` joins lines with spaces, so VERSE partition tools must read
+the PDF directly rather than its output.
+
 **Per-text tools** live in `ocr/text-specific-tools/<author>/` and are the
 canonical record of that edition's structure decisions — write the docstring
 as documentation. The corpus-wide candidacy map is `ocr/corpus-audit.md` /

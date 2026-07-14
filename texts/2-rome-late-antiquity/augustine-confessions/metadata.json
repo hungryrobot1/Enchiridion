@@ -6,8 +6,8 @@
   "year_translated": 1838,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg3296-images-3.pdf",
+  "format": "markdown",
+  "filename": "augustine-confessions.md",
   "description": "Spiritual autobiography and philosophical meditation on memory, time, and conversion",
   "topics": [
     "theology",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

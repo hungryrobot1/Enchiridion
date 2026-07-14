@@ -6,8 +6,9 @@
   "year_translated": 1916,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg785-images-3.pdf",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "lucretius-de-rerum-natura.md",
   "description": "Epic poem presenting Epicurean atomism and a naturalistic account of the universe",
   "topics": [
     "philosophy",
@@ -17,5 +18,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

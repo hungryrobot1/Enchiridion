@@ -1,381 +1,10 @@
-# The Ten Books on Architecture
+# THE TEN BOOKS ON ARCHITECTURE
 
-Vitruvius Pollio
+*Translated by Morris Hicky Morgan*
 
-Project Gutenberg
+# BOOK I
 
----
-
-1
-
----
-
-
-
----
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-Title: The Ten Books on Architecture
-
-Author: Vitruvius Pollio
-
-Release date: December 31, 2006 [eBook #20239]
-
-Language: English
-
-Other information and formats: www.gutenberg.org/ebooks/20239
-
-Credits: Produced by Chuck Greif, Melissa Er-Raqabi, Ted Gurvin and the Online Distributed Proofreading Team at http://www.pgdp.net
-
-*** START OF THE PROJECT GUTENBERG EBOOK THE TEN BOOKS ON ARCHITECTURE ***
-
----
-
-VITRUVIUS
-
----
-
-THE TEN BOOKS ON ARCHITECTURE
-
-TRANSLATED BY
-MORRIS HICKY MORGAN, PH.D., LL.D.
-LATE PROFESSOR OF CLASSICAL PHILOLOGY
-IN HARVARD UNIVERSITY
-
-WITH ILLUSTRATIONS AND ORIGINAL DESIGNS
-PREPARED UNDER THE DIRECTION OF
-
-HERBERT LANGFORD WARREN, A.M.
-
-NELSON ROBINSON JR. PROFESSOR OF ARCHITECTURE
-
-IN HARVARD UNIVERSITY
-
-CAMBRIDGE
-
-HARVARD UNIVERSITY PRESS
-
-LONDON: HUMPHREY MILFORD
-OXFORD UNIVERSITY PRESS
-1914
-
-COPYRIGHT, HARVARD UNIVERSITY PRESS
-
-CONTENTS
-LIST OF ILLUSTRATIONS
-INDEX
-
----
-
-# PREFACE
-
-During the last years of his life, Professor Morgan had devoted much time and energy to the preparation of a translation of Vitruvius, which he proposed to supplement with a revised text, illustrations, and notes. He had completed the translation, with the exception of the last four chapters of the tenth book, and had discussed, with Professor Warren, the illustrations intended for the first six books of the work; the notes had not been arranged or completed, though many of them were outlined in the manuscript, or the intention to insert them indicated. The several books of the translation, so far as it was completed, had been read to a little group of friends, consisting of Professors Sheldon and Kittredge, and myself, and had received our criticism, which had, at times, been utilized in the revision of the work.
-
-After the death of Professor Morgan, in spite of my obvious incompetence from a technical point of view, I undertook, at the request of his family, to complete the translation, and to see the book through the press. I must, therefore, assume entire responsibility for the translation of the tenth book, beginning with chapter thirteen, and further responsibility for necessary changes made by me in the earlier part of the translation, changes which, in no case, affect any theory held by Professor Morgan, but which involve mainly the adoption of simpler forms of statement, or the correction of obvious oversights.
-
-The text followed is that of Valentine Rose in his second edition (Leipzig, 1899), and the variations from this text are, with a few exceptions which are indicated in the footnotes, in the nature of a return to the consensus of the manuscript readings.
-
-The illustrations in the first six books are believed to be substantially in accord with the wishes of Professor Morgan. The suggestions for illustrations in the later books were incomplete, and did not indicate, in all cases, with sufficient definiteness to allow them to be executed, the changes from conventional plans and designs intended by the translator. It has, therefore, been decided to include in this part of the work only those illustrations which are known to have had the full approval of Professor Morgan. The one exception to this principle is the reproduction of a rough model of the Ram of Hegetor, constructed by me on the basis of the measurements given by Vitruvius and Athenaeus.
-
-It does not seem to me necessary or even advisable to enter into a long discussion as to the date of Vitruvius, which has been assigned to various periods from the time of Augustus to the early centuries of our era. Professor Morgan, in several articles in the Harvard Studies in Classical Philology, and in the Proceedings of the American Academy, all of which have been reprinted in a volume of Addresses and Essays (New York, 1909), upheld the now generally accepted view that Vitruvius wrote in the time of Augustus, and furnished conclusive evidence that nothing in his language is inconsistent with this view. In revising the translation, I met with one bit of evidence for a date before the end of the reign of Nero which I have never seen adduced. In viii, 3, 21, the kingdom of Cottius is mentioned, the name depending, it is true, on an emendation, but one which has been universally accepted since it was first proposed in 1513. The kingdom of Cottius was made into a Roman province by Nero (cf. Suetonius, Nero, 18), and it is inconceivable that any Roman writer subsequently referred to it as a kingdom.
-
-It does seem necessary to add a few words about the literary merits of Vitruvius in this treatise, and about Professor Morgan's views as to the general principles to be followed in the translation.
-
-Vitruvius was not a great literary personage, ambitious as he was to appear in that character. As Professor Morgan has aptly said, "he has all the marks of one unused to composition, to whom writing is a painful task." In his hand the measuring-rod was a far mightier implement than the pen. His turgid and pompous rhetoric displays itself in the introductions to the different books, where his exaggerated effort to introduce some semblance of style into his commonplace lectures on the noble principles which should govern the conduct of the architect, or into the prosaic lists of architects and writers on architecture, is everywhere apparent. Even in the more technical portions of his work, a like conscious effort may be detected, and, at the same time, a lack of confidence in his ability to express himself in unmistakable language. He avoids periodic sentences, uses only the simpler subjunctive constructions, repeats the antecedent in relative clauses, and, not infrequently, adopts a formal language closely akin to that of specifications and contracts, the style with which he was, naturally, most familiar. He ends each book with a brief summary, almost a formula, somewhat like a sigh of relief, in which the reader unconsciously shares. At times his meaning is ambiguous, not because of grammatical faults, which are comparatively few and unimportant, but because, when he does attempt a periodic sentence, he becomes involved, and finds it difficult to extricate himself.
-
-Some of these peculiarities and crudities of expression Professor Morgan purposely imitated, because of his conviction that a translation should not merely reproduce the substance of a book, but should also give as clear a picture as possible of the original, of its author, and of the working of his mind. The translation is intended, then, to be faithful and exact, but it deliberately avoids any attempt to treat the language of Vitruvius as though it were Ciceronian, or to give a false impression of conspicuous literary merit in a work which is destitute of that quality. The translator had, however, the utmost confidence in the sincerity of Vitruvius and in the serious purpose of his treatise on architecture.
-
-To those who have liberally given their advice and suggestions in response to requests from Professor Morgan, it is impossible for me to make adequate acknowledgment. Their number is so great, and my knowledge of the indebtedness in individual cases is so small, that each must be content with the thought of the full and generous acknowledgment which he would have received had Professor Morgan himself written this preface.
-
-Personally I am under the greatest obligations to Professor H. L. Warren, who has freely given both assistance and criticism; to Professor G. L. Kittredge, who has read with me most of the proof; to the Syndics of the Harvard University Press, who have made possible the publication of the work; and to the members of the Visiting Committee of the Department of the Classics and the classmates of Professor Morgan, who have generously supplied the necessary funds for the illustrations.
-
-ALBERT A. HOWARD.
-
----
-
-# CONTENTS
-
-## BOOK I
-
-- PREFACE 3
-- THE EDUCATION OF THE ARCHITECT 5
-- THE FUNDAMENTAL PRINCIPLES OF ARCHITECTURE 13
-- THE DEPARTMENTS OF ARCHITECTURE 16
-- THE SITE OF A CITY 17
-- THE CITY WALLS 21
-- THE DIRECTIONS OF THE STREETS; WITH REMARKS ON THE WINDS 24
-- THE SITES FOR PUBLIC BUILDINGS 31
-
-## BOOK II
-
-- INTRODUCTION 35
-- THE ORIGIN OF THE DWELLING HOUSE 38
-- ON THE PRIMORDIAL SUBSTANCE ACCORDING TO THE PHYSICISTS 42
-- BRICK 42
-- SAND 44
-- LIME 45
-- POZZOLANA 46
-- STONE 49
-- METHODS OF BUILDING WALLS 51
-- TIMBER 58
-- HIGHLAND AND LOWLAND FIR 64
-
-## BOOK III
-
-- INTRODUCTION 69
-- ON SYMMETRY: IN TEMPLES AND IN THE HUMAN BODY 72
-- CLASSIFICATION OF TEMPLES 75
-- THE PROPORTIONS OF INTERCOLUMINATIONS AND OF COLUMNS 78
-- THE FOUNDATIONS AND SUBSTRUCTURES OF TEMPLES 86
-- PROPORTIONS OF THE BASE, CAPITALS, AND ESTABLATURE IN THE IONIC ORDER 90
-
-## BOOK IV
-
-- INTRODUCTION 101
-- THE ORIGINS OF THE THREE ORDERS, AND THE PROPORTIONS OF THE CORINTHIAN CAPITAL 102
-- THE ORNAMENTS OF THE ORDERS 107
-- PROPORTIONS OF DORIC TEMPLES 109
-- THE CELLA AND PRONAOS 114
-- HOW THE TEMPLE SHOULD FACE 116
-- THE DOORWAYS OF TEMPLES 117
-- TUSCAN TEMPLES 120
-- CIRCULAR TEMPLES AND OTHER VARIETIES 122
-- ALTARS 125
-
-## BOOK V
-
-- INTRODUCTION 129
-- THE FORUM AND BASILICA 131
-- THE TREASURY, PRISON, AND SENATE HOUSE 137
-- THE THEATRE: ITS SITE, FOUNDATIONS, AND ACOUSTICS 137
-- HARMONICS 139
-- SOUNDING VESSELS IN THE THEATRE 143
-- PLAN OF THE THEATRE 146
-- GREEK THEATRES 151
-- ACOUSTICS OF THE SITE OF A THEATRE 153
-- COLONNADES AND WALKS 154
-- BATHS 157
-- THE PALAESTRA 159
-- HARBOURS, BREAKWATERS, AND SHEPYARDS 162
-
-## BOOK VI
-
-- INTRODUCTION 167
-
----
-
-On Climate as Determining the Style of the House 170
-
-Symmetry, and Modifications is it to suit the Site 174
-
-Proportions of the Principal Rooms 176
-
-The Proper Exposures of the Different Rooms 180
-
-How the Rooms should be suited to the Station of the Owner 181
-
-The Farmhouse 183
-
-The Greek House 185
-
-On Foundations and Substructures 189
-
-## BOOK VII
-
-Introduction 195
-
-Floors 202
-
-The Slaking of Line for Stucco 204
-
-Vaultings and Stucco Work 205
-
-On Stucco Work in Damp Places, and on the Decoration of Dining Rooms 208
-
-The Dicadence of Fresco Painting 210
-
-Marble for Use in Stucco 213
-
-Natural Colours 214
-
-Cinnabar and Quicksever 215
-
-Cinnabar (continued) 216
-
-Artificial Colours. Black 217
-
-Blue. Burnt Ocbbe 218
-
-White Lead, Verdigris, and Artificial Sambarach 219
-
-Purple 219
-
-Substitutes for Purple, Yellow Ochre, Malachite Green, and Indigo 220
-
-## BOOK VIII
-
-Introduction 225
-
-How to Find Water 227
-
-Rainwater 229
-
-Various Properties of Different Waters 232
-
-Tests of Good Water 242
-
-Levelling and Levelling Instruments 242
-
-Aqueducts, Wells, and Cisterns 244
-
-## BOOK IX
-
-Introduction 251
-
-The Zodiac and the Planets 257
-
-The Phases of the Moon 262
-
-The Course of the Sun through the Twelve Signs 264
-
-The Northern Constellations 265
-
-The Southern Constellations 267
-
-Astrology and Weather Prognostics 269
-
-The Analemma and its Applications 270
-
-Sunbials and Water Clocks 273
-
-## BOOK X
-
-Introduction 281
-
-Machines and Implements 283
-
-Hobiting Machines 285
-
-The Elements of Motion 290
-
-Engines for Raising Water 293
-
-Water Wheels and Water Mills 294
-
-The Water Screw 295
-
-The Pump of Ctenbius 297
-
-The Water Organ 299
-
-The Hodometer 301
-
-Catapults or Scorpiones 303
-
-Ballistae 305
-
-The Stringing and Tuning of Catapults 308
-
-Siege Machines 309
-
-The Tortoise 311
-
-Hegetor's Tortoise 312
-
-Measures of Defence 315
-
-Note on Scamilli Impares 320
-
-Index 321
-
----
-
-
-
----
-
-# LIST OF ILLUSTRATIONS
-
-[Certain of the images may be viewed enlarged by clicking directly on the image. (Note of transcriber.)]
-
-CARYATIDIS FROM TREASURY OF CMEIANS, DELPHI 7
-CARYATIDIS OF ERECHTHEUM, ATHENS 7
-CARYATID IN VILLA ALBANS, ROME 7
-CARYATIDIS 7
-PERSIANS 9
-CONSTRUCTION OF CITY WALLS 23
-TOWER OF THE WINDS, ATHENS 26
-DRAGRAM OF THE WINDS 29
-DRAGRAM OF DIRECTIONS OF STREETS 30
-VITRUVIUS' BRICK-BOND 44
-TRAVERTINE QUARRIES, ROMAN CAMPAGNA 49
-EXAMPLE OF OPUS INCERTUM, CIRCULAR TEMPLE, TIVOLI 51
-OPUS RETICULATUM, THERMAE OF HADRIAN'S VILLA, TIVOLI 52
-EXAMPLE OF OPUS RETICULATUM, DOORWAY OF STOA POECILE, HADRIAN'S VILLA 53
-MALNOLEUM AT HALICARNASHUS, RESTORED 55
-CLASSIFICATION OF TEMPLES ACCORDING TO ARRANGEMENTS OF COLONNADES 77
-HYPARTHRAL TEMPLE OF VITRUVIUS COMPARED WITH PARTHENON AND TEMPLE OF APOLLO NEAR MILETUS 77
-CLASSIFICATION OF TEMPLES ACCORDING TO INTERCOLUMNATION 79
-EUSTYLE TEMPLE OF VITRUVIUS COMPARED WITH TEMPLE OF TEOS 81
-VITRUVIUS' RULES FOR DIAMETER AND HEIGHT OF COLUMNS COMPARED WITH ACTUAL EXAMPLES 85
-DIMINUTION OF COLUMNS IN RELATION TO DIMENSIONS OF HEIGHT 85
-ENTASIS OF COLUMNS 88
-FRA GIOCONDO'S IDEA OF "SCAMILLI IMPARES" 89
-IONIC ORDER ACCORDING TO VITRUVIUS COMPARED WITH ORDER OF MAUSOLEUM AT HALICARNASHUS 91
-COMPARISON OF IONIC ORDER ACCORDING TO VITRUVIUS WITH ACTUAL EXAMPLES AND WITH VIGNOLA'S ORDER 95
-BASILICA AT POMPEII 105
-CORINTHIAN CAPITAL OF VITRUVIUS COMPARED WITH MONUMENTS 105
-VITRUVIUS' DOBIC ORDER COMPARED WITH TEMPLE AT CORI AND THEATRE OF MARCELLUS 111
-VITRUVIUS' TEMPLE PLAN COMPARED WITH ACTUAL EXAMPLES 115
-VITRUVIUS' RULE FOR DOORWAYS COMPARED WITH TWO EXAMPLES 119
-TUSCAN TEMPLE ACCORDING TO VITRUVIUS 121
-CIRCULAR TEMPLE, TIVOLI 123
-MADION CARREE, NIMES 123
-PLAN OF TEMPLE, TIVOLI 123
-PLAN OF TEMPLE OF VISTA, ROME 123
-PLAN OF CIRCULAR TEMPLE ACCORDING TO VITRUVIUS 124
-FORUM, TISIGAD 131
-FORUM, POMPEII 133
-PLAN OF BASILICA, POMPEII 134
-VITRUVIUS' BASILICA, FANO 135
-ROMAN THEATRE ACCORDING TO VITRUVIUS 147
-THEATRE AT ASPENDUS 149
-THEATRE PORTICO ACCORDING TO VITRUVIUS 152
-TEPEDARIUM OF STABIAN BATHS, POMPEII 157
-APODYTERIUM FOR WOMEN, STABIAN BATHS, POMPEII 157
-STABIAN BATHS, POMPEII 158
-PALAESTRA, OLYMPIA, AND GREEK PALAESTRA ACCORDING TO VITRUVIUS 161
-PLANS OF HOUSES, POMPEII 176
-PLAN OF HOUSE OF SILVER WEEDING, POMPEII 177
-PLAN OF TYPICAL ROMAN HOUSE 178
-PERISTYLE OF HOUSE OF THE VETTIS, POMPEII 179
-PLAN OF HOUSE OF THE VETTIS, POMPEII 179
-PLAN OF VILLA RUSTICA, NEAR POMPEII 183
-PLAN OF VITRUVIUS' GREEK HOUSE 186
-PLAN OF GREEK HOUSE, DELOS 187
-PLAN OF GREEK HOUSE DISCOVERED AT PERGAMUM 188
-RETAINING WALLS 191
-CONSTRUCTION OF THE ANALEMMA 271
-CONSTRUCTION OF WATER SCREW 295
-WATER SCREW 296
-
----
-
-1. From sixteenth century MS.
-2. From model by A. A. Howard.
-
----
-
-
-
----
-
-13
-
----
-
-# PREFACE
+## Preface
 
 1. While your divine intelligence and will, Imperator Caesar, were engaged in acquiring the right to command the world, and while your fellow citizens, when all their enemies had been laid low by your invincible valour, were glorying in your triumph and victory,—while all foreign nations were in subjection awaiting your beck and call, and the Roman people and senate, released from their alarm, were beginning to be guided by your most noble conceptions and policies, I hardly dared, in view of your serious employments, to publish my writings and long considered ideas on architecture, for fear of subjecting myself to your displeasure by an unseasonable interruption.
 
@@ -383,86 +12,53 @@ WATER SCREW 296
 
 3. Owing to this favour I need have no fear of want to the end of my life, and being thus laid under obligation I began to write this work for you, because I saw that you have built and are now building extensively, and that in future also you will take care that our public and private buildings shall be worthy to go down to posterity by the side of your other splendid achievements. I have drawn up definite rules to enable you, by observing them, to have personal knowledge of the quality both of existing buildings and of those which are yet to be constructed. For in the following books I have disclosed all the principles of the art.
 
-
-
----
-
-# CHAPTER I
-
-# THE EDUCATION OF THE ARCHITECT
+## Chapter I. The Education of the Architect
 
 1. The architect should be equipped with knowledge of many branches of study and varied kinds of learning, for it is by his judgement that all work done by the other arts is put to test. This knowledge is the child of practice and theory. Practice is the continuous and regular exercise of employment where manual work is done with any necessary material according to the design of a drawing. Theory, on the other hand, is the ability to demonstrate and explain the productions of dexterity on the principles of proportion.
+
 2. It follows, therefore, that architects who have aimed at acquiring manual skill without scholarship have never been able to reach a position of authority to correspond to their pains, while those who relied only upon theories and scholarship were obviously hunting the shadow, not the substance. But those who have a thorough knowledge of both, like men armed at all points, have the sooner attained their object and carried authority with them.
-3. In all matters, but particularly in architecture, there are these two points: the thing signified, and that which gives it its significance. That which is signified is the subject of which we may be speaking; and that which gives significance is a demonstration on scientific principles. It appears, then, that one who professes himself an architect should be well versed in both directions. He ought, therefore, to be both naturally gifted and amenable to instruction. Neither natural ability without instruction nor instruction without natural ability can make the perfect artist. Let him be educated, skilful with the pencil, instructed in geometry, know much history, have followed the philosophers with attention, understand music, have some knowledge of medicine, know the opinions of the jurists, and be acquainted with astronomy and the theory of the heavens.
-4. The reasons for all this are as follows. An architect ought to be an educated man so as to leave a more lasting remembrance in his treatises. Secondly, he must have a knowledge of drawing so that he can readily make sketches to show the appearance of the work which he proposes. Geometry, also, is of much assistance in architecture, and in particular it teaches us the use of the rule and compasses, by which especially we acquire readiness in making plans for buildings in their grounds, and rightly apply the square, the level, and the plammet. By means of optics, again, the light in buildings can be drawn from fixed quarters of the sky. It is true that it is by arithmetic that the total cost of buildings is calculated and measurements are computed, but difficult questions involving symmetry are solved by means of geometrical theories and methods.
-5. A wide knowledge of history is requisite because, among the ornamental parts of an architect's design for a work, there are many the underlying idea of whose employment he should be able to explain toGree inquirers. For instance, suppose him to set up the marble statues of women in long robes, called Caryatides, to take the place of columns, with the mutuales and coronas placed directly above their heads, he will give the following explanation to his questioners. Caryae, a state in Peloponnesus, sided with the Persian enemies against Greece; later the Greeks, having gloriously won their freedom by victory in the war, made common cause and declared war against the people of Caryae. They took the town, killed the men, abandoned the State to desolation, and carried off their wives into slavery, without permitting them, however, to lay aside the long robes and other marks of their rank as married women, so that they might be obliged not only to march in the triumph but to appear forever after as a type of slavery, burdened with the weight of their shame and so making atonement for their State. Hence, the architects of the time designed for public buildings statues of these women, placed so as to carry a load, in order that the sin and the punishment of the people of Caryae might be known and handed down even to posterity.
 
-![img-0.jpeg](images/img-0.jpeg)
-Photo. H. B. Warren
-CAPITATING OF THE EDUCATION OF AURENS
+3. In all matters, but particularly in architecture, there are these two points:—the thing signified, and that which gives it its significance. That which is signified is the subject of which we may be speaking; and that which gives significance is a demonstration on scientific principles. It appears, then, that one who professes himself an architect should be well versed in both directions. He ought, therefore, to be both naturally gifted and amenable to instruction. Neither natural ability without instruction nor instruction without natural ability can make the perfect artist. Let him be educated, skilful with the pencil, instructed in geometry, know much history, have followed the philosophers with attention, understand music, have some knowledge of medicine, know the opinions of the jurists, and be acquainted with astronomy and the theory of the heavens.
 
-![img-1.jpeg](images/img-1.jpeg)
-CAPITATIES FROM THE TREASURY OF THE CHRISSOS AT DEIJNS
+4. The reasons for all this are as follows. An architect ought to be an educated man so as to leave a more lasting remembrance in his treatises. Secondly, he must have a knowledge of drawing so that he can readily make sketches to show the appearance of the work which he proposes. Geometry, also, is of much assistance in architecture, and in particular it teaches us the use of the rule and compasses, by which especially we acquire readiness in making plans for buildings in their grounds, and rightly apply the square, the level, and the plummet. By means of optics, again, the light in buildings can be drawn from fixed quarters of the sky. It is true that it is by arithmetic that the total cost of buildings is calculated and measurements are computed, but difficult questions involving symmetry are solved by means of geometrical theories and methods.
 
-![img-2.jpeg](images/img-2.jpeg)
-Photo. Andersen
-CAPITATIVES NOW IN THE VILLA AURANI AT ROME
+5. A wide knowledge of history is requisite because, among the ornamental parts of an architect's design for a work, there are many the underlying idea of whose employment he should be able to explain toGree inquirers. For instance, suppose him to set up the marble statues of women in long robes, called Caryatides, to take the place of columns, with the mutules and coronas placed directly above their heads, he will give the following explanation to his questioners. Caryae, a state in Peloponnesus, sided with the Persian enemies against Greece; later the Greeks, having gloriously won their freedom by victory in the war, made common cause and declared war against the people of Caryae. They took the town, killed the men, abandoned the State to desolation, and carried off their wives into slavery, without permitting them, however, to lay aside the long robes and other marks of their rank as married women, so that they might be obliged not only to march in the triumph but to appear forever after as a type of slavery, burdened with the weight of their shame and so making atonement for their State. Hence, the architects of the time designed for public buildings statues of these women, placed so as to carry a load, in order that the sin and the punishment of the people of Caryae might be known and handed down even to posterity.
 
----
+6. Likewise the Lacedaemonians under the leadership of Pausanias, son of Agesipolis, after conquering the Persian armies, infinite in number, with a small force at the battle of Plataea, celebrated a glorious triumph with the spoils and booty, and with the money obtained from the sale thereof built the Persian Porch, to be a monument to the renown and valour of the people and a trophy of victory for posterity. And there they set effigies of the prisoners arrayed in barbarian costume and holding up the roof, their pride punished by this deserved affront, that enemies might tremble for fear of the effects of their courage, and that their own people, looking upon this ensample of their valour and encouraged by the glory of it, might be ready to defend their independence. So from that time on, many have put up statues of Persians supporting entablatures and their ornaments, and thus from that motive have greatly enriched the diversity of their works. There are other stories of the same kind which architects ought to know.
 
-6. Likewise the Lacedaemonians under the leadership of Pausanias, son of Agesipolis, after conquering the Persian armies, infinite in number,
-
-![img-3.jpeg](images/img-3.jpeg)
-1.107452818
-(From the edition of Vitruvius by Fra Giocondo, Venice, 1511)
-
-with a small force at the battle of Plataea, celebrated a glorious triumph with the spoils and booty, and with the money obtained from the sale thereof built the Persian Porch, to be a monument to the renown and valour of the people and a trophy of victory for posterity. And there they set effigies of the prisoners arrayed in barbarian costume and holding up the roof, their pride punished by this deserved affront, that enemies might tremble for fear of the effects of their courage, and that their own people, looking upon this ensample of their valour and encouraged by the glory of it, might be ready to defend their independence. So from that time on, many have put up statues of Persians supporting entablatures and their ornaments, and thus from that motive have greatly enriched the diversity of their works. There are other stories of the same kind which architects ought to know.
-
-7. As for philosophy, it makes an architect high-minded and not self-assuming, but rather renders him courteous, just, and honest without avariciousness. This is very important, for no work can be rightly done without honesty and incorruptibility. Let him not be grasping nor have his mind preoccupied with the idea of receiving perquisites, but let him with dignity keep up his position by cherishing a good reputation. These are among the precepts of philosophy. Furthermore philosophy treats of physics (in Greek φοσιωλογία) where a more careful knowledge is required because the problems which come under this head are numerous and of very different kinds; as, for example, in the case of the conducting of water. For at points of intake and at curves, and at places where it is raised to a level, currents of air naturally form in one way or another; and nobody who has not learned the fundamental principles of physics from philosophy will be able to provide against the damage which they do. So the reader of Ctesibius or Archimedes and the other writers of treatises of the same class will not be able to appreciate them unless he has been trained in these subjects by the philosophers.
+7. As for philosophy, it makes an architect high-minded and not self-assuming, but rather renders him courteous, just, and honest without avariciousness. This is very important, for no work can be rightly done without honesty and incorruptibility. Let him not be grasping nor have his mind preoccupied with the idea of receiving perquisites, but let him with dignity keep up his position by cherishing a good reputation. These are among the precepts of philosophy. Furthermore philosophy treats of physics (in Greek φυσιολογἱα) where a more careful knowledge is required because the problems which come under this head are numerous and of very different kinds; as, for example, in the case of the conducting of water. For at points of intake and at curves, and at places where it is raised to a level, currents of air naturally form in one way or another; and nobody who has not learned the fundamental principles of physics from philosophy will be able to provide against the damage which they do. So the reader of Ctesibius or Archimedes and the other writers of treatises of the same class will not be able to appreciate them unless he has been trained in these subjects by the philosophers.
 
 8. Music, also, the architect ought to understand so that he may have knowledge of the canonical and mathematical theory, and besides be able to tune ballistae, catapultae, and scorpiones to the proper key. For to the right and left in the beams are the holes in the frames through which the strings of twisted sinew are stretched by means of windlasses and bars, and these strings must not be clamped and made fast until they give the same correct note to the ear of the skilled workman. For the arms thrust through those stretched strings must, on being let go, strike their blow together at the same moment; but if they are not in unison, they will prevent the course of projectiles from being straight.
 
-![img-4.jpeg](images/img-4.jpeg)
-1.107452818
-(From the edition of Vitruvius by Fra Giocondo, Venice, 1511)
+9. In theatres, likewise, there are the bronze vessels (in Greek ἡχεια) which are placed in niches under the seats in accordance with the musical intervals on mathematical principles. These vessels are arranged with a view to musical concords or harmony, and apportioned in the compass of the fourth, the fifth, and the octave, and so on up to the double octave, in such a way that when the voice of an actor falls in unison with any of them its power is increased, and it reaches the ears of the audience with greater clearness and sweetness. Water organs, too, and the other instruments which resemble them cannot be made by one who is without the principles of music.
 
-9. In theatres, likewise, there are the bronze vessels (in Greek ἡρῶν) which are placed in niches under the seats in accordance with the musical intervals on mathematical principles. These vessels are arranged with a view to musical concords or harmony, and apportioned in the compass of the fourth, the fifth, and the octave, and so on up to the double octave, in such a way that when the voice of an actor falls in unison with any of them its power is increased, and it reaches the ears of the audience with greater clearness and sweetness. Water organs, too, and the other instruments which resemble them cannot be made by one who is without the principles of music.
-
----
-
-10. The architect should also have a knowledge of the study of medicine on account of the questions of climates (in Greek κλίματη), air, the healthiness and unhealthiness of sites, and the use of different waters. For without these considerations, the healthiness of a dwelling cannot be assured. And as for principles of law, he should know those which are necessary in the case of buildings having party walls, with regard to water dripping from the eaves, and also the laws about drains, windows, and water supply. And other things of this sort should be known to architects, so that, before they begin upon buildings, they may be careful not to leave disputed points for the householders to settle after the works are finished, and so that in drawing up contracts the interests of both employer and contractor may be wisely safe-guarded. For if a contract is skilfully drawn, each may obtain a release from the other without disadvantage. From astronomy we find the east, west, south, and north, as well as the theory of the heavens, the equinox, solstice, and courses of the stars. If one has no knowledge of these matters, he will not be able to have any comprehension of the theory of sundials.
+10. The architect should also have a knowledge of the study of medicine on account of the questions of climates (in Greek κλἱματα), air, the healthiness and unhealthiness of sites, and the use of different waters. For without these considerations, the healthiness of a dwelling cannot be assured. And as for principles of law, he should know those which are necessary in the case of buildings having party walls, with regard to water dripping from the eaves, and also the laws about drains, windows, and water supply. And other things of this sort should be known to architects, so that, before they begin upon buildings, they may be careful not to leave disputed points for the householders to settle after the works are finished, and so that in drawing up contracts the interests of both employer and contractor may be wisely safe-guarded. For if a contract is skilfully drawn, each may obtain a release from the other without disadvantage. From astronomy we find the east, west, south, and north, as well as the theory of the heavens, the equinox, solstice, and courses of the stars. If one has no knowledge of these matters, he will not be able to have any comprehension of the theory of sundials.
 
 11. Consequently, since this study is so vast in extent, embellished and enriched as it is with many different kinds of learning, I think that men have no right to profess themselves architects hastily, without having climbed from boyhood the steps of these studies and thus, nursed by the knowledge of many arts and sciences, having reached the heights of the holy ground of architecture.
 
 12. But perhaps to the inexperienced it will seem a marvel that human nature can comprehend such a great number of studies and keep them in the memory. Still, the observation that all studies have a common bond of union and intercourse with one another, will lead to the belief that this can easily be realized. For a liberal education forms, as it were, a single body made up of these members. Those, therefore, who from tender years receive instruction in the various forms of learning, recognize the same stamp on all the arts, and an intercourse between all studies, and so they more readily comprehend them all. This is what led one of the ancient architects, Pytheos, the celebrated builder of the temple of Minerva at Priene, to say in his Commentaries that an architect ought to be able to accomplish much more in all the arts and sciences than the men who, by their own particular kinds of work and the practice of it, have brought each a single subject to the highest perfection. But this is in point of fact not realized.
 
-13. For an architect ought not to be and cannot be such a philologian as was Aristarchus, although not illiterate; nor a musician like Aristoxenus, though not absolutely ignorant of music; nor a painter like Apellex, though not unskilful in drawing; nor a sculptor such as was Myron or Polyclitus, though not unacquainted with the plastic art; nor again a physician like Hippocrates, though not ignorant of medicine; nor in the other sciences need he excel in each, though he should not be unskilful in them. For, in the midst of all this great variety of subjects, an individual cannot attain to perfection in each, because it is scarcely in his power to take in and comprehend the general theories of them.
+13. For an architect ought not to be and cannot be such a philologian as was Aristarchus, although not illiterate; nor a musician like Aristoxenus, though not absolutely ignorant of music; nor a painter like Apelles, though not unskilful in drawing; nor a sculptor such as was Myron or Polyclitus, though not unacquainted with the plastic art; nor again a physician like Hippocrates, though not ignorant of medicine; nor in the other sciences need he excel in each, though he should not be unskilful in them. For, in the midst of all this great variety of subjects, an individual cannot attain to perfection in each, because it is scarcely in his power to take in and comprehend the general theories of them.
 
 14. Still, it is not architects alone that cannot in all matters reach perfection, but even men who individually practise specialties in the arts do not all attain to the highest point of merit. Therefore, if among artists working each in a single field not all, but only a few in an entire generation acquire fame, and that with difficulty, how can an architect, who has to be skilful in many arts, accomplish not merely the feat—in itself a great marvel—of being deficient in none of them, but also that of surpassing all those artists who have devoted themselves with unremitting industry to single fields?
 
 15. It appears, then, that Pytheos made a mistake by not observing that the arts are each composed of two things, the actual work and the theory of it. One of these, the doing of the work, is proper to men trained in the individual subject, while the other, the theory, is common to all scholars: for example, to physicians and musicians the rhythmical beat of the pulse and its metrical movement. But if there is a wound to be healed or a sick man to be saved from danger, the musician will not call, for the business will be appropriate to the physician. So in the case of a musical instrument, not the physician but the musician will be the man to tune it so that the ears may find their due pleasure in its strains.
 
-16. Astronomers likewise have a common ground for discussion with musicians in the harmony of the stars and musical concords in tetrads and triads of the fourth and the fifth, and with geometricians in the subject of vision (in Greek λόγος ὄππαύς); and in all other sciences many points, perhaps all, are common so far as the discussion of them is concerned. But the actual undertaking of works which are brought to perfection by the hand and its manipulation is the function of those who have been specially trained to deal with a single art. It appears, therefore, that he has done enough and to spare who in each subject possesses a fairly good knowledge of those parts, with their principles, which are indispensable for architecture, so that if he is required to pass judgement and to express approval in the case of those things or arts, he may not be found wanting. As for men upon whom nature has bestowed so much ingenuity, acuteness, and memory that they are able to have a thorough knowledge of geometry, astronomy, music, and the other arts, they go beyond the functions of architects and become pure mathematicians. Hence they can readily take up positions against those arts because many are the artistic weapons with which they are armed. Such men, however, are rarely found, but there have been such at times; for example, Aristarchus of Samos, Philolaus and Archytas of Tarentum, Apollonius of Perga, Eratosthenes of Cyrene, and among Syracusans Archimedes and Scopinas, who through mathematics and natural philosophy discovered, expounded, and left to posterity many things in connexion with mechanics and with sundials.
+16. Astronomers likewise have a common ground for discussion with musicians in the harmony of the stars and musical concords in tetrads and triads of the fourth and the fifth, and with geometricians in the subject of vision (in Greek λὁγος ὁπτικὁς); and in all other sciences many points, perhaps all, are common so far as the discussion of them is concerned. But the actual undertaking of works which are brought to perfection by the hand and its manipulation is the function of those who have been specially trained to deal with a single art. It appears, therefore, that he has done enough and to spare who in each subject possesses a fairly good knowledge of those parts, with their principles, which are indispensable for architecture, so that if he is required to pass judgement and to express approval in the case of those things or arts, he may not be found wanting. As for men upon whom nature has bestowed so much ingenuity, acuteness, and memory that they are able to have a thorough knowledge of geometry, astronomy, music, and the other arts, they go beyond the functions of architects and become pure mathematicians. Hence they can readily take up positions against those arts because many are the artistic weapons with which they are armed. Such men, however, are rarely found, but there have been such at times; for example, Aristarchus of Samos, Philolaus and Archytas of Tarentum, Apollonius of Perga, Eratosthenes of Cyrene, and among Syracusans Archimedes and Scopinas, who through mathematics and natural philosophy discovered, expounded, and left to posterity many things in connexion with mechanics and with sundials.
 
 17. Since, therefore, the possession of such talents due to natural capacity is not vouchsafed at random to entire nations, but only to a few great men; since, moreover, the function of the architect requires a training in all the departments of learning; and finally, since reason, on account of the wide extent of the subject, concedes that he may possess not the highest but not even necessarily a moderate knowledge of the subjects of study, I request, Caesar, both of you and of those who may read the said books, that if anything is set forth with too little regard for grammatical rule, it may be pardoned. For it is not as a very great philosopher, nor as an eloquent rhetorician, nor as a grammarian trained in the highest principles of his art, that I have striven to write this work, but as an architect who has had only a dip into those studies. Still, as regards the efficacy of the art and the theories of it, I promise and expect that in these volumes I shall undoubtedly show myself of very considerable importance not only to builders but also to all scholars.
 
+## Chapter II. The Fundamental Principles of Architecture
 
+1. Architecture depends on Order (in Greek τἁξις), Arrangement (in Greek διἁθεσις), Eurythmy, Symmetry, Propriety, and Economy (in Greek οἱκονομἱα).
 
----
-
-# CHAPTER II
-
-## THE FUNDAMENTAL PRINCIPLES OF ARCHITECTURE
-
-1. Architecture depends on Order (in Greek τὰξις), Arrangement (in Greek ὄνᾳθεσις), Eurythmy, Symmetry, Propriety, and Economy (in Greek οἰκονομία).
-
-2. Order gives due measure to the members of a work considered separately, and symmetrical agreement to the proportions of the whole. It is an adjustment according to quantity (in Greek ποσότης). By this I mean the selection of modules from the members of the work itself and, starting from these individual parts of members, constructing the whole work to correspond. Arrangement includes the putting of things in their proper places and the elegance of effect which is due to adjustments appropriate to the character of the work. Its forms of expression (Greek ἰδέαι) are these: groundplan, elevation, and perspective. A groundplan is made by the proper successive use of compasses and rule, through which we get outlines for the plane surfaces of buildings. An elevation is a picture of the front of a building, set upright and properly drawn in the proportions of the contemplated work. Perspective is the method of sketching a front with the sides withdrawing into the background, the lines all meeting in the centre of a circle. All three come of reflexion and invention. Reflexion is careful and laborious thought, and watchful attention directed to the agreeable effect of one's plan. Invention, on the other hand, is the solving of intricate problems and the discovery of new principles by means of brilliancy and versatility. These are the departments belonging under Arrangement.
+2. Order gives due measure to the members of a work considered separately, and symmetrical agreement to the proportions of the whole. It is an adjustment according to quantity (in Greek ποσὁτης). By this I mean the selection of modules from the members of the work itself and, starting from these individual parts of members, constructing the whole work to correspond. Arrangement includes the putting of things in their proper places and the elegance of effect which is due to adjustments appropriate to the character of the work. Its forms of expression (Greek ἱδἑαι) are these: groundplan, elevation, and perspective. A groundplan is made by the proper successive use of compasses and rule, through which we get outlines for the plane surfaces of buildings. An elevation is a picture of the front of a building, set upright and properly drawn in the proportions of the contemplated work. Perspective is the method of sketching a front with the sides withdrawing into the background, the lines all meeting in the centre of a circle. All three come of reflexion and invention. Reflexion is careful and laborious thought, and watchful attention directed to the agreeable effect of one's plan. Invention, on the other hand, is the solving of intricate problems and the discovery of new principles by means of brilliancy and versatility. These are the departments belonging under Arrangement.
 
 3. Eurythmy is beauty and fitness in the adjustments of the members. This is found when the members of a work are of a height suited to their breadth, of a breadth suited to their length, and, in a word, when they all correspond symmetrically.
 
-4. Symmetry is a proper agreement between the members of the work itself, and relation between the different parts and the whole general scheme, in accordance with a certain part selected as standard. Thus in the human body there is a kind of symmetrical harmony between forearm, foot, palm, finger, and other small parts; and so it is with perfect buildings. In the case of temples, symmetry may be calculated from the thickness of a column, from a triglyph, or even from a module; in the ballista, from the hole or from what the Greeks call the πιρίτρητος; in a ship, from the space between the tholepins ὄνᾳσηγμὰ; and in other things, from various members.
+4. Symmetry is a proper agreement between the members of the work itself, and relation between the different parts and the whole general scheme, in accordance with a certain part selected as standard. Thus in the human body there is a kind of symmetrical harmony between forearm, foot, palm, finger, and other small parts; and so it is with perfect buildings. In the case of temples, symmetry may be calculated from the thickness of a column, from a triglyph, or even from a module; in the ballista, from the hole or from what the Greeks call the περἱτρητος; in a ship, from the space between the tholepins διἁπηγμἁ; and in other things, from various members.
 
-5. Propriety is that perfection of style which comes when a work is authoritatively constructed on approved principles. It arises from prescription (Greek: θεμετισμὰ), from usage, or from nature. From prescription, in the case of hypaethral edifices, open to the sky, in honour of Jupiter Lightning, the Heaven, the Sun, or the Moon: for these are gods whose semblances and manifestations we behold before our very eyes in the sky when it is cloudless and bright. The temples of Minerva, Mars, and Hercules, will be Doric, since the virile strength of these gods makes daintiness entirely inappropriate to their houses. In temples to Venus, Flora, Proserpine, Spring-Water, and the Nymphs, the Corinthian order will be found to have peculiar significance, because these are delicate divinities and so its rather slender outlines, its flowers, leaves, and ornamental volutes will lend propriety where it is due. The construction of temples of the Ionic order to Juno, Diana, Father Bacchus, and the other gods of that kind, will be in keeping with the middle position which they hold; for the building of such will be an appropriate combination of the severity of the Doric and the delicacy of the Corinthian.
+5. Propriety is that perfection of style which comes when a work is authoritatively constructed on approved principles. It arises from prescription (Greek: θεματισμὡ), from usage, or from nature. From prescription, in the case of hypaethral edifices, open to the sky, in honour of Jupiter Lightning, the Heaven, the Sun, or the Moon: for these are gods whose semblances and manifestations we behold before our very eyes in the sky when it is cloudless and bright. The temples of Minerva, Mars, and Hercules, will be Doric, since the virile strength of these gods makes daintiness entirely inappropriate to their houses. In temples to Venus, Flora, Proserpine, Spring-Water, and the Nymphs, the Corinthian order will be found to have peculiar significance, because these are delicate divinities and so its rather slender outlines, its flowers, leaves, and ornamental volutes will lend propriety where it is due. The construction of temples of the Ionic order to Juno, Diana, Father Bacchus, and the other gods of that kind, will be in keeping with the middle position which they hold; for the building of such will be an appropriate combination of the severity of the Doric and the delicacy of the Corinthian.
 
 6. Propriety arises from usage when buildings having magnificent interiors are provided with elegant entrance-courts to correspond; for there will be no propriety in the spectacle of an elegant interior approached by a low, mean entrance. Or, if dentils be carved in the cornice of the Doric entablature or triglyphs represented in the Ionic entablature over the cushion-shaped capitals of the columns, the effect will be spoilt by the transfer of the peculiarities of the one order of building to the other, the usage in each class having been fixed long ago.
 
@@ -472,21 +68,13 @@ with a small force at the battle of Plataea, celebrated a glorious triumph with 
 
 9. A second stage in Economy is reached when we have to plan the different kinds of dwellings suitable for ordinary householders, for great wealth, or for the high position of the statesman. A house in town obviously calls for one form of construction; that into which stream the products of country estates requires another; this will not be the same in the case of money-lenders and still different for the opulent and luxurious; for the powers under whose deliberations the commonwealth is guided dwellings are to be provided according to their special needs: and, in a word, the proper form of economy must be observed in building houses for each and every class.
 
----
-
-# CHAPTER III
-
-## THE DEPARTMENTS OF ARCHITECTURE
+## Chapter III. The Departments of Architecture
 
 1. There are three departments of architecture: the art of building, the making of timepieces, and the construction of machinery. Building is, in its turn, divided into two parts, of which the first is the construction of fortified towns and of works for general use in public places, and the second is the putting up of structures for private individuals. There are three classes of public buildings: the first for defensive, the second for religious, and the third for utilitarian purposes. Under defence comes the planning of walls, towers, and gates, permanent devices for resistance against hostile attacks; under religion, the erection of fanes and temples to the immortal gods; under utility, the provision of meeting places for public use, such as harbours, markets, colonnades, baths, theatres, promenades, and all other similar arrangements in public places.
 
 2. All these must be built with due reference to durability, convenience, and beauty. Durability will be assured when foundations are carried down to the solid ground and materials wisely and liberally selected; convenience, when the arrangement of the apartments is faultless and presents no hindrance to use, and when each class of building is assigned to its suitable and appropriate exposure; and beauty, when the appearance of the work is pleasing and in good taste, and when its members are in due proportion according to correct principles of symmetry.
 
----
-
-# CHAPTER IV
-
-## THE SITE OF A CITY
+## Chapter IV. The Site of a City
 
 1. For fortified towns the following general principles are to be observed. First comes the choice of a very healthy site. Such a site will be high, neither misty nor frosty, and in a climate neither hot nor cold, but temperate; further, without marshes in the neighbourhood. For when the morning breezes blow toward the town at sunrise, if they bring with them mists from marshes and, mingled with the mist, the poisonous breath of the creatures of the marshes to be wafted into the bodies of the inhabitants, they will make the site unhealthy. Again, if the town is on the coast with a southern or western exposure, it will not be healthy, because in summer the southern sky grows hot at sunrise and is fiery at noon, while a western exposure grows warm after sunrise, is hot at noon, and at evening all aglow.
 
@@ -496,7 +84,7 @@ with a small force at the battle of Plataea, celebrated a glorious triumph with 
 
 4. We may also recognize the truth of this from the fact that in summer the heat makes everybody weak, not only in unhealthy but even in healthy places, and that in winter even the most unhealthy districts are much healthier because they are given a solidity by the cooling off. Similarly, persons removed from cold countries to hot cannot endure it but waste away; whereas those who pass from hot places to the cold regions of the north, not only do not suffer in health from the change of residence but even gain by it.
 
-5. It appears, then, that in founding towns we must beware of districts from which hot winds can spread abroad over the inhabitants. For while all bodies are composed of the four elements (in Greek στοιχεία), that is, of heat, moisture, the earthy, and air, yet there are mixtures according to natural temperament which make up the natures of all the different animals of the world, each after its kind.
+5. It appears, then, that in founding towns we must beware of districts from which hot winds can spread abroad over the inhabitants. For while all bodies are composed of the four elements (in Greek στοιχεἱα), that is, of heat, moisture, the earthy, and air, yet there are mixtures according to natural temperament which make up the natures of all the different animals of the world, each after its kind.
 
 6. Therefore, if one of these elements, heat, becomes predominant in any body whatsoever, it destroys and dissolves all the others with its violence. This defect may be due to violent heat from certain quarters of the sky, pouring into the open pores in too great proportion to admit of a mixture suited to the natural temperament of the body in question. Again, if too much moisture enters the channels of a body, and thus introduces disproportion, the other elements, adulterated by the liquid, are impaired, and the virtues of the mixture dissolved. This defect, in turn, may arise from the cooling properties of moist winds and breezes blowing upon the body. In the same way, increase or diminution of the proportion of air or of the earthy which is natural to the body may enfeeble the other elements; the predominance of the earthy being due to overmuch food, that of air to a heavy atmosphere.
 
@@ -506,43 +94,31 @@ with a small force at the battle of Plataea, celebrated a glorious triumph with 
 
 9. I cannot too strongly insist upon the need of a return to the method of old times. Our ancestors, when about to build a town or an army post, sacrificed some of the cattle that were wont to feed on the site proposed and examined their livers. If the livers of the first victims were dark-coloured or abnormal, they sacrificed others, to see whether the fault was due to disease or their food. They never began to build defensive works in a place until after they had made many such trials and satisfied themselves that good water and food had made the liver sound and firm. If they continued to find it abnormal, they argued from this that the food and water supply found in such a place would be just as unhealthy for man, and so they moved away and changed to another neighbourhood, healthfulness being their chief object.
 
-10. That pasturage and food may indicate the healthful qualities of a site is a fact which can be observed and investigated in the case of certain pastures in Crete, on each side of the river Pothereus, which separates the two Cretan states of Gnosus and Gortyna. There are cattle at pasture on the right and left banks of that river, but while the cattle that feed near Gnosus have the usual spleen, those on the other side near Gortyna have no perceptible spleen. On investigating the subject, physicians discovered on this side a kind of herb which the cattle chew and thus make their spleen small. The herb is therefore gathered and used as a medicine for the cure of splenetic people. The Cretans call it ταλαγον. From food and water, then, we may learn whether sites are naturally unhealthy or healthy.
+10. That pasturage and food may indicate the healthful qualities of a site is a fact which can be observed and investigated in the case of certain pastures in Crete, on each side of the river Pothereus, which separates the two Cretan states of Gnosus and Gortyna. There are cattle at pasture on the right and left banks of that river, but while the cattle that feed near Gnosus have the usual spleen, those on the other side near Gortyna have no perceptible spleen. On investigating the subject, physicians discovered on this side a kind of herb which the cattle chew and thus make their spleen small. The herb is therefore gathered and used as a medicine for the cure of splenetic people. The Cretans call it σπληνον. From food and water, then, we may learn whether sites are naturally unhealthy or healthy.
 
 11. If the walled town is built among the marshes themselves, provided they are by the sea, with a northern or north-eastern exposure, and are above the level of the seashore, the site will be reasonable enough. For ditches can be dug to let out the water to the shore, and also in times of storms the sea swells and comes backing up into the marshes, where its bitter blend prevents the reproductions of the usual marsh creatures, while any that swim down from the higher levels to the shore are killed at once by the saltness to which they are unused. An instance of this may be found in the Gallic marshes surrounding Altino, Ravenna, Aquileia, and other towns in places of the kind, close by marshes. They are marvellously healthy, for the reasons which I have given.
 
-12. But marshes that are stagnant and have no outlets either by rivers or ditches, like the Pomptine marshes, merely putrefy as they stand, emitting heavy, unhealthy vapours. A case of a town built in such a spot was Old Salpia in Apulia, founded by Diomede on his way back from Troy, or, according to some writers, by Elpias of Rhodes. Year after year there was sickness, until finally the suffering inhabitants came with a public petition to Marcus Hostilius and got him to agree to seek and find them a proper place to which to remove their city. Without delay he made the most skilful investigations, and at once purchased an estate near the sea in a healthy place, and asked the Senate and Roman people for permission to remove the town. He constructed the walls and laid out the
+12. But marshes that are stagnant and have no outlets either by rivers or ditches, like the Pomptine marshes, merely putrefy as they stand, emitting heavy, unhealthy vapours. A case of a town built in such a spot was Old Salpia in Apulia, founded by Diomede on his way back from Troy, or, according to some writers, by Elpias of Rhodes. Year after year there was sickness, until finally the suffering inhabitants came with a public petition to Marcus Hostilius and got him to agree to seek and find them a proper place to which to remove their city. Without delay he made the most skilful investigations, and at once purchased an estate near the sea in a healthy place, and asked the Senate and Roman people for permission to remove the town. He constructed the walls and laid out the house lots, granting one to each citizen for a mere trifle. This done, he cut an opening from a lake into the sea, and thus made of the lake a harbour for the town. The result is that now the people of Salpia live on a healthy site and at a distance of only four miles from the old town.
 
----
-
-house lots, granting one to each citizen for a mere trifle. This done, he cut an opening from a lake into the sea, and thus made of the lake a harbour for the town. The result is that now the people of Salpia live on a healthy site and at a distance of only four miles from the old town.
-
-
-
----
-
-# CHAPTER V
-
-# THE CITY WALLS
+## Chapter V. The City Walls
 
 1. After insuring on these principles the healthfulness of the future city, and selecting a neighbourhood that can supply plenty of food stuffs to maintain the community, with good roads or else convenient rivers or seaports affording easy means of transport to the city, the next thing to do is to lay the foundations for the towers and walls. Dig down to solid bottom, if it can be found, and lay them therein, going as deep as the magnitude of the proposed work seems to require. They should be much thicker than the part of the walls that will appear above ground, and their structure should be as solid as it can possibly be laid.
+
 2. The towers must be projected beyond the line of wall, so that an enemy wishing to approach the wall to carry it by assault may be exposed to the fire of missiles on his open flank from the towers on his right and left. Special pains should be taken that there be no easy avenue by which to storm the wall. The roads should be encompassed at steep points, and planned so as to approach the gates, not in a straight line, but from the right to the left; for as a result of this, the right hand side of the assailants, unprotected by their shields, will be next the wall. Towns should be laid out not as an exact square nor with salient angles, but in circular form, to give a view of the enemy from many points. Defence is difficult where there are salient angles, because the angle protects the enemy rather than the inhabitants.
+
 3. The thickness of the wall should, in my opinion, be such that armed men meeting on top of it may pass one another without interference. In the thickness there should be set a very close succession of ties made of charred olive wood, binding the two faces of the wall together like pins, to give it lasting endurance. For that is a material which neither decay, nor the weather, nor time can harm, but even though buried in the earth or set in the water it keeps sound and useful forever. And so not only city walls but substructures in general and all walls that require a thickness like that of a city wall, will be long in falling to decay if tied in this manner.
+
 4. The towers should be set at intervals of not more than a bowshot apart, so that in case of an assault upon any one of them, the enemy may be repulsed with scorpiones and other means of hurling missiles from the towers to the right and left. Opposite the inner side of every tower the wall should be interrupted for a space the width of the tower, and have only a wooden flooring across, leading to the interior of the tower but not firmly nailed. This is to be cut away by the defenders in case the enemy gets possession of any portion of the wall; and if the work is quickly done, the enemy will not be able to make his way to the other towers and the rest of the wall unless he is ready to face a fall.
+
 5. The towers themselves must be either round or polygonal. Square towers are sooner shattered by military engines, for the battering rams pound their angles to pieces; but in the case of round towers they can do no harm, being engaged, as it were, in driving wedges to their centre. The system of fortification by wall and towers may be made safest by the addition of earthen ramparts, for neither rams, nor mining, nor other engineering devices can do them any harm.
 
-![img-5.jpeg](images/img-5.jpeg)
-CONSTRUCTION OF CITY WALLS
-(From the edition of Vitruvius by Fra Giocondo, Venice, 1511)
-
 6. The rampart form of defence, however, is not required in all places, but only where outside the wall there is high ground from which an assault on the fortifications may be made over a level space lying between. In places of this kind we must first make very wide, deep ditches; next sink foundations for a wall in the bed of the ditch and build them thick enough to support an earth-work with ease.
+
 7. Then within this substructure lay a second foundation, far enough inside the first to leave ample room for cohorts in line of battle to take position on the broad top of the rampart for its defence. Having laid these two foundations at this distance from one another, build cross walls between them, uniting the outer and inner foundation, in a comb-like arrangement, set like the teeth of a saw. With this form of construction, the enormous burden of earth will be distributed into small bodies, and will not lie with all its weight in one crushing mass so as to thrust out the substructures.
+
 8. With regard to the material of which the actual wall should be constructed or finished, there can be no definite prescription, because we cannot obtain in all places the supplies that we desire. Dimension stone, flint, rubble, burnt or unburnt brick,—use them as you find them. For it is not every neighbourhood or particular locality that can have a wall built of burnt brick like that at Babylon, where there was plenty of asphalt to take the place of lime and sand, and yet possibly each may be provided with materials of equal usefulness so that out of them a faultless wall may be built to last forever.
 
----
-
-# CHAPTER VI
-
-## THE DIRECTIONS OF THE STREETS; WITH REMARKS ON THE WINDS
+## Chapter VI. The Directions of the Streets; with Remarks on the Winds
 
 1. The town being fortified, the next step is the apportionment of house lots within the wall and the laying out of streets and alleys with regard to climatic conditions. They will be properly laid out if foresight is employed to exclude the winds from the alleys. Cold winds are disagreeable, hot winds enervating, moist winds unhealthy. We must, therefore, avoid mistakes in this matter and beware of the common experience of many communities. For example, Mytilene in the island of Lesbos is a town built with magnificence and good taste, but its position shows a lack of foresight. In that community when the wind is south, the people fall ill; when it is northwest, it sets them coughing; with a north wind they do indeed recover but cannot stand about in the alleys and streets, owing to the severe cold.
 
@@ -554,38 +130,23 @@ CONSTRUCTION OF CITY WALLS
 
 5. Thus Eurus is placed to the southeast between Solanus and Auster: Africus to the southwest between Auster and Favonius; Caurus, or, as many call it, Corus, between Favonius and Septentrio; and Aquilo between Septentrio and Solanus. Such, then, appears to have been his device, including the numbers and names of the wind and indicating the directions from which particular winds blow. These facts being thus determined, to find the directions and quarters of the winds your method of procedure should be as follows.
 
-6. In the middle of the city place a marble amussium, laying it true by the level, or else let the spot be made so true by means of rule and level that no amussium is necessary. In the very centre of that spot set up a bronze gnomon or "shadow tracker" (in Greek σκασθάρτες). At about the fifth hour in the morning, take the end of the shadow cast by this gnomon, and mark it with a point. Then, opening your compasses to this point which marks the length of the gnomon's shadow, describe a circle from the centre. In the afternoon watch the shadow of your gnomon as it lengthens, and when it once more touches the circumference of this circle and the shadow in the afternoon is equal in length to that of the morning, mark it with a point.
-
----
-
-![img-6.jpeg](images/img-6.jpeg)
-THE TOWER OF THE WINDS AT ATIHUS
+6. In the middle of the city place a marble amussium, laying it true by the level, or else let the spot be made so true by means of rule and level that no amussium is necessary. In the very centre of that spot set up a bronze gnomon or "shadow tracker" (in Greek σκιαθἡρας). At about the fifth hour in the morning, take the end of the shadow cast by this gnomon, and mark it with a point. Then, opening your compasses to this point which marks the length of the gnomon's shadow, describe a circle from the centre. In the afternoon watch the shadow of your gnomon as it lengthens, and when it once more touches the circumference of this circle and the shadow in the afternoon is equal in length to that of the morning, mark it with a point.
 
 7. From these two points describe with your compasses intersecting arcs, and through their intersection and the centre let a line be drawn to the circumference of the circle to give us the quarters of south and north. Then, using a sixteenth part of the entire circumference of the circle as a diameter, describe a circle with its centre on the line to the south, at the point where it crosses the circumference, and put points to the right and left on the circumference on the south side, repeating the process on the north side. From the four points thus obtained draw lines intersecting the centre from one side of the circumference to the other. Thus we shall have an eighth part of the circumference set out for Auster and another for Septentrio. The rest of the entire circumference is then to be divided into three equal parts on each side, and thus we have designed a figure equally apportioned among the eight winds. Then let the directions of your streets and alleys be laid down on the lines of division between the quarters of two winds.
+
 8. On this principle of arrangement the disagreeable force of the winds will be shut out from dwellings and lines of houses. For if the streets run full in the face of the winds, their constant blasts rushing in from the open country, and then confined by narrow alleys, will sweep through them with great violence. The lines of houses must therefore be directed away from the quarters from which the winds blow, so that as they come in they may strike against the angles of the blocks and their force thus be broken and dispersed.
+
 9. Those who know names for very many winds will perhaps be surprised at our setting forth that there are only eight. Remembering, however, that Eratosthenes of Cyrene, employing mathematical theories and geometrical methods, discovered from the course of the sun, the shadows cast by an equinoctial gnomon, and the inclination of the heaven that the circumference of the earth is two hundred and fifty-two thousand stadia, that is, thirty-one one million five hundred thousand paces, and observing that an eighth part of this, occupied by a wind, is three million nine hundred and thirty-seven thousand five hundred paces, they should not be surprised to find that a single wind, ranging over so wide a field, is subject to shifts this way and that, leading to a variety of breezes.
+
 10. So we often have Leuconotus and Altanus blowing respectively to the right and left of Auster; Libonotus and Subvesperus to the right and left of Africus; Argestes, and at certain periods the Etesiae, on either side of Favonius; Circias and Corus on the sides of Caurus; Thracias and Gallicus on either side of Septentrio; Supernas and Caecias to the right and left of Aquilo; Carbas, and at a certain period the Ornithiae, on either side of Solanus; while Eurocircias and Volturnus blow on the flanks of Eurus which is between them. There are also many other names for winds derived from localities or from the squalls which sweep from rivers or down mountains.
-11. Then, too, there are the breezes of early morning; for the sun on emerging from beneath the earth strikes humid air as he returns, and as he goes climbing up the sky he spreads it out before him, extracting breezes from the vapour that was there before the dawn. Those that still blow on after sunrise are classed with Eurus, and hence appears to come the Greek name εὐρος as the child of the breezes, and the word for "to-morrow," σίψουν, named from the early morning breezes. Some people do indeed say that Eratosthenes could not have inferred the true measure of the earth. Whether true or untrue, it cannot affect the truth of what I have written on the fixing of the quarters from which the different winds blow.
 
----
+11. Then, too, there are the breezes of early morning; for the sun on emerging from beneath the earth strikes humid air as he returns, and as he goes climbing up the sky he spreads it out before him, extracting breezes from the vapour that was there before the dawn. Those that still blow on after sunrise are classed with Eurus, and hence appears to come the Greek name ευρος as the child of the breezes, and the word for "to-morrow," αὑριον, named from the early morning breezes. Some people do indeed say that Eratosthenes could not have inferred the true measure of the earth. Whether true or untrue, it cannot affect the truth of what I have written on the fixing of the quarters from which the different winds blow.
 
-![img-7.jpeg](images/img-7.jpeg)
-MAGAZINE OF THE WHOM
-(WHEN THE EDITION OF STREETS IS THE GENE VERSUS, VENUS, 1511)
+12. If he was wrong, the only result will be that the individual winds may blow, not with the scope expected from his measurement, but with powers either more or less widely extended. For the readier understanding of these topics, since I have treated them with brevity, it has seemed best to me to give two figures, or, as the Greeks say, σχἡματα, at the end of this book: one designed to show the precise quarters from which the winds arise; the other, how by turning the directions of the rows of houses and the streets away from their full force, we may avoid unhealthy blasts. Let A be the centre of a plane surface, and B the point to which the shadow of the gnomon reaches in the morning. Taking A as the centre, open the compasses to the point B, which marks the shadow, and describe a circle. Put the gnomon back where it was before and wait for the shadow to lessen and grow again until in the afternoon it is equal to its length in the morning, touching the circumference at the point C. Then from the points B and C describe with the compasses two arcs intersecting at D. Next draw a line from the point of intersection D through the centre of the circle to the circumference and call it E F. This line will show where the south and north lie.
 
-12. If he was wrong, the only result will be that the individual winds may blow, not with the scope expected from his measurement, but with powers either more or less widely extended. For the readier understanding of these topics, since I have treated them with brevity, it has seemed best to me to give two figures, or, as the Greeks say, πχήματα, at the end of this book: one designed to show the precise quarters from which the winds arise; the other, how by turning the directions of the rows of houses and the streets away from their full force, we may avoid unhealthy blasts. Let A be the centre of a plane surface, and B the point to which the shadow of the gnomon reaches in the morning. Taking A as the centre, open the compasses to the point B, which marks the shadow, and describe a circle. Put the gnomon back where it was before and wait for the shadow to lessen and grow again until in the afternoon it is equal to its length in the morning, touching the circumference at the point C. Then from the points B and C describe with the compasses two arcs intersecting at D. Next draw a line from the point of intersection D through the centre of the circle to the circumference and call it E F. This line will show where the south and north lie.
+13. Then find with the compasses a sixteenth part of the entire circumference; then centre the compasses on the point E where the line to the south touches the circumference, and set off the points G and H to the right and left of E. Likewise on the north side, centre the compasses on the circumference at the point F on the line to the north, and set off the points I and K to the right and left; then draw lines through the centre from G to K and from H to I. Thus the space from G to H will belong to Auster and the south, and the space from I to K will be that of Septentrio. The rest of the circumference is to be divided equally into three parts on the right and three on the left, those to the east at the points L and M, those to the west at the points N and O. Finally, intersecting lines are to be drawn from M to O and from L to N. Thus we shall have the circumference divided into eight equal spaces for the winds. The figure being finished, we shall have at the eight different divisions, beginning at the south, the letter G between Eurus and Auster, H between Auster and Africus, N between Africus and Favonius, O between Favonius and Caurus, K between Caurus and Septentrio, I between Septentrio and Aquilo, L between Aquilo and Solanus, and M between Solanus and Eurus. This done, apply a gnomon to these eight divisions and thus fix the directions of the different alleys.
 
-13. Then find with the compasses a sixteenth part of the entire circumference; then centre the compasses on the point E where
-
-![img-8.jpeg](images/img-8.jpeg)
-
-the line to the south touches the circumference, and set off the points G and H to the right and left of E. Likewise on the north side, centre the compasses on the circumference at the point F on the line to the north, and set off the points I and K to the right and left; then draw lines through the centre from G to K and from H to I. Thus the space from G to H will belong to Auster and the south, and the space from I to K will be that of Septentrio. The rest of the circumference is to be divided equally into three parts on the right and three on the left, those to the east at the points L and M, those to the west at the points N and O. Finally, intersecting lines are to be drawn from M to O and from L to N. Thus we shall have the circumference divided into eight equal spaces for the winds. The figure being finished, we shall have at the eight different divisions, beginning at the south, the letter G between Eurus and Auster, H between Auster and Africus, N between Africus and Favonius, O between Favonius and Caurus, K between Caurus and Septentrio, I between Septentrio and Aquilo, L between Aquilo and Solanus, and M between Solanus and Eurus. This done, apply a gnomon to these eight divisions and thus fix the directions of the different alleys.
-
----
-
-# CHAPTER VII
-
-## THE SITES FOR PUBLIC BUILDINGS
+## Chapter VII. The Sites for Public Buildings
 
 1. Having laid out the alleys and determined the streets, we have next to treat of the choice of building sites for temples, the forum, and all other public places, with a view to general convenience and utility. If the city is on the sea, we should choose ground close to the harbour as the place where the forum is to be built; but if inland, in the middle of the town. For the temples, the sites for those of the gods under whose particular protection the state is thought to rest and for Jupiter, Juno, and Minerva, should be on the very highest point commanding a view of the greater part of the city. Mercury should be in the forum, or, like Isis and Serapis, in the emporium: Apollo and Father Bacchus near the theatre: Hercules at the circus in communities which have no gymnasia nor amphitheatres; Mars outside the city but at the training ground, and so Venus, but at the harbour. It is moreover shown by the Etruscan diviners in treatises on their science that the fanes of Venus, Vulcan, and Mars should be situated outside the walls, in order that the young men and married women may not become habituated in the city to the temptations incident to the worship of Venus, and that buildings may be free from the terror of fires through the religious rites and sacrifices which call the power of Vulcan beyond the walls. As for Mars, when that divinity is enshrined outside the walls, the citizens will never take up arms against each other, and he will defend the city from its enemies and save it from danger in war.
 
@@ -593,13 +154,9 @@ the line to the south touches the circumference, and set off the points G and H 
 
 The principle governing the actual construction of temples and their symmetry I shall explain in my third and fourth books. In the second I have thought it best to give an account of the materials used in buildings with their good qualities and advantages, and then in the succeeding books to describe and explain the proportions of buildings, their arrangements, and the different forms of symmetry.
 
----
+# BOOK II
 
-
-
----
-
-# INTRODUCTION
+## Introduction
 
 1. Dinocrates, an architect who was full of confidence in his own ideas and skill, set out from Macedonia, in the reign of Alexander, to go to the army, being eager to win the approbation of the king. He took with him from his country letters from relatives and friends to the principal military men and officers of the court, in order to gain access to them more readily. Being politely received by them, he asked to be presented to Alexander as soon as possible. They promised, but were rather slow, waiting for a suitable opportunity. So Dinocrates, thinking that they were playing with him, had recourse to his own efforts. He was of very lofty stature and pleasing countenance, finely formed, and extremely dignified. Trusting, therefore, to these natural gifts, he undressed himself in his inn, anointed his body with oil, set a chaplet of poplar leaves on his head, draped his left shoulder with a lion's skin, and holding a club in his right hand stalked forth to a place in front of the tribunal where the king was administering justice.
 
@@ -611,13 +168,7 @@ The principle governing the actual construction of temples and their symmetry I 
 
 5. In my first book, I have said what I had to say about the functions of architecture and the scope of the art, as well as about fortified towns and the apportionment of building sites within the fortifications. Although it would next be in order to explain the proper proportions and symmetry of temples and public buildings, as well as of private houses, I thought best to postpone this until after I had treated the practical merits of the materials out of which, when they are brought together, buildings are constructed with due regard to the proper kind of material for each part, and until I had shown of what natural elements those materials are composed. But before beginning to explain their natural properties, I will prefix the motives which originally gave rise to buildings and the development of inventions in this field, following in the steps of early nature and of those writers who have devoted treatises to the origins of civilization and the investigation of inventions. My exposition will, therefore, follow the instruction which I have received from them.
 
-
-
----
-
-# CHAPTER I
-
-## THE ORIGIN OF THE DWELLING HOUSE
+## Chapter I. The Origin of the Dwelling House
 
 1. The men of old were born like the wild beasts, in woods, caves, and groves, and lived on savage fare. As time went on, the thickly crowded trees in a certain place, tossed by storms and winds, and rubbing their branches against one another, caught fire, and so the inhabitants of the place were put to flight, being terrified by the furious flame. After it subsided, they drew near, and observing that they were very comfortable standing before the warm fire, they put on logs and, while thus keeping it alive, brought up other people to it, showing them by signs how much comfort they got from it. In that gathering of men, at a time when utterance of sound was purely individual, from daily habits they fixed upon articulate words just as these had happened to come; then, from indicating by name things in common use, the result was that in this chance way they began to talk, and thus originated conversation with one another.
 
@@ -641,39 +192,25 @@ Furthermore, as men made progress by becoming daily more expert in building, and
 
 I will now return to my subject, and with regard to the materials suited to the construction of buildings will consider their natural formation and in what proportions their elementary constituents were combined, making it all clear and not obscure to my readers. For there is no kind of material, no body, and no thing that can be produced or conceived of, which is not made up of elementary particles; and nature does not admit of a truthful exploration in accordance with the doctrines of the physicists without an accurate demonstration of the primary causes of things, showing how and why they are as they are.
 
----
+## Chapter II. On the Primordial Substance according to the Physicists
 
-# CHAPTER II
-
-## ON THE PRIMORDIAL SUBSTANCE ACCORDING TO THE PHYSICISTS
-
-1. First of all Thales thought that water was the primordial substance of all things. Heraclitus of Ephesus, surnamed by the Greeks σκοτανος on account of the obscurity of his writings, thought that it was fire. Democritus and his follower Epicurus thought that it was the atoms, termed by our writers "bodies that cannot be cut up," or, by some, "indivisibles." The school of the Pythagoreans added air and the earthy to the water and fire. Hence, although Democritus did not in a strict sense name them, but spoke only of indivisible bodies, yet he seems to have meant these same elements, because when taken by themselves they cannot be harmed, nor are they susceptible of dissolution, nor can they be cut up into parts, but throughout time eternal they forever retain an infinite solidity.
+1. First of all Thales thought that water was the primordial substance of all things. Heraclitus of Ephesus, surnamed by the Greeks σκοτεινος on account of the obscurity of his writings, thought that it was fire. Democritus and his follower Epicurus thought that it was the atoms, termed by our writers "bodies that cannot be cut up," or, by some, "indivisibles." The school of the Pythagoreans added air and the earthy to the water and fire. Hence, although Democritus did not in a strict sense name them, but spoke only of indivisible bodies, yet he seems to have meant these same elements, because when taken by themselves they cannot be harmed, nor are they susceptible of dissolution, nor can they be cut up into parts, but throughout time eternal they forever retain an infinite solidity.
 
 2. All things therefore appear to be made up and produced by the coming together of these elements, so that they have been distributed by nature among an infinite number of kinds of things. Hence I believed it right to treat of the diversity and practical peculiarities of these things as well as of the qualities which they exhibit in buildings, so that persons who are intending to build may understand them and so make no mistake, but may gather materials which are suitable to use in their buildings.
 
----
-
-# CHAPTER III
-
-# BRICK
+## Chapter III. Brick
 
 1. Beginning with bricks, I shall state of what kind of clay they ought to be made. They should not be made of sandy or pebbly clay, or of fine gravel, because when made of these kinds they are in the first place heavy; and, secondly, when washed by the rain as they stand in walls, they go to pieces and break up, and the straw in them does not hold together on account of the roughness of the material. They should rather be made of white and chalky or of red clay, or even of a coarse grained gravelly clay. These materials are smooth and therefore durable; they are not heavy to work with, and are readily laid.
 
 2. Bricks should be made in Spring or Autumn, so that they may dry uniformly. Those made in Summer are defective, because the fierce heat of the sun bakes their surface and makes the brick seem dry while inside it is not dry. And so the shrinking, which follows as they dry, causes cracks in the parts which were dried before, and these cracks make the bricks weak. Bricks will be most serviceable if made two years before using; for they cannot dry thoroughly in less time. When fresh undried bricks are used in a wall, the stucco covering stiffens and hardens into a permanent mass, but the bricks settle and cannot keep the same height as the stucco; the motion caused by their shrinking prevents them from adhering to it, and they are separated from their union with it. Hence the stucco, no longer joined to the core of the wall, cannot stand by itself because it is so thin; it breaks off, and the walls themselves may perhaps be ruined by their settling. This is so true that at Utica in constructing walls they use brick only if it is dry and made five years previously, and approved as such by the authority of a magistrate.
 
-3. There are three kinds of bricks. First, the kind called in Greek Lydian, being that which our people use, a foot and a half long and one foot wide. The other two kinds are used by the Greeks in their buildings. Of these, one is called πεντόδωρον, the other τετρίδωρον. Δόρον is the Greek for "palm," for in Greek δόρον means the giving of gifts, and the gift is always presented in the palm of the hand. A brick five palms square is called "pentadoron"; one four palms square "tetradoron." Public buildings are constructed of πεντόδωρη, private of τετρίδωρη.
+3. There are three kinds of bricks. First, the kind called in Greek Lydian, being that which our people use, a foot and a half long and one foot wide. The other two kinds are used by the Greeks in their buildings. Of these, one is called πεντἁδωρον, the other τετρἁδωρον. Δὡρον is the Greek for "palm," for in Greek δὡρον means the giving of gifts, and the gift is always presented in the palm of the hand. A brick five palms square is called "pentadoron"; one four palms square "tetradoron." Public buildings are constructed of πεντἁδωρα, private of τετρἁδωρα.
 
 4. With these bricks there are also half-bricks. When these are used in a wall, a course of bricks is laid on one face and a course of half-bricks on the other, and they are bedded to the line on each face. The walls are bonded by alternate courses of the two different kinds, and as the bricks are always laid so as to break joints, this lends strength and a not unattractive appearance to both sides of such walls.
 
-![img-9.jpeg](images/img-9.jpeg)
+In the states of Maxilua and Callet, in Further Spain, as well as in Pitane in Asia Minor, there are bricks which, when finished and dried, will float on being thrown into water. The reason why they can float seems to be that the clay of which they are made is like pumicestone. So it is light, and also it does not, after being hardened by exposure to the air, take up or absorb liquid. So these bricks, being of this light and porous quality, and admitting no moisture into their texture, must by the laws of nature float in water, like pumice, no matter what their weight may be. They have therefore great advantages; for they are not heavy to use in building and, once made, they are not spoiled by bad weather.
 
-In the states of Maxilua and Callet, in Further Spain, as well as in Pitane in Asia Minor, there are bricks which, when finished and dried, will float on being thrown into water. The reason why they can float seems to be that the clay of which they are made is like pumice-stone. So it is light, and also it does not, after being hardened by exposure to the air, take up or absorb liquid. So these bricks, being of this light and porous quality, and admitting no moisture into their texture, must by the laws of nature float in water, like pumice, no matter what their weight may be. They have therefore great advantages; for they are not heavy to use in building and, once made, they are not spoiled by bad weather.
-
----
-
-# CHAPTER IV
-
-## SAND
+## Chapter IV. Sand
 
 1. In walls of masonry the first question must be with regard to the sand, in order that it may be fit to mix into mortar and have no dirt in it. The kinds of pitsand are these: black, gray, red, and carbuncular. Of these the best will be found to be that which crackles when rubbed in the hand, while that which has much dirt in it will not be sharp enough. Again: throw some sand upon a white garment and then shake it out; if the garment is not soiled and no dirt adheres to it, the sand is suitable.
 
@@ -681,11 +218,7 @@ In the states of Maxilua and Callet, in Further Spain, as well as in Pitane in A
 
 3. But pitsand used in masonry dries quickly, the stucco coating is permanent, and the walls can support vaultings. I am speaking of sand fresh from the sandpits. For if it lies unused too long after being taken out, it is disintegrated by exposure to sun, moon, or hoar frost, and becomes earthy. So when mixed in masonry, it has no binding power on the rubble, which consequently settles and down comes the load which the walls can no longer support. Fresh pitsand, however, in spite of all its excellence in concrete structures, is not equally useful in stucco, the richness of which, when the lime and straw are mixed with such sand, will cause it to crack as it dries on account of the great strength of the mixture. But river sand, though useless in "signinum" on account of its thinness, becomes perfectly solid in stucco when thoroughly worked by means of polishing instruments.
 
----
-
-# CHAPTER V
-
-## LIME
+## Chapter V. Lime
 
 1. Sand and its sources having been thus treated, next with regard to lime we must be careful that it is burned from a stone which, whether soft or hard, is in any case white. Lime made of close-grained stone of the harder sort will be good in structural parts; lime of porous stone, in stucco. After slaking it, mix your mortar, if using pitsand, in the proportions of three parts of sand to one of lime; if using river or sea-sand, mix two parts of sand with one of lime. These will be the right proportions for the composition of the mixture. Further, in using river or sea-sand, the addition of a third part composed of burnt brick, pounded up and sifted, will make your mortar of a better composition to use.
 
@@ -693,11 +226,7 @@ In the states of Maxilua and Callet, in Further Spain, as well as in Pitane in A
 
 3. Consequently, limestone when taken out of the kiln cannot be as heavy as when it was thrown in, but on being weighed, though its bulk remains the same as before, it is found to have lost about a third of its weight owing to the boiling out of the water. Therefore, its pores being thus opened and its texture rendered loose, it readily mixes with sand, and hence the two materials cohere as they dry, unite with the rubble, and make a solid structure.
 
----
-
-# CHAPTER VI
-
-# POZZOLANA
+## Chapter VI. Pozzolana
 
 1. There is also a kind of powder which from natural causes produces astonishing results. It is found in the neighbourhood of Baiae and in the country belonging to the towns round about Mt. Vesuvius. This substance, when mixed with lime and rubble, not only lends strength to buildings of other kinds, but even when piers of it are constructed in the sea, they set hard under water. The reason for this seems to be that the soil on the slopes of the mountains in these neighbourhoods is hot and full of hot springs. This would not be so unless the mountains had beneath them huge fires of burning sulphur or alum or asphalt. So the fire and the heat of the flames, coming up hot from far within through the fissures, make the soil there light, and the tufa found there is spongy and free from moisture. Hence, when the three substances, all formed on a similar principle by the force of fire, are mixed together, the water suddenly taken in makes them cohere, and the moisture quickly hardens them so that they set into a mass which neither the waves nor the force of the water can dissolve.
 
@@ -713,45 +242,19 @@ There will still be the question why Tuscany, although it abounds in hot springs
 
 6. Therefore, where the mountains are not earthy but consist of soft stone, the force of the fire, passing through the fissures in the stone, sets it afire. The soft and delicate part is burned out, while the hard part is left. Consequently, while in Campania the burning of the earth makes ashes, in Tuscany the combustion of the stone makes carbuncular sand. Both are excellent in walls, but one is better to use for buildings on land, the other for piers under salt water. The Tuscan stone is softer in quality than tufa but harder than earth, and being thoroughly kindled by the violent heat from below, the result is the production in some places of the kind of sand called carbuncular.
 
-![img-10.jpeg](images/img-10.jpeg)
-
----
-
-![img-11.jpeg](images/img-11.jpeg)
-
-![img-12.jpeg](images/img-12.jpeg)
-
-THAT ARE THE QUADRIDES ON THIS REPEATS A MATHATSA.
-
-1.2. Ancient quarrias. 3. A similar modern quarry.
-
-The top of the rock shows the original ground level. The present ground level shows the depth to which the rock has been removed.
-
----
-
-# CHAPTER VII
-
-# STONE
+## Chapter VII. Stone
 
 1. I have now spoken of lime and sand, with their varieties and points of excellence. Next comes the consideration of stone-quarries from which dimension stone and supplies of rubble to be used in building are taken and brought together. The stone in quarries is found to be of different and unlike qualities. In some it is soft: for example, in the environs of the city at the quarries of Grotta Rossa, Palla, Fidenae, and of the Alban hills; in others, it is medium, as at Tivoli, at Amiternum, or Mt. Soracte, and in quarries of this sort; in still others it is hard, as in lava quarries. There are also numerous other kinds: for instance, in Campania, red and black tufas; in Umbria, Picenum, and Venetia, white tufa which can be cut with a toothed saw, like wood.
 
 2. All these soft kinds have the advantage that they can be easily worked as soon as they have been taken from the quarries. Under cover they play their part well; but in open and exposed situations the frost and rime make them crumble, and they go to pieces. On the seacoast, too, the salt eats away and dissolves them, nor can they stand great heat either. But travertine and all stone of that class can stand injury whether from a heavy load laid upon it or from the weather; exposure to fire, however, it cannot bear, but splits and cracks to pieces at once. This is because in its natural composition there is but little moisture and not much of the earthy, but a great deal of air and of fire. Therefore, it is not only without the earthy and watery elements, but when fire, expelling the air from it by the operation and force of heat, penetrates into its inmost parts and occupies the empty spaces of the fissures, there comes a great glow and the stone is made to burn as fiercely as do the particles of fire itself.
 
-3. There are also several quarries called Anician in the territory of Tarquini, the stone being of the colour of peperino. The principal workshops lie round the lake of Bolsena and in the prefecture of Statonia. This stone has innumerable good qualities. Neither the season of frost nor exposure to fire can harm it, but it remains solid and lasts to a great age, because there is only a little air and fire in its natural composition, a moderate amount of moisture, and a great deal of the earthy. Hence its structure is of close texture and solid, and so it cannot be injured by the weather or by the force of fire.
+3. There are also several quarries called Anician in the territory of Tarquinii, the stone being of the colour of peperino. The principal workshops lie round the lake of Bolsena and in the prefecture of Statonia. This stone has innumerable good qualities. Neither the season of frost nor exposure to fire can harm it, but it remains solid and lasts to a great age, because there is only a little air and fire in its natural composition, a moderate amount of moisture, and a great deal of the earthy. Hence its structure is of close texture and solid, and so it cannot be injured by the weather or by the force of fire.
 
 4. This may best be seen from monuments in the neighbourhood of the town of Ferento which are made of stone from these quarries. Among them are large statues exceedingly well made, images of smaller size, and flowers and acanthus leaves gracefully carved. Old as these are, they look as fresh as if they were only just finished. Bronze workers, also, make moulds for the casting of bronze out of stone from these quarries, and find it very useful in bronze-founding. If the quarries were only near Rome, all our buildings might well be constructed from the products of these workshops.
 
 5. But since, on account of the proximity of the stone-quarries of Grotta Rossa, Palla, and the others that are nearest to the city, necessity drives us to make use of their products, we must proceed as follows, if we wish our work to be finished without flaws. Let the stone be taken from the quarry two years before building is to begin, and not in winter but in summer. Then let it lie exposed in an open place. Such stone as has been damaged by the two years of exposure should be used in the foundations. The rest, which remains unhurt, has passed the test of nature and will endure in those parts of the building which are above ground. This precaution should be observed, not only with dimension stone, but also with the rubble which is to be used in walls.
 
-![img-13.jpeg](images/img-13.jpeg)
-Photo: Mosecioni
-EXAMPLE OF OPUS INTERVIEW. THIS CHRISTIAN TEMPLE AT TIVOLI
-
----
-
-# CHAPTER VIII
-
-# METHODS OF BUILDING WALLS
+## Chapter VIII. Methods of Building Walls
 
 1. There are two styles of walls: "opus reticulatum," now used by everybody, and the ancient style called "opus incertum." Of these, the reticulatum looks better, but its construction makes it likely to crack, because its beds and builds spread out in every direction. On the other hand, in the opus incertum, the rubble, lying in courses and imbricated, makes a wall which, though not beautiful, is stronger than the reticulatum.
 
@@ -765,44 +268,27 @@ EXAMPLE OF OPUS INTERVIEW. THIS CHRISTIAN TEMPLE AT TIVOLI
 
 6. A wall is called isodomum when all the courses are of equal height; pseudisodomum, when the rows of courses do not match but run unequally. Both kinds are strong: first, because the rubble itself is of close texture and solid, unable to suck the moisture out of the mortar, but keeping it in its moist condition for a very long period; secondly, because the beds of the stones, being laid smooth and level to begin with, keep the mortar from falling, and, as they are bonded throughout the entire thickness of the wall, they hold together for a very long period.
 
-7. Another method is that which they call ὁμάλεκτον, used also among us in the country. In this the facings are finished, but the other stones left in their natural state and then laid with alternate bonding stones. But our workmen, in their hurry to finish, devote themselves only to the facings of the walls, setting them upright but filling the space between with a lot of broken stones and mortar thrown in anyhow. This makes three different sections in the same structure; two consisting of facing and one of filling between them. The Greeks, however, do not build so; but laying their stones level and building every other stone length-wise into the thickness, they do not fill the space between, but construct the thickness of their walls in one solid and unbroken mass from the facings to the interior. Further, at intervals they lay single stones which run through the entire thickness of the wall. These stones, which show at each end, are called δώτονος, and by their bonding powers they add very greatly to the solidity of the walls.
-
-![img-14.jpeg](images/img-14.jpeg)
-Photo: Mouzioni
-OPUS RETICULATUM FROM THE THERMAL OF ISODOMY'S VILLA AT TIVOLI
-
-![img-15.jpeg](images/img-15.jpeg)
-Photo: Mouzioni
-EXAMPLE OF OPUS RETICULATUM FROM THE SHORPING OF THE TODA PURCILE, VILLA OF ISODOMY AT TIVOLI
-
----
+7. Another method is that which they call ἑμπλεκτον, used also among us in the country. In this the facings are finished, but the other stones left in their natural state and then laid with alternate bonding stones. But our workmen, in their hurry to finish, devote themselves only to the facings of the walls, setting them upright but filling the space between with a lot of broken stones and mortar thrown in anyhow. This makes three different sections in the same structure; two consisting of facing and one of filling between them. The Greeks, however, do not build so; but laying their stones level and building every other stone length-wise into the thickness, they do not fill the space between, but construct the thickness of their walls in one solid and unbroken mass from the facings to the interior. Further, at intervals they lay single stones which run through the entire thickness of the wall. These stones, which show at each end, are called διἁτονοι, and by their bonding powers they add very greatly to the solidity of the walls.
 
 8. One who in accordance with these notes will take pains in selecting his method of construction, may count upon having something that will last. No walls made of rubble and finished with delicate beauty—no such walls can escape ruin as time goes on. Hence, when arbitrators are chosen to set a valuation on party walls, they do not value them at what they cost to build, but look up the written contract in each case and then, after deducting from the cost one eightieth for each year that the wall has been standing, decide that the remainder is the sum to be paid. They thus in effect pronounce that such walls cannot last more than eighty years.
 
 9. In the case of brick walls, however, no deduction is made provided that they are still standing plumb, but they are always valued at what they cost to build. Hence in some states we may see public buildings and private houses, as well as those of kings, built of brick: in Athens, for example, the part of the wall which faces Mt. Hymettus and Pentelicus; at Patras, the cellae of the temple of Jupiter and Hercules, which are brick, although on the outside the entablature and columns of the temple are of stone; in Italy, at Arezzo, an ancient wall excellently built; at Tralles, the house built for the kings of the dynasty of Attalus, which is now always granted to the man who holds the state priesthood. In Sparta, paintings have been taken out of certain walls by cutting through the bricks, then have been placed in wooden frames, and so brought to the Comitium to adorn the aedileship of Varro and Murena.
 
-10. Then there is the house of Croesus which the people of Sardis have set apart as a place of repose for their fellow-citizens in the retirement of age, a "Gerousia" for the guild of the elder men. At Halicarnassus, the house of that most potent king Mausolus, though decorated throughout with Proconnesian marble, has walls built of brick which are to this day of extraordinary strength, and are covered with stucco so highly polished that they seem to be as glistening as glass. That king did not use brick from poverty; for he was choke-full of revenues, being ruler of all Caria.
+10. Then there is the house of Croesus which the people of Sardis have set apart as a place of repose for their fellow-citizens in the retirement of age,—a "Gerousia" for the guild of the elder men. At Halicarnassus, the house of that most potent king Mausolus, though decorated throughout with Proconnesian marble, has walls built of brick which are to this day of extraordinary strength, and are covered with stucco so highly polished that they seem to be as glistening as glass. That king did not use brick from poverty; for he was choke-full of revenues, being ruler of all Caria.
 
-11. As for his skill and ingenuity as a builder, they may be seen from what follows. He was born at Melissa, but recognizing the natural advantages of Halicarnassus as a fortress, and seeing that it was suitable as a trading centre and that it had a good harbour, he fixed his residence there. The place had a curvature like that of the seats in a theatre. On the lowest tier, along the harbour, was built the forum. About halfway up the curving slope, at the point where the curved cross-aisle is in a theatre, a broad wide street was laid out, in the middle of which was built the Mausoleum, a work so remarkable that it is classed among the Seven Wonders of the World. At the top of the hill, in the centre, is the fane of Mars, containing a colossal acroithic statue by the famous hand of Leochares. That is, some think that this statue is by Leochares, others by Timotheus. At the extreme right of the summit is the fane of Venus and Mercury, close to the spring of Salmacis.
+11. As for his skill and ingenuity as a builder, they may be seen from what follows. He was born at Melassa, but recognizing the natural advantages of Halicarnassus as a fortress, and seeing that it was suitable as a trading centre and that it had a good harbour, he fixed his residence there. The place had a curvature like that of the seats in a theatre. On the lowest tier, along the harbour, was built the forum. About halfway up the curving slope, at the point where the curved cross-aisle is in a theatre, a broad wide street was laid out, in the middle of which was built the Mausoleum, a work so remarkable that it is classed among the Seven Wonders of the World. At the top of the hill, in the centre, is the fane of Mars, containing a colossal acrolithic statue by the famous hand of Leochares. That is, some think that this statue is by Leochares, others by Timotheus. At the extreme right of the summit is the fane of Venus and Mercury, close to the spring of Salmacis.
 
 12. There is a mistaken idea that this spring infects those who drink of it with an unnatural lewdness. It will not be out of place to explain how this idea came to spread throughout the world from a mistake in the telling of the tale. It cannot be that the water makes men effeminate and unchaste, as it is said to do; for the spring is of remarkable clearness and excellent in flavour. The fact is that when Melas and Arevanias came there from Argos and Troezen and founded a colony together, they drove out the Carians and Lelegans who were barbarians. These took refuge in the mountains, and, uniting there, used to make raids, plundering the Greeks and laying their country waste in a cruel manner. Later, one of the colonists, to make money, set up a well-stocked shop, near the spring because the water was so good, and the way in which he carried it on attracted the barbarians. So they began to come down, one at a time, and to meet with society, and thus they were brought back of their own accord, giving up their rough and savage ways for the delights of Greek customs. Hence this water acquired its peculiar reputation, not because it really induced unchastity, but because those barbarians were softened by the charm of civilization.
-
-![img-16.jpeg](images/img-16.jpeg)
-THE MAGNOLISIA OF SALICARNASIS 3 AS RECORDED BY FREDERICK ADLER
 
 13. But since I have been tempted into giving a description of this fortified place, it remains to finish my account of it. Corresponding to the fane of Venus and the spring described above, which are on the right, we have on the extreme left the royal palace which king Mausolus built there in accordance with a plan all his own. To the right it commands a view of the forum, the harbour, and the entire line of fortifications, while just below it, to the left, there is a concealed harbour, hidden under the walls in such a way that nobody could see or know what was going on in it. Only the king himself could, in case of need, give orders from his own palace to the oarsmen and soldiers, without the knowledge of anybody else.
 
 14. After the death of Mausolus, his wife Artemisia became queen, and the Rhodians, regarding it as an outrage that a woman should be ruler of the states of all Caria, fitted out a fleet and sallied forth to seize upon the kingdom. When news of this reached Artemisia, she gave orders that her fleet should be hidden away in that harbour with oarsmen and marines mustered and concealed, but that the rest of the citizens should take their places on the city wall. After the Rhodians had landed at the larger harbour with their well-equipped fleet, she ordered the people on the wall to cheer them and to promise that they would deliver up the town. Then, when they had passed inside the wall, leaving their fleet empty, Artemisia suddenly made a canal which led to the sea, brought her fleet thus out of the smaller harbour, and so sailed into the larger. Disembarking her soldiers, she towed the empty fleet of the Rhodians out to sea. So the Rhodians were surrounded without means of retreat, and were slain in the very forum.
 
-15. So Artemisia embarked her own soldiers and oarsmen in the ships of the Rhodians and set forth for Rhodes. The Rhodians, beholding their own ships approaching wreathed with laurel, supposed that their fellow-citizens were returning victorious, and admitted the enemy. Then Artemisia, after taking Rhodes and killing its leading men, put up in the city of Rhodes a trophy of her victory, including two bronze statues, one representing the state of the Rhodians, the other herself. Herself she fashioned in the act of branding the state of the Rhodians. In later times the Rhodians, labouring under the religious scruple which makes it a sin to remove trophies once they are dedicated, constructed a building to surround the place, and thus by the erection of the "Grecian Station" covered it so that nobody could see it, and ordered that the building be called "úfierov."
-
-
-
----
+15. So Artemisia embarked her own soldiers and oarsmen in the ships of the Rhodians and set forth for Rhodes. The Rhodians, beholding their own ships approaching wreathed with laurel, supposed that their fellow-citizens were returning victorious, and admitted the enemy. Then Artemisia, after taking Rhodes and killing its leading men, put up in the city of Rhodes a trophy of her victory, including two bronze statues, one representing the state of the Rhodians, the other herself. Herself she fashioned in the act of branding the state of the Rhodians. In later times the Rhodians, labouring under the religious scruple which makes it a sin to remove trophies once they are dedicated, constructed a building to surround the place, and thus by the erection of the "Grecian Station" covered it so that nobody could see it, and ordered that the building be called "ἁβατον."
 
 16. Since such very powerful kings have not disdained walls built of brick, although with their revenues and from booty they might often have had them not only of masonry or dimension stone but even of marble, I think that one ought not to reject buildings made of brick-work, provided that they are properly "topped." But I shall explain why this kind of structure should not be used by the Roman people within the city, not omitting the reasons and the grounds for them.
 
-17. The laws of the state forbid that walls abutting on public property should be more than a foot and a half thick. The other walls are built of the same thickness in order to save space. Now brick walls, unless two or three bricks thick, cannot support more than one story; certainly not if they are only a foot and a half in thickness. But with the present importance of the city and the unlimited numbers of its population, it is necessary to increase the number of dwelling-places indefinitely. Consequently, as the ground floors could not admit of so great a number living in the city, the nature of the case has made it necessary to find relief by making the buildings high. In these tall piles reared with piers of stone, walls of burnt brick, and partitions of rubble work, and provided with floor after floor, the upper stories can be partitioned off into rooms to very great advantage. The accommodations within the city walls being thus multiplied as a result of the many floors high in the air, the Roman people easily find excellent places in which to live.
+17. The laws of the state forbid that walls abutting on public property should be more than a foot and a half thick. The other walls are built of the same thickness in order to save space. Now brick walls, unless two or three bricks thick, cannot support more than one story; certainly not if they are only a foot and a half in thickness. But with the present importance of the city and the unlimited numbers of its population, it is necessary to increase the number of dwellingplaces indefinitely. Consequently, as the ground floors could not admit of so great a number living in the city, the nature of the case has made it necessary to find relief by making the buildings high. In these tall piles reared with piers of stone, walls of burnt brick, and partitions of rubble work, and provided with floor after floor, the upper stories can be partitioned off into rooms to very great advantage. The accommodations within the city walls being thus multiplied as a result of the many floors high in the air, the Roman people easily find excellent places in which to live.
 
 18. It has now been explained how limitations of building space necessarily forbid the employment of brick walls within the city. When it becomes necessary to use them outside the city, they should be constructed as follows in order to be perfect and durable. On the top of the wall lay a structure of burnt brick, about a foot and a half in height, under the tiles and projecting like a coping. Thus the defects usual in these walls can be avoided. For when the tiles on the roof are broken or thrown down by the wind so that rainwater can leak through, this burnt brick coating will prevent the crude brick from being damaged, and the cornice-like projection will throw off the drops beyond the vertical face, and thus the walls, though of crude brick structure, will be preserved intact.
 
@@ -812,13 +298,7 @@ THE MAGNOLISIA OF SALICARNASIS 3 AS RECORDED BY FREDERICK ADLER
 
 I have now explained to the best of my ability the subject of walls, and the preparation of the different kinds of material employed, with their advantages and disadvantages. Next, following the guidance of Nature, I shall treat of the framework and the kinds of wood used in it, showing how they may be procured of a sort that will not give way as time goes on.
 
-
-
----
-
-# CHAPTER IX
-
-## TIMBER
+## Chapter IX. Timber
 
 1. Timber should be felled between early Autumn and the time when Favonius begins to blow. For in Spring all trees become pregnant, and they are all employing their natural vigour in the production of leaves and of the fruits that return every year. The requirements of that season render them empty and swollen, and so they are weak and feeble because of their looseness of texture. This is also the case with women who have conceived. Their bodies are not considered perfectly healthy until the child is born; hence, pregnant slaves, when offered for sale, are not warranted sound, because the fetus as it grows within the body takes to itself as nourishment all the best qualities of the mother's food, and so the stronger it becomes as the full time for birth approaches, the less compact it allows that body to be from which it is produced. After the birth of the child, what was heretofore taken to promote the growth of another creature is now set free by the delivery of the newborn, and the channels being now empty and open, the body will take it in by lapping up its juices, and thus becomes compact and returns to the natural strength which it had before.
 
@@ -842,13 +322,9 @@ I have now explained to the best of my ability the subject of walls, and the pre
 
 11. One can see this at its best in Ravenna; for there all the buildings, both public and private, have piles of this sort beneath their foundations. The elm and the ash contain a very great amount of moisture, a minimum of air and fire, and a moderate mixture of the earthy in their composition. When put in shape for use in buildings they are tough and, having no stiffness on account of the weight of moisture in them, soon bend. But when they become dry with age, or are allowed to lose their sap and die standing in the open, they get harder, and from their toughness supply a strong material for dowels to be used in joints and other articulations.
 
-12. The hornbeam, which has a very small amount of fire and of the earthy in its composition, but a very great proportion of air and moisture, is not a wood that breaks easily, and is very convenient to handle. Hence, the Greeks call it "rygia," because they make of it yokes for their draught-animals, and their word for yoke is $2yη\tilde{u}$. Cypress and pine are also just as admirable; for although they contain an abundance of moisture mixed with an equivalent composed of all the other elements, and so are apt to warp when used in buildings on account of this superfluity of moisture, yet they can be kept to a great age without rotting, because the liquid contained within their substances has a bitter taste which by its pungency prevents the entrance of decay or of those little creatures which are destructive. Hence, buildings made of these kinds of wood last for an unending period of time.
+12. The hornbeam, which has a very small amount of fire and of the earthy in its composition, but a very great proportion of air and moisture, is not a wood that breaks easily, and is very convenient to handle. Hence, the Greeks call it "zygia," because they make of it yokes for their draught-animals, and their word for yoke is ξυγἁ. Cypress and pine are also just as admirable; for although they contain an abundance of moisture mixed with an equivalent composed of all the other elements, and so are apt to warp when used in buildings on account of this superfluity of moisture, yet they can be kept to a great age without rotting, because the liquid contained within their substances has a bitter taste which by its pungency prevents the entrance of decay or of those little creatures which are destructive. Hence, buildings made of these kinds of wood last for an unending period of time.
 
 13. The cedar and the juniper tree have the same uses and good qualities, but, while the cypress and pine yield resin, from the cedar is produced an oil called cedar-oil. Books as well as other things smeared with this are not hurt by worms or decay. The foliage of this tree is like that of the cypress but the grain of the wood is straight. The statue of Diana in the temple at Ephesus is made of it, and so are the coffered ceilings both there and in all other famous fanes, because that wood is everlasting. The tree grows chiefly in Crete, Africa, and in some districts of Syria.
-
-40
-
----
 
 14. The larch, known only to the people of the towns on the banks of the river Po and the shores of the Adriatic, is not only preserved from decay and the worm by the great bitterness of its sap, but also it cannot be kindled with fire nor ignite of itself, unless like stone in a limekiln it is burned with other wood. And even then it does not take fire nor produce burning coals, but after a long time it slowly consumes away. This is because there is a very small proportion of the elements of fire and air in its composition, which is a dense and solid mass of moisture and the earthy, so that it has no open pores through which fire can find its way; but it repels the force of fire and does not let itself be harmed by it quickly. Further, its weight will not let it float in water, so that when transported it is loaded on shipboard or on rafts made of fir.
 
@@ -860,13 +336,7 @@ I have now explained to the best of my ability the subject of walls, and the pre
 
 With regard to the different kinds of timber, I have now explained of what natural properties they appear to be composed, and how they were produced. It remains to consider the question why the highland fir, as it is called in Rome, is inferior, while the lowland fir is extremely useful in buildings so far as durability is concerned; and further to explain how it is that their bad or good qualities seem to be due to the peculiarities of their neighbourhood, so that this subject may be clearer to those who examine it.
 
-
-
----
-
-# CHAPTER X
-
-## HIGHLAND AND LOWLAND FIR
+## Chapter X. Highland and Lowland Fir
 
 1. The first spurs of the Apennines arise from the Tuscan sea between the Alps and the most distant borders of Tuscany. The mountain range itself bends round and, almost touching the shores of the Adriatic in the middle of the curve, completes its circuit by extending to the strait on the other shore. Hence, this side of the curve, sloping towards the districts of Tuscany and Campania, lies basking in the sun, being constantly exposed to the full force of its rays all day. But the further side, sloping towards the Upper Sea and having a northern exposure, is constantly shrouded in shadowy darkness. Hence the trees which grow on that side, being nourished by the moisture, not only themselves attain to a very large size, but their fibre too, filled full of moisture, is swollen and distended with abundance of liquid. When they lose their vitality after being felled and hewn, the fibre retains its stiffness, and the trees as they dry become hollow and frail on account of their porosity, and hence cannot last when used in buildings.
 
@@ -874,31 +344,21 @@ With regard to the different kinds of timber, I have now explained of what natur
 
 3. To the best of my mature consideration, I have now treated the materials which are necessary in the construction of buildings, the proportionate amount of the elements which are seen to be contained in their natural composition, and the points of excellence and defects of each kind, so that they may be not unknown to those who are engaged in building. Thus those who can follow the directions contained in this treatise will be better informed in advance, and able to select, among the different kinds, those which will be of use in their works. Therefore, since the preliminaries have been explained, the buildings themselves will be treated in the remaining books; and first, as due order requires, I shall in the next book write of the temples of the immortal gods and their symmetrical proportions.
 
----
+# BOOK III
 
-43
-
----
-
-# INTRODUCTION
+## Introduction
 
 1. Apollo at Delphi, through the oracular utterance of his priestess, pronounced Socrates the wisest of men. Of him it is related that he said with sagacity and great learning that the human breast should have been furnished with open windows, so that men might not keep their feelings concealed, but have them open to the view. Oh that nature, following his idea, had constructed them thus unfolded and obvious to the view! For if it had been so, not merely the virtues and vices of the mind would be easily visible, but also its knowledge of branches of study, displayed to the contemplation of the eyes, would not need testing by untrustworthy powers of judgement, but a singular and lasting influence would thus be lent to the learned and wise. However, since they are not so constructed, but are as nature willed them to be, it is impossible for men, while natural abilities are concealed in the breast, to form a judgement on the quality of the knowledge of the arts which is thus deeply hidden. And if artists themselves testify to their own skill, they can never, unless they are wealthy or famous from the age of their studios, or unless they are also possessed of the public favour and of eloquence, have an influence commensurate with their devotion to their pursuits, so that people may believe them to have the knowledge which they profess to have.
 
-2. In particular we can learn this from the case of the sculptors and painters of antiquity. Those among them who were marked by high station or favourably recommended have come down to posterity with a name that will last forever; for instance, Myron, Polycletus, Phidias, Lysippus, and the others who have attained to fame by their art. For they acquired it by the execution of works for great states or for kings or for citizens of rank. But those who, being men of no less enthusiasm, natural ability, and dexterity than those famous artists, and who executed no less perfectly finished works for citizens of low station, are unremembered, not because they lacked diligence or dexterity in their art, but because fortune failed them; for instance, Teleas of Athens, Chion of Corinth, Myager the Phocaean, Pharax of Ephesus, Boedas of Byzantium, and many others. Then there were painters like Aristomenes of Thasos, Polycles and Andron of Ephesus, Theo of Magnesia, and others who were not deficient in diligence or enthusiasm for their art or in dexterity, but whose narrow means or ill-lack, or the higher position of their rivals in the struggle for honour, stood in the way of their attaining distinction.
+2. In particular we can learn this from the case of the sculptors and painters of antiquity. Those among them who were marked by high station or favourably recommended have come down to posterity with a name that will last forever; for instance, Myron, Polycletus, Phidias, Lysippus, and the others who have attained to fame by their art. For they acquired it by the execution of works for great states or for kings or for citizens of rank. But those who, being men of no less enthusiasm, natural ability, and dexterity than those famous artists, and who executed no less perfectly finished works for citizens of low station, are unremembered, not because they lacked diligence or dexterity in their art, but because fortune failed them; for instance, Teleas of Athens, Chion of Corinth, Myager the Phocaean, Pharax of Ephesus, Boedas of Byzantium, and many others. Then there were painters like Aristomenes of Thasos, Polycles and Andron of Ephesus, Theo of Magnesia, and others who were not deficient in diligence or enthusiasm for their art or in dexterity, but whose narrow means or ill-luck, or the higher position of their rivals in the struggle for honour, stood in the way of their attaining distinction.
 
 3. Of course, we need not be surprised if artistic excellence goes unrecognized on account of being unknown; but there should be the greatest indignation when, as often, good judges are flattered by the charm of social entertainments into an approbation which is a mere pretence. Now if, as Socrates wished, our feelings, opinions, and knowledge gained by study had been manifest and clear to see, popularity and adulation would have no influence, but men who had reached the height of knowledge by means of correct and definite courses of study, would be given commissions without any effort on their part. However, since such things are not plain and apparent to the view, as we think they should have been, and since I observe that the uneducated rather than the educated are in higher favour, thinking it beneath me to engage with the uneducated in the struggle for honour, I prefer to show the excellence of our department of knowledge by the publication of this treatise.
 
-4. In my first book, Emperor, I described to you the art, with its points of excellence, the different kinds of training with which the architect ought to be equipped, adding the reasons why he ought to be skilful in them, and I divided up the subject of architecture as a whole among its departments, duly defining the limits of each. Next, as was preeminent and necessary, I explained on scientific principles the method of selecting healthy sites for fortified towns, pointed out by geometrical figures the different winds and the quarters from which they blow, and showed the proper way to lay out the lines of streets and rows of houses within the walls. Here I fixed the end of my first book. In the second, on building materials, I treated their various advantages in structures, and the natural properties of which they are composed. In this third book I shall speak of the temples of the immortal gods, describing and explaining them in the proper manner.
+4. In my first book, Emperor, I described to you the art, with its points of excellence, the different kinds of training with which the architect ought to be equipped, adding the reasons why he ought to be skilful in them, and I divided up the subject of architecture as a whole among its departments, duly defining the limits of each. Next, as was preëminent and necessary, I explained on scientific principles the method of selecting healthy sites for fortified towns, pointed out by geometrical figures the different winds and the quarters from which they blow, and showed the proper way to lay out the lines of streets and rows of houses within the walls. Here I fixed the end of my first book. In the second, on building materials, I treated their various advantages in structures, and the natural properties of which they are composed. In this third book I shall speak of the temples of the immortal gods, describing and explaining them in the proper manner.
 
+## Chapter I. On Symmetry: in Temples and in the Human Body
 
-
----
-
-# CHAPTER I
-
-## ON SYMMETRY: IN TEMPLES AND IN THE HUMAN BODY
-
-1. The design of a temple depends on symmetry, the principles of which must be most carefully observed by the architect. They are due to proportion, in Greek ἀνυλατῆς. Proportion is a correspondence among the measures of the members of an entire work, and of the whole to a certain part selected as standard. From this result the principles of symmetry. Without symmetry and proportion there can be no principles in the design of any temple; that is, if there is no precise relation between its members, as in the case of those of a well shaped man.
+1. The design of a temple depends on symmetry, the principles of which must be most carefully observed by the architect. They are due to proportion, in Greek ἁναλογἱα. Proportion is a correspondence among the measures of the members of an entire work, and of the whole to a certain part selected as standard. From this result the principles of symmetry. Without symmetry and proportion there can be no principles in the design of any temple; that is, if there is no precise relation between its members, as in the case of those of a well shaped man.
 
 2. For the human body is so designed by nature that the face, from the chin to the top of the forehead and the lowest roots of the hair, is a tenth part of the whole height; the open hand from the wrist to the tip of the middle finger is just the same; the head from the chin to the crown is an eighth, and with the neck and shoulder from the top of the breast to the lowest roots of the hair is a sixth; from the middle of the breast to the summit of the crown is a fourth. If we take the height of the face itself, the distance from the bottom of the chin to the under side of the nostrils is one third of it; the nose from the under side of the nostrils to a line between the eyebrows is the same; from there to the lowest roots of the hair is also a third, comprising the forehead. The length of the foot is one sixth of the height of the body; of the forearm, one fourth; and the breadth of the breast is also one fourth. The other members, too, have their own symmetrical proportions, and it was by employing them that the famous painters and sculptors of antiquity attained to great and endless renown.
 
@@ -906,9 +366,9 @@ With regard to the different kinds of timber, I have now explained of what natur
 
 4. Therefore, since nature has designed the human body so that its members are duly proportioned to the frame as a whole, it appears that the ancients had good reason for their rule, that in perfect buildings the different members must be in exact symmetrical relations to the whole general scheme. Hence, while transmitting to us the proper arrangements for buildings of all kinds, they were particularly careful to do so in the case of temples of the gods, buildings in which merits and faults usually last forever.
 
-5. Further, it was from the members of the body that they derived the fundamental ideas of the measures which are obviously necessary in all works, as the finger, palm, foot, and cubit. These they apportioned so as to form the "perfect number," called in Greek τέλειον, and as the perfect number the ancients fixed upon ten. For it is from the number of the fingers of the hand that the palm is found, and the foot from the palm. Again, while ten is naturally perfect, as being made up by the fingers of the two palms, Plato also held that this number was perfect because ten is composed of the individual units, called by the Greeks μονάδες. But as soon as eleven or twelve is reached, the numbers, being excessive, cannot be perfect until they come to ten for the second time; for the component parts of that number are the individual units.
+5. Further, it was from the members of the body that they derived the fundamental ideas of the measures which are obviously necessary in all works, as the finger, palm, foot, and cubit. These they apportioned so as to form the "perfect number," called in Greek τἑλειον, and as the perfect number the ancients fixed upon ten. For it is from the number of the fingers of the hand that the palm is found, and the foot from the palm. Again, while ten is naturally perfect, as being made up by the fingers of the two palms, Plato also held that this number was perfect because ten is composed of the individual units, called by the Greeks μονἁδες. But as soon as eleven or twelve is reached, the numbers, being excessive, cannot be perfect until they come to ten for the second time; for the component parts of that number are the individual units.
 
-6. The mathematicians, however, maintaining a different view, have said that the perfect number is six, because this number is composed of integral parts which are suited numerically to their method of reckoning: thus, one is one sixth; two is one third; three is one half; four is two thirds, or δίμομος as they call it; five is five sixths, called πεντόμομος; and six is the perfect number. As the number goes on growing larger, the addition of a unit above six is the δράκτης; eight, formed by the addition of a third part of six, is the integer and a third, called ἐπίτριτος; the addition of one half makes nine, the integer and a half, termed ἡμύλιος; the addition of two thirds, making the number ten, is the integer and two thirds, which they call ἐπιδίμομος; in the number eleven, where five are added, we have the five sixths, called ἐπίπιμητος; finally, twelve, being composed of the two simple integers, is called διπλάπιος.
+6. The mathematicians, however, maintaining a different view, have said that the perfect number is six, because this number is composed of integral parts which are suited numerically to their method of reckoning: thus, one is one sixth; two is one third; three is one half; four is two thirds, or δἱμοιρος as they call it; five is five sixths, called πεντἁμοιρος; and six is the perfect number. As the number goes on growing larger, the addition of a unit above six is the ἑφεκτος; eight, formed by the addition of a third part of six, is the integer and a third, called ἑπἱτριτος; the addition of one half makes nine, the integer and a half, termed ἡμιὁλιος; the addition of two thirds, making the number ten, is the integer and two thirds, which they call ἑπιδἱμοιρος; in the number eleven, where five are added, we have the five sixths, called ἑπἱπεμπτος; finally, twelve, being composed of the two simple integers, is called διπλἁσιος.
 
 7. And further, as the foot is one sixth of a man's height, the height of the body as expressed in number of feet being limited to six, they held that this was the perfect number, and observed that the cubit consisted of six palms or of twenty-four fingers. This principle seems to have been followed by the states of Greece. As the cubit consisted of six palms, they made the drachma, which they used as their unit, consist in the same way of six bronze coins, like our asses, which they call obols; and, to correspond to the fingers, divided the drachma into twenty-four quarter-obols, which some call dichalca others trichalca.
 
@@ -916,136 +376,75 @@ With regard to the different kinds of timber, I have now explained of what natur
 
 9. Therefore, if it is agreed that number was found out from the human fingers, and that there is a symmetrical correspondence between the members separately and the entire form of the body, in accordance with a certain part selected as standard, we can have nothing but respect for those who, in constructing temples of the immortal gods, have so arranged the members of the works that both the separate parts and the whole design may harmonize in their proportions and symmetry.
 
----
+## Chapter II. Classification of Temples
 
-# CHAPTER II
+1. There are certain elementary forms on which the general aspect of a temple depends. First there is the temple in antis, or ναος ἑν παραστἁσιν as it is called in Greek; then the prostyle, amphiprostyle, peripteral, pseudodipteral, dipteral, and hypaethral. These different forms may be described as follows.
 
-# CLASSIFICATION OF TEMPLES
-
-1. There are certain elementary forms on which the general aspect of a temple depends. First there is the temple in antis, or vāoç ēv mūpārtimiv as it is called in Greek; then the prostyle, amphiprostyle, peripeteral, pseudodipteral, dipteral, and hypaethral. These different forms may be described as follows.
 2. It will be a temple in antis when it has antae carried out in front of the walls which enclose the cella, and in the middle, between the antae, two columns, and over them the pediment constructed in the symmetrical proportions to be described later in this work. An example will be found at the Three Fortunes, in that one of the three which is nearest the Colline gate.
+
 3. The prostyle is in all respects like the temple in antis, except that at the corners, opposite the antae, it has two columns, and that it has architraves not only in front, as in the case of the temple in antis, but also one to the right and one to the left in the wings. An example of this is the temple of Jove and Faunus in the Island of the Tiber.
+
 4. The amphiprostyle is in all other respects like the prostyle, but has besides, in the rear, the same arrangement of columns and pediment.
 
-![img-17.jpeg](images/img-17.jpeg)
-THE CLASSIFICATION OF TEMPLES ACCORDING TO THE ABRANGEMENTS OF THE COLONNASES
+5. A temple will be peripteral that has six columns in front and six in the rear, with eleven on each side including the corner columns. Let the columns be so placed as to leave a space, the width of an intercolumniation, all round between the walls and the rows of columns on the outside, thus forming a walk round the cella of the temple, as in the cases of the temple of Jupiter Stator by Hermodorus in the Portico of Metellus, and the Marian temple of Honour and Valour constructed by Mucius, which has no portico in the rear.
 
----
-
-![img-18.jpeg](images/img-18.jpeg)
-THE HYPERTICAL TEMPLE
-
-![img-19.jpeg](images/img-19.jpeg)
-THE PARCHESEN
-
-![img-20.jpeg](images/img-20.jpeg)
-TENS OF
-ADELA'S PERMANDS NEAR NIGHTS
-THE HYPERTICAL TEMPLE OF VITRINTUS COMPARED WITH THE PARCHESEN AND THE TEMPLE OF ARVALIA NEAR NIGHTS
-
-5. A temple will be peripheral that has six columns in front and six in the rear, with eleven on each side including the corner columns. Let the columns be so placed as to leave a space, the width of an intercolumnization, all round between the walls and the rows of columns on the outside, thus forming a walk round the cella of the temple, as in the cases of the temple of Jupiter Stator by Hermodoras in the Portico of Metellus, and the Marian temple of Honour and Valour constructed by Mucius, which has no portico in the rear.
-
-6. The pseudodipteral is so constructed that in front and in the rear there are in each case eight columns, with fifteen on each side, including the corner columns. The walls of the cella in front and in the rear should be directly over against the four middle columns. Thus there will be a space, the width of two intercolumnizations plus the thickness of the lower diameter of a column, all round between the walls and the rows of columns on the outside. There is no example of this in Rome, but at Magnesia there is the temple of Diana by Hermogenes, and that of Apollo at Alabanda by Mnesthes.
+6. The pseudodipteral is so constructed that in front and in the rear there are in each case eight columns, with fifteen on each side, including the corner columns. The walls of the cella in front and in the rear should be directly over against the four middle columns. Thus there will be a space, the width of two intercolumniations plus the thickness of the lower diameter of a column, all round between the walls and the rows of columns on the outside. There is no example of this in Rome, but at Magnesia there is the temple of Diana by Hermogenes, and that of Apollo at Alabanda by Mnesthes.
 
 7. The dipteral also is octastyle in both front and rear porticoes, but it has two rows of columns all round the temple, like the temple of Quirinus, which is Doric, and the temple of Diana at Ephesus, planned by Chersiphron, which is Ionic.
 
 8. The hypaethral is decastyle in both front and rear porticoes. In everything else it is the same as the dipteral, but inside it has two tiers of columns set out from the wall all round, like the colonnade of a peristyle. The central part is open to the sky, without a roof. Folding doors lead to it at each end, in the porticoes in front and in the rear. There is no example of this sort in Rome, but in Athens there is the octastyle in the precinct of the Olympian.
 
----
+## Chapter III. The Proportions of Intercolumniations and of Columns
 
-# CHAPTER III
+1. There are five classes of temples, designated as follows: pycnostyle, with the columns close together; systyle, with the intercolumniations a little wider; diastyle, more open still; araeostyle, farther apart than they ought to be; eustyle, with the intervals apportioned just right.
 
-# THE PROPORTIONS OF INTERCOLUMNIATIONS AND OF COLUMN
+2. The pycnostyle is a temple in an intercolumniation of which the thickness of a column and a half can be inserted: for example, the temple of the Divine Caesar, that of Venus in Caesar's forum, and others constructed like them. The systyle is a temple in which the thickness of two columns can be placed in an intercolumniation, and in which the plinths of the bases are equivalent to the distance between two plinths: for example, the temple of Equestrian Fortune near the stone theatre, and the others which are constructed on the same principles.
 
-1. There are five classes of temples, designated as follows: pycnostyle, with the columns close together; systyle, with the intercolumnations a little wider; diastyle, more open still; araeostyle, farther apart than they ought to be; eustyle, with the intervals apportioned just right.
+3. These two kinds have practical disadvantages. When the matrons mount the steps for public prayer or thanksgiving, they cannot pass through the intercolumniations with their arms about one another, but must form single file; then again, the effect of the folding doors is thrust out of sight by the crowding of the columns, and likewise the statues are thrown into shadow; the narrow space interferes also with walks round the temple.
 
-![img-21.jpeg](images/img-21.jpeg)
+4. The construction will be diastyle when we can insert the thickness of three columns in an intercolumniation, as in the case of the temple of Apollo and Diana. This arrangement involves the danger that the architraves may break on account of the great width of the intervals.
 
-2. The pycnostyle is a temple in an intercolumnation of which the thickness of a column and a half can be inserted: for example, the temple of the Divine Caesar, that of Venus in Caesar's forum, and others constructed like them. The systyle is a temple in which the thickness of two columns can be placed in an intercolumnation, and in which the plinths of the bases are equivalent to the distance between two plinths: for example, the temple of Equestrian Fortune near the stone theatre, and the others which are constructed on the same principles.
-3. These two kinds have practical disadvantages. When the matrons mount the steps for public prayer or thanksgiving, they cannot pass through the intercolumnations with their arms about one another, but must form single file; then again, the effect of the folding doors is thrust out of sight by the crowding of the columns, and likewise the statues are thrown into shadow; the narrow space interferes also with walks round the temple.
-4. The construction will be diastyle when we can insert the thickness of three columns in an intercolumnation, as in the case of the temple of Apollo and Diana. This arrangement involves the danger that the architraves may break on account of the great width of the intervals.
-5. In aereostyles we cannot employ stone or marble for the architraves, but must have a series of wooden beams laid upon the columns. And moreover, in appearance these temples are clumsy-roofed, low, broad, and their pediments are adorned in the Tuscan fashion with statues of terra-cotta or gilt bronze: for example, near the Circus Maximus, the temple of Ceres and Pompey's temple of Hercules; also the temple on the Capitol.
-6. An account must now be given of the eustyle, which is the most approved class, and is arranged on principles developed with a view to convenience, beauty, and strength. The intervals should be made as wide as the thickness of two columns and a quarter, but the middle intercolumnations, one in front and the other in the rear, should be of the thickness of three columns. Thus built, the effect of the design will be beautiful, there will be no obstruction at the entrance, and the walk round the cella will be dignified.
+5. In araeostyles we cannot employ stone or marble for the architraves, but must have a series of wooden beams laid upon the columns. And moreover, in appearance these temples are clumsy-roofed, low, broad, and their pediments are adorned in the Tuscan fashion with statues of terra-cotta or gilt bronze: for example, near the Circus Maximus, the temple of Ceres and Pompey's temple of Hercules; also the temple on the Capitol.
 
----
+6. An account must now be given of the eustyle, which is the most approved class, and is arranged on principles developed with a view to convenience, beauty, and strength. The intervals should be made as wide as the thickness of two columns and a quarter, but the middle intercolumniations, one in front and the other in the rear, should be of the thickness of three columns. Thus built, the effect of the design will be beautiful, there will be no obstruction at the entrance, and the walk round the cella will be dignified.
 
-![img-22.jpeg](images/img-22.jpeg)
-
-![img-23.jpeg](images/img-23.jpeg)
-
-![img-24.jpeg](images/img-24.jpeg)
-THE STATYLE. TEAPLE ACCORDING TO VERVIONS
-THE STATYLE OF THIS IN ASIA. AGREES.
-
-![img-25.jpeg](images/img-25.jpeg)
-THE TEAPLE AT TEGS IN ASIA. AGREES.
-
-7. The rule of this arrangement may be set forth as follows. If a tetrastyle is to be built, let the width of the front which shall have already been determined for the temple, be divided into eleven parts and a half, not including the substructures and the projections of the bases; if it is to be of six columns, into eighteen parts. If an octastyle is to be constructed, let the front be divided into twenty-four parts and a half. Then, whether the temple is to be tetrastyle, hexastyle, or octastyle, let one of these parts be taken, and it will be the module. The thickness of the columns will be equal to one module. Each of the intercolumnations, except those in the middle, will measure two modules and a quarter. The middle intercolumnations in front and in the rear will each measure three modules. The columns themselves will be nine modules and a half in height. As a result of this division, the intercolumnations and the heights of the columns will be in due proportion.
+7. The rule of this arrangement may be set forth as follows. If a tetrastyle is to be built, let the width of the front which shall have already been determined for the temple, be divided into eleven parts and a half, not including the substructures and the projections of the bases; if it is to be of six columns, into eighteen parts. If an octastyle is to be constructed, let the front be divided into twenty-four parts and a half. Then, whether the temple is to be tetrastyle, hexastyle, or octastyle, let one of these parts be taken, and it will be the module. The thickness of the columns will be equal to one module. Each of the intercolumniations, except those in the middle, will measure two modules and a quarter. The middle intercolumniations in front and in the rear will each measure three modules. The columns themselves will be nine modules and a half in height. As a result of this division, the intercolumniations and the heights of the columns will be in due proportion.
 
 8. We have no example of this in Rome, but at Teos in Asia Minor there is one which is hexastyle, dedicated to Father Bacchus.
 
 These rules for symmetry were established by Hermogenes, who was also the first to devise the principle of the pseudodipteral octastyle. He did so by dispensing with the inner rows of thirty-eight columns which belonged to the symmetry of the dipteral temple, and in this way he made a saving in expense and labour. He thus provided a much wider space for the walk round the cella between it and the columns, and without detracting at all from the general effect, or making one feel the loss of what had been really superfluous, he preserved the dignity of the whole work by his new treatment of it.
 
-9. For the idea of the pteroma and the arrangement of the columns round a temple were devised in order that the intercolumnations might give the imposing effect of high relief; and also, in case a multitude of people should be caught in a heavy shower and detained, that they might have in the temple and round the cella a wide free space in which to wait. These ideas are developed, as I have described, in the pseudodipteral arrangement of a temple. It appears, therefore, that Hermogenes produced results which exhibit much acute ingenuity, and that he left sources from which those who came after him could derive instructive principles.
+9. For the idea of the pteroma and the arrangement of the columns round a temple were devised in order that the intercolumniations might give the imposing effect of high relief; and also, in case a multitude of people should be caught in a heavy shower and detained, that they might have in the temple and round the cella a wide free space in which to wait. These ideas are developed, as I have described, in the pseudodipteral arrangement of a temple. It appears, therefore, that Hermogenes produced results which exhibit much acute ingenuity, and that he left sources from which those who came after him could derive instructive principles.
 
-![img-26.jpeg](images/img-26.jpeg)
-STRUCTURE RULES FOR THE DIAMETER AND HEIGHT OF COLUMNS IN THE DIFFERENT CLASSES OF TEAPLE COMPARED WITH ACTUAL FILMARLES
+10. In araeostyle temples, the columns should be constructed so that their thickness is one eighth part of their height. In the diastyle, the height of a column should be measured off into eight and a half parts, and the thickness of the column fixed at one of these parts. In the systyle, let the height be divided into nine and a half parts, and one of these given to the thickness of the column. In the pycnostyle, the height should be divided into ten parts, and one of these used for the thickness of the column. In the eustyle temple, let the height of a column be divided, as in the systyle, into nine and a half parts, and let one part be taken for the thickness at the bottom of the shaft. With these dimensions we shall be taking into account the proportions of the intercolumniations.
 
----
-
-10. In araeostyle temples, the columns should be constructed so that their thickness is one eighth part of their height. In the diastyle, the height of a column should be measured off into eight and a half parts, and the thickness of the column fixed at one of these parts. In the systyle, let the height be divided into nine and a half parts, and one of these given to the thickness of the column. In the pycnostyle, the height should be divided into ten parts, and one of these used for the thickness of the column. In the eustyle temple, let the height of a column be divided, as in the systyle, into nine and a half parts, and let one part be taken for the thickness at the bottom of the shaft. With these dimensions we shall be taking into account the proportions of the intercolumnations.
-
-11. For the thickness of the shafts must be enlarged in proportion to the increase of the distance between the columns. In the araeostyle, for instance, if only a ninth or tenth part is given to the thickness, the column will look thin and mean, because the width of the intercolumnations is such that the air seems to eat away and diminish the thickness of such shafts. On the other hand, in pycnostyles, if an eighth part is given to the thickness, it will make the shaft look swollen and ungraceful, because the intercolumnations are so close to each other and so narrow. We must therefore follow the rules of symmetry required by each kind of building. Then, too, the columns at the corners should be made thicker than the others by a fiftieth of their own diameter, because they are sharply outlined by the unobstructed air round them, and seem to the beholder more slender than they are. Hence, we must counteract the ocular deception by an adjustment of proportions.
-
-![img-27.jpeg](images/img-27.jpeg)
-THE DIMENSIONS OF THE CHINE IN RELATION TO THEIR DIMENSIONS OF HERCET
+11. For the thickness of the shafts must be enlarged in proportion to the increase of the distance between the columns. In the araeostyle, for instance, if only a ninth or tenth part is given to the thickness, the column will look thin and mean, because the width of the intercolumniations is such that the air seems to eat away and diminish the thickness of such shafts. On the other hand, in pycnostyles, if an eighth part is given to the thickness, it will make the shaft look swollen and ungraceful, because the intercolumniations are so close to each other and so narrow. We must therefore follow the rules of symmetry required by each kind of building. Then, too, the columns at the corners should be made thicker than the others by a fiftieth of their own diameter, because they are sharply outlined by the unobstructed air round them, and seem to the beholder more slender than they are. Hence, we must counteract the ocular deception by an adjustment of proportions.
 
 12. Moreover, the diminution in the top of a column at the necking seems to be regulated on the following principles: if a column is fifteen feet or under, let the thickness at the bottom be divided into six parts, and let five of those parts form the thickness at the top. If it is from fifteen feet to twenty feet, let the bottom of the shaft be divided into six and a half parts, and let five and a half of those parts be the upper thickness of the column. In a column of from twenty feet to thirty feet, let the bottom of the shaft be divided into seven parts, and let the diminished top measure six of these. A column of from thirty to forty feet should be divided at the bottom into seven and a half parts, and, on the principle of diminution, have six and a half of these at the top. Columns of from forty feet to fifty should be divided into eight parts, and diminish to seven of these at the top of the shaft under the capital. In the case of higher columns, let the diminution be determined proportionally, on the same principles.
 
-13. These proportionate enlargements are made in the thickness of columns on account of the different heights to which the eye has to climb. For the eye is always in search of beauty, and if we do not gratify its desire for pleasure by a proportionate enlargement in these measures, and thus make compensation for ocular deception, a clumsy and awkward appearance will be presented to the beholder. With regard to the enlargement made at the middle of columns, which among the Greeks is called ἐντικος, at the end of the book a figure and calculation will be subjoined, showing how an agreeable and appropriate effect may be produced by it.
+13. These proportionate enlargements are made in the thickness of columns on account of the different heights to which the eye has to climb. For the eye is always in search of beauty, and if we do not gratify its desire for pleasure by a proportionate enlargement in these measures, and thus make compensation for ocular deception, a clumsy and awkward appearance will be presented to the beholder. With regard to the enlargement made at the middle of columns, which among the Greeks is called ἑντασις, at the end of the book a figure and calculation will be subjoined, showing how an agreeable and appropriate effect may be produced by it.
 
----
-
-# CHAPTER IV
-
-# THE FOUNDATIONS AND SUBSTRUCTURES OF TEMPLES
+## Chapter IV. The Foundations and Substructures of Temples
 
 1. The foundations of these works should be dug out of the solid ground, if it can be found, and carried down into solid ground as far as the magnitude of the work shall seem to require, and the whole substructure should be as solid as it can possibly be laid. Above ground, let walls be laid under the columns, thicker by one half than the columns are to be, so that the lower may be stronger than the higher. Hence they are called "stereobates"; for they take the load. And the projections of the bases should not extend beyond this solid foundation. The wall-thickness is similarly to be preserved above ground likewise, and the intervals between these walls should be vaulted over, or filled with earth rammed down hard, to keep the walls well apart.
 
-![img-28.jpeg](images/img-28.jpeg)
-1.
-2.
-THE ENTASIS OF COLUMNS
-1. The entasis as given by Fra Giocondo in the edition of 1511.
-2. The entasis from the temple of Mars Ultor in Rome compared with Vignola's rule for entasis.
-
 2. If, however, solid ground cannot be found, but the place proves to be nothing but a heap of loose earth to the very bottom, or a marsh, then it must be dug up and cleared out and set with piles made of charred alder or olive wood or oak, and these must be driven down by machinery, very closely together like bridge-piles, and the intervals between them filled in with charcoal, and finally the foundations are to be laid on them in the most solid form of construction. The foundations having been brought up to the level, the stylobates are next to be put in place.
-3. The columns are then to be distributed over the stylobates in the manner above described: close together in the pycnostyle; in the systyle, diastyle, or eustyle, as they are described and arranged above. In araeostyle temples one is free to arrange them as far apart as one likes. Still, in peripterals, the columns should be so placed that there are twice as many intercolumnations on the sides as there are in front; for thus the length of the work will be twice its breadth. Those who make the number of columns double, seem to be in error, because then the length seems to be one intercolumnation longer than it ought to be.
+
+3. The columns are then to be distributed over the stylobates in the manner above described: close together in the pycnostyle; in the systyle, diastyle, or eustyle, as they are described and arranged above. In araeostyle temples one is free to arrange them as far apart as one likes. Still, in peripterals, the columns should be so placed that there are twice as many intercolumniations on the sides as there are in front; for thus the length of the work will be twice its breadth. Those who make the number of columns double, seem to be in error, because then the length seems to be one intercolumniation longer than it ought to be.
+
 4. The steps in front must be arranged so that there shall always be an odd number of them; for thus the right foot, with which one mounts the first step, will also be the first to reach the level of the temple itself. The rise of such steps should, I think, be limited to not more than ten nor less than nine inches; for then the ascent will not be difficult. The treads of the steps ought to be made not less than a foot and a half, and not more than two feet deep. If there are to be steps running all round the temple, they should be built of the same size.
+
 5. But if a podium is to be built on three sides round the temple, it should be so constructed that its plinths, bases, dies, coronae, and cymatiumare appropriate to the actual stylobate which is to be under the bases of the columns.
-
----
-
-![img-29.jpeg](images/img-29.jpeg)
-FRA GIOUNDO'S IDEA OF THE "SCAMILLI IMPARES"
-(From his edition of Vitruvius, Venice, 1511)
 
 The level of the stylobate must be increased along the middle by the scamilli impares; for if it is laid perfectly level, it will look to the eye as though it were hollowed a little. At the end of the book a figure will be found, with a description showing how the scamilli may be made to suit this purpose.
 
----
+## Chapter V. Proportions of the Base, Capitals, and Entablature in the Ionic Order
 
-# CHAPTER V
+1. This finished, let the bases of the columns be set in place, and constructed in such proportions that their height, including the plinth, may be half the thickness of a column, and their projection (called in Greek ἑκφορἁ) the same. Thus in both length and breadth it will be one and one half thicknesses of a column.
 
-# PROPORTIONS OF THE BASE, CAPITALS, AND ENTABLATURE IN THE IONIC ORDER
+2. If the base is to be in the Attic style, let its height be so divided that the upper part shall be one third part of the thickness of the column, and the rest left for the plinth. Then, excluding the plinth, let the rest be divided into four parts, and of these let one fourth constitute the upper torus, and let the other three be divided equally, one part composing the lower torus, and the other, with its fillets, the scotia, which the Greeks call τροχἱλος.
 
-1. This finished, let the bases of the columns be set in place, and constructed in such proportions that their height, including the plinth, may be half the thickness of a column, and their projection (called in Greek ἐκοροῦ) the same.[1] Thus in both length and breadth it will be one and one half thicknesses of a column.
-2. If the base is to be in the Attic style, let its height be so divided that the upper part shall be one third part of the thickness of the column, and the rest left for the plinth. Then, excluding the plinth, let the rest be divided into four parts, and of these let one fourth constitute the upper torus, and let the other three be divided equally, one part composing the lower torus, and the other, with its fillets, the scotia, which the Greeks call τροχίλος.
 3. But if Ionic bases are to be built, their proportions shall be so determined that the base may be each way equal in breadth to the thickness of a column plus three eighths of the thickness; its height that of the Attic base, and so too its plinth; excluding the plinth, let the rest, which will be a third part of the thickness of a column, be divided into seven parts. Three of these parts constitute the torus at the top, and the other four are to be divided equally, one part constituting the upper trochilus with its astragals and overhang, the other left for the lower trochilus. But the lower will seem to be larger, because it will project to the edge of the plinth. The astragals must be one eighth of the trochilus. The projection of the base will be three sixteenths of the thickness of a column.
-
-![img-30.jpeg](images/img-30.jpeg)
-THE IONIC ORDER ACCORDING TO VITRIVUS COMPARED WITH THE ORDER OF THE MAGNOLISM AT HALICARNADIUS The difference between the Roman and the Greek relation of the baluster-side of the capital to the echinus is to be noted.
-
----
 
 4. The bases being thus finished and put in place, the columns are to be put in place: the middle columns of the front and rear porticoes perpendicular to their own centre; the corner columns, and those which are to extend in a line from them along the sides of the temple to the right and left, are to be set so that their inner sides, which face toward the cella wall, are perpendicular, but their outer sides in the manner which I have described in speaking of their diminution. Thus, in the design of the temple the lines will be adjusted with due regard to the diminution.
 
@@ -1053,7 +452,7 @@ THE IONIC ORDER ACCORDING TO VITRIVUS COMPARED WITH THE ORDER OF THE MAGNOLISM A
 
 6. Then let another line be drawn, beginning at a point situated at a distance of one and a half parts toward the inside from the line previously let fall down along the edge of the abacus. Next, let these lines be divided in such a way as to leave four and a half parts under the abacus; then, at the point which forms the division between the four and a half parts and the remaining three and a half, fix the centre of the eye, and from that centre describe a circle with a diameter equal to one of the eight parts. This will be the size of the eye, and in it draw a diameter on the line of the "cathetus." Then, in describing the quadrants, let the size of each be successively less, by half the diameter of the eye, than that which begins under the abacus, and proceed from the eye until that same quadrant under the abacus is reached.
 
-7. The height of the capital is to be such that, of the nine and a half parts, three parts are below the level of the astragal at the top of the shaft, and the rest, omitting the abacus and the channel, belongs to its echinus. The projection of the echinus beyond the fillet of the abacus should be equal to the size of the eye. The projection of the bands of the cushions should be thus obtained: place one leg of a pair of compasses in the centre of the capital and open out the other to the edge of the echinus; bring this leg round and it will touch the outer edge of the bands. The axes of the volutes should not be thicker than the size of the eye, and the volutes themselves should be channelled out to a depth which is one twelfth of their height. These will be the symmetrical proportions for capitals of columns twenty-five feet high and less. For higher columns the other proportions will be the same, but the length and breadth of the abacus will be the thickness of the lower diameter of a column plus one ninth part thereof; thus, just as the higher the column the less the diminution, so the projection of its capital is proportionately increased and its breadth[2] is correspondingly enlarged.
+7. The height of the capital is to be such that, of the nine and a half parts, three parts are below the level of the astragal at the top of the shaft, and the rest, omitting the abacus and the channel, belongs to its echinus. The projection of the echinus beyond the fillet of the abacus should be equal to the size of the eye. The projection of the bands of the cushions should be thus obtained: place one leg of a pair of compasses in the centre of the capital and open out the other to the edge of the echinus; bring this leg round and it will touch the outer edge of the bands. The axes of the volutes should not be thicker than the size of the eye, and the volutes themselves should be channelled out to a depth which is one twelfth of their height. These will be the symmetrical proportions for capitals of columns twenty-five feet high and less. For higher columns the other proportions will be the same, but the length and breadth of the abacus will be the thickness of the lower diameter of a column plus one ninth part thereof; thus, just as the higher the column the less the diminution, so the projection of its capital is proportionately increased and its breadth is correspondingly enlarged.
 
 8. With regard to the method of describing volutes, at the end of the book a figure will be subjoined and a calculation showing how they may be described so that their spirals may be true to the compass.
 
@@ -1063,46 +462,29 @@ The capitals having been finished and set up in due proportion to the columns (n
 
 10. The cymatium of the architrave should be one seventh of the height of the whole architrave, and its projection the same. Omitting the cymatium, the rest of the architrave is to be divided into twelve parts, and three of these will form the lowest fascia, four, the next, and five, the highest fascia. The frieze, above the architrave, is one fourth less high than the architrave, but if there are to be reliefs upon it, it is one fourth higher than the architrave, so that the sculptures may be more imposing. Its cymatium is one seventh of the whole height of the frieze, and the projection of the cymatium is the same as its height.
 
-11. Over the frieze comes the line of dentils, made of the same height as the middle fascia of the architrave and with a projection equal to their height. The intersection (or in Greek μετόπη) is apportioned so that the face of each dentil is half as wide as its height and the cavity of each intersection two thirds of this face in width. The cymatium here is one sixth of the whole height of this part. The corona with its cymatium, but not including the sima, has the height of the middle fascia of the architrave, and the total projection of the corona and dentils should be equal to the height from the frieze to the cymatium at the top of the corona.
-
-
-
----
-
-![img-31.jpeg](images/img-31.jpeg)
-A COMPARISON OF THE RINIC ORDER ACCORDING TO VITRUVICH WITH ACTUAL EXAMPLES AND WITH VIGNOLA'S ORDER
-A: Showing the orders reduced to equal lower diameters. B: Showing the orders to a uniform scale.
+11. Over the frieze comes the line of dentils, made of the same height as the middle fascia of the architrave and with a projection equal to their height. The intersection (or in Greek μετὁπη) is apportioned so that the face of each dentil is half as wide as its height and the cavity of each intersection two thirds of this face in width. The cymatium here is one sixth of the whole height of this part. The corona with its cymatium, but not including the sima, has the height of the middle fascia of the architrave, and the total projection of the corona and dentils should be equal to the height from the frieze to the cymatium at the top of the corona.
 
 And as a general rule, all projecting parts have greater beauty when their projection is equal to their height.
 
-12. The height of the tympanum, which is in the pediment, is to be obtained thus: let the front of the corona, from the two ends of its cymatium, be measured off into nine parts, and let one of these parts be set up in the middle at the peak of the tympanum, taking care that it is perpendicular to the entablature and the neckings of the columns. The coronae over the tympanum are to be made of equal size with the coronae under it, not including the simae. Above the coronae are the simae (in Greek ἐπιωτίδες), which should be made one eighth higher than the height of the coronae. The acroteria at the corners have the height of the centre of the tympanum, and those in the middle are one eighth part higher than those at the corners.
-13. All the members which are to be above the capitals of the columns, that is, architraves, friezes, coronae, tympana, gables, and acroteria, should be inclined to the front a twelfth part of their own height, for the reason that when we stand in front of them, if two lines are drawn from the eye, one reaching to the bottom of the building and the other to the top, that which reaches to the top will be the longer. Hence, as the line of sight to the upper part is the longer, it makes that part look as if it were leaning back. But when the members are inclined to the front, as described above, they will seem to the beholder to be plumb and perpendicular.
-14. Each column should have twenty-four flutes, channelled out in such a way that if a carpenter's square be placed in the hollow of a flute and turned, the arm will touch the corners of the fillets on the right and left, and the tip of the square may keep touching some point in the concave surface as it moves through it. The breadth of the flutes is to be equivalent to the enlargement in the middle of a column, which will be found in the figure.
-15. In the simae which are over the coronae on the sides of the temple, lion's heads are to be carved and arranged at intervals thus: First one head is marked out directly over the axis of each column, and then the others are arranged at equal distances apart, and so that there shall be one at the middle of every roof-tiling. Those that are over the columns should have holes bored through them to the gutter which receives the rainwater from the tiles, but those between them should be solid. Thus the mass of water that falls by way of the tiles into the gutter will not be thrown down along the intercolumniations nor drench people who are passing through them, while the lion's heads that are over the columns will appear to be vomiting as they discharge streams of water from their mouths.
+12. The height of the tympanum, which is in the pediment, is to be obtained thus: let the front of the corona, from the two ends of its cymatium, be measured off into nine parts, and let one of these parts be set up in the middle at the peak of the tympanum, taking care that it is perpendicular to the entablature and the neckings of the columns. The coronae over the tympanum are to be made of equal size with the coronae under it, not including the simae. Above the coronae are the simae (in Greek ἑπαιετἱδες), which should be made one eighth higher than the height of the coronae. The acroteria at the corners have the height of the centre of the tympanum, and those in the middle are one eighth part higher than those at the corners.
 
----
+13. All the members which are to be above the capitals of the columns, that is, architraves, friezes, coronae, tympana, gables, and acroteria, should be inclined to the front a twelfth part of their own height, for the reason that when we stand in front of them, if two lines are drawn from the eye, one reaching to the bottom of the building and the other to the top, that which reaches to the top will be the longer. Hence, as the line of sight to the upper part is the longer, it makes that part look as if it were leaning back. But when the members are inclined to the front, as described above, they will seem to the beholder to be plumb and perpendicular.
+
+14. Each column should have twenty-four flutes, channelled out in such a way that if a carpenter's square be placed in the hollow of a flute and turned, the arm will touch the corners of the fillets on the right and left, and the tip of the square may keep touching some point in the concave surface as it moves through it. The breadth of the flutes is to be equivalent to the enlargement in the middle of a column, which will be found in the figure.
+
+15. In the simae which are over the coronae on the sides of the temple, lion's heads are to be carved and arranged at intervals thus: First one head is marked out directly over the axis of each column, and then the others are arranged at equal distances apart, and so that there shall be one at the middle of every roof-tiling. Those that are over the columns should have holes bored through them to the gutter which receives the rainwater from the tiles, but those between them should be solid. Thus the mass of water that falls by way of the tiles into the gutter will not be thrown down along the intercolumniations nor drench people who are passing through them, while the lion's heads that are over the columns will appear to be vomiting as they discharge streams of water from their mouths.
 
 In this book I have written as clearly as I could on the arrangements of Ionic temples. In the next I shall explain the proportions of Doric and Corinthian temples.
 
+# BOOK IV
 
-
----
-
-
-
----
-
-# INTRODUCTION
+## Introduction
 
 1. I have observed, Emperor, that many in their treatises and volumes of commentaries on architecture have not presented the subject with well-ordered completeness, but have merely made a beginning and left, as it were, only desultory fragments. I have therefore thought that it would be a worthy and very useful thing to reduce the whole of this great art to a complete and orderly form of presentation, and then in different books to lay down and explain the required characteristics of different departments. Hence, Caesar, in my first book I have set forth to you the function of the architect and the things in which he ought to be trained. In the second I have discussed the supplies of material of which buildings are constructed. In the third, which deals with the arrangements of temples and their variety of form, I showed the nature and number of their classes, with the adjustments proper to each form according to the usage of the Ionic order, one of the three which exhibit the greatest delicacy of proportion in their symmetrical measurements. In the present book I shall speak of the established rules for the Doric and Corinthian orders, and shall explain their differences and peculiarities.
 
+## Chapter I
 
-
----
-
-# CHAPTER I
-
-## THE ORIGINS OF THE THREE ORDERS, AND THE PROPORTIONS OF THE CORINTHIAN CAPITAL
+THE ORIGINS OF THE THREE ORDERS, AND THE PROPORTIONS OF THE CORINTHIAN CAPITAL
 
 1. Corinthian columns are, excepting in their capitals, of the same proportions in all respects as Ionic; but the height of their capitals gives them proportionately a taller and more slender effect. This is because the height of the Ionic capital is only one third of the thickness of the column, while that of the Corinthian is the entire thickness of the shaft. Hence, as two thirds are added in Corinthian capitals, their tallness gives a more slender appearance to the columns themselves.
 
@@ -1122,34 +504,17 @@ In this book I have written as clearly as I could on the arrangements of Ionic t
 
 The third order, called Corinthian, is an imitation of the slenderness of a maiden; for the outlines and limbs of maidens, being more slender on account of their tender years, admit of prettier effects in the way of adornment.
 
-9. It is related that the original discovery of this form of capital was as follows. A free-born maiden of Corinth, just of marriageable age, was attacked by an illness and passed away. After her burial, her nurse, collecting a few little things which used to give the girl pleasure while she was alive, put them in a basket, carried it to the tomb, and laid it on top thereof, covering it with a roof-tile so that the things might last longer in the open air. This basket happened to be placed just above the root of an acanthus. The acanthus root, pressed down meanwhile though it was by the weight, when springtime came round put forth leaves and stalks
+9. It is related that the original discovery of this form of capital was as follows. A free-born maiden of Corinth, just of marriageable age, was attacked by an illness and passed away. After her burial, her nurse, collecting a few little things which used to give the girl pleasure while she was alive, put them in a basket, carried it to the tomb, and laid it on top thereof, covering it with a roof-tile so that the things might last longer in the open air. This basket happened to be placed just above the root of an acanthus. The acanthus root, pressed down meanwhile though it was by the weight, when springtime came round put forth leaves and stalks in the middle, and the stalks, growing up along the sides of the basket, and pressed out by the corners of the tile through the compulsion of its weight, were forced to bend into volutes at the outer edges.
 
+10. Just then Callimachus, whom the Athenians called κατατηξἱτεχνος for the refinement and delicacy of his artistic work, passed by this tomb and observed the basket with the tender young leaves growing round it. Delighted with the novel style and form, he built some columns after that pattern for the Corinthians, determined their symmetrical proportions, and established from that time forth the rules to be followed in finished works of the Corinthian order.
 
-
----
-
-in the middle, and the stalks, growing up along the sides of the basket, and pressed out by the corners of the tile through the compulsion of its weight, were forced to bend into volutes at the outer edges.
-
-![img-32.jpeg](images/img-32.jpeg)
-Photo. Sommer
-THE BASILICA AT JOMPER
-
----
-
-![img-33.jpeg](images/img-33.jpeg)
-THE CORINTHIAN CAPITAL OF VITRUVISIS COMPARED WITH THE MONUMENTS
-
-10. Just then Callimachus, whom the Athenians called κατατηξίτεχνος for the refinement and delicacy of his artistic work, passed by this tomb and observed the basket with the tender young leaves growing round it. Delighted with the novel style and form, he built some columns after that pattern for the Corinthians, determined their symmetrical proportions, and established from that time forth the rules to be followed in finished works of the Corinthian order.
 11. The proportions of this capital should be fixed as follows. Let the height of the capital, including its abacus, be equivalent to the thickness of the base of a column. Let the breadth of the abacus be proportioned so that diagonals drawn from one corner of it to the other shall be twice the height of the capitals, which will give the proper breadth to each face of the abacus. The faces should curve inwards, by one ninth of the breadth of the face, from the outside edge of the corners of the abacus. At the bottom the capital should be of the thickness of the top of the column omitting the congé and astragal. The height of the abacus is one seventh of the height of the capital.
+
 12. Omitting the height of the abacus, let the rest be divided into three parts, of which one should be given to the lowest leaf. Let the second leaf occupy the middle part of the height. Of the same height should be the stalks, out of which grow leaves projected so as to support the volutes which proceed from the stalks, and run out to the utmost corners of the abacus; the smaller spirals between them should be carved just under the flower which is on the abacus. The flowers on the four sides are to be made as large as the height of the abacus. On these principles of proportion, Corinthian capitals will be finished as they ought to be.
 
 There are other kinds of capitals set upon these same columns and called by various names, but they have no peculiarities of proportion of which we can speak, nor can we recognize from them another order of columns. Even their very names are, as we can see, derived with some changes from the Corinthian, the cushion-shaped, and the Doric, whose symmetrical proportions have been thus transferred to delicate sculptures of novel form.
 
----
-
-# CHAPTER II
-
-## THE ORNAMENTS OF THE ORDERS
+## Chapter II. The Ornaments of the Orders
 
 1. Since the origin and invention of the orders of columns have been described above, I think it not out of place to speak in the same way about their ornaments, showing how these arose and from what original elements they were devised. The upper parts of all buildings contain timber work to which various terms are applied. And not only in its terminology but actually in its uses it exhibits variety. The main beams are those which are laid upon columns, pilasters, and antae; tie-beams and rafters are found in the framing. Under the roof, if the span is pretty large, are the crossbeams and struts; if it is of moderate extent, only the ridgepole, with the principal rafters extending to the outer edge of the eaves. Over the principal rafters are the purlines, and then above these and under the roof-tiles come the common rafters, extending so far that the walls are covered by their projection.
 
@@ -1157,32 +522,25 @@ There are other kinds of capitals set upon these same columns and called by vari
 
 3. Later, others in other buildings allowed the projecting principal rafters to run out till they were flush with the triglyphs, and then formed their projections into simae. From that practice, like the triglyphs from the arrangement of the tie-beams, the system of mutules under the coronae was devised from the projections of the principal rafters. Hence generally, in buildings of stone and marble, the mutules are carved with a downward slant, in imitation of the principal rafters. For these necessarily have a slanting and projecting position to let the water drip down. The scheme of triglyphs and mutules in Doric buildings was, therefore, the imitative device that I have described.
 
-4. It cannot be that the triglyphs represent windows, as some have erroneously said, since the triglyphs are placed at the corners and over the middle of columns—places where, from the nature of the case, there can be no windows at all. For buildings are wholly disconnected at the corners if openings for windows are left at those points. Again, if we are to suppose that there were open windows where the triglyphs now stand, it will follow, on the same principle, that the dentils of the Ionic order have likewise taken the places of windows. For the term "metope" is used of the intervals between dentils as well as of those between triglyphs. The Greeks call the seats of tie-beams and rafters ὄπαι, while our people call these cavities columbaria (dovecotes). Hence, the space between the tie-beams, being the space between two "opae," was named by them μετόπη.
+4. It cannot be that the triglyphs represent windows, as some have erroneously said, since the triglyphs are placed at the corners and over the middle of columns—places where, from the nature of the case, there can be no windows at all. For buildings are wholly disconnected at the corners if openings for windows are left at those points. Again, if we are to suppose that there were open windows where the triglyphs now stand, it will follow, on the same principle, that the dentils of the Ionic order have likewise taken the places of windows. For the term "metope" is used of the intervals between dentils as well as of those between triglyphs. The Greeks call the seats of tie-beams and rafters ὁπαἱ, while our people call these cavities columbaria (dovecotes). Hence, the space between the tie-beams, being the space between two "opae," was named by them μετὁπη.
 
 5. The system of triglyphs and mutules was invented for the Doric order, and similarly the scheme of dentils belongs to the Ionic, in which there are proper grounds for its use in buildings. Just as mutules represent the projection of the principal rafters, so dentils in the Ionic are an imitation of the projections of the common rafters. And so in Greek works nobody ever put dentils under mutules, as it is impossible that common rafters should be underneath principal rafters. Therefore, if that which in the original must be placed above the principal rafters, is put in the copy below them, the result will be a work constructed on false principles. Neither did the ancients approve of or employ mutules or dentils in pediments, but only plain coronae, for the reason that neither principal nor common rafters tail into the fronts of pediments, nor can they overhang them, but they are laid with a slope towards the eaves. Hence the ancients held that what could not happen in the original would have no valid reason for existence in the copy.
 
 6. For in all their works they proceeded on definite principles of fitness and in ways derived from the truth of Nature. Thus they reached perfection, approving only those things which, if challenged, can be explained on grounds of the truth. Hence, from the sources which have been described they established and left us the rules of symmetry and proportion for each order. Following in their steps, I have spoken above on the Ionic and Corinthian styles, and I shall now briefly explain the theory of the Doric and its general appearance.
 
----
-
-# CHAPTER III
-
-# PROPORTIONS OF DORIC TEMPLES
+## Chapter III. Proportions of Doric Temples
 
 1. Some of the ancient architects said that the Doric order ought not to be used for temples, because faults and incongruities were caused by the laws of its symmetry. Arcesius and Pytheos said so, as well as Hermogenes. He, for instance, after getting together a supply of marble for the construction of a Doric temple, changed his mind and built an Ionic temple to Father Bacchus with the same materials. This is not because it is unlovely in appearance or origin or dignity of form, but because the arrangement of the triglyphs and metopes (lacunaria) is an embarrassment and inconvenience to the work.
-2. For the triglyphs ought to be placed so as to correspond to the centres of the columns, and the metopes between the triglyphs ought to be as broad as they are high. But in violation of this rule, at the corner columns triglyphs are placed at the outside edges and not corresponding to the centre of the columns. Hence the metopes next to the corner columns do not come out perfectly square, but are too broad by half the width of a triglyph. Those who would make the metopes all alike, make the outermost intercolumnations narrower by half the width of a triglyph. But the result is faulty, whether it is attained by broader metopes or narrower intercolumnations. For this reason, the ancients appear to have avoided the scheme of the Doric order in their temples.
+
+2. For the triglyphs ought to be placed so as to correspond to the centres of the columns, and the metopes between the triglyphs ought to be as broad as they are high. But in violation of this rule, at the corner columns triglyphs are placed at the outside edges and not corresponding to the centre of the columns. Hence the metopes next to the corner columns do not come out perfectly square, but are too broad by half the width of a triglyph. Those who would make the metopes all alike, make the outermost intercolumniations narrower by half the width of a triglyph. But the result is faulty, whether it is attained by broader metopes or narrower intercolumniations. For this reason, the ancients appear to have avoided the scheme of the Doric order in their temples.
+
 3. However, since our plan calls for it, we set it forth as we have received it from our teachers, so that if anybody cares to set to work with attention to these laws, he may find the proportions stated by which he can construct correct and faultless examples of temples in the Doric fashion.
 
-Let the front of a Doric temple, at the place where the columns are put up, be divided, if it is to be tetrastyle, into twenty-seven parts; if hexastyle, into forty-two. One of these parts will be the module (in Greek ἐμβάτς); and this module once fixed, all the parts of the work are adjusted by means of calculations based upon it.
+Let the front of a Doric temple, at the place where the columns are put up, be divided, if it is to be tetrastyle, into twenty-seven parts; if hexastyle, into forty-two. One of these parts will be the module (in Greek ἑμβἁτϛ); and this module once fixed, all the parts of the work are adjusted by means of calculations based upon it.
 
-4. The thickness of the columns will be two modules, and their height, including the capitals, fourteen. The height of a capital will be one module, and its breadth two and one sixth modules. Let the height of the capital be divided into three parts, of which one will form the abacus with its cymatium, the second the echinus with its annulets, and the third the necking. The diminution of the column should be the same as described for Ionic columns in the third book. The height of the architrave, including taenia and guttae, is one module, and of the taenia, one seventh of a module. The guttae, extending as wide as the triglyphs and beneath the taenia, should hang down for one sixth of a module, including their regula. The depth of the architrave on its under side should answer to the necking at the top of the column. Above the architrave, the triglyphs and metopes are to be placed: the triglyphs one and one half modules high, and one module wide in front. They are to be arranged so that one is placed to correspond to the centre of each corner and intermediate column, and two over each intercolumnation except the middle intercolumnations of the front and rear porticoes, which have three each. The intervals in the middle being thus extended, a free passage will be afforded to those who would approach the statues of the gods.
+4. The thickness of the columns will be two modules, and their height, including the capitals, fourteen. The height of a capital will be one module, and its breadth two and one sixth modules. Let the height of the capital be divided into three parts, of which one will form the abacus with its cymatium, the second the echinus with its annulets, and the third the necking. The diminution of the column should be the same as described for Ionic columns in the third book. The height of the architrave, including taenia and guttae, is one module, and of the taenia, one seventh of a module. The guttae, extending as wide as the triglyphs and beneath the taenia, should hang down for one sixth of a module, including their regula. The depth of the architrave on its under side should answer to the necking at the top of the column. Above the architrave, the triglyphs and metopes are to be placed: the triglyphs one and one half modules high, and one module wide in front. They are to be arranged so that one is placed to correspond to the centre of each corner and intermediate column, and two over each intercolumniation except the middle intercolumniations of the front and rear porticoes, which have three each. The intervals in the middle being thus extended, a free passage will be afforded to those who would approach the statues of the gods.
 
-![img-34.jpeg](images/img-34.jpeg)
-VITRUVITA DORIC ORDER COMPARED WITH THE TEMPLE AT CORI AND THE DORIC ORDER OF THE THEATRE OF MARCELLUS
-
----
-
-5. The width of the triglyph should be divided into six parts, and five of these marked off in the middle by means of the rule, and two half parts at the right and left. Let one part, that in the centre, form a "femur" (in Greek μηρός). On each side of it are the channels, to be cut in to fit the tip of a carpenter's square, and in succession the other femora, one at the right and the other at the left of a channel. To the outsides are relegated the semichannels. The triglyphs having been thus arranged, let the metopes between the triglyphs be as high as they are wide, while at the outer corners there should be semimetopes inserted, with the width of half a module.
+5. The width of the triglyph should be divided into six parts, and five of these marked off in the middle by means of the rule, and two half parts at the right and left. Let one part, that in the centre, form a "femur" (in Greek μηρὁς). On each side of it are the channels, to be cut in to fit the tip of a carpenter's square, and in succession the other femora, one at the right and the other at the left of a channel. To the outsides are relegated the semichannels. The triglyphs having been thus arranged, let the metopes between the triglyphs be as high as they are wide, while at the outer corners there should be semimetopes inserted, with the width of half a module.
 
 In these ways all defects will be corrected, whether in metopes or intercolumniations or lacunaria, as all the arrangements have been made with uniformity.
 
@@ -1190,7 +548,7 @@ In these ways all defects will be corrected, whether in metopes or intercolumnia
 
 7. Such will be the scheme established for diastyle buildings. But if the building is to be systyle and monotriglyphic, let the front of the temple, if tetrastyle, be divided into nineteen and a half parts; if hexastyle, into twenty-nine and a half parts. One of these parts will form the module in accordance with which the adjustments are to be made as above described.
 
-8. Thus, over each portion of the architrave two metopes and two triglyphs[3] will be placed; and, in addition, at the corners half a triglyph and besides a space large enough for a half triglyph. At the centre, vertically under the gable, there should be room for three triglyphs and three metopes, in order that the centre intercolumniation, by its greater width, may give ample room for people to enter the temple, and may lend an imposing effect to the view of the statues of the gods.
+8. Thus, over each portion of the architrave two metopes and two triglyphs will be placed; and, in addition, at the corners half a triglyph and besides a space large enough for a half triglyph. At the centre, vertically under the gable, there should be room for three triglyphs and three metopes, in order that the centre intercolumniation, by its greater width, may give ample room for people to enter the temple, and may lend an imposing effect to the view of the statues of the gods.
 
 9. The columns should be fluted with twenty flutes. If these are to be left plane, only the twenty angles need be marked off. But if they are to be channelled out, the contour of the channelling may be determined thus: draw a square with sides equal in length to the breadth of the fluting, and centre a pair of compasses in the middle of this square. Then describe a circle with a circumference touching the angles of the square, and let the channellings have the contour of the segment formed by the circumference and the side of the square. The fluting of the Doric column will thus be finished in the style appropriate to it.
 
@@ -1198,45 +556,27 @@ In these ways all defects will be corrected, whether in metopes or intercolumnia
 
 Since the external appearance of the Corinthian, Doric, and Ionic proportions has now been described, it is necessary next to explain the arrangements of the cella and the pronaos.
 
----
+## Chapter IV. The Cella and Pronaos
 
-# CHAPTER IV
+1. The length of a temple is adjusted so that its width may be half its length, and the actual cella one fourth greater in length than in width, including the wall in which the folding doors are placed. Let the remaining three parts, constituting the pronaos, extend to the antae terminating the walls, which antae ought to be of the same thickness as the columns. If the temple is to be more than twenty feet in width, let two columns be placed between the two antae, to separate the pteroma from the pronaos. The three intercolumniations between the antae and the columns should be closed by low walls made of marble or of joiner's work, with doors in them to afford passages into the pronaos.
 
-# THE CELLA AND PRONAOS
-
-1. The length of a temple is adjusted so that its width may be half its length, and the actual cella one fourth greater in length than in width, including the wall in which the folding doors are placed. Let the remaining three parts, constituting the pronaos, extend to the antae terminating the walls, which antae ought to be of the same thickness as the columns. If the temple is to be more than twenty feet in width, let two columns be placed between the two antae, to separate the pteroma from the pronaos. The three intercolumnations between the antae and the columns should be closed by low walls made of marble or of joiner's work, with doors in them to afford passages into the pronaos.
 2. If the width is to be more than forty feet, let columns be placed inside and opposite to the columns between the antae. They should have the same height as the columns in front of them, but their thickness should be proportionately reduced: thus, if the columns in front are in thickness one eighth of their height, these should be one tenth; if the former are one ninth or one tenth, these should be reduced in the same proportion. For their reduction will not be discernible, as the air has not free play about them. Still, in case they look too slender, when the outer columns have twenty or twenty-four flutes, these may have twenty-eight or thirty-two. Thus the additional number of flutes will make up proportionately for the loss in the body of the shaft, preventing it from being seen, and so in a different way the columns will be made to look equally thick.
-
-![img-35.jpeg](images/img-35.jpeg)
-VITRUNUS' TEMPLE PLAN COMPARED WITH ACTUAL EXAMPLES
-
----
 
 3. The reason for this result is that the eye, touching thus upon a greater number of points, set closer together, has a larger compass to cover with its range of vision. For if two columns, equally thick but one unfluted and the other fluted, are measured by drawing lines round them, one line touching the body of the columns in the hollows of the channels and on the edges of the flutes, these surrounding lines, even though the columns are equally thick, will not be equal to each other, because it takes a line of greater length to compass the channels and the flutes. This being granted, it is not improper, in narrow quarters or where the space is enclosed, to use in a building columns of somewhat slender proportions, since we can help out by a duly proportionate number of flutings.
 
 4. The walls of the cella itself should be thick in proportion to its size, provided that their antae are kept of the same thickness as the columns. If the walls are to be of masonry, let the rubble used be as small as possible; but if they are to be of dimension stone or marble, the material ought to be of a very moderate and uniform size; for the laying of the stones so as to break joints will make the whole work stronger, and their bevelled edges, standing up about the builds and beds, will give it an agreeable look, somewhat like that of a picture.
 
-
-
----
-
-# CHAPTER V
-
-## HOW THE TEMPLE SHOULD FACE
+## Chapter V. How the Temple Should Face
 
 1. The quarter toward which temples of the immortal gods ought to face is to be determined on the principle that, if there is no reason to hinder and the choice is free, the temple and the statue placed in the cella should face the western quarter of the sky. This will enable those who approach the altar with offerings or sacrifices to face the direction of the sunrise in facing the statue in the temple, and thus those who are undertaking vows look toward the quarter from which the sun comes forth, and likewise the statues themselves appear to be coming forth out of the east to look upon them as they pray and sacrifice.
 
 2. But if the nature of the site is such as to forbid this, then the principle of determining the quarter should be changed, so that the widest possible view of the city may be had from the sanctuaries of the gods. Furthermore, temples that are to be built beside rivers, as in Egypt on both sides of the Nile, ought, as it seems, to face the river banks. Similarly, houses of the gods on the sides of public roads should be arranged so that the passers-by can have a view of them and pay their devotions face to face.
 
----
-
-# CHAPTER VI
-
-## THE DOORWAYS OF TEMPLES
+## Chapter VI. The Doorways of Temples
 
 1. For the doorways of temples and their casings the rules are as follows, first determining of what style they are to be. The styles of portals are Doric, Ionic, and Attic.
 
-In the Doric, the symmetrical proportions are distinguished by the following rules. Let the top of the corona, which is laid above the casing, be on a level with the tops of the capitals of the columns in the pronaos. The aperture of the doorway should be determined by dividing the height of the temple, from floor to coffered ceiling, into three and one half parts and letting two and one half[4] thereof constitute the height of the aperture of the folding doors. Let this in turn be divided into twelve parts, and let five and a half of these form the width of the bottom of the aperture. At the top, this width should be diminished, if the aperture is sixteen feet in height, by one third the width of the door-jamb; if the aperture is from sixteen to twenty-five feet, let the upper part of it be diminished by one quarter of the jamb; if from twenty-five to thirty feet, let the top be diminished by one eighth of the jamb. Other and higher apertures should, as it seems, have their sides perpendicular.
+In the Doric, the symmetrical proportions are distinguished by the following rules. Let the top of the corona, which is laid above the casing, be on a level with the tops of the capitals of the columns in the pronaos. The aperture of the doorway should be determined by dividing the height of the temple, from floor to coffered ceiling, into three and one half parts and letting two and one half thereof constitute the height of the aperture of the folding doors. Let this in turn be divided into twelve parts, and let five and a half of these form the width of the bottom of the aperture. At the top, this width should be diminished, if the aperture is sixteen feet in height, by one third the width of the door-jamb; if the aperture is from sixteen to twenty-five feet, let the upper part of it be diminished by one quarter of the jamb; if from twenty-five to thirty feet, let the top be diminished by one eighth of the jamb. Other and higher apertures should, as it seems, have their sides perpendicular.
 
 2. Further, the jambs themselves should be diminished at the top by one fourteenth of their width. The height of the lintel should be equivalent to the width of the jambs at the top. Its cymatium ought to be one sixth of the jamb, with a projection equivalent to its height. The style of carving of the cymatium with its astragal should be the Lesbian. Above the cymatium of the lintel, place the frieze of the doorway, of the same height as the lintel, and having a Doric cymatium and Lesbian astragal carved upon it. Let the corona and its cymatium at the top of all be carved without ornamentation, and have a projection equal to its height. To the right and left of the lintel, which rests upon the jambs, there are to be projections fashioned like projecting bases and jointed to a nicety with the cymatium itself.
 
@@ -1248,95 +588,47 @@ Doors should be constructed with the hinge-stiles one twelfth of the width of th
 
 5. The rails will be apportioned thus: divide the height into five parts, of which assign two to the upper portion and three to the lower; above the centre place the middle rails; insert the others at the top and at the bottom. Let the height of a rail be one third of the breadth of a panel, and its cymatium one sixth of the rail. The width of the meeting-stiles should be one half the rail, and the cover-joint two thirds of the rail. The stiles toward the side of the jambs should be one half the rail. If the doors have folds in them, the height will remain as before, but the width should be double that of a single door; if the door is to have four folds, its height should be increased.
 
----
-
-![img-36.jpeg](images/img-36.jpeg)
-VERUVIUS' RULE FOR DOORWAYS COMPARED WITH TWO EXAMPLES
-
-6. Attic doorways are built with the same proportions as Doric. Besides, there are fasciae running all round under the cymatia on the jambs, and apportioned so as to be equal to three sevenths of a jamb, excluding the cymatium. The doors are without lattice-work, are not double but have folds in them, and open outward.
+6. Attic doorways are built with the same proportions as Doric. Besides, there are fasciae running all round under the cymatia on the jambs, and apportioned so as to be equal to three sevenths of a jamb, excluding the cymatium. The doors are without latticework, are not double but have folds in them, and open outward.
 
 The laws which should govern the design of temples built in the Doric, Ionic, and Corinthian styles, have now, so far as I could arrive at them, been set forth according to what may be called the accepted methods. I shall next speak of the arrangements in the Tuscan style, showing how they should be treated.
 
----
-
-# CHAPTER VII
-
-# TUSCAN TEMPLES
+## Chapter VII. Tuscan Temples
 
 1. The place where the temple is to be built having been divided on its length into six parts, deduct one and let the rest be given to its width. Then let the length be divided into two equal parts, of which let the inner be reserved as space for the cellae, and the part next the front left for the arrangement of the columns.
+
 2. Next let the width be divided into ten parts. Of these, let three on the right and three on the left be given to the smaller cellae, or to the alae if there are to be alae, and the other four devoted to the middle of the temple. Let the space in front of the cellae, in the pronaos, be marked out for columns thus: the corner columns should be placed opposite the antae on the line of the outside walls; the two middle columns, set out on the line of the walls which are between the antae and the middle of the temple; and through the middle, between the antae and the front columns, a second row, arranged on the same lines. Let the thickness of the columns at the bottom be one seventh of their height, their height one third of the width of the temple, and the diminution of a column at the top, one fourth of its thickness at the bottom.
 
-![img-37.jpeg](images/img-37.jpeg)
-THE TUSCAN TEMPLE ACCORDING TO VITRUVUS.
-
-3. The height of their bases should be one half of that thickness. The plinth of their bases should be circular, and in height one half the height of the bases, the torus above it and conge being of the same height as the plinth. The height of the capital is one half the thickness of a column. The abacus has a width equivalent to the thickness of the bottom of a column. Let the height of the
-
----
-
-capital be divided into three parts, and give one to the plinth (that is, the abacus), the second to the echinus, and the third to the necking with its congé.
+3. The height of their bases should be one half of that thickness. The plinth of their bases should be circular, and in height one half the height of the bases, the torus above it and congé being of the same height as the plinth. The height of the capital is one half the thickness of a column. The abacus has a width equivalent to the thickness of the bottom of a column. Let the height of the capital be divided into three parts, and give one to the plinth (that is, the abacus), the second to the echinus, and the third to the necking with its congé.
 
 4. Upon the columns lay the main beams, fastened together, to a height commensurate with the requirements of the size of the building. These beams fastened together should be laid so as to be equivalent in thickness to the necking at the top of a column, and should be fastened together by means of dowels and dove-tailed tenons in such a way that there shall be a space two fingers broad between them at the fastening. For if they touch one another, and so do not leave airholes and admit draughts of air to blow between them, they get heated and soon begin to rot.
 
-5. Above the beams and walls let the mutuals project to a distance equal to one quarter of the height of a column; along the front of them nail casings; above, build the tympanum of the pediment either in masonry or in wood. The pediment with its ridgepole, principal rafters, and purlines are to be built in such a way that the eaves shall be equivalent to one third of the completed roof.
+5. Above the beams and walls let the mutules project to a distance equal to one quarter of the height of a column; along the front of them nail casings; above, build the tympanum of the pediment either in masonry or in wood. The pediment with its ridgepole, principal rafters, and purlines are to be built in such a way that the eaves shall be equivalent to one third of the completed roof.
 
+## Chapter VIII. Circular Temples and Other Varieties
 
+1. There are also circular temples, some of which are constructed in monopteral form, surrounded by columns but without a cella, while others are termed peripteral. Those that are without a cella have a raised platform and a flight of steps leading to it, one third of the diameter of the temple. The columns upon the stylobates are constructed of a height equivalent to the diameter taken between the outer edges of the stylobate walls, and of a thickness equivalent to one tenth of their height including the capitals and bases. The architrave has the height of one half of the thickness of a column. The frieze and the other parts placed above it are such as I have described in the third book, on the subject of symmetrical proportions.
 
----
+2. But if such a temple is to be constructed in peripteral form, let two steps and then the stylobate be constructed below. Next, let the cella wall be set up, recessed within the stylobate about one fifth of the breadth thereof, and let a place for folding doors be left in the middle to afford entrance. This cella, excluding its walls and the passage round the outside, should have a diameter equivalent to the height of a column above the stylobate. Let the columns round the cella be arranged in the symmetrical proportions just given.
 
-# CHAPTER VIII
-
-# CIRCULAR TEMPLES AND OTHER VARIETIES
-
-1. There are also circular temples, some of which are constructed in monopteral form, surrounded by columns but without a cella, while others are termed peripteral. Those that are without a cella have a raised platform and a flight of steps leading to it, one third of the diameter of the temple. The columns upon the stylobates are constructed of a height equivalent to the diameter taken between the outer edges of the stylobate walls, and of a thickness equivalent to one tenth of their height including the capitals and bases. The architrave has the height of one half of the thickness of a column. The frieze and the other parts placed above it are such as I have described in the third[3] book, on the subject of symmetrical proportions.
-
-![img-38.jpeg](images/img-38.jpeg)
-Photo. Anderson
-THE CIRCULAR TEMPLE AT TIVOLI
-
-![img-39.jpeg](images/img-39.jpeg)
-THE MAISON CARRÉE AT NÎMEX, A PSEUDO-PERIPTERAL TEMPLE
-
----
-
-![img-40.jpeg](images/img-40.jpeg)
-TEMPLE AT TIVOLI PLAN OF THE TEMPLE OF VESTA AT ROME
-
-2. But if such a temple is to be constructed in peripheral form, let two steps and then the stylobate be constructed below. Next, let the cella wall be set up, recessed within the stylobate about one fifth of the breadth thereof, and let a place for folding doors be left in the middle to afford entrance. This cella, excluding its walls and the passage round the outside, should have a diameter equivalent to the height of a column above the stylobate. Let the columns round the cella be arranged in the symmetrical proportions just given.
 3. The proportions of the roof in the centre should be such that the height of the rotunda, excluding the finial, is equivalent to one half the diameter of the whole work. The finial, excluding its pyramidal base, should have the dimensions of the capital of a column. All the rest must be built in the symmetrical proportions described above.
-
-![img-41.jpeg](images/img-41.jpeg)
-From Darm
-THE CIRCULAR TEMPLE ACCORDING TO VITRUVIUS
-
----
 
 4. There are also other kinds of temples, constructed in the same symmetrical proportions and yet with a different kind of plan: for example, the temple of Castor in the district of the Circus Flaminius, that of Vejovis between the two groves, and still more ingeniously the temple of Diana in her sacred grove, with columns added on the right and left at the flanks of the pronaos. Temples of this kind, like that of Castor in the Circus, were first built in Athens on the Acropolis, and in Attica at Sunium to Pallas Minerva. The proportions of them are not different, but the same as usual. For the length of their cellae is twice the width, as in other temples; but all that we regularly find in the fronts of others is in these transferred to the sides.
 
 5. Some take the arrangement of columns belonging to the Tuscan order and apply it to buildings in the Corinthian and Ionic styles, and where there are projecting antae in the pronaos, set up two columns in a line with each of the cella walls, thus making a combination of the principles of Tuscan and Greek buildings.
 
-6. Others actually remove the temple walls, transferring them to the intercolumnations, and thus, by dispensing with the space needed for a pteroma, greatly increase the extent of the cella. So, while leaving all the rest in the same symmetrical proportions, they appear to have produced a new kind of plan with the new name "pseudoperipteral." These kinds, however, vary according to the requirements of the sacrifices. For we must not build temples according to the same rules to all gods alike, since the performance of the sacred rites varies with the various gods.
+6. Others actually remove the temple walls, transferring them to the intercolumniations, and thus, by dispensing with the space needed for a pteroma, greatly increase the extent of the cella. So, while leaving all the rest in the same symmetrical proportions, they appear to have produced a new kind of plan with the new name "pseudoperipteral." These kinds, however, vary according to the requirements of the sacrifices. For we must not build temples according to the same rules to all gods alike, since the performance of the sacred rites varies with the various gods.
 
 7. I have now set forth, as they have come down to me, all the principles governing the building of temples, have marked out under separate heads their arrangements and proportions, and have set forth, so far as I could express them in writing, the differences in their plans and the distinctions which make them unlike one another. Next, with regard to the altars of the immortal gods, I shall state how they may be constructed so as to conform to the rules governing sacrifices.
 
-
-
----
-
-# CHAPTER IX
-
-## ALTARS
+## Chapter IX. Altars
 
 Altars should face the east, and should always be placed on a lower level than are the statues in the temples, so that those who are praying and sacrificing may look upwards towards the divinity. They are of different heights, being each regulated so as to be appropriate to its own god. Their heights are to be adjusted thus: for Jupiter and all the celestials, let them be constructed as high as possible; for Vesta and Mother Earth, let them be built low. In accordance with these rules will altars be adjusted when one is preparing his plans.
 
 Having described the arrangements of temples in this book, in the following we shall give an exposition of the construction of public buildings.
 
----
+# BOOK V
 
-
-
----
-
-# INTRODUCTION
+## Introduction
 
 1. Those who have filled books of unusually large size, Emperor, in setting forth their intellectual ideas and doctrines, have thus made a very great and remarkable addition to the authority of their writings. I could wish that circumstances made this as permissible in the case of our subject, so that the authority of the present treatise might be increased by amplifications; but this is not so easy as it may be thought. Writing on architecture is not like history or poetry. History is captivating to the reader from its very nature; for it holds out the hope of various novelties. Poetry, with its measures and metrical feet, its refinement in the arrangement of words, and the delivery in verse of the sentiments expressed by the several characters to one another, delights the feelings of the reader, and leads him smoothly on to the very end of the work.
 
@@ -1344,64 +636,29 @@ Having described the arrangements of temples in this book, in the following we s
 
 3. Furthermore, since I have observed that our citizens are distracted with public affairs and private business, I have thought it best to write briefly, so that my readers, whose intervals of leisure are small, may be able to comprehend in a short time.
 
-Then again, Pythagoras and those who came after him in his school thought it proper to employ the principles of the cube in composing books on their doctrines, and, having determined that the cube consisted of 216[6] lines, held that there should be no more than three cubes in any one treatise.
+Then again, Pythagoras and those who came after him in his school thought it proper to employ the principles of the cube in composing books on their doctrines, and, having determined that the cube consisted of 216 lines, held that there should be no more than three cubes in any one treatise.
 
 4. A cube is a body with sides all of equal breadth and their surfaces perfectly square. When thrown down, it stands firm and steady so long as it is untouched, no matter on which of its sides it has fallen, like the dice which players throw on the board. The Pythagoreans appear to have drawn their analogy from the cube, because the number of lines mentioned will be fixed firmly and steadily in the memory when they have once settled down, like a cube, upon a man's understanding. The Greek comic poets, also, divided their plays into parts by introducing a choral song, and by this partition on the principle of the cubes, they relieve the actor's speeches by such intermissions.
 
 5. Since these rules, founded on the analogy of nature, were followed by our predecessors, and since I observe that I have to write on unusual subjects which many persons will find obscure, I have thought it best to write in short books, so that they may the more readily strike the understanding of the reader: for they will thus be easy to comprehend. I have also arranged them so that those in search of knowledge on a subject may not have to gather it from different places, but may find it in one complete treatment, with the various classes set forth each in a book by itself. Hence, Caesar, in the third and fourth books I gave the rules for temples; in this book I shall treat of the laying out of public places. I shall speak first of the proper arrangement of the forum, for in it the course of both public and private affairs is directed by the magistrates.
 
----
-
-# CHAPTER I
-
-# THE FORUM AND BASILICA
+## Chapter I. The Forum and Basilica
 
 1. The Greeks lay out their forums in the form of a square surrounded by very spacious double colonnades, adorn them with columns set rather closely together, and with entablatures of stone or marble, and construct walks above in the upper story. But in the cities of Italy the same method cannot be followed, for the reason that it is a custom handed down from our ancestors that gladiatorial shows should be given in the forum.
 
-![img-42.jpeg](images/img-42.jpeg)
-From Gsell
-FORUM AT TINKJAD
-A, Forum. B, Basilica. C, Curia. C', Official Building. D, Small Temple. E, Latrina. F, Atrium.
-
-2. Therefore let the intercolumnations round the show place be pretty wide; round about in the colonnades put the bankers' offices; and have balconies on the upper floor properly arranged so as to be convenient, and to bring in some public revenue.
+2. Therefore let the intercolumniations round the show place be pretty wide; round about in the colonnades put the bankers' offices; and have balconies on the upper floor properly arranged so as to be convenient, and to bring in some public revenue.
 
 The size of a forum should be proportionate to the number of inhabitants, so that it may not be too small a space to be useful, nor look like a desert waste for lack of population. To determine its breadth, divide its length into three parts and assign two of them to the breadth. Its shape will then be oblong, and its ground plan conveniently suited to the conditions of shows.
 
 3. The columns of the upper tier should be one fourth smaller than those of the lower, because, for the purpose of bearing the load, what is below ought to be stronger than what is above, and also, because we ought to imitate nature as seen in the case of things growing; for example, in round smooth-stemmed trees, like the fir, cypress, and pine, every one of which is rather thick just above the roots and then, as it goes on increasing in height, tapers off naturally and symmetrically in growing up to the top. Hence, if nature requires this in things growing, it is the right arrangement that what is above should be less in height and thickness than what is below.
-4. Basilicas should be constructed on a site adjoining the forum and in the warmest possible quarter, so that in winter business men may gather in them without being troubled by the weather. In breadth they should be not less than one third nor more than one
 
----
-
-half of their length, unless the site is naturally such as to prevent this and to oblige an alteration in these proportions. If the length of the site is greater than necessary, Chalcidian porches may be constructed at the ends, as in the Julia Aquiliana.
+4. Basilicas should be constructed on a site adjoining the forum and in the warmest possible quarter, so that in winter business men may gather in them without being troubled by the weather. In breadth they should be not less than one third nor more than one half of their length, unless the site is naturally such as to prevent this and to oblige an alteration in these proportions. If the length of the site is greater than necessary, Chalcidian porches may be constructed at the ends, as in the Julia Aquiliana.
 
 5. It is thought that the columns of basilicas ought to be as high as the side-aisles are broad; an aisle should be limited to one third of the breadth which the open space in the middle is to have. Let the columns of the upper tier be smaller than those of the lower, as written above. The screen, to be placed between the upper and the lower tiers of columns, ought to be, it is thought, one fourth lower than the columns of the upper tier, so that people walking in the upper story of the basilica may not be seen by the business men. The architraves, friezes, and cornices should be adjusted to the proportions of the columns, as we have stated in the third book.
 
-![img-43.jpeg](images/img-43.jpeg)
-FORUM AT PUMPER
-A, Forum. B, Basilica. C, Temple of Apollo. D, D', Market Buildings. E, Latrina. F, City Treasury. G, Memorial Arch. H, Temple of Jupiter. I, Arch of Tiberius. K, Macellum (provision market). L, Sanctuary of the City Lares. M, Temple of Vespasian. N, Building of Eumachia. O, Comitium. P, Office of the Duumvirs. Q, The City Council. R, Office of the Aediles.
-
 6. But basilicas of the greatest dignity and beauty may also be constructed in the style of that one which I erected, and the building of which I superintended at Fano. Its proportions and symmetrical relations were established as follows. In the middle, the main roof between the columns is 120 feet long and sixty feet wide. Its aisle round the space beneath the main roof and between the walls and the columns is twenty feet broad. The columns, of unbroken height, measuring with their capitals fifty feet, and being each five feet thick, have behind them pilasters, twenty feet high, two and one half feet broad, and one and one half feet thick, which support the beams on which is carried the upper flooring of the aisles. Above them are other pilasters, eighteen feet high, two feet broad, and a foot thick, which carry the beams supporting the principal raftering and the roof of the aisles, which is brought down lower than the main roof.
 
-7. The spaces remaining between the beams supported by the pilasters and the columns, are left for windows between the intercolumnations. The columns are: on the breadth of the main roof at each end, four, including the corner columns at right and
-
----
-
-![img-44.jpeg](images/img-44.jpeg)
-From Durm
-PLAN OF THE BASILICA AT POMPIER
-
-left; on the long side which is next to the forum, eight, including the same corner columns; on the other side, six, including the corner columns. This is because the two middle columns on that side are omitted, in order not to obstruct the view of the pronaos of the temple of Augustus (which is built at the middle of the side wall of the basilica, facing the middle of the forum and the temple of Jupiter) and also the tribunal which is in the former temple, shaped as a hemicycle whose curvature is less than a semicircle.
-
----
-
-![img-45.jpeg](images/img-45.jpeg)
-SCALE OF GREEK FEET
-VITROYEN'S BANBACA AT FORT
-
----
-
-![img-46.jpeg](images/img-46.jpeg)
-VITRUVIUS' BASILICA AT FANO
+7. The spaces remaining between the beams supported by the pilasters and the columns, are left for windows between the intercolumniations. The columns are: on the breadth of the main roof at each end, four, including the corner columns at right and left; on the long side which is next to the forum, eight, including the same corner columns; on the other side, six, including the corner columns. This is because the two middle columns on that side are omitted, in order not to obstruct the view of the pronaos of the temple of Augustus (which is built at the middle of the side wall of the basilica, facing the middle of the forum and the temple of Jupiter) and also the tribunal which is in the former temple, shaped as a hemicycle whose curvature is less than a semicircle.
 
 8. The open side of this hemicycle is forty-six feet along the front, and its curvature inwards is fifteen feet, so that those who are standing before the magistrates may not be in the way of the business men in the basilica. Round about, above the columns, are placed the architraves, consisting of three two-foot timbers fastened together. These return from the columns which stand third on the inner side to the antae which project from the pronaos, and which touch the edges of the hemicycle at right and left.
 
@@ -1409,23 +666,15 @@ VITRUVIUS' BASILICA AT FANO
 
 10. Thus the gable tops run in two directions, like the letter T, and give a beautiful effect to the outside and inside of the main roof. Further, by the omission of an ornamental entablature and of a line of screens and a second tier of columns, troublesome labour is saved and the total cost greatly diminished. On the other hand, the carrying of the columns themselves in unbroken height directly up to the beams that support the main roof, seems to add an air of sumptuousness and dignity to the work.
 
----
-
-# CHAPTER II
-
-## THE TREASURY, PRISON, AND SENATE HOUSE
+## Chapter II. The Treasury, Prison, and Senate House
 
 1. The treasury, prison, and senate house ought to adjoin the forum, but in such a way that their dimensions may be proportionate to those of the forum. Particularly, the senate house should be constructed with special regard to the importance of the town or city. If the building is square, let its height be fixed at one and one half times its breadth; but if it is to be oblong, add together its length and breadth and, having got the total, let half of it be devoted to the height up to the coffered ceiling.
 
 2. Further, the inside walls should be girdled, at a point halfway up their height, with coronae made of woodwork or of stucco. Without these, the voice of men engaged in discussion there will be carried up to the height above, and so be unintelligible to their listeners. But when the walls are girdled with coronae, the voice from below, being detained before rising and becoming lost in the air, will be intelligible to the ear.
 
----
+## Chapter III. The Theatre: Its Site, Foundations and Acoustics
 
-# CHAPTER III
-
-## THE THEATRE: ITS SITE, FOUNDATIONS AND ACOUSTICS
-
-1. After the forum has been arranged, next, for the purpose of seeing plays or festivals of the immortal gods, a site as healthy as possible should be selected for the theatre, in accordance with what has been written in the first book, on the principles of healthfulness in the sites of cities. For when plays are given, the spectators, with their wives and children, sit through them spell-bound, and their bodies, motionless from enjoyment, have the pores open, into which blowing winds find their way. If these winds come from marshy districts or from other unwholesome quarters, they will introduce noxious exhalations into the system. Hence, such faults will be avoided if the site of the theatre is somewhat carefully selected.
+1. After the forum has been arranged, next, for the purpose of seeing plays or festivals of the immortal gods, a site as healthy as possible should be selected for the theatre, in accordance with what has been written in the first book, on the principles of healthfulness in the sites of cities. For when plays are given, the spectators, with their wives and children, sit through them spellbound, and their bodies, motionless from enjoyment, have the pores open, into which blowing winds find their way. If these winds come from marshy districts or from other unwholesome quarters, they will introduce noxious exhalations into the system. Hence, such faults will be avoided if the site of the theatre is somewhat carefully selected.
 
 2. We must also beware that it has not a southern exposure. When the sun shines full upon the rounded part of it, the air, being shut up in the curved enclosure and unable to circulate, stays there and becomes heated; and getting glowing hot it burns up, dries out, and impairs the fluids of the human body. For these reasons, sites which are unwholesome in such respects are to be avoided, and healthy sites selected.
 
@@ -1437,65 +686,47 @@ VITRUVIUS' BASILICA AT FANO
 
 Particular pains must also be taken that the site be not a "deaf" one, but one through which the voice can range with the greatest clearness. This can be brought about if a site is selected where there is no obstruction due to echo.
 
-6. Voice is a flowing breath of air, perceptible to the hearing by contact. It moves in an endless number of circular rounds, like the innumerable increasing circular waves which appear when a stone is thrown into smooth water, and which keep on spreading indefinitely from the centre unless interrupted by narrow limits, or by some obstruction which prevents such waves from reaching their end in due formation. When they are interrupted by obstructions, the first waves, flowing back, break up the formation of those which follow.
+6. Voice is a flowing breath of air, perceptible to the hearing by contact. It moves in an endless number of circular rounds, like the innumerably increasing circular waves which appear when a stone is thrown into smooth water, and which keep on spreading indefinitely from the centre unless interrupted by narrow limits, or by some obstruction which prevents such waves from reaching their end in due formation. When they are interrupted by obstructions, the first waves, flowing back, break up the formation of those which follow.
 
 7. In the same manner the voice executes its movements in concentric circles; but while in the case of water the circles move horizontally on a plane surface, the voice not only proceeds horizontally, but also ascends vertically by regular stages. Therefore, as in the case of the waves formed in the water, so it is in the case of the voice: the first wave, when there is no obstruction to interrupt it, does not break up the second or the following waves, but they all reach the ears of the lowest and highest spectators without an echo.
 
-8. Hence the ancient architects, following in the footsteps of nature, perfected the ascending rows of seats in theatres from their investigations of the ascending voice, and, by means of the canonical theory of the mathematicians and that of the musicians, endeavoured to make every voice uttered on the stage come with greater clearness and sweetness to the ears of the audience. For just as musical instruments are brought to perfection of clearness in the sound of their strings by means of bronze plates or horn *figura*, so the ancients devised methods of increasing the power of the voice in theatres through the application of harmonics.
+8. Hence the ancient architects, following in the footsteps of nature, perfected the ascending rows of seats in theatres from their investigations of the ascending voice, and, by means of the canonical theory of the mathematicians and that of the musicians, endeavoured to make every voice uttered on the stage come with greater clearness and sweetness to the ears of the audience. For just as musical instruments are brought to perfection of clearness in the sound of their strings by means of bronze plates or horn ἡχεια, so the ancients devised methods of increasing the power of the voice in theatres through the application of harmonics.
 
----
-
-# CHAPTER IV
-
-# HARMONICS
+## Chapter IV. Harmonics
 
 1. Harmonics is an obscure and difficult branch of musical science, especially for those who do not know Greek. If we desire to treat of it, we must use Greek words, because some of them have no Latin equivalents. Hence, I will explain it as clearly as I can from the writings of Aristoxenus, append his scheme, and define the boundaries of the notes, so that with somewhat careful attention anybody may be able to understand it pretty easily.
+
 2. The voice, in its changes of position when shifting pitch, becomes sometimes high, sometimes low, and its movements are of two kinds, in one of which its progress is continuous, in the other by intervals. The continuous voice does not become stationary at the "boundaries" or at any definite place, and so the extremities of its progress are not apparent, but the fact that there are differences of pitch is apparent, as in our ordinary speech in sol, lux, flos, vox; for in these cases we cannot tell at what pitch the voice begins, nor at what pitch it leaves off, but the fact that it becomes low from high and high from low is apparent to the ear. In its progress by intervals the opposite is the case. For here, when the pitch shifts, the voice, by change of position, stations itself on one pitch, then on another, and, as it frequently repeats this alternating process, it appears to the senses to become stationary, as happens in singing when we produce a variation of the mode by changing the pitch of the voice. And so, since it moves by intervals, the points at which it begins and where it leaves off are obviously apparent in the boundaries of the notes, but the intermediate points escape notice and are obscure, owing to the intervals.
+
 3. There are three classes of modes: first, that which the Greeks term the enharmonic; second, the chromatic; third, the diatonic. The enharmonic mode is an artistic conception, and therefore execution in it has a specially severe dignity and distinction. The chromatic, with its delicate subtlety and with the "crowding" of its notes, gives a sweeter kind of pleasure. In the diatonic, the distance between the intervals is easier to understand, because it is natural. These three classes differ in their arrangement of the tetrachord. In the enharmonic, the tetrachord consists of two tones and two "dieses." A diesis is a quarter tone; hence in a semitone there are included two dieses. In the chromatic there are two semitones arranged in succession, and the third interval is a tone and a half. In the diatonic, there are two consecutive tones, and the third interval of a semitone completes the tetrachord. Hence, in the three classes, the tetrachords are equally composed of two tones and a semitone, but when they are regarded separately according to the terms of each class, they differ in the arrangement of their intervals.
+
 4. Now then, these intervals of tones and semitones of the tetrachord are a division introduced by nature in the case of the voice, and she has defined their limits by measures according to the magnitude of the intervals, and determined their characteristics in certain different ways. These natural laws are followed by the skilled workmen who fashion musical instruments, in bringing them to the perfection of their proper concords.
 
-![img-47.jpeg](images/img-47.jpeg)
-
----
-
-5. In each class there are eighteen notes, termed in Greek φθόλλοι, of which eight in all the three classes are constant and fixed, while the other ten, not being tuned to the same pitch, are variable. The fixed notes are those which, being placed between the moveable, make up the unity of the tetrachord, and remain unaltered in their boundaries according to the different classes. Their names are proslambanomenos, hypate hypaton, hypate meson, mese, nete synhemmenon, paramese, nete diezeugmenon, nete hyperbolaeon. The moveable notes are those which, being arranged in the tetrachord between the immoveable, change from place to place according to the different classes. They are called parhypate hypaton, lichanos hypaton, parhypate meson, lichanos meson, trite synhemmenon, paranete synhemmenon, trite diezeugmenon, paranete diezeugmenon, trite hyperbolaeon, paranete hyperbolaeon.
+5. In each class there are eighteen notes, termed in Greek φθὁλλοι, of which eight in all the three classes are constant and fixed, while the other ten, not being tuned to the same pitch, are variable. The fixed notes are those which, being placed between the moveable, make up the unity of the tetrachord, and remain unaltered in their boundaries according to the different classes. Their names are proslambanomenos, hypate hypaton, hypate meson, mese, nete synhemmenon, paramese, nete diezeugmenon, nete hyperbolaeon. The moveable notes are those which, being arranged in the tetrachord between the immoveable, change from place to place according to the different classes. They are called parhypate hypaton, lichanos hypaton, parhypate meson, lichanos meson, trite synhemmenon, paranete synhemmenon, trite diezeugmenon, paranete diezeugmenon, trite hyperbolaeon, paranete hyperbolaeon.
 
 6. These notes, from being moveable, take on different qualities; for they may stand at different intervals and increasing distances. Thus, parhypate, which in the enharmonic is at the interval of half a semitone from hypate, has a semitone interval when transferred to the chromatic. What is called lichanos in the enharmonic is at the interval of a semitone from hypate; but when shifted to the chromatic, it goes two semitones away; and in the diatonic it is at an interval of three semitones from hypate. Hence the ten notes produce three different kinds of modes on account of their changes of position in the classes.
 
-7. There are five tetrachords: first, the lowest, termed in Greek ὑπικτον; second, the middle, called μέσον; third, the conjunct, termed συνημμένον; fourth, the disjunct, named διεξενγμένον; the fifth, which is the highest, is termed in Greek ὑπερβόλαιον. The concords, termed in Greek συμφωνίαι, of which human modulation will naturally admit, are six in number: the fourth, the fifth, the octave, the octave and fourth, the octave and fifth, and the double octave.
+7. There are five tetrachords: first, the lowest, termed in Greek ὑπατον; second, the middle, called μἑσον; third, the conjunct, termed συνημμἑνον; fourth, the disjunct, named διεξενγμἑνον; the fifth, which is the highest, is termed in Greek ὑπερβὁλαιον. The concords, termed in Greek συμφωνἱαι, of which human modulation will naturally admit, are six in number: the fourth, the fifth, the octave, the octave and fourth, the octave and fifth, and the double octave.
 
-8. Their names are therefore due to numerical value; for when the voice becomes stationary on some one note, and then, shifting its pitch, changes its position and passes to the limit of the fourth note from that one, we use the term "fourth"; when it passes to the fifth, the term is "fifth."⁽⁷⁾
+8. Their names are therefore due to numerical value; for when the voice becomes stationary on some one note, and then, shifting its pitch, changes its position and passes to the limit of the fourth note from that one, we use the term "fourth"; when it passes to the fifth, the term is "fifth."
 
 9. For there can be no consonances either in the case of the notes of stringed instruments or of the singing voice, between two intervals or between three or six or seven; but, as written above, it is only the harmonies of the fourth, the fifth, and so on up to the double octave, that have boundaries naturally corresponding to those of the voice: and these concords are produced by the union of the notes.
 
-
-
----
-
-# CHAPTER V
-
-# SOUNDING VESSELS IN THE THEATRE
+## Chapter V. Sounding Vessels in the Theatre
 
 1. In accordance with the foregoing investigations on mathematical principles, let bronze vessels be made, proportionate to the size of the theatre, and let them be so fashioned that, when touched, they may produce with one another the notes of the fourth, the fifth, and so on up to the double octave. Then, having constructed niches in between the seats of the theatre, let the vessels be arranged in them, in accordance with musical laws, in such a way that they nowhere touch the wall, but have a clear space all round them and room over their tops. They should be set upside down, and be supported on the side facing the stage by wedges not less than half a foot high. Opposite each niche, apertures should be left in the surface of the seat next below, two feet long and half a foot deep.
+
 2. The arrangement of these vessels, with reference to the situations in which they should be placed, may be described as follows. If the theatre be of no great size, mark out a horizontal range halfway up, and in it construct thirteen arched niches with twelve equal spaces between them, so that of the above mentioned "echea" those which give the note nete hyperbolaeon may be placed first on each side, in the niches which are at the extreme ends; next to the ends and a fourth below in pitch, the note nete diezeugmenon; third, paramese, a fourth below; fourth, nete synhemmenon; fifth, mese, a fourth below; sixth, hypate meson, a fourth below; and in the middle and another fourth below, one vessel giving the note hypate hypaton.
+
 3. On this principle of arrangement, the voice, uttered from the stage as from a centre, and spreading and striking against the cavities of the different vessels, as it comes in contact with them, will be increased in clearness of sound, and will wake an harmonious note in unison with itself.
 
 But if the theatre be rather large, let its height be divided into four parts, so that three horizontal ranges of niches may be marked out and constructed: one for the enharmonic, another for the chromatic, and the third for the diatonic system. Beginning with the bottom range, let the arrangement be as described above in the case of a smaller theatre, but on the enharmonic system.
 
-![img-48.jpeg](images/img-48.jpeg)
+4. In the middle range, place first at the extreme ends the vessels which give the note of the chromatic hyperbolaeon; next to them, those which give the chromatic diezeugmenon, a fourth below; third, the chromatic synhemmenon; fourth, the chromatic meson, a fourth below; fifth, the chromatic hypaton, a fourth below; sixth, the paramese, for this is both the concord of the fifth to the chromatic hyperbolaeon, and the concord of the chromatic synhemmenon.
 
-![img-49.jpeg](images/img-49.jpeg)
-
-![img-50.jpeg](images/img-50.jpeg)
-
-4. In the middle range, place first at the extreme ends the vessels which give the note of the chromatic hyperbolaeon; next to them, those which give the chromatic diezeugmenon, a fourth below; third, the chromatic synhemmenon; fourth, the chromatic meson, a fourth below; fifth, the chromatic hypaton, a fourth below; sixth, the paramese, for this is both the concord of the fifth to the chromatic hyperbolaeon, and the concord $^{35}$  of the chromatic synhemmenon.
 5. No vessel is to be placed in the middle, for the reason that there is no other note in the chromatic system that forms a natural concord of sound.
 
-In the highest division and range of niches, place at the extreme ends vessels fashioned so as to give the note of the diatonic hyperbolaeon; next, the diatonic diezeugmenon, a fourth below; third, the diatonic synhemmenon; fourth, the diatonic meson, a
-
----
-
-fourth below; fifth, the diatonic hypaton, a fourth below; sixth, the proslambanomenos, a fourth below; in the middle, the note mese, for this is both the octave to proslambanomenos, and the concord of the fifth to the diatonic hypaton.
+In the highest division and range of niches, place at the extreme ends vessels fashioned so as to give the note of the diatonic hyperbolaeon; next, the diatonic diezeugmenon, a fourth below; third, the diatonic synhemmenon; fourth, the diatonic meson, a fourth below; fifth, the diatonic hypaton, a fourth below; sixth, the proslambanomenos, a fourth below; in the middle, the note mese, for this is both the octave to proslambanomenos, and the concord of the fifth to the diatonic hypaton.
 
 6. Whoever wishes to carry out these principles with ease, has only to consult the scheme at the end of this book, drawn up in accordance with the laws of music. It was left by Aristoxenus, who with great ability and labour classified and arranged in it the different modes. In accordance with it, and by giving heed to these theories, one can easily bring a theatre to perfection, from the point of view of the nature of the voice, so as to give pleasure to the audience.
 
@@ -1503,25 +734,13 @@ fourth below; fifth, the diatonic hypaton, a fourth below; sixth, the proslamban
 
 8. If, however, it is asked in what theatre these vessels have been employed, we cannot point to any in Rome itself, but only to those in the districts of Italy and in a good many Greek states. We have also the evidence of Lucius Mummius, who, after destroying the theatre in Corinth, brought its bronze vessels to Rome, and made a dedicatory offering at the temple of Luna with the money obtained from the sale of them. Besides, many skilful architects, in constructing theatres in small towns, have, for lack of means, taken large jars made of clay, but similarly resonant, and have produced very advantageous results by arranging them on the principles described.
 
-
-
----
-
-# CHAPTER VI
-
-# PLAN OF THE THEATRE
+## Chapter VI. Plan of the Theatre
 
 1. The plan of the theatre itself is to be constructed as follows. Having fixed upon the principal centre, draw a line of circumference equivalent to what is to be the perimeter at the bottom, and in it inscribe four equilateral triangles, at equal distances apart and touching the boundary line of the circle, as the astrologers do in a figure of the twelve signs of the zodiac, when they are making computations from the musical harmony of the stars. Taking that one of these triangles whose side is nearest to the scaena, let the front of the scaena be determined by the line where that side cuts off a segment of the circle (A-B), and draw, through the centre, a parallel line (C-D) set off from that position, to separate the platform of the stage from the space of the orchestra.
+
 2. The platform has to be made deeper than that of the Greeks, because all our artists perform on the stage, while the orchestra contains the places reserved for the seats of senators. The height of this platform must be not more than five feet, in order that those who sit in the orchestra may be able to see the performances of all the actors. The sections (cunei) for spectators in the theatre should be so divided, that the angles of the triangles which run about the circumference of the circle may give the direction for the flights of steps between the sections, as far as up to the first curved cross-aisle. Above this, the upper sections are to be laid out, midway between (the lower sections), with alternating passage-ways.
+
 3. The angles at the bottom, which give the directions for the flights of steps, will be seven in number (C, E, F, G, H, I, D); the other five angles will determine the arrangement of the scene: thus, the angle in the middle ought to have the "royal door" (K) opposite to it; the angles to the right and left (L, M) will designate the position of the doors for guest chambers; and the two outermost angles (A, B) will point to the passages in the wings. The steps for the spectators' places, where the seats are arranged, should be not less than a foot and a palm in height, nor more than a foot and six fingers; their depth should be fixed at not more than two and a half feet, nor less than two feet.
-
-![img-51.jpeg](images/img-51.jpeg)
-PLAN
-
----
-
-![img-52.jpeg](images/img-52.jpeg)
-THE ROMAN THEATRE ACCORDING TO VITRUVIUS
 
 4. The roof of the colonnade to be built at the top of the rows of seats, should lie level with the top of the "scaena," for the reason that the voice will then rise with equal power until it reaches the highest rows of seats and the roof. If the roof is not so high, in proportion as it is lower, it will check the voice at the point which the sound first reaches.
 
@@ -1529,55 +748,27 @@ THE ROMAN THEATRE ACCORDING TO VITRUVIUS
 
 6. The length of the "scaena" ought to be double the diameter of the orchestra. The height of the podium, starting from the level of the stage, is, including the corona and cymatium, one twelfth of the diameter of the orchestra. Above the podium, the columns, including their capitals and bases, should have a height of one quarter of the same diameter, and the architraves and ornaments of the columns should be one fifth of their height. The parapet above, including its cyma and corona, is one half the height of the parapet below. Let the columns above this parapet be one fourth less in height than the columns below, and the architraves and ornaments of these columns one fifth of their height. If the "scaena" is to have three stories, let the uppermost parapet be half the height of the intermediate one, the columns at the top one fourth less high than the intermediate, and the architraves and coronae of these columns one fifth of their height as before.
 
----
-
-![img-53.jpeg](images/img-53.jpeg)
-
-![img-54.jpeg](images/img-54.jpeg)
-From Durm
-
-
-
----
-
 7. It is not possible, however, that in all theatres these rules of symmetry should answer all conditions and purposes, but the architect ought to consider to what extent he must follow the principle of symmetry, and to what extent it may be modified to suit the nature of the site or the size of the work. There are, of course, some things which, for utility's sake, must be made of the same size in a small theatre, and a large one: such as the steps, curved cross-aisles, their parapets, the passages, stairways, stages, tribunals, and any other things which occur that make it necessary to give up symmetry so as not to interfere with utility. Again, if in the course of the work any of the material fall short, such as marble, timber, or anything else that is provided, it will not be amiss to make a slight reduction or addition, provided that it is done without going too far, but with intelligence. This will be possible, if the architect is a man of practical experience and, besides, not destitute of cleverness and skill.
 
-8. The "scaena" itself displays the following scheme. In the centre are double doors decorated like those of a royal palace. At the right and left are the doors of the guest chambers. Beyond are spaces provided for decoration—places that the Greeks call περιῦστοι, because in these places are triangular pieces of machinery (Δ, Δ) which revolve, each having three decorated faces. When the play is to be changed, or when gods enter to the accompaniment of sudden claps of thunder, these may be revolved and present a face differently decorated. Beyond these places are the projecting wings which afford entrances to the stage, one from the forum, the other from abroad.
+8. The "scaena" itself displays the following scheme. In the centre are double doors decorated like those of a royal palace. At the right and left are the doors of the guest chambers. Beyond are spaces provided for decoration—places that the Greeks call περιἁκτοι, because in these places are triangular pieces of machinery (Δ, Δ) which revolve, each having three decorated faces. When the play is to be changed, or when gods enter to the accompaniment of sudden claps of thunder, these may be revolved and present a face differently decorated. Beyond these places are the projecting wings which afford entrances to the stage, one from the forum, the other from abroad.
 
 9. There are three kinds of scenes, one called the tragic, second, the comic, third, the satyric. Their decorations are different and unlike each other in scheme. Tragic scenes are delineated with columns, pediments, statues, and other objects suited to kings; comic scenes exhibit private dwellings, with balconies and views representing rows of windows, after the manner of ordinary dwellings; satyric scenes are decorated with trees, caverns, mountains, and other rustic objects delineated in landscape style.
 
----
-
-# CHAPTER VII
-
-# GREEK THEATRES
+## Chapter VII. Greek Theatres
 
 1. In the theatres of the Greeks, these same rules of construction are not to be followed in all respects. First, in the circle at the bottom where the Roman has four triangles, the Greek has three squares with their angles touching the line of circumference. The square whose side is nearest to the "scaena," and cuts off a segment of the circle, determines by this line the limits of the "proscaenium" (A, B). Parallel to this line and tangent to the outer circumference of the segment, a line is drawn which fixes the front of the "scaena" (C-D). Through the centre of the orchestra and parallel to the direction of the "proscaenium," a line is laid off, and centres are marked where it cuts the circumference to the right and left (E, F) at the ends of the half-circle. Then, with the compasses fixed at the right, an arc is described from the horizontal distance at the left to the left hand side of the "proscaenium" (F, G); again with the centre at the left end, an arc is described from the horizontal distance at the right to the right hand side of the "proscaenium" (E, H).
-2. As a result of this plan with three centres, the Greeks have a roomier orchestra, and a "scaena" set further back, as well as a stage of less depth. They call this the λογείον, for the reason that there the tragic and comic actors perform on the stage, while other artists give their performances in the entire orchestra; hence, from this fact they are given in Greek the distinct names "Scenic" and "Thymelic." The height of this "logeum" ought to be not less than ten feet nor more than twelve. Let the ascending flights of steps between the wedges of seats, as far up as the first curved cross-aisle, be laid out on lines directly opposite to the angles of the squares. Above the cross-aisle, let other flights be laid out in the middle between the first; and at the top, as often as there is a new cross-aisle, the number of flights of steps is always increased to the same extent.
 
-![img-55.jpeg](images/img-55.jpeg)
+2. As a result of this plan with three centres, the Greeks have a roomier orchestra, and a "scaena" set further back, as well as a stage of less depth. They call this the λογεἱον, for the reason that there the tragic and comic actors perform on the stage, while other artists give their performances in the entire orchestra; hence, from this fact they are given in Greek the distinct names "Scenic" and "Thymelic." The height of this "logeum" ought to be not less than ten feet nor more than twelve. Let the ascending flights of steps between the wedges of seats, as far up as the first curved cross-aisle, be laid out on lines directly opposite to the angles of the squares. Above the cross-aisle, let other flights be laid out in the middle between the first; and at the top, as often as there is a new cross-aisle, the number of flights of steps is always increased to the same extent.
 
----
+## Chapter VIII. Acoustics of the Site of a Theatre
 
-
-
----
-
-# CHAPTER VIII
-
-## ACOUSTICS OF THE SITE OF A THEATRE
-
-1. All this having been settled with the greatest pains and skill, we must see to it, with still greater care, that a site has been selected where the voice has a gentle fall, and is not driven back with a recoil so as to convey an indistinct meaning to the ear. There are some places which from their very nature interfere with the course of the voice, as for instance the dissonant, which are termed in Greek κατησούντες; the circumsonant, which with them are named περιησούντες; again the resonant, which are termed ἀντησούντες; and the consonant, which they call συνησούντες. The dissonant are those places in which the first sound uttered that is carried up high, strikes against solid bodies above, and, being driven back, checks as it sinks to the bottom the rise of the succeeding sound.
+1. All this having been settled with the greatest pains and skill, we must see to it, with still greater care, that a site has been selected where the voice has a gentle fall, and is not driven back with a recoil so as to convey an indistinct meaning to the ear. There are some places which from their very nature interfere with the course of the voice, as for instance the dissonant, which are termed in Greek κατηχουντεϛ; the circumsonant, which with them are named περιηχουντες; again the resonant, which are termed ἁντηχουντες; and the consonant, which they call συνηχουντες. The dissonant are those places in which the first sound uttered that is carried up high, strikes against solid bodies above, and, being driven back, checks as it sinks to the bottom the rise of the succeeding sound.
 
 2. The circumsonant are those in which the voice spreads all round, and then is forced into the middle, where it dissolves, the case-endings are not heard, and it dies away there in sounds of indistinct meaning. The resonant are those in which it comes into contact with some solid substance and recoils, thus producing an echo, and making the terminations of cases sound double. The consonant are those in which it is supported from below, increases as it goes up, and reaches the ears in words which are distinct and clear in tone. Hence, if there has been careful attention in the selection of the site, the effect of the voice will, through this precaution, be perfectly suited to the purposes of a theatre.
 
 The drawings of the plans may be distinguished from each other by this difference, that theatres designed from squares are meant to be used by Greeks, while Roman theatres are designed from equilateral triangles. Whoever is willing to follow these directions will be able to construct perfectly correct theatres.
 
----
-
-# CHAPTER IX
-
-## COLONNADES AND WALKS
+## Chapter IX. Colonnades and Walks
 
 1. Colonnades must be constructed behind the scaena, so that when sudden showers interrupt plays, the people may have somewhere to retire from the theatre, and so that there may be room for the preparation of all the outfit of the stage. Such places, for instance, are the colonnades of Pompey, and also, in Athens, the colonnades of Eumenes and the fane of Father Bacchus; also, as you leave the theatre, the music hall which Themistocles surrounded with stone columns, and roofed with the yards and masts of ships captured from the Persians. It was burned during the war with Mithridates, and afterwards restored by King Ariobarzanes. At Smyrna there is the Stratoniceum, at Tralles, a colonnade on each side of the scaena above the race course, and in other cities which have had careful architects there are colonnades and walks about the theatres.
 
@@ -1595,70 +786,35 @@ The drawings of the plans may be distinguished from each other by this differenc
 
 8. Furthermore, our ancestors in establishing these works provided cities with storehouses for an indispensable material. The fact is that in sieges everything else is easier to procure than is wood. Salt can easily be brought in beforehand; corn can be got together quickly by the State or by individuals, and if it gives out, the defence may be maintained on cabbage, meat, or beans; water can be had by digging wells, or when there are sudden falls of rain, by collecting it from the tiles. But a stock of wood, which is absolutely necessary for cooking food, is a difficult and troublesome thing to provide; for it is slow to gather and a good deal is consumed.
 
----
-
 9. On such occasions, therefore, these walks are thrown open, and a definite allowance granted to each inhabitant according to tribes. Thus these uncovered walks insure two excellent things: first, health in time of peace; secondly, safety in time of war. Hence, walks that are developed on these principles, and built not only behind the "scaena" of theatres, but also at the temples of all the gods, will be capable of being of great use to cities.
-
-![img-56.jpeg](images/img-56.jpeg)
-THE TEPSHARIUM OF THE STAINIA BATHS AT PUMPER
-
----
-
-![img-57.jpeg](images/img-57.jpeg)
-APODSTERJUM FOR WOMEN IN THE STADIAN BATIS AT PUMPER
 
 As it appears that we have given an adequate account of them, next will follow descriptions of the arrangements of baths.
 
----
-
-# CHAPTER X
-
-## BATHS
+## Chapter X. Baths
 
 1. In the first place, the warmest possible situation must be selected; that is, one which faces away from the north and northeast. The rooms for the hot and tepid baths should be lighted from the southwest, or, if the nature of the situation prevents this, at all events from the south, because the set time for bathing is principally from midday to evening. We must also see to it that the hot bath rooms in the women's and men's departments adjoin each other, and are situated in the same quarter; for thus it will be possible that the same furnace should serve both of them and their fittings. Three bronze cauldrons are to be set over the furnace, one for hot, another for tepid, and the third for cold water, placed in such positions that the amount of water which flows out of the hot water cauldron may be replaced from that for tepid water, and in the same way the cauldron for tepid water may be supplied from that for cold. The arrangement must allow the semi-cylinders for the bath basins to be heated from the same furnace.
 
 2. The hanging floors of the hot bath rooms are to be constructed as follows. First the surface of the ground should be laid with tiles a foot and a half square, sloping towards the furnace in such a way that, if a ball is thrown in, it cannot stop inside but must return of itself to the furnace room; thus the heat of the fire will more readily spread under the hanging flooring. Upon them, pillars made of eight-inch bricks are built, and set at such a distance apart that two-foot tiles may be used to cover them. These pillars should be two feet in height, laid with clay mixed with hair, and covered on top with the two-foot tiles which support the floor.
 
----
-
-![img-58.jpeg](images/img-58.jpeg)
-THE STARKAN BACHS AT PUMPER
-S, S. Shops. B. Private Baths. A-T. Men's Bath. A'-T'. Women's Baths. E, E'. Entrances. A, A'. Apodyteria. F. Frigidarium. T, T'. Tepidarium. C, C. Caldarium. K, K, K. Kettles in furnace room. P. Piscina.
-
 3. The vaulted ceilings will be more serviceable if built of masonry; but if they are of framework, they should have tile work on the under side, to be constructed as follows. Let iron bars or arcs be made, and hang them to the framework by means of iron hooks set as close together as possible; and let these bars or arcs be placed at such distances apart that each pair of them may support and carry an unflanged tile. Thus the entire vaulting will be completely supported on iron. These vaults should have the joints on their upper side daubed with clay mixed with hair, and their under side, facing the floor, should first be plastered with pounded tile mixed with lime, and then covered with polished stucco in relief or smooth. Vaults in hot bath rooms will be more serviceable if they are doubled; for then the moisture from the heat will not be able to spoil the timber in the framework, but will merely circulate between the two vaults.
-4. The size of the baths must depend upon the number of the population. The rooms should be thus proportioned: let their breadth be one third of their length, excluding the niches for the washbowl and the bath basin. The washbowl ought without fail to be placed under a window, so that the shadows of those who stand round it may not obstruct the light. Niches for washbowls must be made so roomy that when the first comers have taken their places, the others who are waiting round may have proper standing room. The bath basin should be not less than six feet broad from the wall to the edge, the lower step and the "cushion" taking up two feet of this space.
 
----
+4. The size of the baths must depend upon the number of the population. The rooms should be thus proportioned: let their breadth be one third of their length, excluding the niches for the washbowl and the bath basin. The washbowl ought without fail to be placed under a window, so that the shadows of those who stand round it may not obstruct the light. Niches for washbowls must be made so roomy that when the first comers have taken their places, the others who are waiting round may have proper standing room. The bath basin should be not less than six feet broad from the wall to the edge, the lower step and the "cushion" taking up two feet of this space.
 
 5. The Laconicum and other sweating baths must adjoin the tepid room, and their height to the bottom of the curved dome should be equal to their width. Let an aperture be left in the middle of the dome with a bronze disc hanging from it by chains. By raising and lowering it, the temperature of the sweating bath can be regulated. The chamber itself ought, as it seems, to be circular, so that the force of the fire and heat may spread evenly from the centre all round the circumference.
 
+## Chapter XI. The Palaestra
 
+1. Next, although the building of palaestrae is not usual in Italy, I think it best to set forth the traditional way, and to show how they are constructed among the Greeks. The square or oblong peristyle in a palaestra should be so formed that the circuit of it makes a walk of two stadia, a distance which the Greeks call the δἱανλος. Let three of its colonnades be single, but let the fourth, which is on the south side, be double, so that when there is bad weather accompanied by wind, the drops of rain may not be able to reach the interior.
 
----
+2. In the three colonnades construct roomy recesses (A) with seats in them, where philosophers, rhetoricians, and others who delight in learning may sit and converse. In the double colonnade let the rooms be arranged thus: the young men's hall (B) in the middle; this is a very spacious recess (exedra) with seats in it, and it should be one third longer than it is broad. At the right, the bag room (C); then next, the dust room (D); beyond the dust room, at the corner of the colonnade, the cold washing room (E), which the Greeks call λουτρὁν. At the left of the young men's hall is the anointing room (F); then, next to the anointing room, the cold bath room (G), and beyond that a passage into the furnace room (H) at the corner of the colonnade. Next, but inside and on a line with the cold bath room, put the vaulted sweating bath (I), its length twice its breadth, and having at the ends on one side a Laconicum (K), proportioned in the same manner as above described, and opposite the Laconicum the warm washing room (L). Inside a palaestra, the peristyle ought to be laid out as described above.
 
-# CHAPTER XI
+3. But on the outside, let three colonnades be arranged, one as you leave the peristyle and two at the right and left, with runningtracks in them. That one of them which faces the north should be a double colonnade of very ample breadth, while the other should be single, and so constructed that on the sides next the walls and the side along the columns it may have edges, serving as paths, of not less than ten feet, with the space between them sunken, so that steps are necessary in going down from the edges a foot and a half to the plane, which plane should be not less than twelve feet wide. Thus people walking round on the edges will not be interfered with by the anointed who are exercising.
 
-## THE PALAESTRA
-
-1. Next, although the building of palaestrae is not usual in Italy, I think it best to set forth the traditional way, and to show how they are constructed among the Greeks. The square or oblong peristyle in a palaestra should be so formed that the circuit of it makes a walk of two stadia, a distance which the Greeks call the δίανλος. Let three of its colonnades be single, but let the fourth, which is on the south side, be double, so that when there is bad weather accompanied by wind, the drops of rain may not be able to reach the interior.
-
-2. In the three colonnades construct roomy recesses (A) with seats in them, where philosophers, rhetoricians, and others who delight in learning may sit and converse. In the double colonnade let the rooms be arranged thus: the young men's hall (B) in the middle; this is a very spacious recess (exedra) with seats in it, and it should be one third longer than it is broad. At the right, the bag room (C); then next, the dust room (D); beyond the dust room, at the corner of the colonnade, the cold washing room (E), which the Greeks call λουτρόν. At the left of the young men's hall is the anointing room (F); then, next to the anointing room, the cold bath room (G), and beyond that a passage into the furnace room (H) at the corner of the colonnade. Next, but inside and on a line with the cold bath room, put the vaulted sweating bath (I), its length twice its breadth, and having at the ends on one side a Laconicum (K), proportioned in the same manner as above described, and opposite the Laconicum the warm washing room (L). Inside a palaestra, the peristyle ought to be laid out as described above.
-
-3. But on the outside, let three colonnades be arranged, one as you leave the peristyle and two at the right and left, with running-tracks in them. That one of them which faces the north should be a double colonnade of very ample breadth, while the other should be single, and so constructed that on the sides next the walls and the side along the columns it may have edges, serving as paths, of not less than ten feet, with the space between them sunken, so that steps are necessary in going down from the edges a foot and a half to the plane, which plane should be not less than twelve feet wide. Thus people walking round on the edges will not be interfered with by the anointed who are exercising.
-
----
-
-![img-59.jpeg](images/img-59.jpeg)
-
-4. This kind of colonnade is called among the Greeks  $\xi \upsilon \sigma \tau \dot{\circ}_{\zeta}$ , because athletes during the winter season exercise in covered running tracks. Next to this "xystus" and to the double colonnade should be laid out the uncovered walks which the Greeks term  $\pi a\rho a\delta \rho o\mu i\delta \varepsilon_{c}$  and our people "xysta," into which, in fair weather during the winter, the athletes come out from the "xystus" for exercise. The "xysta" ought to be so constructed that there may be plantations between the two colonnades, or groves of plane trees, with walks laid out in them among the trees and resting places there, made of "opus signinum." Behind the "xystus" a stadium, so designed that great numbers of people may have plenty of room to look on at the contests between the athletes.
+4. This kind of colonnade is called among the Greeks ξυστὁς, because athletes during the winter season exercise in covered running tracks. Next to this "xystus" and to the double colonnade should be laid out the uncovered walks which the Greeks term παραδρομἱδες and our people "xysta," into which, in fair weather during the winter, the athletes come out from the "xystus" for exercise. The "xysta" ought to be so constructed that there may be plantations between the two colonnades, or groves of plane trees, with walks laid out in them among the trees and resting places there, made of "opus signinum." Behind the "xystus" a stadium, so designed that great numbers of people may have plenty of room to look on at the contests between the athletes.
 
 I have now described all that seemed necessary for the proper arrangement of things within the city walls.
 
----
-
-# CHAPTER XII
-
-## HARBOURS, BREAKWATERS, AND SHIPYARDS
+## Chapter XII. Harbours, Breakwaters, and Shipyards
 
 1. The subject of the usefulness of harbours is one which I must not omit, but must explain by what means ships are sheltered in them from storms. If their situation has natural advantages, with projecting capes or promontories which curve or return inwards by their natural conformation, such harbours are obviously of the greatest service. Round them, of course, colonnades or shipyards must be built, or passages from the colonnades to the business quarters, and towers must be set up on both sides, from which chains can be drawn across by machinery.
 
@@ -1678,15 +834,11 @@ But if by reason of currents or the assaults of the open sea the props cannot ho
 
 I have described in this book the construction and completion of all that I could remember as necessary for general use in the public places of cities. In the following book I shall consider private houses, their conveniences, and symmetrical proportions.
 
----
+# BOOK VI
 
+## Introduction
 
-
----
-
-# INTRODUCTION
-
-1. It is related of the Socratic philosopher Aristippus that, being shipwrecked and cast ashore on the coast of the Rhodians, he observed geometrical figures drawn thereon, and cried out to his companions: "Let us be of good cheer, for I see the traces of man." With that he made for the city of Rhodes, and went straight to the gymnasium. There he fell to discussing philosophical subjects, and presents were bestowed upon him, so that he could not only fit himself out, but could also provide those who accompanied him with clothing and all other necessities of life. When his companions wished to return to their country, and asked him what message he wished them to carry home, he bade them say this: that children ought to be provided with property and resources of a kind that could swim with them even out of a shipwreck.
+1. It is related of the Socratic philosopher Aristippus that, being shipwrecked and cast ashore on the coast of the Rhodians, he observed geometrical figures drawn thereon, and cried out to his companions: "Let us be of good cheer, for I see the traces of man." With that he made for the city of Rhodes, and went straight to the gymnasium. There he fell to discussing philosophical subjects, and presents were bestowed upon him, so that he could not only fit himself out, but could also provide those who accompanied him with clothing and all other necessaries of life. When his companions wished to return to their country, and asked him what message he wished them to carry home, he bade them say this: that children ought to be provided with property and resources of a kind that could swim with them even out of a shipwreck.
 
 2. These are indeed the true supports of life, and neither Fortune's adverse gale, nor political revolution, nor ravages of war can do them any harm. Developing the same idea, Theophrastus, urging men to acquire learning rather than to put their trust in money, states the case thus: "The man of learning is the only person in the world who is neither a stranger when in a foreign land, nor friendless when he has lost his intimates and relatives; on the contrary, he is a citizen of every country, and can fearlessly look down upon the troublesome accidents of fortune. But he who thinks himself entrenched in defences not of learning but of luck, moves in slippery paths, struggling through life unsteadily and insecurely."
 
@@ -1702,17 +854,7 @@ But when I see that this grand art is boldly professed by the uneducated and the
 
 7. Nobody, therefore, attempts to practise any other art in his own home—as, for instance, the shoemaker's, or the fuller's, or any other of the easier kinds—but only architecture, and this is because the professionals do not possess the genuine art but term themselves architects falsely. For these reasons I have thought proper to compose most carefully a complete treatise on architecture and its principles, believing that it will be no unacceptable gift to all the world. In the fifth book I have said what I had to say about the convenient arrangement of public works; in this I shall set forth the theoretical principles and the symmetrical proportions of private houses.
 
-
-
----
-
-
-
----
-
-# CHAPTER I
-
-# ON CLIMATE AS DETERMINING THE STYLE OF THE HOUSE
+## Chapter I. On Climate As Determining the Style of the House
 
 1. If our designs for private houses are to be correct, we must at the outset take note of the countries and climates in which they are built. One style of house seems appropriate to build in Egypt, another in Spain, a different kind in Pontus, one still different in Rome, and so on with lands and countries of other characteristics. This is because one part of the earth is directly under the sun's course, another is far away from it, while another lies midway between these two. Hence, as the position of the heaven with regard to a given tract on the earth leads naturally to different characteristics, owing to the inclination of the circle of the zodiac and the course of the sun, it is obvious that designs for houses ought similarly to conform to the nature of the country and to diversities of climate.
 
@@ -1724,36 +866,23 @@ But when I see that this grand art is boldly professed by the uneducated and the
 
 5. The pitch of the voice is likewise different and varying in quality with different nations, for the following reasons. The terminating points east and west on the level of the earth, where the upper and lower parts of the heaven are divided, seem to lie in a naturally balanced circle which mathematicians call the Horizon. Keeping this idea definitely in mind, if we imagine a line drawn from the northern side of the circumference (N) to the side which lies above the southern half of the axis (S), and from here another line obliquely up to the pivot at the summit, beyond the stars composing the Great Bear (the pole star P), we shall doubtless see that we have in the heaven a triangular figure like that of the musical instrument which the Greeks call the "sambuca."
 
-![img-60.jpeg](images/img-60.jpeg)
+6. And so, under the space which is nearest to the pivot at the bottom, off the southern portions of the line of the axis, are found nations that on account of the slight altitude of the heaven above them, have shrill and very high-pitched voices, like the string nearest to the angle in the musical instrument. Next in order come other nations as far as the middle of Greece, with lower elevations of the voice; and from this middle point they go on in regular order up to the extreme north, where, under high altitudes, the vocal utterance of the inhabitants is, under natural laws, produced in heavier tones. Thus it is obvious that the system of the universe as a whole is, on account of the inclination of the heaven, composed in a most perfect harmony through the temporary power of the sun.
 
-6. And so, under the space which is nearest to the pivot at the bottom, off the southern portions of the line of the axis, are found nations that on
+7. The nations, therefore, that lie midway between the pivots at the southern and the northern extremities of the axis, converse in a voice of middle pitch, like the notes in the middle of a musical scale; but, as we proceed towards the north, the distances to the heaven become greater, and so the nations there, whose vocal utterance is reduced by the moisture to the "hypatès" and to "proslambanomenon," are naturally obliged to speak in heavier tones. In the same way, as we proceed from the middle point to the south, the voices of the nations there correspond in extreme height of pitch and in shrillness to the "paranetès" and "netès."
 
-account of the slight altitude of the heaven above them, have shrill and very high-pitched voices, like the string nearest to the angle in the musical instrument. Next in order come other nations as far as the middle of Greece, with lower elevations of the voice; and from this middle point they go on in regular order up to the extreme north, where, under high altitudes, the vocal utterance of the inhabitants is, under natural laws, produced in heavier tones. Thus it is obvious that the system of the universe as a whole is, on account of the inclination of the heaven, composed in a most perfect harmony through the temporary power of the sun.
-
-7. The nations, therefore, that lie midway between the pivots at the southern and the northern extremities of the axis, converse in a voice of middle pitch, like the notes in the middle of a musical scale; but, as we proceed towards the north, the distances to the heaven become greater, and so the nations there, whose vocal utterance is reduced by the moisture to the "hypatés" and to "proslambanomenon," are naturally obliged to speak in heavier tones. In the same way, as we proceed from the middle point to the south, the voices of the nations there correspond in extreme height of pitch and in shrillness to the "paranétés" and "netés."
-8. That it is a fact that things are made heavier from being in places naturally moist, and higher pitched from places that are hot, may be proved from the following experiment. Take two cups which have been baked in the same oven for an equal time, which are of equal weight, and which give the same note when struck. Dip one of them into water and, after taking it out of water, strike
-
----
-
-them both. This done, there will be a great difference in their notes, and the cups can no longer be equal in weight. Thus it is with men: though born in the same general form and under the same all-embracing heaven, yet in some of them, on account of the heat in their country, the voice strikes the air on a high note, while in others, on account of abundance of moisture, the quality of tones produced is very heavy.
+8. That it is a fact that things are made heavier from being in places naturally moist, and higher pitched from places that are hot, may be proved from the following experiment. Take two cups which have been baked in the same oven for an equal time, which are of equal weight, and which give the same note when struck. Dip one of them into water and, after taking it out of water, strike them both. This done, there will be a great difference in their notes, and the cups can no longer be equal in weight. Thus it is with men: though born in the same general form and under the same all-embracing heaven, yet in some of them, on account of the heat in their country, the voice strikes the air on a high note, while in others, on account of abundance of moisture, the quality of tones produced is very heavy.
 
 9. Further, it is owing to the rarity of the atmosphere that southern nations, with their keen intelligence due to the heat, are very free and swift in the devising of schemes, while northern nations, being enveloped in a dense atmosphere, and chilled by moisture from the obstructing air, have but a sluggish intelligence. That this is so, we may see from the case of snakes. Their movements are most active in hot weather, when they have got rid of the chill due to moisture, whereas at the winter solstice, and in winter weather, they are chilled by the change of temperature, and rendered torpid and motionless. It is therefore no wonder that man's intelligence is made keener by warm air and duller by cold.
 
 10. But although southern nations have the keenest wits, and are infinitely clever in forming schemes, yet the moment it comes to displaying valour, they succumb because all manliness of spirit is sucked out of them by the sun. On the other hand, men born in cold countries are indeed readier to meet the shock of arms with great courage and without timidity, but their wits are so slow that they will rush to the charge inconsiderately and inexpertly, thus defeating their own devices. Such being nature's arrangement of the universe, and all these nations being allotted temperaments which are lacking in due moderation, the truly perfect territory, situated under the middle of the heaven, and having on each side the entire extent of the world and its countries, is that which is occupied by the Roman people.
 
-11. In fact, the races of Italy are the most perfectly constituted in both respects—in bodily form and in mental activity to correspond to their valour. Exactly as the planet Jupiter is itself temperate, its course lying midway between Mars, which is very hot, and Saturn, which is very cold, so Italy, lying between the north and the south, is a combination of what is found on each side, and her preeminence is well regulated and indisputable. And so by her wisdom she breaks the courageous onsets of the barbarians, and by her strength of hand thwarts the devices of the southerners. Hence, it was the divine intelligence that set the city of the Roman people in a peerless and temperate country, in order that it might acquire the right to command the whole world.
+11. In fact, the races of Italy are the most perfectly constituted in both respects—in bodily form and in mental activity to correspond to their valour. Exactly as the planet Jupiter is itself temperate, its course lying midway between Mars, which is very hot, and Saturn, which is very cold, so Italy, lying between the north and the south, is a combination of what is found on each side, and her preëminence is well regulated and indisputable. And so by her wisdom she breaks the courageous onsets of the barbarians, and by her strength of hand thwarts the devices of the southerners. Hence, it was the divine intelligence that set the city of the Roman people in a peerless and temperate country, in order that it might acquire the right to command the whole world.
 
 12. Now if it is a fact that countries differ from one another, and are of various classes according to climate, so that the very nations born therein naturally differ in mental and physical conformation and qualities, we cannot hesitate to make our houses suitable in plan to the peculiarities of nations and races, since we have the expert guidance of nature herself ready to our hand.
 
 I have now set forth the peculiar characteristics of localities, so far as I could note them, in the most summary way, and have stated how we ought to make our houses conform to the physical qualities of nations, with due regard to the course of the sun and to climate. Next I shall treat the symmetrical proportions of the different styles of houses, both as wholes and in their separate parts.
 
-
-
----
-
-# CHAPTER II
-
-## SYMMETRY, AND MODIFICATIONS IN IT TO SUIT THE SITE
+## Chapter II. Symmetry, and Modifications in It to Suit the Site
 
 1. There is nothing to which an architect should devote more thought than to the exact proportions of his building with reference to a certain part selected as the standard. After the standard of symmetry has been determined, and the proportionate dimensions adjusted by calculations, it is next the part of wisdom to consider the nature of the site, or questions of use or beauty, and modify the plan by diminutions or additions in such a manner that these diminutions or additions in the symmetrical relations may be seen to be made on correct principles, and without detracting at all from the effect.
 
@@ -1765,11 +894,7 @@ I have now set forth the peculiar characteristics of localities, so far as I cou
 
 5. Hence, the first thing to settle is the standard of symmetry, from which we need not hesitate to vary. Then, lay out the ground lines of the length and breadth of the work proposed, and when once we have determined its size, let the construction follow this with due regard to beauty of proportion, so that the beholder may feel no doubt of the eurythmy of its effect. I must now tell how this may be brought about, and first I will speak of the proper construction of a cavaedium.
 
----
-
-# CHAPTER III
-
-# PROPORTIONS OF THE PRINCIPAL ROOMS
+## Chapter III. Proportions of the Principal Rooms
 
 1. There are five different styles of cavaedium, termed according to their construction as follows: Tuscan, Corinthian, tetrastyle, displuviate, and testudinate.
 
@@ -1779,46 +904,7 @@ In the Corinthian, the girders and roof-opening are constructed on these same pr
 
 In the tetrastyle, the girders are supported at the angles by columns, an arrangement which relieves and strengthens the girders; for thus they have themselves no great span to support, and they are not loaded down by the crossbeams.
 
-![img-61.jpeg](images/img-61.jpeg)
-From Mau
-THE SENSE OF THE SURGEON, PURPED
-Illustrating The Tuscan Atrium
-
-1. Fauces 9, 10. Dining rooms
-2, 3. Shops 13. Kitchen,  $a$ , hearth
-4. Storage 14. Rear Entrance
-5. Atrium 16. Portico
-6. Chambers 18. Stairs to rooms over the rear of the house
-7. Tablinum 20. Garden
-8. Alae
-
-![img-62.jpeg](images/img-62.jpeg)
-From Mau
-
----
-
 2. In the displuviate, there are beams which slope outwards, supporting the roof and throwing the rainwater off. This style is suitable chiefly in winter residences, for its roof-opening, being high up, is not an obstruction to the light of the dining rooms. It is, however, very troublesome to keep in repair, because the pipes, which are intended to hold the water that comes dripping down the walls all round, cannot take it quickly enough as it runs down from the channels, but get too full and run over, thus spoiling the woodwork and the walls of houses of this style.
-
-![img-63.jpeg](images/img-63.jpeg)
-From Mau
-HOUSE OF THE SECTOR WEDDING AT POMPHI
-Illustrating The Tetrastyle Atrium
-
-a. fauces
-
-p. andron
-
-d. tetrastyle atrium
-
-r. peristyle
-
-n. dining room
-
-s. summer dining ro
-
-om
-
-o. tablinum
 
 The testudinate is employed where the span is not great, and where large rooms are provided in upper stories.
 
@@ -1828,34 +914,13 @@ The testudinate is employed where the span is not great, and where large rooms a
 
 The alae, to the right and left, should have a width equal to one third of the length of the atrium, when that is from thirty to forty feet long. From forty to fifty feet, divide the length by three and one half, and give the alae the result. When it is from fifty to sixty feet in length, devote one fourth of the length to the alae. From sixty to eighty feet, divide the length by four and one half and let the result be the width of the alae. From eighty feet to one hundred feet, the length divided into five parts will produce the right width for the alae. Their lintel beams should be placed high enough to make the height of the alae equal to their width.
 
-5. The tablinum should be given two thirds of the width of the atrium when the latter is twenty feet wide. If it is from thirty to forty feet, let half the width of the atrium be devoted to the tablinum. When it is from forty to sixty feet, divide the width into five
-
----
-
-parts and let two of these be set apart for the tablinum. In the case of smaller atriums, the symmetrical proportions cannot be the
-
-![img-64.jpeg](images/img-64.jpeg)
-From Mau
-PLAN OF A TYPICAL ROMAN HOUSE
-
-same as in larger. For if, in the case of the smaller, we employ the proportion that belong to the larger, both tablina and alae must be unserviceable, while if, in the case of the larger, we employ the proportions of the smaller, the rooms mentioned will be huge monstrosities. Hence, I have thought it best to describe exactly their respective proportionate sizes, with a view both to convenience and to beauty.
+5. The tablinum should be given two thirds of the width of the atrium when the latter is twenty feet wide. If it is from thirty to forty feet, let half the width of the atrium be devoted to the tablinum. When it is from forty to sixty feet, divide the width into five parts and let two of these be set apart for the tablinum. In the case of smaller atriums, the symmetrical proportions cannot be the same as in larger. For if, in the case of the smaller, we employ the proportion that belong to the larger, both tablina and alae must be unserviceable, while if, in the case of the larger, we employ the proportions of the smaller, the rooms mentioned will be huge monstrosities. Hence, I have thought it best to describe exactly their respective proportionate sizes, with a view both to convenience and to beauty.
 
 6. The height of the tablinum at the lintel should be one eighth more than its width. Its ceiling should exceed this height by one third of the width. The fauces in the case of smaller atriums should be two thirds, and in the case of larger one half the width of the tablinum. Let the busts of ancestors with their ornaments be set up at a height corresponding to the width of the alae. The proportionate width and height of doors may be settled, if they are Doric, in the Doric manner, and if Ionic, in the Ionic manner, according to the rules of symmetry which have been given about portals in the fourth book. In the roof-opening let an aperture be left with a breadth of not less than one fourth nor more than one third the width of the atrium, and with a length proportionate to that of the atrium.
 
-![img-65.jpeg](images/img-65.jpeg)
-Photo. Sommer
-THE PERISTYLE OF THE HOUSE OF THE VETTE AT POMPER
-
-7. Peristyles, lying athwart, should be one third longer than they are deep, and their columns as high as the colonnades are wide.
-
-Intercolumnations of peristyles should be not less than three nor more than four times the thickness of the columns. If the columns of the peristyle are to be made in the Doric style, take the modules which I have given in the fourth book, on the Doric order, and arrange the columns with reference to these modules and to the scheme of the triglyphs.
+7. Peristyles, lying athwart, should be one third longer than they are deep, and their columns as high as the colonnades are wide. Intercolumniations of peristyles should be not less than three nor more than four times the thickness of the columns. If the columns of the peristyle are to be made in the Doric style, take the modules which I have given in the fourth book, on the Doric order, and arrange the columns with reference to these modules and to the scheme of the triglyphs.
 
 8. Dining rooms ought to be twice as long as they are wide. The height of all oblong rooms should be calculated by adding together their measured length and width, taking one half of this total, and using the result for the height. But in the case of exedrae or square oeci, let the height be brought up to one and one half times the width. Picture galleries, like exedrae, should be constructed of generous dimensions. Corinthian and tetrastyle oeci, as well as those termed Egyptian, should have the same symmetrical proportions in width and length as the dining rooms described above, but, since they have columns in them, their dimensions should be ampler.
-
-![img-66.jpeg](images/img-66.jpeg)
-From Darm
-
----
 
 9. The following will be the distinction between Corinthian and Egyptian oeci: the Corinthian have single tiers of columns, set either on a podium or on the ground, with architraves over them and coronae either of woodwork or of stucco, and carved vaulted ceilings above the coronae. In the Egyptian there are architraves over the columns, and joists laid thereon from the architraves to the surrounding walls, with a floor in the upper story to allow of walking round under the open sky. Then, above the architrave and perpendicularly over the lower tier of columns, columns one fourth smaller should be imposed. Above their architraves and ornaments are decorated ceilings, and the upper columns have windows set in between them. Thus the Egyptian are not like Corinthian dining rooms, but obviously resemble basilicas.
 
@@ -1863,29 +928,17 @@ From Darm
 
 11. All the above-mentioned symmetrical relations should be observed, in these kinds of buildings, that can be observed without embarrassment caused by the situation. The windows will be an easy matter to arrange if they are not darkened by high walls; but in cases of confined space, or when there are other unavoidable obstructions, it will be permissible to make diminutions or additions in the symmetrical relations,—with ingenuity and acuteness, however, so that the result may be not unlike the beauty which is due to true symmetry.
 
-114
-
----
-
-# CHAPTER IV
-
-## THE PROPER EXPOSURES OF THE DIFFERENT ROOMS
+## Chapter IV. The Proper Exposures of the Different Rooms
 
 1. We shall next explain how the special purposes of different rooms require different exposures, suited to convenience and to the quarters of the sky. Winter dining rooms and bathrooms should have a southwestern exposure, for the reason that they need the evening light, and also because the setting sun, facing them in all its splendour but with abated heat, lends a gentler warmth to that quarter in the evening. Bedrooms and libraries ought to have an eastern exposure, because their purposes require the morning light, and also because books in such libraries will not decay. In libraries with southern exposures the books are ruined by worms and dampness, because damp winds come up, which breed and nourish the worms, and destroy the books with mould, by spreading their damp breath over them.
 
 2. Dining rooms for Spring and Autumn to the east; for when the windows face that quarter, the sun, as he goes on his career from over against them to the west, leaves such rooms at the proper temperature at the time when it is customary to use them. Summer dining rooms to the north, because that quarter is not, like the others, burning with heat during the solstice, for the reason that it is unexposed to the sun's course, and hence it always keeps cool, and makes the use of the rooms both healthy and agreeable. Similarly with picture galleries, embroiderers' work rooms, and painters' studios, in order that the fixed light may permit the colours used in their work to last with qualities unchanged.
 
-
-
----
-
-# CHAPTER V
-
-## HOW THE ROOMS SHOULD BE SUITED TO THE STATION OF THE OWNER
+## Chapter V. How the Rooms Should Be Suited to the Station of the Owner
 
 1. After settling the positions of the rooms with regard to the quarters of the sky, we must next consider the principles on which should be constructed those apartments in private houses which are meant for the householders themselves, and those which are to be shared in common with outsiders. The private rooms are those into which nobody has the right to enter without an invitation, such as bedrooms, dining rooms, bathrooms, and all others used for the like purposes. The common are those which any of the people have a perfect right to enter, even without an invitation: that is, entrance courts, cavaedia, peristyles, and all intended for the like purpose. Hence, men of everyday fortune do not need entrance courts, tablina, or atriums built in grand style, because such men are more apt to discharge their social obligations by going round to others than to have others come to them.
 
-2. Those who do business in country produce must have stalls and shops in their entrance courts, with crypts, granaries, store-rooms, and so forth in their houses, constructed more for the purpose of keeping the produce in good condition than for ornamental beauty.
+2. Those who do business in country produce must have stalls and shops in their entrance courts, with crypts, granaries, storerooms, and so forth in their houses, constructed more for the purpose of keeping the produce in good condition than for ornamental beauty.
 
 For capitalists and farmers of the revenue, somewhat comfortable and showy apartments must be constructed, secure against robbery; for advocates and public speakers, handsomer and more roomy, to accommodate meetings; for men of rank who, from holding offices and magistracies, have social obligations to their fellow-citizens, lofty entrance courts in regal style, and most spacious atriums and peristyles, with plantations and walks of some extent in them, appropriate to their dignity. They need also libraries, picture galleries, and basilicas, finished in a style similar to that of great public buildings, since public councils as well as private law suits and hearings before arbitrators are very often held in the houses of such men.
 
@@ -1893,11 +946,7 @@ For capitalists and farmers of the revenue, somewhat comfortable and showy apart
 
 I have now set forth the rules for houses in town so far as I could describe them in a summary way. Next I shall state how farmhouses may be arranged with a view to convenience in use, and shall give the rules for their construction.
 
----
-
-# CHAPTER VI
-
-# THE FARMHOUSE
+## Chapter VI. The Farmhouse
 
 1. In the first place, inspect the country from the point of view of health, in accordance with what is written in my first book, on the building of cities, and let your farmhouses be situated accordingly. Their dimensions should depend upon the size of the farm and the amount of produce. Their courtyards and the dimensions thereof should be determined by the number of cattle and the number of yokes of oxen that will need to be kept therein. Let the kitchen be placed on the warmest side of the courtyard, with the stalls for the oxen adjoining, and their cribs facing the kitchen fire and the eastern quarter of the sky, for the reason that oxen facing the light and the fire do not get rough-coated. Even peasants wholly without knowledge of the quarters of the sky believe that oxen ought to face only in the direction of the sunrise.
 
@@ -1909,100 +958,49 @@ Let the pressing room, also, be next to the kitchen; for in this situation it wi
 
 4. Folds for sheep and goats must be made large enough to allow each animal a space of not less than four and a half, nor more than six feet. Rooms for grain should be set in an elevated position and with a northern or north-eastern exposure. Thus the grain will not be able to heat quickly, but, being cooled by the wind, keeps a long time. Other exposures produce the corn weevil and the other little creatures that are wont to spoil the grain. To the stable should be assigned the very warmest place in the farmhouse, provided that it is not exposed to the kitchen fire; for when draught animals are stabled very near a fire, their coats get rough.
 
-![img-67.jpeg](images/img-67.jpeg)
-From Man
-
-THE VILLA BUSTICA AT BOSCHREALE NEAR POMPEE
-
-A. Court. B. Kitchen. C-F. Baths. H. Stable.
-
-J. Toolroom. K, L, V, V. Bedrooms.
-
-N. Dining Room. M. Anteroom. O. Bakery.
-
-P. Room with two winepresses. Q. Corridor.
-
-B. Court for fermentation of wine. S. Barn.
-
-T. Threshing-floor. Y. Room with oil press.
-
 5. Furthermore, there are advantages in building cribs apart from the kitchen and in the open, facing the east; for when the oxen are taken over to them on early winter mornings in clear weather, their coats get sleeker as they take their fodder in the sunlight. Barns for grain, hay, and spelt, as well as bakeries, should be built apart from the farmhouse, so that farmhouses may be better protected against danger from fire. If something more refined is required in farmhouses, they may be constructed on the principles of symmetry which have been given above in the case of town houses, provided that there is nothing in such buildings to interfere with their usefulness on a farm.
 
 6. We must take care that all buildings are well lighted, but this is obviously an easier matter with those which are on country estates, because there can be no neighbour's wall to interfere, whereas in town high party walls or limited space obstruct the light and make them dark. Hence we must apply the following test in this matter. On the side from which the light should be obtained let a line be stretched from the top of the wall that seems to obstruct the light to the point at which it ought to be introduced, and if a considerable space of open sky can be seen when one looks up above that line, there will be no obstruction to the light in that situation.
-
----
 
 7. But if there are timbers in the way, or lintels, or upper stories, then, make the opening higher up and introduce the light in this way. And as a general rule, we must arrange so as to leave places for windows on all sides on which a clear view of the sky can be had, for this will make our buildings light. Not only in dining rooms and other rooms for general use are windows very necessary, but also in passages, level or inclined, and on stairs; for people carrying burdens too often meet and run against each other in such places.
 
 I have now set forth the plans used for buildings in our native country so that they may be clear to builders. Next, I shall describe summarily how houses are planned in the Greek fashion, so that these also may be understood.
 
+## Chapter VII. The Greek House
 
-
----
-
-# CHAPTER VII
-
-# THE GREEK HOUSE
-
-1. The Greeks, having no use for atriums, do not build them, but make passage-ways for people entering from the front door, not very wide, with stables on one side and doorkeepers' rooms on the other, and shut off by doors at the inner end. This place between
-
-![img-68.jpeg](images/img-68.jpeg)
-PLAN OF VITRUNTUS' GREEK HOUSE ACCORDING TO BECKER
-
-the two doors is termed in Greek θυρεορειον. From it one enters the peristyle. This peristyle has colonnades on three sides, and on the side facing the south it has two antae, a considerable distance apart, carrying an architrave, with a recess for a distance one third less than the space between the antae. This space is called by some writers "prostas," by others "pastas."
+1. The Greeks, having no use for atriums, do not build them, but make passage-ways for people entering from the front door, not very wide, with stables on one side and doorkeepers' rooms on the other, and shut off by doors at the inner end. This place between the two doors is termed in Greek θυρωρειον. From it one enters the peristyle. This peristyle has colonnades on three sides, and on the side facing the south it has two antae, a considerable distance apart, carrying an architrave, with a recess for a distance one third less than the space between the antae. This space is called by some writers "prostas," by others "pastas."
 
 2. Hereabouts, towards the inner side, are the large rooms in which mistresses of houses sit with their wool-spinners. To the right and left of the prostas there are chambers, one of which is called the "thalamos," the other the "amphithalamos." All round the colonnades are dining rooms for everyday use, chambers, and rooms for the slaves. This part of the house is termed "gynaeconitis."
 
 3. In connexion with these there are ampler sets of apartments with more sumptuous peristyles, surrounded by four colonnades of equal height, or else the one which faces the south has higher columns than the others. A peristyle that has one such higher colonnade is called a Rhodian peristyle. Such apartments have fine entrance courts with imposing front doors of their own; the colonnades of the peristyles are decorated with polished stucco in relief and plain, and with coffered ceilings of woodwork; off the colonnades that face the north they have Cyzicene dining rooms and picture galleries; to the east, libraries; exedrae to the west; and to the south, large square rooms of such generous dimensions that four sets of dining couches can easily be arranged in them, with plenty of room for serving and for the amusements.
 
-4. Men's dinner parties are held in these large rooms; for it was not the practice, according to Greek custom, for the mistress of the house to be present. On the contrary, such peristyles are called the men's apartments, since in them the men can stay without interruption from the women. Furthermore, small sets of apartments are built to the right and left, with front doors of their own and suitable dining rooms and chambers, so that guests from abroad need not be shown into the peristyles, but rather into such guests' apartments. For when the Greeks became more luxurious, and their
-
-circumstances more opulent, they began to provide dining rooms, chambers, and store-rooms of provisions for their guests from abroad, and on the first day they would invite them to dinner, sending them on the next chickens, eggs, vegetables, fruits, and other country produce. This is why artists called pictures representing the things which were sent to guests "xenia." Thus, too, the heads of families, while being entertained abroad, had the feeling that they were not away from home, since they enjoyed privacy and freedom in such guests' apartments.
+4. Men's dinner parties are held in these large rooms; for it was not the practice, according to Greek custom, for the mistress of the house to be present. On the contrary, such peristyles are called the men's apartments, since in them the men can stay without interruption from the women. Furthermore, small sets of apartments are built to the right and left, with front doors of their own and suitable dining rooms and chambers, so that guests from abroad need not be shown into the peristyles, but rather into such guests' apartments. For when the Greeks became more luxurious, and their circumstances more opulent, they began to provide dining rooms, chambers, and store-rooms of provisions for their guests from abroad, and on the first day they would invite them to dinner, sending them on the next chickens, eggs, vegetables, fruits, and other country produce. This is why artists called pictures representing the things which were sent to guests "xenia." Thus, too, the heads of families, while being entertained abroad, had the feeling that they were not away from home, since they enjoyed privacy and freedom in such guests' apartments.
 
 5. Between the two peristyles and the guests' apartments are the passage-ways called "mesauloe," because they are situated midway between two courts; but our people called them "andrones."
 
-This, however, is a very strange fact, for the term does not fit either the Greek or the Latin use of it. The Greeks call the large rooms in which men's dinner parties are usually held  $\text{ανδρονες}$ , because women do not go there. There are other similar instances as in the case of "xystus," "prothyrum," "telamones," and some others of the sort. As a Greek term,  $\text{ξνατος}$  means a colonnade of large dimensions in which athletes exercise in the winter time. But our people apply the term "xysta" to uncovered walks, which the Greeks call παραδρομίδες. Again, πρόθρα means in Greek the entrance courts before the front doors; we, however, use the term "prothyra" in the sense of the Greek διαθρα.
+This, however, is a very strange fact, for the term does not fit either the Greek or the Latin use of it. The Greeks call the large rooms in which men's dinner parties are usually held ἁνδρωνεϛ, because women do not go there. There are other similar instances as in the case of "xystus," "prothyrum," "telamones," and some others of the sort. As a Greek term, ξνστὁς means a colonnade of large dimensions in which athletes exercise in the winter time. But our people apply the term "xysta" to uncovered walks, which the Greeks call παραδρομἱδες. Again, πρὁθυρα means in Greek the entrance courts before the front doors; we, however, use the term "prothyra" in the sense of the Greek διἁθυρα.
 
----
-
-![img-69.jpeg](images/img-69.jpeg)
-From Bull. de. Corr. Hell. 1895
-GREEK HOUSE AT DELOS
-
-![img-70.jpeg](images/img-70.jpeg)
-From Mitt. d. Deutsch. Arch. Inst.
-GREEK HOUSE DISCOVERED AT PERGAMICM IN 1903
-
----
-
-6. Again, figures in the form of men supporting mutules or coronae, we term "telamones"—the reasons why or wherefore they are so called are not found in any story—but the Greeks name them ἀτλανες. For Atlas is described in story as holding up the firmament because, through his vigorous intelligence and ingenuity, he was the first to cause men to be taught about the courses of the sun and moon, and the laws governing the revolutions of all the constellations. Consequently, in recognition of this benefaction, painters and sculptors represent him as holding up the firmament, and the Atlantides, his daughters, whom we call "Vergiliae" and the Greeks Πλειάδες, are consecrated in the firmament among the constellations.
+6. Again, figures in the form of men supporting mutules or coronae, we term "telamones"—the reasons why or wherefore they are so called are not found in any story—but the Greeks name them ἁτλανες. For Atlas is described in story as holding up the firmament because, through his vigorous intelligence and ingenuity, he was the first to cause men to be taught about the courses of the sun and moon, and the laws governing the revolutions of all the constellations. Consequently, in recognition of this benefaction, painters and sculptors represent him as holding up the firmament, and the Atlantides, his daughters, whom we call "Vergiliae" and the Greeks Πλειἁδες, are consecrated in the firmament among the constellations.
 
 7. All this, however, I have not set forth for the purpose of changing the usual terminology or language, but I have thought that it should be explained so that it may be known to scholars.
 
 I have now explained the usual ways of planning houses both in the Italian fashion and according to the practices of the Greeks, and have described, with regard to their symmetry, the proportions of the different classes. Having, therefore, already written of their beauty and propriety, I shall next explain, with reference to durability, how they may be built to last to a great age without defects.
 
----
-
-# CHAPTER VIII
-
-# ON FOUNDATIONS AND SUBSTRUCTURES
+## Chapter VIII. On Foundations and Substructures
 
 1. Houses which are set level with the ground will no doubt last to a great age, if their foundations are laid in the manner which we have explained in the earlier books, with regard to city walls and theatres. But if underground rooms and vaults are intended, their foundations ought to be thicker than the walls which are to be constructed in the upper part of the house, and the walls, piers, and columns of the latter should be set perpendicularly over the middle of the foundation walls below, so that they may have solid bearing; for if the load of the walls or columns rests on the middle of spans, they can have no permanent durability.
+
 2. It will also do no harm to insert posts between lintels and sills where there are piers or antae; for where the lintels and beams have received the load of the walls, they may sag in the middle, and gradually undermine and destroy the walls. But when there are posts set up underneath and wedged in there, they prevent the beams from settling and injuring such walls.
+
 3. We must also manage to discharge the load of the walls by means of archings composed of voussoirs with joints radiating to the centre. For when arches with voussoirs are sprung from the ends of beams, or from the bearings of lintels, in the first place they will discharge the load and the wood will not sag; secondly, if in course of time the wood becomes at all defective, it can easily be replaced without the construction of shoring.
+
 4. Likewise in houses where piers are used in the construction, when there are arches composed of voussoirs with joints radiating to the centre, the outermost piers at these points must be made broader than the others, so that they may have the strength to resist when the wedges, under the pressure of the load of the walls, begin to press along their joints towards the centre, and thus to thrust out the abutments. Hence, if the piers at the ends are of large dimensions, they will hold the voussoirs together, and make such works durable.
+
 5. Having taken heed in these matters to see that proper attention is paid to them, we must also be equally careful that all walls are perfectly vertical, and that they do not lean forward anywhere. Particular pains, too, must be taken with substructures, for here an endless amount of harm is usually done by the earth used as filling. This cannot always remain of the same weight that it usually has in summer, but in winter time it increases in weight and bulk by taking up a great deal of rain water, and then it bursts its enclosing walls and thrusts them out.
+
 6. The following means must be taken to provide against such a defect. First, let the walls be given a thickness proportionate to the amount of filling; secondly, build counterforts or buttresses at the same time as the wall, on the outer side, at distances from each other equivalent to what is to be the height of the substructure and with the thickness of the substructure. At the bottom let them run out to a distance corresponding to the thickness that has been determined for the substructure, and then gradually diminish in extent so that at the surface their projection is equal to the thickness of the wall of the building.
 
-![img-71.jpeg](images/img-71.jpeg)
-RETAINING WALLS
-(From the edition of Vitruvius by Fra Giocondo, Venice 1511)
-
-7. Furthermore, inside, to meet the mass of earth, there should be saw-shaped constructions attached to the wall, the single teeth extending from the wall for a distance equivalent to what is to be the height of the substructure, and the teeth being constructed with the same thickness as the wall. Then at the outermost angles take a distance inwards, from the inside of the angle, equal to the height of the substructure, and mark it off on each side; from these marks build up a diagonal structure and from the middle of it a
-
----
-
-second, joined on to the angle of the wall. With this arrangement, the teeth and diagonal structures will not allow the filling to thrust with all its force against the wall, but will check and distribute the pressure.
+7. Furthermore, inside, to meet the mass of earth, there should be saw-shaped constructions attached to the wall, the single teeth extending from the wall for a distance equivalent to what is to be the height of the substructure, and the teeth being constructed with the same thickness as the wall. Then at the outermost angles take a distance inwards, from the inside of the angle, equal to the height of the substructure, and mark it off on each side; from these marks build up a diagonal structure and from the middle of it a second, joined on to the angle of the wall. With this arrangement, the teeth and diagonal structures will not allow the filling to thrust with all its force against the wall, but will check and distribute the pressure.
 
 8. I have now shown how buildings can be constructed without defects, and the way to take precautions against the occurrence of them. As for replacing tiles, roof timbers, and rafters, we need not be so particular about them as about the parts just mentioned, because they can easily be replaced, however defective they may become. Hence, I have shown by what methods the parts which are not considered solid can be rendered durable, and how they are constructed.
 
@@ -2012,15 +1010,9 @@ second, joined on to the angle of the wall. With this arrangement, the teeth and
 
 I have now described as clearly as I could what I thought necessary for private houses, and how to build them. In the following book I shall treat of the kinds of polished finish employed to make them elegant, and durable without defects to a great age.
 
+# BOOK VII
 
-
----
-
-
-
----
-
-# INTRODUCTION
+## Introduction
 
 1. It was a wise and useful provision of the ancients to transmit their thoughts to posterity by recording them in treatises, so that they should not be lost, but, being developed in succeeding generations through publication in books, should gradually attain in later times, to the highest refinement of learning. And so the ancients deserve no ordinary, but unending thanks, because they did not pass on in envious silence, but took care that their ideas of every kind should be transmitted to the future in their writings.
 
@@ -2040,19 +1032,13 @@ I have now described as clearly as I could what I thought necessary for private 
 
 9. But it is said that the king replied, that Homer, though dead a thousand years ago, had all that time been the means of livelihood for many thousands of men; similarly, a person who laid claim to higher genius ought to be able to support not one man only, but many others. And in short, various stories are told about his death, which was like that of one found guilty of parricide. Some writers have said that he was crucified by Philadelphus; others that he was stoned at Chios; others again that he was thrown alive upon a funeral pyre at Smyrna. Whichever of these forms of death befell him, it was a fitting punishment and his just due; for one who accuses men that cannot answer and show, face to face, what was the meaning of their writings, obviously deserves no other treatment.
 
-10. But for my part, Caesar, I am not bringing forward the present treatise after changing the titles of other men's books and inserting my own name, nor has it been my plan to win approbation by finding fault with the ideas of another. On the contrary, I
-
-
-
----
-
-express unlimited thanks to all the authors that have in the past, by compiling from antiquity remarkable instances of the skill shown by genius, provided us with abundant materials of different kinds. Drawing from them as it were water from springs, and converting them to our own purposes, we find our powers of writing rendered more fluent and easy, and, relying upon such authorities, we venture to produce new systems of instruction.
+10. But for my part, Caesar, I am not bringing forward the present treatise after changing the titles of other men's books and inserting my own name, nor has it been my plan to win approbation by finding fault with the ideas of another. On the contrary, I express unlimited thanks to all the authors that have in the past, by compiling from antiquity remarkable instances of the skill shown by genius, provided us with abundant materials of different kinds. Drawing from them as it were water from springs, and converting them to our own purposes, we find our powers of writing rendered more fluent and easy, and, relying upon such authorities, we venture to produce new systems of instruction.
 
 11. Hence, as I saw that such beginnings on their part formed an introduction suited to the nature of my own purpose, I set out to draw from them, and to go somewhat further.
 
 In the first place Agatharcus, in Athens, when Aeschylus was bringing out a tragedy, painted a scene, and left a commentary about it. This led Democritus and Anaxagoras to write on the same subject, showing how, given a centre in a definite place, the lines should naturally correspond with due regard to the point of sight and the divergence of the visual rays, so that by this deception a faithful representation of the appearance of buildings might be given in painted scenery, and so that, though all is drawn on a vertical flat façade, some parts may seem to be withdrawing into the background, and others to be standing out in front.
 
-12. Afterwards Silenus published a book on the proportions of Doric structures; Theodorus, on the Doric temple of Juno which is in Samos; Chersiphron and Metagenes, on the Ionic temple at Ephesus which is Diana's; Pytheos, on the Ionic fane of Minerva which is at Priene; Ictinus and Carpion, on the Doric temple of Minerva which is on the acropolis of Athens; Theodorus the Phocian, on the Round Building which is at Delphi; Philo, on the proportions of temples, and on the naval arsenal which was[9] at the port of Peiraeus; Hermogenes, on the Ionic temple of Diana which is at Magnesia, a pseudodipteral, and on that of Father Bacchus at Teos, a monopteral; Arcesius, on the Corinthian proportions, and on the Ionic temple of Aesculapius at Tralles, which it is said that he built with his own hands; on the Mausoleum, Satyrus and Pytheos who were favoured with the greatest and highest good fortune.
+12. Afterwards Silenus published a book on the proportions of Doric structures; Theodorus, on the Doric temple of Juno which is in Samos; Chersiphron and Metagenes, on the Ionic temple at Ephesus which is Diana's; Pytheos, on the Ionic fane of Minerva which is at Priene; Ictinus and Carpion, on the Doric temple of Minerva which is on the acropolis of Athens; Theodorus the Phocian, on the Round Building which is at Delphi; Philo, on the proportions of temples, and on the naval arsenal which was at the port of Peiraeus; Hermogenes, on the Ionic temple of Diana which is at Magnesia, a pseudodipteral, and on that of Father Bacchus at Teos, a monopteral; Arcesius, on the Corinthian proportions, and on the Ionic temple of Aesculapius at Tralles, which it is said that he built with his own hands; on the Mausoleum, Satyrus and Pytheos who were favoured with the greatest and highest good fortune.
 
 13. For men whose artistic talents are believed to have won them the highest renown for all time, and laurels forever green, devised and executed works of supreme excellence in this building. The decoration and perfection of the different façades were undertaken by different artists in emulation with each other: Leochares, Bryaxis, Scopas, Praxiteles, and, as some think, Timotheus; and the distinguished excellence of their art made that building famous among the seven wonders of the world.
 
@@ -2064,19 +1050,9 @@ In the first place Agatharcus, in Athens, when Aeschylus was bringing out a trag
 
 17. Afterwards, however, when Demetrius of Phalerum was master of Athens, Philo set up columns in front before the temple, and made it prostyle. Thus, by adding an entrance hall, he gave the initiates more room, and imparted the greatest dignity to the building. Finally, in Athens, the temple of the Olympion with its dimensions on a generous scale, and built in the Corinthian style and proportions, is said to have been constructed, as written above, by Cossutius, no commentary by whom has been found. But Cossutius is not the only man by whom we should like to have writings on our subject. Another is Gaius Mucius, who, having great knowledge on which to rely, completed the cella, columns, and entablature of the Marian temple of Honour and Valour, in symmetrical proportions according to the accepted rules of the art. If this building had been of marble, so that besides the refinement of its art it possessed the dignity coming from magnificence and great outlay, it would be reckoned among the first and greatest of works.
 
-
-
----
-
 18. Since it appears, then, that our architects in the old days, and a good many even in our own times, have been as great as those of the Greeks, and nevertheless only a few of them have published treatises, I resolved not to be silent, but to treat the different topics methodically in different books. Hence, since I have given an account of private houses in the sixth book, in this, which is the seventh in order, I shall treat of polished finishings and the methods of giving them both beauty and durability.
 
-
-
----
-
-# CHAPTER I
-
-## FLOORS
+## Chapter I. Floors
 
 1. First I shall begin with the concrete flooring, which is the most important of the polished finishings, observing that great pains and the utmost precaution must be taken to ensure its durability. If this concrete flooring is to be laid level with the ground, let the soil be tested to see whether it is everywhere solid, and if it is, level it off and upon it lay the broken stone with its bedding. But if the floor is either wholly or partly filling, it should be rammed down hard with great care. In case a wooden framework is used, however, we must see that no wall which does not reach up to the top of the house is constructed under the floor. Any wall which is there should preferably fall short, so as to leave the wooden planking above it an unsupported span. If a wall comes up solid, the unyielding nature of its solid structure must, when the joists begin to dry, or to sag and settle, lead to cracks in the floor on the right and left along the line of wall.
 
@@ -2094,27 +1070,13 @@ When the wooden planking is finished, cover it with fern, if there is any, other
 
 7. If, however, it seems needful to use still greater care, lay two-foot tiles, jointed together in a bed of mortar, over the broken stone, with little channels of one finger's breadth cut in the faces of all the joints. Connect these channels and fill them with a mixture of lime and oil; then, rub the joints hard and make them compact. Thus, the lime sticking in the channels will harden and solidify into a mass, and so prevent water or anything else from penetrating through the joints. After this layer is finished, spread the nucleus upon it, and work it down by beating it with rods. Upon this lay the floor, at the inclination above described, either of large cubes or burnt brick in herring-bone pattern, and floors thus constructed will not soon be spoiled.
 
-
-
----
-
-
-
----
-
-# CHAPTER II
-
-## THE SLAKING OF LIME FOR STUCCO
+## Chapter II. The Slaking of Lime for Stucco
 
 1. Leaving the subject of floors, we must next treat of stucco work. This will be all right if the best lime, taken in lumps, is slaked a good while before it is to be used, so that if any lump has not been burned long enough in the kiln, it will be forced to throw off its heat during the long course of slaking in the water, and will thus be thoroughly burned to the same consistency. When it is taken not thoroughly slaked but fresh, it has little crude bits concealed in it, and so, when applied, it blisters. When such bits complete their slaking after they are on the building, they break up and spoil the smooth polish of the stucco.
 
 2. But when the proper attention has been paid to the slaking, and greater pains have thus been employed in the preparation for the work, take a hoe, and apply it to the slaked lime in the mortar bed just as you hew wood. If it sticks to the hoe in bits, the lime is not yet tempered; and when the iron is drawn out dry and clean, it will show that the lime is weak and thirsty; but when the lime is rich and properly slaked, it will stick to the tool like glue, proving that it is completely tempered. Then get the scaffolding ready, and proceed to construct the vaultings in the rooms, unless they are to be decorated with flat coffered ceilings.
 
----
-
-# CHAPTER III
-
-## VAULTINGS AND STUCCO WORK
+## Chapter III. Vaultings and Stucco Work
 
 1. When vaulting is required, the procedure should be as follows. Set up horizontal furring strips at intervals of not more than two feet apart, using preferably cypress, as fir is soon spoiled by decay and by age. Arrange these strips so as to form a curve, and make them fast to the joists of the floor above or to the roof, if it is there, by nailing them with many iron nails to ties fixed at intervals. These ties should be made of a kind of wood that neither decay nor time nor dampness can spoil, such as box, juniper, olive, oak, cypress, or any other similar wood except common oak; for this warps, and causes cracks in work in which it is used.
 
@@ -2134,21 +1096,13 @@ These colours, when they are carefully laid on stucco still wet, do not fade but
 
 8. Hence, stucco that is properly made does not get rough as time goes on, nor lose its colours when it is wiped off, unless they have been laid on with little care and after it is dry. So, when the stucco on walls is made as described above, it will have strength and brilliancy, and an excellence that will last to a great age. But when only one coat of sand mortar and one of fine marble have been spread on, its thin layer is easily cracked from want of strength, and from its lack of thickness it will not take on the brilliance, due to polishing, which it ought to have.
 
----
-
 9. Just as a silver mirror that is formed of a thin plate reflects indistinctly and with a feeble light, while one that is substantially made can take on a very high polish, and reflects a brilliant and distinct image when one looks therein, so it is with stucco. When the stuff of which it is formed is thin, it not only cracks but also soon fades; when, however, it has a solid foundation of sand mortar and of marble, thickly and compactly applied, it is not only brilliant after being subjected to repeated polishings, but also reflects from its surface a clear image of the beholder.
 
 10. The Greek stucco-workers not only employ these methods to make their works durable, but also construct a mortar trough, mix the lime and sand in it, bring on a gang of men, and beat the stuff with wooden beetles, and do not use it until it has been thus vigorously worked. Hence, some cut slabs out of old walls and use them as panels, and the stucco of such panels and "reflectors" has projecting bevelled edges all round it.
 
 11. But if stucco has to be made on "wattle and daub," where there must be cracks at the uprights and cross-sticks, because they must take in moisture when they are daubed with the mud, and cause cracks in the stucco when they dry and shrink, the following method will prevent this from happening. After the whole wall has been smeared with the mud, nail rows of reeds to it by means of "fly-nails," then spread on the mud a second time, and, if the first rows have been nailed with the shafts transverse, nail on a second set with the shafts vertical, and then, as above described, spread on the sand mortar, the marble, and the whole mass of stucco. Thus, the double series of reeds with their shafts crossing on the walls will prevent any chipping or cracking from taking place.
 
-
-
----
-
-# CHAPTER IV
-
-## ON STUCCO WORK IN DAMP PLACES, AND ON THE DECORATION OF DINING ROOMS
+## Chapter IV. On Stucco Work in Damp Places, and on the Decoration of Dining Rooms
 
 1. Having spoken of the method by which stucco work should be done in dry situations, I shall next explain how the polished finish is to be accomplished in places that are damp, in such a way that it can last without defects. First, in apartments which are level with the ground, apply a rendering coat of mortar, mixed with burnt brick instead of sand, to a height of about three feet above the floor, and then lay on the stucco so that those portions of it may not be injured by the dampness. But if a wall is in a state of dampness all over, construct a second thin wall a little way from it on the inside, at a distance suited to circumstances, and in the space between these two walls run a channel, at a lower level than that of the apartment, with vents to the open air. Similarly, when the wall is brought up to the top, leave airholes there. For if the moisture has no means of getting out by vents at the bottom and at the top, it will not fail to spread all over the new wall. This done, apply a rendering coat of mortar made with burnt brick to this wall, spread on the layer of stucco, and polish it.
 
@@ -2160,11 +1114,7 @@ These colours, when they are carefully laid on stucco still wet, do not fade but
 
 5. An excavation is made below the level of the dining room to a depth of about two feet, and, after the ground has been rammed down, the mass of broken stones or the pounded burnt brick is spread on, at such an inclination that it can find vents in the drain. Next, having filled in with charcoal compactly trodden down, a mortar mixed of gravel, lime, and ashes is spread on to a depth of half a foot. The surface having been made true to rule and level, and smoothed off with whetstone, gives the look of a black pavement. Hence, at their dinner parties, whatever is poured out of the cups, or spirted from the mouth, no sooner falls than it dries up, and the servants who wait there do not catch cold from that kind of floor, although they may go barefoot.
 
----
-
-# CHAPTER V
-
-## THE DECADENCE OF FRESCO PAINTING
+## Chapter V. The Decadence of Fresco Painting
 
 1. For the other apartments, that is, those intended to be used in Spring, Autumn, and Summer, as well as for atriums and peristyles, the ancients required realistic pictures of real things. A picture is, in fact, a representation of a thing which really exists or which can exist: for example, a man, a house, a ship, or anything else from whose definite and actual structure copies resembling it can be taken. Consequently the ancients who introduced polished finishings began by representing different kinds of marble slabs in different positions, and then cornices and blocks of yellow ochre arranged in various ways.
 
@@ -2174,49 +1124,33 @@ These colours, when they are carefully laid on stucco still wet, do not fade but
 
 4. Such things do not exist and cannot exist and never have existed. Hence, it is the new taste that has caused bad judges of poor art to prevail over true artistic excellence. For how is it possible that a reed should really support a roof, or a candelabrum a pediment with its ornaments, or that such a slender, flexible thing as a stalk should support a figure perched upon it, or that roots and stalks should produce now flowers and now half-length figures? Yet when people see these frauds, they find no fault with them but on the contrary are delighted, and do not care whether any of them can exist or not. Their understanding is darkened by decadent critical principles, so that it is not capable of giving its approval authoritatively and on the principle of propriety to that which really can exist. The fact is that pictures which are unlike reality ought not to be approved, and even if they are technically fine, this is no reason why they should offhand be judged to be correct, if their subject is lacking in the principles of reality carried out with no violations.
 
-5. For instance, at Tralles, Apaturius of Alabanda designed with skilful hand the scaena of the little theatre which is there called the ἐκκλησιαστήριον, representing columns in it and statues, Centaurs supporting the architraves, rotundas with round roofs on them, pediments with overhanging returns, and cornices ornamented with lions' heads, which are meant for nothing but the rainwater from the roofs,—and then on top of it all he made an episcænium in which were painted rotundas, porticoes, half-pediments, and all the different kinds of decoration employed in a roof. The effect of high relief in this scaena was very attractive to all who beheld it, and they were ready to give their approval to the work, when Licymnius the mathematician came forward and said that (6.) the Alabandines were considered bright enough in all matters of politics, but that on account of one slight defect, the lack of the sense of propriety, they were believed to be unintelligent. "In their gymnasium the statues are all pleading causes, in their forum, throwing the discus, running, or playing ball. This disregard of propriety in the interchange of statues appropriate to different places has brought the state as a whole into disrepute. Let us then beware lest this scaena of Apaturius make Alabandines or Abderites of us. Which of you can have houses or columns or extensive pediments on top of his tiled roof? Such things are built above the floors, not above the tiled roofs. Therefore, if we give our approval to pictures of things which can have no reason for existence in actual fact, we shall be voluntarily associating ourselves with those communities which are believed to be unintelligent on account of just such defects."
+5. For instance, at Tralles, Apaturius of Alabanda designed with skilful hand the scaena of the little theatre which is there called the ἑκκλησιαστἡριον, representing columns in it and statues, Centaurs supporting the architraves, rotundas with round roofs on them, pediments with overhanging returns, and cornices ornamented with lions' heads, which are meant for nothing but the rainwater from the roofs,—and then on top of it all he made an episcaenium in which were painted rotundas, porticoes, half-pediments, and all the different kinds of decoration employed in a roof. The effect of high relief in this scaena was very attractive to all who beheld it, and they were ready to give their approval to the work, when Licymnius the mathematician came forward and said that (6.) the Alabandines were considered bright enough in all matters of politics, but that on account of one slight defect, the lack of the sense of propriety, they were believed to be unintelligent. "In their gymnasium the statues are all pleading causes, in their forum, throwing the discus, running, or playing ball. This disregard of propriety in the interchange of statues appropriate to different places has brought the state as a whole into disrepute. Let us then beware lest this scaena of Apaturius make Alabandines or Abderites of us. Which of you can have houses or columns or extensive pediments on top of his tiled roof? Such things are built above the floors, not above the tiled roofs. Therefore, if we give our approval to pictures of things which can have no reason for existence in actual fact, we shall be voluntarily associating ourselves with those communities which are believed to be unintelligent on account of just such defects."
 
 7. Apaturius did not venture to make any answer, but removed the scaena, altered it so that it conformed to reality, and gave satisfaction with it in its improved state. Would to God that Licymnius could come to life again and reform the present condition of folly and mistaken practices in fresco painting! However, it may not be out of place to explain why this false method prevails over the truth. The fact is that the artistic excellence which the ancients endeavoured to attain by working hard and taking pains, is now attempted by the use of colours and the brave show which they make, and expenditure by the employer prevents people from missing the artistic refinements that once lent authority to works.
-
----
 
 8. For example, which of the ancients can be found to have used vermilion otherwise than sparingly, like a drug? But today whole walls are commonly covered with it everywhere. Then, too, there is malachite green, purple, and Armenian blue. When these colours are laid on, they present a brilliant appearance to the eye even although they are inartistically applied, and as they are costly, they are made exceptions in contracts, to be furnished by the employer, not by the contractor.
 
 I have now sufficiently explained all that I could suggest for the avoidance of mistakes in stucco work. Next, I shall speak of the components as they occur to me, and first I shall treat of marble, since I spoke of lime at the beginning.
 
+## Chapter VI. Marble for Use in Stucco
 
+Marble is not produced everywhere of the same kind. In some places the lumps are found to contain transparent grains like salt, and this kind when crushed and ground is extremely serviceable in stucco work. In places where this is not found, the broken bits of marble or "chips," as they are called, which marble-workers throw down as they work, may be crushed and ground and used in stucco after being sifted. In still other places—for example, on the borderland of Magnesia and Ephesus— there are places where it can be dug out all ready to use, without the need of grinding or sifting, but as fine as any that is crushed and sifted by hand.
 
----
-
-# CHAPTER VI
-
-## MARBLE FOR USE IN STUCCO
-
-Marble is not produced everywhere of the same kind. In some places the lumps are found to contain transparent grains like salt, and this kind when crushed and ground is extremely serviceable in stucco work. In places where this is not found, the broken bits of marble or "chips," as they are called, which marble-workers throw down as they work, may be crushed and ground and used in stucco after being sifted. In still other places—for example, on the borderland of Magnesia and Ephesus—there are places where it can be dug out all ready to use, without the need of grinding or sifting, but as fine as any that is crushed and sifted by hand.
-
----
-
-# CHAPTER VII
-
-## NATURAL COLOURS
+## Chapter VII. Natural Colours
 
 As for colours, some are natural products found in fixed places, and dug up there, while others are artificial compounds of different substances treated and mixed in proper proportions so as to be equally serviceable.
 
-1. We shall first set forth the natural colours that are dug up as such, like yellow ochre, which is termed ὄφρα in Greek. This is found in many places, including Italy, but Attic, which was the best, is not now to be had because in the times when there were slaves in the Athenian silver mines, they would dig galleries underground in order to find the silver. Whenever a vein of ochre was found there, they would follow it up like silver, and so the ancients had a fine supply of it to use in the polished finishings of their stucco work.
+1. We shall first set forth the natural colours that are dug up as such, like yellow ochre, which is termed ωχρα in Greek. This is found in many places, including Italy, but Attic, which was the best, is not now to be had because in the times when there were slaves in the Athenian silver mines, they would dig galleries underground in order to find the silver. Whenever a vein of ochre was found there, they would follow it up like silver, and so the ancients had a fine supply of it to use in the polished finishings of their stucco work.
 
 2. Red earths are found in abundance in many places, but the best in only a few, for instance at Sinope in Pontus, in Egypt, in the Balearic islands of Spain, as well as in Lemnos, an island the enjoyment of whose revenues the Senate and Roman people granted to the Athenians.
 
 3. Paraetonium white gets its name from the place where it is dug up. The same is the case with Melian white, because there is said to be a mine of it in Melos, one of the islands of the Cyclades.
 
-4. Green chalk is found in numerous places, but the best at Smyrna. The Greeks call it θεοδοτειόν, because this kind of chalk was first found on the estate of a person named Theodotus.
+4. Green chalk is found in numerous places, but the best at Smyrna. The Greeks call it θεοδοτειον, because this kind of chalk was first found on the estate of a person named Theodotus.
 
-5. Orpiment, which is termed ἀρσενικόν in Greek, is dug up in Pontus. Sandarach, in many places, but the best is mined in Pontus close by the river Hypanis.
+5. Orpiment, which is termed ἁρσενικὁν in Greek, is dug up in Pontus. Sandarach, in many places, but the best is mined in Pontus close by the river Hypanis.
 
----
-
-# CHAPTER VIII
-
-## CINNABAR AND QUICKSILVER
+## Chapter VIII. Cinnabar and Quicksilver
 
 1. I shall now proceed to explain the nature of cinnabar. It is said that it was first found in the Cilbian country belonging to Ephesus, and both it and its properties are certainly very strange. First, before getting to the vermilion itself by methods of treatment, they dig out what is called the clod, an ore like iron, but rather of a reddish colour and covered with a red dust. During the digging it sheds, under the blows of the tools, tear after tear of quicksilver, which is at once gathered up by the diggers.
 
@@ -2226,11 +1160,7 @@ As for colours, some are natural products found in fixed places, and dug up ther
 
 4. Quicksilver is a useful thing for many purposes. For instance, neither silver nor copper can be gilded properly without it. And when gold has been woven into a garment, and the garment becomes worn out with age so that it is no longer respectable to use, the pieces of cloth are put into earthen pots, and burned up over a fire. The ashes are then thrown into water and quicksilver added thereto. This attracts all the bits of gold, and makes them combine with itself. The water is then poured off, and the rest emptied into a cloth and squeezed in the hands, whereupon the quicksilver, being a liquid, escapes through the loose texture of the cloth, but the gold, which has been brought together by the squeezing, is found inside in a pure state.
 
----
-
-# CHAPTER IX
-
-## CINNABAR (continued)
+## Chapter IX. Cinnabar (continued)
 
 1. I will now return to the preparation of vermilion. When the lumps of ore are dry, they are crushed in iron mortars, and repeatedly washed and heated until the impurities are gone, and the colours come. When the cinnabar has given up its quicksilver, and thus lost the natural virtues that it previously had, it becomes soft in quality and its powers are feeble.
 
@@ -2238,7 +1168,7 @@ As for colours, some are natural products found in fixed places, and dug up ther
 
 3. But anybody who is more particular, and who wants a polished finish of vermilion that will keep its proper colour, should, after the wall has been polished and is dry, apply with a brush Pontic wax melted over a fire and mixed with a little oil; then after this he should bring the wax to a sweat by warming it and the wall at close quarters with charcoal enclosed in an iron vessel; and finally he should smooth it all off by rubbing it down with a wax candle and clean linen cloths, just as naked marble statues are treated.
 
-4. This process is termed γάνωσις in Greek. The protecting coat of Pontic wax prevents the light of the moon and the rays of the sun from licking up and drawing the colour out of such polished finishing.
+4. This process is termed γἁνωσις in Greek. The protecting coat of Pontic wax prevents the light of the moon and the rays of the sun from licking up and drawing the colour out of such polished finishing.
 
 The manufactories which were once at the mines of the Ephesians have now been transferred to Rome, because this kind of ore was later discovered in Spain. The clods are brought from the mines there, and treated in Rome by public contractors. These manufactories are between the temples of Flora and Quirinus.
 
@@ -2246,11 +1176,7 @@ The manufactories which were once at the mines of the Ephesians have now been tr
 
 6. I have now said all that I could think of about cinnabar. Malachite green is brought from Macedonia, and is dug up in the neighbourhood of copper mines. The names Armenian blue and India ink show in what places these substances are found.
 
----
-
-# CHAPTER X
-
-## ARTIFICIAL COLOURS. BLACK
+## Chapter X. Artificial Colours. Black
 
 1. I shall now pass to those substances which by artificial treatment are made to change their composition, and to take on the properties of colours; and first I shall treat of black, the use of which is indispensable in many works, in order that the fixed technical methods for the preparation of that compound may be known.
 
@@ -2260,31 +1186,19 @@ The manufactories which were once at the mines of the Ephesians have now been tr
 
 4. Again, if the lees of wine are dried and roasted in an oven, and then ground up with size and applied to a wall, the result will be a colour even more delightful than ordinary black; and the better the wine of which it is made, the better imitation it will give, not only of the colour of ordinary black, but even of that of India ink.
 
----
+## Chapter XI. Blue. Burnt Ochre
 
-# CHAPTER XI
-
-## BLUE. BURNT OCHRE
-
-1. Methods of making blue were first discovered in Alexandria, and afterwards Vestorius set up the making of it at Puzzuoli. The method of obtaining it from the substances of which it has been found to consist, is strange enough. Sand and the flowers of natron are brayed together so finely that the product is like meal, and copper is grated by means of coarse files over the mixture, like sawdust, to form a conglomerate. Then it is made into balls by rolling it in the hands and thus bound together for drying. The dry balls are put in an earthen jar, and the jars in an oven. As soon as the copper and the sand grow hot and unite under the intensity of the fire, they mutually receive each other's sweat, relinquishing their peculiar qualities, and having lost their properties through the intensity of the fire, they are reduced to a blue colour.
+1. Methods of making blue were first discovered in Alexandria, and afterwards Vestorius set up the making of it at Puzzuoli. The method of obtaining it from the substances of which it has been found to consist, is strange enough. Sand and the flowers of natron are brayed together so finely that the product is like meal, and copper is grated by means of coarse files over the mixture, like sawdust, to form a conglomerate. Then it is made into balls by rolling it in the hands and thus bound together for drying. The dry balls are put in an earthern jar, and the jars in an oven. As soon as the copper and the sand grow hot and unite under the intensity of the fire, they mutually receive each other's sweat, relinquishing their peculiar qualities, and having lost their properties through the intensity of the fire, they are reduced to a blue colour.
 
 2. Burnt ochre, which is very serviceable in stucco work, is made as follows. A clod of good yellow ochre is heated to a glow on a fire. It is then quenched in vinegar, and the result is a purple colour.
 
----
-
-# CHAPTER XII
-
-## WHITE LEAD, VERDIGRIS, AND ARTIFICIAL SANDARACH
+## Chapter XII. White Lead, Verdigris, and Artificial Sandarach
 
 1. It is now in place to describe the preparation of white lead and of verdigris, which with us is called "aeruca." In Rhodes they put shavings in jars, pour vinegar over them, and lay pieces of lead on the shavings; then they cover the jars with lids to prevent evaporation. After a definite time they open them, and find that the pieces of lead have become white lead. In the same way they put in plates of copper and make verdigris, which is called "aeruca."
 
 2. White lead on being heated in an oven changes its colour on the fire, and becomes sandarach. This was discovered as the result of an accidental fire. It is much more serviceable than the natural sandarach dug up in mines.
 
----
-
-# CHAPTER XIII
-
-## PURPLE
+## Chapter XIII. Purple
 
 1. I shall now begin to speak of purple, which exceeds all the colours that have so far been mentioned both in costliness and in the superiority of its delightful effect. It is obtained from a marine shellfish, from which is made the purple dye, which is as wonderful to the careful observer as anything else in nature; for it has not the same shade in all the places where it is found, but is naturally qualified by the course of the sun.
 
@@ -2292,25 +1206,17 @@ The manufactories which were once at the mines of the Ephesians have now been tr
 
 3. After the shellfish have been gathered, they are broken up with iron tools, the blows of which drive out the purple fluid like a flood of tears, and then it is prepared by braying it in mortars. It is called "ostrum" because it is taken from the shells of marine shellfish. On account of its saltness, it soon dries up unless it has honey poured over it.
 
----
-
-# CHAPTER XIV
-
-## SUBSTITUTES FOR PURPLE, YELLOW OCHRE, MALACHITE GREEN, AND INDIGO
+## Chapter XIV. Substitutes for Purple, Yellow Ochre, Malachite Green, and Indigo
 
 1. Purple colours are also manufactured by dyeing chalk with madder root and with hysginum. Other colours are made from flowers. Thus, when fresco painters wish to imitate Attic yellow ochre, they put dried violets into a vessel of water, and heat them over a fire; then, when the mixture is ready, they pour it onto a linen cloth, and squeeze it out with the hands, catching the water which is now coloured by the violets, in a mortar. Into this they pour chalk and bray it, obtaining the colour of Attic yellow ochre.
 
-2. They make a fine purple colour by treating bilberry in the same way and mixing it with milk. Those who cannot use malachite green on account of its dearness, dye blue with the plant called dyer's weed, and thus obtain a most vivid green. This is called dyer's malachite green. Again, for want of indigo, they dye Selinusian or anularian chalk with woad, which the Greeks call ἰσάτις, and make an imitation of indigo.
+2. They make a fine purple colour by treating bilberry in the same way and mixing it with milk. Those who cannot use malachite green on account of its dearness, dye blue with the plant called dyer's weed, and thus obtain a most vivid green. This is called dyer's malachite green. Again, for want of indigo, they dye Selinusian or anularian chalk with woad, which the Greeks call ἱσἁτις, and make an imitation of indigo.
 
 3. In this book I have written down, so far as I could recall them, the methods and means of attaining durability in polished finishings, how pictures that are appropriate should be made, and also the natural qualities of all the colours. And so, having prescribed in seven books the suitable principles which should govern the construction of all kinds of buildings, I shall treat in the next of water, showing how it may be found in places where it is wanting, by what method it may be conducted, and by what means its wholesomeness and fitness may be tested.
 
----
+# BOOK VIII
 
-
-
----
-
-# INTRODUCTION
+## Introduction
 
 1. Among the Seven Sages, Thales of Miletus pronounced for water as the primordial element in all things; Heraclitus, for fire; the priests of the Magi, for water and fire; Euripides, a pupil of Anaxagoras, and called by the Athenians "the philosopher of the stage," for air and earth. Earth, he held, was impregnated by the rains of heaven and, thus conceiving, brought forth the young of mankind and of all the living creatures in the world; whatever is sprung from her goes back to her again when the compelling force of time brings about a dissolution; and whatever is born of the air returns in the same way to the regions of the sky; nothing suffers annihilation, but at dissolution there is a change, and things fall back to the essential element in which they were before. But Pythagoras, Empedocles, Epicharmus, and other physicists and philosophers have set forth that the primordial elements are four in number: air, fire, earth, and water; and that it is from their coherence to one another under the moulding power of nature that the qualities of things are produced according to different classes.
 
@@ -2322,13 +1228,7 @@ The manufactories which were once at the mines of the Ephesians have now been tr
 
 Therefore, since it is held by physicists and philosophers and priests that all things depend upon the power of water, I have thought that, as in the former seven books the rules for buildings have been set forth, in this I ought to write on the methods of finding water, on those special merits which are due to the qualities of localities, on the ways of conducting it, and how it may be tested in advance. For it is the chief requisite for life, for happiness, and for everyday use.
 
-
-
----
-
-# CHAPTER I
-
-## HOW TO FIND WATER
+## Chapter I. How to Find Water
 
 1. This will be easier if there are open springs of running water. But if there are no springs which gush forth, we must search for them underground, and conduct them together. The following test should be applied. Before sunrise, lie down flat in the place where the search is to be made, and placing the chin on the earth and supporting it there, take a look out over the country. In this way the sight will not range higher than it ought, the chin being immovable, but will range over a definitely limited height on the same level through the country. Then, dig in places where vapours are seen curling and rising up into the air. This sign cannot show itself in a dry spot.
 
@@ -2342,21 +1242,13 @@ Therefore, since it is held by physicists and philosophers and priests that all 
 
 6. After applying these tests and finding the signs described above, a well must next be sunk in the place, and if a spring of water is found, more wells must be dug thereabouts, and all conducted by means of subterranean channels into one place.
 
-The mountains and districts with a northern exposure are the best spots in which to search, for the reason that springs are sweeter, more wholesome, and more abundant when found there. Such places face away from the sun's course, and the trees are thick in them, and the mountains, being themselves full of woods, cast shadows of their own, preventing the rays of the sun from striking uninterrupted upon the ground and drying up the moisture.
+The mountains and districts with a northern exposure are the best spots in which to search, for the reason that springs are sweeter, more wholesome, and more abundant when found there. Such places face away from the sun's course, and the trees are thick in them, and the mountains, being themselves full of woods, cast shadows of their own, preventing the rays of the sun from striking uninterruptedly upon the ground and drying up the moisture.
 
 7. The valleys among the mountains receive the rains most abundantly, and on account of the thick woods the snow is kept in them longer by the shade of the trees and mountains. Afterwards, on melting, it filters through the fissures in the ground, and thus reaches the very foot of the mountains, from which gushing springs come belching out.
 
 But in flat countries, on the contrary, a good supply cannot be had. For however great it is, it cannot be wholesome, because, as there is no shade in the way, the intense force of the sun draws up and carries off the moisture from the flat plains with its heat, and if any water shows itself there, the lightest and purest and the delicately wholesome part of it is summoned away by the air, and dispersed to the skies, while the heaviest and the hard and unpleasant parts are left in springs that are in flat places.
 
----
-
-
-
----
-
-# CHAPTER II
-
-## RAINWATER
+## Chapter II. Rainwater
 
 1. Rainwater has, therefore, more wholesome qualities, because it is drawn from the lightest and most delicately pure parts of all the springs, and then, after being filtered through the agitated air, it is liquefied by storms and so returns to the earth. And rainfall is not abundant in the plains, but rather on the mountains or close to mountains, for the reason that the vapour which is set in motion at sunrise in the morning, leaves the earth, and drives the air before it through the heaven in whatever direction it inclines; then, when once in motion, it has currents of air rushing after it, on account of the void which it leaves behind.
 
@@ -2368,25 +1260,15 @@ But in flat countries, on the contrary, a good supply cannot be had. For however
 
 5. The winds are witnesses to this fact. Those that are produced and come from the coolest directions, the north and northeast winds, blow in blasts that are rarefied by the great dryness in the atmosphere, but the south wind and the others that assail us from the direction of the sun's course are very damp, and always bring rain, because they reach us from warm regions after being well heated there, and licking up and carrying off the moisture from the whole country, they pour it out on the regions in the north.
 
-6. That this is the state of the case may be proved by the sources of rivers, the majority and the longest of which, as drawn and described in geographies of the world, are found to rise in the north. First in India, the Ganges and Indus spring from the Caucasus; in Syria, the Tigris and Euphrates; in Pontus in Asia, the Dnieper, Bug, and Don; in Colchis, the Phasis; in Gaul, the Rhone; in Celtica, the Rhine; on this side of the Alps, the Timavo and Po; in Italy, the Tiber; in Maurusia, which we call Mauretania, the Dyris, rising in the Atlas range and running westerly to Lake Heptagonus, where it changes its name and is called Agger; then from Lake Heptabolus it runs at the base of barren mountains, flowing southerly and emptying into the marsh called[10]... It surrounds Meroë, which is a kingdom in southern Ethiopia, and from the marsh grounds there, winding round by the rivers Astansoba and Astoboa and a great many others, it passes through the mountains to the Cataract, and from there it dashes down, and passes to the north between Elephantis and Syene and the plains of Thebes into Egypt, where it is called the Nile.
+6. That this is the state of the case may be proved by the sources of rivers, the majority and the longest of which, as drawn and described in geographies of the world, are found to rise in the north. First in India, the Ganges and Indus spring from the Caucasus; in Syria, the Tigris and Euphrates; in Pontus in Asia, the Dnieper, Bug, and Don; in Colchis, the Phasis; in Gaul, the Rhone; in Celtica, the Rhine; on this side of the Alps, the Timavo and Po; in Italy, the Tiber; in Maurusia, which we call Mauretania, the Dyris, rising in the Atlas range and running westerly to Lake Heptagonus, where it changes its name and is called Agger; then from Lake Heptabolus it runs at the base of barren mountains, flowing southerly and emptying into the marsh called... It surrounds Meroë, which is a kingdom in southern Ethiopia, and from the marsh grounds there, winding round by the rivers Astansoba and Astoboa and a great many others, it passes through the mountains to the Cataract, and from there it dashes down, and passes to the north between Elephantis and Syene and the plains of Thebes into Egypt, where it is called the Nile.
 
 7. That the source of the Nile is in Mauretania is known principally from the fact that there are other springs on the other side of the Atlas range flowing into the ocean to the west, and that ichneumons, crocodiles, and other animals and fishes of like nature are found there, although there are no hippopotamuses.
 
 8. Therefore, since in descriptions of the world it appears that all rivers of any size flow from the north, and since in the plains of Africa, which are exposed to the course of the sun in the south, the moisture is deeply hidden, springs not common, and rivers rare, it follows that the sources of springs which lie to the north or northeast are much better, unless they hit upon a place which is full of sulphur, alum, or asphalt. In this case they are completely changed, and flow in springs which have a bad smell and taste, whether the water is hot or cold.
 
-9. The fact is, heat is not at all a property of water, but when a stream of cold water happens upon a hot place, it boils up, and issues through the fissures and out of the ground in a state of heat. This cannot last very long, but in a short time the water
+9. The fact is, heat is not at all a property of water, but when a stream of cold water happens upon a hot place, it boils up, and issues through the fissures and out of the ground in a state of heat. This cannot last very long, but in a short time the water becomes cold. If it were naturally hot, it would not cool off and lose its heat. Its taste, however, and its smell and colour are not restored, because it has become saturated and compounded with these qualities on account of the rarity of its nature.
 
----
-
-becomes cold. If it were naturally hot, it would not cool off and lose its heat. Its taste, however, and its smell and colour are not restored, because it has become saturated and compounded with these qualities on account of the rarity of its nature.
-
-
-
----
-
-# CHAPTER III
-
-## VARIOUS PROPERTIES OF DIFFERENT WATERS
+## Chapter III. Various Properties of Different Waters
 
 1. There are, however, some hot springs that supply water of the best taste, which is so delightful to drink that one does not think with regret of the Fountain of the Muses or the Marcian aqueduct. These hot springs are produced naturally, in the following manner. When fire is kindled down beneath in alum or asphalt or sulphur, it makes the earth immediately over it very hot, and emits a glowing heat to the parts still farther above it, so that if there are any springs of sweet water found in the upper strata, they begin to boil in their fissures when they are met by this heat, and so they run out with their taste unimpaired.
 
@@ -2401,10 +1283,6 @@ becomes cold. If it were naturally hot, it would not cool off and lose its heat.
 6. There is also a sort of water which, since it contains... that are not perfectly clear, and it floats like a flower on the surface, in colour like purple glass. This may be seen particularly in Athens, where there are aqueducts from places and springs of that sort leading to the city and the port of Piraeus, from which nobody drinks, for the reason mentioned, but they use them for bathing and so forth, and drink from wells, thus avoiding their unwholesomeness. At Troezen it cannot be avoided, because no other kind of water at all is found, except what the Cibdeli furnish, and so in that city all or most of the people have diseases of the feet. At the city of Tarsus in Cilicia is a river named Cydnus, in which gouty people soak their legs and find relief from pain.
 
 7. There are also many other kinds of water which have peculiar properties; for example, the river Himera in Sicily, which, after leaving its source, is divided into two branches. One flows in the direction of Etruria and has an exceedingly sweet taste on account of a sweet juice in the soil through which it runs; the other runs through a country where there are salt pits, and so it has a salt taste. At Paraetonium, and on the road to Ammon, and at Casius in Egypt there are marshy lakes which are so salt that they have a crust of salt on the surface. In many other places there are springs and rivers and lakes which are necessarily rendered salt because they run through salt pits.
-
-
-
----
 
 8. Others flow through such greasy veins of soil that they are overspread with oil when they burst out as springs: for example, at Soli, a town in Cilicia, the river named Liparis, in which swimmers or bathers get anointed merely by the water. Likewise there is a lake in Ethiopia which anoints people who swim in it, and one in India which emits a great quantity of oil when the sky is clear. At Carthage is a spring that has oil swimming on its surface and smelling like sawdust from citrus wood, with which oil sheep are anointed. In Zacynthus and about Dyrrachium and Apollonia are springs which discharge a great quantity of pitch with their water. In Babylon, a lake of very great extent, called Lake Asphaltitis, has liquid asphalt swimming on its surface, with which asphalt and with burnt brick Semiramis built the wall surrounding Babylon. At Jaffa in Syria and among the Nomads in Arabia, are lakes of enormous size that yield very large masses of asphalt, which are carried off by the inhabitants thereabouts.
 
@@ -2422,13 +1300,7 @@ becomes cold. If it were naturally hot, it would not cool off and lose its heat.
 
 15. Deadly kinds of water are also found, which run through soil containing a noxious juice, and take in its poisonous quality: for instance, there is said to have been a spring at Terracina, called the spring of Neptune, which caused the death of those who thoughtlessly drank from it. In consequence, it is said that the ancients stopped it up. At Chrobs in Thrace there is a lake which causes the death not only of those who drink of it, but also of those who bathe in it. In Thessaly there is a gushing fount of which sheep never taste, nor does any sort of creature draw near to it, and close by this fount there is a tree with crimson flowers.
 
-16. In Macedonia, at the place where Euripides is buried, two streams approach from the right and left of his tomb, and unite. By one of these, travellers are in the habit of lying down and taking luncheon, because its water is good; but nobody goes near the stream on the other side of the tomb, because its water is said to be death-dealing. In Arcadia there is a tract of
-
-
-
----
-
-land called Nonacris, which has extremely cold water trickling from a rock in the mountains. This water is called "Water of the Styx," and no vessel, whether of silver, bronze, or iron, can stand it without flying to pieces and breaking up. Nothing but a mule's hoof can keep it together and hold it, and tradition says that it was thus conveyed by Antipater through his son Iollas into the province where Alexander was staying, and that the king was killed by him with this water.
+16. In Macedonia, at the place where Euripides is buried, two streams approach from the right and left of his tomb, and unite. By one of these, travellers are in the habit of lying down and taking luncheon, because its water is good; but nobody goes near the stream on the other side of the tomb, because its water is said to be death-dealing. In Arcadia there is a tract of land called Nonacris, which has extremely cold water trickling from a rock in the mountains. This water is called "Water of the Styx," and no vessel, whether of silver, bronze, or iron, can stand it without flying to pieces and breaking up. Nothing but a mule's hoof can keep it together and hold it, and tradition says that it was thus conveyed by Antipater through his son Iollas into the province where Alexander was staying, and that the king was killed by him with this water.
 
 17. Among the Alps in the kingdom of Cottius there is a water those who taste of which immediately fall lifeless. In the Faliscan country on the Via Campana in the Campus Cornetus is a grove in which rises a spring, and there the bones of birds and of lizards and other reptiles are seen lying.
 
@@ -2442,34 +1314,15 @@ Some springs are acid, as at Lyncestus and in Italy in the Velian country, at Te
 
 21. In Arcadia is the well-known town of Clitor, in whose territory is a cave with running water which makes people who drink of it abstemious. At this spring, there is an epigram in Greek verses inscribed on stone to the effect that the water is unsuitable for bathing, and also injurious to vines, because it was at this spring that Melampus cleansed the daughters of Proetus of their madness by sacrificial rites, and restored those maidens to their former sound state of mind. The inscription runs as written below:
 
-Swain, if by noontide thirst thou art oppress
-When with thy flocks to Cleitor's bounds thou'st hied,
-Take from this fount a draught, and grant a rest
-To all thy goats the water nymphs beside.
-But bathe not in't when full of drunken cheer,
-Lest the mere vapour may bring thee to bane;
-Shun my vine-hating spring—Melampus here
-From madness once washed Proetus' daughters sane,
-And all th' offscouring here did hide, when they
-From Argos came to rugged Arcady.
+Swain, if by noontide thirst thou art opprest When with thy flocks to Cleitor's bounds thou'st hied, Take from this fount a draught, and grant a rest To all thy goats the water nymphs beside. But bathe not in't when full of drunken cheer, Lest the mere vapour may bring thee to bane; Shun my vine-hating spring—Melampus here From madness once washed Proetus' daughters sane, And all th' offscouring here did hide, when they From Argos came to rugged Arcady.
 
 22. In the island of Zea is a spring of which those who thoughtlessly drink lose their understanding, and an epigram is cut there to the effect that a draught from the spring is delightful, but that he who drinks will become dull as a stone. These are the verses:
 
-This stone sweet streams of cooling drink doth drip,
-But stone his wits become who doth it sip.
+This stone sweet streams of cooling drink doth drip, But stone his wits become who doth it sip.
 
 23. At Susa, the capital of the Persian kingdom, there is a little spring, those who drink of which lose their teeth. An epigram is written there, the significance of which is to this effect, that the water is excellent for bathing, but that taken as drink, it knocks out the teeth by the roots. The verses of this epigram are, in Greek, as follows:
 
-Stranger, you see the waters of a spring
-In which 'tis safe for men their hands to lave;
-But if the weedy basin entering
-You drink of its unpalatable wave,
-Your grinders tumble out that self-same day
-From jaws that orphaned sockets will display.
-
-
-
----
+Stranger, you see the waters of a spring In which 'tis safe for men their hands to lave; But if the weedy basin entering You drink of its unpalatable wave, Your grinders tumble out that self-same day From jaws that orphaned sockets will display.
 
 24. There are also in some places springs which have the peculiarity of giving fine singing voices to the natives, as at Tarsus in Magnesia and in other countries of that kind. Then there is Zama, an African city, which King Juba fortified by enclosing it with a double wall, and he established his royal residence there. Twenty miles from it is the walled town of Ismuc, the lands belonging to which are marked off by a marvellous kind of boundary. For although Africa was the mother and nurse of wild animals, particularly serpents, yet not one is ever born in the lands of that town, and if ever one is imported and put there, it dies at once; and not only this, but if soil is taken from this spot to another place, the same is true there. It is said that this kind of soil is also found in the Balearic Islands. The above mentioned soil has a still more wonderful property, of which I have learned in the following way.
 
@@ -2481,23 +1334,13 @@ From jaws that orphaned sockets will display.
 
 28. For it is obvious that nothing in the world is so necessary for use as water, seeing that any living creature can, if deprived of grain or fruit or meat or fish, or any one of them, support life by using other foodstuffs; but without water no animal nor any proper food can be produced, kept in good condition, or prepared. Consequently we must take great care and pains in searching for springs and selecting them, keeping in view the health of mankind.
 
-
-
----
-
-# CHAPTER IV
-
-## TESTS OF GOOD WATER
+## Chapter IV. Tests of Good Water
 
 1. Springs should be tested and proved in advance in the following ways. If they run free and open, inspect and observe the physique of the people who dwell in the vicinity before beginning to conduct the water, and if their frames are strong, their complexions fresh, legs sound, and eyes clear, the springs deserve complete approval. If it is a spring just dug out, its water is excellent if it can be sprinkled into a Corinthian vase or into any other sort made of good bronze without leaving a spot on it. Again, if such water is boiled in a bronze cauldron, afterwards left for a time, and then poured off without sand or mud being found at the bottom of the cauldron, that water also will have proved its excellence.
 
 2. And if green vegetables cook quickly when put into a vessel of such water and set over a fire, it will be a proof that the water is good and wholesome. Likewise if the water in the spring is itself limpid and clear, if there is no growth of moss or reeds where it spreads and flows, and if its bed is not polluted by filth of any sort but has a clean appearance, these signs indicate that the water is light and wholesome in the highest degree.
 
----
-
-# CHAPTER V
-
-## LEVELLING AND LEVELLING INSTRUMENTS
+## Chapter V. Levelling and Levelling Instruments
 
 1. I shall now treat of the ways in which water should be conducted to dwellings and cities. First comes the method of taking the level. Levelling is done either with dioptrae, or with water levels, or with the chorobates, but it is done with greater accuracy by means of the chorobates, because dioptrae and levels are deceptive. The chorobates is a straightedge about twenty feet long. At the extremities it has legs, made exactly alike and jointed on perpendicularly to the extremities of the straightedge, and also crosspieces, fastened by tenons, connecting the straightedge and the legs. These crosspieces have vertical lines drawn upon them, and there are plumblines hanging from the straightedge over each of the lines. When the straightedge is in position, and the plumblines strike both the lines alike and at the same time, they show that the instrument stands level.
 
@@ -2505,11 +1348,7 @@ From jaws that orphaned sockets will display.
 
 3. Perhaps some reader of the works of Archimedes will say that there can be no true levelling by means of water, because he holds that water has not a level surface, but is of a spherical form, having its centre at the centre of the earth. Still, whether water is plane or spherical, it necessarily follows that when the straightedge is level, it will support the water evenly at its extremities on the right and left, but that if it slopes down at one end, the water at the higher end will not reach the rim of the groove in the straightedge. For though the water, wherever poured in, must have a swelling and curvature in the centre, yet the extremities on the right and left must be on a level with each other. A picture of the chorobates will be found drawn at the end of the book. If there is to be a considerable fall, the conducting of the water will be comparatively easy. But if the course is broken by depressions, we must have recourse to substructures.
 
----
-
-# CHAPTER VI
-
-## AQUEDUCTS, WELLS, AND CISTERNS
+## Chapter VI. Aqueducts, Wells, and Cisterns
 
 1. There are three methods of conducting water, in channels through masonry conduits, or in lead pipes, or in pipes of baked clay. If in conduits, let the masonry be as solid as possible, and let the bed of the channel have a gradient of not less than a quarter of an inch for every hundred feet, and let the masonry structure be arched over, so that the sun may not strike the water at all. When it has reached the city, build a reservoir with a distribution tank in three compartments connected with the reservoir to receive the water, and let the reservoir have three pipes, one for each of the connecting tanks, so that when the water runs over from the tanks at the ends, it may run into the one between them.
 
@@ -2517,9 +1356,9 @@ From jaws that orphaned sockets will display.
 
 3. If, however, there are hills between the city and the source of supply, subterranean channels must be dug, and brought to a level at the gradient mentioned above. If the bed is of tufa or other stone, let the channel be cut in it; but if it is of earth or sand, there must be vaulted masonry walls for the channel, and the water should thus be conducted, with shafts built at every two hundred and forty feet.
 
-4. But if the water is to be conducted in lead pipes, first build a reservoir at the source; then, let the pipes have an interior area corresponding to the amount of water, and lay these pipes from this reservoir to the reservoir which is inside the city walls. The pipes should be cast in lengths of at least ten feet. If they are hundreds, they should weigh 1200 pounds each length; if eighties, 960 pounds; if fifties, 600 pounds; forties, 480 pounds; thirties, 360 pounds; twenties, 240 pounds; fifties, 180 pounds; tens, 120 pounds; eights, 100 pounds; fives, 60 pounds. The pipes get the names of their sizes from the width of the plates, taken in digits, before they are rolled into tubes. Thus, when a pipe is made from a plate fifty digits in width, it will be called a "fifty," and so on with the rest.
+4. But if the water is to be conducted in lead pipes, first build a reservoir at the source; then, let the pipes have an interior area corresponding to the amount of water, and lay these pipes from this reservoir to the reservoir which is inside the city walls. The pipes should be cast in lengths of at least ten feet. If they are hundreds, they should weigh 1200 pounds each length; if eighties, 960 pounds; if fifties, 600 pounds; forties, 480 pounds; thirties, 360 pounds; twenties, 240 pounds; fifteens, 180 pounds; tens, 120 pounds; eights, 100 pounds; fives, 60 pounds. The pipes get the names of their sizes from the width of the plates, taken in digits, before they are rolled into tubes. Thus, when a pipe is made from a plate fifty digits in width, it will be called a "fifty," and so on with the rest.
 
-5. The conducting of the water through lead pipes is to be managed as follows. If there is a regular fall from the source to the city, without any intervening hills that are high enough to interrupt it, but with depressions in it, then we must build substructures to bring it up to the level as in the case of channels and conduits. If the distance round such depressions is not great, the water may be carried round circuitously; but if the valleys are extensive, the course will be directed down their slope. On reaching the bottom, a low substructure is built so that the level there may continue as long as possible. This will form the "venter," termed Koukla by the Greeks. Then, on reaching the hill on the opposite side, the length of the venter makes the water slow in swelling up to rise to the top of the hill.
+5. The conducting of the water through lead pipes is to be managed as follows. If there is a regular fall from the source to the city, without any intervening hills that are high enough to interrupt it, but with depressions in it, then we must build substructures to bring it up to the level as in the case of channels and conduits. If the distance round such depressions is not great, the water may be carried round circuitously; but if the valleys are extensive, the course will be directed down their slope. On reaching the bottom, a low substructure is built so that the level there may continue as long as possible. This will form the "venter," termed Κοιλἱα by the Greeks. Then, on reaching the hill on the opposite side, the length of the venter makes the water slow in swelling up to rise to the top of the hill.
 
 6. But if there is no such venter made in the valleys, nor any substructure built on a level, but merely an elbow, the water will break out, and burst the joints of the pipes. And in the venter, water cushions must be constructed to relieve the pressure of the air. Thus, those who have to conduct water through lead pipes will do it most successfully on these principles, because its descents, circuits, venters, and risings can be managed in this way, when the level of the fall from the sources to the city is once obtained.
 
@@ -2527,11 +1366,7 @@ From jaws that orphaned sockets will display.
 
 8. But if we wish to spend less money, we must proceed as follows. Clay pipes with a skin at least two digits thick should be made, but these pipes should be tongued at one end so that they can fit into and join one another. Their joints must be coated with quicklime mixed with oil, and at the angles of the level of the venter a piece of red tufa stone, with a hole bored through it, must be placed right at the elbow, so that the last length of pipe used in the descent is jointed into the stone, and also the first length of the level of the venter; similarly at the hill on the opposite side the last length of the level of the venter should stick into the hole in the red tufa, and the first of the rise should be similarly jointed into it.
 
-9. The level of the pipes being thus adjusted, they will not be sprung out of place by the force generated at the descent and at the rising. For a strong current of air is generated in an aqueduct which bursts its way even through stones unless the water is let in slowly and sparingly from the source at first, and checked at the elbows or turns by bands, or by the weight of sand
-
----
-
-ballast. All the other arrangements should be made as in the case of lead pipes. And ashes are to be put in beforehand when the water is let in from the source for the first time, so that if any of the joints have not been sufficiently coated, they may be coated with ashes.
+9. The level of the pipes being thus adjusted, they will not be sprung out of place by the force generated at the descent and at the rising. For a strong current of air is generated in an aqueduct which bursts its way even through stones unless the water is let in slowly and sparingly from the source at first, and checked at the elbows or turns by bands, or by the weight of sand ballast. All the other arrangements should be made as in the case of lead pipes. And ashes are to be put in beforehand when the water is let in from the source for the first time, so that if any of the joints have not been sufficiently coated, they may be coated with ashes.
 
 10. Clay pipes for conducting water have the following advantages. In the first place, in construction:—if anything happens to them, anybody can repair the damage. Secondly, water from clay pipes is much more wholesome than that which is conducted through lead pipes, because lead is found to be harmful for the reason that white lead is derived from it, and this is said to be hurtful to the human system. Hence, if what is produced from it is harmful, no doubt the thing itself is not wholesome.
 
@@ -2547,15 +1382,9 @@ ballast. All the other arrangements should be made as in the case of lead pipes.
 
 In this book I have put what I could about the merits and varieties of water, its usefulness, and the ways in which it should be conducted and tested; in the next I shall write about the subject of dialling and the principles of timepieces.
 
-
-
----
-
 # BOOK IX
 
----
-
-# INTRODUCTION
+## Introduction
 
 1. The ancestors of the Greeks have appointed such great honours for the famous athletes who are victorious at the Olympian, Pythian, Isthmian, and Nemean games, that they are not only greeted with applause as they stand with palm and crown at the meeting itself, but even on returning to their several states in the triumph of victory, they ride into their cities and to their fathers' houses in four-horse chariots, and enjoy fixed revenues for life at the public expense. When I think of this, I am amazed that the same honours and even greater are not bestowed upon those authors whose boundless services are performed for all time and for all nations. This would have been a practice all the more worth establishing, because in the case of athletes it is merely their own bodily frame that is strengthened by their training, whereas in the case of authors it is the mind, and not only their own but also man's in general, by the doctrines laid down in their books for the acquiring of knowledge and the sharpening of the intellect.
 
@@ -2577,10 +1406,6 @@ This theorem affords a useful means of measuring many things, and it is particul
 
 8. Suppose the height of the story, from the flooring above to the ground below, to be divided into three parts. Five of these will give the right length for the stringers of the stairway. Let four parts, each equal to one of the three composing the height between the upper story and the ground, be set off from the perpendicular, and there fix the lower ends of the stringers. In this manner the steps and the stairway itself will be properly placed. A figure of this also will be found appended below.
 
-
-
----
-
 9. In the case of Archimedes, although he made many wonderful discoveries of diverse kinds, yet of them all, the following, which I shall relate, seems to have been the result of a boundless ingenuity. Hiero, after gaining the royal power in Syracuse, resolved, as a consequence of his successful exploits, to place in a certain temple a golden crown which he had vowed to the immortal gods. He contracted for its making at a fixed price, and weighed out a precise amount of gold to the contractor. At the appointed time the latter delivered to the king's satisfaction an exquisitely finished piece of handiwork, and it appeared that in weight the crown corresponded precisely to what the gold had weighed.
 
 10. But afterwards a charge was made that gold had been abstracted and an equivalent weight of silver had been added in the manufacture of the crown. Hiero, thinking it an outrage that he had been tricked, and yet not knowing how to detect the theft, requested Archimedes to consider the matter. The latter, while the case was still on his mind, happened to go to the bath, and on getting into a tub observed that the more his body sank into it the more water ran out over the tub. As this pointed out the way to explain the case in question, without a moment's delay, and transported with joy, he jumped out of the tub and rushed home naked, crying with a loud voice that he had found what he was seeking; for as he ran he shouted repeatedly in Greek, "Ευρηκα, ευρηκα."
@@ -2593,7 +1418,7 @@ This theorem affords a useful means of measuring many things, and it is particul
 
 14. Archytas solved it by his figure of the semi-cylinders; Eratosthenes, by means of the instrument called the mesolabe.
 
-Noting all these things with the great delight which learning gives, we cannot but be stirred by these discoveries when we reflect upon the influence of them one by one. I find also much for admiration in the books of Democritus on nature, and in his commentary entitled Χειρόκμητα, in which he made use of his ring to seal with soft wax the principles which he had himself put to the test.
+Noting all these things with the great delight which learning gives, we cannot but be stirred by these discoveries when we reflect upon the influence of them one by one. I find also much for admiration in the books of Democritus on nature, and in his commentary entitled Χειρὁκμητα, in which he made use of his ring to seal with soft wax the principles which he had himself put to the test.
 
 15. These, then, were men whose researches are an everlasting possession, not only for the improvement of character but also for general utility. The fame of athletes, however, soon declines with their bodily powers. Neither when they are in the flower of their strength, nor afterwards with posterity, can they do for human life what is done by the researches of the learned.
 
@@ -2603,21 +1428,11 @@ Noting all these things with the great delight which learning gives, we cannot b
 
 18. Such, Caesar, are the authorities on whom I have depended, and applying their views and opinions I have written the present books, in the first seven treating of buildings and in the eighth of water. In this I shall set forth the rules for dialling, showing how they are found through the shadows cast by the gnomon from the sun's rays in the firmament, and on what principles these shadows lengthen and shorten.
 
-
-
----
-
-
-
----
-
-# CHAPTER I
-
-## THE ZODIAC AND THE PLANETS
+## Chapter I. The Zodiac and the Planets
 
 1. It is due to the divine intelligence and is a very great wonder to all who reflect upon it, that the shadow of a gnomon at the equinox is of one length in Athens, of another in Alexandria, of another in Rome, and not the same at Piacenza, or at other places in the world. Hence drawings for dials are very different from one another, corresponding to differences of situation. This is because the length of the shadow at the equinox is used in constructing the figure of the analemma, in accordance with which the hours are marked to conform to the situation and the shadow of the gnomon. The analemma is a basis for calculation deduced from the course of the sun, and found by observation of the shadow as it increases until the winter solstice. By means of this, through architectural principles and the employment of the compasses, we find out the operation of the sun in the universe.
 
-2. The word "universe" means the general assemblage of all nature, and it also means the heaven that is made up of the constellations and the courses of the stars. The heaven revolves steadily round earth and sea on the pivots at the ends of its axis. The architect at these points was the power of Nature, and she put the pivots there, to be, as it were, centres, one of them above the earth and sea at the very top of the firmament and even beyond the stars composing the Great Bear, the other on the opposite side under the earth in the regions of the south. Round these pivots (termed in Greek πόλος) as centres, like those of a turning lathe, she formed the circles in which the heaven passes on its everlasting way. In the midst thereof, the earth and sea naturally occupy the central point.
+2. The word "universe" means the general assemblage of all nature, and it also means the heaven that is made up of the constellations and the courses of the stars. The heaven revolves steadily round earth and sea on the pivots at the ends of its axis. The architect at these points was the power of Nature, and she put the pivots there, to be, as it were, centres, one of them above the earth and sea at the very top of the firmament and even beyond the stars composing the Great Bear, the other on the opposite side under the earth in the regions of the south. Round these pivots (termed in Greek πὁλοι) as centres, like those of a turning lathe, she formed the circles in which the heaven passes on its everlasting way. In the midst thereof, the earth and sea naturally occupy the central point.
 
 3. It follows from this natural arrangement that the central point in the north is high above the earth, while on the south, the region below, it is beneath the earth and consequently hidden by it. Furthermore, across the middle, and obliquely inclined to the south, there is a broad circular belt composed of the twelve signs, whose stars, arranged in twelve equivalent divisions, represent each a shape which nature has depicted. And so with the firmament and the other constellations, they move round the earth and sea in glittering array, completing their orbits according to the spherical shape of the heaven.
 
@@ -2631,8 +1446,6 @@ Noting all these things with the great delight which learning gives, we cannot b
 
 8. Mercury, on his journey through the heavens, passes through the spaces of the signs in three hundred and sixty days, and so arrives at the sign from which he set out on his course at the beginning of his revolution. His average rate of movement is such that he has about thirty days in each sign.
 
----
-
 9. Venus, on becoming free from the hindrance of the sun's rays, crosses the space of a sign in thirty days. Though she thus stays less than forty days in particular signs, she makes good the required amount by delaying in one sign when she comes to a pause. Therefore she completes her total revolution in heaven in four hundred and eighty-five days, and once more enters the sign from which she previously began to move.
 
 10. Mars, after traversing the spaces of the constellations for about six hundred and eighty-three days, arrives at the point from which he had before set out at the beginning of his course, and while he passes through some of the signs more rapidly than others, he makes up the required number of days whenever he comes to a pause. Jupiter, climbing with gentler pace against the revolution of the firmament, travels through each sign in about three hundred and sixty days, and finishes in eleven years and three hundred and thirteen days, returning to the sign in which he had been twelve years before. Saturn, traversing the space of one sign in twenty-nine months plus a few days, is restored after twenty-nine years and about one hundred and sixty days to that in which he had been thirty years before. He is, as it appears, slower, because the nearer he is to the outermost part of the firmament, the greater is the orbit through which he has to pass.
@@ -2641,7 +1454,7 @@ Noting all these things with the great delight which learning gives, we cannot b
 
 12. If then, at this great distance, our human vision can discern that sight, why, pray, are we to think that the divine splendour of the stars can be cast into darkness? Rather will the following way of accounting for it prove to be correct. Heat summons and attracts everything towards itself; for instance, we see the fruits of the earth growing up high under the influence of heat, and that spring water is vapourised and drawn up to the clouds at sunrise. On the same principle, the mighty influence of the sun, with his rays diverging in the form of a triangle, attracts the stars which follow him, and, as it were, curbs and restrains those that precede, not allowing them to make progress, but obliging them to retrograde towards himself until he passes out into the sign that belongs to a different triangle.
 
-13. Perhaps the question will be raised, why the sun by his great heat causes these detentions in the fifth sign from himself rather than in the second or third, which are nearer. I will therefore set forth what seems to be the reason. His rays diverge through the firmament in straight lines as though forming an equilateral triangle, that is, to the fifth sign from the sun, no more, no less. If his rays were diffused in circuits spreading all over the firmament, instead of in straight lines diverging so as to form a triangle, they would burn up all the nearer objects. This is a fact which the Greek poet Euripides seems to have remarked; for he says that places at a greater distance from the sun are in a violent heat, and that those which are nearer he keeps temperate. Thus in the play of Phaethon, the poet writes: καίει τὰ πόρριο, τάγνθεν ὅ εὐκρατ ἔχει.
+13. Perhaps the question will be raised, why the sun by his great heat causes these detentions in the fifth sign from himself rather than in the second or third, which are nearer. I will therefore set forth what seems to be the reason. His rays diverge through the firmament in straight lines as though forming an equilateral triangle, that is, to the fifth sign from the sun, no more, no less. If his rays were diffused in circuits spreading all over the firmament, instead of in straight lines diverging so as to form a triangle, they would burn up all the nearer objects. This is a fact which the Greek poet Euripides seems to have remarked; for he says that places at a greater distance from the sun are in a violent heat, and that those which are nearer he keeps temperate. Thus in the play of Phaethon, the poet writes: καἱει τἁ πὁρρω, τἁγγυθεν δ εὑκρατ ἑχει.
 
 14. If then, fact and reason and the evidence of an ancient poet point to this explanation, I do not see why we should decide otherwise than as I have written above on this subject.
 
@@ -2651,19 +1464,9 @@ Jupiter, whose orbit is between those of Mars and Saturn, traverses a longer cou
 
 16. The reason why some of these stars are temperate, others hot, and others cold, appears to be this: that the flame of every kind of fire rises to higher places. Consequently, the burning rays of the sun make the ether above him white hot, in the regions of the course of Mars, and so the heat of the sun makes him hot. Saturn, on the contrary, being nearest to the outermost limit of the firmament and bordering on the quarters of the heaven which are frozen, is excessively cold. Hence, Jupiter, whose course is between the orbits of these two, appears to have a moderate and very temperate influence, intermediate between their cold and heat.
 
-I have now described, as I have received them from my teacher, the belt of the twelve signs and the seven stars that work and move in the opposite direction, with the laws and numerical relations under which they pass from sign to sign, and how
+I have now described, as I have received them from my teacher, the belt of the twelve signs and the seven stars that work and move in the opposite direction, with the laws and numerical relations under which they pass from sign to sign, and how they complete their orbits. I shall next speak of the waxing and waning of the moon, according to the accounts of my predecessors.
 
-
-
----
-
-they complete their orbits. I shall next speak of the waxing and waning of the moon, according to the accounts of my predecessors.
-
----
-
-# CHAPTER II
-
-## THE PHASES OF THE MOON
+## Chapter II. The Phases of the Moon
 
 1. According to the teaching of Berosus, who came from the state, or rather nation, of the Chaldees, and was the pioneer of Chaldean learning in Asia, the moon is a ball, one half luminous and the rest of a blue colour. When, in the course of her orbit, she has passed below the disc of the sun, she is attracted by his rays and great heat, and turns thither her luminous side, on account of the sympathy between light and light. Being thus summoned by the sun's disc and facing upward, her lower half, as it is not luminous, is invisible on account of its likeness to the air. When she is perpendicular to the sun's rays, all her light is confined to her upper surface, and she is then called the new moon.
 
@@ -2675,11 +1478,7 @@ they complete their orbits. I shall next speak of the waxing and waning of the m
 
 I will next explain how the sun, passing through a different sign each month, causes the days and hours to increase and diminish in length.
 
----
-
-# CHAPTER III
-
-## THE COURSE OF THE SUN THROUGH THE TWELVE SIGNS
+## Chapter III. The Course of the Sun Through the Twelve Signs
 
 1. The sun, after entering the sign Aries and passing through one eighth of it, determines the vernal equinox. On reaching the tail of Taurus and the constellation of the Pleiades, from which the front half of Taurus projects, he advances into a space greater than half the firmament, moving toward the north. From Taurus he enters Gemini at the time of the rising of the Pleiades, and, getting higher above the earth, he increases the length of the days. Next, coming from Gemini into Cancer, which occupies the shortest space in heaven, and after traversing one eighth of it, he determines the summer solstice. Continuing on, he reaches the head and breast of Leo, portions which are reckoned as belonging to Cancer.
 
@@ -2689,45 +1488,33 @@ I will next explain how the sun, passing through a different sign each month, ca
 
 I shall next speak of the other constellations formed by arrangements of stars, and lying to the right and left of the belt of the signs, in the southern and northern portions of the firmament.
 
----
+## Chapter IV. The Northern Constellations
 
-# CHAPTER IV
+1. The Great Bear, called in Greek ἁρκτος or ἑλἱκη, has her Warden behind her. Near him is the Virgin, on whose right shoulder rests a very bright star which we call Harbinger of the Vintage, and the Greeks προτρυγητἡς. But Spica in that constellation is brighter. Opposite there is another star, coloured, between the knees of the Bear Warden, dedicated there under the name of Arcturus.
 
-## THE NORTHERN CONSTELLATIONS
-
-1. The Great Bear, called in Greek ἀρκτος or ἐλίκη, has her Warden behind her. Near him is the Virgin, on whose right shoulder rests a very bright star which we call Harbinger of the Vintage, and the Greeks προτρυγητής. But Spica in that constellation is brighter. Opposite there is another star, coloured, between the knees of the Bear Warden, dedicated there under the name of Arcturus.
-
-2. Opposite the head of the Bear, at an angle with the feet of the Twins, is the Charioteer, standing on the tip of the horn of the Bull; hence, one and the same star is found in the tip of the left horn of the Bull and in the right foot of the Charioteer. Supported on the hand of the Charioteer are the Kids, with the She-Goat at his left shoulder. Above the Bull and the Ram is Perseus, having at his right...[11] with the Pleiades moving beneath, and at his left the head of the Ram. His right hand rests on the likeness of Cassiopea, and with his left he holds the Gorgon's head by its top over the Ram, laying it at the feet of Andromeda.
+2. Opposite the head of the Bear, at an angle with the feet of the Twins, is the Charioteer, standing on the tip of the horn of the Bull; hence, one and the same star is found in the tip of the left horn of the Bull and in the right foot of the Charioteer. Supported on the hand of the Charioteer are the Kids, with the She-Goat at his left shoulder. Above the Bull and the Ram is Perseus, having at his right... with the Pleiades moving beneath, and at his left the head of the Ram. His right hand rests on the likeness of Cassiopea, and with his left he holds the Gorgon's head by its top over the Ram, laying it at the feet of Andromeda.
 
 3. Above Andromeda are the Fishes, one above her belly and the other above the backbone of the Horse. A very bright star terminates both the belly of the Horse and the head of Andromeda. Andromeda's right hand rests above the likeness of Cassiopea, and her left above the Northern Fish. The Waterman's head is above that of the Horse. The Horse's hoofs lie close to the Waterman's knees. Cassiopea is set apart in the midst. High above the He-Goat are the Eagle and the Dolphin, and near them is the Arrow. Farther on is the Bird, whose right wing grazes the head and sceptre of Cepheus, with its left resting over Cassiopea. Under the tail of the Bird lie the feet of the Horse.
 
 4. Above the Archer, Scorpion, and Balance, is the Serpent, reaching to the Crown with the end of its snout. Next, the Serpent-holder grasps the Serpent about the middle in his hands, and with his left foot treads squarely on the foreparts of the Scorpion. A little way from the head of the Serpent-holder is the head of the so-called Kneeler. Their heads are the more readily to be distinguished as the stars which compose them are by no means dim.
 
-5. The foot of the Kneeler rests on the temple of that Serpent which is entwined between the She-Bears (called Septentriones). The little Dolphin moves in front of the Horse. Opposite the bill of the Bird is the Lyre. The Crown is arranged between the shoulders of the Warden and the Kneeler. In the northern circle are the two She-Bears with their shoulder-blades confronting and their breasts turned away from one another. The Greeks call the Lesser Bear κιννόσουρα, and the Greater ἐλίκη. Their heads face different ways, and their tails are shaped so that each is in front of the head of the other Bear; for the tails of both stick up over them.
+5. The foot of the Kneeler rests on the temple of that Serpent which is entwined between the She-Bears (called Septentriones). The little Dolphin moves in front of the Horse. Opposite the bill of the Bird is the Lyre. The Crown is arranged between the shoulders of the Warden and the Kneeler. In the northern circle are the two She-Bears with their shoulder-blades confronting and their breasts turned away from one another. The Greeks call the Lesser Bear κυνὁσουρα, and the Greater ἑλικη. Their heads face different ways, and their tails are shaped so that each is in front of the head of the other Bear; for the tails of both stick up over them.
 
 6. The Serpent is said to lie stretched out between their tails, and in it there is a star, called Polus, shining near the head of the Greater Bear. At the nearest point, the Serpent winds its head round, but is also flung in a fold round the head of the Lesser Bear, and stretches out close to her feet. Here it twists back, making another fold, and, lifting itself up, bends its snout and right temple from the head of the Lesser Bear round towards the Greater. Above the tail of the Lesser Bear are the feet of Cepheus, and at this point, at the very top, are stars forming an equilateral triangle. There are a good many stars common to the Lesser Bear and to Cepheus.
 
 I have now mentioned the constellations which are arranged in the heaven to the right of the east, between the belt of the signs and the north. I shall next describe those that Nature has distributed to the left of the east and in the southern regions.
 
----
-
-# CHAPTER V
-
-## THE SOUTHERN CONSTELLATIONS
+## Chapter V. The Southern Constellations
 
 1. First, under the He-Goat lies the Southern Fish, facing towards the tail of the Whale. The Censer is under the Scorpion's sting. The fore parts of the Centaur are next to the Balance and the Scorpion, and he holds in his hands the figure which astronomers call the Beast. Beneath the Virgin, Lion, and Crab is the twisted girdle formed by the Snake, extending over a whole line of stars, his snout raised near the Crab, supporting the Bowl with the middle of his body near the Lion, and bringing his tail, on which is the Raven, under and near the hand of the Virgin. The region above his shoulders is equally bright.
 
 2. Beneath the Snake's belly, at the tail, lies the Centaur. Near the Bowl and the Lion is the ship named Argo. Her bow is invisible, but her mast and the parts about the helm are in plain sight, the stern of the vessel joining the Dog at the tip of his tail. The Little Dog follows the Twins, and is opposite the Snake's head. The Greater Dog follows the Lesser. Orion lies aslant, under the Bull's hoof; in his left hand grasping his club, and raising the other toward the Twins.
 
-3. At his feet is the Dog, following a little behind the Hare. The Whale lies under the Ram and the Fishes, and from his mane there is a slight sprinkling of stars, called in Greek ὄρπεδόναι, regularly disposed towards each of the Fishes. This ligature by which they hang is carried a great way inwards, but reaches out to the top of the mane of the Whale. The River, formed of stars, flows from a source at the left foot of Orion. But the Water, said to pour from the Waterman, flows between the head of the Southern Fish and the tail of the Whale.
+3. At his feet is the Dog, following a little behind the Hare. The Whale lies under the Ram and the Fishes, and from his mane there is a slight sprinkling of stars, called in Greek ἁρπεδὁναι, regularly disposed towards each of the Fishes. This ligature by which they hang is carried a great way inwards, but reaches out to the top of the mane of the Whale. The River, formed of stars, flows from a source at the left foot of Orion. But the Water, said to pour from the Waterman, flows between the head of the Southern Fish and the tail of the Whale.
 
 4. These constellations, whose outlines and shapes in the heavens were designed by Nature and the divine intelligence, I have described according to the view of the natural philosopher Democritus, but only those whose risings and settings we can observe and see with our own eyes. Just as the Bears turn round the pivot of the axis without ever setting or sinking under the earth, there are likewise stars that keep turning round the southern pivot, which on account of the inclination of the firmament lies always under the earth, and, being hidden there, they never rise and emerge above the earth. Consequently, the figures which they form are unknown to us on account of the interposition of the earth. The star Canopus proves this. It is unknown to our vicinity; but we have reports of it from merchants who have been to the most distant part of Egypt, and to regions bordering on the uttermost boundaries of the earth.
 
----
-
-# CHAPTER VI
-
-## ASTROLOGY AND WEATHER PROGNOSTICS
+## Chapter VI. Astrology and Weather Prognostics
 
 1. I have shown how the firmament, and the twelve signs with the constellations arranged to the north and south of them, fly round the earth, so that the matter may be clearly understood. For it is from this revolution of the firmament, from the course of the sun through the signs in the opposite direction, and from the shadows cast by equinoctial gnomons, that we find the figure of the analemma.
 
@@ -2735,40 +1522,27 @@ I have now mentioned the constellations which are arranged in the heaven to the 
 
 3. When we come to natural philosophy, however, Thales of Miletus, Anaxagoras of Clazomenae, Pythagoras of Samos, Xenophanes of Colophon, and Democritus of Abdera have in various ways investigated and left us the laws and the working of the laws by which nature governs it. In the track of their discoveries, Eudoxus, Euctemon, Callippus, Meto, Philippus, Hipparchus, Aratus, and others discovered the risings and settings of the constellations, as well as weather prognostications from astronomy through the study of the calendars, and this study they set forth and left to posterity. Their learning deserves the admiration of mankind; for they were so solicitous as even to be able to predict, long beforehand, with divining mind, the signs of the weather which was to follow in the future. On this subject, therefore, reference must be made to their labours and investigations.
 
----
+## Chapter VII. The Analemma and Its Applications
 
-# CHAPTER VII
+1. In distinction from the subjects first mentioned, we must ourselves explain the principles which govern the shortening and lengthening of the day. When the sun is at the equinoxes, that is, passing through Aries or Libra, he makes the gnomon cast a shadow equal to eight ninths of its own length, in the latitude of Rome. In Athens, the shadow is equal to three fourths of the length of the gnomon; at Rhodes to five sevenths; at Tarentum, to nine elevenths; at Alexandria, to three fifths; and so at other places it is found that the shadows of equinoctial gnomons are naturally different from one another.
 
-# THE ANALEMMA AND ITS APPLICATIONS
-
-1. In distinction from the subjects first mentioned, we must ourselves explain the principles which govern the shortening and lengthening of the day. When the sun is at the equinoxes, that is, passing through Aries or Libra, he makes the gnomon cast a shadow equal to eight ninths of its own length, in the latitude of Rome. In Athens, the shadow is equal to three fourths of the length of the gnomon; at Rhodes to five sevenths; at Tarentum, to nine eleventhts; at Alexandria, to three fifths; and so at other places it is found that the shadows of equinoctial gnomons are naturally different from one another.
 2. Hence, wherever a sundial is to be constructed, we must take the equinoctial shadow of the place. If it is found to be, as in Rome, equal to eight ninths of the gnomon, let a line be drawn on a plane surface, and in the middle thereof erect a perpendicular, plumb to the line, which perpendicular is called the gnomon. Then, from the line in the plane, let the line of the gnomon be divided off by the compasses into nine parts, and take the point designating the ninth part as a centre, to be marked by the letter A. Then, opening the compasses from that centre to the line in the plane at the point B, describe a circle. This circle is called the meridian.
+
 3. Then, of the nine parts between the plane and the centre on the gnomon, take eight, and mark them off on the line in the plane to the point C. This will be the equinoctial shadow of the gnomon. From that point, marked by C, let a line be drawn through the centre at the point A, and this will represent a ray of the sun at the equinox. Then, extending the compasses from the centre to the line in the plane, mark off the equidistant points E on the left and I on the right, on the two sides of the circumference, and let a line be drawn through the centre, dividing the circle into two equal semicircles. This line is called by mathematicians the horizon.
 
-![img-72.jpeg](images/img-72.jpeg)
-
 4. Then, take a fifteenth part of the entire circumference, and, placing the centre of the compasses on the circumference at the point where the equinoctial ray cuts it at the letter F, mark off the points G and H on the right and left. Then lines must be drawn from these (and the centre) to the line of the plane at the points T and R, and thus, one will represent the ray of the sun in winter, and the other the ray in summer. Opposite E will be the point I, where the line drawn through the centre at the point A cuts the circumference; opposite G and H will be the points L and K; and opposite C, F, and A will be the point N.
-5. Then, diameters are to be drawn from G to L and from H to K. The upper will denote the summer and the lower the winter portion. These diameters are to be divided equally in the middle at the points M and O, and those centres marked; then, through these marks and the centre A, draw a line extending to the two sides of the circumference at the points P and Q. This
 
----
+5. Then, diameters are to be drawn from G to L and from H to K. The upper will denote the summer and the lower the winter portion. These diameters are to be divided equally in the middle at the points M and O, and those centres marked; then, through these marks and the centre A, draw a line extending to the two sides of the circumference at the points P and Q. This will be a line perpendicular to the equinoctial ray, and it is called in mathematical figures the axis. From these same centres open the compasses to the ends of the diameters, and describe semicircles, one of which will be for summer and the other for winter.
 
-will be a line perpendicular to the equinoctial ray, and it is called in mathematical figures the axis. From these same centres open the compasses to the ends of the diameters, and describe semicircles, one of which will be for summer and the other for winter.
-
-6. Then, at the points at which the parallel lines cut the line called the horizon, the letter S is to be on the right and the letter V on the left, and from the extremity of the semicircle, at the point G, draw a line parallel to the axis, extending to the left-hand semicircle at the point H. This parallel line is called the Logotomus. Then, centre the compasses at the point where the equinoctial ray cuts that line, at the letter D, and open them to the point where the summer ray cuts the circumference at the letter H. From the equinoctial centre, with a radius extending to the summer ray, describe the circumference of the circle of the months, which is called Menaeus. Thus we shall have the figure of the analemma.
+6. Then, at the points at which the parallel lines cut the line called the horizon, the letter S is to be on the right and the letter V on the left, and from the extremity of the semicircle, at the point G, draw a line parallel to the axis, extending to the lefthand semicircle at the point H. This parallel line is called the Logotomus. Then, centre the compasses at the point where the equinoctial ray cuts that line, at the letter D, and open them to the point where the summer ray cuts the circumference at the letter H. From the equinoctial centre, with a radius extending to the summer ray, describe the circumference of the circle of the months, which is called Menaeus. Thus we shall have the figure of the analemma.
 
 7. This having been drawn and completed, the scheme of hours is next to be drawn on the baseplates from the analemma, according to the winter lines, or those of summer, or the equinoxes, or the months, and thus many different kinds of dials may be laid down and drawn by this ingenious method. But the result of all these shapes and designs is in one respect the same: namely, the days of the equinoxes and of the winter and summer solstices are always divided into twelve equal parts. Omitting details, therefore,—not for fear of the trouble, but lest I should prove tiresome by writing too much,—I will state by whom the different classes and designs of dials have been invented. For I cannot invent new kinds myself at this late day, nor do I think that I ought to display the inventions of others as my own. Hence, I will mention those that have come down to us, and by whom they were invented.
 
+## Chapter VIII. Sundials and Water Clocks
 
+1. The semicircular form, hollowed out of a square block, and cut under to correspond to the polar altitude, is said to have been invented by Berosus the Chaldean; the Scaphe or Hemisphere, by Aristarchus of Samos, as well as the disc on a plane surface; the Arachne, by the astronomer Eudoxus or, as some say, by Apollonius; the Plinthium or Lacunar, like the one placed in the Circus Flaminius, by Scopinas of Syracuse; the προς τἁ ἱστοροὑμενα, by Parmenio; the προς παν κλιμα, by Theodosius and Andreas; the Pelecinum, by Patrocles; the Cone, by Dionysodorus; the Quiver, by Apollonius. The men whose names are written above, as well as many others, have invented and left us other kinds: as, for instance, the Conarachne, the Conical Plinthium, and the Antiborean. Many have also left us written directions for making dials of these kinds for travellers, which can be hung up. Whoever wishes to find their baseplates, can easily do so from the books of these writers, provided only he understands the figure of the analemma.
 
----
-
-# CHAPTER VIII
-
-## SUNDIALS AND WATER CLOCKS
-
-1. The semicircular form, hollowed out of a square block, and cut under to correspond to the polar altitude, is said to have been invented by Berosus the Chaldean; the Scaphe or Hemisphere, by Aristarchus of Samos, as well as the disc on a plane surface; the Arachne, by the astronomer Eudoxus or, as some say, by Apollonius; the Plinthium or Lacunar, like the one placed in the Circus Flaminius, by Scopinas of Syracuse; the προς τὰ ἱστορούμενα, by Parmenio; the προς παν κλιμα, by Theodosius and Andreas; the Pelecinum, by Patrocles; the Cone, by Dionysodorus; the Quiver, by Apollonius. The men whose names are written above, as well as many others, have invented and left us other kinds: as, for instance, the Conarachne, the Conical Plinthium, and the Antiborean. Many have also left us written directions for making dials of these kinds for travellers, which can be hung up. Whoever wishes to find their baseplates, can easily do so from the books of these writers, provided only he understands the figure of the analemma.
-
-2. Methods of making water clocks have been investigated by the same writers, and first of all by Ctesibius the Alexandrian, who also discovered the natural pressure of the air and pneumatic principles. It is worth while for students to know how these discoveries came about. Ctesibius, born at Alexandria, was the son of a barber. Preeminent for natural ability and great industry, he is said to have amused himself with ingenious devices. For example, wishing to hang a mirror in his father's shop in such a way that, on being lowered and raised again, its weight should be raised by means of a concealed cord, he employed the following mechanical contrivance.
+2. Methods of making water clocks have been investigated by the same writers, and first of all by Ctesibius the Alexandrian, who also discovered the natural pressure of the air and pneumatic principles. It is worth while for students to know how these discoveries came about. Ctesibius, born at Alexandria, was the son of a barber. Preëminent for natural ability and great industry, he is said to have amused himself with ingenious devices. For example, wishing to hang a mirror in his father's shop in such a way that, on being lowered and raised again, its weight should be raised by means of a concealed cord, he employed the following mechanical contrivance.
 
 3. Under the roof-beam he fixed a wooden channel in which he arranged a block of pulleys. He carried the cord along the channel to the corner, where he set up some small piping. Into this a leaden ball, attached to the cord, was made to descend. As the weight fell into the narrow limits of the pipe, it naturally compressed the enclosed air, and, as its fall was rapid, it forced the mass of compressed air through the outlet into the open air, thus producing a distinct sound by the concussion.
 
@@ -2781,8 +1555,6 @@ will be a line perpendicular to the equinoctial ray, and it is called in mathema
 7. But if it proves that the shortening or lengthening of the day is not in agreement with the insertion and removal of the wedges, because the wedges may very often cause errors, the following arrangement will have to be made. Let the hours be marked off transversely on the column from the analemma, and let the lines of the months also be marked upon the column. Then let the column be made to revolve, in such a way that, as it turns continuously towards the figure and the rod with which the emerging figure points to the hours, it may make the hours short or long according to the respective months.
 
 8. There is also another kind of winter dial, called the Anaphoric and constructed in the following way. The hours, indicated by bronze rods in accordance with the figure of the analemma, radiate from a centre on the face. Circles are described upon it, marking the limits of the months. Behind these rods there is a drum, on which is drawn and painted the firmament with the circle of the signs. In drawing the figures of the twelve celestial signs, one is represented larger and the next smaller, proceeding from the centre. Into the back of the drum, in the middle, a revolving axis is inserted, and round that axis is wound a flexible bronze chain, at one end of which hangs the "cork" which is raised by the water, and at the other a counterpoise of sand, equal in weight to the "cork."
-
----
 
 9. Hence, the sand sinks as the "cork" is raised by the water, and in sinking turns the axis, and the axis the drum. The revolution of this drum causes sometimes a larger and sometimes a smaller portion of the circle of the signs to indicate, during the revolutions, the proper length of the hours corresponding to their seasons. For in every one of the signs there are as many holes as the corresponding month has days, and a boss, which seems to be holding the representation of the sun on a dial, designates the spaces for the hours. This, as it is carried from hole to hole, completes the circuit of a full month.
 
@@ -2802,15 +1574,9 @@ To manage the water so that it may flow regularly, we must proceed as follows.
 
 The rules and forms of construction employed in designing dials have now been described as well as I could. It remains to give an account of machines and their principles. In order to make my treatise on architecture complete, I will begin to write on this subject in the following book.
 
+# BOOK X
 
-
----
-
-
-
----
-
-# INTRODUCTION
+## Introduction
 
 1. In the famous and important Greek city of Ephesus there is said to be an ancient ancestral law, the terms of which are severe, but its justice is not inequitable. When an architect accepts the charge of a public work, he has to promise what the cost of it will be. His estimate is handed to the magistrate, and his property is pledged as security until the work is done. When it is finished, if the outlay agrees with his statement, he is complimented by decrees and marks of honour. If no more than a fourth has to be added to his estimate, it is furnished by the treasury and no penalty is inflicted. But when more than one fourth has to be spent in addition on the work, the money required to finish it is taken from his property.
 
@@ -2820,19 +1586,13 @@ The rules and forms of construction employed in designing dials have now been de
 
 4. Therefore, since such are our traditions and established practices, it is obviously fitting that the plans should be worked out carefully, and with the greatest attention, before the structures are begun. Consequently, as we have no law or customary practice to compel this, and as every year both praetors and aediles have to provide machinery for the festivals, I have thought it not out of place, Emperor, since I have treated of buildings in the earlier books, to set forth and teach in this, which forms the final conclusion of my treatise, the principles which govern machines.
 
+## Chapter I. Machines and Implements
 
-
----
-
-# CHAPTER I
-
-## MACHINES AND IMPLEMENTS
-
-1. A machine is a combination of timbers fastened together, chiefly efficacious in moving great weights. Such a machine is set in motion on scientific principles in circular rounds, which the Greeks call κυλική κίνησις. There is, however, a class intended for climbing, termed in Greek ἀκροβατικόν, another worked by air, which with them is called πνευματικόν, and a third for hoisting; this the Greeks named βαρουλκός. In the climbing class are machines so disposed that one can safely climb up high, by means of timbers set up on end and connected by crossbeams, in order to view operations. In the pneumatic class, air is forced by pressure to produce sounds and tones as in an ὀργανον.
+1. A machine is a combination of timbers fastened together, chiefly efficacious in moving great weights. Such a machine is set in motion on scientific principles in circular rounds, which the Greeks call κυλικη κἱνησις. There is, however, a class intended for climbing, termed in Greek ἁκροβατικὁν, another worked by air, which with them is called πνευματικὁν, and a third for hoisting; this the Greeks named βαρουλκὁς. In the climbing class are machines so disposed that one can safely climb up high, by means of timbers set up on end and connected by crossbeams, in order to view operations. In the pneumatic class, air is forced by pressure to produce sounds and tones as in an ὁργανον.
 
 2. In the hoisting class, heavy weights are removed by machines which raise them up and set them in position. The climbing machine displays no scientific principle, but merely a spirit of daring. It is held together by dowels and crossbeams and twisted lashings and supporting props. A machine that gets its motive power by pneumatic pressure will produce pretty effects by scientific refinements. But the hoisting machine has opportunities for usefulness which are greater and full of grandeur, and it is of the highest efficacy when used with intelligence.
 
-3. Some of these act on the principle of the μηχανή, others on that of the ὀργανον. The difference between "machines" and "engines" is obviously this, that machines need more workmen and greater power to make them take effect, as for instance ballistae and the beams of presses. Engines, on the other hand, accomplish their purpose at the intelligent touch of a single workman, as the scorpio or anisocycli when they are turned. Therefore engines, as well as machines, are, in principle, practical necessities, without which nothing can be unattended with difficulties.
+3. Some of these act on the principle of the μηχανἡ, others on that of the ὁργανον. The difference between "machines" and "engines" is obviously this, that machines need more workmen and greater power to make them take effect, as for instance ballistae and the beams of presses. Engines, on the other hand, accomplish their purpose at the intelligent touch of a single workman, as the scorpio or anisocycli when they are turned. Therefore engines, as well as machines, are, in principle, practical necessities, without which nothing can be unattended with difficulties.
 
 4. All machinery is derived from nature, and is founded on the teaching and instruction of the revolution of the firmament. Let us but consider the connected revolutions of the sun, the moon, and the five planets, without the revolution of which, due to mechanism, we should not have had the alternation of day and night, nor the ripening of fruits. Thus, when our ancestors had seen that this was so, they took their models from nature, and by imitating them were led on by divine facts, until they perfected the contrivances which are so serviceable in our life. Some things, with a view to greater convenience, they worked out by means of machines and their revolutions, others by means of engines, and so, whatever they found to be useful for investigations, for the arts, and for established practices, they took care to improve step by step on scientific principles.
 
@@ -2840,11 +1600,7 @@ The rules and forms of construction employed in designing dials have now been de
 
 6. The discovery of the method of testing weights by steelyards and balances saves us from fraud, by introducing honest practices into life. There are also innumerable ways of employing machinery about which it seems unnecessary to speak, since they are at hand every day; such as mills, blacksmiths' bellows, carriages, gigs, turning lathes, and other things which are habitually used as general conveniences. Hence, we shall begin by explaining those that rarely come to hand, so that they may be understood.
 
----
-
-# CHAPTER II
-
-## HOISTING MACHINES
+## Chapter II. Hoisting Machines
 
 1. First we shall treat of those machines which are of necessity made ready when temples and public buildings are to be constructed. Two timbers are provided, strong enough for the weight of the load. They are fastened together at the upper end by a bolt, then spread apart at the bottom, and so set up, being kept upright by ropes attached at the upper ends and fixed at intervals all round. At the top is fastened a block, which some call a "rechamus." In the block two sheaves are enclosed, turning on axles. The traction rope is carried over the sheave at the top, then let fall and passed round a sheave in a block below. Then it is brought back to a sheave at the bottom of the upper block, and so it goes down to the lower block, where it is fastened through a hole in that block. The other end of the rope is brought back and down between the legs of the machine.
 
@@ -2854,7 +1610,7 @@ The rules and forms of construction employed in designing dials have now been de
 
 4. A block should then be attached by a stout cord to the top of the machine, and from that point a rope should be carried to a pile, and to a block tied to the pile. Let the rope be put in round the sheave of this block, and brought back to the block that is fastened at the top of the machine. Round its sheave the rope should be passed, and then should go down from the top, and back to the windlass, which is at the bottom of the machine, and there be fastened. The windlass is now to be turned by means of the handspikes, and it will raise the machine of itself without danger. Thus, a machine of the larger kind will be set in position, with its ropes in their places about it, and its stays attached to the piles. Its blocks and traction ropes are arranged as described above.
 
-5. But if the loads of material for the work are still more colossal in size and weight, we shall not entrust them to a windlass, but set in an axle-tree, held by sockets as the windlass was, and carrying on its centre a large drum, which some term a wheel, but the Greeks call it ἀμφίεσις or περιθήκιον.
+5. But if the loads of material for the work are still more colossal in size and weight, we shall not entrust them to a windlass, but set in an axle-tree, held by sockets as the windlass was, and carrying on its centre a large drum, which some term a wheel, but the Greeks call it ἁμφἱεσις or περιθἡκιον.
 
 6. And the blocks in such machines are not arranged in the same, but in a different manner; for the rows of sheaves in them are doubled, both at the bottom and at the top. The traction rope is passed through a hole in the lower block, in such a way that the two ends of the rope are of equal length when it is stretched out, and both portions are held there at the lower block by a cord which is passed round them and lashed so that they cannot come out either to the right or the left. Then the ends of the rope are brought up into the block at the top from the outside, and passed down over its lower sheaves, and so return to the bottom, and are passed from the inside to the sheaves in the lowest block, and then are brought up on the right and left, and return to the top and round the highest set of sheaves.
 
@@ -2862,9 +1618,7 @@ The rules and forms of construction employed in designing dials have now been de
 
 8. There is also another kind of machine, ingenious enough and easy to use with speed, but only experts can work with it. It consists of a single timber, which is set up and held in place by stays on four sides. Two cheeks are nailed on below the stays, a block is fastened by ropes above the cheeks, and a straight piece of wood about two feet long, six digits wide, and four digits thick, is put under the block. The blocks used have each three rows of sheaves side by side. Hence three traction ropes are fastened at the top of the machine. Then they are brought to the block at the bottom, and passed from the inside round the sheaves that are nearest the top of it. Then they are brought back to the upper block, and passed inwards from outside round the sheaves nearest the bottom.
 
----
-
-9. On coming down to the block at the bottom, they are carried round its second row of sheaves from the inside to the outside, and brought back to the second row at the top, passing round it and returning to the bottom; then from the bottom they are carried to the summit, where they pass round the highest row of sheaves, and then return to the bottom of the machine. At the foot of the machine a third block is attached. The Greeks call it ἐπιήμον, but our people "artemon." This block fastened at the foot of the machine has three sheaves in it, round which the ropes are passed and then delivered to men to pull. Thus, three rows of men, pulling without a capstan, can quickly raise the load to the top.
+9. On coming down to the block at the bottom, they are carried round its second row of sheaves from the inside to the outside, and brought back to the second row at the top, passing round it and returning to the bottom; then from the bottom they are carried to the summit, where they pass round the highest row of sheaves, and then return to the bottom of the machine. At the foot of the machine a third block is attached. The Greeks call it ἑπἁγων, but our people "artemon." This block fastened at the foot of the machine has three sheaves in it, round which the ropes are passed and then delivered to men to pull. Thus, three rows of men, pulling without a capstan, can quickly raise the load to the top.
 
 10. This kind of machine is called a polyspast, because of the many revolving sheaves to which its dexterity and despatch are due. There is also this advantage in the erection of only a single timber, that by previously inclining it to the right or left as much as one wishes, the load can be set down at one side.
 
@@ -2880,43 +1634,27 @@ All these kinds of machinery described above are, in their principles, suited no
 
 15. I will digress a bit and explain how these stone-quarries were discovered. Pixodorus was a shepherd who lived in that vicinity. When the people of Ephesus were planning to build the temple of Diana in marble, and debating whether to get the marble from Paros, Proconnesus, Heraclea, or Thasos, Pixodorus drove out his sheep and was feeding his flock in that very spot. Then two rams ran at each other, and, each passing the other, one of them, after his charge, struck his horns against a rock, from which a fragment of extremely white colour was dislodged. So it is said that Pixodorus left his sheep in the mountains and ran down to Ephesus carrying the fragment, since that very thing was the question of the moment. Therefore they immediately decreed honours to him and changed his name, so that instead of Pixodorus he should be called Evangelus. And to this day the chief magistrate goes out to that very spot every month and offers sacrifice to him, and if he does not, he is punished.
 
+## Chapter III. The Elements of Motion
 
+1. I have briefly set forth what I thought necessary about the principles of hoisting machines. In them two different things, unlike each other, work together, as elements of their motion and power, to produce these effects. One of them is the right line, which the Greeks term εὑθεια; the other is the circle, which the Greeks call κυκλωτἡ; but in point of fact, neither rectilinear without circular motion, nor revolutions, without rectilinear motion, can accomplish the raising of loads. I will explain this, so that it may be understood.
 
----
-
-# CHAPTER III
-
-## THE ELEMENTS OF MOTION
-
-1. I have briefly set forth what I thought necessary about the principles of hoisting machines. In them two different things, unlike each other, work together, as elements of their motion and power, to produce these effects. One of them is the right line, which the Greeks term εὐθεια; the other is the circle, which the Greeks call κυκλεατή; but in point of fact, neither rectilinear without circular motion, nor revolutions, without rectilinear motion, can accomplish the raising of loads. I will explain this, so that it may be understood.
-
-2. As centres, axles are inserted into the sheaves, and these are fastened in the blocks; a rope carried over the sheaves, drawn straight down, and fastened to a windlass, causes the load to move upward from its place as the handspikes are turned. The pivots of this windlass, lying as centres in right lines in its socket-pieces, and the handspikes inserted in its holes, make the load rise when the ends of the windlass revolve in a circle like a lathe. Just so, when an iron lever is applied to a weight which a great many hands cannot move, with the fulcrum, which the Greeks call ὑπομόχλιον, lying as a centre in a right line under the lever, and with the tongue of the lever placed under the weight, one man's strength, bearing down upon the head of it, heaves up the weight.
+2. As centres, axles are inserted into the sheaves, and these are fastened in the blocks; a rope carried over the sheaves, drawn straight down, and fastened to a windlass, causes the load to move upward from its place as the handspikes are turned. The pivots of this windlass, lying as centres in right lines in its socket-pieces, and the handspikes inserted in its holes, make the load rise when the ends of the windlass revolve in a circle like a lathe. Just so, when an iron lever is applied to a weight which a great many hands cannot move, with the fulcrum, which the Greeks call ὑπομὁχλιον, lying as a centre in a right line under the lever, and with the tongue of the lever placed under the weight, one man's strength, bearing down upon the head of it, heaves up the weight.
 
 3. For, as the shorter fore part of the lever goes under the weight from the fulcrum that forms the centre, the head of it, which is farther away from that centre, on being depressed, is made to describe a circular movement, and thus by pressure brings to an equilibrium the weight of a very great load by means of a few hands. Again, if the tongue of an iron lever is placed under a weight, and its head is not pushed down, but, on the contrary, is heaved up, the tongue, supported on the surface of the ground, will treat that as the weight, and the edge of the weight itself as the fulcrum. Thus, not so easily as by pushing down, but by motion in the opposite direction, the weight of the load will nevertheless be raised. If, therefore, the tongue of a lever lying on a fulcrum goes too far under the weight, and its head exerts its pressure too near the centre, it will not be able to elevate the weight, nor can it do so unless, as described above, the length of the lever is brought to equilibrium by the depression of its head.
 
 4. This may be seen from the balances that we call steelyards. When the handle is set as a centre close to the end from which the scale hangs, and the counterpoise is moved along towards the other arm of the beam, shifting from point to point as it goes farther or even reaches the extremity, a small and inferior weight becomes equal to a very heavy object that is being weighed, on account of the equilibrium that is due to the levelling of the beam. Thus, as it withdraws from the centre, a small and comparatively light counterpoise, slowly turning the scale, makes a greater amount of weight rise gently upwards from below.
 
-5. So, too, the pilot of the biggest merchantman, grasping the steering oar by its handle, which the Greeks call οἰαξ, and with one hand bringing it to the turning point, according to the rules of his art, by pressure about a centre, can turn the ship, although she may be laden with a very large or even enormous burden of merchandise and provisions. And when her sails are set only halfway up the mast, a ship cannot run quickly; but when the yard is hoisted to the top, she makes much quicker progress, because then the sails get the wind, not when they are too close to the heel of the mast, which represents the centre, but when they have moved farther away from it to the top.
+5. So, too, the pilot of the biggest merchantman, grasping the steering oar by its handle, which the Greeks call οἱαξ, and with one hand bringing it to the turning point, according to the rules of his art, by pressure about a centre, can turn the ship, although she may be laden with a very large or even enormous burden of merchandise and provisions. And when her sails are set only halfway up the mast, a ship cannot run quickly; but when the yard is hoisted to the top, she makes much quicker progress, because then the sails get the wind, not when they are too close to the heel of the mast, which represents the centre, but when they have moved farther away from it to the top.
 
 6. As a lever thrust under a weight is harder to manage, and does not put forth its strength, if the pressure is exerted at the centre, but easily raises the weight when the extreme end of it is pushed down, so sails that are only halfway up have less effect, but when they get farther away from the centre, and are hoisted to the very top of the mast, the pressure at the top forces the ship to make greater progress, though the wind is no stronger but just the same. Again, take the case of oars, which are fastened to the tholes by loops,—when they are pushed forward and drawn back by the hand, if the ends of the blades are at some distance from the centre, the oars foam with the waves of the sea and drive the ship forward in a straight line with a mighty impulse, while her prow cuts through the rare water.
 
 7. And when the heaviest burdens are carried on poles by four or six porters at a time, they find the centres of balance at the very middle of the poles, so that, by distributing the dead weight of the burden according to a definitely proportioned division, each labourer may have an equal share to carry on his neck. For the poles, from which the straps for the burden of the four porters hang, are marked off at their centres by nails, to prevent the straps from slipping to one side. If they shift beyond the mark at the centre, they weigh heavily upon the place to which they have come nearer, like the weight of a steelyard when it moves from the point of equilibrium towards the end of the weighing apparatus.
 
-8. In the same way, oxen have an equal draught when their yoke is adjusted at its middle by the yokestrap to the pole. But when their strength is not the same, and the stronger outdoors the other, the strap is shifted so as to make one side of the yoke longer, which helps the weaker ox. Thus, in the case of both poles and yokes, when the straps are not fastened at the middle,
-
----
-
-but at one side, the farther the strap moves from the middle, the shorter it makes one side, and the longer the other. So, if both ends are carried round in circles, using as a centre the point to which the strap has been brought, the longer end will describe a larger, and the shorter end a smaller circle.
+8. In the same way, oxen have an equal draught when their yoke is adjusted at its middle by the yokestrap to the pole. But when their strength is not the same, and the stronger outdoes the other, the strap is shifted so as to make one side of the yoke longer, which helps the weaker ox. Thus, in the case of both poles and yokes, when the straps are not fastened at the middle, but at one side, the farther the strap moves from the middle, the shorter it makes one side, and the longer the other. So, if both ends are carried round in circles, using as a centre the point to which the strap has been brought, the longer end will describe a larger, and the shorter end a smaller circle.
 
 9. Just as smaller wheels move harder and with greater difficulty than larger ones, so, in the case of the poles and yokes, the parts where the interval from centre to end is less, bear down hard upon the neck, but where the distance from the same centre is greater, they ease the burden both for draught and carriage. As in all these cases motion is obtained by means of right lines at the centre and by circles, so also farm waggons, travelling carriages, drums, mills, screws, scorpiones, ballistae, pressbeams, and all other machines, produce the results intended, on the same principles, by turning about a rectilinear axis and by the revolution of a circle.
 
-
-
----
-
-# CHAPTER IV
-
-## ENGINES FOR RAISING WATER
+## Chapter IV. Engines for Raising Water
 
 1. I shall now explain the making of the different kinds of engines which have been invented for raising water, and will first speak of the tympanum. Although it does not lift the water high, it raises a great quantity very quickly. An axle is fashioned on a lathe or with the compasses, its ends are shod with iron hoops, and it carries round its middle a tympanum made of boards joined together. It rests on posts which have pieces of iron on them under the ends of the axle. In the interior of this tympanum there are eight crosspieces set at intervals, extending from the axle to the circumference of the tympanum, and dividing the space in the tympanum into equal compartments.
 
@@ -2926,35 +1664,17 @@ but at one side, the farther the strap moves from the middle, the shorter it mak
 
 4. But, if it has to be supplied to a place still more high, a double iron chain, which will reach the surface when let down, is passed round the axle of the same wheel, with bronze buckets attached to it, each holding about six pints. The turning of the wheel, winding the chain round the axle, will carry the buckets to the top, and as they pass above the axle they must tip over and deliver into the reservoir what they have carried up.
 
----
-
-# CHAPTER V
-
-## WATER WHEELS AND WATER MILLS
+## Chapter V. Water Wheels and Water Mills
 
 1. Wheels on the principles that have been described above are also constructed in rivers. Round their faces floatboards are fixed, which, on being struck by the current of the river, make the wheel turn as they move, and thus, by raising the water in the boxes and bringing it to the top, they accomplish the necessary work through being turned by the mere impulse of the river, without any treading on the part of workmen.
 
 2. Water mills are turned on the same principle. Everything is the same in them, except that a drum with teeth is fixed into one end of the axle. It is set vertically on its edge, and turns in the same plane with the wheel. Next to this larger drum there is a smaller one, also with teeth, but set horizontally, and this is attached (to the millstone). Thus the teeth of the drum which is fixed to the axle make the teeth of the horizontal drum move, and cause the mill to turn. A hopper, hanging over this contrivance, supplies the mill with corn, and meal is produced by the same revolution.
 
----
-
-# CHAPTER VI
-
-# THE WATER SCREW
+## Chapter VI. The Water Screw
 
 1. There is also the method of the screw, which raises a great quantity of water, but does not carry it as high as does the wheel. The method of constructing it is as follows. A beam is selected, the thickness of which in digits is equivalent to its length in feet. This is made perfectly round. The ends are to be divided off on their circumference with the compass into eight parts, by quadrants and octants, and let the lines be so placed that, if the beam is laid in a horizontal position, the lines on the two ends may perfectly correspond with each other, and intervals of the size of one eighth part of the circumference of the beam may be laid off on the length of it. Then, placing the beam in a horizontal position, let perfectly straight lines be drawn from one end to the other. So the intervals will be equal in the directions both of the periphery and of the length. Where the lines are drawn along the length, the cutting circles will make intersections, and definite points at the intersections.
 
-![img-73.jpeg](images/img-73.jpeg)
-CONSTRUCTION OF THE WATER SCREW
-(From the edition of Vitruvius by Fra Giocondo, Venice, 1511)
-
 2. When these lines have been correctly drawn, a slender withe of willow, or a straight piece cut from the agnus castus tree, is taken, smeared with liquid pitch, and fastened at the first point of intersection.
-
-![img-74.jpeg](images/img-74.jpeg)
-THE WATER SCREW
-(From the edition of Vitruvius by Fra Giocondo, Venice, 1511)
-
----
 
 Then it is carried across obliquely to the succeeding intersections of longitudinal lines and circles, and as it advances, passing each of the points in due order and winding round, it is fastened at each intersection; and so, withdrawing from the first to the eighth point, it reaches and is fastened to the line to which its first part was fastened. Thus, it makes as much progress in its longitudinal advance to the eighth point as in its oblique advance over eight points. In the same manner, withes for the eight divisions of the diameter, fastened obliquely at the intersections on the entire longitudinal and peripheral surface, make spiral channels which naturally look just like those of a snail shell.
 
@@ -2964,13 +1684,7 @@ Then it is carried across obliquely to the succeeding intersections of longitudi
 
 I have now described as clearly as I could, to make them better known, the principles on which wooden engines for raising water are constructed, and how they get their motion so that they may be of unlimited usefulness through their revolutions.
 
-
-
----
-
-# CHAPTER VII
-
-## THE PUMP OF CTESIBIUS
+## Chapter VII. The Pump of Ctesibius
 
 1. Next I must tell about the machine of Ctesibius, which raises water to a height. It is made of bronze, and has at the bottom a pair of cylinders set a little way apart, and there is a pipe connected with each, the two running up, like the prongs of a fork, side by side to a vessel which is between the cylinders. In this vessel are valves, accurately fitting over the upper vents of the pipes, which stop up the ventholes, and keep what has been forced by pressure into the vessel from going down again.
 
@@ -2982,17 +1696,13 @@ I have now described as clearly as I could, to make them better known, the princ
 
 5. Of these I have selected what I considered most useful and necessary, and have thought it best to speak in the preceding book about timepieces, and in this about the methods of raising water. The rest, which are not subservient to our needs, but to pleasure and amusement, may be found in the commentaries of Ctesibius himself by any who are interested in such refinements.
 
----
-
-# CHAPTER VIII
-
-## THE WATER ORGAN
+## Chapter VIII. The Water Organ
 
 1. With regard to water organs, however, I shall not fail with all possible brevity and precision to touch upon their principles, and to give a sufficient description of them. A wooden base is constructed, and on it is set an altar-shaped box made of bronze. Uprights, fastened together like ladders, are set up on the base, to the right and to the left (of the altar). They hold the bronze pump-cylinders, the moveable bottoms of which, carefully turned on a lathe, have iron elbows fastened to their centres and jointed to levers, and are wrapped in fleeces of wool. In the tops of the cylinders are openings, each about three digits in diameter. Close to these openings are bronze dolphins, mounted on joints and holding chains in their mouths, from which hang cymbal-shaped valves, let down under the openings in the cylinders.
 
-2. Inside the altar, which holds the water, is a regulator shaped like an inverted funnel, under which there are cubes, each about three digits high, keeping a free space below between the lips of the regulator and the bottom of the altar. Tightly fixed on the neck of the regulator is the windchest, which supports the principal part of the contrivance, called in Greek the καινων μονοσκός. Running longitudinally, there are four channels in it if it is a tetrachord; six, if it is a hexachord; eight, if it is an octachord.
+2. Inside the altar, which holds the water, is a regulator shaped like an inverted funnel, under which there are cubes, each about three digits high, keeping a free space below between the lips of the regulator and the bottom of the altar. Tightly fixed on the neck of the regulator is the windchest, which supports the principal part of the contrivance, called in Greek the κανων μουσικὁς. Running longitudinally, there are four channels in it if it is a tetrachord; six, if it is a hexachord; eight, if it is an octachord.
 
-3. Each of the channels has a cock in it, furnished with an iron handle. These handles, when turned, open ventholes from the windchest into the channels. From the channels to the canon there are vertical openings corresponding to ventholes in a board above, which board is termed πίνυξ in Greek. Between this board and the canon are inserted sliders, pierced with holes to correspond, and rubbed with oil so that they can be easily moved and slid back into place again. They close the above-mentioned openings, and are called the plinths. Their going and coming now closes and now opens the holes.
+3. Each of the channels has a cock in it, furnished with an iron handle. These handles, when turned, open ventholes from the windchest into the channels. From the channels to the canon there are vertical openings corresponding to ventholes in a board above, which board is termed πἱναξ in Greek. Between this board and the canon are inserted sliders, pierced with holes to correspond, and rubbed with oil so that they can be easily moved and slid back into place again. They close the abovementioned openings, and are called the plinths. Their going and coming now closes and now opens the holes.
 
 4. These sliders have iron jacks fixed to them, and connected with the keys, and the keys, when touched, make the sliders move regularly. To the upper surface of the openings in the board, where the wind finds egress from the channels, rings are soldered, and into them the reeds of all the organ pipes are inserted. From the cylinders there are connecting pipes attached to the neck of the regulator, and directed towards the ventholes in the windchest. In the pipes are valves, turned on a lathe, and set (where the pipes are connected with the cylinders). When the windchest has received the air, these valves will stop up the openings, and prevent the wind from coming back again.
 
@@ -3002,11 +1712,7 @@ I have now described as clearly as I could, to make them better known, the princ
 
 With my best efforts I have striven to set forth an obscure subject clearly in writing, but the theory of it is not easy, nor readily understood by all, save only those who have had some practice in things of this kind. If anybody has failed to understand it, he will certainly find, when he comes to know the thing itself, that it is carefully and exquisitely contrived in all respects.
 
----
-
-# CHAPTER IX
-
-## THE HODOMETER
+## Chapter IX. The Hodometer
 
 1. The drift of our treatise now turns to a useful invention of the greatest ingenuity, transmitted by our predecessors, which enables us, while sitting in a carriage on the road or sailing by sea, to know how many miles of a journey we have accomplished. This will be possible as follows. Let the wheels of the carriage be each four feet in diameter, so that if a wheel has a mark made upon it, and begins to move forward from that mark in making its revolution on the surface of the road, it will have covered the definite distance of twelve and a half feet on reaching that mark at which it began to revolve.
 
@@ -3024,11 +1730,7 @@ With my best efforts I have striven to set forth an obscure subject clearly in w
 
 I have described how to make things that may be provided for use and amusement in times that are peaceful and without fear.
 
----
-
-# CHAPTER X
-
-## CATAPULTS OR SCORPIONES
+## Chapter X. Catapults Or Scorpiones
 
 1. I shall next explain the symmetrical principles on which scorpiones and ballistae may be constructed, inventions devised for defence against danger, and in the interest of self-preservation.
 
@@ -3036,21 +1738,17 @@ The proportions of these engines are all computed from the given length of the a
 
 2. The height and breadth of the capital itself must then conform to the size of the holes. The boards at the top and bottom of the capital, which are called "peritreti," should be in thickness equal to one hole, and in breadth to one and three quarters, except at their extremities, where they equal one hole and a half. The sideposts on the right and left should be four holes high, excluding the tenons, and five twelfths of a hole thick; the tenons, half a hole. The distance from a sidepost to the hole is one quarter of a hole, and it is also one quarter of a hole from the hole to the post in the middle. The breadth of the post in the middle is equal to one hole and one eighth, the thickness, to one hole.
 
-3. The opening in the middle post, where the arrow is laid, is equal to one fourth of the hole. The four surrounding corners should have iron plates nailed to their sides and faces, or should be studded with bronze pins and nails. The pipe, called συριγξ in Greek, has a length of nineteen holes. The strips, which some term cheeks, nailed at the right and left of the pipe, have a length of nineteen holes and a height and thickness of one hole. Two other strips, enclosing the windlass, are nailed on to these, three holes long and half a hole in breadth. The cheek nailed on to them, named the "bench," or by some the "box," and made fast by means of dove-tailed tenons, is one hole thick and seven twelfths of a hole in height. The length of the windlass is equal to...[12] holes, the thickness of the windlass to three quarters of a hole.
+3. The opening in the middle post, where the arrow is laid, is equal to one fourth of the hole. The four surrounding corners should have iron plates nailed to their sides and faces, or should be studded with bronze pins and nails. The pipe, called συριγξ in Greek, has a length of nineteen holes. The strips, which some term cheeks, nailed at the right and left of the pipe, have a length of nineteen holes and a height and thickness of one hole. Two other strips, enclosing the windlass, are nailed on to these, three holes long and half a hole in breadth. The cheek nailed on to them, named the "bench," or by some the "box," and made fast by means of dove-tailed tenons, is one hole thick and seven twelfths of a hole in height. The length of the windlass is equal to... holes, the thickness of the windlass to three quarters of a hole.
 
 4. The latch is seven twelfths of a hole in length and one quarter in thickness. So also its socket-piece. The trigger or handle is three holes in length and three quarters of a hole in breadth and thickness. The trough in the pipe is sixteen holes in length, one quarter of a hole in thickness, and three quarters in height. The base of the standard on the ground is equal to eight holes; the breadth of the standard where it is fastened into the plinth is three quarters of a hole, its thickness two thirds of a hole; the height of the standard up to the tenon is twelve holes, its breadth three quarters of a hole, and its thickness two thirds. It has three struts, each nine holes in length, half a hole in breadth, and five twelfths in thickness. The tenon is one hole in length, and the head of the standard one hole and a half in length.
 
-5. The antefix has the breadth of a hole and one eighth, and the thickness of one hole. The smaller support, which is behind, termed in Greek ἀντίβασις, is eight holes long, three quarters of a hole broad, and two thirds thick. Its prop is twelve holes long, and has the same breadth and thickness as the smaller support just mentioned. Above the smaller support is its socket-piece, or what is called the cushion, two and a half holes long, one and a half high, and three quarters of a hole broad. The windlass cup is two and seven twelfths holes long, two thirds of a hole thick, and three quarters broad. The crosspieces with their tenons have the length of... holes, the breadth of three quarters, and the thickness of two thirds of a hole. The length of an arm is seven holes, its thickness at its base two thirds of a hole, and at its end one half a hole; its curvature is equal to two thirds of a hole.
+5. The antefix has the breadth of a hole and one eighth, and the thickness of one hole. The smaller support, which is behind, termed in Greek ἁντἱβασιϛ, is eight holes long, three quarters of a hole broad, and two thirds thick. Its prop is twelve holes long, and has the same breadth and thickness as the smaller support just mentioned. Above the smaller support is its socketpiece, or what is called the cushion, two and a half holes long, one and a half high, and three quarters of a hole broad. The windlass cup is two and seven twelfths holes long, two thirds of a hole thick, and three quarters broad. The crosspieces with their tenons have the length of... holes, the breadth of three quarters, and the thickness of two thirds of a hole. The length of an arm is seven holes, its thickness at its base two thirds of a hole, and at its end one half a hole; its curvature is equal to two thirds of a hole.
 
 6. These engines are constructed according to these proportions or with additions or diminutions. For, if the height of the capitals is greater than their width—when they are called "high-tensioned,"—something should be taken from the arms, so that the more the tension is weakened by height of the capitals, the more the strength of the blow is increased by shortness of the arms. But if the capital is less high,—when the term "low-tensioned" is used,—the arms, on account of their strength, should be made a little longer, so that they may be drawn easily. Just as it takes four men to raise a load with a lever five feet long, and only two men to lift the same load with a ten-foot lever, so the longer the arms, the easier they are to draw, and the shorter, the harder.
 
 I have now spoken of the principles applicable to the parts and proportions of catapults.
 
----
-
-# CHAPTER XI
-
-## BALLISTAE
+## Chapter XI. Ballistae
 
 1. Ballistae are constructed on varying principles to produce an identical result. Some are worked by handspikes and windlasses, some by blocks and pulleys, others by capstans, others again by means of drums. No ballista, however, is made without regard to the given amount of weight of the stone which the engine is intended to throw. Hence their principle is not easy for everybody, but only for those who have knowledge of the geometrical principles employed in calculation and in multiplication.
 
@@ -3058,105 +1756,79 @@ I have now spoken of the principles applicable to the parts and proportions of c
 
 3. A ballista intended to throw a two-pound stone will have a hole of five digits in its capital; four pounds, six digits; and six pounds, seven digits; ten pounds, eight digits; twenty pounds, ten digits; forty pounds, twelve and a half digits; sixty pounds, thirteen and a half digits; eighty pounds, fifteen and three quarters digits; one hundred pounds, one foot and one and a half digits; one hundred and twenty pounds, one foot and two digits; one hundred and forty pounds, one foot and three digits; one hundred and sixty pounds, one foot and a quarter; one hundred and eighty pounds, one foot and five digits; two hundred pounds, one foot and six digits; two hundred and forty pounds, one foot and seven digits; two hundred and eighty pounds, one foot and a half; three hundred and twenty pounds, one foot and nine digits; three hundred and sixty pounds, one foot and ten digits.
 
-4. Having determined the size of the hole, design the "scutula," termed in Greek περὶχρητος... holes in length and two and one sixth in breadth. Bisect it by a line drawn diagonally from the angles, and after this bisecting bring together the outlines of the figure so that it may present a rhomboidal design, reducing it by one sixth of its length and one fourth of its breadth at the (obtuse) angles. In the part composed by the curvatures into which the points of the angles run out, let the holes be situated, and let the breadth be reduced by one sixth; moreover, let the hole be longer than it is broad by the thickness of the bolt. After designing the scutula, let its outline be worked down to give it a gentle curvature.
+4. Having determined the size of the hole, design the "scutula," termed in Greek περἱτρητοϛ,... holes in length and two and one sixth in breadth. Bisect it by a line drawn diagonally from the angles, and after this bisecting bring together the outlines of the figure so that it may present a rhomboidal design, reducing it by one sixth of its length and one fourth of its breadth at the (obtuse) angles. In the part composed by the curvatures into which the points of the angles run out, let the holes be situated, and let the breadth be reduced by one sixth; moreover, let the hole be longer than it is broad by the thickness of the bolt. After designing the scutula, let its outline be worked down to give it a gentle curvature.
 
 5. It should be given the thickness of seven twelfths of a hole. The boxes are two holes (in height), one and three quarters in breadth, two thirds of a hole in thickness except the part that is inserted in the hole, and at the top one third of a hole in breadth. The sideposts are five holes and two thirds in length, their curvature half a hole, and their thickness thirty-seven forty-eighths of a hole. In the middle their breadth is increased as much as it was near the hole in the design, by the breadth and thickness of... hole; the height by one fourth of a hole.
 
 6. The (inner) strip on the "table" has a length of eight holes, a breadth and thickness of half a hole. Its tenons are one hole and one sixth long, and one quarter of a hole in thickness. The curvature of this strip is three quarters of a hole. The outer strip has the same breadth and thickness (as the inner), but the length is given by the obtuse angle of the design and the breadth of the sidepost at its curvature. The upper strips are to be equal to the lower; the crosspieces of the "table," one half of a hole.
 
-7. The shafts of the "ladder" are thirteen holes in length, one hole in thickness; the space between them is one hole and a quarter in breadth, and one and one eighth in depth. Let the entire length of the ladder on its upper surface—which is the one adjoining the arms and fastened to the table—be divided into five parts. Of these let two parts be given to the member which the Greeks call the χώονον, its breadth being one and one sixth, its thickness one quarter, and its length eleven holes and one half; the claw projects half a hole and the "winging" three sixteenths of a hole. What is at the axis which is termed the... face... the crosspieces of three holes?
+7. The shafts of the "ladder" are thirteen holes in length, one hole in thickness; the space between them is one hole and a quarter in breadth, and one and one eighth in depth. Let the entire length of the ladder on its upper surface—which is the one adjoining the arms and fastened to the table—be divided into five parts. Of these let two parts be given to the member which the Greeks call the χελὡνιον, its breadth being one and one sixth, its thickness one quarter, and its length eleven holes and one half; the claw projects half a hole and the "winging" three sixteenths of a hole. What is at the axis which is termed the... face... the crosspieces of three holes?
 
 8. The breadth of the inner slips is one quarter of a hole; their thickness one sixth. The cover-joint or lid of the chelonium is dove-tailed into the shafts of the ladder, and is three sixteenths of a hole in breadth and one twelfth in thickness. The thickness of the square piece on the ladder is three sixteenths of a hole,... the diameter of the round axle will be equal to that of the claw, but at the pivots seven sixteenths of a hole.
 
-9. The stays are... holes in length, one quarter of a hole in breadth at the bottom, and one sixth in thickness at the top. The base, termed ὑπρίρα, has the length of... holes, and the anti-base of four holes; each is one hole in thickness and breadth. A supporter is jointed on, halfway up, one and one half holes in breadth and thickness. Its height bears no relation to the hole, but will be such as to be serviceable. The length of an arm is six holes, its thickness at the base two thirds of a hole, and at the end one half a hole.
+9. The stays are... holes in length, one quarter of a hole in breadth at the bottom, and one sixth in thickness at the top. The base, termed ἑσχἁρα, has the length of... holes, and the anti-base of four holes; each is one hole in thickness and breadth. A supporter is jointed on, halfway up, one and one half holes in breadth and thickness. Its height bears no relation to the hole, but will be such as to be serviceable. The length of an arm is six holes, its thickness at the base two thirds of a hole, and at the end one half a hole.
 
 I have now given those symmetrical proportions of ballistae and catapults which I thought most useful. But I shall not omit, so far as I can express it in writing, the method of stretching and tuning their strings of twisted sinew or hair.
 
----
+## Chapter XII. The Stringing and Tuning of Catapults
 
-# CHAPTER XII
-
-## THE STRINGING AND TUNING OF CATAPULTS
-
-1. Beams of very generous length are selected, and upon them are nailed socket-pieces in which windlasses are inserted. Midway along their length the beams are incised and cut away to form framings, and in these cuttings the capitals of the catapults are inserted, and prevented by wedges from moving when the stretching is going on. Then the bronze boxes are inserted into the capitals, and the little iron bolts, which the Greeks call ἐπιξυγίδες, are put in their places in the boxes.
+1. Beams of very generous length are selected, and upon them are nailed socket-pieces in which windlasses are inserted. Midway along their length the beams are incised and cut away to form framings, and in these cuttings the capitals of the catapults are inserted, and prevented by wedges from moving when the stretching is going on. Then the bronze boxes are inserted into the capitals, and the little iron bolts, which the Greeks call ἑπιξυγἱδες, are put in their places in the boxes.
 
 2. Next, the loops of the strings are put through the holes in the capitals, and passed through to the other side; next, they are put upon the windlasses, and wound round them in order that the strings, stretched out taut on them by means of the handspikes, on being struck by the hand, may respond with the same sound on both sides. Then they are wedged tightly into the holes so that they cannot slacken. So, in the same manner, they are passed through to the other side, and stretched taut on the windlasses by means of the handspikes until they give the same sound. Thus with tight wedging, catapults are tuned to the proper pitch by musical sense of hearing.
 
 On these things I have said what I could. There is left for me, in the matter of sieges, to explain how generals can win victories and cities be defended, by means of machinery.
 
----
-
-# CHAPTER XIII
-
-## SIEGE MACHINES
+## Chapter XIII. Siege Machines
 
 1. It is related that the battering ram for sieges was originally invented as follows. The Carthaginians pitched their camp for the siege of Cadiz. They captured an outwork and attempted to destroy it. But having no iron implements for its destruction, they took a beam, and, raising it with their hands, and driving the end of it repeatedly against the top of the wall, they threw down the top courses of stones, and thus, step by step in regular order, they demolished the entire redoubt.
 
-2. Afterwards a carpenter from Tyre, Bright by name and by nature, was led by this invention into setting up a mast from which he hung another crosswise like a steelyard, and so, by swinging it vigorously to and fro, he threw down the wall of Cadiz. Geras of Chalcedon was the first to make a wooden platform with wheels under it, upon which he constructed a framework of uprights and crosspieces, and within it he hung the ram, and covered it with oxtide for the better protection of the men who were stationed in the machine to batter the wall. As the machine made but slow progress, he first gave it the name of the tortoise of the ram.
+2. Afterwards a carpenter from Tyre, Bright by name and by nature, was led by this invention into setting up a mast from which he hung another crosswise like a steelyard, and so, by swinging it vigorously to and fro, he threw down the wall of Cadiz. Geras of Chalcedon was the first to make a wooden platform with wheels under it, upon which he constructed a framework of uprights and crosspieces, and within it he hung the ram, and covered it with oxhide for the better protection of the men who were stationed in the machine to batter the wall. As the machine made but slow progress, he first gave it the name of the tortoise of the ram.
 
-3. These were the first steps then taken towards that kind of machinery, but afterwards, when Philip, the son of Amyntas, was besieging Byzantium, it was developed in many varieties and made handier by Polydius the Thessalian. His pupils were Diades and Charias, who served with Alexander. Diades shows in his writings that he invented moveable towers, which he used also to take apart and carry round with the army, and likewise the borer, and the scaling machine, by means of which one can cross over to the wall on a level with the top of it, as well as the destroyer called the raven, or by others the crane.
+3. These were the first steps then taken towards that kind of machinery, but afterwards, when Philip, the son of Amyntas, was besieging Byzantium, it was developed in many varieties and made handier by Polyidus the Thessalian. His pupils were Diades and Charias, who served with Alexander. Diades shows in his writings that he invented moveable towers, which he used also to take apart and carry round with the army, and likewise the borer, and the scaling machine, by means of which one can cross over to the wall on a level with the top of it, as well as the destroyer called the raven, or by others the crane.
 
 4. He also employed the ram mounted on wheels, an account of which he left in his writings. As for the tower, he says that the smallest should be not less than sixty cubits in height and seventeen in breadth, but diminishing to one fifth less at the top; the uprights for the tower being nine inches at the bottom and half a foot at the top. Such a tower, he says, ought to be ten stories high, with windows in it on all sides.
 
 5. His larger tower, he adds, was one hundred and twenty cubits high and twenty-three and one half cubits broad, diminishing like the other to one fifth less; the uprights, one foot at the bottom and six digits at the top. He made this large tower twenty stories high, each story having a gallery round it, three cubits wide. He covered the towers with rawhide to protect them from any kind of missile.
 
-6. The tortoise of the battering ram was constructed in the same way. It had, however, a base of thirty cubits square, and a height, excluding the pediment, of thirteen cubits; the height of the pediment from its bed to its top was seven cubits. Issuing up and above the middle of the roof for not less than two cubits was a gable, and on this was reared a small tower four stories high, in which, on the top floor, scorpiones and catapults were set up, and on the lower floors a great quantity of water was stored, to put out any fire that might be thrown on the tortoise. Inside of this was set the machinery of the ram, termed in Greek κρυδόχη, in which was placed a roller, turned on a lathe, and the ram, being set on top of this, produced its great effects when swung to and fro by means of ropes. It was protected, like the tower, with rawhide.
+6. The tortoise of the battering ram was constructed in the same way. It had, however, a base of thirty cubits square, and a height, excluding the pediment, of thirteen cubits; the height of the pediment from its bed to its top was seven cubits. Issuing up and above the middle of the roof for not less than two cubits was a gable, and on this was reared a small tower four stories high, in which, on the top floor, scorpiones and catapults were set up, and on the lower floors a great quantity of water was stored, to put out any fire that might be thrown on the tortoise. Inside of this was set the machinery of the ram, termed in Greek κριοδὁχη, in which was placed a roller, turned on a lathe, and the ram, being set on top of this, produced its great effects when swung to and fro by means of ropes. It was protected, like the tower, with rawhide.
 
 7. He explained the principles of the borer as follows: that the machine itself resembled the tortoise, but that in the middle it had a pipe lying between upright walls, like the pipe usually found in catapults and ballistae, fifty cubits in length and one cubit in height, in which a windlass was set transversely. On the right and left, at the end of the pipe, were two blocks, by means of which the iron-pointed beam, which lay in the pipe, was moved. There were numerous rollers enclosed in the pipe itself under the beam, which made its movements quicker and stronger. Numerous arches were erected along the pipe above the beam which was in it, to hold up the rawhide in which this machine was enveloped.
 
-8. He thought it needless to write about the raven, because he saw that the machine was of no value. With regard to the scaling machine, termed in Greek ἐσιβάθρα, and the naval contrivances which, as he wrote, could be used in boarding ships, I have observed that he merely promised with some earnestness to explain their principles, but that he has not done so.
+8. He thought it needless to write about the raven, because he saw that the machine was of no value. With regard to the scaling machine, termed in Greek ἑπιβἁθρα, and the naval contrivances which, as he wrote, could be used in boarding ships, I have observed that he merely promised with some earnestness to explain their principles, but that he has not done so.
 
 I have set forth what was written by Diades on machines and their construction. I shall now set forth the methods which I have learned from my teachers, and which I myself believe to be useful.
 
+## Chapter XIV. The Tortoise
 
-
----
-
-# CHAPTER XIV
-
-## THE TORTOISE
-
-1. A tortoise intended for the filling of ditches, and thereby to make it possible to reach the wall, is to be made as follows. Let a base, termed in Greek ἐσφίρα, be constructed, with each of its sides twenty-one feet long, and with four crosspieces. Let these be held together by two others, two thirds of a foot thick and half a foot broad; let the crosspieces be about three feet and a half apart, and beneath and in the spaces between them set the trees, termed in Greek ἀμαζόποδες, in which the axles of the wheels turn in iron hoops. Let the trees be provided with pivots, and also with holes through which levers are passed to make them turn, so that the tortoise can move forward or back or towards its right or left side, or if necessary obliquely, all by the turning of the trees.
+1. A tortoise intended for the filling of ditches, and thereby to make it possible to reach the wall, is to be made as follows. Let a base, termed in Greek ἑσχἁρα, be constructed, with each of its sides twenty-one feet long, and with four crosspieces. Let these be held together by two others, two thirds of a foot thick and half a foot broad; let the crosspieces be about three feet and a half apart, and beneath and in the spaces between them set the trees, termed in Greek ἁμαξὁποδες, in which the axles of the wheels turn in iron hoops. Let the trees be provided with pivots, and also with holes through which levers are passed to make them turn, so that the tortoise can move forward or back or towards its right or left side, or if necessary obliquely, all by the turning of the trees.
 
 2. Let two beams be laid on the base, projecting for six feet on each side, round the projections of which let two other beams be nailed, projecting seven feet beyond the former, and of the thickness and breadth prescribed in the case of the base. On this framework set up posts mortised into it, nine feet high exclusive of their tenons, one foot and a quarter square, and one foot and a half apart. Let the posts be tied together at the top by mortised beams. Over the beams let the rafters be set, tied one into another by means of tenons, and carried up twelve feet high. Over the rafters set the square beam by which the rafters are bound together.
 
 3. Let the rafters themselves be held together by bridgings, and covered with boards, preferably of holm oak, or, this failing, of any other material which has the greatest strength, except pine or alder. For these woods are weak and easily catch fire. Over the boardings let there be placed wattles very closely woven of thin twigs as fresh as possible. Let the entire machine be covered with rawhide sewed together double and stuffed with seaweed or straw soaked in vinegar. In this way the blows of ballistae and the force of fires will be repelled by them.
 
----
+## Chapter XV. Hegetor's Tortoise
 
-# CHAPTER XV
+1. There is also another kind of tortoise, which has all the other details as described above except the rafters, but it has round it a parapet and battlements of boards, and eaves sloping downwards, and is covered with boards and hides firmly fastened in place. Above this let clay kneaded with hair be spread to such a thickness that fire cannot injure the machine. These machines can, if need be, have eight wheels, should it be necessary to modify them with reference to the nature of the ground. Tortoises, however, which are intended for excavating, termed in Greek ὁρυκτἱδες, have all the other details as described above, but their fronts are constructed like the angles of triangles, in order that when missiles are shot against them from a wall, they may receive the blows not squarely in front, but glancing from the sides, and those excavating within may be protected without danger.
 
-# HEGETOR'S TORTOISE
-
-![img-75.jpeg](images/img-75.jpeg)
-1.
-
-![img-76.jpeg](images/img-76.jpeg)
-2.
-1. From a MS. of the sixteenth century (Weschet's Poliorcétique des Grecs).
-2. From a model made by A. A. Howard.
-
-1. There is also another kind of tortoise, which has all the other details as described above except the rafters, but it has round it a parapet and battlements of boards, and eaves sloping downwards, and is covered with boards and hides firmly fastened in place. Above this let clay kneaded with hair be spread to such a thickness that fire cannot injure the machine. These machines can, if need be, have eight wheels, should it be necessary to modify them with reference to the nature of the ground. Tortoises, however, which are intended for excavating, termed in Greek ἀροκτῖς, have all the other details as described above, but their fronts are constructed like the angles of triangles, in order that when missiles are shot against them from a wall, they may receive the blows not squarely in front, but glancing from the sides, and those excavating within may be protected without danger.
 2. It does not seem to me out of place to set forth the principles on which Hegetor of Byzantium constructed a tortoise. The length of its base was sixty-three feet, the breadth forty-two. The corner posts, four in number, which were set upon this framework, were made of two timbers each, and were thirty-six feet high, a foot and a quarter thick, and a foot and a half broad. The base had eight wheels by means of which it was moved about. The height of these wheels was six and three quarters feet, their thickness three feet. Thus constructed of three pieces of wood, united by alternate opposite dovetails and bound together by cold-drawn iron plates, they revolved in the trees or amaxopodes.
+
 3. Likewise, on the plane of the crossbeams above the base, were erected posts eighteen feet high, three quarters of a foot broad, two thirds of a foot thick, and a foot and three quarters apart; above these, framed beams, a foot broad and three quarters of a foot thick, held the whole structure together; above this the rafters were raised, with an elevation of twelve feet; a beam set above the rafters united their joinings. They also had bridgings fastened transversely, and a flooring laid on them protected the parts beneath.
+
 4. It had, moreover, a middle flooring on girts, where scorpiones and catapults were placed. There were set up, also, two framed uprights forty-five feet long, a foot and a half in thickness, and three quarters of a foot in breadth, joined at the tops by a mortised crossbeam and by another, halfway up, mortised into the two shafts and tied in place by iron plates. Above this was set, between the shafts and the crossbeams, a block pierced on either side by sockets, and firmly fastened in place with clamps. In this block were two axles, turned on a lathe, and ropes fastened from them held the ram.
+
 5. Over the head of these (ropes) which held the ram, was placed a parapet fitted out like a small tower, so that, without danger, two soldiers, standing in safety, could look out and report what the enemy were attempting. The entire ram had a length of one hundred and eighty feet, a breadth at the base of a foot and a quarter, and a thickness of a foot, tapering at the head to a breadth of a foot and a thickness of three quarters of a foot.
-6. This ram, moreover, had a beak of hard iron such as ships of war usually have, and from the beak iron plates, four in number, about fifteen feet long, were fastened to the wood. From the head to the very heel of the beam were stretched cables, three in number and eight digits thick, fastened just as in a ship from stern to stern continuously, and these cables were bound with cross girdles a foot and a quarter apart. Over these the whole ram was wrapped with rawhide. The ends of the ropes from which the ram hung were made of fourfold chains of iron, and these chains were themselves wrapped in rawhide.
+
+6. This ram, moreover, had a beak of hard iron such as ships of war usually have, and from the beak iron plates, four in number, about fifteen feet long, were fastened to the wood. From the head to the very heel of the beam were stretched cables, three in number and eight digits thick, fastened just as in a ship from stem to stern continuously, and these cables were bound with cross girdles a foot and a quarter apart. Over these the whole ram was wrapped with rawhide. The ends of the ropes from which the ram hung were made of fourfold chains of iron, and these chains were themselves wrapped in rawhide.
+
 7. Likewise, the projecting end of the ram had a box framed and constructed of boards, in which was stretched a net made of rather large ropes, over the rough surfaces of which one easily reached the wall without the feet slipping. And this machine moved in six directions, forward (and backward), also to the right or left, and likewise it was elevated by extending it upwards and depressed by inclining it downwards. The machine could be elevated to a height sufficient to throw down a wall of about one hundred feet, and likewise in its thrust it covered a space from right to left of not less than one hundred feet. One hundred men controlled it, though it had a weight of four thousand talents, which is four hundred and eighty thousand pounds.
 
----
-
-# CHAPTER XVI
-
-## MEASURES OF DEFENCE
+## Chapter XVI. Measures of Defence
 
 1. With regard to scorpiones, catapults, and ballistae, likewise with regard to tortoises and towers, I have set forth, as seemed to me especially appropriate, both by whom they were invented and in what manner they should be constructed. But I have not considered it as necessary to describe ladders, cranes, and other things, the principles of which are simpler, for the soldiers usually construct these by themselves, nor can these very machines be useful in all places nor in the same way, since fortifications differ from each other, and so also the bravery of nations. For siege works against bold and venturesome men should be constructed on one plan, on another against cautious men, and on still another against the cowardly.
 
 2. And so, if any one pays attention to these directions, and by selection adapts their various principles to a single structure, he will not be in need of further aids, but will be able, without hesitation, to design such machines as the circumstances or the situations demand. With regard to works of defence, it is not necessary to write, since the enemy do not construct their defences in conformity with our books, but their contrivances are frequently foiled, on the spur of the moment, by some shrewd, hastily conceived plan, without the aid of machines, as is said to have been the experience of the Rhodians.
 
 3. For Diognetus was a Rhodian architect, to whom, as an honour, was granted out of the public treasury a fixed annual payment commensurate with the dignity of his art. At this time an architect from Aradus, Callias by name, coming to Rhodes, gave a public lecture, and showed a model of a wall, over which he set a machine on a revolving crane with which he seized an helepolis as it approached the fortifications, and brought it inside the wall. The Rhodians, when they had seen this model, filled with admiration, took from Diognetus the yearly grant and transferred this honour to Callias.
-
-4. Meanwhile, king Demetrius, who because of his stubborn courage was called Poliorcetes, making war on Rhodes, brought with him a famous Athenian architect named Epimachus. He constructed at enormous expense, with the utmost care and exertion, an helepolis one hundred and thirty-five feet high and sixty feet broad. He strengthened it with hair and rawhide so that it could withstand the blow of a stone weighing three hundred and sixty pounds shot from a ballista; the machine itself weighed three hundred and sixty thousand pounds. When Callias was asked by the Rhodians to construct a machine to resist this helepolis, and to bring it within the wall as he had promised, he said that it was impossible.
 
 5. For not all things are practicable on identical principles, but there are some things which, when enlarged in imitation of small models, are effective, others cannot have models, but are constructed independently of them, while there are some which appear feasible in models, but when they have begun to increase in size are impracticable, as we can observe in the following instance. A half inch, inch, or inch and a half hole is bored with an auger, but if we should wish, in the same manner, to bore a hole a quarter of a foot in breadth, it is impracticable, while one of half a foot or more seems not even conceivable.
 
@@ -3177,2633 +1849,3 @@ I have set forth what was written by Diades on machines and their construction. 
 Such principles of machines as I could make clear, and as I thought most serviceable for times of peace and of war, I have explained in this book. In the nine earlier books I have dealt with single topics and details, so that the entire work contains all the branches of architecture, set forth in ten books.
 
 FINIS
-
----
-
-# SCAMILLI IMPARES (Book III, ch. 4)
-
-No passage in Vitruvius has given rise to so much discussion or been the subject of such various interpretations as this phrase. The most reasonable explanation of its meaning seems to be that of Émile Burnouf, at one time Director of the French School at Athens, published in the Revue Générale de l'Architecture for 1875, as a note to a brief article of his on the explanation of the curves of Greek Doric buildings. This explanation was accepted by Professor Morgan, who called my attention to it in a note dated December 12, 1905. It has also quite recently been adopted by Professor Goodyear in his interesting book on Greek Refinements.
-
-Burnouf would translate it nivelettes inégales, "unequal levellers." He states that in many parts of France in setting a long course of cut stone the masons make use of a simple device consisting of three pointed blocks of equal height used as levellers, of which two are placed one at each extremity of the course, while the third is used to level the stones, as they are successively set in place, by setting it upon the stone to be set and sighting across the other two levellers. If two "levellers" of equal height are used with a third of less height placed at the centre of the course, with perhaps others of intermediate height used at intermediate points, it would obviously be equally easy to set out a curved course, as, for instance, the curved stylobate of the Parthenon which rises about three inches in its length of one hundred feet. By a simple calculation any desired curve could be laid out in this way. The word scamillus is a diminutive of scamnum, a mounting-block or bench.
-
-Practically the same explanation is given by G. Georges in a memoir submitted to the Sorbonne in April, 1875. Georges adds an interesting list, by no means complete, of the various explanations that have been offered at different times.
-
-|  Philander (1522-1552). | Projections of the stylobate or pedestals.  |
-| --- | --- |
-|  Barbaro (1556-1690). | The same.  |
-|  Bertano (1558). | Swellings of the die of the stylobate or bosses in the stylobate or the frieze of the entablature.  |
-|  Baldus (1612). | Sub-plinths placed under the bases of the columns.  |
-|  Perrault (1673-1684). | Projection of the stylobate.  |
-|  Polleni (1739). | The same.  |
-|  Galiani (1758-1790). | Projection of the stylobate with hypothesis of embossments on the stylobates and the bases of the columns.  |
-|  Tardieu and Coussin (1837) |   |
-|  and Mauffras (1847). | Projection of the stylobates.  |
-|  Aurés (1865). | Steps or offsets between the stylobate and the columns.  |
-
-The list of Georges is wholly French and Italian.
-
-Fra Giocondo's interpretation is indicated in our reproduction of the illustration in his edition of 1511.
-
-Hoffer (1838) and afterwards Pennethorne (1846) and Penrose (1851) gave measurements showing the curvatures in the Parthenon and the temple of Theseus in Athens. Penrose and most writers who followed him supposed the "scamilli impares" to be projections or offsets on the stylobate required on account of the curves to bring the column into relation with the architraves above, and similar offsets of unequal or sloping form were supposed to be required above the abaci of the capitals, but such offsets, although sometimes existing, have no obvious connection with the passage in Vitruvius. C. Bötticher (1863) and more recently Darm have denied the original intention of the curves and ascribe them to settlement, a supposition which hardly accords with the observed facts. Reber, in the note on this passage in his translation of Vitruvius (1865), thinks the scamilli were sloping offsets on the stylobate to cause the inclination of the columns, but admits that nothing of the kind has been found in the remains so far examined. It may be added that this is at variance with the statement of the purpose of the scamilli which Vitruvius gives.
-
-Assuming, as I think we must, that the horizontal curvature of the stylobate in such buildings as the Parthenon was intended and carefully planned, Burnouf's explanation fits the case precisely and makes this passage of Vitruvius straightforward and simple. This can be said of no other explanation, for all the others leave the passage obscure and more or less nonsensical. Darm's attempt to refer the passage to the case of the temple with a podium which has just been spoken of by Vitruvius is somewhat forced, or at least unnecessary. Clearly the passage refers to stylobates in general; but Reber also so translates and punctuates as to make the use of the "scamilli impares" refer only to the case of temples built in the Roman manner with the podium. His resulting explanation still leaves the passage obscure and unsatisfactory. One may finally refer to the ingenious but improbable explanation of Choisy, who translates it echelons impairs, and explains them as offsets arranged according to the odd numbers, nombres impairs, i. e., offsets varying at equal intervals in the proportion of 1, 3, 5, 7, 9, etc., and which he claims was applied also to the entasis of columns.
-
-H. L. WARREN.
-
----
-
-# INDEX
-
-Abacus, 92, 106, 110, 122.
-
-Αβατόν, 56.
-
-Abdera, 212, 269.
-
-Acanthus pattern, origin of, 104.
-
-Accius, 255.
-
-Acoustics, of the site of a theatre, 153 f.
-
-Acroteria, 96.
-
-Aequians have springs which produce goitre, 239.
-
-Aeruca (verdigris), 219.
-
-Aeschylus, 198.
-
-Aesculapius, proper site for temple of, 15;
-temple of, at Tralles, 198.
-
-Aetna, 47.
-
-Africa, 240.
-
-Agatharcus, 198.
-
-Agesistratus, 199.
-
-Agger (river), 231.
-
-Agnus castus (tree), 60 f., 296.
-
-Ακροβατικόν, 283.
-
-Alabanda, 212;
-temple of Apollo at, 78.
-
-Alae, of house, 177;
-of temples, 120.
-
-Albula (river), 233.
-
-Alder, 61.
-
-Alexander, 35 f., 195, 310.
-
-Alexandria, 36, 196, 197, 218;
-length of shadow of gnomon at, 270.
-
-Alexis (poet), 168.
-
-Altars, 125 f.
-
-Altino, 21.
-
-Aluminous springs, 234.
-
-Amiternum, stone quarries of, 49.
-
-Ammon, 235.
-
-Amphiprostyle, 75.
-
-Amphithalamos, 186.
-
-Amyntas, 310.
-
-Analemma, 257;
-its applications, 270 f.f.
-
----
-
-Anaphoric dial, 275.
-
-Anaxagoras, 195, 198, 225, 269.
-
-Ancona, 63.
-
-Andreas, 273.
-
-Andromeda (constellation), 266.
-
-Andron of Ephesus, 70.
-
-Andrones, 187.
-
-Andronicus of Cyrrhus, 26.
-
-Antae, 114, 120, 186; temple in antis, 75.
-
-Antiborean (sun dial), 273.
-
-Antimachides, 199.
-
-Antiochus, 199.
-
-Antipater, 238, 269.
-
-Antistates, 199.
-
-Apaturius, 212.
-
-Apelles, 11.
-
-Apollo, 69, 102, 103, 196; Panionion, 103, 255; colossal statue of, 289; temple of, at Alabanda, 78; at Miletus, 200; at Rome, 80; site of temple of, 80.
-
-Apollonia, 235; siege of, 317 f.
-
-Apollonius, 273.
-
-Apollonius of Perga, 12.
-
-Aqueducts, 244 f.f.; Marcian, 232.
-
-Aquileia, 21.
-
-Arabia, 235, 237.
-
-Arachne (sun dial), 273.
-
-Aradus, 315.
-
-Araeostyle temples, 78, 80; proportions of columns in, 84.
-
-Aratus, 269.
-
-Arcadia, 238.
-
-Arcesius, 109, 198.
-
-Arched substructures, 190.
-
-Archer (constellation), 266.
-
-Archimedes, 8, 12, 199, 243; detects a theft of gold by a contractor, 253 f.
-
-Archinapolus (astrologer), 269.
-
-Architecture, fundamental principles of, 13 f.f.; departments of, 16 f.f.
-
----
-
-Architrave, 94, 288.
-
-Archytas of Tarentum, 12, 199, 255.
-
-Arcturus (star), 266.
-
-Ardea, 233.
-
-Arevanias, 54.
-
-Arezzo, ancient wall of brick at, 53.
-
-Argo (constellation), 268.
-
-Argolis, precinct of Juno at, 102.
-
-Argos, 54.
-
-Ariobarzanes, 154.
-
-Aristarchus, 11.
-
----of Samos, 12, 263, 273.
-
-Aristides, 241.
-
-Aristippus, shipwreck of, 167.
-
-Aristomenes of Thaxos, 70.
-
-Aristophanes, 168; grammaticus, 196.
-
-Aristotle, 195, 251.
-
-Aristoxenus, 11, 140, 145.
-
-Armenian blue, 213, 217.
-
-Αρπεδόνοι (star group), 268.
-
-Arrow (constellation), 266.
-
-Arsenal, naval, at Peiraeus, 198.
-
-Arsinoe, 103.
-
-Artemisia, 55 f.
-
-Artemon (Ἐπύγον), 287.
-
-Asphalt, 235;
-asphaltic springs, 234;
-lake Asphaltitis, 235.
-
-Ἀσπληγον, 20.
-
-Assafoetida grown in Cyrene, 237.
-
-Astansoba (river), 231.
-
-Astoboa (river), 231.
-
-Astragals, 90.
-
-Astrology, 269 f.f.
-
-Athens, 26, 40, 53, 78, 124, 199, 200, 234;
-colonnades at, 154;
-temple of Minerva at, 198;
-length of shadow of gnomon at, 257, 270.
-
-Athos, Mt., 35.
-
-Ἀτλαντες, 188.
-
-Atlantides, 189.
-
-Atlas, 188, 231.
-
----
-
-Atrium, 185, 210;
-proportions of, 176 f.
-
-Attalus, 53, 103, 195.
-
-Attic doorways, 120.
-
-Aurelius, Marcus, 3.
-
-Aventine, 216.
-
-Babylon, 24, 235.
-
-Bacchus, proper site for temple of, 31;
-Ionic order appropriate to, 15;
-temple of, at Teos, 82, 109, 198.
-
-Baiae, 46, 47.
-
-Bakeries, 184.
-
-Balance (constellation), 266.
-
-Balconies in forum, 131.
-
-Balearic Isles, 214, 240.
-
-Ballistae, rules for making, 305 ff.
-
-Bankers' offices, 131.
-
-Barns, 184.
-
-βαρουλικός, 283.
-
-Bases, Ionic, 90 ff.
-
-Basilica, 132 ff.;
-of Vitruvius at Fano, 134 ff.
-
-Bathrooms, 180;
-of farmhouse, 183.
-
-Baths, 157 ff.
-
-Beast (constellation), 268.
-
-Bedrooms, 181.
-
-Beech, 60.
-
-Berosus, 262, 269, 273.
-
-Bilbery, used to make purple, 220.
-
-Bird (constellation), 266.
-
-Black, 217 f.
-
-Block (rechamus), 285 ff.
-
-Blue, 218 f.
-
-Body, proportions of, 72.
-
-Boedas of Byzantium, 70.
-
-Boeotia, 237.
-
-Bolsena, lake of, 50.
-
-Boscoreale, villa rustica at, 183.
-
-Bowl (constellation), 268.
-
-Breakwaters, 162 ff.
-
----
-
-Brick, 42 f.f.;
-test of, 57.
-
-Bright (Pephrasmenos), inventor of battering ram, 309.
-
-Bryaxis, 199.
-
-Bucket-pump, 294.
-
-Bug (river), 231.
-
-Bull (constellation), 266.
-
-Burnt-ochre, 218 f.
-
-Buttresses, 190 f.
-
-Byzantium, 310.
-
-Cadiz, 309.
-
-Caecuban (wine), 236.
-
-Caesar, Julius, 62 f., 240.
-
-Callaeschrus, 199.
-
-Callias of Aradus, 315.
-
-Callimachus (κατατηξίτεχνος), 104.
-
-Callippus, 269.
-
-Campania, 48, 64, 236, 238.
-
-Campus Cornetus, 238.
-
-Canon of water organ, 299.
-
-Canopus (star), 268.
-
-Capitals, Ionic, 92 f.f.;
-Corinthian, 102, 104 f.;
-Doric, 110;
-of triglyphs, 112.
-
-Capitol, hut of Romulus on, 40;
-temple on, 80.
-
-Cappadocia, 235.
-
-Carpion, 198.
-
-Carthage, 235.
-
-Caryae, 6 f.
-
-Caryatides, 6 ff.
-
-Casius (town in Egypt), 235.
-
-Cassiopea (constellation), 266.
-
-Castor, temple of, 124.
-
-Catacecaumenites (wine), 236.
-
-Catapults, 303 f.f.;
-stringing and tuning of, 308 f.
-
-Cataract of Nile, 231.
-
-Catheti, 92.
-
-Caucasus, 231.
-
-
-
----
-
-Cavaedium, 176 f.f.
-
-Cedar, 62.
-
-Ceilings of baths, 158.
-
-Cella, 114 f.f., 120; of circular temple, 123.
-
-Celtica, 231.
-
-Censer (constellation), 267.
-
-Centaur (constellation), 267.
-
-Cepheus (constellation), 266.
-
-Cephisus, 237.
-
-Ceres, temple of 80, 200; site of temple of, 32.
-
-Chalcedon, 309.
-
-Chaldeans, 262.
-
-Charias, 199, 310.
-
-Charioteer (constellation), 266.
-
-χειρόκιμητα of Democritus, 255.
-
-Chersiphron, 78, 198, 200, 288.
-
-Chion of Corinth, 70.
-
-Chionides, 168.
-
-Chios, 103, 197; siege of, 317.
-
-Chorobates, levelling instrument, 242 f.
-
-Chrobs, poisonous lake at, 237.
-
-Chromatic mode, 140.
-
-Cibdeli, 234.
-
-Cicero, 256.
-
-Cilbian country, 215.
-
-Cilicia, 235.
-
-Cinnabar, 215 f.f.; adulteration of, 217.
-
-Circular temples, 122 f.f.
-
-Circumference of earth, 27 f.
-
-Circumsonant sites of theatres (περισχουντες), 153.
-
-Circus, Flaminius, 124, 273; Maximus, 80.
-
-Cisterns, 244 f.f.
-
-City, site of, 17 f.f.; walls, 21 f.
-
-Classification of temples, 75 f.f., 78 f.f.
-
-Clazomenae, 103, 269.
-
-Clearstock of fir, 60.
-
-Climate determines the style of houses, 170.
-
-
-
----
-
-Clitor, spring at, 239.
-
-Colchis, 231.
-
-Colline Gate, 75.
-
-Colonnades, 131, 154, 155, 156 f., 160 f.
-
-Colophon, 103, 269.
-
-Colours, 214 f.f.;
-natural, 214 f.;
-artificial, 217;
-manufactured from flowers, 220;
-how applied to stucco, 207.
-
-Columbaria (όποι), 108.
-
-Columns, proportions of, in colonnades, 154;
-in forums, 132;
-in basilicas, 132;
-
-Corinthian, 102;
-diminution in top of, 84 f.;
-lonic order, 90 f.f.;
-arrangement of, 114.
-
-Conarachne (sun dial), 273.
-
-Concords in music, 142.
-
-Concrete floors, 202.
-
-Cone (sun dial), 273.
-
-Conical Plinthium (sun dial), 273.
-
-Consonancies in music, 142.
-
-Consonant sites of theatres (πογχοντες), 153.
-
-Constellations, northern, 265 f.f.;
-Southern, 267 f.f.
-
-Consumptives, resin of larch good for, 63.
-
-Corinth, 145.
-
-Corinthian cavaedium, 176.
-
-Corinthian order, 15;
-origin of, 102 f.;
-proportions of, 106 f.;
-treatise on, by Arcesius, 198.
-
-Cornelius, Gnaeus, 3.
-
-Corona, 102, 107, 112.
-
-Cos, island of, 269.
-
-Cossutius, 200.
-
-Courage dependent on climate, 173.
-
-Counterforts, 190.
-
-Courtyards, 183.
-
-Crab (constellation), 268.
-
-Crathis (river), 237.
-
-Crete, 20, 62.
-
-Creusa, 103.
-
-Croesus, 195;
-
-
-
----
-
-house of, at Sardis, 53.
-
-Cross-aisles in theatre, 138, 146;
-in Greek theatre, 151.
-
-Crown (constellation), 266.
-
-Ctesibius, 8, 198, 273 f.;
-pump of, 297 f.
-
-Cube, properties of, 130.
-
-Cubit equals six palms or twenty-four fingers, 74.
-
-Cumae, 162.
-
-Cunei in theatre, 146.
-
-Cutiliae, 234.
-
-Cyclades, 214.
-
-Cydnus, 234.
-
-Cymatium, 94, 110;
-Doric, 112.
-
-Cypress, 59, 61.
-
-Cyrene, 27, 237, 255.
-
-Daphnis of Miletus, 200.
-
-Darius, 195.
-
-Decorations of walls, 209 f.
-
-Defence, measures for, 315 f.f.
-
-Delos, problem enjoined upon, by Apollo, 255.
-
-Delphi, Round Building at, 198.
-
-Demetrius of Phalerum, 200.
-
-Demetrius Poliorcetes, 316.
-
-Demetrius (slave of Diana), 200.
-
-Democles, 199.
-
-Democritus, 42, 195, 251, 255, 269;
-his study of perspective, 198.
-
-Demophilus, 199.
-
-Denarius, 74.
-
-Dentils, 94, 102, 108.
-
-Departments of architecture, 16 f.
-
-Diades, 199; inventor of siege machines, 310.
-
-Dials arranged to show hours of varying length, 274 f.f.
-
-Diana, temple of Ionic order, 15, 78;
-temple of, at Ephesus, 78, 103, 198, 200, 288 f.;
-at Rome, 80, 124;
-at Magnesia, 78, 198;
-statue of, 62.
-
-Diatonic mode, 140.
-
-Diastyle temples, 78, 80;
-proportions of columns in, 84;
-Doric, 113.
-
-
-
----
-
-Διάθυρα, 188.
-
-Dichalca, 74.
-
-Diesis, 140.
-
-Diminution in top of column, 84, 110.
-
-Dining rooms, proportions of, 179, 181, 186;
-Cyzicene, 186;
-winter, 209 f.
-
-Dinocrates, 35 f.
-
-Diognetus, Rhodian architect, 315 f.f.
-
-Diomede, 21.
-
-Dionysodorus, 273.
-
-Dioptra, 242.
-
-Diphilus, 199.
-
-Dipteral temple, 75, 78.
-
-Displuviate cavaedium, 177.
-
-Dissonant sites of theatres (κατηχούτες), 153.
-
-Dnieper, 231.
-
-Dog (constellation), 268.
-
-Dolphin (constellation), 266.
-
-Don (river), 231.
-
-Doors, of temples, 118 f.;
-of dwellings, 178;
-in theatres, 146.
-
-Doorways of temples, proportions of, 117 f.f.
-
-Doric order, 15;
-proportions of, 109 f.f.;
-doorways, 117;
-temples of, 198.
-
-Dorus, 102.
-
-Drachma, 74.
-
-Dyer's weed, 220.
-
-Dyris (river), 231.
-
-Dyrrachium, 235.
-
-Eagle (constellation), 266.
-
-Echea (Ἐκορερὰ), 9, 143 f.f.
-
-Echinus, 93, 110, 122.
-
-Economy, 16.
-
-Education of the architect, 5 f.f., 168 f.
-
-Egypt, 214, 231, 235, 269.
-
-Ἐκορερὰ, 90.
-
-Elements (στειχεια) and their proportions, 18 f.f., 225.
-
-Elephantis, 231.
-
-
-
----
-
-Eleusis, 200.
-
-Τέλιξη, 267.
-
-Elpias of Rhodes, 21.
-
-Empedocles, 225.
-
-Τιμαλέπτον, 52.
-
-Engines, 283; for raising water, 293 f.f.
-
-Enharmonic mode, 140.
-
-Ennius, 255.
-
-Έντυπη of columns, 86.
-
-Eolipiles, 25.
-
-Ephesus, 103, 214, 215, 281; temple of Diana at, 78, 198, 200.
-
-Epicharmus, 225.
-
-Epicurus, 42, 167, 195.
-
-Epimachus, 316.
-
-Equestrian Fortune, temple of, 80.
-
-Eratosthenes of Cyrene, 12, 27, 28, 255.
-
-Erythrae, 103.
-
-Ethiopia, 231, 235.
-
-Etruria (Tuscany), 48, 64, 235.
-
-Eucrates, 168.
-
-Euctemon, 269.
-
-Eudoxus, 269, 273.
-
-Eumenes, colonnades of, 154.
-
-Euphranor, 199.
-
-Euphrates, 231.
-
-Euripides, 225; buried in Macedonia, 238; "Phaethon" of, 261.
-
-Eurythmy, 14.
-
-Eustyle temples, 78, 80 f.; proportions of columns in, 84.
-
-Exedrae, 160, 179, 186, 211.
-
-Exposure, proper for rooms, 180, f.
-
-Faberius, 216.
-
-Falernian (wine), 236.
-
-Fano, 63; basilica at, 134 f.f.
-
-Farmhouses, 183 f.
-
-Fascia, 94; of Attic doorway, 120.
-
-Fauces, their dimensions, 178.
-
----
-
-Faunus temple on the Island of the Tiber, 75.
-
-Femur (μηρός), 112.
-
-Ferento, 50.
-
-Fidenae, stone quarries at, 49.
-
-Fir, qualities of, 60;
-highland and lowland, 64 f.
-
-Fire, origin of, 38.
-
-Fishes (constellation), 266.
-
-Flaminius circus, 124.
-
-Floors, 202 f.f.;
-Greek method of making, 210;
-of baths, 157, f.
-
-Flora, temple of Corinthian order, 15.
-
-Flutes of columns, 96;
-Doric, 113.
-
-Folds for sheep and goats, 184.
-
-Fondi, 236.
-
-Foot equals four palms, or sixteen fingers, 74.
-
-Fortune, temple of Equestrian, 80;
-Three Fortunes, 75.
-
-Forum, 131 f.f.
-
-Foundations of temples, 86 f.f.;
-of houses, 189 f.f.
-
-Fresco painting, decadence of, 210 f.f.
-
-Frieze, 94, 123.
-
-Fuficius (architect), 199.
-
-Fulcrum (ὁπομόχλιον), 290.
-
-Ganges, 231.
-
-Γάνοσης, 217.
-
-Gaul, 220, 231.
-
-Geras, inventor of shed for battering ram, 309.
-
-Gilding, 215.
-
-Gnomon, 257;
-length of shadow at different places, 270.
-
-Gnosus, 20, 200.
-
-Gorgon's head (star group), 266.
-
-Gortyna, 20.
-
-Grain rooms, 184.
-
-Greater Dog (constellation), 268.
-
-Great Bear, 257;
-(ἀρκτος or ἐλίκη), 265.
-
-Grecian Station, 56.
-
-Greek houses, 185 f.f.
-
-
-
----
-
-Green chalk (θειδοτεκον), 214.
-Grotta Rossa, stone quarries at, 49.
-Guttae, 102, 110, 112.
-Gynaeconitis, 186.
-Gypsum not to be used for stucco work, 206.
-Halicarnassus, 53, 54.
-Harbinger of the Vintage (star), 265.
-Harbours, 162 f.f.
-Harmonics, 139 f.f.
-Hegesias, 241.
-He-Goat (constellation), 266.
-Helepolis of Epimachus, 316 f.
-Hellen, 102.
-Hemisphere (sun dial), 273.
-Heptabolus, lake, 231.
-Heptagonus, lake, 231.
-Heraclea, 289.
-Heraclitus of Ephesus, 42, 225.
-Hercules, Doric order appropriate to, 15;
-site of temple of, 31;
-cellae of temple of, 53;
-Pompey's temple of, 80.
-Hermodorus, temple of Jupiter Stator, 78.
-Hermogenes, 109;
-temple of Diana by, 78;
-determined rules of symmetry for eustyle temples, 82.
-Herodotus, 241.
-Herring-bone pattern, 203.
-Hierapolis, boiling springs at, 236.
-Hiero, 253 f.
-Hinge-stiles, 118.
-Hipparchus, 269.
-Hippocrates, 11.
-Hodometer, 301 f.f.
-Hoisting machines, 285.
-Homer, 197.
-Hornbeam, 61.
-Horse (constellation), 266.
-Hostilius, Marcus, 21.
-Hot springs, 232;
-healing properties of, 233 f.
-
----
-
-Hours, how marked by clocks, 274.
-
-House, origin of, 38 f.;
-early types of, 39 f.;
-style of, determined by climate, 170 f.
-
-Hypaethral temple, 14, 75, 78.
-
-Hypanis, 214, 236.
-
-Hysginum, 220.
-
-Ictinus, 198, 200.
-
-Iliad and Odyssey, 197.
-
-Ilium, 237.
-
-Incertum opus, 51.
-
-India, 231.
-
-India ink, 217, 218.
-
-Indigo, substitute for, 220.
-
-Indus, 231.
-
-Iollas, 238.
-
-Ion, 103.
-
-Ionic order, 15;
-proportions of, 90 f.f.;
-doorways of, 118;
-temples of, 198, 200.
-
-Isis, site of temple of, 31.
-
-Ismuc, 240.
-
-Isodomum, 52.
-
-Isthmian games, 251.
-
-Italy, 48, 53, 131, 145, 173, 214, 231, 239.
-
-Jaffa, 235.
-
-Jambs, proportions of, 117.
-
-Juba, King, 240.
-
-Julius, Caius, son of Masinissa, 240.
-
-Juno, Ionic order appropriate to, 15;
-site for temple of, 31;
-precinct at Argolis, 102;
-Doric temple of, in Samos, 198.
-
-Jupiter, temple of, 14, 199;
-site for temple of, 31;
-cellae of temple, 53;
-temple on Island of the Tiber, 75;
-altars of, 125.
-
-Jupiter (planet), 258, 260, 261, 262.
-
-Kids (constellation), 266.
-
-Kitchen, 183.
-
-Kneeler (constellation), 266.
-
-Knotwood, 60.
-
----
-
-Kooiøssø, 267.
-
-Lacedaemonians, 7.
-
-Laconicum, 159.
-
-Lacunar (sun dial), 273.
-
-Language, origin of, 38.
-
-Larch, 62 f.
-
-Larignum, 62, 63.
-
-Law governing architects at Ephesus, 281.
-
-Lead pipes poisonous, 247.
-
-Lebedos, 103.
-
-Lemnos, 214.
-
-Leochares, 54, 199.
-
-Leonidas, 199.
-
-Lesbos, 25, 236.
-
-Levelling instruments, 242 f.
-
-Lever, explanation of, 290 f.
-
-Libraries, 181, 186.
-
-Licymnius, 212 f.
-
-Lighting of rooms, how to test, 185.
-
-Lime, 45 f.;
-slaking of, for stucco, 204.
-
-Linden, 60.
-
-Lintels, height of, 117.
-
-Lion (constellation), 268.
-
-Liparis (river), 235.
-
-Little Dog (constellation), 268.
-
-Liver examined to determine site of towns, 20.
-
-Αγγεων, scenic and thymelic, 151; dimensions of, 151.
-
-Logotomus, 272.
-
-Lucania, 237.
-
-Lucretius, 256.
-
-Lyncestus, acid springs of, 238.
-
-Lyre (constellation), 267.
-
-Lysippus, 69.
-
-Macedonia, 217, 238.
-
-Machines, 283 f.f.;
-for defence, 315 f.f.
-
-Maeonia, wine of, 236.
-
-Magi, 225.
-
----
-
-Magnesia, 78, 214, 240;
-temple of Diana at, 198.
-
-Malachite green, 213;
-where found, 217;
-substitute for, 220.
-
-Mamertine (wine), 236.
-
-Marble, powdered for stucco work, 206, 213 f.;
-where quarried, 289.
-
-Marius' temple of Honour and Valour, 78.
-
-Mars, temple should be Doric, 15;
-site of temple of, 31.
-
-Mars (planet), 259 f., 262.
-
-Marseilles, siege of, 318.
-
-Maurusia (Mauretania), 231.
-
-Mausoleum, 54, 199.
-
-Mausolus, 53 f.f.
-
-Mazaca, lake near, petrifies reeds, etc., 235.
-
-Medicine, architect should know, 10.
-
-Medulli have springs which produce goitre, 239.
-
-Melampus, 199, 239.
-
-Melas of Argos, 54.
-
-Melas (river), 237.
-
-Melassa, 54.
-
-Melian white, 214.
-
-Melite, 103.
-
-Melos, 214.
-
-Menaeus, 272.
-
-Mercury, site of temple of, 31;
-temple of, 54.
-
-Mercury (planet), 258, 259.
-
-Meroë, 231.
-
-Mesauloe, 187.
-
-Metagenes, 198, 200, 288.
-
-Metellus, portico of, 78.
-
-Meto, 269.
-
-Metopes (μετόπη), 94, 108, 110;
-size of, 112;
-arrangement of, in Doric temples, 113.
-
-Metrodorus, 241.
-
-Miletus, 103, 200, 269.
-
-Milo of Croton, 251.
-
-Minerva, temple should be Doric, 15;
-site of temple, 31;
-temple at Sunium, 124;
-
----
-
-at Priene, 11, 198; at Athens, 198.
-
-Minidius, Publius, 3.
-
-Mithridates, 154.
-
-Modes of music, 140 f.f.
-
-Moon, 258; phases of, 262 f.
-
-Mortar, consistency of, for stucco work, 206 f.; of burnt brick, 209.
-
-Motion, elements of, 290 f.f.
-
-Mouldings for stucco work, 206.
-
-Mucius, C., temple of Honour and Valour, 78, 200.
-
-Mummius, Lucius, 145.
-
-Muses, 253; fountain of, 232.
-
-Music useful to architect, 8.
-
-Mutules, 102, 108; of Tuscan temples, 122.
-
-Myager the Phocaean, 70.
-
-Myron, 11, 69.
-
-Mysia the "Burnt District," 47.
-
-Mytilene, 25.
-
-Myus, 103.
-
-Nemean games, 251.
-
-Neptune, spring of, 237.
-
-Nexaris, 199.
-
-Nile, 36, 231; temples on, should face the river, 117.
-
-Nonacris, "Water of the Styx," 238.
-
-Notes, names of, 141 f.
-
-Number, perfect, 73 f.
-
-Nymphodorus, 199.
-
-Nymphs, temple of Corinthian order, 15.
-
-Oak, 60; in floors, 202.
-
-Obols, 74.
-
-Ochre (ὀρῃ), 214.
-
-Oeci, distinction between Corinthian and Egyptian, 179; Cyzicene, 180.
-
-Oil room, 184.
-
-Olympian games, 251.
-
-Onui, 108.
-
-Opus incertum, 51;
-
-
-
----
-
-reticulatum, 51;
-Signinum, 247 f.
-
-Orchestra, reserved for senators, 146;
-of Greek theatre, 151.
-
-Order appropriate to temples, 15;
-origin of different orders, 102 ff.
-
-Organ, water, 299 f.
-
-Οργανον, 283.
-
-Orientation of streets, 24 ff.;
-of temples, 116 f.
-
-Orion (constellation), 268.
-
-Ornaments of the orders, 107 ff.
-
-Orpiment (ὁρσενικὸν), 214.
-
-Ostrum, source of purple dye, 220.
-
-Paconius, 289.
-
-Paeonius of Ephesus, 200.
-
-Palaestra, 159 ff.
-
-Palla, stone quarries at, 49.
-
-Panels of doors, 118.
-
-Paphlagonia, intoxicating springs of, 239.
-
-Παραδρομίδες, 188.
-
-Paraetonium, 235;
-white, 214.
-
-Parapet of theatre, dimensions of, 148.
-
-Parmenio, 273.
-
-Paros, 289.
-
-Pastas, 186.
-
-Patras, cellae of temple built of brick, 53.
-
-Patrocles, 273.
-
-Pausanias, son of Agesipolis, 7.
-
-Peiraeus, 234;
-naval arsenal at, 198.
-
-Peisistratus, 199.
-
-Pelecinum (sun dial), 273.
-
-Penne, 234.
-
-Pentaspast (hoisting machine), 285.
-
-Pergamus, 196.
-
-Peripteral temple, 75 f.
-
-Peristyle, 186;
-decorations of, 210 f.;
-proportions of, 179;
-Rhodian, 186.
-
-Peritreti, 303 f.
-
----
-
-Perseus (constellation), 266.
-
-Persian Porch, 7.
-
-Persians, statues of, 8 f.
-
-Perspective, commentaries on by Agatharcus, Anaxagoras, and Democritus, 198.
-
-Pesaro, 63.
-
-Pharax of Ephesus, 70.
-
-Phasis, 231.
-
-Phidias, 69.
-
-Philippus (physicist), 269.
-
-Philip son of Amyntas, 310.
-
-Philo, 198, 200; of Byzantium, 199.
-
-Philolaus of Tarentum, 12.
-
-Philosophy, why useful to architect, 8.
-
-Phocaea, 103.
-
-Phrygia, 236.
-
-Phthia, 102.
-
-Picenum, 49.
-
-Picture galleries, 179, 186.
-
-Piles, of alder, 61; olive, or oak, 88.
-
-Πίνος of water organ, 299.
-
-Pine, 61.
-
-Pixodorus discovers marble near Ephesus, 289; his name changed to Evangelus, 290.
-
-Planets, 257 f.f.; their retrograde movement, 260 f.
-
-Plataea, battle of, 7. Plato, 195, 251; rule for doubling the square, 252.
-
-Πλειάδες, 189.
-
-Plinthium (sun dial), 273.
-
-Πνευματικόν, 283.
-
-Po, 231.
-
-Podium of theatre, height of, 148.
-
-Pollis, 199.
-
-Πόλος (pivots of heaven), 257.
-
-Polus (star), 267.
-
-Polycles of Ephesus, 70.
-
-Polyclitus, 11, 69.
-
-Polyidus, 199, 310.
-
-Polyspast (hoisting machine), 288.
-
----
-
-Pompeian pumice, 47.
-
-Pompey, colonnades of, 154;
-temple of Hercules, 80.
-
-Pontic wax, 216, 217.
-
-Pontus, 214, 220, 231, 236.
-
-Poplar, 60.
-
-Pormus, 199.
-
-Posidonius, 241.
-
-Pothereus (river), 20.
-
-Pozzolana, 46 f.
-
-Praxiteles, 199.
-
-Pressing room, 183 f.
-
-Priene, 103;
-Temple of Minerva at, 11, 198.
-
-Primordial substance, 42.
-
-Prison, location of, 137.
-
-Proconnesus, 289.
-
-Pronaos, 114 f.f., 120.
-
-Proportions, 72, 174 f.;
-of circular temples, 123 f.;
-of colonnades, 154 f.;
-of columns and intercolumnations, 78 f.f., 116;
-of the Corinthian order, 106 f.;
-of doorways of temples, 117 f.f.;
-of Doric temples, 109 f.f.;
-of the Ionic order, 90 f.f.;
-of rooms, 176 f.f.
-
-Propriety, 14 f.f.
-
-Proscaenium of Greek theatre, 151.
-
-Proserpine temple of Corinthian order, 15;
-temple of, 200.
-
-Προς παν κλιμα (sun dial), 273.
-
-Προς τὰ ἱστορούμενα (sun dial), 273.
-
-Prostas, 186.
-
-Prostyle, 75.
-
-Proteus, daughters of, 239.
-
-Prothyra, 188.
-
-Protropium (wine), 236.
-
-Προτρογητής (star), 265.
-
-Pseudisodomum, 52.
-
-Pseudodipteral temple, 75, 78, 82.
-
-Pseudoperipteral temples, 125.
-
-Pteroma, 82, 114, 125.
-
-Ptolemy, 196, 197;
-Philadelphia, 197.
-
-
-
----
-
-Public buildings, sites of, 31 f.
-
-Pump of Ctesibius, 297 f.
-
-Purple, 213, 219; substitutes for, 220 f.
-
-Puzzuoli, 218.
-
-Pycnostyle temples, 78 f.;
-proportions of columns in, 84.
-
-Pyrrus, 199.
-
-Pythagoras, 42, 130, 225, 251, 269;
-right triangle of, 252 f.
-
-Pytheos, 11, 109, 198, 199.
-
-Pythian games, 251.
-
-Quarries of Grotta Rosa, Palla, Fidenae, Campania, Umbria, Picenum, Tivoli, Amiternum, Venetia, Tarquinii, Lake of Bolsena, Ferento, 49, 50.
-
-Quicksilver, 215 ff.
-
-Quirinus, temple of, 78.
-
-Quiver (sun dial), 273.
-
-Rainwater, 229 ff.
-
-Ram, battering, 309 f.;
-Hegetor's, 314 f.
-
-Ram (constellation), 266.
-
-Raven (constellation), 268.
-
-Raven, a machine of no value, 310 f.
-
-Ravenna, 21, 61, 63.
-
-Reduction of columns, 114.
-
-Refraction explained, 175.
-
-Resin, soot of, used to make black, 218.
-
-Resonant sites of theatres (ἀντιτροντες), 153.
-
-Retaining walls, 190 f.
-
-Reticulatum opus, 51.
-
-Retrogression of planets, 261.
-
-Rhine, 231.
-
-Rhodes, 55 f., 167, 219, 220;
-length of shadow of gnomon at, 270;
-siege of, 316 f.
-
-Rhone, 231.
-
-River (constellation), 268.
-
-Rivers rise in the north, 231.
-
-Rome, 63, 64, 78, 80, 145, 217;
-site of, determined by divine intelligence, 174;
-length of shadow of gnomon at, 270.
-
-Romulus, hut of, 40.
-
-Roofs, of mud, 39 f.;
-timbers of, 107;
-
----
-
-of Tuscan temples, 122;
-of circular temples, 124.
-
-Rooms, proportions of, 176 f.f.;
-proper exposure for, 180 f.;
-should be suited to station of the owner, 181 f.
-
-Round Building at Delphi, 198.
-
-Salmacis, spring of, 54.
-
-Salpia in Apulia, 21.
-
-Sambuca illustrates effect of climate on voice, 171.
-
-Samos, 12, 103, 263, 269, 273;
-Doric temple of Juno in, 198.
-
-Sand, 44 f., 48.
-
-Sandarach, 214; made from white lead, 219.
-
-Sardis, 53.
-
-Sarnacus, 199.
-
-Saturn (planet), 260, 261, 262.
-
-Satyrus, 199.
-
-Scaena of theatre, 146;
-dimensions of, 148;
-scheme of, 150;
-decorations of, 150;
-of theatre at Tralles, 212.
-
-Scale, musical, 141.
-
-Scaling machine, 311.
-
-Scamilli impares, 89, 155, 320.
-
-Scaphe (sun dial), 273.
-
-Scopas, 199.
-
-Scopinas, 12, 273.
-
-Scorpion (constellation), 266.
-
-Scorpiones, rules for making, 303 f.f.
-
-Scotia, 90, 112.
-
-Scutula of ballistae, 306 f.
-
-Seats in theatre, dimensions of, 148.
-
-Selinusian chalk (iπóτις), 220.
-
-Semiramis, 235.
-
-Senate house, location of, 137.
-
-Septentriones (She-Bears), 267.
-
-Septimius, P., 199.
-
-Serapis, site of temple of, 31.
-
-Serpent (constellation), 266.
-
-Serpent-holder (constellation), 266.
-
-Sesterce, 74.
-
-She-Goat (constellation), 266.
-
-
-
----
-
-Ship, motion of, explained, 291.
-
-Shipyards, 164.
-
-Sicily, 236.
-
-Siege machines, 309 f.f.
-
-Signinum work, 247 f.
-
-Signs of the Zodiac, 258;
-sunt's course through, 264 f.;
-shown on dials, 276 f.
-
-Silanion, 199.
-
-Silenus, on the proportions of Doric structures, 198.
-
-Simae (ἐπιπετίδες), 96, 108.
-
-Sinope, 214.
-
-Smyrna, 197, 214;
-Stratoniceum at, 154.
-
-Snake (constellation), 268.
-
-Socrates, 69, 70, 195.
-
-Soli, 235.
-
-Soracte, stone quarries of, 49.
-
-Sounding vessels in the theatre, 143 f.f.
-
-Southern Fish (constellation), 267.
-
-Spain, 214;
-cinnabar mines of, 217.
-
-Sparta, paintings on brick walls at, 53.
-
-Spica (star), 265.
-
-Stables, 184, 186.
-
-Statonia, 50.
-
-Steelyard, description of, 291.
-
-Steps of temples odd in number, 88.
-
-Stereobates, 88.
-
-Stone, 48, 49 f.
-
-Stratoniceum, 154.
-
-Streets, directions of, 24.
-
-Stucco, 204 f.f.;
-in damp places, 208 f.f.
-
-Stucco-workers, Greek, 208.
-
-Stylobates, 88.
-
-Substructures of houses, 189 f.f.
-
-Sulphur springs, 233 f.
-
-Sun, 258 f.;
-course of, through the twelve signs, 264 f.
-
-Sundials, 273 f.f.;
-how designed, 270 f.f.
-
-
-
----
-
-Sunium, temple of Pallas at, 124.
-
-Susa, spring at, 240.
-
-Syene, 231.
-
-Symmetry, 14;
-in temples and in the human body, 72 f.;
-modifications to suit site, 174 f.f.
-
-Syracuse, 273.
-
-Syria, 231, 235, 237.
-
-Systyle temples, 78 f.;
-proportions of columns in, 84;
-Doric, 113.
-
-Tablinum, proportions of, 178.
-
-Tarentum, 12, 255;
-length of shadow of gnomon at, 270.
-
-Tarquinii, 50.
-
-Tarsus, 234, 240.
-
-Teano, acid springs of, 238.
-
-Telamones, 188.
-
-Teleas of Athens, 70.
-
-Τέλειον (perfect number), 73 f.
-
-Tempering of iron, 18.
-
-Temples, classification of, 75 f.f.;
-circular, 122 f.f.;
-Corinthian, 102 f.;
-Doric, 109 f.f.;
-Ionic, 90 f.f.;
-Tuscan, 120;
-foundations of, 86 f.f.;
-orientation of, 116 f.;
-proportion of columns of, 78 f.f.;
-sites of, 31 f.;
-Aesculapius, 15, 198;
-Apollo, 31, 78, 80, 200;
-Bacchus, 15, 31, 82, 109, 198;
-Castor, 124;
-Ceres, 32, 80, 200;
-Diana, 15, 78, 80, 103, 124, 198, 200, 288 f.;
-Equestrian Fortune, 80;
-Faunus, 75;
-Flora, 15;
-Three Fortunes, 75;
-Hercules, 15, 31, 53, 80;
-Isis, 31;
-Juno, 15, 31, 198;
-Jupiter, 14, 31, 53, 75, 199;
-Honour and Valour, 78, 200;
-Mars, 15, 31;
-Mercury, 31, 54;
-Minerva, 11, 15, 31, 124, 198;
-Nymphs, 15;
-Proserpine, 15, 200;
-Quirinus, 78;
-Serapis, 31;
-Vejovis, 124;
-Venus, 15, 31, 54;
-Vulcan, 31.
-
-Teos, 103;
-temple of Bacchus at, 82, 198.
-
-Terracina, 236, 237.
-
----
-
-Testudinate cavaedium, 177.
-
-Tetrachords, 140 ff.
-
-Tetrastyle cavaedium, 176.
-
-Thalamos, 186.
-
-Thales, 42, 195, 225, 269.
-
-Thasos, 289.
-
-Theatre, 137 ff.;
-site of, 137;
-foundations of, 138 f.;
-entrances to, 138, 148;
-plan of Roman, 146 ff.;
-plan of Greek, 151 ff.;
-sounding vessels in, 143 f.;
-acoustics of site of, 153 ff.
-
-Thebes in Egypt, 231.
-
-Themistocles, colonnade of, 154.
-
-Theo of Magnesia, 70.
-
-Theocydes, 199.
-
-Theodorus, 198.
-
-Theodorus the Phocian, 198.
-
-Theodosius, 273.
-
-Theodotus, 214.
-
-Theophrastus, 167, 241.
-
-Thessaly, 237.
-
-Thrace, 237.
-
-Θυμορτιον, 186.
-
-Tiber, 231.
-
-Tigris, 231.
-
-Timaeus, 241.
-
-Timavo, 231.
-
-Timber, 58 ff.
-
-Timotheus, 54, 199.
-
-Tivoli, 233; stone quarries of, 49.
-
-Tortoise, 311 ff.;
-of battering ram, 310;
-Hegetor's, 312 ff.
-
-Torus, 90.
-
-Towers, construction of, 22 f.;
-dimensions of moveable, 310.
-
-Tralles, 212;
-palace of brick at, 53;
-colonnades at, 154;
-temple of Aesculapius at, 198.
-
-Treasury, location of, 137.
-
-Trichalca, 74.
-
----
-
-Triglyphs, origin of, 107 f.f.;
-arrangement of, 109 f., 113;
-size of, 112.
-
-Trispast (hoisting machine), 285.
-
-Τροχίλας (scotia), 90.
-
-Troazen, 54, 234.
-
-Troy, 195, 211, 237.
-
-Trypho, Alexandrine architect, 317 f.
-
-Tufa, its qualities, 49.
-
-Tuscan, cavaedium, 176;
-temples, 120 f.
-
-Twins (constellation), 266.
-
-Tyana, 235.
-
-Tympanum, 96, 122;
-water tympanum, 293.
-
-Tyre, 309.
-
-Ulysses, 211.
-
-Universe, definition of, 257.
-
-Varro, M. Terentius, 199, 256.
-
-Vaultings, 205 f.f.
-
-Vejovis, temple of, 124.
-
-Velian country, acid springs of, 238.
-
-Venter (κοιλία), 245.
-
-Venus, Corinthian order appropriate to, 15;
-site of temple of, 31;
-temple of, 54.
-
-Venus (planet), 259.
-
-Verdigris, 219.
-
-Vergiliae, 189.
-
-Vermilion, 213, 215;
-preparation of, 216.
-
-Vesta, altar of, 125.
-
-Vestorius, 218.
-
-Vesuvius, 46, 47.
-
-Via Campana, 238.
-
-Vinegar a solvent of rocks, 239.
-
-Violets used for purple colour, 220.
-
-Virgin (constellation), 265.
-
-Vitruvius, education, 13, 168;
-personal appearance, 36;
-method of writing, 197 f.f.;
-military service, 3;
-his basilica at Fano, 134 f.f.
-
-Voice, defined, 138 f.;
-
----
-
-pitch of, determined by climate, 171.
-
-Volutes, 93.
-
-Voussoirs, 190.
-
-Vulcan, site of temple of, 31.
-
-Walks, how to be constructed, 156; serve practical purpose, 156.
-
-Walls, material for, 24; methods of building, 51 ff., 56; of brick are durable, 53; of rubble, 53.
-
-Warden (constellation), 265.
-
-Water (constellation), 268.
-
-Water, 225 ff.; indispensable, 226; how to find, 227 ff.; properties of, 232 ff.; tests of good, 242; methods of conducting, 244 ff.
-
-Water clocks, 273 ff.
-
-Waterman (constellation), 266.
-
-Water organ, 299 f.
-
-Water pipes, 244 ff.
-
-Water screw, 295 ff.
-
-Water wheels, 294.
-
-Wattle and daub, 57 f.
-
-Weather prognostics, 269 ff.
-
-Wells, 244 ff.
-
-Whale (constellation), 267.
-
-Wheel (treadmill), 286 f.
-
-White lead, 219, 238 f.
-
-Willow, 60.
-
-Winds, names and number of, 26 ff.; diagrams of, 29 f.; orientation of cities with reference to, 24 ff.
-
-Wine, given its flavour by soil and water, 236; lees used to make black, 218.
-
-Wine rooms, 184.
-
-Xanthus, 237.
-
-Xenia, 187.
-
-Xenophanes, 195, 269.
-
-Ζωετός, 161, 188.
-
-Xuthus, 103.
-
-Xysta (παραδρομίδες), 161, 188.
-
-Yellow ochre, 220.
-
-
-
----
-
-Zacynthas, 235.
-
-Zama, 240.
-
-Zea, spring at, 239 f.
-
-Zeno, 195.
-
-Zodiac, 257 ff.
-
-Zoilus (Homeromastix), 197.
-
----
-
-# FOOTNOTES:
-
-[1] Reading *aequæ tantum* as in new *Rose*. Codd. *sextantem*; Schn. *quadrantem*.
-
-[2] Codd. *altitudo*.
-
-[3] That is: two metopes with a triglyph between them, and half of the triglyph on either side.
-
-[4] Codd. *duae*.
-
-[5] 1 Codd. *quarto*.
-
-[6] Codd. *CC. &amp; L.*
-
-[7] The remainder of this section is omitted from the translation as being an obvious interpolation.
-
-[8] Codd. *diatexsaron*, which is impossible, paramese being the concord of the fourth to the chromatic meson, and identical with the chromatic synhemmenon.
-
-[9] Codd. *fuerat*.
-
-[10] Here something is lost, as also in chapter III, sections 5 and 6.
-
-[11] From this point to the end of section 3 the text is often hopelessly corrupt. The translation follows, approximately, the manuscript reading, but cannot pretend to be exact.
-
-[12] 1 the dots here and in what follows, indicate lacunae in the manuscripts.
-
----
-
-Updated editions will replace the previous one—the old editions will be renamed.
-
-Creating the works from print editions not protected by U.S. copyright law means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg™ electronic works to protect the PROJECT GUTENBERG™ concept and trademark. Project Gutenberg is a registered trademark, and may not be used if you charge for an eBook, except by following the terms of the trademark license, including paying royalties for use of the Project Gutenberg trademark. If you do not charge anything for copies of this eBook, complying with the trademark license is very easy. You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research. Project Gutenberg eBooks may be modified and printed and given away—you may do practically ANYTHING in the United States with eBooks not protected by U.S. copyright law. Redistribution is subject to the trademark license, especially commercial redistribution.
-
-START: FULL LICENSE
-
----
-
-
-
----
-
-To protect the Project Gutenberg™ mission of promoting the free distribution of electronic works, by using or distributing this work (or any other work associated in any way with the phrase "Project Gutenberg"), you agree to comply with all the terms of the Full Project Gutenberg License available with this file or online at www.gutenberg.org/license.
-
-# Section 1. General Terms of Use and Redistributing Project Gutenberg electronic works
-
-1.A. By reading or using any part of this Project Gutenberg electronic work, you indicate that you have read, understand, agree to and accept all the terms of this license and intellectual property (trademark/copyright) agreement. If you do not agree to abide by all the terms of this agreement, you must cease using and return or destroy all copies of Project Gutenberg electronic works in your possession. If you paid a fee for obtaining a copy of or access to a Project Gutenberg electronic work and you do not agree to be bound by the terms of this agreement, you may obtain a refund from the person or entity to whom you paid the fee as set forth in paragraph 1.E.8.
-
-1.B. "Project Gutenberg" is a registered trademark. It may only be used on or associated in any way with an electronic work by people who agree to be bound by the terms of this agreement. There are a few things that you can do with most Project Gutenberg electronic works even without complying with the full terms of this agreement. See paragraph 1.C below. There are a lot of things you can do with Project Gutenberg electronic works if you follow the terms of this agreement and help preserve free future access to Project Gutenberg electronic works. See paragraph 1.E below.
-
-1.C. The Project Gutenberg Literary Archive Foundation ("the Foundation" or PGLAF), owns a compilation copyright in the collection of Project Gutenberg electronic works. Nearly all the individual works in the collection are in the public domain in the United States. If an individual work is unprotected by copyright law in the United States and you are located in the United States, we do not claim a right to prevent you from copying, distributing, performing, displaying or creating derivative works based on the work as long as all references to Project Gutenberg are removed. Of course, we hope that you will support the Project Gutenberg mission of promoting free access to electronic works by freely sharing Project Gutenberg works in compliance with the terms of this agreement for keeping the Project Gutenberg name associated with the work. You can easily comply with the terms of this agreement by keeping this work in the same format with its attached full Project Gutenberg License when you share it without charge with others.
-
-1.D. The copyright laws of the place where you are located also govern what you can do with this work. Copyright laws in most countries are in a constant state of change. If you are outside the United States, check the laws of your country in addition to the terms of this agreement before downloading, copying, displaying, performing, distributing or creating derivative works based on this work or any other Project Gutenberg work. The Foundation makes no representations concerning the copyright status of any work in any country other than the United States.
-
-1.E. Unless you have removed all references to Project Gutenberg:
-
-1.E.1. The following sentence, with active links to, or other immediate access to, the full Project Gutenberg License must appear prominently whenever any copy of a Project Gutenberg work (any work on which the phrase "Project Gutenberg" appears, or with which the phrase "Project Gutenberg" is associated) is accessed, displayed, performed, viewed, copied or distributed:
-
-This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg™ License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
-
-1.E.2. If an individual Project Gutenberg electronic work is derived from texts not protected by U.S. copyright law (does not contain a notice indicating that it is posted with permission of the copyright holder), the work can be copied and distributed to anyone in the United States without paying any fees or charges. If you are redistributing or providing access to a work with the phrase "Project Gutenberg" associated with or appearing on the work, you must comply either with the requirements of paragraphs 1.E.1 through 1.E.7 or obtain permission for the use of the work and the Project Gutenberg trademark as set forth in paragraphs 1.E.8 or 1.E.9.
-
-1.E.3. If an individual Project Gutenberg electronic work is posted with the permission of the copyright holder, your use and distribution must comply with both paragraphs 1.E.1 through 1.E.7 and any additional terms imposed by the copyright holder. Additional terms will be linked to the Project Gutenberg License for all works posted with the permission of the copyright holder found at the beginning of this work.
-
----
-
-1.E.4. Do not unlink or detach or remove the full Project Gutenberg License terms from this work, or any files containing a part of this work or any other work associated with Project Gutenberg.
-
-1.E.5. Do not copy, display, perform, distribute or redistribute this electronic work, or any part of this electronic work, without prominently displaying the sentence set forth in paragraph 1.E.1 with active links or immediate access to the full terms of the Project Gutenberg License.
-
-1.E.6. You may convert to and distribute this work in any binary, compressed, marked up, nonproprietary or proprietary form, including any word processing or hypertext form. However, if you provide access to or distribute copies of a Project Gutenberg work in a format other than "Plain Vanilla ASCII" or other format used in the official version posted on the official Project Gutenberg website (www.gutenberg.org), you must, at no additional cost, fee or expense to the user, provide a copy, a means of exporting a copy, or a means of obtaining a copy upon request, of the work in its original "Plain Vanilla ASCII" or other form. Any alternate format must include the full Project Gutenberg License as specified in paragraph 1.E.1.
-
-1.E.7. Do not charge a fee for access to, viewing, displaying, performing, copying or distributing any Project Gutenberg works unless you comply with paragraph 1.E.8 or 1.E.9.
-
-1.E.8. You may charge a reasonable fee for copies of or providing access to or distributing Project Gutenberg electronic works provided that:
-
-- You pay a royalty fee of 20% of the gross profits you derive from the use of Project Gutenberg works calculated using the method you already use to calculate your applicable taxes. The fee is owed to the owner of the Project Gutenberg trademark, but he has agreed to donate royalties under this paragraph to the Project Gutenberg Literary Archive Foundation. Royalty payments must be paid within 60 days following each date on which you prepare (or are legally required to prepare) your periodic tax returns. Royalty payments should be clearly marked as such and sent to the Project Gutenberg Literary Archive Foundation at the address specified in Section 4, "Information about donations to the Project Gutenberg Literary Archive Foundation."
-
-- You provide a full refund of any money paid by a user who notifies you in writing (or by e-mail) within 30 days of receipt that s/he does not agree to the terms of the full Project Gutenberg™ License. You must require such a user to return or destroy all copies of the works possessed in a physical medium and discontinue all use of and all access to other copies of Project Gutenberg™ works.
-
-- You provide, in accordance with paragraph 1.F.3, a full refund of any money paid for a work or a replacement copy, if a defect in the electronic work is discovered and reported to you within 90 days of receipt of the work.
-
-- You comply with all other terms of this agreement for free distribution of Project Gutenberg™ works.
-
-1.E.9. If you wish to charge a fee or distribute a Project Gutenberg™ electronic work or group of works on different terms than are set forth in this agreement, you must obtain permission in writing from the Project Gutenberg Literary Archive Foundation, the manager of the Project Gutenberg™ trademark. Contact the Foundation as set forth in Section 3 below.
-
-1.F.
-
-1.F.1. Project Gutenberg volunteers and employees expend considerable effort to identify, do copyright research on, transcribe and proofread works not protected by U.S. copyright law in creating the Project Gutenberg™ collection. Despite these efforts, Project Gutenberg™ electronic works, and the medium on which they may be stored, may contain "Defects," such as, but not limited to, incomplete, inaccurate or corrupt data, transcription errors, a copyright or other intellectual property infringement, a defective or damaged disk or other medium, a computer virus, or computer codes that damage or cannot be read by your equipment.
-
-1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right of Replacement or Refund" described in paragraph 1.F.3, the Project Gutenberg Literary Archive Foundation, the owner of the Project Gutenberg™ trademark, and any other party distributing a Project Gutenberg™ electronic work under this agreement, disclaim all liability to you for damages, costs and expenses, including legal fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH DAMAGE.
-
-
-
----
-
-1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a defect in this electronic work within 90 days of receiving it, you can receive a refund of the money (if any) you paid for it by sending a written explanation to the person you received the work from. If you received the work on a physical medium, you must return the medium with your written explanation. The person or entity that provided you with the defective work may elect to provide a replacement copy in lieu of a refund. If you received the work electronically, the person or entity providing it to you may choose to give you a second opportunity to receive the work electronically in lieu of a refund. If the second copy is also defective, you may demand a refund in writing without further opportunities to fix the problem.
-
-1.F.4. Except for the limited right of replacement or refund set forth in paragraph 1.F.3, this work is provided to you 'AS-IS', WITH NO OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
-
-1.F.5. Some states do not allow disclaimers of certain implied warranties or the exclusion or limitation of certain types of damages. If any disclaimer or limitation set forth in this agreement violates the law of the state applicable to this agreement, the agreement shall be interpreted to make the maximum disclaimer or limitation permitted by the applicable state law. The invalidity or unenforceability of any provision of this agreement shall not void the remaining provisions.
-
-1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg™ electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg™ electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg work, (b) alteration, modification, or additions or deletions to any Project Gutenberg work, and (c) any Defect you cause.
-
-## Section 2. Information about the Mission of Project Gutenberg
-
-Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life.
-
-Volunteers and financial support to provide volunteers with the assistance they need are critical to reaching Project Gutenberg's goals and ensuring that the Project Gutenberg collection will remain freely available for generations to come. In 2001, the Project Gutenberg Literary Archive Foundation was created to provide a secure and permanent future for Project Gutenberg and future generations. To learn more about the Project Gutenberg Literary Archive Foundation and how your efforts and donations can help, see Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
-
-## Section 3. Information about the Project Gutenberg Literary Archive Foundation
-
-The Project Gutenberg Literary Archive Foundation is a non-profit 501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal Revenue Service. The Foundation's EIN or federal tax identification number is 64-6221541. Contributions to the Project Gutenberg Literary Archive Foundation are tax deductible to the full extent permitted by U.S. federal laws and your state's laws.
-
-The Foundation's business office is located at 41 Watchung Plaza #516, Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up to date contact information can be found at the Foundation's website and official page at www.gutenberg.org/contact
-
-## Section 4. Information about Donations to the Project Gutenberg Literary Archive Foundation
-
-Project Gutenberg™ depends upon and cannot survive without widespread public support and donations to carry out its mission of increasing the number of public domain and licensed works that can be freely distributed in machine-readable form accessible by the widest array of equipment including outdated equipment. Many small donations ($1 to $5,000) are particularly important to maintaining tax exempt status with the IRS.
-
-The Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United States. Compliance requirements are not uniform and it takes a considerable effort, much paperwork and many fees to meet and keep up with these requirements. We do not solicit donations in locations where we have not received written confirmation of compliance. To SEND DONATIONS or determine the status of compliance for any particular state visit www.gutenberg.org/donate.
-
-
-
----
-
-While we cannot and do not solicit contributions from states where we have not met the solicitation requirements, we know of no prohibition against accepting unsolicited donations from donors in such states who approach us with offers to donate.
-
-International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States. U.S. laws alone swamp our small staff.
-
-Please check the Project Gutenberg web pages for current donation methods and addresses. Donations are accepted in a number of other ways including checks, online payments and credit card donations. To donate, please visit: www.gutenberg.org/donate.
-
-## Section 5. General Information About Project Gutenberg electronic works
-
-Professor Michael S. Hart was the originator of the Project Gutenberg concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg eBooks with only a loose network of volunteer support.
-
-Project Gutenberg eBooks are often created from several printed editions, all of which are confirmed as not protected by copyright in the U.S. unless a copyright notice is included. Thus, we do not necessarily keep eBooks in compliance with any particular paper edition.
-
-Most people start at our website which has the main PG search facility: www.gutenberg.org.
-
-This website includes information about Project Gutenberg, including how to make donations to the Project Gutenberg Literary Archive Foundation, how to help produce our new eBooks, and how to subscribe to our email newsletter to hear about new eBooks.
-
-
-
----
-
-![img-77.jpeg](images/img-77.jpeg)
-hack
-
----
-
-![img-78.jpeg](images/img-78.jpeg)
-232
-
----
-
-![img-79.jpeg](images/img-79.jpeg)
-
-
----
-
-back
-
----
-
-![img-80.jpeg](images/img-80.jpeg)
-back
-
----
-
-![img-81.jpeg](images/img-81.jpeg)
-back
-
----
-
-![img-82.jpeg](images/img-82.jpeg)
-back
-
----
-
-TEMPLE IN ANTIS
-PROSTYLE
-AMPHIPOSTYLE
-
-TEMPLE AT PRIENE PERIPTERAL
-PSEVDODIPTERAL
-
-DIPTERAL
-DIPTERAL
-
-THE SMINTHEVM
-
-TEMPLE IN ANTIS
-PROSTYLE
-AMPHIPOSTYLE
-
-TEMPLE AT PRIENE PERIPTERAL
-PSEVDODIPTERAL
-
----
-
-![img-83.jpeg](images/img-83.jpeg)
-THE HYPAETHRAL TEMPLE
-
-![img-84.jpeg](images/img-84.jpeg)
-THE PARTHENON
-
-![img-85.jpeg](images/img-85.jpeg)
-TEMPLE OF
-APOLLO DIDYMAEVS NEAR MILETVS
-SCALE OF FEET
-
----
-
-
-
----
-
-![img-86.jpeg](images/img-86.jpeg)
-PYCNOSTYLE
-
-![img-87.jpeg](images/img-87.jpeg)
-SYSTYLE
-
-![img-88.jpeg](images/img-88.jpeg)
-THE SMINTHEVIA
-APPROXIMATELY A PYCNOSTYLE ARRANGEMENT
-
-![img-89.jpeg](images/img-89.jpeg)
-NIKE AFTEROS TEMPLE-ATHENS
-A SYSTYLE ARRANGEMENT
-
-![img-90.jpeg](images/img-90.jpeg)
-DIASTYLE
-
-![img-91.jpeg](images/img-91.jpeg)
-ARAEOSTYLE
-
-back
-
----
-
-![img-92.jpeg](images/img-92.jpeg)
-
-![img-93.jpeg](images/img-93.jpeg)
-
-![img-94.jpeg](images/img-94.jpeg)
-
-THE EVSTYLE TEMPLE
-ACCORDING TO VITRVVIVS
-
-![img-95.jpeg](images/img-95.jpeg)
-
-THE TEMPLE AT TEOS
-IN ASIA MINOR
-
-VNIFORM LOWER DIAMETER
-back
-
-
-
----
-
-![img-96.jpeg](images/img-96.jpeg)
-back
-
----
-
-![img-97.jpeg](images/img-97.jpeg)
-
----
-
-
-
----
-
-![img-98.jpeg](images/img-98.jpeg)
-
-![img-99.jpeg](images/img-99.jpeg)
-back
-
----
-
-![img-100.jpeg](images/img-100.jpeg)
-
-![img-101.jpeg](images/img-101.jpeg)
-back
-
----
-
-![img-102.jpeg](images/img-102.jpeg)
-bock
-
----
-
-![img-103.jpeg](images/img-103.jpeg)
-
----
-
-back
-
----
-
-![img-104.jpeg](images/img-104.jpeg)
-back
-
----
-
-![img-105.jpeg](images/img-105.jpeg)
-back
-
----
-
-![img-106.jpeg](images/img-106.jpeg)
-1
-AFTER VITRVVIVS
-
-![img-107.jpeg](images/img-107.jpeg)
-2
-FROM THE TEMPLE OF
-VESTA AT TIVOLI
-
-![img-108.jpeg](images/img-108.jpeg)
-3
-FROM THE TEMPLE OF
-MINERVA AT ASSISI
-
-![img-109.jpeg](images/img-109.jpeg)
-4
-FROM THE TEMPLE OF
-CASTOR &amp; POLLVX, CORI
-
-![img-110.jpeg](images/img-110.jpeg)
-5
-FROM THE TEMPLE OF
-VESTA AT ROME.
-
-![img-111.jpeg](images/img-111.jpeg)
-6
-THE CORINTHIAN CAPITAL
-FROM CORI
-
----
-
-back
-
----
-
-![img-112.jpeg](images/img-112.jpeg)
-![img-113.jpeg](images/img-113.jpeg)
-![img-114.jpeg](images/img-114.jpeg)
-
-back
-
-
-
----
-
-![img-115.jpeg](images/img-115.jpeg)
-ACCORDING TO VITRVVIVS
-
-![img-116.jpeg](images/img-116.jpeg)
-CORINTHIAN TEMPLE AT LABRANDA
-
-![img-117.jpeg](images/img-117.jpeg)
-ACCORDING TO VITRVVIVS
-
-![img-118.jpeg](images/img-118.jpeg)
-TEMPLE OF HERVLES AT CORI
-
-![img-119.jpeg](images/img-119.jpeg)
-TEMPLE OF THEMIS AT RHAMNVS
-
----
-
-back
-
----
-
-![img-120.jpeg](images/img-120.jpeg)
-
----
-
-
-
----
-
-![img-121.jpeg](images/img-121.jpeg)
-
----
-
-back
-
----
-
-![img-122.jpeg](images/img-122.jpeg)
-back
-
----
-
-![img-123.jpeg](images/img-123.jpeg)
-back
-
----
-
-![img-124.jpeg](images/img-124.jpeg)
-back
-
----
-
-![img-125.jpeg](images/img-125.jpeg)
-265
-
----
-
-
-
----
-
-![img-126.jpeg](images/img-126.jpeg)
-
-
----
-
-
-
----
-
-![img-127.jpeg](images/img-127.jpeg)
-hock
-
----
-
-![img-128.jpeg](images/img-128.jpeg)
-back
-
----
-
-![img-129.jpeg](images/img-129.jpeg)
-271
-
----
-
-![img-130.jpeg](images/img-130.jpeg)
-back
-
----
-
-![img-131.jpeg](images/img-131.jpeg)
-
-
----
-
-![img-132.jpeg](images/img-132.jpeg)
-
-
-
----
-
-
-
----
-
-![img-133.jpeg](images/img-133.jpeg)
-hock
-
----
-
-![img-134.jpeg](images/img-134.jpeg)
-back
-
----
-
-![img-135.jpeg](images/img-135.jpeg)
-back
-
----
-
-![img-136.jpeg](images/img-136.jpeg)
-
-![img-137.jpeg](images/img-137.jpeg)
-
-1. THE PALAESTRA AT OLYMPIA
-II. THE GREEK PALAESTRA ACCORDING TO VITRVVIVS
-
-![img-138.jpeg](images/img-138.jpeg)
-
----
-
-![img-139.jpeg](images/img-139.jpeg)
-back
-
----
-
-![img-140.jpeg](images/img-140.jpeg)
-
----
-
-
-
----
-
-![img-141.jpeg](images/img-141.jpeg)
-back
-
----
-
-![img-142.jpeg](images/img-142.jpeg)
-
----
-
-
-
----
-
-![img-143.jpeg](images/img-143.jpeg)
-back
-
----
-
-![img-144.jpeg](images/img-144.jpeg)
-back
-
----
-
-![img-145.jpeg](images/img-145.jpeg)
-288
-
----
-
-
-
----
-
-![img-146.jpeg](images/img-146.jpeg)
-290
-
----
-
-back
-
----
-
-![img-147.jpeg](images/img-147.jpeg)
-hack
-
----
-
-![img-148.jpeg](images/img-148.jpeg)
-
-
----
-
-![img-149.jpeg](images/img-149.jpeg)
-back
-
----
-
-![img-150.jpeg](images/img-150.jpeg)
-back
-
----
-
-![img-151.jpeg](images/img-151.jpeg)
-back
-
----
-
-![img-152.jpeg](images/img-152.jpeg)
-hack
-
----
-
-![img-153.jpeg](images/img-153.jpeg)
-back
-
----
-
-![img-154.jpeg](images/img-154.jpeg)
-back

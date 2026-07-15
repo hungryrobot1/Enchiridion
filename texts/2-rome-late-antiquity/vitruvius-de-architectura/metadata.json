@@ -6,8 +6,8 @@
   "year_translated": 1914,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg20239-images-3.pdf",
+  "format": "markdown",
+  "filename": "vitruvius-de-architectura.md",
   "description": "Comprehensive treatise on architecture, engineering, and urban planning",
   "topics": [
     "engineering",
@@ -15,5 +15,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

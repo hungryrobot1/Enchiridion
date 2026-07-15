@@ -6,8 +6,8 @@
   "year_translated": 1885,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg22456-images-3.pdf",
+  "format": "markdown",
+  "filename": "virgil-aeneid.md",
   "description": "Epic poem tracing Aeneas's journey from the fall of Troy to the founding of Rome, weaving together myth, duty, and destiny",
   "topics": [
     "literature",
@@ -18,5 +18,5 @@
     "homer-iliad",
     "homer-odyssey"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

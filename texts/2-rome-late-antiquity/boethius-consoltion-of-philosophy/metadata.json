@@ -1,13 +1,13 @@
 {
   "title": "The Consolation of Philosophy",
   "author": "Boethius",
-  "translator": "W.V. Cooper",
+  "translator": "H.R. James",
   "year_written": "~524",
-  "year_translated": 1902,
+  "year_translated": 1897,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg14328-images-3.pdf",
+  "format": "markdown",
+  "filename": "boethius-consoltion-of-philosophy.md",
   "description": "Dialogue with Lady Philosophy on fortune, happiness, and the problem of evil",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

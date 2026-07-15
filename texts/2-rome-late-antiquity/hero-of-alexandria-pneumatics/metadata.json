@@ -6,8 +6,8 @@
   "year_translated": 1851,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg77400-images-3.pdf",
+  "format": "markdown",
+  "filename": "hero-of-alexandria-pneumatics.md",
   "description": "Descriptions of devices powered by steam, water, and air pressure",
   "topics": [
     "engineering",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

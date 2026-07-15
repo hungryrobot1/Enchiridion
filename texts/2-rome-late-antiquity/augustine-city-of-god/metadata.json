@@ -6,8 +6,8 @@
   "year_translated": 1871,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg45304-images-3.pdf",
+  "format": "markdown",
+  "filename": "augustine-city-of-god.md",
   "description": "Defense of Christianity against pagan Rome and theology of history",
   "topics": [
     "theology",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

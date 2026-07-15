@@ -6,8 +6,8 @@
   "year_translated": 1916,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg43383-images-3.pdf",
+  "format": "markdown",
+  "filename": "galen-natural-faculties.md",
   "description": "Systematic account of physiology and the body's natural powers",
   "topics": [
     "medicine",
@@ -15,5 +15,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

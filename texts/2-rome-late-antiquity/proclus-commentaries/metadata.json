@@ -6,8 +6,8 @@
   "year_translated": 1792,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "pg74253-images-3.pdf",
+  "format": "markdown",
+  "filename": "proclus-commentaries.md",
   "description": "Neoplatonic commentary bridging geometry and philosophy, preserving key insights on the foundations of mathematics",
   "topics": [
     "philosophy",
@@ -19,5 +19,5 @@
   "prerequisites": [
     "euclid-elements"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

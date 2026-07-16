@@ -6,9 +6,9 @@
   "year_translated": 1611,
   "language": "English",
   "original_language": "Hebrew, Aramaic, and Greek",
-  "format": "pdf",
-  "filename": "pg10-images-3.pdf",
-  "description": "The foundational text of Western theology and literature, comprising the Old and New Testaments",
+  "format": "markdown",
+  "filename": "holy-bible-kjv.md",
+  "description": "The foundational text of Western theology and literature, comprising the Old and New Testaments with the Apocrypha",
   "topics": [
     "theology",
     "literature",
@@ -18,5 +18,5 @@
   "era": "rome-late-antiquity",
   "prerequisites": [],
   "supplements": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

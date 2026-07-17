@@ -1,13 +1,13 @@
 {
   "title": "Natural History",
   "author": "Pliny the Elder",
-  "translator": "John Bostock",
+  "translator": "John Bostock and H. T. Riley",
   "year_written": "~77",
   "year_translated": 1855,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg57493-images-3.pdf",
+  "format": "markdown",
+  "filename": "pliny-natural-history.md",
   "description": "Encyclopedic survey of the natural world from cosmology to mineralogy",
   "topics": [
     "natural-philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

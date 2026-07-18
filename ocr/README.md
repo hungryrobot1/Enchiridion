@@ -25,14 +25,42 @@ echo "MISTRAL_API_KEY=..." > .env
 2. **Split if needed.** Most PDFs include front/back matter, multi-volume
    bundles, or apparatus we don't want. Use `split.py`. Multi-treatise
    anthologies (e.g. Heath's Archimedes) get split into per-treatise PDFs.
-3. **OCR.** Run `ocr.py` against the (split) PDF. Writes
+3. **Dup-scan the scan.** Library scans repeat leaves (re-shot pages, whole
+   re-shot gatherings). Hash-compare every page's normalized text-layer
+   midsection for exact duplicates AND fuzzy-compare near offsets
+   (difflib ratio > 0.85 at offsets 1–6 and at the gathering width, ~16):
+   Taylor's Proclus Vol II hid a 16-page re-shot signature; the Elements of
+   Theology scan hid four re-shot leaf clusters, some adjacent. Undetected
+   duplicates corrupt proposition/chapter sequences downstream and are far
+   cheaper to drop before OCR than to unpick after.
+4. **Crop footnotes BEFORE OCR** (`crop-footnotes.py`) when the edition has
+   them. Mistral transcribes footnotes as body text, weaving them into the
+   reading stream — and page-boundary rejoins then fuse footnote prose into
+   paragraphs with no visible seam. If the scan's text layer separates
+   footnote type cleanly from every body size (D'Ooge's Nicomachus: 19pt
+   notes vs 27pt body), `--max-size` removes the problem at the source.
+   When fonts don't separate (Taylor's EoT: 8pt demonstrations vs 6–7pt
+   notes in a shredded layer), crop detection fails — fall back to
+   post-OCR passes: strip marker-led (`*`/`†`/`‡`) paragraphs, then hunt
+   the ONLY silent weavers — footnotes whose marker paragraph ends
+   mid-sentence at a page boundary (enumerable from the raw per-page
+   streams) — and, for rigidly structured texts, audit paragraphs that
+   break the structural pattern (a quote or a "Dr./Mr. observes" in a
+   propositional treatise is the editor's voice, not the author's).
+   Word-anchored cropping does NOT work: footnotes quote the very text
+   they annotate, so their words match body lines.
+5. **OCR.** Run `ocr.py` against the (split) PDF. Writes
    `<text-id>.md` and an `images/` subfolder.
-4. **Post-process** (see below).
-5. **Author `toc.json`.** Hand-authored, per text. Drives heading
+6. **Post-process** (see below). Finish with the debris scan: paragraphs
+   under ~20 chars, and paragraphs opening with neither a heading marker
+   nor a capital — the two patterns that surface catchword orphans,
+   signature marks, dangling heading fragments, and unmerged page-boundary
+   continuations.
+7. **Author `toc.json`.** Hand-authored, per text. Drives heading
    reconciliation and (eventually) an in-reader ToC sidebar.
-6. **Spot-check.** Open in the reader, scroll, sample sections, eyeball
+8. **Spot-check.** Open in the reader, scroll, sample sections, eyeball
    diagrams.
-7. **Update `metadata.json`.** Set `"format": "markdown"`.
+9. **Update `metadata.json`.** Set `"format": "markdown"`.
 
 ## Post-processing scripts
 
@@ -272,6 +300,29 @@ node ocr/check-math.js texts/.../foo.md 2>&1 | \
 ```
 
 Iterate: fix wholesale categories first, re-run, fix the next category, until only individual edge cases remain. The remaining handful get manual attention.
+
+### Inline vs display: contextual, not uniform
+
+Delimiter normalization is NOT "pick one kind everywhere." The sequence is:
+clean first (`check-raw-latex.js` catches math that escaped its delimiters,
+`check-math.js` catches math that fails to render), lint, and only then
+normalize — and normalization is contextual:
+
+- Math **sharing a line with logical connectors** (`and`, `but`, `or`,
+  `whence`, `let`, `therefore`, `say`) is part of the sentence's argument
+  flow → inline `$...$`. `collapse-inline-display.py` handles the common
+  case (short single-line `$$X$$` embedded in prose).
+- Math that **stands as its own step** — the equation a derivation turns
+  on, multi-part brace groups (`\begin{array}` double-equations), anything
+  the typesetter displayed — stays display `$$...$$`.
+- Mistral drifts between conventions across pages of one document (real
+  LaTeX on one page, bare Unicode `x²` on the next — seen on Diophantus).
+  Unify to delimited LaTeX *before* the contextual pass, or the connectors
+  heuristic has nothing to grip.
+
+The renderer (`md-reader.js`) does some of this work at display time;
+source-side normalization and reader behavior should be tuned together,
+not independently.
 
 ## Diagnostic triad
 

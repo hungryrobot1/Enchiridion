@@ -1,6 +1,6 @@
 # Enchiridion Inventory
 
-_Generated 2026-07-06 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
+_Generated 2026-07-17 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
 
 ## Texts
 
@@ -66,6 +66,7 @@ _Generated 2026-07-06 by `utilities/inventory.py`. Each entry is a directory nam
 - nicomachus-arithmetic
 - pliny-natural-history
 - proclus-commentaries
+- proclus-elements-of-theology
 - seneca-natural-questions
 - virgil-aeneid
 - vitruvius-de-architectura

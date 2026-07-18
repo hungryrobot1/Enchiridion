@@ -1,0 +1,21 @@
+{
+  "title": "The Elements of Theology",
+  "author": "Proclus",
+  "translator": "Thomas Taylor",
+  "year_written": "~450",
+  "year_translated": 1792,
+  "language": "English",
+  "original_language": "Ancient Greek",
+  "format": "markdown",
+  "filename": "proclus-elements-of-theology.md",
+  "description": "Neoplatonic metaphysics composed in the geometric manner: 211 propositions, each with demonstration, deriving all reality from the One",
+  "topics": [
+    "philosophy",
+    "theology",
+    "metaphysics"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "supplements": [],
+  "ocr_status": "complete"
+}

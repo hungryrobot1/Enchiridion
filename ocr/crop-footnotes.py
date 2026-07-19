@@ -7,12 +7,16 @@ into body paragraphs with no seam. Removing the footnote region BEFORE OCR
 makes contamination zero by construction.
 
 Detection is geometric, via the scan's own text layer (IA OCR): footnotes are
-set in smaller type than any body element. Per page, the footnote block is
-the bottom-anchored contiguous run of lines at or below --max-size, spanning
-at least --min-lines lines and --min-chars characters (guards against a stray
-small glyph cropping a clean page). The crop line sits just above the block's
-topmost line; everything below — footnotes, catchwords, signature marks, page
-numbers — vanishes.
+set in smaller type than any body element. A line's size is the
+length-weighted MEDIAN of its span sizes — IA layers routinely inflate a few
+glyphs (especially Greek) far above the line's true size, so a max-span rule
+misclassifies footnote lines as body and vice versa. Per page, the crop line
+sits just below the LAST body-classed line; nothing body-classed may fall
+below it (strict — a density tolerance here silently amputates body text;
+that failure cost 10 pages on Nicomachus). --min-lines / --min-chars of
+footnote-class material must remain below the line or the page is left
+uncropped. Everything below the crop — footnotes, catchwords, signature
+marks, page numbers — vanishes.
 
 Pages listed in --drop are omitted entirely (re-shot duplicate leaves).
 
@@ -32,30 +36,42 @@ import pymupdf
 
 
 def page_lines(page):
+    import statistics
     out = []
     for b in page.get_text("dict")["blocks"]:
         if b["type"] != 0:
             continue
         for l in b["lines"]:
             t = "".join(s["text"] for s in l["spans"]).strip()
-            sizes = [s["size"] for s in l["spans"] if s["text"].strip()]
-            if t and sizes:
-                out.append((l["bbox"][1], max(sizes), len(t)))
+            pairs = [(s["size"], len(s["text"].strip()))
+                     for s in l["spans"] if s["text"].strip()]
+            if t and pairs:
+                weighted = []
+                for size, n in pairs:
+                    weighted.extend([size] * n)
+                out.append((l["bbox"][1], statistics.median(weighted), len(t)))
     out.sort()
     return out
 
 
 def crop_y(page, max_size, min_lines, min_chars):
-    """Top y of the bottom-anchored small-type run, or None for no crop."""
+    """Top y of the footnote region, or None for no crop.
+
+    Strict rule: crop just below the last line whose median size is
+    body-class (> max_size) and which is long enough (>= 8 chars) to not
+    be stray debris. Only crop if enough footnote-class material actually
+    falls below that point. Never use a density tolerance here — letting
+    a fraction of body lines sit below the crop line amputates them."""
     lines = page_lines(page)
-    run = []
-    for y, size, nchars in reversed(lines):
-        if size <= max_size:
-            run.append((y, nchars))
-        elif run:
-            break               # run ended above a larger-type line
-    if len(run) >= min_lines and sum(n for _, n in run) >= min_chars:
-        return min(y for y, _ in run) - 4
+    body_ys = [y for y, med, n in lines if med > max_size and n >= 8]
+    if not body_ys:
+        return None
+    last_body = max(body_ys)
+    below = [(y, med, n) for y, med, n in lines if y > last_body + 8]
+    small = [(y, med, n) for y, med, n in below if med <= max_size]
+    if (len(small) >= min_lines
+            and sum(n for _, _, n in small) >= min_chars):
+        return min(y for y, _, _ in below) - 4
     return None
 
 

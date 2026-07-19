@@ -6,8 +6,8 @@
   "year_translated": 1926,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "nicomachus-arithmetic-balboa-2020-12-28-b.pdf",
+  "format": "markdown",
+  "filename": "nicomachus-arithmetic.md",
   "description": "Pythagorean treatment of number theory and the properties of integers",
   "topics": [
     "mathematics",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "euclid-elements"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

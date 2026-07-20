@@ -1,13 +1,13 @@
 {
-  "title": "Diophantus of Alexandria: A Study in the History of Greek Algebra",
+  "title": "Arithmetica",
   "author": "Diophantus",
   "translator": "Thomas Heath",
   "year_written": "~250",
-  "year_translated": 1885,
+  "year_translated": 1910,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "diophantusofalex00heatiala.pdf",
+  "format": "markdown",
+  "filename": "diophantus-arithmetica.md",
   "description": "Pioneering work on algebraic equations and number theory",
   "topics": [
     "mathematics",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "euclid-elements"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

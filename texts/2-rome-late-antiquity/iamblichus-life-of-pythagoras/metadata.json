@@ -6,9 +6,9 @@
   "year_translated": 1818,
   "language": "English",
   "original_language": "Greek",
-  "format": "pdf",
-  "filename": "Taylor 1818 - Iamblichus' Life of Pythagoras.pdf",
-  "description": "Biography of Pythagoras and account of the Pythagorean philosophical and mathematical tradition",
+  "format": "markdown",
+  "filename": "iamblichus-life-of-pythagoras.md",
+  "description": "Biography of Pythagoras and the Pythagorean tradition, with appended ethical fragments and sentences of the Pythagoreans",
   "topics": [
     "philosophy",
     "mathematics",
@@ -16,5 +16,5 @@
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

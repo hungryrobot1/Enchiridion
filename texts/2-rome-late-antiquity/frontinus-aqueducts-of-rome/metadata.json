@@ -1,19 +1,19 @@
 {
   "title": "The Aqueducts of Rome",
   "author": "Frontinus",
-  "translator": "Clemens Herschel",
+  "translator": "Charles E. Bennett",
   "year_written": "~97",
-  "year_translated": 1899,
+  "year_translated": 1925,
   "language": "English",
   "original_language": "Latin",
-  "format": "html",
-  "filename": "book_1.htm",
-  "description": "Official report on Rome's water supply system and hydraulic engineering",
+  "format": "markdown",
+  "filename": "frontinus-aqueducts-of-rome.md",
+  "description": "Official report on Rome's water supply system and hydraulic engineering, in two books of 130 numbered sections (Bennett's 1925 Loeb translation)",
   "topics": [
     "engineering",
     "architecture"
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

@@ -1,19 +1,19 @@
 {
-  "title": "Physical Science in the Time of Nero: Being a Translation of the Quaestiones Naturales of Seneca",
+  "title": "Natural Questions",
   "author": "Seneca",
   "translator": "John Clarke",
   "year_written": "~65",
   "year_translated": 1910,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "physicalsciencei00seneiala.pdf",
-  "description": "Investigation of natural phenomena including meteorology, astronomy, and geology",
+  "format": "markdown",
+  "filename": "seneca-natural-questions.md",
+  "description": "Investigation of natural phenomena including meteorology, astronomy, and geology, in seven books addressed to Lucilius (Clarke's 1910 translation, 'Physical Science in the Time of Nero')",
   "topics": [
     "natural-philosophy",
     "philosophy"
   ],
   "era": "rome-late-antiquity",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "complete"
 }

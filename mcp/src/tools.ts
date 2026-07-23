@@ -19,8 +19,11 @@ import { z } from 'zod';
 
 import { INSTRUCTIONS } from './instructions.js';
 import {
+  RAW_BASE,
   Work,
+  contentDir,
   deepLink,
+  fetchBinary,
   fetchContent,
   getSyllabus,
   getWork,
@@ -30,16 +33,28 @@ import {
   SectionNode,
   buildToc,
   extractSection,
-  flattenToc,
+  findNode,
   sectionAtLine,
   sectionSpans,
 } from './toc.js';
 
-/** Above this size, `read` without a section returns the ToC instead. */
-const WHOLE_READ_WORD_LIMIT = 20000;
-/** Structure trees larger than this are trimmed to depth 2 by default. */
-const STRUCTURE_NODE_LIMIT = 500;
+/**
+ * One word budget governs both text and image volume: a read whose served
+ * text exceeds this returns the section's (range-collapsed) sub-structure
+ * instead of the body — no text flood, and since large sections are the
+ * image-heavy ones, no figure flood either. A single proposition is far
+ * under this, so it comes back whole with its diagram inline.
+ */
+const READ_WORD_LIMIT = 6000;
+/** Runs of leaf siblings longer than this collapse to a single range line. */
+const COLLAPSE_THRESHOLD = 6;
+/** At most this many figures are inlined per read; the rest stay as URLs. */
+const MAX_INLINE_IMAGES = 6;
+/** Skip inlining a figure larger than this (URL only). */
+const MAX_IMAGE_BYTES = 4 * 1024 * 1024;
 const SEARCH_MATCH_LIMIT = 40;
+
+type Lang = 'en' | 'grc' | 'both';
 
 /** Create a fully-registered Enchiridion MCP server (transport-agnostic). */
 export function buildServer(): McpServer {
@@ -54,6 +69,81 @@ export function buildServer(): McpServer {
 function registerTools(server: McpServer): void {
 
 const text = (s: string) => ({ content: [{ type: 'text' as const, text: s }] });
+
+function countWords(s: string): number {
+  const m = s.match(/\S+/g);
+  return m ? m.length : 0;
+}
+
+/**
+ * Bilingual texts (only Euclid today) wrap each language in
+ * `<div class="lang-xx">`. Default to English — the Greek is apparatus a
+ * reader outside the language module hasn't earned, and shouldn't be in
+ * front of them (or filling the model's context) by default.
+ */
+function filterLang(md: string, lang: Lang): string {
+  if (lang === 'both' || !md.includes('lang-grc')) return md;
+  const drop = lang === 'en' ? 'grc' : 'en';
+  const stripped = md.replace(
+    new RegExp(`<div class="lang-${drop}">[\\s\\S]*?<\\/div>`, 'g'),
+    ''
+  );
+  // unwrap the surviving language's divs and tidy blank runs
+  return stripped
+    .replace(/<div class="lang-(?:en|grc)">/g, '')
+    .replace(/<\/div>/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+interface FoundImage {
+  alt: string;
+  rel: string;
+  url: string;
+}
+
+/**
+ * Rewrite relative figure references to absolute raw URLs (so the figure is
+ * always at least resolvable) and collect them for inlining.
+ */
+function processImages(md: string, dir: string): { md: string; images: FoundImage[] } {
+  const images: FoundImage[] = [];
+  const out = md.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (whole, alt, ref) => {
+    if (/^https?:\/\//.test(ref)) return whole;
+    const url = RAW_BASE + dir + ref.replace(/^\.\//, '');
+    images.push({ alt, rel: ref, url });
+    return `![${alt}](${url})`;
+  });
+  return { md: out, images };
+}
+
+type ImageBlock = { type: 'image'; data: string; mimeType: string };
+
+/** Fetch up to the cap of figures as MCP image content blocks. */
+async function imageBlocks(
+  images: FoundImage[]
+): Promise<{ blocks: ImageBlock[]; omitted: number }> {
+  const blocks: ImageBlock[] = [];
+  let omitted = 0;
+  for (const img of images) {
+    if (blocks.length >= MAX_INLINE_IMAGES) {
+      omitted++;
+      continue;
+    }
+    try {
+      const path = img.url.slice(RAW_BASE.length);
+      const { base64, mimeType, bytes } = await fetchBinary(path);
+      if (bytes > MAX_IMAGE_BYTES) {
+        omitted++;
+        continue;
+      }
+      blocks.push({ type: 'image', data: base64, mimeType });
+    } catch {
+      omitted++;
+    }
+  }
+  return { blocks, omitted };
+}
 
 // ---------------------------------------------------------------------------
 
@@ -116,12 +206,47 @@ server.registerTool(
 
 // ---------------------------------------------------------------------------
 
+const lastSeg = (p: string) => p.split('/').pop()!;
+/** Heading with a trailing number/roman stripped: "Proposition 47" -> "Proposition". */
+const headingStem = (h: string) => h.replace(/\s+[\dIVXLC]+[.)]?$/i, '').trim();
+
+/**
+ * Render a section tree, collapsing long runs of like-named leaf siblings
+ * into one range line — `book-i/proposition-1 … proposition-48  (48 sections,
+ * 12,345w)` — so wide-shallow works (most of the math corpus) don't flood the
+ * response. Runs are grouped by heading stem, so one-off sections (Definitions,
+ * Postulates) stay visible while the uniform run of propositions folds.
+ * Non-leaf children stay expanded. `depth` caps how deep it recurses.
+ */
 function renderTree(nodes: SectionNode[], depth?: number): string[] {
   const lines: string[] = [];
   const walk = (list: SectionNode[], d: number) => {
-    for (const n of list) {
-      lines.push(`${'  '.repeat(d - 1)}${n.path}  (${n.words}w)  ${n.heading}`);
-      if (depth === undefined || d < depth) walk(n.children, d + 1);
+    const pad = '  '.repeat(d - 1);
+    let i = 0;
+    while (i < list.length) {
+      // gather a run of consecutive leaves sharing a heading stem
+      const stem = headingStem(list[i].heading);
+      let j = i;
+      while (
+        j < list.length &&
+        list[j].children.length === 0 &&
+        headingStem(list[j].heading) === stem
+      )
+        j++;
+      const runLen = j - i;
+      if (runLen > COLLAPSE_THRESHOLD) {
+        const words = list.slice(i, j).reduce((s, n) => s + n.words, 0);
+        lines.push(
+          `${pad}${list[i].path} … ${lastSeg(list[j - 1].path)}  ` +
+            `(${runLen} sections, ${words.toLocaleString()}w)`
+        );
+        i = j;
+        continue;
+      }
+      const n = list[i];
+      lines.push(`${pad}${n.path}  (${n.words.toLocaleString()}w)  ${n.heading}`);
+      if ((depth === undefined || d < depth) && n.children.length) walk(n.children, d + 1);
+      i++;
     }
   };
   walk(nodes, 1);
@@ -133,7 +258,7 @@ async function moduleStructure(work: Work, depth?: number): Promise<string> {
   for (const ch of work.chapters ?? []) {
     const md = await fetchContent(`${work.dir}/${ch.filename}`);
     const toc = buildToc(md);
-    out.push(`${ch.stem}  (${toc.words}w)  ${ch.title}`);
+    out.push(`${ch.stem}  (${toc.words.toLocaleString()}w)  ${ch.title}`);
     if (ch.alongside.length) out.push(`    read alongside: ${ch.alongside.join(', ')}`);
     const prefixed = toc.sections.map((n) => prefixPaths(n, ch.stem));
     out.push(...renderTree(prefixed, depth).map((l) => '  ' + l));
@@ -154,16 +279,18 @@ server.registerTool(
   {
     title: "A work's metadata and table of contents",
     description:
-      'Metadata plus the full section tree of a work, with each section\'s ' +
-      'stable path and approximate word count. Use the paths with read and in ' +
-      'deep links. For large works the tree is trimmed to depth 2 by default; ' +
-      'pass depth to go deeper.',
+      "Metadata plus a work's section tree, each section with its stable path " +
+      'and word count. Long runs of like sections collapse to a range line ' +
+      '(e.g. "book-i/proposition-1 … proposition-48 (48 sections)"); pass a ' +
+      'section to root the tree there and expand just that part, or depth to ' +
+      'cap recursion. Use the paths with read and in deep links.',
     inputSchema: {
       id: z.string(),
+      section: z.string().optional(),
       depth: z.number().int().min(1).optional(),
     },
   },
-  async ({ id, depth }) => {
+  async ({ id, section, depth }) => {
     const work = await getWork(id);
     if (!work) return text(`No certified work with id "${id}". Use list_works.`);
 
@@ -183,39 +310,69 @@ server.registerTool(
 
     const md = await fetchContent(work.path!);
     const toc = buildToc(md);
-    let effDepth = depth;
-    let note = '';
-    if (effDepth === undefined && flattenToc(toc.sections).length > STRUCTURE_NODE_LIMIT) {
-      effDepth = 2;
-      note = `\n(large work — tree trimmed to depth 2; pass depth for more)`;
+    let nodes = toc.sections;
+    if (section) {
+      const node = findNode(toc.sections, section);
+      if (!node) return text(`Section "${section}" not found in ${id}. Omit it for the top level.`);
+      nodes = node.children.length ? node.children : [node];
     }
-    const tree = renderTree(toc.sections, effDepth);
+    const tree = renderTree(nodes, depth);
     const body = tree.length
       ? tree.join('\n')
-      : `(no sections — a single continuous text of ${toc.words} words; read it whole)`;
-    return text(head.join('\n') + `${toc.words} words total\n\n` + body + note);
+      : `(no sections — a single continuous text of ${toc.words.toLocaleString()} words; read it whole)`;
+    return text(head.join('\n') + `${toc.words.toLocaleString()} words total\n\n` + body);
   }
 );
 
 // ---------------------------------------------------------------------------
 
-async function readModule(work: Work, section?: string): Promise<string> {
+/**
+ * Produce the final `read` result for a span of markdown: filter language,
+ * enforce the word budget (degrade to sub-structure if too large), rewrite
+ * figure references to absolute URLs, and inline the figures as image blocks.
+ */
+async function finalizeRead(
+  work: Work,
+  bodyMd: string,
+  children: SectionNode[],
+  section: string | undefined,
+  label: string,
+  lang: Lang,
+  childPrefix = ''
+) {
+  const filtered = filterLang(bodyMd, lang);
+  const words = countWords(filtered);
+  if (words > READ_WORD_LIMIT && children.length) {
+    const nodes = childPrefix ? children.map((c) => prefixPaths(c, childPrefix)) : children;
+    return text(
+      `${label} is ${words.toLocaleString()} words — too much to read at once. ` +
+        `Read one of its sections:\n\n${renderTree(nodes).join('\n')}`
+    );
+  }
+  const { md: withUrls, images } = processImages(filtered, contentDir(work));
+  const { blocks, omitted } = await imageBlocks(images);
+  let body = `[${deepLink(work, section)}]\n\n${withUrls}`;
+  if (omitted) body += `\n\n(${omitted} further figure(s) not inlined — their URLs are above.)`;
+  return { content: [{ type: 'text' as const, text: body }, ...blocks] };
+}
+
+async function readModule(work: Work, section: string | undefined, lang: Lang) {
   if (!section) {
-    const chapters = (work.chapters ?? [])
-      .map((c) => `  ${c.stem} — ${c.title}`)
-      .join('\n');
-    return `${work.title} is a module read chapter by chapter. Pass one of:\n${chapters}`;
+    const chapters = (work.chapters ?? []).map((c) => `  ${c.stem} — ${c.title}`).join('\n');
+    return text(`${work.title} is a module read chapter by chapter. Pass one of:\n${chapters}`);
   }
   const [stem, ...rest] = section.split('/').filter(Boolean);
   const ch = (work.chapters ?? []).find((c) => c.stem === stem);
-  if (!ch) return `No chapter "${stem}" in ${work.id}.`;
+  if (!ch) return text(`No chapter "${stem}" in ${work.id}. Use get_structure.`);
   const md = await fetchContent(`${work.dir}/${ch.filename}`);
   if (rest.length === 0) {
-    return `# ${ch.title}\n[${deepLink(work, stem)}]\n\n${md}`;
+    return finalizeRead(work, md, buildToc(md).sections, stem, ch.title, lang, stem);
   }
-  const sec = extractSection(md, rest.join('/'));
-  if (!sec) return `Section "${rest.join('/')}" not found in chapter ${stem}. Use get_structure.`;
-  return `[${deepLink(work, section)}]\n\n${sec.markdown}`;
+  const sub = rest.join('/');
+  const sec = extractSection(md, sub);
+  if (!sec) return text(`Section "${sub}" not found in chapter ${stem}. Use get_structure.`);
+  const node = findNode(buildToc(md).sections, sub);
+  return finalizeRead(work, sec.markdown, node?.children ?? [], section, node?.heading ?? stem, lang, stem);
 }
 
 server.registerTool(
@@ -223,38 +380,38 @@ server.registerTool(
   {
     title: 'Read a work or one of its sections',
     description:
-      'The markdown of a work. Pass section (a path from get_structure) to get ' +
-      'exactly that section; omit it to read a small work whole. Large works ' +
-      'return their table of contents instead — pick a section. The response ' +
-      'includes a deep link to the same passage in the web reader; share it ' +
-      'with the student when you cite the text.',
+      'The text itself. Pass section (a path from get_structure) for exactly ' +
+      'that section, or omit for a small whole work. Section paths are often ' +
+      "predictable (e.g. \"book-i/proposition-47\", \"chapter-3\") — you can " +
+      'usually pass one directly and skip get_structure, falling back to it ' +
+      'only if a path misses. A section over the size budget returns its ' +
+      'sub-structure instead of the body, so read one proposition/chapter at a ' +
+      'time. Figures come back inline as images. Bilingual texts default to ' +
+      'English; pass lang="both" (or "grc") for the original. The response ' +
+      'carries a deep link to the same passage on the site — share it when you ' +
+      'cite the text.',
     inputSchema: {
       id: z.string(),
       section: z.string().optional(),
+      lang: z.enum(['en', 'grc', 'both']).optional(),
     },
   },
-  async ({ id, section }) => {
+  async ({ id, section, lang }) => {
     const work = await getWork(id);
     if (!work) return text(`No certified work with id "${id}". Use list_works.`);
+    const language: Lang = lang ?? 'en';
 
-    if (work.kind === 'module') return text(await readModule(work, section));
+    if (work.kind === 'module') return readModule(work, section, language);
 
     const md = await fetchContent(work.path!);
+    const toc = buildToc(md);
     if (section) {
       const sec = extractSection(md, section);
       if (!sec) return text(`Section "${section}" not found in ${id}. Use get_structure for valid paths.`);
-      return text(`[${deepLink(work, section)}]\n\n${sec.markdown}`);
+      const node = findNode(toc.sections, section);
+      return finalizeRead(work, sec.markdown, node?.children ?? [], section, node?.heading ?? section, language);
     }
-    const toc = buildToc(md);
-    if (toc.words > WHOLE_READ_WORD_LIMIT && toc.sections.length > 0) {
-      // top-level view only; get_structure goes deeper
-      const tree = renderTree(toc.sections, 1).join('\n');
-      return text(
-        `${work.title} is ${toc.words} words — too large to read in one pass. ` +
-          `Pick a section (get_structure shows deeper levels):\n\n${tree}`
-      );
-    }
-    return text(`[${deepLink(work)}]\n\n${md}`);
+    return finalizeRead(work, md, toc.sections, undefined, work.title, language);
   }
 );
 

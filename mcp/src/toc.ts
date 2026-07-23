@@ -233,6 +233,18 @@ export function sectionAtLine(spans: SectionSpan[], line: number): SectionSpan |
   return best;
 }
 
+/** Find the node at an exact section path within a tree, or null. */
+export function findNode(nodes: SectionNode[], path: string): SectionNode | null {
+  for (const n of nodes) {
+    if (n.path === path) return n;
+    if (path.startsWith(n.path + '/')) {
+      const hit = findNode(n.children, path);
+      if (hit) return hit;
+    }
+  }
+  return null;
+}
+
 /** Flatten a ToC's tree into (path, heading, level, words) rows, depth-first. */
 export function flattenToc(nodes: SectionNode[], depth?: number): SectionNode[] {
   const out: SectionNode[] = [];

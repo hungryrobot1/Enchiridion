@@ -15,7 +15,7 @@
  * unaudited transcript would poison text-anchoring at the source.
  */
 
-const RAW_BASE = 'https://raw.githubusercontent.com/hungryrobot1/Enchiridion/main/';
+export const RAW_BASE = 'https://raw.githubusercontent.com/hungryrobot1/Enchiridion/main/';
 export const SITE_BASE = 'https://enchiridion.education/';
 
 const INDEX_TTL_MS = 10 * 60 * 1000;
@@ -42,6 +42,36 @@ async function fetchRaw(path: string, ttlMs: number | null): Promise<string> {
 /** Content files are immutable enough to cache for the process lifetime. */
 export const fetchContent = (path: string) => fetchRaw(path, null);
 const fetchIndex = async (path: string) => JSON.parse(await fetchRaw(path, INDEX_TTL_MS));
+
+const MIME: Record<string, string> = {
+  png: 'image/png',
+  jpg: 'image/jpeg',
+  jpeg: 'image/jpeg',
+  gif: 'image/gif',
+  webp: 'image/webp',
+  svg: 'image/svg+xml',
+};
+
+const binCache = new Map<string, { base64: string; mimeType: string; bytes: number }>();
+
+/** Fetch a binary asset (figure) as base64 for an MCP image content block. */
+export async function fetchBinary(
+  path: string
+): Promise<{ base64: string; mimeType: string; bytes: number }> {
+  const hit = binCache.get(path);
+  if (hit) return hit;
+  const res = await fetch(RAW_BASE + path);
+  if (!res.ok) throw new Error(`fetch failed (${res.status}) for ${path}`);
+  const buf = new Uint8Array(await res.arrayBuffer());
+  const ext = path.split('.').pop()?.toLowerCase() ?? '';
+  const out = {
+    base64: Buffer.from(buf).toString('base64'),
+    mimeType: MIME[ext] ?? 'application/octet-stream',
+    bytes: buf.byteLength,
+  };
+  binCache.set(path, out);
+  return out;
+}
 
 // ---------------------------------------------------------------------------
 
@@ -140,6 +170,12 @@ export async function getWork(id: string): Promise<Work | null> {
 
 export async function getSyllabus(): Promise<unknown> {
   return fetchIndex('syllabi/grand-tour.json');
+}
+
+/** Repo directory (trailing slash) a work's content and its assets live in. */
+export function contentDir(work: Work): string {
+  if (work.kind === 'module') return `${work.dir}/`;
+  return work.path!.replace(/[^/]+$/, '');
 }
 
 /** Deep link into the live reader for a work (+ optional section path). */

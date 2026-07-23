@@ -38,10 +38,38 @@ export async function renderGrandTour(container) {
       ${syllabus.description ? `<p class="grand-tour__intro">${syllabus.description}</p>` : ''}
       ${syllabus.sections.map(section => renderSection(section, ctx)).join('')}
     `;
+
+    restoreSectionState(root);
   } catch (err) {
     root.innerHTML = `<div class="grand-tour__error">Could not load the syllabus: ${err.message}</div>`;
     console.error(err);
   }
+}
+
+// Sections are collapsible <details>; remember which the reader has collapsed
+// so a finished era stays folded on return (the whole point — not scrolling
+// past Ancient Greece to reach Rome). Default is open; only collapsed ids are
+// stored.
+const COLLAPSED_KEY = 'enchiridion:gt-collapsed';
+
+function restoreSectionState(root) {
+  let collapsed;
+  try {
+    collapsed = new Set(JSON.parse(localStorage.getItem(COLLAPSED_KEY) || '[]'));
+  } catch {
+    collapsed = new Set();
+  }
+  root.querySelectorAll('details.gt-section').forEach(details => {
+    const id = details.dataset.section;
+    if (collapsed.has(id)) details.open = false;
+    details.addEventListener('toggle', () => {
+      if (details.open) collapsed.delete(id);
+      else collapsed.add(id);
+      try {
+        localStorage.setItem(COLLAPSED_KEY, JSON.stringify([...collapsed]));
+      } catch { /* storage unavailable — collapse still works this session */ }
+    });
+  });
 }
 
 function renderSection(section, ctx) {
@@ -55,13 +83,13 @@ function renderSection(section, ctx) {
   });
 
   return `
-    <section class="gt-section">
-      <header class="gt-section__header">
+    <details class="gt-section" data-section="${section.id}" open>
+      <summary class="gt-section__header">
         <h2 class="gt-section__title">${section.title}</h2>
         ${section.description ? `<p class="gt-section__description">${section.description}</p>` : ''}
-      </header>
+      </summary>
       ${items.map(({ item, isTributary, hasNextTributary }) => renderItem(item, isTributary, hasNextTributary, ctx)).join('')}
-    </section>
+    </details>
   `;
 }
 

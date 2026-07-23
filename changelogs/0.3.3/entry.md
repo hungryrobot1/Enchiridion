@@ -33,6 +33,17 @@ Aristotle's six logical works, freshly sliced from the collected volume, now rea
 
 Each carries only the text itself: the scholarly apparatus that surrounds these editions — the editors' introductions, the critical footnotes, the indices — is stripped, so what you open is the work and nothing between you and it. The original sources, apparatus intact, remain in the repository for anyone who wants them.
 
+## History enters the library
+
+Until now the library held almost no narrative history — no one telling the story of what happened and how they came to know it. That was a gap worth closing here, because if geometry was the native genre of Greece, history was the native genre of Rome. Four works arrive together, and read in sequence they teach the craft itself taking shape:
+
+- **Herodotus**, the *Histories* — the founding work, Henry Cary's English, its nine books each named for a Muse. Herodotus inquires into everything: the war between Greece and Persia, but also the customs, marvels, and quarrels of every people the story touches. He sits beside the Persian-court books of Scripture — Ezra, Esther, Daniel — the same empire seen from the far shore.
+- **Thucydides**, the *Peloponnesian War* — history practiced as method, Crawley's English. Where Herodotus gathers, Thucydides sifts: weighing evidence, reconstructing the speeches, refusing the marvellous. The funeral oration, the plague, the cold arithmetic of the Melian dialogue.
+- **Plutarch**, the *Lives* — biography in parallel, Dryden's English as Clough revised it, the whole collection of forty-six lives and their comparisons. Three are drawn out on their own for the tour: *Marcellus*, at whose siege of Syracuse Archimedes was killed; and *Alexander* and *Caesar*, the pair Plutarch himself sets side by side.
+- **Tacitus**, the *Annals* — the empire under the Julio-Claudians, Church and Brodribb's English, its twelve surviving books ending where the manuscript breaks off mid-sentence. Power, fear, and what they do to a people; among its pages the burning of Rome and the death of Seneca, whose own *Natural Questions* sits a shelf away.
+
+These were made from four different kinds of source — a photographic scan, two clean e-books, and seventy-eight saved web pages — which is much of why the chapter on method below runs as long as it does.
+
 <!-- TODO: add the L1 derivation-reflow credit here or in "Under the hood" — the
      six era-1 math texts got their interleaved text/display-math cleaned up
      (commit 3c8e57c). Decide whether that reads as a reader-facing improvement
@@ -50,23 +61,21 @@ The surprising part was that the workers *improved the playbook*. Handed a text 
 - **Editions that lie about themselves.** Three of these texts carried the wrong translator in our records — a version swapped at some point, a name mis-entered. Checking the book's own title page against our metadata is now a required first step, and Boethius, filed for years under the wrong translator, is correctly credited to H.R. James at last.
 - **Books that drop their own first letters.** The *City of God*'s PDF, it turned out, quietly omits the leading character of every indented line — chapter numbers losing a digit, sentences losing a capital. The fix was to invert the usual trust and treat the e-book as the source and the PDF as the check.
 - **Prose, verse, and everything between.** Whether a translation is verse or prose changes how it must be handled entirely, and it cannot be assumed from the author — Virgil's *Aeneid* arrives here as prose, Lucretius's atomism as verse. Boethius is both at once. Each case is decided from the page itself before a line is processed.
+- **Knowing when the old scan won't do.** Herodotus arrived as a scan that already carried a machine-read text layer, and rebuilding from it directly would have cost nothing. But that layer, decades old, misread exactly the words the *Histories* lives on — the hundreds of Greek and Persian names — turning Crœsus into "CRCESUS" and Halicarnassus into "HaHcarnassus." Errors like those are baked into the layer; no amount of restructuring reaches them. So the book was read afresh, optically, and the names came back right. The lesson kept: the free path is worth trying first, but the reading is only as good as the words underneath it.
+- **Giving a long book its landmarks.** Herodotus's nine books are enormous, and a single unbroken book is both hard to navigate and slow to open. The edition already solved this once — its running heads name each episode as it passes, "The Story of Arion," "The Death of Miltiades" — but a fresh optical reading discards those margins. So they were recovered from the old text layer and set back as headings, each landing on the page it named. The discarded reading, it turned out, still had one good use: to tell the clean one where its chapters begin.
 
-## What's still ahead
+## From shelf to sequence
 
-With Seneca, Iamblichus, and Frontinus now in place, the era's shelf is complete: every Rome and Late Antiquity text reads as clean markdown. From here the era's work turns from acquisition to composition — sequencing Rome as the Grand Tour's second section, and the supplements that go with it.
+With the era's texts all in clean markdown, the work turned from acquisition to composition, and the Grand Tour gained its second section. Rome and Late Antiquity is now a reading sequence, not just a shelf: the Bible read in four stations across the section rather than all at once; the algebra thread opening with Diophantus and carrying forward into the eras ahead; a spine of history running Herodotus to Thucydides to Plutarch to Tacitus; the logical works threaded where they do their work, the *Posterior Analytics* set just before Galen puts demonstration into practice. It closes as the ancient world does — the Stoics, then Augustine and Proclus in counterpoint, then Boethius in his cell.
 
-<!-- TODO (non-text 0.3.3 items, none shipped yet — fill in as they land):
-     - Grand Tour section 2: Rome/Late Antiquity sequenced as the second syllabus section
-     - Collapsible section headers in the reader
-     - Ancient Greek module Chapter 7 (Koine) deploying to the Rome section
-     - Era-2 supplements
-     - Metadata-drift audit across later eras
-     Also: final text count, ship date, and whether math-composition reflow gets billed here. -->
+The syllabus page learned to fold, too. Each era is now a collapsible section: collapse the ones you've finished and the one you're reading sits at the top, no longer buried under everything that came before. The page remembers what you folded.
+
+<!-- TODO before ship: final text count, ship date, whether math-composition
+     reflow (commit 3c8e57c) gets billed here, and the era-2 supplements +
+     metadata-drift audit if they land in this release. -->
 
 ## What's next
 
-<!-- TODO: write once scope firms up. Likely: finishing the era-2 shelf (Pliny,
-     Vitruvius, Proclus, Nicomachus, then the OCR texts), then sequencing Rome as
-     the Grand Tour's second section, then its supplements. The deliberate pace continues. -->
+The era's own supplements — the practical labs and notation guides that lower the technical barriers — are the near work, along with a second pass over the new Grand Tour section to settle which passages of the longest texts to recommend. Beyond that lies the Islamic Golden Age, and the algebra thread that Diophantus has just begun. The deliberate pace continues.
 
 Thanks for reading.

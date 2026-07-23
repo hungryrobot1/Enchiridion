@@ -1,0 +1,22 @@
+{
+    "title": "On the Sphere and Cylinder",
+    "author": "Archimedes",
+    "translator": "Thomas Heath",
+    "year_written": "~250 BCE",
+    "year_translated": 1897,
+    "language": "English",
+    "original_language": "Greek",
+    "format": "markdown",
+    "filename": "archimedes-sphere-and-cylinder.md",
+    "description": "Archimedes's Treatise on the Cylinder and Sphere. Establish the formulas for the surface area and volume of spheres and cylinders using the method of exhaustion.",
+    "topics": [
+        "mathematics",
+        "geometry"
+    ],
+    "era": "rome-late-antiquity",
+    "prerequisites": [
+        "euclid-elements",
+        "archimedes-geometrical-solutions"
+    ],
+    "ocr_status": "complete"
+}

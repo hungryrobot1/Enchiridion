@@ -280,6 +280,259 @@
           "chapter": "06-reading-attic-prose-and-verse"
         }
       ]
+    },
+    {
+      "id": "2-rome-late-antiquity",
+      "title": "Rome & Late Antiquity",
+      "description": "From Lucretius to Boethius: natural philosophy, engineering, and empire under the Roman peace, ending in the long twilight of the ancient world. The Bible is read in stations across the section, and the algebra thread opens here with Diophantus and runs on through the eras ahead.",
+      "items": [
+        {
+          "type": "text",
+          "id": "holy-bible-kjv",
+          "note": "The Bible is read in four stations across this section; begin here with the Law.",
+          "passages": [
+            "Genesis",
+            "Exodus",
+            "Deuteronomy",
+            "Leviticus and Numbers, at the reader's discretion"
+          ]
+        },
+        {
+          "type": "module_chapter",
+          "id": "1-ancient-greek",
+          "chapter": "07-koine-transition",
+          "note": "The Greek thread closes here; the translation exercises point onward for those who continue. The New Testament itself arrives later in the section."
+        },
+        {
+          "type": "module_chapter",
+          "id": "2-modern-algebra",
+          "chapter": "01-variables-unknowns-and-equations",
+          "note": "The algebra thread opens here and runs through the coming sections."
+        },
+        {
+          "type": "text",
+          "id": "diophantus-arithmetica",
+          "note": "A long-runner, like Euclid before it — two or three problems a day alongside the rest. Heath's rendering uses the notation you already know."
+        },
+        {
+          "type": "text",
+          "id": "nicomachus-arithmetic"
+        },
+        {
+          "type": "supplement",
+          "id": "nicomachus-notation-guide"
+        },
+        {
+          "type": "text",
+          "id": "aristotle-categories"
+        },
+        {
+          "type": "text",
+          "id": "aristotle-on-interpretation"
+        },
+        {
+          "type": "text",
+          "id": "holy-bible-kjv",
+          "note": "Second station: the histories, wisdom, and the prophets.",
+          "passages": [
+            "Joshua–2 Kings, selections",
+            "Job",
+            "Psalms 1, 8, 19, 22, 23, 90, 104, 137, 139",
+            "Ecclesiastes",
+            "Isaiah 1–12, 40–55",
+            "Daniel",
+            "Ezra",
+            "Esther",
+            "1 Maccabees"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "herodotus-histories",
+          "passages": [
+            "Book I: Croesus and Cyrus",
+            "Book II: selections on Egypt",
+            "Book III: Cambyses and Darius",
+            "Books VII–VIII: Xerxes, Thermopylae, Salamis"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "lucretius-de-rerum-natura"
+        },
+        {
+          "type": "text",
+          "id": "virgil-aeneid"
+        },
+        {
+          "type": "text",
+          "id": "thucydides-peloponnesian-war",
+          "passages": [
+            "Book I, Chapter I — the archaeology and the historian’s method",
+            "Book II, Chapters VI–VII — the Funeral Oration of Pericles and the Plague",
+            "Book V, Chapter XVII — the Melian Conference",
+            "Books VI–VII — the Sicilian expedition"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "aristotle-prior-analytics"
+        },
+        {
+          "type": "text",
+          "id": "vitruvius-de-architectura",
+          "passages": [
+            "Book I",
+            "Book II",
+            "Book VI",
+            "Book IX",
+            "Book X"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "hero-of-alexandria-pneumatics"
+        },
+        {
+          "type": "supplement",
+          "id": "hero-pneumatics-lab"
+        },
+        {
+          "type": "text",
+          "id": "frontinus-aqueducts-of-rome"
+        },
+        {
+          "type": "text",
+          "id": "plutarch-marcellus"
+        },
+        {
+          "type": "text",
+          "id": "archimedes-sphere-and-cylinder"
+        },
+        {
+          "type": "supplement",
+          "id": "archimedes-sphere-and-cylinder-guide"
+        },
+        {
+          "type": "text",
+          "id": "seneca-natural-questions",
+          "note": "Seven books; take them one at a time between other readings."
+        },
+        {
+          "type": "text",
+          "id": "pliny-natural-history",
+          "passages": [
+            "Book II: cosmology",
+            "Book VII: man",
+            "Books VIII–XI: selections on animals",
+            "Book XXXV: painting"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "aristotle-posterior-analytics"
+        },
+        {
+          "type": "text",
+          "id": "aristotle-topics",
+          "note": "With Sophistical Refutations, available as reference from here onward rather than read straight through."
+        },
+        {
+          "type": "text",
+          "id": "aristotle-sophistical-refutations"
+        },
+        {
+          "type": "text",
+          "id": "galen-natural-faculties"
+        },
+        {
+          "type": "text",
+          "id": "plutarch-alexander",
+          "note": "Read as the pair Plutarch built; he compares them in Alexander’s opening lines."
+        },
+        {
+          "type": "text",
+          "id": "plutarch-caesar"
+        },
+        {
+          "type": "text",
+          "id": "holy-bible-kjv",
+          "note": "Third station: the Gospels. If you kept the Greek thread, this is where it pays.",
+          "passages": [
+            "Mark",
+            "John"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "tacitus-annals",
+          "passages": [
+            "Books XIV–XVI"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "holy-bible-kjv",
+          "note": "Fourth station: the young church.",
+          "passages": [
+            "Acts",
+            "Romans",
+            "1 Corinthians",
+            "Revelation"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "epictetus-enchiridion"
+        },
+        {
+          "type": "text",
+          "id": "marcus-aurelius-meditations"
+        },
+        {
+          "type": "supplement",
+          "id": "archimedes-cattle-problem-exercise",
+          "note": "Once you have finished the Arithmetica."
+        },
+        {
+          "type": "text",
+          "id": "augustine-confessions"
+        },
+        {
+          "type": "text",
+          "id": "proclus-commentaries",
+          "passages": [
+            "The two prologues, whole",
+            "Selections on Book I"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "augustine-city-of-god",
+          "passages": [
+            "Books VIII–X",
+            "Books XI–XIV",
+            "Book XIX",
+            "Book XXII"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "proclus-elements-of-theology",
+          "passages": [
+            "Propositions 1–40",
+            "Selections thereafter"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "iamblichus-life-of-pythagoras"
+        },
+        {
+          "type": "text",
+          "id": "boethius-consoltion-of-philosophy"
+        }
+      ]
     }
   ]
 }

@@ -27,10 +27,22 @@
   margin-bottom: var(--space-4xl);
 }
 
+/* The header is a <summary>: clickable, collapses the era. */
 .gt-section__header {
   margin-bottom: var(--space-lg);
   padding-bottom: var(--space-sm);
   border-bottom: 1px solid var(--color-rule);
+  cursor: pointer;
+  list-style: none;
+}
+
+.gt-section__header::-webkit-details-marker {
+  display: none;
+}
+
+/* Collapsed era: the header's bottom margin is all that remains. */
+.gt-section:not([open]) .gt-section__header {
+  margin-bottom: 0;
 }
 
 .gt-section__title {
@@ -39,6 +51,26 @@
   font-weight: 600;
   color: var(--color-ink);
   line-height: var(--line-height-tight);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+/* Chevron mirrors the passages disclosure: › closed, rotates 90° open. */
+.gt-section__title::before {
+  content: '›';
+  font-weight: 400;
+  color: var(--color-ink-faint);
+  display: inline-block;
+  transition: transform var(--transition);
+}
+
+.gt-section[open] .gt-section__title::before {
+  transform: rotate(90deg);
+}
+
+.gt-section__header:hover .gt-section__title {
+  color: var(--color-accent-hover);
 }
 
 .gt-section__description {
@@ -47,6 +79,12 @@
   color: var(--color-ink-soft);
   margin-top: var(--space-sm);
   line-height: var(--line-height);
+}
+
+/* Collapsed era shows just its title line — the description is part of the
+   summary, so hide it explicitly when folded. */
+.gt-section:not([open]) .gt-section__description {
+  display: none;
 }
 
 /* Item rows */

@@ -3,7 +3,7 @@
   "type": "study-guide",
   "era": "rome-late-antiquity",
   "texts": [
-    "archimedes-heath-works"
+    "archimedes-sphere-and-cylinder"
   ],
   "description": "Study guide for Archimedes's derivation of sphere and cylinder surface areas and volumes — the result he asked to have inscribed on his tomb, and a bridge between Euclidean geometry and later analytic methods",
   "filename": "content.md",

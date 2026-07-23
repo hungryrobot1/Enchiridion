@@ -1,0 +1,19 @@
+{
+  "title": "Life of Caesar",
+  "author": "Plutarch",
+  "translator": "John Dryden, revised by Arthur Hugh Clough",
+  "year_written": "~100",
+  "year_translated": 1859,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "plutarch-caesar.md",
+  "description": "Life of Gaius Julius Caesar, from his rise under Sylla to the Ides of March — paired by Plutarch with Alexander",
+  "topics": [
+    "history",
+    "biography"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

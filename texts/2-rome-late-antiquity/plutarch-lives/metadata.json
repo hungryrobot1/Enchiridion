@@ -1,0 +1,19 @@
+{
+  "title": "Plutarch's Lives",
+  "author": "Plutarch",
+  "translator": "John Dryden, revised by Arthur Hugh Clough",
+  "year_written": "~100",
+  "year_translated": 1859,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "plutarch-lives.md",
+  "description": "Parallel biographies of eminent Greeks and Romans, paired to weigh character against character",
+  "topics": [
+    "history",
+    "biography"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

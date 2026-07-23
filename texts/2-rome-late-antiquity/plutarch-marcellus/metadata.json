@@ -1,0 +1,19 @@
+{
+  "title": "Life of Marcellus",
+  "author": "Plutarch",
+  "translator": "John Dryden, revised by Arthur Hugh Clough",
+  "year_written": "~100",
+  "year_translated": 1859,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "plutarch-marcellus.md",
+  "description": "Life of the Roman general Marcus Claudius Marcellus, conqueror of Syracuse — at whose sack Archimedes was killed",
+  "topics": [
+    "history",
+    "biography"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

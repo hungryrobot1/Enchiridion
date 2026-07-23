@@ -1,0 +1,18 @@
+{
+  "title": "The Histories",
+  "author": "Herodotus",
+  "translator": "Henry Cary",
+  "year_written": "~440 BCE",
+  "year_translated": 1849,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "herodotus-histories.md",
+  "description": "Inquiries into the wars between Greece and Persia, ranging across the peoples, customs, and marvels of the known world — the founding work of history",
+  "topics": [
+    "history"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

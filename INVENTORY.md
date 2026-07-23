@@ -1,6 +1,6 @@
 # Enchiridion Inventory
 
-_Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
+_Generated 2026-07-23 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
 
 ## Texts
 
@@ -45,6 +45,7 @@ _Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory nam
 
 ### Rome and Late Antiquity
 
+- archimedes-sphere-and-cylinder
 - aristotle-categories
 - aristotle-on-interpretation
 - aristotle-posterior-analytics
@@ -59,15 +60,22 @@ _Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory nam
 - frontinus-aqueducts-of-rome
 - galen-natural-faculties
 - hero-of-alexandria-pneumatics
+- herodotus-histories
 - holy-bible-kjv
 - iamblichus-life-of-pythagoras
 - lucretius-de-rerum-natura
 - marcus-aurelius-meditations
 - nicomachus-arithmetic
 - pliny-natural-history
+- plutarch-alexander
+- plutarch-caesar
+- plutarch-lives
+- plutarch-marcellus
 - proclus-commentaries
 - proclus-elements-of-theology
 - seneca-natural-questions
+- tacitus-annals
+- thucydides-peloponnesian-war
 - virgil-aeneid
 - vitruvius-de-architectura
 
@@ -320,29 +328,22 @@ _Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory nam
 ### Rome and Late Antiquity
 
 - archimedes-cattle-problem-exercise
-- archimedes-conoids-and-spheroids-guide
 - archimedes-sphere-and-cylinder-guide
-- bible-reading-guide
 - hero-pneumatics-lab
 - nicomachus-notation-guide
-- pliny-convention-guide
 
 ### Islamic Golden Age and Medieval Europe
 
-- al-biruni-convention-guide
-- al-khwarizmi-convention-guide
 - al-khwarizmi-exercises
 - al-khwarizmi-notation-guide
 - alhazen-camera-obscura-lab
 - alhazen-optics-exercises
-- aquinas-convention-guide
 - fibonacci-numeral-exercises
 
 ### Renaissance and Scientific Revolution
 
 - boyle-law-lab
 - descartes-geometrie-notation-guide
-- fux-counterpoint-convention-guide
 - fux-counterpoint-exercises
 - galileo-inclined-plane-lab
 - galileo-notation-guide
@@ -355,7 +356,6 @@ _Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory nam
 - napier-notation-guide
 - pascal-huygens-probability-exercises
 - port-royal-logic-exercises
-- smith-sourcebook-convention-guide
 
 ### Newtonian Enlightenment
 
@@ -365,7 +365,6 @@ _Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory nam
 - dalton-notation-guide
 - federalist-papers-reading-guide
 - hobbes-leviathan-reading-guide
-- kant-convention-guide
 - lavoisier-notation-guide
 - lavoisier-priestley-chemistry-lab
 - leibniz-binary-exercises
@@ -404,12 +403,9 @@ _Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory nam
 - fisher-notation-guide
 - frege-study-guide
 - gibbs-notation-guide
-- hegel-convention-guide
 - hilbert-problems-study-guide
 - lovelace-study-guide
 - minkowski-notation-guide
-- russell-whitehead-principia-convention-guide
-- saussure-convention-guide
 
 ### Modern Era II
 

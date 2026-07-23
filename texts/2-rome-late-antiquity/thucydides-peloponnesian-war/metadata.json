@@ -1,0 +1,18 @@
+{
+  "title": "The History of the Peloponnesian War",
+  "author": "Thucydides",
+  "translator": "Richard Crawley",
+  "year_written": "~400 BCE",
+  "year_translated": 1874,
+  "language": "English",
+  "original_language": "Greek",
+  "format": "markdown",
+  "filename": "thucydides-peloponnesian-war.md",
+  "description": "History of the war between Athens and Sparta, composed from sifted evidence and reconstructed speeches — history practiced as method; eight books in Crawley’s translation",
+  "topics": [
+    "history"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

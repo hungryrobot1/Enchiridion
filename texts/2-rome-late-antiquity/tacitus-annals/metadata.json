@@ -1,0 +1,18 @@
+{
+  "title": "The Annals",
+  "author": "Tacitus",
+  "translator": "Alfred John Church and William Jackson Brodribb",
+  "year_written": "~116",
+  "year_translated": 1876,
+  "language": "English",
+  "original_language": "Latin",
+  "format": "markdown",
+  "filename": "tacitus-annals.md",
+  "description": "Annalistic history of the Julio-Claudian emperors from Tiberius to Nero — power, terror, and their effect on Roman character; the twelve extant books, with the great lacunae marked",
+  "topics": [
+    "history"
+  ],
+  "era": "rome-late-antiquity",
+  "prerequisites": [],
+  "ocr_status": "complete"
+}

@@ -3,8 +3,7 @@
 Connects an AI model to the [Enchiridion](https://enchiridion.education) corpus so it can facilitate your reading — anchored to the actual texts, not its recollection of them.
 
 The server exposes the certified library (primary texts, lab manuals and study guides, and the language modules) over the
-[Model Context Protocol](https://modelcontextprotocol.io). Content is fetched
-from this repository at `main`; nothing is bundled, so every text is available the moment it is published. Section paths match the web reader's deep links — when the model cites a passage, it can hand you a link that opens the same section on the site.
+[Model Context Protocol](https://modelcontextprotocol.io). Content is fetched from this repository at `main`; nothing is bundled, so every text is available the moment it is published. Section paths match the web reader's deep links — when the model cites a passage, it can hand you a link that opens the same section on the site.
 
 ## Tools
 
@@ -16,16 +15,11 @@ from this repository at `main`; nothing is bundled, so every text is available t
 | `search` | literal search within a work, matches mapped to sections |
 | `get_syllabus` | the Grand Tour: the program's published reading sequence |
 
-Only certified content is served (texts whose processing is complete). The
-pedagogy travels with the server: its instructions set the seminar posture —
-the model as conversation partner rather than lecturer, everything rooted in
-passages you can check.
+Only certified content is served (texts whose processing is complete). The pedagogy travels with the server: its instructions set the seminar posture — the model as conversation partner rather than lecturer, everything rooted in passages you can check.
 
 ## Connecting (remote — recommended)
 
-The server runs as a hosted endpoint; no install required. Add the URL to any
-MCP-capable client (claude.ai custom connectors, Claude Desktop, Claude Code,
-and others):
+The server runs as a hosted endpoint; no install required. Add the URL to any MCP-capable client (claude.ai custom connectors, Claude Desktop, Claude Code, and others):
 
 ```
 https://enchiridion-mcp.enchiridion.workers.dev/mcp

@@ -1,6 +1,6 @@
 # Enchiridion Inventory
 
-_Generated 2026-07-17 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
+_Generated 2026-07-22 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
 
 ## Texts
 

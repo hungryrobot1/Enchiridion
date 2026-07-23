@@ -6,7 +6,7 @@ export const SAMPLE_WORKS = [
   // Ancient Greece
   { author: 'Homer', title: 'Iliad', id: 'homer-iliad' },
   { author: 'Aeschylus', title: 'The Oresteia', id: 'aeschylus-oresteia' },
-  { author: 'Sophocles', title: 'The Oedipus Trilogy', id: 'sophocles-oedipus-trilogy' },
+  { author: 'Sophocles', title: 'Antigone', id: 'sophocles-antigone' },
   { author: 'Plato', title: 'Symposium', id: 'plato-symposium' },
   { author: 'Plato', title: 'Meno', id: 'plato-meno' },
   { author: 'Aristotle', title: 'Nicomachean Ethics', id: 'aristotle-nicomachean-ethics' },

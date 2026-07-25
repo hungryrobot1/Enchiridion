@@ -654,3 +654,81 @@
     padding: var(--space-lg) var(--space-md) var(--space-2xl);
   }
 }
+
+/* Section breadcrumb — a thin bar pinned under the site header, naming the
+   section you are currently inside (THE ANNALS › BOOK IV › Chapter 32). Each
+   crumb scrolls to the top of that section. It sits OUTSIDE .reader__viewport:
+   the page scrolls at the window, and the viewport's overflow-y:auto — though
+   it never engages — would capture a sticky descendant and pin it to a
+   scrollport that never moves. Only appears once you are inside a section. */
+.reader__crumbs {
+  position: sticky;
+  top: var(--header-height);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  padding: var(--space-2xs) var(--space-lg);
+  background: var(--color-paper);
+  border-bottom: 1px solid var(--color-rule);
+  /* Long chains scroll sideways rather than wrapping and changing the bar's
+     height, which would shift the text under it on every section change. */
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+/* `display: flex` above outranks the UA stylesheet's `[hidden] { display: none }`,
+   so the empty bar would otherwise still occupy the top of the page whenever the
+   chain is empty. */
+.reader__crumbs[hidden] {
+  display: none;
+}
+
+.reader__crumbs::-webkit-scrollbar {
+  display: none;
+}
+
+.reader__crumb {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--color-ink-soft);
+  background: transparent;
+  border: none;
+  padding: var(--space-2xs) 0;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--transition);
+}
+
+.reader__crumb:hover {
+  color: var(--color-accent-hover);
+}
+
+.reader__crumb--current {
+  color: var(--color-ink);
+}
+
+.reader__crumb-sep {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--color-ink-faint);
+}
+
+/* Focus mode hides the site header; the bar takes its place at the top. */
+.focus-mode .reader__crumbs {
+  top: 0;
+}
+
+/* The bar overlays the top of the page under the header, so anything scrolled
+   to the top — deep links, crumb clicks — must clear both. */
+.md-reader__section {
+  scroll-margin-top: calc(var(--header-height) + 2.25rem);
+}
+
+@media (max-width: 640px) {
+  .reader__crumbs {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+}

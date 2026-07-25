@@ -96,7 +96,7 @@ export async function renderReader(container, options) {
       wirePdfControls(shell, controls);
       shell.querySelector('.reader__pdf-controls')?.removeAttribute('hidden');
     } else {
-      readerCleanup = await reader.render(contentEl, url, shell, { layout });
+      readerCleanup = await reader.render(contentEl, url, shell, { layout, title });
       if (fmt === 'markdown' || fmt === 'md') {
         rewriteRelativeMdLinks(contentEl, options.linkRewriter);
       }

@@ -1,0 +1,165 @@
+// A thin bar pinned below the site header showing where you are in a long
+// text: THE ANNALS › BOOK IV › Chapter 32. Each crumb scrolls back to the top
+// of that section; the title crumb returns to the top of the document.
+//
+// Why this exists: sectioning is recursive and can run deep (Tacitus is 721
+// chapters under 12 books, Vitruvius 95 chapters under 10), and once you are a
+// few screens into a chapter there is nothing on screen naming where you are.
+// Scrolling up to find out loses your place. The bar answers it without moving
+// the page, and makes going back up one level a click instead of a hunt.
+//
+// Placement matters: the page scrolls at the WINDOW (nothing constrains the
+// reader's height — #content just grows), so `.reader__viewport`'s overflow
+// never engages. But an overflow:auto ancestor still captures any sticky
+// descendant, pinning it to a scrollport that never moves. The bar therefore
+// lives OUTSIDE the viewport, as a direct child of the reader shell, sticky
+// against the window under the site header — and scroll is listened for on
+// the window, which is the thing actually scrolling.
+//
+// The chain is computed from geometry rather than from scroll-spy observers:
+// sections are laid out in document order, top to bottom, so at each level the
+// section containing the reference line is the *last* open one whose top edge
+// is at or above it. That is a binary search per level — a handful of rect
+// reads per frame even in a book with hundreds of chapters, where observing
+// every summary would mean hundreds of live observers. Multiple sections being
+// open at once is fine: only the one under the line is named.
+
+const SECTION_SEL = 'details.md-reader__section';
+
+// Sections one level below `node`. Top-level sections are direct children of
+// the wrapper; nested ones hang off the parent <details>'s body <div>.
+function childSections(node) {
+  const sel = node.classList?.contains('md-reader')
+    ? `:scope > ${SECTION_SEL}`
+    : `:scope > div > ${SECTION_SEL}`;
+  return node.querySelectorAll(sel);
+}
+
+// Last section whose top edge is at or above `y` (viewport coordinates) and
+// which is open and still extends past it — i.e. the one we are inside.
+function sectionAt(node, y) {
+  const kids = childSections(node);
+  let lo = 0;
+  let hi = kids.length - 1;
+  let found = null;
+  while (lo <= hi) {
+    const mid = (lo + hi) >> 1;
+    if (kids[mid].getBoundingClientRect().top <= y) {
+      found = kids[mid];
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
+  }
+  if (!found || !found.open) return null;
+  return found.getBoundingClientRect().bottom > y ? found : null;
+}
+
+function summaryLabel(section) {
+  const summary = section.querySelector(':scope > summary');
+  if (!summary) return '';
+  // Clone so the § copy-link button doesn't end up in the crumb text.
+  const clone = summary.cloneNode(true);
+  clone.querySelector('.md-reader__anchor')?.remove();
+  return clone.textContent.trim();
+}
+
+export function mountSectionBreadcrumb(shell, wrapper, title) {
+  const viewport = shell.querySelector('.reader__viewport');
+  if (!viewport) return () => {};
+
+  const bar = document.createElement('nav');
+  bar.className = 'reader__crumbs';
+  bar.setAttribute('aria-label', 'Section location');
+  bar.hidden = true;
+  shell.insertBefore(bar, viewport);
+
+  // Where the bar pins: just under the site header (which may be hidden in
+  // focus mode — measuring live handles that). The reference line for "which
+  // section are we in" is the bar's own bottom edge.
+  const pinnedLine = () => {
+    const header = document.querySelector('.site-header');
+    const headerBottom = header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
+    return headerBottom + (bar.hidden ? 0 : bar.offsetHeight);
+  };
+
+  const scrollTo = (section) => {
+    if (!section) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    const delta = section.getBoundingClientRect().top - pinnedLine();
+    window.scrollBy({ top: delta, behavior: 'smooth' });
+  };
+
+  let rendered = '';
+
+  const update = () => {
+    const y = pinnedLine() + 1;
+    const chain = [];
+    let node = wrapper;
+    for (;;) {
+      const next = sectionAt(node, y);
+      if (!next) break;
+      chain.push(next);
+      node = next;
+    }
+
+    const key = chain.map(s => s.dataset.section).join('|');
+    if (key === rendered) return;
+    rendered = key;
+
+    if (!chain.length) {
+      bar.hidden = true;
+      bar.replaceChildren();
+      return;
+    }
+
+    const crumbs = [{ label: title, section: null }].concat(
+      chain.map(s => ({ label: summaryLabel(s), section: s }))
+    );
+
+    bar.replaceChildren();
+    crumbs.forEach((crumb, i) => {
+      if (i > 0) {
+        const sep = document.createElement('span');
+        sep.className = 'reader__crumb-sep';
+        sep.setAttribute('aria-hidden', 'true');
+        sep.textContent = '›';
+        bar.appendChild(sep);
+      }
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'reader__crumb';
+      if (i === crumbs.length - 1) btn.classList.add('reader__crumb--current');
+      btn.textContent = crumb.label;
+      btn.title = `Go to the top of ${crumb.label}`;
+      btn.addEventListener('click', () => scrollTo(crumb.section));
+      bar.appendChild(btn);
+    });
+    bar.hidden = false;
+  };
+
+  let queued = false;
+  const onScroll = () => {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(() => {
+      queued = false;
+      update();
+    });
+  };
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  // Opening or closing a section changes the geometry under the line.
+  wrapper.addEventListener('toggle', onScroll, true);
+  window.addEventListener('resize', onScroll);
+  update();
+
+  return () => {
+    window.removeEventListener('scroll', onScroll);
+    wrapper.removeEventListener('toggle', onScroll, true);
+    window.removeEventListener('resize', onScroll);
+    bar.remove();
+  };
+}

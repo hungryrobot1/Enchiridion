@@ -1,6 +1,7 @@
 import { Marked } from 'marked';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
+import { mountSectionBreadcrumb } from './section-breadcrumb.js';
 
 function resolveAgainstBase(href, baseUrl) {
   if (!href) return href;
@@ -219,12 +220,21 @@ export default {
       mountLangSelector(shell, wrapper);
     }
 
+    // Sticky breadcrumb naming the section under the top of the viewport, so a
+    // reader deep inside a chapter can see where they are and climb back out.
+    // Only worth mounting when the document actually has sections to be lost in.
+    let unmountCrumbs = () => {};
+    if (shell && sections.length) {
+      unmountCrumbs = mountSectionBreadcrumb(shell, wrapper, opts.title || '');
+    }
+
     // Deep link: `#/route?s=<section-path>` opens the named section (building
     // each lazy ancestor on the way down) and scrolls to it.
     const targetSection = parseSectionParam();
     if (targetSection) openSectionPath(wrapper, targetSection);
 
     return () => {
+      unmountCrumbs();
       container.innerHTML = '';
     };
   },

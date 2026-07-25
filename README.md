@@ -64,7 +64,7 @@ The dev server serves repository content (texts, syllabi) directly from the repo
 
 ## Status
 
-Current release: **v0.3** — see the [Changelog](https://enchiridion.education/#/changelog) for what shipped.
+Current release: **v0.3.3** — see the [Changelog](https://enchiridion.education/#/changelog) for what shipped.
 
 The web reader is live, with the Ancient Greece section fully sequenced in the Grand Tour, its texts brought to render-correct markdown, and its supplements written. Later eras have their texts and metadata in place and will be sequenced, cleaned, and supplemented one at a time.
 

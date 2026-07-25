@@ -19,7 +19,7 @@ export function renderLanding(container) {
         A self-directed reading sequence through primary sources in mathematics,
         science, and philosophy &mdash; <strong>over 250 texts</strong> across eight
         chronological eras, from Homer to the present. Open source, built in public,
-        currently version 0.3.2.
+        currently version 0.3.3.
       </p>
     </section>
 

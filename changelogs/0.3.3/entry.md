@@ -1,14 +1,6 @@
-<!-- DRAFT — not yet published. This directory intentionally has NO metadata.json,
-     so the changelog builder skips it and it stays off the live site until ship.
-     Add metadata.json (id/title/date/summary/filename) at ship time to publish.
-     TODO markers below flag sections that depend on work still in progress. -->
-
 # The Rome and Late Antiquity shelf takes shape
 
-<!-- TITLE PROVISIONAL. Final scope depends on the non-text items still in flight
-     (Grand Tour section 2, collapsible section headers, era-2 supplements). -->
-
-The last release added the *Organon* to the Rome and Late Antiquity section and promised to bring that era's texts to render-correct markdown. This release is largely that promise being kept — a shelf of late-antique and Roman works arriving as clean, readable texts — and, quietly, a change in *how* that work gets done that made the pace possible.
+The last release added the *Organon* to the Rome and Late Antiquity section and promised to bring that era's texts to render-correct markdown. This release is largely that promise being kept — thirty-three late-antique and Roman works arriving as clean, readable texts — and then the harder half of the work that follows: turning a shelf into a sequence. Along the way the reader learned to tell you where you are, and the library learned to talk to a model.
 
 ## The texts
 
@@ -44,11 +36,6 @@ Until now the library held almost no narrative history — no one telling the st
 
 These were made from four different kinds of source — a photographic scan, two clean e-books, and seventy-eight saved web pages — which is much of why the chapter on method below runs as long as it does.
 
-<!-- TODO: add the L1 derivation-reflow credit here or in "Under the hood" — the
-     six era-1 math texts got their interleaved text/display-math cleaned up
-     (commit 3c8e57c). Decide whether that reads as a reader-facing improvement
-     worth its own short paragraph. -->
-
 ## How these texts get made
 
 Getting a book from a scanned or typeset PDF to clean markdown is a long chain of small, exacting decisions: where the real text begins and the front matter ends, which numbers are chapter headings and which are just numbers, where a paragraph broke because the thought ended versus because the page did. For most of the library so far, that chain has been walked one text at a time, by hand.
@@ -64,18 +51,52 @@ The surprising part was that the workers *improved the playbook*. Handed a text 
 - **Knowing when the old scan won't do.** Herodotus arrived as a scan that already carried a machine-read text layer, and rebuilding from it directly would have cost nothing. But that layer, decades old, misread exactly the words the *Histories* lives on — the hundreds of Greek and Persian names — turning Crœsus into "CRCESUS" and Halicarnassus into "HaHcarnassus." Errors like those are baked into the layer; no amount of restructuring reaches them. So the book was read afresh, optically, and the names came back right. The lesson kept: the free path is worth trying first, but the reading is only as good as the words underneath it.
 - **Giving a long book its landmarks.** Herodotus's nine books are enormous, and a single unbroken book is both hard to navigate and slow to open. The edition already solved this once — its running heads name each episode as it passes, "The Story of Arion," "The Death of Miltiades" — but a fresh optical reading discards those margins. So they were recovered from the old text layer and set back as headings, each landing on the page it named. The discarded reading, it turned out, still had one good use: to tell the clean one where its chapters begin.
 
+## Only the text itself
+
+The rule that a text carries only the text itself is easy to state and unglamorous to enforce, and this release put real weight on it.
+
+Heath's *Diophantus* is a commentary edition: his notes, and the modern scholarship he surveys, run inline with the translation. Six blocks of it came out — a survey of three centuries of attempts on a problem Diophantus poses in Book II, another mathematician's general solution wedged between Diophantus's setup and his own, a reconstruction of three problems lost in a gap in the manuscript, and, at the end, a ninety-paragraph conjectural completion of a proof that in fact breaks off unfinished. Where cutting leaves a visible jump, the corpus mark for a gap now stands in its place, so the reader is told that something is missing rather than quietly handed a seam. What stays is Diophantus's own opening on notation — the key without which none of it can be read at all.
+
+Nicomachus needed the opposite operation. A section of Book II straddles a page break, and the translator's footnote had landed *between its halves* — so the section appeared to stop mid-sentence, and the footnote appeared to end with Nicomachus's own worked example. The note is gone and the sentence is whole again, both halves the translator's own words, recovered from the source rather than reconstructed.
+
+Behind both is a new detector that reads a text looking for matter that cannot be the author's — a Roman arithmetician cannot cite an eighteenth-century mathematician — and flags it for judgment rather than deleting it. Run across the library, it found the era clean except for one inherited problem, in some of the earliest texts ever processed here, now queued for a pass of its own. Some editorial brackets were deliberately kept: where a note is structural rather than substantive, telling you how the book is put together rather than doing the thinking for you, it earns its place.
+
+Two other texts were quietly restructured. Vitruvius numbers every paragraph, and all seven hundred twenty-five of those numbers were being read as list markers, indenting the whole treatise; they are now plain citation marks. And Tacitus, whose chapters were likewise inline marks, has them promoted to real headings — which turns each of his longest books from a single hundred-kilobyte slab into eighty-odd chapters that open instantly and can be linked to individually.
+
 ## From shelf to sequence
 
-With the era's texts all in clean markdown, the work turned from acquisition to composition, and the Grand Tour gained its second section. Rome and Late Antiquity is now a reading sequence, not just a shelf: the Bible read in four stations across the section rather than all at once; the algebra thread opening with Diophantus and carrying forward into the eras ahead; a spine of history running Herodotus to Thucydides to Plutarch to Tacitus; the logical works threaded where they do their work, the *Posterior Analytics* set just before Galen puts demonstration into practice. It closes as the ancient world does — the Stoics, then Augustine and Proclus in counterpoint, then Boethius in his cell.
+With the era's texts all in clean markdown, the work turned from acquisition to composition, and the Grand Tour gained its second section: forty-five items, a reading sequence rather than a shelf.
 
-The syllabus page learned to fold, too. Each era is now a collapsible section: collapse the ones you've finished and the one you're reading sits at the top, no longer buried under everything that came before. The page remembers what you folded.
+Scripture is read in **five stations** spread across the era rather than all at once — the Law at the opening; the histories, wisdom, and prophets just before Herodotus, so the Persian-court books sit beside his Persian wars; the Gospels immediately after Lucretius, the materialist poem answered on the next page; Luke rejoining Acts among the letters of the young church; and Revelation alone near the end, the vision of the last things as the ancient world closes, just before Boethius writes awaiting execution.
 
-<!-- TODO before ship: final text count, ship date, whether math-composition
-     reflow (commit 3c8e57c) gets billed here, and the era-2 supplements +
-     metadata-drift audit if they land in this release. -->
+Elsewhere the order is doing similar work. Augustine's *City of God* moved to sit *after* Proclus and Iamblichus, so that his verdict on the Platonists falls on books the reader has actually read, rather than before them. The engineering runs together — Vitruvius, then Frontinus on the aqueducts, then Marcellus and the death of Archimedes at Syracuse. And the history spine closes its own circle: Tacitus, writing from inside the empire, sets out the same three forms of rule that Herodotus's Persians debate before it exists.
+
+Most of the long texts now carry recommended passages — twenty of them — while fourteen are marked to be read whole. Thucydides is deliberately among the latter: Herodotus digresses and can be sampled, but the *Peloponnesian War* is one sustained argument, and sampling it is reading a proof by skipping steps.
+
+The syllabus page learned to fold, too. Each era is now a collapsible section that keeps its description visible when closed, so a folded Grand Tour reads as a set of era summaries rather than bare title cards. The page remembers what you folded.
+
+## Knowing where you are
+
+Long texts in this library are deeply nested — Tacitus is seven hundred twenty-one chapters under twelve books — and once you are a few screens into a chapter, nothing on screen tells you which one. Scrolling up to find out loses your place.
+
+So the reader grew a thin bar that names where you are: **THE ANNALS › BOOK IV › Chapter 32**, pinned under the site header, updating as you read. Each step is clickable and takes you to the top of that section; the title takes you to the top of the book. It appears only when you are inside something and gets out of the way when you are not.
+
+## The library, in conversation
+
+There is now an **Enchiridion server** that lets an AI model read the corpus directly — the actual editions, at the actual section paths, rather than its recollection of a text it saw in training. Five tools: list the library, fetch a work's table of contents, read a whole work or exactly one section, search within a text, and retrieve the Grand Tour itself. Content is fetched live from the repository, so a text is available the moment it is published, and the section paths are the same ones the reader's links use — meaning a model can hand you a link that opens the very passage it is discussing.
+
+What matters more than the tools is what travels with them. The server carries the program's pedagogy in its instructions: the model is to be the person across the seminar table, not the lecturer at the front of the room. Read the passage before discussing it. Work from what the text says, not from what is said about it. Hold a question open rather than closing it. Do not pre-digest — summaries and takeaways and modern glosses are this program's deliberate omissions, not its oversights, and a hard passage is meant to be hard. Being stuck is a productive condition, and rescuing a reader from it too early is the one thing a good interlocutor never does.
+
+It is opt-in and entirely separable: the library reads exactly the same without it.
+
+## Smaller things
+
+The six mathematical texts of the Greek section had their derivations reflowed — three hundred nineteen formulas that were sitting inline, mid-sentence, now set as centered display blocks in the typography those books already mostly use. The Greek module's Koine chapter now deploys against Scripture where it belongs. And an editor setting was added to the repository to stop trailing whitespace being trimmed on save, which sounds like nothing and is not: verse in this corpus is carried by exactly that whitespace, and one poem had already been silently flattened into prose by a helpful editor.
 
 ## What's next
 
-The era's own supplements — the practical labs and notation guides that lower the technical barriers — are the near work, along with a second pass over the new Grand Tour section to settle which passages of the longest texts to recommend. Beyond that lies the Islamic Golden Age, and the algebra thread that Diophantus has just begun. The deliberate pace continues.
+The era's own supplements are the near work — the notation guide for reading Diophantus in his own terms, a drawing lab that builds Vitruvius's figures from his rules alone, three reconstructions from Hero's *Pneumatics*, and a set of exercises that lets a reader arrive at a famous conjecture without being told it is famous. Their places in the sequence are already held.
+
+Beyond that lies the Islamic Golden Age, and the algebra thread that Diophantus has just begun. The deliberate pace continues.
 
 Thanks for reading.

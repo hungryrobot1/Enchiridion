@@ -42,7 +42,7 @@ from ἀριθμός [x] we derive the term ἀριθμοστόν [= 1/x]
 ,, δυναμόκυβος [x⁵] ,, ,, δυναμοκυβοστόν [= 1/x⁵]
 ,, κυβόκυβος [x⁶] ,, ,, κυβοκυβοστόν [= 1/x⁶],
 
-and each of these has the same sign as the corresponding original species, but with a distinguishing mark which Tannery writes in the form 𝒳 above the line to the right.
+and each of these has the same sign as the corresponding original species, but with a distinguishing mark, 𝒳, above the line to the right.
 
 Thus Δʳⁱˣ = 1/x², just as γˣ = 1/3.
 
@@ -663,14 +663,6 @@ or $5x^2 = 16x$, and $x = \frac{16}{5}$.
 The required squares are therefore $\frac{256}{25}$, $\frac{144}{25}$.
 
 ## 9. To divide a given number which is the sum of two squares into two other squares.
-
-biquadrate into two biquadrates, or generally any power except a square into two powers with the same exponent. I have discovered a truly marvellous proof of this, which however the margin is not large enough to contain."
-
-Did Fermat really possess a proof of the general proposition that $x^m + y^m = z^m$ cannot be solved in rational numbers where $m$ is any number $> 2$? As Wertheim says, one is tempted to doubt this, seeing that, in spite of the labours of Euler, Lejeune-Dirichlet, Kummer and others, a general proof has not even yet been discovered. Euler proved the theorem for $m=3$ and $m=4$, Dirichlet for $m=5$, and Kummer, by means of the higher theory of numbers, produced a proof which only excludes certain particular values of $m$, which values are rare, at all events among the smaller values of $m$; thus there is no value of $m$ below 100 for which Kummer's proof does not serve. (I take these facts from Weber and Wellstein's Encyclopädie der Elementar-Mathematik, I$_2$, p. 284, where a proof of the formula for $m=4$ is given.)
-
-It appears that the Göttingen Academy of Sciences has recently awarded a prize to Dr A. Wieferich, of Münster, for a proof that the equation $x^p + y^p = z^p$ cannot be solved in terms of positive integers not multiples of $p$, if $2^p - 2$ is not divisible by $p^2$. "This surprisingly simple result represents the first advance, since the time of Kummer, in the proof of the last Fermat theorem" (Bulletin of the American Mathematical Society, February 1910).
-
-Fermat says ("Relation des nouvelles découvertes en la science des nombres," August 1659, Oeuvres, II. p. 433) that he proved that no cube is divisible into two cubes by a variety of his method of infinite diminution (descente infinie or indefinie) different from that which he employed for other negative or positive theorems; as to the other cases, see Supplement, sections I., II.
 
 Given number $13 = 2^2 + 3^2$.
 
@@ -1857,62 +1849,6 @@ and $\frac{1}{16}, \frac{33}{16}, \frac{68}{16}, \frac{105}{16}$ is the solution
 
 Assume $x$ for the least, $x + 4$ for the middle (in order that the difference of middle and least may be a square), $x + 13$ for the greatest (in order that difference of greatest and middle may be a square).
 
-This product will be found to be
-
-$$1 + 2 (m + n + l) v + \{(m + n + l)^2 - 1\} v^2 + mn (m + n + 2l) v^2.$$
-
-Let us equate this to $\left\{1 + (m + n + l) v - \frac{1}{2} v^2\right\}^2$, in order that the terms in $v, v^2$ as well as the absolute term may vanish; therefore
-
-$$mn (m + n + 2l) = - (m + n + l) + \frac{1}{4} v,$$
-
-whence
-
-$$\begin{aligned} \frac{1}{4} v &= (m + n + l) + mn (m + n + 2l) \\ &= (mn + 1) (m + n + l) + lmn \\ &= l^2 (m + n + l) + lmn \\ &= l (l + m) (l + n), \end{aligned}$$
-
-and therefore $v = 4l (l + m) (l + n)$.
-
-It is true that we have only made the product of the three expressions $mv + 1, nv + 1, (m + n + 2l) v + 1$ a square; but, as the value of $v$ has turned out to be an integral number, so that all three formulae are prime to one another, we may conclude that each of the expressions is a square.
-
-The solution is therefore
-
-$$x = m, \quad y = n, \quad z = m + n + 2l, \quad v = 4l (l + m) (l + n),$$
-
-where $mn + 1 = l^2$.
-
-In fact, while three of the conditions have been above shown to be satisfied, we find, as regards the other three, that
-
-$$xv + 1 = 4lm (l + m) (l + n) + 1 = (2l^2 + 2lm - 1)^2,$$
-
-$$yv + 1 = 4ln (l + m) (l + n) + 1 = (2l^2 + 2ln - 1)^2,$$
-
-$$zv + 1 = 4l (m + n + 2l) (l + m) (l + n) + 1 = (4l^2 + 2lm + 2ln - 1)^2.$$
-
-It is to be observed that $l$ may be either positive or negative.
-
-Ex. Let $m = 3, n = 8$, so that $l = \pm 5$.
-
-If $l = +5$, the solution is 3, 8, 21, 2080; if $l = -5$, the solution is 3, 8, 1, 120.
-
-Fermat shows how to solve this problem, alternatively, by means of the "triple-equation."
-
-Take three numbers with the required property, e.g. 3, 1, 8. Let $x$ be the fourth, and we have then to satisfy the conditions
-
-$$3x + 1 = u^2, \quad x + 1 = v^2, \quad 8x + 1 = w^2.$$
-
-Put $x = y^2 + 2y$, so as to make the second expression a square, and then substitute the value of $x$ in the other two. We have then the double-equation
-
-$$3 (y^2 + 2y) + 1 = u^2,$$
-
-$$8 (y^2 + 2y) + 1 = w^2.$$
-
-The difference $= 5 (y^2 + 2y) = 5y (y + 2)$.
-
-We put then $(3y + 1)^2 = 8 (y^2 + 2y) + 1,$
-
-whence $y = 10$, and $x = y^2 + 2y = 120$, which value satisfies the triple-equation.
-
-The four numbers are then 3, 1, 8, 120, which solution is identical with one of those obtained by Euler as above.
-
 If now 13 were a square, we should have an indeterminate solution satisfying three of the conditions.
 
 We must therefore replace 13 by a square which is the sum of two squares. Any rational right-angled triangle will furnish what is wanted, say 3, 4, 5;
@@ -2702,15 +2638,15 @@ As in Lemma II to the 7th problem, we find three right-angled triangles with equ
 
 Now find, as in the last Lemma, three numbers such that the products of the three pairs are equal to these squares respectively, which we take because each $\pm 4$. (area) or 3360 gives a square; the three numbers then are
 
-$$\frac{4292}{113}x, \frac{3277}{31}x [\frac{380132}{4292}x \text{ Tannery}],$$
+$$\frac{4292}{113}x, \frac{3277}{31}x,$$
 
-$$\frac{4181}{29}x [\frac{618788}{4292}x \text{ Tannery}].$$
+$$\frac{4181}{29}x.$$
 
 It remains that the sum of the three $= 3360x^2$.
 
-Therefore $\frac{32824806}{121249}x [\frac{131299224}{484996}x \text{ Tannery}] = 3360x^2$.
+Therefore $\frac{32824806}{121249}x = 3360x^2$.
 
-Therefore $x = \frac{32824806}{407396640} [\frac{131299224}{1629586560} \text{ or } \frac{781543}{9699920} \text{ Tannery}]$,
+Therefore $x = \frac{32824806}{407396640}$,
 
 [and the numbers are $\frac{781543}{255380}, \frac{781543}{109520}, \frac{781543}{67280}$].
 
@@ -2964,17 +2900,7 @@ The numbers are thus found $\left(\frac{3}{729}, \frac{15}{729}, \frac{63}{729}\
 
 ## 19. To find three numbers such that their sum is a square and the cube of their sum *minus* any one of them gives a square.
 
-[There is obviously a lacuna in the text after this enunciation; for the next words are "And we have *again* to divide 2 *as before*," whereas there is nothing in our text to which they can refer, and the lines which follow are clearly no part of the solution of v. 19.
-
-Bachet first noticed the probability that three problems intervened between v. 19 and v. 20, and he gave solutions of them. But he seems to have failed to observe that the eight lines or so in the text between the enunciation of v. 19 and the enunciation of v. 20 belonged to the solution of the last of the three missing problems. The first of the missing problems is connected with v. 18 and 19, making a natural trio with them, while the second and third similarly make with v. 20 a set of three. The enunciations were doubtless somewhat as follows.
-
-19a. To find three numbers such that their sum is a square and any one of them minus the cube of their sum gives a square.
-
-19b. To find three numbers such that their sum is a given number and the cube of their sum plus any one of them gives a square.
-
-19c. To find three numbers such that their sum is a given number and the cube of their sum minus any one of them gives a square.
-
-The words then in the text after the enunciation of v. 19 evidently belong to this last problem.]
+[. . .]
 
 The given sum is 2, the cube of which is 8.
 
@@ -2984,9 +2910,7 @@ Therefore we have to divide 22 into three squares, each of which is greater than
 
 after which, by subtracting each of the squares from 8, we find the required numbers.
 
-But we have already shown [cf. v. 11] how to divide 22 into three squares, each of which is greater than 6— and less than 8, Diophantus should have added.
-
-[The above is explained by the fact that, by addition, three times the cube of the sum minus the sum itself is the sum of three squares, and three times the cube of the sum minus the sum = 3.8 - 2 = 22.]¹
+But we have already shown [cf. v. 11] how to divide 22 into three squares, each of which is greater than 6.
 
 ## 20. To divide a given fraction into three parts such that any one of them *minus* the cube of their sum gives a square.
 
@@ -3983,12 +3907,6 @@ Therefore the other perpendicular = 2x² = a cube = x³, say.
 
 Thus x = 2, and the triangle is (6, 8, 10).
 
-It is on Bachet's note to VI. 22 that Fermat explains his method of solving triple-equations, as to which see the Supplement, Section V.
-
-[No. 20 of the problems on right-angled triangles which Bachet appended to Book VI. ("To find a right-angled triangle such that its area is equal to a given number") is the occasion of Fermat's remarkable note upon the theorem discovered by him to the effect that The area of a right-angled triangle the sides of which are rational numbers cannot be a square number.
-
-This note will be given in full, with other information on the same subject, in the Supplement.]
-
 # ON POLYGONAL NUMBERS
 
 All numbers from 3 upwards in order are polygonal, containing as many angles as they have units, e.g. 3, 4, 5, etc.
@@ -4439,188 +4357,4 @@ Let $GM$ be bisected at $N$ ...
 
 $$\begin{array}{l} 16P(P-1) \\ = \{2(2P-1) + a - 2\}^2 - X^2 \\ = \{2(2P-1) + a - 2 - X\}^2 \\ + 2X\{2(2P-1) + a - 2 - X\} \\ [= \{2(2P-2) - 2(n-1)(a-2)\}^2 \\ + 2\{2 + (2n-1)(a-2)\} \\ \times \{2(2P-2) - 2(n-1)(a-2)\}] \end{array}$$
 
-[Here the fragment ends, and the question of course arises whether Diophantus ever actually solved the problem of finding in how many different ways a given number can be a polygonal. Tannery went so far as to call the whole of the fragment, from and including the enunciation of the problem, the "vain attempt of a commentator" to solve it¹. Wertheim has however shown grounds for thinking that Diophantus did solve the problem and that the fragment is a genuine part of his argument leading to that result. The equation
-
-$$8P(a-2) + (a-4)^2 = \{2 + (2n-1)(a-2)\}^2$$
-
-easily reduces (by algebra) to
-
-$$8P(a-2) = 4n(a-2)\{2 + (n-1)(a-2)\},$$
-
-or $2P = n\{2 + (n-1)(a-2)\}.$
-
-Wertheim has shown how this result can be obtained by a continuation of the work, from the point where the fragment leaves off, in the same geometrical form which is used up to that point, and how, when the formula is thus obtained, it can be used for the purpose of finding the number of ways in which P can be a polygonal number. The portion of the geometrical argument which has to be supplied is, it is true, somewhat long, and its length and difficulty may, as Wertheim suggests, account for the copyist having failed, as it were, to see his way through it and having stopped through discouragement when he had lost his bearings.
-
-I shall now reproduce Wertheim's suggested restoration of the rest of the problem. The figure requires some extension, and I accordingly give a new one after Wertheim.
-
-![img-8.jpeg](images/img-8.jpeg)
-
-The last step in the above fragment is
-
-(9) $2FG.GM + GM^2 = 16AB.BH$
-
-Bisect $GM$ in $N$, so that $GN = NM$.
-
-Therefore, if we divide by 4, (10) $FG.GN + GN^2 = 4AB.BH$,
-
-or (11) $FN.NG = 4AB.BH$.
-
-Put now $FR = 2AB$, and $RS = GN$, so that $GS = RN$, and we have
-
-$$FS = FR - RS = 2AB - RS$$
-
-$$FN = FR + RN = 2AB + RN$$
-
-$$GN = RS = 2AB - FS$$
-
-Substituting in (11), we have (12) $(2AB + RN)(2AB - FS) = 4AB.BH$.
-
-$$\begin{array}{l} 2 \{2 + (2n - 1)(n - 2)\} \\ \{2(2P - 2) - 2(n - 1)(n - 2)\} \\ + \{2(2P - 2) - 2(n - 1)(n - 2)\}^2 \\ = 16P(P - 1) \end{array}$$
-
-$$GN = NM$$
-
-$$= 2(P - 1) - (n - 1)(n - 2)$$
-
-$$\begin{array}{l} \{2 + (2n - 1)(n - 2)\} \\ \{2(P - 1) - (n - 1)(n - 2)\} \\ + \{2(P - 1) - (n - 1)(n - 2)\}^2 \\ = 4P(P - 1) \end{array}$$
-
-$$\begin{array}{l} \{2P + n(n - 2)\} \\ \{2(P - 1) - (n - 1)(n - 2)\} \\ = 4P(P - 1) \end{array}$$
-
-$$\begin{array}{l} FS = 2P \\ - \{2(P - 1) - (n - 1)(n - 2)\} \\ = 2 + (n - 1)(n - 2) \end{array}$$
-
-$$FN = 2P + n(n - 2), \text{ from above}$$
-
-$$GN = 2(P - 1) - (n - 1)(n - 2)$$
-
-$$RN = FN - 2AB - n(n - 2)$$
-
-$$\begin{array}{l} \{2P + n(n - 2)\} \\ \{2(P - 1) - (n - 1)(n - 2)\} \\ = 4P(P - 1) \end{array}$$
-
-or
-
-(13) $4AB^2 - 2AB(FS - RN)$
-
-$$- RN \cdot FS = 4AB^2 - 4AB \cdot AH.$$
-
-Therefore
-
-(14) $2AB(FS - RN) + RN \cdot FS$
-
-$$= 4AB \cdot AH,$$
-
-or
-
-(15) $2AB(2AH + RN - FS) = RN \cdot FS.$
-
-$$4P^2$$
-
-$$- 2P\{(n-1)(a-2) + 2 - n(a-2)\}$$
-
-$$- n(a-2)\{(n-1)(a-2) + 2\}$$
-
-$$= 4P^2 - 4P$$
-
-$$2P\{2 - (a-2)\}$$
-
-$$+ n(a-2)\{(n-1)(a-2) + 2\}$$
-
-$$= 4P$$
-
-$$2P(a-2)$$
-
-$$= n(a-2)\{(n-1)(a-2) + 2\}$$
-
-Now $RN = FN - FR = FM - NM - FR = FM - \frac{1}{2}GM - FR$
-
-$$= BL - \frac{1}{2}GM - 2AB = BD + \frac{1}{2}DK - \frac{1}{2}GM - 2AB$$
-
-$$= BD + 2AB + 2BH - \frac{1}{2}GM - 2AB$$
-
-$$= BD + 2BH - \frac{1}{2}GM,$$
-
-and $FS = FR - RS$
-
-$$= 2AB - \frac{1}{2}GM.$$
-
-Therefore $RN - FS = BD + 2BH - 2AB$
-
-$$= BD - 2AH,$$
-
-and $RN - FS + 2AH = BD.$
-
-Again, we have
-
-$$RN = BD + 2BH - \frac{1}{2}GM = BD + 2BH - \frac{1}{2}BL + \frac{1}{2}FG$$
-
-$$= BD + 2BH - \frac{1}{2}BD - \frac{1}{2}DL + \frac{1}{2}FG$$
-
-$$= \frac{1}{2}BD + 2BH - \frac{1}{2}DL + \frac{1}{2}FG$$
-
-$$= \frac{1}{2}BD + 2BH - (AB + BH) + \frac{1}{2}FG$$
-
-$$= \frac{1}{2}BD + BH - AB + \frac{1}{2}FG$$
-
-$$= \frac{1}{2}BD - AH + \frac{1}{2}FG$$
-
-$$= \frac{1}{2}(BD + FG - 2AH).$$
-
-But, from the rule just preceding this proposition,
-
-$$FG = BD(2n - 1) + 2;$$
-
-therefore $BD + FG = 2n \cdot BD + 2,$
-
-or $BD + FG - 2AH = 2n \cdot BD;$
-
-therefore $RN = n \cdot BD.$
-
-Accordingly the equation (15) above becomes
-
-(16) $2AB \cdot BD = n \cdot BD \cdot FS,$
-
-or
-
-(17) $2AB = n \cdot FS.$
-
-$$2P(a-2)$$
-
-$$= n(a-2)\{(n-1)(a-2) + 2\}$$
-
-$$2P = n\{(n-1)(a-2) + 2\}$$
-
-Thus the double of any polygonal number must be divisible by its side, and the quotient is the number arrived at by adding 2 to the product of (side - 1) and (number of angles - 2).
-
-For a triangular number the quotient is $n + 1$, and is therefore greater than the side; and, as the quotient increases by $n - 1$ for every increase of 1 in the number of angles $(a)$, it is always greater than the side.
-
-We can therefore use the above formula (17) to find the number of ways in which a given number $P$ can be a polygonal number. Separate $2P$ into two factors in all possible ways, excluding $1 \cdot 2P$. Take the smaller factor as the side $(n)$. Then take the other factor, subtract 2 from it, and divide the remainder by $(n - 1)$. If $(n - 1)$ divides it without a remainder, the particular factors taken answer the purpose, and the quotient increased by 2 gives the number of angles $(a)$. If the second factor diminished by 2 is not divisible by $(n - 1)$ without a remainder, the particular division into factors is useless for the purpose. The number of ways in which $P$ can be a polygonal is the number of pairs of factors which answer the purpose. There is always one pair of factors which will serve, namely 2 and $P$ itself.
-
-The process of finding pairs of factors is shortened by the following considerations.
-
-$$2P = n \{(n - 1)(a - 2) + 2\};$$
-
-therefore $2P/n = 4 + an - a - 2n,$
-
-and $a = 2 + \frac{2(P - n)}{n(n - 1)};$
-
-therefore not only $2P/n$ but also $\frac{2(P - n)}{n(n - 1)}$ must be a whole number and, as $a$ is not less than 3,
-
-$$\frac{2(P - n)}{n(n - 1)} > \text{or} = 1,$$
-
-and consequently
-
-$$n < \text{or} = \frac{-1 + \sqrt{(1 + 8P)}}{2}.$$
-
-Thus in choosing values for the factor $n$ we need not go beyond that shown in the right-hand expression.
-
-Example 1. In what ways is 325 a polygonal number?
-
-Here $-1 + \sqrt{(1 + 8P)} = -1 + \sqrt{(2601)} = 50$. Therefore $n$ cannot be greater than 25. Now $2 \cdot 325 = 2 \cdot 5 \cdot 5 \cdot 13$, and the only possible values for $n$ are therefore 2, 5, 10, 13, 25. The corresponding values for $a$ are shown in the following table.
-
-|  n | 2 | 5 | 10 | 13 | 25  |
-| --- | --- | --- | --- | --- | --- |
-|  a | 325 | 34 | 9 | 6 | 3  |
-
-Example 2. $P = 120.$
-
-|  n | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 15  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  a | 120 | 41 | — | — | — | 6 | — | — | 3  |
+[. . .]

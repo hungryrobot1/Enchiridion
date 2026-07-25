@@ -446,6 +446,104 @@ def apply_post_fixes(text: str) -> str:
     return text
 
 
+# ---------------------------------------------------------------------
+# Heath's edition is a commentary edition: his own notes, and the modern
+# scholarship he surveys, sit inline with the translation. House policy is
+# that a text's markdown is the text itself, so those blocks come out. Each
+# cut is (first-paragraph prefix, last-paragraph prefix, replacement, why);
+# both anchors are asserted present and unique, and the span between them is
+# dropped. Where the excision would leave the text visibly jumping a gap,
+# the corpus lacuna mark '[. . .]' stands in its place.
+#
+# Kept deliberately: the PRELIMINARY (Diophantus's own notation key, the
+# thing the reader needs to read him at all) and his authorial asides.
+APPARATUS_CUTS: list[tuple[str, str, str | None, str]] = [
+    # II.8: the tail of Fermat's margin note, plus Heath's survey of the
+    # attempts on it (Euler, Kummer, Wieferich). Anachronistic here in any
+    # case, and §2 deliberately lets the reader meet this question at II.8
+    # without being told it is famous.
+    ("biquadrate into two biquadrates",
+     'Fermat says ("Relation des nouvelles', None,
+     "II.8 Fermat margin-note fragment + FLT survey"),
+    # IV.21: Euler's general solution and Fermat's triple-equation
+    # alternative, wedged between Diophantus's setup and his own solution
+    # ("If now 13 were a square" resumes from "x + 13" above).
+    ("This product will be found to be",
+     "The four numbers are then 3, 1, 8, 120", None,
+     "IV.21 Euler general solution + Fermat triple-equation"),
+    # V.19: Bachet's reconstruction of the three problems lost in the
+    # lacuna. The lacuna is real, so mark it as one.
+    ("[There is obviously a lacuna in the text after this enunciation",
+     "The words then in the text after the enunciation of v. 19",
+     "[. . .]", "V.19 Bachet's reconstruction of the lacuna"),
+    ("[The above is explained by the fact that",
+     "[The above is explained by the fact that", None,
+     "V.19 Heath's explanatory note"),
+    # End of Book VI: Heath's pointer to his own Supplement.
+    ("It is on Bachet's note to VI. 22",
+     "This note will be given in full", None,
+     "VI.24 Bachet/Fermat note + Supplement cross-reference"),
+    # On Polygonal Numbers breaks off mid-proof; everything after that is
+    # Wertheim's conjectural completion, not Diophantus.
+    ("[Here the fragment ends", None, "[. . .]",
+     "Polygonal Numbers: Wertheim's conjectural restoration to EOF"),
+]
+
+# Editorial matter too small to be its own paragraph.
+INLINE_APPARATUS: list[tuple[str, str, str]] = [
+    ("but with a distinguishing mark which Tannery writes in the form "
+     "\U0001d4b3 above the line to the right.",
+     "but with a distinguishing mark, \U0001d4b3, above the line to the right.",
+     "PRELIMINARY: attribution dropped, the sign itself kept"),
+    ("each of which is greater than 6— and less than 8, Diophantus should "
+     "have added.",
+     "each of which is greater than 6.",
+     "V.19: Heath's correction of Diophantus folded into the sentence"),
+]
+# Tannery's variant readings, bracketed inside V.8's displayed arithmetic.
+TANNERY_VARIANT_RE = re.compile(r" \[\\frac\{[^}]+\}\{[^}]+\}x? "
+                                r"(?:\\text\{ or \} \\frac\{[^}]+\}\{[^}]+\} )?"
+                                r"\\text\{ Tannery\}\]")
+
+
+def strip_apparatus(text: str) -> str:
+    paras = text.split("\n\n")
+    drop: set[int] = set()
+    for start, end, repl, why in APPARATUS_CUTS:
+        hits = [i for i, p in enumerate(paras)
+                if p is not None and p.startswith(start)]
+        if len(hits) != 1:
+            report.append(f"  !! cut start x{len(hits)} ({why}): {start[:50]}")
+            continue
+        i = hits[0]
+        if end is None:
+            j = len(paras) - 1
+        else:
+            tail = [k for k in range(i, len(paras))
+                    if paras[k] is not None and paras[k].startswith(end)]
+            if not tail:
+                report.append(f"  !! cut end NOT FOUND ({why}): {end[:50]}")
+                continue
+            j = tail[0]
+        drop.update(range(i, j + 1))
+        paras[i] = repl if repl else None
+        if repl:
+            drop.discard(i)
+        report.append(f"apparatus cut: {j - i + 1} para(s) — {why}")
+    text = "\n\n".join(p for k, p in enumerate(paras)
+                       if k not in drop and p is not None)
+
+    for old, new, why in INLINE_APPARATUS:
+        if text.count(old) != 1:
+            report.append(f"  !! inline apparatus x{text.count(old)} ({why})")
+            continue
+        text = text.replace(old, new)
+        report.append(f"apparatus inline: {why}")
+    text, n = TANNERY_VARIANT_RE.subn("", text)
+    report.append(f"apparatus inline: {n} Tannery variant readings")
+    return text
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
@@ -464,6 +562,7 @@ def main() -> int:
     text = collapse_inline_math(text)
     text = promote_problems(text)
     text = apply_post_fixes(text)
+    text = strip_apparatus(text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip() + "\n"
 
     print("\n".join(report))

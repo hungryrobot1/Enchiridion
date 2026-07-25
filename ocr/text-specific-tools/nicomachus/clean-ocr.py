@@ -502,7 +502,21 @@ POST_FIXES = [
 ]
 
 
+# II.21.5 straddles a page break, and D'Ooge's page-foot note on λόγος /
+# σχέσις landed between its halves — so the section appeared to break off at
+# "compared to those on" and the note appeared to end with Nicomachus's own
+# continued-proportion example. Drop the note, rejoin the sentence. (Both
+# halves are the translator's own words, verified against source/ocr-chunk-02;
+# nothing here is reconstructed.)
+SPLICED_NOTE_RE = re.compile(
+    r"compared to those on\n\nA good illustration of the proper use.*?"
+    r"as opposed to ", re.S)
+
+
 def apply_post_fixes(text: str, report) -> str:
+    text, n = SPLICED_NOTE_RE.subn("compared to those on ", text)
+    if n != 1:
+        report.append(f"POST-FIX MISS: II.21.5 spliced note (matched {n}x)")
     for old, new in POST_FIXES:
         if old not in text:
             report.append(f"POST-FIX MISS: {old[:60]}")

@@ -238,13 +238,26 @@ def main() -> int:
                 continue
         i += 1
 
+    # ---- paragraph numbers: '4. ' -> '**4** ' ----
+    # Morgan numbers every paragraph. Left as '4. ' at line start, markdown
+    # reads them as ordered-list items and indents the whole book; bold marks
+    # match the Frontinus/Nicomachus convention for numbered paragraphs.
+    numbered = 0
+    for i, (k, t) in enumerate(out):
+        if k == "para":
+            t2 = re.sub(r"^(\d+)\. ", r"**\1** ", t)
+            if t2 != t:
+                out[i] = (k, t2)
+                numbered += 1
+
     body = "\n\n".join(t for _, t in out)
     header = "# THE TEN BOOKS ON ARCHITECTURE\n\n*Translated by Morris Hicky Morgan*\n\n"
     out_path.write_text(header + body.strip() + "\n")
 
     books = sum(1 for k, _ in out if k == "h1")
     chapters = sum(1 for k, t in out if k == "h2" and t.startswith("## Chapter"))
-    print(f"books: {books}/10   chapters: {chapters}   paragraph rejoins: {rejoined}")
+    print(f"books: {books}/10   chapters: {chapters}   paragraph rejoins: {rejoined}   "
+          f"numbered paragraphs: {numbered}")
     print(f"hyphen joins: {stats['hyphen_joins']}   markers: {stats['markers']}   "
           f"captions dropped: {stats['captions']}   images dropped: {stats['images']}   "
           f"pagenums: {stats['pagenums']}")

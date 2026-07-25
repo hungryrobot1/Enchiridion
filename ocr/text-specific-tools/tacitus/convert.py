@@ -21,9 +21,12 @@ Apparatus-stripping policy — the text itself only:
         the four translator/editorial note blocks (the Book 11 [1]
         "Translator's Note" + book-summary paragraph, and the two
         loss-notices).
-  KEEP  the English text complete, chapter numbers as inline bold
-        citation marks (**N.**, the Frontinus convention — chapters are
-        single paragraphs, not headings), books as '# BOOK <roman>' h1s.
+  KEEP  the English text complete, books as '# BOOK <roman>' h1s and
+        chapters as '## Chapter N' h2s (the Seneca/Galen/Nicomachus
+        convention). Chapters were once inline '**N.**' marks, but a book
+        of 88 single-paragraph chapters is then one 100KB+ reader section:
+        the lazy parser chokes and the passage recommendations (which are
+        cited by chapter) have nothing to deep-link to.
   MARK  the two great lacunae with the corpus lacuna convention
         '[. . .]' on its own line: after 5.11 (rest of Book 5 + start
         of Book 6 lost) and after 16.35 (the Annals break off
@@ -114,7 +117,8 @@ def convert() -> str:
                 assert anchor == num, \
                     f"book {book}: inline {num} != anchor {anchor} ({path.name})"
                 nums.append(num)
-                out.append(f"**{num}.** {text[m.end():]}")
+                out.append(f"## Chapter {num}")
+                out.append(text[m.end():])
         assert nums == list(range(1, len(nums) + 1)), \
             f"book {book}: non-contiguous chapters {nums[:5]}…{nums[-5:]}"
         assert len(nums) == ORACLE[book], \
@@ -135,11 +139,19 @@ def main() -> int:
     text = convert()
     print("\n".join(report))
     h1 = len(re.findall(r"^# ", text, re.M))
-    marks = len(re.findall(r"^\*\*\d+\.\*\*", text, re.M))
+    marks = len(re.findall(r"^## Chapter \d+$", text, re.M))
     words = len(text.split())
     print(f"\noutput: {len(text)} chars, {words} words, "
-          f"{h1} h1, {marks} chapter marks, "
+          f"{h1} h1, {marks} chapter headings, "
           f"{sum(ORACLE.values())} expected")
+    assert marks == sum(ORACLE.values()), "chapter-heading count off"
+    # The hang class this promotion exists to kill: no single book section
+    # should approach the ~100KB the lazy parser struggles with.
+    for chunk in re.split(r"^# BOOK ", text, flags=re.M)[1:]:
+        biggest = max(len(c) for c in re.split(r"^## ", chunk, flags=re.M))
+        book = chunk.split("\n", 1)[0]
+        print(f"  BOOK {book:<5} {len(chunk)//1024:>4}KB, "
+              f"largest chapter {biggest//1024}KB")
 
     SCRATCH.parent.mkdir(parents=True, exist_ok=True)
     SCRATCH.write_text(text)

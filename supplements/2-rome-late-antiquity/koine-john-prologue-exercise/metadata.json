@@ -1,0 +1,12 @@
+{
+  "title": "Koine Exercise: The Prologue of John",
+  "type": "exercise-set",
+  "era": "rome-late-antiquity",
+  "texts": [
+    "holy-bible-kjv"
+  ],
+  "description": "Ἐν ἀρχῇ ἦν ὁ λόγος — the canonical first passage of Koine, read in Greek. Eighteen verses, a small vocabulary, and a word you already know an argument about.",
+  "filename": "content.md",
+  "prerequisites": [],
+  "content_status": "stub"
+}

@@ -1,0 +1,20 @@
+# Verse in this corpus is carried by markdown hard breaks — two trailing
+# spaces at the end of a line. Texts that are verse throughout declare
+# `"layout": "verse"` in their metadata and get the breaks applied at render
+# time, but texts that alternate prose and verse (Boethius, Iamblichus) cannot:
+# blanket breaks would shatter their prose. Those files carry the trailing
+# spaces literally, and an editor that trims them on save silently collapses
+# the poetry into paragraphs. It has happened once already.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{js,json,py,css,html}]
+trim_trailing_whitespace = true
+indent_style = space

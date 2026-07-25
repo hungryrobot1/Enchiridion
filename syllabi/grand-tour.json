@@ -341,6 +341,11 @@
           ]
         },
         {
+          "type": "supplement",
+          "id": "ancient-algorithms-lab",
+          "note": "Nicomachus describes Eratosthenes' sieve at I. 13. Run it, and Euclid's method for the greatest common measure, by hand."
+        },
+        {
           "type": "text",
           "id": "holy-bible-kjv",
           "note": "Second station: the histories, wisdom, and the prophets.",
@@ -448,6 +453,11 @@
           ]
         },
         {
+          "type": "supplement",
+          "id": "koine-john-prologue-exercise",
+          "note": "John's prologue in the original — the first Koine you read for yourself, and the payoff of Chapter 7."
+        },
+        {
           "type": "text",
           "id": "pliny-natural-history",
           "passages": [
@@ -466,6 +476,11 @@
             "Books XXXIII–XXXVII: the history of art — metals, bronze and sculpture, painting, marble, and precious stones"
           ],
           "note": "An encyclopedia, not a treatise — the recommendations are doors in. Follow whatever catches you and leave the rest."
+        },
+        {
+          "type": "supplement",
+          "id": "pliny-botany-lab",
+          "note": "Pliny's eight books on plants are not read through. Take him into a garden instead."
         },
         {
           "type": "text",

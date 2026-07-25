@@ -1,0 +1,12 @@
+{
+  "title": "Reading Diophantus",
+  "type": "notation-guide",
+  "era": "rome-late-antiquity",
+  "texts": [
+    "diophantus-arithmetica"
+  ],
+  "description": "What Diophantus actually wrote \u2014 the syncopated notation of the Arithmetica \u2014 and why Heath's page reads as modern algebra. The little you need to follow him: the unknown, its powers, and his one move.",
+  "filename": "content.md",
+  "prerequisites": [],
+  "content_status": "stub"
+}

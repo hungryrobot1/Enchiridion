@@ -1,11 +1,11 @@
 {
-  "title": "Pneumatics and Hydraulics Lab",
+  "title": "Lab: The Reaction Engine",
   "type": "lab-manual",
   "era": "rome-late-antiquity",
   "texts": [
     "hero-of-alexandria-pneumatics"
   ],
-  "description": "Simple pneumatic and hydraulic demonstrations inspired by Hero's devices — siphons, pressure, and steam",
+  "description": "The aeolipile \u2014 Hero's spinning steam sphere, the first reaction engine. Reconstruct it and feel the recoil of escaping steam.",
   "filename": "content.md",
   "prerequisites": [],
   "content_status": "stub"

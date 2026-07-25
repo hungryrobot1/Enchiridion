@@ -81,10 +81,12 @@
   line-height: var(--line-height);
 }
 
-/* Collapsed era shows just its title line — the description is part of the
-   summary, so hide it explicitly when folded. */
-.gt-section:not([open]) .gt-section__description {
-  display: none;
+/* Collapsed era keeps its description visible — it fills what would otherwise
+   be an empty gap, so the folded list reads as a scannable set of era summaries
+   rather than bare title cards. The between-section gap shrinks to match, so
+   showing the description fills the space instead of pushing the next era down. */
+.gt-section:not([open]) {
+  margin-bottom: var(--space-xl);
 }
 
 /* Item rows */

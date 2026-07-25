@@ -1,0 +1,12 @@
+{
+  "title": "Lab: The Force Pump",
+  "type": "lab-manual",
+  "era": "rome-late-antiquity",
+  "texts": [
+    "hero-of-alexandria-pneumatics"
+  ],
+  "description": "Hero's double-barrelled force pump \u2014 the hydraulic heart of the Roman fire-engine. Trace how valves turn a steady push into a jet.",
+  "filename": "content.md",
+  "prerequisites": [],
+  "content_status": "stub"
+}

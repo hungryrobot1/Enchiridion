@@ -14,8 +14,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 
 2. I apply the term *concave in the same direction* to a line such that, if any two points on it are taken, either all the straight lines connecting the points fall on the same side of the line, or some fall on one and the same side while others fall on the line itself, but none on the other side.
 
-* Though the word used is *ἀξιώματα*, the “axioms” are more of the nature of definitions; and in fact Eutocius in his notes speaks of them as such (*δροί*).
-
 † Under the term *bent line* Archimedes includes not only curved lines of continuous curvature, but lines made up of any number of lines which may be either straight or curved.
 
 3. Similarly also there are certain terminated surfaces, not themselves being in a plane but having their extremities in a plane, and such that they will either be wholly on the same side of the plane containing their extremities, or have no part of them on the other side.
@@ -30,8 +28,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 
 1. Of all lines which have the same extremities the straight line is the least*.
 
-* This well-known Archimedean assumption is scarcely, as it stands, a definition of a straight line, though Proclus says [p. 110 ed. Friedlein] “Archimedes defined (ὡρίσατο) the straight line as the least of those [lines] which have the same extremities. For because, as Euclid’s definition says, ἐξ ἴσον κεῖται τοῖς ἐφ’ ἐαυτῆς σημείοις, it is in consequence the least of those which have the same extremities.” Proclus had just before [p. 109] explained Euclid’s definition, which, as will be seen, is different from the ordinary version given in our textbooks; a straight line is not “that which lies evenly between its extreme points,” but “that which ἐξ ἴσον τοῖς ἐφ’ ἐαυτῆς σημείοις κεῖται.” The words of Proclus are, “He [Euclid] shows by means of this that the straight line alone [of all lines] occupies a distance (κατέχειν διάστημα) equal to that between the points on it. For, as far as one of its points is removed from another, so great is the length (μέγεθος) of the straight line of which the points are the extremities; and this is the meaning of τὸ ἐξ ἴσον κεῖσθαι τοῖς ἐφ’ ἐαυτῆς σημείοις. But, if you take two points on a circumference or any other line, the distance cut off between them along the line is greater than the interval separating them; and this is the case with every line except the straight line.” It appears then from this that Euclid’s definition should be understood in a sense very like that of
-
 2. Of other lines in a plane and having the same extremities, [any two] such are unequal whenever both are concave in the same direction and one of them is either wholly included between the other and the straight line which has the same extremities with it, or is partly included by, and is partly common with, the other; and that [line] which is included is the lesser [of the two].
 
 3. Similarly, of surfaces which have the same extremities, if those extremities are in a plane, the plane is the least [in area].
@@ -43,8 +39,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 These things being premised, if a polygon be inscribed in a circle, it is plain that the perimeter of the inscribed polygon is less than the circumference of the circle; for each of the sides of the polygon is less than that part of the circumference of the circle which is cut off by it.”
 
 Archimedes’ assumption, and we might perhaps translate as follows, “A straight line is that which extends equally (ἐξ ἴσου κεῖται) with the points on it.” or, to follow Proclus’ interpretation more closely, “A straight line is that which represents equal extension with [the distances separating] the points on it.”
-
-* With regard to this assumption compare the Introduction, chapter III. § 2.
 
 ## Proposition 1.
 
@@ -655,8 +649,6 @@ Since therefore $B$ is neither greater nor less than $S$,
 
 $$B = S.$$
 
-* This is of course the geometrical equivalent of saying that, if $a$, $\beta$ be two angles each less than a right angle, and $a &gt; \beta$, then $\sin a &gt; \sin \beta$.
-
 ## Proposition 15.
 
 The surface of any isosceles cone has the same ratio to its base as the side of the cone has to the radius of the base.
@@ -856,8 +848,6 @@ Therefore $(\text{cone } OAB) = (\text{cone } FGH) + (\text{rhombus } ODCE)$, an
 ## Proposition 20.
 
 If one of the two isosceles cones forming a rhombus be cut by a plane parallel to the base and on the resulting circular section a cone be described having the same apex as the second cone, and if the resulting rhombus be taken from the whole rhombus, the remainder will be equal to the cone with base equal to the surface of the portion of the cone between the parallel planes and with height equal to the perpendicular drawn from the apex of the second * cone to the side of the first cone.
-
-* There is a slight error in Heiberg’s translation “prioris coni” and in the corresponding note, p. 93. The perpendicular is not drawn from the apex of the cone which is cut by the plane but from the apex of the other.
 
 Let the rhombus be $OACB$, and let the cone $OAB$ be cut by a plane parallel to its base in the circle about $DE$ as diameter. With this circle as base and $C$ as apex describe a cone, which therefore with $ODE$ forms the rhombus $ODCE$.
 
@@ -1265,8 +1255,6 @@ $$
 But this is impossible, since the volume of the circumscribed
 
 ![img-28.jpeg](images/img-28.jpeg)
-
-* That $\beta: \gamma &gt; \beta^{3}: \delta^{3}$ is assumed by Archimedes. Eutocius proves the property in his commentary as follows.
 
 Take $x$ such that $\beta: \delta = \delta : x$.
 
@@ -1724,8 +1712,6 @@ $$
 S = R.
 $$
 
-* Cf. note on Prop. 34, p. 42..
-
 # ON THE SPHERE AND CYLINDER, BOOK II.
 
 "Archimedes to Dositheus greeting.
@@ -2125,8 +2111,6 @@ $$
 “And the analysis and synthesis of both problems will be given at the end*.”
 
 The synthesis of the main problem will be as follows. Let $R : S$ be the given ratio, $R$ being less than $S$. $AA'$ being a
-
-* See the note following this proposition.
 
 diameter of a great circle, and $O$ the centre, produce $OA$ to $D$ so that $OA = AD$, and divide $AD$ in $E$ so that
 
@@ -2786,8 +2770,6 @@ Hence $Q$ lies on a given rectangular hyperbola.
 
 Thus $Q$ is determined as the intersection of a given ellipse
 
-* There is a mistake in the Greek text here which seems to have escaped the notice of all the editors up to the present. The words are ἐὰν ἄρα ποιήσωμεν, ὡς τὴν Δ πρὸς τὴν διπλασίαν τῆς Γ, οὕτως τὴν ΤΤ πρὸς ἄλλην τινα ὡς τὴν Φ, i.e. (with the lettering above) “ If we take a length $p$ such that $D:2C = PP':p$.” This cannot be right, because we should then have
-
 $$
 QV^2:PV.P'V = PP':p,
 $$
@@ -2842,8 +2824,6 @@ QV^*: PV.P'V &amp;= p: PP' \\
 &amp;= D: 2C.
 \end{aligned}
 $$
-
-* Here too the Greek text repeats the same error as that noted on p. 77.
 
 And, by parallels,
 
@@ -3177,8 +3157,6 @@ $$
 \quad = A'M : AM.
 \end{array}
 $$
-
-* This is expressed in Archimedes' phrase by saying that the greater segment has to the lesser a ratio “less than the duplicate $(\partial \pi \lambda \partial \pi \omega)$ of that which the surface of the greater segment has to the surface of the lesser, but greater than the sesquialterate $(\partial \mu \partial \mu \omega)$ [of that ratio].”
 
 We have therefore to prove
 
@@ -3752,8 +3730,6 @@ Now the remainder of the earlier theorems were propositions concerning the right
 
 I. Concerning the right-angled conoid it was laid down that, if a section of a right-angled cone [a parabola] be made to revolve about the diameter [axis] which remains fixed and
 
-* The whole of this introductory matter, including the definitions, is translated literally from the Greek text in order that the terminology of Archimedes may be faithfully represented. When this has once been set out, nothing will be lost by returning to modern phraseology and notation. These will accordingly be employed, as usual, when we come to the actual propositions of the treatise.
-
 return to the position from which it started, the figure comprehended by the section of the right-angled cone is called a **right-angled conoid**, and the diameter which has remained fixed is called its **axis**, while its **vertex** is the point in which the axis meets ($\bar{a}\pi\tau\epsilon\tau a\iota$) the surface of the conoid. And if a plane touch the right-angled conoid, and another plane drawn parallel to the tangent plane cut off a segment of the conoid, the **base** of the segment cut off is defined as the portion intercepted by the section of the conoid on the cutting plane, the **vertex** [of the segment] as the point in which the first plane touches the conoid, and the **axis** [of the segment] as the portion cut off within the segment from the line drawn through the vertex of the segment parallel to the axis of the conoid.
 
 The questions propounded for consideration were
@@ -3774,8 +3750,6 @@ The following questions are propounded for consideration,
 
 (2) why, if a segment of the obtuse-angled conoid be cut off by a plane not at right angles to the axis, the segment so cut off will bear to the figure which has the same base as the segment and the same axis, being a segment of a cone* (ἀπότμαμα κώνου), the ratio which the line equal to the sum of the axis of the segment and three times the line adjacent to the axis bears to the line equal to the sum of the axis of the segment and twice the line adjacent to the axis.
 
-* A segment of a cone is defined later (p. 104).
-
 III. Concerning spheroidal figures we lay down the following premisses. If a section of an acute-angled cone [ellipse] be made to revolve about the greater diameter [major axis] which remains fixed and return to the position from which it started, the figure comprehended by the section of the acute-angled cone is called an **oblong spheroid** (παραμᾶκες σφαιροειδές). But if the section of the acute-angled cone revolve about the lesser diameter [minor axis] which remains fixed and return to the position from which it started, the figure comprehended by the section of the acute-angled cone is called a **flat spheroid** (ἐπιπλατὺ σφαιροειδές). In either of the spheroids the **axis** is defined as the diameter [axis] which has remained fixed, the **vertex** as the point in which the axis meets the surface of the spheroid, the **centre** as the middle point of the axis, and the **diameter** as the line drawn through the centre at right angles to the axis. And, if parallel planes touch, without cutting, either of the spheroidal figures, and if another plane be drawn parallel to the tangent planes and cutting the spheroid, the **base** of the resulting segments is defined as the portion intercepted by the section of the spheroid on the cutting plane, their **vertices** as the points in which the parallel planes touch the spheroid, and their **axes** as the portions cut off within the segments from the straight line joining their vertices. And that the planes touching the spheroid meet its surface at one point only, and that the straight line joining the points of contact passes through the centre of the spheroid, we shall prove. Those spheroidal figures are called **similar** in which the axes have the same ratio to the ‘diameters.’ And let segments of spheroidal figures and conoids be called **similar** if they are cut off from similar figures and have their bases similar, while their axes, being either at right angles to the planes of the bases or making equal angles with the corresponding diameters [axes] of the bases, have the same ratio to one another as the corresponding diameters [axes] of the bases.
 
 The following questions about spheroids are propounded for consideration,
@@ -3791,8 +3765,6 @@ When the aforesaid theorems are proved, there are discovered by means of them ma
 Such, for example, are the theorems
 
 (1) that similar spheroids and similar segments both of
-
-* See the definition of a segment of a cone (ἀπότμαμα κώνου) on p. 104.
 
 spheroidal figures and conoids have to one another the triplicate ratio of their axes, and
 
@@ -4202,8 +4174,6 @@ $$
 n \cdot A_n : (A_1 + A_2 + \ldots + A_{n-1}) &gt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right).
 $$
 
-* The phraseology of Archimedes here is that associated with the traditional method of application of areas: εἰ κα...παρ' ἐκάσταν αὐτῶν παραπέσῃ τι χωρίον ὑπερβάλλον εἶδει τετραγώνῳ, “if to each of the lines there be applied a space [rectangle] exceeding by a square figure.” Thus $A_1$ is a rectangle of height $x$ applied to a line $a$ but overlapping it so that the base extends a distance $x$ beyond $a$.
-
 ## Proposition 3.
 
 (1) If $TP, TP'$ be two tangents to any conic meeting in $T$, and if $Qq, Q'q'$ be any two chords parallel respectively to $TP, TP'$ and meeting in $O$, then
@@ -4230,8 +4200,6 @@ $$
 
 it will then follow that $p$ is equal to the parameter of the ordinates to the diameter $PV$, i.e. those which are parallel to $QV$.
 
-* i.e. in the treatises on conics by Aristaeus and Euclid.
-
 "For this is proved in the conics*."
 
 Thus $$QV^2 = p \cdot PV$$
@@ -4253,8 +4221,6 @@ that is, the area of the triangle $PQQ'$ is constant so long as $PV$ is of const
 Hence also the area of the segment $$PQQ'$$ is constant under the same conditions; for the segment is equal to $$\frac{4}{3}\triangle PQQ'$$.
 
 [Quadrature of the Parabola, Prop. 17 or 24.]
-
-* The theorem which is here assumed by Archimedes as known can be proved in various ways.
 
 (1) It is easily deduced from Apollonius I. 49 (cf. Apollonius of Perga, pp. liii, 39). If in the figure the tangents at $A$ and $P$ be drawn, the former meeting $PV$ in $E$, and the latter meeting the axis in $T$, and if $AE$, $PT$ meet at $C$, the proposition of Apollonius is to the effect that
 
@@ -4635,8 +4601,6 @@ If the section be by a plane at right angles to the axis of the spheroid, it wil
 
 "And the proofs of all these propositions are evident."*
 
-* Cf. the Introduction, chapter III. § 4.
-
 ## Proposition 12.
 
 If a paraboloid of revolution be cut by a plane neither parallel nor perpendicular to the axis, and if the plane through the axis perpendicular to the cutting plane intersect it in a straight line of which the portion intercepted within the paraboloid is $RR'$, the section of the paraboloid will be an ellipse whose major axis is $RR'$ and whose minor axis is equal to the perpendicular distance between the lines through $R$, $R'$ parallel to the axis of the paraboloid.
@@ -4686,8 +4650,6 @@ Suppose the cutting plane to be at right angles to the plane of the paper, and s
 
 ![img-65.jpeg](images/img-65.jpeg)
 
-* Archimedes begins Prop. 14 for the spheroid with the remark that, when the cutting plane passes through or is parallel to the axis, the case is clear ($\delta \theta \lambda \omega$). Cf. Prop. 11 (3).
-
 through the axis $ANF$ which intersects the cutting plane at right angles in $RR'$. The section of the hyperboloid or spheroid by the plane of the paper is thus a hyperbola or ellipse having $ANF$ for its transverse or major axis.
 
 Take any point on the section made by the cutting plane, as $Q$, and draw $QM$ perpendicular to $RR'$. $QM$ will then be perpendicular to the plane of the paper.
@@ -4721,8 +4683,6 @@ Hence in both cases the locus of $Q$ is an ellipse whose major axis is $RR'$.
 
 **Cor. 2.** In all conoids or spheroids parallel sections will be similar, since the ratio $OA^2 : OP^2$ is the same for all the parallel sections.
 
-* With reference to this assumption of, the Introduction, chapter III. § 3.
-
 ## Proposition 15.
 
 (1) If from any point on the surface of a conoid a line be drawn, in the case of the paraboloid, parallel to the axis, and, in the case of the hyperboloid, parallel to any line passing through the vertex of the enveloping cone, the part of the straight line which is in the same direction as the convexity of the surface will fall without it, and the part which is in the other direction within it.
@@ -4734,8 +4694,6 @@ Hence the property follows from the plane properties of the conics.
 (2) If a plane touch a conoid without cutting it, it will touch it at one point only, and the plane drawn through the point of contact and the axis of the conoid will be at right angles to the plane which touches it.
 
 For, if possible, let the plane touch at two points. Draw through each point a parallel to the axis. The plane passing through both parallels will therefore either pass through, or be parallel to, the axis. Hence the section of the conoid made by this plane will be a conic [Prop. 11 (1), (2)], the two points will lie on this conic, and the line joining them will lie within the conic and therefore within the conoid. But this line will be in the tangent plane, since the two points are in it. Therefore some portion of the tangent plane will be within the conoid; which is impossible, since the plane does not cut it.
-
-* There seems to be some error in the text here, which says that “the diameter” (i.e. axis) of the hyperbola is “the straight line drawn in the conoid from the vertex of the cone.” But this straight line is not, in general, the axis of the section.
 
 Therefore the tangent plane touches in one point only.
 
@@ -5621,19 +5579,13 @@ $$
 
 Of most of the theorems which I sent to Conon, and of which you ask me from time to time to send you the proofs, the demonstrations are already before you in the books brought to you by Heracleides; and some more are also contained in that which I now send you. Do not be surprised at my taking a considerable time before publishing these proofs. This has been owing to my desire to communicate them first to persons engaged in mathematical studies and anxious to investigate them. In fact, how many theorems in geometry which have seemed at first impracticable are in time successfully worked out! Now Conon died before he had sufficient time to investigate the theorems referred to; otherwise he would have discovered and made manifest all these things, and would have enriched geometry by many other discoveries besides. For I know well that it was no common ability that he brought to bear on mathematics, and that his industry was extraordinary. But, though many years have elapsed since Conon’s death, I do not find that any one of the problems has been stirred by a single person. I wish now to put them in review one by one, particularly as it happens that there are two included among them which are impossible of realisation* [and which may serve as a warning] how those who claim to discover everything but produce no proofs of the same may be confuted as having actually pretended to discover the impossible.
 
-* Heiberg reads τέλος δὲ ποθεσῶμενα, but F has τέλους, so that the true reading is perhaps τέλους δὲ ποτὶδεῶμενα. The meaning appears to be simply ‘wrong.’
-
 What are the problems I mean, and what are those of which you have already received the proofs, and those of which the proofs are contained in this book respectively, I think it proper to specify. The first of the problems was, Given a sphere, to find a plane area equal to the surface of the sphere; and this was first made manifest on the publication of the book concerning the sphere, for, when it is once proved that the surface of any sphere is four times the greatest circle in the sphere, it is clear that it is possible to find a plane area equal to the surface of the sphere. The second was, Given a cone or a cylinder, to find a sphere equal to the cone or cylinder; the third, To cut a given sphere by a plane so that the segments of it have to one another an assigned ratio; the fourth, To cut a given sphere by a plane so that the segments of the surface have to one another an assigned ratio; the fifth, To make a given segment of a sphere similar to a given segment of a sphere*; the sixth, Given two segments of either the same or different spheres, to find a segment of a sphere which shall be similar to one of the segments and have its surface equal to the surface of the other segment. The seventh was, From a given sphere to cut off a segment by a plane so that the segment bears to the cone which has the same base as the segment and equal height an assigned ratio greater than that of three to two. Of all the propositions just enumerated Heracleides brought you the proofs. The proposition stated next after these was wrong, viz. that, if a sphere be cut by a plane into unequal parts, the greater segment will have to the less the duplicate ratio of that which the greater surface has to the less. That this is wrong is obvious by what I sent you before; for it included this proposition: If a sphere be cut into unequal parts by a plane at right angles to any diameter in the sphere, the greater segment of the surface will have to the less the same ratio as the greater segment of the diameter has to the less, while the greater segment of the sphere has to the less a ratio less than the duplicate ratio of that which the
-
-* τὸ δοθέν τμᾶμα σφαίρας τῷ δοθέντι τμάματι σφαίρας ὁμοιώσαι, i.e. to make a segment of a sphere similar to one given segment and equal in content to another given segment. [Cl. On the Sphere and Cylinder, II. 5.]
 
 greater surface has to the less, but greater than the sesquialterate* of that ratio. The last of the problems was also wrong, viz. that, if the diameter of any sphere be cut so that the square on the greater segment is triple of the square on the lesser segment, and if through the point thus arrived at a plane be drawn at right angles to the diameter and cutting the sphere, the figure in such a form as is the greater segment of the sphere is the greatest of all the segments which have an equal surface. That this is wrong is also clear from the theorems which I before sent you. For it was there proved that the hemisphere is the greatest of all the segments of a sphere bounded by an equal surface.
 
 After these theorems the following were propounded concerning the cone†. If a section of a right-angled cone [a parabola], in which the diameter [axis] remains fixed, be made to revolve so that the diameter [axis] is the axis [of revolution], let the figure described by the section of the right-angled cone be called a conoid. And if a plane touch the conoidal figure and another plane drawn parallel to the tangent plane cut off a segment of the conoid, let the base of the segment cut off be defined as the cutting plane, and the vertex as the point in which the other plane touches the conoid. Now, if the said figure be cut by a plane at right angles to the axis, it is clear that the section will be a circle; but it needs to be proved that the segment cut off will be half as large again as the cone which has the same base as the segment and equal height. And if two segments be cut off from the conoid by planes drawn in any manner, it is clear that the sections will be sections of acute-angled cones [ellipses] if the cutting planes be not at right angles to the axis; but it needs to be proved that the segments will bear to one another the ratio of the squares on the lines drawn from their vertices parallel to the axis to meet the cutting planes. The proofs of these propositions are not yet sent to you.
 
 After these came the following propositions about the spiral,
-
-* (λόγον) μείξονα ἡ ἡμύλιον τοῦ, ὃν ἔχει κ.τ.λ., i.e. a ratio greater than (the ratio of the surfaces)‡. See On the Sphere and Cylinder, II. 8.
 
 † This should be presumably ‘the conoid,’ not ‘the cone.’
 
@@ -5733,8 +5685,6 @@ $$
 D : E &lt; OB : BT.
 $$
 
-* This construction, which is assumed without any explanation as to how it is to be effected, is described in the original Greek thus: “let $PH$ be placed (κείσθω) equal to $D$, verging (νεύουσα) towards $A$.” This is the usual phraseology used in the type of problem known by the name of νεύσις.
-
 Suppose that a line $PH$ (greater than $BT$) is taken such that
 
 $$
@@ -5767,8 +5717,6 @@ where $D: E$ is any given ratio greater than $BM: MO$.
 
 Draw $OT$ parallel to $AB$, and $BT$ perpendicular to $BO$ meeting $OT$ in $T$.
 
-* The Greek phrase is “let $PH$ be placed between the circumference and the straight line ($OH$) through $B$.” The construction is assumed, like the similar one in the last proposition.
-
 In this case,
 $$ D : E &gt; BM : MO $$
 &gt; OB : BT, by similar triangles.
@@ -5797,8 +5745,6 @@ Take a point $C$ on $TB$ produced such that
 $$ D : E = OB : BC, $$
 whence
 $$ BC &gt; BT. $$
-
-* $PH$ is described in the Greek as νεύονεαν ἐπὶ (verging to) the point $B$. As before the construction is assumed.
 
 Through the points $O, T, C$ describe a circle, and let $OB$ be produced to meet this circle in $K$.
 
@@ -5860,8 +5806,6 @@ PF: BG = OP: BC \\
 = D: E.
 \end{array}
 $$
-
-* The Greek words used are: “it is possible to place another [straight line] $GQ$ equal to $KB$ verging (νεόσναν) towards $O$.” This particular νεῦσις is discussed by Pappus (p. 298, ed. Hultsch). See the Introduction, chapter v.
 
 ## Proposition 9.
 
@@ -5960,8 +5904,6 @@ $$
 
 **Cor. 2.** All the results will equally hold if similar figures are substituted for squares.
 
-* See the note on the last proposition.
-
 ## Proposition 11.
 
 If $A_1, A_2, \ldots, A_n$ be $n$ lines forming an ascending arithmetical progression [in which the common difference is equal to the least term $A_1$]*, then
@@ -5991,8 +5933,6 @@ The following proportion is therefore obviously true, viz.
 $$
 (n - 1) A_n^2 : (n - 1) (A_n \cdot A_1 + \frac{1}{3} A_{n-1}^2) = A_n^2 : \{A_n \cdot A_1 + \frac{1}{3}(A_n - A_1)^2\}.
 $$
-
-* The proposition is true even when the common difference is not equal to $A_1$, and is assumed in the more general form in Props. 25 and 26. But, as Archimedes' proof assumes the equality of $A_1$ and the common difference, the words are here inserted to prevent misapprehension.
 
 In order therefore to prove the desired result, we have only to show that
 
@@ -6114,8 +6054,6 @@ If any number of straight lines drawn from the origin to meet the spiral make eq
 
 [The proof is obvious.]
 
-* The literal translation would of course be the “beginning of the spiral” and “the beginning of the revolution” respectively. But the modern names will be more suitable for use later on, and are therefore employed here.
-
 ## Proposition 13.
 
 If a straight line touch the spiral, it will touch it in one point only.
@@ -6149,8 +6087,6 @@ OP : OQ = (arc AKP') : (arc AKQ').
 $$
 
 For, while the revolving line $OA$ moves about $O$, the point $A$ on it moves uniformly along the circumference of the circle
-
-* This is assumed as a known proposition; but it is easily proved.
 
 $AKP'Q'$, and at the same time the point describing the spiral moves uniformly along $OA$.
 
@@ -7452,8 +7388,6 @@ $$
 \end{array}
 $$
 
-* This easy deduction from Prop. 14 is assumed by Archimedes without proof.
-
 # ON THE EQUILIBRIUM OF PLANES, BOOK II.
 
 ## Proposition 1.
@@ -7467,8 +7401,6 @@ $$
 In the same straight line with $DE$ measure $EH$, $EL$ each equal to $DC$, and $DK$ equal to $DH$; whence it follows at once that $DK = CE$, and also that $KC = CL$.
 
 ![img-105.jpeg](images/img-105.jpeg)
-
-* This proposition is really a particular case of Props. 6, 7 of Book I. and is therefore hardly necessary. As, however, Book II. relates exclusively to parabolic segments, Archimedes' object was perhaps to emphasize the fact that the magnitudes in I. 6, 7 might be parabolic segments as well as rectilinear figures. His procedure is to substitute for the segments rectangles of equal area, a substitution which is rendered possible by the results obtained in his separate treatise on the Quadrature of the Parabola.
 
 Apply a rectangle $MN$ equal in area to the parabolic segment $P$ to a base equal to $KH$, and place the rectangle so that $KH$ bisects it, and is parallel to its base.
 
@@ -7672,8 +7604,6 @@ Bisect $AB$, $AB'$ in $D$, $D'$ respectively, and join $DD'$ meeting $AO$ in $E$
 
 Now $QD$, $Q'D'$ are equal*, and therefore the segments of which they are the diameters are equal [On Conoids and Spheroids, Prop. 3].
 
-* This may either be inferred from Lemma (1) above (since $QQ'$, $DD'$ are both parallel to $BB'$), or from Prop. 19 of the Quadrature of the Parabola, which applies equally to $Q$ or $Q'$.
-
 ![img-109.jpeg](images/img-109.jpeg)
 
 Also, since $QD, Q'D'$ are parallel*, and $DE = ED'$, $K$ is the middle point of $HH'$.
@@ -7695,8 +7625,6 @@ If now the centre of gravity of the triangle $ABB'$ be $F$, the centre of gravit
 ![img-110.jpeg](images/img-110.jpeg)
 
 (sum of segments $AQB, AQ'B'$) : $\triangle ABB' = FG : GK$. [I. 6, 7]
-
-* There is clearly some interpolation in the text here, which has the words καὶ ἐπεὶ παραλληλόγραμμόν ἐστι τὸ ΘΖΗΙ. It is not yet proved that $H'D'DH$ is a parallelogram; this can only be inferred from the fact that $H, H'$ divide $QD, Q'D'$ respectively in the same ratio. But this latter property does not appear till Prop. 7, and is then only enunciated of similar segments. The interpolation must have been made before Eutocius' time, because he has a note on the phrase, and explains it by gravely assuming that $H, H'$ divide $QD, Q'D'$ respectively in the same ratio.
 
 And the centre of gravity of the inscribed figure $BQAQ'B'$ is a point $F'$ on $LF$ determined by the proportion
 
@@ -8245,8 +8173,6 @@ I say then that, even if a sphere were made up of the sand, as great as Aristarc
 
 It is true that some have tried, as you are of course aware, to prove that the said perimeter is about 300,000 stadia. But I go further and, putting the magnitude of the earth at ten times the size that my predecessors thought it, I suppose its perimeter to be about 3,000,000 stadia and not greater.
 
-* *Ἀρχαῖ* was apparently the title of the work sent to Zeuxippus. Cf. the note attached to the enumeration of lost works of Archimedes in the Introduction, Chapter II., *ad fin*.
-
 2. The diameter of the earth is greater than the diameter of the moon, and the diameter of the sun is greater than the diameter of the earth.
 
 In this assumption I follow most of the earlier astronomers.
@@ -8260,8 +8186,6 @@ It is true that, of the earlier astronomers, Eudoxus declared it to be about nin
 I make this assumption† because Aristarchus discovered that the sun appeared to be about 7½0th part of the circle of the zodiac, and I myself tried, by a method which I will now describe, to find experimentally (ὁργανικῶς) the angle subtended by the sun and having its vertex at the eye (τὰν γωνίαν, εἰς ἂν ὁ ἄλιος ἐναρμόζει τὰν κορυφὰν ἔχουσαν ποτὶ τὰ ὄψει)."
 
 [Up to this point the treatise has been literally translated because of the historical interest attaching to the ipsissima verba of Archimedes on such a subject. The rest of the work can now be more freely reproduced, and, before proceeding to the mathematical contents of it, it is only necessary to remark that Archimedes next describes how he arrived at a higher and a lower limit for the angle subtended by the sun. This he did
-
-* τοῦ ἀμοῦ πατρὸς is the correction of Blass for τοῦ Ἀκούπατρος (Jahrb. f. Philol. cxxvii. 1883).
 
 † This is not, strictly speaking, an assumption; it is a proposition proved later (pp. 224—6) by means of the result of an experiment about to be described.
 
@@ -8420,8 +8344,6 @@ $AB$ &gt; (side of chiliagon inscribed in great circle), and $AB$ is equal to th
 *(diameter of ‘universe’) &lt; 10,000* *(diameter of earth)*,
 
 and *(diameter of ‘universe’) &lt; 10,000,000,000* *stadia.*
-
-* The proposition here assumed is of course equivalent to the trigonometrical formula which states that, if $a$, $b$ are the circular measures of two angles, each less than a right angle, of which $a$ is the greater, then
 
 $$
 \frac{\tan a}{\tan b} &gt; \frac{a}{b} &gt; \frac{\sin a}{\sin b},
@@ -8637,8 +8559,6 @@ $$
 
 "When I heard that Conon, who was my friend in his lifetime, was dead, but that you were acquainted with Conon and withal versed in geometry, while I grieved for the loss not only of a friend but of an admirable mathematician, I set myself the task of communicating to you, as I had intended to send to Conon, a certain geometrical theorem which had not been investigated before but has now been investigated by me, and which I first discovered by means of mechanics and then exhibited by means of geometry. Now some of the earlier geometers tried to prove it possible to find a rectilineal area equal to a given circle and a given segment of a circle; and after that they endeavoured to square the area bounded by the section of the whole cone* and a straight line, assuming lemmas not easily conceded, so that it was recognised by most people that the problem was not solved. But I am not aware that any one of my predecessors has attempted to square the segment bounded by a straight line and a section of a right-angled cone [a parabola], of which problem I have now discovered the solution. For it is here shown that every segment bounded by a straight line and a section of a right-angled cone [a parabola] is four-thirds of the triangle which has the same base and equal height with the segment, and for the demonstration
 
-* There appears to be some corruption here: the expression in the text is τὰς δλου τοῦ κώνου τομᾶς, and it is not easy to give a natural and intelligible meaning to it. The section of ‘the whole cone’ might perhaps mean a section cutting right through it, i.e. an ellipse, and the ‘straight line’ might be an axis or a diameter. But Heiberg objects to the suggestion to read τὰς ἀξυγωνίου κώνου τομᾶς, in view of the addition of καὶ εὐθείας, on the ground that the former expression always signifies the whole of an ellipse, never a segment of it (Quaestiones Archimedeae, p. 149).
-
 of this property the following lemma is assumed: that the excess by which the greater of (two) unequal areas exceeds the less can, by being added to itself, be made to exceed any given finite area. The earlier geometers have also used this lemma; for it is by the use of this same lemma that they have shown that circles are to one another in the duplicate ratio of their diameters, and that spheres are to one another in the triplicate ratio of their diameters, and further that every pyramid is one third part of the prism which has the same base with the pyramid and equal height; also, that every cone is one third part of the cylinder having the same base as the cone and equal height they proved by assuming a certain lemma similar to that aforesaid. And, in the result, each of the aforesaid theorems has been accepted* no less than those proved without the lemma. As therefore my work now published has satisfied the same test as the propositions referred to, I have written out the proof and send it to you, first as investigated by means of mechanics, and afterwards too as demonstrated by geometry. Prefixed are, also, the elementary propositions in conics which are of service in the proof (στοιχεία κωνικά χρείαν ἔχοντα ἐς τὰν ἀπόδειξιν). Farewell."
 
 ## Proposition 1.
@@ -8652,8 +8572,6 @@ $$
 Conversely, if $QV = VQ'$, the chord $QQ'$ will be parallel to the tangent at $P$.
 
 ![img-114.jpeg](images/img-114.jpeg)
-
-* The Greek of this passage is: συμβαίνει δὲ τῶν προειρημένων θεωρημάτων ἕκαστον μηδέν ἡσσον τῶν ἄνευ τούτου τοῦ λήμματος ἀποδεδειγμένων πεπιστευκέναι. Here it would seem that πεπιστευκέναι must be wrong and that the passive should have been used.
 
 ## Proposition 2.
 
@@ -8684,8 +8602,6 @@ QV : VO = OF : FR.
 $$
 
 Draw the ordinate $RW$ to $PV$, meeting $QP$ in $K$.
-
-* i.e. in the treatises on conics by Euclid and Aristaeus.
 
 Then
 
@@ -8813,8 +8729,6 @@ or
 $$
 P = \frac{1}{3} \triangle BCD.
 $$
-
-* In Prop. 6 Archimedes takes the separate case in which the angle $BCD$ of the triangle is a right angle so that $C$ coincides with $O$ in the figure and $F$ with $E$. He then proves, in Prop. 7, the same property for the triangle in which $BCD$ is an obtuse angle, by treating the triangle as the difference between two right-angled triangles $BOD$, $BOC$ and using the result of Prop. 6. I have combined the two propositions in one proof, for the sake of brevity. The same remark applies to the propositions following Props. 6, 7.
 
 † Doubtless in the lost book *περί ξυγών*. Cf. the Introduction, Chapter II., *ad fin*.
 
@@ -9203,8 +9117,6 @@ Therefore (area of segment) = $\frac{4}{3}\triangle PQq$.
 ![img-125.jpeg](images/img-125.jpeg)
 
 DEF. “In segments bounded by a straight line and any curve I call the straight line the **base**, and the **height** the greatest perpendicular drawn from the curve to the base of the segment, and the **vertex** the point from which the greatest perpendicular is drawn.”
-
-* It is curious that Archimedes uses the terms *base* and *vertex* of a segment here, but gives the definition of them later (at the end of the proposition). Moreover he assumes the converse of the property proved in Prop. 18.
 
 ## Proposition 18.
 
@@ -9604,9 +9516,6 @@ The other version of the method used by Archimedes is that given by Vitruvius†
 
 (2) the weight $W$ of gold displaces a certain volume of
 
-* Torelli’s Archimedes, p. 364; Hultsch, *Metrol. Script.* II. 95 sq., and Prolegomena § 118.
-† *De architect.* IX. 3.
-
 fluid, $V_{1}$ say; therefore a weight $w_{1}$ of gold displaces a volume $\frac{w_{1}}{W} \cdot V_{1}$ of fluid.
 
 (3) the weight $W$ of silver displaces a certain volume of fluid, say $V_{2}$; therefore a weight $w_{2}$ of silver displaces a volume $\frac{w_{2}}{W} \cdot V_{2}$ of fluid.
@@ -9701,8 +9610,6 @@ Draw the tangent $PT$ to the parabola which is parallel to $QQ'$, and let $P$ be
 
 [From $P$ draw $PV$ parallel to $AN$ meeting $QQ'$ in $V$. Then $PV$ will be a diameter of the parabola, and also the axis of the portion of the paraboloid immersed in the fluid.
 
-* The rest of the proof is wanting in the version of Tartaglia, but is given in brackets as supplied by Commandinus.
-
 Let $C$ be the centre of gravity of the paraboloid $BAB'$, and $F$ that of the portion immersed in the fluid. Join $FC$ and produce it to $H$ so that $H$ is the centre of gravity of the remaining portion of the paraboloid above the surface.
 
 ![img-138.jpeg](images/img-138.jpeg)
@@ -9730,8 +9637,6 @@ Therefore, if $CP$ be joined, the angle $CPT$ is acute†. Hence, if $CK$ be dra
 Now the force acting on the immersed portion of the segment of the paraboloid will act upwards along $LF$, while the weight of the portion outside the fluid will act downwards along $HM$.
 
 Therefore there will not be equilibrium, but the segment
-
-* As the determination of the centre of gravity of a segment of a paraboloid which is here assumed does not appear in any extant work of Archimedes, or in any known work by any other Greek mathematician, it appears probable that it was investigated by Archimedes himself in some treatise now lost.
 
 † The truth of this statement is easily proved from the property of the sub-normal. For, if the normal at $P$ meet the axis in $G$, $AG$ is greater than $\frac{p}{2}$ except in the case where the normal is the normal at the vertex $A$ itself. But the latter case is excluded here because, by hypothesis, $AN$ is not placed vertically. Hence, $P$ being a different point from $A$, $AG$ is always greater than $AC$; and, since the angle $TPG$ is right, the angle $TPC$ must be acute.
 
@@ -10015,8 +9920,6 @@ Let $F$ be the centre of gravity of the immersed portion of the paraboloid, so t
 
 Draw $OL$ perpendicular to $PV$.
 
-* We have no hint as to the work in which the proof of this proposition was contained. The following proof is shorter than Robertson’s (in the Appendix to Torelli’s edition).
-
 Let $BQ$ meet $AM$ in $U$, and let $PN$ be the ordinate from $P$ to $AM$.
 
 We have to prove that
@@ -10079,8 +9982,6 @@ To obtain the result of the proposition, we have to eliminate $k$ between this e
 $$
 x' - x = \cos \theta \left\{ \frac{p}{4} (\cot^2 \theta + 2) - \frac{2}{3} (h - k) \right\}.
 $$
-
-* It is curious that the figures given by Torelli, Nizze and Heiberg are all incorrect, as they all make the point which I have called $I$ lie on $BQ$ instead of $VP$ produced.
 
 We have, from the first equation,
 
@@ -10541,8 +10442,6 @@ $$
 = 5:1.
 $$
 
-* This result is assumed without proof, no doubt as being an easy deduction from Prop. 5 of the *Quadrature of the Parabola*. It may be established as follows.
-
 First, since $AA_{2}A_{3}B$ is a straight line, and $AN = AT$ with the ordinary notation (where $PT$ is the tangent at $P$ and $PN$ the ordinate), it follows, by similar triangles, that the tangent at $B$ to the outer parabola is a tangent to each of the other two parabolas at the same point $B$.
 
 Now, by the proposition quoted, if $DQ_{2}Q_{3}Q_{1}$ produced meet the tangent $BT$ in $E$,
@@ -10713,8 +10612,6 @@ Join $BV'$ and produce it to meet the outer parabola in $Q'$. Let $OQ_2P_2$ meet
 
 Now, since, in two similar and similarly situated parabolic
 
-* Archimedes does not give the solution of this problem, but it can be supplied as follows.
-
 Let $BR_1Q_1$, $BRQ_2$ be two similar and similarly situated parabolic segments with their bases in the same straight line, and let $BE$ be the common tangent at $B$.
 
 ![img-151.jpeg](images/img-151.jpeg)
@@ -10776,8 +10673,6 @@ Suppose the segment of the paraboloid placed in the fluid, as described, with it
 pendicular to the surface of the fluid, and let the plane intersect the solid in the parabolic segment $BAB'$ and the plane of the surface of the fluid in $BQ$.
 
 Take the points $C, O$ on $AM$ as before described. Draw
-
-* To prove this, suppose that, in the figure on the opposite page, $BR_1$ is produced to meet the outer parabola in $R_2$.
 
 We have, as before,
 
@@ -11273,8 +11168,6 @@ $$
 
 And, since $DE$, $HB$ are parallel, it follows that $DF = FE$.
 
-* Pappus assumes the result of this proposition in connexion with the ἀρβηλοῦ (p. 214, ed. Hultsch), and he proves it for the case where the circles touch externally (p. 840).
-
 ## Proposition 3.
 
 Let $P$ be any point on a segment of a circle whose base is $AB$, and let $PN$ be perpendicular to $AB$. Take $D$ on $AB$ so that $AN = ND$. If now $PQ$ be an arc equal to the arc $PA$, and $BQ$ be joined,
@@ -11284,8 +11177,6 @@ $BQ, BD$ shall be equal*.
 ![img-163.jpeg](images/img-163.jpeg)
 
 Join $PA, PQ, PD, DQ$.
-
-* The segment in the figure of the ms. appears to have been a semicircle, though the proposition is equally true of any segment. But the case where the segment is a semicircle brings the proposition into close connexion with a proposition in Ptolemy's $\mu \epsilon \gamma \acute{\alpha} \lambda \eta$ σόνταξις, I. 9 (p. 31, ed. Halma; cf. the reproduction in Cantor's (lesch. d. Mathematik, I. (1894), p. 389). Ptolemy's object is to connect by an equation the lengths of the chord of an arc and the chord of half the arc. Substantially his procedure is as follows. Suppose $AP$, $PQ$ to be equal arcs, $AB$ the diameter through $A$; and let $AP$, $PQ$, $AQ$, $PB$, $QB$ be joined. Measure $BD$ along $BA$ equal to $BQ$. The perpendicular $PN$ is now drawn, and it is proved that $PA = PD$, and $AN = ND$.
 
 Then
 
@@ -11397,8 +11288,6 @@ $$
 
 But circles (or semicircles) are to one another as the squares of their radii (or diameters).
 
-* ἄρβηλος is literally ‘a shoemaker’s knife.’ Cf. note attached to the remarks on the *Liber Assumptorum* in the Introduction, Chapter II.
-
 Hence
 
 (semicircle on $AB$) = (sum of semicircles on $AN$, $NB$)
@@ -11420,10 +11309,6 @@ Join $FH$, $HA$, and $FE$, $EB$. Then, by Prop. 1, $FHA$, $FEB$ are both straigh
 For the same reason $AGE$, $CGH$ are straight lines.
 
 Let $AF$ produced meet $CD$ in $D$, and let $AE$ produced meet the outer semicircle in $I$. Join $BI$, $ID$.
-
-
-
-
 
 Then, since the angles $AFB$, $ACD$ are right, the straight lines $AD$, $AB$ are such that the perpendiculars on each from the extremity of the other meet in the point $E$. Therefore, by the properties of triangles, $AE$ is perpendicular to the line joining $B$ to $D$.
 
@@ -11454,29 +11339,6 @@ $$
 In like manner, if $d$ is the diameter of the other circle, we can prove that $AC \cdot CB = AB \cdot d$.
 
 Therefore $d = HE$, and the circles are equal*.
-
-* The property upon which this result depends, viz. that
-
-$$
-AB : BC = AC : HE,
-$$
-
-appears as an intermediate step in a proposition of Pappus (p. 230, ed. Hultsch) which proves that, in the figure above,
-
-$$
-AB : BC = CE^2 : HE^2.
-$$
-
-The truth of the latter proposition is easily seen. For, since the angle $CEH$ is a right angle, and $EG$ is perpendicular to $CH$,
-
-$$
-\begin{array}{l}
-CE^2 : EH^2 = CG : GH \\
-= AC : HE.
-\end{array}
-$$
-
-[As pointed out by an Arabian Scholiast Alkauhi, this proposition may be stated more generally. If, instead of one point $C$ on $AB$, we have two points $C$, $D$, and semicircles be described on $AC$, $BD$ as diameters, and if, instead of the perpendicular to $AB$ through $C$, we take the radical axis of the two semicircles, then the circles described on different sides of the radical axis and each touching it as well as two of the semicircles are equal. The proof is similar and presents no difficulty.]
 
 ## Proposition 6.
 
@@ -11547,8 +11409,6 @@ GH = NP = \frac{6}{19} AB.
 $$
 
 And similarly $GH$ can be found when $AC:CB$ is equal to any other given ratio†.
-
-* This same property appears incidentally in Pappus (p. 226) as an intermediate step in the proof of the “ancient proposition” alluded to below.
 
 † In general, if $AC:CB = \lambda:1$, we have
 
@@ -11658,8 +11518,6 @@ $$
 (\operatorname{arc} CB) + (\operatorname{arc} AD) = (\operatorname{arc} \text{ of a semicircle}).
 $$
 
-* This proposition gives a method of reducing the trisection of any angle, i.e. of any circular arc, to a problem of the kind known as *veíveis*. Suppose that $AE$ is the arc to be trisected, and that $ED$ is the diameter through $E$ of the circle of which $AE$ is an arc. In order then to find an arc equal to one-third of $AE$, we have only to draw through $A$ a line $ABC$, meeting the circle again in $B$ and $ED$ produced in $C$, such that $BC$ is equal to the radius of the circle. For a discussion of this and other *veíveis* see the Introduction, Chapter V.
-
 Hence the remainder of the circumference, the sum of the arcs $AC$, $DB$, is also equal to a semicircle; and the proposition is proved.
 
 ## Proposition 10.
@@ -11728,8 +11586,6 @@ $$\angle ACO = \angle ECB.$$
 It follows that the subtended arcs, and therefore the chords $AD$, $BE$, are equal.
 
 ![img-169.jpeg](images/img-169.jpeg)
-
-* The figure of this proposition curiously recalls the figure of a problem given by Pappus (pp. 836–8) among his lemmas to the first Book of the treatise of Apollonius On Contacts (περὶ ἐπαφῶν). The problem is, Given a circle and two points $E$, $F$ (neither of which is necessarily, as in this case, the middle point of the chord of the circle drawn through $E$, $F$), to draw through $E$, $F$ respectively two chords $AD$, $AB$ having a common extremity $A$ and such that $DB$ is parallel to $EF$. The analysis is as follows. Suppose the problem solved, $BD$ being parallel to $FE$. Let $BT$, the tangent at $B$, meet $EF$ produced in $T$. ($T$ is not in general the pole of $AB$, so that $TA$ is not generally the tangent at $A$.)
 
 Then $$\angle TBF = \angle BDA$$, in the alternate segment,
 
@@ -11871,8 +11727,6 @@ $$
 
 ![img-171.jpeg](images/img-171.jpeg)
 
-* $TM$ is of course the polar of the intersection of $PQ$, $AB$, as it is the line joining the poles of $PQ$, $AB$ respectively.
-
 † This proposition is of course true whether $M, N$ lie on $CD$ or on $CD$ produced each way. Pappus proves it for the latter case in his first lemma (p. 788) to the second Book of Apollonius' *νεύσεις*.
 
 ## Proposition 14.
@@ -11894,8 +11748,6 @@ CF = OA + OE = EA.
 $$
 
 ![img-172.jpeg](images/img-172.jpeg)
-
-* For the explanation of this name see note attached to the remarks on the *Liber Assumptorum* in the Introduction, Chapter II. On the grounds there given at length $I$ believe σάλινον to be simply a Graecised form of the Latin word *salinum*, ‘salt-cellar.’
 
 † Cantor (*Gesch. d. Mathematik*, i. p. 285) compares this proposition with Hippocrates’ attempt to square the circle by means of lunes, but points out that the object of Archimedes may have been the converse of that of Hippocrates. For, whereas Hippocrates wished to find the area of a circle from that of other figures of the same sort, Archimedes’ intention was possibly to equate the area of figures bounded by different curves to that of a circle regarded as already known.
 
@@ -11934,8 +11786,6 @@ Now $\angle ABC = \frac{2}{5}$ (right angle),
 and $\angle ABD = \angle DBC = \frac{1}{5}$ (right angle),
 
 whence $\angle AOD = \frac{2}{5}$ (right angle).
-
-* Pappus gives (p. 418) a proposition almost identical with this among the lemmas required for the comparison of the five regular polyhedra. His enunciation is substantially as follows. If $DH$ be half the side of a pentagon inscribed in a circle, while $DH$ is perpendicular to the radius $OHA$, and if $HM$ be made equal to $AH$, then $OA$ is divided at $M$ in extreme and mean ratio, $OM$ being the greater segment.
 
 In the course of the proof it is first shown that $AD$, $DM$, $MO$ are all equal, as in the proposition above.
 
@@ -12382,6 +12232,3 @@ $$W = 1598 \langle \overline{206541} \rangle,$$
 where $\langle \overline{206541} \rangle$ represents the fact that there are 206541 more digits to follow, and that, with the same notation, the whole number of cattle $= 7766 \langle \overline{206541} \rangle$.
 
 One may well be excused for doubting whether Archimedes solved the complete problem, having regard to the enormous size of the numbers and the great difficulties inherent in the work. By way of giving an idea of the space which would be required for merely writing down the results when obtained, Amthor remarks that the large seven-figured logarithmic tables contain on one page 50 lines with 50 figures or so in each, say altogether 2500 figures; therefore one of the eight unknown quantities would, when found, occupy $82\frac{1}{2}$ such pages, and to write down all the eight numbers would require a volume of 660 pages!]
-
-
-

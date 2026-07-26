@@ -32,8 +32,6 @@ Hence *all sections of the cone which are parallel to the circular base are circ
 
 Next, let the cone be cut by a plane passing through the axis and perpendicular to the plane of the base $BC$, and let the section be the triangle $ABC$. Conceive another plane $HK$ drawn at right angles to the plane of the triangle $ABC$ and cutting off from it the triangle $AHK$ such that $AHK$ is similar to the triangle $ABC$ but lies in the contrary sense, i.e. such that the angle $AKH$ is equal to the angle $ABC$. Then the section of the cone by the plane $HK$ is called a **subcontrary** section (ὑπεναντία τομή).
 
-* The references in this form, here and throughout the book, are to the original propositions of Apollonius.
-
 ---
 
 Let $P$ be any point on the intersection of the plane $HK$ with the surface, and $F$ any point on the circumference of the circle $BC$. Draw $PM$, $FL$ each perpendicular to the plane of the triangle $ABC$, meeting the straight lines $HK$, $BC$ respectively in $M$, $L$. Then $PM$, $FL$ are parallel.
@@ -270,8 +268,6 @@ $$
 
 Hence it follows that the square on the ordinate is equal to a rectangle whose height is equal to the abscissa and whose base lies along the fixed straight line $PL$ but overlaps ($\dot{v}πe\rho\beta\dot{a}\lambda\lambda\epsilon\iota$) it by a length equal to the difference between $VR$ and $PL^*$. Hence the section is called a HYPERBOLA.
 
-* Apollonius describes the rectangle $PR$ as applied to the latus rectum but exceeding by a figure similar and similarly situated to that contained by $PP'$ and $PL$, i.e. exceeding the rectangle $VL$ by the rectangle $LR$. Thus, if $QV=y$, $PV=x$, $PL=p$, and $PP'=d$,
-
 $$
 y^2 = px + \frac{p}{d} \cdot x^2,
 $$
@@ -340,8 +336,6 @@ $$QV^2:PV.PV' = PL:PP'$$
 that, for any fixed diameter $PP'$,
 
 $QV^2:PV.P'V$ is a constant ratio, or $QV^2$ varies as $PV.P'V$.]
-
-* Apollonius describes the rectangle $PR$ as applied to the *latus rectum* but falling short by a figure similar and similarly situated to that contained by $PP'$ and $PL$, i.e. falling short of the rectangle $VL$ by the rectangle $LR$.
 
 If $QV=y$, $PV=x$, $PL=p$, and $PP'=d$,
 
@@ -954,8 +948,6 @@ which is absurd.
 
 Therefore $TQ$ does not at any point fall within the curve, and is therefore a tangent.
 
-* Though the proofs of this proposition and the next follow in form the method of *reductio ad absurdum*, it is easily seen that they give in fact the direct demonstration that, if $K$ is any point on the tangent other than $Q$, the point of contact, $K$ lies outside the curve because, if $KQ'V'$ be parallel to $QV$, it is proved that $KV' &gt; Q'V'$. The figures in both propositions have accordingly been drawn in accordance with the facts instead of representing the incorrect assumption which leads to the absurdity in each case.
-
 ![img-21.jpeg](images/img-21.jpeg)
 
 ---
@@ -1034,8 +1026,6 @@ $$
 Also no other straight line can fall between $TQ$ and the curve.
 
 [This again is separately proved by Apollonius by a simple reductio ad absurdum.]
-
-* See the note on the previous proposition.
 
 ---
 
@@ -1553,8 +1543,6 @@ $$
 
 We have therefore to prove that the tangent at $Q'$ is parallel to the tangent at $Q$, and the proposition follows immediately*.
 
-* Eutocius supplies the proof of the parallelism of the two tangents as follows.
-
 ![img-35.jpeg](images/img-35.jpeg)
 
 We have
@@ -1721,8 +1709,6 @@ $$
 \therefore RM \cdot MF = QM (QT + MU) \quad \text{(B).}
 $$
 
-* It will be observed that Apollonius here assumes the equality of the two triangles $CPE$, $CQT$, though it is not until Prop. 53 [III. 1] that this equality is actually proved. But Eutocius gives another proof of Prop. 18 which, he says, appears in some copies, and which begins by proving these two triangles to be equal by exactly the same method as is used in our text of the later proof. If then the alternative proof is genuine, we have an explanation of the assumption here. If not, we should be tempted to suppose that Apollonius quoted the property as an obvious *limiting case* of Prop. 18 [I. 43, 44] where $R$ coincides with $Q$; but this would be contrary to the usual practice of Greek geometers who, no doubt for the purpose of securing greater stringency, preferred to give separate proofs of the limiting cases, though the parallelism of the respective proofs suggests that they were not unaware of the connexion between the general theorem and its limiting cases. Compare Prop. 81 [V. 2], where Apollonius proves separately the case where $P$ coincides with $B$, though we have for the sake of brevity only mentioned it as a limiting case.
-
 ---
 
 Now
@@ -1881,8 +1867,6 @@ Secondly, let the given angle not be a right angle. Let $PP'$, $p$ be the given 
 $$
 NH^2:CH.HP = p:PP'*.
 $$
-
-* This construction is assumed by Apollonius without any explanation; but we may infer that it was arrived at by a method similar to that adopted for
 
 ---
 
@@ -2101,8 +2085,6 @@ Take a point $N$, on the semicircle which has $CP$ for its diameter, such that $
 $$
 NH^2: CH.HP = PL: PP'*.
 $$
-
-* This construction like that in Prop. 25 is assumed without explanation. If $NH$ be supposed to meet the other semicircle on $CP$ as diameter in $N'$, the
 
 ---
 
@@ -3362,8 +3344,6 @@ $$
 EM \cdot MF : DM^2 = CA^2 : CB^2.
 $$
 
-* These conclusions are taken for granted by Apollonius, but they are easily proved.
-
 ---
 
 This is effected as follows:
@@ -4325,8 +4305,6 @@ RW^2: TW^2 = PL^2: CP^2 = CD^2: CP^2 \\
 \therefore TW^2 = PW \cdot WP'.
 \end{array}
 $$
-
-* It will be observed from this proposition and the next that Apollonius begins with two particular cases of the general property in Prop. 64, namely (a) the case where the transversal is parallel to an asymptote, (b) the case where the chord of contact is parallel to an asymptote, i.e. where one of the tangents is an asymptote, or a tangent at infinity.
 
 ---
 
@@ -5633,8 +5611,6 @@ $$
 MI = IK, \text{ and } EN = NK.
 $$
 
-* The area represented by the second term on the right-hand side of the equation is of course described, in Apollonius’ phrase, as the rectangle on the base $AN$ similar to that contained by the axis (as base) and the sum (or difference) of the axis and its parameter. A similar remark applies to the similar expression on the next page.
-
 ---
 
 Now $PN^2 = 2$ (quadrilateral $MANH$), [Prop. 81] and $EN^2 = 2 \triangle ENK$;
@@ -6370,8 +6346,6 @@ TN_2: TN &amp;&gt; HN: HN_2 \quad (1), \\
 \end{aligned}
 $$
 
-* It will be observed that there are three sets of points $P, N, K,$ in the figure denoted by the same letters. This is done in order to exhibit the three different cases; and it is only necessary to bear in mind that attention must be confined to one at a time as indicated in the course of the proof.
-
 ---
 
 If $NP$ meet $P_1P_2$ in $F$, we have, by similar triangles,
@@ -6980,8 +6954,6 @@ Therefore $P_1O$ is not a normal, and [as in the proof of Prop. 97]
 $$
 N_1K_1 &lt; N_1G_1.
 $$
-
-* For Apollonius' method of finding two mean proportionals see the Introduction.
 
 ---
 
@@ -8794,8 +8766,6 @@ $$
 AP^2:AN.NH = AA':A'H.
 $$
 
-* Though Book VII. is mainly concerned with conjugate diameters of a central conic, one or two propositions for the parabola are inserted, no doubt in order to show, in connection with particular propositions about a central conic, any obviously corresponding properties of the parabola.
-
 ---
 
 Produce $AN$ to $K$, so that
@@ -9525,8 +9495,6 @@ $AA'^2 + BB'^2 = PP'^2 + DD'^2;$ [Prop. 129]
 $$
 \therefore AA' + BB' &lt; PP' + DD'.
 $$
-
-* Apollonius draws this inference directly, and gives no intermediate steps.
 
 ---
 
@@ -10663,8 +10631,6 @@ $$
 A'H. M_1H': M_1H^2 + M_1H'^2 = AA'^2 : P_1P_1'^2 + p_1^2,
 $$
 
-* As in (1) above,
-
 $$M_1H^2 + M_1H'^2 &gt; 2A'M_1. M_1H' &gt; M_1H'.2(M_1H' - A'H') &gt; M_1H'.2(M_1H' - MH), \text{ a fortiori.}$$
 
 ---
@@ -11024,6 +10990,3 @@ and $PP'^2 \sim p^2$ increases as $P$ moves nearer to $B$, being a *maximum* whe
 ![img-203.jpeg](images/img-203.jpeg)
 
 CAMBRIDGE : PRINTED BY J. AND C. F. CLAY, AT THE UNIVERSITY PRESS.
-
-
-

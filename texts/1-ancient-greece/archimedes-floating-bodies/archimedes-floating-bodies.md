@@ -144,9 +144,6 @@ The other version of the method used by Archimedes is that given by Vitruvius†
 
 (2) the weight $W$ of gold displaces a certain volume of
 
-* Torelli’s Archimedes, p. 364; Hultsch, *Metrol. Script.* II. 95 sq., and Prolegomena § 118.
-† *De architect.* IX. 3.
-
 fluid, $V_{1}$ say; therefore a weight $w_{1}$ of gold displaces a volume $\frac{w_{1}}{W} \cdot V_{1}$ of fluid.
 
 (3) the weight $W$ of silver displaces a certain volume of fluid, say $V_{2}$; therefore a weight $w_{2}$ of silver displaces a volume $\frac{w_{2}}{W} \cdot V_{2}$ of fluid.
@@ -196,4 +193,3 @@ Join $OH$.
 Then the weight of the portion of the solid outside the fluid acts along $FO$, and the pressure of the fluid on the immersed portion along $OH$, while the weight of the immersed portion acts along $HO$ and is by hypothesis less than the pressure of the fluid acting along $OH$.
 
 Hence there will not be equilibrium, but the part of the segment towards $A$ will ascend and the part towards $B$ descend, until $DE$ assumes a position perpendicular to the surface of the fluid.
-

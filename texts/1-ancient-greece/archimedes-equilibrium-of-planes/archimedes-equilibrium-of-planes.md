@@ -434,6 +434,3 @@ $$
 = EG : GF.
 \end{array}
 $$
-
-* This easy deduction from Prop. 14 is assumed by Archimedes without proof.
-

@@ -4,8 +4,6 @@
 
 "When I heard that Conon, who was my friend in his lifetime, was dead, but that you were acquainted with Conon and withal versed in geometry, while I grieved for the loss not only of a friend but of an admirable mathematician, I set myself the task of communicating to you, as I had intended to send to Conon, a certain geometrical theorem which had not been investigated before but has now been investigated by me, and which I first discovered by means of mechanics and then exhibited by means of geometry. Now some of the earlier geometers tried to prove it possible to find a rectilineal area equal to a given circle and a given segment of a circle; and after that they endeavoured to square the area bounded by the section of the whole cone* and a straight line, assuming lemmas not easily conceded, so that it was recognised by most people that the problem was not solved. But I am not aware that any one of my predecessors has attempted to square the segment bounded by a straight line and a section of a right-angled cone [a parabola], of which problem I have now discovered the solution. For it is here shown that every segment bounded by a straight line and a section of a right-angled cone [a parabola] is four-thirds of the triangle which has the same base and equal height with the segment, and for the demonstration
 
-* There appears to be some corruption here: the expression in the text is τὰς δλου τοῦ κώνου τομᾶς, and it is not easy to give a natural and intelligible meaning to it. The section of ‘the whole cone’ might perhaps mean a section cutting right through it, i.e. an ellipse, and the ‘straight line’ might be an axis or a diameter. But Heiberg objects to the suggestion to read τὰς ἀξυγωνίου κώνου τομᾶς, in view of the addition of καὶ εὐθείας, on the ground that the former expression always signifies the whole of an ellipse, never a segment of it (Quaestiones Archimedeae, p. 149).
-
 of this property the following lemma is assumed: that the excess by which the greater of (two) unequal areas exceeds the less can, by being added to itself, be made to exceed any given finite area. The earlier geometers have also used this lemma; for it is by the use of this same lemma that they have shown that circles are to one another in the duplicate ratio of their diameters, and that spheres are to one another in the triplicate ratio of their diameters, and further that every pyramid is one third part of the prism which has the same base with the pyramid and equal height; also, that every cone is one third part of the cylinder having the same base as the cone and equal height they proved by assuming a certain lemma similar to that aforesaid. And, in the result, each of the aforesaid theorems has been accepted* no less than those proved without the lemma. As therefore my work now published has satisfied the same test as the propositions referred to, I have written out the proof and send it to you, first as investigated by means of mechanics, and afterwards too as demonstrated by geometry. Prefixed are, also, the elementary propositions in conics which are of service in the proof (στοιχεία κωνικά χρείαν ἔχοντα ἐς τὰν ἀπόδειξιν). Farewell."
 
 ## Proposition 1.
@@ -19,8 +17,6 @@ $$
 Conversely, if $QV = VQ'$, the chord $QQ'$ will be parallel to the tangent at $P$.
 
 ![img-114.jpeg](images/img-114.jpeg)
-
-* The Greek of this passage is: συμβαίνει δὲ τῶν προειρημένων θεωρημάτων ἕκαστον μηδέν ἡσσον τῶν ἄνευ τούτου τοῦ λήμματος ἀποδεδειγμένων πεπιστευκέναι. Here it would seem that πεπιστευκέναι must be wrong and that the passive should have been used.
 
 ## Proposition 2.
 
@@ -51,8 +47,6 @@ QV : VO = OF : FR.
 $$
 
 Draw the ordinate $RW$ to $PV$, meeting $QP$ in $K$.
-
-* i.e. in the treatises on conics by Euclid and Aristaeus.
 
 Then
 
@@ -180,8 +174,6 @@ or
 $$
 P = \frac{1}{3} \triangle BCD.
 $$
-
-* In Prop. 6 Archimedes takes the separate case in which the angle $BCD$ of the triangle is a right angle so that $C$ coincides with $O$ in the figure and $F$ with $E$. He then proves, in Prop. 7, the same property for the triangle in which $BCD$ is an obtuse angle, by treating the triangle as the difference between two right-angled triangles $BOD$, $BOC$ and using the result of Prop. 6. I have combined the two propositions in one proof, for the sake of brevity. The same remark applies to the propositions following Props. 6, 7.
 
 † Doubtless in the lost book *περί ξυγών*. Cf. the Introduction, Chapter II., *ad fin*.
 
@@ -571,8 +563,6 @@ Therefore (area of segment) = $\frac{4}{3}\triangle PQq$.
 
 DEF. “In segments bounded by a straight line and any curve I call the straight line the **base**, and the **height** the greatest perpendicular drawn from the curve to the base of the segment, and the **vertex** the point from which the greatest perpendicular is drawn.”
 
-* It is curious that Archimedes uses the terms *base* and *vertex* of a segment here, but gives the definition of them later (at the end of the proposition). Moreover he assumes the converse of the property proved in Prop. 18.
-
 ## Proposition 18.
 
 If $Qq$ be the base of a segment of a parabola, and $V$ the middle point of $Qq$, and if the diameter through $V$ meet the curve in $P$, then $P$ is the vertex of the segment.
@@ -824,4 +814,3 @@ Thus, since the segment is neither greater nor less than $K$,
 $$
 \text{(area of segment } PQq) = K = \frac{4}{3}\triangle PQq.
 $$
-

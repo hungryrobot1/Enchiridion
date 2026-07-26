@@ -14,8 +14,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 
 2. I apply the term *concave in the same direction* to a line such that, if any two points on it are taken, either all the straight lines connecting the points fall on the same side of the line, or some fall on one and the same side while others fall on the line itself, but none on the other side.
 
-* Though the word used is *ἀξιώματα*, the “axioms” are more of the nature of definitions; and in fact Eutocius in his notes speaks of them as such (*δροί*).
-
 † Under the term *bent line* Archimedes includes not only curved lines of continuous curvature, but lines made up of any number of lines which may be either straight or curved.
 
 3. Similarly also there are certain terminated surfaces, not themselves being in a plane but having their extremities in a plane, and such that they will either be wholly on the same side of the plane containing their extremities, or have no part of them on the other side.
@@ -30,8 +28,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 
 1. Of all lines which have the same extremities the straight line is the least*.
 
-* This well-known Archimedean assumption is scarcely, as it stands, a definition of a straight line, though Proclus says [p. 110 ed. Friedlein] “Archimedes defined (ὡρίσατο) the straight line as the least of those [lines] which have the same extremities. For because, as Euclid’s definition says, ἐξ ἴσον κεῖται τοῖς ἐφ’ ἐαυτῆς σημείοις, it is in consequence the least of those which have the same extremities.” Proclus had just before [p. 109] explained Euclid’s definition, which, as will be seen, is different from the ordinary version given in our textbooks; a straight line is not “that which lies evenly between its extreme points,” but “that which ἐξ ἴσον τοῖς ἐφ’ ἐαυτῆς σημείοις κεῖται.” The words of Proclus are, “He [Euclid] shows by means of this that the straight line alone [of all lines] occupies a distance (κατέχειν διάστημα) equal to that between the points on it. For, as far as one of its points is removed from another, so great is the length (μέγεθος) of the straight line of which the points are the extremities; and this is the meaning of τὸ ἐξ ἴσον κεῖσθαι τοῖς ἐφ’ ἐαυτῆς σημείοις. But, if you take two points on a circumference or any other line, the distance cut off between them along the line is greater than the interval separating them; and this is the case with every line except the straight line.” It appears then from this that Euclid’s definition should be understood in a sense very like that of
-
 2. Of other lines in a plane and having the same extremities, [any two] such are unequal whenever both are concave in the same direction and one of them is either wholly included between the other and the straight line which has the same extremities with it, or is partly included by, and is partly common with, the other; and that [line] which is included is the lesser [of the two].
 
 3. Similarly, of surfaces which have the same extremities, if those extremities are in a plane, the plane is the least [in area].
@@ -43,8 +39,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 These things being premised, if a polygon be inscribed in a circle, it is plain that the perimeter of the inscribed polygon is less than the circumference of the circle; for each of the sides of the polygon is less than that part of the circumference of the circle which is cut off by it.”
 
 Archimedes’ assumption, and we might perhaps translate as follows, “A straight line is that which extends equally (ἐξ ἴσου κεῖται) with the points on it.” or, to follow Proclus’ interpretation more closely, “A straight line is that which represents equal extension with [the distances separating] the points on it.”
-
-* With regard to this assumption compare the Introduction, chapter III. § 2.
 
 ## Proposition 1.
 
@@ -655,8 +649,6 @@ Since therefore $B$ is neither greater nor less than $S$,
 
 $$B = S.$$
 
-* This is of course the geometrical equivalent of saying that, if $a$, $\beta$ be two angles each less than a right angle, and $a &gt; \beta$, then $\sin a &gt; \sin \beta$.
-
 ## Proposition 15.
 
 The surface of any isosceles cone has the same ratio to its base as the side of the cone has to the radius of the base.
@@ -856,8 +848,6 @@ Therefore $(\text{cone } OAB) = (\text{cone } FGH) + (\text{rhombus } ODCE)$, an
 ## Proposition 20.
 
 If one of the two isosceles cones forming a rhombus be cut by a plane parallel to the base and on the resulting circular section a cone be described having the same apex as the second cone, and if the resulting rhombus be taken from the whole rhombus, the remainder will be equal to the cone with base equal to the surface of the portion of the cone between the parallel planes and with height equal to the perpendicular drawn from the apex of the second * cone to the side of the first cone.
-
-* There is a slight error in Heiberg’s translation “prioris coni” and in the corresponding note, p. 93. The perpendicular is not drawn from the apex of the cone which is cut by the plane but from the apex of the other.
 
 Let the rhombus be $OACB$, and let the cone $OAB$ be cut by a plane parallel to its base in the circle about $DE$ as diameter. With this circle as base and $C$ as apex describe a cone, which therefore with $ODE$ forms the rhombus $ODCE$.
 
@@ -1265,8 +1255,6 @@ $$
 But this is impossible, since the volume of the circumscribed
 
 ![img-28.jpeg](images/img-28.jpeg)
-
-* That $\beta: \gamma &gt; \beta^{3}: \delta^{3}$ is assumed by Archimedes. Eutocius proves the property in his commentary as follows.
 
 Take $x$ such that $\beta: \delta = \delta : x$.
 
@@ -1724,8 +1712,6 @@ $$
 S = R.
 $$
 
-* Cf. note on Prop. 34, p. 42..
-
 # BOOK II.
 
 "Archimedes to Dositheus greeting.
@@ -2125,8 +2111,6 @@ $$
 “And the analysis and synthesis of both problems will be given at the end*.”
 
 The synthesis of the main problem will be as follows. Let $R : S$ be the given ratio, $R$ being less than $S$. $AA'$ being a
-
-* See the note following this proposition.
 
 diameter of a great circle, and $O$ the centre, produce $OA$ to $D$ so that $OA = AD$, and divide $AD$ in $E$ so that
 
@@ -2786,8 +2770,6 @@ Hence $Q$ lies on a given rectangular hyperbola.
 
 Thus $Q$ is determined as the intersection of a given ellipse
 
-* There is a mistake in the Greek text here which seems to have escaped the notice of all the editors up to the present. The words are ἐὰν ἄρα ποιήσωμεν, ὡς τὴν Δ πρὸς τὴν διπλασίαν τῆς Γ, οὕτως τὴν ΤΤ πρὸς ἄλλην τινα ὡς τὴν Φ, i.e. (with the lettering above) “ If we take a length $p$ such that $D:2C = PP':p$.” This cannot be right, because we should then have
-
 $$
 QV^2:PV.P'V = PP':p,
 $$
@@ -2842,8 +2824,6 @@ QV^*: PV.P'V &amp;= p: PP' \\
 &amp;= D: 2C.
 \end{aligned}
 $$
-
-* Here too the Greek text repeats the same error as that noted on p. 77.
 
 And, by parallels,
 
@@ -3177,8 +3157,6 @@ $$
 \quad = A'M : AM.
 \end{array}
 $$
-
-* This is expressed in Archimedes' phrase by saying that the greater segment has to the lesser a ratio “less than the duplicate $(\partial \pi \lambda \partial \pi \omega)$ of that which the surface of the greater segment has to the surface of the lesser, but greater than the sesquialterate $(\partial \mu \partial \mu \omega)$ [of that ratio].”
 
 We have therefore to prove
 

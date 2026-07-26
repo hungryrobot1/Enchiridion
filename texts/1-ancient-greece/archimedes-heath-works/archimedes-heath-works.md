@@ -14,8 +14,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 
 2. I apply the term *concave in the same direction* to a line such that, if any two points on it are taken, either all the straight lines connecting the points fall on the same side of the line, or some fall on one and the same side while others fall on the line itself, but none on the other side.
 
-† Under the term *bent line* Archimedes includes not only curved lines of continuous curvature, but lines made up of any number of lines which may be either straight or curved.
-
 3. Similarly also there are certain terminated surfaces, not themselves being in a plane but having their extremities in a plane, and such that they will either be wholly on the same side of the plane containing their extremities, or have no part of them on the other side.
 
 4. I apply the term **concave in the same direction** to surfaces such that, if any two points on them are taken, the straight lines connecting the points either all fall on the same side of the surface, or some fall on one and the same side of it while some fall upon it, but none on the other side.
@@ -486,7 +484,7 @@ which is impossible, since the surface of the prism is greater than $S$, while t
 Therefore
 
 $$
-B \notin S.
+B \nless S.
 $$
 
 II. Suppose $B &gt; S$.
@@ -605,7 +603,7 @@ which is impossible, (because the surface of the pyramid is greater than $S$, wh
 
 Hence
 
-$$B \notin S.$$
+$$B \nless S.$$
 
 II. Suppose $B &gt; S$.
 
@@ -1184,7 +1182,7 @@ Let the polygons with the circle revolve together about a diameter common to all
 Then (surface of outer solid): (surface of inner solid)
 $$
 \begin{aligned}
-&amp;= (\text{side of outer})^2 : (\text{side of inner})^3 \quad \text{[Prop. 32]} \\
+&amp;= (\text{side of outer})^2 : (\text{side of inner})^2 \quad \text{[Prop. 32]} \\
 &amp;&lt; \beta^2 : \delta^2, \text{ or } \beta : \gamma \\
 &amp;&lt; (\text{surface of sphere}) : C, \text{ a fortiori}.
 \end{aligned}
@@ -1247,7 +1245,7 @@ Thus (vol. of outer solid): (vol. of inscribed solid)
 $$
 \begin{array}{l}
 &lt; \beta^{3}: \delta^{3}, \text{ by hypothesis}, \\
-&lt; \beta: \gamma, \text{ a fortiori (since } \beta: \gamma &gt; \beta^{3}: \delta^{3})^{*}, \\
+&lt; \beta: \gamma, \text{ a fortiori (since } \beta: \gamma &gt; \beta^{3}: \delta^{3}), \\
 &lt; \text{ (volume of sphere) }: V, \text{ a fortiori}.
 \end{array}
 $$
@@ -1654,7 +1652,7 @@ $$
 &lt; \beta^3: \delta^3
 $$
 $$
-&lt; \beta: \gamma, \text{ a fortiori*},
+&lt; \beta: \gamma, \text{ a fortiori},
 $$
 $$
 &lt; S: R, \text{ by hypothesis.}
@@ -1673,7 +1671,7 @@ But this is impossible, by Prop. 38, Cor. combined with Props. 42, 43.
 Hence
 
 $$
-S \neq R.
+S \ngtr R.
 $$
 
 II. Suppose, if possible, that $S &lt; R$.
@@ -2284,7 +2282,7 @@ Hence it is a necessary condition of the possibility of a solution that $AC.D$ m
 If $O$ be such a point on $AB$ that $BO = 2AO$, we have seen that, in order that the solution may be possible,
 
 $$
-AC.D \neq AO.OB^2.
+AC.D \ngtr AO.OB^2.
 $$
 
 Thus $AC.D$ is either equal to, or less than, $AO.OB^2$.
@@ -2751,7 +2749,7 @@ Therefore $QV^2:PV.P'V = D:2C$, a given ratio.
 Thus, if we take a line $p$ such that
 
 $$
-D:2C = p:PP'*.
+D:2C = p:PP'.
 $$
 
 and if we describe an ellipse with $PP'$ as a diameter and $p$ as the corresponding parameter $[=DD'^2/PP'$ in the ordinary notation of geometrical conics], and such that the ordinates to $PP'$ are inclined to it at an angle equal to half a right angle, i.e. are parallel to $QV$ or $AK$, then the ellipse will pass through $Q$.
@@ -2795,7 +2793,7 @@ Then through $A'$ draw $PP'$ making an angle ($AA'P$) with $AA'$ equal to half a
 Take a length $p$ such that
 
 $$
-D: 2C = p: PP'*,
+D: 2C = p: PP',
 $$
 
 and with $PP'$ as diameter and $p$ as the corresponding parameter describe an ellipse such that the ordinates to $PP'$ are inclined to it at an angle equal to $AA'P$, i.e. are parallel to $AK$.
@@ -2820,7 +2818,7 @@ From the property of the ellipse,
 
 $$
 \begin{aligned}
-QV^*: PV.P'V &amp;= p: PP' \\
+QV^2: PV.P'V &amp;= p: PP' \\
 &amp;= D: 2C.
 \end{aligned}
 $$
@@ -3125,7 +3123,7 @@ $$
 \begin{array}{l}
 \text{(segmt. } A'B'B') : \text{(segmt. } ABB') \\
 \quad &lt; \text{(surface of } A'B'B')^2 : \text{(surface of } ABB')^2 \\
-\text{but } &gt; \text{(surface of } A'B'B')^3 : \text{(surface of } ABB')^{3*}.
+\text{but } &gt; \text{(surface of } A'B'B')^{3/2} : \text{(surface of } ABB')^{3/2}.
 \end{array}
 $$
 
@@ -4668,7 +4666,7 @@ $$DM \cdot ME : RM \cdot MR' = OA^2 : OP^2,$$
 or
 $$QM^2 : RM \cdot MR' = OA^2 : OP^2.$$
 
-Now (1) in the hyperbola $OA &lt; OP$, because $AT &lt; AN^*$, and accordingly $OT &lt; OP$, while $OA &lt; OT$,
+Now (1) in the hyperbola $OA &lt; OP$, because $AT &lt; AN$, and accordingly $OT &lt; OP$, while $OA &lt; OT$,
 
 (2) in the ellipse, if $KK'$ be the diameter parallel to $RR'$, and $BB'$ the minor axis,
 
@@ -5587,8 +5585,6 @@ After these theorems the following were propounded concerning the cone†. If a 
 
 After these came the following propositions about the spiral,
 
-† This should be presumably ‘the conoid,’ not ‘the cone.’
-
 which are as it were another sort of problem having nothing in common with the foregoing; and I have written out the proofs of them for you in this book. They are as follows. If a straight line of which one extremity remains fixed be made to revolve at a uniform rate in a plane until it returns to the position from which it started, and if, at the same time as the straight line revolves, a point move at a uniform rate along the straight line, starting from the fixed extremity, the point will describe a spiral in the plane. I say then that the area bounded by the spiral and the straight line which has returned to the position from which it started is a third part of the circle described with the fixed point as centre and with radius the length traversed by the point along the straight line during the one revolution. And, if a straight line touch the spiral at the extreme end of the spiral, and another straight line be drawn at right angles to the line which has revolved and resumed its position from the fixed extremity of it, so as to meet the tangent, I say that the straight line so drawn to meet it is equal to the circumference of the circle. Again, if the revolving line and the point moving along it make several revolutions and return to the position from which the straight line started, I say that the area added by the spiral in the third revolution will be double of that added in the second, that in the fourth three times, that in the fifth four times, and generally the areas added in the later revolutions will be multiples of that added in the second revolution according to the successive numbers, while the area bounded by the spiral in the first revolution is a sixth part of that added in the second revolution. Also, if on the spiral described in one revolution two points be taken and straight lines be drawn joining them to the fixed extremity of the revolving line, and if two circles be drawn with the fixed point as centre and radii the lines drawn to the fixed extremity of the straight line, and the shorter of the two lines be produced, I say that (1) the area bounded by the circumference of the greater circle in the direction of (the part of) the spiral included between the straight lines, the spiral (itself) and the produced straight line will bear to (2) the area bounded by the circumference of the lesser circle, the same (part of the) spiral and the straight line joining their extremities the ratio which (3) the radius of the lesser circle together with two thirds of the excess of the radius of the greater circle over the radius of the lesser bears to (4) the radius of the lesser circle together with one third of the said excess.
 
 The proofs then of these theorems and others relating to the spiral are given in the present book. Prefixed to them, after the manner usual in other geometrical works, are the propositions necessary to the proofs of them. And here too, as in the books previously published, I assume the following lemma, that, if there be (two) unequal lines or (two) unequal areas, the excess by which the greater exceeds the less can, by being [continually] added to itself, be made to exceed any given magnitude among those which are comparable with [it and with] one another."
@@ -5651,7 +5647,7 @@ Through $O$ draw $OH$ parallel to the given tangent, and draw through $A$ a line
 
 ![img-76.jpeg](images/img-76.jpeg)
 
-in $H$, such that the portion $PH$ intercepted between the circle and the line $OH$ may be equal to $D^{*}$. Join $OP$ and produce it to meet the tangent in $F$.
+in $H$, such that the portion $PH$ intercepted between the circle and the line $OH$ may be equal to $D$. Join $OP$ and produce it to meet the tangent in $F$.
 
 Then
 $$
@@ -5693,7 +5689,7 @@ $$
 
 ![img-77.jpeg](images/img-77.jpeg)
 
-and let $PH$ be so placed that it passes through $B$ and $P$ lies on the circumference of the circle, while $H$ is on the line $OH^*$. ($PH$ will fall outside $BT$, because $PH &gt; BT$.) Join $OP$ meeting $AB$ in $F$.
+and let $PH$ be so placed that it passes through $B$ and $P$ lies on the circumference of the circle, while $H$ is on the line $OH$. ($PH$ will fall outside $BT$, because $PH &gt; BT$.) Join $OP$ meeting $AB$ in $F$.
 
 We now have
 
@@ -5725,7 +5721,7 @@ $$ D : E &gt; BM : MO $$
 
 Take a line $PH$ (less than $BT$) such that
 $$ D : E = OB : PH, $$
-and place $PH$ so that $P, H$ are on the circle and on $OT$ respectively, while $HP$ produced passes through $B^*$.
+and place $PH$ so that $P, H$ are on the circle and on $OT$ respectively, while $HP$ produced passes through $B$.
 
 Then
 $$ FP : PB = OP : PH $$
@@ -5750,7 +5746,7 @@ Through the points $O, T, C$ describe a circle, and let $OB$ be produced to meet
 
 ![img-79.jpeg](images/img-79.jpeg)
 
-Then, since $BC &gt; BT$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a straight line $OGQ$, meeting $CT$ in $G$ and the circle about $OTC$ in $Q$, such that $GQ = BK^*$.
+Then, since $BC &gt; BT$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a straight line $OGQ$, meeting $CT$ in $G$ and the circle about $OTC$ in $Q$, such that $GQ = BK$.
 
 Let $OGQ$ meet $AB$ in $F$ and the original circle in $P$.
 
@@ -5841,7 +5837,7 @@ $$
 
 Describe a circle through the points $O, T, C$, and produce $OB$ to meet this circle in $K$.
 
-Then, since $TB &gt; BC$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a line $OGQ$, meeting $CT$ in $G$, and the circle about $OTC$ in $Q$, such that $GQ = BK^*$. Let $OQ$ meet the original circle in $P$ and $AB$ produced in $F$.
+Then, since $TB &gt; BC$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a line $OGQ$, meeting $CT$ in $G$, and the circle about $OTC$ in $Q$, such that $GQ = BK$. Let $OQ$ meet the original circle in $P$ and $AB$ produced in $F$.
 
 We now prove, exactly as in the last proposition, that
 
@@ -6073,7 +6069,7 @@ $$
 But in any triangle $POQ$, if the bisector of the angle $POQ$ meets $PQ$ in $K$,
 
 $$
-OP + OQ &gt; 2OK*.
+OP + OQ &gt; 2OK.
 $$
 
 Therefore $OK &lt; OR$, and it follows that some point on $BC$ between $P$ and $Q$ lies within the spiral. Hence $BC$ cuts the spiral; which is contrary to the hypothesis.
@@ -6220,7 +6216,7 @@ Therefore, since $OA = OP$, $FO &lt; OQ$; which is impossible.
 Hence
 
 $$
-OB \neq c.
+OB \ngtr c.
 $$
 
 (2) If possible, suppose $OB &lt; c$.
@@ -6260,7 +6256,7 @@ But this is impossible, since $OA = OP'$, and $OQ' &lt; OF'$.
 Hence
 
 $$
-OB \not\prec c.
+OB \nless c.
 $$
 
 Since therefore $OB$ is neither greater nor less than $c$,
@@ -6321,7 +6317,7 @@ $$
 Similarly, as in the case of the ‘first circle’, we can prove that
 
 $$
-OB' \not\ll 2c'.
+OB' \nless 2c'.
 $$
 
 Therefore
@@ -6511,7 +6507,7 @@ But this is impossible, since $F$ was less than $\frac{1}{3}C_1$.
 
 Therefore
 
-$$R_1 \notin \frac{1}{3}C_1.$$
+$$R_1 \nless \frac{1}{3}C_1.$$
 
 II. If possible, suppose $R_1 &gt; \frac{1}{3}C_1$.
 
@@ -6714,7 +6710,7 @@ But this is impossible, because $F &lt; \sigma$.
 Therefore
 
 $$
-S \not\prec \sigma.
+S \nless \sigma.
 $$
 
 ## II. Suppose, if possible, $S &gt; \sigma$.
@@ -6755,7 +6751,7 @@ But this is impossible, because $f &gt; \sigma$.
 Therefore
 
 $$
-S \neq \sigma.
+S \nless \sigma.
 $$
 
 Since then $S$ is neither greater nor less than $\sigma$, it follows that
@@ -7348,7 +7344,7 @@ $$
 FH = \frac{1}{3} FD.
 $$
 
-Therefore $H$ is the centre of gravity of the triangle $DBC^*$.
+Therefore $H$ is the centre of gravity of the triangle $DBC$.
 
 Similarly, since $EK = \frac{1}{2} BE$, it follows that $K$ is the centre of gravity of the triangle $ADB$.
 
@@ -7395,7 +7391,7 @@ $$
 If $P, P'$ be two parabolic segments and $D, E$ their centres of gravity respectively, the centre of gravity of the two segments taken together will be at a point $C$ on $DE$ determined by the relation
 
 $$
-P : P' = CE : CD^*.
+P : P' = CE : CD.
 $$
 
 In the same straight line with $DE$ measure $EH$, $EL$ each equal to $DC$, and $DK$ equal to $DH$; whence it follows at once that $DK = CE$, and also that $KC = CL$.
@@ -7672,7 +7668,7 @@ $$
 \begin{array}{l}
 &gt; \triangle ABB' : S \\
 &gt; AG : D \\
-&gt; AG : FG, \text{ by hypothesis (since } FG \notin D).
+&gt; AG : FG, \text{ by hypothesis (since } FG \nless D).
 \end{array}
 $$
 
@@ -8187,8 +8183,6 @@ I make this assumption† because Aristarchus discovered that the sun appeared t
 
 [Up to this point the treatise has been literally translated because of the historical interest attaching to the ipsissima verba of Archimedes on such a subject. The rest of the work can now be more freely reproduced, and, before proceeding to the mathematical contents of it, it is only necessary to remark that Archimedes next describes how he arrived at a higher and a lower limit for the angle subtended by the sun. This he did
 
-† This is not, strictly speaking, an assumption; it is a proposition proved later (pp. 224—6) by means of the result of an experiment about to be described.
-
 by taking a long rod or ruler (*κανών*), fastening on the end of it a small cylinder or disc, pointing the rod in the direction of the sun just after its rising (so that it was possible to look directly at it), then putting the cylinder at such a distance that it just concealed, and just failed to conceal, the sun, and lastly measuring the angle subtended by the cylinder. He explains also the correction which he thought it necessary to make because “the eye does not see from one point but from a certain area” (*ἐπεὶ αἱ δψιες οὐκ ἀφ’ ἐνὸς σαμείον βλέποντι, ἀλλὰ ἀπὸ τῑνος μεγέθεις*).]
 
 The result of the experiment was to show that the angle subtended by the diameter of the sun was less than $\frac{1}{164}$th part, and greater than $\frac{1}{860}$th part, of a right angle.
@@ -8308,7 +8302,7 @@ $$
 $$
 but
 $$
-&lt; CF : EQ*..
+&lt; CF : EQ.
 $$
 
 Doubling the angles,
@@ -8351,7 +8345,7 @@ $$
 
 (1) Suppose, for brevity, that $d_u$ represents the diameter of the ‘universe,’ $d_s$ that of the sun, $d_e$ that of the earth, and $d_m$ that of the moon.
 
-By hypothesis, $d_s \neq 30d_m$, [Assumption 3]
+By hypothesis, $d_s \ngtr 30d_m$, [Assumption 3]
 and $d_e &gt; d_m$; [Assumption 2]
 therefore $d_s &lt; 30d_e$.
 
@@ -8371,7 +8365,7 @@ $$
 d_u &lt; 10,000d_e.
 $$
 
-(2) (Perimeter of earth) $\neq 3,000,000$ stadia. [Assumption 1]
+(2) (Perimeter of earth) $\ngtr 3,000,000$ stadia. [Assumption 1]
 and (perimeter of earth) $&gt; 3d_e$.
 
 Therefore $d_e &lt; 1,000,000$ stadia,
@@ -8730,8 +8724,6 @@ $$
 P = \frac{1}{3} \triangle BCD.
 $$
 
-† Doubtless in the lost book *περί ξυγών*. Cf. the Introduction, Chapter II., *ad fin*.
-
 ## Propositions 8, 9.
 
 Suppose a lever $AOB$ placed horizontally and supported at its middle point $O$. Let a triangle $BCD$, right-angled or obtuse-angled at $C$, be suspended from the points $B, E$ on $OB$, the angular point $C$ being so attached to $E$ that the side $CD$ is in the same vertical line with $E$. Let $Q$ be an area such that
@@ -9039,7 +9031,7 @@ $$
 Therefore
 
 $$
-\text{(area of segment)} \neq \frac{1}{3}\triangle EqQ.
+\text{(area of segment)} \ngtr \frac{1}{3}\triangle EqQ.
 $$
 
 II. If possible, suppose the area of the segment less than $\frac{1}{3}\triangle EqQ$.
@@ -9617,19 +9609,19 @@ Let $C$ be the centre of gravity of the paraboloid $BAB'$, and $F$ that of the p
 Then, since
 
 $$
-AN = \frac{a}{2} AC^*,
+AN = \frac{3}{2} AC,
 $$
 
 and
 
 $$
-AN \neq \frac{a}{4} p,
+AN \ngtr \frac{3}{4} p,
 $$
 
 it follows that
 
 $$
-AC \neq \frac{p}{2}.
+AC \ngtr \frac{p}{2}.
 $$
 
 Therefore, if $CP$ be joined, the angle $CPT$ is acute†. Hence, if $CK$ be drawn perpendicular to $PT$, $K$ will fall between $P$ and $T$. And, if $FL$, $HM$ be drawn parallel to $CK$ to meet $PT$, they will each be perpendicular to the surface of the fluid.
@@ -9637,8 +9629,6 @@ Therefore, if $CP$ be joined, the angle $CPT$ is acute†. Hence, if $CK$ be dra
 Now the force acting on the immersed portion of the segment of the paraboloid will act upwards along $LF$, while the weight of the portion outside the fluid will act downwards along $HM$.
 
 Therefore there will not be equilibrium, but the segment
-
-† The truth of this statement is easily proved from the property of the sub-normal. For, if the normal at $P$ meet the axis in $G$, $AG$ is greater than $\frac{p}{2}$ except in the case where the normal is the normal at the vertex $A$ itself. But the latter case is excluded here because, by hypothesis, $AN$ is not placed vertically. Hence, $P$ being a different point from $A$, $AG$ is always greater than $AC$; and, since the angle $TPG$ is right, the angle $TPC$ must be acute.
 
 will turn so that $B$ will rise and $B'$ will fall, until $AN$ takes the vertical position.]
 
@@ -9683,7 +9673,7 @@ $$
 or
 
 $$
-h \neq \frac{3}{4} p.
+h \ngtr \frac{3}{4} p.
 $$
 
 ## Proposition 3.
@@ -9700,7 +9690,7 @@ Draw $PT$ parallel to $QQ'$ and touching the parabola at $P$. Let $PT$ meet $NA$
 
 Let $C$ be the centre of gravity of the whole segment of the paraboloid, $F$ that of the portion above the surface. Join $FC$ and produce it to $H$ so that $H$ is the centre of gravity of the immersed portion.
 
-Then, since $AC \neq \frac{p}{2}$, the angle $CPT$ is an acute angle, as in the last proposition.
+Then, since $AC \ngtr \frac{p}{2}$, the angle $CPT$ is an acute angle, as in the last proposition.
 
 Hence, if $CK$ be drawn perpendicular to $PT$, $K$ will fall between $P$ and $T$. Also, if $HM$, $FL$ be drawn parallel to $CK$, they will be perpendicular to the surface of the fluid.
 
@@ -9789,13 +9779,13 @@ corresponding to the position in which $AM$ is vertical, or $\theta = \frac{\pi}
 Therefore there will be stable equilibrium in that position only, provided that
 
 $$
-k \not\ll (h - \frac{3}{4} p),
+k \nless (h - \frac{3}{4} p),
 $$
 
 or, if $s$ be the ratio of the specific gravity of the solid to that of the fluid ($= k^2 / h^2$ in this case),
 
 $$
-s \not\ll (h - \frac{3}{4} p)^2 / h^2.
+s \nless (h - \frac{3}{4} p)^2 / h^2.
 $$
 
 ## Proposition 5.
@@ -9966,7 +9956,7 @@ and, by the property of the parabola,
 
 $$
 \begin{array}{l}
-BV^* = (p + 4AN) PV \\
+BV^2 = (p + 4AN) PV \\
 = pk (1 + \cot^2 \theta).
 \end{array}
 $$
@@ -9974,7 +9964,7 @@ $$
 Therefore
 
 $$
-\sqrt{pk} = \sqrt{pk} + \frac{p}{2} \cot \theta.
+\sqrt{ph} = \sqrt{pk} + \frac{p}{2} \cot \theta.
 $$
 
 To obtain the result of the proposition, we have to eliminate $k$ between this equation and
@@ -10094,7 +10084,7 @@ whence $(X + Y) &lt; ar$, and therefore $X &lt; ao$.
 Measure $ob$ along $oa$ equal to $X$, and draw $bd$ perpendicular to $ab$ and of such length that
 
 $$
-bd^* = \frac{1}{2}co \cdot ab \quad \tag{$\beta$}.
+bd^2 = \frac{1}{2}co \cdot ab \quad \tag{$\beta$}.
 $$
 
 Join $ad$.
@@ -10415,7 +10405,7 @@ Also, if a perpendicular to $AM$ be drawn from $O$, it will meet the parabola $B
 Then, since the three parabolic segments are similar and similarly situated, with their bases in the same straight line and having one common extremity, and since $Q_{1}Q_{2}Q_{5}D$ is a diameter common to all three segments, it follows that
 
 $$
-Q_{1}Q_{2}: Q_{2}Q_{3} = (B_{2}B_{1}:B_{1}B) \cdot (BM: MB_{2})^{*}.
+Q_{1}Q_{2}: Q_{2}Q_{3} = (B_{2}B_{1}:B_{1}B) \cdot (BM: MB_{2}).
 $$
 
 Now
@@ -10440,62 +10430,6 @@ $$
 
 $$
 = 5:1.
-$$
-
-First, since $AA_{2}A_{3}B$ is a straight line, and $AN = AT$ with the ordinary notation (where $PT$ is the tangent at $P$ and $PN$ the ordinate), it follows, by similar triangles, that the tangent at $B$ to the outer parabola is a tangent to each of the other two parabolas at the same point $B$.
-
-Now, by the proposition quoted, if $DQ_{2}Q_{3}Q_{1}$ produced meet the tangent $BT$ in $E$,
-
-$$
-EQ_{3}: Q_{3}D = BD : DM,
-$$
-
-whence
-
-$$
-EQ_{3}: ED = BD : BM.
-$$
-
-Similarly
-
-$$
-EQ_{2}: ED = BD : BB_{2},
-$$
-
-and
-
-$$
-EQ_{1}: ED = BD : BB_{1}.
-$$
-
-The first two proportions are equivalent to
-
-$$
-EQ_{3}: ED = BD \cdot BB_{2} : BM \cdot BB_{2},
-$$
-
-and
-
-$$
-EQ_{2}: ED = BD \cdot BM : BM \cdot BB_{2}.
-$$
-
-By subtraction,
-
-$$
-Q_{3}Q_{3}: ED = BD \cdot MB_{2} : BM \cdot BB_{2}.
-$$
-
-Similarly
-
-$$
-Q_{1}Q_{3}: ED = BD \cdot B_{2}B_{1} : BB_{2} \cdot BB_{1}.
-$$
-
-It follows that
-
-$$
-Q_{1}Q_{3}: Q_{3}Q_{3} = (B_{2}B_{1} : B_{1}B) \cdot (BM : MB_{2}).
 $$
 
 It follows that
@@ -10598,7 +10532,7 @@ $$
 
 so that $l &lt; AR$ but $&gt; Q_{1}Q_{2}$.
 
-Place $P'V'$ between the two parabolas $BAB_{1}, BP_{2}Q_{3}M$ equal to $l$ and parallel to $AM^*$; and let $P'V'$ meet the intermediate parabola in $F'$.
+Place $P'V'$ between the two parabolas $BAB_{1}, BP_{2}Q_{3}M$ equal to $l$ and parallel to $AM$; and let $P'V'$ meet the intermediate parabola in $F'$.
 
 Then, by the same proof as before, we obtain
 
@@ -10653,7 +10587,7 @@ And the ratio $BO: OE$ is known. Therefore $BO^2$, or $OE^2$, can be found, and 
 segments with bases $BM$, $BB_1$ in the same straight line, $BV'$, $BQ'$ are drawn making the same angle with the bases,
 
 $$
-BV': BQ' = BM:BB_1^*
+BV': BQ' = BM:BB_1
 $$
 
 $$
@@ -10940,18 +10874,18 @@ For let it be placed so that the angle $PTN$ is not less than $T_1$.
 
 Then, with the same construction as before, $PV = l = P'V'$.
 
-And, since $\angle T \not\prec \angle T_1$,
+And, since $\angle T \nless \angle T_1$,
 
 $$
-AN \not\succ AN_1,
+AN \ngtr AN_1,
 $$
 
-and therefore $NO \not\prec N_1O$, where $P_1N_1$ is the ordinate of $P_1$.
+and therefore $NO \nless N_1O$, where $P_1N_1$ is the ordinate of $P_1$.
 
 Hence
 
 $$
-PL \not\prec P_1P_2.
+PL \nless P_1P_2.
 $$
 
 But
@@ -11410,8 +11344,6 @@ $$
 
 And similarly $GH$ can be found when $AC:CB$ is equal to any other given ratio†.
 
-† In general, if $AC:CB = \lambda:1$, we have
-
 $$
 BP:PN:NA:AB = 1: \lambda: \lambda^2: (1 + \lambda + \lambda^2),
 $$
@@ -11480,7 +11412,7 @@ $$
 
 so that the arc $BF$ is equal to three times the arc $BD$.
 
-Hence the arc $AE$, which is equal to the arc $BF$, is equal to three times the arc $BD^*$.
+Hence the arc $AE$, which is equal to the arc $BF$, is equal to three times the arc $BD$.
 
 ## Proposition 9.
 
@@ -11569,7 +11501,7 @@ Therefore $$\angle EDB = \angle EBD.$$
 
 And the angles at $H$ are right angles.
 
-It follows that $$BH = HD^*$$
+It follows that $$BH = HD$$
 
 ## Proposition 11.
 
@@ -11727,8 +11659,6 @@ $$
 
 ![img-171.jpeg](images/img-171.jpeg)
 
-† This proposition is of course true whether $M, N$ lie on $CD$ or on $CD$ produced each way. Pappus proves it for the latter case in his first lemma (p. 788) to the second Book of Apollonius' *νεύσεις*.
-
 ## Proposition 14.
 
 Let $ACB$ be a semicircle on $AB$ as diameter, and let $AD, BE$ be equal lengths measured along $AB$ from $A, B$ respectively. On $AD, BE$ as diameters describe semicircles on the side towards $C$, and on $DE$ as diameter a semicircle on the opposite side. Let the perpendicular to $AB$ through $O$, the centre of the first semicircle, meet the opposite semicircles in $C, F$ respectively.
@@ -11748,8 +11678,6 @@ CF = OA + OE = EA.
 $$
 
 ![img-172.jpeg](images/img-172.jpeg)
-
-† Cantor (*Gesch. d. Mathematik*, i. p. 285) compares this proposition with Hippocrates’ attempt to square the circle by means of lunes, but points out that the object of Archimedes may have been the converse of that of Hippocrates. For, whereas Hippocrates wished to find the area of a circle from that of other figures of the same sort, Archimedes’ intention was possibly to equate the area of figures bounded by different curves to that of a circle regarded as already known.
 
 Therefore
 
@@ -11776,7 +11704,7 @@ Therefore
 Let $AB$ be the diameter of a circle, $AC$ a side of an inscribed regular pentagon, $D$ the middle point of the arc $AC$. Join $CD$ and produce it to meet $BA$ produced in $E$; join $AC$, $DB$ meeting in $F$, and draw $FM$ perpendicular to $AB$. Then
 
 $$
-EM = (\text{radius of circle})^*.
+EM = (\text{radius of circle}).
 $$
 
 Let $O$ be the centre of the circle, and join $DA$, $DM$, $DO$, $CB$.

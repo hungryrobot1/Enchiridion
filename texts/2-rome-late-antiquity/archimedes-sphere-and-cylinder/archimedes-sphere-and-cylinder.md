@@ -14,8 +14,6 @@ I first set out the axioms* and the assumptions which I have used for the proofs
 
 2. I apply the term *concave in the same direction* to a line such that, if any two points on it are taken, either all the straight lines connecting the points fall on the same side of the line, or some fall on one and the same side while others fall on the line itself, but none on the other side.
 
-† Under the term *bent line* Archimedes includes not only curved lines of continuous curvature, but lines made up of any number of lines which may be either straight or curved.
-
 3. Similarly also there are certain terminated surfaces, not themselves being in a plane but having their extremities in a plane, and such that they will either be wholly on the same side of the plane containing their extremities, or have no part of them on the other side.
 
 4. I apply the term **concave in the same direction** to surfaces such that, if any two points on them are taken, the straight lines connecting the points either all fall on the same side of the surface, or some fall on one and the same side of it while some fall upon it, but none on the other side.
@@ -486,7 +484,7 @@ which is impossible, since the surface of the prism is greater than $S$, while t
 Therefore
 
 $$
-B \notin S.
+B \nless S.
 $$
 
 II. Suppose $B &gt; S$.
@@ -605,7 +603,7 @@ which is impossible, (because the surface of the pyramid is greater than $S$, wh
 
 Hence
 
-$$B \notin S.$$
+$$B \nless S.$$
 
 II. Suppose $B &gt; S$.
 
@@ -1184,7 +1182,7 @@ Let the polygons with the circle revolve together about a diameter common to all
 Then (surface of outer solid): (surface of inner solid)
 $$
 \begin{aligned}
-&amp;= (\text{side of outer})^2 : (\text{side of inner})^3 \quad \text{[Prop. 32]} \\
+&amp;= (\text{side of outer})^2 : (\text{side of inner})^2 \quad \text{[Prop. 32]} \\
 &amp;&lt; \beta^2 : \delta^2, \text{ or } \beta : \gamma \\
 &amp;&lt; (\text{surface of sphere}) : C, \text{ a fortiori}.
 \end{aligned}
@@ -1247,7 +1245,7 @@ Thus (vol. of outer solid): (vol. of inscribed solid)
 $$
 \begin{array}{l}
 &lt; \beta^{3}: \delta^{3}, \text{ by hypothesis}, \\
-&lt; \beta: \gamma, \text{ a fortiori (since } \beta: \gamma &gt; \beta^{3}: \delta^{3})^{*}, \\
+&lt; \beta: \gamma, \text{ a fortiori (since } \beta: \gamma &gt; \beta^{3}: \delta^{3}), \\
 &lt; \text{ (volume of sphere) }: V, \text{ a fortiori}.
 \end{array}
 $$
@@ -1654,7 +1652,7 @@ $$
 &lt; \beta^3: \delta^3
 $$
 $$
-&lt; \beta: \gamma, \text{ a fortiori*},
+&lt; \beta: \gamma, \text{ a fortiori},
 $$
 $$
 &lt; S: R, \text{ by hypothesis.}
@@ -1673,7 +1671,7 @@ But this is impossible, by Prop. 38, Cor. combined with Props. 42, 43.
 Hence
 
 $$
-S \neq R.
+S \ngtr R.
 $$
 
 II. Suppose, if possible, that $S &lt; R$.
@@ -2284,7 +2282,7 @@ Hence it is a necessary condition of the possibility of a solution that $AC.D$ m
 If $O$ be such a point on $AB$ that $BO = 2AO$, we have seen that, in order that the solution may be possible,
 
 $$
-AC.D \neq AO.OB^2.
+AC.D \ngtr AO.OB^2.
 $$
 
 Thus $AC.D$ is either equal to, or less than, $AO.OB^2$.
@@ -2751,7 +2749,7 @@ Therefore $QV^2:PV.P'V = D:2C$, a given ratio.
 Thus, if we take a line $p$ such that
 
 $$
-D:2C = p:PP'*.
+D:2C = p:PP'.
 $$
 
 and if we describe an ellipse with $PP'$ as a diameter and $p$ as the corresponding parameter $[=DD'^2/PP'$ in the ordinary notation of geometrical conics], and such that the ordinates to $PP'$ are inclined to it at an angle equal to half a right angle, i.e. are parallel to $QV$ or $AK$, then the ellipse will pass through $Q$.
@@ -2795,7 +2793,7 @@ Then through $A'$ draw $PP'$ making an angle ($AA'P$) with $AA'$ equal to half a
 Take a length $p$ such that
 
 $$
-D: 2C = p: PP'*,
+D: 2C = p: PP',
 $$
 
 and with $PP'$ as diameter and $p$ as the corresponding parameter describe an ellipse such that the ordinates to $PP'$ are inclined to it at an angle equal to $AA'P$, i.e. are parallel to $AK$.
@@ -2820,7 +2818,7 @@ From the property of the ellipse,
 
 $$
 \begin{aligned}
-QV^*: PV.P'V &amp;= p: PP' \\
+QV^2: PV.P'V &amp;= p: PP' \\
 &amp;= D: 2C.
 \end{aligned}
 $$
@@ -3125,7 +3123,7 @@ $$
 \begin{array}{l}
 \text{(segmt. } A'B'B') : \text{(segmt. } ABB') \\
 \quad &lt; \text{(surface of } A'B'B')^2 : \text{(surface of } ABB')^2 \\
-\text{but } &gt; \text{(surface of } A'B'B')^3 : \text{(surface of } ABB')^{3*}.
+\text{but } &gt; \text{(surface of } A'B'B')^{3/2} : \text{(surface of } ABB')^{3/2}.
 \end{array}
 $$
 

@@ -266,7 +266,7 @@ QV^2:PV.P'V = PL:PP' \\
 \end{array}
 $$
 
-Hence it follows that the square on the ordinate is equal to a rectangle whose height is equal to the abscissa and whose base lies along the fixed straight line $PL$ but overlaps ($\dot{v}πe\rho\beta\dot{a}\lambda\lambda\epsilon\iota$) it by a length equal to the difference between $VR$ and $PL^*$. Hence the section is called a HYPERBOLA.
+Hence it follows that the square on the ordinate is equal to a rectangle whose height is equal to the abscissa and whose base lies along the fixed straight line $PL$ but overlaps ($\dot{v}πe\rho\beta\dot{a}\lambda\lambda\epsilon\iota$) it by a length equal to the difference between $VR$ and $PL$. Hence the section is called a HYPERBOLA.
 
 $$
 y^2 = px + \frac{p}{d} \cdot x^2,
@@ -323,7 +323,7 @@ $$= VR:P'V$$
 $$= PV.VR:PV.P'V.$$
 $\therefore QV^2 = PV.VR.$
 
-Thus the square on the ordinate is equal to a rectangle whose height is equal to the abscissa and whose base lies along the fixed straight line $PL$ but falls short of it ($\acute{e}\lambda\lambda\epsilon\dot{i}\pi\epsilon i$) by a length equal to the difference between $VR$ and $PL^*$. The section is therefore called an ELLIPSE.
+Thus the square on the ordinate is equal to a rectangle whose height is equal to the abscissa and whose base lies along the fixed straight line $PL$ but falls short of it ($\acute{e}\lambda\lambda\epsilon\dot{i}\pi\epsilon i$) by a length equal to the difference between $VR$ and $PL$. The section is therefore called an ELLIPSE.
 
 As before, $PL$ is called the *latus rectum*, or the *parameter* of the ordinates to the diameter $PP'$, and $PP'$ itself is called the *transverse* (with or without the addition of *diameter* or *side* of the *figure*, as explained in the last proposition).
 
@@ -1677,7 +1677,7 @@ $$
 Now
 
 $$
-\Delta RUW = \Delta CFW \sim \Delta CPE = \Delta CFW \sim \Delta CQT^*;
+\Delta RUW = \Delta CFW \sim \Delta CPE = \Delta CFW \sim \Delta CQT;
 $$
 
 $\therefore$ in the figures as drawn
@@ -1865,7 +1865,7 @@ Therefore $p_a$ is the parameter of the hyperbola $PAP'$ corresponding to the di
 Secondly, let the given angle not be a right angle. Let $PP'$, $p$ be the given straight lines, $CPT$ the given angle, and $C$ the middle point of $PP'$. On $CP$ describe a semicircle, and let $N$ be such a point on it that, if $NH$ is drawn parallel to $PT$ to meet $CP$ produced in $H$,
 
 $$
-NH^2:CH.HP = p:PP'*.
+NH^2:CH.HP = p:PP'.
 $$
 
 ---
@@ -2083,7 +2083,7 @@ equal to the angle $CPT$, where $C$ is the middle point of the given diameter $P
 Take a point $N$, on the semicircle which has $CP$ for its diameter, such that $NH$ drawn parallel to $PT$ satisfies the relation
 
 $$
-NH^2: CH.HP = PL: PP'*.
+NH^2: CH.HP = PL: PP'.
 $$
 
 ---
@@ -3308,7 +3308,7 @@ $$
 CN \cdot NT : PN^2 = EM \cdot MF : DM^2,
 $$
 
-and it would follow that triangles $PCN$, $PTN$ are respectively similar to $DEM$, $DFM^*$. Thus the angle $DEM$ would be equal to the angle $PCN$.
+and it would follow that triangles $PCN$, $PTN$ are respectively similar to $DEM$, $DFM$. Thus the angle $DEM$ would be equal to the angle $PCN$.
 
 The construction would then be as follows:
 
@@ -3320,7 +3320,7 @@ $$
 CN \cdot NT : PN^2 = CA^2 : CB^2 = EM \cdot MF : DM^2,
 $$
 
-and the triangles $PCN$, $DEM$ are similar, whence it follows that the triangles $PTN$, $DFM$ are similar, and therefore also the triangles $CPT$, $EDF^*$.
+and the triangles $PCN$, $DEM$ are similar, whence it follows that the triangles $PTN$, $DFM$ are similar, and therefore also the triangles $CPT$, $EDF$.
 
 $$
 \therefore \angle CPT = \angle EDF = \angle \theta.
@@ -4289,7 +4289,7 @@ TR = RM,
 $$
 
 $$
-VR' = R'N*.
+VR' = R'N.
 $$
 
 ![img-99.jpeg](images/img-99.jpeg)
@@ -6893,7 +6893,7 @@ Therefore, if $H$ be taken on $AM$ such that $CH : HM = AA' : p_a$, $H$ will fal
 
 ---
 
-Take two mean proportionals $CN_1$, $CI$ between $CA$ and $CH^*$, and let $P_1N_1$ be the ordinate through $N_1$.
+Take two mean proportionals $CN_1$, $CI$ between $CA$ and $CH$, and let $P_1N_1$ be the ordinate through $N_1$.
 
 Take a point $L$ on $OM$ (in the hyperbola) or on $OM$ produced (in the ellipse) such that $OL:LM = AA':p_{\alpha}$. Draw $LVE$, $OR$ both parallel to the axis, and $CE$, $HVR$ both perpendicular to the axis. Let the tangent at $P_1$ meet the axis in $T$ and $EL$ in $W$, and let $P_1N_1$ meet $EL$ in $U_1$. Join $OP_1$, meeting the axis in $K_1$.
 
@@ -10572,7 +10572,7 @@ $$
 and
 
 $$
-M_1H^2 + M_1H'^2 &gt; M_1H'.2(M_1H' - MH)^*
+M_1H^2 + M_1H'^2 &gt; M_1H'.2(M_1H' - MH)
 $$
 
 $$

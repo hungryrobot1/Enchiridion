@@ -395,7 +395,7 @@ $$
 FH = \frac{1}{3} FD.
 $$
 
-Therefore $H$ is the centre of gravity of the triangle $DBC^*$.
+Therefore $H$ is the centre of gravity of the triangle $DBC$.
 
 Similarly, since $EK = \frac{1}{2} BE$, it follows that $K$ is the centre of gravity of the triangle $ADB$.
 

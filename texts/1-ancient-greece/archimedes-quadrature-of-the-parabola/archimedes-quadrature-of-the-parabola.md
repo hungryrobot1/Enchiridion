@@ -175,8 +175,6 @@ $$
 P = \frac{1}{3} \triangle BCD.
 $$
 
-† Doubtless in the lost book *περί ξυγών*. Cf. the Introduction, Chapter II., *ad fin*.
-
 ## Propositions 8, 9.
 
 Suppose a lever $AOB$ placed horizontally and supported at its middle point $O$. Let a triangle $BCD$, right-angled or obtuse-angled at $C$, be suspended from the points $B, E$ on $OB$, the angular point $C$ being so attached to $E$ that the side $CD$ is in the same vertical line with $E$. Let $Q$ be an area such that
@@ -484,7 +482,7 @@ $$
 Therefore
 
 $$
-\text{(area of segment)} \neq \frac{1}{3}\triangle EqQ.
+\text{(area of segment)} \ngtr \frac{1}{3}\triangle EqQ.
 $$
 
 II. If possible, suppose the area of the segment less than $\frac{1}{3}\triangle EqQ$.

@@ -1802,7 +1802,7 @@ First, let the given angle be a right angle.
 Let $AA'$, $p_a$ be the given straight lines, and let a circle be drawn through $A$, $A'$ in a plane perpendicular to the given plane and such that, if $C$ be the middle point of $AA'$ and $DF$ the diameter perpendicular to $AA'$,
 
 $$
-DC:CF \succ AA':p_a.
+DC:CF \ngtr AA':p_a.
 $$
 
 Then, if $DC:CF = AA':p_a$, we should use the point $F$ for our construction, but, if not, suppose
@@ -3017,7 +3017,7 @@ Therefore $OL$ touches the hyperbola at $P$. [Props. 28, 30]
 
 ![img-68.jpeg](images/img-68.jpeg)
 
-Join $CO$. Take any chord $Qq$ parallel to $CO$, and let $V$ be its middle point. Draw through $V$ the diameter $PP'$. Then $PP'$ is the diameter conjugate to $CO$. Now take on $OC$ produced a point $w$ such that $CO \cdot Cw = \frac{1}{4}p \cdot PP' [= CD^{\sharp}]$, and draw through $w$ the straight line $wR$ parallel to $PP'$ meeting the curve in $R$. Join $OR$. Then, since $Rw$ is parallel to $CP$ and $Cw$ conjugate to it, while $CO \cdot Cw = CD^{\sharp}$, $OR$ is the tangent at $R$. [Prop. 15]
+Join $CO$. Take any chord $Qq$ parallel to $CO$, and let $V$ be its middle point. Draw through $V$ the diameter $PP'$. Then $PP'$ is the diameter conjugate to $CO$. Now take on $OC$ produced a point $w$ such that $CO \cdot Cw = \frac{1}{4}p \cdot PP' [= CD^2]$, and draw through $w$ the straight line $wR$ parallel to $PP'$ meeting the curve in $R$. Join $OR$. Then, since $Rw$ is parallel to $CP$ and $Cw$ conjugate to it, while $CO \cdot Cw = CD^{\sharp}$, $OR$ is the tangent at $R$. [Prop. 15]
 
 ---
 
@@ -6197,12 +6197,12 @@ And, by (2) above, $O$ lies below $AC$; therefore $O$ lies within the $\angle AC
 
 ![img-152.jpeg](images/img-152.jpeg)
 
-Then, by hypothesis, $CA \gg AM$,
+Then, by hypothesis, $CA \ngtr AM$,
 
 and $CA : AM = CA^2 : AL^2$; [Prop. 28]
 
 $$
-\therefore CA \gg AL;
+\therefore CA \ngtr AL;
 $$
 
 hence the angle $CLA$ is not greater than $ACL$ or $ACL'$.
@@ -7239,7 +7239,7 @@ $$ (ax)^{\frac{3}{2}} \mp (by)^{\frac{3}{2}} = (a^2 \pm b^2)^{\frac{3}{2}} $$
 
 If $O$ be a point on the minor axis of an ellipse, then
 
-(a) if $OB : BC \notin AA' : p_a$, and $P$ be any point on either of the quadrants $BA$, $BA'$ except the point $B$, and if $OP$ meet the major axis in $K$,
+(a) if $OB : BC \nless AA' : p_a$, and $P$ be any point on either of the quadrants $BA$, $BA'$ except the point $B$, and if $OP$ meet the major axis in $K$,
 $$ PO \text{ cannot be a normal, but } NK &lt; NG; $$
 
 (b) if $OB : BC &lt; AA' : p_a$, one normal only besides $OB$ can be drawn to either of the two quadrants as $OP$, and, if $P'$ be any other point, $N'K'$ is less or greater than $N'G'$ according as $P'$ is further from, or nearer to, the minor axis than $P$.
@@ -9704,7 +9704,7 @@ as in the preceding propositions.
 
 Therefore $AA'^2: p_a^2 = A'H \cdot AH': AH^2$ (α).
 
-We have now $AH &gt; AH'$ but $\neq 2AH'$.
+We have now $AH &gt; AH'$ but $\ngtr 2AH'$.
 
 And
 
@@ -9762,7 +9762,7 @@ $$
 p_a &lt; p.
 $$
 
-Again, if $P_1$ be a point further from $A$ than $P$ is, and if $A'Q_1$ is parallel to $CP_1$, and $M_1$ is the foot of the ordinate $QM_1$, then, since $AH \neq 2AH'$,
+Again, if $P_1$ be a point further from $A$ than $P$ is, and if $A'Q_1$ is parallel to $CP_1$, and $M_1$ is the foot of the ordinate $QM_1$, then, since $AH \ngtr 2AH'$,
 
 $$
 MH &lt; 2MH';
@@ -9972,41 +9972,41 @@ where $PP'$ is any other diameter and $p$ the corresponding parameter; and $PP' 
 
 (1) The construction being the same as before, we suppose
 
-(a) $AA' \notin p_a$.
+(a) $AA' \nless p_a$.
 
 In this case [Prop. 137 (1)] $PP'$ increases as $P$ moves from $A$, and $p$ along with it.
 
 Therefore $PP' + p$ also increases continually.
 
-(b) Suppose $AA' &lt; p_a$ but $\notin \frac{1}{3}p_a$;
+(b) Suppose $AA' &lt; p_a$ but $\nless \frac{1}{3}p_a$;
 
 $$
-\therefore AH' \notin \frac{1}{3}AH;
+\therefore AH' \nless \frac{1}{3}AH;
 $$
 
 thus
 
 $$
-AH' \notin \frac{1}{4}(AH + AH'),
+AH' \nless \frac{1}{4}(AH + AH'),
 $$
 
 and
 
 $$
-(AH + AH'). 4AH' \notin (AH + AH')^2.
+(AH + AH'). 4AH' \nless (AH + AH')^2.
 $$
 
 Hence $4(AH + AH')AM : 4(AH + AH')AH'$, or $AM : AH'$,
 
 $$
-\therefore 4(AH + AH')AM : (AH + AH')^2;
+\ngtr 4(AH + AH')AM : (AH + AH')^2;
 $$
 
 ---
 
 and, componendo,
 
-$$MH': AH' \ni 4(AH + AH') \quad AM + (AH + AH')^2 : (AH + AH')^2.$$
+$$MH': AH' \ngtr 4(AH + AH')AM + (AH + AH')^2 : (AH + AH')^2.$$
 
 Now
 
@@ -10031,7 +10031,7 @@ $$AA' + p_a &lt; PP' + p.$$
 
 Again, since
 
-$$AH' \notin \frac{1}{4}(AH + AH'),$$
+$$AH' \nless \frac{1}{4}(AH + AH'),$$
 $$MH' &gt; \frac{1}{4}(MH + MH')$$
 
 $$\therefore 4(MH + MH') \cdot MH' &gt; (MH + MH')^2.$$
@@ -10280,9 +10280,9 @@ $$
 
 In a hyperbola,
 
-(1) if $AA' \neq p_a$, or
+(1) if $AA' \nless p_a$, or
 
-(2) if $AA' &lt; p_a$, but $AA'^2 \neq \frac{1}{2}(AA' - p_a)^2$, then
+(2) if $AA' &lt; p_a$, but $AA'^2 \nless \frac{1}{2}(AA' - p_a)^2$, then
 
 $$
 AA'^2 + p_a^2 &lt; PP'^2 + p^2,
@@ -10304,12 +10304,12 @@ $$
 
 and $PP'^2 + p^2$ increases continually as $P$ moves further from $A$.
 
-(2) Let $AA'$ be less than $p_a$, but $AA'^2 \notin \frac{1}{2}(AA' \sim p_a)^2$.
+(2) Let $AA'$ be less than $p_a$, but $AA'^2 \nless \frac{1}{2}(AA' \sim p_a)^2$.
 
 Then, since $AA': p_a = A'H: AH = AH': A'H'$,
 
 $$
-2AH'^2 \notin HH'^2,
+2AH'^2 \nless HH'^2,
 $$
 
 and
@@ -10461,11 +10461,11 @@ and so on.
 
 In an ellipse,
 
-(1) if $AA'^2 \ngeq \frac{1}{2}(AA' + p_a)^2$, then $AA'^2 + p_a^2 &lt; PP'^2 + p^2$, and the latter increases as $P$ moves away from $A$, reaching a **maximum** when $P$ coincides with $B$;
+(1) if $AA'^2 \ngtr \frac{1}{2}(AA' + p_a)^2$, then $AA'^2 + p_a^2 &lt; PP'^2 + p^2$, and the latter increases as $P$ moves away from $A$, reaching a **maximum** when $P$ coincides with $B$;
 
 (2) if $AA'^2 &gt; \frac{1}{2}(AA' + p_a)^2$, then there will be on each side of the axis a diameter $P_0P_0'$ such that $P_0P_0'^2 = \frac{1}{2}(P_0P_0' + p_0)^2$, and $P_0P_0'^2 + p_0^2$ will then be less than $PP'^2 + p^2$ in the same quadrant, while this latter increases as $P$ moves from $P_0$ on either side.
 
-(1) Suppose $AA'^2 \ngeq \frac{1}{2}(AA' + p_a)^2$.
+(1) Suppose $AA'^2 \ngtr \frac{1}{2}(AA' + p_a)^2$.
 
 Now
 
@@ -10504,11 +10504,11 @@ $$
 Again,
 
 $$
-AA'^2 \ngeq \frac{1}{2}(AA' + p_a)^2,
+AA'^2 \ngtr \frac{1}{2}(AA' + p_a)^2,
 $$
 
 $$
-\therefore 2A'H \cdot AH' \ngeq HH'^2,
+\therefore 2A'H \cdot AH' \ngtr HH'^2,
 $$
 
 whence
@@ -10557,7 +10557,7 @@ $$
 AA'^2 + p_a^2 &lt; PP'^2 + p^2.
 $$
 
-Again, either $MH &lt; M_1H'$, or $MH \notin M_1H'$.
+Again, either $MH &lt; M_1H'$, or $MH \nless M_1H'$.
 
 (a) Let
 
@@ -10607,9 +10607,9 @@ $$
 
 (b) If
 
-$$MH \notin M_1H',$$
+$$MH \nless M_1H',$$
 
-$$MH^2 + MH'^2 \nRightarrow M_1H^2 + M_1H'^2,$$
+$$MH^2 + MH'^2 \ngtr M_1H^2 + M_1H'^2,$$
 
 and it results, in the same way as before, that
 

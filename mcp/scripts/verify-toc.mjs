@@ -97,7 +97,8 @@ function referenceAbbrevMap(text) {
 }
 
 // ---- candidate: the mirror -------------------------------------------------
-const { buildToc, flattenToc, extractSection, abbreviateSlug, sectionSpans } = await import('../src/toc.ts');
+const { buildToc, flattenToc, extractSection, abbreviateSlug, sectionSpans, resolveSegment } =
+  await import('../src/toc.ts');
 
 function candidatePaths(text) {
   return flattenToc(buildToc(text).sections).map((n) => n.path);
@@ -109,6 +110,21 @@ const abbrevRef = new Function(
   liftFunction(readerSrc, 'abbreviateSlug') +
   `\nconst ABBREV_MIN = ${/const ABBREV_MIN = (\d+)/.exec(readerSrc)[1]};` +
   '\nreturn abbreviateSlug;'
+)();
+
+// ---- reference segment matching: the four resolution tiers -----------------
+// isAbbrevOf through matchSegment sit contiguously in md-reader.js, so the
+// whole block lifts as one slice rather than function by function. If that
+// ordering is ever broken this throws, which is the right failure: the point
+// is to run the READER's code, never a paraphrase of it.
+const matchStart = readerSrc.indexOf('const ROMAN_RE');
+const matchEnd = readerSrc.indexOf('// Resolve one path segment against');
+if (matchStart === -1 || matchEnd === -1 || matchEnd < matchStart)
+  throw new Error('cannot lift the segment-matching block from md-reader.js');
+const matchSegmentRef = new Function(
+  liftFunction(readerSrc, 'isAbbrevOf') + '\n' +
+  readerSrc.slice(matchStart, matchEnd) +
+  '\nreturn matchSegment;'
 )();
 
 // ---- corpus enumeration ----------------------------------------------------
@@ -227,6 +243,37 @@ for await (const { id, file } of markdownFiles()) {
 
   const refAbbrev = referenceAbbrevMap(text);
   seenShort = new Set();
+
+  // Segment matching must agree between reader and mirror on every tier, not
+  // just on canonical paths — a tolerant form that resolved in one and not the
+  // other would mean a link works in the reader and 404s through the MCP, or
+  // the reverse. Probe each sibling set with the forms a caller plausibly
+  // types: the slug itself, its abbreviation, a bare number, and a numeral
+  // swap.
+  const walkSiblings = (nodes) => {
+    if (!nodes.length) return;
+    const slugs = nodes.map((n) => n.path.split('/').pop());
+    const probes = new Set();
+    for (const s of slugs) {
+      probes.add(s);
+      probes.add(abbreviateSlug(s, slugs));
+      for (const tok of s.split('-')) {
+        if (/^\d+$/.test(tok)) probes.add(tok);
+        if (/^[ivxlcdm]+$/.test(tok)) probes.add(tok);
+      }
+    }
+    for (const probe of probes) {
+      const mine = resolveSegment(slugs, probe);
+      const theirs = matchSegmentRef(slugs, probe);
+      if (mine !== theirs) {
+        failures++;
+        console.log(`SEGMENT MATCH MISMATCH ${id}\n  siblings=${slugs.slice(0, 6).join(', ')}…` +
+          `\n  probe="${probe}"  mirror=${mine}  reader=${theirs}`);
+      }
+    }
+    for (const n of nodes) walkSiblings(n.children);
+  };
+  walkSiblings(buildToc(text).sections);
 
   // sectionSpans walks the document independently of buildToc (line ranges
   // rather than a tree) and assigns its own slugs. It backs `search`, so its

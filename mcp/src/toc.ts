@@ -195,27 +195,100 @@ export function isAbbrevOf(slug: string, segment: string): boolean {
   return slug === segment || slug.startsWith(`${segment}-`);
 }
 
+/** Numeric value of a token: arabic digits or a well-formed roman numeral. */
+const ROMAN_RE = /^m{0,3}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})$/;
+const ROMAN_VAL: Record<string, number> = { i: 1, v: 5, x: 10, l: 50, c: 100, d: 500, m: 1000 };
+
+export function tokenNumber(tok: string): number | null {
+  if (/^\d+$/.test(tok)) return parseInt(tok, 10);
+  if (!tok || !ROMAN_RE.test(tok)) return null;
+  let v = 0;
+  for (let i = 0; i < tok.length; i++) {
+    const cur = ROMAN_VAL[tok[i]];
+    const next = ROMAN_VAL[tok[i + 1]] ?? 0;
+    v += cur < next ? -cur : cur;
+  }
+  return v;
+}
+
+/** Two tokens denote the same number, across arabic/roman ("2" ~ "ii"). */
+function numEq(a: string, b: string): boolean {
+  const na = tokenNumber(a);
+  if (na === null) return false;
+  const nb = tokenNumber(b);
+  return nb !== null && na === nb;
+}
+
+/**
+ * Does `segment` match `slug` token-by-token from the front? Each segment
+ * token must equal the corresponding slug token, be a leading part of it
+ * ("prop" for "proposition"), or denote the same number ("2" for "ii"). This
+ * is the tolerant tier: it makes `book-2/prop-5` land on
+ * `book-ii/proposition-5` without either being the canonical abbreviation.
+ */
+function tokensMatch(slug: string, segment: string): boolean {
+  const segToks = segment.split('-');
+  const slugToks = slug.split('-');
+  if (segToks.length > slugToks.length) return false;
+  return segToks.every(
+    (t, i) => t.length > 0 && (slugToks[i] === t || slugToks[i].startsWith(t) || numEq(t, slugToks[i]))
+  );
+}
+
+/**
+ * Does a purely numeric `segment` name `slug` by its first number? Works
+ * whose slugs LEAD with the number ("21-to-find-…") are covered by the
+ * abbreviation tier already; this tier covers works whose slugs carry a label
+ * first ("proposition-21", "chap-52"), so that `book-i/5` resolves in Euclid
+ * exactly as it does in Diophantus and the scheme is uniform across the
+ * corpus.
+ */
+function numberNames(slug: string, segment: string): boolean {
+  const n = tokenNumber(segment);
+  if (n === null || segment.includes('-')) return false;
+  for (const tok of slug.split('-')) {
+    const v = tokenNumber(tok);
+    if (v !== null) return v === n; // first number in the slug decides
+  }
+  return false;
+}
+
 /**
  * Resolve one path segment against a sibling slug list; returns its index or
- * -1. Mirror of md-reader.js resolveSegment.
+ * -1. Mirror of md-reader.js matchSegment.
  *
- * Exact match always wins; a segment is only treated as an abbreviation when
- * nothing matched exactly, and only when exactly one sibling accepts it. This
- * is what lets an abbreviated deep link from the site resolve here, and why
- * `analysis` still means `analysis` rather than being an ambiguous prefix of
- * `analysis-2`.
+ * Four tiers, tried in order, so the additions cannot change what an existing
+ * link means — a later tier runs only when every earlier tier found nothing:
+ *
+ *   1. exact          the full slug
+ *   2. abbreviation   a leading run of whole words (the canonical short form)
+ *   3. tokenwise      per-word prefixes and arabic/roman equivalence
+ *   4. number         a bare number naming the section by its first numeral
+ *
+ * Within a tier the match must be unique among siblings; an ambiguous
+ * segment resolves to nothing rather than to a guess.
  */
 export function resolveSegment(slugs: string[], segment: string): number {
   const exact = slugs.indexOf(segment);
   if (exact !== -1) return exact;
 
-  let hit = -1;
-  for (let i = 0; i < slugs.length; i++) {
-    if (!isAbbrevOf(slugs[i], segment)) continue;
-    if (hit !== -1) return -1; // ambiguous
-    hit = i;
+  const tiers: ((slug: string) => boolean)[] = [
+    (s) => isAbbrevOf(s, segment),
+    (s) => tokensMatch(s, segment),
+    (s) => numberNames(s, segment),
+  ];
+  for (const accepts of tiers) {
+    let hit = -1;
+    let count = 0;
+    for (let i = 0; i < slugs.length; i++) {
+      if (!accepts(slugs[i])) continue;
+      count++;
+      hit = i;
+    }
+    if (count === 1) return hit;
+    if (count > 1) return -1; // ambiguous at this tier — do not guess deeper
   }
-  return hit;
+  return -1;
 }
 
 /**

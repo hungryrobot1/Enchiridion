@@ -37,3 +37,15 @@ if ! node "$root/mcp/scripts/check-links.mjs"; then
   echo "  Re-run with: cd mcp && npm run check-links" >&2
   exit 1
 fi
+
+# Section paths must keep meaning what they meant. Resolution is tolerant —
+# abbreviations, shortened words, arabic/roman numerals — and the tolerant
+# tiers are only safe because they run where the strict ones found nothing.
+# This asserts that: every canonical and abbreviated path still resolves to
+# its own section. A couple of seconds over the whole corpus.
+if ! node "$root/mcp/scripts/verify-resolution.mjs" >/dev/null; then
+  echo "" >&2
+  echo "pre-push: section paths no longer resolve to themselves — push refused." >&2
+  echo "  Re-run with: cd mcp && npm run verify-resolution" >&2
+  exit 1
+fi

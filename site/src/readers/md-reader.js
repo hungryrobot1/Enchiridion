@@ -526,21 +526,87 @@ function isAbbrevOf(slug, segment) {
   return slug === segment || slug.startsWith(`${segment}-`);
 }
 
+// Numeric value of a token: arabic digits or a well-formed roman numeral.
+const ROMAN_RE = /^m{0,3}(cm|cd|d?c{0,3})(xc|xl|l?x{0,3})(ix|iv|v?i{0,3})$/;
+const ROMAN_VAL = { i: 1, v: 5, x: 10, l: 50, c: 100, d: 500, m: 1000 };
+
+function tokenNumber(tok) {
+  if (/^\d+$/.test(tok)) return parseInt(tok, 10);
+  if (!tok || !ROMAN_RE.test(tok)) return null;
+  let v = 0;
+  for (let i = 0; i < tok.length; i++) {
+    const cur = ROMAN_VAL[tok[i]];
+    const next = ROMAN_VAL[tok[i + 1]] ?? 0;
+    v += cur < next ? -cur : cur;
+  }
+  return v;
+}
+
+function numEq(a, b) {
+  const na = tokenNumber(a);
+  if (na === null) return false;
+  const nb = tokenNumber(b);
+  return nb !== null && na === nb;
+}
+
+// Tolerant tier: per-word prefixes and arabic/roman equivalence, token by
+// token from the front — `book-2/prop-5` lands on `book-ii/proposition-5`.
+function tokensMatch(slug, segment) {
+  const segToks = segment.split('-');
+  const slugToks = slug.split('-');
+  if (segToks.length > slugToks.length) return false;
+  return segToks.every(
+    (t, i) => t.length > 0 && (slugToks[i] === t || slugToks[i].startsWith(t) || numEq(t, slugToks[i]))
+  );
+}
+
+// Number tier: a bare number names a section by its first numeral, so
+// `book-i/5` resolves in Euclid ("proposition-5") exactly as it does in
+// Diophantus ("5-to-…") — one rule across the corpus.
+function numberNames(slug, segment) {
+  const n = tokenNumber(segment);
+  if (n === null || segment.includes('-')) return false;
+  for (const tok of slug.split('-')) {
+    const v = tokenNumber(tok);
+    if (v !== null) return v === n;
+  }
+  return false;
+}
+
+// Match one segment against a sibling slug list; returns the index or -1.
+// Mirror of mcp/src/toc.ts resolveSegment — four tiers tried in order (exact,
+// abbreviation, tokenwise, number), so the tolerant tiers only ever run where
+// yesterday's scheme would have failed, and nothing published changes meaning.
+// Within a tier the match must be unique; ambiguity resolves to nothing.
+function matchSegment(slugs, segment) {
+  const exact = slugs.indexOf(segment);
+  if (exact !== -1) return exact;
+
+  const tiers = [
+    (s) => isAbbrevOf(s, segment),
+    (s) => tokensMatch(s, segment),
+    (s) => numberNames(s, segment),
+  ];
+  for (const accepts of tiers) {
+    let hit = -1;
+    let count = 0;
+    for (let i = 0; i < slugs.length; i++) {
+      if (!accepts(slugs[i])) continue;
+      count++;
+      hit = i;
+    }
+    if (count === 1) return hit;
+    if (count > 1) return -1;
+  }
+  return -1;
+}
+
 // Resolve one path segment against a scope's direct children.
-//
-// Exact match always wins; abbreviation is only the fallback. That ordering
-// covers the case boundary-alignment cannot: `analysis` is a whole-word
-// prefix of `analysis-2`, but it is also a real slug, so it resolves to
-// itself. Ambiguous abbreviations resolve to nothing rather than to a guess.
 function resolveSegment(scope, segment) {
   const children = childSectionsOf(scope);
-  const lastSeg = (el) => el.dataset.section.split('/').pop();
-
-  const exact = children.find((el) => lastSeg(el) === segment);
-  if (exact) return exact;
-
-  const matches = children.filter((el) => isAbbrevOf(lastSeg(el), segment));
-  return matches.length === 1 ? matches[0] : null;
+  const slugs = children.map((el) => el.dataset.section.split('/').pop());
+  const i = matchSegment(slugs, segment);
+  return i === -1 ? null : children[i];
 }
 
 // Walk a section path from the root, building and opening each ancestor, then

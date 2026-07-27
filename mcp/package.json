@@ -14,7 +14,8 @@
     "build": "tsc",
     "dev": "tsx src/server.ts",
     "verify-toc": "node scripts/verify-toc.mjs",
-    "check-links": "node scripts/check-links.mjs"
+    "check-links": "node scripts/check-links.mjs",
+    "verify-resolution": "node scripts/verify-resolution.mjs"
   },
   "dependencies": {
     "@hono/mcp": "^0.3.1",

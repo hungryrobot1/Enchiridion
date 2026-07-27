@@ -31,9 +31,11 @@ import {
 } from './corpus.js';
 import {
   SectionNode,
+  Toc,
   buildToc,
   extractSection,
   findNode,
+  resolveSegment,
   sectionAtLine,
   sectionSpans,
 } from './toc.js';
@@ -164,20 +166,32 @@ server.registerTool(
     title: 'List the works in the library',
     description:
       'Enumerate the certified corpus: primary texts, supplements (lab manuals, ' +
-      'study guides), and language/skill modules. Optionally filter by kind or ' +
-      'by era (substring, e.g. "Ancient Greece" or "Rome"). Every id here is ' +
-      'usable with get_structure, read, and search.',
+      'study guides), and language/skill modules. Filter with q (matches id, ' +
+      'title or author — pass an author name or a word from the title to find ' +
+      'a work without listing everything), kind, or era (substring, e.g. ' +
+      '"Ancient Greece" or "Rome"). Every id here is usable with get_structure, ' +
+      'read, and search.',
     inputSchema: {
+      q: z.string().optional(),
       kind: z.enum(['text', 'supplement', 'module']).optional(),
       era: z.string().optional(),
     },
   },
-  async ({ kind, era }) => {
+  async ({ q, kind, era }) => {
     let works = await loadWorks();
     if (kind) works = works.filter((w) => w.kind === kind);
     if (era) {
-      const q = era.toLowerCase();
-      works = works.filter((w) => (w.era ?? '').toLowerCase().includes(q));
+      const needle = era.toLowerCase();
+      works = works.filter((w) => (w.era ?? '').toLowerCase().includes(needle));
+    }
+    if (q) {
+      // Same matcher resolveWork uses for a bad id, so "did you mean" and an
+      // explicit search agree on what counts as a match.
+      const toks = q.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+      works = works.filter((w) => {
+        const hay = `${w.id} ${w.title} ${w.author ?? ''}`.toLowerCase();
+        return toks.every((t) => hay.includes(t));
+      });
     }
     const byKind: Record<string, Work[]> = {};
     for (const w of works) (byKind[w.kind] ??= []).push(w);
@@ -248,13 +262,18 @@ function renderTree(nodes: SectionNode[], depth?: number): string[] {
         const words = list.slice(i, j).reduce((s, n) => s + n.words, 0);
         lines.push(
           `${pad}${linkPath(list[i])} … ${lastSeg(linkPath(list[j - 1]))}  ` +
-            `(${runLen} sections, ${words.toLocaleString()}w)`
+            `(${runLen} sections${d === 1 ? `, ${words.toLocaleString()}w` : ''})`
         );
         i = j;
         continue;
       }
       const n = list[i];
-      lines.push(`${pad}${linkPath(n)}  (${n.words.toLocaleString()}w)  ${n.heading}`);
+      // Word counts are for choosing what to read next, so they appear only at
+      // the level being chosen between — the immediate children of whatever
+      // was asked for. Deeper rows keep path and heading; a count on every one
+      // of 400 grandchildren is noise that answers no live question.
+      const words = d === 1 ? `(${n.words.toLocaleString()}w)  ` : '';
+      lines.push(`${pad}${linkPath(n)}  ${words}${n.heading}`);
       if ((depth === undefined || d < depth) && n.children.length) walk(n.children, d + 1);
       i++;
     }
@@ -285,6 +304,81 @@ function prefixPaths(node: SectionNode, prefix: string): SectionNode {
   };
 }
 
+/**
+ * The middle tier of error handling: an error should narrow the search, not
+ * restart it.
+ *
+ * A missed section path used to answer "use get_structure" — sending a
+ * near-miss straight to the full table of contents, the exact token cliff the
+ * short paths exist to avoid. Instead: walk the path as far as it resolves,
+ * then show one level of options at the point of failure. Wrong final segment
+ * gets that section's siblings; wrong first segment gets the top level. Long
+ * runs still collapse to a range line, so even a 400-proposition level answers
+ * in a few lines.
+ */
+function sectionMiss(id: string, toc: Toc, section: string): string {
+  const segments = section.split('/').filter(Boolean);
+  let level = toc.sections;
+  let resolved: SectionNode | null = null;
+
+  for (const segment of segments) {
+    const i = resolveSegment(level.map((n) => lastSeg(n.path)), segment);
+    if (i === -1) break;
+    resolved = level[i];
+    level = resolved.children;
+  }
+
+  const where = resolved ? `under ${linkPath(resolved)}` : `at the top level of ${id}`;
+  const options = level.length ? renderTree(level, 1).join('\n') : '(no sections at this level)';
+  return `Section "${section}" not found in ${id}. Options ${where}:\n\n${options}`;
+}
+
+/**
+ * The same tier one level up, where the cliff was worst: a wrong work id used
+ * to answer "use list_works" — 53 works with descriptions, costing more than
+ * reading the passage being looked for.
+ *
+ * Instead, match the guess against id, title, and author. One hit proceeds as
+ * if the id had been right (with a note saying so); several hits list just
+ * those candidates; none falls back to pointing at list_works with its `q`
+ * filter, never the dump.
+ */
+async function resolveWork(
+  guess: string
+): Promise<{ work: Work; note?: string } | { miss: string }> {
+  const exact = await getWork(guess);
+  if (exact) return { work: exact };
+
+  const toks = guess.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+  const hay = (w: Work) => `${w.id} ${w.title} ${w.author ?? ''}`.toLowerCase();
+  const candidates = toks.length
+    ? (await loadWorks()).filter((w) => toks.every((t) => hay(w).includes(t)))
+    : [];
+
+  if (candidates.length === 1) {
+    const w = candidates[0];
+    return { work: w, note: `("${guess}" matched ${w.id})` };
+  }
+  if (candidates.length > 1 && candidates.length <= 8) {
+    const lines = candidates.map((w) => `  ${w.id} — ${w.title}`).join('\n');
+    return { miss: `No work with id "${guess}". Did you mean:\n${lines}` };
+  }
+  if (candidates.length > 8) {
+    // Enough matches that listing them is its own dump — say how many, and
+    // hand back the narrower query rather than the corpus.
+    return {
+      miss:
+        `"${guess}" matches ${candidates.length} works. Narrow it: ` +
+        `list_works with q: "${guess} <title word>", or pass a full id.`,
+    };
+  }
+  return {
+    miss:
+      `No certified work matches "${guess}". It may not be in the corpus yet — ` +
+      `list_works with q: "<author or title>" to check, or without q for everything.`,
+  };
+}
+
 server.registerTool(
   'get_structure',
   {
@@ -303,10 +397,14 @@ server.registerTool(
     },
   },
   async ({ id, section, depth }) => {
-    const work = await getWork(id);
-    if (!work) return text(`No certified work with id "${id}". Use list_works.`);
+    const found = await resolveWork(id);
+    if ('miss' in found) return text(found.miss);
+    const work = found.work;
+    id = work.id;
 
-    const head: string[] = [`${work.title}`];
+    const head: string[] = [];
+    if (found.note) head.push(found.note);
+    head.push(`${work.title}`);
     if (work.kind === 'text')
       head.push(
         `${work.author}${work.translator ? `, translated by ${work.translator}` : ''} — ${work.era ?? ''}`
@@ -325,7 +423,7 @@ server.registerTool(
     let nodes = toc.sections;
     if (section) {
       const node = findNode(toc.sections, section);
-      if (!node) return text(`Section "${section}" not found in ${id}. Omit it for the top level.`);
+      if (!node) return text(sectionMiss(id, toc, section));
       nodes = node.children.length ? node.children : [node];
     }
     const tree = renderTree(nodes, depth);
@@ -396,12 +494,12 @@ server.registerTool(
       'that section, or omit for a small whole work. Section paths are often ' +
       "predictable (e.g. \"book-i/proposition-47\", \"chapter-3\") — you can " +
       'usually pass one directly and skip get_structure, falling back to it ' +
-      'only if a path misses. A path segment may also be ABBREVIATED to any ' +
-      'leading run of its whole words, so a numbered section is usually ' +
-      'reachable by its number alone ("book-i/21" for Diophantus\' twenty-' +
-      'first problem, whose full path is its entire problem statement). ' +
-      'Abbreviations must end on a word boundary and be unambiguous among ' +
-      'their siblings; an exact path always wins over an abbreviation. ' +
+      'only if a path misses. Segments are matched tolerantly, so one habit ' +
+      'works across the corpus: a bare number names a section by its number ' +
+      '("book-i/5" reaches Euclid\'s Proposition 5 and Diophantus\' Problem 5 ' +
+      'alike), words may be shortened ("book-i/prop-5"), and arabic and roman ' +
+      'numerals are interchangeable ("book-2/8" = "book-ii/8"). A segment must ' +
+      'be unambiguous among its siblings; exact paths always win. ' +
       'A section over the size budget returns its ' +
       'sub-structure instead of the body, so read one proposition/chapter at a ' +
       'time. Figures come back inline as images. Bilingual texts default to ' +
@@ -415,25 +513,34 @@ server.registerTool(
     },
   },
   async ({ id, section, lang }) => {
-    const work = await getWork(id);
-    if (!work) return text(`No certified work with id "${id}". Use list_works.`);
+    const found = await resolveWork(id);
+    if ('miss' in found) return text(found.miss);
+    const work = found.work;
+    id = work.id;
     const language: Lang = lang ?? 'en';
 
-    if (work.kind === 'module') return readModule(work, section, language);
+    const withNote = <T extends { content: unknown[] }>(res: T): T => {
+      if (found.note) res.content.unshift({ type: 'text' as const, text: found.note });
+      return res;
+    };
+
+    if (work.kind === 'module') return withNote(await readModule(work, section, language));
 
     const md = await fetchContent(work.path!);
     const toc = buildToc(md);
     if (section) {
       const sec = extractSection(md, section);
-      if (!sec) return text(`Section "${section}" not found in ${id}. Use get_structure for valid paths.`);
+      if (!sec) return text(sectionMiss(id, toc, section));
       const node = findNode(toc.sections, section);
       // Link with the section's own abbreviated path rather than whatever the
       // caller passed: a full path here can run to hundreds of characters, and
       // the link is meant to be handed to a student.
       const linkPath = node?.short ?? node?.path ?? section;
-      return finalizeRead(work, sec.markdown, node?.children ?? [], linkPath, node?.heading ?? section, language);
+      return withNote(
+        await finalizeRead(work, sec.markdown, node?.children ?? [], linkPath, node?.heading ?? section, language)
+      );
     }
-    return finalizeRead(work, md, toc.sections, undefined, work.title, language);
+    return withNote(await finalizeRead(work, md, toc.sections, undefined, work.title, language));
   }
 );
 
@@ -454,8 +561,10 @@ server.registerTool(
     },
   },
   async ({ id, query }) => {
-    const work = await getWork(id);
-    if (!work) return text(`No certified work with id "${id}". Use list_works.`);
+    const found = await resolveWork(id);
+    if ('miss' in found) return text(found.miss);
+    const work = found.work;
+    id = work.id;
 
     const sources: { label: string; md: string; prefix: string }[] = [];
     if (work.kind === 'module') {

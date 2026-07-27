@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# Refuse to push content with broken in-app links.
+#
+# Links and `?s=` section paths are the only place in the repo where a route or
+# a section is *stored* rather than derived. Everything else — indexes, section
+# trees, MCP paths — is recomputed from the markdown and self-corrects. Stored
+# references rot silently: a dead link renders exactly like a live one, which
+# is how two of the corpus's eight links stayed broken through several
+# releases. Processing a new text can orphan one without touching the link.
+#
+# The check is dependency-free (no node_modules) and takes about a second.
+#
+# Enable once per clone:  git config core.hooksPath .githooks
+# Bypass in an emergency: git push --no-verify
+
+root=$(git rev-parse --show-toplevel)
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "pre-push: node not found — cannot check links." >&2
+  echo "  Install node, or bypass once with: git push --no-verify" >&2
+  exit 1
+fi
+
+# The checker imports a .ts module, which needs node's native type stripping
+# (22.6+ behind a flag, 24+ by default).
+major=$(node -p "process.versions.node.split('.')[0]")
+if [ "$major" -lt 22 ]; then
+  echo "pre-push: node $major is too old to load the checker (needs 22+)." >&2
+  exit 1
+fi
+
+if ! node "$root/mcp/scripts/check-links.mjs"; then
+  echo "" >&2
+  echo "pre-push: broken links above — push refused." >&2
+  echo "  Link forms are documented in README.md ('How the site works')." >&2
+  echo "  Re-run with: cd mcp && npm run check-links" >&2
+  exit 1
+fi

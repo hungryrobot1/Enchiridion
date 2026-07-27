@@ -16,7 +16,7 @@ The passage is significant not only for its philosophical argument but for its l
 
 ## Before You Begin
 
-Read the *Meno* in English first. The full text is in your library at `texts/1-ancient-greece/plato-meno`. Read at least from the beginning through 86c to understand the context of the slave boy passage within the larger dialogue about virtue, knowledge, and recollection.
+Read the *Meno* in English first. The full text is in your [library](#/text/plato-meno). Read at least from the beginning through 86c to understand the context of the slave boy passage within the larger dialogue about virtue, knowledge, and recollection.
 
 The geometry is closely related to Proposition I.47 of Euclid's *Elements* (the Pythagorean theorem). If you have not yet translated I.47 in the [Euclid exercises](exercises-euclid.md), do so before beginning this passage.
 

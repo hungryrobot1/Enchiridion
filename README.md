@@ -50,6 +50,16 @@ The reader is a static single-page app. A few things worth knowing if you're rea
 - **Content is fetched from the repository, not bundled.** Indexes (`text-index.json` and friends) are generated at build time into `site/public/` and served from the site origin; text and supplement *content* is fetched directly from `raw.githubusercontent.com` so the published bundle stays small. Anything living in the repo root (syllabi, changelog entries) is fetched the same way — see `site/src/lib/url-builder.js`.
 - **Three reader roles, one shell.** Texts, supplements, and module chapters share a single reader that dispatches by format: rendered markdown where an OCR pass is complete, PDF where it isn't.
 - **The build outputs to `docs/`** (not the conventional `dist/`) because GitHub Pages serves from `docs/` on the main branch.
+- **Linking between documents.** Supplements and module chapters link to library material with the site's own hash routes — never a repository path:
+
+  | target | link |
+  | --- | --- |
+  | a text | `[Meno](#/text/plato-meno)` |
+  | a passage in a text | `[Problem 21](#/text/diophantus-arithmetica?s=book-i/21)` |
+  | a supplement | `[…](#/supplement/reading-diophantus)` |
+  | a module chapter or resource | `[…](#/module/1-ancient-greek/exercises-bible)` |
+
+  Section paths after `?s=` are slugified heading paths, and may be **abbreviated**: each segment shortened at a hyphen boundary to the shortest leading run of words no sibling shares (`book-i/21` for `book-i/21-to-find-three-numbers-such-that…`). Resolution tries an exact match before reading a segment as an abbreviation, so full paths — including any link published earlier — keep working. The § button on a section summary copies the abbreviated form. Note that a full path is stable permanently while an abbreviation holds only while it stays unique among its siblings; `cd mcp && npm run check-links` resolves every link in the corpus and is the guard against either going stale.
 
 ### Running locally
 
@@ -61,6 +71,14 @@ npm run build    # production build into ../docs
 ```
 
 The dev server serves repository content (texts, syllabi) directly from the repo root, so everything resolves locally without needing the live `raw.githubusercontent` paths.
+
+Enable the repository's hooks once per clone:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+`pre-push` refuses to push content with a broken in-app link. It is dependency-free and takes about a second; run it any time with `cd mcp && npm run check-links`. Bypass with `git push --no-verify` if you must.
 
 ## Status
 

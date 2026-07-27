@@ -44,11 +44,11 @@ You will not need to study these cover to cover. Skim them to see how they organ
 
 ## The Exercises
 
-A curated selection of passages from the Septuagint and New Testament is provided in the **Translation Exercises: The Bible** companion document. The passages range from Genesis to Revelation — narrative, poetry, prophecy, parable, epistle — and are meant as invitations, not assignments. Pick what draws you.
+A curated selection of passages from the Septuagint and New Testament is provided in the [Translation Exercises: The Bible](#/module/1-ancient-greek/exercises-bible) companion document. The passages range from Genesis to Revelation — narrative, poetry, prophecy, parable, epistle — and are meant as invitations, not assignments. Pick what draws you.
 
 A natural starting point is the opening of the Gospel of John (1:1–18). The Logos prologue deliberately echoes Genesis ("In the beginning") while deploying vocabulary any reader of Heraclitus or Plato would recognize — λόγος, φῶς, σκοτία, ἀλήθεια. The syntax is simple. The ideas are not. From there, you might explore the Septuagint's rendering of the Hebrew Bible into Greek, or follow Paul's long periodic sentences, or translate proverbs one at a time like Heraclitus fragments.
 
-The full text of the Bible in English is in your library at `texts/2-rome-late-antiquity/holy-bible-kjv`. Reading the English first will orient you before working through the Greek.
+The full text of the Bible in English is in your [library](#/text/holy-bible-kjv). Reading the English first will orient you before working through the Greek.
 
 ## Conclusion
 

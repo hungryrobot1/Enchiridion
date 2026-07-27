@@ -294,7 +294,7 @@
             "Genesis",
             "Exodus",
             "Deuteronomy",
-            "Leviticus and Numbers, at the reader's discretion"
+            "Leviticus and Numbers (optional)"
           ]
         },
         {
@@ -308,12 +308,12 @@
           "id": "diophantus-arithmetica",
           "note": "A long-runner, like Euclid before it — two or three problems a day alongside the rest. Read him in his own terms; the supplement shows what his notation actually looked like, and why Heath's page reads as modern algebra.",
           "passages": [
-            "Book I: the Preliminary (definitions and notation), then work broadly — 39 determinate problems build the method",
-            "Book II: work broadly — the indeterminate technique emerges (II.8 splits a square into two squares; II.9 re-divides a sum of two squares, e.g. 13 = 2² + 3²)",
-            "Book III, Problems 10–16: the workhorse of quadratic conditions — products and sums of pairs made square",
-            "Book IV, Problems 1–2, 10–11, 18, 24–28: the cube problems — sums and differences of cubes",
-            "Book V, Problems 9, 29, and 30: the sophisticated peak — dividing unity into squares, and the closing epigram",
-            "Book VI: the right-angled triangle problems"
+            "Book I: the Preliminary; then Problems 1–39",
+            "Book II",
+            "Book III, Problems 10–16",
+            "Book IV, Problems 1–2, 10–11, 18, 24–28",
+            "Book V, Problems 9, 29–30",
+            "Book VI"
           ]
         },
         {
@@ -333,11 +333,11 @@
           "id": "nicomachus-arithmetic",
           "note": "Read for its philosophy of number, not as a manual — the Pythagorean vision of arithmetic as first among the sciences.",
           "passages": [
-            "Book I, Chapters 1–8: the philosophy of number, and the first division into even and odd",
-            "Book I, Chapters 11–13: prime and composite numbers, and Eratosthenes' sieve",
-            "Book I, Chapter 16: the perfect numbers",
-            "Book II, Chapters 6–11: the figurate numbers — triangular, square, polygonal, and solid",
-            "Book II, Chapters 21–29: the three proportions (arithmetic, geometric, harmonic) and the perfect musical proportion 6 : 8 : 9 : 12; the lesser means catalogued in 28 may be skimmed"
+            "Book I, Chapters 1–8",
+            "Book I, Chapters 11–13",
+            "Book I, Chapter 16",
+            "Book II, Chapters 6–11",
+            "Book II, Chapters 21–29 (28 may be skimmed)"
           ]
         },
         {
@@ -357,7 +357,7 @@
             "Ecclesiastes",
             "Isaiah 1–12, 40–55",
             "Jeremiah and Lamentations",
-            "Ezekiel: the chariot-vision and the valley of dry bones (optional)",
+            "Ezekiel 1 and 37 (optional)",
             "Jonah",
             "Daniel",
             "Ezra",
@@ -369,12 +369,12 @@
           "type": "text",
           "id": "herodotus-histories",
           "passages": [
-            "Book I: Croesus, Solon, and the rise of Cyrus",
-            "Book II: selections on Egypt",
-            "Book III: Cambyses, the accession of Darius, and the debate on government (80–82)",
-            "Book VI: the Ionian Revolt and Marathon",
-            "Books VII–VIII: Xerxes' invasion — Thermopylae and Salamis",
-            "Book IX: Plataea and the end"
+            "Book I",
+            "Book II: selections",
+            "Book III, especially 80–82",
+            "Book VI",
+            "Books VII–VIII",
+            "Book IX"
           ]
         },
         {
@@ -399,15 +399,15 @@
           "type": "text",
           "id": "vitruvius-de-architectura",
           "passages": [
-            "Book I (whole): the education of the architect, the fundamental principles, and the siting of a city",
-            "Book II, Introduction and Chapters I–II: Dinocrates, the origin of the dwelling house, and the physicists' elements",
-            "Book III (whole): symmetry and the human body, through the Ionic order — the ground of the drawing lab",
-            "Book IV, Chapters I–II: the origin and ornament of the three orders — optional, and fuller for the drawing lab",
-            "Book V, Introduction and Chapters I, III–V, X: the Pythagorean callback to Nicomachus; the forum and basilica; the theatre, harmonics, and sounding-vessels; the baths",
-            "Book VI, Introduction and Chapters I, III, VI–VII: the Aristippus anecdote; climate and national character; room proportions; the farmhouse and the Greek house",
-            "Book VII, Introduction and Chapter V: the survey of predecessors and the plagiarism story; the decadence of painting",
-            "Book IX, Introduction and Chapters I, VII–VIII: the Eureka story and the geometry of discovery; the zodiac; the analemma and sundials",
-            "Book X, Chapters I–IX: the machines — hoisting, the water-screw and Ctesibius's pump; the water organ; the hodometer; and X–XVI (catapults, ballistae, siege engines) for those drawn to the war machines"
+            "Book I",
+            "Book II: Introduction and Chapters I–II",
+            "Book III",
+            "Book IV, Chapters I–II (optional)",
+            "Book V: Introduction and Chapters I, III–V, X",
+            "Book VI: Introduction and Chapters I, III, VI–VII",
+            "Book VII: Introduction and Chapter V",
+            "Book IX: Introduction and Chapters I, VII–VIII",
+            "Book X, Chapters I–IX (X–XVI optional)"
           ]
         },
         {
@@ -446,10 +446,10 @@
           "id": "holy-bible-kjv",
           "note": "Third station: the Gospels, read against the poem you have just finished. If you kept the Greek thread, John's prologue is where it pays.",
           "passages": [
-            "Matthew: whole",
-            "Mark: whole",
-            "John 1: the prologue — in the beginning was the Word",
-            "John 13–21: the Book of Exaltation"
+            "Matthew",
+            "Mark",
+            "John 1",
+            "John 13–21"
           ]
         },
         {
@@ -461,19 +461,19 @@
           "type": "text",
           "id": "pliny-natural-history",
           "passages": [
-            "Book I: the Preface — what he gathered, and for whom",
-            "Book II: cosmology and the nature of the world",
-            "Book VII: man — his birth, his powers, and Chapters 57–60 on the inventors of things",
-            "Book VIII, Chapters 1–14: elephants, dragons, and serpents of remarkable size",
-            "Book VIII, Chapters 16–25: the elk, the lions, the panther and the tiger",
-            "Book VIII, Chapters 61–66: the dog and the horse — loyalty and temperament",
-            "Book IX, Chapters 4–10: sea-monsters and the dolphins, including those that loved men",
-            "Book IX, Chapters 54–63: pearls, the murex, and the purple — luxury and the dye",
-            "Book X, Chapters 1–6: the ostrich, the phoenix, and the eagles",
-            "Book X, Chapters 43–58: the nightingale's song, and the birds that speak",
-            "Book XI, Chapters 4–22: the bees — the order of their work and their government",
-            "Book XI, Chapters 26–29: the silk-worm and the spiders",
-            "Books XXXIII–XXXVII: the history of art — metals, bronze and sculpture, painting, marble, and precious stones"
+            "Book I: the Preface",
+            "Book II",
+            "Book VII, especially Chapters 57–60",
+            "Book VIII, Chapters 1–14",
+            "Book VIII, Chapters 16–25",
+            "Book VIII, Chapters 61–66",
+            "Book IX, Chapters 4–10",
+            "Book IX, Chapters 54–63",
+            "Book X, Chapters 1–6",
+            "Book X, Chapters 43–58",
+            "Book XI, Chapters 4–22",
+            "Book XI, Chapters 26–29",
+            "Books XXXIII–XXXVII"
           ],
           "note": "An encyclopedia, not a treatise — the recommendations are doors in. Follow whatever catches you and leave the rest."
         },
@@ -487,18 +487,18 @@
           "id": "aristotle-prior-analytics",
           "note": "The theory of deduction — read the two Analytics together here, alongside the sciences they underwrite.",
           "passages": [
-            "Book I, Chapters 1–7: premise, term, and syllogism defined, and the three figures",
-            "Book II, Chapter 23: the syllogism of induction — optional, and the companion to Posterior Analytics II.19"
+            "Book I, Chapters 1–7",
+            "Book II, Chapter 23 (optional)"
           ]
         },
         {
           "type": "text",
           "id": "aristotle-posterior-analytics",
           "passages": [
-            "Book I, Chapters 1–10: what demonstrative knowledge is; per se predication; why one science cannot be proved by another; and the kinds of first principle",
-            "Book I, Chapter 13: knowledge of the fact and of the reasoned fact",
-            "Book II, Chapters 1–2: the questions a science asks",
-            "Book II, Chapter 19: how first principles come to be known"
+            "Book I, Chapters 1–10",
+            "Book I, Chapter 13",
+            "Book II, Chapters 1–2",
+            "Book II, Chapter 19"
           ]
         },
         {
@@ -506,7 +506,7 @@
           "id": "hero-of-alexandria-pneumatics",
           "note": "Read the preface for Hero's account of air and the void; the labs that follow put his devices in your hands.",
           "passages": [
-            "Book I, Preface: air as a body, and the question of the void"
+            "Book I: the Preface"
           ]
         },
         {
@@ -518,12 +518,12 @@
           "id": "seneca-natural-questions",
           "note": "Seven books; take them one at a time between other readings.",
           "passages": [
-            "Book I, Preface: why study nature at all — the mind's ascent above the earth",
-            "Book I, Chapters XVI–XVII: mirrors, and the story of Hostius Quadra — physics turning suddenly moral",
-            "Book II, Chapters XXXII–XLI: lightning, and what the Etruscans read in it",
-            "Book III, Preface: the shortness of life set against the size of the inquiry",
-            "Book VI: earthquakes — including the shock that struck Pompeii, and the consolation drawn from it",
-            "Book VII: comets — the argument that they are celestial bodies on long orbits; Chapter XXV on what later ages will know that we do not; Chapter XXX on reverence in treating of the heavens"
+            "Book I: the Preface",
+            "Book I, Chapters XVI–XVII",
+            "Book II, Chapters XXXII–XLI",
+            "Book III: the Preface",
+            "Book VI",
+            "Book VII, especially Chapters XXV and XXX"
           ]
         },
         {
@@ -534,10 +534,10 @@
           "type": "text",
           "id": "galen-natural-faculties",
           "passages": [
-            "Book I, Chapters I–VI: what a faculty is — genesis, growth, and nutrition, and Nature as a craftsman who does nothing in vain",
-            "Book I, Chapters XII–XIII: against the atomist physicians, and the ligature of the ureters — an experiment designed to settle the question",
-            "Book II, Chapters I–III: the four faculties — attraction, retention, alteration, expulsion",
-            "Book III, Chapters I–III: the faculties at work in the organs"
+            "Book I, Chapters I–VI",
+            "Book I, Chapters XII–XIII",
+            "Book II, Chapters I–III",
+            "Book III, Chapters I–III"
           ],
           "note": "He is answering what you have already read — Aristotle's nature that does nothing in vain, and the atomism of Lucretius."
         },
@@ -549,11 +549,11 @@
           "type": "text",
           "id": "tacitus-annals",
           "passages": [
-            "Book I, Chapters 1–15: the death of Augustus and the accession of Tiberius — how a commonwealth became a monarchy while keeping all its old names",
-            "Book IV, Chapters 1–12: the rise of Sejanus",
-            "Book IV, Chapters 32–33: why this history is narrower than the old ones, and the three forms of rule — set beside the Persian debate in Herodotus III",
-            "Book VI, Chapters 50–51: the death of Tiberius, and the reckoning of his character",
-            "Books XIV–XVI: the reign of Nero — the fire at Rome and the first persecution (XV.38–44), the death of Seneca (XV.60–64), Petronius (XVI.18–19), and Thrasea Paetus, where the text breaks off"
+            "Book I, Chapters 1–15",
+            "Book IV, Chapters 1–12",
+            "Book IV, Chapters 32–33",
+            "Book VI, Chapters 50–51",
+            "Books XIV–XVI"
           ],
           "note": "The last of the historians you have read in sequence — and the one writing under what Herodotus's Persians only debated."
         },
@@ -570,7 +570,7 @@
           "id": "holy-bible-kjv",
           "note": "Fourth station: Luke and Acts are one work in two volumes — the life, then what followed from it.",
           "passages": [
-            "Luke: whole",
+            "Luke",
             "Acts",
             "Romans",
             "1 Corinthians",
@@ -585,10 +585,10 @@
           "type": "text",
           "id": "proclus-commentaries",
           "passages": [
-            "Book I (the First Prologue): the nature of mathematical being — what mathematical objects are, and where they exist",
-            "Book II (the Second Prologue): what geometry is, where it came from, and the plan of Euclid's first book",
-            "The Definitions: Definition I, on the point — optional, as a taste of how he reads a definition",
-            "Book III: the Petitions and the Axioms — optional; Taylor's terms for the postulates and common notions"
+            "Book I: the First Prologue",
+            "Book II: the Second Prologue",
+            "The Definitions: Definition I (optional)",
+            "Book III: the Petitions and the Axioms (optional)"
           ],
           "note": "You have done Euclid; now read a philosopher who thinks the Elements are about being. The prologues are the prize — the commentary proper is there to dip into."
         },
@@ -596,7 +596,7 @@
           "type": "text",
           "id": "proclus-elements-of-theology",
           "passages": [
-            "Propositions 1–20: the One, procession, and reversion — metaphysics written in Euclid's form, definitions and demonstrations"
+            "Propositions 1–20"
           ],
           "note": "Read for the form as much as the doctrine, and do not linger."
         },
@@ -604,23 +604,23 @@
           "type": "text",
           "id": "iamblichus-life-of-pythagoras",
           "passages": [
-            "Chapters I–V: birth, youth, and education",
-            "Chapters XV–XIX: the school and the Pythagorean way of life",
-            "Chapter XXVI: the discovery of harmony — the ratios of music",
-            "Chapters XXX–XXXIII: justice, temperance, and friendship (Damon and Phintias)",
-            "From the Ethical Fragments: Hipparchus on tranquillity, Archytas on the good and happy man, and Polus on justice"
+            "Chapters I–V",
+            "Chapters XV–XIX",
+            "Chapter XXVI",
+            "Chapters XXX–XXXIII",
+            "From the Ethical Fragments: Hipparchus, Archytas, and Polus"
           ]
         },
         {
           "type": "text",
           "id": "augustine-city-of-god",
           "passages": [
-            "Books I–V: the sack of Rome, the case against the old gods, and what Roman virtue actually earned",
-            "Books VIII–X: Platonism and the demons — the philosophers who came nearest",
-            "Books XI–XIV: the origin of the two cities — creation, the angels, and the fall",
-            "Books XV–XVIII: the two cities traced through history — Cain founding a city by fratricide, and the empires that followed",
-            "Book XIX: the ends of the two cities — the supreme good, and the nature of peace",
-            "Book XXII: the resurrection and the end"
+            "Books I–V",
+            "Books VIII–X",
+            "Books XI–XIV",
+            "Books XV–XVIII",
+            "Book XIX",
+            "Book XXII"
           ],
           "note": "Read in his own architecture: the polemic first, then the two cities in origin, in history, and in their ends."
         },

@@ -12,7 +12,7 @@ The best equipment you have is Euclid. You have read him, and Diophantus is goin
 
 ## Try it yourself first
 
-Go to [Problem 16](#/text/diophantus-arithmetica?s=book-i/16-to-find-three-numbers-such-that-the-sums-of-pairs-are-given-numbers). Read only the statement and the given numbers:
+Go to [Problem 16](#/text/diophantus-arithmetica?s=book-i/16). Read only the statement and the given numbers:
 
 > To find three numbers such that the sums of pairs are given numbers.
 >
@@ -57,7 +57,7 @@ His stock of species is closed in the same way. The list stops at the sixth powe
 
 Once you see that one unknown is all he gets, the whole art moves to a place you are not used to looking. Not the manipulation — you already have that, and his is nothing special. The art is in **choosing what to call *x* so that the conditions collapse into one.**
 
-Watch it again in [Problem 27](#/text/diophantus-arithmetica?s=book-i/27-to-find-two-numbers-such-that-their-sum-and-product-are-given-numbers). Sum and product are given; find the two numbers. He calls neither number *x*. He names **2x the difference between them**.
+Watch it again in [Problem 27](#/text/diophantus-arithmetica?s=book-i/27). Sum and product are given; find the two numbers. He calls neither number *x*. He names **2x the difference between them**.
 
 Look at what that buys. The numbers become 10+x and 10−x. Their sum is 20 *whatever x turns out to be* — the first condition is satisfied before any work has been done, permanently, by the act of naming. Only the product is left to force, and it forces at once.
 
@@ -77,7 +77,7 @@ There is a quieter shift underneath all this, and it is the one that makes his a
 
 The Preliminary opens by agreeing with Euclid: all numbers are "made up of some multitude of units." That is *Elements* VII, definition 2, almost word for word.
 
-Now look at the answer to [Problem 21](#/text/diophantus-arithmetica?s=book-i/21-to-find-three-numbers-such-that-the-greatest-exceeds-the-middle-number-by-a-given-fraction-of-the-least-the-middle-exceeds-the-least-by-a-given-fraction-of-the-greatest-but-the-least-exceeds-a-given-fraction-of-the-middle-number-by-a-given-number):
+Now look at the answer to [Problem 21](#/text/diophantus-arithmetica?s=book-i/21):
 
 > The numbers are 45, 37½, 22½.
 
@@ -95,7 +95,7 @@ One older word survives to remind you where this came from. Most problems, he sa
 
 ## What to carry
 
-Return to [Problem 1](#/text/diophantus-arithmetica?s=book-i/1-to-divide-a-given-number-into-two-having-a-given-difference), the simplest thing in the book. Divide 100 into two numbers differing by 40. He calls the lesser *x*, gets 2x + 40 = 100, and finds x = 30.
+Return to [Problem 1](#/text/diophantus-arithmetica?s=book-i/1), the simplest thing in the book. Divide 100 into two numbers differing by 40. He calls the lesser *x*, gets 2x + 40 = 100, and finds x = 30.
 
 The middle of that will feel familiar and you can move through it quickly — equals taken from equals leave equals, and the same for halving. You have Euclid's common notions for it, and Diophantus says as much himself in the Preliminary.
 

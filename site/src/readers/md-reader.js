@@ -229,7 +229,8 @@ export default {
     }
 
     // Deep link: `#/route?s=<section-path>` opens the named section (building
-    // each lazy ancestor on the way down) and scrolls to it.
+    // each lazy ancestor on the way down) and scrolls to it. Segments may be
+    // full slugs or abbreviations of them; see resolveSegment.
     const targetSection = parseSectionParam();
     if (targetSection) openSectionPath(wrapper, targetSection);
 
@@ -403,7 +404,7 @@ function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) 
   const summary = document.createElement('summary');
   summary.className = 'md-reader__section-summary';
   summary.innerHTML = md.parseInline(headingMd);
-  summary.appendChild(buildAnchorButton(path));
+  summary.appendChild(buildAnchorButton(details));
   details.appendChild(summary);
 
   const body = document.createElement('div');
@@ -449,6 +450,54 @@ function uniqueSlug(slug, used) {
   return candidate;
 }
 
+// Shortest readable leading portion of `slug` that no sibling shares.
+//
+// Slugs are derived from full headings and some headings are enormous — a
+// Pliny chapter title enumerating thirty plants slugs to 400+ characters. The
+// full path stays the section's identity (and stays permanently linkable);
+// this is only what we hand someone who asks for a link.
+//
+// Truncation happens at hyphen boundaries, never mid-word, so an abbreviation
+// always reads as words. A candidate is accepted if it is either long enough
+// to be recognisable or contains a digit — numbered sections identify
+// themselves, which is what collapses `21-to-find-three-numbers-such-that-…`
+// to `21`. Falling through to the full slug is always safe: it resolves by
+// exact match even where a sibling extends it.
+const ABBREV_MIN = 6;
+
+function abbreviateSlug(slug, siblings) {
+  const others = siblings.filter((s) => s !== slug);
+  const parts = slug.split('-');
+
+  for (let n = 1; n < parts.length; n++) {
+    const candidate = parts.slice(0, n).join('-');
+    if (candidate.length < ABBREV_MIN && !/\d/.test(candidate)) continue;
+    if (others.every((s) => !isAbbrevOf(s, candidate))) return candidate;
+  }
+  return slug;
+}
+
+// Abbreviate a live section's whole path, reading each level's sibling set out
+// of the DOM. Done at link time rather than build time because a section's
+// later siblings do not exist yet when it is built — but by the time anyone
+// can click its § button, the parent has built all of them.
+function abbreviatePath(details) {
+  const segments = [];
+  let node = details;
+
+  while (node?.classList?.contains('md-reader__section')) {
+    const parent = node.parentElement?.classList.contains('md-reader')
+      ? node.parentElement
+      : node.parentElement?.parentElement;
+    if (!parent) break;
+    const siblings = childSectionsOf(parent).map((el) => el.dataset.section.split('/').pop());
+    segments.unshift(abbreviateSlug(node.dataset.section.split('/').pop(), siblings));
+    node = parent;
+  }
+
+  return segments.join('/') || details.dataset.section;
+}
+
 // Read the `?s=<section-path>` deep-link parameter from the current hash.
 function parseSectionParam() {
   const hash = window.location.hash;
@@ -457,19 +506,58 @@ function parseSectionParam() {
   return new URLSearchParams(hash.slice(q + 1)).get('s');
 }
 
+// Direct child sections of a node. The wrapper holds them as immediate
+// children; a built <details> holds them inside its body div.
+function childSectionsOf(node) {
+  const sel = node.classList?.contains('md-reader')
+    ? ':scope > details.md-reader__section'
+    : ':scope > div > details.md-reader__section';
+  return Array.from(node.querySelectorAll(sel));
+}
+
+// Does `segment` abbreviate `slug` — i.e. is it a leading run of whole words?
+//
+// Matching aligns to hyphen boundaries, never mid-word. That single constraint
+// removes the largest collision class in the corpus: `1` abbreviates
+// `1-to-divide-a-given-number` but not `10-to-find-two-numbers`, because `10`
+// is a different word. Raw string-prefixing would have conflated them and
+// forced every numbered section to carry a disambiguating tail.
+function isAbbrevOf(slug, segment) {
+  return slug === segment || slug.startsWith(`${segment}-`);
+}
+
+// Resolve one path segment against a scope's direct children.
+//
+// Exact match always wins; abbreviation is only the fallback. That ordering
+// covers the case boundary-alignment cannot: `analysis` is a whole-word
+// prefix of `analysis-2`, but it is also a real slug, so it resolves to
+// itself. Ambiguous abbreviations resolve to nothing rather than to a guess.
+function resolveSegment(scope, segment) {
+  const children = childSectionsOf(scope);
+  const lastSeg = (el) => el.dataset.section.split('/').pop();
+
+  const exact = children.find((el) => lastSeg(el) === segment);
+  if (exact) return exact;
+
+  const matches = children.filter((el) => isAbbrevOf(lastSeg(el), segment));
+  return matches.length === 1 ? matches[0] : null;
+}
+
 // Walk a section path from the root, building and opening each ancestor, then
 // scroll the deepest section found into view. Tolerates a partially-matching
 // path (opens as far as it can); scroll-margin-top in CSS keeps the summary
 // clear of the sticky header.
+//
+// Segments may be abbreviated (see resolveSegment). Ancestors are built as we
+// descend, so each level's children exist in the DOM by the time we look for
+// them.
 function openSectionPath(wrapper, path) {
   const segments = path.split('/').filter(Boolean);
   let scope = wrapper;
   let target = null;
-  let progressive = '';
 
   for (const segment of segments) {
-    progressive = progressive ? `${progressive}/${segment}` : segment;
-    const next = scope.querySelector(`details[data-section="${progressive}"]`);
+    const next = resolveSegment(scope, segment);
     if (!next) break;
     const ensureBuilt = sectionBuilders.get(next);
     if (ensureBuilt) ensureBuilt();
@@ -491,7 +579,11 @@ function openSectionPath(wrapper, path) {
 
 // The § button on each section summary: copies a deep link to that section.
 // Click must not toggle the <details> it sits inside.
-function buildAnchorButton(path) {
+//
+// The copied link carries the abbreviated path (see abbreviatePath), computed
+// at click time from the live sibling sets. Full paths remain valid forever —
+// this only shortens what we hand out.
+function buildAnchorButton(details) {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'md-reader__anchor';
@@ -503,7 +595,7 @@ function buildAnchorButton(path) {
     e.stopPropagation();
     const base = window.location.href.split('#')[0];
     const route = window.location.hash.split('?')[0] || '#/';
-    const link = `${base}${route}?s=${path}`;
+    const link = `${base}${route}?s=${abbreviatePath(details)}`;
     if (!navigator.clipboard) return;
     navigator.clipboard.writeText(link).then(() => {
       btn.textContent = '✓';

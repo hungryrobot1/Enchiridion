@@ -3,12 +3,24 @@
  * to the live reader's `data-section` assignments.
  *
  * Method: extract the reader's own pure functions (splitMarkdownIntoSections,
- * slugifyHeading, uniqueSlug) verbatim from site/src/readers/md-reader.js and
- * run them as the reference implementation; run the mirror (src/toc.ts via a
- * tsx child or the compiled dist) as the candidate; enumerate the full section
- * path set both ways for every markdown file in the corpus; diff.
+ * slugifyHeading, uniqueSlug, isAbbrevOf, abbreviateSlug) verbatim from
+ * site/src/readers/md-reader.js and run them as the reference implementation;
+ * run the mirror (src/toc.ts via a tsx child or the compiled dist) as the
+ * candidate; compare over every markdown file in the corpus.
  *
- * Exit 0 = every path set identical. Any drift prints per-file diffs.
+ * Four properties, in order of how much they matter:
+ *
+ *  1. PATHS — reader and mirror assign identical section paths.
+ *  2. ROUND-TRIP — every abbreviated path resolves back to the very section it
+ *     was abbreviated from. Not implied by (1): an abbreviation could be
+ *     unique among its siblings and still be captured by an exact match, or go
+ *     ambiguous at a level not otherwise checked.
+ *  3. SPANS — sectionSpans (which backs `search`) walks the document
+ *     independently of buildToc and must agree with it on both counts.
+ *
+ * Exit 0 = all three hold. Any drift prints per-file diffs.
+ * (Links written into supplements/syllabi are checked separately, by
+ * scripts/check-links.mjs.)
  */
 import { readFile, readdir } from 'fs/promises';
 import { join, dirname } from 'path';
@@ -60,12 +72,44 @@ function referencePaths(text) {
   return paths;
 }
 
+/**
+ * Reference (path -> abbreviated path) for every section, in one tree walk.
+ * Computed with the reader's own lifted functions, so this is what the site
+ * would produce; the mirror's `short` fields are checked against it.
+ */
+function referenceAbbrevMap(text) {
+  const map = new Map();
+  const walk = (sections, level, parentPath, parentShort) => {
+    const used = new Set();
+    const slugs = sections.map((s) =>
+      reference.uniqueSlug(reference.slugifyHeading(s.headingMd), used));
+    sections.forEach((sec, i) => {
+      const path = parentPath ? `${parentPath}/${slugs[i]}` : slugs[i];
+      const shortSlug = abbrevRef(slugs[i], slugs);
+      const short = parentShort ? `${parentShort}/${shortSlug}` : shortSlug;
+      map.set(path, short);
+      const sub = reference.splitMarkdownIntoSections(sec.bodyMd, level + 1);
+      walk(sub.sections, level + 1, path, short);
+    });
+  };
+  walk(reference.splitMarkdownIntoSections(text, 1).sections, 1, null, null);
+  return map;
+}
+
 // ---- candidate: the mirror -------------------------------------------------
-const { buildToc, flattenToc, extractSection } = await import('../src/toc.ts');
+const { buildToc, flattenToc, extractSection, abbreviateSlug, sectionSpans } = await import('../src/toc.ts');
 
 function candidatePaths(text) {
   return flattenToc(buildToc(text).sections).map((n) => n.path);
 }
+
+// ---- reference abbreviation: lifted from the reader, same as the slug fns ---
+const abbrevRef = new Function(
+  liftFunction(readerSrc, 'isAbbrevOf') + '\n' +
+  liftFunction(readerSrc, 'abbreviateSlug') +
+  `\nconst ABBREV_MIN = ${/const ABBREV_MIN = (\d+)/.exec(readerSrc)[1]};` +
+  '\nreturn abbreviateSlug;'
+)();
 
 // ---- corpus enumeration ----------------------------------------------------
 async function* markdownFiles() {
@@ -156,6 +200,89 @@ for await (const { id, file } of markdownFiles()) {
     }
   }
 }
+
+// ---- abbreviations: parity, and the round-trip property --------------------
+//
+// Two things have to hold for abbreviated deep links to be safe:
+//   1. the reader and the mirror abbreviate identically (parity, as above);
+//   2. every abbreviation resolves back to the section it was made from.
+//
+// (2) is the one that matters. It is not implied by (1): a short path could be
+// unique among its siblings and still be captured by an exact match elsewhere,
+// or go ambiguous at a level we did not check. Prove it over the whole corpus
+// rather than reasoning about it.
+let abbrevChecked = 0;
+let abbrevShorter = 0;
+let savedChars = 0;
+let worst = null;
+let seenShort = new Set();
+
+for await (const { id, file } of markdownFiles()) {
+  let text;
+  try {
+    text = await readFile(file, 'utf-8');
+  } catch {
+    continue;
+  }
+
+  const refAbbrev = referenceAbbrevMap(text);
+  seenShort = new Set();
+
+  // sectionSpans walks the document independently of buildToc (line ranges
+  // rather than a tree) and assigns its own slugs. It backs `search`, so its
+  // paths and abbreviations must agree with the tree's exactly — the level-1
+  // title is skipped there, which is easy to get wrong by one.
+  for (const span of sectionSpans(text)) {
+    if (!refAbbrev.has(span.path)) {
+      failures++;
+      console.log(`SPAN PATH NOT IN TREE ${id}: ${span.path}`);
+      continue;
+    }
+    const want = refAbbrev.get(span.path);
+    const got = span.short ?? span.path;
+    if (got !== want) {
+      failures++;
+      console.log(`SPAN ABBREV MISMATCH ${id}\n  path=${span.path}\n  tree=${want}\n  span=${got}`);
+    }
+  }
+
+  for (const node of flattenToc(buildToc(text).sections)) {
+    const short = node.short ?? node.path;
+    abbrevChecked++;
+
+    // parity: mirror vs reader
+    const refShort = refAbbrev.get(node.path);
+    if (refShort !== short) {
+      failures++;
+      console.log(`ABBREV MISMATCH ${id}\n  path=${node.path}\n  reader=${refShort}\n  mirror=${short}`);
+    }
+
+    // round-trip: the abbreviation must land on the same section
+    const viaShort = extractSection(text, short);
+    const viaFull = extractSection(text, node.path);
+    if (!viaShort || !viaFull || viaShort.heading !== viaFull.heading) {
+      failures++;
+      console.log(`ABBREV DOES NOT ROUND-TRIP ${id}\n  path=${node.path}\n  short=${short}`);
+    }
+
+    if (short !== node.path) {
+      abbrevShorter++;
+      seenShort.add(short);
+      savedChars += node.path.length - short.length;
+      if (!worst || node.path.length > worst.path.length) worst = { id, path: node.path, short };
+    }
+  }
+}
+
+console.log(`\nabbreviations: ${abbrevChecked} checked, ${abbrevShorter} shorter than full`);
+console.log(`  mean saving on those: ${Math.round(savedChars / Math.max(abbrevShorter, 1))} chars`);
+if (worst) {
+  console.log(`  longest path in corpus: ${worst.path.length} -> ${worst.short.length} chars (${worst.id})`);
+  console.log(`    ${worst.short}`);
+}
+
+// Written deep links are checked by scripts/check-links.mjs, which is fast
+// enough to run while writing them.
 
 // spot-check extractSection resolves every reference path on one gnarly text
 const euclid = await readFile(

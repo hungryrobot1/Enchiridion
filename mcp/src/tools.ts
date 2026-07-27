@@ -218,6 +218,16 @@ const headingStem = (h: string) => h.replace(/\s+[\dIVXLC]+[.)]?$/i, '').trim();
  * Postulates) stay visible while the uniform run of propositions folds.
  * Non-leaf children stay expanded. `depth` caps how deep it recurses.
  */
+/**
+ * The path to show for a section. The abbreviated form when there is one: the
+ * tree prints the full heading alongside, so the path here is an identifier
+ * rather than a description, and some full paths run past 400 characters.
+ * Both forms resolve, in `read` and in the reader.
+ */
+function linkPath(n: SectionNode): string {
+  return n.short ?? n.path;
+}
+
 function renderTree(nodes: SectionNode[], depth?: number): string[] {
   const lines: string[] = [];
   const walk = (list: SectionNode[], d: number) => {
@@ -237,14 +247,14 @@ function renderTree(nodes: SectionNode[], depth?: number): string[] {
       if (runLen > COLLAPSE_THRESHOLD) {
         const words = list.slice(i, j).reduce((s, n) => s + n.words, 0);
         lines.push(
-          `${pad}${list[i].path} … ${lastSeg(list[j - 1].path)}  ` +
+          `${pad}${linkPath(list[i])} … ${lastSeg(linkPath(list[j - 1]))}  ` +
             `(${runLen} sections, ${words.toLocaleString()}w)`
         );
         i = j;
         continue;
       }
       const n = list[i];
-      lines.push(`${pad}${n.path}  (${n.words.toLocaleString()}w)  ${n.heading}`);
+      lines.push(`${pad}${linkPath(n)}  (${n.words.toLocaleString()}w)  ${n.heading}`);
       if ((depth === undefined || d < depth) && n.children.length) walk(n.children, d + 1);
       i++;
     }
@@ -270,6 +280,7 @@ function prefixPaths(node: SectionNode, prefix: string): SectionNode {
   return {
     ...node,
     path: `${prefix}/${node.path}`,
+    ...(node.short ? { short: `${prefix}/${node.short}` } : {}),
     children: node.children.map((c) => prefixPaths(c, prefix)),
   };
 }
@@ -283,7 +294,8 @@ server.registerTool(
       'and word count. Long runs of like sections collapse to a range line ' +
       '(e.g. "book-i/proposition-1 … proposition-48 (48 sections)"); pass a ' +
       'section to root the tree there and expand just that part, or depth to ' +
-      'cap recursion. Use the paths with read and in deep links.',
+      'cap recursion. Paths are shown in their shortest unambiguous form; use ' +
+      'them as-is with read and in deep links.',
     inputSchema: {
       id: z.string(),
       section: z.string().optional(),
@@ -384,7 +396,13 @@ server.registerTool(
       'that section, or omit for a small whole work. Section paths are often ' +
       "predictable (e.g. \"book-i/proposition-47\", \"chapter-3\") — you can " +
       'usually pass one directly and skip get_structure, falling back to it ' +
-      'only if a path misses. A section over the size budget returns its ' +
+      'only if a path misses. A path segment may also be ABBREVIATED to any ' +
+      'leading run of its whole words, so a numbered section is usually ' +
+      'reachable by its number alone ("book-i/21" for Diophantus\' twenty-' +
+      'first problem, whose full path is its entire problem statement). ' +
+      'Abbreviations must end on a word boundary and be unambiguous among ' +
+      'their siblings; an exact path always wins over an abbreviation. ' +
+      'A section over the size budget returns its ' +
       'sub-structure instead of the body, so read one proposition/chapter at a ' +
       'time. Figures come back inline as images. Bilingual texts default to ' +
       'English; pass lang="both" (or "grc") for the original. The response ' +
@@ -409,7 +427,11 @@ server.registerTool(
       const sec = extractSection(md, section);
       if (!sec) return text(`Section "${section}" not found in ${id}. Use get_structure for valid paths.`);
       const node = findNode(toc.sections, section);
-      return finalizeRead(work, sec.markdown, node?.children ?? [], section, node?.heading ?? section, language);
+      // Link with the section's own abbreviated path rather than whatever the
+      // caller passed: a full path here can run to hundreds of characters, and
+      // the link is meant to be handed to a student.
+      const linkPath = node?.short ?? node?.path ?? section;
+      return finalizeRead(work, sec.markdown, node?.children ?? [], linkPath, node?.heading ?? section, language);
     }
     return finalizeRead(work, md, toc.sections, undefined, work.title, language);
   }

@@ -8,21 +8,47 @@
   align-items: start;
 }
 
+/* The sidebar sticks beside the entry and scrolls its own list. Without the
+   max-height it is sticky but unscrollable, so entries past the fold are
+   simply unreachable — the list only has to outgrow the viewport once. */
 .changelog__sidebar {
   position: sticky;
   top: calc(var(--header-height) + var(--space-lg));
+  max-height: calc(100vh - var(--header-height) - var(--space-lg) * 2);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   border-right: 1px solid var(--color-rule);
   padding-right: var(--space-lg);
 }
 
+/* On a wide screen the summary is purely the heading: no disclosure marker,
+   and clicks pass through so it cannot be collapsed into a state the layout
+   does not expect. */
+.changelog__sidebar-toggle {
+  list-style: none;
+  pointer-events: none;
+  margin-bottom: var(--space-md);
+}
+
+.changelog__sidebar-toggle::-webkit-details-marker {
+  display: none;
+}
+
 .changelog__sidebar-heading {
+  display: block;
+  margin: 0;
   font-family: var(--font-sans);
   font-size: var(--text-xs);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--color-ink-soft);
-  margin: 0 0 var(--space-md);
   font-weight: 600;
+}
+
+/* Names the entry being read. Only meaningful when the list is collapsed, so
+   it is hidden wherever the list is always open. */
+.changelog__sidebar-current {
+  display: none;
 }
 
 .changelog__list {
@@ -221,18 +247,69 @@
   font-family: var(--font-sans);
 }
 
+/* Stacked layout: the sidebar sits above the entry, so a growing list would
+   push the reading itself further and further down the page. Collapse it to a
+   single tappable row naming the current entry; opening it is a deliberate act
+   of going to look for a different one. */
 @media (max-width: 720px) {
   .changelog {
     grid-template-columns: 1fr;
-    gap: var(--space-xl);
+    gap: var(--space-lg);
   }
+
   .changelog__sidebar {
     position: static;
+    max-height: none;
+    overflow-y: visible;
     border-right: none;
     border-bottom: 1px solid var(--color-rule);
     padding-right: 0;
-    padding-bottom: var(--space-lg);
+    padding-bottom: var(--space-md);
   }
+
+  .changelog__sidebar-toggle {
+    pointer-events: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-sm);
+    margin-bottom: 0;
+    padding: var(--space-2xs) 0;
+    /* Room for the chevron, which is drawn in the padding. */
+    padding-right: var(--space-lg);
+    position: relative;
+  }
+
+  .changelog__sidebar-current {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    color: var(--color-ink-soft);
+    white-space: nowrap;
+  }
+
+  .changelog__sidebar-toggle::after {
+    content: '';
+    position: absolute;
+    right: var(--space-2xs);
+    top: 50%;
+    width: 0.45rem;
+    height: 0.45rem;
+    border-right: 1.5px solid var(--color-ink-faint);
+    border-bottom: 1.5px solid var(--color-ink-faint);
+    transform: translateY(-70%) rotate(45deg);
+    transition: transform var(--transition);
+  }
+
+  .changelog__sidebar[open] .changelog__sidebar-toggle::after {
+    transform: translateY(-30%) rotate(-135deg);
+  }
+
+  .changelog__sidebar[open] .changelog__list {
+    margin-top: var(--space-md);
+  }
+
   .changelog__entry-title {
     font-size: var(--text-xl);
   }

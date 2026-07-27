@@ -47,9 +47,18 @@ export async function renderChangelog(container, params) {
 
   const root = document.createElement('div');
   root.className = 'changelog';
+  // The entry list is a <details> so it can collapse where the layout stacks.
+  // On a wide screen the summary is just the sidebar's heading (its marker
+  // hidden, its clicks ignored) and the list is always open; narrow screens
+  // put the sidebar above the entry, where an ever-growing list would push
+  // the entry itself off the bottom of the screen, so it collapses to a
+  // single row naming the entry you are reading. See syncSidebarMode.
   root.innerHTML = `
-    <aside class="changelog__sidebar">
-      <h2 class="changelog__sidebar-heading">Changelog</h2>
+    <details class="changelog__sidebar" open>
+      <summary class="changelog__sidebar-toggle">
+        <h2 class="changelog__sidebar-heading">Changelog</h2>
+        <span class="changelog__sidebar-current">v${active.id} · ${formatDate(active.date)}</span>
+      </summary>
       <ul class="changelog__list">
         ${entries.map(e => `
           <li>
@@ -62,7 +71,7 @@ export async function renderChangelog(container, params) {
           </li>
         `).join('')}
       </ul>
-    </aside>
+    </details>
     <article class="changelog__entry">
       <header class="changelog__entry-header">
         <div class="changelog__entry-version">v${active.id}</div>
@@ -75,6 +84,24 @@ export async function renderChangelog(container, params) {
 
   container.appendChild(root);
 
+  // Keep the list open on wide screens and collapsed on narrow ones, following
+  // the same breakpoint the stylesheet uses to stack the layout. Driven from
+  // JS rather than CSS because a closed <details> hides its content in the UA
+  // stylesheet, which a media query cannot reliably undo. Re-runs on resize so
+  // rotating a tablet lands in the right state.
+  const stacked = window.matchMedia('(max-width: 720px)');
+  const sidebar = root.querySelector('.changelog__sidebar');
+  const toggle = sidebar.querySelector('.changelog__sidebar-toggle');
+  const syncSidebarMode = () => {
+    sidebar.open = !stacked.matches;
+    // Wide screens ignore clicks on the summary via CSS; drop it from the tab
+    // order too, so a keyboard cannot collapse a list that has no affordance
+    // for reopening it there.
+    toggle.tabIndex = stacked.matches ? 0 : -1;
+  };
+  syncSidebarMode();
+  stacked.addEventListener('change', syncSidebarMode);
+
   const body = root.querySelector('#changelog-body');
   // Entry markdown lives in the repo root (changelogs/<ver>/entry.md), not in
   // the site's published assets — fetch via buildRawUrl like all repo-root
@@ -86,5 +113,7 @@ export async function renderChangelog(container, params) {
     body.innerHTML = `<div class="changelog__error">Could not load entry: ${err.message}</div>`;
   }
 
-  return () => {};
+  return () => {
+    stacked.removeEventListener('change', syncSidebarMode);
+  };
 }

@@ -2,7 +2,7 @@ import '../styles/explore.css';
 import { loadIndex } from '../lib/index-loader.js';
 import { loadSupplements } from '../lib/supplement-loader.js';
 import { loadModules } from '../lib/module-loader.js';
-import { displayStatusForText, displayStatusForContent, STATUS_LABEL } from '../lib/content-status.js';
+import { displayStatusForText, displayStatusForContent, STATUS_WORD } from '../lib/content-status.js';
 
 const ERA_ORDER = {
   '1-ancient-greece': 1,
@@ -22,6 +22,44 @@ const TYPE_LABELS = {
   reference: 'reference',
 };
 
+// Texts lead, then supplements and references, then modules. See the sort in
+// buildRows for why.
+const TYPE_ORDER = { text: 0, reference: 1, supplement: 1, module: 2 };
+
+const COLUMNS = [
+  { key: 'status', label: 'Status' },
+  { key: 'title', label: 'Title' },
+  { key: 'author', label: 'Author / Source' },
+  { key: 'type', label: 'Type' },
+  { key: 'era', label: 'Era' },
+  { key: 'year', label: 'Year' },
+];
+
+// Sorting a column replaces a curated judgement with a mechanical one, so every
+// comparator falls back to the item's position in curated order. That keeps
+// sorts stable and means equal keys stay in the order a person chose.
+const COMPARATORS = {
+  title: (a, b) => stripArticle(a.title).localeCompare(stripArticle(b.title), undefined, { sensitivity: 'base' }),
+  author: (a, b) => a.author.localeCompare(b.author, undefined, { sensitivity: 'base' }),
+  type: (a, b) => (TYPE_ORDER[a.type] ?? 9) - (TYPE_ORDER[b.type] ?? 9)
+    || stripArticle(a.title).localeCompare(stripArticle(b.title)),
+  era: (a, b) => a.sortEra - b.sortEra || a.sortYear - b.sortYear,
+  year: (a, b) => a.sortYear - b.sortYear,
+  status: (a, b) => a.status.localeCompare(b.status),
+};
+
+function stripArticle(title) {
+  return title.replace(/^(the|an|a)\s+/i, '');
+}
+
+// year_sort is negative for BCE (see build-index.js parseYearSort). Undated
+// material — supplements, modules — sorts as 0 and shows an em dash rather
+// than a year it does not have.
+function formatYear(sortYear) {
+  if (!sortYear) return '—';
+  return sortYear < 0 ? `${Math.abs(sortYear)} BCE` : String(sortYear);
+}
+
 export async function renderExplore(container) {
   const root = document.createElement('section');
   root.className = 'explore';
@@ -36,60 +74,100 @@ export async function renderExplore(container) {
     ]);
 
     const rows = buildRows(textIndex, supplementIndex, moduleIndex);
+    rows.forEach((row, i) => { row.curatedIndex = i; });
+
     const eras = collectEras(rows);
+    const total = rows.length;
+    const textCount = rows.filter(r => r.type === 'text').length;
+    const readyCount = rows.filter(r => r.status === 'ready').length;
+    const eraCount = eras.length;
+
+    // Chip counts are of the whole corpus and never change as you filter, so
+    // the filter row doubles as a stable census rather than a readout that
+    // dissolves the moment you use it.
+    const typeChips = ['text', 'supplement', 'reference', 'module'].map(value => ({
+      value,
+      label: `${TYPE_LABELS[value]}s`,
+      count: rows.filter(r => r.type === value).length,
+    }));
+    const eraChips = eras.map(e => ({
+      value: e.key,
+      label: e.label,
+      count: rows.filter(r => r.eraKey === e.key).length,
+    }));
 
     root.innerHTML = `
       <header class="explore__header">
-        <h1 class="explore__title">Explore</h1>
-        <p class="explore__intro">The full catalog: every text, supplement, module, and reference. Filter by type or era, or search by title, author, or topic.</p>
+        <div class="explore__header-main">
+          <h1 class="explore__title">Explore</h1>
+          <p class="explore__intro">Everything in the corpus — texts, supplements, modules, references. Sort any column, or narrow by type and era.</p>
+        </div>
+        <div class="explore__readouts">
+          <span class="explore__readout">${total} ITEMS · ${textCount} TEXTS · ${eraCount} ERAS</span>
+          <span class="explore__readout explore__readout--accent">${readyCount} READY TO READ</span>
+        </div>
       </header>
+
       <div class="explore__filters">
-        <div class="explore__filter-group" data-filter="type">
-          <span class="explore__filter-label">Type</span>
+        <div class="explore__filter-row" data-filter="type">
+          <span class="explore__eyebrow">Type</span>
+          <div class="explore__chips">${typeChips.map(chipHtml).join('')}</div>
+        </div>
+        <div class="explore__filter-row" data-filter="era">
+          <span class="explore__eyebrow explore__eyebrow--era">Era</span>
+          <div class="explore__chips explore__chips--era">${eraChips.map(chipHtml).join('')}</div>
+        </div>
+        <div class="explore__filter-row explore__filter-row--sort" data-filter="sort">
+          <span class="explore__eyebrow">Sort</span>
           <div class="explore__chips">
-            <button class="explore__chip explore__chip--active" data-value="all">All</button>
-            <button class="explore__chip" data-value="text">Texts</button>
-            <button class="explore__chip" data-value="supplement">Supplements</button>
-            <button class="explore__chip" data-value="module">Modules</button>
-            <button class="explore__chip" data-value="reference">References</button>
+            ${COLUMNS.map(c => `<button class="explore__chip explore__sort-chip" data-sort="${c.key}" type="button">${c.label}<span class="explore__chip-caret"></span></button>`).join('')}
           </div>
         </div>
-        <div class="explore__filter-group" data-filter="era">
-          <span class="explore__filter-label">Era</span>
-          <div class="explore__chips">
-            <button class="explore__chip explore__chip--active" data-value="all">All</button>
-            ${eras.map(e => `<button class="explore__chip" data-value="${e.key}">${e.label}</button>`).join('')}
+        <div class="explore__filter-row">
+          <span class="explore__eyebrow">Find</span>
+          <div class="explore__find">
+            <input class="explore__search-input" type="search"
+                   placeholder="title, author, translator, topic"
+                   aria-label="Search the catalog" />
+            <span class="explore__result" aria-live="polite"></span>
+            <button class="explore__clear" type="button" hidden>Clear</button>
           </div>
-        </div>
-        <div class="explore__search">
-          <input class="explore__search-input" type="search" placeholder="Search title, author, topic&hellip;" aria-label="Search the catalog" />
-          <span class="explore__count" aria-live="polite"></span>
         </div>
       </div>
-      <div class="explore__table-wrap">
-        <table class="explore__table">
-          <thead>
-            <tr>
-              <th class="explore__th explore__th--status"></th>
-              <th class="explore__th">Title</th>
-              <th class="explore__th">Author / Source</th>
-              <th class="explore__th">Type</th>
-              <th class="explore__th">Era</th>
-            </tr>
-          </thead>
-          <tbody class="explore__tbody"></tbody>
-        </table>
+
+      <div class="explore__statusbar" aria-hidden="true"></div>
+
+      <ul class="explore__list explore__tbody"></ul>
+
+      <footer class="explore__footer">
+        <span class="explore__tail"></span>
+        <span class="explore__order"></span>
+      </footer>
+
+      <div class="explore__jump" hidden>
+        <button class="explore__jump-top" type="button" title="Back to filters">
+          <span class="explore__jump-caret" aria-hidden="true">↑</span> Top
+        </button>
+        <button class="explore__jump-reset" type="button">Reset filters</button>
       </div>
     `;
 
     const tbody = root.querySelector('.explore__tbody');
-    const countEl = root.querySelector('.explore__count');
+    const resultEl = root.querySelector('.explore__result');
+    const clearBtn = root.querySelector('.explore__clear');
     const searchInput = root.querySelector('.explore__search-input');
+    const tailEl = root.querySelector('.explore__tail');
+    const orderEl = root.querySelector('.explore__order');
+    const statusbar = root.querySelector('.explore__statusbar');
+    const filters = root.querySelector('.explore__filters');
+    const jump = root.querySelector('.explore__jump');
+    const jumpTop = root.querySelector('.explore__jump-top');
+    const jumpReset = root.querySelector('.explore__jump-reset');
 
-    const state = { type: new Set(), era: new Set(), query: '' };
+    const state = { type: new Set(), era: new Set(), query: '', sort: null, dir: 1 };
     const expanded = new Set();
 
-    function applyFilters() {
+    function currentRows() {
       const q = state.query.trim().toLowerCase();
       const filtered = rows.filter(row => {
         if (state.type.size && !state.type.has(row.type)) return false;
@@ -97,47 +175,130 @@ export async function renderExplore(container) {
         if (q && !matchesQuery(row, q)) return false;
         return true;
       });
-      tbody.innerHTML = filtered.map(row => renderRow(row, expanded)).join('');
-      countEl.textContent = `${filtered.length} item${filtered.length === 1 ? '' : 's'}`;
-      wireRowClicks(tbody, filtered, expanded, applyFilters);
+
+      if (state.sort) {
+        const cmp = COMPARATORS[state.sort];
+        filtered.sort((a, b) => cmp(a, b) * state.dir || a.curatedIndex - b.curatedIndex);
+      }
+      return filtered;
     }
 
-    function syncChipStates(group, key) {
+    function render() {
+      const filtered = currentRows();
+      const filtering = state.type.size || state.era.size || state.query.trim();
+
+      tbody.innerHTML = filtered.map(row => renderRow(row, expanded)).join('');
+      wireRowClicks(tbody, filtered, expanded, render);
+
+      resultEl.textContent = filtering
+        ? `${filtered.length} OF ${total}`
+        : `${total} ITEMS`;
+      clearBtn.hidden = !filtering;
+
+      tailEl.textContent = filtering
+        ? `Filtered — ${filtered.length} of ${total} shown`
+        : 'End of catalog';
+
+      // The default order is a judgement, not a rule, so the page says which
+      // order you are looking at rather than leaving it to be inferred.
+      const col = COLUMNS.find(c => c.key === state.sort);
+      orderEl.textContent = col
+        ? `Sorted by ${col.label} ${state.dir === 1 ? '↑' : '↓'}`
+        : 'Curated order — type, era, year';
+
+      statusbar.textContent = `${resultEl.textContent} · ${orderEl.textContent}`;
+
+      root.querySelectorAll('.explore__sort-chip').forEach(el => {
+        const active = el.dataset.sort === state.sort;
+        el.classList.toggle('explore__chip--active', active);
+        el.querySelector('.explore__chip-caret').textContent =
+          active ? (state.dir === 1 ? '↑' : '↓') : '';
+      });
+
+      jump.classList.toggle('explore__jump--filtering', Boolean(filtering));
+    }
+
+    function syncChips(rowEl, key) {
       const set = state[key];
-      group.querySelectorAll('.explore__chip').forEach(c => {
-        const value = c.dataset.value;
-        const isActive = value === 'all' ? set.size === 0 : set.has(value);
-        c.classList.toggle('explore__chip--active', isActive);
+      rowEl.querySelectorAll('.explore__chip').forEach(chip => {
+        chip.classList.toggle('explore__chip--active', set.has(chip.dataset.value));
       });
     }
 
-    root.querySelectorAll('.explore__filter-group').forEach(group => {
-      const key = group.dataset.filter;
-      group.querySelectorAll('.explore__chip').forEach(chip => {
-        chip.addEventListener('click', () => {
-          const value = chip.dataset.value;
-          if (value === 'all') {
-            state[key].clear();
-          } else {
+    root.querySelectorAll('.explore__filter-row[data-filter="type"], .explore__filter-row[data-filter="era"]')
+      .forEach(rowEl => {
+        const key = rowEl.dataset.filter;
+        rowEl.querySelectorAll('.explore__chip').forEach(chip => {
+          chip.addEventListener('click', () => {
+            const value = chip.dataset.value;
             if (state[key].has(value)) state[key].delete(value);
             else state[key].add(value);
-          }
-          syncChipStates(group, key);
-          applyFilters();
+            syncChips(rowEl, key);
+            render();
+          });
         });
       });
+
+    // Ascending, descending, then back to the curated order — a sort you can
+    // always undo without reloading.
+    function cycleSort(key) {
+      if (state.sort !== key) { state.sort = key; state.dir = 1; }
+      else if (state.dir === 1) { state.dir = -1; }
+      else { state.sort = null; state.dir = 1; }
+      render();
+    }
+
+    root.querySelectorAll('[data-sort]').forEach(el => {
+      el.addEventListener('click', () => cycleSort(el.dataset.sort));
     });
 
     searchInput.addEventListener('input', (e) => {
       state.query = e.target.value;
-      applyFilters();
+      render();
     });
 
-    applyFilters();
+    // Clearing leaves the sort alone. Sorting is a view of the catalog and
+    // filtering is a subset of it; someone who has sorted by year and then
+    // narrowed to Ancient Greece means to undo the narrowing, not the order.
+    function resetFilters() {
+      state.type.clear();
+      state.era.clear();
+      state.query = '';
+      searchInput.value = '';
+      root.querySelectorAll('.explore__chip').forEach(c => {
+        if (c.dataset.value) c.classList.remove('explore__chip--active');
+      });
+      render();
+    }
+
+    clearBtn.addEventListener('click', resetFilters);
+
+    jumpReset.addEventListener('click', resetFilters);
+
+    jumpTop.addEventListener('click', () => {
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      filters.scrollIntoView({ behavior: reduced ? 'auto' : 'smooth', block: 'start' });
+    });
+
+    // The list runs to nearly four hundred items, so the controls are a long
+    // way up by the time you have found something. Watching the filter block
+    // itself — rather than a scroll offset — means the affordance appears
+    // exactly when the controls are no longer reachable, at any viewport.
+    const observer = new IntersectionObserver(
+      ([entry]) => { jump.hidden = entry.isIntersecting; },
+      { threshold: 0 }
+    );
+    observer.observe(filters);
+
+    render();
   } catch (err) {
     root.innerHTML = `<div class="explore__error">Could not load the catalog: ${err.message}</div>`;
     console.error(err);
   }
+}
+
+function chipHtml(chip) {
+  return `<button class="explore__chip" data-value="${chip.value}" type="button">${chip.label}<span class="explore__chip-count">${chip.count}</span></button>`;
 }
 
 function buildRows(textIndex, supplementIndex, moduleIndex) {
@@ -191,7 +352,9 @@ function buildRows(textIndex, supplementIndex, moduleIndex) {
       eraKey: '',
       eraLabel: '—',
       sortYear: 0,
-      sortEra: 0,
+      // Modules belong to no era, so under a chronological sort they go last
+      // rather than pretending to a date.
+      sortEra: 99,
       href: null,
       status: 'none',
       topics: [],
@@ -206,7 +369,6 @@ function buildRows(textIndex, supplementIndex, moduleIndex) {
   // than a stack of not-yet-written modules. Supplements follow; modules, the
   // most stub-heavy type for now, sort last. Within each type the existing
   // era → year → title ordering applies.
-  const TYPE_ORDER = { text: 0, reference: 1, supplement: 1, module: 2 };
   rows.sort((a, b) => {
     const ta = TYPE_ORDER[a.type] ?? 9;
     const tb = TYPE_ORDER[b.type] ?? 9;
@@ -257,77 +419,62 @@ function matchesQuery(row, q) {
 }
 
 function renderRow(row, expanded) {
-  const statusLabel = STATUS_LABEL[row.status] || '';
   const isModule = row.type === 'module';
   const isExpanded = isModule && expanded.has(row.id);
   const typeLabel = row.subType || TYPE_LABELS[row.type] || row.type;
-
-  const expander = isModule
-    ? `<span class="explore__expander ${isExpanded ? 'explore__expander--open' : ''}" aria-hidden="true">›</span>`
+  const marker = isModule
+    ? `<span class="explore__marker" aria-hidden="true">${isExpanded ? '−' : '+'}</span>`
     : '';
 
   const mainRow = `
-    <tr class="explore__row explore__row--${row.type} ${isModule ? 'explore__row--module' : ''}" data-id="${row.id}" data-kind="${row.kind}">
-      <td class="explore__td explore__td--status">
-        <span class="explore__status explore__status--${row.status}" title="${statusLabel}"></span>
-      </td>
-      <td class="explore__td explore__td--title">
-        ${expander}
-        <span class="explore__title-text">${row.title}</span>
-      </td>
-      <td class="explore__td explore__td--author">${row.author}</td>
-      <td class="explore__td explore__td--type">${typeLabel}</td>
-      <td class="explore__td explore__td--era">${row.eraLabel}</td>
-    </tr>
+    <li class="explore__row explore__row--${row.type}${isModule ? ' explore__row--parent' : ''}"
+        data-id="${row.id}" data-kind="${row.kind}"${isModule ? ` aria-expanded="${isExpanded}"` : ''}>
+      <span class="explore__cell explore__cell--status explore__status--${row.status}">${STATUS_WORD[row.status] || ''}</span>
+      <span class="explore__cell explore__cell--title">${marker}<span class="explore__title-text">${row.title}</span></span>
+      <span class="explore__cell explore__cell--author">${row.author}</span>
+      <span class="explore__cell explore__cell--type">${typeLabel}</span>
+      <span class="explore__cell explore__cell--era">${row.eraLabel}</span>
+      <span class="explore__cell explore__cell--year">${formatYear(row.sortYear)}</span>
+    </li>
   `;
 
   if (!isModule || !isExpanded) return mainRow;
 
-  const chapterRows = row.chapters.map(ch => `
-    <tr class="explore__row explore__row--child" data-href="#/module/${row.id}/${ch.filename.replace(/\.md$/, '')}">
-      <td class="explore__td"></td>
-      <td class="explore__td explore__td--title">
-        <span class="explore__child-marker">└</span>
-        <span class="explore__title-text">${ch.title}</span>
-      </td>
-      <td class="explore__td explore__td--author">chapter</td>
-      <td class="explore__td"></td>
-      <td class="explore__td"></td>
-    </tr>
-  `).join('');
+  // Chapters and resources share one numbering, so the ordinals read as the
+  // order you would work through the module rather than two restarting lists.
+  const children = [
+    ...row.chapters.map(ch => ({ ...ch, label: 'chapter' })),
+    ...(row.resources || []).map(r => ({ ...r, label: 'resource' })),
+  ];
 
-  const resourceRows = (row.resources || []).map(r => `
-    <tr class="explore__row explore__row--child" data-href="#/module/${row.id}/${r.filename.replace(/\.md$/, '')}">
-      <td class="explore__td"></td>
-      <td class="explore__td explore__td--title">
-        <span class="explore__child-marker">└</span>
-        <span class="explore__title-text">${r.title}</span>
-      </td>
-      <td class="explore__td explore__td--author">resource</td>
-      <td class="explore__td"></td>
-      <td class="explore__td"></td>
-    </tr>
+  return mainRow + children.map((child, i) => `
+    <li class="explore__row explore__row--child"
+        data-href="#/module/${row.id}/${child.filename.replace(/\.md$/, '')}">
+      <span class="explore__cell explore__cell--title">
+        <span class="explore__ordinal" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span>
+        <span class="explore__title-text">${child.title}</span>
+      </span>
+      <span class="explore__cell explore__cell--author">${child.label} of ${row.title}</span>
+    </li>
   `).join('');
-
-  return mainRow + chapterRows + resourceRows;
 }
 
 function wireRowClicks(tbody, rows, expanded, rerender) {
-  tbody.querySelectorAll('.explore__row').forEach(tr => {
-    tr.addEventListener('click', () => {
-      if (tr.classList.contains('explore__row--module')) {
-        const id = tr.dataset.id;
+  tbody.querySelectorAll('.explore__row').forEach(el => {
+    el.addEventListener('click', () => {
+      if (el.classList.contains('explore__row--parent')) {
+        const id = el.dataset.id;
         if (expanded.has(id)) expanded.delete(id);
         else expanded.add(id);
         rerender();
         return;
       }
-      const href = tr.dataset.href;
+      const href = el.dataset.href;
       if (href) {
         window.location.hash = href.replace(/^#/, '');
         return;
       }
-      const row = rows.find(r => r.id === tr.dataset.id);
+      const row = rows.find(r => r.id === el.dataset.id);
       if (row?.href) {
         window.location.hash = row.href.replace(/^#/, '');
       }

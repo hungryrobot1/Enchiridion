@@ -17,11 +17,25 @@ const CONTENT_DISPLAY = {
   stub: 'stub',
 };
 
+// The word shown in the catalog's STATUS column, in the status colour. It
+// replaces a 6px coloured dot that could not be read without a legend — which
+// is why there is no legend on the page any more. Kept short enough to sit in
+// a 6rem mono column without wrapping.
+export const STATUS_WORD = {
+  ready: 'READY',
+  progress: 'PROGRESS',
+  stub: 'STUB',
+  'needs-cleanup': 'CLEANUP',
+  none: '',
+};
+
+// The longer gloss, for places with room to explain: the About page, a
+// tooltip, a status key. Not used in the table.
 export const STATUS_LABEL = {
-  ready: 'Production-ready',
-  progress: 'In progress',
-  stub: 'Stub — not yet written',
-  'needs-cleanup': 'Readable; refinements pending',
+  ready: 'Proofread against the source. Read it now.',
+  progress: 'Being transcribed or written; partial.',
+  stub: 'Catalogued and planned; no content yet.',
+  'needs-cleanup': 'Readable, but OCR artefacts remain — figures and formulae especially.',
   none: '',
 };
 

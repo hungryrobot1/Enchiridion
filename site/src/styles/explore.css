@@ -4,7 +4,43 @@
   padding: var(--space-2xl) var(--space-lg) var(--space-4xl);
 }
 
+/* The catalog is a list at every width, not a table that collapses into one.
+   A table scatters an item across six columns and leaves the eye to
+   reassemble it; stacking title, source, and a mono spine makes each entry a
+   single object. What that costs is columnar scanning — you can no longer run
+   your eye down every year at once — which is why sorting is a visible
+   control here rather than a hover affordance on a column header. */
+.explore__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.explore__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-3xs) var(--space-xs);
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--color-rule);
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+/* Title and source each claim a full line; the mono cells then flow together
+   onto a third. A grid would put every cell on its own row. */
+.explore__cell--title,
+.explore__cell--author {
+  flex: 0 0 100%;
+}
+
+/* Header --------------------------------------------------------------- */
+
 .explore__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-xl);
   margin-bottom: var(--space-xl);
 }
 
@@ -25,30 +61,53 @@
   line-height: var(--line-height);
 }
 
-/* Filters */
+.explore__readouts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-2xs);
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.explore__readout {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+  white-space: nowrap;
+}
+
+.explore__readout--accent {
+  color: var(--color-accent);
+}
+
+/* Filters -------------------------------------------------------------- */
+
 .explore__filters {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-sm);
   margin-bottom: var(--space-lg);
   padding-bottom: var(--space-md);
   border-bottom: 1px solid var(--color-rule);
 }
 
-.explore__filter-group {
-  display: flex;
-  align-items: center;
+/* Label in the left gutter, controls in the rest — so every row of controls
+   starts at the same x and the eyebrows read as a column. */
+.explore__filter-row {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
   gap: var(--space-md);
-  flex-wrap: wrap;
+  align-items: baseline;
 }
 
-.explore__filter-label {
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
+.explore__eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
   color: var(--color-ink-faint);
-  min-width: 3.5rem;
 }
 
 .explore__chips {
@@ -58,13 +117,19 @@
 }
 
 .explore__chip {
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-xs);
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  padding: 0.4375rem 0.625rem;
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
   color: var(--color-ink-soft);
   background: transparent;
-  border: 1px solid var(--color-rule);
-  border-radius: 999px;
-  padding: var(--space-2xs) var(--space-sm);
   cursor: pointer;
   transition: color var(--transition), border-color var(--transition), background var(--transition);
 }
@@ -81,78 +146,88 @@
 }
 
 .explore__chip--active:hover {
-  color: var(--color-paper);
   background: var(--color-accent-hover);
   border-color: var(--color-accent-hover);
+  color: var(--color-paper);
 }
 
-.explore__search {
+.explore__chip-count {
+  font-size: var(--text-3xs);
+  color: var(--color-ink-faint);
+}
+
+.explore__chip--active .explore__chip-count {
+  color: rgba(250, 248, 245, 0.7);
+}
+
+.explore__chip-caret {
+  font-size: var(--text-3xs);
+}
+
+/* With no column headers to hang sorting on, the sort chips are the control at
+   every width — which also makes sorting visible rather than something you
+   discover by hovering a header. */
+
+.explore__find {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: var(--space-md);
-  margin-top: var(--space-xs);
+  flex-wrap: wrap;
 }
 
 .explore__search-input {
-  flex: 1;
-  max-width: 24rem;
+  width: 22rem;
+  max-width: 100%;
   font-family: var(--font-sans);
   font-size: var(--text-sm);
-  padding: var(--space-xs) var(--space-sm);
-  border: 1px solid var(--color-rule);
-  border-radius: 2px;
-  background: var(--color-surface);
+  padding: var(--space-2xs) 0;
+  border: none;
+  border-bottom: 1px solid var(--color-rule);
+  border-radius: 0;
+  background: transparent;
   color: var(--color-ink);
+}
+
+.explore__search-input::placeholder {
+  color: var(--color-ink-faint);
 }
 
 .explore__search-input:focus {
   outline: none;
-  border-color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
 }
 
-.explore__count {
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
-  color: var(--color-ink-faint);
+.explore__result {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+.explore__clear {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-/* Table */
-.explore__table-wrap {
-  overflow-x: auto;
-  max-width: 100%;
-  -webkit-overflow-scrolling: touch;
-}
-
-.explore__table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-}
-
-.explore__th {
-  text-align: left;
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
   color: var(--color-ink-faint);
-  padding: var(--space-sm) var(--space-md);
-  border-bottom: 1px solid var(--color-rule);
-}
-
-.explore__th--status {
-  width: 1.5rem;
-  padding-right: 0;
-}
-
-.explore__row {
+  background: none;
+  border: none;
+  padding: 0;
   cursor: pointer;
-  transition: background var(--transition);
 }
+
+.explore__clear:hover {
+  color: var(--color-accent-hover);
+}
+
+/* Filter state pinned above the list on narrow screens, where the filter row
+   itself scrolls away. Hidden on desktop, where it is always visible. */
+.explore__statusbar {
+  display: none;
+}
+
+/* Rows ----------------------------------------------------------------- */
 
 .explore__row:hover {
   background: var(--color-paper-alt);
@@ -162,97 +237,195 @@
   color: var(--color-accent-hover);
 }
 
-.explore__td {
-  padding: var(--space-sm) var(--space-md);
-  border-bottom: 1px solid var(--color-rule);
-  vertical-align: baseline;
+.explore__cell {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
   color: var(--color-ink-soft);
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
-.explore__td--status {
-  width: 1.5rem;
-  padding-right: 0;
+/* Status as a word in the status colour: it explains itself, so the page
+   carries no legend. */
+.explore__cell--status {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--text-3xs);
+  line-height: 1;
+  letter-spacing: var(--track-mono);
 }
 
-.explore__td--title {
+.explore__status--ready { color: var(--status-ready); }
+.explore__status--progress { color: var(--status-progress); }
+.explore__status--stub { color: var(--status-stub); }
+.explore__status--needs-cleanup { color: var(--status-needs-cleanup); }
+.explore__status--none { color: transparent; }
+
+.explore__cell--title {
   font-family: var(--font-serif);
-  font-size: var(--text-base);
+  font-size: 1.0625rem;
   color: var(--color-ink);
 }
 
 .explore__title-text {
-  font-style: italic;
   transition: color var(--transition);
 }
 
-.explore__row--module .explore__title-text,
-.explore__row--reference .explore__title-text,
-.explore__row--supplement .explore__title-text {
-  font-style: normal;
+/* Italic marks a primary text. Supplements, references and modules are
+   apparatus around the texts and stay roman. */
+.explore__row--text .explore__title-text {
+  font-style: italic;
 }
 
-.explore__td--type {
-  text-transform: lowercase;
-  font-size: var(--text-xs);
-  letter-spacing: 0.05em;
+.explore__cell--type,
+.explore__cell--era {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
   color: var(--color-ink-faint);
+}
+
+.explore__cell--year {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-soft);
   white-space: nowrap;
 }
 
-.explore__td--era {
-  white-space: nowrap;
+/* The mono spine: status, type, era, year on one line under the source, in
+   the reading order of the old column headers. Separators are drawn by the
+   cells themselves so an empty cell (a module child row) contributes
+   nothing rather than leaving a stranded dot. */
+.explore__cell--status,
+.explore__cell--type,
+.explore__cell--era,
+.explore__cell--year {
+  flex: 0 0 auto;
 }
 
-.explore__td--author {
-  font-size: var(--text-sm);
+.explore__cell--status:not(:empty)::after,
+.explore__cell--type:not(:empty)::after,
+.explore__cell--era:not(:empty)::after {
+  content: '·';
+  margin-left: var(--space-xs);
+  color: var(--color-rule);
 }
 
-.explore__status {
+.explore__marker {
   display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-}
-
-.explore__status--ready { background: var(--status-ready); }
-.explore__status--progress { background: var(--status-progress); }
-.explore__status--stub { background: var(--status-stub); }
-.explore__status--needs-cleanup { background: var(--status-needs-cleanup); }
-.explore__status--none { background: transparent; }
-
-.explore__expander {
-  display: inline-block;
-  color: var(--color-ink-faint);
-  margin-right: var(--space-xs);
-  transition: transform var(--transition);
+  width: 1rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  color: var(--color-accent);
   font-style: normal;
-}
-
-.explore__expander--open {
-  transform: rotate(90deg);
 }
 
 .explore__row--child {
   background: var(--color-paper-alt);
 }
 
-.explore__row--child .explore__td--title {
-  font-size: var(--text-sm);
+.explore__row--child .explore__cell--title {
   font-family: var(--font-sans);
-  color: var(--color-ink);
-  padding-left: var(--space-xl);
+  font-size: var(--text-sm);
+  padding-left: 1.375rem;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-xs);
 }
 
 .explore__row--child .explore__title-text {
   font-style: normal;
+  color: var(--color-ink);
 }
 
-.explore__child-marker {
+.explore__ordinal {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-accent);
+}
+
+/* Footer --------------------------------------------------------------- */
+
+.explore__footer {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding-top: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
   color: var(--color-ink-faint);
-  margin-right: var(--space-xs);
 }
 
-/* Loading / error */
+.explore__order {
+  text-align: right;
+}
+
+/* Jump ------------------------------------------------------------------
+   Making the catalog a list at every width roughly tripled its height, so the
+   filter and sort controls are far off screen by the time you are deep in it.
+   This is the way back: a hairline pill at the top centre, appearing only
+   once the controls have actually left the viewport. */
+
+.explore__jump {
+  position: fixed;
+  top: calc(var(--header-height) + var(--space-xs));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: stretch;
+  background: var(--color-paper);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 2px;
+}
+
+.explore__jump[hidden] {
+  display: none;
+}
+
+.explore__jump-top,
+.explore__jump-reset {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-ink-soft);
+  background: none;
+  border: none;
+  padding: var(--space-xs) var(--space-sm);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.explore__jump-top:hover,
+.explore__jump-reset:hover {
+  color: var(--color-accent-hover);
+}
+
+.explore__jump-caret {
+  color: var(--color-accent);
+}
+
+/* Reset appears only when there is something to reset, so the pill is a
+   single control most of the time and grows a second only when it means
+   something. */
+.explore__jump-reset {
+  display: none;
+  border-left: 1px solid var(--color-rule);
+  color: var(--color-ink-faint);
+}
+
+.explore__jump--filtering .explore__jump-reset {
+  display: block;
+}
+
+/* Loading / error ------------------------------------------------------ */
+
 .explore__loading,
 .explore__error {
   font-family: var(--font-sans);
@@ -266,19 +439,130 @@
   color: var(--status-needs-cleanup);
 }
 
+/* Narrow ---------------------------------------------------------------
+   The rows need no change here — they are already a list. What narrows is
+   the chrome around them: the header stacks, the era chips scroll rather
+   than wrap into a wall, touch targets grow to 44px, and filter state
+   pins itself above the list so it is not scrolled off. */
+
 @media (max-width: 720px) {
-  .explore__th--type,
-  .explore__td--type,
-  .explore__th--era,
-  .explore__td--era {
+  .explore {
+    padding: var(--space-xl) var(--space-md) var(--space-3xl);
+  }
+
+  .explore__header {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .explore__readouts {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .explore__filter-row {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xs);
+  }
+
+  /* Eight era names would wrap into a wall, so the row scrolls sideways
+     instead. Known gap: this hides that eras continue past the fold. */
+  .explore__chips--era {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--space-2xs);
+  }
+
+  .explore__chips--era .explore__chip {
+    flex-shrink: 0;
+  }
+
+  /* Every touch target clears 44px. */
+  .explore__chip {
+    min-height: 2.75rem;
+  }
+
+  .explore__search-input {
+    width: 100%;
+    min-height: 2.75rem;
+  }
+
+  /* Filter and sort state stay on screen once the filters scroll away. */
+  .explore__statusbar {
+    display: block;
+    position: sticky;
+    top: var(--header-height);
+    z-index: 1;
+    margin-bottom: var(--space-xs);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-paper-alt);
+    border-top: 1px solid var(--color-rule);
+    border-bottom: 1px solid var(--color-rule);
+    font-family: var(--font-mono);
+    font-size: var(--text-3xs);
+    letter-spacing: var(--track-mono);
+    text-transform: uppercase;
+    color: var(--color-ink-faint);
+  }
+
+  /* Era leaves the spine: it is by far the longest string on the line, and
+     it is available as a filter directly above. */
+  .explore__cell--era {
     display: none;
   }
 
-  .explore__filter-group {
-    gap: var(--space-sm);
+  .explore__cell--status,
+  .explore__cell--type,
+  .explore__cell--year {
+    font-size: 0.5625rem;
   }
 
-  .explore__filter-label {
-    min-width: auto;
+  .explore__cell--title {
+    font-weight: 600;
+  }
+
+  /* The sticky status bar already occupies the top of the viewport here, so
+     the jump moves to the bottom — out of its way, and in reach of a thumb
+     rather than at the far end of the screen from one.
+
+     It also sheds its box. On a 390px screen a bordered pill floating over
+     the list reads as a panel competing with the reading; bare marks in the
+     accent colour stay available without claiming to be a surface. The
+     paper-coloured text-shadow is the one concession — it is a halo, not a
+     background, and without it the label would collide with whatever row
+     happens to scroll beneath it. */
+  .explore__jump {
+    top: auto;
+    bottom: var(--space-md);
+    gap: var(--space-md);
+    background: none;
+    border: none;
+  }
+
+  .explore__jump-top,
+  .explore__jump-reset {
+    min-height: 2.75rem;
+    padding: var(--space-xs) var(--space-2xs);
+    text-shadow:
+      0 0 4px var(--color-paper),
+      0 0 8px var(--color-paper);
+  }
+
+  .explore__jump-reset {
+    border-left: none;
+  }
+
+  .explore__cell--author {
+    font-size: var(--text-xs);
+  }
+
+  .explore__footer {
+    flex-direction: column;
+    gap: var(--space-2xs);
+  }
+
+  .explore__order {
+    text-align: left;
   }
 }

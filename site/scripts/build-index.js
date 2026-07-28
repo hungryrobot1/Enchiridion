@@ -1,4 +1,4 @@
-import { readdir, readFile, writeFile } from 'fs/promises';
+import { readdir, readFile, writeFile, mkdir } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -12,6 +12,7 @@ const TEXT_OUTPUT = join(__dirname, '..', 'public', 'text-index.json');
 const SUPPLEMENT_OUTPUT = join(__dirname, '..', 'public', 'supplement-index.json');
 const MODULE_OUTPUT = join(__dirname, '..', 'public', 'module-index.json');
 const CHANGELOG_OUTPUT = join(__dirname, '..', 'public', 'changelog-index.json');
+const TOC_DIR = join(__dirname, '..', 'public', 'toc');
 
 const ERA_DISPLAY = {
   'ancient-greece': 'Ancient Greece (~600 BCE – 200 CE)',
@@ -400,11 +401,88 @@ async function buildChangelogIndex() {
   console.log(`Built changelog-index.json: ${entries.length} entries`);
 }
 
+/**
+ * Emit one table-of-contents file per markdown text.
+ *
+ * The reader sections lazily, because marked's tokenizer is super-linear and
+ * parsing a whole long text at once hangs a phone. That is right for reading
+ * and wrong for a sidebar, which needs the shape of the entire work before the
+ * reader has opened any of it. So the walk happens once here, at build time,
+ * over the whole corpus — about a second and a half — and the sidebar loads a
+ * finished tree instead of parsing anything.
+ *
+ * These are BUILD ARTIFACTS, gitignored, regenerated on every build like
+ * text-index.json. That is deliberate. A committed toc.json is a stored copy
+ * of something derived, and would go stale the moment a heading changed, in
+ * silence, with nothing rendering wrong. Regenerating means it cannot drift.
+ *
+ * Writing into public/ also means these are served from the Pages origin
+ * rather than raw.githubusercontent, so they need no buildRawUrl treatment and
+ * cannot 404 in production only.
+ *
+ * Paths inside are the same section paths the reader assigns and `?s=` deep
+ * links target — same module, so they cannot disagree.
+ */
+async function buildTocFiles() {
+  const { buildToc } = await import('../src/lib/section-tree.js');
+  await mkdir(TOC_DIR, { recursive: true });
+
+  let count = 0;
+  let bytes = 0;
+  let largest = { id: null, size: 0 };
+
+  const eraDirs = (await readdir(TEXTS_DIR, { withFileTypes: true }))
+    .filter(d => d.isDirectory() && /^\d+-/.test(d.name));
+
+  for (const eraDir of eraDirs) {
+    const eraPath = join(TEXTS_DIR, eraDir.name);
+    const textDirs = (await readdir(eraPath, { withFileTypes: true }))
+      .filter(d => d.isDirectory());
+
+    for (const textDir of textDirs) {
+      const dir = join(eraPath, textDir.name);
+      let meta;
+      try {
+        meta = JSON.parse(await readFile(join(dir, 'metadata.json'), 'utf-8'));
+      } catch {
+        continue;
+      }
+      if (meta.format !== 'markdown' || !meta.filename) continue;
+
+      let markdown;
+      try {
+        markdown = await readFile(join(dir, meta.filename), 'utf-8');
+      } catch {
+        console.warn(`Skipping toc for ${textDir.name}: ${meta.filename} not readable`);
+        continue;
+      }
+
+      const toc = buildToc(markdown);
+      // A single-h1 document has no sections and reads as one scroll; there is
+      // no table of contents to show, so there is no file to write.
+      if (toc.sections.length === 0) continue;
+
+      const json = JSON.stringify({ id: textDir.name, ...toc });
+      await writeFile(join(TOC_DIR, `${textDir.name}.json`), json);
+
+      count++;
+      bytes += json.length;
+      if (json.length > largest.size) largest = { id: textDir.name, size: json.length };
+    }
+  }
+
+  console.log(
+    `Built toc/: ${count} texts, ${(bytes / 1024).toFixed(0)} KB total, ` +
+    `largest ${largest.id} at ${(largest.size / 1024).toFixed(0)} KB`
+  );
+}
+
 async function buildAll() {
   await buildTextIndex();
   await buildSupplementIndex();
   await buildModuleIndex();
   await buildChangelogIndex();
+  await buildTocFiles();
 }
 
 buildAll().catch(err => {

@@ -64,15 +64,40 @@ function summaryLabel(section) {
   return clone.textContent.trim();
 }
 
-export function mountSectionBreadcrumb(shell, wrapper, title) {
+export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
   const viewport = shell.querySelector('.reader__viewport');
   if (!viewport) return () => {};
+
+  const { onChain, contents } = opts;
 
   const bar = document.createElement('nav');
   bar.className = 'reader__crumbs';
   bar.setAttribute('aria-label', 'Section location');
-  bar.hidden = true;
+  // With a contents toggle to host, the bar is always present: contents used
+  // to live in a toolbar that scrolled away, so pinning it to the bar that
+  // already says where you are makes location and navigation one control.
+  bar.hidden = !contents;
   shell.insertBefore(bar, viewport);
+
+  // The toggle is built once and re-inserted on each render, so the crumb
+  // rebuild below never destroys it (and never drops its listener).
+  let toggleBtn = null;
+  if (contents) {
+    toggleBtn = document.createElement('button');
+    toggleBtn.type = 'button';
+    toggleBtn.className = 'reader__crumbs-toggle';
+    toggleBtn.textContent = '☰';
+    toggleBtn.setAttribute('aria-expanded', 'false');
+    toggleBtn.title = 'Show contents';
+    toggleBtn.addEventListener('click', () => contents.onToggle());
+  }
+
+  const setToggleState = (open) => {
+    if (!toggleBtn) return;
+    toggleBtn.setAttribute('aria-expanded', String(open));
+    toggleBtn.title = open ? 'Hide contents' : 'Show contents';
+    toggleBtn.classList.toggle('reader__crumbs-toggle--active', open);
+  };
 
   // Where the bar pins: just under the site header (which may be hidden in
   // focus mode — measuring live handles that). The reference line for "which
@@ -92,7 +117,11 @@ export function mountSectionBreadcrumb(shell, wrapper, title) {
     window.scrollBy({ top: delta, behavior: 'smooth' });
   };
 
-  let rendered = '';
+  // null, not '' — an empty chain stringifies to '', so seeding this with ''
+  // made the first update a no-op and the bar only appeared once you had
+  // scrolled into a section. It must render once up front to put the contents
+  // toggle on screen before any section is open.
+  let rendered = null;
 
   const update = () => {
     const y = pinnedLine() + 1;
@@ -109,7 +138,11 @@ export function mountSectionBreadcrumb(shell, wrapper, title) {
     if (key === rendered) return;
     rendered = key;
 
-    if (!chain.length) {
+    if (onChain) {
+      onChain(chain.length ? chain[chain.length - 1].dataset.section : null);
+    }
+
+    if (!chain.length && !contents) {
       bar.hidden = true;
       bar.replaceChildren();
       return;
@@ -120,6 +153,13 @@ export function mountSectionBreadcrumb(shell, wrapper, title) {
     );
 
     bar.replaceChildren();
+    if (toggleBtn) {
+      bar.appendChild(toggleBtn);
+      const divider = document.createElement('span');
+      divider.className = 'reader__crumbs-divider';
+      divider.setAttribute('aria-hidden', 'true');
+      bar.appendChild(divider);
+    }
     crumbs.forEach((crumb, i) => {
       if (i > 0) {
         const sep = document.createElement('span');
@@ -156,10 +196,13 @@ export function mountSectionBreadcrumb(shell, wrapper, title) {
   window.addEventListener('resize', onScroll);
   update();
 
-  return () => {
-    window.removeEventListener('scroll', onScroll);
-    wrapper.removeEventListener('toggle', onScroll, true);
-    window.removeEventListener('resize', onScroll);
-    bar.remove();
+  return {
+    setToggleState,
+    destroy() {
+      window.removeEventListener('scroll', onScroll);
+      wrapper.removeEventListener('toggle', onScroll, true);
+      window.removeEventListener('resize', onScroll);
+      bar.remove();
+    },
   };
 }

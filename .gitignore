@@ -18,3 +18,4 @@ mcp/dist/
 mcp/.wrangler/
 **/__pycache__/
 .DS_Store
+site/public/toc/

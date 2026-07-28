@@ -1,5 +1,7 @@
 import { buildRawUrl, buildRepoUrl } from './url-builder.js';
 import { setupFullscreenToggle } from './fullscreen.js';
+import { mountTypePanel } from '../readers/type-panel.js';
+import { isRead, toggleRead } from './read-state.js';
 
 import mdReader from '../readers/md-reader.js';
 import pdfReader from '../readers/pdf-reader.js';
@@ -53,6 +55,9 @@ export async function renderReader(container, options) {
             <button class="reader__btn" data-action="zoom-in" title="Zoom in">+</button>
           </div>
         ` : ''}
+        ${options.tocId ? `
+          <button class="reader__btn reader__read-btn" type="button" aria-pressed="false"></button>
+        ` : ''}
         <button class="reader__btn reader__fullscreen" title="Toggle fullscreen">&#x26F6;</button>
       </div>
     </header>
@@ -62,7 +67,9 @@ export async function renderReader(container, options) {
       </div>
     ` : ''}
     <div class="reader__viewport">
-      <div class="reader__content ${isProse ? 'reader__content--prose' : ''}"></div>
+      <div class="reader__column">
+        <div class="reader__content ${isProse ? 'reader__content--prose' : ''}"></div>
+      </div>
     </div>
     ${chapterNav ? renderChapterNav(chapterNav) : ''}
   `;
@@ -71,12 +78,16 @@ export async function renderReader(container, options) {
   container.appendChild(shell);
 
   const fullscreenCleanup = setupFullscreenToggle(shell);
+  const typeCleanup = isProse ? mountTypePanel(shell) : () => {};
+  const readCleanup = options.tocId ? mountReadToggle(shell, options.tocId) : () => {};
 
   const contentEl = shell.querySelector('.reader__content');
 
   if (!reader) {
     contentEl.innerHTML = `<div class="reader__error">No reader available for format: ${format}</div>`;
-    return fullscreenCleanup;
+    // The type panel binds document-level listeners; leaving by this path must
+    // release them too.
+    return () => { readCleanup(); typeCleanup(); fullscreenCleanup(); };
   }
 
   const url = buildRawUrl(path);
@@ -96,7 +107,7 @@ export async function renderReader(container, options) {
       wirePdfControls(shell, controls);
       shell.querySelector('.reader__pdf-controls')?.removeAttribute('hidden');
     } else {
-      readerCleanup = await reader.render(contentEl, url, shell, { layout, title });
+      readerCleanup = await reader.render(contentEl, url, shell, { layout, title, tocId: options.tocId });
       if (fmt === 'markdown' || fmt === 'md') {
         rewriteRelativeMdLinks(contentEl, options.linkRewriter);
       }
@@ -108,8 +119,32 @@ export async function renderReader(container, options) {
 
   return () => {
     if (readerCleanup) readerCleanup();
+    readCleanup();
+    typeCleanup();
     fullscreenCleanup();
   };
+}
+
+// "Mark as read" — one bit per text. The label states the action when unread
+// and the state when read, so the button never leaves you guessing which of
+// the two it is showing.
+function mountReadToggle(shell, id) {
+  const btn = shell.querySelector('.reader__read-btn');
+  if (!btn) return () => {};
+
+  const paint = () => {
+    const read = isRead(id);
+    btn.textContent = read ? 'Read' : 'Mark as read';
+    btn.setAttribute('aria-pressed', String(read));
+    btn.title = read ? 'Mark as unread' : 'Mark as read';
+    btn.classList.toggle('reader__read-btn--on', read);
+  };
+
+  const onClick = () => { toggleRead(id); paint(); };
+  btn.addEventListener('click', onClick);
+  paint();
+
+  return () => btn.removeEventListener('click', onClick);
 }
 
 function renderChapterNav({ prev, next }) {

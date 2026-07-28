@@ -27,33 +27,16 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
-const READER = join(ROOT, 'site', 'src', 'readers', 'md-reader.js');
+// ---- reference: the site's own sectioning module ---------------------------
+// These functions used to be lifted out of md-reader.js by string-scanning its
+// source, because they lived inside a browser module this script cannot load.
+// They now live in site/src/lib/section-tree.js — pure, DOM-free, imported by
+// the reader itself — so the reference implementation is the actual code the
+// site runs rather than a slice of text cut out of it.
+import * as reference from '../../site/src/lib/section-tree.js';
 
-// ---- reference: lift the reader's own functions out of its source ----------
-function liftFunction(source, name) {
-  const start = source.indexOf(`function ${name}(`);
-  if (start === -1) throw new Error(`cannot find function ${name} in md-reader.js`);
-  let depth = 0;
-  let i = source.indexOf('{', start);
-  const bodyStart = i;
-  for (; i < source.length; i++) {
-    if (source[i] === '{') depth++;
-    else if (source[i] === '}') {
-      depth--;
-      if (depth === 0) break;
-    }
-  }
-  return source.slice(start, i + 1);
-}
-
-const readerSrc = await readFile(READER, 'utf-8');
-const referenceCode = [
-  liftFunction(readerSrc, 'splitMarkdownIntoSections'),
-  liftFunction(readerSrc, 'slugifyHeading'),
-  liftFunction(readerSrc, 'uniqueSlug'),
-  `return { splitMarkdownIntoSections, slugifyHeading, uniqueSlug };`,
-].join('\n');
-const reference = new Function(referenceCode)();
+const abbrevRef = reference.abbreviateSlug;
+const matchSegmentRef = reference.matchSegment;
 
 function referencePaths(text) {
   const paths = [];
@@ -103,29 +86,6 @@ const { buildToc, flattenToc, extractSection, abbreviateSlug, sectionSpans, reso
 function candidatePaths(text) {
   return flattenToc(buildToc(text).sections).map((n) => n.path);
 }
-
-// ---- reference abbreviation: lifted from the reader, same as the slug fns ---
-const abbrevRef = new Function(
-  liftFunction(readerSrc, 'isAbbrevOf') + '\n' +
-  liftFunction(readerSrc, 'abbreviateSlug') +
-  `\nconst ABBREV_MIN = ${/const ABBREV_MIN = (\d+)/.exec(readerSrc)[1]};` +
-  '\nreturn abbreviateSlug;'
-)();
-
-// ---- reference segment matching: the four resolution tiers -----------------
-// isAbbrevOf through matchSegment sit contiguously in md-reader.js, so the
-// whole block lifts as one slice rather than function by function. If that
-// ordering is ever broken this throws, which is the right failure: the point
-// is to run the READER's code, never a paraphrase of it.
-const matchStart = readerSrc.indexOf('const ROMAN_RE');
-const matchEnd = readerSrc.indexOf('// Resolve one path segment against');
-if (matchStart === -1 || matchEnd === -1 || matchEnd < matchStart)
-  throw new Error('cannot lift the segment-matching block from md-reader.js');
-const matchSegmentRef = new Function(
-  liftFunction(readerSrc, 'isAbbrevOf') + '\n' +
-  readerSrc.slice(matchStart, matchEnd) +
-  '\nreturn matchSegment;'
-)();
 
 // ---- corpus enumeration ----------------------------------------------------
 async function* markdownFiles() {

@@ -125,6 +125,22 @@
   flex: 1;
   overflow-y: auto;
   background: var(--color-paper);
+  display: flex;
+  align-items: flex-start;
+}
+
+/* The reading column, between the contents sidebar and the right edge.
+ *
+ * `container-type: inline-size` exists for the interlinear rows: they
+ * deliberately break out of the prose measure, and used to size that breakout
+ * against the VIEWPORT, so opening a 19rem sidebar squeezed two language
+ * columns into an unreadable width. Sized in `cqw` they measure against this
+ * element — the space actually available to the text — and reflow when the
+ * sidebar opens instead of being crushed by it. */
+.reader__column {
+  flex: 1;
+  min-width: 0;
+  container-type: inline-size;
 }
 
 .reader__content {
@@ -132,10 +148,14 @@
   padding: var(--space-2xl) var(--space-lg) var(--space-4xl);
 }
 
+/* Size and measure come from the type panel as custom properties on the
+ * shell, defaulting to the values they replace — so a reader who never opens
+ * the panel sees exactly what they saw before, and lazily-built sections
+ * inherit the settings with no re-render. */
 .reader__content--prose {
-  max-width: var(--max-width-prose);
+  max-width: var(--reader-measure, var(--max-width-prose));
   font-family: var(--font-serif);
-  font-size: var(--text-base);
+  font-size: calc(var(--text-base) * var(--reader-type-scale, 1));
   line-height: var(--line-height);
   color: var(--color-ink);
 }
@@ -144,8 +164,12 @@
  * (p99 ≈ 73 chars across the verse corpus; the prose column fits ~72).
  * Widen so a long line doesn't orphan its trailing word onto a wrap that
  * reads as a false verse line. */
+/* Expressed as an offset from the chosen measure rather than a fixed 44rem,
+ * so the "verse runs wider than prose" relationship survives the type panel's
+ * measure setting instead of being pinned at one width. At the default
+ * measure this is still exactly 44rem. */
 .reader__content--prose:has(> .md-reader[data-layout="verse"]) {
-  max-width: 44rem;
+  max-width: calc(var(--reader-measure, var(--max-width-prose)) + 6rem);
 }
 
 /* KaTeX typesets ~21% larger than body text by default, which makes
@@ -564,7 +588,9 @@
    * to 1.7× the prose width (≈0.8× prose width per column), capped so
    * it never spills past the viewport. Centered via margin-left since
    * the prose container itself stays at --max-width-prose. */
-  --interlinear-row-width: min(170%, calc(100vw - 5rem));
+  /* 100cqw is the reading column's own width — see .reader__column. This was
+   * 100vw, which ignored the contents sidebar entirely. */
+  --interlinear-row-width: min(170%, calc(100cqw - 5rem));
   width: var(--interlinear-row-width);
   margin-left: calc((100% - var(--interlinear-row-width)) / 2);
 }
@@ -718,6 +744,384 @@
 /* Focus mode hides the site header; the bar takes its place at the top. */
 .focus-mode .reader__crumbs {
   top: 0;
+}
+
+/* Type panel ------------------------------------------------------------ */
+
+.reader__type {
+  position: relative;
+}
+
+.reader__type-panel {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  z-index: 20;
+  width: 20rem;
+  max-width: calc(100vw - 2rem);
+  padding: var(--space-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
+}
+
+.reader__type-panel[hidden] {
+  display: none;
+}
+
+.reader__type-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.reader__type-row + .reader__type-row {
+  margin-top: var(--space-md);
+}
+
+.reader__type-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+}
+
+.reader__type-stepper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.reader__type-size-value {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-soft);
+  min-width: 3rem;
+  text-align: center;
+}
+
+.reader__type-step,
+.reader__type-choice {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--color-ink-soft);
+  background: transparent;
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
+  padding: 0.3125rem 0.5rem;
+  cursor: pointer;
+}
+
+.reader__type-step:hover,
+.reader__type-choice:hover {
+  border-color: var(--color-accent-hover);
+  color: var(--color-accent-hover);
+}
+
+.reader__type-choices {
+  display: flex;
+  gap: var(--space-2xs);
+}
+
+.reader__type-choice--active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+}
+
+.reader__btn--active {
+  color: var(--color-accent);
+}
+
+/* Read state ------------------------------------------------------------ */
+
+.reader__read-btn {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.reader__read-btn--on {
+  color: var(--status-ready);
+}
+
+/* The contents toggle sits at the left end of the bar that already says where
+   you are, so location and navigation are one control rather than two. */
+.reader__crumbs-toggle {
+  flex-shrink: 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: 1;
+  color: var(--color-ink-soft);
+  background: transparent;
+  border: none;
+  padding: var(--space-2xs);
+  cursor: pointer;
+}
+
+.reader__crumbs-toggle:hover,
+.reader__crumbs-toggle--active {
+  color: var(--color-accent);
+}
+
+.reader__crumbs-divider {
+  flex-shrink: 0;
+  width: 1px;
+  height: 0.875rem;
+  background: var(--color-rule);
+  margin-right: var(--space-2xs);
+}
+
+/* Contents sidebar ------------------------------------------------------ */
+
+/* Fixed, not sticky — deliberately.
+ *
+ * `.reader__viewport` carries `overflow-y: auto`, which never engages in
+ * normal reading (nothing constrains the shell's height, so the window is
+ * what scrolls) but DOES make it the scrollport that captures any sticky
+ * descendant. A sticky sidebar inside it would pin to a scrollport that never
+ * moves, i.e. would not stick at all — the same trap that put the breadcrumb
+ * bar outside the viewport. The overflow cannot simply be dropped either: in
+ * fullscreen and focus mode `#content` is given `height: 100vh` and the
+ * viewport becomes a real scroll container.
+ *
+ * Fixed positioning is relative to the browser viewport and is immune to both
+ * cases, so it behaves identically in normal, focus, and fullscreen reading.
+ * The reading column is pushed clear with padding rather than by layout flow. */
+.reader__toc {
+  position: fixed;
+  top: calc(var(--header-height) + 2.25rem);
+  bottom: 0;
+  left: 0;
+  width: 19rem;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-paper-alt);
+  border-right: 1px solid var(--color-rule);
+}
+
+.reader--toc-open .reader__viewport {
+  padding-left: 19rem;
+}
+
+.focus-mode .reader__toc,
+:fullscreen .reader__toc {
+  top: 2.25rem;
+}
+
+.reader__toc[hidden] {
+  display: none;
+}
+
+.reader__toc-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.reader__toc-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+}
+
+.reader__toc-close {
+  font-size: var(--text-md);
+  line-height: 1;
+  color: var(--color-ink-faint);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 var(--space-2xs);
+}
+
+.reader__toc-close:hover {
+  color: var(--color-accent-hover);
+}
+
+.reader__toc-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-xs) 0;
+}
+
+/* The syllabus's recommendations, above the structure rather than filtering
+   it — one place to look, and the tree keeps one job. */
+.reader__toc-rec {
+  margin: 0 var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
+}
+
+.reader__toc-rec-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.reader__toc-rec-summary::-webkit-details-marker { display: none; }
+.reader__toc-rec-summary { list-style: none; }
+
+.reader__toc-rec-note {
+  padding: 0 var(--space-sm) var(--space-xs);
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  line-height: var(--line-height-list);
+  color: var(--color-ink-soft);
+}
+
+.reader__toc-rec-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--space-sm) var(--space-xs);
+}
+
+.reader__toc-rec-list li {
+  padding: 0.125rem 0;
+}
+
+.reader__toc-rec-link,
+.reader__toc-rec-plain {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  line-height: var(--line-height-list);
+  color: var(--color-ink-soft);
+  background: none;
+  border: none;
+  padding: 0;
+  text-align: left;
+}
+
+.reader__toc-rec-link {
+  cursor: pointer;
+}
+
+.reader__toc-rec-link:hover {
+  color: var(--color-accent-hover);
+}
+
+.reader__toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Depth is not capped at two: fourteen texts in the corpus run three levels
+   deep, and a flat two-level tree would hide their sections entirely. Each
+   level indents by its own marker's width so the tree reads as a tree. */
+.reader__toc-list--nested {
+  padding-left: var(--space-md);
+}
+
+.reader__toc-row {
+  display: grid;
+  grid-template-columns: 1rem 1fr auto;
+  gap: var(--space-2xs);
+  align-items: baseline;
+  padding: 0.1875rem var(--space-md) 0.1875rem var(--space-xs);
+  border-left: 2px solid transparent;
+}
+
+.reader__toc-marker {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  line-height: 1.6;
+  color: var(--color-ink-faint);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.reader__toc-marker:hover {
+  color: var(--color-accent);
+}
+
+.reader__toc-label {
+  font-family: var(--font-serif);
+  font-size: var(--text-sm);
+  line-height: var(--line-height-list);
+  color: var(--color-ink-soft);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.reader__toc-row--l1 .reader__toc-label {
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.reader__toc-label:hover {
+  color: var(--color-accent-hover);
+}
+
+.reader__toc-count {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+}
+
+/* Where you actually are, on whichever level it falls. */
+.reader__toc-item--current > .reader__toc-row {
+  border-left-color: var(--color-accent);
+  background: var(--color-paper);
+}
+
+.reader__toc-item--current > .reader__toc-row .reader__toc-label {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.reader__toc-foot {
+  padding: var(--space-sm) var(--space-md);
+  border-top: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+}
+
+/* Below the reader's breakpoint 19rem of sidebar plus a readable column does
+   not fit, so contents stops being a flex sibling and becomes a layer over
+   the book — 92% wide, so the page stays visible behind it and it reads as a
+   panel over your reading rather than a different screen. */
+@media (max-width: 900px) {
+  .reader__toc {
+    width: 92%;
+    border-right: 1px solid var(--color-rule-strong);
+  }
+
+  /* An overlay, not a column: the reading stays where it was, visible behind
+     the remaining 8%, so contents reads as a layer over your book rather than
+     a different screen. */
+  .reader--toc-open .reader__viewport {
+    padding-left: 0;
+  }
 }
 
 /* The bar overlays the top of the page under the header, so anything scrolled

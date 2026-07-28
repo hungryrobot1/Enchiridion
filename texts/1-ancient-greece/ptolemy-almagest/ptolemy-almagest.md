@@ -1227,51 +1227,51 @@ The layout of the table is as follows.
 
 | Arcs | Chords | Sixtieths | Arcs | Chords | Sixtieths |
 | --- | --- | --- | --- | --- | --- |
-| 45 | 46 24 19 | 0 57 54 | 68 | 67 6 12 | 0 52 1 |
-| 46 | 46 53 16 | 0 57 47 | 68 | 67 32 12 | 0 51 52 |
-| 46 | 47 22 9 | 0 57 41 | 69 | 67 58 8 | 0 51 43 |
-| 47 | 47 51 0 | 0 57 34 | 69 | 68 23 59 | 0 51 33 |
-| 47 | 48 19 47 | 0 57 27 | 70 | 68 49 45 | 0 51 23 |
-| 48 | 48 48 30 | 0 57 21 | 70 | 69 15 27 | 0 51 14 |
-| 48 | 49 17 11 | 0 57 14 | 71 | 69 41 4 | 0 51 4 |
-| 49 | 49 45 48 | 0 57 7 | 71 | 70 6 36 | 0 50 55 |
-| 49 | 50 14 21 | 0 57 0 | 72 | 70 32 3 | 0 50 45 |
-| 50 | 50 42 51 | 0 56 53 | 72 | 70 57 26 | 0 50 35 |
-| 50 | 51 11 18 | 0 56 46 | 73 | 71 22 44 | 0 50 26 |
-| 51 | 51 39 42 | 0 56 39 | 73 | 71 47 56 | 0 50 16 |
-| 51 | 52 8 0 | 0 56 32 | 74 | 72 13 4 | 0 50 6 |
-| 52 | 52 36 16 | 0 56 25 | 74 | 72 38 7 | 0 49 56 |
-| 52 | 53 4 29 | 0 56 18 | 75 | 73 3 5 | 0 49 46 |
-| 53 | 53 32 38 | 0 56 10 | 75 | 73 27 58 | 0 49 36 |
-| 53 | 54 0 43 | 0 56 3 | 76 | 73 52 46 | 0 49 26 |
-| 54 | 54 28 44 | 0 55 55 | 76 | 74 17 29 | 0 49 16 |
-| 54 | 54 56 42 | 0 55 48 | 77 | 74 42 7 | 0 49 6 |
-| 55 | 55 24 36 | 0 55 40 | 77 | 75 6 39 | 0 48 55 |
-| 55 | 55 52 26 | 0 55 33 | 78 | 75 31 7 | 0 48 45 |
-| 56 | 56 20 12 | 0 55 25 | 78 | 75 55 29 | 0 48 34 |
-| 56 | 56 47 54 | 0 55 17 | 79 | 76 19 46 | 0 48 24 |
-| 57 | 57 15 33 | 0 55 9 | 79 | 76 43 58 | 0 48 13 |
-| 57 | 57 43 7 | 0 55 1 | 80 | 77 8 5 | 0 48 3 |
-| 58 | 58 10 38 | 0 54 53 | 80 | 77 32 6 | 0 47 52 |
-| 58 | 58 38 5 | 0 54 45 | 81 | 77 56 2 | 0 47 41 |
-| 59 | 59 5 27 | 0 54 37 | 81 | 78 19 52 | 0 47 31 |
-| 59 | 59 32 45 | 0 54 29 | 82 | 78 43 38 | 0 47 20 |
-| 60 | 60 0 0 | 0 54 21 | 82 | 79 7 18 | 0 47 9 |
-| 60 | 60 27 11 | 0 54 12 | 83 | 79 30 52 | 0 46 58 |
-| 61 | 60 54 17 | 0 54 4 | 83 | 79 54 21 | 0 46 47 |
-| 61 | 61 21 19 | 0 53 56 | 84 | 80 17 45 | 0 46 36 |
-| 62 | 61 48 17 | 0 53 47 | 84 | 80 41 3 | 0 46 25 |
-| 62 | 62 15 10 | 0 53 39 | 85 | 81 4 15 | 0 46 14 |
-| 63 | 62 42 0 | 0 53 30 | 85 | 81 27 22 | 0 46 3 |
-| 63 | 63 8 45 | 0 53 22 | 86 | 81 50 24 | 0 45 52 |
-| 64 | 63 35 25 | 0 53 13 | 86 | 82 13 19 | 0 45 40 |
-| 64 | 64 2 2 | 0 53 4 | 87 | 82 36 9 | 0 45 29 |
-| 65 | 64 28 34 | 0 52 55 | 87 | 82 58 54 | 0 45 18 |
-| 65 | 64 55 1 | 0 52 46 | 88 | 83 21 33 | 0 45 6 |
-| 66 | 65 21 24 | 0 52 37 | 88 | 83 44 4 | 0 44 55 |
-| 66 | 65 47 43 | 0 52 28 | 89 | 84 6 32 | 0 44 43 |
-| 67 | 66 13 57 | 0 52 19 | 89 | 84 28 54 | 0 44 31 |
-| 67 | 66 40 7 | 0 52 10 | 90 | 84 51 10 | 0 44 20 |
+| 45½ | 46 24 19 | 0 57 54 | 68 | 67 6 12 | 0 52 1 |
+| 46 | 46 53 16 | 0 57 47 | 68½ | 67 32 12 | 0 51 52 |
+| 46½ | 47 22 9 | 0 57 41 | 69 | 67 58 8 | 0 51 43 |
+| 47 | 47 51 0 | 0 57 34 | 69½ | 68 23 59 | 0 51 33 |
+| 47½ | 48 19 47 | 0 57 27 | 70 | 68 49 45 | 0 51 23 |
+| 48 | 48 48 30 | 0 57 21 | 70½ | 69 15 27 | 0 51 14 |
+| 48½ | 49 17 11 | 0 57 14 | 71 | 69 41 4 | 0 51 4 |
+| 49 | 49 45 48 | 0 57 7 | 71½ | 70 6 36 | 0 50 55 |
+| 49½ | 50 14 21 | 0 57 0 | 72 | 70 32 3 | 0 50 45 |
+| 50 | 50 42 51 | 0 56 53 | 72½ | 70 57 26 | 0 50 35 |
+| 50½ | 51 11 18 | 0 56 46 | 73 | 71 22 44 | 0 50 26 |
+| 51 | 51 39 42 | 0 56 39 | 73½ | 71 47 56 | 0 50 16 |
+| 51½ | 52 8 0 | 0 56 32 | 74 | 72 13 4 | 0 50 6 |
+| 52 | 52 36 16 | 0 56 25 | 74½ | 72 38 7 | 0 49 56 |
+| 52½ | 53 4 29 | 0 56 18 | 75 | 73 3 5 | 0 49 46 |
+| 53 | 53 32 38 | 0 56 10 | 75½ | 73 27 58 | 0 49 36 |
+| 53½ | 54 0 43 | 0 56 3 | 76 | 73 52 46 | 0 49 26 |
+| 54 | 54 28 44 | 0 55 55 | 76½ | 74 17 29 | 0 49 16 |
+| 54½ | 54 56 42 | 0 55 48 | 77 | 74 42 7 | 0 49 6 |
+| 55 | 55 24 36 | 0 55 40 | 77½ | 75 6 39 | 0 48 55 |
+| 55½ | 55 52 26 | 0 55 33 | 78 | 75 31 7 | 0 48 45 |
+| 56 | 56 20 12 | 0 55 25 | 78½ | 75 55 29 | 0 48 34 |
+| 56½ | 56 47 54 | 0 55 17 | 79 | 76 19 46 | 0 48 24 |
+| 57 | 57 15 33 | 0 55 9 | 79½ | 76 43 58 | 0 48 13 |
+| 57½ | 57 43 7 | 0 55 1 | 80 | 77 8 5 | 0 48 3 |
+| 58 | 58 10 38 | 0 54 53 | 80½ | 77 32 6 | 0 47 52 |
+| 58½ | 58 38 5 | 0 54 45 | 81 | 77 56 2 | 0 47 41 |
+| 59 | 59 5 27 | 0 54 37 | 81½ | 78 19 52 | 0 47 31 |
+| 59½ | 59 32 45 | 0 54 29 | 82 | 78 43 38 | 0 47 20 |
+| 60 | 60 0 0 | 0 54 21 | 82½ | 79 7 18 | 0 47 9 |
+| 60½ | 60 27 11 | 0 54 12 | 83 | 79 30 52 | 0 46 58 |
+| 61 | 60 54 17 | 0 54 4 | 83½ | 79 54 21 | 0 46 47 |
+| 61½ | 61 21 19 | 0 53 56 | 84 | 80 17 45 | 0 46 36 |
+| 62 | 61 48 17 | 0 53 47 | 84½ | 80 41 3 | 0 46 25 |
+| 62½ | 62 15 10 | 0 53 39 | 85 | 81 4 15 | 0 46 14 |
+| 63 | 62 42 0 | 0 53 30 | 85½ | 81 27 22 | 0 46 3 |
+| 63½ | 63 8 45 | 0 53 22 | 86 | 81 50 24 | 0 45 52 |
+| 64 | 63 35 25 | 0 53 13 | 86½ | 82 13 19 | 0 45 40 |
+| 64½ | 64 2 2 | 0 53 4 | 87 | 82 36 9 | 0 45 29 |
+| 65 | 64 28 34 | 0 52 55 | 87½ | 82 58 54 | 0 45 18 |
+| 65½ | 64 55 1 | 0 52 46 | 88 | 83 21 33 | 0 45 6 |
+| 66 | 65 21 24 | 0 52 37 | 88½ | 83 44 4 | 0 44 55 |
+| 66½ | 65 47 43 | 0 52 28 | 89 | 84 6 32 | 0 44 43 |
+| 67 | 66 13 57 | 0 52 19 | 89½ | 84 28 54 | 0 44 31 |
+| 67½ | 66 40 7 | 0 52 10 | 90 | 84 51 10 | 0 44 20 |
 
 accuracy he does in the third place. The book also enables one to make a number of corrections of scribal errors in the table. Before seeing it I had already made those given below. None of the other corrections (all of 1 in the last place) suggested by the authors seem likely to me, although some are possible.
 
@@ -1281,51 +1281,51 @@ Crd 9°, seconds, vô (with D, Ar) for να (51) at,20 (corrected by Hultsch, Se
 
 | Arcs | Chords | Sixtieths | Arcs | Chords | Sixtieths |
 | --- | --- | --- | --- | --- | --- |
-| 90 | 85 13 20 | 0 44 8 | 113 | 100 3 59 | 0 34 34 |
-| 91 | 85 35 24 | 0 43 57 | 113 | 100 21 16 | 0 34 20 |
-| 91 | 85 57 23 | 0 43 45 | 114 | 100 38 26 | 0 34 6 |
-| 92 | 86 19 15 | 0 43 33 | 114 | 100 55 28 | 0 33 52 |
-| 92 | 86 41 2 | 0 43 21 | 115 | 101 12 25 | 0 33 39 |
-| 93 | 87 2 42 | 0 43 9 | 115 | 101 29 15 | 0 33 25 |
-| 93 | 87 24 17 | 0 42 57 | 116 | 101 45 57 | 0 33 11 |
-| 94 | 87 45 45 | 0 42 45 | 116 | 102 2 33 | 0 32 57 |
-| 94 | 88 7 7 | 0 42 33 | 117 | 102 19 1 | 0 32 43 |
-| 95 | 88 28 24 | 0 42 21 | 117 | 102 35 22 | 0 32 29 |
-| 95 | 88 49 34 | 0 42 9 | 118 | 102 51 37 | 0 32 15 |
-| 96 | 89 10 39 | 0 41 57 | 118 | 103 7 44 | 0 32 0 |
-| 96 | 89 31 37 | 0 41 45 | 119 | 103 23 44 | 0 31 46 |
-| 97 | 89 52 29 | 0 41 33 | 119 | 103 39 37 | 0 31 32 |
-| 97 | 90 13 15 | 0 41 21 | 120 | 103 55 23 | 0 31 18 |
-| 98 | 90 33 55 | 0 41 8 | 120 | 104 11 2 | 0 31 4 |
-| 98 | 90 54 29 | 0 40 55 | 121 | 104 26 34 | 0 30 49 |
-| 99 | 91 14 56 | 0 40 42 | 121 | 104 41 59 | 0 30 35 |
-| 99 | 91 35 17 | 0 40 30 | 122 | 104 57 16 | 0 30 21 |
-| 100 | 91 55 32 | 0 40 17 | 122 | 105 12 26 | 0 30 7 |
-| 100 | 92 15 40 | 0 40 4 | 123 | 105 27 30 | 0 29 52 |
-| 101 | 92 35 42 | 0 39 52 | 123 | 105 42 26 | 0 29 37 |
-| 101 | 92 55 38 | 0 39 39 | 124 | 105 57 14 | 0 29 23 |
-| 102 | 93 15 27 | 0 39 26 | 124 | 106 11 55 | 0 29 8 |
-| 102 | 93 35 11 | 0 39 13 | 125 | 106 26 29 | 0 28 54 |
-| 103 | 93 54 47 | 0 39 0 | 125 | 106 40 56 | 0 28 39 |
-| 103 | 94 14 17 | 0 38 47 | 126 | 106 55 15 | 0 28 24 |
-| 104 | 94 33 41 | 0 38 34 | 126 | 107 9 27 | 0 28 10 |
-| 104 | 94 52 58 | 0 38 21 | 127 | 107 23 32 | 0 27 56 |
-| 105 | 95 12 9 | 0 38 8 | 127 | 107 37 30 | 0 27 40 |
-| 105 | 95 31 13 | 0 37 55 | 128 | 107 51 20 | 0 27 25 |
-| 106 | 95 50 11 | 0 37 42 | 128 | 108 5 2 | 0 27 10 |
-| 106 | 96 9 2 | 0 37 29 | 129 | 108 18 37 | 0 26 56 |
-| 107 | 96 27 47 | 0 37 16 | 129 | 108 32 5 | 0 26 41 |
-| 107 | 96 46 24 | 0 37 3 | 130 | 108 45 25 | 0 26 26 |
-| 108 | 97 4 55 | 0 36 50 | 130 | 108 58 38 | 0 26 11 |
-| 108 | 97 23 20 | 0 36 36 | 131 | 109 11 44 | 0 25 56 |
-| 109 | 97 41 38 | 0 36 23 | 131 | 109 24 42 | 0 25 41 |
-| 109 | 97 59 49 | 0 36 9 | 132 | 109 37 32 | 0 25 26 |
-| 110 | 98 17 54 | 0 35 56 | 132 | 109 50 15 | 0 25 11 |
-| 110 | 98 35 52 | 0 35 42 | 133 | 110 2 50 | 0 24 56 |
-| 111 | 98 53 43 | 0 35 29 | 133 | 110 15 18 | 0 24 41 |
-| 111 | 99 11 27 | 0 35 15 | 134 | 110 27 39 | 0 24 26 |
-| 112 | 99 29 5 | 0 35 1 | 134 | 110 39 52 | 0 24 10 |
-| 112 | 99 46 35 | 0 34 48 | 135 | 110 51 57 | 0 23 55 |
+| 90½ | 85 13 20 | 0 44 8 | 113 | 100 3 59 | 0 34 34 |
+| 91 | 85 35 24 | 0 43 57 | 113½ | 100 21 16 | 0 34 20 |
+| 91½ | 85 57 23 | 0 43 45 | 114 | 100 38 26 | 0 34 6 |
+| 92 | 86 19 15 | 0 43 33 | 114½ | 100 55 28 | 0 33 52 |
+| 92½ | 86 41 2 | 0 43 21 | 115 | 101 12 25 | 0 33 39 |
+| 93 | 87 2 42 | 0 43 9 | 115½ | 101 29 15 | 0 33 25 |
+| 93½ | 87 24 17 | 0 42 57 | 116 | 101 45 57 | 0 33 11 |
+| 94 | 87 45 45 | 0 42 45 | 116½ | 102 2 33 | 0 32 57 |
+| 94½ | 88 7 7 | 0 42 33 | 117 | 102 19 1 | 0 32 43 |
+| 95 | 88 28 24 | 0 42 21 | 117½ | 102 35 22 | 0 32 29 |
+| 95½ | 88 49 34 | 0 42 9 | 118 | 102 51 37 | 0 32 15 |
+| 96 | 89 10 39 | 0 41 57 | 118½ | 103 7 44 | 0 32 0 |
+| 96½ | 89 31 37 | 0 41 45 | 119 | 103 23 44 | 0 31 46 |
+| 97 | 89 52 29 | 0 41 33 | 119½ | 103 39 37 | 0 31 32 |
+| 97½ | 90 13 15 | 0 41 21 | 120 | 103 55 23 | 0 31 18 |
+| 98 | 90 33 55 | 0 41 8 | 120½ | 104 11 2 | 0 31 4 |
+| 98½ | 90 54 29 | 0 40 55 | 121 | 104 26 34 | 0 30 49 |
+| 99 | 91 14 56 | 0 40 42 | 121½ | 104 41 59 | 0 30 35 |
+| 99½ | 91 35 17 | 0 40 30 | 122 | 104 57 16 | 0 30 21 |
+| 100 | 91 55 32 | 0 40 17 | 122½ | 105 12 26 | 0 30 7 |
+| 100½ | 92 15 40 | 0 40 4 | 123 | 105 27 30 | 0 29 52 |
+| 101 | 92 35 42 | 0 39 52 | 123½ | 105 42 26 | 0 29 37 |
+| 101½ | 92 55 38 | 0 39 39 | 124 | 105 57 14 | 0 29 23 |
+| 102 | 93 15 27 | 0 39 26 | 124½ | 106 11 55 | 0 29 8 |
+| 102½ | 93 35 11 | 0 39 13 | 125 | 106 26 29 | 0 28 54 |
+| 103 | 93 54 47 | 0 39 0 | 125½ | 106 40 56 | 0 28 39 |
+| 103½ | 94 14 17 | 0 38 47 | 126 | 106 55 15 | 0 28 24 |
+| 104 | 94 33 41 | 0 38 34 | 126½ | 107 9 27 | 0 28 10 |
+| 104½ | 94 52 58 | 0 38 21 | 127 | 107 23 32 | 0 27 56 |
+| 105 | 95 12 9 | 0 38 8 | 127½ | 107 37 30 | 0 27 40 |
+| 105½ | 95 31 13 | 0 37 55 | 128 | 107 51 20 | 0 27 25 |
+| 106 | 95 50 11 | 0 37 42 | 128½ | 108 5 2 | 0 27 10 |
+| 106½ | 96 9 2 | 0 37 29 | 129 | 108 18 37 | 0 26 56 |
+| 107 | 96 27 47 | 0 37 16 | 129½ | 108 32 5 | 0 26 41 |
+| 107½ | 96 46 24 | 0 37 3 | 130 | 108 45 25 | 0 26 26 |
+| 108 | 97 4 55 | 0 36 50 | 130½ | 108 58 38 | 0 26 11 |
+| 108½ | 97 23 20 | 0 36 36 | 131 | 109 11 44 | 0 25 56 |
+| 109 | 97 41 38 | 0 36 23 | 131½ | 109 24 42 | 0 25 41 |
+| 109½ | 97 59 49 | 0 36 9 | 132 | 109 37 32 | 0 25 26 |
+| 110 | 98 17 54 | 0 35 56 | 132½ | 109 50 15 | 0 25 11 |
+| 110½ | 98 35 52 | 0 35 42 | 133 | 110 2 50 | 0 24 56 |
+| 111 | 98 53 43 | 0 35 29 | 133½ | 110 15 18 | 0 24 41 |
+| 111½ | 99 11 27 | 0 35 15 | 134 | 110 27 39 | 0 24 26 |
+| 112 | 99 29 5 | 0 35 1 | 134½ | 110 39 52 | 0 24 10 |
+| 112½ | 99 46 35 | 0 34 48 | 135 | 110 51 57 | 0 23 55 |
 
 Crd 72°, seconds, γ (with all mss. except D) for δ (4) at,10 (cf.,1 and p. 81 n. 19; corrected by Manitius)
 
@@ -6252,7 +6252,7 @@ $$
 Therefore the corresponding chords
 
 $$
-\left. \begin{array}{l} \mathrm{H}\Theta = 0;32,48^{\rho} \\ \text{and } \mathrm{N}\Theta \approx 120^{\rho} \end{array} \right\} \text{ where diameter } \mathrm{NH} = 120^{\rho}.
+\left. \begin{array}{l} \mathrm{H}\Theta = 0;32,48^{\mathrm{p}} \\ \text{and } \mathrm{N}\Theta \approx 120^{\mathrm{p}} \end{array} \right\} \text{ where diameter } \mathrm{NH} = 120^{\mathrm{p}}.
 $$
 
 Therefore where NΘ = 64;10, ΘH = 0;17,33.
@@ -6838,7 +6838,7 @@ YEARLY [AND MONTHLY] INCREMENTS for CONJUNCTION and OPPOSITION
 | 11 | 324 50 12 | 320 10 13 | 283 59 2 | 337 22 36 |
 | 12 | 354 22 2 | 349 16 36 | 309 48 2 | 8 2 50 |
 
-case may be [i.e. for conjunction or opposition]) and single years (taken from the third table) adds up to that number of years, take the entries corresponding to those lines [in the table], and add the entries from [each] successive column separately: for conjunctions we add the entries from the first and third tables, and likewise for oppositions we add the entries from the second and third tables. The sum derived from the entries in the second column will give us the moment of syzygy, counted from the beginning of that year; e.g., if the sum is $24;44^{\delta}$, [the syzygy will be] 44 sixtieths of a day after noon on Thoth 24; or, again, if it is $34;44^{\delta}$, it will be 44 sixtieths of a day after noon on Phaophi 4. The sum derived from the entries in the third column will give us the [mean] position of the sun in degrees counted from the apogee; the fourth column, the anomaly of the moon counted from the apogee [of the epicycle]; the fifth column, the [argument of] latitude counted from the northern limit. At the same time we can readily calculate the subsequent [syzygies of the year in question], either all, or some, as we choose, in logical fashion, by adding the appropriate entries in the fourth, monthly table. For practical purposes we will always convert the time measurements from sixtieths of a day into equinoctial hours. However, the time in hours resulting from the addition [of the entries] will be expressed in mean solar days, whereas the time expressed in seasonal hours is not always identical with that, but is based on true solar days. So we will correct this too, by calculating the difference due to this effect, by the method indicated above: if the amount of time-degrees corresponding to [the rising-time of] the apparent motion is greater [than the interval in mean motion], we subtract the difference from the total [of hours] derived on the basis of mean solar days, but if it is less, we add it to that total.
+case may be [i.e. for conjunction or opposition]) and single years (taken from the third table) adds up to that number of years, take the entries corresponding to those lines [in the table], and add the entries from [each] successive column separately: for conjunctions we add the entries from the first and third tables, and likewise for oppositions we add the entries from the second and third tables. The sum derived from the entries in the second column will give us the moment of syzygy, counted from the beginning of that year; e.g., if the sum is $24;44^{\mathrm{d}}$, [the syzygy will be] 44 sixtieths of a day after noon on Thoth 24; or, again, if it is $34;44^{\mathrm{d}}$, it will be 44 sixtieths of a day after noon on Phaophi 4. The sum derived from the entries in the third column will give us the [mean] position of the sun in degrees counted from the apogee; the fourth column, the anomaly of the moon counted from the apogee [of the epicycle]; the fifth column, the [argument of] latitude counted from the northern limit. At the same time we can readily calculate the subsequent [syzygies of the year in question], either all, or some, as we choose, in logical fashion, by adding the appropriate entries in the fourth, monthly table. For practical purposes we will always convert the time measurements from sixtieths of a day into equinoctial hours. However, the time in hours resulting from the addition [of the entries] will be expressed in mean solar days, whereas the time expressed in seasonal hours is not always identical with that, but is based on true solar days. So we will correct this too, by calculating the difference due to this effect, by the method indicated above: if the amount of time-degrees corresponding to [the rising-time of] the apparent motion is greater [than the interval in mean motion], we subtract the difference from the total [of hours] derived on the basis of mean solar days, but if it is less, we add it to that total.
 
 Once we have derived, by the above procedure, the time of mean conjunction or opposition, and the position of each luminary in anomaly at that time, it will be easy to determine the time and place of the true syzygy, and also the moon’s position in latitude, by comparing the anomalies of the two bodies. For by applying each anomaly in turn, we calculate the true position of sun, moon and moon’s latitude, at the moment defined by the mean syzygy in question, by means of the equation thus found, and examine these positions. If we find that the bodies are still at the same longitude [for conjunction], or exactly opposite [for opposition], then the time of true syzygy will be the same [as that of mean syzygy]. If not, we take the difference between the bodies in longitude, expressed in degrees, and increase it by a twelfth part of itself, to account approximately for the additional motion of the sun [between mean and true syzygy]. We then determine how long, in equinoctial hours, the moon in its anomalistic [i.e. true] motion, takes to cover that interval. If the true longitude of the moon [at mean syzygy] is less than the true longitude of the sun, we add the result to the time of mean syzygy, but if it [the moon’s longitude] is greater, we subtract the result from the time of mean syzygy. Similarly, if the true longitude of the moon at mean syzygy is less than the sun’s [true longitude], we add the interval in degrees (increased, again, by a twelfth) to both the longitude and the argument of latitude [at mean syzygy], but if it is greater we subtract it [from both]. Thus we get the time of true syzygy, and the approximate true position of the moon on its inclined circle.
 
@@ -12860,8 +12860,8 @@ Therefore, in the circle about right-angled triangle BEN,
 arc BN = 11;14°
 and BN = 11;44° where hypotenuse EB = 120°.
 
-Therefore, where $EB = 59;52^{\rho}$, and the radius of the eccentric is $60^{\rho}$,
-$BN = 5;50^{\rho}$.
+Therefore, where $EB = 59;52^{\mathrm{p}}$, and the radius of the eccentric is $60^{\mathrm{p}}$,
+$BN = 5;50^{\mathrm{p}}$.
 
 Similarly, since $\text{arc HK} = 41;18^{\circ}$,
 $\angle HBK = \begin{cases} 41;18^{\circ} & \text{where 4 right angles = } 360^{\circ} \\ 82;36^{\circ \circ} & \text{where 2 right angles = } 360^{\circ \circ}. \end{cases}$
@@ -14362,17 +14362,17 @@ Therefore, by addition, EG [= ZG + 2ΘZ] = 30;25,46ᵖ, and EG.GZ = 865;5,32ᵖ 
 $$
 \left\{
 \begin{array}{l}
-\Theta Z = 2;1,40^{\rho} \\
-\text{and } ZG = 57;38,55^{\rho}
+\Theta Z = 2;1,40^{\mathrm{p}} \\
+\text{and } ZG = 57;38,55^{\mathrm{p}}
 \end{array}
 \right.
-\quad \text{where (EG.GZ)} = 3557;45^{\rho}.
+\quad \text{where (EG.GZ)} = 3557;45^{\mathrm{p}}.
 $$
 
 Then if we join AZ, where AZ = 6;30ᵖ,
 
 $$
-Z\Theta = 2;1,40^{\rho},
+Z\Theta = 2;1,40^{\mathrm{p}},
 $$
 
 so where AZ = 120ᵖ, ZΘ = 37;26,9ᵖ.

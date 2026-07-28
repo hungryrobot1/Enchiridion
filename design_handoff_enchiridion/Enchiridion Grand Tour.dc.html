@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #e8e2da; }
+  a { color: #764134; }
+  a:hover { color: #ee7854; }
+</style>
+</helmet>
+
+<section style="padding: 48px; font-family: Inter, -apple-system, sans-serif;">
+  <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 8px;">
+    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; color: #faf8f5; background: #764134; padding: 3px 8px; border-radius: 2px;">4a</span>
+    <h2 style="font-family: 'Crimson Pro', Georgia, serif; font-size: 28px; font-weight: 600; color: #2a1a1f; margin: 0;">The Grand Tour — the braid</h2>
+  </div>
+  <p style="font-family: Inter, sans-serif; font-size: 14px; color: #6b5a5a; margin: 0 0 28px; max-width: 60rem;">Hairline separators between texts (the reader’s section rule); the line for a long-running text sits out in the gutter, clear of them, breaking between one text and the next. No legend and no classification badge — every text is just a text. One circle per item — colour is status, solid is a primary text, open is a supplement or module chapter.</p>
+
+  <div style="display: flex; gap: 40px; align-items: flex-start;">
+
+    <div style="width: 880px; flex: none;">
+      <div style="background: #faf8f5; border: 1px solid #d8d0c5; padding: 3rem 3rem 3.5rem; font-size: 1.125rem; line-height: 1.7; color: #2a1a1f;">
+        <h1 style="font-family: 'Crimson Pro', Georgia, serif; font-size: 2.5rem; font-weight: 600; margin: 0 0 1rem; line-height: 1.2;">The Grand Tour</h1>
+        <p style="font-family: Inter, sans-serif; font-size: 1.125rem; color: #6b5a5a; line-height: 1.7; margin: 0 0 3rem; max-width: 38rem;">The canonical reading sequence through Enchiridion. Roughly chronological by era, with supplements and module chapters attached as tributaries to the texts they accompany.</p>
+
+        <div style="padding-bottom: 0.75rem; border-bottom: 1px solid #d8d0c5; margin-bottom: 0.75rem;">
+          <h2 style="font-family: 'Crimson Pro', Georgia, serif; font-size: 2rem; font-weight: 600; line-height: 1.2; display: flex; align-items: center; gap: 0.5rem; margin: 0;">
+            <span style="font-weight: 400; color: #a09590; transform: rotate(90deg);">›</span>
+            Ancient Greece
+          </h2>
+          <p style="font-family: Inter, sans-serif; font-size: 0.875rem; color: #6b5a5a; margin: 0.75rem 0 0; line-height: 1.7;">From Homer to Ptolemy: the founding works of Western literature, philosophy, mathematics, and natural science. The Greek language module runs alongside, offered as an optional companion for those who want to read the originals.</p>
+        </div>
+
+        <div>
+          <sc-for list="{{ rows }}" as="row" hint-placeholder-count="18">
+            <div style="{{ row.rowStyle }}">
+              <sc-for list="{{ row.lanes }}" as="lane" hint-placeholder-count="1">
+                <span style="{{ lane.railStyle }}"></span>
+                <span style="{{ lane.tickStyle }}"></span>
+                <span style="{{ lane.dotStyle }}"></span>
+                <span style="{{ lane.capStyle }}"></span>
+              </sc-for>
+              <span style="{{ row.gutterStyle }}"></span>
+
+              <span style="{{ row.bulletStyle }}">
+                <span style="{{ row.markStyle }}"></span>
+              </span>
+
+              <div style="min-width: 0;">
+                <span style="{{ row.titleStyle }}">{{ row.title }}</span>
+                <span style="{{ row.metaStyle }}">{{ row.meta }}</span>
+
+                <sc-if value="{{ row.hasNote }}" hint-placeholder-val="{{ false }}">
+                  <span style="display: block; font-family: Inter, sans-serif; font-size: 0.875rem; color: #a09590; font-style: italic; margin-top: 0.375rem; line-height: 1.5;">{{ row.note }}</span>
+                </sc-if>
+              </div>
+
+              <span style="{{ row.badgeStyle }}">{{ row.badge }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 460px; flex: none; display: flex; flex-direction: column; gap: 40px;">
+
+      <div>
+        <div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px;">
+          <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; color: #faf8f5; background: #764134; padding: 3px 8px; border-radius: 2px;">4b</span>
+          <span style="font-family: 'Crimson Pro', Georgia, serif; font-size: 22px; font-weight: 600; color: #2a1a1f;">In hand</span>
+        </div>
+        <p style="font-family: Inter, sans-serif; font-size: 14px; color: #6b5a5a; margin: 0 0 16px;">A companion to the rail, not an alternative. Pinned under the era header: what you are carrying right now, and what closes it. Answers the question the rail answers spatially — but from anywhere on the page.</p>
+
+        <div style="background: #f0ece6; border: 1px solid #d8d0c5; padding: 1.25rem 1.5rem;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.14em; color: #a09590; margin-bottom: 0.875rem;">IN HAND</div>
+          <sc-for list="{{ carrying }}" as="c" hint-placeholder-count="2">
+            <div style="display: grid; grid-template-columns: 1px 1fr auto; gap: 0.875rem; align-items: baseline; padding: 0.625rem 0; border-top: 1px solid #d8d0c5;">
+              <span style="align-self: stretch; background: #764134;"></span>
+              <div>
+                <a href="#" style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.1875rem; font-weight: 600; font-style: italic; color: #2a1a1f; text-decoration: none;">{{ c.title }}</a>
+                <span style="display: block; font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.06em; color: #6b5a5a; margin-top: 0.25rem;">{{ c.progress }}</span>
+              </div>
+              <span style="font-family: Inter, sans-serif; font-size: 0.75rem; font-style: italic; color: #a09590; text-align: right; max-width: 9rem; line-height: 1.4;">{{ c.until }}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div>
+        <div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px;">
+          <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; color: #faf8f5; background: #764134; padding: 3px 8px; border-radius: 2px;">4c</span>
+          <span style="font-family: 'Crimson Pro', Georgia, serif; font-size: 22px; font-weight: 600; color: #2a1a1f;">The other pattern: stations</span>
+        </div>
+        <p style="font-family: Inter, sans-serif; font-size: 14px; color: #6b5a5a; margin: 0 0 16px;">The Bible isn't a spine — it appears <strong style="font-weight: 500;">five separate times</strong> in Rome &amp; Late Antiquity, each with its own passages. That's a different shape: not carried continuously, but returned to. It reads as repetition rather than structure today.</p>
+
+        <div style="background: #faf8f5; border: 1px solid #d8d0c5; padding: 1.5rem;">
+          <sc-for list="{{ stations }}" as="st" hint-placeholder-count="3">
+            <div style="display: grid; grid-template-columns: 3.25rem 1fr; gap: 0.875rem; align-items: baseline; padding: 0.625rem 0; border-bottom: 1px solid #d8d0c5;">
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.08em; color: #764134; white-space: nowrap;">{{ st.label }}</span>
+              <div>
+                <span style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.125rem; font-weight: 600; color: #2a1a1f;">{{ st.title }}</span>
+                <span style="display: block; font-family: Inter, sans-serif; font-size: 0.8125rem; color: #6b5a5a; margin-top: 0.125rem; line-height: 1.45;">{{ st.note }}</span>
+              </div>
+            </div>
+          </sc-for>
+          <p style="font-family: Inter, sans-serif; font-size: 0.8125rem; color: #a09590; font-style: italic; margin: 1rem 0 0; line-height: 1.5;">A numbered station badge in place of the repeated <span style="font-family: 'IBM Plex Mono', monospace; font-style: normal;">TEXT</span> badge — so the fifth appearance reads as the fifth station, not a duplicate row.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+// Ancient Greece, in the real order from syllabi/grand-tour.json. Elided
+// stretches are marked so the span from Euclid to Ptolemy stays visible.
+const ROWS = [
+  { t: 'The Elements', m: 'Euclid', b: 'text', st: 'ready', spine: 'euclid',
+    note: 'This book takes time, aim for 3 - 5 propositions a day while reading through the rest of the texts. Finish before starting Ptolemy.',
+    units: 13, unitLabel: 'BOOKS', done: 3 },
+  { t: 'Greek Mathematics Companion', m: 'Notation, vocabulary, and habits of the Greek mathematical text', b: 'supplement', st: 'ready', trib: true },
+  { t: 'Introduction', m: 'Introduction to Ancient Greek', b: 'module chapter', st: 'ready', trib: true,
+    note: 'Optional. Begin the Greek language thread here if you want to read alongside the texts.' },
+  { t: 'Iliad', m: 'Homer', b: 'text', st: 'ready' },
+  { t: 'The Alphabet and Reading Aloud', m: 'Introduction to Ancient Greek', b: 'module chapter', st: 'ready', trib: true },
+  { t: 'Odyssey', m: 'Homer', b: 'text', st: 'ready' },
+  { t: 'The Art of Grammar', m: 'Dionysius Thrax', b: 'text', st: 'ready' },
+  { t: 'Prometheus Bound', m: 'Aeschylus', b: 'text', st: 'ready' },
+  { t: 'On the Equilibrium of Planes', m: 'Archimedes', b: 'text', st: 'ready' },
+  { t: 'Archimedes and the Lever', m: 'A balance-beam lab', b: 'supplement', st: 'ready', trib: true },
+  { t: 'Meno', m: 'Plato', b: 'text', st: 'ready' },
+  { elided: '17 further items — Aeschylus, Aristotle, Hippocrates, the Greek module' },
+  { t: 'Theaetetus', m: 'Plato', b: 'text', st: 'ready' },
+  { t: 'Eratosthenes Measurement Lab', m: 'Measure the Earth from a shadow and a stick', b: 'supplement', st: 'ready', trib: true },
+  { t: 'Almagest', m: 'Ptolemy', b: 'text', st: 'needs-cleanup', closes: 'euclid',
+    note: 'Finish Euclid before starting this.' },
+  { t: 'Parallax Lab', m: 'From size at one viewpoint to distance from two', b: 'supplement', st: 'ready', trib: true },
+  { t: 'Symposium', m: 'Plato', b: 'text', st: 'ready' },
+  { elided: '4 further items — Aristophanes, the Greek module, Plato, Aristotle' },
+  { t: 'Conic Sections', m: 'Apollonius', b: 'text', st: 'ready', spine: 'apollonius',
+    note: 'Long-running. Begin here and continue alongside Sophocles and the remaining Archimedes treatises.',
+    units: 4, unitLabel: 'BOOKS', done: 0 },
+  { t: 'Quadrature of the Parabola', m: 'Archimedes', b: 'text', st: 'ready' },
+  { t: 'Oedipus the King', m: 'Sophocles', b: 'text', st: 'ready' },
+  { t: 'Oedipus at Colonus', m: 'Sophocles', b: 'text', st: 'ready', openEnd: 'apollonius' },
+];
+
+const STATUS = { ready: '#3c784f', progress: '#a07020', stub: '#a09590', 'needs-cleanup': '#9c5a3c', none: 'transparent' };
+const RAIL = '#764134';
+const LANE_LEFT = ['-1.5rem', '-0.75rem'];
+
+const STATIONS = [
+  { label: 'I OF V', title: 'The Bible', note: 'The Law — Genesis, Exodus, Deuteronomy. Begins the section.' },
+  { label: 'II OF V', title: 'The Bible', note: 'The histories, wisdom, and the prophets.' },
+  { label: 'III OF V', title: 'The Bible', note: 'Later in the section, after Herodotus and Thucydides.' },
+];
+
+class Component extends DCLogic {
+  state = { done: { euclid: 3, apollonius: 0 } };
+
+  renderVals() {
+    const s = this.state;
+
+    // Assign each spine a lane, open at its origin row and closed at the row
+    // named by `closes` (or left open at `openEnd`).
+    const laneOf = {};
+    const active = [];
+    const rowLanes = ROWS.map(r => {
+      if (r.spine) {
+        // Lowest lane not currently occupied, so a closed spine frees its lane.
+        const taken = active.map(id => laneOf[id]);
+        let lane = 0;
+        while (taken.indexOf(lane) !== -1) lane++;
+        laneOf[r.spine] = lane;
+        active.push(r.spine);
+      }
+      const closing = r.closes || r.openEnd;
+      const lanes = [];
+      for (const id of active) {
+        let mode = 'through';
+        if (r.spine === id) mode = 'start';
+        else if (r.closes === id) mode = 'end';
+        else if (r.openEnd === id) mode = 'open';
+        lanes.push({ id, mode, lane: laneOf[id] });
+      }
+      if (closing) {
+        const i = active.indexOf(closing);
+        if (i !== -1) active.splice(i, 1);
+      }
+      return { lanes };
+    });
+
+    const rows = ROWS.map((r, i) => {
+      if (r.elided) {
+        const lanes = rowLanes[i].lanes.map(l => this.lane(l, 'through'));
+        return {
+          elided: true, isSpine: false, hasNote: false, trib: false,
+          rowStyle: 'display: grid; grid-template-columns: 2.5rem 1.25rem 1fr auto; gap: 0.75rem; align-items: baseline; padding: 0.625rem 0; position: relative;' + (i ? ' border-top: 1px solid #d8d0c5;' : ''),
+          gutterStyle: '',
+          lanes,
+          bulletStyle: '',
+          markStyle: 'display: none;',
+          title: r.elided,
+          titleStyle: "font-family: Inter, sans-serif; font-size: 0.75rem; font-style: italic; color: #a09590;",
+          meta: '', metaStyle: 'display: none;',
+          badge: '', badgeStyle: '',
+          units: [], unitLabel: '', unitCount: '', note: '',
+        };
+      }
+
+      const isSpine = !!r.spine;
+      const lanes = rowLanes[i].lanes.map(l => this.lane(l, l.mode));
+
+      return {
+        elided: false,
+        trib: !!r.trib,
+        rowStyle: 'display: grid; gap: 0.75rem; align-items: baseline; position: relative; grid-template-columns: 2.5rem 1.25rem 1fr auto; ' +
+          (r.trib ? 'padding: 0.375rem 0;' : 'padding: 1.125rem 0;') +
+          (!r.trib && i ? ' border-top: 1px solid #d8d0c5;' : ''),
+        gutterStyle: '',
+        lanes,
+        bulletStyle: 'display: flex; align-items: center; height: 1.4em;',
+        // One circle per row: colour is content status, fill is document type —
+        // solid for a primary text, open for a supplement or module chapter.
+        markStyle: 'display: inline-block; width: 7px; height: 7px; border-radius: 50%; border: 1px solid ' +
+          (STATUS[r.st] || '#a09590') + '; background: ' + (r.trib ? 'transparent' : (STATUS[r.st] || '#a09590')) + ';',
+        title: r.t,
+        titleStyle: "font-family: 'Crimson Pro', Georgia, serif; color: #2a1a1f; line-height: 1.2; text-decoration: none; " +
+          (r.trib ? 'font-size: 1.125rem; font-weight: 500;' : 'font-size: 1.25rem; font-weight: 600;'),
+        meta: r.m,
+        metaStyle: 'display: block; font-family: Inter, sans-serif; font-size: 0.875rem; color: #6b5a5a; margin-top: 0.25rem; line-height: 1.5;',
+        badge: r.b,
+        badgeStyle: 'font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.08em; white-space: nowrap; align-self: start; padding-top: 0.5em; font-family: Inter, sans-serif; text-transform: uppercase; color: #a09590;',
+        isSpine,
+        hasNote: !!r.note,
+        note: r.note || '',
+      };
+    });
+
+    return {
+      rows,
+      carrying: [
+        { title: 'The Elements', progress: 'IN BOOK IV', until: 'close before the Almagest' },
+        { title: 'Conic Sections', progress: 'IN BOOK I', until: 'no fixed close' },
+      ],
+      stations: STATIONS,
+    };
+  }
+
+  roman(n) {
+    const map = ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV'];
+    return map[Math.min(n, 14)];
+  }
+
+  units(r, done) {
+    const out = [];
+    for (let n = 1; n <= r.units; n++) {
+      const filled = n <= done;
+      out.push({
+        title: 'Book ' + this.roman(n) + (filled ? ' — read' : ' — not read'),
+        style: 'width: 11px; height: 11px; padding: 0; border-radius: 1px; cursor: pointer; border: 1px solid ' +
+          (filled ? RAIL : '#d8d0c5') + '; background: ' + (filled ? RAIL : 'transparent') + ';',
+        onClick: () => this.setState(st => ({ done: Object.assign({}, st.done, { [r.spine]: st.done[r.spine] === n ? n - 1 : n }) })),
+      });
+    }
+    return out;
+  }
+
+  lane(l, mode) {
+    const left = LANE_LEFT[l.lane] || LANE_LEFT[0];
+    const base = 'position: absolute; left: ' + left + '; width: 1px; background: ' + RAIL + ';';
+    const mid = 'calc(1rem + 0.7em)';
+    let railStyle = base + ' top: 0; bottom: 0;';
+    let capStyle = 'display: none;';
+
+    if (mode === 'start') railStyle = base + ' top: calc(' + mid + ' + 0.4rem); bottom: 0;';
+    else if (mode === 'end') railStyle = base + ' top: 0; height: calc(' + mid + ' - 0.4rem);';
+    else if (mode === 'open') {
+      // Still in hand: the line runs the row and continues past it as a dashed stub.
+      capStyle = 'position: absolute; left: ' + left + '; bottom: -1.1rem; width: 1px; height: 1.1rem; background-image: linear-gradient(' + RAIL + ' 0 3px, transparent 3px 6px); background-size: 1px 6px;';
+    }
+
+    return { railStyle, tickStyle: 'display: none;', dotStyle: 'display: none;', capStyle };
+  }
+}
+</script>
+</body>
+</html>

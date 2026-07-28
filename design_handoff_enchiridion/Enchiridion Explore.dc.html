@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas" />
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #e8e2da; }
+  a { color: #764134; }
+  a:hover { color: #5c3228; }
+</style>
+</helmet>
+
+<section style="padding: 48px; font-family: Inter, -apple-system, sans-serif;">
+  <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 8px;">
+    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; color: #faf8f5; background: #764134; padding: 3px 8px; border-radius: 2px;">5a</span>
+    <h2 style="font-family: 'Crimson Pro', Georgia, serif; font-size: 28px; font-weight: 600; color: #2a1a1f; margin: 0;">Explore — the catalog</h2>
+  </div>
+  <p style="font-family: Inter, sans-serif; font-size: 14px; color: #6b5a5a; margin: 0 0 28px; max-width: 60rem;">The catalog in the mono voice: filters are square hairline toggles carrying their own counts, columns sort on click, and status is a word rather than a colour you have to decode — so the page needs no legend. Live: filter, search, sort, expand a module.</p>
+
+  <div style="width: 1440px; background: #faf8f5; border: 1px solid #d8d0c5; overflow: hidden;">
+
+    <div style="border-bottom: 1px solid #d8d0c5; padding: 0 3rem; height: 3.5rem; display: flex; align-items: center; justify-content: space-between;">
+      <span style="font-family: 'Crimson Pro', Georgia, serif; font-size: 1.25rem; font-weight: 600; color: #2a1a1f;">Enchiridion</span>
+      <span style="display: flex; align-items: center; gap: 1.5rem; font-family: Inter, sans-serif; font-size: 0.875rem; font-weight: 500; color: #6b5a5a;">
+        <span>Grand Tour</span><span style="color: #2a1a1f;">Explore</span><span>Changelog</span><span>About</span>
+      </span>
+    </div>
+
+    <div style="padding: 2.5rem 3rem 0;">
+      <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 3rem; padding-bottom: 1.25rem;">
+        <div>
+          <h1 style="font-family: 'Crimson Pro', Georgia, serif; font-size: 2.5rem; font-weight: 600; color: #2a1a1f; margin: 0 0 0.75rem; line-height: 1.2;">Explore</h1>
+          <p style="font-family: Inter, sans-serif; font-size: 1rem; color: #6b5a5a; margin: 0; line-height: 1.7; max-width: 36rem;">Everything in the corpus — texts, supplements, modules, references. Sort any column, or narrow by type and era.</p>
+        </div>
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; letter-spacing: 0.1em; color: #a09590; text-align: right; line-height: 1.9; white-space: nowrap;">
+          <div>{{ totalLine }}</div>
+          <div>{{ readyLine }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 0 3rem 1.25rem; border-bottom: 1px solid #d8d0c5;">
+      <div style="display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; align-items: start; padding: 0.75rem 0;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.14em; color: #a09590; padding-top: 0.5rem;">TYPE</span>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.375rem;">
+          <sc-for list="{{ typeChips }}" as="c" hint-placeholder-count="5">
+            <button onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.label }}<span style="{{ c.countStyle }}">{{ c.count }}</span></button>
+          </sc-for>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; align-items: start; padding: 0.25rem 0 0.75rem;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.14em; color: #a09590; padding-top: 0.5rem;">ERA</span>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.375rem;">
+          <sc-for list="{{ eraChips }}" as="c" hint-placeholder-count="9">
+            <button onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.label }}<span style="{{ c.countStyle }}">{{ c.count }}</span></button>
+          </sc-for>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: 3.5rem 1fr; gap: 1rem; align-items: center; padding-top: 0.25rem;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.14em; color: #a09590;">FIND</span>
+        <div style="display: flex; align-items: center; gap: 1.25rem;">
+          <input value="{{ query }}" onChange="{{ onQuery }}" type="search" placeholder="title, author, translator, topic" aria-label="Search the catalog" style="width: 22rem; font-family: Inter, sans-serif; font-size: 0.875rem; color: #2a1a1f; background: transparent; border: none; border-bottom: 1px solid #d8d0c5; padding: 0.375rem 0; outline: none;" />
+          <span aria-live="polite" style="font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; letter-spacing: 0.1em; color: #764134;">{{ resultLine }}</span>
+          <sc-if value="{{ filtered }}" hint-placeholder-val="{{ false }}">
+            <button onClick="{{ clearAll }}" style="font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; letter-spacing: 0.1em; color: #a09590; background: transparent; border: none; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;">CLEAR</button>
+          </sc-if>
+        </div>
+      </div>
+    </div>
+
+    <div style="padding: 0 3rem 3rem;">
+      <div style="display: grid; grid-template-columns: 6rem 1fr 16rem 7rem 15rem 5rem; gap: 1.5rem; align-items: baseline; padding: 0.875rem 0; border-bottom: 1px solid #b8ad9f;">
+        <sc-for list="{{ headers }}" as="h" hint-placeholder-count="6">
+          <button onClick="{{ h.onClick }}" title="{{ h.title }}" style="{{ h.style }}">{{ h.label }}<span style="{{ h.caretStyle }}">{{ h.caret }}</span></button>
+        </sc-for>
+      </div>
+
+      <sc-for list="{{ rows }}" as="row" hint-placeholder-count="16">
+        <div style="{{ row.rowStyle }}">
+          <span style="{{ row.statusStyle }}">{{ row.status }}</span>
+          <span style="{{ row.titleCellStyle }}">
+            <span style="{{ row.markerStyle }}">{{ row.marker }}</span>
+            <a href="{{ row.href }}" onClick="{{ row.onClick }}" style="{{ row.titleStyle }}">{{ row.title }}</a>
+          </span>
+          <span style="{{ row.authorStyle }}">{{ row.author }}</span>
+          <span style="{{ row.typeStyle }}">{{ row.type }}</span>
+          <span style="{{ row.eraStyle }}">{{ row.era }}</span>
+          <span style="{{ row.yearStyle }}">{{ row.year }}</span>
+        </div>
+      </sc-for>
+
+      <div style="display: flex; align-items: baseline; justify-content: space-between; padding: 1.25rem 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; letter-spacing: 0.1em; color: #a09590;">
+        <span>{{ tailLine }}</span>
+        <span>{{ sortLine }}</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 40px; align-items: flex-start; margin-top: 48px;">
+    <div style="width: 620px; flex: none;">
+      <div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; color: #faf8f5; background: #764134; padding: 3px 8px; border-radius: 2px;">5b</span>
+        <span style="font-family: 'Crimson Pro', Georgia, serif; font-size: 22px; font-weight: 600; color: #2a1a1f;">Status as a word</span>
+      </div>
+      <p style="font-family: Inter, sans-serif; font-size: 14px; color: #6b5a5a; margin: 0 0 16px;">The dot column needed a legend to mean anything. A mono word in the status colour explains itself, and the four states read as a set at a glance. <strong style="font-weight: 500;">Ready</strong> is the only state that promises a clean read; the others are honest about what you're getting.</p>
+      <div style="background: #faf8f5; border: 1px solid #d8d0c5; padding: 1.5rem;">
+        <sc-for list="{{ statusKey }}" as="k" hint-placeholder-count="4">
+          <div style="{{ k.rowStyle }}">
+            <span style="{{ k.wordStyle }}">{{ k.word }}</span>
+            <span style="font-family: Inter, sans-serif; font-size: 0.8125rem; color: #6b5a5a; line-height: 1.6;">{{ k.gloss }}</span>
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; color: #a09590; text-align: right;">{{ k.count }}</span>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="width: 620px; flex: none;">
+      <div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px;">
+        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; color: #faf8f5; background: #764134; padding: 3px 8px; border-radius: 2px;">5c</span>
+        <span style="font-family: 'Crimson Pro', Georgia, serif; font-size: 22px; font-weight: 600; color: #2a1a1f;">Sorting, and what it costs</span>
+      </div>
+      <p style="font-family: Inter, sans-serif; font-size: 14px; color: #6b5a5a; margin: 0 0 16px;">Default order is curated, not alphabetical: texts first, then supplements and references, then modules — era, then year within each. Sorting a column replaces that judgement with a mechanical one, so the footer always names the order you're looking at. Clicking a third time returns to <em>curated</em>.</p>
+      <div style="background: #f0ece6; border: 1px solid #d8d0c5; padding: 1.25rem 1.5rem; font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; letter-spacing: 0.08em; color: #6b5a5a; line-height: 2;">
+        <div>YEAR ↑ &nbsp;— OLDEST FIRST, BCE NEGATIVE</div>
+        <div>TITLE ↑ &nbsp;— IGNORES A LEADING "THE"</div>
+        <div>TYPE ↑ &nbsp;— TEXT · SUPPLEMENT · REFERENCE · MODULE</div>
+        <div>ERA ↑ &nbsp;— CHRONOLOGICAL, NOT ALPHABETICAL</div>
+        <div style="color: #a09590;">MODULES SORT LAST UNDER ERA — THEY HAVE NONE</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1536,&quot;height&quot;:1400}}">
+const ERAS = [
+  ['1-ancient-greece', 'Ancient Greece'],
+  ['2-rome-late-antiquity', 'Rome & Late Antiquity'],
+  ['3-islamic-golden-age-medieval-europe', 'Islamic Golden Age & Medieval'],
+  ['4-renaissance-scientific-revolution', 'Renaissance & Scientific Revolution'],
+  ['5-newtonian-enlightenment', 'Newtonian & Enlightenment'],
+  ['6-nineteenth-century', 'Nineteenth Century'],
+  ['7-modern-era-i', 'Modern Era I'],
+  ['8-modern-era-ii', 'Modern Era II'],
+];
+const ERA_ORDER = {};
+const ERA_LABEL = {};
+ERAS.forEach(([k, l], i) => { ERA_ORDER[k] = i + 1; ERA_LABEL[k] = l; });
+
+const STATUS_COLOR = { ready: '#3c784f', progress: '#a07020', cleanup: '#9c5a3c', stub: '#a09590' };
+const TYPE_ORDER = { text: 0, reference: 1, supplement: 1, module: 2 };
+const RAIL = '#764134';
+
+// A representative slice of the real index — every era, every type, every status.
+const D = [
+  ['text', 'The Iliad', 'Homer · tr. Butler', 1, -750, 'ready'],
+  ['text', 'The Oresteia', 'Aeschylus · tr. Morshead', 1, -458, 'ready'],
+  ['text', 'Oedipus the King', 'Sophocles · tr. Storr', 1, -429, 'ready'],
+  ['text', 'The Clouds', 'Aristophanes · tr. Hickie', 1, -423, 'ready'],
+  ['text', 'Symposium', 'Plato · tr. Jowett', 1, -385, 'ready'],
+  ['text', 'Metaphysics', 'Aristotle · tr. Ross', 1, -350, 'ready'],
+  ['text', 'The Elements', 'Euclid · tr. Fitzpatrick', 1, -300, 'ready'],
+  ['text', 'On Floating Bodies', 'Archimedes · tr. Heath', 1, -250, 'ready'],
+  ['text', 'Treatise on Conic Sections', 'Apollonius of Perga · tr. Heath', 1, -200, 'cleanup'],
+  ['text', 'Almagest', 'Claudius Ptolemy · tr. Toomer', 1, 150, 'cleanup'],
+  ['text', 'The Histories', 'Herodotus · tr. Cary', 2, -440, 'ready'],
+  ['text', 'Prior Analytics', 'Aristotle · tr. Jenkinson', 2, -350, 'ready'],
+  ['text', 'De Rerum Natura', 'Lucretius · tr. Leonard', 2, -55, 'ready'],
+  ['text', 'The Aeneid', 'Virgil · tr. Mackail', 2, -19, 'ready'],
+  ['text', 'The Holy Bible (King James Version)', 'Various · tr. King James Translators', 2, 100, 'ready'],
+  ['text', 'Meditations', 'Marcus Aurelius · tr. Casaubon', 2, 180, 'ready'],
+  ['text', 'Confessions', 'Augustine of Hippo · tr. Pusey', 2, 400, 'ready'],
+  ['text', 'The Consolation of Philosophy', 'Boethius · tr. James', 3, 524, 'ready'],
+  ['text', 'The Book of Optics', 'Ibn al-Haytham · tr. Sabra', 3, 1021, 'progress'],
+  ['text', 'Summa Theologica', 'Thomas Aquinas · tr. English Dominicans', 3, 1274, 'cleanup'],
+  ['text', 'On the Revolutions of the Heavenly Spheres', 'Copernicus · tr. Wallis', 4, 1543, 'ready'],
+  ['text', 'Dialogue Concerning the Two Chief World Systems', 'Galileo · tr. Salusbury', 4, 1632, 'ready'],
+  ['text', 'Novum Organum', 'Francis Bacon · tr. Spedding', 4, 1620, 'ready'],
+  ['text', 'Principia Mathematica', 'Isaac Newton · tr. Motte', 5, 1687, 'cleanup'],
+  ['text', 'An Enquiry Concerning Human Understanding', 'David Hume', 5, 1748, 'ready'],
+  ['text', 'The Wealth of Nations', 'Adam Smith', 5, 1776, 'ready'],
+  ['text', 'On the Origin of Species', 'Charles Darwin', 6, 1859, 'ready'],
+  ['text', 'A Treatise on Electricity and Magnetism', 'James Clerk Maxwell', 6, 1873, 'cleanup'],
+  ['text', 'Relativity: The Special and General Theory', 'Albert Einstein · tr. Lawson', 7, 1916, 'ready'],
+  ['text', 'On Computable Numbers', 'Alan Turing', 7, 1936, 'ready'],
+  ['text', 'A Mathematical Theory of Communication', 'Claude Shannon', 8, 1948, 'ready'],
+  ['reference', 'Heath\u2019s Notes on the Elements', 'Apparatus for Euclid, book by book', 1, -300, 'ready'],
+  ['reference', 'Ptolemaic Model Diagrams', 'Reconstructed figures for the Almagest', 1, 150, 'stub'],
+  ['supplement', 'Reading Greek Tragedy', 'Orientation to the tragic form and the festival', 1, 0, 'ready'],
+  ['supplement', 'Before You Open Euclid', 'What axiomatic reasoning asks of a reader', 1, 0, 'ready'],
+  ['supplement', 'The Roman Constitution in Practice', 'Offices, assemblies, and the cursus honorum', 2, 0, 'progress'],
+  ['supplement', 'From Almagest to Copernicus', 'What changed, and what did not', 4, 0, 'stub'],
+  ['supplement', 'Calculus Before Calculus', 'Exhaustion, indivisibles, and fluxions', 5, 0, 'stub'],
+  ['module', 'Attic Greek', 'Twelve chapters, alphabet through Plato', 0, 0, 'progress'],
+  ['module', 'Euclidean Geometry', 'Construction practice alongside the Elements', 0, 0, 'stub'],
+];
+
+const CHAPTERS = {
+  'Attic Greek': ['The Alphabet and Sounds', 'Nouns of the First Declension', 'Present Active Indicative', 'Reading: Aesop', 'The Aorist', 'Reading: Plato, Apology'],
+  'Euclidean Geometry': ['Straightedge and Compass', 'The First Three Postulates', 'Congruence in Practice'],
+};
+
+const ROWS = D.map(([type, title, author, era, year, status], i) => ({
+  i, type, title, author, status,
+  eraKey: era ? ERAS[era - 1][0] : '',
+  eraLabel: era ? ERAS[era - 1][1] : '—',
+  eraOrder: era || 99,
+  year,
+  sortTitle: title.replace(/^(the|a|an)\s+/i, '').toLowerCase(),
+  href: type === 'module' ? null : '#',
+}));
+
+class Component extends DCLogic {
+  state = { type: [], era: [], query: '', sort: null, dir: 1, open: [] };
+
+  count(pred) { return ROWS.filter(pred).length; }
+
+  fmtYear(y) {
+    if (!y) return '—';
+    return y < 0 ? Math.abs(y) + ' BCE' : String(y);
+  }
+
+  chip(label, count, active, onClick) {
+    return {
+      label, count: count, onClick,
+      style: "display: inline-flex; align-items: baseline; gap: 0.5rem; font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.4375rem 0.625rem; border-radius: 2px; cursor: pointer; border: 1px solid " +
+        (active ? RAIL : '#d8d0c5') + '; background: ' + (active ? RAIL : 'transparent') + '; color: ' + (active ? '#faf8f5' : '#6b5a5a') + ';',
+      countStyle: 'font-size: 0.625rem; color: ' + (active ? 'rgba(250,248,245,0.7)' : '#a09590') + ';',
+    };
+  }
+
+  toggle(key, value) {
+    this.setState(s => {
+      const list = s[key].slice();
+      const at = list.indexOf(value);
+      if (at === -1) list.push(value); else list.splice(at, 1);
+      return { [key]: list };
+    });
+  }
+
+  setSort(key) {
+    this.setState(s => {
+      if (s.sort !== key) return { sort: key, dir: 1 };
+      if (s.dir === 1) return { sort: key, dir: -1 };
+      return { sort: null, dir: 1 };
+    });
+  }
+
+  renderVals() {
+    const s = this.state;
+    const q = s.query.trim().toLowerCase();
+
+    let rows = ROWS.filter(r => {
+      if (s.type.length && s.type.indexOf(r.type) === -1) return false;
+      if (s.era.length && s.era.indexOf(r.eraKey) === -1) return false;
+      if (q && (r.title + ' ' + r.author + ' ' + r.eraLabel).toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+
+    const cmp = {
+      status: (a, b) => a.status.localeCompare(b.status),
+      title: (a, b) => a.sortTitle.localeCompare(b.sortTitle),
+      author: (a, b) => a.author.localeCompare(b.author),
+      type: (a, b) => (TYPE_ORDER[a.type] - TYPE_ORDER[b.type]) || a.sortTitle.localeCompare(b.sortTitle),
+      era: (a, b) => (a.eraOrder - b.eraOrder) || a.year - b.year,
+      year: (a, b) => a.year - b.year,
+    };
+
+    rows = rows.slice().sort((a, b) => {
+      if (s.sort) {
+        const d = cmp[s.sort](a, b);
+        if (d) return d * s.dir;
+        return a.i - b.i;
+      }
+      return (TYPE_ORDER[a.type] - TYPE_ORDER[b.type]) || (a.eraOrder - b.eraOrder) || (a.year - b.year) || a.sortTitle.localeCompare(b.sortTitle);
+    });
+
+    // Flatten expanded modules into child rows directly under their parent.
+    const out = [];
+    for (const r of rows) {
+      out.push(this.row(r, false));
+      if (r.type === 'module' && s.open.indexOf(r.title) !== -1) {
+        (CHAPTERS[r.title] || []).forEach((ch, n) => out.push(this.child(r, ch, n + 1)));
+      }
+    }
+
+    const cols = [
+      ['status', 'STATUS', 'left'],
+      ['title', 'TITLE', 'left'],
+      ['author', 'AUTHOR / SOURCE', 'left'],
+      ['type', 'TYPE', 'left'],
+      ['era', 'ERA', 'left'],
+      ['year', 'YEAR', 'right'],
+    ];
+
+    const shown = rows.length;
+    const filtered = !!(s.type.length || s.era.length || q);
+
+    return {
+      totalLine: ROWS.length + ' ITEMS · ' + this.count(r => r.type === 'text') + ' TEXTS · 8 ERAS',
+      readyLine: this.count(r => r.status === 'ready') + ' READY TO READ',
+      resultLine: filtered ? shown + ' OF ' + ROWS.length : shown + ' ITEMS',
+      filtered,
+      clearAll: () => this.setState({ type: [], era: [], query: '' }),
+      query: s.query,
+      onQuery: e => this.setState({ query: e.target.value }),
+
+      typeChips: [
+        ['text', 'Texts'], ['supplement', 'Supplements'], ['module', 'Modules'], ['reference', 'References'],
+      ].map(([v, l]) => this.chip(l, this.count(r => r.type === v), s.type.indexOf(v) !== -1, () => this.toggle('type', v))),
+
+      eraChips: ERAS.map(([k, l]) => this.chip(l, this.count(r => r.eraKey === k), s.era.indexOf(k) !== -1, () => this.toggle('era', k))),
+
+      headers: cols.map(([key, label, align]) => {
+        const on = s.sort === key;
+        return {
+          label, onClick: () => this.setSort(key),
+          title: on ? (s.dir === 1 ? 'Sorted ascending — click for descending' : 'Sorted descending — click to return to curated order') : 'Sort by ' + label.toLowerCase(),
+          style: "display: flex; align-items: baseline; gap: 0.375rem; font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; font-weight: 500; letter-spacing: 0.14em; background: transparent; border: none; padding: 0; cursor: pointer; text-align: " + align +
+            '; justify-content: ' + (align === 'right' ? 'flex-end' : 'flex-start') + '; color: ' + (on ? RAIL : '#a09590') + ';',
+          caret: on ? (s.dir === 1 ? '↑' : '↓') : '',
+          caretStyle: 'font-size: 0.6875rem; color: ' + RAIL + ';',
+        };
+      }),
+
+      rows: out,
+
+      tailLine: filtered ? 'FILTERED — ' + shown + ' OF ' + ROWS.length + ' SHOWN' : 'END OF CATALOG',
+      sortLine: s.sort
+        ? 'SORTED BY ' + s.sort.toUpperCase() + ' ' + (s.dir === 1 ? '↑' : '↓')
+        : 'CURATED ORDER — TYPE, ERA, YEAR',
+
+      statusKey: [
+        ['ready', 'READY', 'Proofread against the source. Read it now.'],
+        ['progress', 'PROGRESS', 'Being transcribed or written; partial.'],
+        ['cleanup', 'CLEANUP', 'Readable, but OCR artefacts remain — figures and formulae especially.'],
+        ['stub', 'STUB', 'Catalogued and planned; no content yet.'],
+      ].map(([k, word, gloss], i) => ({
+        word, gloss, count: this.count(r => r.status === k) + '',
+        rowStyle: 'display: grid; grid-template-columns: 6rem 1fr 2rem; gap: 1.25rem; align-items: baseline; padding: 0.75rem 0;' + (i ? ' border-top: 1px solid #d8d0c5;' : ''),
+        wordStyle: "font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.1em; color: " + STATUS_COLOR[k] + ';',
+      })),
+    };
+  }
+
+  row(r) {
+    const isModule = r.type === 'module';
+    const open = this.state.open.indexOf(r.title) !== -1;
+    return {
+      rowStyle: 'display: grid; grid-template-columns: 6rem 1fr 16rem 7rem 15rem 5rem; gap: 1.5rem; align-items: baseline; padding: 0.8125rem 0; border-bottom: 1px solid #d8d0c5;',
+      status: r.status.toUpperCase(),
+      statusStyle: "font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; font-weight: 500; letter-spacing: 0.1em; color: " + STATUS_COLOR[r.status] + ';',
+      titleCellStyle: 'display: flex; align-items: baseline; gap: 0.4375rem;',
+      marker: isModule ? (open ? '−' : '+') : '',
+      markerStyle: isModule
+        ? "font-family: 'IBM Plex Mono', monospace; font-size: 0.75rem; color: " + RAIL + '; flex: none;'
+        : 'display: none;',
+      title: r.title,
+      href: r.href || '#',
+      onClick: e => { if (isModule) { e.preventDefault(); this.toggle('open', r.title); } },
+      titleStyle: "font-family: 'Crimson Pro', Georgia, serif; font-size: 1.0625rem; line-height: 1.35; color: #2a1a1f; text-decoration: none; " +
+        (r.type === 'text' ? 'font-style: italic;' : ''),
+      author: r.author,
+      authorStyle: 'font-family: Inter, sans-serif; font-size: 0.8125rem; color: #6b5a5a; line-height: 1.5;',
+      type: r.type,
+      typeStyle: "font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.1em; text-transform: uppercase; color: #a09590;",
+      era: r.eraLabel,
+      eraStyle: "font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; letter-spacing: 0.1em; text-transform: uppercase; color: #a09590; line-height: 1.5;",
+      year: this.fmtYear(r.year),
+      yearStyle: "font-family: 'IBM Plex Mono', monospace; font-size: 0.6875rem; letter-spacing: 0.04em; color: #6b5a5a; text-align: right;",
+    };
+  }
+
+  child(parent, title, n) {
+    return {
+      rowStyle: 'display: grid; grid-template-columns: 6rem 1fr 16rem 7rem 15rem 5rem; gap: 1.5rem; align-items: baseline; padding: 0.5rem 0; border-bottom: 1px solid #d8d0c5; background: #f0ece6;',
+      status: '',
+      statusStyle: 'display: none;',
+      titleCellStyle: 'display: flex; align-items: baseline; gap: 0.5rem; padding-left: 1.375rem;',
+      marker: String(n).padStart(2, '0'),
+      markerStyle: "font-family: 'IBM Plex Mono', monospace; font-size: 0.625rem; color: #a09590; flex: none;",
+      title,
+      href: '#',
+      onClick: e => e.preventDefault(),
+      titleStyle: 'font-family: Inter, sans-serif; font-size: 0.875rem; color: #2a1a1f; text-decoration: none;',
+      author: 'chapter of ' + parent.title,
+      authorStyle: 'font-family: Inter, sans-serif; font-size: 0.75rem; color: #a09590; line-height: 1.5;',
+      type: '',
+      typeStyle: 'display: none;',
+      era: '',
+      eraStyle: 'display: none;',
+      year: '',
+      yearStyle: 'display: none;',
+    };
+  }
+}
+
+</script>
+</body>
+</html>

@@ -80,6 +80,158 @@ The first was that the address scheme was not uniform across works, so a habit l
 
 The second was a cliff. A near-miss on a section used to be answered with "fetch the whole structure" — which is exactly the expensive thing short addresses exist to avoid. A miss now narrows the search instead of restarting it. The same applies to a mistaken work: a request that names a work loosely enough to be identified is simply answered, and one that matches several is answered with those several.
 
+## The corrections nobody would have received
+
+Everything above concerns getting the texts right. Partway through it, a
+question came up that made the rest of it provisional: were the corrections
+actually reaching anyone?
+
+They were not. The offline layer had been written when this library was a
+handful of texts that did not change, and it fetched a text with a rule that
+amounted to *if you have a copy, use it* — not "check whether it is current and
+find that it is", but never ask again. Any text a reader had once opened was
+frozen for them permanently. Every repair described in this entry, and every
+repair in the two releases before it, was invisible to precisely the readers
+who had already begun the book.
+
+It now serves the stored copy immediately and re-fetches in the background, so
+the next visit is current. That costs almost nothing even for the largest text
+in the library, because the request carries a fingerprint of the copy already
+held and an unchanged file answers with no content at all — and nobody waits on
+the answer either way.
+
+Two things about how this survived so long are worth keeping.
+
+The first is that it had **no local test surface**. A development build fetched
+the texts from the same place it served the application; production fetched
+them from elsewhere. Those are two different branches inside the offline layer,
+and the broken one was the branch that no local environment could reach. The
+setting that caused this had been introduced for a good reason — so that texts
+would load while working offline — and the cost was invisible and elsewhere.
+Development and production now take the same path.
+
+The second is diagnostic and quite general: a forced reload **bypasses the
+offline layer entirely**, while an ordinary reload goes through it. So "a hard
+refresh fixes it and then it comes back" is not flaky network. It is the
+signature of a cache serving stale content — and it also means that verifying
+such a fix with a hard refresh tests the one path that skips the fix.
+
+## The shape of a book, before you open it
+
+A long text is now read with its table of contents beside it: every book,
+chapter and proposition, at whatever depth the work actually goes, with the
+Grand Tour's recommended passages for that text collected at the top.
+
+The reader builds a text lazily, and must — parsing a long document in one pass
+hangs a phone — but a table of contents has the opposite requirement. It has to
+know about Book XIII before you have opened Book I. So the structure is
+computed at build time, by *the same module the reader itself sections with*,
+rather than by a second implementation that would agree with it until it
+didn't. The panel's addresses are the reader's addresses are the addresses in a
+shared link.
+
+Two things fell out of building it that are worth recording, both found by
+measuring rather than by reasoning. The tree was to be capped at two levels;
+the corpus turned out to hold **1,464 sections at the third level and four at
+the fourth**, across fourteen works — so a two-level tree would have silently
+hidden them. And the first version restated each entry's full ancestry at every
+node, which in Pliny came to 285KB of a 644KB file; entries carry only their own
+name now, and the path is accumulated on the way down.
+
+The recommended passages are printed exactly as the syllabus writes them. An
+early version tried to parse them into individual links, which fails on contact
+with the actual strings — "Postulates and Propositions 1–7", "Leviticus and
+Numbers (optional)", "On Airs, Waters, and Places". Only the leading book
+reference is resolved, and a line naming two books links to neither, which is
+correct: it should not pretend to point at one.
+
+## Four pages
+
+The site's four pages were redesigned around one idea — that anything a human
+wrote is set in the serif, and anything the machine counted is set in the
+mono. Hairlines rather than cards; no legend where a word will do.
+
+The catalog stopped being a table. A table scatters an item across six columns
+and leaves the eye to reassemble it, and the columnar scanning that pays for
+that is better served by sorting and filtering, which are now visible in the
+filter row rather than hidden behind a hover. Status is stated in words. The
+counts on each filter are of the whole library and do not move as you narrow,
+so the row reads as a census rather than as a readout that dissolves the moment
+you use it. Clicking an era on the landing page now arrives at the catalog with
+that era already selected, which is what clicking a named era plainly means.
+
+The Grand Tour keeps its indentation — supplements sitting visibly beneath the
+text they serve is pedagogical rather than decorative — but lost a vertical rail
+that said the same thing a third time and made two supplements look like a
+diagram. A text read at several points in the sequence now numbers its
+appearances: meeting one tells you it is the third of five rather than a repeat.
+Exactly one text in the library qualifies, and it is Scripture, five times
+across Rome and Late Antiquity.
+
+The landing page states no number, era, date or version of its own. All of them
+are read from the generated indexes, so the page cannot describe a library
+other than the one that exists. The version has a useful property for free: an
+entry enters the index only once it has been given its metadata, which is the
+same mechanism keeping *this* draft off the site — so the version shown bumps
+exactly at publication and cannot leak an unfinished release.
+
+## What a toolbar is for
+
+The reader's top row had accumulated. It held four controls in four different
+type treatments, one of which changed width when pressed, above a title block
+that repeated what the bar directly beneath it already said. Seventy-six pixels
+of every screen, most of it saying something twice.
+
+It is thirty-six now, the same height as the locator bar below it, so the text
+is bounded by two identical rules rather than by a block and a line. The title
+moved to the head of the contents panel, where it reads as a title page with
+its author and translator — and where the control that opens it is the one
+directly above. Every control is the same box, so nothing moves when a state
+changes: marking a text read used to shove the rest of the row sideways under
+the cursor that had just clicked it. Read state is a ring that fills, in the
+same green the syllabus uses, so *finished* is one mark in both places.
+
+The syllabus shows it now too, per text as well as per era — you could already
+watch an era's score move without being able to see which text had moved it.
+
+Module chapters gained a contents panel of their own listing the module's other
+chapters, which is the only view of a module's shape available from inside one
+of them.
+
+## Reading at night
+
+There is a dark theme, and the interesting part of building it was that the
+genre lives in the hue rather than in the brightness. Inverting this palette's
+lightness while keeping its warmth gives brown-black — the same classical
+register with the lamp turned down. Cooling the ground and the ink instead
+lands somewhere else entirely, and the terracotta stays warm against it.
+
+Two things needed more than a swapped colour. The first: six places set text on
+a filled accent surface, and every one of them said "use the light colour" —
+which is right in the light theme only by coincidence, since a dark theme has
+to lift that accent until it wants dark text on top. They now name what they
+actually mean.
+
+The second has no colour-token answer at all. There are **858 images** in this
+library and nearly all are the same object: black ink on white paper,
+photographed. Inverting them turns a plate into a film negative. Leaving them
+bare makes every figure the brightest thing on the screen. They are matted
+instead — each plate keeps its own pale ground, inset, on the dark page — which
+is what a gallery does, and which is simply true: the manuscript is still paper,
+and you are looking at it on a screen at night.
+
+Choosing the status colours turned up something worth carrying back. Simulated
+without colour vision, two of the four dark statuses were indistinguishable —
+which matters, because on the syllabus that status is a dot with no label. They
+were retuned until the closest pair was seven times further apart. The light
+theme, measured the same way, is still the worse of the two.
+
+The theme follows the system by default, on the reasoning that someone whose
+machine turns dark at sunset means it. But *following the system* is not one of
+the states the switch cycles through, because for any given reader one of those
+three presses would visibly do nothing, and a control that sometimes does
+nothing reads as broken rather than as subtle.
+
 ## Smaller things
 
 The changelog's own sidebar could not be scrolled. It was pinned in place with no overflow, so once the list of entries grew past the height of the screen the older ones became unreachable — a list that only has to outgrow the screen once and grows every release. It now scrolls on its own. On a narrow screen, where the layout stacks the list above the entry and each release pushes the reading further down the page, the list collapses to a single row naming the entry you are reading.
@@ -91,3 +243,13 @@ The Grand Tour's second section had its recommended passages rewritten. They had
 The zodiacal signs of the *Almagest* are the next family to settle, and the census has more waiting behind them. Beyond the repairs lies the question they were always in service of: not merely whether these texts are correct, but whether the mathematics in them is *composed* consistently — displayed the way the printed books display it, so that a derivation reads as a derivation. That work now comes before the Islamic Golden Age rather than after it, on the reasoning that a settled method is much cheaper to establish before there are more texts to reprocess than after — and that the section ahead is itself full of dense and unusual mathematical typography.
 
 The era's own supplements remain the near work, with Diophantus now the first of them written.
+
+One item is deliberately left undone. The design proposed a marked gutter line
+for each long thread running through the syllabus — the arc that Euclid opens
+and Ptolemy closes, the one Apollonius leaves open. It is the right idea and
+the evidence for it is two threads drawn from two of nine eras, which is not
+enough to fix a shape that has to survive algebra, optics and the two cities
+across six more. The expensive half is not the line; it is that once the field
+exists, whoever composes the next section must answer "what are the threads
+here?" — authoring data to describe a picture that has not settled. It waits
+for a section that needs it.

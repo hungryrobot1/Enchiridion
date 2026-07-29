@@ -687,7 +687,7 @@
    the page scrolls at the window, and the viewport's overflow-y:auto — though
    it never engages — would capture a sticky descendant and pin it to a
    scrollport that never moves. Only appears once you are inside a section. */
-.reader__crumbs {
+.reader__locator {
   position: sticky;
   top: var(--header-height);
   z-index: 5;
@@ -707,11 +707,11 @@
 /* `display: flex` above outranks the UA stylesheet's `[hidden] { display: none }`,
    so the empty bar would otherwise still occupy the top of the page whenever the
    chain is empty. */
-.reader__crumbs[hidden] {
+.reader__locator[hidden] {
   display: none;
 }
 
-.reader__crumbs::-webkit-scrollbar {
+.reader__locator::-webkit-scrollbar {
   display: none;
 }
 
@@ -742,7 +742,7 @@
 }
 
 /* Focus mode hides the site header; the bar takes its place at the top. */
-.focus-mode .reader__crumbs {
+.focus-mode .reader__locator {
   top: 0;
 }
 
@@ -854,7 +854,7 @@
 
 /* The contents toggle sits at the left end of the bar that already says where
    you are, so location and navigation are one control rather than two. */
-.reader__crumbs-toggle {
+.reader__locator-toggle {
   flex-shrink: 0;
   font-family: var(--font-sans);
   font-size: var(--text-sm);
@@ -866,12 +866,12 @@
   cursor: pointer;
 }
 
-.reader__crumbs-toggle:hover,
-.reader__crumbs-toggle--active {
+.reader__locator-toggle:hover,
+.reader__locator-toggle--active {
   color: var(--color-accent);
 }
 
-.reader__crumbs-divider {
+.reader__locator-divider {
   flex-shrink: 0;
   width: 1px;
   height: 0.875rem;
@@ -1131,7 +1131,7 @@
 }
 
 @media (max-width: 640px) {
-  .reader__crumbs {
+  .reader__locator {
     padding-left: var(--space-md);
     padding-right: var(--space-md);
   }

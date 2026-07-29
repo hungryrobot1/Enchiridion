@@ -24,6 +24,15 @@
 // every summary would mean hundreds of live observers. Multiple sections being
 // open at once is fine: only the one under the line is named.
 
+// The bar's container class is `reader__locator`, NOT `reader__crumbs`. Do
+// not rename it back for tidiness. Some filter list Brave ships carries an
+// un-scoped cosmetic rule matching the exact class `reader__crumbs` — written
+// for some other site, never restricted to it — so with Shields on the bar
+// was given `display: none` and vanished. It fails in the worst possible way:
+// the element is in the DOM, our own code sets `hidden = false`, no request
+// fails, and nothing appears in the console. Only Brave, only that exact
+// string: `crumbs`, `breadcrumbs` and `reader__crumb` all test clean, which
+// is why the individual crumbs below keep their names.
 const SECTION_SEL = 'details.md-reader__section';
 
 // Sections one level below `node`. Top-level sections are direct children of
@@ -71,7 +80,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
   const { onChain, contents } = opts;
 
   const bar = document.createElement('nav');
-  bar.className = 'reader__crumbs';
+  bar.className = 'reader__locator';
   bar.setAttribute('aria-label', 'Section location');
   // With a contents toggle to host, the bar is always present: contents used
   // to live in a toolbar that scrolled away, so pinning it to the bar that
@@ -85,7 +94,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
   if (contents) {
     toggleBtn = document.createElement('button');
     toggleBtn.type = 'button';
-    toggleBtn.className = 'reader__crumbs-toggle';
+    toggleBtn.className = 'reader__locator-toggle';
     toggleBtn.textContent = '☰';
     toggleBtn.setAttribute('aria-expanded', 'false');
     toggleBtn.title = 'Show contents';
@@ -96,7 +105,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
     if (!toggleBtn) return;
     toggleBtn.setAttribute('aria-expanded', String(open));
     toggleBtn.title = open ? 'Hide contents' : 'Show contents';
-    toggleBtn.classList.toggle('reader__crumbs-toggle--active', open);
+    toggleBtn.classList.toggle('reader__locator-toggle--active', open);
   };
 
   // Where the bar pins: just under the site header (which may be hidden in
@@ -156,7 +165,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
     if (toggleBtn) {
       bar.appendChild(toggleBtn);
       const divider = document.createElement('span');
-      divider.className = 'reader__crumbs-divider';
+      divider.className = 'reader__locator-divider';
       divider.setAttribute('aria-hidden', 'true');
       bar.appendChild(divider);
     }

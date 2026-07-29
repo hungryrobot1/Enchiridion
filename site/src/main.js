@@ -33,9 +33,28 @@ route('/module/:id/:chapter', (container, params) => renderModuleReader(containe
 
 startRouter(content);
 
+// The service worker is a production concern only.
+//
+// In dev it is worse than useless: it installs a persistent proxy in front of
+// a server whose whole job is to serve you the file you just edited, and it
+// outlives the dev session — a worker registered by one branch keeps
+// answering for the next. Registering it here also means every developer's
+// browser accumulates registrations for whatever paths the site has ever been
+// served from.
+//
+// Registrations are scoped by path and survive a base-path change forever;
+// nothing in a deploy clears them. So in dev we also actively unregister any
+// worker we find, which is what cleans up ghosts like the `/Enchiridion`
+// scope left behind from before the custom domain.
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    const base = import.meta.env.BASE_URL || '/';
-    navigator.serviceWorker.register(`${base}sw.js`).catch(() => {});
-  });
+  if (import.meta.env.PROD) {
+    window.addEventListener('load', () => {
+      const base = import.meta.env.BASE_URL || '/';
+      navigator.serviceWorker.register(`${base}sw.js`).catch(() => {});
+    });
+  } else {
+    navigator.serviceWorker.getRegistrations()
+      .then((regs) => regs.forEach((r) => r.unregister()))
+      .catch(() => {});
+  }
 }

@@ -5,8 +5,7 @@
 }
 
 .landing__hero {
-  text-align: center;
-  margin-bottom: var(--space-4xl);
+  margin-bottom: var(--space-2xl);
 }
 
 .landing__title {
@@ -36,7 +35,7 @@
   font-family: var(--font-sans);
   font-size: var(--text-base);
   max-width: var(--max-width-prose);
-  margin: 0 auto;
+  margin: 0;
   color: var(--color-ink-soft);
   line-height: var(--line-height);
 }
@@ -46,56 +45,23 @@
   font-weight: 500;
 }
 
-.landing__featured {
-  max-width: var(--max-width-syllabus);
-  margin: 0 auto var(--space-2xl);
-  padding: var(--space-lg) var(--space-md);
-  text-align: center;
-  border-top: 1px solid var(--color-rule);
-  border-bottom: 1px solid var(--color-rule);
-}
-
-.landing__featured-label {
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
-  font-style: italic;
-  color: var(--color-ink-faint);
-  letter-spacing: 0.08em;
-  margin-bottom: var(--space-xs);
-}
-
-.landing__featured-link {
-  font-family: var(--font-serif);
-  font-size: var(--text-lg);
-  color: var(--color-ink);
-  text-decoration: none;
-  line-height: var(--line-height-tight);
-  transition: color var(--transition);
-}
-
-.landing__featured-link:hover {
-  color: var(--color-accent-hover);
-}
-
-.landing__featured-work {
-  font-style: italic;
-}
-
 .landing__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: var(--space-md);
   max-width: var(--max-width-syllabus);
-  margin: 0 auto var(--space-4xl);
+  /* Clear of the featured card above, which is also a bordered surface —
+     without this the two read as one fused block. */
+  margin: var(--space-xl) auto var(--space-4xl);
 }
 
 .landing__card {
   display: flex;
   flex-direction: column;
-  padding: var(--space-lg);
+  padding: var(--space-md) var(--space-lg);
   background: var(--color-surface);
   border: 1px solid var(--color-rule);
-  border-radius: 4px;
+  border-radius: 2px;
   text-decoration: none;
   color: inherit;
   transition: border-color var(--transition);
@@ -143,12 +109,17 @@
 }
 
 .landing__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
   margin-top: var(--space-4xl);
   padding-top: var(--space-lg);
   border-top: 1px solid var(--color-rule);
-  text-align: center;
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
   color: var(--color-ink-faint);
 }
 
@@ -177,5 +148,388 @@
 
   .landing__subtitle {
     font-size: var(--text-xl);
+  }
+}
+
+/* Redesign: derived counts, leader-dot era list, rotating card, voice list --
+   Everything here is data-driven; nothing on this page is a literal. */
+
+.landing__eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+  margin-bottom: var(--space-sm);
+}
+
+/* Era list: a table of contents you can enter, not a chart. An earlier
+   iteration scaled a bar by each era's span in years; the dates in mono
+   already carry the chronology, and a list invites entry where a chart
+   invites only looking. */
+.landing__eras {
+  margin: 0 0 var(--space-2xl);
+}
+
+.landing__era-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.landing__era-link {
+  display: grid;
+  grid-template-columns: 2rem auto 1fr auto auto;
+  gap: var(--space-sm);
+  align-items: baseline;
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid var(--color-rule);
+  text-decoration: none;
+  color: inherit;
+}
+
+.landing__era-link:hover .landing__era-name {
+  color: var(--color-accent-hover);
+}
+
+.landing__era-ordinal,
+.landing__era-dates,
+.landing__era-count {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+}
+
+.landing__era-name {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: var(--text-md);
+  color: var(--color-ink);
+}
+
+/* The dotted leader, nudged to sit on the baseline rather than through it. */
+.landing__era-leader {
+  border-bottom: 1px dotted var(--color-rule);
+  transform: translateY(-0.3rem);
+}
+
+.landing__era-count {
+  color: var(--color-ink-soft);
+  min-width: 2rem;
+  text-align: right;
+}
+
+/* Voice list — the corpus stated as people rather than as a number. */
+.landing__voices {
+  margin: var(--space-2xl) 0;
+}
+
+.landing__voice-list {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: 1.8;
+  color: var(--color-ink-soft);
+  max-height: 15rem;
+  overflow: hidden;
+  mask-image: linear-gradient(#000 70%, transparent);
+  -webkit-mask-image: linear-gradient(#000 70%, transparent);
+}
+
+.landing__voices--open .landing__voice-list {
+  max-height: none;
+  mask-image: none;
+  -webkit-mask-image: none;
+}
+
+/* The separator has to hold apart two hundred names in a solid block of
+   text, so it is set in the ink colours rather than the hairline one —
+   at --color-rule it dissolved and the list read as one run-on line. */
+.landing__voice-list span:not(:last-child)::after {
+  content: '·';
+  margin: 0 0.4em;
+  color: var(--color-ink-faint);
+  font-weight: 600;
+}
+
+.landing__voices-toggle {
+  margin-top: var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.landing__voices-toggle:hover {
+  color: var(--color-accent-hover);
+}
+
+@media (max-width: 720px) {
+  /* A 390px row cannot hold name, leader, dates and count at once, so the
+     dates drop to a second line, indented clear of the ordinal. */
+  .landing__era-link {
+    grid-template-columns: 2rem 1fr auto;
+    row-gap: 0;
+  }
+
+  .landing__era-leader {
+    display: none;
+  }
+
+  .landing__era-dates {
+    grid-column: 2 / -1;
+  }
+
+  .landing__card,
+  .landing__voices-toggle {
+    min-height: 2.75rem;
+  }
+}
+
+/* Hero: name left, inventory right ------------------------------------- */
+
+.landing__hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: var(--space-md) var(--space-xl);
+}
+
+.landing__tally {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-3xs);
+  text-align: right;
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+  white-space: nowrap;
+}
+
+.landing__version {
+  color: var(--color-ink-soft);
+}
+
+/* A real element rather than a border on the description: the description is
+   capped at the prose measure, so a border on it stopped where the text did
+   instead of spanning the hero. */
+.landing__hero-name .landing__subtitle {
+  margin-bottom: 0;
+}
+
+.landing__hero-rule {
+  grid-column: 1 / -1;
+  height: 1px;
+  background: var(--color-ink);
+  margin-top: var(--space-md);
+}
+
+.landing__description {
+  grid-column: 1 / -1;
+  margin-top: var(--space-md);
+}
+
+/* Featured card --------------------------------------------------------- */
+
+.landing__featured-head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.landing__featured-head .landing__eyebrow {
+  margin-bottom: 0;
+}
+
+.landing__featured-rule {
+  border-bottom: 1px dotted var(--color-rule);
+}
+
+.landing__featured-counter {
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+}
+
+/* Surfaced like the Begin/Browse cards, so the three read as one family of
+   things you can enter. */
+.landing__featured-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-radius: 2px;
+  padding: var(--space-lg);
+  cursor: pointer;
+}
+
+.landing__featured-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+}
+
+.landing__featured-facts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-3xs);
+  text-align: right;
+}
+
+.landing__featured-work {
+  display: block;
+  margin-top: var(--space-sm);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: var(--text-xl);
+  line-height: var(--line-height-tight);
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.landing__featured-card:hover .landing__featured-work {
+  color: var(--color-accent-hover);
+}
+
+.landing__featured-author {
+  display: block;
+  margin-top: var(--space-2xs);
+  font-family: var(--font-serif);
+  font-size: var(--text-md);
+  color: var(--color-ink-soft);
+}
+
+.landing__featured-blurb {
+  margin: var(--space-md) 0 0;
+  max-width: var(--max-width-prose);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: var(--line-height);
+  color: var(--color-ink-soft);
+}
+
+.landing__featured-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-rule);
+}
+
+.landing__featured-open {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: var(--text-base);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.landing__featured-open:hover {
+  color: var(--color-accent-hover);
+}
+
+.landing__featured-dots {
+  display: flex;
+  gap: var(--space-2xs);
+}
+
+/* Indicators that are also controls — the dot says where you are in the six
+   and clicking one goes there, which is what anyone tries first. */
+.landing__featured-dot {
+  width: 5px;
+  height: 5px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-rule);
+  cursor: pointer;
+}
+
+.landing__featured-dot--on {
+  background: var(--color-accent);
+}
+
+@media (max-width: 720px) {
+  .landing__hero {
+    grid-template-columns: 1fr;
+  }
+
+  .landing__tally {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-3xs) var(--space-md);
+    text-align: left;
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  /* Stacked, the rule belongs directly under the title and ABOVE the stats.
+     Reordering here rather than in the DOM keeps the desktop layout, where it
+     spans full width beneath both columns, exactly as it is. */
+  .landing__hero-name { order: 1; }
+  .landing__hero-rule { order: 2; margin-top: var(--space-md); }
+  .landing__tally { order: 3; margin-top: 0; }
+  .landing__description { order: 4; }
+
+  .landing__featured-card {
+    padding: var(--space-md);
+  }
+
+    /* 44px targets, without making the dots themselves large. */
+  .landing__featured-dot {
+    padding: 0.625rem;
+    background-clip: content-box;
+  }
+}
+
+/* Begin is the one thing this page is actually asking you to do, so it is the
+   one filled surface — everything else on the page is hairlines on paper, and
+   a single block of colour carries more weight for being alone. */
+.landing__card:first-child {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.landing__card:first-child .landing__card-label {
+  color: rgba(250, 248, 245, 0.7);
+}
+
+.landing__card:first-child .landing__card-title {
+  color: var(--color-paper);
+}
+
+.landing__card:first-child:hover {
+  background: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+
+.landing__footer-note {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .landing__footer {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
   }
 }

@@ -104,31 +104,44 @@
   border-bottom: none;
 }
 
-.gt-item__bullet {
-  font-size: 0.75em;
-  line-height: 1;
-  color: var(--color-ink-faint);
-  display: flex;
-  align-items: center;
-  height: 1.4em;
-  position: relative;
-}
-
-/* Status dot — sits inside the bullet column, replaces the bullet glyph color */
-.gt-item__status {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
+/* One circle per row, saying two things at once: COLOUR is the content's
+   status, FILL is the kind of document — solid for a primary text, open for a
+   supplement or module chapter. The row used to draw a status dot AND a
+   filled/hollow glyph, which stated the same two facts twice. */
+.gt-item__mark {
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
-  margin-right: var(--space-2xs);
-  vertical-align: middle;
+  align-self: baseline;
+  position: relative;
+  top: 0.45em;
+  background: var(--mark-color, transparent);
 }
 
-.gt-item__status--ready { background: var(--status-ready); }
-.gt-item__status--progress { background: var(--status-progress); }
-.gt-item__status--stub { background: var(--status-stub); }
-.gt-item__status--needs-cleanup { background: var(--status-needs-cleanup); }
-.gt-item__status--none { background: transparent; }
+.gt-item__mark--open {
+  background: transparent;
+  border: 1px solid var(--mark-color, var(--color-rule));
+}
+
+.gt-item__mark--ready { --mark-color: var(--status-ready); }
+.gt-item__mark--progress { --mark-color: var(--status-progress); }
+.gt-item__mark--stub { --mark-color: var(--status-stub); }
+.gt-item__mark--needs-cleanup { --mark-color: var(--status-needs-cleanup); }
+.gt-item__mark--none { --mark-color: var(--color-rule); }
+
+/* A text read at several points in the sequence — Scripture's five stations
+   across Rome and Late Antiquity — is numbered per appearance, so meeting one
+   tells you it is the third of five and not a repeat. */
+.gt-item__station {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-right: var(--space-xs);
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
 
 .gt-item__body {
   min-width: 0;
@@ -232,6 +245,11 @@
 }
 
 /* Tributary — indented with a left-side connector */
+/* Indentation alone carries the relation: these sit under the text they
+   serve, and the hairline above the group belongs to that text. An earlier
+   version drew a vertical rail down the group with a tick into each row —
+   accurate, but it made a two-item list look like a diagram, and the indent
+   already says the same thing. */
 .gt-item--tributary {
   padding-left: var(--space-xl);
   border-bottom: none;
@@ -239,34 +257,9 @@
   padding-bottom: var(--space-xs);
 }
 
-.gt-item--tributary::before {
-  content: '';
-  position: absolute;
-  left: var(--space-md);
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: var(--color-rule);
-}
-
-.gt-item--tributary::after {
-  content: '';
-  position: absolute;
-  left: var(--space-md);
-  top: 1.25em;
-  width: var(--space-sm);
-  height: 1px;
-  background: var(--color-rule);
-}
-
 .gt-item--tributary .gt-item__title {
   font-size: var(--text-base);
   font-weight: 500;
-}
-
-/* Connector continues down to next sibling tributary */
-.gt-item--tributary.gt-item--has-next-tributary::before {
-  bottom: calc(-1 * var(--space-md));
 }
 
 /* Loading and error states */
@@ -297,4 +290,21 @@
     padding-top: 0;
     margin-top: var(--space-2xs);
   }
+}
+
+/* Per-era read count, from the state set in the reader's toolbar. Reads as
+   plain inventory until something has been read, so an untouched page states
+   its size rather than an empty score. */
+.gt-section__progress {
+  display: block;
+  margin-top: var(--space-2xs);
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+}
+
+.gt-section__progress--some {
+  color: var(--color-accent);
 }

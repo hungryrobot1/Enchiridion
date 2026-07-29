@@ -13,15 +13,19 @@ export async function renderTextReader(container, params) {
     return () => {};
   }
 
-  const subtitle = [text.author, text.translator ? `tr. ${text.translator}` : null]
-    .filter(Boolean)
-    .join(' · ');
-
   const back = resolveBack();
 
   return renderReader(container, {
     title: text.title,
-    subtitle,
+    // Attribution now sets as a title page at the head of the contents panel
+    // rather than as a subtitle in the toolbar, so it goes down as fields
+    // rather than as one pre-joined string.
+    work: {
+      title: text.title,
+      author: text.author,
+      year: text.year_written,
+      translator: text.translator,
+    },
     backLabel: back.label,
     backHref: back.href,
     path: text.path,

@@ -38,18 +38,38 @@
   /* One step darker than the hairline — a table's header rule, and the edge of
      an overlay that sits above the page rather than beside it. */
   --color-rule-strong: #b8ad9f;
-  --color-pure-black: #000000;
 
   /* Accent */
   --color-accent: #764134;
   --color-accent-hover: #ee7854;
   --color-accent-soft: rgba(118, 65, 52, 0.3);
 
+  /* What goes ON a filled accent surface — the Begin card, an active chip, an
+     active type choice. This has to be its own token rather than reaching for
+     --color-paper: in light mode the accent is dark and wants light text, but a
+     dark theme has to LIFT the accent to keep it legible, at which point the
+     same surface wants dark text. "Light colour" and "colour that contrasts
+     with the accent" agree in light mode by coincidence and part ways in dark. */
+  --color-on-accent: #faf8f5;
+  --color-on-accent-soft: rgba(250, 248, 245, 0.7);
+
   /* Status */
   --status-ready: #3c784f;
   --status-progress: #a07020;
   --status-stub: #a09590;
   --status-needs-cleanup: #9c5a3c;
+
+  /* A scanned plate is black ink on white paper. On a dark page it cannot be
+     inverted (that ruins a photograph) and cannot sit bare (it glares). It gets
+     matted instead — see .md-reader__figure img. In light mode there is nothing
+     to mat, so the mat is the page itself and the inset collapses to zero. */
+  --figure-mat: transparent;
+  --figure-mat-pad: 0px;
+
+  /* Elevation. A black shadow is invisible on a near-black ground, so the dark
+     theme states elevation with a lighter surface and a rule instead. */
+  --shadow-panel: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-menu: 0 4px 12px rgba(0, 0, 0, 0.06);
 
   /* Spacing */
   --space-3xs: 0.125rem;
@@ -69,6 +89,101 @@
   --max-width-full: 72rem;
   --header-height: 3.5rem;
 
+  /* The reader's thin bars. The toolbar is one of these; the locator is the
+     other, and they match so the text is bounded by two identical rules rather
+     than a tall block above a thin one. Three other rules depend on this
+     height — the fixed contents panel's top offset, the fullscreen variant of
+     the same, and section scroll-margin — so it is stated once here.
+
+     Note that only the locator is sticky; the toolbar scrolls away. So the
+     offsets below mean ONE bar, not two. */
+  --reader-bar: 2.25rem;
+
   /* Transitions */
   --transition: 150ms ease;
+
+  color-scheme: light;
+}
+
+/* ---------------------------------------------------------------------------
+   DARK
+   ---------------------------------------------------------------------------
+   Same variable names, second block. Nothing outside this file knows a theme
+   exists — which is the whole reason the redesign was worth doing in tokens.
+
+   The genre shift lives in the HUE, not the luminance. Light mode is warm all
+   the way through: #faf8f5 paper, browned ink, terracotta. Invert lightness
+   while keeping that warmth and you get brown-black — leather and lamplight,
+   the same classical register with the lights off. Cooling the ground and ink
+   moves it to the other end of the same seriousness: the editor at night. The
+   terracotta accent stays warm on purpose, both for brand continuity and
+   because a warm accent on a cool field is what syntax highlighting looks like.
+
+   Not pure white on pure black. This is a read-for-hours site, and the good
+   editor themes are desaturated foreground on near-black for exactly that
+   reason — so the reference supports the comfortable choice rather than
+   fighting it. */
+[data-theme='dark'] {
+  --color-paper: #15171a;
+  --color-paper-alt: #1b1e22;
+  /* Elevated rather than white: on dark, surface means "nearer to you". */
+  --color-surface: #21252a;
+  --color-ink: #dfe3e8;
+  --color-ink-soft: #a2abb5;
+  --color-ink-faint: #6f7883;
+  --color-rule: #2e343b;
+  --color-rule-strong: #434b55;
+
+  /* Lifted well above the light value — #764134 on a dark ground is unreadable.
+     Hover goes lighter still, so hover keeps meaning the same direction. */
+  --color-accent: #e0855c;
+  --color-accent-hover: #f2a482;
+  --color-accent-soft: rgba(224, 133, 92, 0.32);
+  --color-on-accent: #15171a;
+  --color-on-accent-soft: rgba(21, 23, 26, 0.72);
+
+  /* All four legible at the 10px mono they are actually set in, and — the part
+     worth measuring rather than eyeballing — still distinguishable from one
+     another WITHOUT colour vision. On the Grand Tour the status is carried by a
+     7px dot with no label, so if two of these collapse the row stops saying
+     anything. Simulating deuteranopia, the first draft put ready and stub 6
+     units apart, which is to say identical; lifting ready and dropping stub to
+     the faint ink puts the closest pair at 45. (Light mode's closest pair is
+     12 — this is one place the dark theme is simply better, and worth carrying
+     back to light when someone next touches it.) */
+  --status-ready: #6ecf92;
+  --status-progress: #d3a441;
+  --status-stub: #6f7883;
+  --status-needs-cleanup: #c47a5a;
+
+  --figure-mat: #f2efea;
+  --figure-mat-pad: var(--space-md);
+
+  --shadow-panel: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-menu: 0 6px 20px rgba(0, 0, 0, 0.45);
+
+  color-scheme: dark;
+}
+
+/* TEMPORARY — the design bundle's §3c proposes a warm dark instead ("warm, not
+   blue — the paper stays paper"). Kept alongside so the two can be compared on
+   a real text rather than argued in the abstract. Delete the loser.
+     document.documentElement.dataset.palette = 'warm'   // or: delete ... */
+[data-theme='dark'][data-palette='warm'] {
+  --color-paper: #1a1614;
+  --color-paper-alt: #221d1a;
+  --color-surface: #231e1b;
+  --color-ink: #ece4dc;
+  --color-ink-soft: #b0a49c;
+  --color-ink-faint: #7b706a;
+  --color-rule: #3a322d;
+  --color-rule-strong: #4d4239;
+
+  --color-accent: #c9805f;
+  --color-accent-hover: #ee7854;
+  --color-accent-soft: rgba(201, 128, 95, 0.32);
+  --color-on-accent: #1a1614;
+  --color-on-accent-soft: rgba(26, 22, 20, 0.72);
+
+  --figure-mat: #f5f1ea;
 }

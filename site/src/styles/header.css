@@ -16,7 +16,16 @@
   padding: 0 var(--space-lg);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* Not space-between: with the theme button there are three things in flow,
+     and space-between would strand the nav in the middle. The nav takes the
+     free space with an auto margin instead, so it and the theme button stay a
+     right-hand group however many items are in the bar. */
+  justify-content: flex-start;
+  gap: var(--space-lg);
+}
+
+.site-header__nav {
+  margin-left: auto;
 }
 
 .site-header__wordmark {
@@ -55,6 +64,38 @@
 .site-header__link--active {
   color: var(--color-ink);
   border-bottom-color: var(--color-accent);
+}
+
+/* Theme button. A glyph rather than a word because it sits next to four nav
+   labels and a fifth word would read as a fifth destination.
+
+   FIXED BOX, and that is the whole point of the dimensions here: ☼ and ☾ do not
+   have the same advance width, so a button sized to its content changes width
+   when pressed and shoves the nav sideways — the control moving out from under
+   the cursor that just used it. The glyph is centred in a box that does not
+   depend on which glyph it is. */
+.site-header__theme {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: 1;
+  color: var(--color-ink-soft);
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  width: 2rem;
+  height: 2rem;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.site-header__theme:hover {
+  color: var(--color-accent-hover);
+  border-color: var(--color-rule);
 }
 
 /* Hamburger toggle — hidden on wide viewports, shown below the breakpoint. */
@@ -98,13 +139,22 @@
     padding: 0 var(--space-md);
   }
 
+  /* The nav leaves the flow here, so the auto margin that grouped it with the
+     theme button has nothing left to push. The theme button takes over the
+     job, and the hamburger is ordered last so it stays at the outside edge. */
   .site-header__toggle {
     display: flex;
+    order: 1;
+  }
+
+  .site-header__theme {
+    margin-left: auto;
   }
 
   /* Collapse the nav into a dropdown panel below the header bar. */
   .site-header__nav {
     position: absolute;
+    margin-left: 0;
     top: var(--header-height);
     left: 0;
     right: 0;
@@ -112,7 +162,7 @@
     gap: 0;
     background: var(--color-paper);
     border-bottom: 1px solid var(--color-rule);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--shadow-menu);
     padding: var(--space-sm) 0;
     display: none;
   }

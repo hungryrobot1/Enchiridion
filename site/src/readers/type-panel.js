@@ -1,12 +1,25 @@
-// The `Aa` panel: type size and measure for the reading column.
+// The `Aa` panel: how the text is set — size, measure, and on a bilingual text
+// which language you are reading.
 //
-// Both settings are global rather than per-text — someone who needs larger
-// type needs it in every book — and are applied as custom properties on the
-// reader shell so lazily-built sections inherit them with no re-render, the
-// same trick the language selector uses for `data-lang`.
+// All three are global rather than per-text — someone who needs larger type
+// needs it in every book — and are applied as custom properties (or a data
+// attribute) on the reader shell, so lazily-built sections inherit them with
+// no re-render.
+//
+// Language used to be a standalone <select> in the toolbar. It is here now
+// because it is the same kind of decision as the other two and was the only
+// control in the bar with its own type treatment and its own width.
 
 const SIZE_KEY = 'enchiridion:type-size';
 const MEASURE_KEY = 'enchiridion:type-measure';
+// Unchanged key: a reader who already chose a language mode keeps it.
+const LANG_KEY = 'enchiridion:lang-mode';
+
+const LANG_MODES = [
+  { value: 'both', label: 'Both' },
+  { value: 'grc', label: 'Ἑλλ' },
+  { value: 'en', label: 'Eng' },
+];
 
 const SIZES = [0.875, 1, 1.125, 1.25, 1.4];
 const MEASURES = [
@@ -34,7 +47,10 @@ function write(key, value) {
 
 export function mountTypePanel(shell) {
   const actions = shell.querySelector('.reader__actions');
-  if (!actions || actions.querySelector('.reader__type-btn')) return () => {};
+  // Callers hold this as a handle, so the no-op has to be shaped like one too.
+  if (!actions || actions.querySelector('.reader__type-btn')) {
+    return { setLanguages() {}, destroy() {} };
+  }
 
   let sizeIdx = read(SIZE_KEY, 1);
   let measureIdx = read(MEASURE_KEY, 1);
@@ -51,11 +67,27 @@ export function mountTypePanel(shell) {
     });
   };
 
+  // Language mode, for interlinear texts. `langWrapper` stays null until the
+  // reader has fetched the text and found it bilingual, and while it is null
+  // the whole row is hidden — so the panel is not a different height per text
+  // for no reason.
+  let langWrapper = null;
+  let langMode = 'both';
+  try { langMode = localStorage.getItem(LANG_KEY) || 'both'; } catch { /* unavailable */ }
+  if (!LANG_MODES.some((m) => m.value === langMode)) langMode = 'both';
+
+  const applyLang = () => {
+    if (langWrapper) langWrapper.dataset.lang = langMode;
+    panel.querySelectorAll('[data-lang]').forEach((b) => {
+      b.classList.toggle('reader__type-choice--active', b.dataset.lang === langMode);
+    });
+  };
+
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.className = 'reader__btn reader__type-btn';
   btn.textContent = 'Aa';
-  btn.title = 'Type size';
+  btn.title = 'Type size and measure';
   btn.setAttribute('aria-expanded', 'false');
 
   const panel = document.createElement('div');
@@ -75,6 +107,12 @@ export function mountTypePanel(shell) {
       <span class="reader__type-label">Measure</span>
       <div class="reader__type-choices">
         ${MEASURES.map((m, i) => `<button class="reader__type-choice" type="button" data-measure="${i}">${m.label}</button>`).join('')}
+      </div>
+    </div>
+    <div class="reader__type-row reader__type-row--lang" hidden>
+      <span class="reader__type-label">Language</span>
+      <div class="reader__type-choices">
+        ${LANG_MODES.map((m) => `<button class="reader__type-choice" type="button" data-lang="${m.value}">${m.label}</button>`).join('')}
       </div>
     </div>
   `;
@@ -106,6 +144,16 @@ export function mountTypePanel(shell) {
       measureIdx = Number(measure.dataset.measure);
       write(MEASURE_KEY, measureIdx);
       apply();
+      return;
+    }
+    const lang = e.target.closest('[data-lang]');
+    if (lang) {
+      langMode = lang.dataset.lang;
+      // Raw string, not JSON: this key predates the panel and a reader who
+      // already picked a mode should keep it rather than have it silently
+      // reset by a format change.
+      try { localStorage.setItem(LANG_KEY, langMode); } catch { /* unavailable */ }
+      applyLang();
     }
   });
 
@@ -127,12 +175,26 @@ export function mountTypePanel(shell) {
   document.addEventListener('keydown', onKey);
 
   apply();
+  applyLang();
 
-  return () => {
-    document.removeEventListener('pointerdown', onPointerDown, true);
-    document.removeEventListener('keydown', onKey);
-    wrap.remove();
-    shell.style.removeProperty('--reader-type-scale');
-    shell.style.removeProperty('--reader-measure');
+  return {
+    /**
+     * Called by the reader once it knows the text is bilingual, since that is
+     * only knowable after the markdown is fetched. Passing the wrapper reveals
+     * the Language row and applies the saved mode; passing nothing leaves the
+     * row hidden, which is the right state for the other 83 markdown texts.
+     */
+    setLanguages(wrapper) {
+      langWrapper = wrapper || null;
+      panel.querySelector('.reader__type-row--lang').hidden = !langWrapper;
+      applyLang();
+    },
+    destroy() {
+      document.removeEventListener('pointerdown', onPointerDown, true);
+      document.removeEventListener('keydown', onKey);
+      wrap.remove();
+      shell.style.removeProperty('--reader-type-scale');
+      shell.style.removeProperty('--reader-measure');
+    },
   };
 }

@@ -1,4 +1,5 @@
 import '../styles/header.css';
+import { resolveTheme, toggleTheme } from '../lib/theme.js';
 
 const NAV_LINKS = [
   { href: '#/grand-tour', label: 'Grand Tour' },
@@ -54,7 +55,35 @@ export function renderHeader() {
   inner.appendChild(wordmark);
   inner.appendChild(toggle);
   inner.appendChild(nav);
+  inner.appendChild(renderThemeButton());
   header.appendChild(inner);
 
   return header;
+}
+
+// The design bundle put this on the reader's toolbar, which was right when the
+// reader was the only page with a dark treatment. It is site-wide now, so it
+// belongs beside the site-wide navigation.
+// The glyph shows the DESTINATION, not the current state: the page background
+// is already an unmissable statement of which theme you are in, so spending the
+// icon on repeating that wastes it. A moon means "go dark".
+const THEME_GLYPH = { light: '☼', dark: '☾' };
+
+function renderThemeButton() {
+  const btn = document.createElement('button');
+  btn.className = 'site-header__theme';
+  btn.type = 'button';
+
+  const paint = () => {
+    const next = resolveTheme() === 'dark' ? 'light' : 'dark';
+    btn.textContent = THEME_GLYPH[next];
+    btn.setAttribute('aria-label', `Switch to ${next} theme`);
+    btn.title = `Switch to ${next} theme`;
+  };
+
+  btn.addEventListener('click', () => { toggleTheme(); paint(); });
+  window.addEventListener('enchiridion:theme-change', paint);
+  paint();
+
+  return btn;
 }

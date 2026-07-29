@@ -290,6 +290,28 @@ export async function renderExplore(container) {
     );
     observer.observe(filters);
 
+    // Arriving from an era on the landing page pre-selects that era, because
+    // clicking a named era and landing on the unfiltered catalog reads as the
+    // click having failed.
+    //
+    // The link carries the FACET ID (`islamic-golden-age-medieval`), not the
+    // directory key the filter actually runs on
+    // (`3-islamic-golden-age-medieval-europe`). Two reasons: the two are not
+    // derivable from each other, and — the one that matters — the directory
+    // key leads with an ordinal, which the planned Modern Era III split
+    // renumbers. A link keyed on it would rot silently the day that lands.
+    const wanted = eraParamFromHash();
+    if (wanted) {
+      const key = eraKeyForId(textIndex, wanted);
+      const eraRow = root.querySelector('.explore__filter-row[data-filter="era"]');
+      // Only if it resolves to an era the catalog actually has — a stale or
+      // hand-edited link should show the whole catalog, not an empty one.
+      if (key && eras.some(e => e.key === key)) {
+        state.era.add(key);
+        if (eraRow) syncChips(eraRow, 'era');
+      }
+    }
+
     render();
   } catch (err) {
     root.innerHTML = `<div class="explore__error">Could not load the catalog: ${err.message}</div>`;
@@ -394,6 +416,23 @@ function eraShortLabel(eraDir, eraDisplay) {
     '8-modern-era-ii': 'Modern Era II',
   };
   return map[eraDir] || eraDisplay || eraDir;
+}
+
+// `#/explore?era=<facet id>`. The router strips everything from `?` before
+// matching, so the query rides along without needing a route of its own.
+function eraParamFromHash() {
+  const q = window.location.hash.split('?')[1];
+  if (!q) return null;
+  return new URLSearchParams(q).get('era');
+}
+
+// Facet id → era directory key. Texts carry both, so the corpus is its own
+// lookup table and nothing has to be maintained by hand.
+function eraKeyForId(textIndex, eraId) {
+  for (const t of textIndex.texts || []) {
+    if (t.era === eraId && t.era_dir) return t.era_dir;
+  }
+  return null;
 }
 
 function collectEras(rows) {

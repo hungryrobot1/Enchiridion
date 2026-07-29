@@ -510,11 +510,11 @@
 }
 
 .landing__card:first-child .landing__card-label {
-  color: rgba(250, 248, 245, 0.7);
+  color: var(--color-on-accent-soft);
 }
 
 .landing__card:first-child .landing__card-title {
-  color: var(--color-paper);
+  color: var(--color-on-accent);
 }
 
 .landing__card:first-child:hover {

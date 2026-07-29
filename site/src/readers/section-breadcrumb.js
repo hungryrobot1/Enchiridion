@@ -82,10 +82,12 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
   const bar = document.createElement('nav');
   bar.className = 'reader__locator';
   bar.setAttribute('aria-label', 'Section location');
-  // With a contents toggle to host, the bar is always present: contents used
-  // to live in a toolbar that scrolled away, so pinning it to the bar that
-  // already says where you are makes location and navigation one control.
-  bar.hidden = !contents;
+  // Always present, and never hidden again. It hosts the contents toggle —
+  // which used to live in a toolbar that scrolled away — and since the title
+  // left the toolbar it is also the only thing on screen naming the work. A
+  // text with nothing open shows one crumb, the title, which is the resting
+  // state rather than an empty bar.
+  bar.hidden = false;
   shell.insertBefore(bar, viewport);
 
   // The toggle is built once and re-inserted on each render, so the crumb
@@ -149,12 +151,6 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
 
     if (onChain) {
       onChain(chain.length ? chain[chain.length - 1].dataset.section : null);
-    }
-
-    if (!chain.length && !contents) {
-      bar.hidden = true;
-      bar.replaceChildren();
-      return;
     }
 
     const crumbs = [{ label: title, section: null }].concat(

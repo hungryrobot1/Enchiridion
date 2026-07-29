@@ -52,7 +52,18 @@ export async function renderModuleReader(container, params) {
 
   return renderReader(container, {
     title: entry.title,
-    subtitle: module.title,
+    // The module's name, which a chapter would otherwise never state — the
+    // toolbar used to carry it as a subtitle. It heads the contents panel now,
+    // above the chapter list, so the part and the whole are named together.
+    work: { title: module.title },
+    chapters: chapters.map(c => {
+      const chStem = c.filename.replace(/\.md$/, '');
+      return {
+        title: c.title,
+        href: `#/module/${id}/${chStem}`,
+        current: chStem === stem,
+      };
+    }),
     backLabel: back.label,
     backHref: back.href,
     path,

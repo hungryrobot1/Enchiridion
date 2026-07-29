@@ -93,7 +93,7 @@ export async function renderLanding(container) {
           const { name, dates } = splitEra(era.display);
           return `
             <li class="landing__era">
-              <a class="landing__era-link" href="#/explore">
+              <a class="landing__era-link" href="#/explore?era=${encodeURIComponent(era.id)}">
                 <span class="landing__era-ordinal">${String(i + 1).padStart(2, '0')}</span>
                 <span class="landing__era-name">${name}</span>
                 <span class="landing__era-leader" aria-hidden="true"></span>

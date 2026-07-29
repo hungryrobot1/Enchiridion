@@ -292,6 +292,46 @@
   }
 }
 
+/* A text you have finished. The same green check as the reader's read ring, so
+   "done" is one mark in both places — but set after the title rather than in
+   the gutter, because the gutter circle is already saying something else
+   (status of the content, not state of your reading). Empty until read, so an
+   untouched syllabus carries no marks at all. */
+.gt-item__read {
+  display: none;
+  margin-left: var(--space-xs);
+  font-size: var(--text-xs);
+  color: var(--status-ready);
+  vertical-align: 0.08em;
+}
+
+.gt-item--read .gt-item__read {
+  display: inline;
+}
+
+.gt-item--read .gt-item__read::before {
+  content: '✓';
+}
+
+/* The title itself steps back once read — the row is still there to be found,
+   but the eye should land on what is still ahead. */
+.gt-item--read .gt-item__title {
+  color: var(--color-ink-soft);
+}
+
+/* Except on a stationed row. Read state belongs to the work, so marking
+   Scripture read ticks all five of its stations at once — but dimming them
+   would say "you are done here" about four places you have not reached. The
+   tick still reports the work's state; the row stays live. */
+.gt-item--stationed.gt-item--read .gt-item__title {
+  color: var(--color-ink);
+}
+
+/* The tick itself is unchanged on a stationed row. The work being read is
+   simply true, and it should look the same wherever it is reported; inventing a
+   second tick appearance would be a dialect to learn for a distinction the
+   tooltip already makes. */
+
 /* Per-era read count, from the state set in the reader's toolbar. Reads as
    plain inventory until something has been read, so an untouched page states
    its size rather than an empty score. */

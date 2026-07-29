@@ -4,22 +4,39 @@
   min-height: calc(100vh - var(--header-height));
 }
 
+/* The toolbar is pure chrome: a back arrow at the left, three controls at the
+   right, and nothing else. The title used to sit between them, where it
+   repeated the first crumb one row down and cost 40px of every screen; it is
+   the head of the contents panel now. At --reader-bar the toolbar matches the
+   locator exactly, so the text is bounded by two identical thin rules rather
+   than by a tall block above a thin one. */
 .reader__header {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: var(--space-md);
+  display: flex;
   align-items: center;
-  padding: var(--space-md) var(--space-lg);
+  justify-content: space-between;
+  height: var(--reader-bar);
+  padding: 0 var(--space-lg);
   border-bottom: 1px solid var(--color-rule);
   background: var(--color-paper);
 }
 
+/* Icon-only, and alone at the left edge — the one control that leaves the text.
+   Its destination is named in the tooltip and the accessible name rather than
+   in the bar, since the three entry paths give it three different labels and a
+   toolbar that changes width per referrer is a toolbar that never settles. */
 .reader__back {
+  width: 1.75rem;
+  height: 1.75rem;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-sans);
-  font-size: var(--text-sm);
+  font-size: 0.9375rem;
+  line-height: 1;
   color: var(--color-ink-soft);
   text-decoration: none;
-  white-space: nowrap;
+  border-radius: 2px;
   transition: color var(--transition);
 }
 
@@ -27,78 +44,87 @@
   color: var(--color-accent-hover);
 }
 
-.reader__title-block {
-  min-width: 0;
-  text-align: center;
-}
-
-.reader__title {
-  font-family: var(--font-serif);
-  font-size: var(--text-lg);
-  font-weight: 600;
-  color: var(--color-ink);
-  line-height: var(--line-height-tight);
-  font-style: italic;
-}
-
-.reader__subtitle {
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--color-ink-soft);
-  margin-top: var(--space-2xs);
-}
-
 .reader__actions {
   display: flex;
   align-items: center;
-  gap: var(--space-sm);
+  gap: var(--space-3xs);
 }
 
 .reader__pdf-controls {
   display: flex;
   align-items: center;
-  gap: var(--space-xs);
+  gap: var(--space-3xs);
 }
 
+/* Every toolbar control is the same box, so nothing shifts when a state or a
+   glyph changes. The border is gone with it: at 36px a row of outlined boxes
+   reads as a third rule competing with the two real ones. */
 .reader__btn {
+  min-width: 1.75rem;
+  height: 1.75rem;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  padding: 0 var(--space-2xs);
   font-family: var(--font-sans);
-  font-size: var(--text-base);
+  font-size: 0.8125rem; /* below --text-sm on purpose: this is chrome, not content */
+  font-weight: 500;
+  line-height: 1;
   color: var(--color-ink-soft);
   background: transparent;
-  border: 1px solid var(--color-rule);
+  border: none;
   border-radius: 2px;
-  padding: var(--space-2xs) var(--space-sm);
   cursor: pointer;
-  transition: color var(--transition), border-color var(--transition);
-}
-
-.reader__lang-select {
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--color-ink-soft);
-  background: var(--color-paper);
-  border: 1px solid var(--color-rule);
-  border-radius: 2px;
-  padding: var(--space-2xs) var(--space-xs);
-  cursor: pointer;
-  transition: color var(--transition), border-color var(--transition);
-}
-
-.reader__lang-select:hover {
-  color: var(--color-ink);
-  border-color: var(--color-accent-hover);
+  transition: color var(--transition);
 }
 
 .reader__btn:hover {
   color: var(--color-accent-hover);
-  border-color: var(--color-accent-hover);
+}
+
+/* The Aa button carries a caret, so it is the one control wider than its box. */
+.reader__type-btn {
+  padding: 0 var(--space-xs);
+}
+
+.reader__type-btn::after {
+  content: '▾';
+  font-size: 0.5625rem;
+  color: var(--color-ink-faint);
+}
+
+/* Hairline before fullscreen: it acts on the window, the other two act on the
+   text. */
+.reader__sep {
+  width: 1px;
+  height: 1rem;
+  flex: none;
+  background: var(--color-rule);
+  margin: 0 var(--space-2xs);
+}
+
+/* Fixed box, for the same reason as .site-header__theme: ⛶ and × do not share
+   an advance width, and a control that resizes when pressed moves out from
+   under the cursor that just used it. */
+.reader__fullscreen {
+  width: 1.75rem;
+  padding: 0;
+}
+
+/* Zoom steppers in mono so − and + match the type panel's stepper, which is
+   the same control in a different place. */
+.reader__pdf-controls .reader__btn {
+  font-family: var(--font-mono);
 }
 
 .reader__page-indicator {
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--color-ink-soft);
-  min-width: 4rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+  min-width: 3.5rem;
   text-align: center;
 }
 
@@ -295,9 +321,31 @@
   padding: 0;
 }
 
+/* MATTING — the one thing in the dark theme that is not a colour swap.
+ *
+ * There are 858 images in the corpus and effectively all of them are the same
+ * artefact: black ink on white paper, photographed. Three things you could do
+ * with that on a dark page, two of which are wrong. Inverting ruins them —
+ * these are photographs of pages, with paper grain and foxing and plate tone,
+ * and an inverted scan looks like a film negative rather than a diagram.
+ * Leaving them bare is worse: a 500px rectangle at #ffffff on a #15171a ground
+ * is the brightest thing on screen by a wide margin, and every figure becomes
+ * a flashbulb in the middle of the reading.
+ *
+ * So they get matted, the way a gallery or a good facsimile edition does it:
+ * the plate keeps its own light ground, inset within a border, sitting on the
+ * dark page. It reads as an object on a surface rather than a hole in it — and
+ * it happens to be exactly true, which is the argument for it. The manuscript
+ * is still paper; you are looking at it on a screen at night.
+ *
+ * In light mode the mat is transparent and the inset is zero, so nothing about
+ * the existing rendering changes. */
 .reader__content--prose img {
   max-width: 100%;
   height: auto;
+  background: var(--figure-mat);
+  padding: var(--figure-mat-pad);
+  border-radius: 2px;
 }
 
 .md-reader__figure {
@@ -310,10 +358,17 @@
   max-width: 100%;
 }
 
+/* box-sizing so the mat's padding comes out of the figure's chosen width
+ * rather than adding to it — the width control and the resize buttons stay
+ * honest about how much room the figure takes. */
 .md-reader__figure img {
   display: block;
   width: var(--md-reader-img-width, clamp(200px, 50%, 500px));
   max-width: 100%;
+  box-sizing: border-box;
+  background: var(--figure-mat);
+  padding: var(--figure-mat-pad);
+  border-radius: 2px;
   transition: width 0.15s ease;
 }
 
@@ -328,7 +383,7 @@
   background: var(--color-paper-alt);
   border-radius: 2px;
   padding: var(--space-3xs);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-panel);
 }
 
 .md-reader__figure:hover .md-reader__figure-controls,
@@ -352,7 +407,7 @@
 
 .md-reader__figure-btn:hover {
   background: var(--color-accent);
-  color: var(--color-surface);
+  color: var(--color-on-accent);
   border-color: var(--color-accent);
 }
 
@@ -484,7 +539,7 @@
 
 .pdf-reader-container canvas {
   background: var(--color-surface);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-panel);
 }
 
 .html-reader-frame {
@@ -662,18 +717,26 @@
   padding-right: 0;
 }
 
+/* No hover on touch, and a 28px box is under the 44px minimum. The hit area
+   grows with a pseudo-element rather than the box itself, so the 36px bar and
+   the control grid are unaffected by it. */
+@media (hover: none) {
+  .reader__btn,
+  .reader__back {
+    position: relative;
+  }
+
+  .reader__btn::before,
+  .reader__back::before {
+    content: '';
+    position: absolute;
+    inset: -0.5rem -0.375rem;
+  }
+}
+
 @media (max-width: 640px) {
   .reader__header {
-    padding: var(--space-sm) var(--space-md);
-    gap: var(--space-sm);
-  }
-
-  .reader__title {
-    font-size: var(--text-md);
-  }
-
-  .reader__subtitle {
-    display: none;
+    padding: 0 var(--space-md);
   }
 
   .reader__content {
@@ -694,7 +757,8 @@
   display: flex;
   align-items: center;
   gap: var(--space-2xs);
-  padding: var(--space-2xs) var(--space-lg);
+  height: var(--reader-bar);
+  padding: 0 var(--space-lg);
   background: var(--color-paper);
   border-bottom: 1px solid var(--color-rule);
   /* Long chains scroll sideways rather than wrapping and changing the bar's
@@ -754,7 +818,7 @@
 
 .reader__type-panel {
   position: absolute;
-  top: 2.5rem;
+  top: calc(var(--reader-bar) + var(--space-2xs));
   right: 0;
   z-index: 20;
   width: 20rem;
@@ -778,6 +842,17 @@
 
 .reader__type-row + .reader__type-row {
   margin-top: var(--space-md);
+}
+
+.reader__type-row[hidden] {
+  display: none;
+}
+
+/* Size and Measure are how the text is set; Language is which text you are
+   reading. The rule marks that as a different kind of question. */
+.reader__type-row--lang {
+  border-top: 1px solid var(--color-rule);
+  padding-top: var(--space-md);
 }
 
 .reader__type-label {
@@ -831,7 +906,7 @@
 .reader__type-choice--active {
   background: var(--color-accent);
   border-color: var(--color-accent);
-  color: var(--color-paper);
+  color: var(--color-on-accent);
 }
 
 .reader__btn--active {
@@ -840,16 +915,42 @@
 
 /* Read state ------------------------------------------------------------ */
 
-.reader__read-btn {
-  font-family: var(--font-mono);
-  font-size: var(--text-3xs);
-  letter-spacing: var(--track-mono-wide);
-  text-transform: uppercase;
-  white-space: nowrap;
+/* A pip rather than a word: "Mark as read" and "Read" differ by six
+   characters, so the labelled version changed width every time it was pressed
+   and shoved the rest of the toolbar sideways. The ring is a fixed box that
+   fills. --status-ready is the same green the Grand Tour's status dot uses, so
+   "done" means one colour across the site. */
+.reader__read {
+  width: 1.75rem;
+  padding: 0;
 }
 
-.reader__read-btn--on {
-  color: var(--status-ready);
+.reader__read-pip {
+  width: 0.9375rem;
+  height: 0.9375rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-rule-strong);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.reader__read:hover .reader__read-pip {
+  border-color: var(--color-accent-hover);
+}
+
+.reader__read--on .reader__read-pip {
+  background: var(--status-ready);
+  border-color: var(--status-ready);
+}
+
+.reader__read--on .reader__read-pip::after {
+  content: '✓';
+  font-family: var(--font-sans);
+  font-size: 0.5625rem;
+  line-height: 1;
+  color: var(--color-on-accent);
 }
 
 /* The contents toggle sits at the left end of the bar that already says where
@@ -897,7 +998,7 @@
  * The reading column is pushed clear with padding rather than by layout flow. */
 .reader__toc {
   position: fixed;
-  top: calc(var(--header-height) + 2.25rem);
+  top: calc(var(--header-height) + var(--reader-bar));
   bottom: 0;
   left: 0;
   width: 19rem;
@@ -914,7 +1015,7 @@
 
 .focus-mode .reader__toc,
 :fullscreen .reader__toc {
-  top: 2.25rem;
+  top: var(--reader-bar);
 }
 
 .reader__toc[hidden] {
@@ -955,6 +1056,45 @@
   flex: 1;
   overflow-y: auto;
   padding: var(--space-xs) 0;
+}
+
+/* The title page. Author and translator set in mono for the reason the token
+   file already gives for that face — it carries dates, ids and labels — which
+   also separates the attribution from the title without needing a second serif
+   size. The italic serif title is the one place the work's name is set as a
+   title rather than as a label. */
+.reader__toc-titlepage {
+  padding: var(--space-md) var(--space-md) var(--space-sm);
+  border-bottom: 1px solid var(--color-rule);
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.reader__toc-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-md);
+  font-weight: 600;
+  font-style: italic;
+  line-height: var(--line-height-tight);
+  color: var(--color-ink);
+}
+
+.reader__toc-byline,
+.reader__toc-translator {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  line-height: var(--line-height-list);
+}
+
+.reader__toc-byline {
+  color: var(--color-ink-soft);
+}
+
+.reader__toc-translator {
+  color: var(--color-ink-faint);
 }
 
 /* The syllabus's recommendations, above the structure rather than filtering
@@ -1086,6 +1226,23 @@
   color: var(--color-ink-faint);
 }
 
+/* Chapter number, in the slot the section tree gives its expand marker — a
+   chapter list has nothing to expand, and a module is a sequence where the
+   order is the pedagogy, so the ordinal is what belongs there. */
+.reader__toc-chapter-n {
+  flex: none;
+  width: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+}
+
+/* The tree's labels are buttons; a chapter's is a link to another route. */
+a.reader__toc-label {
+  text-decoration: none;
+}
+
 /* Where you actually are, on whichever level it falls. */
 .reader__toc-item--current > .reader__toc-row {
   border-left-color: var(--color-accent);
@@ -1127,7 +1284,7 @@
 /* The bar overlays the top of the page under the header, so anything scrolled
    to the top — deep links, crumb clicks — must clear both. */
 .md-reader__section {
-  scroll-margin-top: calc(var(--header-height) + 2.25rem);
+  scroll-margin-top: calc(var(--header-height) + var(--reader-bar));
 }
 
 @media (max-width: 640px) {

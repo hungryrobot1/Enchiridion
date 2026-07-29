@@ -219,13 +219,13 @@ export default {
     container.innerHTML = '';
     container.appendChild(wrapper);
 
-    // Interlinear texts get a language-display selector in the shell toolbar:
-    // Interlinear (default) / English only / Greek only. Visibility is CSS
-    // keyed off `data-lang` on the wrapper, so lazily-built sections inherit
-    // the mode with no re-render — and the selector doubles as a signal of
-    // what kind of text this is before any section is opened.
-    if (shell && /class="lang-grc"/.test(text)) {
-      mountLangSelector(shell, wrapper);
+    // Interlinear texts get a Language row in the `Aa` panel: Both (default) /
+    // Greek / English. Visibility is CSS keyed off `data-lang` on the wrapper,
+    // so lazily-built sections inherit the mode with no re-render. The panel is
+    // already mounted by the shell at this point — it has to be, since it also
+    // carries size and measure — so this only reveals the row.
+    if (/class="lang-grc"/.test(text)) {
+      opts.typePanel?.setLanguages(wrapper);
     }
 
     // Contents sidebar, from the table of contents generated at build time.
@@ -243,14 +243,20 @@ export default {
     };
 
     const toc = sections.length && opts.tocId ? await loadToc(opts.tocId) : null;
-    if (toc && shell) {
+    // A module chapter has no generated table of contents — its panel lists the
+    // module's other chapters instead, which is the only view of the module's
+    // shape available from inside one of them.
+    const chapters = opts.chapters?.length ? opts.chapters : null;
+    if ((toc || chapters) && shell) {
       const viewport = shell.querySelector('.reader__viewport');
       if (viewport) {
         sidebar = mountTocSidebar({
           toc,
+          chapters,
           shell,
           viewport,
-          passages: await loadPassages(opts.tocId),
+          work: opts.work,
+          passages: opts.tocId ? await loadPassages(opts.tocId) : null,
           onNavigate: (path) => {
             openSectionPath(wrapper, path);
             // On a narrow screen the sidebar is an overlay over the reading
@@ -262,11 +268,16 @@ export default {
       }
     }
 
-    // Sticky breadcrumb naming the section under the top of the viewport, so a
+    // Sticky locator naming the section under the top of the viewport, so a
     // reader deep inside a chapter can see where they are and climb back out.
-    // Only worth mounting when the document actually has sections to be lost in.
+    //
+    // Mounted on every prose text now, not only sectioned ones: the toolbar no
+    // longer carries the title, so this bar is the only thing naming the work,
+    // and a sectionless text would otherwise be anonymous. With no sections it
+    // renders exactly one crumb — the title — which is the intended resting
+    // state rather than a degraded one.
     let crumbs = null;
-    if (shell && sections.length) {
+    if (shell) {
       crumbs = mountSectionBreadcrumb(shell, wrapper, opts.title || '', {
         onChain: (path) => sidebar?.setCurrent(path),
         contents: sidebar ? {
@@ -567,35 +578,6 @@ function finalizeSubtree(root, blocksById) {
   renderLatexPlaceholdersIn(root, blocksById);
 }
 
-// Language-display selector for interlinear (bilingual) texts. The chosen
-// mode persists across texts and visits.
-const LANG_MODE_KEY = 'enchiridion:lang-mode';
-const LANG_MODES = ['both', 'en', 'grc'];
-
-function mountLangSelector(shell, wrapper) {
-  const actions = shell.querySelector('.reader__actions');
-  if (!actions || actions.querySelector('.reader__lang-select')) return;
-
-  const select = document.createElement('select');
-  select.className = 'reader__lang-select';
-  select.title = 'Language display';
-  select.setAttribute('aria-label', 'Language display');
-  select.innerHTML = `
-    <option value="both">Interlinear</option>
-    <option value="en">English</option>
-    <option value="grc">Greek</option>
-  `;
-
-  let saved = 'both';
-  try { saved = localStorage.getItem(LANG_MODE_KEY) || 'both'; } catch { /* unavailable */ }
-  if (!LANG_MODES.includes(saved)) saved = 'both';
-  select.value = saved;
-  wrapper.dataset.lang = saved;
-
-  select.addEventListener('change', () => {
-    wrapper.dataset.lang = select.value;
-    try { localStorage.setItem(LANG_MODE_KEY, select.value); } catch { /* unavailable */ }
-  });
-
-  actions.insertBefore(select, actions.firstElementChild);
-}
+// The language selector used to live here as a toolbar <select>. It is a row
+// in the `Aa` panel now — see readers/type-panel.js, which owns the mode, the
+// storage key and the `data-lang` write.

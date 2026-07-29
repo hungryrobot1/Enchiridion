@@ -23,7 +23,6 @@ const PROSE_FORMATS = new Set(['markdown', 'md', 'html', 'txt']);
 export async function renderReader(container, options) {
   const {
     title,
-    subtitle,
     backLabel,
     backHref,
     path,
@@ -42,11 +41,7 @@ export async function renderReader(container, options) {
   shell.className = 'reader';
   shell.innerHTML = `
     <header class="reader__header">
-      <a class="reader__back" href="${backHref}">&larr; ${backLabel}</a>
-      <div class="reader__title-block">
-        <h1 class="reader__title">${title}</h1>
-        ${subtitle ? `<p class="reader__subtitle">${subtitle}</p>` : ''}
-      </div>
+      <a class="reader__back" href="${backHref}" title="Back to ${backLabel}" aria-label="Back to ${backLabel}">&larr;</a>
       <div class="reader__actions">
         ${isPdf ? `
           <div class="reader__pdf-controls" hidden>
@@ -56,8 +51,11 @@ export async function renderReader(container, options) {
           </div>
         ` : ''}
         ${options.tocId ? `
-          <button class="reader__btn reader__read-btn" type="button" aria-pressed="false"></button>
+          <button class="reader__btn reader__read" type="button" aria-pressed="false" aria-label="Mark as read">
+            <span class="reader__read-pip" aria-hidden="true"></span>
+          </button>
         ` : ''}
+        <span class="reader__sep" aria-hidden="true"></span>
         <button class="reader__btn reader__fullscreen" title="Toggle fullscreen">&#x26F6;</button>
       </div>
     </header>
@@ -78,7 +76,11 @@ export async function renderReader(container, options) {
   container.appendChild(shell);
 
   const fullscreenCleanup = setupFullscreenToggle(shell);
-  const typeCleanup = isProse ? mountTypePanel(shell) : () => {};
+  // The panel mounts before the text is fetched, so it cannot yet know whether
+  // this is a bilingual text. The reader tells it after the fact via
+  // `setLanguages`, which is why this is a handle rather than a cleanup fn.
+  const typePanel = isProse ? mountTypePanel(shell) : null;
+  const typeCleanup = typePanel ? typePanel.destroy : () => {};
   const readCleanup = options.tocId ? mountReadToggle(shell, options.tocId) : () => {};
 
   const contentEl = shell.querySelector('.reader__content');
@@ -107,9 +109,18 @@ export async function renderReader(container, options) {
       wirePdfControls(shell, controls);
       shell.querySelector('.reader__pdf-controls')?.removeAttribute('hidden');
     } else {
-      readerCleanup = await reader.render(contentEl, url, shell, { layout, title, tocId: options.tocId });
+      readerCleanup = await reader.render(contentEl, url, shell, {
+        layout, title, tocId: options.tocId, work: options.work,
+        chapters: options.chapters, typePanel,
+      });
       if (fmt === 'markdown' || fmt === 'md') {
         rewriteRelativeMdLinks(contentEl, options.linkRewriter);
+      } else {
+        // Only the markdown reader mounts a locator bar. The other prose
+        // formats (8 texts — Riemann, Dijkstra, Berners-Lee among them) would
+        // otherwise show the work's name NOWHERE now that the toolbar title is
+        // gone, so they get a bar with the one crumb they can support.
+        mountStaticLocator(shell, title);
       }
     }
   } catch (err) {
@@ -125,19 +136,25 @@ export async function renderReader(container, options) {
   };
 }
 
-// "Mark as read" — one bit per text. The label states the action when unread
-// and the state when read, so the button never leaves you guessing which of
-// the two it is showing.
+// "Mark as read" — one bit per text, shown as a ring that fills.
+//
+// It used to be a labelled button, which meant it changed width every time it
+// was pressed ("Mark as read" → "Read"), shoving the rest of the toolbar
+// sideways under the cursor that had just clicked it. The pip is a fixed box.
+// The cost is that the two states are no longer named anywhere on screen — the
+// tooltip and the aria-label are now the only words — and that is the intended
+// trade: this is a state pip, not a labelled button, and the explicit textual
+// treatment of read state lives on the syllabus page instead.
 function mountReadToggle(shell, id) {
-  const btn = shell.querySelector('.reader__read-btn');
+  const btn = shell.querySelector('.reader__read');
   if (!btn) return () => {};
 
   const paint = () => {
     const read = isRead(id);
-    btn.textContent = read ? 'Read' : 'Mark as read';
     btn.setAttribute('aria-pressed', String(read));
-    btn.title = read ? 'Mark as unread' : 'Mark as read';
-    btn.classList.toggle('reader__read-btn--on', read);
+    btn.setAttribute('aria-label', read ? 'Mark as unread' : 'Mark as read');
+    btn.title = read ? 'Read — click to mark unread' : 'Mark as read';
+    btn.classList.toggle('reader__read--on', read);
   };
 
   const onClick = () => { toggleRead(id); paint(); };
@@ -145,6 +162,28 @@ function mountReadToggle(shell, id) {
   paint();
 
   return () => btn.removeEventListener('click', onClick);
+}
+
+// A locator bar with no sections to locate: just the title crumb, scrolling to
+// the top. Same markup and classes as the real one so it is the same object to
+// look at, and skipped entirely if a reader already mounted its own.
+function mountStaticLocator(shell, title) {
+  const viewport = shell.querySelector('.reader__viewport');
+  if (!viewport || !title || shell.querySelector('.reader__locator')) return;
+
+  const bar = document.createElement('nav');
+  bar.className = 'reader__locator';
+  bar.setAttribute('aria-label', 'Section location');
+
+  const crumb = document.createElement('button');
+  crumb.type = 'button';
+  crumb.className = 'reader__crumb reader__crumb--current';
+  crumb.textContent = title;
+  crumb.title = `Go to the top of ${title}`;
+  crumb.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  bar.appendChild(crumb);
+  shell.insertBefore(bar, viewport);
 }
 
 function renderChapterNav({ prev, next }) {

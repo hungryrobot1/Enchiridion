@@ -153,6 +153,41 @@ function renderNodes(nodes, ancestors, depth) {
   return ul;
 }
 
+// The module's chapters, as real links — these navigate to another route,
+// unlike a section row, which opens something on the page you are already on.
+// Numbered because a module is a sequence and the order is the pedagogy.
+function renderChapters(chapters) {
+  const ul = document.createElement('ul');
+  ul.className = 'reader__toc-list';
+
+  chapters.forEach((ch, i) => {
+    const li = document.createElement('li');
+    li.className = 'reader__toc-item';
+    if (ch.current) li.classList.add('reader__toc-item--current');
+
+    const row = document.createElement('div');
+    row.className = 'reader__toc-row reader__toc-row--l1';
+
+    const num = document.createElement('span');
+    num.className = 'reader__toc-chapter-n';
+    num.textContent = String(i + 1).padStart(2, '0');
+    row.appendChild(num);
+
+    const link = document.createElement('a');
+    link.className = 'reader__toc-label';
+    link.href = ch.href;
+    link.textContent = ch.title;
+    // The chapter you are already reading is a label, not a destination.
+    if (ch.current) link.setAttribute('aria-current', 'page');
+    row.appendChild(link);
+
+    li.appendChild(row);
+    ul.appendChild(li);
+  });
+
+  return ul;
+}
+
 function approxWords(words) {
   if (!words) return '';
   if (words < 1000) return String(words);
@@ -187,13 +222,13 @@ function topLevelNoun(sections) {
  * and scroll to it — the reader owns that, because opening a section means
  * building its lazy ancestors.
  */
-export function mountTocSidebar({ toc, shell, viewport, onNavigate, passages }) {
+export function mountTocSidebar({ toc, chapters, shell, viewport, onNavigate, passages, work }) {
   const aside = document.createElement('aside');
   aside.className = 'reader__toc';
   aside.hidden = true;
 
-  const sectionCount = countDescendants(toc.sections);
-  const topLevel = toc.sections.length;
+  const sectionCount = toc ? countDescendants(toc.sections) : 0;
+  const topLevel = toc ? toc.sections.length : 0;
 
   aside.innerHTML = `
     <div class="reader__toc-head">
@@ -205,6 +240,37 @@ export function mountTocSidebar({ toc, shell, viewport, onNavigate, passages }) 
   `;
 
   const body = aside.querySelector('.reader__toc-body');
+
+  // The work's identity, at the head of the panel that names its structure.
+  // This used to sit in the reader's toolbar, where it repeated the first crumb
+  // and cost 40px of every screen; here it reads as a title page, and the ☰
+  // that opens it is the control directly above.
+  if (work?.title) {
+    const head = document.createElement('div');
+    head.className = 'reader__toc-titlepage';
+
+    const titleEl = document.createElement('p');
+    titleEl.className = 'reader__toc-title';
+    titleEl.textContent = work.title;
+    head.appendChild(titleEl);
+
+    const byline = [work.author, work.year].filter(Boolean).join(' · ');
+    if (byline) {
+      const el = document.createElement('p');
+      el.className = 'reader__toc-byline';
+      el.textContent = byline;
+      head.appendChild(el);
+    }
+
+    if (work.translator) {
+      const el = document.createElement('p');
+      el.className = 'reader__toc-translator';
+      el.textContent = `tr. ${work.translator}`;
+      head.appendChild(el);
+    }
+
+    body.appendChild(head);
+  }
 
   // The syllabus's recommendations sit above the structure rather than as a
   // filter over it, so both are in one place and the tree keeps exactly one
@@ -248,15 +314,25 @@ export function mountTocSidebar({ toc, shell, viewport, onNavigate, passages }) 
     body.appendChild(rec);
   }
 
-  body.appendChild(renderNodes(toc.sections, [], 0));
-
   const foot = aside.querySelector('.reader__toc-foot');
-  const unit = topLevelNoun(toc.sections);
-  foot.textContent = [
-    unit ? `${topLevel} ${unit}S` : null,
-    `${sectionCount} SECTIONS`,
-    `${approxWords(toc.words)} WORDS`,
-  ].filter(Boolean).join(' · ');
+
+  if (chapters?.length) {
+    // A module chapter's contents is its SIBLINGS, not its own headings.
+    // Chapters are short and single-scroll by design, so a section tree of one
+    // of them says little; what a reader actually wants here is the rest of the
+    // module — which is also the only place the module's shape is visible from
+    // inside a chapter.
+    body.appendChild(renderChapters(chapters));
+    foot.textContent = `${chapters.length} CHAPTERS`;
+  } else {
+    body.appendChild(renderNodes(toc.sections, [], 0));
+    const unit = topLevelNoun(toc.sections);
+    foot.textContent = [
+      unit ? `${topLevel} ${unit}S` : null,
+      `${sectionCount} SECTIONS`,
+      `${approxWords(toc.words)} WORDS`,
+    ].filter(Boolean).join(' · ');
+  }
 
   viewport.insertBefore(aside, viewport.firstChild);
 

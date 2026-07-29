@@ -4,7 +4,7 @@ import { loadIndex } from '../lib/index-loader.js';
 import { loadSupplements } from '../lib/supplement-loader.js';
 import { loadModules } from '../lib/module-loader.js';
 import { displayStatusForText, displayStatusForContent, STATUS_LABEL } from '../lib/content-status.js';
-import { readCount } from '../lib/read-state.js';
+import { readCount, isRead } from '../lib/read-state.js';
 
 const TYPE_BADGE = {
   text: 'text',
@@ -160,6 +160,14 @@ function paintProgress(root) {
     el.textContent = n ? `${n} of ${total} read` : `${total} texts`;
     el.classList.toggle('gt-section__progress--some', n > 0);
   });
+
+  // The per-row half of the same fact. The era counter says how far along you
+  // are; this says which ones — without it you can watch the score move and
+  // not see what moved it, and a text read at five stations needs every one
+  // of its appearances to agree.
+  root.querySelectorAll('[data-read-id]').forEach(el => {
+    el.classList.toggle('gt-item--read', isRead(el.dataset.readId));
+  });
 }
 
 // One circle per row carrying two facts at once: its COLOUR is the content's
@@ -183,11 +191,23 @@ function renderItem(item, isTributary, ctx, station) {
   const classes = ['gt-item'];
   if (isTributary) classes.push('gt-item--tributary');
 
+  // Read state belongs to the WORK, and a station is one appearance of it, so
+  // marking Scripture read marks all five of its rows. That is the honest
+  // reading of one bit per text — but a station row must not then claim the
+  // station is finished, because four of the five are not. Stationed rows keep
+  // their title at full strength and say what the mark means in words.
+  if (station) classes.push('gt-item--stationed');
+
+  // Only texts carry read state — a supplement is apparatus, and marking one
+  // finished is not a thing the program asks anyone to track. `data-read-id`
+  // is what paintProgress looks for, so rows without it are simply skipped.
+  const readAttr = item.type === 'text' ? ` data-read-id="${item.id}"` : '';
+
   return `
-    <article class="${classes.join(' ')}">
+    <article class="${classes.join(' ')}"${readAttr}>
       ${renderMark(status, isTributary, statusLabel)}
       <div class="gt-item__body">
-        <a class="gt-item__title" href="${resolved.href}">${station ? `<span class="gt-item__station">${station}</span>` : ''}${resolved.title}</a>
+        <a class="gt-item__title" href="${resolved.href}">${station ? `<span class="gt-item__station">${station}</span>` : ''}${resolved.title}${item.type === 'text' ? `<span class="gt-item__read" title="${station ? 'The whole work is marked read' : 'Marked read'}"></span>` : ''}</a>
         ${resolved.meta ? `<span class="gt-item__meta">${resolved.meta}</span>` : ''}
         ${item.passages ? renderPassages(item.passages) : ''}
         ${item.note ? `<span class="gt-item__note">${item.note}</span>` : ''}

@@ -17,7 +17,6 @@ export async function renderSupplementReader(container, params) {
 
   return renderReader(container, {
     title: supplement.title,
-    subtitle: supplement.type ? supplement.type.replace(/-/g, ' ') : '',
     backLabel: back.label,
     backHref: back.href,
     path: supplement.path,

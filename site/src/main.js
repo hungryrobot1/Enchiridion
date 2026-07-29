@@ -3,6 +3,7 @@ import './styles/variables.css';
 import './styles/layout.css';
 
 import { route, startRouter } from './router.js';
+import { startTheme } from './lib/theme.js';
 import { renderHeader } from './components/header.js';
 import { renderLanding } from './pages/landing.js';
 import { renderAbout } from './pages/about.js';
@@ -13,6 +14,10 @@ import { renderChangelog } from './pages/changelog.js';
 import { renderTextReader } from './pages/text-reader.js';
 import { renderSupplementReader } from './pages/supplement-reader.js';
 import { renderModuleReader } from './pages/module-reader.js';
+
+// The theme attribute is already on <html> — an inline script in index.html
+// sets it before first paint. This attaches the listeners that keep it current.
+startTheme();
 
 const app = document.getElementById('app');
 app.appendChild(renderHeader());

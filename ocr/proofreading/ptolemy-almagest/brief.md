@@ -115,6 +115,40 @@ The same token can also stand for different signs in different places. `\pm` is
 confirmed to appear for both Sagittarius and Gemini. So report what *this*
 occurrence shows; never reason from what a token meant elsewhere.
 
+**A SIGN CAN ALSO DISGUISE ITSELF AS ORDINARY CONTENT. This is the worst case in
+the whole text, and the reason the list above is not enough.**
+
+Taurus `♉` looks like the numeral **8**, and the machine transcribed it as one —
+23 times. Every instance sits where a sign belongs, immediately before a
+longitude, so the result reads as a perfectly ordinary run of numbers:
+
+> the mean position of the moon in longitude: **8 4;25°**
+> [Epoch] Position of Apogee: **8 16;10°**
+
+Nothing is malformed. Nothing renders wrongly. No search for a strange symbol
+will ever return these, because a digit is not strange in a book of numbers.
+Only somebody reading the page can see that a glyph stands there.
+
+Confirmed four ways, so treat `8` before a longitude as Taurus and read for
+others like it: the sentence `[8 19;38° − φ 27;15° =] 22;23°` only balances if
+`8` is Taurus and `φ` is Aries; the apogee at `8 25°` and the perigee at
+`πₖ 25°` must be 180° apart, and Taurus-to-Scorpius is exactly that; the print
+shows `♉ 25°` where the markdown has `8 25°`; and one passage names Taurus in
+the very sentence.
+
+**So the question to carry through every page is not "is this symbol wrong" but
+"should there be a symbol here at all, and could one be hiding as something
+that looks legitimate?"** Candidates worth suspecting, none yet confirmed:
+Libra `♎` as `=` or `≈`, Aries `♈` as `Y` or `ϒ`, Leo `♌` as `sl` or `Q`,
+Capricorn `♑` as `13` or `Ve`. A bare `9` is confirmed to occupy a sign slot at
+least once and has not been identified — if you meet one, say which sign the
+page shows.
+
+**And sometimes the sign is simply SPELLED OUT.** Where Toomer quotes an earlier
+observer he writes the name in words — "the sun was sighted in Leo 8½°… the
+apparent position of the moon was Taurus 12½°". Those are correct as printed and
+must not be converted to glyphs. Check the page before changing a spelled name.
+
 Two hints, both from the print itself. The signs are shaped as you would expect
 (Aries as ram's horns, Pisces as two arcs joined by a bar, Leo as a looped
 flourish), and Virgo and Scorpius are both m-forms distinguished by their tails,

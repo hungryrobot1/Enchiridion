@@ -55,6 +55,57 @@ Practical consequence for repair: a fix script cannot anchor on a wrong token
 here. It has to insert at a quoted position, so these findings must carry enough
 surrounding text to locate them unambiguously.
 
+## Taurus became the numeral 8 — the sign that hides as legitimate content
+
+**Adjudicated 2026-07-30. `8` standing immediately before a longitude is Taurus,
+23 occurrences.** Not applied yet; recorded here because the identification is
+settled and the repair should go with the rest of the zodiac.
+
+This one matters out of proportion to its size, because it is the first member
+of a class every method we own is blind to. The census finds tokens that look
+wrong. A digit does not look wrong in a book of numbers, and these read as
+ordinary sequences — `mean position of the moon in longitude: 8 4;25°`,
+`[Epoch] Position of Apogee: 8 16;10°`. Nothing is malformed, nothing renders
+badly, and no filter on strange symbols will ever return them. **So the
+248-occurrence zodiac count is a lower bound for a third reason: signs that
+became ordinary characters were never in the counted population at all.**
+
+Confirmed four independent ways, which is why it is settled rather than likely:
+
+| Evidence | What it shows |
+|---|---|
+| Arithmetic | `[8 19;38° − φ 27;15° =] 22;23°` balances exactly on Taurus 19;38 − Aries 27;15. Gemini gives 52;23, Cancer 82;23 — nothing else is near. |
+| Geometry | The Venus apogee `8 25°` and perigee `πₖ 25°` must be 180° apart. Taurus 25 → Scorpius 25 is exactly 180°. Eight occurrences ride on this. |
+| The page | p0486 prints `♉ 25°` where the markdown reads `8 25°`. |
+| Toomer's own prose | "[to Auriga and **Taurus**] when it passed by it. Thus its position … was 8 23½°." |
+
+A fifth check confirms it is a *sign* rather than a numeral without identifying
+which: `[8 22;31° − 8 0;19° =] 22;12°` is only a sentence if `8` is a sign on
+both sides.
+
+**Method worth reusing: a stated difference between two longitudes is an
+equation, and it solves for the signs.** Signs span 30° from Aries 0°, so an
+unknown token contributes a multiple of 30 and only one value fits. That
+identifies glyphs without reading the page, and it works precisely where glyph
+shape fails.
+
+### Still open in this class
+
+- **`9` occupies a sign slot** at least once ("the longitude of the mean sun was
+  9 29½°") and is NOT identified. The surrounding elongation does not close on
+  any sign cleanly, so a neighbouring value is probably misread too.
+- **Suspected, unconfirmed:** Libra `♎` as `=` or `≈`; Aries `♈` as `Y`/`ϒ`;
+  Capricorn `♑` as `13`. Needs pages.
+- **New unidentified tokens** seen in sign slots: `≲`, `πr`, `\pi_{\mathrm{r}}`,
+  `m_{\mathrm{L}}`, `\triangle`, `Φ`.
+- **Signs are sometimes SPELLED OUT and correct.** Where Toomer quotes an earlier
+  observer: "the sun was sighted in Leo 8½° … the apparent position of the moon
+  was Taurus 12½°". Do not convert those to glyphs.
+- **A fraction error found in passing, in that same Hipparchus quotation.** Leo
+  8;30 to Taurus 12;30 is 86;00, but the text states the distance as 86;15. One
+  of the three numbers is misread — `Leo 8¾` or `Taurus 12¼` would both close
+  it. Needs the page.
+
 ## Other families
 
 | Family | Decision | Status |

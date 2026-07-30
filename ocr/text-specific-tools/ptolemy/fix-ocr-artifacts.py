@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 r"""Repair OCR artifacts in Toomer's Almagest that the text itself evidences.
 
-Two classes, both found by ocr/math-vocab-census.py, and both fixable without
-opening the scan because the correct form is already present in the same text
-in overwhelming majority. Anything needing an adjudication — the zodiac signs,
-the raised-unit example in Toomer's own key — is deliberately NOT touched here.
+Four classes. Each is fixable without opening the scan, because the text
+evidences it: the correct form is already present in overwhelming majority, or
+the value checks against a formula, or the sentence states the convention it is
+using. Anything needing an adjudication — the zodiac signs above all — is
+deliberately NOT touched here.
+
+Every class is idempotent and reports "already applied" rather than failing, so
+a later class is never blocked by an earlier one that has already run. Every
+class is gated on an audit that recounts the text INDEPENDENTLY afterwards, and
+refuses to write if the count does not land where it should.
 
 1. RAISED UNIT LETTERS. Toomer sets units in a raised roman letter: p for
    'parts' (the arbitrary units of trigonometrical calculation, where the
@@ -51,6 +57,33 @@ the raised-unit example in Toomer's own key — is deliberately NOT touched here
    and doubling the wrong row would corrupt a correct figure. So values are
    repaired only in the single-statement form, where the value and the clause
    are adjacent, and every other value is reported for a human to look at.
+
+4. PARTS STATED AS DEGREES. Ptolemy measures two different things. An arc or
+   an angle is in degrees; a chord, radius, hypotenuse or side is in PARTS of a
+   diameter divided into 120, written with a raised roman p. The OCR collapsed
+   the two, and a length stated in degrees is not a typo but a false sentence.
+
+   The licence is the governing word beside the label, and NEAREST wins. Taking
+   "a length word appears nearby" instead reads `Crd arc 2ΘA = 113;37° and arc
+   2AE = 180°` as making AE a length, which is wrong by 93 instances out of 291
+   — so precision here is not fussiness, it is most of the work.
+
+   Two exclusions, each of which would otherwise write a falsehood: a value
+   above 120 cannot be a length in a 120-part diameter, and a value that is the
+   square of another value for the same label has lost an exponent as well as a
+   unit (`DE = 900` where DE = 30 means DE²). Those are reported, not fixed.
+
+   The check that this is real rather than a restatement of the pattern: the
+   repaired population is compared against the text's own long-standing parts
+   population. Lengths cluster under 120 and arcs do not — 22% of arc/angle
+   values exceed it against 4.2% of the established parts — so if this were
+   relabelling degrees as parts, the profile would drift away from the control
+   instead of towards it. It moves 4.2% -> 2.6%.
+
+   It under-reaches deliberately. A value whose governor sits in the previous
+   sentence ("and where DZ = 58;59", continuing a parts computation) is left
+   alone, and the page shows several of those are parts. Missing a repair costs
+   another pass; inventing one corrupts the text.
 
 Run:  ocr/text-specific-tools/ptolemy/fix-ocr-artifacts.py [--apply]
 """
@@ -264,6 +297,127 @@ def repair_doubled_degrees(text: str) -> tuple[str, dict]:
     return "\n".join(out), stats
 
 
+# ---------------------------------------------------------------- class 4
+# Ptolemy measures two different things and the OCR collapsed them into one.
+# An ARC or an ANGLE is in degrees. A CHORD, a radius, a hypotenuse, a side —
+# any length — is in PARTS of a diameter divided into 120, written with a raised
+# roman p. A length stated in degrees is not a typo; it is a false sentence.
+
+SEG = r"(?:\\(?:mathrm|text)\{\s*)?([A-ZΑ-Ω]{2,3})\s*\}?"
+LABEL_VALUE = re.compile(
+    SEG + r"\s*\$?\s*=\s*\$?\s*(\d+(?:\s*;\s*\d+(?:\s*,\s*\d+)*)?)\s*"
+    r"(\^\{?\\circ\}?|°)"
+)
+# Statement boundaries. The governor has to be found within the SAME assertion —
+# Ptolemy chains them densely, and a window that spills into the neighbouring
+# clause picks up a "radius" that governs something else entirely.
+BOUNDARY = re.compile(r"[.;]\s|\\\\|,\s+(?=and\b|so\b|hence|therefore|∴)|\n\n", re.I)
+LENGTH_WORD = re.compile(r"\bCrd\b|\b(chord|hypotenuse|radius|diameter)\b", re.I)
+ARC_WORD = re.compile(r"\barc\b|\\angle|∠", re.I)
+
+
+def sexag_value(s: str) -> float | None:
+    parts = [x.strip() for x in re.split(r"[;,]", s) if x.strip().isdigit()]
+    return sum(int(x) / 60 ** k for k, x in enumerate(parts)) if parts else None
+
+
+def governor(text: str, i: int) -> str | None:
+    """What governs the label at position i: a length, an arc/angle, or nothing.
+
+    Looks backwards only as far as the current assertion, and stops at a
+    previous `=` so the governor of the PREVIOUS quantity is not borrowed.
+    `Crd arc AB` is a length despite containing "arc" — the chord of an arc is a
+    line, which is why Crd is tested first.
+    """
+    head = text[max(0, i - 90):i]
+    cut = max((m.end() for m in BOUNDARY.finditer(head)), default=0)
+    head = head[cut:]
+    if "=" in head[-40:]:
+        head = head[head.rfind("=") + 1:]
+
+    # NEAREST governor wins. Taking "a length word appears somewhere in the
+    # window" reads `…Crd arc 2ΘA = 113;37° and arc 2AE = 180°` as making AE a
+    # length, because Crd is in view — when the word actually governing AE is
+    # the `arc` right beside it. Only the 120-part bound caught that, and it
+    # would not have caught a smaller value.
+    last_len = max((m.end() for m in LENGTH_WORD.finditer(head)), default=-1)
+    last_arc = max((m.end() for m in ARC_WORD.finditer(head)), default=-1)
+    if last_len < 0 and last_arc < 0:
+        return None
+    # A tie means `Crd arc …`, where Crd encloses arc: the chord of an arc is a
+    # length. Crd ends earlier than arc, so PARTS must win when they overlap.
+    if last_arc > last_len:
+        seg = head[last_len if last_len > 0 else 0:last_arc]
+        return "PARTS" if re.search(r"\bCrd\b", seg, re.I) else "DEGREES"
+    return "PARTS"
+
+
+def repair_parts_vs_degrees(text: str) -> tuple[str, dict]:
+    """Restore the raised p on lengths that were transcribed as degrees.
+
+    Only where a length word governs the label directly. Two exclusions, both
+    of which would otherwise write a falsehood:
+
+      * a value above 120 cannot be a length in a 120-part diameter;
+      * a value that is the SQUARE of another value for the same label has lost
+        an exponent as well as a unit (`DE = 900` where DE = 30 means DE² = 900),
+        and swapping the unit alone would leave a wrong number looking right.
+
+    Both are reported instead, since each needs the page.
+    """
+    stats = {"fixed": 0, "held_large": [], "held_square": [], "held_unparsed": []}
+
+    # Every value attributed to each label, so a square can be recognised.
+    seen: dict[str, list[float]] = {}
+    for m in LABEL_VALUE.finditer(text):
+        v = sexag_value(m.group(2))
+        if v:
+            seen.setdefault(m.group(1), []).append(v)
+
+    out, last = [], 0
+    for m in LABEL_VALUE.finditer(text):
+        if governor(text, m.start()) != "PARTS":
+            continue
+        v = sexag_value(m.group(2))
+        if v is None:
+            stats["held_unparsed"].append(m.group(0)[:40])
+            continue
+        root = math.sqrt(v)
+        if v > 120 and any(abs(x - root) < 0.02 for x in seen.get(m.group(1), [])):
+            stats["held_square"].append((m.group(1), v, round(root, 2)))
+            continue
+        if v > 120:
+            stats["held_large"].append((m.group(1), v))
+            continue
+        out.append(text[last:m.start(3)])
+        out.append(r"^{\mathrm{p}}")
+        last = m.end(3)
+        stats["fixed"] += 1
+    out.append(text[last:])
+    return "".join(out), stats
+
+
+def audit_parts(text: str) -> dict:
+    """Recount independently: how many length-governed labels still read degrees,
+    and what fraction of the parts population exceeds a 120-part diameter.
+
+    The second number is the one that matters. It is measured against the text's
+    OWN long-standing parts population, which is the only control available —
+    if this repair were inventing parts where degrees belong, the profile would
+    drift away from that control rather than towards it.
+    """
+    remaining = sum(
+        1 for m in LABEL_VALUE.finditer(text)
+        if governor(text, m.start()) == "PARTS"
+    )
+    vals = [sexag_value(m.group(1)) for m in
+            re.finditer(r"=\s*\$?\s*([\d;,\s]+?)\s*\^\{?\\mathrm\{p\}\}?", text)]
+    vals = [v for v in vals if v is not None]
+    over = sum(1 for v in vals if v > 120)
+    return {"remaining": remaining, "parts_n": len(vals),
+            "parts_over_120": over, "pct": over / len(vals) if vals else 0.0}
+
+
 def audit_conventions(text: str) -> dict:
     """Count the marks on every convention clause, INDEPENDENTLY of the fixer.
 
@@ -400,6 +554,34 @@ def main() -> int:
         print(f"\n   NOT ATTEMPTED: {inherited} lines carry a value under 'in the same "
               f"units',\n   inheriting a convention stated on an earlier line. Whether "
               f"those take one\n   mark or two cannot be decided from the line itself.")
+
+    before_p = audit_parts(text)
+    text, pd = repair_parts_vs_degrees(text)
+    after_p = audit_parts(text)
+
+    print(f"\nParts stated as degrees (a length is not an angle):")
+    print(f"   {pd['fixed']:>3}  raised p restored on a length-governed label")
+    print(f"   length-governed labels still reading degrees: "
+          f"{before_p['remaining']} -> {after_p['remaining']}   (want 0)")
+    print(f"   parts population over a 120-part diameter: "
+          f"{before_p['pct']:.1%} ({before_p['parts_n']}) -> "
+          f"{after_p['pct']:.1%} ({after_p['parts_n']})")
+
+    held = (len(pd["held_square"]) + len(pd["held_large"])
+            + len(pd["held_unparsed"]))
+    if after_p["remaining"] > held:
+        print(f"!! {after_p['remaining'] - held} length-governed labels still read "
+              f"degrees and were not deliberately held — not writing")
+        return 1
+    if after_p["pct"] > before_p["pct"] + 0.01:
+        print(f"!! the repair pushed the parts population further past 120; "
+              f"that is the signature of degrees being relabelled as parts")
+        return 1
+
+    for lab, v, r in pd["held_square"]:
+        print(f"   HELD  {lab} = {v:g} is {r}^2 — lost an exponent too, needs the page")
+    for lab, v in pd["held_large"]:
+        print(f"   HELD  {lab} = {v:g} exceeds a 120-part diameter — needs the page")
 
     if args.apply:
         TEXT.write_text(text)

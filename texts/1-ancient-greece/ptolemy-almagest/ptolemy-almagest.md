@@ -3809,7 +3809,7 @@ Now since EZ = ZX + EX, EZ ≈ 2;29½° where the radius of the eccentre = 60°.
 
 Therefore the radius of the eccentre is approximately 24 times the distance between the centres of the eccentre and the ecliptic.
 
-Now, since EZ:ZX = 2;29½ : 1;2, ZX will be about 49;46° where hypotenuse EZ = 120°.
+Now, since EZ:ZX = 2;29½ : 1;2, ZX will be about 49;46° where hypotenuse EZ = 120^{\mathrm{p}}.
 
 Therefore, in the circle about right-angled triangle EZX, arc ZX ≈ 49°.
 
@@ -3835,7 +3835,7 @@ Using these quantities, then, let us first see what the greatest difference betw
 Now since, where BD, the radius, equals $60^{\circ}$, DE, the eccentricity, equals $2;30^{\circ}$ (according to the ration 24:1), in the circle about right-angled triangle BDE,
 
 $$
-\mathrm{DE} = 5^{\circ} \text{ where hypotenuse } \mathrm{BD} = 120^{\circ},
+\mathrm{DE} = 5^{\circ} \text{ where hypotenuse } \mathrm{BD} = 120^{\mathrm{p}},
 $$
 
 and arc $\mathrm{DE} \approx 4;46^{\circ}$.
@@ -3894,10 +3894,10 @@ $$
 Therefore the corresponding chords
 
 $$
-\left. \begin{array}{l} DK = 60^\circ \\ \text{and KΘ} = 103; 55^\circ \end{array} \right\} \quad \text{where hypotenuse DΘ} = 120^\circ.
+\left. \begin{array}{l} DK = 60^\circ \\ \text{and KΘ} = 103; 55^\circ \end{array} \right\} \quad \text{where hypotenuse DΘ} = 120^{\mathrm{p}}.
 $$
 
-Therefore, where DΘ = 2;30° and radius ZΘ = 60°, $DK = 1; 15^\circ \text{ and } \Theta K = 2; 10^\circ.$
+Therefore, where DΘ = 2;30° and radius ZΘ = 60^{\mathrm{p}}, $DK = 1; 15^\circ \text{ and } \Theta K = 2; 10^\circ.$
 
 Now since DK + KΘZ = ZD, the hypotenuse ZD ≈ 62;11°.
 
@@ -3998,7 +3998,7 @@ $$
 $$
 $DZ \approx 57;51^\circ \text{ where } DK = 1;15^\circ.$
 
-Therefore where hypotenuse $DZ = 120^\circ$, $DK = 2;34^\circ$.
+Therefore where hypotenuse $DZ = 120^{\mathrm{p}}$, $DK = 2;34^\circ$.
 
 And, in the circle about right-angled triangle $DZK$,
 $\operatorname{arc} DK = 2;27^\circ$,
@@ -4150,7 +4150,7 @@ Therefore in the circle about right-angled triangle DΘK,
 $$
 \text{arc ΘK} = 131^{\circ},
 $$
-and its chord ΘK = 109;12° where the diameter DΘ = 120°.
+and its chord ΘK = 109;12^{\mathrm{p}} where the diameter DΘ = 120^{\mathrm{p}}.
 
 ![img-64.jpeg](images/img-64.jpeg)
 Fig. 3.20
@@ -4737,7 +4737,7 @@ $$
 $$
 
 $$
-\text{and } \mathrm{EZ} = 7;7,0^{\circ} \text{ where hypotenuse } \mathrm{DE} = 120^{\circ}.
+\text{and } \mathrm{EZ} = 7;7,0^{\circ} \text{ where hypotenuse } \mathrm{DE} = 120^{\mathrm{p}}.
 $$
 
 Similarly, since arc BA = 53;35,
@@ -4747,7 +4747,7 @@ But, in the same units, ∠ BDA = 6;48°°.
 Therefore, by subtraction, ∠ EAZ = 46;47°° in the same units.
 Therefore in the circle about right-angled triangle AEZ,
 arc EZ = 46;47°
-and EZ = 47;38,30° where hypotenuse EA = 120°.
+and EZ = 47;38,30° where hypotenuse EA = 120^{\mathrm{p}}.
 Therefore where EZ = 7;7,0° and ED = 120°,
 AE = 17;55,32°.
 Again, since arc BAG subtends 0;37° of the ecliptic,
@@ -4755,7 +4755,7 @@ the angle at its centre, ∠ BDG = { 0;37° where 4 right angles = 360°
 1;14°° where 2 right angles = 360°°.
 Therefore in the circle about right-angled triangle DEH,
 arc EH = 1;14°
-and EH = 1;17,30° where hypotenuse DE = 120°.
+and EH = 1;17,30° where hypotenuse DE = 120^{\mathrm{p}}.
 
 Similarly, since arc BAG = 150;26°,
 the angle [it subtends] at the circumference,
@@ -4764,7 +4764,7 @@ But ∠ BDG = 1;14°° in the same units.
 Therefore, by subtraction, ∠ EGD = 149;12°°.
 Therefore in the circle about right-angled triangle GEH,
 arc EH = 149;12°
-and EH = 115;41,21° where hypotenuse GE = 120°.
+and EH = 115;41,21° where hypotenuse GE = 120^{\mathrm{p}}.
 Therefore where EH = 1;17,30° and DE = 120°,
 GE = 1;20,23°,
 and, as we showed, EA = 17;55,32° in the same units.
@@ -4776,7 +4776,7 @@ arc GΘ = 96;51°
 and arc EΘ = 83;9° (complement).
 So the corresponding chords
 $$
-\left. \begin{array}{c} GΘ = 89;46,14° \\ \text{and} \ EΘ = 79;37,55° \end{array} \right\} \text{where hypotenuse} \ GE = 120°.
+\left. \begin{array}{c} GΘ = 89;46,14° \\ \text{and} \ EΘ = 79;37,55° \end{array} \right\} \text{where hypotenuse} \ GE = 120^{\mathrm{p}}.
 $$
 
 Therefore where GE = 1;20,23°
@@ -4805,12 +4805,12 @@ $$BD.DE = LD.DM; $$
 ![img-70.jpeg](images/img-70.jpeg)
 Fig. 4.6
 
-and we have shown that where the epicycle diameter LKM = 120°,
+and we have shown that where the epicycle diameter LKM = 120^{\mathrm{p}},
 BE = 117;37,32° and ED = 631;13,48°.
 Therefore, by addition, BD = 748;51,20°.
 Therefore LD.DM = BD.DE = 472700;5,32°.
 Furthermore, since LD.DM + KM = DK,
-and the radius of the epicycle, KM = 60°,
+and the radius of the epicycle, KM = 60^{\mathrm{p}},
 KM = 3600°,
 and DK = 472700;5,32° + 3600° = 476300;5,32°.
 Therefore DK, the radius of the deferent circle concentric to the ecliptic, is 690;8,42° where KM, the radius of the epicycle, is 60°.
@@ -4823,7 +4823,7 @@ Therefore, by addition, DEN = 690;2,34°.
 
 Fig. 4.7
 
-Therefore in the circle about right-angled triangle DNK, DN = 119;58,57° where hypotenuse DK = 120°,
+Therefore in the circle about right-angled triangle DNK, DN = 119;58,57° where hypotenuse DK = 120^{\mathrm{p}},
 and arc DN ≈ 178;2°.
 ∴ ∠ DKN = {
 178;2°° where 2 right angles = 360°°
@@ -4882,7 +4882,7 @@ $$
 \arc EZ = 15;24^{\circ}
 $$
 
-and $EZ = 16;4,42^{\circ}$ where hypotenuse $DE = 120^{\circ}$.
+and $EZ = 16;4,42^{\circ}$ where hypotenuse $DE = 120^{\mathrm{p}}$.
 
 Similarly, since $\arc AB = 110;21^{\circ}$, the angle [subtended by it] at the circumference,
 
@@ -4900,7 +4900,7 @@ $$
 \arc EZ = 94;57^{\circ}
 $$
 
-and $EZ = 88;26,17^{\circ}$ where hypotenuse $BE = 120^{\circ}$.
+and $EZ = 88;26,17^{\circ}$ where hypotenuse $BE = 120^{\mathrm{p}}$.
 
 Therefore where $EZ = 16;4,42^{\circ}$ and $DE = 120^{\circ}$,
 
@@ -4920,7 +4920,7 @@ $$
 \arc EH = 12;42^{\circ}
 $$
 
-and $EH = 13;16,19^{\circ}$ where hypotenuse $DE = 120^{\circ}$.
+and $EH = 13;16,19^{\circ}$ where hypotenuse $DE = 120^{\mathrm{p}}$.
 
 Similarly, since $\arc ABG = 191;57^{\circ}$, the angle [subtended by it] at the circumference,
 
@@ -4938,7 +4938,7 @@ $$
 \arc EH = 179;15^{\circ}
 $$
 
-and $EH = 119;59,50^{\circ}$ where hypotenuse $GE = 120^{\circ}$.
+and $EH = 119;59,50^{\circ}$ where hypotenuse $GE = 120^{\mathrm{p}}$.
 
 Reading ὁμοίως for ὅμως ὡς μή ὑποκειμένου τούτου at,4-5. This would mean ‘Nevertheless, without this as an assumption’; but the location of the apogee on arc AB is (and must be) assumed in Fig. 4.8. I suppose that ὁμοίως (‘similarly’) was corrupted to ὅμως (‘however’) and the rest then added as an ancient gloss.
 
@@ -4962,7 +4962,7 @@ and arc EΘ = 98;24° (supplement).
 Therefore the corresponding chords
 GΘ = 78;24,37°
 and EΘ = 90;50,22°
-} where hypotenuse EG = 120°.
+} where hypotenuse EG = 120^{\mathrm{p}}.
 
 Therefore where GE = 13;16,20°,
 GΘ = 8;40,20° and EΘ = 10;2,49°.
@@ -4977,7 +4977,7 @@ and BG = ΘB + GΘ = 213;43,38°.
 Therefore BG = 14;37,10° where DE = 120° and GE = 13;16,20°.
 
 But where the diameter of the epicycle is 120°,
-BG = 78;24,37° (chord of arc BG, which is 81;36°).
+BG = 78;24,37^{\mathrm{p}} (chord of arc BG, which is 81;36°).
 
 Therefore where BG = 78;24,37° and the epicycle diameter is 120°,
 DE = 643;36,39° and GE = 71;11,4°.
@@ -4987,11 +4987,11 @@ Therefore arc GE of the epicycle = 72;46,10°.
 And, by hypothesis, arc GEA = 168;3°.
 
 Therefore, by subtraction, arc EA = 95;16,50°
-and therefore its chord AE = 88;40,17°
+and therefore its chord AE = 88;40,17^{\mathrm{p}}
 where the epicycle diameter is 120° and where ED = 643;36,39°.
 
 Furthermore, since arc EA was shown to be less than a semi-circle, the centre of the epicycle will, obviously, fall outside segment EA. Take the centre as point K [Fig. 4.9], and draw line DMKL, so that, again, point L represents the apogee and point M the perigee. Then
-AD.DE = LD.DM, and we have shown that, where the epicycle diameter LKM = 120°,
+AD.DE = LD.DM, and we have shown that, where the epicycle diameter LKM = 120^{\mathrm{p}},
 AE = 88;40,17° and ED = 643;36,39°
 (thus, by addition, AD = 732;16,56°).
 
@@ -5407,13 +5407,13 @@ $$
 Therefore in the circle about right-angled triangle GEΘ
 arc GΘ = 15;20°
 and the corresponding chord
-GΘ ≈ 16° where the hypotenuse GE = 120°.
+GΘ ≈ 16° where the hypotenuse GE = 120^{\mathrm{p}}.
 So, where GΘ, the radius of the epicycle, is, as was shown, 5;15°
 and EA, the distance from the centre of the ecliptic to the apogee of the
 eccentre, is 60°,
 EG, the distance from the centre of the ecliptic to the perigee of the eccentre,
 is 39;22°.
-Therefore, by addition, diameter AG = 99;22°,
+Therefore, by addition, diameter AG = 99;22^{\mathrm{p}},
 and DA, the radius of the eccentre = 49;41°
 and ED, the distance between the centres of the ecliptic and the eccentre =
 10;19.°
@@ -5468,7 +5468,7 @@ $$
 \left.\begin{array}{l}
 DK = 119;59^\circ \\
 \text{and } EK = 2;14^\circ
-\end{array}\right\} \text{ where hypotenuse } DE = 120^\circ.
+\end{array}\right\} \text{ where hypotenuse } DE = 120^{\mathrm{p}}.
 $$
 
 Therefore where DE, the distance between the centres, is $10;19^\circ$
@@ -5515,7 +5515,7 @@ $$
 and the corresponding chord
 
 $$
-BL = 1;36^\circ \text{ where the hypotenuse } EB = 120^\circ.
+BL = 1;36^\circ \text{ where the hypotenuse } EB = 120^{\mathrm{p}}.
 $$
 
 Therefore where BE = $48;48^\circ$ and BH, the radius of the epicycle, is $5;15^\circ$,
@@ -5574,7 +5574,7 @@ $$
 \arc E X = 23;42^\circ
 $$
 
-and $ EX = 24;39^\circ $ where hypotenuse $ BE = 120^\circ $.
+and $ EX = 24;39^\circ $ where hypotenuse $ BE = 120^{\mathrm{p}} $.
 
 Therefore where $ BE = 48;48^\circ $ $ EX = 10;2^\circ $.
 
@@ -5596,7 +5596,7 @@ $$
 \arc E X = 154;10^\circ
 $$
 
-and $ EX = 116;58^\circ $ where hypotenuse $ EN = 120^\circ $.
+and $ EX = 116;58^\circ $ where hypotenuse $ EN = 120^{\mathrm{p}} $.
 
 Therefore where $ EX = 10;2^\circ $ and DE, the distance between the centres, is $ 10;19^\circ $,
 
@@ -5653,7 +5653,7 @@ $$ \text{BL} = 1; 12^\circ. $$
 
 So in the circle about right-angled triangle BHL,
 
-$$ \text{BL} = 27; 34^\circ \text{ where hypotenuse BH} = 120^\circ, \text{} $$
+$$ \text{BL} = 27; 34^\circ \text{ where hypotenuse BH} = 120^{\mathrm{p}}, \text{} $$
 
 and
 
@@ -5687,7 +5687,7 @@ Again, since $\angle \text{AEB}$ is given as $181^{\circ\circ}$ where 2 right an
 
 $$ \text{arc EX} = 156; 50^\circ $$
 
-and $\text{EX} = 117; 33^\circ$ where hypotenuse $\text{EN} = 120^\circ.$
+and $\text{EX} = 117; 33^\circ$ where hypotenuse $\text{EN} = 120^{\mathrm{p}}.$
 
 Therefore where $\text{EX} = 10; 8^\circ$ and DE, the line between the centres, is $10; 19^\circ$,
 
@@ -5785,7 +5785,7 @@ So the corresponding chords and $ DL = 8;56^\circ $.
 
 And, since $ BL = BD - DL $, and, by subtraction [of EL], $ EB = 43;43^\circ $, where MB, the radius of the epicycle, is $ 5;15^\circ $.
 
-Therefore in the circle about right-angled triangle BEM, where hypotenuse $ EB = 120^\circ $, BM = $ 14;25^\circ $
+Therefore in the circle about right-angled triangle BEM, where hypotenuse $ EB = 120^{\mathrm{p}} $, BM = $ 14;25^\circ $
 
 and arc $ BM = 13;48^\circ $.
 
@@ -5869,7 +5869,7 @@ DM = 30;39^\circ \\
 \end{array}
 \right\}
 $$
-where hypotenuse $DE = 120^\circ$.
+where hypotenuse $DE = 120^{\mathrm{p}}$.
 
 Therefore where $DE$, the distance between the centres, is $10;19^\circ$, and $BD$, the radius of the eccentre, is $49;41^\circ$,
 
@@ -5892,7 +5892,7 @@ and, by addition [of EM], $BME = 59;36^\circ$, where $B\Theta$, the radius of th
 Therefore in the circle about right-angled triangle $BE\Theta$,
 
 $$
-\text{where hypotenuse } EB = 120^\circ,
+\text{where hypotenuse } EB = 120^{\mathrm{p}},
 $$
 $$
 B\Theta = 10;34^\circ,
@@ -6073,7 +6073,7 @@ $$
 \text{arc } AL = 2;14^\circ
 $$
 
-and Crd arc AL = 2;21° where hypotenuse AD = 120°.
+and Crd arc AL = 2;21° where hypotenuse AD = 120^{\mathrm{p}}.
 
 But LD is negligibly smaller than AD.
 
@@ -6096,7 +6096,7 @@ and arc LK = 80;24° (supplement).
 Therefore the corresponding chords
 
 $$
-\left. \begin{array}{l} AL = 91;39^\circ \\ \text{and } LK = 77;27^\circ \end{array} \right\} \text{ where hypotenuse AK = 120°}.
+\left. \begin{array}{l} AL = 91;39^\circ \\ \text{and } LK = 77;27^\circ \end{array} \right\} \text{ where hypotenuse AK = 120^{\mathrm{p}}}.
 $$
 
 Therefore where AK, the radius of the earth, is 1°,
@@ -6113,7 +6113,7 @@ Therefore where AL = 0;46°, LD = 39;6°.
 
 And, in the same units, KL = 0;39°.
 
-and the radius of the earth, KA = 1°.
+and the radius of the earth, KA = 1^{\mathrm{p}}.
 
 Therefore where KA, the radius of the earth, is 1°, by addition, KLD, which represents the distance of the moon at the observation, is 39;45°.
 
@@ -6137,7 +6137,7 @@ Therefore the corresponding chords
 
 DM = ZN = 47;59°
 and EM = EN = 110;0°
-} where hypotenuse DE = hypotenuse EZ = 120°.
+} where hypotenuse DE = hypotenuse EZ = 120^{\mathrm{p}}.
 
 Therefore where DE = EZ = 10;19° and DB, the radius of the eccentric, is 49;41°, DM = ZN = 4;8°
 
@@ -6147,10 +6147,10 @@ And since BM = BD - DM, BM = 49;31°.
 
 And BE = [BM - EM =] 40;4°, and, by subtraction [of EN from BE], BN = 30;37° where ZN = 4;8°.
 
-And since BN + ZN = BZ, hypotenuse BZ = 30;54°.
+And since BN + ZN = BZ, hypotenuse BZ = 30;54^{\mathrm{p}}.
 
 Therefore in the circle about right-angled triangle BZN,
-where hypotenuse BZ = 120°,
+where hypotenuse BZ = 120^{\mathrm{p}},
 ZN = 16;2°
 and arc ZN = 15;21°.
 ∴ ∠ ZBN = { 15;21°° where 2 right angles = 360°°
@@ -6353,7 +6353,7 @@ $$
 \therefore \mathrm{AD} = \left\{ \begin{array}{l} 1209;8^{\mathrm{p}} \text{ for the sun's distance} \\ 63;18^{\mathrm{p}} \text{ for the moon's first limit} \\ 52;58^{\mathrm{p}} \text{ for the moon's second limit} \\ 43;1^{\mathrm{p}} \text{ for the moon's third limit} \\ 32;41^{\mathrm{p}} \text{ for the moon's fourth limit} \end{array} \right. \tag{1a}
 $$
 
-Therefore, where hypotenuse AD = 120°, then (assuming the same order, to avoid repetition)
+Therefore, where hypotenuse AD = 120^{\mathrm{p}}, then (assuming the same order, to avoid repetition)
 
 | [Sun] | [1a] | [1b] | [2a] | [2b] |
 | --- | --- | --- | --- | --- |
@@ -6648,8 +6648,8 @@ and get either $\mathrm{ZE} \approx 42;46^\circ$
 or $\mathrm{ZD} \approx 47;44^\circ$.
 
 We multiply 4;20 by 120 and divide by 42;46 and 47;44 separately.
-Then $\mathrm{EL} \approx 12;8^\circ$ where hypotenuse $\mathrm{ZE} = 120^\circ$
-and $\mathrm{DK} \approx 10\ \mathrm{ph}$ where hypotenuse $\mathrm{ZD} = 120^\circ$.
+Then $\mathrm{EL} \approx 12;8^\circ$ where hypotenuse $\mathrm{ZE} = 120^{\mathrm{p}}$
+and $\mathrm{DK} \approx 10\ \mathrm{ph}$ where hypotenuse $\mathrm{ZD} = 120^{\mathrm{p}}$.
 
 The arc corresponding to the chord $12;8^\circ$ is about $11\ \mathrm{ph}$,
 and the arc corresponding to the chord $10\ \mathrm{ph}$ is about $10\ \mathrm{ph}$.
@@ -7455,7 +7455,7 @@ It is obvious that angles BAG and AGE, which correspond to the time of mid-eclip
 
 Then let us take as an example an eclipse in which half the sun’s diameter is obscured at mid-eclipse. Let A be the sun’s centre. Then in all cases (since we assume the moon at mean distance) AE comes to [0;15,40° + 0;16,40° =] 0;32,20°, and AG, which is less than that by half the sun’s diameter, comes to 0;16,40°.
 
-Therefore, since AG = 16;40° where hypotenuse EA = 32;20° (according to the magnitude of obscuration assumed), where hypotenuse AE = 120°
+Therefore, since AG = 16;40° where hypotenuse EA = 32;20^{\mathrm{p}} (according to the magnitude of obscuration assumed), where hypotenuse AE = 120^{\mathrm{p}}
 
 AG = 61;51°, and, in the circle about right-angled triangle AGE arc AG = 62;2°.
 
@@ -7465,13 +7465,13 @@ $$
 
 Again, to take the case of a lunar eclipse, let A be the centre of the shadow. Then, since, as before, we assume the moon at mean distance, AE will always be the same amount, namely [0;43,20° + 0;16,40° =] 60 minutes, and AD, likewise, will always be [0;43,20° - 0;16,40° =] 26;40 minutes. Let the moon be eclipsed in a situation such that the magnitude is 18 digits. Thus AG is again less than AD by half the diameter [of the moon] and, by subtraction [of 16;40′ from 26;40′], AG comes to 10;0 minutes.
 
-Then, where hypotenuse AE = 120°, AG = 20;0°, and, in the circle about right-angled triangle AGE, arc AG = 19;12°.
+Then, where hypotenuse AE = 120^{\mathrm{p}}, AG = 20;0°, and, in the circle about right-angled triangle AGE, arc AG = 19;12°.
 
 $$
 \therefore \angle \mathrm{AEG} = \angle \mathrm{BAE} = \left\{ \begin{array}{l} 19;12^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 9;36^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
 $$
 
-Similarly, where hypotenuse AD = 120°, AG = 45°, and, in the circle about right-angled triangle AGD, arc AG = 44;2°.
+Similarly, where hypotenuse AD = 120^{\mathrm{p}}, AG = 45°, and, in the circle about right-angled triangle AGD, arc AG = 44;2°.
 
 $$
 \therefore \angle \mathrm{ADG} = \angle \mathrm{BAD} = \left\{ \begin{array}{l} 44;2^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 22;1^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
@@ -10433,7 +10433,7 @@ Therefore in the circle about right-angled triangle ABD
 
 $$ \text{arc } AD = 38;6^{\circ} $$
 
-and its chord, $AD \approx 39;9^{\circ}$ where hypotenuse $AB = 120^{\circ}$.
+and its chord, $AD \approx 39;9^{\circ}$ where hypotenuse $AB = 120^{\mathrm{p}}$.
 
 Again, since the greatest elongation from the mean as evening-star in Aries was observed as $23\frac{1}{4}^{\circ}$,
 
@@ -10443,7 +10443,7 @@ Therefore in the circle about right-angled triangle GBE
 
 $$ \text{arc } GE = 46;30^{\circ} $$
 
-and its chord, $GE = 47;22^{\circ}$ where hypotenuse $BG = 120^{\circ}$.
+and its chord, $GE = 47;22^{\mathrm{p}}$ where hypotenuse $BG = 120^{\mathrm{p}}$.
 
 Therefore where $GE = 39;9^{\circ}$ and $AB = 120^{\circ}$
 
@@ -10615,7 +10615,7 @@ And since LZ + DL = DZ, DZ = 55; 34°
 
 where the radius of the epicycle (i.e. ZΘ and ZK) = 22; 30°, by hypothesis.
 
-Therefore where hypotenuse DZ = 120°
+Therefore where hypotenuse DZ = 120^{\mathrm{p}}
 
 ΘZ = ZK = 48; 35°;
 
@@ -10697,7 +10697,7 @@ and $\text{arc GM} = 127;42^\circ$ (supplement).
 Therefore the corresponding chords
 Therefore where $\text{GH} = 2;11^\circ$,
 and $\text{HZ}$, the radius of the eccentric carrying the epicycle, is $60^\circ$,
-$\text{HM} = 0;58^\circ$ and $\text{GM} = 1;58^\circ$.
+$\text{HM} = 0;58^{\mathrm{p}}$ and $\text{GM} = 1;58^\circ$.
 Hence $\text{MZ}$, being a negligible amount less than $\text{HZ}$, the hypotenuse [of triangle $\text{HMZ}$], is the same, $60^\circ$,
 and, by subtraction [of $\text{GM}$ from $\text{MZ}$], $\text{GZ} = 58;2^\circ$.
 Similarly, since $\angle \text{DGN} = 85;8^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$,
@@ -10712,7 +10712,7 @@ and, by subtraction [of $\text{GN}$ from $\text{GZ}$], $\text{NZ} = 55;49^\circ$
 Hence hypotenuse $\text{DZ} = \sqrt{ \text{DN}^2 + \text{NZ}^2 } = 55;51^\circ$
 where the radius of the epicycle $= 22;30^\circ$.
 Therefore in the circle about right-angled triangle $\text{DZN}$,
-where hypotenuse $\text{DZ} = 120^\circ$,
+where hypotenuse $\text{DZ} = 120^{\mathrm{p}}$,
 $\text{DN} = 4;22^\circ$
 and $\text{arc DN} = 4;11^\circ$.
 And, by addition [of $\angle \text{DZN}$ and $\angle \text{DGN}$], $\angle \text{EDZ} = 89;19^\circ$.
@@ -10720,12 +10720,12 @@ And the whole angle $\text{EDL} = 135^\circ$ in the same units, since the planet
 Therefore by subtraction [of $\angle \text{EDZ}$ from $\angle \text{EDL}$], $\angle \text{ZDL} = 45;41^\circ$.
 Therefore in the circle about right-angled triangle $\text{DZX}$,
 $\text{arc ZX} = 45;41^\circ$
-and $\text{ZX} = 46;35^\circ$ where hypotenuse $\text{DZ} = 120^\circ$.
-Therefore where hypotenuse $\text{DZ} = 55;51^\circ$ and the radius of the epicycle,
-$\text{ZL} = 22;30^\circ$,
+and $\text{ZX} = 46;35^\circ$ where hypotenuse $\text{DZ} = 120^{\mathrm{p}}$.
+Therefore where hypotenuse $\text{DZ} = 55;51^{\mathrm{p}}$ and the radius of the epicycle,
+$\text{ZL} = 22;30^{\mathrm{p}}$,
 $\text{ZX} = 21;41^\circ$.
 And, in the circle about right-angled triangle $\text{ZLX}$,
-where hypotenuse $\text{ZL} = 120^\circ$,
+where hypotenuse $\text{ZL} = 120^{\mathrm{p}}$,
 $\text{ZX} = 115;39^\circ$.
 $\therefore \text{arc ZX} = 149;2^\circ$
 
@@ -10795,10 +10795,10 @@ $$
 \text{and GM} = 46;24^{\circ}
 \end{array}
 $$
-where hypotenuse GH = 120°.
+where hypotenuse GH = 120^{\mathrm{p}}.
 
 Therefore where GH = 5;33° (i.e. where ZH, the radius of the eccentric, is $60^{\circ}$),
-HM = 5;7°
+HM = 5;7^{\mathrm{p}}
 and GM = 2;10°.101
 
 101 2:9° would be more accurate by any method of computation
@@ -10905,7 +10905,7 @@ $$
 \arc AG = 89;36^{\circ}
 $$
 
-and its chord AZ ≈ 84;33° where hypotenuse AE = 120°.
+and its chord AZ ≈ 84;33° where hypotenuse AE = 120^{\mathrm{p}}.
 
 Similarly, since $\angle GEH$ subtends the greatest elongation at the perigee, which is, by hypothesis, $47\frac{1}{3}^{\circ}$,
 
@@ -10922,7 +10922,7 @@ $$
 \arc GH = 94;40^{\circ}
 $$
 
-and its chord GH ≈ 88;13° where hypotenuse EG = 120°.
+and its chord GH ≈ 88;13° where hypotenuse EG = 120^{\mathrm{p}}.
 
 ![img-125.jpeg](images/img-125.jpeg)
 Fig. 10.1
@@ -10937,7 +10937,7 @@ and obviously, by addition, AG = 235;1°
 
 and its half, AD ≈ 117;30°, and, by subtraction, the distance between the centres, DE = 2;29°.
 
-Therefore where the radius of the eccentric, AD = 60°, the distance between the centres, DE ≈ 1½°, and the radius of the epicycle, AZ = 43½°.
+Therefore where the radius of the eccentric, AD = 60^{\mathrm{p}}, the distance between the centres, DE ≈ 1½°, and the radius of the epicycle, AZ = 43½°.
 
 ## 3. On the ratios of the eccentricities of the planet [Venus]
 
@@ -10960,7 +10960,7 @@ Therefore its half, $\angle ZBE = 91;55^{\circ\circ}$ where 2 right angles = $36
 
 Therefore in the circle about right-angled triangle BEZ arc EZ = 91;55°
 
-and EZ = 86;16° where hypotenuse BE = $120^{\circ}$.
+and EZ = 86;16° where hypotenuse BE = $120^{\mathrm{p}}$.
 
 Therefore where the radius of the epicycle, $\mathrm{EZ} = 43;10^{\mathrm{p}}$
 $\mathrm{BE} = 60;3^{\mathrm{p}}$.
@@ -10970,7 +10970,7 @@ $$
 $$
 Therefore in the circle about right-angled triangle BDE
 $\mathrm{arc} \quad \mathrm{BD} = 4;45^{\circ}$
-$\mathrm{and} \quad \mathrm{BD} \approx 4;59^{\circ} \text{ where hypotenuse } \mathrm{BE} = 120^{\circ}$.
+$\mathrm{and} \quad \mathrm{BD} \approx 4;59^{\circ} \text{ where hypotenuse } \mathrm{BE} = 120^{\mathrm{p}}$.
 Therefore where $\mathrm{BE} = 60;3^{\mathrm{p}}$ and the radius of the epicycle is $43;10^{\mathrm{p}}$, $\mathrm{BD} \approx 2\frac{1}{2}^{\mathrm{p}}$.
 But we showed [p. 472] that the distance between B, the centre of the ecliptic, and the centre of the eccentricity on which the epicycle centre is always carried, is $1\frac{1}{4}^{\mathrm{p}}$ in the same units; thus it is half of BD.
 
@@ -11017,9 +11017,9 @@ GL = 54;46°
 
 and BL = 106;47°
 
-where hypotenuse BG = 120°.
+where hypotenuse BG = 120^{\mathrm{p}}.
 
-Therefore where BG = 1;15° and GZ, the radius of the eccentric, is 60°, GL = 0;34°
+Therefore where BG = 1;15° and GZ, the radius of the eccentric, is 60°, GL = 0;34^{\mathrm{p}}
 
 and BL = 1;7°.
 
@@ -11047,13 +11047,13 @@ $$ \angle \text{EDK} = \begin{cases} 18; 30^\circ \text{ where 4 right angles} =
 
 Therefore, by addition [of ∠ EDK to ∠ EDZ], ∠ KDZ = 93;30°° where 2 right angles = 360°°, and, in the circle about right-angled triangle DZN, arc ZN = 93;30°.
 
-Therefore its chord, ZN = 87;25° where ZD = 120°.
+Therefore its chord, ZN = 87;25^{\mathrm{p}} where ZD = 120°.
 
 So where ZD = 58;54°, i.e. where the epicycle radius ZK is 43;10°.
 
 ZN = 42;54°.
 
-∴ ZN = 119;18° where hypotenuse ZK = 120°, and, in the circle about right angled triangle ZKN, arc ZN = 167;38°.
+∴ ZN = 119;18° where hypotenuse ZK = 120^{\mathrm{p}}, and, in the circle about right angled triangle ZKN, arc ZN = 167;38°.
 
 ∴ ∠ ZKD = 167;38° where ∠ ZDK has already been found as 93;30°.
 
@@ -11089,10 +11089,10 @@ $$
 &\mathrm{GL} = 66;52^\circ \\
 &\text{and} \quad \mathrm{BL} = 99;38^\circ
 \end{aligned}
-\quad \text{where hypotenuse} \quad \mathrm{BG} = 120^\circ.
+\quad \text{where hypotenuse} \quad \mathrm{BG} = 120^{\mathrm{p}}.
 $$
 
-Therefore where $\mathrm{BG} = 1;15^\circ$ and the radius of the eccentric, $\mathrm{GZ} = 60^\circ$,
+Therefore where $\mathrm{BG} = 1;15^\circ$ and the radius of the eccentric, $\mathrm{GZ} = 60^{\mathrm{p}}$,
 
 $$
 \begin{aligned}
@@ -11129,12 +11129,12 @@ Therefore, by subtraction, $\angle ZDK = 83;2^\circ$ in the same units,
 and, in the circle about right-angled triangle DZN,
 $\arc ZN = 83;2^\circ$.
 
-So its chord $ZN = 79;33^\circ$ where hypotenuse $DZ = 120^\circ$,
-and where $DZ = 58;59^\circ$, i.e. where the epicycle radius $ZK = 43;10^\circ$,
+So its chord $ZN = 79;33^{\mathrm{p}}$ where hypotenuse $DZ = 120^{\mathrm{p}}$,
+and where $DZ = 58;59^\circ$, i.e. where the epicycle radius $ZK = 43;10^{\mathrm{p}}$,
 $ZN = 39;7^\circ$.
 
 Therefore, in the circle about right-angled triangle ZKN,
-where hypotenuse $ZK = 120^\circ$
+where hypotenuse $ZK = 120^{\mathrm{p}}$
 $ZN = 108;45^\circ$
 
 and arc ZN ≈ 130°.
@@ -11261,7 +11261,7 @@ $$
 $$
 
 $$
-\arc \mathrm{EH} = 119;45^{\circ} \text{ where hypotenuse } \mathrm{DE} = 120^{\circ}.
+\arc \mathrm{EH} = 119;45^{\circ} \text{ where hypotenuse } \mathrm{DE} = 120^{\mathrm{p}}.
 $$
 
 Similarly, since arc BG = 95;28°
@@ -11283,7 +11283,7 @@ $$
 $$
 
 $$
-\arc \mathrm{EH} = 86;19^{\circ} \text{ where hypotenuse } \mathrm{BE} = 120^{\circ}.
+\arc \mathrm{EH} = 86;19^{\circ} \text{ where hypotenuse } \mathrm{BE} = 120^{\mathrm{p}}.
 $$
 
 Therefore where EH, as we showed, is $119;45^{\circ}$, and $\mathrm{ED} = 120^{\circ}$,
@@ -11309,7 +11309,7 @@ $$
 $$
 
 $$
-\arc \mathrm{EZ} = 37;57^{\circ} \text{ where hypotenuse } \mathrm{DE} = 120^{\circ}.
+\arc \mathrm{EZ} = 37;57^{\circ} \text{ where hypotenuse } \mathrm{DE} = 120^{\mathrm{p}}.
 $$
 
 Similarly, since arc ABG of the eccentric is, by addition [of $81;44^{\circ}$ to $95;28^{\circ}$], $177;12^{\circ}$,
@@ -11328,7 +11328,7 @@ $$
 \text{arc } \mathrm{EZ} = 145;56^\circ
 $$
 
-and $\mathrm{EZ} = 114;44^\circ$ where hypotenuse $\mathrm{AE} = 120^\circ$.
+and $\mathrm{EZ} = 114;44^\circ$ where hypotenuse $\mathrm{AE} = 120^{\mathrm{p}}$.
 
 Therefore, where EZ, as was shown = 37;57°, and $\mathrm{ED} = 120^\circ$,
 
@@ -11358,7 +11358,7 @@ $$
 \mathrm{AΘ} = 78;31^\circ \\
 \text{and } \mathrm{EΘ} = 90;45^\circ
 \end{array}\right\}
-\quad \text{where hypotenuse } \mathrm{AE} = 120^\circ.
+\quad \text{where hypotenuse } \mathrm{AE} = 120^{\mathrm{p}}.
 $$
 
 Therefore where AE, as was shown, is 39;42°, and DE is given as 120°,
@@ -11405,7 +11405,7 @@ And, by addition, arc EABG = [177;12° + 21;41° =] 198;53°.
 
 Therefore the remaining arc GE = 161;7°
 
-and the corresponding chord GE = 118;22° where the diameter of the eccentric is 120°.
+and the corresponding chord GE = 118;22^{\mathrm{p}} where the diameter of the eccentric is 120°.
 
 Now if GE had been found equal to the diameter of the eccentric, it is obvious that the centre would lie on GE, and the ratio of the eccentricity would immediately be apparent. But, since it is not equal [to the diameter], but makes segment EABG greater than a semi-circle, it is clear that the centre of the eccentric will fall within the latter. Let it be at K [Fig. 10.9], and draw through
 
@@ -11414,7 +11414,7 @@ Fig. 10.9
 
 D and K the diameter through both centres, LKDM, and drop perpendicular KNX from K on to GE.
 
-Then, since, as we showed, $EG = 118;22^{\circ}$ where diameter LM = $120^{\circ}$,
+Then, since, as we showed, $EG = 118;22^{\circ}$ where diameter LM = $120^{\mathrm{p}}$,
 and $DE = 67;50^{\circ}$ in the same units,
 by subtraction, $GD = 50;32^{\circ}$ in the same units.
 Then, since ED.DG = LD.DM,
@@ -11426,15 +11426,15 @@ i.e. (LD.DM) + DK$$ = LK$$.
 Now the square on the half is 3600, and (LD.DM) = 3427;51,
 so DK = 3600 - 3427;51 = 172;9,
 and the distance between the centres,
-DK ≈ 13;7 where the radius of the eccentric, KL = $60^{\circ44}$.
+DK ≈ 13;7 where the radius of the eccentric, KL = $60^{\mathrm{p}}44}$.
 
 Furthermore, since
-GN = $\frac{1}{2}GE = 59;11^{\circ}$ where diameter LM = $120^{\circ}$,
+GN = $\frac{1}{2}GE = 59;11^{\circ}$ where diameter LM = $120^{\mathrm{p}}$,
 and, as we showed, GD = 50;32 in the same units,
 by subtraction, DN = 8;39 where DK was computed as 13;7.
 
 Therefore in the circle about right-angled triangle DKN,
-DN = 79;8 where hypotenuse DK = $120^{\circ}$,
+DN = 79;8 where hypotenuse DK = $120^{\mathrm{p}}$,
 and arc DN = 82;30.
 ∴ ∠ DKN = $\begin{cases} 82;30^{\circ0} & \text{where 2 right angles = } 360^{\circ\circ} \\ 41;15^{\circ} & \text{where 4 right angles = } 360^{\circ}. \end{cases}$
 
@@ -11475,7 +11475,7 @@ $$
 
 where hypotenuse $\mathrm{D}\Theta = 120^{\circ}$.
 
-Therefore where $\mathrm{D}\Theta = 6;33^{\circ}$ and the radius of the eccentric, DA = $60^{\circ}$, DF = 3;54° and FΘ = 5;16°.
+Therefore where $\mathrm{D}\Theta = 6;33^{\circ}$ and the radius of the eccentric, DA = $60^{\mathrm{p}}$, DF = 3;54° and FΘ = 5;16°.
 
 $$
 \begin{array}{l}
@@ -11587,9 +11587,9 @@ and arc ΘF = 101;22° (supplement).
 Therefore the corresponding chords
 DF = 76;2°
 and ΘF = 92;50°
-where hypotenuse DΘ = 120°.
+where hypotenuse DΘ = 120^{\mathrm{p}}.
 
-Therefore where the distance between the centres, DΘ = 6;33½°, and the radius of the eccentre, DG = 60°,
+Therefore where the distance between the centres, DΘ = 6;33½°, and the radius of the eccentre, DG = 60^{\mathrm{p}},
 DF = 4;9°
 and ΘF = 5;4°.
 
@@ -11599,7 +11599,7 @@ and, since ΘF = FQ,
 by subtraction, GQ = 54;47° where NQ (= 2DF) is computed as 8;18°.
 
 Hence hypotenuse [of right-angled triangle NGQ]
-NG = 55;25° in the same units.
+NG = 55;25^{\mathrm{p}} in the same units.
 
 Therefore, where NG = 120°, NQ = 17;59°,
 and, in the circle about right-angled triangle GNQ,
@@ -11607,7 +11607,7 @@ arc NQ = 17;14°
 ∴ ∠ NGQ = 17;14°° where 2 right angles = 360°°.
 
 Again, since NQ was shown to be 8;18°, and ΘQ [= 2FΘ] = 10;8°,
-where the radius of the eccentre, ΘH = 60°,
+where the radius of the eccentre, ΘH = 60^{\mathrm{p}},
 by subtraction, QH = 49;52° in the same units,
 and therefore hypotenuse NH [of right-angled triangle NHQ] = 50;33°.
 
@@ -11676,7 +11676,7 @@ Therefore the corresponding chords
 
 DF = 79;35°
 and FΘ = 89;50°
-where hypotenuse DΘ = 120°.
+where hypotenuse DΘ = 120^{\mathrm{p}}.
 
 Therefore where DΘ = 6° and hypotenuse [of right-angled triangle
 
@@ -11689,7 +11689,7 @@ And since DA - DF = FA, FA = 59;50° in the same units.
 
 Furthermore, since FΘ = FQ and NQ = 2DF, by addition, AQ = 64;20° where NQ = 7;57°.
 
-Hence hypotenuse [of right-angled triangle NAQ] NA = 64;52° in the same units.
+Hence hypotenuse [of right-angled triangle NAQ] NA = 64;52^{\mathrm{p}} in the same units.
 
 Therefore where NA = 120°, NQ = 14;44°, and, in the circle about right-angled triangle ANQ, arc NQ = 14;6°.
 
@@ -11713,9 +11713,9 @@ and arc FΘ = 99;38° (supplement).
 Therefore the corresponding chords
 DF = 77;26°
 and FΘ = 91;41°
-where hypotenuse DΘ = 120°.
+where hypotenuse DΘ = 120^{\mathrm{p}}.
 
-Therefore where DΘ = 6° and hypotenuse [of right-angled triangle DBF] DB = 60°,
+Therefore where DΘ = 6° and hypotenuse [of right-angled triangle DBF] DB = 60^{\mathrm{p}},
 DF = 3;52°
 and FΘ = 4;35°.
 
@@ -11725,7 +11725,7 @@ BF = 59;53° in the same units.
 And, by the same argument [as before], since FΘ = FQ, and NQ = 2 DF,
 by addition, BQ = 64;28° where NQ = 7;44°.
 
-Hence hypotenuse [of right-angled triangle BNQ] BN = 64;56° in the same units.
+Hence hypotenuse [of right-angled triangle BNQ] BN = 64;56^{\mathrm{p}} in the same units.
 
 Therefore, where hypotenuse $\mathrm{BN} = 120^{\mathrm{p}}$, $\mathrm{NQ} = 14;19^{\mathrm{p}}$, and, in the circle about right-angled triangle $\mathrm{BNQ}$,
 $\operatorname{arc} \mathrm{NQ} = 13;42^{\circ}$.
@@ -11996,8 +11996,8 @@ Fig. 10.18
 
 Therefore, in the circle about right-angled triangle BΘN,
 arc BN = 163;18°
-and BN = 118;43° where hypotenuse BΘ = 120°.
-Therefore where the radius of the epicycle, BΘ = 39;30°,
+and BN = 118;43° where hypotenuse BΘ = 120^{\mathrm{p}}.
+Therefore where the radius of the epicycle, BΘ = 39;30^{\mathrm{p}},
 and the distance between the centres, ED = 6°,
 BN = 39;3°.
 
@@ -12013,12 +12013,12 @@ $$
 and therefore its supplement, $\angle DEM = 158;20^\circ$ in the same units,
 in the circle about right-angled triangle DEM,
 arc DM = 158;20°
-and DM = 117;52° where hypotenuse DE = 120°.
+and DM = 117;52° where hypotenuse DE = 120^{\mathrm{p}}.
 Therefore where DE = 6° and BN, as was shown, is 39;3°,
 DM = NX = 5;54°.
 
-So, by subtraction, BX = 33;9° where the radius of the eccentre, BD = 60°.
-Therefore where hypotenuse [of right-angled triangle BDX] BD = 120°,
+So, by subtraction, BX = 33;9° where the radius of the eccentre, BD = 60^{\mathrm{p}}.
+Therefore where hypotenuse [of right-angled triangle BDX] BD = 120^{\mathrm{p}},
 BX = 66;18°,
 and, in the circle about right-angled triangle BDX,
 arc BX ≈ 67;4°.
@@ -12047,10 +12047,10 @@ $$
 &\mathrm{ZK} = 110;42^\circ \\
 &\text{and DK} = 46;18^\circ
 \end{aligned}
-\quad \text{where hypotenuse DZ} = 120^\circ.
+\quad \text{where hypotenuse DZ} = 120^{\mathrm{p}}.
 $$
 
-Therefore where $\mathrm{DZ} = 6^\circ$ and the radius of the eccentric, $\mathrm{DB} = 60^\circ$,
+Therefore where $\mathrm{DZ} = 6^\circ$ and the radius of the eccentric, $\mathrm{DB} = 60^{\mathrm{p}}$,
 
 $$
 \begin{aligned}
@@ -12146,7 +12146,7 @@ Fig. 11.1
 
 Therefore, in the circle about right-angled triangle EDH,
 arc EH = 72;58°
-and EH = 71;21° where hypotenuse DE = 120°.
+and EH = 71;21° where hypotenuse DE = 120^{\mathrm{p}}.
 Similarly, since arc BG = 33;26°,
 the angle [subtended by it] at the circumference,
 ∠ BEG = 33;26°° where 2 right angles = 360°°;
@@ -12155,7 +12155,7 @@ and, by subtraction [of ∠ BEG from ∠ EDH],
 
 Therefore, in the circle about right-angled triangle BEH,
 arc EH = 39;32°
-and EH = 40;35° where hypotenuse BE = 120°.
+and EH = 40;35° where hypotenuse BE = 120^{\mathrm{p}}.
 Therefore where EH, as we showed, is 71;21°, and ED = 120°,
 BE = 210;58°.
 
@@ -12166,7 +12166,7 @@ and its complement, ∠ ADE = 77;36°° in the same units.
 
 Therefore, in the circle about right-angled triangle DEZ,
 arc EZ = 77;36°
-and EZ = 75;12° where hypotenuse DE = 120°.
+and EZ = 75;12° where hypotenuse DE = 120^{\mathrm{p}}.
 Similarly, since arc ABG of the eccentric is, by addition [of 99;55° + 33;26°], 133;21°, the angle [subtended by it] at the circumference,
 ∠ AEG = 133;21°° where 2 right angles = 360°°.
 
@@ -12206,7 +12206,7 @@ and $\arc EΘ = 80;5^\circ$ (supplement).
 Therefore the corresponding chords
 
 $$
-A\Theta = 91;52^\circ \quad \text{where hypotenuse } EA = 120^\circ. \tag{}
+A\Theta = 91;52^\circ \quad \text{where hypotenuse } EA = 120^{\mathrm{p}}. \tag{}
 $$
 
 and
@@ -12273,14 +12273,14 @@ Hence $EDG \approx 119;50^\circ$ where the diameter of the eccentre is $120^\cir
 
 Now segment EABG is less than a semi-circle, so the centre of the eccentre will fall outside it. Let it, then, be at K [see Fig. 11.2], and draw through K and D the diameter through both centres, LKDM, and let the perpendicular from K to GE be produced as KNX.
 
-Then, where diameter LM = 120°, the whole line EG was shown to be 119;50°, and ED to be 64;17°;
+Then, where diameter LM = 120^{\mathrm{p}}, the whole line EG was shown to be 119;50°, and ED to be 64;17°;
 
 so, by subtraction, $GD = 55;33^\circ$ in the same units.
 
 So, since $ED.DG = LD.DM$,
 
 $$
-LD.DM = 3570;56^\circ \text{ where diameter } LM = 120^\circ.
+LD.DM = 3570;56^\circ \text{ where diameter } LM = 120^{\mathrm{p}}.
 $$
 
 But $LD.DM + DK = LK$ (i.e. the square on half the diameter).
@@ -12293,7 +12293,7 @@ $$
 
 Therefore the distance between the centres, $DK \approx 5;23^{\circ}$
 
-where the radius of the eccentre, $KL = 60^\circ$.
+where the radius of the eccentre, $KL = 60^{\mathrm{p}}$.
 
 ![img-146.jpeg](images/img-146.jpeg)
 Fig. 11.2
@@ -12301,12 +12301,12 @@ Fig. 11.2
 Furthermore, since
 
 $$
-\mathrm{GN} = \frac{1}{2} \mathrm{GE} = 59;55^{\circ} \text{ where diameter } \mathrm{LM} = 120^{\circ},
+\mathrm{GN} = \frac{1}{2} \mathrm{GE} = 59;55^{\circ} \text{ where diameter } \mathrm{LM} = 120^{\mathrm{p}},
 $$
 
 and GD was shown to be $55;33^{\circ}$ in the same units, by subtraction, $\mathrm{DN} = 4;22^{\circ}$ where $\mathrm{DK} = 5;23^{\circ}$.
 
-Therefore where hypotenuse [of right-angled triangle $\mathrm{DKN}$] $\mathrm{DK} = 120^{\circ}$, $\mathrm{DN} = 97;20^{\circ}$, and, in the circle about right-angled triangle $\mathrm{DKN}$,
+Therefore where hypotenuse [of right-angled triangle $\mathrm{DKN}$] $\mathrm{DK} = 120^{\mathrm{p}}$, $\mathrm{DN} = 97;20^{\circ}$, and, in the circle about right-angled triangle $\mathrm{DKN}$,
 
 $$
 \arc \mathrm{DN} = 108;24^{\circ}.
@@ -12490,10 +12490,10 @@ $$
 Therefore the corresponding chords
 
 $$
-\left. \begin{array}{c} DH = 65;6^{\circ} \\ \text{and} ZH = 100;49^{\circ} \end{array} \right\} \text{ where hypotenuse } DZ = 120^{\circ}.
+\left. \begin{array}{c} DH = 65;6^{\circ} \\ \text{and} ZH = 100;49^{\circ} \end{array} \right\} \text{ where hypotenuse } DZ = 120^{\mathrm{p}}.
 $$
 
-Therefore where $DZ = 2;42^{\circ}$ and the radius of the eccentric, $DG = 60^{\circ}$,
+Therefore where $DZ = 2;42^{\circ}$ and the radius of the eccentric, $DG = 60^{\mathrm{p}}$,
 
 $$
 DH = 1;28^{\circ}
@@ -12515,7 +12515,7 @@ $$
 
 Similarly, since $\Theta H = HZ$, and $E\Theta = 2DH$, by subtraction, $G\Theta = 57;43^{\circ}$ where $E\Theta = 2;56^{\circ}$.
 
-Hence hypotenuse [of right-angled triangle EΘG] $EG = 57;47^{\circ}$ in the same units.
+Hence hypotenuse [of right-angled triangle EΘG] $EG = 57;47^{\mathrm{p}}$ in the same units.
 
 Therefore, where $EG = 120^{\circ}$, $E\Theta = 6;5^{\circ}$, and, in the circle about right-angled triangle GEΘ,
 
@@ -12529,9 +12529,9 @@ $$
 
 In the same way, since the whole line ZΘ[= 2ZH] comes to 4;32°
 
-where the radius of the eccentre, ZX = 60°, by subtraction, XΘ = 55;28° where EΘ was found to be 2;56°.
+where the radius of the eccentre, ZX = 60^{\mathrm{p}}, by subtraction, XΘ = 55;28° where EΘ was found to be 2;56°.
 
-Hence hypotenuse [of right-angled triangle EΘX] EX = 55;33° in the same units.
+Hence hypotenuse [of right-angled triangle EΘX] EX = 55;33^{\mathrm{p}} in the same units.
 
 Therefore, where EX = 120°, EΘ = 6;20°, and, in the circle about right-angled triangle EΘX,
 
@@ -12587,10 +12587,10 @@ and $\arc ZH = 25;30^\circ$ (supplement).
 Therefore the corresponding chords
 
 $$
-\left. \begin{array}{l} \mathrm{DH} = 117;2^\circ \\ \text{and} \mathrm{ZH} = 26;29^\circ \end{array} \right\} \text{where hypotenuse} \mathrm{DZ} = 120^\circ.
+\left. \begin{array}{l} \mathrm{DH} = 117;2^\circ \\ \text{and} \mathrm{ZH} = 26;29^\circ \end{array} \right\} \text{where hypotenuse} \mathrm{DZ} = 120^{\mathrm{p}}.
 $$
 
-Therefore where $\mathrm{ZD} = 2;45^\circ$ and the radius of the eccentricity $\mathrm{DA} = 60^\circ$,
+Therefore where $\mathrm{ZD} = 2;45^\circ$ and the radius of the eccentricity $\mathrm{DA} = 60^{\mathrm{p}}$,
 
 $$
 \mathrm{DH} = 2;41^\circ
@@ -12648,13 +12648,13 @@ $$
 \end{array}
 \quad
 \begin{array}{c}
-\text{where hypotenuse} \mathrm{DZ} = 120^\circ.
+\text{where hypotenuse} \mathrm{DZ} = 120^{\mathrm{p}}.
 \end{array}
 $$
 
 $$
 \begin{array}{c}
-\text{Therefore where} \mathrm{DZ} = 2; 45^\circ \text{ and the radius of the eccentric, } \mathrm{DB} = 60^\circ, \\
+\text{Therefore where} \mathrm{DZ} = 2; 45^\circ \text{ and the radius of the eccentric, } \mathrm{DB} = 60^{\mathrm{p}}, \\
 \mathrm{DH} = 0; 8^\circ \\
 \text{and} \mathrm{ZH} \approx 2; 45^\circ.
 \end{array}
@@ -12706,10 +12706,10 @@ Fig. 11.8
 Therefore the corresponding chords
 
 $$
-\left. \begin{array}{l} \mathrm{DH} = 61;6^\circ \\ \text{and} \mathrm{ZH} = 103;17^\circ \end{array} \right\} \text{ where hypotenuse} \mathrm{DZ} = 120^\circ.
+\left. \begin{array}{l} \mathrm{DH} = 61;6^\circ \\ \text{and} \mathrm{ZH} = 103;17^\circ \end{array} \right\} \text{ where hypotenuse} \mathrm{DZ} = 120^{\mathrm{p}}.
 $$
 
-Therefore where $\mathrm{DZ} = 2;45^\circ$ and the radius of the eccentric, $\mathrm{GD} = 60^\circ$ ,
+Therefore where $\mathrm{DZ} = 2;45^\circ$ and the radius of the eccentric, $\mathrm{GD} = 60^{\mathrm{p}}$ ,
 
 $$
 \mathrm{DH} = 1;24^\circ
@@ -12727,7 +12727,7 @@ $$
 
 and, by subtraction [of $\mathbf{H}\Theta = \mathbf{Z}\mathbf{H}$], $\mathbf{G}\Theta = 57;37^\circ$ where $\mathbf{E}\Theta = 2;48^\circ$.
 
-Therefore hypotenuse [of right-angled triangle $\mathbf{EG}\Theta$ ] $\mathbf{EG} = 57;41^\circ$ in the same units;
+Therefore hypotenuse [of right-angled triangle $\mathbf{EG}\Theta$ ] $\mathbf{EG} = 57;41^{\mathrm{p}}$ in the same units;
 
 and hence, where $\mathbf{EG} = 120^{\circ}$ , $\mathbf{E}\Theta = 5;50^{\circ}$
 
@@ -12823,9 +12823,9 @@ and arc ZM = 12;14° (supplement).
 Therefore the corresponding chords
 DM = 119;19°
 and ZM = 12;47°
-where hypotenuse DZ = 120°.
+where hypotenuse DZ = 120^{\mathrm{p}}.
 
-Therefore where DZ = 2;45° and the radius of the eccentric, DB = 60°,
+Therefore where DZ = 2;45° and the radius of the eccentric, DB = 60^{\mathrm{p}},
 DM ≈ 2;44°
 and ZM = 0;18°.
 
@@ -12835,7 +12835,7 @@ MB = 59;56° in the same units.
 Similarly, since ZM = ML and EL = 2DM,
 by subtraction, LB = 59;38° where EL is computed as 5;28°.
 
-Hence hypotenuse [of right-angled triangle LBE] EB = 59;52° in the same units.
+Hence hypotenuse [of right-angled triangle LBE] EB = 59;52^{\mathrm{p}} in the same units.
 
 Therefore, where EB = 120°, EL ≈ 10;58°,
 and, in the circle about right-angled triangle BEL,
@@ -12858,7 +12858,7 @@ And, by subtraction [of ∠BEG], ∠BEK = 11;14°° in the same units.
 
 Therefore, in the circle about right-angled triangle BEN,
 arc BN = 11;14°
-and BN = 11;44° where hypotenuse EB = 120°.
+and BN = 11;44° where hypotenuse EB = 120^{\mathrm{p}}.
 
 Therefore, where $EB = 59;52^{\mathrm{p}}$, and the radius of the eccentric is $60^{\mathrm{p}}$,
 $BN = 5;50^{\mathrm{p}}$.
@@ -12876,7 +12876,7 @@ Therefore, by subtraction, $\angle BKN = 60;52^{\circ \circ}$ in the same units.
 
 Therefore, in the circle about right-angled triangle BKN,
 $\text{arc } BN = 60;52^{\circ}$
-and $BN = 60;47^{\circ}$ where hypotenuse $BK = 120^{\circ}$.
+and $BN = 60;47^{\circ}$ where hypotenuse $BK = 120^{\mathrm{p}}$.
 
 Therefore where $BN = 5;50^{\circ}$ and the radius of the eccentric is $60^{\circ}$,
 the radius of the epicycle, $BK \approx 11;30^{\circ}$.
@@ -12914,7 +12914,7 @@ $$
 \text{and } B N = 106;20^{\circ} \text{ where hypotenuse } B \Theta = 120^{\circ}.
 $$
 
-Therefore where the radius of the epicycle, BΘ = 11;30°,
+Therefore where the radius of the epicycle, BΘ = 11;30^{\mathrm{p}},
 
 $$
 \mathrm{B N} = 10;12^{\circ}.
@@ -12932,7 +12932,7 @@ $$
 \text{and } D M = 103;34^{\circ} \text{ where hypotenuse } E D = 120^{\circ}.
 $$
 
-Therefore where ED = 2;45° and the radius of the eccentric, DB = 60°,
+Therefore where ED = 2;45° and the radius of the eccentric, DB = 60^{\mathrm{p}},
 
 $$
 \mathrm{D M} = 2;23^{\circ},
@@ -12940,7 +12940,7 @@ $$
 
 and, by addition, BNX = 12;35°.
 
-Therefore where hypotenuse [of right-angled triangle BDX] BD = 120°, BX = 25;10°, and, in the circle about right-angled triangle BDX,
+Therefore where hypotenuse [of right-angled triangle BDX] BD = 120^{\mathrm{p}}, BX = 25;10°, and, in the circle about right-angled triangle BDX,
 arc BX = 24;14°
 ∴ ∠ BDX = 24;14°° where 2 right angles = 360°°, and, by subtraction [from a right angle], ∠ BDM = 155;46°° in the same units; and, by addition [of ∠ MDE], ∠ BDE = 216;26°° in the same units; and, again by subtraction [from 2 right angles], ∠ BDZ = 143;34°° in the same units.
 
@@ -12951,12 +12951,12 @@ and arc DK = 36;26° (supplement).
 Therefore the corresponding chords
 ZK = 113;59°
 and DK = 37;31°
-where hypotenuse DZ = 120°.
-Therefore where DZ = 2;45° and the radius of the eccentric, DB = 60°, KZ = 2;37°
+where hypotenuse DZ = 120^{\mathrm{p}}.
+Therefore where DZ = 2;45° and the radius of the eccentric, DB = 60^{\mathrm{p}}, KZ = 2;37°
 and DK = 0;52°,
 and, by subtraction [from DB], KB = 59;8° in the same units.
 
-Hence hypotenuse [of right-angled triangle ZBK] ZB = 59;12° in the same units.
+Hence hypotenuse [of right-angled triangle ZBK] ZB = 59;12^{\mathrm{p}} in the same units.
 
 Therefore, where ZB = 120°, ZK = 5;18°, and, in the circle about right-angled triangle BZK,
 arc ZK = 5;4°.
@@ -13025,7 +13025,7 @@ Therefore, in the circle about right-angled triangle DEH,
 $$
 \text{arc } \mathrm{EH} = 69;8^\circ
 $$
-and $\mathrm{EH} = 68;5^\circ$ where hypotenuse $\mathrm{DE} = 120^\circ$.
+and $\mathrm{EH} = 68;5^\circ$ where hypotenuse $\mathrm{DE} = 120^{\mathrm{p}}$.
 
 Similarly, since arc BG = 37;52°, the angle at the circumference, $\angle \mathrm{BEG} = 37;52^{\circ\circ}$ where 2 right angles = $360^{\circ\circ}$, and, by subtraction [from $\angle \mathrm{BDG}$], $\angle \mathrm{EBH} = 31;16^\circ$ in the same units.
 
@@ -13033,7 +13033,7 @@ Therefore, in the circle about right-angled triangle EBH,
 $$
 \text{arc } \mathrm{EH} = 31;16^\circ
 $$
-and $\mathrm{EH} = 32;20^\circ$ where hypotenuse $\mathrm{BE} = 120^\circ$.
+and $\mathrm{EH} = 32;20^\circ$ where hypotenuse $\mathrm{BE} = 120^{\mathrm{p}}$.
 
 Therefore where EH, as we showed, is $68;5^{\mathrm{p}}$, and $\mathrm{ED} = 120^{\mathrm{p}}$,
 $\mathrm{BE} = 252;41^{\mathrm{p}}$.
@@ -13083,7 +13083,7 @@ Therefore $\mathrm{GDE} \approx 119;28^{\circ}$ where the diameter of the eccent
 
 So [see Fig. 11.13] let the centre of the eccentric be taken inside segment EAG (since it is greater than a semi-circle) as point K. Draw through K and D the diameter of the eccentric through both centres, LKDM, and let the perpendicular from K on to GE be produced [to meet the circumference] as KNX.
 
-Then, where the diameter, $\mathrm{LM} = 120^{\circ}$
+Then, where the diameter, $\mathrm{LM} = 120^{\mathrm{p}}$
 
 the whole line EG was shown to be $119;28^{\circ}$ and ED to be $55;23^{\circ}$ ;
 
@@ -13102,11 +13102,11 @@ Therefore the distance between the centres, $\mathrm{DK} \approx 7;8^{\circ}$
 
 where the diameter of the eccentric is $120^{\circ}$ .
 
-Furthermore, since EN $(= \frac{1}{2}\mathrm{GE}) = 59;44^{\circ}$ where diameter LM $= 120^{\circ}$
+Furthermore, since EN $(= \frac{1}{2}\mathrm{GE}) = 59;44^{\circ}$ where diameter LM $= 120^{\mathrm{p}}$
 
 and we showed that $\mathrm{ED} = 55;23^{\circ}$ in the same units, by subtraction, $\mathrm{DN} = 4;21^{\circ}$ where DK, as we showed, $= 7;8^{\circ}$ .
 
-Therefore where hypotenuse [of right-angled triangle DKN] $\mathrm{DK} = 120^{\circ}$
+Therefore where hypotenuse [of right-angled triangle DKN] $\mathrm{DK} = 120^{\mathrm{p}}$
 
 $$
 \mathrm{DN} = 73;11^{\circ}
@@ -13182,9 +13182,9 @@ $$
 \end{aligned}
 $$
 
-where hypotenuse $\mathrm{DZ} = 120^\circ$.
+where hypotenuse $\mathrm{DZ} = 120^{\mathrm{p}}$.
 
-Therefore where the distance between the centres, $\mathrm{DZ} = 3;34^\circ$, and the radius of the eccentre, $\mathrm{DA} = 60^\circ$,
+Therefore where the distance between the centres, $\mathrm{DZ} = 3;34^\circ$, and the radius of the eccentre, $\mathrm{DA} = 60^{\mathrm{p}}$,
 
 $$
 \begin{aligned}
@@ -13286,7 +13286,7 @@ $$
 \arc ZH = 120^{\circ}.
 $$
 
-Therefore, where DZ = 3;34° and the radius of the eccentre, DB = 60°,
+Therefore, where DZ = 3;34° and the radius of the eccentre, DB = 60^{\mathrm{p}},
 
 $$
 DH = 1;13^{\circ}
@@ -13312,7 +13312,7 @@ $$
 EB = 63;23^{\circ} \text{ in the same units}.
 $$
 
-Therefore where hypotenuse $BE = 120^{\circ}$, $E\Theta = 4;36^{\circ}$, and, in the circle about right-angled triangle BEΘ,
+Therefore where hypotenuse $BE = 120^{\mathrm{p}}$, $E\Theta = 4;36^{\circ}$, and, in the circle about right-angled triangle BEΘ,
 
 $$
 \arc E\Theta = 4;24^\circ
@@ -13322,13 +13322,13 @@ $$
 \therefore \angle EB\Theta = 4;24^\circ \circ \text{ where 2 right angles} = 360^\circ \circ.
 $$
 
-Likewise, where the radius of the eccentric, $XZ = 60^\circ$, $Z\Theta$ is computed as $6;42^\circ$;
+Likewise, where the radius of the eccentric, $XZ = 60^{\mathrm{p}}$, $Z\Theta$ is computed as $6;42^\circ$;
 
 so, by addition, $X\Theta = 66;42^\circ$ where $E\Theta$ is given as $2;26^\circ$.
 
 Hence we find hypotenuse [of right-angled triangle EΘX] EX as $66;45^\circ$ in the same units.
 
-Therefore, where hypotenuse $EX = 120^\circ$, $E\Theta = 4;23^\circ$, and, in the circle about right-angled triangle EΘX,
+Therefore, where hypotenuse $EX = 120^{\mathrm{p}}$, $E\Theta = 4;23^\circ$, and, in the circle about right-angled triangle EΘX,
 
 $$
 \arc E\Theta = 4;12^\circ.
@@ -13370,9 +13370,9 @@ $$
 \end{array}
 $$
 
-where hypotenuse $\mathrm{DZ} = 120^\circ$.
+where hypotenuse $\mathrm{DZ} = 120^{\mathrm{p}}$.
 
-Therefore where $\mathrm{DZ} = 3;34^\circ$ and the radius of the eccentric, $\mathrm{DG} = 60^\circ$,
+Therefore where $\mathrm{DZ} = 3;34^\circ$ and the radius of the eccentric, $\mathrm{DG} = 60^{\mathrm{p}}$,
 
 $$
 \mathrm{DH} = 3;1^\circ
@@ -13394,7 +13394,7 @@ $$
 \mathrm{EG} = 62;8^\circ \ \text{in the same units}.
 $$
 
-Therefore, where hypotenuse $\mathrm{GE} = 120^\circ$, $\mathrm{E}\Theta = 11;39^\circ$, and, in the circle about right-angled triangle $\mathrm{GE}\Theta$,
+Therefore, where hypotenuse $\mathrm{GE} = 120^{\mathrm{p}}$, $\mathrm{E}\Theta = 11;39^\circ$, and, in the circle about right-angled triangle $\mathrm{GE}\Theta$,
 
 $$
 \arc \mathrm{E}\Theta \ \approx 11;9^\circ.
@@ -13404,7 +13404,7 @@ $$
 \therefore \angle \mathrm{EG}\Theta = 11;9^\circ \ \text{where 2 right angles} = 360^{\circ\circ} \text{.}
 $$
 
-Similarly, where the radius of the eccentric, $\mathrm{XZ} = 60^\circ$, $\mathrm{Z}\Theta$ is computed as $3;48^\circ$;
+Similarly, where the radius of the eccentric, $\mathrm{XZ} = 60^{\mathrm{p}}$, $\mathrm{Z}\Theta$ is computed as $3;48^\circ$;
 
 so, by addition, $\mathrm{X}\Theta = 63;48^\circ$ where $\mathrm{E}\Theta$ was found to be $6;2^\circ$.
 
@@ -13414,7 +13414,7 @@ $$
 \mathrm{EX} = 64;5^\circ \ \text{in the same units}.
 $$
 
-Therefore, where hypotenuse $\mathrm{EX} = 120^\circ$, $\mathrm{E}\Theta = 11;18^\circ$, and, in the circle about right-angled triangle $\mathrm{E}\Theta\mathrm{X}$,
+Therefore, where hypotenuse $\mathrm{EX} = 120^{\mathrm{p}}$, $\mathrm{E}\Theta = 11;18^\circ$, and, in the circle about right-angled triangle $\mathrm{E}\Theta\mathrm{X}$,
 
 $$
 \arc \mathrm{E}\Theta = 10;49^\circ
@@ -13453,8 +13453,8 @@ and arc ZH = 65;50° (supplement).
 Therefore the corresponding chords
 DH = 100;44°
 and ZH = 65;13°
-where hypotenuse DZ = 120°. Therefore where the distance between the centres, DZ = 3;25°,
-and the radius of the eccentric, DA = 60°,
+where hypotenuse DZ = 120^{\mathrm{p}}. Therefore where the distance between the centres, DZ = 3;25°,
+and the radius of the eccentric, DA = 60^{\mathrm{p}},
 DH = 2;52°
 and ZH = 1;51°.
 
@@ -13466,7 +13466,7 @@ Hence hypotenuse [of right-angled triangle $AE\Theta$]
 
 $AE = 62;3^{\circ}$ in the same units.
 
-Therefore, where hypotenuse $AE = 120^{\circ}$, $E\Theta = 11;5^{\circ}$, and, in the circle about right-angled triangle $AE\Theta$, $\arc E E\Theta = 10;36^{\circ}$.
+Therefore, where hypotenuse $AE = 120^{\mathrm{p}}$, $E\Theta = 11;5^{\circ}$, and, in the circle about right-angled triangle $AE\Theta$, $\arc E E\Theta = 10;36^{\circ}$.
 
 $\therefore \angle EAZ = 10;36^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.
 
@@ -13489,9 +13489,9 @@ and $\arc ZH = 142;44^{\circ}$ (supplement).
 
 Therefore the corresponding chords
 
-$\begin{array}{l}DH = 38;20^{\circ} \\ \text{and} ZH = 113;43^{\circ} \end{array}$ where hypotenuse $DZ = 120^{\circ}$.
+$\begin{array}{l}DH = 38;20^{\circ} \\ \text{and} ZH = 113;43^{\circ} \end{array}$ where hypotenuse $DZ = 120^{\mathrm{p}}$.
 
-So where $DZ = 3;25^{\circ}$ and the radius of the eccentric, $DB = 60^{\circ}$, $\begin{array}{l}DH = 1;5^{\circ} \\ \text{and} ZH = 3;14^{\circ}. \end{array}$
+So where $DZ = 3;25^{\circ}$ and the radius of the eccentric, $DB = 60^{\mathrm{p}}$, $\begin{array}{l}DH = 1;5^{\circ} \\ \text{and} ZH = 3;14^{\circ}. \end{array}$
 
 And since $\mathbf{DB}^2 - \mathbf{DH}^2 = \mathbf{BH}^2$,
 $\mathbf{BH} = 59;59^{\circ}$ in the same units.
@@ -13624,7 +13624,7 @@ and arc ZM = 6;54° (supplement).
 Therefore the corresponding chords
 DM = 119;47°
 and ZM = 7;13°
-where hypotenuse DZ = 120°.
+where hypotenuse DZ = 120^{\mathrm{p}}.
 
 Therefore, where the distance between the centres, $DZ = 3;25^p$,
 and the radius of the eccentre, $DB = 60^p$,
@@ -13715,9 +13715,9 @@ Therefore, in the circle about right-angled triangle $B\Theta N$, arc $BN = 6;40
 
 Therefore where the radius of the epicycle, $B\Theta = 6;30^\circ$, $BN = 0;23^\circ$.
 
-Similarly, since $\angle AE\Theta = 139;40^{\circ\circ}$ where 2 right angles = 360°° and $\angle EDM = 40;20^\circ$ in the same units [complement], in the circle about right-angled triangle $DEM$, arc $DM = 139;40^\circ$ and $DM = 112;39^\circ$ where hypotenuse $ED = 120^\circ$.
+Similarly, since $\angle AE\Theta = 139;40^{\circ\circ}$ where 2 right angles = 360°° and $\angle EDM = 40;20^\circ$ in the same units [complement], in the circle about right-angled triangle $DEM$, arc $DM = 139;40^\circ$ and $DM = 112;39^\circ$ where hypotenuse $ED = 120^{\mathrm{p}}$.
 
-Therefore, where the distance between the centres, $ED = 3;25^\circ$, and the radius of the eccentre, $DB = 60^\circ$, $DM (= XN) = 3;12^\circ$, and, by addition, $BNX = 3;35^\circ$ where hypotenuse [of right-angled triangle $BDX$] $DB = 60^\circ$.
+Therefore, where the distance between the centres, $ED = 3;25^\circ$, and the radius of the eccentre, $DB = 60^{\mathrm{p}}$, $DM (= XN) = 3;12^\circ$, and, by addition, $BNX = 3;35^\circ$ where hypotenuse [of right-angled triangle $BDX$] $DB = 60^{\mathrm{p}}$.
 
 Therefore, where $DB = 120^\circ$, $BX = 7;10^\circ$, and, in the circle about right-angled triangle $BDX$, arc $BX = 6;52^\circ$ $\therefore \angle BDX = 6;52^{\circ\circ}$ where 2 right angles = 360°° and, by subtraction [from a right angle], $\angle BDM = 173;8^\circ$ in the same units.
 
@@ -13727,15 +13727,15 @@ Therefore, in the circle about right-angled triangle $DZK$, arc $ZK = 146;32^\ci
 
 Therefore the corresponding chords
 $$
-\left. \begin{array}{c} ZK = 114;55^\circ \\ \text{and } DK = 34;33^\circ \end{array} \right\} \text{ where hypotenuse } DZ = 120^\circ.
+\left. \begin{array}{c} ZK = 114;55^\circ \\ \text{and } DK = 34;33^\circ \end{array} \right\} \text{ where hypotenuse } DZ = 120^{\mathrm{p}}.
 $$
 
-Therefore, where the distance between the centres, $DZ = 3;25^\circ$, and the radius of the eccentre, $DB = 60^\circ$, $ZK = 3;17^\circ$ and $DK = 0;59^\circ$, and, by subtraction [from DB], KB = 59;1° where ZK = 3;17°.
+Therefore, where the distance between the centres, $DZ = 3;25^\circ$, and the radius of the eccentre, $DB = 60^{\mathrm{p}}$, $ZK = 3;17^\circ$ and $DK = 0;59^\circ$, and, by subtraction [from DB], KB = 59;1° where ZK = 3;17°.
 
 Hence hypotenuse [of right-angled triangle BZK]
-ZB = 59;6° in the same units.
+ZB = 59;6^{\mathrm{p}} in the same units.
 
-Therefore, where hypotenuse ZB = 120°, ZK = 6;40°,
+Therefore, where hypotenuse ZB = 120^{\mathrm{p}}, ZK = 6;40°,
 and, in the circle about right-angled triangle BZK,
 arc ZK = 6;22°.
 ∴ ∠ ZBK = 6;22°° where 2 right angles = 360°°.
@@ -14391,7 +14391,7 @@ $$
 \end{aligned}
 $$
 
-Furthermore, where hypotenuse [of right-angled triangle AGΘ] GHA = 60°, by addition, GZΘ [= 57;38,55° + 2;1,40°] = 59;40,35°, so where GHA = 120°, GZΘ = 119;21,10°.
+Furthermore, where hypotenuse [of right-angled triangle AGΘ] GHA = 60^{\mathrm{p}}, by addition, GZΘ [= 57;38,55° + 2;1,40°] = 59;40,35°, so where GHA = 120°, GZΘ = 119;21,10°.
 
 So, in the circle about right-angled triangle AGΘ,
 arc GΘ = 168;5,39°.
@@ -14494,7 +14494,7 @@ Hence, where ΘZ = 1;7,20°, GZ = 28;18,26°,
 and, by addition, EG = 30;33,6°,
 and EG.GZ = 864;49,58°.
 
-But where the epicycle radius, DA = 6;30°,
+But where the epicycle radius, DA = 6;30^{\mathrm{p}},
 AG (which is negligibly different from the least distance) is 56;35°;
 hence, by addition, DG = 63;5°,
 and, by subtraction, GH = 50;5°, and DG.GH (= EG.GZ) = 3159;25,25°.
@@ -14505,13 +14505,13 @@ $$
 \Theta Z = 2;8,43^\circ
 $$
 
-where the epicycle radius, AZ = 6;30°, and the distance at that moment, AG = 56;35°;
+where the epicycle radius, AZ = 6;30^{\mathrm{p}}, and the distance at that moment, AG = 56;35°;
 and GZ = 54;6,22° in the same units.
 
 Hence, by addition, GΘ = 56;15,5° in the same units.
 
-Therefore, where hypotenuse AZ = 120°, ΘZ = 39;36,18°,
-and, where hypotenuse GA = 120°, GΘ = 119;17,46°.
+Therefore, where hypotenuse AZ = 120^{\mathrm{p}}, ΘZ = 39;36,18°,
+and, where hypotenuse GA = 120^{\mathrm{p}}, GΘ = 119;17,46°.
 
 Hence, in the circle about right-angled triangle AZΘ,
 
@@ -15529,7 +15529,7 @@ $$
 
 and, by subtraction [of $\mathrm{L}\Theta$ from $Z\Theta$], $\mathrm{ZL} = 42;9^{\circ}$, where $\mathrm{GZ}$, the radius of the eccentric, is taken as $60^{\circ}$.
 
-Therefore where hypotenuse $\mathrm{GZ} = 120^{\circ}$, $\mathrm{ZL} = 84;18^{\circ}$
+Therefore where hypotenuse $\mathrm{GZ} = 120^{\mathrm{p}}$, $\mathrm{ZL} = 84;18^{\circ}$
 
 and, in the circle about right-angled triangle GZL,
 
@@ -15673,7 +15673,7 @@ Fig. 12.15
 
 apogee, so that the mean position in longitude of the sun will be $\simeq 10^\circ$, and its true longitude $\simeq 8^\circ$. On centre A describe the epicycle ZH, draw GH as tangent to the side of it representing evening, and drop perpendicular AH.
 
-Then, since in our previous treatment [IX 9, p. 459] it was shown that where GA, the greatest distance, is $69^\circ$, AH, the epicycle radius, is $22\frac{1}{2}^\circ$, where hypotenuse [of right-angled triangle AGH] AG = $120^\circ$,
+Then, since in our previous treatment [IX 9, p. 459] it was shown that where GA, the greatest distance, is $69^\circ$, AH, the epicycle radius, is $22\frac{1}{2}^\circ$, where hypotenuse [of right-angled triangle AGH] AG = $120^{\mathrm{p}}$,
 
 $$
 AH = 39;8^\circ,
@@ -15706,7 +15706,7 @@ and the distance of the epicycle in that situation, $\mathrm{EG} \approx 68;58^{
 ![img-183.jpeg](images/img-183.jpeg)
 Fig. 12.16
 
-Therefore, where hypotenuse $\mathrm{EG} = 120^{\circ}$, $\mathrm{EH} = 39;9^{\circ}$.
+Therefore, where hypotenuse $\mathrm{EG} = 120^{\mathrm{p}}$, $\mathrm{EH} = 39;9^{\circ}$.
 
 Therefore, in the circle about right-angled triangle GEH,
 
@@ -15744,10 +15744,10 @@ $$
 and that the distance at that moment,
 
 $$
-GE = 55;59^\circ \text{ where the radius of the epicycle, } EH = 22;30^\circ.
+GE = 55;59^\circ \text{ where the radius of the epicycle, } EH = 22;30^{\mathrm{p}}.
 $$
 
-Therefore where hypotenuse [of right-angled triangle GEH] $GE = 120^\circ$,
+Therefore where hypotenuse [of right-angled triangle GEH] $GE = 120^{\mathrm{p}}$,
 
 $$
 EH = 48;14^\circ
@@ -15960,7 +15960,7 @@ Since arc EΘ = 45° where [the circumference of] the epicycle is 360°, $\angle
 Therefore, in the circle about right-angled triangle BΘK, arc BK = arc KΘ = 90°.
 
 So the corresponding chords
-BK = KΘ = 84;52° where hypotenuse BΘ = 120°.
+BK = KΘ = 84;52° where hypotenuse BΘ = 120^{\mathrm{p}}.
 
 Therefore where BΘ, the radius of the epicycle, is 43;10°, and AB, the mean distance, is 60° (for the greatest inclination of the epicycle occurs at approximately that point),
 BK = KΘ = 30;32°.
@@ -15968,7 +15968,7 @@ BK = KΘ = 30;32°.
 Again, since the angle of inclination, $\angle$ ABE is taken as $\begin{cases} 2;30^\circ \text{ where 4 right angles } = 360^\circ \\ 5^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{,}\end{cases}$ in the circle about right-angled triangle BLK, arc LK = 5° and arc BL = 175° (supplement).
 
 So the corresponding chords
-KL = 5;14° and BL = 119;53° where hypotenuse BK = 120°.
+KL = 5;14° and BL = 119;53° where hypotenuse BK = 120^{\mathrm{p}}.
 
 Therefore, where hypotenuse $BK = 30;32^P$, and $AB = 60^P$,
 
@@ -16080,7 +16080,7 @@ $$
 \left. \begin{array}{l}
 \mathrm{KL} = 13;4^{\circ} \\
 \text{and BL} = 119;17^{\circ}
-\end{array} \right\} \text{ where hypotenuse BK} = 120^{\circ}.
+\end{array} \right\} \text{ where hypotenuse BK} = 120^{\mathrm{p}}.
 $$
 
 Therefore where BK, as we showed, is $15;55^{\circ}$, and AB, by hypothesis, is $56;40^{\circ}$,
@@ -16099,7 +16099,7 @@ and, by subtraction [from AB], AL = 40;51° in the same units.
 And LM = KΘ = 15;55°.
 And since AL + LM = AM,
 AM = 43;50° where line LM = 15;55°.
-Therefore, where hypotenuse AM = 120°, LM = 43;34°,
+Therefore, where hypotenuse AM = 120^{\mathrm{p}}, LM = 43;34°,
 and the angle of the equation in longitude,
 $$
 \angle LAM = \begin{cases}
@@ -16111,7 +16111,7 @@ Similarly, where AM = 43;50°,
 ΘM = KL = 1;44°;
 and AM + ΘM = AΘ,
 so AΘ = 43;52° in the same units.
-Therefore, where hypotenuse AΘ = 120°,
+Therefore, where hypotenuse AΘ = 120^{\mathrm{p}},
 ΘM = 4;44°,
 and the angle of the deviation in latitude,
 $$
@@ -16447,7 +16447,7 @@ $$
 \text{BK} = 3;59^\circ \\
 \text{and AB} = 119;56^\circ
 \end{array}
-\quad \text{where hypotenuse AK} = 120^\circ.
+\quad \text{where hypotenuse AK} = 120^{\mathrm{p}}.
 $$
 
 Therefore, where line AK = 49;22°,
@@ -16466,7 +16466,7 @@ $$
 
 AL = 50;0° in the same units.
 
-Therefore, where hypotenuse AL = 120°, BL = 19;31°, and the angle of the equation in longitude,
+Therefore, where hypotenuse AL = 120^{\mathrm{p}}, BL = 19;31°, and the angle of the equation in longitude,
 
 $$
 \angle \text{BAL} = \begin{cases}
@@ -16485,7 +16485,7 @@ $$
 \end{array}
 $$
 
-Therefore, where hypotenuse AΘ = 120°, LΘ = 3;57°, and the angle of the deviation in latitude,
+Therefore, where hypotenuse AΘ = 120^{\mathrm{p}}, LΘ = 3;57°, and the angle of the deviation in latitude,
 
 $$
 \angle \text{ΘAL} = \begin{cases}
@@ -16510,7 +16510,7 @@ $$
 
 so AΘ = 50;2° in the same units.
 
-Therefore, where hypotenuse AΘ = 120°, ΘK = 19;30°, and the angle of the equation in longitude,
+Therefore, where hypotenuse AΘ = 120^{\mathrm{p}}, ΘK = 19;30°, and the angle of the equation in longitude,
 
 $$
 \angle \text{ΘAK} = \begin{cases}
@@ -16523,7 +16523,7 @@ And when the inclinations were taken into account it was shown to be 9;22°. So 
 
 Q.E.D.
 
-Next, to determine the quantities for Mars, let there be drawn, first, the diagram for the inclinations [Fig. 13.10], and let GK (= KΘ) be computed as [84;52 × 39;30/120 =] 27;56°, where the radius of the epicycle, GΘ = 39;30°.
+Next, to determine the quantities for Mars, let there be drawn, first, the diagram for the inclinations [Fig. 13.10], and let GK (= KΘ) be computed as [84;52 × 39;30/120 =] 27;56°, where the radius of the epicycle, GΘ = 39;30^{\mathrm{p}}.
 
 ![img-195.jpeg](images/img-195.jpeg)
 Fig. 13.9
@@ -16648,7 +16648,7 @@ and GM = 27;54°.
 Thus, by subtraction, AM = 26;6°,
 and hypotenuse AK [= √KM + AM] = 26;7° in the same units.
 
-Therefore, where hypotenuse AK = 120°, KM = 5;3°,
+Therefore, where hypotenuse AK = 120^{\mathrm{p}}, KM = 5;3°,
 and ∠ KAM = 4;49°° where 2 right angles = 360°°.
 
 Hence, by addition, ∠ BAK = 6;49°° in the same units.
@@ -16660,7 +16660,7 @@ and arc AB = 173;11° (supplement).
 So the corresponding chords
 BK = 7;8°
 and AB = 119;47°
-} where hypotenuse AK = 120°.
+} where hypotenuse AK = 120^{\mathrm{p}}.
 
 Therefore, where line AK = 26;7°,
 BK = 1;33°
@@ -16671,7 +16671,7 @@ And line BL is, again, 27;56° in the same units.
 And, since AB + BL = AL,
 AL = 38;12°.
 
-Therefore, where hypotenuse AL = 120°, BL = 87;45°,
+Therefore, where hypotenuse AL = 120^{\mathrm{p}}, BL = 87;45°,
 and the angle of the equation in longitude,
 ∠ BAL = { 94°° where 2 right angles = 360°°
 47° where 4 right angles = 360°.
@@ -16680,7 +16680,7 @@ Similarly, where line AL = 38;12°, LΘ [= BK] = 1;33°,
 and AL + LΘ = AΘ,
 so AΘ = 38;14°.
 
-Therefore, where hypotenuse AΘ = 120°, LΘ = 4;52°,
+Therefore, where hypotenuse AΘ = 120^{\mathrm{p}}, LΘ = 4;52°,
 and the angle of the deviation in latitude,
 ∠ ΘAL = { 4;40°° where 2 right angles = 360°°
 2;20° where 4 right angles = 360°.
@@ -16693,7 +16693,7 @@ AG:GK (= KΘ) = 54 : 27;56.
 hence, by subtraction, AK = 26;4°,
 and hypotenuse AΘ [= √AK + KΘ] = 38;12° in the same units.
 
-Hence, where hypotenuse AΘ = 120°,
+Hence, where hypotenuse AΘ = 120^{\mathrm{p}},
 ΘK = 87;45° again [as BL in the previous computation],
 and the angle of the equation in longitude,
 ∠ ΘAK = { 94°° where 2 right angles = 360°°
@@ -16755,19 +16755,19 @@ $$
 
 in the circle about right-angled triangle ADH, arc $\text{DH} = 5^{\circ}$
 
-and the corresponding chord $\text{DH} = 5;14^{\circ}$ where hypotenuse $\text{AD} = 120^{\circ}$.
+and the corresponding chord $\text{DH} = 5;14^{\mathrm{p}}$ where hypotenuse $\text{AD} = 120^{\mathrm{p}}$.
 
 Therefore, where line $\text{AD} = 41;40^{\circ}$, $\text{DH} = 1;50^{\circ}$.
 
 And DZ was shown to be $29;58^{\circ}$ in the same units.
 
-Therefore, where hypotenuse $\text{DZ} = 120^{\circ}$, $\text{DH} = 7;20^{\circ}$, and the angle of the slant,
+Therefore, where hypotenuse $\text{DZ} = 120^{\mathrm{p}}$, $\text{DH} = 7;20^{\circ}$, and the angle of the slant,
 
 $$
 \angle \text{DZH} = \left\{ \begin{array}{c} 7^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 3;30^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right. \tag{}
 $$
 
-But since the amount by which $\angle$ DAZ exceeds $\angle$ HAZ represents the resulting difference in the equation in longitude, we must immediately compute this too, by finding the amounts of these angles. For we showed that, where line $\text{DH} = 1;50^{\circ}$, hypotenuse $\text{AD} = 41;40^{\circ}$ and $\text{DZ} = 29;58^{\circ}$;
+But since the amount by which $\angle$ DAZ exceeds $\angle$ HAZ represents the resulting difference in the equation in longitude, we must immediately compute this too, by finding the amounts of these angles. For we showed that, where line $\text{DH} = 1;50^{\circ}$, hypotenuse $\text{AD} = 41;40^{\mathrm{p}}$ and $\text{DZ} = 29;58^{\circ}$;
 
 and
 
@@ -16785,13 +16785,13 @@ $$
 
 and $\text{HZ} = 29;55^{\circ}$ in the same units.
 
-Therefore, where hypotenuse $\text{AH} = 120^{\circ}$, $\text{ZH} = 86;16^{\circ}$,
+Therefore, where hypotenuse $\text{AH} = 120^{\mathrm{p}}$, $\text{ZH} = 86;16^{\circ}$,
 
 $$
 \text{and } \angle \text{ZAH} = \left\{ \begin{array}{c} 91;56^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 45;58^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right. \tag{}
 $$
 
-Similarly, since $\text{DZ} = 86;18^{\circ}$ where hypotenuse $\text{AD} = 120^{\circ}$,
+Similarly, since $\text{DZ} = 86;18^{\circ}$ where hypotenuse $\text{AD} = 120^{\mathrm{p}}$,
 
 $$
 \angle \text{DAZ} = \left\{ \begin{array}{c} 91;58^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 45;59^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right.
@@ -16818,10 +16818,10 @@ Again, since, by hypothesis,
 ∠ DAH = 5°° where 2 right angles = 360°°,
 in the circle about right-angled triangle ADH,
 arc DH = 5°,
-and the corresponding chord DH = 5;14° where hypotenuse AD = 120°.
+and the corresponding chord DH = 5;14^{\mathrm{p}} where hypotenuse AD = 120^{\mathrm{p}}.
 Therefore, where line AD = 58;51°, DH = 2;34°.
 But we showed that DZ = 21;1° in the same units.
-Therefore, where hypotenuse DZ = 120°, DH = 14;40°,
+Therefore, where hypotenuse DZ = 120^{\mathrm{p}}, DH = 14;40°,
 and the angle of the slant,
 $$
 \angle DZH = \left\{
@@ -16833,7 +16833,7 @@ $$
 $$
 In the same way [as for Venus], in order to compare the angles of the equation [in longitude]:
 again, where DH = 2;34°, we showed that
-hypotenuse AD = 58;51° and DZ = 21;1°.
+hypotenuse AD = 58;51^{\mathrm{p}} and DZ = 21;1°.
 And DA - DH = AH,
 DZ - DH = HZ,
 so AH = 58;47°
@@ -16910,7 +16910,7 @@ $$
 \mathrm{DH} = 2;32^{\circ}.
 $$
 
-Therefore, where hypotenuse $\mathrm{AD} = 120^{\circ}$, $\mathrm{DH} = 5;48^{\circ}$,
+Therefore, where hypotenuse $\mathrm{AD} = 120^{\mathrm{p}}$, $\mathrm{DH} = 5;48^{\circ}$,
 
 $$
 \text{and} \angle \mathrm{DAH} = \begin{cases} 5;32^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ} \\ 2;46^{\circ} & \text{where 4 right angles} = 360^{\circ}. \end{cases}

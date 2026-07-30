@@ -43,6 +43,8 @@ For a complete, current list of every text, supplement, and module, see **[INVEN
 
 Each content type has a metadata schema: [texts](texts/metadata-schema.json), [supplements](supplements/metadata-schema.json), [modules](supplements/modules/metadata-schema.json), and [syllabi](syllabi/metadata-schema.json).
 
+**[WRITING.md](WRITING.md)** governs the project's original prose — supplements, modules, public copy, catalog descriptions, changelogs. Read it before drafting any of them.
+
 ## How the site works
 
 The reader is a static single-page app. A few things worth knowing if you're reading the source:
@@ -96,6 +98,8 @@ Texts are public domain or freely available for educational use. Sources include
 ## Contributing
 
 Contributions are welcome though not expected at this stage. If you'd like to help, the most useful areas are cleanup of OCR'd texts, drafting of scaffolded-but-empty supplements, translation work (a few sources remain in French, Latin, and German), and corrections to metadata. Issues and pull requests are both fine.
+
+If you are writing prose for the project rather than processing texts, start with [WRITING.md](WRITING.md) — it sets out what a supplement is for and, just as importantly, what it should decline to do.
 
 ## License
 

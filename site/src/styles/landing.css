@@ -28,7 +28,7 @@
 }
 
 .landing__subtitle em {
-  color: var(--color-ink);
+  color: var(--color-accent-hover);
 }
 
 .landing__description {
@@ -270,6 +270,7 @@
 }
 
 @media (max-width: 720px) {
+
   /* A 390px row cannot hold name, leader, dates and count at once, so the
      dates drop to a second line, indented clear of the ordinal. */
   .landing__era-link {
@@ -485,16 +486,29 @@
   /* Stacked, the rule belongs directly under the title and ABOVE the stats.
      Reordering here rather than in the DOM keeps the desktop layout, where it
      spans full width beneath both columns, exactly as it is. */
-  .landing__hero-name { order: 1; }
-  .landing__hero-rule { order: 2; margin-top: var(--space-md); }
-  .landing__tally { order: 3; margin-top: 0; }
-  .landing__description { order: 4; }
+  .landing__hero-name {
+    order: 1;
+  }
+
+  .landing__hero-rule {
+    order: 2;
+    margin-top: var(--space-md);
+  }
+
+  .landing__tally {
+    order: 3;
+    margin-top: 0;
+  }
+
+  .landing__description {
+    order: 4;
+  }
 
   .landing__featured-card {
     padding: var(--space-md);
   }
 
-    /* 44px targets, without making the dots themselves large. */
+  /* 44px targets, without making the dots themselves large. */
   .landing__featured-dot {
     padding: 0.625rem;
     background-clip: content-box;

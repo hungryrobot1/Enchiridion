@@ -84,12 +84,18 @@ out-of-distribution glyph defeats everyone.
 
 ## The workflow
 
+The two scripts that open the PDF need the OCR venv's interpreter, because
+PyMuPDF lives there and the system `python3` does not have it (`ocr/README.md`,
+Setup).
+
 ```sh
+PY=ocr/.venv/bin/python3
+
 # once per text
-python3 ocr/proofreading/align-pages.py <text-id> -o ocr/proofreading/<text-id>/pagemap.json
+$PY ocr/proofreading/align-pages.py <text-id> -o ocr/proofreading/<text-id>/pagemap.json
 
 # per batch
-python3 ocr/proofreading/prepare-batch.py <text-id> 486-491
+$PY ocr/proofreading/prepare-batch.py <text-id> 486-491
 ocr/proofreading/dispatch-codex.sh ocr/proofreading/<text-id>/batches/p0486-0491
 python3 ocr/proofreading/verify-batch.py ocr/proofreading/<text-id>/batches/p0486-0491 \
         --fixes /tmp/fixes.json
@@ -98,9 +104,14 @@ python3 ocr/proofreading/verify-batch.py ocr/proofreading/<text-id>/batches/p048
 cp .../batches/p0486-0491/result.json ocr/proofreading/<text-id>/findings/p0486-0491.json
 ```
 
-`EFFORT=high` overrides the reasoning effort for a hard stretch; the default is
-medium, which is what produced the verified pilot. A worker other than Codex just
-needs the batch directory and its `BRIEF.md` — nothing in a batch is Codex-specific.
+Two environment overrides. `EFFORT=high` raises the reasoning effort for a hard
+stretch; the default is medium, which is what produced the verified pilot.
+`MODE=prose` changes the second return channel from schema-bound findings to a
+written account (`notes.md`) — see below. A worker other than Codex just needs
+the batch directory and its `BRIEF.md`; nothing in a batch is Codex-specific.
+
+`--out` puts a batch somewhere other than the default path, which is how the
+same page range gets prepared twice for an A/B comparison of the two modes.
 
 ### Two return channels, because they check each other
 
@@ -120,6 +131,71 @@ retires the fragile step instead of policing it.
 The pristine text is regenerated from the line range in `MANIFEST.json`, not
 stored as a second copy, so there is nothing in a batch to corrupt and nothing to
 drift.
+
+### What shape the reasons should come back in — an open question
+
+The findings channel is currently schema-bound JSON, and there is a real case for
+replacing it with prose (`MODE=prose`, which writes `notes.md`).
+
+The argument for prose: once the diff exists, it localises every change perfectly,
+and localisation was most of what the schema was doing. What remains is the
+*reason*, and a reason is an argument rather than a set of fields. The schema also
+forces a shape the work does not always have — one record per occurrence means a
+line carrying six corrections becomes six near-identical records, when what a
+later reader needs is the one sentence explaining why all six follow from the
+same misread glyph. Two things no schema run has ever produced are an unprompted
+observation and a **question**, and prose has somewhere to put both.
+
+The argument against: findings aggregate across batches and prose does not.
+That is a genuine cost, and a weak one here, because this workflow runs a handful
+of times across the entire library. Reading a dozen written accounts is not a
+problem worth designing around.
+
+Structured output is not free either. `confidence` came back `high` on 109 of 109
+findings across two runs — a field can be filled in without being thought about,
+and the schema makes filling it in the path of least resistance. Prose has no
+equivalent blank to fill.
+
+**Run 2026-07-30, six pages, same model and effort, one batch each way.** The
+result did not favour either format, and made the question smaller than it
+looked:
+
+- **Prose asked a question; the schema never has.** Three schema runs produced
+  none. The prose run asked exactly one, and it was a good one — where the "do
+  not fix the prose" rule stands relative to a technical term the OCR mangled.
+  That is a real ambiguity in the brief, and it surfaced only because there was
+  somewhere to put it.
+- **Prose overturned a documented error family.** The brief claimed a doubled
+  degree sign was OCR duplication. It is not: Toomer marks the "2 right angles
+  = 360" convention with `°°` and the "4 right angles" convention with `°`, and
+  the brief had been telling workers to delete real content. Confirmed on the
+  page, and by a whole-text count — 94 doubled marks on "2 right angles"
+  statements, 3 on 170 "4 right angles" statements.
+- **But the schema run found that too**, and restored two doubled marks the
+  prose run left single. So the format is not what produced the insight.
+- **The two runs disagreed on readings.** Same model, same effort, same pages:
+  one read a glyph as Capricorn and the other as Scorpius; one read `13⅚` and
+  the other `13⅜`. The page settled both in the schema run's favour — and the
+  prose run was right about a word the schema run missed.
+- **Both missed the same thing, and it was the checkable one.** Both corrected
+  an elongation to `43 7/12°` without noticing that this value forces the
+  longitude on the same line to be `11 11/12°`, which the print duly shows and
+  both left as `11½°`.
+
+What follows from that. Format is a second-order question; **run-to-run variance
+is first-order**, and neither channel exposes it — only a second run does. The
+disagreement between two runs is a better error detector than either run's own
+confidence, which stays uniformly high in both formats. Prose earns its place by
+having room for a question and an unprompted observation; the schema earns its
+place by aggregating. Keeping both, and reading two runs against each other, is
+better than picking a winner.
+
+The mechanical lesson is smaller and firmer: **do not ask a worker for a decision
+a script can make.** All 30 zodiac signs came back without their variation
+selector in the schema runs, and as `\text{Scorpius }` in the prose run — three
+encodings, none canonical, because the convention lives in a ledger no worker
+sees. `apply-proofread-fixes.py` now normalises this at apply time, and the brief
+asks only for the sign's name.
 
 **Neither channel is applied directly.** The edited slice is evidence, not the
 product. Repairs go per-occurrence with asserted match counts through the text's

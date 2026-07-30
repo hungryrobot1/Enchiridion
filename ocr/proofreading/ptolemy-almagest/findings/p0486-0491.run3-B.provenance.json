@@ -1,0 +1,15 @@
+{
+  "batch": "p0486-0491-B",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "mode": "prose",
+  "codex_cli": "codex-cli 0.146.0",
+  "pages": 6,
+  "started": "2026-07-30T15:28:34Z",
+  "finished": "2026-07-30T15:34:20Z",
+  "tokens_reported": "144,519",
+  "brief_sha": "79dad4f669e5f54420a1d5e23058076f1da64e2d",
+  "schema_sha": "n/a",
+  "reference_sha_after": "9caa644dd91c948b8eb52d6f9900b9456bc94395",
+  "reference_sha_before": "9caa644dd91c948b8eb52d6f9900b9456bc94395"
+}

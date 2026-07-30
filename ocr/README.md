@@ -8,11 +8,17 @@ Workflow for turning a source PDF into a clean, reader-ready markdown text in th
 cd ocr
 python3 -m venv .venv
 source .venv/bin/activate
-pip install mistralai python-dotenv
+pip install mistralai python-dotenv pymupdf
 echo "MISTRAL_API_KEY=..." > .env
 ```
 
 `.env` and `.venv/` are gitignored.
+
+**PyMuPDF imports as `pymupdf`, not `fitz`.** The legacy `fitz` name is squatted
+on PyPI by an unrelated package, so an environment can have that one installed
+and fail in ways that look like a PyMuPDF bug. Anything here that opens a PDF —
+the extraction track, the page renderers, `ocr/proofreading/prepare-batch.py` —
+needs this venv's interpreter, not the system `python3`.
 
 ## End-to-end sequence
 
@@ -346,7 +352,16 @@ node ocr/check-raw-latex.js texts/.../foo.md   # raw-LaTeX leaks (marked)
 
 Each tool returns exit code 1 if it finds anything, 0 if clean. A text is post-processing-complete when all three return 0.
 
-What none of the three can verify: that the math content *as transcribed* matches the source. OCR can produce well-formed, well-rendered, well-wrapped LaTeX that says the wrong number. That's a separate problem we don't currently solve — see the project memory on math-text correctness limits.
+What none of the three can verify: that the math content *as transcribed* matches the source. OCR can produce well-formed, well-rendered, well-wrapped LaTeX that says the wrong number, and every diagnostic above will pass it. **Rendering correctly and being correct are independent properties**, and the triad only measures the first.
+
+That is the correctness problem, and it is addressed by a different pipeline. In rough order of cost:
+
+1. **The vocabulary census** (`ocr/math-vocab-census.py`) groups suspect tokens by context signature, so errors surface as *families* and one adjudication settles many instances.
+2. **Computation**, wherever the content is redundant enough to check itself. The Almagest's Table of Chords is the type case: 90 lost fraction marks were restored by recomputing each row from its own chord value. Tables carry redundancy; prose does not, which is why a digit error is recoverable in a table and invisible in a sentence.
+3. **Reading the printed page**, for what is left. Render the source page (PyMuPDF `get_pixmap`, ~190dpi full page or zoom 400 for a detail), look at it, and fix by exact-match anchor with an asserted occurrence count. This is minutes per instance rather than hours, and it is the only method that can see an error which left no trace — a symbol that vanished cleanly defeats every pattern method by construction.
+4. **[Delegated proofreading](proofreading/README.md)** when step 3 does not scale — a handful of texts across the whole library, where the typography is a worst case and pattern analysis is spent. That directory holds the harness, the briefs, and the findings; read its README before reaching for it.
+
+See also the project memory on math-text correctness limits.
 
 ## `toc.json` schema
 

@@ -33,6 +33,18 @@
 #   -c mcp_servers=...     The user's Codex can reach the Enchiridion MCP, i.e.
 #                          the whole corpus. A proofreader needs the batch in
 #                          front of it and nothing else.
+#
+# TWO RETURN SHAPES, selected by MODE, because which one is better is an open
+# question and the only honest way to settle it is to run the same pages both
+# ways and compare:
+#
+#   MODE=schema (default)  findings as schema-bound JSON + the edited slice.
+#   MODE=prose             the edited slice + notes.md, a dialogic account. The
+#                          diff already localises every change perfectly, so the
+#                          schema's remaining contribution is the REASON — and
+#                          prose carries a reason better than a field does. It
+#                          also has room for the two things no schema elicited:
+#                          an observation nobody asked for, and a QUESTION.
 set -euo pipefail
 
 BATCH="${1:?usage: dispatch-codex.sh <batch-dir> [model]}"
@@ -40,6 +52,7 @@ MODEL="${2:-gpt-5.6-sol}"
 EFFORT="${EFFORT:-medium}"   # the pilot ran at medium and every finding
                              # verified correct; high is unproven spend.
                              # Override per-run: EFFORT=high dispatch-codex.sh ...
+MODE="${MODE:-schema}"       # schema | prose
 
 BATCH="$(cd "$BATCH" && pwd)"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -62,7 +75,7 @@ for f in "$BATCH"/pages/*.png; do
 done
 [ "${#IMAGES[@]}" -gt 0 ] || { echo "no page images in $BATCH/pages"; exit 1; }
 
-read -r -d '' PROMPT <<'EOF' || true
+read -r -d '' PROMPT_COMMON <<'EOF' || true
 You are proofreading a scanned scholarly book against its OCR transcription.
 
 Read BRIEF.md in this directory first — it explains the text, the known error
@@ -72,6 +85,9 @@ images are attached.
 
 Compare the pages against the markdown and report every disagreement, following
 the brief. Work through the pages one at a time and do not stop early.
+EOF
+
+read -r -d '' PROMPT_SCHEMA <<'EOF' || true
 
 Return findings TWO ways, and make them agree:
 
@@ -86,15 +102,65 @@ finding claiming an error must appear as an edit. An edit with no finding is an
 unexplained change and will be rejected.
 EOF
 
+read -r -d '' PROMPT_PROSE <<'EOF' || true
+
+Return your work TWO ways.
+
+1. Correct edit/slice.md in place. Change only what the page actually
+   disagrees with. Leave BRIEF.md and markdown.md untouched — markdown.md is
+   reference only. We diff this file against the original, so the diff already
+   records exactly WHERE every change is. You do not need to tell us that.
+
+2. Write notes.md: an account, in prose, of what you did and what you saw.
+
+What notes.md is for. The diff says where; it cannot say why, and the why is
+what lets one decision settle a whole family of errors later instead of being
+re-argued page by page. So write to a colleague who will read the diff beside
+your notes. Cover, in whatever order the work suggests:
+
+  * The reasoning behind your corrections. Group them however they actually
+    group — by family, by page, by shared argument. Do not enumerate one
+    paragraph per changed character. Where a correction rests on something
+    checkable — a glyph's shape, a footnote that glosses it, an arithmetic
+    identity — say so and show it, because we can verify those independently.
+  * How sure you are, and where you are not. A correction you would defend and
+    a correction you guessed at must be distinguishable. If you cannot tell
+    which of two readings the page shows, say that instead of choosing.
+  * Anything you noticed that the brief does not describe. This is the most
+    valuable thing you can send back. The brief's families were found by
+    pattern-matching over the whole text, which is structurally blind to an
+    error that occurs once. You are reading actual pages, so you can see those.
+  * Anything the brief gets wrong, or leaves ambiguous enough that you had to
+    guess what we wanted.
+  * QUESTIONS. If something on these pages cannot be settled by looking harder
+    — a convention we never explained, a passage where two readings are both
+    defensible, a case where the brief's rule and the page disagree — ask.
+    Write the question plainly and leave the text alone. An asked question is
+    worth more to us than a confident guess, and previous runs asked none at
+    all, which we do not believe reflects how clear these pages are.
+
+Every change in the diff should be traceable to something in notes.md. A change
+we cannot find an argument for gets reverted.
+EOF
+
+case "$MODE" in
+  schema) PROMPT="$PROMPT_COMMON$PROMPT_SCHEMA"
+          CODEX_OUT=(--output-schema "$SCHEMA" -o result.json) ;;
+  prose)  PROMPT="$PROMPT_COMMON$PROMPT_PROSE"
+          CODEX_OUT=(-o summary.md) ;;
+  *)      echo "MODE must be schema or prose (got '$MODE')"; exit 1 ;;
+esac
+
 # Clear the previous run's outputs first. Otherwise a re-run in progress looks
 # exactly like a finished one — provenance.json is written last, so its presence
 # reads as completion even when it is a leftover.
-rm -f "$BATCH/result.json" "$BATCH/provenance.json" "$BATCH/run.log"
+rm -f "$BATCH/result.json" "$BATCH/provenance.json" "$BATCH/run.log" \
+      "$BATCH/notes.md" "$BATCH/summary.md"
 
 # Recorded before the run: the reference copy must come back untouched.
 REF_SHA="$(git hash-object "$BATCH/markdown.md")"
 
-echo "dispatching ${#IMAGES[@]} pages from $(basename "$BATCH")  [$MODEL, effort=$EFFORT]"
+echo "dispatching ${#IMAGES[@]} pages from $(basename "$BATCH")  [$MODEL, effort=$EFFORT, mode=$MODE]"
 START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
 ( cd "$BATCH" && codex exec \
@@ -104,8 +170,7 @@ START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
     -c model_reasoning_effort="\"$EFFORT\"" \
     -c mcp_servers='{}' \
     -i "${IMAGES[@]}" \
-    --output-schema "$SCHEMA" \
-    -o result.json \
+    "${CODEX_OUT[@]}" \
     "$PROMPT" < /dev/null ) > "$BATCH/run.log" 2>&1
 
 END=$(date -u +%Y-%m-%dT%H:%M:%SZ)
@@ -116,20 +181,25 @@ cat > "$BATCH/provenance.json" <<EOF
   "batch": "$(basename "$BATCH")",
   "model": "$MODEL",
   "reasoning_effort": "$EFFORT",
+  "mode": "$MODE",
   "codex_cli": "$(codex --version)",
   "pages": ${#IMAGES[@]},
   "started": "$START",
   "finished": "$END",
   "tokens_reported": "${TOKENS:-unknown}",
   "brief_sha": "$(git hash-object "$BATCH/BRIEF.md")",
-  "schema_sha": "$(git hash-object "$SCHEMA")",
+  "schema_sha": "$([ "$MODE" = schema ] && git hash-object "$SCHEMA" || echo n/a)",
   "reference_sha_after": "$(git hash-object "$BATCH/markdown.md")",
   "reference_sha_before": "$REF_SHA"
 }
 EOF
 
-echo "  result.json      $(python3 -c "import json;print(len(json.load(open('$BATCH/result.json'))['findings']))" 2>/dev/null || echo '??') findings"
-echo "  provenance.json  $MODEL / $EFFORT"
+if [ "$MODE" = schema ]; then
+  echo "  result.json      $(python3 -c "import json;print(len(json.load(open('$BATCH/result.json'))['findings']))" 2>/dev/null || echo '??') findings"
+else
+  echo "  notes.md         $(wc -w < "$BATCH/notes.md" 2>/dev/null || echo '??') words"
+fi
+echo "  provenance.json  $MODEL / $EFFORT / $MODE"
 echo "  run.log          full transcript"
 if [ "$REF_SHA" != "$(git hash-object "$BATCH/markdown.md")" ]; then
   echo "  !! markdown.md was MODIFIED during the run; it is reference only"

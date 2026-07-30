@@ -50,7 +50,13 @@ def load(batch):
     edited = open(edited_path, encoding='utf-8').read() if os.path.exists(edited_path) else None
     res_path = os.path.join(batch, 'result.json')
     findings = json.load(open(res_path))['findings'] if os.path.exists(res_path) else []
-    return man, pristine, edited, findings
+    notes = None
+    for name in ('notes.md', 'summary.md'):
+        p = os.path.join(batch, name)
+        if os.path.exists(p):
+            notes = open(p, encoding='utf-8').read()
+            break
+    return man, pristine, edited, findings, notes
 
 
 def hunks(pristine, edited, lo):
@@ -84,15 +90,65 @@ def main():
     args = ap.parse_args()
     batch = args.batch.rstrip('/')
 
-    man, pristine, edited, findings = load(batch)
+    man, pristine, edited, findings, notes = load(batch)
     lo, hi = man['md_lines']
-    print(f'{os.path.basename(batch)}   {man["md"]} lines {lo}-{hi}')
+    prose_mode = not findings and notes is not None
+    print(f'{os.path.basename(batch)}   {man["md"]} lines {lo}-{hi}'
+          + ('   [prose mode]' if prose_mode else ''))
 
     # Tamper check on the reference copies.
     if 'slice_sha256' in man and edited is not None:
         if hashlib.sha256(pristine.encode()).hexdigest() != man['slice_sha256']:
             print('  !! the SOURCE has changed since this batch was prepared; '
                   'regenerate the batch before trusting the diff')
+
+    # --- prose mode: the diff is the only mechanical channel, and the account is
+    # for a human. There is nothing to cross-check, so do not pretend otherwise:
+    # every hunk becomes a fix candidate and the notes are reported unjudged.
+    if prose_mode:
+        if edited is None:
+            print('  no edit/slice.md — nothing to derive anchors from')
+            return
+        hs = hunks(pristine, edited, lo)
+        fixes = []
+        for h in hs:
+            for before, after, pre, post in word_diff(h['before'], h['after']):
+                fixes.append({'line': h['line'], 'before': before, 'after': after,
+                              'context_before': pre, 'context_after': post,
+                              'claim': None, 'verified_by': None, 'evidence': '',
+                              'occurrences_in_source': None})
+        whole = open(man['md'], encoding='utf-8').read()
+        for fx in fixes:
+            fx['occurrences_in_source'] = whole.count(fx['before']) if fx['before'] else 0
+        print(f'  diff: {len(hs)} changed regions -> {len(fixes)} fix candidates')
+        for fx in fixes[:14]:
+            n = fx['occurrences_in_source']
+            warn = '  <-- occurs elsewhere; anchor on context' if n > 1 else ''
+            print(f'    L{fx["line"]}  {fx["before"][:34]!r} -> {fx["after"][:34]!r}  (x{n}){warn}')
+
+        # The things the schema channel never produced. Whether prose elicits
+        # them is the whole question this mode exists to answer, so count them
+        # rather than eyeballing the file.
+        # Match on the ASKING, not on punctuation. The first prose run wrote a
+        # real question — a genuine ambiguity in the brief's scope — as a
+        # paragraph beginning "QUESTION:" and ending in a full stop, and a
+        # naive '?' search reported zero questions for a batch that asked one.
+        q = [ln for ln in notes.split('\n')
+             if '?' in ln or re.search(r'\b(question|unclear|ambiguous|should (we|it)|'
+                                       r'not sure|cannot tell|which of|please (confirm|clarify))\b',
+                                       ln, re.I)]
+        print(f'\n  notes.md: {len(notes.split())} words, '
+              f'{len([l for l in notes.split(chr(10)) if l.startswith("#")])} headings, '
+              f'{len(q)} passages that ask or hedge')
+        for ln in q[:8]:
+            print(f'    ? {ln.strip()[:110]}')
+        print('\n  READ notes.md IN FULL — in this mode it carries every reason, '
+              'and nothing above has checked it.')
+        if args.fixes:
+            json.dump({'batch': os.path.basename(batch), 'md': man['md'],
+                       'mode': 'prose', 'fixes': fixes}, open(args.fixes, 'w'), indent=1)
+            print(f'  wrote {args.fixes}')
+        return
 
     real = [f for f in findings if f.get('claim') not in ('clean', 'brief', 'unsure')]
     print(f'  findings: {len(findings)} total, {len(real)} claiming an error')

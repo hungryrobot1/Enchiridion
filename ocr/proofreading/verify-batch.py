@@ -122,24 +122,38 @@ def main():
     print(f'\n  diff: {len(hs)} changed regions')
 
     # --- match hunks to findings
+    def as_line(v):
+        """Findings from before the schema tightened carry `line` as a string,
+        sometimes a comma-separated list. Take the first integer in it; return
+        None when there is none, so such a finding simply cannot be matched."""
+        if isinstance(v, int):
+            return v
+        m = re.search(r'\d+', str(v or ''))
+        return int(m.group()) if m else None
+
     by_line = {}
     for f in real:
-        by_line.setdefault(f.get('line'), []).append(f)
+        by_line.setdefault(as_line(f.get('line')), []).append(f)
 
     fixes, unexplained, matched = [], [], set()
     for h in hs:
         near = [f for ln, fs in by_line.items() if ln and abs(ln - h['line']) <= 2 for f in fs]
+        # A hunk often carries SEVERAL corrections — one line can hold six. So
+        # credit every nearby finding the hunk accounts for, not just the first;
+        # crediting one made 85 of 109 findings look un-enacted when they were
+        # simply bundled into the same changed region.
         explained = None
         for f in near:
             if norm(f.get('markdown', '')) and norm(f['markdown']) in norm(h['before']):
-                explained = f
-                break
+                if explained is None:
+                    explained = f
+                matched.add(id(f))
         if explained is None and near:
             explained = near[0]
+            matched.add(id(explained))
         if explained is None:
             unexplained.append(h)
             continue
-        matched.add(id(explained))
         for before, after, pre, post in word_diff(h['before'], h['after']):
             fixes.append({'line': h['line'], 'before': before, 'after': after,
                           'context_before': pre, 'context_after': post,

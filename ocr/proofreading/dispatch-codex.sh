@@ -45,6 +45,13 @@ BATCH="$(cd "$BATCH" && pwd)"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SCHEMA="$ROOT/findings-schema.json"
 
+# Refresh the brief from source. prepare-batch.py copies it at creation time, so
+# a batch prepared before a revision would run against the OLD brief and the
+# revision would silently never reach the worker — which happened, and made one
+# run's results uninterpretable. Copy at dispatch, when it is actually read.
+TEXT_ID="$(python3 -c "import json,sys;print(json.load(open('$BATCH/MANIFEST.json'))['text_id'])")"
+SRC_BRIEF="$ROOT/$TEXT_ID/brief.md"
+[ -f "$SRC_BRIEF" ] && cp "$SRC_BRIEF" "$BATCH/BRIEF.md"
 [ -f "$BATCH/BRIEF.md" ]    || { echo "no BRIEF.md in $BATCH"; exit 1; }
 [ -f "$BATCH/markdown.md" ] || { echo "no markdown.md in $BATCH"; exit 1; }
 
@@ -78,6 +85,11 @@ Every edit you make must have a matching finding explaining it, and every
 finding claiming an error must appear as an edit. An edit with no finding is an
 unexplained change and will be rejected.
 EOF
+
+# Clear the previous run's outputs first. Otherwise a re-run in progress looks
+# exactly like a finished one — provenance.json is written last, so its presence
+# reads as completion even when it is a leftover.
+rm -f "$BATCH/result.json" "$BATCH/provenance.json" "$BATCH/run.log"
 
 # Recorded before the run: the reference copy must come back untouched.
 REF_SHA="$(git hash-object "$BATCH/markdown.md")"

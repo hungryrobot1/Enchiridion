@@ -228,6 +228,43 @@ Its limitation is worth stating: that measures recall on families we already kne
 about, not the discovery of new ones. Novel-pattern detection can only be
 assessed by adjudicating what comes back.
 
+### Run the passes in parallel, never in sequence
+
+The obvious cheaper design is to have one pass read the markdown and a second
+pass validate its output. Do not do this, for two separate reasons.
+
+**It destroys the detector.** A reviewer shown a reading is being asked whether
+that reading is defensible, and it almost always is -- that is why the first pass
+made it. The error this pair exists to catch is the confidently-wrong reading,
+which is precisely the error that survives review by someone who has been shown
+it. The value of two passes is that their errors are *independent draws* and can
+therefore disagree. Showing one to the other correlates them, and a consensus
+between correlated runs measures nothing.
+
+**It also costs recall, which is the failure mode we actually observe.** In the
+first double run (see the Almagest ledger) every disagreement between the two
+passes was a MISS rather than a misread. A pass handed eighty findings frames the
+page as "check these eighty" rather than "read this page," so priming hurts
+exactly the material that most needs a second look.
+
+If a second pass should be targeted rather than blind, target it on the SLOTS the
+first pass did not touch -- never on its readings. That aims at recall without
+leaking a frame.
+
+### Scoring a cheap run against an expensive one
+
+`score-against.py` scores a run against the agreeing readings of two stronger
+runs. Read its two numbers separately and do not average them: a miss is cheap
+because it survives to the next pass, while a CONTRADICTION is expensive because
+one of the two readings gets written into the text and nothing downstream would
+catch it. A cheap model with mediocre recall and no contradictions is usable; one
+with high recall and a few contradictions is not.
+
+What it measures is agreement with a control population, not accuracy. There is
+no ground truth here short of a human reading every page -- and if we had that we
+would not need the harness. A reading that both models share is exactly the error
+this method cannot see.
+
 ## What lives here, and what does not
 
 - **Committed** — briefs, findings, ledgers. This is the paper trail; the point

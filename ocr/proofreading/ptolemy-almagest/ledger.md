@@ -154,6 +154,39 @@ Also corroborated: two signs that **left no trace at all** (Capricorn and Taurus
 both recovered from the print alone), which is the invisible class above showing
 up exactly where it was predicted to.
 
+### Cheap models on the same pages — terra and luna at low effort
+
+Both light models were run over p0473–0478 against the strong pair's consensus of
+11 readings, scored by `score-against.py`.
+
+| Run | Recall | Contradictions | Elapsed |
+|---|---|---|---|
+| `gpt-5.6-terra`, effort low | 9/11 (82%) | **0** | 283s |
+| `gpt-5.6-luna`, effort low | 9/11 (82%) | **4** | 233s |
+
+**Identical recall; the entire difference is in contradictions.** This is the
+result that justifies refusing to blend the two numbers into one score — a single
+percentage would have made these models look equivalent, when one is usable and
+the other is not. Luna's contradictions are the expensive kind: `\aleph` read as
+Leo where the consensus says Taurus, `\Psi` as Pisces against Aries, `\simeq` and
+`\triangle` as Aries against Libra — all at high confidence, all plausible, none
+detectable downstream.
+
+Terra's two misses are both from the **disguised class** — Taurus printed as the
+numeral 8. That is a coherent failure rather than noise: the cheap model does
+well at "this glyph looks wrong" and badly at "this ordinary-looking thing is
+wrong," which is exactly the class we already knew every token-based method is
+blind to. It suggests a division of labour rather than a straight substitution.
+
+**A measurement bug worth keeping.** The first scoring included the reported page
+in the finding key, and returned luna at 45% recall with 2 contradictions. Luna
+had attributed a page of findings to its neighbour, so every one of them counted
+as both a miss and a spurious extra. The true figures are 82% and 4 — the page
+key had *flattered luna on contradictions*, the number that matters, while
+punishing it on recall, the number that does not. `score-against.py` now excludes
+the page by default. Note also that the page misattribution is itself a defect:
+findings have to be locatable to be applied.
+
 ### An unplanned dividend
 
 Roughly half of every run's findings were parts-vs-degrees, in precisely the

@@ -19,3 +19,7 @@ mcp/.wrangler/
 **/__pycache__/
 .DS_Store
 site/public/toc/
+
+# Proofreading: derived artifacts only. Briefs, findings and ledgers ARE tracked.
+ocr/proofreading/*/pagemap.json
+ocr/proofreading/*/batches/

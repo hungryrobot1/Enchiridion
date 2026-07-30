@@ -106,6 +106,61 @@ shape fails.
   of the three numbers is misread — `Leo 8¾` or `Taurus 12¼` would both close
   it. Needs the page.
 
+## The first double run — pages 473–478 and 486–490, 2026-07-30
+
+Four runs, two per page-set, same model and effort, compared by
+`ocr/proofreading/compare-runs.py`. The zodiac was chosen for this because it is
+the one family with no structural licence: a wrong sign leaves no arithmetic
+residue unless the text happens to state a difference, so disagreement between
+runs is the only detector available.
+
+**The result argues against the reason we did it.** Of 22 readings found by both
+runs, 21 agreed exactly and the single conflict was a MISS, not a misread — one
+run failed to report a sign the other read correctly, and no case arose where
+two confident runs read the same glyph as two different signs. On the earlier
+A/B pages the runs *did* confidently disagree, so this is not a settled question;
+but on this evidence double-running buys **recall insurance rather than misread
+detection**, and recall insurance is worth much less, because a missed sign
+survives to the next pass while a wrong one is written into the text.
+
+The conflict is adjudicated in the text's favour: at `Virgo [i.e.
+$\mathfrak{m}\mathfrak{g} 1°-2°$]` Toomer names the sign in his own prose, so the
+run that read Virgo is right and the run that omitted it simply did not look.
+
+**A caution the corroboration table does not express.** Agreement is on a
+token-class within a page, and several of these tokens are equivocal. Both runs
+agreeing that `\mathfrak{m}\mathfrak{g}` means Scorpius on p0488 does not license
+the Virgo occurrence on the same page. Corroboration is necessary here, not
+sufficient, and repairs remain per-occurrence.
+
+### Identifications corroborated by both runs
+
+| Token | Sign | Notes |
+|---|---|---|
+| `\simeq` | ♎ Libra | Both page-sets independently, plus arithmetic in each: Scorpius 20;50 − Libra 6;00 = 44;50, and Scorpius 20;55 − Libra 17;3 = 33;52. |
+| `\pi_1`, `\pi_2` | ♏ Scorpius | **Predicted before the run.** Two stated subtractions solved to exactly +1.0000 sign-indices between `\pi_1` and `\simeq`; the pages then read them as Scorpius and Libra, which are adjacent. Arithmetic and eyes agreeing from opposite directions. |
+| `\approx` | ♒ Aquarius | ♒ is two wavy lines and so is `≈`. **Do not bulk-replace**: `\approx` is also used legitimately for "approximately", 102 occurrences against a handful of signs. |
+| `\varphi` | ♈ Aries | |
+| `\Psi` | ♈ Aries | Already known equivocal — 8 signs in the legend. |
+| `\square`, `□` | ♊ Gemini | Confirms the ledger's earlier 1-of-5 page read. |
+| `\triangle` | ♎ Libra | Was an unidentified slot token. |
+| `\aleph` | ♉ Taurus | **Conflicts with the earlier Pisces reading**, which was itself confirmed three ways. Both are right: `\aleph` is equivocal. |
+| `\pi` | ♍ Virgo / ♏ Scorpius | Equivocal across pages. |
+| `\pm` | ♐ Sagittarius | Consistent with the earlier page read; still equivocal overall. |
+| `m,` | ♏ Scorpius | |
+| `8`, `8 \cdot`, `8\frac{1}{2}` | ♉ Taurus | Replicated independently in both page-sets. In `8\frac{1}{2}` the fraction is spurious — the glyph's tail was read as a ½. |
+
+Also corroborated: two signs that **left no trace at all** (Capricorn and Taurus,
+both recovered from the print alone), which is the invisible class above showing
+up exactly where it was predicted to.
+
+### An unplanned dividend
+
+Roughly half of every run's findings were parts-vs-degrees, in precisely the
+places the repair script deliberately declined to touch — where the governing
+word sits in an earlier sentence. The pages confirm those are parts. The choice
+to under-reach is now paid off rather than merely defended.
+
 ## Other families
 
 | Family | Decision | Status |

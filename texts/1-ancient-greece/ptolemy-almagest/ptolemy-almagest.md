@@ -3882,7 +3882,7 @@ Produce ZΘ and drop the perpendicular to it from D, DK.
 Then, since arc EZ is, by hypothesis, $30^\circ$,
 
 $$
-\angle E \Theta Z = \angle D \Theta K = \left\{ \begin{array}{l} 30^\circ \text{ where 4 right angles } = 360^\circ \\ 60^\circ \text{ where 2 right angles } = 360^\circ \end{array} \right.
+\angle E \Theta Z = \angle D \Theta K = \left\{ \begin{array}{l} 30^\circ \text{ where 4 right angles } = 360^\circ \\ 60^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \end{array} \right.
 $$
 
 Therefore, in the circle about right-angled triangle DΘK,
@@ -3934,7 +3934,7 @@ Next [see Fig. 3.14] let the circle concentric with the ecliptic be ABG on centr
 Fig. 3.14
 
 Since arc EZ = $30^{\circ}$,
-$\angle \mathrm{EAZ} = \begin{cases} 30^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 60^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{cases}.$
+$\angle \mathrm{EAZ} = \begin{cases} 30^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 60^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{cases}.$
 
 Therefore in the circle about right-angled triangle AZK,
 arc ZK = $60^{\circ}$
@@ -3950,7 +3950,7 @@ ZD = $62; 11^{\mathrm{p}}$, where ZK = $1; 15^{\mathrm{p}}$.
 So where hypotenuse DZ = $120^{\mathrm{p}}$, ZK = $2; 25^{\mathrm{p}}$,
 and, in the circle about right-angled triangle DZK,
 arc ZK = $2; 18^{\mathrm{p}}$.
-$\therefore \angle \mathrm{ZDK} = \begin{cases} 2; 18^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 1; 9^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{cases}.$
+$\therefore \angle \mathrm{ZDK} = \begin{cases} 2; 18^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 1; 9^{\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{cases}.$
 
 This is, again, the amount of the equation of anomaly, which is represented by arc AB.
 
@@ -3976,7 +3976,7 @@ Fig. 3.16
 
 Then since $\operatorname{arc} ZH = 30^\circ$,
 $$
-\angle Z\Theta H = \left\{ \begin{array}{l} 30^\circ \text{ where 4 right angles } = 360^\circ \\ 60^\circ \text{ where 2 right angles } = 360^\circ \end{array} \right.
+\angle Z\Theta H = \left\{ \begin{array}{l} 30^\circ \text{ where 4 right angles } = 360^\circ \\ 60^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \end{array} \right.
 $$
 
 Therefore in the circle about right-angled triangle $D\Theta K$,
@@ -4003,7 +4003,7 @@ Therefore where hypotenuse $DZ = 120^\circ$, $DK = 2;34^\circ$.
 And, in the circle about right-angled triangle $DZK$,
 $\operatorname{arc} DK = 2;27^\circ$,
 $$
-\therefore \angle DZK = \left\{ \begin{array}{l} 2;27^\circ \text{ where 2 right angles } = 360^\circ \\ 1;14^\circ \text{ (approximately) where 4 right angles } = 360^\circ \end{array} \right.
+\therefore \angle DZK = \left\{ \begin{array}{l} 2;27^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\ 1;14^\circ \text{ (approximately) where 4 right angles } = 360^\circ \end{array} \right.
 $$
 
 This [1;14°], then, is the equation of anomaly.
@@ -4028,7 +4028,7 @@ Then since arc $\Theta H$ is again $30^\circ$,
 $$
 \angle \Theta AH = \begin{cases}
 30^\circ & \text{where 4 right angles} = 360^\circ \\
-60^\circ\& \text{where 2 right angles} = 360^\circ\&
+60^\circ\& \text{where 2 right angles} = 360^{\circ\circ}\&
 \end{cases}
 \quad
 $$
@@ -4143,7 +4143,7 @@ $$
 $$
 \therefore \angle BDG = \angle ΘDK = \begin{cases}
 65;30^{\circ} \text{ where 4 right angles} = 360^{\circ} \\
-131^{\circ} \text{ where 2 right angles} = 360^{\circ}
+131^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 \end{cases}
 $$
 Therefore in the circle about right-angled triangle DΘK,
@@ -5401,7 +5401,7 @@ With this as a datum, let [Fig. 5.3] the moon’s eccentric circle be ABG on cen
 Then since the greatest equation of anomaly occurs when the moon is at the epicycle tangent, and we have shown that this amounts to 7$\frac{3}{4}$°, the angle at the centre of the ecliptic,
 
 $$
-\angle \text{GEΘ} = \left\{ \begin{array}{l} 7;40^\circ \text{ where 4 right angles} = 360^\circ \\ 15;20^\circ \text{ where 2 right angles} = 360^\circ \text{.} \end{array} \right.
+\angle \text{GEΘ} = \left\{ \begin{array}{l} 7;40^\circ \text{ where 4 right angles} = 360^\circ \\ 15;20^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.} \end{array} \right.
 $$
 
 Therefore in the circle about right-angled triangle GEΘ
@@ -5502,7 +5502,7 @@ Again, since the distance of the mean moon from the true sun was found to be $31
 $$
 \angle \text{ BEL} = \left\{ \begin{array}{l}
 0;46^\circ \text{ where 4 right angles} = 360^\circ \\
-1;32^\circ \text{ where 2 right angles} = 360^\circ
+1;32^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 \end{array} \right.
 $$
 
@@ -5537,14 +5537,14 @@ $$
 $$
 
 $$
-\therefore \angle \text{BHL} = 14;14^\circ \text{ where 2 right angles} = 360^\circ
+\therefore \angle \text{BHL} = 14;14^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 $$
 
 and, by subtraction
 
 $$
 \left[ \text{of } \angle \text{ BEL} \right], \angle \text{EBH} = \left\{ \begin{array}{l}
-12;42^\circ \text{ where 2 right angles} = 360^\circ \\
+12;42^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\
 6;21^\circ \text{ where 4 right angles} = 360^\circ
 \end{array} \right.
 $$
@@ -5564,7 +5564,7 @@ and $\arc\ HM$, the distance from the perigee, is given as $5;30^\circ$, by addi
 $$
 \text{So } \angle \text{EBX} = \left\{ \begin{array}{l}
 11;51^\circ \text{ where 4 right angles} = 360^\circ \\
-23;42^\circ \text{ where 2 right angles} = 360^\circ
+23;42^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 \end{array} \right.
 $$
 
@@ -5581,7 +5581,7 @@ Therefore where $ BE = 48;48^\circ $ $ EX = 10;2^\circ $.
 Again, since [p. 228]
 
 $$
-\angle A E B = 177;52^\circ \circ \quad \text{and} \quad \angle E B N = 23;42^\circ \circ \quad \text{where 2 right angles} = 360^\circ \text{,}
+\angle A E B = 177;52^\circ \circ \quad \text{and} \quad \angle E B N = 23;42^\circ \circ \quad \text{where 2 right angles} = 360^{\circ\circ} \text{,}
 $$
 
 by subtraction,
@@ -5630,7 +5630,7 @@ Fig. 5.5
 and diameter ADG, on which the centre of the ecliptic is represented by point
 E. About point B draw the moon's epicycle, ZHΘ, and join DB, EΘBZ.
 Then since twice the mean elongation of sun and moon is 90;30°, from the theory already established
-$$ \angle AEB = \begin{cases} 90;30^\circ \text{ where 4 right angles} = 360^\circ \\ 181^\circ \text{ where 2 right angles} = 360^\circ \end{cases} $$
+$$ \angle AEB = \begin{cases} 90;30^\circ \text{ where 4 right angles} = 360^\circ \\ 181^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{cases} $$
 So if we produce BE and drop perpendicular DK on to it from D,
 $$ \angle DEK = 179^\circ \text{ (supplement)}. $$
 Therefore in the circle about right-angled triangle DEK
@@ -5645,7 +5645,7 @@ Furthermore, since the distance of mean moon from true sun was found to be 46;40
 
 Then since
 
-$$ \angle \text{ BEL} = \begin{cases} 1; 26^\circ \text{ where 4 right angles} = 360^\circ \\ 2; 52^\circ \text{ where 2 right angles} = 360^\circ \text{,} \end{cases} $$
+$$ \angle \text{ BEL} = \begin{cases} 1; 26^\circ \text{ where 4 right angles} = 360^\circ \\ 2; 52^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{,} \end{cases} $$
 
 in the circle about right-angled triangle BEL, Therefore where $\text{EB} = 48; 31^\circ$ and BH, the radius of the epicycle, is $5; 15^\circ$,
 
@@ -5661,11 +5661,11 @@ $$
 \text{arc BL} = 26; 34^\circ.
 $$
 
-$$ \therefore \angle \text{BHL} = 26; 34^\circ \text{ where 2 right angles} = 360^\circ \text{,} $$
+$$ \therefore \angle \text{BHL} = 26; 34^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{,} $$
 
 and, by addition [of $\angle \text{BEL} = 2; 52^\circ$],
 
-$$ \angle \text{ZBH} = \begin{cases} 29; 26^\circ \text{ where 2 right angles} = 360^\circ \text{,} \\ 14; 43^\circ \text{ where 4 right angles} = 360^\circ \text{,} \end{cases} $$
+$$ \angle \text{ZBH} = \begin{cases} 29; 26^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{,} \\ 14; 43^\circ \text{ where 4 right angles} = 360^\circ \text{,} \end{cases} $$
 
 That $[14; 43^\circ]$ is the size of the arc HZ of the epicycle, which comprises the distance from the moon to the true apogee.
 
@@ -5675,7 +5675,7 @@ $$ \text{arc HZM} = 26; 48^\circ \text{ (by subtraction [of } 333; 12^\circ \tex
 
 and, by subtraction [of $\text{arc HZ} = 14; 43^\circ$], $\text{arc ZM} = 12; 5^\circ.$
 
-$$ \therefore \angle \text{MBZ} = \angle \text{EBX} = \begin{cases} 12; 5^\circ \text{ where 4 right angles} = 360^\circ \\ 24; 10^\circ \text{ where 2 right angles} = 360^\circ \text{,} \end{cases} $$
+$$ \therefore \angle \text{MBZ} = \angle \text{EBX} = \begin{cases} 12; 5^\circ \text{ where 4 right angles} = 360^\circ \\ 24; 10^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{,} \end{cases} $$
 
 Therefore in the circle about right-angled triangle BEX
 
@@ -5683,7 +5683,7 @@ Therefore where $\text{BE} = 48; 31^\circ$ and DE, the line between the centres,
 
 $$ \text{EX} = 10; 8^\circ. $$
 
-Again, since $\angle \text{AEB}$ is given as $181^\circ$ where 2 right angles $= 360^\circ$, and we have shown that $\angle \text{EBN} = 24; 10^\circ$, by subtraction, $\angle \text{ENB} = 156; 50^\circ$ in the same units, and, in the circle about right-angled triangle ENX,
+Again, since $\angle \text{AEB}$ is given as $181^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$, and we have shown that $\angle \text{EBN} = 24; 10^\circ$, by subtraction, $\angle \text{ENB} = 156; 50^\circ$ in the same units, and, in the circle about right-angled triangle ENX,
 
 $$ \text{arc EX} = 156; 50^\circ $$
 
@@ -5728,12 +5728,12 @@ where hypotenuse $BN = 120^{\mathrm{p}}$
 $NX \approx 25^{\mathrm{p}}$,
 and arc NX = $24;3^{\circ}$
 $$
-\therefore \angle NBX = \angle ZBM = \left\{ \begin{array}{l} 24;3^{\circ} \text{ where 2 right angles = } 360^{\circ} \\ 12;1^{\circ} \text{ (approximately) where 4 right angles = } 360^{\circ} \end{array} \right.
+\therefore \angle NBX = \angle ZBM = \left\{ \begin{array}{l} 24;3^{\circ\circ} \text{ where 2 right angles = } 360^{\circ\circ} \\ 12;1^{\circ} \text{ (approximately) where 4 right angles = } 360^{\circ} \end{array} \right.
 $$
 That $[12;1^{\circ}]$ is the size of the arc ZM of the epicycle.
 But since the distance of point H, representing the moon, from M, the mean apogee, is one revolution minus [the mean anomaly of $333;12^{\circ}$], i.e. $26;48^{\circ}$, by subtraction [of arc ZM from arc MH], arc HZ = $14;47^{\circ}$.
 $$
-\therefore \angle HBZ = \left\{ \begin{array}{l} 14;47^{\circ} \text{ where 4 right angles = } 360^{\circ} \\ 29;34^{\circ} \text{ where 2 right angles = } 360^{\circ} \end{array} \right.
+\therefore \angle HBZ = \left\{ \begin{array}{l} 14;47^{\circ} \text{ where 4 right angles = } 360^{\circ} \\ 29;34^{\circ\circ} \text{ where 2 right angles = } 360^{\circ\circ} \end{array} \right.
 $$
 and, in the circle about right-angled triangle HBL,
 arc HL = $29;34^{\circ}$
@@ -5751,7 +5751,7 @@ HL = $2;59^{\mathrm{p}}$
 and arc HL = $2;52^{\circ}$.
 Therefore the equation of anomaly,
 $$
-\angle HEL = \left\{ \begin{array}{l} 2;52^{\circ} \text{ where 2 right angles = } 360^{\circ} \\ 1;26^{\circ} \text{ where 4 right angles = } 360^{\circ} \end{array} \right.
+\angle HEL = \left\{ \begin{array}{l} 2;52^{\circ\circ} \text{ where 2 right angles = } 360^{\circ\circ} \\ 1;26^{\circ} \text{ where 4 right angles = } 360^{\circ} \end{array} \right.
 $$
 Q.E.D.
 
@@ -5847,7 +5847,7 @@ Let us suppose, then, that the sun has a maximum additive equation of $2;23^\cir
 $$
 \angle AEB = \begin{cases}
 14;48^\circ & \text{where 4 right angles} = 360^\circ \\
-29;36^\circ & \text{where 2 right angles} = 360^\circ
+29;36^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ}
 \end{cases}
 $$
 
@@ -5905,7 +5905,7 @@ Therefore the angle of the maximum equation of anomaly,
 
 $$
 \angle BE\Theta = \begin{cases}
-10;6^\circ & \text{where 2 right angles} = 360^\circ \\
+10;6^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ} \\
 5;3^\circ & \text{where 4 right angles} = 360^\circ,
 \end{cases}
 $$
@@ -5919,7 +5919,7 @@ Next let the moon be at $L$, the mean perigee. Thus $\angle AEB$ will contain, a
 $$
 [\angle AEB] = \begin{cases}
 4;46^\circ & \text{where 4 right angles} = 360^\circ \\
-9;32^\circ & \text{where 2 right angles} = 360^\circ
+9;32^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ}
 \end{cases}
 $$
 
@@ -5990,7 +5990,7 @@ $$
 Therefore the difference in the moon’s position due to the direction towards Z,
 
 $$
-\angle \mathrm{BEL} = \left\{ \begin{array}{l} 0;8^{\circ} \text{ where 2 right angles} = 360^{\circ} \\ 0;4^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right.
+\angle \mathrm{BEL} = \left\{ \begin{array}{l} 0;8^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 0;4^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right.
 $$
 
 Thus here too the difference in the moon’s equation of anomaly is [only] 4 minutes of arc; and even this does not produce a significant error in the phenomena at the syzygies, since it cannot reach as much as 1/4th of an hour, an amount one may expect to encounter frequently as a purely observational error.
@@ -6060,7 +6060,7 @@ Let their common centre be K, and let the line through the points at the zenith 
 Then it is obvious that for an observer at point A the moon's parallax was arc HΘ. So arc HΘ is 1;7°, according to the calculation from the observation. But since arc ZΘ is negligibly greater than arc HΘ (for the whole earth bears the ratio of a point to circle EZHΘ), arc ZHΘ is very nearly the same, 1;7°. And since, again, point A is negligibly different from the centre of circle ZΘ,
 
 $$
-\angle ZAΘ = \left\{ \begin{array}{l} 1;7^\circ \text{ where 4 right angles} = 360^\circ \\ 2;14^\circ \text{ where 2 right angles} = 360^\circ \text{.} \end{array} \right.
+\angle ZAΘ = \left\{ \begin{array}{l} 1;7^\circ \text{ where 4 right angles} = 360^\circ \\ 2;14^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.} \end{array} \right.
 $$
 
 $$
@@ -6082,7 +6082,7 @@ Therefore where LA = 2;21°, LD ≈ 120°.
 Furthermore since, by hypothesis, arc GD = 49;48°, the angle at the centre of the circle,
 
 $$
-\angle GKD = \left\{ \begin{array}{l} 49;48^\circ \text{ where 4 right angles} = 360^\circ \\ 99;36^\circ \text{ where 2 right angles} = 360^\circ \text{.} \end{array} \right.
+\angle GKD = \left\{ \begin{array}{l} 49;48^\circ \text{ where 4 right angles} = 360^\circ \\ 99;36^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.} \end{array} \right.
 $$
 
 Therefore in the circle about right-angled triangle ALK
@@ -6328,7 +6328,7 @@ The second two are when the epicycle is at the perigee of the eccentre,
 Then, since arc GD = 30°, by hypothesis,
 
 $$
-\angle G K D = \left\{ \begin{array}{l} 30^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 60^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.
+\angle G K D = \left\{ \begin{array}{l} 30^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 60^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.
 $$
 
 Therefore in the circle about right-angled triangle AKL arc AL = 60°, and arc KL = 120° (supplement).
@@ -6459,7 +6459,7 @@ Let [Fig. 5.15] the moon’s eccentre be ABGD on centre E and diameter AEG, on w
 ![img-90.jpeg](images/img-90.jpeg)
 Fig. 5.15
 
-Then, since $\angle BZA = 120^\circ$ where 2 right angles $= 360^\circ$, in the circle about right-angled triangle EZH, arc EH = 120°
+Then, since $\angle BZA = 120^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$, in the circle about right-angled triangle EZH, arc EH = 120°
 
 and arc ZH = 60° (supplement).
 
@@ -7460,7 +7460,7 @@ Therefore, since AG = 16;40° where hypotenuse EA = 32;20° (according to the ma
 AG = 61;51°, and, in the circle about right-angled triangle AGE arc AG = 62;2°.
 
 $$
-\therefore \angle \mathrm{AEG} = \angle \mathrm{BAE} = \left\{ \begin{array}{l} 62;2^\circ \text{ where 2 right angles} = 360^\circ \\ 31;1^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
+\therefore \angle \mathrm{AEG} = \angle \mathrm{BAE} = \left\{ \begin{array}{l} 62;2^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 31;1^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
 $$
 
 Again, to take the case of a lunar eclipse, let A be the centre of the shadow. Then, since, as before, we assume the moon at mean distance, AE will always be the same amount, namely [0;43,20° + 0;16,40° =] 60 minutes, and AD, likewise, will always be [0;43,20° - 0;16,40° =] 26;40 minutes. Let the moon be eclipsed in a situation such that the magnitude is 18 digits. Thus AG is again less than AD by half the diameter [of the moon] and, by subtraction [of 16;40′ from 26;40′], AG comes to 10;0 minutes.
@@ -7468,13 +7468,13 @@ Again, to take the case of a lunar eclipse, let A be the centre of the shadow. T
 Then, where hypotenuse AE = 120°, AG = 20;0°, and, in the circle about right-angled triangle AGE, arc AG = 19;12°.
 
 $$
-\therefore \angle \mathrm{AEG} = \angle \mathrm{BAE} = \left\{ \begin{array}{l} 19;12^\circ \text{ where 2 right angles} = 360^\circ \\ 9;36^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
+\therefore \angle \mathrm{AEG} = \angle \mathrm{BAE} = \left\{ \begin{array}{l} 19;12^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 9;36^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
 $$
 
 Similarly, where hypotenuse AD = 120°, AG = 45°, and, in the circle about right-angled triangle AGD, arc AG = 44;2°.
 
 $$
-\therefore \angle \mathrm{ADG} = \angle \mathrm{BAD} = \left\{ \begin{array}{l} 44;2^\circ \text{ where 2 right angles} = 360^\circ \\ 22;1^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
+\therefore \angle \mathrm{ADG} = \angle \mathrm{BAD} = \left\{ \begin{array}{l} 44;2^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 22;1^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
 $$
 
 In the same way we computed the sizes of the angles for the other [integer] digits [of magnitude], [always taking] that angle which was less than a right angle, in units where one right angle equals 90° (corresponding to the graduation of the quadrant of the horizon). We constructed a table with 22 lines
@@ -10478,7 +10478,7 @@ Let that centre be H, and draw a straight line through H at right angles to AG, 
 
 Then, since at the mean position in question the greatest morning elongation from the mean is given as $20\frac{1}{2}^{\circ}$, and the greatest evening elongation as $26\frac{1}{2}^{\circ}$, $\angle KBL = [20\frac{1}{2}^{\circ} + 26\frac{1}{2}^{\circ} = ]46;30^{\circ}$ where 4 right angles $= 360^{\circ}$.
 
-Therefore it's half, $\angle KB\Theta = 46;30^{\circ}$ where 2 right angles $= 360^{\circ}$.85
+Therefore it's half, $\angle KB\Theta = 46;30^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.85
 
 Therefore in the circle about right-angled triangle $B\Theta K$
 
@@ -10563,7 +10563,7 @@ We have to show that
 
 $$ \angle \Theta DK = 47\frac{3}{4}° \text{ where 4 right angles } = 360° $$
 
-Now both $ \angle ABH $ and $ \angle AGL $ subtend the side of the [inscribed] triangle and are equal to $ 120° $ where 2 right angles $ = 180° $;
+Now both $ \angle ABH $ and $ \angle AGL $ subtend the side of the [inscribed] triangle and are equal to $ 120°° $ where 2 right angles $ = 180° $;
 
 so
 
@@ -10619,7 +10619,7 @@ Therefore where hypotenuse DZ = 120°
 
 ΘZ = ZK = 48; 35°;
 
-and $ \angle ZD\Theta = \angle ZDK = 47; 46° $ where 2 right angles $ = 360° $.
+and $ \angle ZD\Theta = \angle ZDK = 47; 46°° $ where 2 right angles $ = 360°° $.
 
 Therefore, by addition [of $ \angle ZD\Theta $ to $ \angle ZDK $], $ \angle \Theta DK = 47; 46° $ where 4 right angles $ = 360° $.
 
@@ -10652,7 +10652,7 @@ Now at that moment the longitude of the mean sun was $\aleph 22;34^{\circ}$, and
 Thus its distance from the perigee in mean longitude was $42;34^{\circ}$.
 
 $$
-\therefore \angle GBH = \left\{ \begin{array}{l} 42;34^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 85;8^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.
+\therefore \angle GBH = \left\{ \begin{array}{l} 42;34^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 85;8^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.
 $$
 
 And since BG always equals BH
@@ -10687,7 +10687,7 @@ $$
 \angle BGM = 85;8^{\circ \circ}
 $$
 
-where 2 right angles = 360°, by subtraction, $\angle HGM = 52;18^{\circ \circ}$ in the same units.
+where 2 right angles = 360°°, by subtraction, $\angle HGM = 52;18^{\circ \circ}$ in the same units.
 
 Therefore in the circle about right-angled triangle GHM
 
@@ -10700,7 +10700,7 @@ and $\text{HZ}$, the radius of the eccentric carrying the epicycle, is $60^\circ
 $\text{HM} = 0;58^\circ$ and $\text{GM} = 1;58^\circ$.
 Hence $\text{MZ}$, being a negligible amount less than $\text{HZ}$, the hypotenuse [of triangle $\text{HMZ}$], is the same, $60^\circ$,
 and, by subtraction [of $\text{GM}$ from $\text{MZ}$], $\text{GZ} = 58;2^\circ$.
-Similarly, since $\angle \text{DGN} = 85;8^\circ$ where 2 right angles $= 360^\circ$,
+Similarly, since $\angle \text{DGN} = 85;8^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$,
 in the circle about right-angled triangle $\text{GDN}$
 $\text{arc DN} = 85;8^\circ$
 and $\text{arc GN} = 94;52^\circ$ (supplement).
@@ -10756,7 +10756,7 @@ With the above as data, then, let us draw a figure [Fig. 9.10] similar to the on
 Then, since the mean position of the planet was $[\pi_2 20\frac{3}{4}^{\circ} - \triangle 6^{\circ} =] 44;50^{\circ}$ from the apogee,
 
 $$
-\angle \mathrm{ABH} = \left\{ \begin{array}{l} 44;50^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 89;40^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} . \right.
+\angle \mathrm{ABH} = \left\{ \begin{array}{l} 44;50^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 89;40^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} . \right.
 $$
 
 Therefore its supplement, $\angle \mathrm{GBH} = 270;20^{\circ} \circ$
@@ -10805,7 +10805,7 @@ and GM = 2;10°.101
 
 Hence we compute ZM $[=\sqrt{\mathrm{ZH}^2 - \mathrm{HM}^2}]$ as $59;47^{\mathrm{p}}$,
 and, by addition [of MG to ZM], ZMG as $61;57^{\mathrm{p}}$ in the same units.
-Similarly, since $\angle DGN[=\angle AGZ]=89;40^\circ$ where 2 right angles $=360^\circ$,
+Similarly, since $\angle DGN[=\angle AGZ]=89;40^{\circ\circ}$ where 2 right angles $=360^{\circ\circ}$,
 in the circle about right-angled triangle GDN,
 $\arc DN=89;40^\circ$
 $\arc GN=90;20^\circ$ (supplement).
@@ -10821,12 +10821,12 @@ Therefore, in the circle about right-angled triangle ZDN,
 where $\mathrm{ZD}=120^{\mathrm{p}}$,
 $\mathrm{DN}=3;58^{\mathrm{p}}$
 $\mathrm{and} \mathrm{arc} \mathrm{DN}=3;48^\circ$.
-$\therefore \angle DZN=3;48^\circ$ where 2 right angles $=360^\circ$,
+$\therefore \angle DZN=3;48^{\circ\circ}$ where 2 right angles $=360^{\circ\circ}$,
 and, by subtraction [of $\angle DZN$ from $\angle AGZ$],
 $\angle ADZ=85;52^\circ$ in the same units.
 
 But $\angle ADL$ is given as $54;40^\circ$ in the same units
-(for the planet was $[\mathfrak{m}_4 3] - \triangle 6^\circ = 127;20^\circ$ from the apogee at the observation). Hence, by subtraction, $\angle ZDL=31;12^\circ$ where 2 right angles $=360^\circ$.
+(for the planet was $[\mathfrak{m}_4 3] - \triangle 6^\circ = 127;20^\circ$ from the apogee at the observation). Hence, by subtraction, $\angle ZDL=31;12^{\circ\circ}$ where 2 right angles $=360^{\circ\circ}$.
 Therefore in the circle about right-angled triangle ZDX,
 $\arc ZX=31;12^\circ$
 $\arc ZX=32;16^{\mathrm{p}}$ where hypotenuse $\mathrm{DZ}=120^{\mathrm{p}}$.
@@ -10836,12 +10836,12 @@ And, in the circle about right-angled triangle ZLX,
 where hypotenuse $\mathrm{ZL}=120^{\mathrm{p}}$,
 $\mathrm{ZX} \approx 92^{\mathrm{p}}$.
 $\therefore \arc ZX=100;8^\circ$.
-$\mathrm{and} \angle ZLX=100;8^\circ$ where 2 right angles $=360^\circ$.
+$\mathrm{and} \angle ZLX=100;8^{\circ\circ}$ where 2 right angles $=360^{\circ\circ}$.
 And we showed that, in the same units, $\angle ZDL=31;12^\circ$,
 $\left[\text{hence} \angle \Theta ZL=\angle ZLX-\angle ZDL=68;56^\circ\right]$,
 $\mathrm{and} \mathrm{that} \angle \Theta ZK=3;48^\circ$.
 Therefore, by subtraction [of $\angle \Theta ZK$ from $\angle \Theta ZL$],
-$\angle KZL=\begin{cases}65;8^\circ\text{ where 2 right angles }=360^\circ \\ 32;34^\circ\text{ where 4 right angles }=360^\circ.\end{cases}$
+$\angle KZL=\begin{cases}65;8^{\circ\circ}\text{ where 2 right angles }=360^{\circ\circ} \\ 32;34^\circ\text{ where 4 right angles }=360^\circ.\end{cases}$
 At this observation, then, the planet was $32;34^\circ$ from the epicycle perigee K,
 and, obviously, $212;34^\circ$ from the apogee. But we showed that at the moment of
 
@@ -10956,7 +10956,7 @@ centre be point D, and draw DE through D perpendicular to AG, in order for the m
 
 Then since, at the mean position in question, the greatest elongation from the mean as morning-star is, by hypothesis, $43\frac{1}{2}^{\circ}$, and the greatest as evening-star $48\frac{1}{2}^{\circ}$, by addition, $\angle ZBH = 91;55^{\circ}$ where 4 right angles = $360^{\circ}$.
 
-Therefore its half, $\angle ZBE = 91;55^{\circ}$ where 2 right angles = $360^{\circ}$.
+Therefore its half, $\angle ZBE = 91;55^{\circ\circ}$ where 2 right angles = $360^{\circ\circ}$.
 
 Therefore in the circle about right-angled triangle BEZ arc EZ = 91;55°
 
@@ -11005,7 +11005,7 @@ planet be located at point K, join DK and ZK, and drop perpendicular ZN [on to D
 
 Now since
 
-$$ \angle \text{EBZ} = \begin{cases} 27; 9^\circ \text{ where 4 right angles} = 360^\circ \\ 54; 18^\circ \text{ where 2 right angles} = 360^\circ \text{,} \end{cases} $$
+$$ \angle \text{EBZ} = \begin{cases} 27; 9^\circ \text{ where 4 right angles} = 360^\circ \\ 54; 18^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{,} \end{cases} $$
 
 in the circle about right-angled triangle BGL arc GL = 54;18°
 
@@ -11039,13 +11039,13 @@ Hence hypotenuse ZD[= √ZM + DM] ≈ 58;54°.
 
 Therefore, where ZD = 120°, DM = 2;18°, and, in the circle about right-angled triangle DZM, arc DM = 2;12°.
 
-∴ ∠ BZD = 2;12° where 2 right angles = 360°, and, by addition [of ∠ EBZ and ∠ BZD], ∠ EDZ = 56;30° in the same units.
+∴ ∠ BZD = 2;12°° where 2 right angles = 360°°, and, by addition [of ∠ EBZ and ∠ BZD], ∠ EDZ = 56;30° in the same units.
 
 And, since the planet was 18;30° in advance of the perigee at E (i.e. m, 25°) at the observation,
 
-$$ \angle \text{EDK} = \begin{cases} 18; 30^\circ \text{ where 4 right angles} = 360^\circ \\ 37^\circ \text{ where 2 right angles} = 360^\circ \text{.} \end{cases} $$
+$$ \angle \text{EDK} = \begin{cases} 18; 30^\circ \text{ where 4 right angles} = 360^\circ \\ 37^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.} \end{cases} $$
 
-Therefore, by addition [of ∠ EDK to ∠ EDZ], ∠ KDZ = 93;30° where 2 right angles = 360°, and, in the circle about right-angled triangle DZN, arc ZN = 93;30°.
+Therefore, by addition [of ∠ EDK to ∠ EDZ], ∠ KDZ = 93;30°° where 2 right angles = 360°°, and, in the circle about right-angled triangle DZN, arc ZN = 93;30°.
 
 Therefore its chord, ZN = 87;25° where ZD = 120°.
 
@@ -11061,7 +11061,7 @@ So, by addition, $\angle \mathbf{KZH} = 261;8^\circ \mathrm{O}$.
 
 And we showed that $\angle \mathbf{BZD} (= \angle \mathbf{HZ\Theta}) = 2;12^\circ \mathrm{O}$ in the same units.
 
-Therefore, by subtraction, $\angle \Theta ZK = \begin{cases} 258;56^\circ \mathrm{O} & \text{where 2 right angles} = 360^\circ \mathrm{O} \\ 129;28^\circ & \text{where 4 right angles} = 360^\circ \mathrm{O} \end{cases}$.
+Therefore, by subtraction, $\angle \Theta ZK = \begin{cases} 258;56^\circ \mathrm{O} & \text{where 2 right angles} = 360^{\circ\circ} \\ 129;28^\circ & \text{where 4 right angles} = 360^\circ \mathrm{O} \end{cases}$.
 
 So the planet Venus, at the time in question, was the above distance, $129;28^\circ$, in advance of the epicycle apogee $\Theta$, and, [therefore], in the motion [on the epicycle] assigned to it in the hypothesis, [namely] towards the rear, it was the difference of the above from one revolution, $230;32^\circ$, which was what we had to determine.
 
@@ -11070,7 +11070,7 @@ So the planet Venus, at the time in question, was the above distance, $129;28^\c
 With the above as data, let there be drawn [Fig. 10.4] a figure similar [to the preceding], but which has the epicycle in advance of the perigee, since the mean longitude of the epicycle is $\simeq 17;3^\circ$, while the longitude of the perigee is $\mathfrak{m} \cdot 20;55^\circ$. Now for that reason
 
 $$
-\angle \mathrm{EBZ} \left[ = \mathfrak{m} \cdot 20;55^\circ - \simeq 17;3^\circ \right] = \begin{cases} 33;52^\circ \text{ where 4 right angles} = 360^\circ \\ 67;44^\circ \text{ where 2 right angles} = 360^\circ \mathrm{O} \end{cases}.
+\angle \mathrm{EBZ} \left[ = \mathfrak{m} \cdot 20;55^\circ - \simeq 17;3^\circ \right] = \begin{cases} 33;52^\circ \text{ where 4 right angles} = 360^\circ \\ 67;44^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{cases}.
 $$
 
 Therefore, in the circle about right-angled triangle BGL,
@@ -11118,12 +11118,12 @@ Hence hypotenuse $ZD[= \sqrt{ZM + DM}] \approx 58;59^\circ$.
 Therefore, where $ZD = 120^\circ$, $DM = 2;51^\circ$,
 and, in the circle about right-angled triangle ZDM,
 $\arc DM = 2;44^\circ$
-$\therefore \angle BZD = 2;44^\circ$ where 2 right angles = $360^\circ$.
+$\therefore \angle BZD = 2;44^{\circ\circ}$ where 2 right angles = $360^{\circ\circ}$.
 
 And, by addition [of $\angle BZD$ and $\angle EBZ$], $\angle EDZ = 70;28^\circ$ in the same units.
 
 And the distance of the planet in advance from the perigee,
-$\angle EDK[= \text{m} 20;55^\circ - \text{m} 4;10^\circ] = \begin{cases} 76;45^\circ & \text{where 4 right angles = } 360^\circ \\ 153;30^\circ & \text{where 2 right angles = } 360^\circ \end{cases}$.
+$\angle EDK[= \text{m} 20;55^\circ - \text{m} 4;10^\circ] = \begin{cases} 76;45^\circ & \text{where 4 right angles = } 360^\circ \\ 153;30^{\circ\circ} & \text{where 2 right angles = } 360^{\circ\circ} \end{cases}$.
 
 Therefore, by subtraction, $\angle ZDK = 83;2^\circ$ in the same units,
 and, in the circle about right-angled triangle DZN,
@@ -11249,7 +11249,7 @@ and GD), and, as a universal rule, produce one of the three lines so drawn to me
 Since arc BG of the eccentric is given as subtending $93;44^{\circ}$ of the ecliptic, the angle at the centre of the ecliptic,
 
 $$
-\angle \mathrm{BDG} = \left\{ \begin{array}{l} 93;44^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 187;28^{\circ} \text{ where 2 right angles} = 360^{\circ}, \end{array} \right.
+\angle \mathrm{BDG} = \left\{ \begin{array}{l} 93;44^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 187;28^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}, \end{array} \right.
 $$
 
 and its supplement, $\angle \mathrm{EDH} = 172;32^{\circ}$ in the same units.
@@ -11266,7 +11266,7 @@ $$
 
 Similarly, since arc BG = 95;28°
 
-the angle at the circumference, $\angle \mathrm{BEG} = 95;28^{\circ}$ where 2 right angles = 360°.
+the angle at the circumference, $\angle \mathrm{BEG} = 95;28^{\circ\circ}$ where 2 right angles = 360°°.
 
 But we found that $\angle \mathrm{BDE} = 172;32^{\circ}$ in the same units.
 
@@ -11298,7 +11298,7 @@ $$
 \begin{array}{l}
 \angle \mathrm{ADG} = 161;34^{\circ} \text{ where 4 right angles} = 360^{\circ}, \\
 \text{and, by subtraction [from } 180^{\circ} \text{]}, \\
-\angle \mathrm{ADE} = \left\{ \begin{array}{l} 18;26^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 36;52^{\circ} \text{ where 2 right angles} = 360^{\circ}. \end{array} \right.
+\angle \mathrm{ADE} = \left\{ \begin{array}{l} 18;26^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 36;52^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}. \end{array} \right.
 \end{array}
 $$
 
@@ -11315,7 +11315,7 @@ $$
 Similarly, since arc ABG of the eccentric is, by addition [of $81;44^{\circ}$ to $95;28^{\circ}$], $177;12^{\circ}$,
 
 $$
-\angle \mathrm{AEG} = 177;12^{\circ} \text{ where 2 right angles} = 360^{\circ}.
+\angle \mathrm{AEG} = 177;12^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}.
 $$
 
 But we found that $\angle \mathrm{ADE} = 36;52^{\circ}$ in the same units.
@@ -11339,7 +11339,7 @@ $$
 Again, since arc AB of the eccentric = 81;44°,
 
 $$
-\angle \mathrm{AEB} = 81;44^\circ \text{ where 2 right angles} = 360^\circ \text{°}.
+\angle \mathrm{AEB} = 81;44^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{°}.
 $$
 
 Therefore, in the circle about right-angled triangle AEΘ,
@@ -11436,7 +11436,7 @@ by subtraction, DN = 8;39 where DK was computed as 13;7.
 Therefore in the circle about right-angled triangle DKN,
 DN = 79;8 where hypotenuse DK = $120^{\circ}$,
 and arc DN = 82;30.
-∴ ∠ DKN = $\begin{cases} 82;30^{\circ0} & \text{where 2 right angles = } 360^{\circ0} \\ 41;15^{\circ} & \text{where 4 right angles = } 360^{\circ}. \end{cases}$
+∴ ∠ DKN = $\begin{cases} 82;30^{\circ0} & \text{where 2 right angles = } 360^{\circ\circ} \\ 41;15^{\circ} & \text{where 4 right angles = } 360^{\circ}. \end{cases}$
 
 And since ∠ DKN is an angle at the centre of the eccentric,
 arc MX = 41;15 also.
@@ -11457,7 +11457,7 @@ Fig. 10.10
 Then, since arc XE = 36;31°,
 
 $$
-\angle E\Theta X = \left\{ \begin{array}{l} 36;31^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 73;2^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.
+\angle E\Theta X = \left\{ \begin{array}{l} 36;31^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 73;2^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.
 $$
 
 And the vertically opposite angle DΘF = 73;2°° in the same units also.
@@ -11489,7 +11489,7 @@ $$
 \text{Therefore, where } \mathrm{NA} = 120^\circ, \mathrm{NQ} = 14;16^\circ, \\
 \text{and, in the circle about right-angled triangle ANQ,} \\
 \text{arc } \mathrm{NQ} = 13;40^\circ \\
-\therefore \angle \mathrm{NAQ} = 13;40^\circ \text{ where 2 right angles} = 360^\circ \text{.}
+\therefore \angle \mathrm{NAQ} = 13;40^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.}
 \end{array}
 $$
 
@@ -11503,7 +11503,7 @@ $$
 \text{Therefore, where } \mathrm{NE} = 120^\circ, \mathrm{QN} = 13;10^\circ, \text{} \\
 \text{and, in the circle about right-angled triangle ENQ,} \\
 \text{arc } \mathrm{QN} = 12;36^\circ. \\
-\therefore \angle \mathrm{NEQ} = 12;36^\circ \text{ where 2 right angles} = 360^\circ \text{.}
+\therefore \angle \mathrm{NEQ} = 12;36^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.}
 \end{array}
 $$
 
@@ -11511,7 +11511,7 @@ $$
 \begin{array}{l}
 \text{But we found that } \angle \mathrm{NAQ} = 13;40^\circ \text{ in the same units.} \\
 \text{Therefore, by subtraction [of } \angle \mathrm{NEQ} \text{ from } \angle \mathrm{NAQ]}, \\
-\angle \mathrm{ANE} = \begin{cases} 1;4^\circ \text{ where 2 right angles} = 360^\circ \\ 0;32^\circ \text{ where 4 right angles} = 360^\circ. \end{cases} \\
+\angle \mathrm{ANE} = \begin{cases} 1;4^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 0;32^\circ \text{ where 4 right angles} = 360^\circ. \end{cases} \\
 \end{array}
 $$
 
@@ -11552,7 +11552,7 @@ NB = 65;6⁸, in the same units.
 
 Therefore, where NB = 120⁸, NQ = 17;9⁸, and, in the circle about right-angled triangle BNQ, arc NQ = 16;26°
 
-∴ ∠ NBQ = 16;26° where 2 right angles = 360°.
+∴ ∠ NBQ = 16;26°° where 2 right angles = 360°°.
 
 Again, since NQ was shown to be 9;18⁸, and QΘ [= 2FΘ] = 9;16⁸, where the radius of the eccentric, ZΘ = 60⁸, by addition, QΘZ = 69;16⁸ in the same units.
 
@@ -11560,7 +11560,7 @@ Hence hypotenuse NZ [of right-angled triangle NQZ] = 69;52⁸.
 
 Therefore, where hypotenuse NZ = 120⁸, NQ ≈ 16⁸, and, in the circle about right-angled triangle ZNQ, arc NQ = 15;20°.
 
-∴ ∠ NZQ = 15;20° where 2 right angles = 360°.
+∴ ∠ NZQ = 15;20°° where 2 right angles = 360°°.
 
 But we found that ∠ NBQ = 16;26° in the same units.
 
@@ -11793,7 +11793,7 @@ Therefore, where hypotenuse $GN = 120^P$, $NQ = 17;55^P$, and, in the circle abo
 
 $$ \text{arc } NQ = 17;10^o. $$
 
-$$ \therefore \angle \Theta GN = \begin{cases} 17;10^{\circ} \text{ where 2 right angles} = 360^{\circ} \\ 8;35^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{cases} $$
+$$ \therefore \angle \Theta GN = \begin{cases} 17;10^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 8;35^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{cases} $$
 
 $$ \text{But } \angle G\Theta Z = 44;21^{\circ} \text{ in the same units.} $$
 
@@ -11852,7 +11852,7 @@ $$
 \angle BZG = [180^\circ - 137;11^\circ] = \left\{
 \begin{array}{l}
 42;49^\circ \text{ where 4 right angles} = 360^\circ \\
-85;38^\circ \text{ where 2 right angles} = 360^\circ
+85;38^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 \end{array}
 \right.
 $$
@@ -11988,7 +11988,7 @@ and the angle representing the mean motion of the sun [counted from the perigee]
 ∠ ΘEL = ∠ BΘE = [180° − 100;50° + 2;29° =]
 {
 81;39° where 4 right angles = 360°
-163;18°° where 2 right angles = 360°
+163;18°° where 2 right angles = 360°°
 }
 
 ![img-144.jpeg](images/img-144.jpeg)
@@ -12006,7 +12006,7 @@ $$
 \angle AE\Theta = \left\{
 \begin{array}{l}
 100;50^\circ \text{ where 4 right angles} = 360^\circ \\
-201;40^\circ \text{ where 2 right angles} = 360^\circ
+201;40^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 \end{array}
 \right.
 $$
@@ -12023,7 +12023,7 @@ BX = 66;18°,
 and, in the circle about right-angled triangle BDX,
 arc BX ≈ 67;4°.
 $$
-\therefore \angle BDX = 67;4^\circ \text{ where 2 right angles} = 360^\circ
+\therefore \angle BDX = 67;4^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 $$
 and, by addition [of right angle XDM], $\angle BDM = 247;4^\circ$.
 But, since $\angle DEM$ was shown to be 158;20°,
@@ -12068,7 +12068,7 @@ Therefore, where $\mathrm{BZ} = 120^\circ$, $\mathrm{ZK} = 11;28^\circ$, and, in
 $$
 \begin{aligned}
 &\text{arc ZK} = 10;58^\circ \\
-&\therefore \angle \mathrm{ZBD} = 10;58^\circ \text{ where 2 right angles} = 360^\circ \text{.}
+&\therefore \angle \mathrm{ZBD} = 10;58^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.}
 \end{aligned}
 $$
 
@@ -12138,7 +12138,7 @@ Let [Fig. 11.1] the eccentric be ABG, on which point A is taken as the position 
 Then, since arc BG of the eccentric is given as subtending 36;29° of the ecliptic, the angle at the centre of the ecliptic,
 
 $$
-\angle \mathrm{BDG} \ (= \angle \mathrm{EDH}) = \left\{ \begin{array}{l} 36;29^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 72;58^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.
+\angle \mathrm{BDG} \ (= \angle \mathrm{EDH}) = \left\{ \begin{array}{l} 36;29^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 72;58^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.
 $$
 
 ![img-145.jpeg](images/img-145.jpeg)
@@ -12338,7 +12338,7 @@ equal to LM. Draw the diameter through the centres, NLM, and take on it the cent
 Then, since the angle of mean motion in longitude, $\angle$ NZX, was shown to be 79;30° where 4 right angles = 360°, the angle vertically opposite to it,
 
 $$
-\angle \mathrm{DZH} = \left\{ \begin{array}{l} 79;30^\circ \text{ where 2 right angles } = 360^\circ \\ 159^\circ \text{ where 2 right angles } = 360^\circ \text{.} \end{array} \right.
+\angle \mathrm{DZH} = \left\{ \begin{array}{l} 79;30^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\ 159^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{.} \end{array} \right.
 $$
 
 Therefore, in the circle about right-angled triangle DZH, arc DH = 159°
@@ -12372,13 +12372,13 @@ $\mathrm{AE} = 60;40^{\mathrm{p}}$ in the same units.
 
 Therefore, where $\mathrm{AE} = 120^{\mathrm{p}}$, $\mathrm{E}\Theta = 10;29^{\mathrm{p}}$, and, in the circle about right-angled triangle $\mathrm{AE}\Theta$, $\mathrm{arc} \quad \mathrm{E}\Theta \approx 10;1^{\circ}$.
 
-$\therefore \angle \mathrm{EA}\Theta = 10;1^{\circ}$ where 2 right angles $= 360^{\circ}$. Furthermore, where $\mathrm{E}\Theta = 5;18^{\mathrm{p}}$, the radius of the eccentric, $\mathrm{ZX} = 60^{\mathrm{p}}$ and $\mathrm{Z}\Theta$ $[= 2\mathrm{ZH}] = 1^{\mathrm{p}}$, (hence, obviously, by addition, $\mathrm{X}\Theta = 61^{\mathrm{p}}$).
+$\therefore \angle \mathrm{EA}\Theta = 10;1^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$. Furthermore, where $\mathrm{E}\Theta = 5;18^{\mathrm{p}}$, the radius of the eccentric, $\mathrm{ZX} = 60^{\mathrm{p}}$ and $\mathrm{Z}\Theta$ $[= 2\mathrm{ZH}] = 1^{\mathrm{p}}$, (hence, obviously, by addition, $\mathrm{X}\Theta = 61^{\mathrm{p}}$).
 
 So we find hypotenuse [of right-angled triangle $\mathrm{E}\Theta\mathrm{X}$] $\mathrm{EX}$ as $61;14^{\mathrm{p}}$ in the same units.
 
 Therefore, where $\mathrm{EX} = 120^{\mathrm{p}}$, $\mathrm{E}\Theta = 10;23^{\mathrm{p}}$, and, in the circle about right-angled triangle $\mathrm{E}\Theta\mathrm{X}$, $\mathrm{arc} \quad \mathrm{E}\Theta = 9;55^{\circ}$.
 
-$\therefore \angle \mathrm{EX}\Theta = 9;55^{\circ}$ where 2 right angles $= 360^{\circ}$.
+$\therefore \angle \mathrm{EX}\Theta = 9;55^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.
 
 But we showed that $\angle \mathrm{EA}\Theta = 10;1^{\circ}$ in the same units.
 
@@ -12386,7 +12386,7 @@ Therefore, by subtraction, the angle of the difference in question,
 
 $$
 \angle \mathrm{AEX} = \begin{cases}
-0;6^{\circ} & \text{where 2 right angles} = 360^{\circ} \\
+0;6^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ} \\
 0;3^{\circ} & \text{where 4 right angles} = 360^{\circ}.
 \end{cases}
 $$
@@ -12398,7 +12398,7 @@ Then, since arc XN of the eccentric was shown [p. 510, arc BM] to be $0;35^{\cir
 $$
 \angle \mathrm{XZN} = \begin{cases}
 0;35^{\circ} & \text{where 4 right angles} = 360^{\circ} \\
-1;10^{\circ} & \text{where 2 right angles} = 360^{\circ}.
+1;10^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ}.
 \end{cases}
 $$
 
@@ -12571,7 +12571,7 @@ Once again, let the diagram for the first opposition be drawn [Fig. 11.6], but c
 
 $\angle LZA$ was shown to be 77;15° where 4 right angles = 360°,
 
-$\angle LZA = \angle DZH$ (vertically opposite) = 154;30° where 2 right angles = 360°.
+$\angle LZA = \angle DZH$ (vertically opposite) = 154;30°° where 2 right angles = 360°°.
 
 ![img-150.jpeg](images/img-150.jpeg)
 Fig. 11.6
@@ -12610,7 +12610,7 @@ $$
 \arc E\Theta = 10;8^\circ.
 $$
 
-$\therefore \angle \mathrm{EA}\Theta = 10;8^\circ$ where 2 right angles $= 360^\circ$, and, by subtraction [of $\angle \mathrm{EA}\Theta$ from $\angle \mathrm{LZA}$],
+$\therefore \angle \mathrm{EA}\Theta = 10;8^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$, and, by subtraction [of $\angle \mathrm{EA}\Theta$ from $\angle \mathrm{LZA}$],
 
 $$
 \angle \mathrm{LEA} = \left\{ \begin{array}{l} 144;22^\circ \text{ in the same units} \\ 72;11^\circ \text{ where 4 right angles} = 360^\circ. \end{array} \right.
@@ -12626,7 +12626,7 @@ Fig. 11.7
 Again, let the [corresponding] diagram for the second opposition be drawn [Fig. 11.7]. [Then,] since
 
 $$
-\angle B Z M \text{ is given as } \left\{ \begin{array}{l} 2; 50^\circ \text{ where 4 right angles = } 360^\circ \\ 5; 40^\circ \text{ where 2 right angles = } 360^\circ \text{,} \end{array} \right.
+\angle B Z M \text{ is given as } \left\{ \begin{array}{l} 2; 50^\circ \text{ where 4 right angles = } 360^\circ \\ 5; 40^{\circ\circ} \text{ where 2 right angles = } 360^{\circ\circ} \text{,} \end{array} \right.
 $$
 
 in the circle about right-angled triangle DZH,
@@ -12677,7 +12677,7 @@ $$
 $$
 
 $$
-\therefore \angle \mathrm{EB}\Theta = 0; 32^\circ \text{ where 2 right angles = } 360^\circ \text{.}
+\therefore \angle \mathrm{EB}\Theta = 0; 32^{\circ\circ} \text{ where 2 right angles = } 360^{\circ\circ} \text{.}
 $$
 
 And, by addition [of $\angle \mathrm{BZM}$], $\angle \mathrm{BEM} = \left\{ \begin{array}{l} 6; 12^\circ \text{ in the same units} \\ 3; 6^\circ \text{ where 4 right angles = } 360^\circ \text{.} \end{array} \right.$
@@ -12687,7 +12687,7 @@ Therefore the distance of the planet in advance of the perigee at the second opp
 So let the [corresponding] diagram for the third opposition be drawn [Fig. 11.8]. [Then,] since
 
 $$
-\angle M Z G \text{ was shown to be } \left\{ \begin{array}{l} 30;36^\circ \text{ where 4 right angles } = 360^\circ \\ 61;12^\circ \text{ where 2 right angles } = 360^\circ \end{array} \right.,
+\angle M Z G \text{ was shown to be } \left\{ \begin{array}{l} 30;36^\circ \text{ where 4 right angles } = 360^\circ \\ 61;12^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \end{array} \right.,
 $$
 
 in the circle about right-angled triangle DZH,
@@ -12738,7 +12738,7 @@ $$
 $$
 
 $$
-\therefore \angle \mathbf{EG}\Theta = 5;34^\circ \text{ where 2 right angles } = 360^\circ \text{.}
+\therefore \angle \mathbf{EG}\Theta = 5;34^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{.}
 $$
 
 And, by addition [of $\angle$ MZG],
@@ -12765,7 +12765,7 @@ and the arc ΘK of the epicycle from the perigee Θ to the planet K as 2;47° (f
 
 $$
 \angle \mathrm{EGZ} = \begin{cases}
-5;34^\circ \text{ where 2 right angles} = 360^\circ \text{ } \\
+5;34^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{ } \\
 2;47^\circ \text{ where 4 right angles} = 360^\circ.
 \end{cases}
 $$
@@ -12850,7 +12850,7 @@ Furthermore, since the approximate longitude of the perigee G is ≥ 11°, and t
 $$
 \begin{cases}
 94;45^\circ \text{ where 4 right angles} = 360^\circ \\
-189;30^\circ \text{ where 2 right angles} = 360^\circ
+189;30^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}
 \end{cases}
 $$
 
@@ -12901,7 +12901,7 @@ And ∠ AEL = 2;43°.
 Therefore, by addition,
 
 $$
-\angle \mathrm{LEΘ} (= \angle \mathrm{BΘE}) = \left\{ \begin{array}{l} 62;23^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 124;46^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.
+\angle \mathrm{LEΘ} (= \angle \mathrm{BΘE}) = \left\{ \begin{array}{l} 62;23^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 124;46^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.
 $$
 
 Therefore, in the circle about right-angled triangle BΘN,
@@ -12920,7 +12920,7 @@ $$
 \mathrm{B N} = 10;12^{\circ}.
 $$
 
-Again, since ∠ DEM is given as $\left\{ \begin{array}{l} 59;40^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 119;20^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.$
+Again, since ∠ DEM is given as $\left\{ \begin{array}{l} 59;40^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 119;20^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.$
 
 and ∠ MDE = 60;40° in the same units (complement), in the circle about right-angled triangle DEM
 
@@ -13016,7 +13016,7 @@ $$
 \angle \mathrm{BDG} (= \angle \mathrm{EDH}) = \left\{
 \begin{array}{l}
 34;34^\circ \text{ where 4 right angles} = 360^\circ \\
-69;8^\circ \text{ where 2 right angles} = 360^\circ.
+69;8^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}.
 \end{array}
 \right.
 $$
@@ -13027,7 +13027,7 @@ $$
 $$
 and $\mathrm{EH} = 68;5^\circ$ where hypotenuse $\mathrm{DE} = 120^\circ$.
 
-Similarly, since arc BG = 37;52°, the angle at the circumference, $\angle \mathrm{BEG} = 37;52^\circ$ where 2 right angles = $360^\circ$, and, by subtraction [from $\angle \mathrm{BDG}$], $\angle \mathrm{EBH} = 31;16^\circ$ in the same units.
+Similarly, since arc BG = 37;52°, the angle at the circumference, $\angle \mathrm{BEG} = 37;52^{\circ\circ}$ where 2 right angles = $360^{\circ\circ}$, and, by subtraction [from $\angle \mathrm{BDG}$], $\angle \mathrm{EBH} = 31;16^\circ$ in the same units.
 
 Therefore, in the circle about right-angled triangle EBH,
 $$
@@ -13219,7 +13219,7 @@ $$
 $$
 
 $$
-\therefore \angle EA\Theta = 10;51^\circ \text{ where 2 right angles} = 360^\circ.
+\therefore \angle EA\Theta = 10;51^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ}.
 $$
 
 the radius of the eccentre, $ZX = 60^p$, and $Z\Theta = 4^p$;
@@ -13237,7 +13237,7 @@ $$
 $$
 
 $$
-\therefore \angle EX\Theta = 10;33^\circ \text{ where 2 right angles} = 360^\circ \text{.}
+\therefore \angle EX\Theta = 10;33^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.}
 $$
 
 But we showed that $\angle EA\Theta = 10;51^\circ \text{ in the same units.}$
@@ -13246,7 +13246,7 @@ Therefore, by subtraction, the angle of the required difference,
 
 $$
 \angle AEX = \begin{cases}
-0;18^\circ \text{ where 2 right angles} = 360^\circ \text{,} \\
+0;18^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{,} \\
 0;9^\circ \text{ where 4 right angles} = 360^\circ \text{.}
 \end{cases}
 $$
@@ -13350,7 +13350,7 @@ Let the diagram for the third opposition be drawn [Fig. 11.16], with the same la
 Fig. 11.16
 
 $$
-\angle \mathrm{NZX} \ (= \angle \mathrm{DZH}) = \left\{ \begin{array}{l} 57;43^\circ \ \text{where 4 right angles} = 360^\circ \\ 115;26^\circ \ \text{where 2 right angles} = 360^\circ \end{array} \right.
+\angle \mathrm{NZX} \ (= \angle \mathrm{DZH}) = \left\{ \begin{array}{l} 57;43^\circ \ \text{where 4 right angles} = 360^\circ \\ 115;26^\circ \ \text{where 2 right angles} = 360^{\circ\circ} \end{array} \right.
 $$
 
 Therefore, in the circle about right-angled triangle $\mathrm{DZH}$,
@@ -13401,7 +13401,7 @@ $$
 $$
 
 $$
-\therefore \angle \mathrm{EG}\Theta = 11;9^\circ \ \text{where 2 right angles} = 360^\circ \text{.}
+\therefore \angle \mathrm{EG}\Theta = 11;9^\circ \ \text{where 2 right angles} = 360^{\circ\circ} \text{.}
 $$
 
 Similarly, where the radius of the eccentric, $\mathrm{XZ} = 60^\circ$, $\mathrm{Z}\Theta$ is computed as $3;48^\circ$;
@@ -13421,7 +13421,7 @@ $$
 $$
 
 $$
-\therefore \angle \mathrm{EX}\Theta = 10;49^\circ \ \text{where 2 right angles} = 360^\circ \text{.}
+\therefore \angle \mathrm{EX}\Theta = 10;49^\circ \ \text{where 2 right angles} = 360^{\circ\circ} \text{.}
 $$
 
 But we showed that $\angle \mathrm{EG}\Theta = 11;9^\circ$ in the same units.
@@ -13441,7 +13441,7 @@ from the apogee to the third opposition 56;30°.
 Here again, the above quantities have been accurately derived by this method; for the differences in the ecliptic arcs computed from these arcs are very nearly the same as the previous set, and the apparent intervals [in longitude] of the planet are found to be in agreement with those observed, as we shall show by a procedure similar [to the preceding ones for Jupiter and Mars].
 
 Let the diagram for the first opposition be drawn [Fig. 11.17], with only the eccentric carrying the epicycle centre. Then since the angle subtending 57;5° of the eccentric [i.e. equant], $\angle AZL = 57;5^\circ$ where 4 right angles = 360°,
-and $\angle AZL = \angle DZH$ (vertically opposite) = 114;10° where 2 right angles = 360°,
+and $\angle AZL = \angle DZH$ (vertically opposite) = 114;10°° where 2 right angles = 360°°,
 
 ![img-161.jpeg](images/img-161.jpeg)
 Fig. 11.17
@@ -13481,7 +13481,7 @@ Again, let the diagram for the second opposition be drawn in the same manner [Fi
 ![img-162.jpeg](images/img-162.jpeg)
 Fig. 11.18
 
-$\angle BZL$ was shown to be $18;38^{\circ}$ where 4 right angles $= 360^{\circ}$, and $\angle BZL = \angle DZH$ (vertically opposite) $= 37;16^{\circ\circ}$ where 2 right angles $= 360^{\circ}$
+$\angle BZL$ was shown to be $18;38^{\circ}$ where 4 right angles $= 360^{\circ}$, and $\angle BZL = \angle DZH$ (vertically opposite) $= 37;16^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$
 
 in the circle about right-angled triangle DZH, $\arc DH = 37;16^{\circ}$
 
@@ -13502,7 +13502,7 @@ Hence hypotenuse [of right-angled triangle $\mathbf{B}\mathbf{E}\Theta$]
 $\mathbf{E}\mathbf{B} = 63;15^{\circ}$ in the same units.
 Therefore, where hypotenuse $\mathbf{E}\mathbf{B} = 120^{\circ}$, $\Theta \mathbf{E} = 4;7^{\circ}$, and, in the circle about right-angled triangle $\mathbf{B}\mathbf{E}\Theta$,
 $\operatorname{arc} \Theta \mathbf{E} = 3;56^{\circ}$.
-$\therefore \angle \mathbf{E}\mathbf{B}\mathbf{Z} = 3;56^{\circ}$ where 2 right angles $= 360^{\circ}$.
+$\therefore \angle \mathbf{E}\mathbf{B}\mathbf{Z} = 3;56^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.
 
 But $\angle \mathbf{B}\mathbf{Z}\mathbf{L}$ was given as $37;16^{\circ}$ in the same units.
 Therefore, by subtraction, $\angle \mathbf{B}\mathbf{E}\mathbf{L} = \begin{cases} 33;20^{\circ} & \text{in the same units} \\ 16;40^{\circ} & \text{where 4 right angles} = 360^{\circ}. \end{cases}$
@@ -13511,7 +13511,7 @@ Therefore at the second opposition the apparent position of the planet was $16;4
 
 Now let the diagram for the third opposition be drawn [Fig. 11.19]. [Then,] since
 $\angle \mathbf{G}\mathbf{Z}\mathbf{L}$ was shown to be $56;30^{\circ}$ where 4 right angles $= 360^{\circ}$,
-and $\angle \mathbf{G}\mathbf{Z}\mathbf{L} = \angle \mathbf{D}\mathbf{Z}\mathbf{H}$ (vertically opposite) $= 113;0^{\circ}$ where 2 right angles $= 360^{\circ}$,
+and $\angle \mathbf{G}\mathbf{Z}\mathbf{L} = \angle \mathbf{D}\mathbf{Z}\mathbf{H}$ (vertically opposite) $= 113;0^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$,
 in the circle about right-angled triangle $\mathbf{D}\mathbf{Z}\mathbf{H}$,
 $\operatorname{arc} \mathbf{DH} = 113^{\circ}$ and $\operatorname{arc} \mathbf{ZH} = 67^{\circ}$ (supplement).
 
@@ -13614,7 +13614,7 @@ With the above as data, let us again draw the diagram [Fig. 11.21] as in the sim
 Fig. 11.21
 
 $$
-\angle AZB (= \angle DZM) = \left\{ \begin{array}{l} 86;33^\circ \text{ where 4 right angles } = 360^\circ \text{ (given)} \\ 173;6^\circ \text{ where 2 right angles } = 360^\circ \text{,} \end{array} \right. \tag{}
+\angle AZB (= \angle DZM) = \left\{ \begin{array}{l} 86;33^\circ \text{ where 4 right angles } = 360^\circ \text{ (given)} \\ 173;6^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{,} \end{array} \right. \tag{}
 $$
 
 in the circle about right-angled triangle DZM,
@@ -13700,26 +13700,26 @@ Fig. 11.22
 planet drawn parallel to [the line indicating] the sun’s position. Then, since the apparent position of Saturn was in advance of the apogee by 69;50° (the difference [of 290;10°] from one revolution), the angle at the centre of the ecliptic,
 
 $$
-\angle AE\Theta = \left\{ \begin{array}{l} 69;50^\circ \text{ where 4 right angles} = 360^\circ \\ 139;40^\circ \text{ where 2 right angles} = 360^\circ \text{.} \end{array} \right.
+\angle AE\Theta = \left\{ \begin{array}{l} 69;50^\circ \text{ where 4 right angles} = 360^\circ \\ 139;40^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.} \end{array} \right.
 $$
 
 And the angle of the sun’s distance [from the apogee],
 
 $$
-\angle AEL \text{ is given as } \left\{ \begin{array}{l} 106;50^\circ \text{ where 4 right angles} = 360^\circ \\ 213;40^\circ \text{ where 2 right angles} = 360^\circ \text{.} \end{array} \right.
+\angle AEL \text{ is given as } \left\{ \begin{array}{l} 106;50^\circ \text{ where 4 right angles} = 360^\circ \\ 213;40^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.} \end{array} \right.
 $$
 
-Therefore, by addition, $\angle \Theta EL$ (= $\angle B\Theta E$, since $B\Theta$ is parallel to $EL$), is 353;20° where 2 right angles = 360°, and, by subtraction [of $\angle B\Theta E$ from 2 right angles] $\angle B\Theta N = 6;40^\circ$ in the same units.
+Therefore, by addition, $\angle \Theta EL$ (= $\angle B\Theta E$, since $B\Theta$ is parallel to $EL$), is 353;20°° where 2 right angles = 360°°, and, by subtraction [of $\angle B\Theta E$ from 2 right angles] $\angle B\Theta N = 6;40^\circ$ in the same units.
 
 Therefore, in the circle about right-angled triangle $B\Theta N$, arc $BN = 6;40^\circ$ and $BN = 6;58^\circ$ where hypotenuse $B\Theta = 120^\circ$.
 
 Therefore where the radius of the epicycle, $B\Theta = 6;30^\circ$, $BN = 0;23^\circ$.
 
-Similarly, since $\angle AE\Theta = 139;40^\circ$ where 2 right angles = 360° and $\angle EDM = 40;20^\circ$ in the same units [complement], in the circle about right-angled triangle $DEM$, arc $DM = 139;40^\circ$ and $DM = 112;39^\circ$ where hypotenuse $ED = 120^\circ$.
+Similarly, since $\angle AE\Theta = 139;40^{\circ\circ}$ where 2 right angles = 360°° and $\angle EDM = 40;20^\circ$ in the same units [complement], in the circle about right-angled triangle $DEM$, arc $DM = 139;40^\circ$ and $DM = 112;39^\circ$ where hypotenuse $ED = 120^\circ$.
 
 Therefore, where the distance between the centres, $ED = 3;25^\circ$, and the radius of the eccentre, $DB = 60^\circ$, $DM (= XN) = 3;12^\circ$, and, by addition, $BNX = 3;35^\circ$ where hypotenuse [of right-angled triangle $BDX$] $DB = 60^\circ$.
 
-Therefore, where $DB = 120^\circ$, $BX = 7;10^\circ$, and, in the circle about right-angled triangle $BDX$, arc $BX = 6;52^\circ$ $\therefore \angle BDX = 6;52^\circ$ where 2 right angles = 360° and, by subtraction [from a right angle], $\angle BDM = 173;8^\circ$ in the same units.
+Therefore, where $DB = 120^\circ$, $BX = 7;10^\circ$, and, in the circle about right-angled triangle $BDX$, arc $BX = 6;52^\circ$ $\therefore \angle BDX = 6;52^{\circ\circ}$ where 2 right angles = 360°° and, by subtraction [from a right angle], $\angle BDM = 173;8^\circ$ in the same units.
 
 And, by addition [of $\angle EDM$], $\angle BDE = 213;28^\circ$ in the same units, and, by subtraction [from 2 right angles], $\angle BDA = 146;32^\circ$ in the same units.
 
@@ -14384,7 +14384,7 @@ $$
 &\text{arc } \Theta Z = 36;21,15^{\circ}, \\
 &\text{so } \angle ZA\Theta \left\{
 \begin{array}{l}
-= 36;21;15^{\circ} \text{ where 2 right angles } = 360^{\circ} \\
+= 36;21;15^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\
 \approx 18;10,38^{\circ} \text{ where 4 right angles } = 360^{\circ}.
 \end{array}
 \right.
@@ -14464,7 +14464,7 @@ $$
 \end{array}
 \quad
 \begin{array}{l}
-\text{where 2 right angles} = 360^{\circ}. \\
+\text{where 2 right angles} = 360^{\circ\circ}. \\
 \text{where 4 right angles} = 360^{\circ}.
 \end{array}
 $$
@@ -14526,7 +14526,7 @@ $$
 $$
 
 $$
-\therefore \angle ZA\Theta = 38;32,34^\circ \text{ and } \angle GA\Theta = 167;34,54^\circ \text{ where 2 right angles} = 360^\circ \text{.
+\therefore \angle ZA\Theta = 38;32,34^\circ \text{ and } \angle GA\Theta = 167;34,54^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{.
 }
 $$
 
@@ -15537,7 +15537,7 @@ $$
 \arc Z L = 89;16^{\circ}.
 $$
 
-$\therefore \angle ZGL = 89;16^{\circ}$ where 2 right angles $= 360^{\circ}$.
+$\therefore \angle ZGL = 89;16^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.
 
 But $\angle DGK = 70^{\circ}$ in the same units, and $\angle LGK$ is right.
 
@@ -15644,7 +15644,7 @@ Therefore, where $\mathrm{BZ} = 120^p$, $\mathrm{BM} = 2;25^p$, and, in the circ
 $$
 \begin{aligned}
 &\text{arc } \mathrm{BM} = 2;19^\circ. \\
-&\therefore \angle \mathrm{BZM} = 2;19^\circ \text{ where 2 right angles } = 360^\circ \text{.} \\
+&\therefore \angle \mathrm{BZM} = 2;19^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{.} \\
 &\text{And } \angle \mathrm{BGZ} = 204;51^\circ \text{ in the same units.}
 \end{aligned}
 $$
@@ -15655,7 +15655,7 @@ Therefore, by addition, $\angle \mathrm{ABZ}$, which represents the mean motion 
 
 $$
 \text{comes to } \begin{cases}
-207;10^\circ \text{ where 2 right angles } = 360^\circ \\
+207;10^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\
 103;35^\circ \text{ where 4 right angles } = 360^\circ.
 \end{cases}
 $$
@@ -15686,7 +15686,7 @@ $$
 \text{arc } AH = 38;4^\circ, \\
 \text{and } \angle AGH = \left\{
 \begin{array}{l}
-38;4^\circ \text{ where 2 right angles } = 360^\circ \\
+38;4^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\
 19;2^\circ \text{ where 4 right angles } = 360^\circ.
 \end{array}
 \right.
@@ -15955,7 +15955,7 @@ It is immediately obvious that
 
 But now we must demonstrate the numerical amounts of the required positions to be computed for each of the above planets, and first for Venus.
 
-Since arc EΘ = 45° where [the circumference of] the epicycle is 360°, $\angle$ EBΘ (since it is at the centre of the epicycle) = $\begin{cases} 45^\circ \text{ where 4 right angles } = 360^\circ \\ 90^\circ \text{ where 2 right angles } = 360^\circ \text{.}\end{cases}$
+Since arc EΘ = 45° where [the circumference of] the epicycle is 360°, $\angle$ EBΘ (since it is at the centre of the epicycle) = $\begin{cases} 45^\circ \text{ where 4 right angles } = 360^\circ \\ 90^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{.}\end{cases}$
 
 Therefore, in the circle about right-angled triangle BΘK, arc BK = arc KΘ = 90°.
 
@@ -15965,7 +15965,7 @@ BK = KΘ = 84;52° where hypotenuse BΘ = 120°.
 Therefore where BΘ, the radius of the epicycle, is 43;10°, and AB, the mean distance, is 60° (for the greatest inclination of the epicycle occurs at approximately that point),
 BK = KΘ = 30;32°.
 
-Again, since the angle of inclination, $\angle$ ABE is taken as $\begin{cases} 2;30^\circ \text{ where 4 right angles } = 360^\circ \\ 5^\circ \text{ where 2 right angles } = 360^\circ \text{,}\end{cases}$ in the circle about right-angled triangle BLK, arc LK = 5° and arc BL = 175° (supplement).
+Again, since the angle of inclination, $\angle$ ABE is taken as $\begin{cases} 2;30^\circ \text{ where 4 right angles } = 360^\circ \\ 5^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{,}\end{cases}$ in the circle about right-angled triangle BLK, arc LK = 5° and arc BL = 175° (supplement).
 
 So the corresponding chords
 KL = 5;14° and BL = 119;53° where hypotenuse BK = 120°.
@@ -15987,7 +15987,7 @@ Therefore, where hypotenuse $AM = 120^P$, $LM = 86;19^P$, and the equation in lo
 
 $$
 \angle LAM = \begin{cases}
-92;0^\circ \text{ where 2 right angles} = 360^\circ \text{ and } \\
+92;0^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{ and } \\
 46;0^\circ \text{ where 4 right angles} = 360^\circ.
 \end{cases}
 $$
@@ -16012,7 +16012,7 @@ and the angle of the deviation in latitude,
 
 $$
 \angle \Theta AM = \begin{cases}
-3;36^\circ \text{ where 2 right angles} = 360^\circ \text{ and } \\
+3;36^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{ and } \\
 1;48^\circ \text{ where 4 right angles} = 360^\circ.
 \end{cases}
 $$
@@ -16033,7 +16033,7 @@ Therefore, where hypotenuse $A\Theta = 120^P$, $K\Theta = 86;21^P$, and the angl
 
 $$
 \angle \Theta AK = \begin{cases}
-92;3^\circ \text{ where 2 right angles} = 360^\circ \text{ and } \\
+92;3^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \text{ and } \\
 46;2^\circ, \text{ approximately, where 4 right angles} = 360^\circ.
 \end{cases}
 $$
@@ -16062,7 +16062,7 @@ $$
 Again, since by hypothesis the angle of the inclination of the epicycle,
 
 $$
-\angle \mathrm{ABE} = \left\{ \begin{array}{l} 6;15^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 12;30^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.,
+\angle \mathrm{ABE} = \left\{ \begin{array}{l} 6;15^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 12;30^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.,
 $$
 
 in the circle about right-angled triangle BKL,
@@ -16103,7 +16103,7 @@ Therefore, where hypotenuse AM = 120°, LM = 43;34°,
 and the angle of the equation in longitude,
 $$
 \angle LAM = \begin{cases}
-42;34^\circ \text{o where 2 right angles = } 360^\circ \text{o} \\
+42;34^\circ \text{o where 2 right angles = } 360^{\circ\circ} \\
 21;17^\circ \text{ where 4 right angles = } 360^\circ.
 \end{cases}
 $$
@@ -16116,7 +16116,7 @@ Therefore, where hypotenuse AΘ = 120°,
 and the angle of the deviation in latitude,
 $$
 \angle ΘAM = \begin{cases}
-4;32^\circ \text{o where 2 right angles = } 360^\circ \text{o} \\
+4;32^\circ \text{o where 2 right angles = } 360^{\circ\circ} \\
 2;16^\circ \text{ where 4 right angles = } 360^\circ.
 \end{cases}
 $$
@@ -16185,7 +16185,7 @@ And since, by hypothesis, the angle of the inclination of the epicycle,
 $$
 \angle AGE = \begin{cases}
 4;30^{\circ} & \text{where 4 right angles} = 360^{\circ} \\
-9^{\circ\circ} & \text{where 2 right angles} = 360^{\circ},
+9^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ},
 \end{cases}
 $$
 
@@ -16238,7 +16238,7 @@ $$
 \end{cases}
 $$
 
-Therefore, by addition, $\angle BAK = 5;44^{\circ\circ}$ where 2 right angles = 360°.
+Therefore, by addition, $\angle BAK = 5;44^{\circ\circ}$ where 2 right angles = 360°°.
 
 Therefore, in the circle about right-angled triangle BAK,
 
@@ -16360,7 +16360,7 @@ Fig. 13.8
 Then, since the angle of the inclination of the epicycle,
 
 $$
-\angle AGE = \left\{ \begin{array}{l} 2;30^\circ \text{ where 4 right angles } = 360^\circ \\ 5^\circ \text{ where 2 right angles } = 360^\circ \text{,} \end{array} \right.
+\angle AGE = \left\{ \begin{array}{l} 2;30^\circ \text{ where 4 right angles } = 360^\circ \\ 5^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{,} \end{array} \right.
 $$
 
 in the circle about right-angled triangle GKM,
@@ -16391,12 +16391,12 @@ and, by subtraction, $\mathbf{MA} = 54;22^{\mathrm{p}}$.
 Hence hypotenuse AK, being negligibly greater than MA, is $54;22^{\mathrm{p}}$ in the same units.
 
 Therefore, where hypotenuse $\mathbf{AK} = 120^{\mathrm{p}}$, $\mathbf{KM} = 0;46^{\mathrm{p}}$,
-and $\angle \mathbf{KAM} = 0;44^{\circ}$ where 2 right angles $= 360^{\circ}$.
+and $\angle \mathbf{KAM} = 0;44^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.
 But, by hypothesis, the angle of the inclination of the eccentric,
 $$
-\angle \mathbf{BAG} = \left\{ \begin{array}{l} 1;30^{\circ} \text{ where 4 right angles } = 360^{\circ} \\ 3^{\circ} \text{ where 2 right angles } = 360^{\circ} \end{array} \right..
+\angle \mathbf{BAG} = \left\{ \begin{array}{l} 1;30^{\circ} \text{ where 4 right angles } = 360^{\circ} \\ 3^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \end{array} \right..
 $$
-Therefore, by addition, $\angle \mathbf{BAK} = 3;44^{\circ}$ where 2 right angles $= 360^{\circ}$.
+Therefore, by addition, $\angle \mathbf{BAK} = 3;44^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.
 Therefore, in the circle about right-angled triangle BAK,
 $$
 \text{arc KB} = 3;44^{\circ}
@@ -16422,13 +16422,13 @@ $\mathbf{A}\Theta = 54;58^{\mathrm{p}}$ in the same units.
 Hence, where hypotenuse $\mathbf{A}\Theta = 120^{\mathrm{p}}$, $\mathbf{L}\Theta = 3;52^{\mathrm{p}}$,
 and the angle of the deviation in latitude,
 $$
-\angle \Theta \mathbf{AL} = \left\{ \begin{array}{l} 3;42^{\circ} \text{ where 2 right angles } = 360^{\circ} \\ 1;51^{\circ} \text{ where 4 right angles } = 360^{\circ}. \end{array} \right.
+\angle \Theta \mathbf{AL} = \left\{ \begin{array}{l} 3;42^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\ 1;51^{\circ} \text{ where 4 right angles } = 360^{\circ}. \end{array} \right.
 $$
 That $[1;51^{\circ}]$ is what we shall enter in the third column of the table for Jupiter opposite '135°'.
 In the same way, AG, when it represents the distance at the beginning of Aries, is computed as $57;30^{\mathrm{p}}$,  where, as we demonstrated, $\mathbf{KM} = 0;21^{\mathrm{p}}$ and $\mathbf{GM} = 8;8^{\mathrm{p}}$;
 hence, by subtraction, $\mathbf{AM} (= \mathbf{AK}$ which is negligibly greater) is $49;22^{\mathrm{p}}$ in the same units.
 Therefore, where hypotenuse $\mathbf{AK} = 120^{\mathrm{p}}$, $\mathbf{KM} = 0;51^{\mathrm{p}}$,
-and $\angle \mathbf{KAM} = 0;49^{\circ}$ where 2 right angles $= 360^{\circ}$.
+and $\angle \mathbf{KAM} = 0;49^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$.
 
 Therefore, by addition, $\angle$ BAK $[= \angle$ KAM $+ 3^\circ \circ ] = 3;49^\circ \circ$ in the same units.
 
@@ -16750,7 +16750,7 @@ Similarly, since $\text{BA:AD} = \text{BD:DZ}$, $\text{DZ} = 29;58^{\circ}$ in t
 Furthermore, since, by hypothesis,
 
 $$
-\angle \text{DAH} = \left\{ \begin{array}{c} 2;30^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 5^{\circ} \text{ where 2 right angles} = 360^{\circ} \end{array} \right.
+\angle \text{DAH} = \left\{ \begin{array}{c} 2;30^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 5^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} \right.
 $$
 
 in the circle about right-angled triangle ADH, arc $\text{DH} = 5^{\circ}$
@@ -16764,7 +16764,7 @@ And DZ was shown to be $29;58^{\circ}$ in the same units.
 Therefore, where hypotenuse $\text{DZ} = 120^{\circ}$, $\text{DH} = 7;20^{\circ}$, and the angle of the slant,
 
 $$
-\angle \text{DZH} = \left\{ \begin{array}{c} 7^{\circ} \text{ where 2 right angles} = 360^{\circ} \\ 3;30^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right. \tag{}
+\angle \text{DZH} = \left\{ \begin{array}{c} 7^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 3;30^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right. \tag{}
 $$
 
 But since the amount by which $\angle$ DAZ exceeds $\angle$ HAZ represents the resulting difference in the equation in longitude, we must immediately compute this too, by finding the amounts of these angles. For we showed that, where line $\text{DH} = 1;50^{\circ}$, hypotenuse $\text{AD} = 41;40^{\circ}$ and $\text{DZ} = 29;58^{\circ}$;
@@ -16788,13 +16788,13 @@ and $\text{HZ} = 29;55^{\circ}$ in the same units.
 Therefore, where hypotenuse $\text{AH} = 120^{\circ}$, $\text{ZH} = 86;16^{\circ}$,
 
 $$
-\text{and } \angle \text{ZAH} = \left\{ \begin{array}{c} 91;56^{\circ} \text{ where 2 right angles} = 360^{\circ} \\ 45;58^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right. \tag{}
+\text{and } \angle \text{ZAH} = \left\{ \begin{array}{c} 91;56^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 45;58^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right. \tag{}
 $$
 
 Similarly, since $\text{DZ} = 86;18^{\circ}$ where hypotenuse $\text{AD} = 120^{\circ}$,
 
 $$
-\angle \text{DAZ} = \left\{ \begin{array}{c} 91;58^{\circ} \text{ where 2 right angles} = 360^{\circ} \\ 45;59^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right.
+\angle \text{DAZ} = \left\{ \begin{array}{c} 91;58^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \\ 45;59^{\circ} \text{ where 4 right angles} = 360^{\circ}. \end{array} \right.
 $$
 
 Thus the equation in longitude computed according to the slant was less by one minute.
@@ -16840,10 +16840,10 @@ so AH = 58;47°
 and ZH = 20;53° in the same units.
 
 Therefore, where hypotenuse $AH = 120^p$, $HZ = 42;38^p$,
-and $\angle ZAH = \begin{cases} 41;38^\circ \text{ where 2 right angles } = 360^\circ \\ 20;49^\circ \text{ where 4 right angles } = 360^\circ. \end{cases}$
+and $\angle ZAH = \begin{cases} 41;38^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\ 20;49^\circ \text{ where 4 right angles } = 360^\circ. \end{cases}$
 
 In the same way, where hypotenuse $AD = 120^p$, $DZ$ is calculated as $42;50^p$,
-and $\angle DAZ = \begin{cases} 41;50^\circ \text{ where 2 right angles } = 360^\circ \\ 20;55^\circ \text{ where 4 right angles } = 360^\circ. \end{cases}$
+and $\angle DAZ = \begin{cases} 41;50^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \\ 20;55^\circ \text{ where 4 right angles } = 360^\circ. \end{cases}$
 
 So in this case the equation in longitude due to the slant was less by $6'.$
 Q.E.D.
@@ -16859,7 +16859,7 @@ $AD = 43;27^p$.
 But AB:AD = BD:DZ.
 So $DZ = 30;37^p$ in the same units.
 Again, since, by hypothesis, the angle of the slant,
-$\angle DZH = 7^\circ \text{ where 2 right angles } = 360^\circ \text{}$
+$\angle DZH = 7^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{}$
 
 and [hence] $\mathrm{DH} = 7;20^{\mathrm{p}}$ where hypotenuse $\mathrm{DZ} = 120^{\mathrm{p}}$, therefore, where line $\mathrm{DZ} = 30;37^{\mathrm{p}}$, and $\mathrm{AD} = 43;27^{\mathrm{p}}$, $\mathrm{DH} = 1;52^{\mathrm{p}}$.
 
@@ -16913,7 +16913,7 @@ $$
 Therefore, where hypotenuse $\mathrm{AD} = 120^{\circ}$, $\mathrm{DH} = 5;48^{\circ}$,
 
 $$
-\text{and} \angle \mathrm{DAH} = \begin{cases} 5;32^{\circ} & \text{where 2 right angles} = 360^{\circ} \\ 2;46^{\circ} & \text{where 4 right angles} = 360^{\circ}. \end{cases}
+\text{and} \angle \mathrm{DAH} = \begin{cases} 5;32^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ} \\ 2;46^{\circ} & \text{where 4 right angles} = 360^{\circ}. \end{cases}
 $$
 
 Thus the difference from the maximum deviation in latitude at the mean (which was taken as $2\frac{1}{2}^{\circ}$ here too) was $13'$ in the negative direction at apogee and $16'$ in the positive direction at perigee. To represent these, we shall use a correction of $\frac{1}{2}^{\circ}$ with respect to the mean in the calculations [from the table], in accordance with the perceptible difference derived from the observations.
@@ -17279,7 +17279,7 @@ Fig. 13.23
 [Proof:] Let the diagram for the phases [Fig. 13.23] be drawn, with point E taken as the point on the ecliptic at the beginning of Scorpius at a [terrestrial latitude] such that at setting
 
 $$
-\angle BED = 69^{\circ} \text{ where 2 right angles } = 360^{\circ} \text{,}
+\angle BED = 69^{\circ\circ} \text{ where 2 right angles } = 360^{\circ\circ} \text{,}
 $$
 
 and [thus] where the hypotenuse [of right-angled triangle BED] is $120^{\circ}$, the lesser of the sides about the right angle, $[BD] = 68^{\circ}$, and the greater, $[BE] = 99^{\circ}$. Therefore where the amount of the normal distance, $BD = 10^{\circ}$, $DE = 17;39^{\circ}$.

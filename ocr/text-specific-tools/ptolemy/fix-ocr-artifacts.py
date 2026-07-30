@@ -418,6 +418,77 @@ def audit_parts(text: str) -> dict:
             "parts_over_120": over, "pct": over / len(vals) if vals else 0.0}
 
 
+
+# ---------------------------------------------------------------- class 5
+# Toomer's own legend of zodiacal signs — the key a reader consults to decode
+# every longitude in the book. The OCR flattened it, so it currently offers Ψ as
+# the sign for eight different signs, which is worse than having no key at all.
+#
+# It is also the one place in the text that is completely self-determining. The
+# legend has two blocks, both running Aries to Pisces in order: the first names
+# each sign in words, the second gives the longitude at which it begins. So the
+# name identifies the sign, the longitude divided by thirty identifies it again,
+# and the two must agree. Nothing here needs the page or a judgement.
+
+SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
+         "Libra", "Scorpius", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
+GLYPHS = [chr(c) + "\ufe0e" for c in range(0x2648, 0x2654)]
+# Toomer prints the Latin forms in the legend.
+LEGEND_NAMES = {"Capricornus": "Capricorn", "Scorpius": "Scorpius"}
+
+
+def repair_zodiac_legend(text: str) -> tuple[str, dict]:
+    """Rewrite the legend so each glyph is the sign it stands for.
+
+    Both blocks are checked against each other before anything is written; a
+    disagreement means the legend is not the shape this assumes and the whole
+    class declines rather than guessing.
+    """
+    stats = {"named": 0, "longitude": 0, "already": 0, "error": None}
+    start = text.find("### Zodiacal signs")
+    if start == -1:
+        stats["error"] = "legend not found"
+        return text, stats
+    end = text.find("###", start + 6)
+    block, out = text[start:end], []
+
+    named_seen, lon_seen = [], []
+    for line in block.split("\n"):
+        m = re.match(r"^\s*(\S+)\s+([A-Z][a-z]+)\s*$", line)
+        if m and LEGEND_NAMES.get(m.group(2), m.group(2)) in SIGNS:
+            name = LEGEND_NAMES.get(m.group(2), m.group(2))
+            i = SIGNS.index(name)
+            named_seen.append(i)
+            if m.group(1) == GLYPHS[i]:
+                stats["already"] += 1
+            else:
+                stats["named"] += 1
+                line = f"{GLYPHS[i]} {m.group(2)}"
+            out.append(line)
+            continue
+        m = re.match(r"^\s*(\S+)\s+0°\s*=\s*(\d{1,3})°(.*)$", line)
+        if m:
+            deg = int(m.group(2))
+            if deg % 30:
+                stats["error"] = f"legend longitude {deg} is not a multiple of 30"
+                return text, stats
+            i = deg // 30
+            lon_seen.append(i)
+            if m.group(1) == GLYPHS[i]:
+                stats["already"] += 1
+            else:
+                stats["longitude"] += 1
+                line = f"{GLYPHS[i]} 0° = {deg}°{m.group(3)}"
+        out.append(line)
+
+    # The two blocks are independent readings of the same twelve signs.
+    if named_seen != list(range(12)) or lon_seen != list(range(12)):
+        stats["error"] = (f"legend blocks disagree or are incomplete: "
+                          f"names={named_seen} longitudes={lon_seen}")
+        return text, stats
+    return text[:start] + "\n".join(out) + text[end:], stats
+
+
 def audit_conventions(text: str) -> dict:
     """Count the marks on every convention clause, INDEPENDENTLY of the fixer.
 
@@ -582,6 +653,16 @@ def main() -> int:
         print(f"   HELD  {lab} = {v:g} is {r}^2 — lost an exponent too, needs the page")
     for lab, v in pd["held_large"]:
         print(f"   HELD  {lab} = {v:g} exceeds a 120-part diameter — needs the page")
+
+    text, lg = repair_zodiac_legend(text)
+    print(f"\nZodiacal-sign legend (Toomer's own key):")
+    if lg["error"]:
+        print(f"!! {lg['error']} — not writing")
+        return 1
+    print(f"   {lg['named']:>3}  glyphs set from the sign NAME beside them")
+    print(f"   {lg['longitude']:>3}  glyphs set from the starting LONGITUDE (deg/30)")
+    print(f"   {lg['already']:>3}  already correct")
+    print(f"   both blocks independently name the same twelve signs, in order")
 
     if args.apply:
         TEXT.write_text(text)

@@ -420,31 +420,31 @@ In the star catalogue only, * indicates some doubt about the reading. For other 
 
 ### Zodiacal signs
 
-Ψ Aries
-Ψ Taurus
-Ψ Gemini
-Ψ Cancer
-Ψ Leo
-πψ Virgo
-Ξ Libra
-πι Scorpius
-Ξ Sagittarius
-Ψ Capricornus
-Ψ Aquarius
-Ψ Pisces
+♈︎ Aries
+♉︎ Taurus
+♊︎ Gemini
+♋︎ Cancer
+♌︎ Leo
+♍︎ Virgo
+♎︎ Libra
+♏︎ Scorpius
+♐︎ Sagittarius
+♑︎ Capricornus
+♒︎ Aquarius
+♓︎ Pisces
 
-Ψ 0° = 0° in longitude
-Ψ 0° = 30°
-Ψ 0° = 60°
-Ψ 0° = 90°
-Ψ 0° = 120°
-πψ 0° = 150°
-Ξ 0° = 180°
-πι 0° = 210°
-Ξ 0° = 240°
-Ψ 0° = 270°
-Ψ 0° = 300°
-Ψ 0° = 330°
+♈︎ 0° = 0° in longitude
+♉︎ 0° = 30°
+♊︎ 0° = 60°
+♋︎ 0° = 90°
+♌︎ 0° = 120°
+♍︎ 0° = 150°
+♎︎ 0° = 180°
+♏︎ 0° = 210°
+♐︎ 0° = 240°
+♑︎ 0° = 270°
+♒︎ 0° = 300°
+♓︎ 0° = 330°
 
 ### Planetary symbols
 

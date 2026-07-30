@@ -59,7 +59,9 @@ holding onto:
 | Tool | Does |
 |---|---|
 | `align-pages.py` | Maps PDF pages to markdown line ranges, so a page range names a text range. Keys on prose from the PDF's own OCR text layer. |
-| `prepare-batch.py` | Builds a self-contained batch for a page range: rendered pages, the markdown slice, the brief, an empty findings file. |
+| `prepare-batch.py` | Builds a self-contained batch for a page range: rendered pages, the markdown slice (reference + editable), the brief, an empty findings file. |
+| `dispatch-codex.sh` | Runs one batch through Codex and records provenance beside the findings. |
+| `verify-batch.py` | Cross-checks the two return channels and derives anchored fix candidates from the diff. |
 
 ### The alignment trick
 
@@ -86,18 +88,57 @@ out-of-distribution glyph defeats everyone.
 # once per text
 python3 ocr/proofreading/align-pages.py <text-id> -o ocr/proofreading/<text-id>/pagemap.json
 
-# once per batch
-python3 ocr/proofreading/prepare-batch.py <text-id> 179-184
+# per batch
+python3 ocr/proofreading/prepare-batch.py <text-id> 486-491
+ocr/proofreading/dispatch-codex.sh ocr/proofreading/<text-id>/batches/p0486-0491
+python3 ocr/proofreading/verify-batch.py ocr/proofreading/<text-id>/batches/p0486-0491 \
+        --fixes /tmp/fixes.json
+
+# then file the accepted findings
+cp .../batches/p0486-0491/result.json ocr/proofreading/<text-id>/findings/p0486-0491.json
 ```
 
-Then hand a batch directory to a worker with its `BRIEF.md`. Findings come back
-as `findings.jsonl` and get filed under `<text-id>/findings/`.
+`EFFORT=high` overrides the reasoning effort for a hard stretch; the default is
+medium, which is what produced the verified pilot. A worker other than Codex just
+needs the batch directory and its `BRIEF.md` — nothing in a batch is Codex-specific.
 
-**Findings are claims, never edits.** Judging a glyph and safely transforming a
-1.4MB file are different skills; keeping them apart means a bad run costs a
-discarded file rather than a corrupted text. Repairs are applied per occurrence
-with asserted match counts by the text's own script under
-`ocr/text-specific-tools/<author>/`.
+### Two return channels, because they check each other
+
+A batch comes back as **findings** (each carrying the reason for a change) and as
+an **edited copy of the slice** (whose diff localises every change mechanically).
+Neither alone is enough. A finding can misquote its location — our second run put
+prose in a field meant for verbatim text, and 38 of 44 findings were consequently
+unanchorable. An edit can be made with no explanation, which is worse, because it
+looks authoritative and carries no argument.
+
+Together they are checkable, and `verify-batch.py` does the checking: a hunk with
+no finding is an unexplained edit, a finding with no hunk was never enacted, and
+where they agree **the hunk yields a mechanical anchor** — exact before-text,
+after-text, and context, which is what an asserted-anchor repair needs. That
+retires the fragile step instead of policing it.
+
+The pristine text is regenerated from the line range in `MANIFEST.json`, not
+stored as a second copy, so there is nothing in a batch to corrupt and nothing to
+drift.
+
+**Neither channel is applied directly.** The edited slice is evidence, not the
+product. Repairs go per-occurrence with asserted match counts through the text's
+own script under `ocr/text-specific-tools/<author>/` — because a wrong edit is
+invisible where a wrong claim is reviewable, and because fifty workers editing
+fifty slices would re-decide the same glyph fifty times, possibly inconsistently.
+
+### What a JSON Schema cannot do for you
+
+`--output-schema` enforces *structure*, and structure was never the binding
+constraint. Every one of those 38 unanchorable findings was schema-valid: `line`
+accepted `"10989, 10992, 10994"` because it was typed as a string, and `quote`
+accepted a prose summary because nothing constrained its content. Validation gave
+the reassurance of checking without the substance.
+
+The fix is partly a tighter schema (`line` as an integer, a minimum length on
+`quote`) and partly accepting that the rest has to be checked *after the fact*
+against the actual text — which is what `verify-batch.py`'s "is this quote
+verbatim" pass is for.
 
 ### Validate before trusting a run
 

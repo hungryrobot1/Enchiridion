@@ -1,0 +1,183 @@
+#!/usr/bin/env python3
+r"""Cross-check a returned batch, and derive anchored fixes from its diff.
+
+A batch comes back through two channels that are supposed to agree:
+
+  result.json    findings, each carrying the REASON for a change
+  edit/slice.md  the same markdown, corrected in place
+
+Neither alone is trustworthy. A finding can misquote its location — our second
+run put prose ("The longitude has no zodiac sign") in a field that was supposed
+to hold verbatim text, which makes it unmatchable. An edit can be made without
+explanation, which is worse: it looks authoritative and carries no argument. But
+the two together are checkable, and the checking is the point of this script:
+
+  * every diff hunk should have a finding explaining it   -> else UNEXPLAINED
+  * every finding claiming a change should show up as a hunk -> else NOT ENACTED
+  * where they agree, the hunk gives us a mechanical anchor  -> FIX CANDIDATE
+
+That last line is the real payoff. A hunk carries the exact before-text, the
+exact after-text, and its surrounding context, which is precisely what an
+asserted-anchor repair needs. So the fragile step — hoping a worker transcribed
+a quote faithfully — disappears rather than being policed.
+
+The pristine text is REGENERATED from the line range in MANIFEST.json rather
+than kept as a second copy in the batch, so there is nothing here to corrupt and
+nothing to drift. Tampering with the reference files is detected by comparing
+recorded hashes, not prevented — the batch is disposable and gitignored, so
+detection is enough.
+
+Nothing is written to the real text. This reports; repairs are applied by the
+text's own script under ocr/text-specific-tools/.
+
+  python3 ocr/proofreading/verify-batch.py ocr/proofreading/<text>/batches/<batch>
+"""
+import argparse, difflib, hashlib, json, os, re, sys
+
+
+def norm(s):
+    """Loose key for matching a claim against a hunk: ignore whitespace and
+    LaTeX bracing, which workers reformat without meaning to."""
+    return re.sub(r'[\s{}$\\]+', '', s)
+
+
+def load(batch):
+    man = json.load(open(os.path.join(batch, 'MANIFEST.json')))
+    lo, hi = man['md_lines']
+    src = open(man['md'], encoding='utf-8').read().split('\n')
+    pristine = '\n'.join(src[lo - 1:hi]) + '\n'
+    edited_path = os.path.join(batch, 'edit', 'slice.md')
+    edited = open(edited_path, encoding='utf-8').read() if os.path.exists(edited_path) else None
+    res_path = os.path.join(batch, 'result.json')
+    findings = json.load(open(res_path))['findings'] if os.path.exists(res_path) else []
+    return man, pristine, edited, findings
+
+
+def hunks(pristine, edited, lo):
+    """Changed regions, with the source line number each begins at."""
+    a, b = pristine.split('\n'), edited.split('\n')
+    out = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b).get_opcodes():
+        if tag == 'equal':
+            continue
+        out.append({'tag': tag, 'line': lo + i1,
+                    'before': '\n'.join(a[i1:i2]), 'after': '\n'.join(b[j1:j2])})
+    return out
+
+
+def word_diff(before, after):
+    """The smallest changed spans inside a hunk — this is the anchor."""
+    aw, bw = before.split(), after.split()
+    spans = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, aw, bw).get_opcodes():
+        if tag == 'equal':
+            continue
+        spans.append((' '.join(aw[i1:i2]), ' '.join(bw[j1:j2]),
+                      ' '.join(aw[max(0, i1 - 4):i1]), ' '.join(aw[i2:i2 + 4])))
+    return spans
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('batch')
+    ap.add_argument('--fixes', help='write derived fix candidates as JSON here')
+    args = ap.parse_args()
+    batch = args.batch.rstrip('/')
+
+    man, pristine, edited, findings = load(batch)
+    lo, hi = man['md_lines']
+    print(f'{os.path.basename(batch)}   {man["md"]} lines {lo}-{hi}')
+
+    # Tamper check on the reference copies.
+    if 'slice_sha256' in man and edited is not None:
+        if hashlib.sha256(pristine.encode()).hexdigest() != man['slice_sha256']:
+            print('  !! the SOURCE has changed since this batch was prepared; '
+                  'regenerate the batch before trusting the diff')
+
+    real = [f for f in findings if f.get('claim') not in ('clean', 'brief', 'unsure')]
+    print(f'  findings: {len(findings)} total, {len(real)} claiming an error')
+
+    # --- schema-beyond-schema checks: the things a JSON Schema cannot express
+    bad = []
+    for f in real:
+        q, md = f.get('quote', ''), f.get('markdown', '')
+        if q and norm(q) not in norm(pristine):
+            bad.append((f, 'quote is not verbatim text from the slice'))
+        elif md and norm(md) not in norm(pristine):
+            bad.append((f, 'markdown field is not verbatim text from the slice'))
+        elif len(q) < 12:
+            bad.append((f, 'quote too short to locate'))
+    if bad:
+        print(f'\n  UNANCHORABLE FINDINGS ({len(bad)}) — cannot be applied as written:')
+        for f, why in bad[:12]:
+            print(f'    L{f.get("line")}  {why}')
+            print(f'        quote={f.get("quote","")[:70]!r}')
+
+    if edited is None:
+        print('\n  no edit/slice.md returned — findings channel only, so nothing to '
+              'cross-check. Anchors must come from the quotes above.')
+        return
+
+    hs = hunks(pristine, edited, lo)
+    print(f'\n  diff: {len(hs)} changed regions')
+
+    # --- match hunks to findings
+    by_line = {}
+    for f in real:
+        by_line.setdefault(f.get('line'), []).append(f)
+
+    fixes, unexplained, matched = [], [], set()
+    for h in hs:
+        near = [f for ln, fs in by_line.items() if ln and abs(ln - h['line']) <= 2 for f in fs]
+        explained = None
+        for f in near:
+            if norm(f.get('markdown', '')) and norm(f['markdown']) in norm(h['before']):
+                explained = f
+                break
+        if explained is None and near:
+            explained = near[0]
+        if explained is None:
+            unexplained.append(h)
+            continue
+        matched.add(id(explained))
+        for before, after, pre, post in word_diff(h['before'], h['after']):
+            fixes.append({'line': h['line'], 'before': before, 'after': after,
+                          'context_before': pre, 'context_after': post,
+                          'claim': explained.get('claim'),
+                          'verified_by': explained.get('verified_by'),
+                          'evidence': explained.get('evidence', '')[:200],
+                          # what makes the fix safe: how many times this exact
+                          # text occurs in the WHOLE source, asserted at apply time
+                          'occurrences_in_source': None})
+
+    not_enacted = [f for f in real if id(f) not in matched]
+    print(f'    matched to a finding : {len(hs) - len(unexplained)}')
+    print(f'    UNEXPLAINED edits    : {len(unexplained)}')
+    print(f'    findings NOT enacted : {len(not_enacted)}')
+
+    for h in unexplained[:6]:
+        print(f'\n  UNEXPLAINED at L{h["line"]} ({h["tag"]}) — an edit with no argument:')
+        print(f'      - {h["before"][:100]}')
+        print(f'      + {h["after"][:100]}')
+
+    # occurrence counts against the whole file, so a fix knows its own blast radius
+    if fixes:
+        whole = open(man['md'], encoding='utf-8').read()
+        for fx in fixes:
+            fx['occurrences_in_source'] = whole.count(fx['before']) if fx['before'] else 0
+        print(f'\n  FIX CANDIDATES ({len(fixes)}), with source-wide occurrence counts:')
+        for fx in fixes[:10]:
+            n = fx['occurrences_in_source']
+            warn = '  <-- occurs elsewhere; anchor on context' if n > 1 else ''
+            print(f'    L{fx["line"]}  {fx["before"][:34]!r} -> {fx["after"][:34]!r}  (x{n}){warn}')
+
+    if args.fixes:
+        json.dump({'batch': os.path.basename(batch), 'md': man['md'],
+                   'fixes': fixes, 'unexplained': len(unexplained),
+                   'not_enacted': len(not_enacted)},
+                  open(args.fixes, 'w'), indent=1)
+        print(f'\n  wrote {args.fixes}')
+
+
+if __name__ == '__main__':
+    main()

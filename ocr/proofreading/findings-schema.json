@@ -1,0 +1,62 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pages_examined", "findings"],
+  "properties": {
+    "pages_examined": {
+      "type": "array",
+      "description": "Every image filename you actually looked at. Lets us tell what was checked from what was skipped.",
+      "items": { "type": "string" }
+    },
+    "findings": {
+      "type": "array",
+      "description": "ONE RECORD PER OCCURRENCE. Never bundle several spots into one record, even when they are the same error on the same line — each one is repaired separately and must be located separately.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["page", "claim", "line", "quote", "markdown", "printed", "verified_by", "confidence", "evidence"],
+        "properties": {
+          "page": {
+            "type": "string",
+            "description": "Image filename, e.g. p0182.png. Not the printed folio number."
+          },
+          "claim": {
+            "type": "string",
+            "description": "What kind of finding. Use 'clean' for a page with no errors, 'unsure' when you cannot read something, 'brief' when this brief is itself wrong or unclear, and your own words for an error family the brief does not describe."
+          },
+          "line": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "A SINGLE line number from markdown.md. Not a range, not a list — if an error spans lines, give the line where it starts. Use 0 only for claim 'clean' or 'brief'."
+          },
+          "quote": {
+            "type": "string",
+            "description": "VERBATIM text copied from markdown.md — never a description of it. Must be long enough to occur exactly once in the batch, and must include the erroneous text itself. Empty string only for claim 'clean' or 'brief'."
+          },
+          "markdown": {
+            "type": "string",
+            "description": "VERBATIM: just the wrong fragment, as it appears in markdown.md. Never prose about it. If a symbol is MISSING from the markdown, use the empty string and say so in evidence."
+          },
+          "printed": {
+            "type": "string",
+            "description": "What the PAGE shows in that spot. Name glyphs in words (e.g. 'PISCES 0;45' or '106;47 with a raised roman p') rather than trying to type them."
+          },
+          "verified_by": {
+            "type": "string",
+            "enum": ["glyph_shape", "footnote_gloss", "arithmetic", "surrounding_context", "similar_passage", "not_verified"],
+            "description": "HOW you know. 'arithmetic' requires you to state the computation in evidence. 'not_verified' is an honest and acceptable answer."
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Reserve 'high' for what you can defend by glyph shape, a footnote, or arithmetic. If everything you report is 'high', the field is telling us nothing and you are not calibrating."
+          },
+          "evidence": {
+            "type": "string",
+            "description": "Why you believe it. Quote a footnote if one settles the reading; show the computation if you claim arithmetic."
+          }
+        }
+      }
+    }
+  }
+}

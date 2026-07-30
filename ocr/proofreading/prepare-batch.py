@@ -12,16 +12,31 @@ which makes the results incomparable. Pre-rendering also means the batch is
 identical whichever agent reads it, so a run can be repeated or handed to a
 different model without rebuilding the inputs.
 
-Findings come back as JSONL, one record per claim, and NEVER as edits. A
-proofreader's judgment about a glyph and a safe transformation of a 1.4MB file
-are different skills; keeping them apart means a bad run costs a discarded file
-instead of a corrupted text. The repair scripts in text-specific-tools consume
-these records with asserted match counts, which is where the safety actually
-lives.
+Two channels come back, and they check each other.
+
+  result.json    One record per finding, carrying the REASON — which a diff can
+                 never express, and which is what lets one decision settle a
+                 whole family later.
+  edit/slice.md  An editable copy of the same markdown. The worker corrects it
+                 in place, and the resulting DIFF localises every change
+                 mechanically. That removes the fragile step: instead of
+                 policing whether a quote was transcribed verbatim, we derive
+                 the anchor from the edit itself.
+
+Neither is applied to the real text. The edited slice is EVIDENCE, not the
+product — repairs go through the asserted-anchor scripts in text-specific-tools,
+because a wrong edit is invisible where a wrong claim is reviewable, and because
+fifty workers editing fifty slices would re-decide the same glyph fifty times,
+possibly inconsistently.
+
+The pristine copy to diff against is NOT stored in the batch. It is regenerated
+from the line range recorded in MANIFEST.json, so there is nothing here a worker
+could corrupt and no second copy to drift out of step. verify-batch.py does that
+regeneration.
 
   python3 ocr/proofreading/prepare-batch.py ptolemy-almagest 179-184
 """
-import argparse, json, os, re, shutil, sys
+import argparse, hashlib, json, os, re, shutil, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -98,12 +113,23 @@ def main():
                  f'(unresolved runs are tables or plates — see align-pages output)')
 
     lines = open(pm['md'], encoding='utf-8').read().split('\n')
-    slice_path = os.path.join(out, 'markdown.md')
-    with open(slice_path, 'w', encoding='utf-8') as f:
+    hi = min(hi, len(lines))
+
+    # Reference copy: line-numbered, for citing in findings. Read-only by convention.
+    with open(os.path.join(out, 'markdown.md'), 'w', encoding='utf-8') as f:
         f.write(f'<!-- {pm["md"]} lines {lo}-{hi}; '
-                f'line numbers are the real file\'s, cite them in findings -->\n\n')
-        for n in range(lo, min(hi, len(lines)) + 1):
+                f'line numbers are the real file\'s, cite them in findings.\n'
+                f'     THIS FILE IS REFERENCE ONLY. Make corrections in edit/slice.md. -->\n\n')
+        for n in range(lo, hi + 1):
             f.write(f'{n:>6}\N{VERTICAL LINE}{lines[n-1]}\n')
+
+    # Editable copy: byte-identical to the source lines, no numbering, no header —
+    # so verify-batch.py can regenerate the pristine version and diff cleanly.
+    body = '\n'.join(lines[lo-1:hi]) + '\n'
+    os.makedirs(os.path.join(out, 'edit'), exist_ok=True)
+    with open(os.path.join(out, 'edit', 'slice.md'), 'w', encoding='utf-8') as f:
+        f.write(body)
+    slice_sha = hashlib.sha256(body.encode()).hexdigest()
 
     brief_src = os.path.join(HERE, args.text_id, 'brief.md')
     if os.path.exists(brief_src):
@@ -112,15 +138,18 @@ def main():
         f.write(SCHEMA)
     json.dump({'text_id': args.text_id, 'pdf_pages': [first, last],
                'md': pm['md'], 'md_lines': [lo, hi],
+               'slice_sha256': slice_sha,
                'printed_page_note': 'filenames use the PDF page index, not the '
-                                    'printed folio; cite the filename'},
+                                    'printed folio; cite the filename',
+               'verify': 'ocr/proofreading/verify-batch.py <this batch dir>'},
               open(os.path.join(out, 'MANIFEST.json'), 'w'), indent=1)
 
     n_img = last - first + 1
     size = sum(os.path.getsize(os.path.join(out, 'pages', f))
                for f in os.listdir(os.path.join(out, 'pages'))) // 1024
     print(f'{out}\n  pages/     {n_img} images, {size} KB')
-    print(f'  markdown.md  lines {lo}-{hi} ({hi - lo + 1} lines)')
+    print(f'  markdown.md    lines {lo}-{hi} ({hi - lo + 1} lines), reference')
+    print(f'  edit/slice.md  same lines, editable — the diff channel')
     print(f'  BRIEF.md, findings.jsonl, MANIFEST.json')
 
 

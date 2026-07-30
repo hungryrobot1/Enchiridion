@@ -4,12 +4,27 @@ You have a stretch of a printed book as page images, and the markdown that
 claims to transcribe it. Your job is to find places where they disagree, and to
 report what the **page** says.
 
-Read the pages. Compare them against `markdown.md`. Write one JSON record per
-finding into `findings.jsonl`, in the format that file describes.
+Read the pages. Compare them against `markdown.md`. Then report **two ways**,
+and make the two agree:
 
-**Do not edit anything.** Report only. A separate step applies repairs with
-asserted match counts, and it needs your judgment about the page, not your edits
-to the file.
+1. **Correct `edit/slice.md` in place.** It holds the same text as
+   `markdown.md`, without the line numbers. Change only what the page actually
+   disagrees with.
+2. **Return one structured finding per occurrence**, in the shape the output
+   schema requires.
+
+Leave `BRIEF.md` and `markdown.md` alone — `markdown.md` is reference only, and
+we check that it comes back untouched.
+
+**Why both.** The edit says *where* precisely, which no quoted fragment can do
+reliably. The finding says *why*, which no diff can express — and the why is
+what lets one decision settle a whole family later instead of being re-argued
+page by page. So: **every edit needs a matching finding, and every finding
+claiming an error needs a matching edit.** A change with no argument gets
+rejected, and a claim with no change gets treated as not made.
+
+Neither of these touches the real text. Your edits are evidence; repairs are
+applied separately with asserted match counts.
 
 ---
 
@@ -74,6 +89,21 @@ words (`"printed": "PISCES 0;45"`) — do not try to type the glyph. If you cann
 tell which sign it is, say so; a confident wrong answer is worse than an
 uncertainty.
 
+**Read this part twice: a sign may have left NOTHING BEHIND.** Sometimes the
+glyph did not become a wrong symbol — it vanished, and the markdown has a bare
+longitude where the print has a sign followed by one. A confirmed example: the
+print reads "Sagittarius 5½°" and the markdown has only `$5\frac{1}{2}^{\circ}$`.
+
+This matters more than anything else in this brief. Every automated method we
+have keys on a wrong symbol *being present*, so a sign that vanished cleanly is
+invisible to all of them, and **you are the only way we will ever find it.** When
+you meet a longitude, do not only check that the symbol before it is right —
+check whether there is supposed to be a symbol there at all.
+
+The same token can also stand for different signs in different places. `\pm` is
+confirmed to appear for both Sagittarius and Gemini. So report what *this*
+occurrence shows; never reason from what a token meant elsewhere.
+
 Two hints, both from the print itself. The signs are shaped as you would expect
 (Aries as ram's horns, Pisces as two arcs joined by a bar, Leo as a looped
 flourish), and Virgo and Scorpius are both m-forms distinguished by their tails,
@@ -81,15 +111,36 @@ which is why they are the most often confused. And the surrounding astronomy
 usually corroborates: a star described as being in the forehead of Scorpius has
 a longitude in or near Scorpius.
 
-**2. Raised characters are ambiguous.** Toomer sets unit markers as small raised
-roman letters — `p` for the parts a diameter divides into, `d` for days, `h` for
-hours. Raised characters also carry footnote markers. The machine confuses the
-two, and confuses roman with Greek in raised position (`ρ` for `p`, `δ` for `d`).
-Check that a raised letter is the one printed and is the kind of thing printed.
+**2. Raised characters are ambiguous — and a raised `p` may have become a degree
+sign.** Toomer sets unit markers as small raised roman letters: `p` for the parts
+a diameter divides into, `d` for days, `h` for hours. Raised characters also carry
+footnote markers. Three things go wrong. Roman is confused with Greek in raised
+position (`ρ` for `p`, `δ` for `d`). Footnote markers and unit markers are
+confused with each other. And — confirmed, and the worst of the three — **a
+raised `p` can come back as `°`**, so a chord of `109;12` *parts* is transcribed
+as `109;12°` *degrees*. That is not a typographic slip; parts and degrees are
+different quantities, and the sentence becomes false. Whenever you see `°`, check
+that the print does not show a raised letter instead.
 
-**3. Stacked fractions flatten.** A superscript `3/2` can come back as `3`, which
-silently turns a true statement into a false one. If an exponent looks
-surprising, look hard at the print.
+**3. Stacked fractions fail in three different ways.** Toomer sets fractions
+stacked (a small numerator over a small denominator). All three of these are
+confirmed:
+
+- **Flattened** — a superscript `3/2` becomes `3`, turning a true statement false.
+- **Wrong fraction, correctly formed** — the print shows `4¾` and the markdown
+  has `4½`. This is the most dangerous kind in the whole text: it renders
+  perfectly, it reads plausibly, and nothing but the arithmetic gives it away.
+- **Mojibake** — the stacked fraction becomes a run of subscript and superscript
+  digits, e.g. `3₃⁵⁰` where the print shows `3⅔°`, or `⅔ the of an hour` where
+  the print shows `5/9ths of an hour` (note the transposed words as well).
+
+**Use the arithmetic.** This text states its own sums, doubles and unit
+conversions constantly, and that makes fractions checkable without trusting your
+eyes alone. In one confirmed passage the print reads `3⅔° + 4⅔° = 8⅓`, then
+converts `8⅓` time-degrees to `5/9ths of an hour` — and 8⅓ ÷ 15 is exactly 5/9,
+while the markdown's `⅔` is not. If a stated total does not follow from its
+parts, one of the numbers is misread; say so and say which. **Time-degrees
+convert to hours by dividing by 15.**
 
 **4. Sexagesimal numbers.** Written `0;31,25` — semicolon after the whole part,
 commas between sixtieths. Two things go wrong: separators get swapped or
@@ -101,6 +152,10 @@ report that as an error unless the print disagrees.
 of doubled integers (`45, 46, 46, 47, 47` where `45½, 46, 46½, 47` belongs). This
 family was already repaired in the Table of Chords, so if you see it elsewhere
 it is a new instance and worth reporting.
+
+**6. Degree signs get duplicated.** `4;20^{\circ \circ}` where the print shows one
+degree sign. Cosmetic rather than mathematical, but still a disagreement with the
+page, so report it.
 
 ## What we do not know yet, and want from you
 
@@ -119,10 +174,22 @@ finding with `"claim": "brief"`. This document will be revised between runs.
 
 ## Rules
 
-- **Report, never edit.** Your only output is `findings.jsonl`.
-- **Quote enough to locate.** The `quote` field must be a verbatim run from
-  `markdown.md`, long enough to be unambiguous. Cite the line number where you
-  can — `markdown.md` is prefixed with real line numbers from the source file.
+- **`quote` and `markdown` must be VERBATIM.** Copy the characters; never
+  describe them. "The longitude has no zodiac sign" is a description and cannot
+  be matched against anything — a finding like that is thrown away. `quote` needs
+  to be long enough to occur exactly once in the slice.
+- **When a symbol is MISSING, `markdown` is the empty string.** This is the case
+  the previous version of this brief handled badly: if the print shows a sign and
+  the markdown has nothing, there is no wrong fragment to quote. Put the empty
+  string in `markdown`, put the surrounding verbatim text in `quote`, and say in
+  `evidence` what is absent and where it belongs.
+- **One record per occurrence.** Never bundle. Two errors on one line are two
+  records; `"line"` is a single number, not a range or a list.
+- **`verified_by` is how you know**, and `not_verified` is an acceptable answer.
+  If you claim `arithmetic`, show the computation in `evidence`.
+- **Calibrate `confidence`.** In two earlier runs every single finding came back
+  `high`, which made the field useless. If you cannot defend it by glyph shape, a
+  footnote, or arithmetic, it is not `high`.
 - **Cite the page by its filename** (`p0182.png`). Those are PDF page indices,
   not the printed folio numbers, and the two differ.
 - **Say when you are unsure.** `"confidence": "low"` with a reason is useful.

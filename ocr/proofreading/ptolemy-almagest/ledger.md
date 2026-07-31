@@ -187,6 +187,39 @@ punishing it on recall, the number that does not. `score-against.py` now exclude
 the page by default. Note also that the page misattribution is itself a defect:
 findings have to be locatable to be applied.
 
+### First application to the real text — 119 fixes, 2026-07-30
+
+The two double-run batches were intersected by `corroborate-fixes.py` (64 of 74
+and 68 of 75 hunks identical across runs) and applied by the anchored applier.
+119 of 132 corroborated fixes landed; 13 were refused and reported. Diagnostic
+triad matches its pre-application baseline exactly, so nothing regressed.
+
+Three things this taught that the detection work could not.
+
+**Anchors must tolerate whitespace, because workers reflow.** The first attempt
+applied 33 of 64. The failures were not disagreements: a worker had joined lines
+while correcting, so contexts the diff recorded as contiguous straddle a line
+break in the real file. Matching `\s*` between the anchor's parts took it to 57
+of 64 without relaxing the exactly-once rule — whitespace tolerance widens what
+can be *found*, not what will be *accepted*.
+
+**Corroboration cannot catch an error both runs make.** Both runs turned
+`$\pi$ 11°-12°` into `$\text{Virgo }11°-12°` and both dropped the closing `$`.
+It passed corroboration because it was unanimous, and `lint-math.py` caught it
+one step later. This is the caveat in the cheap-model section arriving in
+practice, and it is the argument for the diagnostic triad as an *independent
+consumer* rather than a formality: the two runs check each other's readings, and
+only the triad checks whether the result is well-formed at all.
+
+**The encoding decision stays in the script.** Workers returned signs as
+`$\text{Capricorn }11\frac{11}{12}^{\circ}$` — the name wrapped in a math
+`\text{}` group. The corpus writes a bare glyph *outside* the math, as Toomer's
+legend does, and a raw codepoint left inside `$...$` would be handed to KaTeX as
+math rather than set as text. `normalise()` now lifts the sign out of the
+delimiters and reopens the math around the value. Consistent with the standing
+rule: never ask a worker for a decision a script can make the same way every
+time.
+
 ### An unplanned dividend
 
 Roughly half of every run's findings were parts-vs-degrees, in precisely the

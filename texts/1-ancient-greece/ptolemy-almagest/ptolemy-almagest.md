@@ -10589,11 +10589,11 @@ $$
 
 So points H, G and Z lie on a straight line.
 
-Hence HZ, the radius of the eccentre $ = 60° $
+Hence HZ, the radius of the eccentre $ = 60^{\mathrm{p}} $
 
-where GH (which equals GD) $ = 3° $, the distance between the centres.
+where GH (which equals GD) $ = 3^{\mathrm{p}} $, the distance between the centres.
 
-Therefore, by subtraction [of GH from HZ], $ GZ = 57° $ in the same units.
+Therefore, by subtraction [of GH from HZ], $ GZ = 57^{\mathrm{p}} $ in the same units.
 
 Again, since in the circle about right-angle triangle GDL arc DL = 120°
 
@@ -10601,23 +10601,23 @@ and arc GL = 60° (supplement).
 
 Therefore the corresponding chords
 
-$$ \begin{array}{c} DL = 103; 55° \\ \text{and} \ G = 60° \end{array} $$
+$$ \begin{array}{c} DL = 103; 55^{\mathrm{p}} \\ \text{and} \ G = 60^{\mathrm{p}} \end{array} $$
 
-Therefore where DG = 3° and GZ = 57°
+Therefore where DG = 3^{\mathrm{p}} and GZ = 57°
 
-DL = 2; 36°
+DL = 2; 36^{\mathrm{p}}
 
-and GL = 1; 30°;
+and GL = 1; 30^{\mathrm{p}};
 
-and, by subtraction [of GL from GZ], LZ = 55; 30°.
+and, by subtraction [of GL from GZ], LZ = 55; 30^{\mathrm{p}}.
 
-And since LZ + DL = DZ, DZ = 55; 34°
+And since LZ + DL² = DZ, DZ = 55; 34^{\mathrm{p}}
 
-where the radius of the epicycle (i.e. ZΘ and ZK) = 22; 30°, by hypothesis.
+where the radius of the epicycle (i.e. ZΘ and ZK) = 22; 30^{\mathrm{p}}, by hypothesis.
 
 Therefore where hypotenuse DZ = 120^{\mathrm{p}}
 
-ΘZ = ZK = 48; 35°;
+ΘZ = ZK = 48; 35^{\mathrm{p}};
 
 and $ \angle ZD\Theta = \angle ZDK = 47; 46°° $ where 2 right angles $ = 360°° $.
 
@@ -10629,16 +10629,16 @@ Q.E.D.
 
 The sequel to the above is the establishment of the periodic motions of Mercury and their epochs. Now the [motion and epoch] in longitude, that is, of the epicycle in its uniform motion about point G, are given immediately from those of the sun. As for the [motion and epoch] in anomaly, that is, of the planet in its [uniform] motion on the epicycle about the epicycle centre, we have derived it from two reliable observations, one from among those recorded in our time, and the other from the ancient observations.
 
-[Firstly], we observed the planet Mercury in the second year of Antoninus (which was the 886th year from Nabonassar), Epiphi [XI] 2/3 in the Egyptian calendar [139 May 17/18], by means of the astrolabe instrument. It had not yet reached its greatest elongation as evening-star. When sighted with respect to the star on the heart of Leo it was observed at a longitude of $\square 17\frac{1}{2}^{\circ}$; and at that moment it was also $1\frac{1}{2}^{\circ}$ to the rear of the moon’s centre. The time at Alexandria was $4\frac{1}{2}$ equinoctial hours before midnight of [Epiphi 2/]3, since, according to the astrolabe, the 12th degree of Virgo [i.e. $\pi$ 11°-12°] was culminating, while the sun was in about $8\frac{1}{2} 23^{\circ}$. Now at that moment, the positions according to the hypotheses we have demonstrated were as follows:
+[Firstly], we observed the planet Mercury in the second year of Antoninus (which was the 886th year from Nabonassar), Epiphi [XI] 2/3 in the Egyptian calendar [139 May 17/18], by means of the astrolabe instrument. It had not yet reached its greatest elongation as evening-star. When sighted with respect to the star on the heart of Leo it was observed at a longitude of ♊︎ $17\frac{1}{2}^{\circ}$; and at that moment it was also $1\frac{1}{2}^{\circ}$ to the rear of the moon’s centre. The time at Alexandria was $4\frac{1}{2}$ equinoctial hours before midnight of [Epiphi 2/]3, since, according to the astrolabe, the 12th degree of Virgo [i.e. ♍︎ $11°-12°$] was culminating, while the sun was in about ♉︎ $23^{\circ}$. Now at that moment, the positions according to the hypotheses we have demonstrated were as follows:
 
-| mean longitude of the sun | 8° 22;34° |
+| mean longitude of the sun | ♉︎ 22;34° |
 | --- | --- |
-| mean longitude of the moon | □ 12;14° |
+| mean longitude of the moon | ♊︎ 12;14° |
 | anomaly of the moon from the apogee of the epicycle | 281;20° |
-| hence, by computation, true position of the moon’s centre | □ 17;10° |
-| apparent position of the moon’s centre | □ 16;20° |
+| hence, by computation, true position of the moon’s centre | ♊︎ 17;10° |
+| apparent position of the moon’s centre | ♊︎ 16;20° |
 
-Thus from this [computation] too we find that Mercury’s longitude was $\square 17\frac{1}{2}^{\circ}$ (since it was $1\frac{1}{2}^{\circ}$ to the rear of the moon’s centre).
+Thus from this [computation] too we find that Mercury’s longitude was ♊︎ $17\frac{1}{2}^{\circ}$ (since it was $1\frac{1}{2}^{\circ}$ to the rear of the moon’s centre).
 
 With this as datum, let [Fig. 9.9] the diameter through the apogee and perigee be ABGDE, on which point A is taken as the apogee, B as the point about which the centre of the eccentric performs its motion in advance, G the point about which the centre of the epicycle performs its [uniform] motion towards the rear, and D the centre of the ecliptic. Let the epicycle centre, Z, have been carried by the line GZ about point G through the angle AGZ, and let the centre of the eccentric, H, have been carried by line BH about point B through the angle ABH, which will, obviously, be equal to $\angle AGZ$ because of the equal speed of the motions. Draw the epicycle, ΘKL, on centre Z, and let the planet be situated at L. Join GH, HZ, DZ, ZL and DL, extend GZΘ and drop perpendiculars HM and DN on to it from H and D, and drop perpendicular ZX from Z on to DL.
 
@@ -10647,7 +10647,7 @@ Fig. 9.9
 
 Let us consider the problem, to find the arc of the epicycle between $\Theta$, the apogee [of the epicycle], and the planet at L.
 
-Now at that moment the longitude of the mean sun was $\aleph 22;34^{\circ}$, and the perigee of the planet was at about $\Psi 10^{\circ}$.
+Now at that moment the longitude of the mean sun was ♉︎ $22;34^{\circ}$, and the perigee of the planet was at about ♈︎ $10^{\circ}$.
 
 Thus its distance from the perigee in mean longitude was $42;34^{\circ}$.
 
@@ -10672,12 +10672,12 @@ Therefore the corresponding chords
 
 $$
 \left. \begin{array}{l}
-GH = 81;10^{\circ} \\
-\text{and } BG = 111;49^{\circ}
-\end{array} \right\} \text{ where the diameter of the circle is } 120^{\circ}.
+GH = 81;10^{\mathrm{p}} \\
+\text{and } BG = 111;49^{\mathrm{p}}
+\end{array} \right\} \text{ where the diameter of the circle is } 120^{\mathrm{p}}.
 $$
 
-Therefore where $BG = 3^{\circ}$, $GH = 2;11^{\circ}$.
+Therefore where $BG = 3^{\mathrm{p}}$, $GH = 2;11^{\circ}$.
 
 Again, since $\angle BGH = 137;26^{\circ \circ}$
 
@@ -10695,38 +10695,38 @@ $\text{arc HM} = 52;18^\circ$
 and $\text{arc GM} = 127;42^\circ$ (supplement).
 
 Therefore the corresponding chords
-Therefore where $\text{GH} = 2;11^\circ$,
-and $\text{HZ}$, the radius of the eccentric carrying the epicycle, is $60^\circ$,
-$\text{HM} = 0;58^{\mathrm{p}}$ and $\text{GM} = 1;58^\circ$.
-Hence $\text{MZ}$, being a negligible amount less than $\text{HZ}$, the hypotenuse [of triangle $\text{HMZ}$], is the same, $60^\circ$,
-and, by subtraction [of $\text{GM}$ from $\text{MZ}$], $\text{GZ} = 58;2^\circ$.
+Therefore where $\text{GH} = 2;11^{\mathrm{p}}$,
+and $\text{HZ}$, the radius of the eccentric carrying the epicycle, is $60^{\mathrm{p}}$,
+$\text{HM} = 0;58^{\mathrm{p}}$ and $\text{GM} = 1;58^{\mathrm{p}}$.
+Hence $\text{MZ}$, being a negligible amount less than $\text{HZ}$, the hypotenuse [of triangle $\text{HMZ}$], is the same, $60^{\mathrm{p}}$,
+and, by subtraction [of $\text{GM}$ from $\text{MZ}$], $\text{GZ} = 58;2^{\mathrm{p}}$.
 Similarly, since $\angle \text{DGN} = 85;8^{\circ\circ}$ where 2 right angles $= 360^{\circ\circ}$,
 in the circle about right-angled triangle $\text{GDN}$
 $\text{arc DN} = 85;8^\circ$
 and $\text{arc GN} = 94;52^\circ$ (supplement).
 
 Therefore the corresponding chords
-Therefore where $\text{GD} = 3^\circ$ and, as was demonstrated, $\text{GZ} = 58;2^\circ$,
-$\text{DN} = 2;2^\circ$ and $\text{GN} = 2;13^\circ$,
-and, by subtraction [of $\text{GN}$ from $\text{GZ}$], $\text{NZ} = 55;49^\circ$.
+Therefore where $\text{GD} = 3^{\mathrm{p}}$ and, as was demonstrated, $\text{GZ} = 58;2^{\mathrm{p}}$,
+$\text{DN} = 2;2^\circ$ and $\text{GN} = 2;13^{\mathrm{p}}$,
+and, by subtraction [of $\text{GN}$ from $\text{GZ}$], $\text{NZ} = 55;49^{\mathrm{p}}$.
 Hence hypotenuse $\text{DZ} = \sqrt{ \text{DN}^2 + \text{NZ}^2 } = 55;51^\circ$
-where the radius of the epicycle $= 22;30^\circ$.
+where the radius of the epicycle $= 22;30^{\mathrm{p}}$.
 Therefore in the circle about right-angled triangle $\text{DZN}$,
 where hypotenuse $\text{DZ} = 120^{\mathrm{p}}$,
-$\text{DN} = 4;22^\circ$
+$\text{DN} = 4;22^{\mathrm{p}}$
 and $\text{arc DN} = 4;11^\circ$.
-And, by addition [of $\angle \text{DZN}$ and $\angle \text{DGN}$], $\angle \text{EDZ} = 89;19^\circ$.
-And the whole angle $\text{EDL} = 135^\circ$ in the same units, since the planet was observed at $67;30^\circ$ from the perigee.
-Therefore by subtraction [of $\angle \text{EDZ}$ from $\angle \text{EDL}$], $\angle \text{ZDL} = 45;41^\circ$.
+And, by addition [of $\angle \text{DZN}$ and $\angle \text{DGN}$], $\angle \text{EDZ} = 89;19^{\circ\circ}$.
+And the whole angle $\text{EDL} = 135^{\circ\circ}$ in the same units, since the planet was observed at $67;30^\circ$ from the perigee.
+Therefore by subtraction [of $\angle \text{EDZ}$ from $\angle \text{EDL}$], $\angle \text{ZDL} = 45;41^{\circ\circ}$.
 Therefore in the circle about right-angled triangle $\text{DZX}$,
 $\text{arc ZX} = 45;41^\circ$
 and $\text{ZX} = 46;35^\circ$ where hypotenuse $\text{DZ} = 120^{\mathrm{p}}$.
 Therefore where hypotenuse $\text{DZ} = 55;51^{\mathrm{p}}$ and the radius of the epicycle,
 $\text{ZL} = 22;30^{\mathrm{p}}$,
-$\text{ZX} = 21;41^\circ$.
+$\text{ZX} = 21;41^{\mathrm{p}}$.
 And, in the circle about right-angled triangle $\text{ZLX}$,
 where hypotenuse $\text{ZL} = 120^{\mathrm{p}}$,
-$\text{ZX} = 115;39^\circ$.
+$\text{ZX} = 115;39^{\mathrm{p}}$.
 $\therefore \text{arc ZX} = 149;2^\circ$
 
 --- and $\angle \mathrm{ZLX} = 149;2^{\circ} \circ$ where 2 right angles $= 360^{\circ} \circ$.
@@ -10749,11 +10749,11 @@ Therefore arc $\Theta \mathrm{KL}$ of the epicycle, which was the distance of th
 
 Q.E.D.
 
-Secondly, in the 21st year of Dionysius’ calendar (which was in the 484th year from Nabonassar), Scorpion 22, [which is] Thoth [I] 18/19 in the Egyptian calendar [-264 Nov. 14/15], at dawn, Stilbon [i.e. Mercury] was 1 moon to the rear of the straight line through the northern [star in the] forehead of Scorpius and the middle [star in the forehead], and was 2 moons to the north of the northern [star in the] forehead. Now according to our coordinates at that time the midmost of the stars in the forehead of Scorpius had a longitude of $\pi_1 1\frac{3}{4}^{\circ}$, and is the same amount $[1\frac{3}{4}^{\circ}]$ south of the ecliptic, while the northernmost star had a longitude of $\pi_2 2\frac{3}{4}^{\circ}$ and is $1\frac{3}{4}^{\circ}$ north of the ecliptic. So the planet Mercury had a longitude of about $\pi_2 3\frac{3}{4}^{\circ}$. Furthermore it is clear that it had not yet reached its greatest elongation as morning-star, since 4 days later, on Scorpion 26, it is recorded that its distance from the same straight line towards the rear was $1\frac{1}{2}$ moons; for [by that time] the elongation had become greater, the sun having moved about 4 degrees, but the planet [only] half a moon. And on Thoth 19 at dawn the longitude of the mean sun, according to our tables, was $\pi_1 20\frac{3}{4}^{\circ}$, while the longitude of the apogee of the planet was about $\simeq 6^{\circ}$, since the 400 or so years between the observations produce a displacement of the apogee of about $4^{\circ}$.
+Secondly, in the 21st year of Dionysius’ calendar (which was in the 484th year from Nabonassar), Scorpion 22, [which is] Thoth [I] 18/19 in the Egyptian calendar [-264 Nov. 14/15], at dawn, Stilbon [i.e. Mercury] was 1 moon to the rear of the straight line through the northern [star in the] forehead of Scorpius and the middle [star in the forehead], and was 2 moons to the north of the northern [star in the] forehead. Now according to our coordinates at that time the midmost of the stars in the forehead of Scorpius had a longitude of ♏︎ $1\frac{3}{4}^{\circ}$, and is the same amount $[1\frac{3}{4}^{\circ}]$ south of the ecliptic, while the northernmost star had a longitude of ♏︎ $2\frac{3}{4}^{\circ}$ and is $1\frac{3}{4}^{\circ}$ north of the ecliptic. So the planet Mercury had a longitude of about ♏︎ $3\frac{3}{4}^{\circ}$. Furthermore it is clear that it had not yet reached its greatest elongation as morning-star, since 4 days later, on Scorpion 26, it is recorded that its distance from the same straight line towards the rear was $1\frac{1}{2}$ moons; for [by that time] the elongation had become greater, the sun having moved about 4 degrees, but the planet [only] half a moon. And on Thoth 19 at dawn the longitude of the mean sun, according to our tables, was $\pi_1 20\frac{3}{4}^{\circ}$, while the longitude of the apogee of the planet was about ♎︎ $6^{\circ}$, since the 400 or so years between the observations produce a displacement of the apogee of about $4^{\circ}$.
 
 With the above as data, then, let us draw a figure [Fig. 9.10] similar to the one preceding [Fig. 9.9], but in which, because of the difference in the positions, the angles towards the apogee A [i.e. $\angle \mathrm{AGZ}, \angle \mathrm{ABH}$] are to be drawn as acute, the straight lines joining [points] to the planet [i.e. ZL, DL], as in advance of the epicycle [centre], and perpendicular ZX as beyond ZL, the radius of the epicycle.
 
-Then, since the mean position of the planet was $[\pi_2 20\frac{3}{4}^{\circ} - \triangle 6^{\circ} =] 44;50^{\circ}$ from the apogee,
+Then, since the mean position of the planet was $[\pi_2 20\frac{3}{4}^{\circ} - ♎︎ 6^{\circ} =] 44;50^{\circ}$ from the apogee,
 
 $$
 \angle \mathrm{ABH} = \left\{ \begin{array}{l} 44;50^{\circ} \text{ where 4 right angles} = 360^{\circ} \\ 89;40^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{array} . \right.
@@ -10770,14 +10770,14 @@ And, by the same reasoning [as before]
 in the circle about triangle BGH the corresponding chords
 $$
 \begin{array}{c}
-\mathrm{GH} = 84;36^{\circ} \\
-\text{and BG} = \mathrm{BH} = 45;46^{\circ}
+\mathrm{GH} = 84;36^{\mathrm{p}} \\
+\text{and BG} = \mathrm{BH} = 45;46^{\mathrm{p}}
 \end{array}
 \}
 $$
-where the diameter is $120^{\circ}$.
+where the diameter is $120^{\mathrm{p}}$.
 
-Therefore where BG = BH = $3^{\circ}$,
+Therefore where BG = BH = $3^{\mathrm{p}}$,
 GH = 5;33°.
 
 Again, by hypothesis,
@@ -10791,15 +10791,15 @@ and arc GM = 45;30° (supplement).
 Therefore the corresponding chords
 $$
 \begin{array}{c}
-\mathrm{MH} = 110;40^{\circ} \\
-\text{and GM} = 46;24^{\circ}
+\mathrm{MH} = 110;40^{\mathrm{p}} \\
+\text{and GM} = 46;24^{\mathrm{p}}
 \end{array}
 $$
 where hypotenuse GH = 120^{\mathrm{p}}.
 
-Therefore where GH = 5;33° (i.e. where ZH, the radius of the eccentric, is $60^{\circ}$),
+Therefore where GH = 5;33^{\mathrm{p}} (i.e. where ZH, the radius of the eccentric, is $60^{\mathrm{p}}$),
 HM = 5;7^{\mathrm{p}}
-and GM = 2;10°.101
+and GM = 2;10^{\mathrm{p}}.101
 
 101 2:9° would be more accurate by any method of computation
 
@@ -10943,24 +10943,24 @@ Therefore where the radius of the eccentric, AD = 60^{\mathrm{p}}, the distance 
 
 But since it is not clear whether the uniform motion of the epicycle takes place about point D, here too we took two greatest elongations, in opposite directions [i.e. one as evening-star and the other as morning-star], in each of which the mean motion of the sun was a quadrant from the apogee.
 
- We observed the first in the eighteenth year of Hadrian, Pharmouthi [VIII] 2/3 in the Egyptian calendar [134 Feb. 17/18]. In this Venus was at greatest elongation from the sun as morning-star, and when it was sighted with respect to the star called Antares [catalogue XXIX 8], its longitude was $11\frac{1}{2}^{\circ}$, at which time the longitude of the mean sun was $\approx 25\frac{1}{2}^{\circ}$. So the greatest elongation from the mean as morning-star was $43\frac{1}{2}^{\circ}$.
+ We observed the first in the eighteenth year of Hadrian, Pharmouthi [VIII] 2/3 in the Egyptian calendar [134 Feb. 17/18]. In this Venus was at greatest elongation from the sun as morning-star, and when it was sighted with respect to the star called Antares [catalogue XXIX 8], its longitude was ♑︎ $11\frac{11}{12}^{\circ}$, at which time the longitude of the mean sun was ♒︎ $25\frac{1}{2}^{\circ}$. So the greatest elongation from the mean as morning-star was $43\frac{7}{12}^{\circ}$.
 
- We observed the second in the third year of Antoninus, Pharmouthi [VIII] 4/5 in the Egyptian calendar [140 Feb. 18/19], in the evening. In this Venus was at its greatest elongation from the sun, and when it was sighted with respect to the bright star in the Hyades [catalogue XXIII 14], its longitude was $\varphi 13\frac{3}{8}^{\circ}$, while the longitude of the mean sun was again $\approx 25\frac{1}{2}^{\circ}$. Hence in this case the greatest elongation from the mean as evening-star was $48\frac{1}{2}^{\circ}$.
+ We observed the second in the third year of Antoninus, Pharmouthi [VIII] 4/5 in the Egyptian calendar [140 Feb. 18/19], in the evening. In this Venus was at its greatest elongation from the sun, and when it was sighted with respect to the bright star in the Hyades [catalogue XXIII 14], its longitude was ♈︎ $13\frac{5}{6}^{\circ}$, while the longitude of the mean sun was again ♒︎ $25\frac{1}{2}^{\circ}$. Hence in this case the greatest elongation from the mean as evening-star was $48\frac{1}{3}^{\circ}$.
 
-With the above as data, let [Fig. 10.2] the diameter through the apogee and perigee of the eccentric be ABG; let A represent the point at $25^{\circ}$, and let B represent the centre of the ecliptic. Let our task be to find the centre about which we say that the uniform motion of the epicycle takes place. Let that
+With the above as data, let [Fig. 10.2] the diameter through the apogee and perigee of the eccentre be ABG; let A represent the point at ♉︎ $25^{\circ}$, and let B represent the centre of the ecliptic. Let our task be to find the centre about which we say that the uniform motion of the epicycle takes place. Let that
 
 ![img-126.jpeg](images/img-126.jpeg)
 Fig. 10.2
 
 centre be point D, and draw DE through D perpendicular to AG, in order for the mean position of the epicycle to be a quadrant from the apogee, as in the observations. On DE take E to represent the centre of the epicycle at the observations in question, draw the epicycle ZH on it as centre, draw the tangents to it from B, BZ and BH, and join BE, EZ and EH.
 
-Then since, at the mean position in question, the greatest elongation from the mean as morning-star is, by hypothesis, $43\frac{1}{2}^{\circ}$, and the greatest as evening-star $48\frac{1}{2}^{\circ}$, by addition, $\angle ZBH = 91;55^{\circ}$ where 4 right angles = $360^{\circ}$.
+Then since, at the mean position in question, the greatest elongation from the mean as morning-star is, by hypothesis, $43\frac{7}{12}^{\circ}$, and the greatest as evening-star $48\frac{1}{3}^{\circ}$, by addition, $\angle ZBH = 91;55^{\circ}$ where 4 right angles = $360^{\circ}$.
 
 Therefore its half, $\angle ZBE = 91;55^{\circ\circ}$ where 2 right angles = $360^{\circ\circ}$.
 
 Therefore in the circle about right-angled triangle BEZ arc EZ = 91;55°
 
-and EZ = 86;16° where hypotenuse BE = $120^{\mathrm{p}}$.
+and EZ = 86;16^{\mathrm{p}} where hypotenuse BE = $120^{\mathrm{p}}$.
 
 Therefore where the radius of the epicycle, $\mathrm{EZ} = 43;10^{\mathrm{p}}$
 $\mathrm{BE} = 60;3^{\mathrm{p}}$.
@@ -10970,33 +10970,33 @@ $$
 $$
 Therefore in the circle about right-angled triangle BDE
 $\mathrm{arc} \quad \mathrm{BD} = 4;45^{\circ}$
-$\mathrm{and} \quad \mathrm{BD} \approx 4;59^{\circ} \text{ where hypotenuse } \mathrm{BE} = 120^{\mathrm{p}}$.
+$\mathrm{and} \quad \mathrm{BD} \approx 4;59^{\mathrm{p}} \text{ where hypotenuse } \mathrm{BE} = 120^{\mathrm{p}}$.
 Therefore where $\mathrm{BE} = 60;3^{\mathrm{p}}$ and the radius of the epicycle is $43;10^{\mathrm{p}}$, $\mathrm{BD} \approx 2\frac{1}{2}^{\mathrm{p}}$.
-But we showed [p. 472] that the distance between B, the centre of the ecliptic, and the centre of the eccentricity on which the epicycle centre is always carried, is $1\frac{1}{4}^{\mathrm{p}}$ in the same units; thus it is half of BD.
+But we showed [p. 472] that the distance between B, the centre of the ecliptic, and the centre of the eccentre on which the epicycle centre is always carried, is $1\frac{1}{4}^{\mathrm{p}}$ in the same units; thus it is half of BD.
 
 Therefore, if we bisect BD at $\Theta$, we have demonstrated that
-where $\Theta A$, the radius of the eccentricige carrying the epicycle, is $60^{\mathrm{p}}$, each of the distances between the centres, $B\Theta$ and $\Theta D = 1\frac{1}{4}^{\mathrm{p}}$, and EZ, the radius of the epicycle, is $43;10^{\mathrm{p}}$.
+where $\Theta A$, the radius of the eccentre carrying the epicycle, is $60^{\mathrm{p}}$, each of the distances between the centres, $B\Theta$ and $\Theta D = 1\frac{1}{4}^{\mathrm{p}}$, and EZ, the radius of the epicycle, is $43;10^{\mathrm{p}}$.
 Q.E.D.
 
 ## 4. On the correction of the periodic motions of the planet [Venus]
 
 Such, then, is the method by which we determined the type of [Venus'] hypothesis and the ratios of its anomalies. For the periodic motions and epochs of the planet, once again [as for Mercury], we took two reliable observations, [one] from among ours, and [one] of the ancient ones.
 
- In the second year of Antoninus, Tybi [V] 29/30 in the Egyptian calendar [138 Dec. 15/16], we observed the planet Venus, after its greatest elongation as morning-star, using the astrolabe and sighting it with respect to Spica: its apparent longitude was $\pi$ 6$\frac{1}{2}^{\circ}$. At that moment it was also between and on a straight line with the northernmost of the stars in the forehead of Scorpius and the apparent centre of the moon, and was in advance of the moon's centre 1$\frac{1}{2}$ times the amount it was to the rear of the northernmost of the stars in the forehead. Now the [latter] fixed star had at that time, according to our coordinates, a longitude of $\pi$ 6;20°, and is 1:20° north of the ecliptic. The time was 4$\frac{1}{4}$ equinoctial hours after midnight, since the sun was in about 23, and the second degree of Virgo [i.e. $\mathfrak{m}\mathfrak{g} 1^{\circ}-2^{\circ}$] was culminating according to the astrolabe. At that moment the positions were as follows:
+ In the second year of Antoninus, Tybi [V] 29/30 in the Egyptian calendar [138 Dec. 15/16], we observed the planet Venus, after its greatest elongation as morning-star, using the astrolabe and sighting it with respect to Spica: its apparent longitude was ♏︎ $6\frac{1}{2}^{\circ}$. At that moment it was also between and on a straight line with the northernmost of the stars in the forehead of Scorpius and the apparent centre of the moon, and was in advance of the moon's centre 1$\frac{1}{2}$ times the amount it was to the rear of the northernmost of the stars in the forehead. Now the [latter] fixed star had at that time, according to our coordinates, a longitude of ♏︎ $6;20^{\circ}$, and is 1:20° north of the ecliptic. The time was 4$\frac{1}{4}$ equinoctial hours after midnight, since the sun was in about ♐︎ $23$, and the second degree of Virgo [i.e. ♍︎ $1^{\circ}-2^{\circ}$] was culminating according to the astrolabe. At that moment the positions were as follows:
 
-| mean longitude of the sun | $\pm 22;9^{\circ}$ |
+| mean longitude of the sun | ♐︎ $22;9^{\circ}$ |
 | --- | --- |
-| mean longitude of the moon | $\mathfrak{m}\mathfrak{g} 11;24^{\circ}$ |
+| mean longitude of the moon | ♏︎ $11;24^{\circ}$ |
 | anomaly of the moon, counted from apogee | $87;30^{\circ}$ |
 | [argument of] latitude of the moon, from the northern limit | $12;22^{\circ}$ |
-| hence, true position of the moon’s centre | $\mathfrak{m}\mathfrak{g} 5;45^{\circ}$ |
+| hence, true position of the moon’s centre | ♏︎ $5;45^{\circ}$ |
 | [moon’s latitude] | $5^{\circ}$ north of the ecliptic |
-| apparent position [of the moon] at Alexandria in longitude | $\mathfrak{m}\mathfrak{g} 6;45^{\circ}$ |
+| apparent position [of the moon] at Alexandria in longitude | ♏︎ $6;45^{\circ}$ |
 | [apparent position of the moon in latitude] | $4;40^{\circ}$ north of the ecliptic. |
 
-From these considerations too, then, Venus’ longitude was $\mathfrak{m}\mathfrak{g} 6;30^{\circ}$, and it was $2;40^{\circ}$ north of the ecliptic.
+From these considerations too, then, Venus’ longitude was ♏︎ $6;30^{\circ}$, and it was $2;40^{\circ}$ north of the ecliptic.
 
-With the above as data, let [Fig. 10.3] the diameter through the apogee be ABGDE. Let A represent the point at $8 \cdot 25^{\circ}$, B the point about which the epicycle moves uniformly, G the centre of the eccentric carrying the epicycle centre, and D the centre of the ecliptic. Since the mean sun had a longitude of $\pm 22;9^{\circ}$ at the observation, the mean position of the epicycle is $[\pm 22;9^{\circ}-\mathfrak{m}\mathfrak{g} 25^{\circ} =] 27;9^{\circ}$ towards the rear from the perigee at E. So let the epicycle centre be located at Z, and draw the epicycle HΘK on Z as centre. Join DZH, GZ and BZΘ, and drop perpendiculars GL and DM from G and D on to BZ. Let the
+With the above as data, let [Fig. 10.3] the diameter through the apogee be ABGDE. Let A represent the point at ♉︎ $25^{\circ}$, B the point about which the epicycle moves uniformly, G the centre of the eccentre carrying the epicycle centre, and D the centre of the ecliptic. Since the mean sun had a longitude of ♐︎ $22;9^{\circ}$ at the observation, the mean position of the epicycle is $[♐︎ 22;9^{\circ}-♏︎ 25^{\circ} =] 27;9^{\circ}$ towards the rear from the perigee at E. So let the epicycle centre be located at Z, and draw the epicycle HΘK on Z as centre. Join DZH, GZ and BZΘ, and drop perpendiculars GL and DM from G and D on to BZ. Let the
 
 ![img-127.jpeg](images/img-127.jpeg)
 Fig. 10.3
@@ -11013,33 +11013,33 @@ and arc BL = 125;42° (supplement).
 
 Therefore the corresponding chords
 
-GL = 54;46°
+GL = 54;46^{\mathrm{p}}
 
-and BL = 106;47°
+and BL = 106;47^{\mathrm{p}}
 
 where hypotenuse BG = 120^{\mathrm{p}}.
 
-Therefore where BG = 1;15° and GZ, the radius of the eccentric, is 60°, GL = 0;34^{\mathrm{p}}
+Therefore where BG = 1;15^{\mathrm{p}} and GZ, the radius of the eccentre, is 60°, GL = 0;34^{\mathrm{p}}
 
-and BL = 1;7°.
+and BL = 1;7^{\mathrm{p}}.
 
-And since ZG − GL = ZL, ZL ≈ 60° in the same units.
+And since ZG² − GL = ZL, ZL ≈ 60^{\mathrm{p}} in the same units.
 
 And since BG = GD
 
-ML = LB [= 1;7°],
+ML = LB [= 1;7^{\mathrm{p}}],
 
 and DM = 2GL.
 
-Therefore, by subtraction [of ML from ZL], ZM = 58;53°
+Therefore, by subtraction [of ML from ZL], ZM = 58;53^{\mathrm{p}}
 
-and DM = 1;8° in the same units.
+and DM = 1;8^{\mathrm{p}} in the same units.
 
-Hence hypotenuse ZD[= √ZM + DM] ≈ 58;54°.
+Hence hypotenuse ZD[= √ZM + DM] ≈ 58;54^{\mathrm{p}}.
 
-Therefore, where ZD = 120°, DM = 2;18°, and, in the circle about right-angled triangle DZM, arc DM = 2;12°.
+Therefore, where ZD = 120^{\mathrm{p}}, DM = 2;18°, and, in the circle about right-angled triangle DZM, arc DM = 2;12°.
 
-∴ ∠ BZD = 2;12°° where 2 right angles = 360°°, and, by addition [of ∠ EBZ and ∠ BZD], ∠ EDZ = 56;30° in the same units.
+∴ ∠ BZD = 2;12°° where 2 right angles = 360°°, and, by addition [of ∠ EBZ and ∠ BZD], ∠ EDZ = 56;30°° in the same units.
 
 And, since the planet was 18;30° in advance of the perigee at E (i.e. m, 25°) at the observation,
 
@@ -11047,30 +11047,30 @@ $$ \angle \text{EDK} = \begin{cases} 18; 30^\circ \text{ where 4 right angles} =
 
 Therefore, by addition [of ∠ EDK to ∠ EDZ], ∠ KDZ = 93;30°° where 2 right angles = 360°°, and, in the circle about right-angled triangle DZN, arc ZN = 93;30°.
 
-Therefore its chord, ZN = 87;25^{\mathrm{p}} where ZD = 120°.
+Therefore its chord, ZN = 87;25^{\mathrm{p}} where ZD = 120^{\mathrm{p}}.
 
-So where ZD = 58;54°, i.e. where the epicycle radius ZK is 43;10°.
+So where ZD = 58;54^{\mathrm{p}}, i.e. where the epicycle radius ZK is 43;10^{\mathrm{p}}.
 
-ZN = 42;54°.
+ZN = 42;54^{\mathrm{p}}.
 
-∴ ZN = 119;18° where hypotenuse ZK = 120^{\mathrm{p}}, and, in the circle about right angled triangle ZKN, arc ZN = 167;38°.
+∴ ZN = 119;18^{\mathrm{p}} where hypotenuse ZK = 120^{\mathrm{p}}, and, in the circle about right angled triangle ZKN, arc ZN = 167;38°.
 
-∴ ∠ ZKD = 167;38° where ∠ ZDK has already been found as 93;30°.
+∴ ∠ ZKD = 167;38°° where ∠ ZDK has already been found as 93;30°°.
 
-So, by addition, $\angle \mathbf{KZH} = 261;8^\circ \mathrm{O}$.
+So, by addition, $\angle \mathbf{KZH} = 261;8^{\circ\circ}$.
 
-And we showed that $\angle \mathbf{BZD} (= \angle \mathbf{HZ\Theta}) = 2;12^\circ \mathrm{O}$ in the same units.
+And we showed that $\angle \mathbf{BZD} (= \angle \mathbf{HZ\Theta}) = 2;12^{\circ\circ}$ in the same units.
 
-Therefore, by subtraction, $\angle \Theta ZK = \begin{cases} 258;56^\circ \mathrm{O} & \text{where 2 right angles} = 360^{\circ\circ} \\ 129;28^\circ & \text{where 4 right angles} = 360^\circ \mathrm{O} \end{cases}$.
+Therefore, by subtraction, $\angle \Theta ZK = \begin{cases} 258;56^{\circ\circ} & \text{where 2 right angles} = 360^{\circ\circ} \\ 129;28^\circ & \text{where 4 right angles} = 360^\circ  \end{cases}$.
 
 So the planet Venus, at the time in question, was the above distance, $129;28^\circ$, in advance of the epicycle apogee $\Theta$, and, [therefore], in the motion [on the epicycle] assigned to it in the hypothesis, [namely] towards the rear, it was the difference of the above from one revolution, $230;32^\circ$, which was what we had to determine.
 
- From the ancient observations we selected one which is recorded by Timocharis as follows. In the thirteenth year of Philadelphos, Mesore [XII] 17/18 in the Egyptian calendar [-271 Oct. 11/12], at the twelfth hour, Venus was seen to have exactly overtaken the star opposite Vindemiatrix. That is the star which, in our descriptions [catalogue XXVII 6], is the one following the star on the tip of the southern wing of Virgo, and which had a longitude of $\mathfrak{m} \cdot 8^{\frac{1}{4}}$ in the first year of Antoninus. Now the year of the observation is the 476th from Nabonassar, while the first year of Antoninus is 884 [years] from Nabonassar; to the 408 years of the interval corresponds a motion of the fixed stars and the apogees of about $4^{\frac{1}{3}}$. Hence it is clear that the longitude of Venus was $\mathfrak{m} \cdot 4^{\frac{1}{6}}$, and the longitude of the perigee of its eccentric $\mathfrak{m} \cdot 20^{\frac{1}{2}}$. And here too Venus was past its greatest elongation as morning-star; for 4 days after the above observation, on Mesore 21/22, as one can deduce from what Timocharis says, its longitude was $\mathfrak{m} \cdot 8^{\frac{1}{6}}$ according to our coordinates; and the mean position of the sun was $\simeq 17;3^\circ$ at the first observation and $\simeq 20;59^\circ$ at the next: thus its elongation at the first observation comes to $42;53^\circ$ and at the next $42;9^\circ$.
+ From the ancient observations we selected one which is recorded by Timocharis as follows. In the thirteenth year of Philadelphos, Mesore [XII] 17/18 in the Egyptian calendar [-271 Oct. 11/12], at the twelfth hour, Venus was seen to have exactly overtaken the star opposite Vindemiatrix. That is the star which, in our descriptions [catalogue XXVII 6], is the one following the star on the tip of the southern wing of Virgo, and which had a longitude of $\mathfrak{m} \cdot 8^{\frac{1}{4}}$ in the first year of Antoninus. Now the year of the observation is the 476th from Nabonassar, while the first year of Antoninus is 884 [years] from Nabonassar; to the 408 years of the interval corresponds a motion of the fixed stars and the apogees of about $4^{\frac{1}{3}}$. Hence it is clear that the longitude of Venus was $\mathfrak{m} \cdot 4^{\frac{1}{6}}$, and the longitude of the perigee of its eccentric $\mathfrak{m} \cdot 20^{\frac{1}{2}}$. And here too Venus was past its greatest elongation as morning-star; for 4 days after the above observation, on Mesore 21/22, as one can deduce from what Timocharis says, its longitude was $\mathfrak{m} \cdot 8^{\frac{1}{6}}$ according to our coordinates; and the mean position of the sun was ♎︎ $17;3^\circ$ at the first observation and ♎︎ $20;59^\circ$ at the next: thus its elongation at the first observation comes to $42;53^\circ$ and at the next $42;9^\circ$.
 
-With the above as data, let there be drawn [Fig. 10.4] a figure similar [to the preceding], but which has the epicycle in advance of the perigee, since the mean longitude of the epicycle is $\simeq 17;3^\circ$, while the longitude of the perigee is $\mathfrak{m} \cdot 20;55^\circ$. Now for that reason
+With the above as data, let there be drawn [Fig. 10.4] a figure similar [to the preceding], but which has the epicycle in advance of the perigee, since the mean longitude of the epicycle is ♎︎ $17;3^\circ$, while the longitude of the perigee is ♏︎ $20;55^\circ$. Now for that reason
 
 $$
-\angle \mathrm{EBZ} \left[ = \mathfrak{m} \cdot 20;55^\circ - \simeq 17;3^\circ \right] = \begin{cases} 33;52^\circ \text{ where 4 right angles} = 360^\circ \\ 67;44^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{cases}.
+\angle \mathrm{EBZ} \left[ = ♏︎ 20;55^\circ - \simeq 17;3^\circ \right] = \begin{cases} 33;52^\circ \text{ where 4 right angles} = 360^\circ \\ 67;44^{\circ\circ} \text{ where 2 right angles} = 360^{\circ\circ} \end{cases}.
 $$
 
 Therefore, in the circle about right-angled triangle BGL,
@@ -11086,18 +11086,18 @@ Therefore the corresponding chords
 
 $$
 \begin{aligned}
-&\mathrm{GL} = 66;52^\circ \\
-&\text{and} \quad \mathrm{BL} = 99;38^\circ
+&\mathrm{GL} = 66;52^{\mathrm{p}} \\
+&\text{and} \quad \mathrm{BL} = 99;38^{\mathrm{p}}
 \end{aligned}
 \quad \text{where hypotenuse} \quad \mathrm{BG} = 120^{\mathrm{p}}.
 $$
 
-Therefore where $\mathrm{BG} = 1;15^\circ$ and the radius of the eccentric, $\mathrm{GZ} = 60^{\mathrm{p}}$,
+Therefore where $\mathrm{BG} = 1;15^{\mathrm{p}}$ and the radius of the eccentre, $\mathrm{GZ} = 60^{\mathrm{p}}$,
 
 $$
 \begin{aligned}
-&\mathrm{GL} = 0;42^\circ \\
-&\text{and} \quad \mathrm{BL} = 1;2^\circ.
+&\mathrm{GL} = 0;42^{\mathrm{p}} \\
+&\text{and} \quad \mathrm{BL} = 1;2^{\mathrm{p}}.
 \end{aligned}
 $$
 

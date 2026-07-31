@@ -82,6 +82,25 @@ NAME_TOKEN = re.compile(
     re.I,
 )
 
+# Workers return the sign wrapped in a math \text{} group -- `$\text{Capricorn
+# }11\frac{11}{12}^{\circ}$` -- which the bare-name rule above cannot see,
+# because the brace sits between the name and the value.
+#
+# The wrapper is not merely noise to strip. The corpus writes signs as a bare
+# glyph OUTSIDE the math, the way Toomer's own zodiacal legend does
+# (`♈︎ 0° = 0° in longitude`), and a raw codepoint left inside `$...$` is a
+# different thing entirely: it would be handed to KaTeX as math rather than set
+# as text. So the sign is lifted out of the delimiters and the math is reopened
+# around the value alone.
+TEXT_WRAPPED = re.compile(
+    r"\$\s*\\text\{\s*(" + "|".join(sorted(BY_NAME, key=len, reverse=True)) + r")\s*\}\s*",
+    re.I,
+)
+BARE_WRAPPED = re.compile(
+    r"\\text\{\s*(" + "|".join(sorted(BY_NAME, key=len, reverse=True)) + r")\s*\}\s*",
+    re.I,
+)
+
 
 def normalise(s: str) -> str:
     """Put replacement text into the corpus's canonical encoding.
@@ -92,6 +111,8 @@ def normalise(s: str) -> str:
 
     Idempotent, so it is safe to run over text that is already correct.
     """
+    s = TEXT_WRAPPED.sub(lambda m: BY_NAME[m.group(1).lower()] + VS15 + " $", s)
+    s = BARE_WRAPPED.sub(lambda m: BY_NAME[m.group(1).lower()] + VS15 + " ", s)
     s = NAME_TOKEN.sub(lambda m: BY_NAME[m.group(1).lower()], s)
     out = []
     for i, ch in enumerate(s):
@@ -128,6 +149,41 @@ def anchor_for(fix: dict) -> str | None:
     return " ".join(p for p in parts if p)
 
 
+def anchor_regex(fix):
+    """The same anchor, matched tolerantly of whitespace, with `before` captured.
+
+    Exact matching fails on half of all corroborated fixes, and the reason is not
+    that the fixes are wrong. Workers REFLOW as they correct -- they join lines,
+    move content, and rewrap display math -- so a context recorded by the diff is
+    frequently contiguous where the real file has a line break inside it. The
+    first batch tried this way applied 33 of 64; the rest failed on a newline the
+    worker had collapsed, not on any disagreement about the text.
+
+    Whitespace is therefore matched as `\\s*` BETWEEN the three parts, because the
+    single spaces joining them are an artefact of how the anchor is assembled and
+    may correspond to nothing in the source, and as `\\s+` WITHIN a part, where
+    the spacing came from real tokens.
+
+    This deliberately does not relax anything else. The anchor must still match
+    exactly once; loosening whitespace widens what can be found, not what will be
+    accepted, and a fix that now matches two places is still refused.
+    """
+    if not fix.get("before"):
+        return None
+
+    def tight(s):
+        return r"\s+".join(re.escape(tok) for tok in s.split())
+
+    before = fix["before"]
+    pieces = []
+    if fix.get("context_before"):
+        pieces.append(tight(fix["context_before"]))
+    pieces.append("(" + tight(before) + ")")
+    if fix.get("context_after"):
+        pieces.append(tight(fix["context_after"]))
+    return re.compile(r"\s*".join(pieces))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("fixes", help="JSON written by verify-batch.py --fixes")
@@ -148,18 +204,23 @@ def main() -> int:
             skipped.append((fix, "insertion with no before-text; needs a wider anchor"))
             continue
 
-        n = text.count(anchor)
-        if n == 0:
-            skipped.append((fix, "anchor not found — the text moved, or the diff "
-                                 "reformatted whitespace"))
+        rx = anchor_regex(fix)
+        hits = list(rx.finditer(text))
+        if len(hits) == 0:
+            skipped.append((fix, "anchor not found — the text moved, or this "
+                                 "region was already repaired"))
             continue
-        if n > 1:
-            skipped.append((fix, f"anchor matches {n} places; too short to identify one"))
+        if len(hits) > 1:
+            skipped.append((fix, f"anchor matches {len(hits)} places; too short "
+                                 "to identify one"))
             continue
 
         after = normalise(fix["after"])
-        replacement = anchor.replace(fix["before"], after, 1)
-        text = text.replace(anchor, replacement, 1)
+        m = hits[0]
+        if text[m.start(1):m.end(1)] == after:
+            skipped.append((fix, "already applied"))
+            continue
+        text = text[:m.start(1)] + after + text[m.end(1):]
         applied.append((fix, after))
 
     for fix, after in applied:

@@ -179,8 +179,10 @@
           "id": "ptolemy-almagest",
           "note": "Finish Euclid before starting this.",
           "passages": [
-            "Book I introduction",
-            "Book I chapters on the celestial sphere"
+            "Book I, Chapters 1–2: the Preface and the order of the theorems",
+            "Book I, Chapters 3–8: that the heavens move like a sphere, and the earth's place within them",
+            "Book I, Chapters 9–11: the size of chords, and the Table of Chords",
+            "Book I, Chapters 12–16: the ecliptic, the preliminaries for spherical proofs, and rising-times"
           ]
         },
         {

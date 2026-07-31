@@ -44,8 +44,36 @@ pristine slice, so there is no reason to loosen it.
 import argparse, json, re, sys
 
 
+# Two runs that read the SAME defect off the SAME page still write the
+# correction two ways, because the encoding is a choice and nobody told them
+# which one. Measured on Book I pages 60-65: the runs touched 8 lines each,
+# agreed on 7 of them, and corroboration scored 4 -- the losses were entirely
+#
+#     DB^2   vs  DB²                     LaTeX vs Unicode superscript
+#     30^{\mathrm{p}}  vs  30ᵖ           raised unit letter, same two ways
+#
+# Scoring those as disagreement is wrong twice over: it discards real
+# corroboration, and it does so most often in the mathematically dense pages
+# where agreement matters most. So the key folds superscripts to one spelling
+# before comparing. It deliberately does NOT fold anything that changes a
+# VALUE -- ^2 and ^3 stay distinct, as do p and d -- because the whole point of
+# corroboration is to catch two runs reading a glyph differently.
+#
+# This is the same lesson as the sign glyphs, in a new family: the encoding
+# decision belongs to the script, never to the worker. See ledger.md.
+SUPERSCRIPT = {"⁰": "0", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5",
+               "⁶": "6", "⁷": "7", "⁸": "8", "⁹": "9",
+               "ᵖ": "p", "ᵈ": "d", "ʰ": "h", "ⁿ": "n", "ᵐ": "m", "ˢ": "s"}
+
+
 def norm(s):
-    return re.sub(r'\s+', '', s or '')
+    s = s or ""
+    s = "".join("^" + SUPERSCRIPT[c] if c in SUPERSCRIPT else c for c in s)
+    # ^{\mathrm{p}} / ^\mathrm{p} / ^{p}  ->  ^p
+    s = re.sub(r"\^\s*\{\s*\\(?:mathrm|text|rm)\s*\{\s*([A-Za-z0-9]+)\s*\}\s*\}", r"^\1", s)
+    s = re.sub(r"\^\s*\\(?:mathrm|text|rm)\s*\{\s*([A-Za-z0-9]+)\s*\}", r"^\1", s)
+    s = re.sub(r"\^\s*\{\s*([A-Za-z0-9]+)\s*\}", r"^\1", s)
+    return re.sub(r"\s+", "", s)
 
 
 def key(f):
@@ -69,9 +97,26 @@ def main():
     kb = {key(f) for f in fb}
     ka = {key(f) for f in fa}
 
+    # Once the key folds spellings together, run A's record is kept by accident
+    # of order -- and if A wrote the Unicode form, the Unicode form is what
+    # gets applied. The corpus sets raised units and exponents as LaTeX
+    # (`^{\mathrm{p}}`, `X^2`), so prefer whichever record already uses it.
+    # A no-op on this run, where A used LaTeX for all 31; it exists so the
+    # convention does not depend on which run happened to be first.
+    UNICODE_SUP = re.compile(r"[⁰¹²³⁴⁵⁶⁷⁸⁹ᵖᵈʰⁿᵐˢ]")
+    by_key_b = {key(f): f for f in fb}
+
     both, solo_a = [], []
     for f in fa:
-        (both if key(f) in kb else solo_a).append(f)
+        k = key(f)
+        if k not in kb:
+            solo_a.append(f)
+            continue
+        alt = by_key_b.get(k)
+        if alt is not None and UNICODE_SUP.search(f.get('after') or '') \
+                and not UNICODE_SUP.search(alt.get('after') or ''):
+            f = alt
+        both.append(f)
     solo_b = [f for f in fb if key(f) not in ka]
 
     print(f"{args.run_a} ({len(fa)})  vs  {args.run_b} ({len(fb)})")

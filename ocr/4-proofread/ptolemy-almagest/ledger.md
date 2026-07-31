@@ -314,6 +314,57 @@ Fixing it needs the possessive subfamily isolated first. Deliberately deferred:
 the recommended-passage pass is reconciliation against the page, not a hunt for
 text-wide patterns.
 
+### The full Book I pass — 27 pages, 10 runs, 2026-07-31
+
+Five batches, two `sol` runs each, over pages 54–59, 60–65, 66–69, 74–79, 80–84.
+**53 corroborated fixes applied; triad returned to baseline exactly** (2 failures
+of 3964 blocks — the same two as before, in regions untouched — and 120 surviving
+backslashes, unchanged).
+
+| batch | corroborated (raw) | corroborated (after folding) | held |
+|---|---|---|---|
+| p0054-0059 | 0 | 0 | 0 |
+| p0060-0065 | 4 | **31** | 10 |
+| p0066-0069 | 27 | 27 | 10 |
+| p0074-0079 | 3 | 3 | 2 |
+| p0080-0084 | 12 | 12 | 1 |
+| **total** | **46** | **73** | **23** |
+
+**Corroboration was under-counting by 37%, and the cause was spelling.** On the
+dense chord-derivation pages the two runs touched eight lines each and agreed on
+seven — but scored 4. Every loss was one run writing `DB^2` where the other wrote
+`DB²`, or `30^{\mathrm{p}}` against `30ᵖ`. The runs never disagreed about the
+page; they disagreed about the encoding, which is not theirs to choose.
+`corroborate-fixes.py` now folds superscript spellings before comparing, and
+deliberately does **not** fold anything that changes a value — `^2` and `^3` stay
+distinct, `p` and `d` stay distinct — because catching a genuine misread is the
+entire point. Nine controls, both directions.
+
+**Then the triad caught what corroboration structurally could not.** Both runs
+agreed on the reading *and* both wrote it bare: `DE = 30^{\mathrm{p}}` outside any
+math delimiter. The corpus sets these inside `$...$` — 413 existing instances, not
+one of them bare — so the first apply put 18 raw backslashes in front of the
+reader and `check-raw-latex.js` flagged it on the next pass. **Unanimity is not
+correctness.** This is the second time an error survived corroboration by being
+unanimous, and the second time the triad caught it as an independent consumer.
+Reverted, fixed in `normalise()`, re-applied.
+
+**The wrapping rule then failed its own first version, instructively.** Counting
+`$` inside the replacement fragment reads a `$$` display opener as two dollars —
+as EVEN, as "not in math" — so it inserted `$` into two display blocks and KaTeX
+refused them. The question cannot be answered from the fragment; it has to be
+asked of the surrounding document, where `$$` and `$` can be told apart.
+`inside_math(text, pos)` now does that at the anchor's real position.
+
+**Families seen, none chased.** The dense pages are dominated by parts-vs-degrees
+(23 findings), missing exponents (15), and degree-sign misreads (5) — the same
+families that already have a scripted verifier. The workers also, unprompted,
+did the parts/degrees *rate-sampling* that was sitting on the open list: they read
+the pages and confirmed the reading the repair script had declined to make.
+
+**Sixteen candidates skipped** on anchors that no longer match — overlapping batch
+ranges and regions already repaired. Held, not lost.
+
 ### Where delegation is and is not worth spending
 
 Book I is PDF pages 45–87. Two regions inside it have a **structural licence**

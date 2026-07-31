@@ -102,18 +102,77 @@ BARE_WRAPPED = re.compile(
 )
 
 
-def normalise(s: str) -> str:
+# A number carrying a raised unit or an exponent, when it is NOT already inside
+# math delimiters. The scan is delimiter-aware rather than regex-only: counting
+# `$` to the left is the only way to know whether a position is already in math,
+# and a naive pattern would happily wrap something that is.
+RAISED = re.compile(r"[0-9][0-9;,]*(?:\\frac\{[^}]*\}\{[^}]*\})?\^\{?\\mathrm\{[a-z]\}\}?"
+                    r"|[A-Z]{1,3}\^\{?[0-9]\}?")
+
+
+SINGLE_DOLLAR = re.compile(r"(?<!\$)\$(?!\$)")
+
+
+def inside_math(text: str, pos: int) -> bool:
+    """Is `pos` inside a math span in the FILE?
+
+    The replacement string cannot answer this by itself, and assuming it can is
+    how the first attempt broke: counting `$` inside the fragment reads a `$$`
+    display opener as two dollars, i.e. as EVEN, i.e. as "not in math". Two
+    display blocks then had `$` inserted into them and KaTeX refused the lot
+    with "Can't use function '$' in math mode". So the question is asked of the
+    surrounding document, where `$$` and `$` can be told apart.
+    """
+    head = text[:pos]
+    if head.count("$$") % 2 == 1:
+        return True
+    return len(SINGLE_DOLLAR.findall(head)) % 2 == 1
+
+
+def wrap_math(s: str) -> str:
+    """Put `$...$` around raised units and exponents that are outside math.
+
+    Idempotent: a token already inside a `$...$` span within this fragment is
+    left alone, so running this twice cannot produce `$$30^{\\mathrm{p}}$$`.
+    """
+    out, pos = [], 0
+    for m in RAISED.finditer(s):
+        depth = len(SINGLE_DOLLAR.findall(s[:m.start()]))
+        out.append(s[pos:m.start()])
+        out.append(m.group(0) if depth % 2 else f"${m.group(0)}$")
+        pos = m.end()
+    out.append(s[pos:])
+    return "".join(out)
+
+
+def normalise(s: str, in_math: bool = False) -> str:
     """Put replacement text into the corpus's canonical encoding.
 
-    Two rules, both mechanical:
+    Three rules, all mechanical:
       * a zodiac codepoint not already followed by U+FE0E gets one;
-      * a sign written out in words becomes the codepoint plus the selector.
+      * a sign written out in words becomes the codepoint plus the selector;
+      * a raised unit or exponent gets math delimiters around it.
+
+    The third rule is the mirror of the first two. Signs are lifted OUT of the
+    math because Toomer's legend sets them as text; raised units are pushed IN
+    because they are mathematics and KaTeX has to see them. The text already
+    settles the question: 413 existing raised units sit inside `$...$`, and none
+    of them is bare.
+
+    Workers write these bare -- `DE = 30^{\\mathrm{p}}` -- because the brief asks
+    what the page SAYS, not how the corpus spells it. Applying that verbatim put
+    18 new raw backslashes in front of the reader, which `check-raw-latex.js`
+    caught on the pass after. That is the triad earning its place as an
+    independent consumer: corroboration confirmed both runs read the page right,
+    and could not have noticed that the agreed spelling was unrenderable.
 
     Idempotent, so it is safe to run over text that is already correct.
     """
     s = TEXT_WRAPPED.sub(lambda m: BY_NAME[m.group(1).lower()] + VS15 + " $", s)
     s = BARE_WRAPPED.sub(lambda m: BY_NAME[m.group(1).lower()] + VS15 + " ", s)
     s = NAME_TOKEN.sub(lambda m: BY_NAME[m.group(1).lower()], s)
+    if not in_math:
+        s = wrap_math(s)
     out = []
     for i, ch in enumerate(s):
         out.append(ch)
@@ -215,8 +274,8 @@ def main() -> int:
                                  "to identify one"))
             continue
 
-        after = normalise(fix["after"])
         m = hits[0]
+        after = normalise(fix["after"], inside_math(text, m.start(1)))
         if text[m.start(1):m.end(1)] == after:
             skipped.append((fix, "already applied"))
             continue

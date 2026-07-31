@@ -558,7 +558,7 @@ The second, multiple-part motion is encompassed by the first and encompasses the
 
 ## 9. On the individual concepts
 
-Such, then are the necessary preliminary concepts which must be summarily set out in our general introduction. We are now about to begin the individual demonstrations, the first of which, we think, should be to determine the size of the are between the aforementioned poles [of the ecliptic and equator] along the great circle drawn through them. But we see that it is first necessary to explain the method of determining chords: we shall demonstrate the whole topic geometrically once and for all.
+Such, then are the necessary preliminary concepts which must be summarily set out in our general introduction. We are now about to begin the individual demonstrations, the first of which, we think, should be to determine the size of the arc between the aforementioned poles [of the ecliptic and equator] along the great circle drawn through them. But we see that it is first necessary to explain the method of determining chords: we shall demonstrate the whole topic geometrically once and for all.
 
 ## 10. On the size of chords
 
@@ -575,15 +575,15 @@ I say that ZD is the side of the [regular] decagon, and BZ the side of the [regu
 
 $$
 \begin{array}{l}
-\mathrm{GZ.ZD} + \mathrm{ED}^2 = \mathrm{EZ}^2.52 \\
+\mathrm{GZ.ZD} + \mathrm{ED}^2 = \mathrm{EZ}^2. \\
 \text{But } \mathrm{EZ}^2 = \mathrm{BE}^2 \text{ (EB = ZE)}, \\
 \text{and } \mathrm{EB}^2 = \mathrm{ED}^2 + \mathrm{DB}^2. \\
 \therefore \mathrm{GZ.ZD} + \mathrm{ED}^2 = \mathrm{ED}^2 + \mathrm{DB}^2.
 \end{array}
 $$
 
-GZ.ZD = DB (subtracting ED, common).
-GZ.ZD = DG.
+GZ.ZD = $DB^2$ (subtracting ED, common).
+GZ.ZD = $DG^2$.
 
 So ZG has been cut in extreme and mean ratio at D.
 
@@ -593,30 +593,28 @@ Similarly, since the square on the side of the pentagon equals the sums of the s
 
 Since, then, as I said, we set the diameter of the circle as 120 parts, it follows from the above that
 
-DE = 30° (DE half the radius)
-and DE = 900°;
+DE = $30^{\mathrm{p}}$ (DE half the radius)
+and $DE^2$ = $900^{\mathrm{p}}$;
 BD = 60° (BD a radius)
-and BD = 3600°.
-And EZ = EB = 4500°, the sum [of DE and BD]
+and $BD^2$ = $3600^{\mathrm{p}}$.
+And EZ = EB = 4500°, the sum [of $DE^2$ and $BD^2$]
 ∴ EZ ≈ 67;4,55°
 
-and by subtraction [of DE from EZ], DZ = 37;4,55°.
+and by subtraction [of DE from EZ], DZ = $37;4,55^{\mathrm{p}}$.
 
-So the side of the decagon, which subtends 36°, has 37;4,55° where the diameter has 120°.
+So the side of the decagon, which subtends 36°, has $37;4,55^{\mathrm{p}}$ where the diameter has $120^{\mathrm{p}}$.
 
-Again, since DZ = 37;4,55°,
-DZ = 1375;4,15°;
-and DB = 3600°,
-so BZ = DZ + DB = 4975;4,15°.
+Again, since DZ = $37;4,55^{\mathrm{p}}$, $DZ^2$ = $1375;4,15^{\mathrm{p}}$; and $DB^2$ = $3600^{\mathrm{p}}$,
+so BZ = DZ + $DB^2$ = $4975;4,15^{\mathrm{p}}$.
 ∴ BZ ≈ 70;32,3°.
 
-Therefore the side of the pentagon, which subtends 72°, contains 70;32,3° where the diameter has 120°.
+Therefore the side of the pentagon, which subtends 72°, contains $70;32,3^{\mathrm{p}}$ where the diameter has 120°.
 
-It is immediately obvious that the side of the [inscribed] hexagon, which subtends 60° and is equal to the radius, contains 60°.
+It is immediately obvious that the side of the [inscribed] hexagon, which subtends 60° and is equal to the radius, contains $60^{\mathrm{p}}$.
 
-Similarly, since the side of the [inscribed] square, which subtends 90°, is equal, when squared, to twice the square on the radius, and since the side of the [inscribed] triangle, which subtends 120°, is equal, when squared, to three times the square on the radius, and the square on the radius is 3600°, we compute that the square on the side of the square is 7200°
+Similarly, since the side of the [inscribed] square, which subtends 90°, is equal, when squared, to twice the square on the radius, and since the side of the [inscribed] triangle, which subtends 120°, is equal, when squared, to three times the square on the radius, and the square on the radius is $3600^{\mathrm{p}}$, we compute that the square on the side of the square is $7200^{\mathrm{p}}$
 
-and the square on the side of the triangle is 10800°.
+and the square on the side of the triangle is $10800^{\mathrm{p}}$.
 
 $$
 \begin{array}{l}
@@ -626,10 +624,10 @@ $$
 \quad \text{where the diameter is } 120^{\mathrm{p}}.
 $$
 
-We can, then, consider the above chords as established individually by the above straightforward procedures. It will immediately be obvious that if any chord be given, the chord of the supplementary arc is given in a simple fashion, since the sum of their squares equals the square on the diameter. For instance, since the chord of 36° was shown to be 37;4,55°, and the square of this is 1375;4,15°, and the square on the diameter is 14400°, the square on the chord of the supplementary arc (which is 144°) will be the difference, namely 13024;55,45, and so
+We can, then, consider the above chords as established individually by the above straightforward procedures. It will immediately be obvious that if any chord be given, the chord of the supplementary arc is given in a simple fashion, since the sum of their squares equals the square on the diameter. For instance, since the chord of 36° was shown to be $37;4,55^{\mathrm{p}}$, and the square of this is $1375;4,15^{\mathrm{p}}$, and the square on the diameter is $14400^{\mathrm{p}}$, the square on the chord of the supplementary arc (which is 144°) will be the difference, namely 13024;55,45, and so
 
 $$
-\operatorname{Crd} 144^{\circ} \approx 114;7;37^{\mathrm{p}}.
+\operatorname{Crd} 144^{\circ} \approx 114;7,37^{\mathrm{p}}.
 $$
 
 Similarly for the other chords [of the supplements].
@@ -674,7 +672,7 @@ Q.E.D.
 Having established this preliminary theorem, we draw [Fig. 1.3] semi-circle ABGD on diameter AD, and draw from A two chords, AB, AG, each given in size in terms of a diameter of 120°. Join BG.
 
 I say that BG too is given.
-[Proof:] Join BD.GD.
+[Proof:] Join BD,GD.
 
 ![img-4.jpeg](images/img-4.jpeg)
 Fig. 1.3
@@ -741,13 +739,13 @@ triangle ADG || triangle DGZ (both right-angled).
 
 ∴ AG:GD = GD:GZ.
 
-∴ AG:GZ = GD.
+∴ AG:GZ = $GD^2$.
 
-But AG,GZ is given.
+But AG.GZ is given.
 
 Therefore GD is given, and so chord GD, which subtends an arc half of [the arc of the given chord] BG, is also given.
 
-By means of this theorem too a large number of chords will be derived by halving [the arcs of] the previously determined chords, and notably, from the chord of 12⁶, the chords of 6⁶, 3⁶, 1³⁶ and 1⁶. By calculation we find the chord of 1³⁶ to be approximately 1:34,15⁸ where the diameter is 120⁸, and the chord of 1⁶ to be approximately 0:47,8⁸ in the same units.
+By means of this theorem too a large number of chords will be derived by halving [the arcs of] the previously determined chords, and notably, from the chord of 12°, the chords of 6⁶, 3⁶, 1³⁶ and ¾°. By calculation we find the chord of 1½° to be approximately 1:34,15⁸ where the diameter is 120ᵖ, and the chord of ¾° to be approximately 0:47,8⁸ in the same units.
 
 Again, [see Fig. 1.5] let there be a circle ABGD on diameter AD, with centre Z. From A let there be cut off in succession two given arcs, AB, BG. Join the corresponding chords AB, BG; they too will be given.
 
@@ -759,7 +757,7 @@ I say, that if we join AG, that [chord] too will be given.
 
 Therefore, if two arcs and the corresponding chords are given, the chord corresponding to the sum of these two arcs will be given by means of this theorem.
 
-It is obvious that by combining [in this way] the chord of 1¹⁶ with all the chords we have already obtained, and then computing successive chords, we will be able to enter [in the table] all chords [of arcs] which when doubled are divisible by three [i.e. multiples of $1^{\frac{1}{2}}$ ]. Then the only chords remaining to be determined will be those between the $1^{\frac{1}{2}}$ intervals, two in each interval, since our table is made at $\frac{1}{2}$ intervals. If, therefore, we can find the chord of $\frac{1}{2}$ , this will enable us to complete [the table with] all the remaining intermediate chords, by finding the sum or difference [of $\frac{1}{2}$ ] from the given chords at either end of the $[1^{\frac{1}{2}}]$ intervals. Now, if a chord, e.g. the chord of $1^{\frac{1}{2}}$ , is given, the chord corresponding to an arc which is one-third of the previous one cannot be found by geometrical methods. (If this were possible, we should immediately have the chord of $\frac{1}{2}$ ). Therefore we shall first derive the chord of $1^{\circ}$ from those of $1^{\frac{1}{2}}$ and $\frac{3}{4}$ . [We shall do this] by establishing a lemma which, though it cannot in general exactly determine the sizes [of chords], in the case of such very small quantities can determine them with a negligibly small error.
+It is obvious that by combining [in this way] the chord of 1½° with all the chords we have already obtained, and then computing successive chords, we will be able to enter [in the table] all chords [of arcs] which when doubled are divisible by three [i.e. multiples of $1^{\frac{1}{2}}$ ]. Then the only chords remaining to be determined will be those between the $1^{\frac{1}{2}}$ intervals, two in each interval, since our table is made at $\frac{1}{2}^{\circ}$ intervals. If, therefore, we can find the chord of $\frac{1}{2}$ , this will enable us to complete [the table with] all the remaining intermediate chords, by finding the sum or difference [of $\frac{1}{2}$ ] from the given chords at either end of the $[1^{\frac{1}{2}}]$ intervals. Now, if a chord, e.g. the chord of $1^{\frac{1}{2}}$ , is given, the chord corresponding to an arc which is one-third of the previous one cannot be found by geometrical methods. (If this were possible, we should immediately have the chord of $\frac{1}{2}$ ). Therefore we shall first derive the chord of $1^{\circ}$ from those of $1^{\frac{1}{2}}$ and $\frac{3}{4}^{\circ}$ . [We shall do this] by establishing a lemma which, though it cannot in general exactly determine the sizes [of chords], in the case of such very small quantities can determine them with a negligibly small error.
 
 I say, then, that if two unequal chords be given, the ratio of the greater to the lesser is less than the ratio of the arc on the greater to the arc on the lesser.
 
@@ -806,7 +804,7 @@ But GE:EA = GB:BA, and ∠ GDB:∠ BDA = arc GB:arc BA.
 
 ∴ GB:BA < arc GB:arc BA.
 
-Having established this, let us draw [Fig. 1.7] circle ABG, and in it two chords, AB and AG. Let us suppose, first, that AB is the chord of 1°. and AG the chord of 1°. Then, since
+Having established this, let us draw [Fig. 1.7] circle ABG, and in it two chords, AB and AG. Let us suppose, first, that AB is the chord of ¾° and AG the chord of 1°. Then, since
 
 ![img-7.jpeg](images/img-7.jpeg)
 Fig. 1.7
@@ -818,15 +816,15 @@ GA < $\frac{4 \text{ AB}}{3}$
 But, in units of which the diameter contains 120, we showed that
 
 $$
-\mathbf{AB} = 0;47.8^{\circ}.
+\mathbf{AB} = 0;47,8^{p}.
 $$
 
 $$
-\therefore \mathbf{GA} < 1;2,50^{\circ} \text{ (for } 1;2,50 \approx \frac{4}{5}, 0;47.8\text{)}.
+\therefore \mathbf{GA} < 1;2,50^{p} \text{ (for } 1;2,50 \approx \frac{4}{3}\cdot 0;47,8\text{)}.
 $$
 
 $$
-\arc AG = \frac{3 \arc AG}{\frac{2}{2}},
+\arc AG = \frac{3 \arc AB}{2},
 $$
 
 $$
@@ -836,14 +834,14 @@ $$
 But, in units of which the diameter contains 120, we showed that
 
 $$
-\mathbf{AG} = 1;34,15^{\circ}.
+\mathbf{AG} = 1;34,15^{p}.
 $$
 
 $$
-\therefore \mathbf{AB} > 1;2,50^{\circ} \text{ (for } 1;34,15 = \frac{4}{5}, 1;2,50\text{)}.
+\therefore \mathbf{AB} > 1;2,50^{p} \text{ (for } 1;34,15 = \frac{3}{2}\cdot 1;2,50\text{)}.
 $$
 
-Therefore, since the chord of $1^{\circ}$ was shown to be both greater and less than the same amount, we can establish it as approximately $1;2,50^{\circ}$ where the diameter is $120^{\circ}$. By the preceding propositions we can also establish the chord of $\frac{1}{2}^{\circ}$, which we find to be approximately $0;31,25^{\circ}$. The remaining intervals can [now] be completed, as we said [p. 54]. For example, in the first $[1\frac{1}{2}^{\circ}]$ interval, we can calculate the chord of $2^{\circ}$ by using the addition formula for the chord of $\frac{1}{2}^{\circ}$ applied to the chord of $1\frac{1}{2}^{\circ}$, while the chord of $2\frac{1}{2}^{\circ}$ is given by using the difference formula for [the chord of $\frac{1}{2}^{\circ}$] applied to the chord of $3^{\circ}$. Similarly for the remaining chords.
+Therefore, since the chord of $1^{\circ}$ was shown to be both greater and less than the same amount, we can establish it as approximately $1;2,50^{p}$ where the diameter is $120^{p}$. By the preceding propositions we can also establish the chord of $\frac{1}{2}^{\circ}$, which we find to be approximately $0;31,25^{p}$. The remaining intervals can [now] be completed, as we said [p. 54]. For example, in the first $[1\frac{1}{2}^{\circ}]$ interval, we can calculate the chord of $2^{\circ}$ by using the addition formula for the chord of $\frac{1}{2}^{\circ}$ applied to the chord of $1\frac{1}{2}^{\circ}$, while the chord of $2\frac{1}{2}^{\circ}$ is given by using the difference formula for [the chord of $\frac{1}{2}^{\circ}$] applied to the chord of $3^{\circ}$. Similarly for the remaining chords.
 
 Such, then, I think, is the easiest way to undertake the calculation of the chords. But, as I said, in order that we may have the actual amounts of the chords readily available for every occasion, we shall set out tables [for that purpose] below. They will be arranged in sections of 45 lines to achieve a symmetrical appearance. The first column [in each section] will contain the arcs tabulated at intervals of $\frac{1}{2}^{\circ}$, the second the corresponding chords in units of which the diameter contains 120, and the third the thirtieth part of the increment in the chord for each interval. [This last] is so that we may have the average increment corresponding to one minute [of arc], which will not be sensibly different from the true increment [for each minute]. Thus we can easily calculate the amount of the chord corresponding to fractions which fall between the [tabulated] half-degree intervals.
 
@@ -1082,7 +1080,7 @@ We found an even handier way of making this kind of observation by constructing,
 
 and rigid, with one of its faces smooth and accurately squared off. On this we drew a quadrant, using as centre a point near one of the corners, and drew from the centre to the inscribed arc the lines enclosing the right angle forming the quadrant. We divided the arc, as we had [the other instrument], into 90 degrees and subdivisions of those degrees. Next, on that line which was chosen to be perpendicular to the plane of the horizon and towards the south, we fixed two small cylindrical pegs, with their sides at right angles to their bases and exactly circular, machined to be of equal size: one of them we fixed on the centre-point itself, positioning the mid-point of the peg precisely on it, the other at the lower end of the line. Then we set this inscribed face of the plaque up along the meridian line which we had drawn on the foundation-plane, so as to be parallel to the plane of the meridian, and, using a plumb-line suspended between the pegs, set up the line between them precisely at right angles to the plane of the horizon, again correcting any deficiency by adjusting thin supporting elements underneath. In the same way as before, we observed the shadow cast at midday by the peg at the centre. In order to determine its position more accurately, we placed some object on the inscribed arc [where the shadow crossed it]. Marking the mid-point of the shadow, we took that division of the quadrant as indicating the position of the sun on the meridian in the north-south direction.
 
-From observations of this kind, and especially from comparing observations near the actual solstices, which revealed that, over a number of returns [of the sun], the distance from the zenith was in general the same number of degrees of the meridian circle at the [same] solstice, whether summer or winter, we found that the arc between the northernmost and southernmost points, which is the arc between the solstitial points, is always greater than 47₁° and less than 47₄. From this we derive very much the same ratio as Eratosthenes, which Hipparchus also used. For [according to this] the arc between the solstices is approximately 11 parts where the meridian is 83.
+From observations of this kind, and especially from comparing observations near the actual solstices, which revealed that, over a number of returns [of the sun], the distance from the zenith was in general the same number of degrees of the meridian circle at the [same] solstice, whether summer or winter, we found that the arc between the northernmost and southernmost points, which is the arc between the solstitial points, is always greater than 47⅔° and less than 47₄. From this we derive very much the same ratio as Eratosthenes, which Hipparchus also used. For [according to this] the arc between the solstices is approximately 11 parts where the meridian is 83.
 
 From the preceding kind of observation it is easy to derive immediately the latitude of the region in which the observation is made, wherever it is: one takes the point halfway between the two extrema; this point lies on the equator; then one takes the distance between this point and the zenith, which is the same, obviously, as the distance of the poles from the horizon.
 
@@ -1279,19 +1277,19 @@ Crd arc 2ZA:Crd arc 2AB = (Crd arc 2ΘZ:Crd arc 2ΘH). (Crd arc 2HE:Crd arc 2EB)
 ![img-17.jpeg](images/img-17.jpeg)
 Fig. 1.15
 
-But arc 2ZA = 180°, so Crd arc 2ZA = 120°,
+But arc 2ZA = 180°, so Crd arc 2ZA = 120ᵖ,
 and arc 2AB = 47;42,40° (according to the ratio 11:83, with which we agreed [p. 63]).
-so Crd arc 2AB = 48;31,55°.
-Again, arc 2HE = 60°, so Crd arc 2HE = 60°,
-and arc 2EB = 180°, so Crd arc 2EB = 120°.
+so Crd arc 2AB = 48;31,55ᵖ.
+Again, arc 2HE = 60°, so Crd arc 2HE = 60ᵖ,
+and arc 2EB = 180°, so Crd arc 2EB = 120ᵖ.
 ∴ Crd arc 2ZΘ:Crd arc 2ΘH = (120 : 48;31,55)/(60 : 120)
 = 120 : 24;15,57.
 And arc 2ZΘ = 180°, so Crd arc 2ZΘ = 120°.
-∴ Crd arc 2ΘH = 24;15,57°.
+∴ Crd arc 2ΘH = 24;15,57ᵖ.
 ∴ arc 2ΘH = 23;19,59°.
 and arc ΘH ≈ 11;40°.
 Again, let arc EH be taken as 60°. Then the other magnitudes will remain unchanged, but
-arc 2EH = 120°, so Crd arc 2EH = 103;55,23°.
+arc 2EH = 120°, so Crd arc 2EH = 103;55,23ᵖ.
 ∴ Crd arc 2ZΘ:Crd arc 2ΘH = (120 : 48;31,55)/(103;55,23 : 120)
 = 120 : 42;1,48.
 But Crd arc 2ZΘ = 120°.
@@ -1316,9 +1314,9 @@ By the same argument as the preceding, Crd arc 2ZB:Crd arc 2BA =
 
 $$
 \begin{array}{l}
-\text{(Crd arc 2ZH:Crd arc 2HΘ). (Crd arc 2ΘE:Crd arc 2EA). [M.T.II)} \\
+\text{(Crd arc 2ZH:Crd arc 2HΘ). (Crd arc 2ΘE:Crd arc 2EA). [M.T.II]} \\
 \text{But arc 2ZB} = 132;17,20^\circ, \\
-\text{so Crd arc 2ZB} = 109;44,53^\circ.
+\text{so Crd arc 2ZB} = 109;44,53^{\mathrm{p}}.
 \end{array}
 $$
 

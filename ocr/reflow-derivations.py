@@ -124,10 +124,19 @@ def classify(paragraph: str):
 # own line followed directly by `$$` blocks with no blank line between. That is
 # the shape reproduced here.
 #
-# A trailing bracketed citation stays OUTSIDE the display, which is the corpus
-# convention -- 106 `[Prop. N]` citations in Apollonius and not one of them
-# inside a `$$` block.
+# A trailing citation moves INSIDE the display, set as `\quad [\text{Prop. N}]`.
+# That is the corpus convention and it was nearly got wrong: searching for
+# `[Prop` inside `$$` returns zero, which looks like proof that citations belong
+# outside. They are written `[\text{Prop. 14}]`, so the probe missed all 15 of
+# them and the first apply produced ten orphaned `[Prop. 14]` lines stranded
+# between two display blocks. The lesson is the recurring one -- a probe that
+# finds nothing has to be checked against a case known to exist before its zero
+# is believed.
+#
+# Only prose citations are converted. A bracket holding mathematics, such as
+# `[= e^2 \cdot NN'^2]`, is left for review rather than wrapped in \text{}.
 P1B_RE = re.compile(r"^\$(?!\$)([^$]+)\$\s*([.,;:!?]?)\s*(\[[^\]]*\])?\s*$")
+PROSE_CITE_RE = re.compile(r"^\[((?:Props?\.|Prop\b|Def\.|Lemma|cf\.)[^\]]*)\]$")
 
 
 def classify_multiline(paragraph: str):
@@ -157,9 +166,14 @@ def rewrite(kind, payload):
                 out.append(line)
                 continue
             formula, punct, cite = m.group(1).strip(), m.group(2), m.group(3)
-            out.append(f"$$\n{formula}{punct}\n$$")
+            tail = ""
             if cite:
-                out.append(cite)
+                prose = PROSE_CITE_RE.match(cite)
+                if not prose:
+                    out.append(line)      # bracketed maths — leave for review
+                    continue
+                tail = f" \\quad [\\text{{{prose.group(1)}}}]"
+            out.append(f"$$\n{formula}{punct}{tail}\n$$")
         return "\n".join(out)
     if kind == "p1":
         formula, punct = payload

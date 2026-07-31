@@ -1076,16 +1076,28 @@ $$
 ---
 
 (2) Since $CV: CP = CP: CT$,
-$CV \sim CP: CV = CP \sim CT: CP$,
+$$
+CV \sim CP: CV = CP \sim CT: CP,
+$$
 whence
-$PV: CV = PT: CP$,
+$$
+PV: CV = PT: CP,
+$$
 or
-$PV: PT = CV: CP$.
-$\therefore PV: PV + PT = CV: CV + CP$,
+$$
+PV: PT = CV: CP.
+$$
+$$
+\therefore PV: PV + PT = CV: CV + CP,
+$$
 or
-$PV: VT = CV: P'V$,
+$$
+PV: VT = CV: P'V,
+$$
 and
-$CV \cdot VT = PV \cdot P'V$.
+$$
+CV \cdot VT = PV \cdot P'V.
+$$
 
 But
 $QV^2: PV \cdot P'V = p: PP'$ (or $CD^2: CP^2$). [Prop. 8]
@@ -1112,23 +1124,37 @@ QV^2: CV \cdot VT = CD^2: CP^2. \quad [\text{Prop. 14}]
 $$
 
 But
-$QV: CV = Cv: CV$,
+$$
+QV: CV = Cv: CV,
+$$
 and
-$QV: VT = Ct: CT$;
-$\therefore QV^2: CV \cdot VT = Cv \cdot Ct: CV \cdot CT$.
+$$
+QV: VT = Ct: CT;
+$$
+$$
+\therefore QV^2: CV \cdot VT = Cv \cdot Ct: CV \cdot CT.
+$$
 
 Hence
-$Cv \cdot Ct: CV \cdot CT = CD^2: CP^2$.
+$$
+Cv \cdot Ct: CV \cdot CT = CD^2: CP^2.
+$$
 
 And
-$CV \cdot CT = CP^2$; [Prop. 14]
-$\therefore Cv \cdot Ct = CD^2$.
+$$
+CV \cdot CT = CP^2; \quad [\text{Prop. 14}]
+$$
+$$
+\therefore Cv \cdot Ct = CD^2.
+$$
 
 (2) As before,
 $QV^2: CV \cdot VT = CD^2: CP^2$ (or $p: PP'$).
 
 But
-$QV: CV = Cv: Qv$,
+$$
+QV: CV = Cv: Qv,
+$$
 
 ---
 
@@ -1431,11 +1457,17 @@ and the triangles $QvC$, $Qvt$ are the halves of equiangular parallelograms on $
 
 Therefore [by Prop. 16], $\triangle CQv = \triangle Qvt \sim \triangle CPK$,
 and clearly
-$\triangle CQv = \triangle Qvt \sim \triangle CQt;$
-$\therefore \triangle CPK = \triangle CQt.$
+$$
+\triangle CQv = \triangle Qvt \sim \triangle CQt;
+$$
+$$
+\therefore \triangle CPK = \triangle CQt.
+$$
 
 Again, the triangle $Cfw$ is similar to the triangle $CQv$, and the triangle $Rwu$ to the triangle $Qvt$. Therefore, for the ordinate $RW$,
-$\triangle Cfw = \triangle Ruw \sim \triangle CPK = \triangle Ruw \sim \triangle CQt.$
+$$
+\triangle Cfw = \triangle Ruw \sim \triangle CPK = \triangle Ruw \sim \triangle CQt.
+$$
 
 ## Proposition 20.
 
@@ -1446,15 +1478,23 @@ In a parabola the straight line drawn through any point parallel to the diameter
 Let $RR'$ be any chord parallel to the tangent at $Q$ and let it meet the diameter $PV$ in $U$. Let $QM$ drawn parallel to $PV$ meet $RR'$ in $M$, and the straight lines drawn ordinate-wise through $R, R', P$ in $F, F', E$ respectively.
 
 We have then [Prop. 17]
-$\triangle RUW = \square EW,$
+$$
+\triangle RUW = \square EW,
+$$
 and
-$\triangle R'UW' = \square EW'$.
+$$
+\triangle R'UW' = \square EW'.
+$$
 
 Therefore, by subtraction, the figure $RWW'R' = \square F'W$. Take away the common part $R'W'WFM$, and we have
-$\triangle RMF = \triangle R'MF'$.
+$$
+\triangle RMF = \triangle R'MF'.
+$$
 
 And $R'F'$ is parallel to $RF$;
-$\therefore RM = MR'$.
+$$
+\therefore RM = MR'.
+$$
 
 ![img-34.jpeg](images/img-34.jpeg)
 
@@ -10990,3 +11030,4 @@ and $PP'^2 \sim p^2$ increases as $P$ moves nearer to $B$, being a *maximum* whe
 ![img-203.jpeg](images/img-203.jpeg)
 
 CAMBRIDGE : PRINTED BY J. AND C. F. CLAY, AT THE UNIVERSITY PRESS.
+

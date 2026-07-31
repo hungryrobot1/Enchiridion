@@ -165,8 +165,8 @@ Therefore, as before, there will be equilibrium.
 Thus
 $$
 \begin{aligned}
-P : \triangle BCD &amp;= OE : AO \\
-&amp;= 1 : 3,
+P : \triangle BCD &= OE : AO \\
+&= 1 : 3,
 \end{aligned}
 $$
 
@@ -186,7 +186,7 @@ $$
 Then, if an area $P$ suspended from $A$ keep the system in equilibrium,
 
 $$
-P &lt; \triangle BCD \text{ but } &gt; Q.
+P < \triangle BCD \text{ but } > Q.
 $$
 
 Take $G$ the centre of gravity of the triangle $BCD$, and draw $GH$ parallel to $DC$, i.e. vertically, meeting $BO$ in $H$.
@@ -202,7 +202,7 @@ $$
 whence
 
 $$
-P &lt; \triangle BCD.
+P < \triangle BCD.
 $$
 
 Also
@@ -214,13 +214,13 @@ $$
 Therefore, by (1),
 
 $$
-\triangle BCD : Q &gt; \triangle BCD : P,
+\triangle BCD : Q > \triangle BCD : P,
 $$
 
 and
 
 $$
-P &gt; Q.
+P > Q.
 $$
 
 ## Propositions 10, 11.
@@ -234,7 +234,7 @@ $$
 Then, if $P$ be the area which, when suspended from $A$, keeps the system in equilibrium,
 
 $$
-P &lt; Q.
+P < Q.
 $$
 
 The same is true in the particular case where the angles at $C$, $F$ are right, and consequently $C$, $F$ coincide with $O$, $H$ respectively.
@@ -263,10 +263,10 @@ $$
 AO : OH = (\text{trapezium } CDEF) : Q.
 $$
 
-Since $OK &lt; OH$, it follows that
+Since $OK < OH$, it follows that
 
 $$
-P &lt; Q.
+P < Q.
 $$
 
 ## Propositions 12, 13.
@@ -285,7 +285,7 @@ $$
 
 If then an area $P$ suspended from $A$ keep the system in equilibrium,
 
-$$P &gt; R \text{ but } &lt; Q.$$
+$$P > R \text{ but } < Q.$$
 
 Take the centre of gravity $G$ of the trapezium, as in the last propositions, and let the line through $G$ parallel to $DC$ meet $OB$ in $K$.
 
@@ -299,9 +299,9 @@ Hence
 
 $$
 \begin{array}{rl}
-&amp; \text{(trapezium } CDEF: P &gt; \text{(trapezium } CDEF): Q, \\
-&amp; \text{but} \quad &lt; \text{(trapezium } CDEF): R. \\
-&amp; \text{It follows that} \quad &amp; P &lt; Q \text{ but } &gt; R.
+& \text{(trapezium } CDEF: P > \text{(trapezium } CDEF): Q, \\
+& \text{but} \quad < \text{(trapezium } CDEF): R. \\
+& \text{It follows that} \quad & P < Q \text{ but } > R.
 \end{array}
 $$
 
@@ -315,8 +315,8 @@ Let the diameters $Eq, E_1O_1, \ldots, E_nO_n$ meet a straight line $QOA$ drawn 
 
 It is required to prove that
 
-(1) $\triangle EqQ &lt; 3$ (sum of trapezia $FO_1, F_1O_2, \ldots, F_{n-1}O_n$ and $\triangle E_nO_nQ$),
-(2) $\triangle EqQ &gt; 3$ (sum of trapezia $R_1O_2, R_2O_3, \ldots, R_{n-1}O_n$ and $\triangle R_nO_nQ$).
+(1) $\triangle EqQ < 3$ (sum of trapezia $FO_1, F_1O_2, \ldots, F_{n-1}O_n$ and $\triangle E_nO_nQ$),
+(2) $\triangle EqQ > 3$ (sum of trapezia $R_1O_2, R_2O_3, \ldots, R_{n-1}O_n$ and $\triangle R_nO_nQ$).
 
 ![img-123.jpeg](images/img-123.jpeg)
 
@@ -331,45 +331,45 @@ $$
 Again
 $$
 \begin{aligned}
-AO : OH_1 &amp;= QO : OH_1 \\
-&amp;= Qq : qO_1 \\
-&amp;= E_1O_1 : O_1R_1 \text{ [by means of Prop. 5]} \\
-&amp;= (\text{trapezium } EO_1) : (\text{trapezium } FO_1);
+AO : OH_1 &= QO : OH_1 \\
+&= Qq : qO_1 \\
+&= E_1O_1 : O_1R_1 \text{ [by means of Prop. 5]} \\
+&= (\text{trapezium } EO_1) : (\text{trapezium } FO_1);
 \end{aligned}
 $$
 
 whence [Props. 10, 11]
 
 $$
-(FO_1) &gt; P_1.
+(FO_1) > P_1.
 $$
 
 Next
 $$
 \begin{aligned}
-AO : OH_1 &amp;= E_1O_1 : O_1R_1 \\
-&amp;= (E_1O_2) : (R_1O_2) \quad \text{...(α),}
+AO : OH_1 &= E_1O_1 : O_1R_1 \\
+&= (E_1O_2) : (R_1O_2) \quad \text{...(α),}
 \end{aligned}
 $$
 
 while
 $$
 \begin{aligned}
-AO : OH_2 &amp;= E_2O_2 : O_2R_2 \\
-&amp;= (E_2O_2) : (F_1O_2) \quad \text{...(β)};
+AO : OH_2 &= E_2O_2 : O_2R_2 \\
+&= (E_2O_2) : (F_1O_2) \quad \text{...(β)};
 \end{aligned}
 $$
 
 and, since $(\alpha)$ and $(\beta)$ are simultaneously true, we have, by Props. 12, 13,
 
 $$
-(F_1O_2) &gt; P_2 &gt; (R_1O_2).
+(F_1O_2) > P_2 > (R_1O_2).
 $$
 
 Similarly it may be proved that
 
 $$
-(F_2O_2) &gt; P_3 &gt; (R_2O_3),
+(F_2O_2) > P_3 > (R_2O_3),
 $$
 
 and so on.
@@ -377,34 +377,34 @@ and so on.
 Lastly [Props. 8, 9]
 
 $$
-\triangle E_n O_n Q &gt; P_{n+1} &gt; \triangle R_n O_n Q.
+\triangle E_n O_n Q > P_{n+1} > \triangle R_n O_n Q.
 $$
 
 By addition, we obtain
 
-(1) $(FO_1) + (F_1O_2) + \ldots + (F_{n-1}O_n) + \triangle E_n O_n Q &gt; P_1 + P_2 + \ldots + P_{n+1}$
+(1) $(FO_1) + (F_1O_2) + \ldots + (F_{n-1}O_n) + \triangle E_n O_n Q > P_1 + P_2 + \ldots + P_{n+1}$
 
 $$
-&gt; \frac{1}{8} \triangle EqQ,
+> \frac{1}{8} \triangle EqQ,
 $$
 
 or
 $$
-\triangle EqQ &lt; 3 \quad (FO_1 + F_1O_2 + \ldots + F_{n-1}O_n + \triangle E_n O_n Q).
+\triangle EqQ < 3 \quad (FO_1 + F_1O_2 + \ldots + F_{n-1}O_n + \triangle E_n O_n Q).
 $$
 
-(2) $(R_1O_2) + (R_2O_3) + \ldots + (R_{n-1}O_n) + \triangle R_n O_n Q &lt; P_2 + P_3 + \ldots + P_{n+1}$
+(2) $(R_1O_2) + (R_2O_3) + \ldots + (R_{n-1}O_n) + \triangle R_n O_n Q < P_2 + P_3 + \ldots + P_{n+1}$
 
 $$
 \begin{aligned}
-&amp;&lt; P_1 + P_2 + \ldots + P_{n+1}, \text{ a fortiori,} \\
-&amp;&lt; \frac{1}{8} \triangle EqQ,
+&< P_1 + P_2 + \ldots + P_{n+1}, \text{ a fortiori,} \\
+&< \frac{1}{8} \triangle EqQ,
 \end{aligned}
 $$
 
 or
 $$
-\triangle EqQ &gt; 3 \quad (R_1O_2 + R_2O_3 + \ldots + R_{n-1}O_n + \triangle R_n O_n Q).
+\triangle EqQ > 3 \quad (R_1O_2 + R_2O_3 + \ldots + R_{n-1}O_n + \triangle R_n O_n Q).
 $$
 
 ## Proposition 16.
@@ -434,13 +434,13 @@ Let $O_3R_3$ meet $QR_2$ in $D_2$ and $QR_4$ in $F_3$, and so on.
 We have, by hypothesis,
 
 $$
-\triangle FqQ &lt; (\text{area of segment}) - \frac{1}{3} \triangle EqQ,
+\triangle FqQ < (\text{area of segment}) - \frac{1}{3} \triangle EqQ,
 $$
 
 or
 
 $$
-(\text{area of segment}) - \triangle FqQ &gt; \frac{1}{3} \triangle EqQ \quad \dots \dots \dots (\alpha).
+(\text{area of segment}) - \triangle FqQ > \frac{1}{3} \triangle EqQ \quad \dots \dots \dots (\alpha).
 $$
 
 Now, since all the parts of $qE$, as $qF$ and the rest, are equal, $O_1R_1 = R_1F_1$, $O_2D_1 = D_1R_2 = R_2F_2$, and so on; therefore
@@ -455,14 +455,14 @@ $$
 But
 
 $$
-\text{(area of segment)} &lt; (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
+\text{(area of segment)} < (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
 $$
 
 Subtracting, we have
 
 $$
 \begin{array}{l}
-\text{(area of segment)} - \triangle FqQ &lt; (R_1O_2 + R_2O_3 + \dots \\
+\text{(area of segment)} - \triangle FqQ < (R_1O_2 + R_2O_3 + \dots \\
 + R_{n-1}O_n + \triangle R_nO_nQ),
 \end{array}
 $$
@@ -470,13 +470,13 @@ $$
 whence, *a fortiori*, by $(\alpha)$,
 
 $$
-\frac{1}{3}\triangle EqQ &lt; (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
+\frac{1}{3}\triangle EqQ < (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
 $$
 
 But this is impossible, since [Props. 14, 15]
 
 $$
-\frac{1}{3}\triangle EqQ &gt; (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
+\frac{1}{3}\triangle EqQ > (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
 $$
 
 Therefore
@@ -489,12 +489,12 @@ II. If possible, suppose the area of the segment less than $\frac{1}{3}\triangle
 
 Take a submultiple of the triangle $EqQ$, as the triangle $FqQ$, less than the excess of $\frac{1}{3}\triangle EqQ$ over the area of the segment, and make the same construction as before.
 
-Since $\triangle FqQ &lt; \frac{1}{3}\triangle EqQ - \text{(area of segment)}$, it follows that
+Since $\triangle FqQ < \frac{1}{3}\triangle EqQ - \text{(area of segment)}$, it follows that
 
 $$
 \begin{array}{l}
-\triangle FqQ + \text{(area of segment)} &lt; \frac{1}{3}\triangle EqQ \\
-&lt; (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
+\triangle FqQ + \text{(area of segment)} < \frac{1}{3}\triangle EqQ \\
+< (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
 \end{array}
 $$
 
@@ -504,8 +504,8 @@ Subtracting from each side the area of the segment, we have
 
 $$
 \begin{array}{l}
-\triangle FqQ &lt; \text{(sum of spaces } qFR_1, R_1F_1R_2, \dots E_nR_nQ) \\
-&lt; (FO_1 + F_1D_1 + \dots + F_{n-1}D_{n-1} + \triangle E_nR_nQ), \text{ a fortiori};
+\triangle FqQ < \text{(sum of spaces } qFR_1, R_1F_1R_2, \dots E_nR_nQ) \\
+< (FO_1 + F_1D_1 + \dots + F_{n-1}D_{n-1} + \triangle E_nR_nQ), \text{ a fortiori};
 \end{array}
 $$
 
@@ -672,7 +672,7 @@ $$ \Delta PQq = 8\Delta Prq. $$
 
 If there be a series of areas $A, B, C, D, \ldots$ each of which is four times the next in order, and if the largest, $A$, be equal to the triangle $PQq$ inscribed in a parabolic segment $PQq$ and having the same base with it and equal height, then
 
-$$ (A + B + C + D + \ldots) &lt; \text{(area of segment } PQq\text{)}. $$
+$$ (A + B + C + D + \ldots) < \text{(area of segment } PQq\text{)}. $$
 
 For, since $\Delta PQq = 8\Delta PRQ = 8\Delta Pqr$, where $R, r$ are the vertices of the segments cut off by $PQ, Pq$, as in the last proposition,
 
@@ -775,7 +775,7 @@ If then we inscribe in the segments cut off by $PQ$, $Pq$ triangles which have t
 Therefore the polygon so formed must be greater than the area $K$; which is impossible, since [Prop. 23]
 
 $$
-A + B + C + \dots + Z &lt; \frac{4}{3} A,
+A + B + C + \dots + Z < \frac{4}{3} A,
 $$
 
 where
@@ -800,7 +800,7 @@ $$
 Now, since $K$ exceeds $A + B + C + \ldots + X$ by an area less than $X$, and the area of the segment by an area greater than $X$, it follows that
 
 $$
-A + B + C + \dots + X &gt; \text{(the segment)};
+A + B + C + \dots + X > \text{(the segment)};
 $$
 
 which is impossible, by Prop. 22 above.

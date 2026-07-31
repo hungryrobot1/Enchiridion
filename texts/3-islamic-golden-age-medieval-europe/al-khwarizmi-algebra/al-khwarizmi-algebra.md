@@ -58,8 +58,8 @@ LONDON:
 PRINTED FOR THE ORIENTAL TRANSLATION FUND:
 AND SOLD BY
 J. MURRAY, ALBEMARLE STREET;
-PARBURY, ALLEN, &amp; CO., LEADENHALL STREET;
-THACKER &amp; CO., CALCUTTA; TREUTTEL &amp; WUERTZ, PARIS;
+PARBURY, ALLEN, & CO., LEADENHALL STREET;
+THACKER & CO., CALCUTTA; TREUTTEL & WUERTZ, PARIS;
 AND E. FLEISCHER, LEIPZIG.
 
 1831.
@@ -116,7 +116,7 @@ states, in two distinct passages, that its author, MOHAMMED BEN MUSA, was the fi
 
 From the manner in which our author, in his preface, speaks of the task he had undertaken, we cannot infer that he claimed to be the inventor. He says that the Caliph Al Mamun encouraged him to write a *popular* work on Algebra: an expression which would seem to imply that other treatises were then already extant. From a formula for finding the circumference of the circle, which occurs in the work itself (Text p. 51, Transl. p. 72), I have, in a note, drawn the conclusion, that part of the information comprised in this volume was derived from an Indian source; a conjecture which is supported by the direct assertion of the author of the *Bibliotheca Philosophorum* quoted by Casiri (1.426, 428). That Mohammed ben Musa was conversant with Hindu science, is further evident from the fact* that he abridged, at Al Mamun’s request—but before the accession of that prince to the caliphat—the *Sindhind*, or
 
-* Related by Ebn Al Adami in the preface to his astronomical tables. Casiri, 1. 427, 428. Colerrooke, Dissertation, &amp;c. p. lxiv. lxxii.
+* Related by Ebn Al Adami in the preface to his astronomical tables. Casiri, 1. 427, 428. Colerrooke, Dissertation, &c. p. lxiv. lxxii.
 
 ---
 
@@ -128,7 +128,7 @@ The science as taught by MOHAMMED BEN MUSA, in the treatise now before us, does 
 
 * See DIOPHANTUS, Introd. § ii. and Book iv. problems 32 and 33.
 † Lilavati, p. 29, Vijaganita, p. 347, of Mr. COLEBROOKE’s translation.
-‡ CASIRI Bibl. Arab. Escur. i. 433. COLEBROOKE’s Dissertation, &amp;c. p. lxxii.
+‡ CASIRI Bibl. Arab. Escur. i. 433. COLEBROOKE’s Dissertation, &c. p. lxxii.
 
 b
 
@@ -246,7 +246,7 @@ When I considered what people generally want in calculating, I found that it alw
 
 I also observed that every number is composed of units, and that any number may be divided into units.
 
-Moreover, I found that every number, which may be expressed from one to ten, surpasses the preceding by one unit: afterwards the ten is doubled or tripled, just as before the units were: thus arise twenty, thirty, &amp;c., until a hundred; then the hundred is doubled and tripled in the same manner as the units and the tens, up to a thousand; then the thousand can be thus repeated at any complex number; and so forth to the utmost limit of numeration.
+Moreover, I found that every number, which may be expressed from one to ten, surpasses the preceding by one unit: afterwards the ten is doubled or tripled, just as before the units were: thus arise twenty, thirty, &c., until a hundred; then the hundred is doubled and tripled in the same manner as the units and the tens, up to a thousand; then the thousand can be thus repeated at any complex number; and so forth to the utmost limit of numeration.
 
 I observed that the numbers which are required in calculating by Completion and Reduction are of three kinds, namely, roots, squares, and simple numbers relative to neither root nor square.
 
@@ -319,9 +319,9 @@ Example $x^2 + 10x = 39$
 
 $$
 \begin{aligned}
-x &amp;= \sqrt{\left[ \left( \frac{1}{2} \right)^2 + 39 \right]} - \frac{1 \cdot 0}{2} \\
-&amp;= \sqrt{64} - 5 \\
-&amp;= 8 - 5 = 3
+x &= \sqrt{\left[ \left( \frac{1}{2} \right)^2 + 39 \right]} - \frac{1 \cdot 0}{2} \\
+&= \sqrt{64} - 5 \\
+&= 8 - 5 = 3
 \end{aligned}
 $$
 
@@ -405,11 +405,11 @@ Example $x^{2} = 3x + 4$
 
 $$
 \begin{aligned}
-x^{2} &amp;= \sqrt{\left[\left(\frac{3}{2}\right)^{2} + 4\right]} + \frac{3}{2} \\
-&amp;= \sqrt{\left(1\frac{1}{4}\right)^{2} + 4} + 1\frac{1}{2} \\
-&amp;= \sqrt{2\frac{1}{4} + 4} + 1\frac{1}{2} \\
-&amp;= \sqrt{6\frac{1}{4}} + 1\frac{1}{2} \\
-&amp;= 2\frac{1}{2} + 1\frac{1}{2} = 4
+x^{2} &= \sqrt{\left[\left(\frac{3}{2}\right)^{2} + 4\right]} + \frac{3}{2} \\
+&= \sqrt{\left(1\frac{1}{4}\right)^{2} + 4} + 1\frac{1}{2} \\
+&= \sqrt{2\frac{1}{4} + 4} + 1\frac{1}{2} \\
+&= \sqrt{6\frac{1}{4}} + 1\frac{1}{2} \\
+&= 2\frac{1}{2} + 1\frac{1}{2} = 4
 \end{aligned}
 $$
 
@@ -541,10 +541,10 @@ But if the instance is “ ten less one, to be multiplied by ten less one,”‡
 
 $$
 \begin{align*}
-&amp; +a \times +b = +ab \\
-&amp; -a \times -b = +ab \\
-&amp; +a \times -b = -ab \\
-&amp; -a \times +b = -ab
+& +a \times +b = +ab \\
+& -a \times -b = +ab \\
+& +a \times -b = -ab \\
+& -a \times +b = -ab
 \end{align*}
 $$
 
@@ -609,10 +609,10 @@ In like manner if the following question be proposed to you: “one dirhem minus
 
 $$
 \begin{aligned}
-&amp;* (10 + x) \times 10 = 10 \times 10 + 10x = 100 + 10x \\
-&amp; \dagger (10 + x) (10 + x) = 10 \times 10 + 10x + 10x + x^2 = 100 + 20x + x^2 \\
-&amp; \ddagger (10 - x) \times (10 - x) = 10 \times 10 - 10x - 10x + x^2 = 100 - 20x + x^2 \\
-&amp; \S (1 - \frac{1}{6}) \times (1 - \frac{1}{6}) = 1 - \frac{1}{3} + \frac{1}{6} \times \frac{1}{6} = \frac{2}{3} + \frac{1}{6} \times \frac{1}{6}; \quad i.e. \quad \frac{\pi 5}{36} = \frac{2}{3} + \frac{1}{6} \times \frac{1}{6}
+&* (10 + x) \times 10 = 10 \times 10 + 10x = 100 + 10x \\
+& \dagger (10 + x) (10 + x) = 10 \times 10 + 10x + 10x + x^2 = 100 + 20x + x^2 \\
+& \ddagger (10 - x) \times (10 - x) = 10 \times 10 - 10x - 10x + x^2 = 100 - 20x + x^2 \\
+& \S (1 - \frac{1}{6}) \times (1 - \frac{1}{6}) = 1 - \frac{1}{3} + \frac{1}{6} \times \frac{1}{6} = \frac{2}{3} + \frac{1}{6} \times \frac{1}{6}; \quad i.e. \quad \frac{\pi 5}{36} = \frac{2}{3} + \frac{1}{6} \times \frac{1}{6}
 \end{aligned}
 $$
 
@@ -741,11 +741,11 @@ If you require to multiply twice the root of nine by
 
 $$
 \begin{aligned}
-&amp; * \frac{2\sqrt{9}}{\sqrt{4}} = \sqrt{\frac{3}{4}} = \sqrt{9} = 3 \\
-&amp; \dagger \frac{m\sqrt{p^2}}{\sqrt{q^2}} = \sqrt{\frac{m^2p^2}{q^2}} \\
-&amp; \ddagger \sqrt{4} \times \sqrt{9} = \sqrt{4 \times 9} = \sqrt{36} = 6 \\
-&amp; \S \sqrt{10} \times \sqrt{5} = \sqrt{5 \times 10} = \sqrt{50} \\
-&amp; \parallel \sqrt{\frac{1}{2}} \times \sqrt{\frac{1}{3}} = \sqrt{\frac{1}{2} \times \frac{1}{3}} = \sqrt{\frac{1}{6}}
+& * \frac{2\sqrt{9}}{\sqrt{4}} = \sqrt{\frac{3}{4}} = \sqrt{9} = 3 \\
+& \dagger \frac{m\sqrt{p^2}}{\sqrt{q^2}} = \sqrt{\frac{m^2p^2}{q^2}} \\
+& \ddagger \sqrt{4} \times \sqrt{9} = \sqrt{4 \times 9} = \sqrt{36} = 6 \\
+& \S \sqrt{10} \times \sqrt{5} = \sqrt{5 \times 10} = \sqrt{50} \\
+& \parallel \sqrt{\frac{1}{2}} \times \sqrt{\frac{1}{3}} = \sqrt{\frac{1}{2} \times \frac{1}{3}} = \sqrt{\frac{1}{6}}
 \end{aligned}
 $$
 
@@ -1030,10 +1030,10 @@ If some one say: “I have purchased two measures of wheat or barley, each of th
 
 $$
 \begin{aligned}
-&amp;* (10 - x)^2 = 81x \\
-&amp;100 - 20x + x^2 = 81x \\
-&amp;x^2 + 100 = 101x \\
-&amp;x = \frac{101}{2} - \sqrt{\frac{101^2}{4} - 100} = 50\frac{1}{2} - 49\frac{1}{2} = 1
+&* (10 - x)^2 = 81x \\
+&100 - 20x + x^2 = 81x \\
+&x^2 + 100 = 101x \\
+&x = \frac{101}{2} - \sqrt{\frac{101^2}{4} - 100} = 50\frac{1}{2} - 49\frac{1}{2} = 1
 \end{aligned}
 $$
 
@@ -1063,9 +1063,9 @@ If he say: “There are two numbers,* the difference of which is two dirhems. I 
 
 $$
 \begin{aligned}
-&amp;\uparrow \frac{x}{x + 2} = \frac{1}{2} \\
-&amp;x = \frac{x + 2}{2} = \frac{x}{2} + 1 \\
-&amp;\frac{x}{2} = 1 \text{ and } x + 2 = 4
+&\uparrow \frac{x}{x + 2} = \frac{1}{2} \\
+&x = \frac{x + 2}{2} = \frac{x}{2} + 1 \\
+&\frac{x}{2} = 1 \text{ and } x + 2 = 4
 \end{aligned}
 $$
 
@@ -1083,12 +1083,12 @@ In like manner, if he say: “I have divided ten into two parts; I have multipli
 
 $$
 \begin{aligned}
-&amp;\dagger \ 10x = (10 - x)^2 = 100 - 20x + x^2 \\
-&amp;x = 15 - \sqrt{225 - 100} = 15 - \sqrt{125} \\
-&amp;\ddagger \ \frac{x(10 - x)}{10 - 2x} = 5\frac{1}{4} \\
-&amp;10x - x^2 = 52\frac{1}{2} - 10\frac{1}{2}x \\
-&amp;20\frac{1}{2}x = x^2 + 52\frac{1}{2} \\
-&amp;x = 10\frac{1}{4} - 7\frac{1}{4} = 3
+&\dagger \ 10x = (10 - x)^2 = 100 - 20x + x^2 \\
+&x = 15 - \sqrt{225 - 100} = 15 - \sqrt{125} \\
+&\ddagger \ \frac{x(10 - x)}{10 - 2x} = 5\frac{1}{4} \\
+&10x - x^2 = 52\frac{1}{2} - 10\frac{1}{2}x \\
+&20\frac{1}{2}x = x^2 + 52\frac{1}{2} \\
+&x = 10\frac{1}{4} - 7\frac{1}{4} = 3
 \end{aligned}
 $$
 
@@ -1102,11 +1102,11 @@ present you divide this by the difference between the two parts, which is ten le
 
 $$
 \begin{align*}
-&amp;* \frac{2}{3} \times \frac{1}{3}x^2 = \frac{x}{7} \\
-&amp;x^2 = 7\frac{1}{2} \times \frac{x}{7} = 1\frac{1}{14}x \\
-&amp;x = 1\frac{1}{14} \\
-&amp;x^2 = 1\frac{20}{196} \\
-&amp;7\frac{1}{5}x^2 = \frac{30}{196} \times \frac{x}{7}
+&* \frac{2}{3} \times \frac{1}{3}x^2 = \frac{x}{7} \\
+&x^2 = 7\frac{1}{2} \times \frac{x}{7} = 1\frac{1}{14}x \\
+&x = 1\frac{1}{14} \\
+&x^2 = 1\frac{20}{196} \\
+&7\frac{1}{5}x^2 = \frac{30}{196} \times \frac{x}{7}
 \end{align*}
 $$
 
@@ -1235,10 +1235,10 @@ If the instance be: “A dirhem and a half to be divided among one person and ce
 
 $$
 \begin{aligned}
-&amp; \frac{1\frac{1}{2}}{1+x} = 2x \\
-&amp; x^2 + x = \frac{3}{4} \\
-&amp; x = 1 - \frac{1}{2} \\
-&amp; x = \frac{1}{3}
+& \frac{1\frac{1}{2}}{1+x} = 2x \\
+& x^2 + x = \frac{3}{4} \\
+& x = 1 - \frac{1}{2} \\
+& x = \frac{1}{3}
 \end{aligned}
 $$
 
@@ -1305,10 +1305,10 @@ Instance: “You divide one dirhem amongst a certain number of men, which number
 
 $$
 \begin{align*}
-&amp; \frac{x}{x + 2} = \frac{1}{2} \\
-&amp; \frac{1}{2}x + 1 = x \\
-&amp; \frac{1}{2}x = 1 \\
-&amp; x = 2, \, x + 2 = 4
+& \frac{x}{x + 2} = \frac{1}{2} \\
+& \frac{1}{2}x + 1 = x \\
+& \frac{1}{2}x = 1 \\
+& x = 2, \, x + 2 = 4
 \end{align*}
 $$
 
@@ -1316,10 +1316,10 @@ $$
 
 $$
 \begin{align*}
-&amp; \frac{1}{x} - \frac{1}{x + 1} = \frac{1}{6} \\
-&amp; 1 = \frac{x(x + 1)}{6} \\
-&amp; x^2 + x = 6 \\
-&amp; \sqrt{[\frac{1}{2}]^2 + 6} - \frac{1}{2} = x = 2
+& \frac{1}{x} - \frac{1}{x + 1} = \frac{1}{6} \\
+& 1 = \frac{x(x + 1)}{6} \\
+& x^2 + x = 6 \\
+& \sqrt{[\frac{1}{2}]^2 + 6} - \frac{1}{2} = x = 2
 \end{align*}
 $$
 
@@ -1373,16 +1373,16 @@ Instance: “A square; you remove one root from it; and if you add to this root 
 
 $$
 \begin{aligned}
-&amp; * \frac{x^2 - 4x}{3} = 4x \\
-&amp; x^2 - 4x = 12x \\
-&amp; x^2 = 16x \\
-&amp; x = 16 \therefore x^2 = 256 \\
-&amp; \dagger \sqrt{x^2 - x} + x = 2 \\
-&amp; \sqrt{x^2 - x} = 2 - x \\
-&amp; x^2 - x = 4 + x^2 - 4x \\
-&amp; x^2 + 3x = 4 + x^2 \\
-&amp; 3x = 4 \\
-&amp; x = 1\frac{1}{3}
+& * \frac{x^2 - 4x}{3} = 4x \\
+& x^2 - 4x = 12x \\
+& x^2 = 16x \\
+& x = 16 \therefore x^2 = 256 \\
+& \dagger \sqrt{x^2 - x} + x = 2 \\
+& \sqrt{x^2 - x} = 2 - x \\
+& x^2 - x = 4 + x^2 - 4x \\
+& x^2 + 3x = 4 + x^2 \\
+& 3x = 4 \\
+& x = 1\frac{1}{3}
 \end{aligned}
 $$
 
@@ -2126,9 +2126,9 @@ The common denominator 1608 is unnecessarily great.
 
 $$
 \begin{align*}
-1 - x - y &amp;= 6v \\
-x &amp;= v + \frac{1}{3} \left[ \frac{1}{3} - v \right] \\
-y &amp;= v + \frac{1}{3} \left[ \frac{1}{4} - v \right]
+1 - x - y &= 6v \\
+x &= v + \frac{1}{3} \left[ \frac{1}{3} - v \right] \\
+y &= v + \frac{1}{3} \left[ \frac{1}{4} - v \right]
 \end{align*}
 $$
 
@@ -2399,9 +2399,9 @@ If the case is the same, and she bequeaths to some person as much as must be add
 
 $$
 \begin{align*}
-1 - x - y &amp;= 13v \\
-\text{i.e. } 1 - \frac{1}{3} + v - \frac{1}{4} + 2v &amp;= 13v \\
-\therefore \frac{11}{20} &amp;= 10v \quad \therefore v = \frac{11}{200}; \; x = \frac{20}{200}; \; y = \frac{20}{200}
+1 - x - y &= 13v \\
+\text{i.e. } 1 - \frac{1}{3} + v - \frac{1}{4} + 2v &= 13v \\
+\therefore \frac{11}{20} &= 10v \quad \therefore v = \frac{11}{200}; \; x = \frac{20}{200}; \; y = \frac{20}{200}
 \end{align*}
 $$
 
@@ -2470,7 +2470,7 @@ subtract from it one-third less two parts, and add to the remainder one-fourth (
 
 $$
 \begin{aligned}
-1 - x &amp;= 7v; \quad \frac{1}{x} + \frac{1}{6} = \frac{1}{36} \\
+1 - x &= 7v; \quad \frac{1}{x} + \frac{1}{6} = \frac{1}{36} \\
 \therefore \frac{2}{3} + \frac{1}{3} - \frac{1}{36} + 2v + \frac{1}{4} \left[ \frac{1}{3} - \frac{1}{36} + 2v \right] = 7v \\
 \therefore \frac{2}{3} - \frac{1}{36} + 2v + \frac{1}{4} \left[ -\frac{1}{36} + 2v \right] = 7v \\
 \therefore \frac{2}{3} + \frac{5}{4} \left[ -\frac{1}{36} + 2v \right] = 7v \\
@@ -2497,12 +2497,12 @@ you take the moiety from one-third, there remains one-sixth. This is the sum exc
 
 $$
 \begin{aligned}
-x + 5v &amp;= \frac{1}{2}; \quad 1 - x + \frac{9}{7} \left[ \frac{1}{3} - x \right] = 13v \\
-\therefore \frac{9}{3} + \frac{1}{3} - x + \frac{9}{7} \left[ \frac{1}{3} - x \right] &amp;= 13v \\
-\therefore \frac{9}{3} + \frac{9}{7} \left[ \frac{1}{3} - x \right] &amp;= 13v \\
-\therefore \frac{9}{3} + \frac{9}{7} \left[ -\frac{1}{6} + 5v \right] &amp;= 13v \\
-\therefore \frac{9}{3} - \frac{3}{14} &amp;= \left[ 13 - \frac{4}{7} \right]v \\
-\therefore \frac{19}{42} &amp;= \frac{4}{7}v \quad \therefore \frac{19}{276} = v \\
+x + 5v &= \frac{1}{2}; \quad 1 - x + \frac{9}{7} \left[ \frac{1}{3} - x \right] = 13v \\
+\therefore \frac{9}{3} + \frac{1}{3} - x + \frac{9}{7} \left[ \frac{1}{3} - x \right] &= 13v \\
+\therefore \frac{9}{3} + \frac{9}{7} \left[ \frac{1}{3} - x \right] &= 13v \\
+\therefore \frac{9}{3} + \frac{9}{7} \left[ -\frac{1}{6} + 5v \right] &= 13v \\
+\therefore \frac{9}{3} - \frac{3}{14} &= \left[ 13 - \frac{4}{7} \right]v \\
+\therefore \frac{19}{42} &= \frac{4}{7}v \quad \therefore \frac{19}{276} = v \\
 \end{aligned}
 $$
 
@@ -3298,7 +3298,7 @@ Page 1, line 2-5.
 
 The neglected state of the manuscript, in which most diacritical points are wanting, makes me very doubtful whether I have correctly understood the author's meaning in several passages of his preface.
 
-In the introductory lines, I have considered the words التي باداه ما افترض منها علي من يعبده من خلقه as an amplification of what might briefly have been expressed by التي بادائها “through the performance of which.” I conceive the author to mean, that God has prescribed to man certain duties, ان الله قد افترض علي الناس شيئا من المحامد, and that by performing these ( &amp;c. (باداه ما افترض) we express our thankfulness (نقع اسم الشكر) &amp;c.
+In the introductory lines, I have considered the words التي باداه ما افترض منها علي من يعبده من خلقه as an amplification of what might briefly have been expressed by التي بادائها “through the performance of which.” I conceive the author to mean, that God has prescribed to man certain duties, ان الله قد افترض علي الناس شيئا من المحامد, and that by performing these ( &c. (باداه ما افترض) we express our thankfulness (نقع اسم الشكر) &c.
 
 Since my translation was made, I have had the advantage of consulting Mr. Shakespear about this passage. He prefers to read قس تمتع بتمتع، و قس تمتع، و قس تمتع، و قس تمتع، و قس تمتع، و قس تمتع، and و قس تمتع، and قس تمتع، and قس تمتع، and proposes to translate as follows: “Praise to God for his favours in that which is proper for him from among his laudable deeds, which in the performance of what he has rendered indis-
 
@@ -3308,7 +3308,7 @@ Since my translation was made, I have had the advantage of consulting Mr. Shakes
 
 pensible from (or by reason of) them on (the part of) whoever of his creatures worships him, gives the name of thanksgiving, and secures the increase, and preserves from deterioration.”
 
-The construction here assumed is evidently easier than that adopted by myself, in as far as the relative pronoun التي representing محمده, is made the subject of the three subsequent verbs تقع, &amp;c., whilst my translation presumes a transition from the third person (as in ما هو اهله, and in من يعبده) to the first (as in نقع, &amp;c.).
+The construction here assumed is evidently easier than that adopted by myself, in as far as the relative pronoun التي representing محمده, is made the subject of the three subsequent verbs تقع, &c., whilst my translation presumes a transition from the third person (as in ما هو اهله, and in من يعبده) to the first (as in نقع, &c.).
 
 A marginal note in the manuscript explains the words لعل تقديره ونومس صاحبه من الغير by ونومس من الغير “The meaning may be: we preserve from change him who enjoys it,” (viz. the divine bounty, taking صاحبه for صاحب نعم الله. The change here spoken of is the forfeiture of the divine mercy by bad actions; for “God does not change the mercy which he bestows on men, as long as they do not change that which is within themselves.” بلى الله لم يكن مغيّراً نعمةً انعمها علي قوم حتي يغيروا ما بانفسهم (Coran, Sur. VIII. v. 55, ed. Hinck.).
 
@@ -3459,7 +3459,7 @@ With the knowledge of Algebra, its Arabic name was introduced into Europe. LEONA
 
 writer, Lucas Paciolus, or Lucas de Burgo, are thus reported by Cossali: Il commune oggetto dell' operar loro è recare la equazione alla sua maggior unità. Gli uffizi loro per questo commune intento sono contrarj: quello dell' Algebra è di restorare li extremi dei diminuiti; e quello di Almucabala di levare da li extremi i superflui. Intende Fra Luca per extremi i membri dell' equazione.
 
-Since the commencement of the sixteenth century, the word mokābalah does no longer appear in the title of Algebraic works. Hieronymus Cardan's Latin treatise, first published in 1545, is inscribed: Artis magna sive de regulis algebraicis liber unus. A work by John Scheubelius, printed at Paris in 1552, is entitled: Algebra compendiosa facilisque descriptio, qua depromontur magna Arithmetices miracula. (See Hutton's Tracts, &amp;c. ii. pp. 241-243.) Pelletier's Algebra appeared at Paris in 1558, under the title: De occulta parte numerorum quam Algebram vocant, libri duo. (Hutton, l. c. p. 245. Montucla, hist. des math. i. p. 613.) A Portuguese treatise, by Pedro Nunez or Nonius, printed at Amberez in 1567, is entitled: Libro de Algebra y Arithmetica y Geometria. (Montucla, l. c. p. 615.)
+Since the commencement of the sixteenth century, the word mokābalah does no longer appear in the title of Algebraic works. Hieronymus Cardan's Latin treatise, first published in 1545, is inscribed: Artis magna sive de regulis algebraicis liber unus. A work by John Scheubelius, printed at Paris in 1552, is entitled: Algebra compendiosa facilisque descriptio, qua depromontur magna Arithmetices miracula. (See Hutton's Tracts, &c. ii. pp. 241-243.) Pelletier's Algebra appeared at Paris in 1558, under the title: De occulta parte numerorum quam Algebram vocant, libri duo. (Hutton, l. c. p. 245. Montucla, hist. des math. i. p. 613.) A Portuguese treatise, by Pedro Nunez or Nonius, printed at Amberez in 1567, is entitled: Libro de Algebra y Arithmetica y Geometria. (Montucla, l. c. p. 615.)
 
 In Feizi's Persian translation of the Lilavati (written in 1587, printed for the first time at Calcutta in 1827, 8vo.) I do not recollect ever to have met with the word جبر; but نقابة is several times used in the same sense as in the above Persian extract.
 
@@ -3469,19 +3469,19 @@ In Feizi's Persian translation of the Lilavati (written in 1587, printed for the
 
 ## Page 3, line 3, seqq.
 
-In the formation of the numerals, the thousand is not, like the ten and the hundred, multiplied by the units only, but likewise by any number of a higher order, such as tens and hundreds: there being no special words in Arabic (as is the case in Sanscrit) for ten-thousand, hundred-thousand, &amp;c.
+In the formation of the numerals, the thousand is not, like the ten and the hundred, multiplied by the units only, but likewise by any number of a higher order, such as tens and hundreds: there being no special words in Arabic (as is the case in Sanscrit) for ten-thousand, hundred-thousand, &c.
 
 From this passage, and another on page 10, it would appear that our author uses the word عقد, plur. عقول, knot or tie, as a general expression for all numerals of a higher order than that of the units. Baron S. de Sacy, in his Arabic Grammar, (vol. i. § 741) when explaining the terms of Arabic grammar relative to numerals, translates عقول by nœuds, and remarks: Ce sont les noms des dixaines, depuis vingt jusqu’à quatre-vingt-dix.
 
 ## Page 3, line 9-11.
 
-The forms of algebraic expression employed by Leonardo are thus reported by Cossali (Origine, &amp;c. dell’ Algebra, i. p. 1.): Tre considerazioni distingue Leonardo nel numero: una assoluta, o semplice, ed è quella del numero in se stesso; le altre due relative, e sono quelle di radice e di quadrato. Nominando il quadrato soggiugne qui videlicet census dicitur, ed il nome di censo è quello di cui in seguito si serve. That Leonardo seems to have chosen the expression census on account of its acceptation, which is correspondent to that of the
+The forms of algebraic expression employed by Leonardo are thus reported by Cossali (Origine, &c. dell’ Algebra, i. p. 1.): Tre considerazioni distingue Leonardo nel numero: una assoluta, o semplice, ed è quella del numero in se stesso; le altre due relative, e sono quelle di radice e di quadrato. Nominando il quadrato soggiugne qui videlicet census dicitur, ed il nome di censo è quello di cui in seguito si serve. That Leonardo seems to have chosen the expression census on account of its acceptation, which is correspondent to that of the
 
 ---
 
 ( 188 )
 
-Arabic مال, has already been remarked by Mr. Colebrooke (Algebra, &amp;c., Dissertation, p. liv.)
+Arabic مال, has already been remarked by Mr. Colebrooke (Algebra, &c., Dissertation, p. liv.)
 
 Paciolo, who wrote in Italian, used the words *numero*, *cosa*, and *censo*; and this notation was retained by Tartaglia. From the term *cosa* for the unknown number, exactly corresponding in its acceptation to the Arabic شيء, thing, are derived the expressions *Ars cossica* and the German *die Coss*, both ancient names of the science of Algebra. Cardan’s Latin terminology is *numerus*, *quadratum*, and *res*, for the latter also *positio* or *quantitas ignota*.
 
@@ -3568,7 +3568,7 @@ Page 8, line 11.
 
 Page 8, lime 17.
 
-See LEONARDO's geometrical illustration of the three cases involving an affected square, as reported by COSSALI (I. p. 2.), and hence by HUTTON (Tracts, &amp;c., II. p. 198.)
+See LEONARDO's geometrical illustration of the three cases involving an affected square, as reported by COSSALI (I. p. 2.), and hence by HUTTON (Tracts, &c., II. p. 198.)
 
 CARDAN, in the introduction of his Ars magna, distinctly refers to the demonstrations of the three cases given by our author, and distinguishes them from others which are his own. At etiam demonstrationes, praeter tres MAHOMETIS et duas LODOVICI (LEWIS FERRARI, CARDAN's pupil), omnes nostrae sunt.—In another passage (page 20) he blames our author for having given the demonstration of only one solution of the case $cx^2 + a = bx$. Nec admireris,
 
@@ -3624,7 +3624,7 @@ from which it appears that the inconvenience attending the solution of this prob
 
 Page 45, line 16.
 
-This instance from MOHAMMED’s work is quoted by CARDAN (Ars Magna, p. 22, edit. Basil.) As the passage is of some interest in ascertaining the identity of the present work with that considered as MOHAMMED’s production by the early propagators of Algebra in Europe, I will here insert part of it. Nunc autem, says CARDAN, subjungemus aliquas quæstiones, duas ex MAHUMETE, reliquas nostras. Then follows Quæstio I. Est numerus a cujus quadrato si abjeceris $\frac{1}{3}$ et $\frac{1}{4}$ ipsius quadrati, atque insuper 4, residuum autem in se duxeris, fiet productum æquale quadrato illius numeri et etiam 12. Pones itaque quadratum numeri incogniti quem quæris esse 1 rem, abjice $\frac{1}{3}$ et $\frac{1}{4}$ ejus, es insuper 4, fiet $\frac{5}{12}$ rei m: 4, duc in se, fit $\frac{25}{144}$ quadrati p: 16 m: $3\frac{1}{3}$ rebus, et hoc est æquali uni rei et 12; abjice similia, fiet 1 res æqualis $\frac{25}{144}$ quadrati p: 4 m: $3\frac{1}{3}$ rebus, &amp;c.
+This instance from MOHAMMED’s work is quoted by CARDAN (Ars Magna, p. 22, edit. Basil.) As the passage is of some interest in ascertaining the identity of the present work with that considered as MOHAMMED’s production by the early propagators of Algebra in Europe, I will here insert part of it. Nunc autem, says CARDAN, subjungemus aliquas quæstiones, duas ex MAHUMETE, reliquas nostras. Then follows Quæstio I. Est numerus a cujus quadrato si abjeceris $\frac{1}{3}$ et $\frac{1}{4}$ ipsius quadrati, atque insuper 4, residuum autem in se duxeris, fiet productum æquale quadrato illius numeri et etiam 12. Pones itaque quadratum numeri incogniti quem quæris esse 1 rem, abjice $\frac{1}{3}$ et $\frac{1}{4}$ ejus, es insuper 4, fiet $\frac{5}{12}$ rei m: 4, duc in se, fit $\frac{25}{144}$ quadrati p: 16 m: $3\frac{1}{3}$ rebus, et hoc est æquali uni rei et 12; abjice similia, fiet 1 res æqualis $\frac{25}{144}$ quadrati p: 4 m: $3\frac{1}{3}$ rebus, &c.
 
 The problem of the Quæstio II. is in the following terms, Fuerunt duo duces quorum unus quisque divisit militibus suis aureos 48. Porro unus ex his habuit milites duos plus altero, et illi qui milites habuit duos minus contigit ut aureos quatuor plus singulis militibus daret; quæritur quot unicuique milites fuerint. In the present copy of MOHAMMED’s algebra, no such instance occurs. Yet Car-
 
@@ -3674,7 +3674,7 @@ It is a fact well known, and admitted by the Arabs
 
 themselves, that the decimal notation is a discovery for which they are indebted to the Hindus.* At what time the communication took place, has, I believe, never yet been ascertained. But it seems natural to suppose that it was at the same period, when, after the accession of the Abbaside dynasty to the caliphat, a most lively interest for mathematical and astronomical science first arose among the Arabs. Not only the most important foreign works on these sciences were then translated into Arabic, but learned foreigners even lived at the court of Bagdad, and held conspicuous situations in those scientific establishments which the noble ardour of the caliphs had called forth. History has transmitted to us the names of several distinguished scholars, neither Arabs by birth nor Mohammedans by their profession, who were thus attached to the court of ALMANSUR and ALMAMUN; and we know from
 
-* It is almost unnecessary to adduce further evidence in support of this remark. BAHA-EDDIN, after a few preliminary remarks on numbers, says وقد وضع لها حكماء الهند الارقام التسعة المشهورة “Learned Hindus have invented the well known nine figures for them.” (Kholáset al-Hisáb, p. 16.) In a treatise on arithmetic, entitled متن النزهة في علم الحساب which forms part of Sir W. OUSELEY’s most valuable collection of Oriental manuscripts, the nine figures are simply called الأشكال الهندية. See, on the subject generally, Professor von BOHLEN’s work, Das alte Indien, (Königsberg, 1830. 1831. 8.) vol. ii. p. 224, and ALEXANDER von HUMBOLDT’s most interesting dissertation: Ueber die bei verschiedenen Völkern üblichen Systeme von Zahlzeichen, &amp;c. (Berlin, 1829. 4.) page 24.
+* It is almost unnecessary to adduce further evidence in support of this remark. BAHA-EDDIN, after a few preliminary remarks on numbers, says وقد وضع لها حكماء الهند الارقام التسعة المشهورة “Learned Hindus have invented the well known nine figures for them.” (Kholáset al-Hisáb, p. 16.) In a treatise on arithmetic, entitled متن النزهة في علم الحساب which forms part of Sir W. OUSELEY’s most valuable collection of Oriental manuscripts, the nine figures are simply called الأشكال الهندية. See, on the subject generally, Professor von BOHLEN’s work, Das alte Indien, (Königsberg, 1830. 1831. 8.) vol. ii. p. 224, and ALEXANDER von HUMBOLDT’s most interesting dissertation: Ueber die bei verschiedenen Völkern üblichen Systeme von Zahlzeichen, &c. (Berlin, 1829. 4.) page 24.
 
 ---
 
@@ -3876,7 +3876,7 @@ as an old Mohammedan lawyer of high authority. He was born at Kufa, A.H. 80 (A.D
 
 Page 113, line 16.
 
-The marginal notes on this chapter of the manuscript give an account of what the computation of the cases here related would be according to the precepts of different Arabian lawyers, e.g. SHAFEI, ABU YUSSUF, &amp;c. The following extract of a note on the second case will be sufficient as a specimen:
+The marginal notes on this chapter of the manuscript give an account of what the computation of the cases here related would be according to the precepts of different Arabian lawyers, e.g. SHAFEI, ABU YUSSUF, &c. The following extract of a note on the second case will be sufficient as a specimen:
 
 (*) في هذه المسئلة انما هو علي مذهب ابي يوسف وزفر واحد الوجوه لاصحاب الشافعي فاما ابو حنيفة فانه يجعل ما لزم الواهب بسبب وطنه وصية ايضا فتكون الوصية علي قوله شيئا و ثلثا وهو احد الوجوه علي مذهب الشافعي وعند محمد بن الجيس (*) تجعل وطه الواهب لما وهب منه والا يلزمه شيء بسبب ذلك وهو احد الوجوه علي مذهب الشافعي فعلي هذا الوجه تصح الهبة في ثلثها و تبطل في ثلثيها ولا دور لان التركة علي حالها وعلي قول ابن حنيفة تعمل لما فعلت علي مذهب ابي يوسف وزفر (*) فاذا صار بايدي الورثة ثلثماية الا شيئا و ثلث شيء يعدل شيئين و ثلثي شيء لان الذي لزمه بالعقر وصية ايضا فاذا جبرت وقابلت عدل الشيء خمسة وسبعين درهما وهو ربع لالجارية فصح الهبة في ربعها وتبطل
 
@@ -6828,9 +6828,9 @@ Mr. MURRAY, and Messrs. PARBURY, ALLEN, and Co., London; Messrs. THACKER and Co.
 
 1. THE TRAVELS OF IBN BATUTA,
 
-Translated from the abridged Arabic Manuscript Copies preserved in the Public Library of Cambridge, with NOTES, illustrative of the History, Geography, Botany, Antiquities, &amp;c. occurring throughout the Work.
+Translated from the abridged Arabic Manuscript Copies preserved in the Public Library of Cambridge, with NOTES, illustrative of the History, Geography, Botany, Antiquities, &c. occurring throughout the Work.
 
-By the Rev. S. LEE, B.D., Professor of Arabic and Hebrew in the University of Cambridge, &amp;c. &amp;c.
+By the Rev. S. LEE, B.D., Professor of Arabic and Hebrew in the University of Cambridge, &c. &c.
 
 In Demy Quarto; price £1.
 
@@ -6840,7 +6840,7 @@ In Demy Quarto; price £1.
 
 Written by Himself, and translated from a Persian Manuscript,
 
-By MAJOR DAVID PRICE, of the Bombay Army, &amp;c. &amp;c.
+By MAJOR DAVID PRICE, of the Bombay Army, &c. &c.
 
 In Demy Quarto; 12s.
 
@@ -6852,7 +6852,7 @@ Written by his attendant Archdeacon, Paul of Aleppo, in Arabic.
 
 Part the First.—Anatolia, Romelia, and Moldavia.
 
-Translated by F. C. BELFOUR, A.M. Oxon. &amp;c. &amp;c.
+Translated by F. C. BELFOUR, A.M. Oxon. &c. &c.
 
 In Demy Quarto, 10s.
 
@@ -6863,7 +6863,7 @@ For Part II. of this Work—see No. 14.
 4.
 
 HAN KOONG TSEW, or THE SORROWS OF HAN,
-A Chinese Tragedy, translated from the Original, with Notes, and a Specimen of the Chinese Text. By JOHN FRANCIS DAVIS, F.R.S., &amp;c.
+A Chinese Tragedy, translated from the Original, with Notes, and a Specimen of the Chinese Text. By JOHN FRANCIS DAVIS, F.R.S., &c.
 In Demy Quarto; 5s.
 
 ---
@@ -6872,7 +6872,7 @@ In Demy Quarto; 5s.
 
 HISTORY OF THE AFGHANS,
 Translated from the Persian of Neamet Ullah. Part I.
-By BERNHARD DORN. Ph.D., &amp;c.
+By BERNHARD DORN. Ph.D., &c.
 In Demy Quarto; 14s.
 
 ---
@@ -6881,7 +6881,7 @@ In Demy Quarto; 14s.
 
 THE FORTUNATE UNION,
 A Romance, translated from the Chinese Original, with Notes and Illustrations; to which is added, a Chinese Tragedy.
-By JOHN FRANCIS DAVIS, F.R.S., &amp;c.
+By JOHN FRANCIS DAVIS, F.R.S., &c.
 Two Vols. Demy 8vo.; 16s.
 
 ---
@@ -6907,8 +6907,8 @@ In Demy Quarto; 16s.
 9.
 
 THE LIFE OF SHEIKH MOHAMMED ALI HAZIN,
-Written by Himself: translated from two Persian Manuscripts, and illustrated with Notes explanatory of the History, Poetry, Geography, &amp;c. which therein occur.
-By F. C. BELFOUR, M.A. Oxon, &amp;c. &amp;c.
+Written by Himself: translated from two Persian Manuscripts, and illustrated with Notes explanatory of the History, Poetry, Geography, &c. which therein occur.
+By F. C. BELFOUR, M.A. Oxon, &c. &c.
 In Demy Octavo; 10s. 6d.
 For the Persian Text of this Work—see No. 16.
 
@@ -6918,7 +6918,7 @@ For the Persian Text of this Work—see No. 16.
 
 MEMOIRS OF A MALAYAN FAMILY,
 Written by themselves; and translated from the original,
-By W. MARSDEN, F.R.S. &amp;c. &amp;c.
+By W. MARSDEN, F.R.S. &c. &c.
 In Demy Octavo; 2s. 6d.
 
 ---
@@ -6941,7 +6941,7 @@ With a Map of Transoxania. In Demy Quarto; 12s.
 THE HISTORY OF VARTAN AND OF THE BATTLE OF THE ARMENIANS,
 Containing an Account of the Religious Wars between the Persians and Armenians; by Elisæus Bishop of the Amadunians,
 Translated from the Armenian, by C. F. NEUMANN,
-Member of the Armenian Academy of the Mechitaristes at St. Lazaro, &amp;c. &amp;c.
+Member of the Armenian Academy of the Mechitaristes at St. Lazaro, &c. &c.
 In Demy Quarto; 10s.
 
 14.
@@ -6949,7 +6949,7 @@ In Demy Quarto; 10s.
 THE TRAVELS OF MACARIUS, PATRIARCH OF ANTIOCH,
 Written by his Attendant Archdeacon Paul, of Aleppo, in Arabic.
 Part the Second.—Wallachia, Moldavia, and the Cossack Country.
-Translated by F. C. BELFOUR, A.M. Oxon. &amp;c. &amp;c.
+Translated by F. C. BELFOUR, A.M. Oxon. &c. &c.
 In Demy Quarto; 10s.
 For the First Part of this Work—see No. 3.
 
@@ -6964,7 +6964,7 @@ In Demy 8vo. 5s.
 16.
 
 THE LIFE OF SHEIKH MOHAMMED ALI HAZIN,
-Written by Himself; edited from two Persian Manuscripts, and noted with their various Readings, by F. C. BELFOUR, M.A. Oxon. &amp;c. &amp;c.
+Written by Himself; edited from two Persian Manuscripts, and noted with their various Readings, by F. C. BELFOUR, M.A. Oxon. &c. &c.
 In Demy 8vo. 10s. 6d.
 For the English Translation of this Work—see No. 9.
 
@@ -6984,7 +6984,7 @@ II. EXTRACTS FROM THE SAKAA THEVAN SAASTERAM, or, BOOK OF FATE. Translated from 
 
 III. THE LAST DAYS OF KRISHNA AND THE SONS OF PANDU, from the concluding Section of the Mahabharat. Translated from the Persian version, made by Nekkeib Khan, in the time of the Emperor Akbar. By Major David Price, of the Bombay Army, Member of the Royal Asiatic Society, of the Oriental Translation Committee, and of the Royal Society of Literature.
 
-IV. THE VEDALA CADAI, being the Tamul Version of a Collection of Ancient Tales in the Sanscrit Language; popularly known throughout India, and entitled the Vetāla Panchavinsati. Translated by B. G. Babington, M.D., F.R.S., M. Madras Lit. Soc., &amp;c.
+IV. THE VEDALA CADAI, being the Tamul Version of a Collection of Ancient Tales in the Sanscrit Language; popularly known throughout India, and entitled the Vetāla Panchavinsati. Translated by B. G. Babington, M.D., F.R.S., M. Madras Lit. Soc., &c.
 
 V. INDIAN COOKERY, as practised and described by the Natives of the East. Translated by Sandford Arnot, one of the Conductors of the London Oriental Institution.
 
@@ -6996,13 +6996,13 @@ The Shahnama, translated by James Atkinson, Esq.
 This celebrated Persian Poem comprises the History of Persia, from its first king to A.D. 636, and is replete with chivalrous adventures.
 
 The Travels of Evliya Efendi; translated by Mons. de Hammer.
-This work contains an account in Turkish, of the travels of Evliya in all parts of the Turkish empire, and in Turkestan, &amp;c. in the middle of the seventeenth century.
+This work contains an account in Turkish, of the travels of Evliya in all parts of the Turkish empire, and in Turkestan, &c. in the middle of the seventeenth century.
 
 Nipon u dai itsi ran; translated by Monsieur Jules de Klaproth.
 This Japanese work contains the History of the Dairis or Ecclesiastical Emperors of Japan from the year 660 Ante Christum.
 
 The Tuhfat al Kebar of Kateb Chelebi al Marhoom: translated by James Mitchell, Esq. Part II.
-This Turkish History contains a detailed account of the maritime wars of the Turks in the Mediterranean and Black Seas, and on the Danube, &amp;c., from the foundation of their empire in Europe to the commencement of 1640.
+This Turkish History contains a detailed account of the maritime wars of the Turks in the Mediterranean and Black Seas, and on the Danube, &c., from the foundation of their empire in Europe to the commencement of 1640.
 
 A History of Morocco; translated by Walter Price, Esq.
 This Arabic work contains a history of the establishment of the Mahommedan power in the Barbary States and Spain, between the eighth and fourteenth centuries.
@@ -7020,7 +7020,7 @@ This is a highly celebrated Epic Poem by Kalidasa. It will be accompanied by the
 ## Class 1st.—Theology, Ethics, and Metaphysics.
 
 The Sepher Jesher; translated by the Rev. W. Adam.
-This work, although of doubtful authenticity, is very interesting as furnishing many elucidations of Sacred History from the Creation to the time of the Judges. It is written in very pure and beautiful Hebrew, and is highly valued by the Jews in Poland, &amp;c.
+This work, although of doubtful authenticity, is very interesting as furnishing many elucidations of Sacred History from the Creation to the time of the Judges. It is written in very pure and beautiful Hebrew, and is highly valued by the Jews in Poland, &c.
 
 The Sane'hya Cáricá; translated by Henry Thomas Colebrooke, Esq.
 This Sanscrit work contains, in seventy-two stanzas, the principles of the Sane'hya System of Metaphysical Philosophy.
@@ -7032,13 +7032,13 @@ The Akhlak-e-Naseri of Naser-ud-Din of Tus in Bucharia; translated by the Rev. H
 This Persian system of Ethics is an elaborate composition, formed on Greek models, and is very highly esteemed in Persia.
 
 A Collation of the Syriac MSS. of the New Testament, both Nestorian and Jacobite, that are accessible in England, by the Rev. Professor Lee.
-This collation will include the various readings of the Syriac MSS. of the New Testament in the British Museum, and the Libraries at Oxford, Cambridge, &amp;c.
+This collation will include the various readings of the Syriac MSS. of the New Testament in the British Museum, and the Libraries at Oxford, Cambridge, &c.
 
 The Didascalia, or Apostolical Constitutions of the Abyssinian Church; translated by T. P. Platt, Esq. A.M.
 This ancient Ethiopic work is unknown in Europe, and contains many very curious opinions.
 
 The Vrihad Aranyaka; translated by Dr. Stenzler.
-This ancient Sanscrit Upanishad is reckoned part of the Vajur Veda. It consists of reflexions and dialogues on the origin and nature of the gods, men, fire, &amp;c., and is one of the principal authorities in the Vedanta system of philosophy.
+This ancient Sanscrit Upanishad is reckoned part of the Vajur Veda. It consists of reflexions and dialogues on the origin and nature of the gods, men, fire, &c., and is one of the principal authorities in the Vedanta system of philosophy.
 
 ## Class 2d.—History, Geography, and Travels.
 
@@ -7061,7 +7061,7 @@ The Annals of Elias, Metropolitan of Nisibis; translated by the Rev. Josiah Fors
 This Syriac Chronicle contains chronological tables of the principal dynasties of the world, brief memoirs of the Patriarchs of the Nestorian church, and notices of the most remarkable events in the East, from the birth of our Saviour to the beginning of the eleventh century.
 
 Naima's Annals; translated by Charles Fraser, Esq.
-This Turkish History comprises the period between 1622 and 1692, and includes accounts of the Turkish invasion of Germany, the sieges of Buda, Vienna, &amp;c.
+This Turkish History comprises the period between 1622 and 1692, and includes accounts of the Turkish invasion of Germany, the sieges of Buda, Vienna, &c.
 
 Ibn Haukul's Geography; translated by Professor Hamaker.
 This Arabic work was compiled in the 10th century by a celebrated Mohammedan Traveller, and is not the same as the Oriental Geography of Ebn Haukal that was translated by Sir William Ouseley.
@@ -7100,11 +7100,11 @@ This celebrated work contains the History of the Arabians from the time of Ishma
 
 The Fo Koue Ke, translated by Monsieur Abel Remusat.
 
-This very curious Chinese work contains an account of the travels of some Buddhist Priests during the years 399-411 A.D. from Si ngen fu in China, through Tartary, Hindoostan, Ceylon, &amp;c., and greatly elucidates the ancient geography and religion of Central Asia and India.
+This very curious Chinese work contains an account of the travels of some Buddhist Priests during the years 399-411 A.D. from Si ngen fu in China, through Tartary, Hindoostan, Ceylon, &c., and greatly elucidates the ancient geography and religion of Central Asia and India.
 
 Makrisi’s Khitat, or History and Statistics of Egypt; translated by Abraham Salamé, Esq.
 
-This Arabic work includes accounts of the conquest of Egypt by the Caliphs, A.D. 640; and of the cities, rivers, ancient and modern inhabitants of Egypt, &amp;c.
+This Arabic work includes accounts of the conquest of Egypt by the Caliphs, A.D. 640; and of the cities, rivers, ancient and modern inhabitants of Egypt, &c.
 
 A History of the Birman Empire, translated by Father Sangermano.
 
@@ -7136,11 +7136,11 @@ This Persian Poem, of which an abridgment will be published, was composed by Muh
 
 Ibn Khalikan’s Lives of Illustrious Men; translated by Dr. F. A. Rosen.
 
-This is an Arabic Biographical Dictionary, arranged alphabetically, of the most celebrated Arabian historians, poets, warriors, &amp;c. who lived in the seven first centuries of the era of Mahommed, A.D. 600 to A.D. 1300.
+This is an Arabic Biographical Dictionary, arranged alphabetically, of the most celebrated Arabian historians, poets, warriors, &c. who lived in the seven first centuries of the era of Mahommed, A.D. 600 to A.D. 1300.
 
 The Bustan of Sadi; translated by James Ross, Esq., A.M.
 
-This is a much-admired Persian Poem, consisting of Tales, &amp;c. illustrative of moral duties.
+This is a much-admired Persian Poem, consisting of Tales, &c. illustrative of moral duties.
 
 Royal Asiatic Society’s House,
 
@@ -7198,7 +7198,7 @@ QA al-Khuwarizmi, Muhammad ibn
 K45 The algebra of Mohammed
 ben Musa
 
-P&amp;ASci
+P&ASci
 
 9
 

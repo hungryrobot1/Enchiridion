@@ -40,7 +40,7 @@ JOHN EDMUNDS
 
 ![img-2.jpeg](images/img-2.jpeg)
 
-W · W · NORTON &amp; COMPANY
+W · W · NORTON & COMPANY
 New York · London
 
 ---
@@ -63,24 +63,24 @@ JOHN EDMUNDS
 
 ![img-3.jpeg](images/img-3.jpeg)
 
-W · W · NORTON &amp; COMPANY
+W · W · NORTON & COMPANY
 New York · London
 
 ---
 
 Copyright renewed 1971 by Alfred Mann
 Copyright © 1965, 1943 by
-W. W. Norton &amp; Company, Inc.
+W. W. Norton & Company, Inc.
 
 FIRST PUBLISHED IN THE NORTON LIBRARY 1965
 
 Previously published under the title Steps to Parnassus. The Study of Counterpoint.
 
-W. W. Norton &amp; Company, Inc.
+W. W. Norton & Company, Inc.
 500 Fifth Avenue, New York, N.Y. 10110
 www.wwnorton.com
 
-W. W. Norton &amp; Company Ltd.
+W. W. Norton & Company Ltd.
 Castle House, 75/76 Wells Street, London W1T 3QT
 
 ISBN 0-393-00277-2
@@ -187,7 +187,7 @@ xii
 
 copy of the Gradus, containing numerous manuscript annotations and preserved in the Esterházy Archives after Haydn's death, was destroyed in the Second World War. But a copy of Haydn's marginal entries made by the Haydn biographer C. F. Pohl has survived. In addition, a more explicit, though fragmentary Fux commentary by Haydn has come down to us in his *Elementarbuch*,⁴ a condensation of Fux's study of counterpoint prepared for the purposes of Haydn's teaching. As Haydn's works show, his interest in contrapuntal techniques received a fresh impetus in the 1780s, the years of his close friendship with Mozart, and the plan of the *Elementarbuch* may have been prompted by various extracts of Fux's work in Mozart's hand, which date from the same period.
 
-It is likely that Mozart studied Fux's work first under the influence of his father; the copy of the Gradus inscribed &lt;&lt;1746 Ex Libris Leopoldi Mozart&gt;&gt;, with annotations by Leopold Mozart, still exists in Salzburg. On the other hand, it has recently been ascertained that the studies based on Fux's cantus firmi, kept with this copy and for a long time thought to be Wolfgang's exercises written under Leopold's guidance, were actually written by one of Wolfgang's students under the latter's direction.⁵ Mozart's own study of the Gradus may have been inspired or intensified through the instruction he received from Padre Martini (1770). We know that Martini's counterpoint lessons provided a decisive impulse for Mozart's work and that the Padre declared "We have no system other than that of Fux."⁶ In any event, the only documents we
+It is likely that Mozart studied Fux's work first under the influence of his father; the copy of the Gradus inscribed <<1746 Ex Libris Leopoldi Mozart>>, with annotations by Leopold Mozart, still exists in Salzburg. On the other hand, it has recently been ascertained that the studies based on Fux's cantus firmi, kept with this copy and for a long time thought to be Wolfgang's exercises written under Leopold's guidance, were actually written by one of Wolfgang's students under the latter's direction.⁵ Mozart's own study of the Gradus may have been inspired or intensified through the instruction he received from Padre Martini (1770). We know that Martini's counterpoint lessons provided a decisive impulse for Mozart's work and that the Padre declared "We have no system other than that of Fux."⁶ In any event, the only documents we
 
 ⁴ *Elementarbuch der verschiedenen Gattungen des Contrapunkts. Aus den grösseren Werken des Kapellmeister Fux von Joseph Haydn zusammengezogen. The work existed in different versions, two of which were used for the summary in Gustav Nottebohm, *Beethovens Studien* (1873). The only copy still extant is dated 1789 and was written by Haydn's pupil F. C. Magnus; it is preserved in the National Széchényi Library in Budapest.*
 
@@ -2154,7 +2154,7 @@ THE COMPLETE title of the work reads:
 
 It is printed in folio, the musical examples being hand-set, and contains 280 numbered pages and 6 unnumbered pages. In some copies a frontispiece appears preceding the title page. The present translation covers pages 41 through 139, page 279, and the preface (three unnumbered pages). The title, *Gradus ad Parnassum*—first appearing in 1687 for a dictionary of Latin versification—was often used at that time for treatises dealing with the various arts.
 
-Language and orthography show the usual deviations of ecclesiastical from classical Latin. Capitals are generally employed according to their use in German. There is a distinction made between *f* and *s* and between *i* and *j*. For the word *et* the symbol *&amp;* is always used. The original punctuation has often been changed in the translation for the sake of greater clarity. Fux has marked the text by using three indicative symbols—which proved to be of considerable help in the work of translation: *‘* for long syllables (notâ-nota), *‘* for adverbs, conjunctions, and prepositions, in order to distinguish identical forms with different meanings (versùs-versus), and *‘* in order to divide words with independent meanings which appear as one word (itáque-itaque). In the musical examples, we find the note shapes of the old mensural notation, then still employed in print. According to our modern use, the G clef has been substituted for the C clefs—though this notation will always be bound to remain a substitute as compared to the old notation. Acci
+Language and orthography show the usual deviations of ecclesiastical from classical Latin. Capitals are generally employed according to their use in German. There is a distinction made between *f* and *s* and between *i* and *j*. For the word *et* the symbol *&* is always used. The original punctuation has often been changed in the translation for the sake of greater clarity. Fux has marked the text by using three indicative symbols—which proved to be of considerable help in the work of translation: *‘* for long syllables (notâ-nota), *‘* for adverbs, conjunctions, and prepositions, in order to distinguish identical forms with different meanings (versùs-versus), and *‘* in order to divide words with independent meanings which appear as one word (itáque-itaque). In the musical examples, we find the note shapes of the old mensural notation, then still employed in print. According to our modern use, the G clef has been substituted for the C clefs—though this notation will always be bound to remain a substitute as compared to the old notation. Acci
 
 dentals occurring above the staves are not in the original. Ties across a bar line, indicated in the original by a dot in the new measure, have been written out.
 
@@ -2181,7 +2181,7 @@ Page 23, line 5 Complures Contrapunctum [tanquam Genus] continet Species.
 
 Page 27, line 7 Whole note: Nota semibrevis. For the terms of the old mensural notation I have substituted the modern terms in the translation.
 
-Page 28, line 27 Cùm autem Consonantiae imperfectae, &amp; perfectionis expertes sint, &amp; finem concludere non possint.
+Page 28, line 27 Cùm autem Consonantiae imperfectae, & perfectionis expertes sint, & finem concludere non possint.
 
 Page 29, line 1 Ad speciem hujus Contrapuncti.
 
@@ -2271,7 +2271,7 @@ Page 98, line 3 The first of the tied notes: primam Ligaturae partem.
 
 line 14 On a pedal point: in mansione.
 
-Page 99, line 5 In lectionibus versari, &amp; in studio, . . . inserendi.
+Page 99, line 5 In lectionibus versari, & in studio, . . . inserendi.
 
 line 7 Non admodum rigori caeterarum concordantiarum inhaerentes.
 
@@ -2316,7 +2316,7 @@ Fux, Johann Joseph
 *Traité de Composition Musicale*, translated by Pietro Denis, H. Nadermann, Paris, 1773(?).
 *Practical Rules for Learning Composition*, J. Preston, London, 1791.
 *Die Lehre vom Kontrapunkt*, translated and edited by Alfred Mann, Hermann Moeck, Celle, 1938, 2nd edition 1951.
-*Steps to Parnassus: The Study of Counterpoint*, translated and edited by Alfred Mann with the collaboration of John St. Edmunds, W. W. Norton, New York, 1943 (J. M. Dent &amp; Sons, London, 1944).
+*Steps to Parnassus: The Study of Counterpoint*, translated and edited by Alfred Mann with the collaboration of John St. Edmunds, W. W. Norton, New York, 1943 (J. M. Dent & Sons, London, 1944).
 
 149
 
@@ -2326,11 +2326,11 @@ Fux, Johann Joseph
 Garlandia, Johannes de
 Optima introductio in contrapunctum, published in Coussemaker, Scriptorum . . . , Vol. III.
 Griesinger, Georg August
-Biographische Notizen über Joseph Haydn, Breitkopf &amp; Härtel, Leipzig, 1810.
+Biographische Notizen über Joseph Haydn, Breitkopf & Härtel, Leipzig, 1810.
 English translation by Vernon Gotwals in Joseph Haydn, Eighteenth-Century Gentleman and Genius, University of Wisconsin Press, Madison, Wisc., 1963.
 Jeppesen, Knud
 Counterpoint, translated by Glen Haydon, Prentice-Hall Inc., New York, 1939.
-Das Sprunggesetz des Palestrinastils bei betonten Viertelnoten, in Kongressbericht, Basel, 1925, Breitkopf &amp; Härtel, Leipzig.
+Das Sprunggesetz des Palestrinastils bei betonten Viertelnoten, in Kongressbericht, Basel, 1925, Breitkopf & Härtel, Leipzig.
 Mann, Alfred
 The Study of Fugue, Rutgers University Press, New Brunswick, N.J., 1958 (Faber and Faber, London, 1959).
 Mattheson, Johann
@@ -2353,20 +2353,20 @@ Beethoven's Studien. Erster Band. Beethoven's Unterricht bei J. Haydn, Albrechts
 Plath, Wolfgang
 Beiträge zur Mozart-Autographie I, in Mozart-Jahrbuch 1960-1961, Internationale Stiftung Mozarteum, Salzburg, 1961.
 Pohl, Carl Ferdinand
-Joseph Haydn, Breitkopf &amp; Härtel, Leipzig, 1878.
+Joseph Haydn, Breitkopf & Härtel, Leipzig, 1878.
 Rameau, Jean-Philippe
 Traité de l'harmonie, Ballard, Paris, 1722.
 Nouveau Système de musique théorique, Ballard, Paris, 1726.
 Génération harmonique, Prault fils, Paris, 1737.
-Démonstration du principe de l'harmonie, Durand &amp; Pissot, Paris, 1750.
+Démonstration du principe de l'harmonie, Durand & Pissot, Paris, 1750.
 Roth, Herman
 Elemente der Stimmführung, Vol. 1, Carl Grüninger Nachf. Ernst Klett, Stuttgart, 1926.
 Seyfried, Ignaz Ritter von
 Ludwig van Beethovens Studien, Tobias Haslinger, Vienna, 1832.
 Beethoven Etudes, translated by François Joseph Fétis, Maurice Schlesinger, Paris, 1833.
-Beethoven's Studies, translated by Henry Hugh Pierson (Edgar Mansfield), Schuberth &amp; Co., Leipzig, 1853.
+Beethoven's Studies, translated by Henry Hugh Pierson (Edgar Mansfield), Schuberth & Co., Leipzig, 1853.
 Spitta, Philipp
-Johann Sebastian Bach, translated by Clara Bell and J. A. Fuller Maitland, Novello &amp; Co., London, 1899.
+Johann Sebastian Bach, translated by Clara Bell and J. A. Fuller Maitland, Novello & Co., London, 1899.
 Tinctoris, Johannes
 Diffinitorium musicae, c. 1475;
 Liber de arte contrapuncti, 1477; published in Coussemaker, Scriptorum . . . , Vol. IV.

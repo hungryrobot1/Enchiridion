@@ -910,7 +910,7 @@ Now though, as I have said, honour is specially the object-matter of the Great-m
 
 It seems too that pieces of good fortune contribute to form this character of Great-mindedness: I mean, the nobly born, or men of influence, or the wealthy, are considered to be entitled to honour, for they are in a position of eminence and whatever is eminent by good is more entitled to honour: and this is why such circumstances dispose men rather to Great-mindedness, because they receive honour at the hands of some men.
 
-Now really and truly the good man alone is entitled to honour; only if a man unites in himself goodness with these external advantages he is thought to be more entitled to honour: but they who have them without also having virtue are not justified in their high estimate of themselves, nor are they rightly denominated Great-minded; since perfect virtue is one of the indispensable conditions to such &amp; character.
+Now really and truly the good man alone is entitled to honour; only if a man unites in himself goodness with these external advantages he is thought to be more entitled to honour: but they who have them without also having virtue are not justified in their high estimate of themselves, nor are they rightly denominated Great-minded; since perfect virtue is one of the indispensable conditions to such & character.
 
 Further, such men become supercilious and insolent, it not being easy to bear prosperity well without goodness; and not being able to bear it, and possessed with an idea of their own superiority to others, they despise them, and do just whatever their fancy prompts; for they mimic the Great-minded man, though they are not like him, and they do this in such points as they can, so without doing the actions which can only flow from real goodness they despise others. Whereas the Great-minded man despises on good grounds (for he forms his opinions truly), but the mass of men do it at random.
 
@@ -2142,7 +2142,7 @@ Quarrels arise also when the parties realise different results and not those whi
 
 The question then arises, who is to fix the rate? the man who first gives, or the man who first takes? because, *primà facie*, the man who first gives seems to leave the rate to be fixed by the other party. This, they say, was in fact the practice of Protagoras: when he taught a man anything he would bid the learner estimate the worth of the knowledge gained by his own private opinion; and then he used to take so much from him. In such cases some people adopt the rule,
 
-&gt; “With specified reward a friend should be content.”
+> “With specified reward a friend should be content.”
 
 They are certainly fairly found fault with who take the money in advance and then do nothing of what they said they would do, their promises having been so far beyond their ability; for such men do not perform what they agreed, The Sophists, however, are perhaps obliged to take this course, because no one would give a sixpence for their knowledge. These then, I say, are fairly found fault with, because they do not what they have already taken money for doing.
 

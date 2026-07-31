@@ -501,10 +501,10 @@ $$
 
 $$
 \begin{aligned}
-\therefore DD': DK &amp;= DD'^2: PP'^2 \\
-&amp;= CD^2: CP^2 \\
-&amp;= PC \cdot CE: CP^2 \\
-&amp;= RT \cdot TE: RT^2,
+\therefore DD': DK &= DD'^2: PP'^2 \\
+&= CD^2: CP^2 \\
+&= PC \cdot CE: CP^2 \\
+&= RT \cdot TE: RT^2,
 \end{aligned}
 $$
 
@@ -800,9 +800,9 @@ It remains to be proved that no straight line can fall between the straight line
 Then
 $$
 \begin{aligned}
-KV^2 : PV^2 &amp;&gt; QV^2 : PV^2 \\
-&amp;&gt; PL : PV : PV^2 \\
-&amp;&gt; PL : PV.
+KV^2 : PV^2 &> QV^2 : PV^2 \\
+&> PL : PV : PV^2 \\
+&> PL : PV.
 \end{aligned}
 $$
 
@@ -847,7 +847,7 @@ Let $ PF $ be parallel to the ordinates to $ PP $, and, if possible, let $ PK $ 
 
 pendicular to $PV$. Join $P'L$ and let it (produced if necessary) meet $VR$ in $R$.
 
-Then $QV^2 = PV \cdot VR$, so that $KV^2 &gt; PV \cdot VR$.
+Then $QV^2 = PV \cdot VR$, so that $KV^2 > PV \cdot VR$.
 
 Take a point $S$ on $VR$ produced such that $KV^2 = PV \cdot VS$. Join $PS$ and let it meet $P'R$ in $R'$. Draw $R'V'$ parallel to $PL$ meeting $PV$ in $V'$, and through $V'$ draw $V'QM$ parallel to $QV$, meeting the curve in $Q'$ and $PK$ in $M$.
 
@@ -917,16 +917,16 @@ $$
 
 $$
 \begin{array}{l}
-&gt; KV'^2:QV^2, \text{ by hypothesis,} \\
-&gt; TV'^2:TV^2. \\
-\therefore PV':PV &gt; TV'^2:TV^2.
+> KV'^2:QV^2, \text{ by hypothesis,} \\
+> TV'^2:TV^2. \\
+\therefore PV':PV > TV'^2:TV^2.
 \end{array}
 $$
 
 Hence
 
 $$
-4TP.PV': 4TP.PV &gt; TV'^2: TV^2,
+4TP.PV': 4TP.PV > TV'^2: TV^2,
 $$
 
 and, since $TP = PV$,
@@ -934,14 +934,14 @@ and, since $TP = PV$,
 $$
 \begin{array}{l}
 4TP.PV = TV^2, \\
-\therefore 4TP.PV' &gt; TV'^2.
+\therefore 4TP.PV' > TV'^2.
 \end{array}
 $$
 
 But, since by hypothesis $TV'$ is not bisected in $P$,
 
 $$
-4TP.PV' &lt; TV'^2,
+4TP.PV' < TV'^2,
 $$
 
 which is absurd.
@@ -985,37 +985,37 @@ $$
 
 Hence
 $$
-PN.NM &gt; PO.OM,
+PN.NM > PO.OM,
 $$
 or
 $$
-NM:MO &gt; OP:PN;
+NM:MO > OP:PN;
 $$
 $$
-\therefore P'H:P'I &gt; OP:PN,
+\therefore P'H:P'I > OP:PN,
 $$
 or
 $$
-P'H.PN &gt; P'I.OP.
+P'H.PN > P'I.OP.
 $$
 
-It follows that $P'H.PN:TQ^2 &gt; P'I.OP:TQ^2$;
+It follows that $P'H.PN:TQ^2 > P'I.OP:TQ^2$;
 $$
 \therefore \text{ by similar triangles } \\
-P'V.PV:TV^2 &gt; P'V'.PV':TV'^2,
+P'V.PV:TV^2 > P'V'.PV':TV'^2,
 $$
 or
 $$
-P'V.PV:P'V'.PV' &gt; TV^2:TV'^2;
+P'V.PV:P'V'.PV' > TV^2:TV'^2;
 $$
 $$
-\therefore QV^2:Q'V'^2 &gt; TV^2:TV'^2
+\therefore QV^2:Q'V'^2 > TV^2:TV'^2
 $$
 $$
-&gt; QV^2:KV'^2.
+> QV^2:KV'^2.
 $$
 
-$\therefore Q'V' &lt; KV'$, which is contrary to the hypothesis.
+$\therefore Q'V' < KV'$, which is contrary to the hypothesis.
 
 Thus $TQ$ does not cut the curve, and therefore it touches it.
 
@@ -1490,8 +1490,8 @@ Thus (1), as the figure is drawn for the *hyperbola*,
 
 $$
 \begin{aligned}
-&amp; \Delta RUW = \text{quadrilateral } EPWF, \\
-&amp; \Delta R'UW' = \text{quadrilateral } EPW'F';
+& \Delta RUW = \text{quadrilateral } EPWF, \\
+& \Delta R'UW' = \text{quadrilateral } EPW'F';
 \end{aligned}
 $$
 
@@ -1513,8 +1513,8 @@ $$
 
 $$
 \begin{aligned}
-&amp; \Delta CPE - \Delta CFW = \Delta RUW, \\
-&amp; \Delta CPE - \Delta CF'W' = \Delta R'UW',
+& \Delta CPE - \Delta CFW = \Delta RUW, \\
+& \Delta CPE - \Delta CF'W' = \Delta R'UW',
 \end{aligned}
 $$
 
@@ -1522,8 +1522,8 @@ $\therefore$, by subtraction,
 
 $$
 \begin{aligned}
-&amp; \Delta CF'W' - \Delta CFW = \Delta RUW - \Delta R'UW', \\
-&amp; \Delta RUW + \Delta CFW = \Delta R'UW' + \Delta CF'W'.
+& \Delta CF'W' - \Delta CFW = \Delta RUW - \Delta R'UW', \\
+& \Delta RUW + \Delta CFW = \Delta R'UW' + \Delta CF'W'.
 \end{aligned}
 $$
 
@@ -1741,7 +1741,7 @@ First, let the given angle be a right angle, so that the given straight line is 
 
 Let $AB$ be the given straight line terminating at $A$, $p_a$ the given length.
 
-Produce $BA$ to $C$ so that $AC &gt; \frac{p_a}{4}$, and let $S$ be a mean proportional between $AC$ and $p_a$. (Thus $p_a : AC = S^2 : AC^2$, and $AC &gt; \frac{1}{4} p_a$, whence $AC^2 &gt; \frac{S^2}{4}$, or $2AC &gt; S$, so that it is possible to describe an isosceles triangle having two sides equal to $AC$ and the third equal to $S$.)
+Produce $BA$ to $C$ so that $AC > \frac{p_a}{4}$, and let $S$ be a mean proportional between $AC$ and $p_a$. (Thus $p_a : AC = S^2 : AC^2$, and $AC > \frac{1}{4} p_a$, whence $AC^2 > \frac{S^2}{4}$, or $2AC > S$, so that it is possible to describe an isosceles triangle having two sides equal to $AC$ and the third equal to $S$.)
 
 Let $AOC$ be an isosceles triangle in a plane perpendicular to the given plane and such that $AO = AC$, $OC = S$.
 
@@ -1836,10 +1836,10 @@ Then, because $NA$ meets $HO$ produced beyond $O$, the curve $PAP'$ is a hyperbo
 And
 $$
 \begin{aligned}
-AA': p_a &amp;= DC:CG \\
-&amp;= DB:BO \\
-&amp;= DB.BO:BO^2 \\
-&amp;= A'B.BA:BO^2.
+AA': p_a &= DC:CG \\
+&= DB:BO \\
+&= DB.BO:BO^2 \\
+&= A'B.BA:BO^2.
 \end{aligned}
 $$
 
@@ -1930,11 +1930,11 @@ and
 
 $$
 \begin{aligned}
-2CP: 2PT &amp;= CH: NH \\
-&amp;= CH \cdot HP: NH \cdot HP; \\
-\therefore p: 2PT &amp;= NH^2: NH \cdot HP \\
-&amp;= NH: HP \\
-&amp;= OP: PE, \text{ by similar triangles;}
+2CP: 2PT &= CH: NH \\
+&= CH \cdot HP: NH \cdot HP; \\
+\therefore p: 2PT &= NH^2: NH \cdot HP \\
+&= NH: HP \\
+&= OP: PE, \text{ by similar triangles;}
 \end{aligned}
 $$
 
@@ -2046,7 +2046,7 @@ $$ BM : BB' = AA' : AL; $$
 thus
 
 $$
-AA' &gt; AL.
+AA' > AL.
 $$
 
 ---
@@ -2220,10 +2220,10 @@ Then, since $PL = PL'$, and $RR'$, $LL'$ are parallel, $RV = R'V$, where $V$ is 
 
 And, since $PKRL$ is a parallelogram, $PK = LR$, $PL = KR$.
 
-Therefore $QR &gt; PL$. Also $R'Q &gt; PL'$;
+Therefore $QR > PL$. Also $R'Q > PL'$;
 
 $$
-\therefore RQ \cdot QR' &gt; PL \cdot PL', \text{ or } PL' \tag{1}
+\therefore RQ \cdot QR' > PL \cdot PL', \text{ or } PL' \tag{1}
 $$
 
 Again $RV^2: CV^2 = PL^2: CP^2 = p: PP'$, [Prop. 28]
@@ -2322,8 +2322,8 @@ therefore, subtracting, $QR = qr$.
 
 $$
 \begin{aligned}
-p : PP' &amp;= PL^2 : CP^2 \\
-&amp;= RV^2 : CV^2,
+p : PP' &= PL^2 : CP^2 \\
+&= RV^2 : CV^2,
 \end{aligned}
 $$
 
@@ -2335,8 +2335,8 @@ $$
 
 $$
 \begin{aligned}
-\therefore PL^2 : CP^2 &amp;= p : PP' = RV^2 - QV^2 : CP^2 \\
-&amp;= RQ \cdot Qr : CP^2;
+\therefore PL^2 : CP^2 &= p : PP' = RV^2 - QV^2 : CP^2 \\
+&= RQ \cdot Qr : CP^2;
 \end{aligned}
 $$
 
@@ -2344,8 +2344,8 @@ thus
 
 $$
 \begin{aligned}
-RQ \cdot Qr &amp;= PL^2 \\
-&amp;= \frac{1}{4} p \cdot PP' = CD^2.
+RQ \cdot Qr &= PL^2 \\
+&= \frac{1}{4} p \cdot PP' = CD^2.
 \end{aligned}
 $$
 
@@ -2376,9 +2376,9 @@ Then we have
 
 $$
 \begin{aligned}
-PL^2 : CP^2 &amp;= (PL : CP) \cdot (PL' : CP) \\
-&amp;= (RQ : KQ) \cdot (Qr : QK') \\
-&amp;= RQ \cdot Qr : KQ \cdot QK'.
+PL^2 : CP^2 &= (PL : CP) \cdot (PL' : CP) \\
+&= (RQ : KQ) \cdot (Qr : QK') \\
+&= RQ \cdot Qr : KQ \cdot QK'.
 \end{aligned}
 $$
 
@@ -2485,7 +2485,7 @@ $$
 \therefore hq.qk = CE.EF:
 $$
 
-which is impossible, $\because hq &gt; EF$, and $qk &gt; CE$.
+which is impossible, $\because hq > EF$, and $qk > CE$.
 
 Therefore $EF$ will meet the hyperbola in one point, as $R$.
 
@@ -2495,7 +2495,7 @@ For, if possible, let $EF$ meet it in $R'$ as well as $R$, and let $RM$, $R'M'$ 
 
 Then $ER.RM = ER'.R'M'$ : [Prop. 34]
 
-which is impossible, $\because ER' &gt; ER$.
+which is impossible, $\because ER' > ER$.
 
 Therefore $EF$ does not meet the hyperbola in a second point $R'$.
 
@@ -2521,10 +2521,10 @@ r'q'.q'R' = rq.qR,
 $$
 and
 $$
-q'R' &gt; qR;
+q'R' > qR;
 $$
 $$
-\therefore q'r' &lt; qr,
+\therefore q'r' < qr,
 $$
 
 and hence, as successive chords are taken more and more distant from the centre, $qr$ becomes smaller and smaller.
@@ -2539,7 +2539,7 @@ $$
 
 whence
 $$
-MK &lt; S.
+MK < S.
 $$
 
 ---
@@ -3088,7 +3088,7 @@ greater than the angle between the axis and an asymptote, or half that between t
 We have then $CA^2: AZ^2$ (or $CA^2: CB^2$) = $EF^2: FH^2$.
 
 $$
-\therefore CA^2: CB^2 &gt; EF^2: FD^2.
+\therefore CA^2: CB^2 > EF^2: FD^2.
 $$
 
 Take a point $K$ on $FE$ produced such that
@@ -3100,7 +3100,7 @@ $$
 Thus
 
 $$
-KF^2: FD^2 &gt; CA^2: AZ^2.
+KF^2: FD^2 > CA^2: AZ^2.
 $$
 
 Therefore, if $DK$ be joined, the angle $DKF$ is less than the angle $ACZ$. Hence, if the angle $ACP$ be made equal to the angle $DKF$, $CP$ must meet the hyperbola in some point $P$.
@@ -3198,21 +3198,21 @@ $$
 FI^2 : ID^2 = CA^2 : CB^2.
 $$
 
-Now $OD : OI &gt; LH : LM$, since $OI = LM$.
+Now $OD : OI > LH : LM$, since $OI = LM$.
 
 $$
-\therefore OD : DI &lt; LH : HM
+\therefore OD : DI < LH : HM
 $$
 
 ---
 
 and, doubling the antecedents,
 
-$$ DG: DI &lt; HK: HM; $$
+$$ DG: DI < HK: HM; $$
 
 whence
 
-$$ GI: ID &lt; KM: MH. $$
+$$ GI: ID < KM: MH. $$
 
 But
 
@@ -3220,11 +3220,11 @@ $$ GI: ID = FI^2: ID^2 = CA^2: CB^2 $$
 
 $$ = CN. NT: PN^2. $$
 
-$$ \therefore CN. NT: PN^2 &lt; KM: MH $$
+$$ \therefore CN. NT: PN^2 < KM: MH $$
 
-$$ &lt; KM. MH: MH^2 $$
+$$ < KM. MH: MH^2 $$
 
-$$ &lt; EM. MF: MH^2. $$
+$$ < EM. MF: MH^2. $$
 
 Let
 
@@ -3232,7 +3232,7 @@ $$ CN. NT: PN^2 = EM. MF: MR^2, $$
 
 where $ R $ is some point on $ HK $ or $ HK $ produced.
 
-It follows that $ MR &gt; MH $, and $ R $ lies on $ KH $ produced.
+It follows that $ MR > MH $, and $ R $ lies on $ KH $ produced.
 
 Join $ ER $, $ RF $.
 
@@ -3333,7 +3333,7 @@ EM \cdot MF : DM^2 = CA^2 : CB^2 = CA^2 : AZ^2,
 $$
 
 $$
-\therefore EM^2 : DM^2 &gt; CA^2 : AZ^2,
+\therefore EM^2 : DM^2 > CA^2 : AZ^2,
 $$
 
 and the angle $DEM$ is less than the angle $ZCA$.
@@ -3413,16 +3413,16 @@ $$
 ```markdown
 whence
 $CA^2:CB^2>FI^2:IL^2$
-$&gt;L'I:IL.$
+$>L'I:IL.$
 
 It follows that
-$\alpha\beta:\beta\gamma&gt;L'I:IL,$
+$\alpha\beta:\beta\gamma>L'I:IL,$
 so that
-$\alpha\gamma:\gamma\beta&gt;L'L:IL,$
+$\alpha\gamma:\gamma\beta>L'L:IL,$
 and, halving the antecedents,
-$\delta\gamma:\gamma\beta&gt;OL:LI,$
+$\delta\gamma:\gamma\beta>OL:LI,$
 so that
-$\delta\beta:\beta\gamma&gt;OI:IL.$
+$\delta\beta:\beta\gamma>OI:IL.$
 
 Hence, if $H$ be such a point that
 $\delta\beta:\beta\gamma=OI:IH,$
@@ -3740,7 +3740,7 @@ $$
 
 ![img-94.jpeg](images/img-94.jpeg)
 
-(2) Let $R'w'$ be another ordinate, and $h', w' \&amp;c.$ points corresponding to $h, w, \&amp;c.$ Also let $Ru, R'w'$ meet in $i$ and $Rw, R'u'$ in $j$.
+(2) Let $R'w'$ be another ordinate, and $h', w' \&c.$ points corresponding to $h, w, \&c.$ Also let $Ru, R'w'$ meet in $i$ and $Rw, R'u'$ in $j$.
 
 Then, from above,
 
@@ -4015,10 +4015,10 @@ If $RW$, $R'W'$ are ordinates to $PP'$,
 
 $$
 \begin{aligned}
-p: P P' &amp;= R W^{2}: C W^{2} \sim C P^{2} \quad [\text{Prop. 8}] \\
-&amp;= R' W'^{2}: C W'^{2} \sim C P^{2} \\
-&amp;= R W^{2} \sim R' W'^{2}: C W^{2} \sim C W'^{2} \\
-&amp;= R I. I r: R' I. I r'.
+p: P P' &= R W^{2}: C W^{2} \sim C P^{2} \quad [\text{Prop. 8}] \\
+&= R' W'^{2}: C W'^{2} \sim C P^{2} \\
+&= R W^{2} \sim R' W'^{2}: C W^{2} \sim C W'^{2} \\
+&= R I. I r: R' I. I r'.
 \end{aligned}
 $$
 
@@ -4032,10 +4032,10 @@ Using the figure of Prop. 58, we have
 
 $$
 \begin{aligned}
-O Q^{2}: \Delta O Q E &amp;= R M^{2}: \Delta R M F \\
-&amp;= M I^{2}: \Delta M I F' \\
-&amp;= R I. I r: \Delta R M F \sim \Delta M I F' \\
-&amp;= R I. I r: F' I R F,
+O Q^{2}: \Delta O Q E &= R M^{2}: \Delta R M F \\
+&= M I^{2}: \Delta M I F' \\
+&= R I. I r: \Delta R M F \sim \Delta M I F' \\
+&= R I. I r: F' I R F,
 \end{aligned}
 $$
 
@@ -4093,12 +4093,12 @@ We have therefore
 
 $$
 \begin{aligned}
-CD^2: CP^2 &amp;= K'O. Ok' + CD^2: KO. Ok + CP^2 \\
-&amp;= K'O. Ok' + K'R'. R'k': KO. Ok + CP^2 \\
-&amp;= K'W'^2 - OW'^2 + R'W'^2 - K'W'^2: Ow^2 - Kw^2 + CP^2 \\
-&amp;= R'W'^2 - OW'^2: Rw^2 - Kw^2 - Rw^2 + Ow^2 + CP^2 \\
-&amp;= R'O. Or': RK. Kr + CP^2 - RO. Or \\
-&amp;= R'O. Or': 2CP^2 - RO. Or \text{ (since } Kr = Rk\text{),}
+CD^2: CP^2 &= K'O. Ok' + CD^2: KO. Ok + CP^2 \\
+&= K'O. Ok' + K'R'. R'k': KO. Ok + CP^2 \\
+&= K'W'^2 - OW'^2 + R'W'^2 - K'W'^2: Ow^2 - Kw^2 + CP^2 \\
+&= R'W'^2 - OW'^2: Rw^2 - Kw^2 - Rw^2 + Ow^2 + CP^2 \\
+&= R'O. Or': RK. Kr + CP^2 - RO. Or \\
+&= R'O. Or': 2CP^2 - RO. Or \text{ (since } Kr = Rk\text{),}
 \end{aligned}
 $$
 
@@ -4186,9 +4186,9 @@ $$
 
 $$
 \begin{aligned}
-CP^2 : CD^2 &amp;= PW \cdot WP' : RW^2 \\
-&amp;= R'w'^2 : Dw' \cdot w'D' \\
-&amp;= CP^2 + PW \cdot WP' \pm R'w'^2 : CD^2 + RW^2 \pm Dw' \cdot w'D',
+CP^2 : CD^2 &= PW \cdot WP' : RW^2 \\
+&= R'w'^2 : Dw' \cdot w'D' \\
+&= CP^2 + PW \cdot WP' \pm R'w'^2 : CD^2 + RW^2 \pm Dw' \cdot w'D',
 \end{aligned}
 $$
 
@@ -4204,8 +4204,8 @@ whence, for the hyperbolas,
 
 $$
 \begin{aligned}
-CP^2 : CD^2 &amp;= CW'^2 + CW^2 : Cw^2 + Cw'^2 \\
-&amp;= \frac{1}{2}(RO^2 + Or^2) : \frac{1}{2}(R'O^2 + Or'^2),
+CP^2 : CD^2 &= CW'^2 + CW^2 : Cw^2 + Cw'^2 \\
+&= \frac{1}{2}(RO^2 + Or^2) : \frac{1}{2}(R'O^2 + Or'^2),
 \end{aligned}
 $$
 
@@ -4219,8 +4219,8 @@ while, for the ellipse,
 
 $$
 \begin{aligned}
-CP^2 : CD^2 &amp;= 2CP^2 - (CW'^2 + CW^2) : Cw'^2 + Cw^2 \\
-&amp;= 4CP^2 - (RO^2 + Or^2) : (R'O^2 + Or'^2),
+CP^2 : CD^2 &= 2CP^2 - (CW'^2 + CW^2) : Cw'^2 + Cw^2 \\
+&= 4CP^2 - (RO^2 + Or^2) : (R'O^2 + Or'^2),
 \end{aligned}
 $$
 
@@ -4256,9 +4256,9 @@ Therefore, by addition,
 
 $$
 \begin{aligned}
-R'O^2 + Or'^2 - K'O^2 - Ok'^2 &amp;= 2R'K'(R'K' + K'O + Ok') \\
-&amp;= 2R'K'.R'k' \\
-&amp;= 2CD^2.
+R'O^2 + Or'^2 - K'O^2 - Ok'^2 &= 2R'K'(R'K' + K'O + Ok') \\
+&= 2R'K'.R'k' \\
+&= 2CD^2.
 \end{aligned}
 $$
 
@@ -4359,8 +4359,8 @@ Again $CP^2:PL^2 = PW'.W'P':R'W'^2$
 
 $$
 \begin{aligned}
-&amp;= PW'.W'P' + CP'^2:R'W'^2 + CD^2 \\
-&amp;= CW'^2:Cw'^2 + CV.CT.
+&= PW'.W'P' + CP'^2:R'W'^2 + CD^2 \\
+&= CW'^2:Cw'^2 + CV.CT.
 \end{aligned}
 $$
 
@@ -4896,9 +4896,9 @@ $\therefore A, r, Y, S$ are concyclic, and
 
 $$
 \begin{aligned}
-\angle AYS &amp;= \angle ArS \\
-&amp;= \angle r'S A', \text{ since } \angle rSr' \text{ is right} \\
-&amp;= \angle r' Y A', \text{ in the same segment},
+\angle AYS &= \angle ArS \\
+&= \angle r'S A', \text{ since } \angle rSr' \text{ is right} \\
+&= \angle r' Y A', \text{ in the same segment},
 \end{aligned}
 $$
 
@@ -4961,12 +4961,12 @@ We have, as in the last proposition, if $SP$, $CY'$, $S'K$ are parallel, $S'K = 
 Then, since
 $$
 \begin{aligned}
-SC &amp;= CS', \\
-SP &amp;= 2CM, \\
-S'P &amp;= S'K = 2MY'; \\
-\therefore SP \pm S'P &amp;= 2(CM \pm MY') \\
-&amp;= 2CY' \\
-&amp;= AA'.
+SC &= CS', \\
+SP &= 2CM, \\
+S'P &= S'K = 2MY'; \\
+\therefore SP \pm S'P &= 2(CM \pm MY') \\
+&= 2CY' \\
+&= AA'.
 \end{aligned}
 $$
 [Prop. 72]
@@ -4997,8 +4997,8 @@ Now $p: PP' = QV^2: PV \cdot P'V$ [Prop. 8]
 
 $$
 \begin{aligned}
-&amp;= (QV: PV) \cdot (QV: P'V) \\
-&amp;= (P'R': PP') \cdot (PR: PP'), \text{ by similar triangles}; \\
+&= (QV: PV) \cdot (QV: P'V) \\
+&= (P'R': PP') \cdot (PR: PP'), \text{ by similar triangles}; \\
 \end{aligned}
 $$
 
@@ -5088,9 +5088,9 @@ Therefore, ex aequali,
 
 $$
 \begin{aligned}
-tq^2 : tQ \cdot tQ' &amp;= L'R \cdot RL : LQ \cdot L'Q' \\
-&amp;= (L'R : L'Q') \cdot (RL : LQ) \\
-&amp;= (QQ' : Qr) \cdot (QQ' : Q'r') = QQ'^2 : Qr \cdot Q'r'.
+tq^2 : tQ \cdot tQ' &= L'R \cdot RL : LQ \cdot L'Q' \\
+&= (L'R : L'Q') \cdot (RL : LQ) \\
+&= (QQ' : Qr) \cdot (QQ' : Q'r') = QQ'^2 : Qr \cdot Q'r'.
 \end{aligned}
 $$
 
@@ -5296,8 +5296,8 @@ If possible, let there be five points of intersection $A, B, C, D, E$, being *su
 Therefore
 $$
 \begin{aligned}
-&amp;\text{ET: } TP = \text{EI: } IP \\
-&amp;\text{ET: } TP' = \text{EI: } IP'
+&\text{ET: } TP = \text{EI: } IP \\
+&\text{ET: } TP' = \text{EI: } IP'
 \end{aligned}
 $$
 and
@@ -5474,16 +5474,16 @@ For the hyperbola
 
 $$
 \begin{aligned}
-CV: CP &amp;= CP: CT \\
-&amp;= CV - CP: CP - CT \\
-&amp;= PV: PT.
+CV: CP &= CP: CT \\
+&= CV - CP: CP - CT \\
+&= PV: PT.
 \end{aligned}
 $$
 
 Therefore
 
 $$
-PV &gt; PT.
+PV > PT.
 $$
 
 And for the parabola $P'V = P'T$: therefore the hyperbola falls outside the parabola, which is impossible.
@@ -5583,7 +5583,7 @@ $$ = AE^2 + AN^2. $$
 
 ---
 
-Thus $PE^2 &gt; AE^2$ and increases with $AN$, i.e. as $P$ moves further and further from $A$.
+Thus $PE^2 > AE^2$ and increases with $AN$, i.e. as $P$ moves further and further from $A$.
 
 Also the *minimum* value of $PE$ is $AE$, or $AE$ is the shortest straight line from $E$ to the curve.
 
@@ -5617,10 +5617,10 @@ Now $PN^2 = 2$ (quadrilateral $MANH$), [Prop. 81] and $EN^2 = 2 \triangle ENK$;
 
 $$
 \begin{aligned}
-\therefore PE^2 &amp;= 2 \ (\triangle EAM + \triangle MHK) \\
-&amp;= AE^2 + MI.HK \\
-&amp;= AE^2 + MI.(IK \pm IH) \\
-&amp;= AE^2 + MI.(MI \pm IH). \quad \text{(1)}.
+\therefore PE^2 &= 2 \ (\triangle EAM + \triangle MHK) \\
+&= AE^2 + MI.HK \\
+&= AE^2 + MI.(IK \pm IH) \\
+&= AE^2 + MI.(MI \pm IH). \quad \text{(1)}.
 \end{aligned}
 $$
 
@@ -5638,8 +5638,8 @@ $$
 
 $$
 \begin{aligned}
-&amp;= MI^2 \cdot \frac{AA' \pm p_a}{AA'} \\
-&amp;= AN^2 \cdot \frac{AA' \pm p_a}{AA'}.
+&= MI^2 \cdot \frac{AA' \pm p_a}{AA'} \\
+&= AN^2 \cdot \frac{AA' \pm p_a}{AA'}.
 \end{aligned}
 $$
 
@@ -5655,8 +5655,8 @@ Also in the ellipse the *maximum* value of $PE^2$ is
 
 $$
 \begin{aligned}
-AE^2 + AA'(AA' - p_a) &amp;= AE^2 + AA'^2 - 2AE.AA' \\
-&amp;= EA'^2.
+AE^2 + AA'(AA' - p_a) &= AE^2 + AA'^2 - 2AE.AA' \\
+&= EA'^2.
 \end{aligned}
 $$
 
@@ -5666,40 +5666,40 @@ $$
 
 [V. 7.]
 
-If any point $O$ be taken on the axis of any conic such that $AO &lt; \frac{1}{2} p_a$, then $OA$ is the **minimum** straight line from $O$ to the curve, and $OP$ (if $P$ is any other point on it) increases as $P$ moves further and further from $A$.
+If any point $O$ be taken on the axis of any conic such that $AO < \frac{1}{2} p_a$, then $OA$ is the **minimum** straight line from $O$ to the curve, and $OP$ (if $P$ is any other point on it) increases as $P$ moves further and further from $A$.
 
 Let $AE$ be set off along the axis equal to half the parameter, and join $PE, PO, PA$.
 
-Then [Props. 82, 83] $PE &gt; AE$,
+Then [Props. 82, 83] $PE > AE$,
 
-so that $\angle PAE &gt; \angle APE$;
+so that $\angle PAE > \angle APE$;
 
 and a fortiori
 
 $$
-\angle PAO &gt; \angle APO,
+\angle PAO > \angle APO,
 $$
 
-so that $PO &gt; AO$.
+so that $PO > AO$.
 
 And, if $P'$ be another point more remote from $A$,
 
 $$
-P'E &gt; PE.
+P'E > PE.
 $$
 
 $$
-\therefore \angle EPP' &gt; \angle EP'P;
+\therefore \angle EPP' > \angle EP'P;
 $$
 
 and a fortiori
 
 $$
-\angle OPP' &gt; \angle OP'P.
+\angle OPP' > \angle OP'P.
 $$
 
 $$
-\therefore OP' &gt; OP,
+\therefore OP' > OP,
 $$
 
 and so on.
@@ -5708,7 +5708,7 @@ and so on.
 
 [V. 8.]
 
-In a parabola, if $G$ be a point on the axis such that $AG &gt; \frac{1}{2} p_a$, and if $N$ be taken between $A$ and $G$ such that
+In a parabola, if $G$ be a point on the axis such that $AG > \frac{1}{2} p_a$, and if $N$ be taken between $A$ and $G$ such that
 
 $$
 NG = \frac{p_a}{2},
@@ -5763,7 +5763,7 @@ And $P'G$ increases with $NN'$, i.e. as $P'$ moves further from $P$ in either di
 
 [V. 9, 10, 11.]
 
-In a hyperbola or an ellipse, if $G$ be any point on $AA'$ (within the curve) such that $AG &gt; \frac{p_a}{2}$, and if $GN$ be measured towards the nearer vertex $A$ so that
+In a hyperbola or an ellipse, if $G$ be any point on $AA'$ (within the curve) such that $AG > \frac{p_a}{2}$, and if $GN$ be measured towards the nearer vertex $A$ so that
 
 $$
 NG : CN = p_a : AA' \quad [= CB^2 : CA^2],
@@ -5838,8 +5838,8 @@ Since
 
 $$
 \begin{array}{l}
-P'G &gt; PG, \\
-\angle GPP' &gt; \angle GP'P.
+P'G > PG, \\
+\angle GPP' > \angle GP'P.
 \end{array}
 $$
 
@@ -5848,19 +5848,19 @@ $$
 Therefore, *a fortiori*,
 
 $$
-\angle OPP' &gt; \angle OP'P,
+\angle OPP' > \angle OP'P,
 $$
 
 or
 
 $$
-OP' &gt; OP.
+OP' > OP.
 $$
 
 Similarly
 
 $$
-OP'' &gt; OP' \ [\&amp;c. \text{ as in Prop. 84}].
+OP'' > OP' \ [\&c. \text{ as in Prop. 84}].
 $$
 
 [There follow three propositions establishing for the three curves, by *reductio ad absurdum*, the converse of the propositions 85 and 86 just given. It is also proved that the normal makes with the axis towards the nearer vertex an acute angle.]
@@ -5873,7 +5873,7 @@ If $E'$ be a point on the minor axis of an ellipse at a distance from $B$ equal 
 
 Also $E'B' - E'P' = Bn^2 \cdot \frac{p_b - BB'}{BB'} \left[= Bn^2 \cdot \frac{CA^2 - CB^2}{CB^2} \right].$
 
-Apollonius proves this separately for the cases (1) where $\frac{p_b}{2} &lt; BB'$, (2) where $\frac{p_b}{2} = BB'$, and (3) where $\frac{p_b}{2} &gt; BB'$.
+Apollonius proves this separately for the cases (1) where $\frac{p_b}{2} < BB'$, (2) where $\frac{p_b}{2} = BB'$, and (3) where $\frac{p_b}{2} > BB'$.
 
 The method of proof is the same for all three cases, and only the first case of the three is given here.
 
@@ -5895,10 +5895,10 @@ But $BE'^2 = 2 \triangle mBE'$.
 
 $$
 \begin{aligned}
-\therefore BE'^2 - PE'^2 &amp;= 2 \triangle mhk \\
-&amp;= mi \cdot (hi - ki) = mi \cdot (hi - mi) \\
-&amp;= mi^2 \cdot \frac{mB - CB}{CB} \\
-&amp;= Bn^2 \cdot \frac{Pb - BB'}{BB'} \,,
+\therefore BE'^2 - PE'^2 &= 2 \triangle mhk \\
+&= mi \cdot (hi - ki) = mi \cdot (hi - mi) \\
+&= mi^2 \cdot \frac{mB - CB}{CB} \\
+&= Bn^2 \cdot \frac{Pb - BB'}{BB'} \,,
 \end{aligned}
 $$
 
@@ -5908,7 +5908,7 @@ whence the proposition follows.
 
 [V. 19.]
 
-If $BE'$ be measured along the minor axis of an ellipse equal to half the parameter $\left[\text{or } \frac{CA^2}{CB}\right]$ and any point $O$ be taken on the minor axis such that $BO &gt; BE'$, then $OB$ is the **maximum** straight line from $O$ to the curve; and, if $P$ be any other point on it, $OP$ diminishes continually as $P$ moves in either direction from $B$ to $B'$.
+If $BE'$ be measured along the minor axis of an ellipse equal to half the parameter $\left[\text{or } \frac{CA^2}{CB}\right]$ and any point $O$ be taken on the minor axis such that $BO > BE'$, then $OB$ is the **maximum** straight line from $O$ to the curve; and, if $P$ be any other point on it, $OP$ diminishes continually as $P$ moves in either direction from $B$ to $B'$.
 
 The proof follows the method of Props. 84, 87.
 
@@ -5918,7 +5918,7 @@ The proof follows the method of Props. 84, 87.
 
 [V. 20, 21, 22.]
 
-If $g$ be a point on the minor axis of an ellipse such that $Bg &gt; BC$ and $Bg &lt; \frac{1}{2} p_b$ [or $\frac{CA^2}{CB}$], and if $C_n$ be measured towards $B$ so that
+If $g$ be a point on the minor axis of an ellipse such that $Bg > BC$ and $Bg < \frac{1}{2} p_b$ [or $\frac{CA^2}{CB}$], and if $C_n$ be measured towards $B$ so that
 
 $$
 C_n: ng = BB': p_b [= CB^2:CA^2],
@@ -6043,9 +6043,9 @@ $$
 
 $$
 \begin{aligned}
-PN^2 : CN. NT &amp;= p_a : AA' \quad \text{[Prop. 14]} \\
-&amp;= NG : CN, \text{ by the property of the minimum,} \\
-&amp;= TN. NG : CN. NT. \quad \text{[Prop. 86]}
+PN^2 : CN. NT &= p_a : AA' \quad \text{[Prop. 14]} \\
+&= NG : CN, \text{ by the property of the minimum,} \\
+&= TN. NG : CN. NT. \quad \text{[Prop. 86]}
 \end{aligned}
 $$
 
@@ -6062,9 +6062,9 @@ $$
 
 [Apollonius gives an alternative proof applicable to all three conics. If $GP$ is not perpendicular to the tangent, let $GK$ be perpendicular to it.
 
-Then $\angle GKP &gt; \angle GPK$, and therefore $GP &gt; GK$.
+Then $\angle GKP > \angle GPK$, and therefore $GP > GK$.
 
-Hence a fortiori $GP &gt; GQ$, where $Q$ is the point in which $GK$ cuts the conic; and this is impossible because $GP$ is a *minimum*. Therefore &amp;c.]
+Hence a fortiori $GP > GQ$, where $Q$ is the point in which $GK$ cuts the conic; and this is impossible because $GP$ is a *minimum*. Therefore &c.]
 
 ## Proposition 94.
 
@@ -6080,13 +6080,13 @@ Hence a fortiori $GP &gt; GQ$, where $Q$ is the point in which $GK$ cuts the con
 
 ![img-147.jpeg](images/img-147.jpeg)
 
-Then, since the angle $OPK$ is right, $\angle OPK &gt; \angle OKP$.
+Then, since the angle $OPK$ is right, $\angle OPK > \angle OKP$.
 
-Therefore $OK &gt; OP$, and a fortiori $OR &gt; OP$: which is impossible, since $OP$ is a maximum.
+Therefore $OK > OP$, and a fortiori $OR > OP$: which is impossible, since $OP$ is a maximum.
 
 Therefore $TP$ must touch the conic at $P$.
 
-Secondly, let $OP$ be a minimum. If possible, let $TP$ cut the curve again in $Q$. From any point between $TP$ and the curve draw a straight line to $P$ and draw $ORK$ perpendicular to this line meeting it at $K$ and the curve in $R$. Then the angle $OKP$ is a right angle. Therefore $OP &gt; OK$, and a fortiori $OP &gt; OR$: which is impossible, since $OP$ is a minimum. Therefore $TP$ must touch the curve.
+Secondly, let $OP$ be a minimum. If possible, let $TP$ cut the curve again in $Q$. From any point between $TP$ and the curve draw a straight line to $P$ and draw $ORK$ perpendicular to this line meeting it at $K$ and the curve in $R$. Then the angle $OKP$ is a right angle. Therefore $OP > OK$, and a fortiori $OP > OR$: which is impossible, since $OP$ is a minimum. Therefore $TP$ must touch the curve.
 
 ![img-148.jpeg](images/img-148.jpeg)
 
@@ -6096,9 +6096,9 @@ Secondly, let $OP$ be a minimum. If possible, let $TP$ cut the curve again in $Q
 
 ![img-149.jpeg](images/img-149.jpeg)
 
-Then $O'K &gt; O'P$. Therefore a fortiori $O'Q &gt; O'P$, and $O'P$ is a minimum.
+Then $O'K > O'P$. Therefore a fortiori $O'Q > O'P$, and $O'P$ is a minimum.
 
-Join $RP, RQ$. Then the angle $O'QR$ is obtuse, and therefore the angle $O'RQ$ is acute. Therefore $O'R &gt; O'Q$, and so on.
+Join $RP, RQ$. Then the angle $O'QR$ is obtuse, and therefore the angle $O'RQ$ is acute. Therefore $O'R > O'Q$, and so on.
 
 ## Proposition 95.
 
@@ -6120,9 +6120,9 @@ $$ NG = \frac{p_a}{2} = N' G',$$
 
 and
 
-$$ P'N' &gt; PN; $$
+$$ P'N' > PN; $$
 
-$$ \therefore \angle P'G'A &gt; \angle PGA. $$
+$$ \therefore \angle P'G'A > \angle PGA. $$
 
 ![img-150.jpeg](images/img-150.jpeg)
 
@@ -6144,7 +6144,7 @@ $$ \angle KG'N' = \angle PGN. $$
 
 Therefore
 
-$$ \angle P'G'N' &gt; \angle PGN. $$
+$$ \angle P'G'N' > \angle PGN. $$
 
 (c) In the hyperbola, let $AL$ be drawn perpendicular to $AA'$ to meet the asymptote in $L$ and $CP$ in $O$. Also let $AM$ be equal to $\frac{p_a}{2}$.
 
@@ -6156,13 +6156,13 @@ therefore, ex aequali, $OA: AM = PN: NG$.
 
 Hence
 
-$$ AL: AM &gt; PN: NG. $$
+$$ AL: AM > PN: NG. $$
 
 ---
 
 But
 $$ AL : AM = CA : AL, \quad \text{[Prop. 28]} $$
-$$ \therefore CA : AL &gt; PN : NG; $$
+$$ \therefore CA : AL > PN : NG; $$
 $$ \therefore \angle PGN \text{ is less than } \angle CLA. $$
 
 (2) It follows at once from (1) that two normals at points on one side of $AA'$ will meet on the other side of $AA'$.
@@ -6175,7 +6175,7 @@ $$ = Cn : ng; $$
 $$ \therefore Cn' : Cg' = Cn : Cg. $$
 
 But
-$$ Cn' &gt; Cn; \quad \therefore Cg' &gt; Cg, $$
+$$ Cn' > Cn; \quad \therefore Cg' > Cg, $$
 
 whence it follows that $Pg, P'g'$ must cross at a point $O$ before cutting the minor axis. Therefore $O$ lies on the side of $BB'$ towards $A$.
 
@@ -6187,7 +6187,7 @@ And, by (2) above, $O$ lies below $AC$; therefore $O$ lies within the $\angle AC
 
 (1) In a parabola or an ellipse any normal $PG$ will meet the curve again.
 
-(2) In the hyperbola (a), if $AA'$ be not greater than $p_a$, no normal can meet the curve in a second point on the same branch; but (b), if $AA' &gt; p_a$, some normals will meet the same branch again and others not.
+(2) In the hyperbola (a), if $AA'$ be not greater than $p_a$, no normal can meet the curve in a second point on the same branch; but (b), if $AA' > p_a$, some normals will meet the same branch again and others not.
 
 (1) For the ellipse the proposition is sufficiently obvious, and in the parabola, since $PG$ meets a diameter (the axis), it will meet another diameter, viz. that through the point of contact of the tangent parallel to $PG$, i.e. the diameter bisecting it. Therefore it will meet the curve again.
 
@@ -6207,20 +6207,20 @@ $$
 
 hence the angle $CLA$ is not greater than $ACL$ or $ACL'$.
 
-But $\angle CLA &gt; \angle PGN$; [Prop. 95]
+But $\angle CLA > \angle PGN$; [Prop. 95]
 
 $$
-\therefore \angle ACL' &gt; \angle PGN.
+\therefore \angle ACL' > \angle PGN.
 $$
 
 It follows that the angle $ACL'$ together with the angle adjacent to $PGN$ will be greater than two right angles.
 
 Therefore $PG$ will not meet $CL'$ towards $L'$ and therefore will not meet the branch of the hyperbola again.
 
-(b) Suppose $CA &gt; AM$ or $\frac{p_a}{2}$. Then
+(b) Suppose $CA > AM$ or $\frac{p_a}{2}$. Then
 
 $$
-LA : AM &gt; LA : AC.
+LA : AM > LA : AC.
 $$
 
 Take a point $K$ on $AL$ such that
@@ -6280,9 +6280,9 @@ If $P_1G_1$, $P_2G_2$ be normals at points on one side of the axis of a conic me
 
 (2) if $OP$ meet the axis in $K$, and $PG$ be the normal at $P$,
 
-$AG &lt; AK$ when $P$ is intermediate between $P_1$ and $P_2$,
+$AG < AK$ when $P$ is intermediate between $P_1$ and $P_2$,
 
-and $AG &gt; AK$ when $P$ does not lie between $P_1$ and $P_2$.
+and $AG > AK$ when $P$ does not lie between $P_1$ and $P_2$.
 
 ### I. First let the conic be a PARABOLA.
 
@@ -6322,17 +6322,17 @@ $TN_1 = HN_2$ }
 
 If $P$ be a variable point and $PN$ the ordinate*, we have now three cases:
 
-$TN &lt; TN_1$ or $HN_2$ (1),
-$TN &gt; TN_1$ or $HN_2$, but $&lt; TN_2$ or $HN_1$ (2),
-$TN &gt; TN_2$ or $HN_1$ (3).
+$TN < TN_1$ or $HN_2$ (1),
+$TN > TN_1$ or $HN_2$, but $< TN_2$ or $HN_1$ (2),
+$TN > TN_2$ or $HN_1$ (3).
 
 Thus, denoting the several cases by the numbers (1), (2), (3), we have
 
 $$
 \begin{aligned}
-N_2N: TN &amp;&gt; N_2N: HN_2 \quad (1), \\
-&amp;&lt; N_2N: HN_2 \quad (2), \\
-&amp;&lt; N_2N: HN_2 \quad (3),
+N_2N: TN &> N_2N: HN_2 \quad (1), \\
+&< N_2N: HN_2 \quad (2), \\
+&< N_2N: HN_2 \quad (3),
 \end{aligned}
 $$
 
@@ -6340,9 +6340,9 @@ and we derive respectively
 
 $$
 \begin{aligned}
-TN_2: TN &amp;&gt; HN: HN_2 \quad (1), \\
-&amp;&lt; HN: HN_2 \quad (2), \\
-&amp;&gt; HN: HN_2 \quad (3).
+TN_2: TN &> HN: HN_2 \quad (1), \\
+&< HN: HN_2 \quad (2), \\
+&> HN: HN_2 \quad (3).
 \end{aligned}
 $$
 
@@ -6352,58 +6352,58 @@ If $NP$ meet $P_1P_2$ in $F$, we have, by similar triangles,
 
 $$
 \begin{array}{l}
-P_2N_2 : FN &gt; HN : HN_2 \quad \text{(1) and (3),} \\
-&lt; HN : HN_2 \quad \text{(2)}.
+P_2N_2 : FN > HN : HN_2 \quad \text{(1) and (3),} \\
+< HN : HN_2 \quad \text{(2)}.
 \end{array}
 $$
 
-But in (1) and (3) $FN &gt; PN$, and in (2) $FN &lt; PN$.
+But in (1) and (3) $FN > PN$, and in (2) $FN < PN$.
 
 Therefore, *a fortiori* in all the cases,
 
 $$
 \begin{array}{l}
-P_2N_2 : PN &gt; HN : HN_2 \quad \text{(1) and (3),} \\
-&lt; HN : HN_2 \quad \text{(2)}.
+P_2N_2 : PN > HN : HN_2 \quad \text{(1) and (3),} \\
+< HN : HN_2 \quad \text{(2)}.
 \end{array}
 $$
 
-Thus $P_2N_2 \cdot N_2H &gt; PN \cdot NH \quad \text{(1) and (3)}$
+Thus $P_2N_2 \cdot N_2H > PN \cdot NH \quad \text{(1) and (3)}$
 
 $$
-&lt; PN \cdot NH \quad \text{(2)}.
+< PN \cdot NH \quad \text{(2)}.
 $$
 
-Hence $HM \cdot MO &gt; PN \cdot NH \quad \text{(1) and (3)} \quad \text{by (A) above.}$
+Hence $HM \cdot MO > PN \cdot NH \quad \text{(1) and (3)} \quad \text{by (A) above.}$
 
 $$
-&lt; PN \cdot NH \quad \text{(2)}
+< PN \cdot NH \quad \text{(2)}
 $$
 
-Therefore $MO : PN &gt; NH : HM \quad \text{(1) and (3)}$
+Therefore $MO : PN > NH : HM \quad \text{(1) and (3)}$
 
 $$
-&lt; NH : HM \quad \text{(2)}
+< NH : HM \quad \text{(2)}
 $$
 
 and $MO : PN = MK : NK$.
 
-Therefore $MK : NK &gt; NH : HM \quad \text{(1) and (3)}$
+Therefore $MK : NK > NH : HM \quad \text{(1) and (3)}$
 
 $$
-&lt; NH : HM \quad \text{(2)},
+< NH : HM \quad \text{(2)},
 $$
 
-whence we obtain $MN : NK &gt; MN : HM \quad \text{(1) and (3)}$
+whence we obtain $MN : NK > MN : HM \quad \text{(1) and (3)}$
 
 $$
-&lt; MN : HM \quad \text{(2)},
+< MN : HM \quad \text{(2)},
 $$
 
-so that $HM$ or $NG &gt; NK$ in (1) and (3),
+so that $HM$ or $NG > NK$ in (1) and (3),
 
 $$
-\text{and} \quad &lt; NK \text{ in (2)}.
+\text{and} \quad < NK \text{ in (2)}.
 $$
 
 Thus the proposition is proved.
@@ -6440,9 +6440,9 @@ Therefore, *componendo* for the hyperbola and *dividendo* for the ellipse,
 
 $$
 \begin{aligned}
-CM : CH = CG_2 : CN_2 &amp;= CG_2 \sim CM : CN_2 \sim CH \\
-&amp;= MG_2 : HN_2 \\
-&amp;= MG_2 : VU_2 \quad \text{(A)}.
+CM : CH = CG_2 : CN_2 &= CG_2 \sim CM : CN_2 \sim CH \\
+&= MG_2 : HN_2 \\
+&= MG_2 : VU_2 \quad \text{(A)}.
 \end{aligned}
 $$
 
@@ -6462,9 +6462,9 @@ Thus
 
 $$
 \begin{aligned}
-FC : N_2U_2 = CG_2 : N_2G_2 &amp;= Cg_2 : P_2N_2, \text{ by similar triangles}, \\
-&amp;= FC \pm Cg_2 : N_2U_2 \pm P_2N_2 \\
-&amp;= Fg_2 : P_2U_2 \quad \text{(B)}.
+FC : N_2U_2 = CG_2 : N_2G_2 &= Cg_2 : P_2N_2, \text{ by similar triangles}, \\
+&= FC \pm Cg_2 : N_2U_2 \pm P_2N_2 \\
+&= Fg_2 : P_2U_2 \quad \text{(B)}.
 \end{aligned}
 $$
 
@@ -6472,8 +6472,8 @@ Again
 
 $$
 \begin{aligned}
-FC \cdot CM : EC \cdot CH = (FC : CE) \cdot (CM : CH) &amp;= (Fg_2 : P_2U_2) \cdot (MG_2 : VU_2), \\
-&amp;\text{ from (A) and (B),}
+FC \cdot CM : EC \cdot CH = (FC : CE) \cdot (CM : CH) &= (Fg_2 : P_2U_2) \cdot (MG_2 : VU_2), \\
+&\text{ from (A) and (B),}
 \end{aligned}
 $$
 
@@ -6485,12 +6485,12 @@ $$
 
 $$
 \begin{aligned}
-\therefore EC \cdot CH = P_2U_2 \cdot U_2V, &amp; \\
-or &amp; \\
-CE \cdot EV = P_2U_2 \cdot U_2V &amp; \\
-&amp;= P_1U_1 \cdot U_1V, \text{ in like manner}; \\
-\therefore U_1V : U_2V = P_2U_2 : P_1U_1 &amp; \\
-&amp;= TU_2 : TU_1, \text{ by similar triangles}, \\
+\therefore EC \cdot CH = P_2U_2 \cdot U_2V, & \\
+or & \\
+CE \cdot EV = P_2U_2 \cdot U_2V & \\
+&= P_1U_1 \cdot U_1V, \text{ in like manner}; \\
+\therefore U_1V : U_2V = P_2U_2 : P_1U_1 & \\
+&= TU_2 : TU_1, \text{ by similar triangles}, \\
 \end{aligned}
 $$
 
@@ -6504,31 +6504,31 @@ and
 
 $$
 \begin{aligned}
-\therefore TU_2 = VU_1 &amp; \\
-TU_1 = VU_2 &amp; \quad \text{(C)}.
+\therefore TU_2 = VU_1 & \\
+TU_1 = VU_2 & \quad \text{(C)}.
 \end{aligned}
 $$
 
-Now suppose (1) that $AN &lt; AN_1$;
+Now suppose (1) that $AN < AN_1$;
 
 then
 
 $$
-U_2V &gt; TU, \text{ from (C) above};
+U_2V > TU, \text{ from (C) above};
 $$
 
 $$
-\therefore UU_2 : TU &gt; UU_2 : U_2V;
+\therefore UU_2 : TU > UU_2 : U_2V;
 $$
 
 hence
 
 $$
-TU_2 : TU &gt; UV : U_2V;
+TU_2 : TU > UV : U_2V;
 $$
 
 $$
-\therefore P_2U_2 : QU &gt; UV : U_2V,
+\therefore P_2U_2 : QU > UV : U_2V,
 $$
 
 by similar triangles.
@@ -6536,13 +6536,13 @@ by similar triangles.
 Therefore
 
 $$
-P_2U_2 \cdot U_2V &gt; QU \cdot UV,
+P_2U_2 \cdot U_2V > QU \cdot UV,
 $$
 
 and a fortiori
 
 $$
-&gt; PU \cdot UV.
+> PU \cdot UV.
 $$
 
 ---
@@ -6551,63 +6551,63 @@ But $P_{2}U_{2} \cdot U_{2}V = CE \cdot EV$, from above,
 
 $$= LO \cdot OR, \because CE : LO = OR : EV;$$
 
-$\therefore LO \cdot OR &gt; PU \cdot UV.$
+$\therefore LO \cdot OR > PU \cdot UV.$
 
-Suppose (2) that $AN &gt; AN_{1}$ but $&lt; AN_{2}$.
+Suppose (2) that $AN > AN_{1}$ but $< AN_{2}$.
 
-Then $TU_{1} &lt; UV;$
+Then $TU_{1} < UV;$
 
-$\therefore U_{1}U : TU_{1} &gt; U_{1}U : UV,$
+$\therefore U_{1}U : TU_{1} > U_{1}U : UV,$
 
-whence $TU : TU_{1} &gt; U_{1}V : UV;$
+whence $TU : TU_{1} > U_{1}V : UV;$
 
-$\therefore QU : P_{1}U_{1} &gt; U_{1}V : UV,$
+$\therefore QU : P_{1}U_{1} > U_{1}V : UV,$
 
 by similar triangles.
 
-Therefore $(a \text{ fortiori}) PU \cdot UV &gt; P_{1}U_{1} \cdot U_{1}V$
+Therefore $(a \text{ fortiori}) PU \cdot UV > P_{1}U_{1} \cdot U_{1}V$
 
-$$&gt; LO \cdot OR.$$
+$$> LO \cdot OR.$$
 
-Lastly (3) let $AN$ be $&gt; AN_{2}$.
+Lastly (3) let $AN$ be $> AN_{2}$.
 
-Then $TU_{1} &gt; UV;$
+Then $TU_{1} > UV;$
 
-$\therefore U_{1}U : TU_{1} &lt; U_{1}U : UV,$
+$\therefore U_{1}U : TU_{1} < U_{1}U : UV,$
 
-whence $TU : TU_{1} &lt; U_{1}V : UV,$
+whence $TU : TU_{1} < U_{1}V : UV,$
 
 or
 
-$QU : P_{1}U_{1} &lt; U_{1}V : UV;$
+$QU : P_{1}U_{1} < U_{1}V : UV;$
 
-$\therefore P_{1}U_{1} \cdot U_{1}V &gt; QU \cdot UV,$
+$\therefore P_{1}U_{1} \cdot U_{1}V > QU \cdot UV,$
 
-and $a \text{ fortiori}$ $&gt; PU \cdot UV;$
+and $a \text{ fortiori}$ $> PU \cdot UV;$
 
-$\therefore LO \cdot OR &gt; PU \cdot UV,$
+$\therefore LO \cdot OR > PU \cdot UV,$
 
 as in (1) above.
 
 Thus we have for cases (1) and (3)
 
-$$LO \cdot OR &gt; PU \cdot UV,$$
+$$LO \cdot OR > PU \cdot UV,$$
 
-and for (2) $LO \cdot OR &lt; PU \cdot UV.$
+and for (2) $LO \cdot OR < PU \cdot UV.$
 
 That is, we shall have, supposing the upper symbol to refer to (1) and (3) and the lower to (2),
 
-$$LO : PU \stackrel{&gt;}{_<} UV : OR,$$
+$$LO : PU \stackrel{>}{_<} UV : OR,$$
 
 i.e.
 
-$$LS : SU \stackrel{&gt;}{_<} UV : LV;$$
+$$LS : SU \stackrel{>}{_<} UV : LV;$$
 
-$\therefore LU : US \stackrel{&gt;}{_<} LU : LV,$
+$\therefore LU : US \stackrel{>}{_<} LU : LV,$
 
 and
 
-$$LV \stackrel{&gt;}{_<} US.$$
+$$LV \stackrel{>}{_<} US.$$
 
 ---
 
@@ -6667,11 +6667,11 @@ $$
 \therefore NK \leq NG;
 $$
 
-i.e. when $P$ is not between $P_1$ and $P_2$ $NK &lt; NG$, and when $P$ lies between $P_1$ and $P_2$, $NK &gt; NG$, whence the proposition follows.
+i.e. when $P$ is not between $P_1$ and $P_2$ $NK < NG$, and when $P$ lies between $P_1$ and $P_2$, $NK > NG$, whence the proposition follows.
 
-**Cor. 1.** In the particular case of a quadrant of an ellipse where $P_2$ coincides with $B$, i.e. where $O$ coincides with $g_1$, it follows that no other normal besides $P_1g_1$, $Bg_1$ can be drawn through $g_1$ to the quadrant, and, if $P$ be a point between $A$ and $P_1$, while $Pg_1$ meets the axis in $K$, $NG &gt; NK$.
+**Cor. 1.** In the particular case of a quadrant of an ellipse where $P_2$ coincides with $B$, i.e. where $O$ coincides with $g_1$, it follows that no other normal besides $P_1g_1$, $Bg_1$ can be drawn through $g_1$ to the quadrant, and, if $P$ be a point between $A$ and $P_1$, while $Pg_1$ meets the axis in $K$, $NG > NK$.
 
-But if $P$ lie between $P_1$ and $B$, $NG &lt; NK$.
+But if $P$ lie between $P_1$ and $B$, $NG < NK$.
 
 [This is separately proved by Apollonius from the property in Prop. 95 (3).]
 
@@ -6698,32 +6698,32 @@ Let $OP$ be drawn to the curve meeting the axis in $K$, and let $PN$ be the ordi
 We have in the parabola, since $AM \geqslant \frac{p_a}{2}$,
 
 $$
-NM &lt; \frac{p_a}{2}, \quad \text{i.e.} &lt; NG.
+NM < \frac{p_a}{2}, \quad \text{i.e.} < NG.
 $$
 
-Therefore, a fortiori, $NK &lt; NG$.
+Therefore, a fortiori, $NK < NG$.
 
 For the hyperbola and ellipse $AA':p_a$ is not greater than $CA:AM$,
 
 and
 
 $$
-CN:NM &gt; CA:AM;
+CN:NM > CA:AM;
 $$
 
 $$
-\therefore CN:NM &gt; AA':p_a
+\therefore CN:NM > AA':p_a
 $$
 
 $$
-&gt; CN:NG;
+> CN:NG;
 $$
 
 $$
-\therefore NM &lt; NG,
+\therefore NM < NG,
 $$
 
-and a fortiori $NK &lt; NG$.
+and a fortiori $NK < NG$.
 
 Therefore $OP$ is not a normal.
 
@@ -6737,11 +6737,11 @@ Therefore $OP$ is not a normal.
 
 If $AM$ measured along the axis be greater than $\frac{p_a}{2}$ (but in the case of the ellipse less than $AC$), and if $MO$ be drawn perpendicular to the axis, then a certain length $[y]$ can be assigned such that
 
-(a) if $OM &gt; y$, no normal can be drawn through $O$ which cuts the axis; but, if $OP$ be any straight line drawn to the curve cutting the axis in $K$, $NK &lt; NG$, where $PN$ is the ordinate and $PG$ the normal at $P$;
+(a) if $OM > y$, no normal can be drawn through $O$ which cuts the axis; but, if $OP$ be any straight line drawn to the curve cutting the axis in $K$, $NK < NG$, where $PN$ is the ordinate and $PG$ the normal at $P$;
 
-(b) if $OM = y$, only one normal can be so drawn through $O$, and, if $OP$ be any other straight line drawn to the curve and meeting the axis in $K$, $NK &lt; NG$, as before;
+(b) if $OM = y$, only one normal can be so drawn through $O$, and, if $OP$ be any other straight line drawn to the curve and meeting the axis in $K$, $NK < NG$, as before;
 
-(c) if $OM &lt; y$, two normals can be so drawn through $O$, and, if $OP$ be any other straight line drawn to the curve, $NK$ is less or greater than $NG$ according as $OP$ is not, or is, intermediate between the two normals.
+(c) if $OM < y$, two normals can be so drawn through $O$, and, if $OP$ be any other straight line drawn to the curve, $NK$ is less or greater than $NG$ according as $OP$ is not, or is, intermediate between the two normals.
 
 ### I. Suppose the conic is a PARABOLA.
 
@@ -6757,7 +6757,7 @@ $$
 
 where $P_1N_1$ is the ordinate passing through $N_1$.
 
-(a) Suppose $OM &gt; y$.
+(a) Suppose $OM > y$.
 
 ![img-156.jpeg](images/img-156.jpeg)
 
@@ -6765,17 +6765,17 @@ Join $OP_1$ meeting the axis in $K_1$.
 
 Then $y: P_1N_1 = N_1H: HM$;
 
-$\therefore OM: P_1N_1 &gt; N_1H: HM,$
+$\therefore OM: P_1N_1 > N_1H: HM,$
 
-or $MK_1: K_1N_1 &gt; N_1H: HM$;
+or $MK_1: K_1N_1 > N_1H: HM$;
 
-hence $MN_1: N_1K_1 &gt; MN_1: HM,$
+hence $MN_1: N_1K_1 > MN_1: HM,$
 
-so that $N_1K_1 &lt; HM,$
+so that $N_1K_1 < HM,$
 
-i.e. $N_1K_1 &lt; \frac{Pa}{2}.$
+i.e. $N_1K_1 < \frac{Pa}{2}.$
 
-Therefore $OP_1$ is not a normal, and $N_1K_1 &lt; N_1G_1$.
+Therefore $OP_1$ is not a normal, and $N_1K_1 < N_1G_1$.
 
 Next let $P$ be any other point. Join $OP$ meeting the axis in $K$, and let the ordinate $PN$ meet the tangent at $P_1$ in $Q$.
 
@@ -6870,8 +6870,8 @@ or $y^2 : 4a \cdot AN_1 = N_1H^2 : 4a^2$;
 
 $$
 \begin{aligned}
-\therefore ay^2 &amp;= AN_1 \cdot N_1H^2 \\
-&amp;= \frac{4}{27}(x - 2a)^2,
+\therefore ay^2 &= AN_1 \cdot N_1H^2 \\
+&= \frac{4}{27}(x - 2a)^2,
 \end{aligned}
 $$
 
@@ -6883,7 +6883,7 @@ which is the Cartesian equation of the **evolute** of a parabola.]
 
 ### II. Let the curve be a HYPERBOLA or an ELLIPSE.
 
-We have $AM &gt; \frac{p_a}{2}$, so that $CA : AM &lt; AA' : p_a$.
+We have $AM > \frac{p_a}{2}$, so that $CA : AM < AA' : p_a$.
 
 ![img-157.jpeg](images/img-157.jpeg)
 
@@ -6903,18 +6903,18 @@ $$
 y: P_1N_1 = (CM:MH). (HN_1: N_1C).
 $$
 
-(a) Suppose first that $OM &gt; y$;
+(a) Suppose first that $OM > y$;
 
 $$
-\therefore OM: P_1N_1 &gt; y: P_1N_1.
+\therefore OM: P_1N_1 > y: P_1N_1.
 $$
 
 But
 
 $$
 \begin{aligned}
-OM: P_1N_1 &amp;= (OM:ML). (ML: P_1N_1) \\
-&amp;= (OM:ML). (N_1U_1: P_1N_1),
+OM: P_1N_1 &= (OM:ML). (ML: P_1N_1) \\
+&= (OM:ML). (N_1U_1: P_1N_1),
 \end{aligned}
 $$
 
@@ -6922,24 +6922,24 @@ and
 
 $$
 \begin{aligned}
-y: P_1N_1 &amp;= (CM:MH). (HN_1: N_1C) \\
-&amp;= (OM:ML). (HN_1: N_1C); \\
-\therefore N_1U_1: P_1N_1 &gt; HN_1: N_1C \tag{1}
+y: P_1N_1 &= (CM:MH). (HN_1: N_1C) \\
+&= (OM:ML). (HN_1: N_1C); \\
+\therefore N_1U_1: P_1N_1 > HN_1: N_1C \tag{1}
 \end{aligned}
 $$
 
 or
 
 $$
-P_1N_1.N_1H &lt; CN_1.N_1U_1.
+P_1N_1.N_1H < CN_1.N_1U_1.
 $$
 
 Adding or subtracting the rectangle $U_1N_1.N_1H$, we have
 
 $$
 \begin{aligned}
-P_1U_1.U_1V &amp;&lt; CH.HV \\
-&amp;&lt; LO.OR, \quad \therefore CH:HM = OL:LM.
+P_1U_1.U_1V &< CH.HV \\
+&< LO.OR, \quad \therefore CH:HM = OL:LM.
 \end{aligned}
 $$
 
@@ -6952,14 +6952,14 @@ $$
 Therefore $P_1O$ is not a normal, and [as in the proof of Prop. 97]
 
 $$
-N_1K_1 &lt; N_1G_1.
+N_1K_1 < N_1G_1.
 $$
 
 ---
 
 Next let $P$ be any other point than $P_1$, and let $U, N, K$ have the same relation to $P$ that $U_1, N_1, K_1$ have to $P_1$.
 
-Also, since $U_1N_1: N_1P_1 &gt; HN_1: N_1C$ by (1) above, let $u_1$ be taken on $U_1N_1$ such that
+Also, since $U_1N_1: N_1P_1 > HN_1: N_1C$ by (1) above, let $u_1$ be taken on $U_1N_1$ such that
 
 $$
 u_1N_1: N_1P_1 = HN_1: N_1C \tag{2}
@@ -7011,26 +7011,26 @@ $$
 u_1w = HN_1 = u_1v.
 $$
 
-If $AN &lt; AN_1$,
+If $AN < AN_1$,
 
-$wu &lt; u_1v$,
+$wu < u_1v$,
 
-and $u_1u: uw &gt; u_1u: u_1v$,
+and $u_1u: uw > u_1u: u_1v$,
 
-whence $u_1w: uw &gt; uv: u_1v$,
+whence $u_1w: uw > uv: u_1v$,
 
-$\therefore P_1u_1: Qu &gt; uv: u_1v$
+$\therefore P_1u_1: Qu > uv: u_1v$
 
 (where $PN$ meets $P_1T$ in $Q$);
 
 thus
 
 $$
-P_1u_1 \cdot u_1v &gt; Qu \cdot uv
+P_1u_1 \cdot u_1v > Qu \cdot uv
 $$
 
 $$
-&gt; Pu \cdot uv,
+> Pu \cdot uv,
 $$
 
 a fortiori.
@@ -7050,35 +7050,35 @@ and, adding or subtracting the rectangle $u_1N_1 \cdot N_1H$,
 If
 
 $$
-AN &gt; AN_1,
+AN > AN_1,
 $$
 
 $$
-wu_1 &gt; uv;
+wu_1 > uv;
 $$
 
 $$
-\therefore uu_1: uv &gt; uu_1: wu_1,
+\therefore uu_1: uv > uu_1: wu_1,
 $$
 
 whence
 
 $$
-vu_1: vu &gt; wu: wu_1
+vu_1: vu > wu: wu_1
 $$
 
 $$
-&gt; Qu: P_1u_1;
+> Qu: P_1u_1;
 $$
 
 thus
 
 $$
-P_1u_1 \cdot u_1v &gt; Qu \cdot uv
+P_1u_1 \cdot u_1v > Qu \cdot uv
 $$
 
 $$
-&gt; Pu \cdot uv,
+> Pu \cdot uv,
 $$
 
 a fortiori,
@@ -7086,25 +7086,25 @@ a fortiori,
 and the proof proceeds as in the first column, leading to the same result,
 
 $$
-PU \cdot UV &lt; LO \cdot OR.
+PU \cdot UV < LO \cdot OR.
 $$
 
 ---
 
 $$ P_1u_1 \cdot u_1v = CH \cdot Hv; $$
-$$ \therefore CH \cdot Hv &gt; Pu \cdot uv, $$
+$$ \therefore CH \cdot Hv > Pu \cdot uv, $$
 and, adding or subtracting the rectangle $uU \cdot UV$,
-$$ PU \cdot UV &lt; CH \cdot Hv + uU \cdot UV $$
+$$ PU \cdot UV < CH \cdot Hv + uU \cdot UV $$
 for the hyperbola,
 or
-$$ PU \cdot UV &lt; CH \cdot Hv - uU \cdot UV $$
+$$ PU \cdot UV < CH \cdot Hv - uU \cdot UV $$
 for the ellipse,
 $$ \therefore \text{ in either case, } a \text{ fortiori,} $$
-$$ PU \cdot UV &lt; CH \cdot HV, $$
+$$ PU \cdot UV < CH \cdot HV, $$
 or
-$$ PU \cdot UV &lt; LO \cdot OR. $$
+$$ PU \cdot UV < LO \cdot OR. $$
 
-Therefore, as in the proof of Prop. 97, $PO$ is not a normal, but $NK &lt; NG$.
+Therefore, as in the proof of Prop. 97, $PO$ is not a normal, but $NK < NG$.
 
 (b) Next suppose $OM = y$, so that $OM: P_1N_1 = y: P_1N_1$, and we obtain in this case
 $$ U_1N_1: N_1P_1 = HN_1: N_1C; $$
@@ -7116,21 +7116,21 @@ and this [Prop. 97] is the property of the normal at $P_1$.
 Therefore one normal can be drawn from $O$.
 
 If $P$ be any other point on the curve, it will be shown as before that $U_1W = U_1V$, because in this case the lines $WV$, $wv$ coincide; also
-$$ UU_1: UW &gt; UU_1: U_1V \quad \text{in the case where } UW &lt; U_1V, $$
+$$ UU_1: UW > UU_1: U_1V \quad \text{in the case where } UW < U_1V, $$
 and
-$$ UU_1: UV &gt; UU_1: U_1W \quad \text{in the case where } U_1W &gt; UV, $$
+$$ UU_1: UV > UU_1: U_1W \quad \text{in the case where } U_1W > UV, $$
 whence, exactly as before, we derive that
-$$ P_1U_1 \cdot U_1V &gt; QU \cdot UV $$
-$$ &gt; PU \cdot UV, \quad a \text{ fortiori,} $$
-and thence that $PU \cdot UV &lt; LO \cdot OR$.
+$$ P_1U_1 \cdot U_1V > QU \cdot UV $$
+$$ > PU \cdot UV, \quad a \text{ fortiori,} $$
+and thence that $PU \cdot UV < LO \cdot OR$.
 
-Therefore $PO$ is not a normal, and $NK &lt; NG$.
+Therefore $PO$ is not a normal, and $NK < NG$.
 
 ---
 
-(c) Lastly, if $OM &lt; y$, we shall have in this case
+(c) Lastly, if $OM < y$, we shall have in this case
 
-$$N_1U_1: P_1N_1 &lt; HN_1: N_1C,$$
+$$N_1U_1: P_1N_1 < HN_1: N_1C,$$
 
 ![img-159.jpeg](images/img-159.jpeg)
 
@@ -7141,7 +7141,7 @@ $$N_1U_1: P_1N_1 &lt; HN_1: N_1C,$$
 and we shall derive
 
 $$
-LO.OR &lt; P_{1}U_{1}.U_{1}V.
+LO.OR < P_{1}U_{1}.U_{1}V.
 $$
 
 Let $S$ be taken on $P_{1}N_{1}$ such that $LO.OR = SU_{1}.U_{1}V$, and through $S$ describe a hyperbola whose asymptotes are $VW$ and $VH$ produced. This hyperbola will therefore meet the conic in two points $P, P'$, and by the property of the hyperbola
@@ -7201,10 +7201,10 @@ Now, from (2),
 
 $$
 \begin{aligned}
-\frac{y}{P_{1}N_{1}} &amp;= \frac{CM}{MH} \cdot \frac{HN_{1}}{N_{1}C} \\
-&amp;= \frac{a^{2} \pm b^{2}}{b^{2}} \cdot \frac{CH - CN_{1}}{CN_{1}}, \text{ by aid of (1)}, \\
-&amp;= \frac{a^{2} \pm b^{2}}{b^{2}} \cdot \frac{CN_{1}^{2} - a^{2}}{a^{2}}, \text{ by (5)}, \\
-&amp;= \frac{a^{2} \pm b^{2}}{b^{2}} \cdot \frac{P_{1}N_{1}^{2}}{b^{2}}, \text{ by (3)}.
+\frac{y}{P_{1}N_{1}} &= \frac{CM}{MH} \cdot \frac{HN_{1}}{N_{1}C} \\
+&= \frac{a^{2} \pm b^{2}}{b^{2}} \cdot \frac{CH - CN_{1}}{CN_{1}}, \text{ by aid of (1)}, \\
+&= \frac{a^{2} \pm b^{2}}{b^{2}} \cdot \frac{CN_{1}^{2} - a^{2}}{a^{2}}, \text{ by (5)}, \\
+&= \frac{a^{2} \pm b^{2}}{b^{2}} \cdot \frac{P_{1}N_{1}^{2}}{b^{2}}, \text{ by (3)}.
 \end{aligned}
 $$
 
@@ -7240,27 +7240,27 @@ $$ (ax)^{\frac{3}{2}} \mp (by)^{\frac{3}{2}} = (a^2 \pm b^2)^{\frac{3}{2}} $$
 If $O$ be a point on the minor axis of an ellipse, then
 
 (a) if $OB : BC \nless AA' : p_a$, and $P$ be any point on either of the quadrants $BA$, $BA'$ except the point $B$, and if $OP$ meet the major axis in $K$,
-$$ PO \text{ cannot be a normal, but } NK &lt; NG; $$
+$$ PO \text{ cannot be a normal, but } NK < NG; $$
 
-(b) if $OB : BC &lt; AA' : p_a$, one normal only besides $OB$ can be drawn to either of the two quadrants as $OP$, and, if $P'$ be any other point, $N'K'$ is less or greater than $N'G'$ according as $P'$ is further from, or nearer to, the minor axis than $P$.
+(b) if $OB : BC < AA' : p_a$, one normal only besides $OB$ can be drawn to either of the two quadrants as $OP$, and, if $P'$ be any other point, $N'K'$ is less or greater than $N'G'$ according as $P'$ is further from, or nearer to, the minor axis than $P$.
 
 [This proposition follows at once as a particular case of the preceding, but Apollonius proves it separately thus.]
 
 (a) We have
-$$ OB : BC &lt; On : nC; $$
-$$ \therefore \text{On} : nC, \text{ or } CN : NK &gt; AA' : p_a, $$
+$$ OB : BC < On : nC; $$
+$$ \therefore \text{On} : nC, \text{ or } CN : NK > AA' : p_a, $$
 
 whence
-$$ CN : NK &gt; CN : NG, $$
+$$ CN : NK > CN : NG, $$
 
 and
-$$ NK &lt; NG. $$
+$$ NK < NG. $$
 
 ---
 
 (b) Suppose now that
 
-$$ O'B : BC &lt; AA' : p_a. $$
+$$ O'B : BC < AA' : p_a. $$
 
 Take a point $n$ on $O'B$ such that
 
@@ -7286,7 +7286,7 @@ $PO'$, $BO'$ are then two normals through $O'$, and the rest of the proposition 
 
 [V. 55, 56, 57.]
 
-If $O$ is any point below the axis $AA'$ of an ellipse, and $AM &gt; AC$ (where $M$ is the foot of the perpendicular from $O$ on the axis), then one normal to the ellipse can always be drawn through $O$ cutting the axis between $A$ and $C$, but never more than one such normal.
+If $O$ is any point below the axis $AA'$ of an ellipse, and $AM > AC$ (where $M$ is the foot of the perpendicular from $O$ on the axis), then one normal to the ellipse can always be drawn through $O$ cutting the axis between $A$ and $C$, but never more than one such normal.
 
 Produce $OM$ to $L$ and $CM$ to $H$ so that
 
@@ -7303,22 +7303,22 @@ and draw $LI$, $IH$ parallel and perpendicular to the axis respectively. Then wi
 This will meet the ellipse in some point $P_1$. For, drawing $AD$, the tangent at $A$, to meet $IL$ produced in $D$, we have
 
 $$
-AH: HM &gt; CH: HM
+AH: HM > CH: HM
 $$
 $$
-&gt; AA': p_a
+> AA': p_a
 $$
 $$
-&gt; OL: LM;
+> OL: LM;
 $$
 $$
-\therefore AH.LM &gt; OL.HM,
+\therefore AH.LM > OL.HM,
 $$
 
 or
 
 $$
-AD.DI &gt; OL.LI.
+AD.DI > OL.LI.
 $$
 
 Thus, from the property of the hyperbola, it must meet $AD$ between $A$ and $D$, and therefore must meet the ellipse in some point $P_1$.
@@ -7361,7 +7361,7 @@ Let $P$ be any other point such that $OP$ meets $AC$ in $K$.
 
 Produce $BC$ to meet $OP_1$ in $F$, and join $FP$, meeting the axis in $K'$.
 
-Then, since two normals [at $P_1, B$] meet in $F$, $FP$ is not a normal, but $NK' &gt; NG$. Therefore, a fortiori, $NK &gt; NG$. And, if $P$ is between $A$ and $P_1$, $NK &lt; NG$. [Prop. 97, Cor. 1.]
+Then, since two normals [at $P_1, B$] meet in $F$, $FP$ is not a normal, but $NK' > NG$. Therefore, a fortiori, $NK > NG$. And, if $P$ is between $A$ and $P_1$, $NK < NG$. [Prop. 97, Cor. 1.]
 
 ---
 
@@ -7465,9 +7465,9 @@ and then draw $LP$ parallel to $AA'$ to meet the hyperbola in $P$. $P$ is then t
 
 $$
 \begin{aligned}
-AA': p_a &amp;= OL: LC \\
-&amp;= OP: PK \\
-&amp;= CN: NK,
+AA': p_a &= OL: LC \\
+&= OP: PK \\
+&= CN: NK,
 \end{aligned}
 $$
 
@@ -7497,22 +7497,22 @@ The case of the *parabola* is obvious; and for the *hyperbola* or *ellipse*
 
 $$
 \begin{aligned}
-MK: HN &amp;= OM: OL \\
-&amp;= CM: CH.
+MK: HN &= OM: OL \\
+&= CM: CH.
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-\therefore CM: CH &amp;= CM \pm MK: CH \pm HN \\
-&amp;= CK: CN;
+\therefore CM: CH &= CM \pm MK: CH \pm HN \\
+&= CK: CN;
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-\therefore NK: CN &amp;= HM: CH \\
-&amp;= p_a: AA';
+\therefore NK: CN &= HM: CH \\
+&= p_a: AA';
 \end{aligned}
 $$
 
@@ -7535,7 +7535,7 @@ If $O$ be a point below the axis of any conic such that either no normal, or onl
 If $OM$ be perpendicular to the axis, we must have
 
 $$
-AM &gt; \frac{p_a}{2},
+AM > \frac{p_a}{2},
 $$
 
 and also $OM$ must be either greater than or equal to $y$, where
@@ -7554,17 +7554,17 @@ $$
 
 with the notation of Prop. 99.
 
-In the case where $OM &gt; y$, we have proved in Prop. 99 for all three curves that, for any straight line $OP$ drawn from $O$ to the curve and cutting the axis in $K$, $NK &lt; NG$;
+In the case where $OM > y$, we have proved in Prop. 99 for all three curves that, for any straight line $OP$ drawn from $O$ to the curve and cutting the axis in $K$, $NK < NG$;
 
-but, in the case where $OM = y$, $NK &lt; NG$ for any point $P$ between $A$ and $P_1$ except $P_1$ itself, for which $N_1K_1 = N_1G_1$.
+but, in the case where $OM = y$, $NK < NG$ for any point $P$ between $A$ and $P_1$ except $P_1$ itself, for which $N_1K_1 = N_1G_1$.
 
 ---
 
-Also for any point $P$ more remote from $A$ than $P$, it is still true that $NK &lt; NG$.
+Also for any point $P$ more remote from $A$ than $P$, it is still true that $NK < NG$.
 
-I. Consider now the case of any of the three conics where, for all points $P, NK &lt; NG$.
+I. Consider now the case of any of the three conics where, for all points $P, NK < NG$.
 
-Let $P$ be any point other than $A$. Draw the tangents $AY, PT$. Then the angle $OAY$ is obtuse. Therefore the perpendicular at $A$ to $AO$, as $AL$, falls within the curve. Also, since $NK &lt; NG$, and $PG$ is perpendicular to $PT$, the angle $OPT$ is acute.
+Let $P$ be any point other than $A$. Draw the tangents $AY, PT$. Then the angle $OAY$ is obtuse. Therefore the perpendicular at $A$ to $AO$, as $AL$, falls within the curve. Also, since $NK < NG$, and $PG$ is perpendicular to $PT$, the angle $OPT$ is acute.
 
 (1) Suppose, if possible, $OP = OA$.
 
@@ -7576,19 +7576,19 @@ but $AL$ will lie wholly without it. It follows that the circle must cut the con
 
 Therefore $OP$ is not equal to $OA$.
 
-(2) Suppose, if possible, $OP &lt; OA$.
+(2) Suppose, if possible, $OP < OA$.
 
 ---
 
 In this case the circle drawn with $O$ as centre and $OP$ as radius must cut $AM$ in some point, $D$. And an absurdity is proved in the same manner as before.
 
-Therefore $OP$ is neither equal to $OA$ nor less than $OA$, i.e. $OA &lt; OP$.
+Therefore $OP$ is neither equal to $OA$ nor less than $OA$, i.e. $OA < OP$.
 
-It remains to be proved that, if $P'$ be a point beyond $P$, $OP &lt; OP'$.
+It remains to be proved that, if $P'$ be a point beyond $P$, $OP < OP'$.
 
 If the tangent $TP$ be produced to $T'$, the angle $OPT'$ is obtuse because the angle $OPT$ is acute. Therefore the perpendicular from $P$ to $OP$, viz. $PE$, falls within the curve, and the same proof as was used for $A, P$ will apply to $P, P'$.
 
-Therefore $OA &lt; OP$, $OP &lt; OP'$, &amp;c.
+Therefore $OA < OP$, $OP < OP'$, &c.
 
 II. Where only one normal, $OP_{1}$, cutting the axis can be drawn from $O$, the above proof applies to all points $P$ between $A$ and $P_{1}$ (excluding $P_{1}$ itself) and also applies to the comparison between two points $P$ each of which is more remote from $A$ than $P_{1}$.
 
@@ -7598,25 +7598,25 @@ II. Where only one normal, $OP_{1}$, cutting the axis can be drawn from $O$, the
 
 It only remains therefore to prove that
 
-(a) $OP_{1} &gt;$ any straight line $OP$ between $OA$ and $OP_{1}$,
+(a) $OP_{1} >$ any straight line $OP$ between $OA$ and $OP_{1}$,
 
-(b) $OP_{1} &lt;$ any straight line $OP'$ beyond $OP_{1}$,
+(b) $OP_{1} <$ any straight line $OP'$ beyond $OP_{1}$,
 
-(a) Suppose first, if possible, that $OP = OP_{1}$, and let $Q$ be any point between them, so that, by the preceding proof, $OQ &gt; OP$. Measure along $OQ$ a length $Oq$ such that $Oq$ is greater than $OP_{1}$ and less than $OQ$. With $O$ as centre and $Oq$ as radius describe a circle meeting $OP_{1}$ produced in $p_{1}$. This circle must then meet the conic in an intermediate point $R$.
+(a) Suppose first, if possible, that $OP = OP_{1}$, and let $Q$ be any point between them, so that, by the preceding proof, $OQ > OP$. Measure along $OQ$ a length $Oq$ such that $Oq$ is greater than $OP_{1}$ and less than $OQ$. With $O$ as centre and $Oq$ as radius describe a circle meeting $OP_{1}$ produced in $p_{1}$. This circle must then meet the conic in an intermediate point $R$.
 
 Thus, by the preceding proof, $OQ$ is less than $OR$, and therefore is less than $Oq$: which is absurd.
 
 Therefore $OP$ is not equal to $OP_{1}$.
 
-Again suppose, if possible, that $OP &gt; OP_{1}$. Then, by taking on $OP_{1}$ a length $Op_{1}$ greater than $OP_{1}$ and less than $OP$, an absurdity is proved in the same manner.
+Again suppose, if possible, that $OP > OP_{1}$. Then, by taking on $OP_{1}$ a length $Op_{1}$ greater than $OP_{1}$ and less than $OP$, an absurdity is proved in the same manner.
 
 Therefore, since $OP$ is neither equal to nor greater than $OP_{1}$,
 
 $$
-OP &lt; OP_{1}.
+OP < OP_{1}.
 $$
 
-(b) If $OP'$ lies more remote from $OA$ than $OP_{1}$, an exactly similar proof will show that $OP_{1} &lt; OP'$.
+(b) If $OP'$ lies more remote from $OA$ than $OP_{1}$, an exactly similar proof will show that $OP_{1} < OP'$.
 
 Thus the proposition is completely established.
 
@@ -7624,7 +7624,7 @@ Thus the proposition is completely established.
 
 [V. 68, 69, 70, 71.]
 
-If two tangents at points $Q, Q'$ on one side of the axis of a conic meet in $T$, and if $Q$ be nearer to the axis than $Q'$, then $TQ &lt; TQ'$.
+If two tangents at points $Q, Q'$ on one side of the axis of a conic meet in $T$, and if $Q$ be nearer to the axis than $Q'$, then $TQ < TQ'$.
 
 The proposition is proved at once for the parabola and hyperbola and for the case where $Q, Q'$ are on one quadrant of an ellipse: for the angle $TVQ'$ is greater than the angle $TVQ$, and $QV = VQ'$.
 
@@ -7642,11 +7642,11 @@ Now
 
 $$
 \begin{array}{l}
-RM &gt; QN; \\
-\therefore [\text{Prop. 86, Cor.}] \quad CQ &gt; CR, \\
-\text{i.e.} \quad &gt; CQ'; \\
-\therefore \angle CVQ &gt; \angle CVQ', \\
-\text{and, as before,} \quad TQ &lt; TQ'.
+RM > QN; \\
+\therefore [\text{Prop. 86, Cor.}] \quad CQ > CR, \\
+\text{i.e.} \quad > CQ'; \\
+\therefore \angle CVQ > \angle CVQ', \\
+\text{and, as before,} \quad TQ < TQ'.
 \end{array}
 $$
 
@@ -7664,27 +7664,27 @@ If from a point $O$ below the axis of a parabola or hyperbola it is possible to 
 
 ![img-172.jpeg](images/img-172.jpeg)
 
-By Prop. 99, if $P$ is between $A$ and $P_1$, $OP$ is not a normal, but $NK &lt; NG$. Therefore, by the same proof as that employed in Prop. 104, we find that $OP$ increases continually as $P$ moves from $A$ towards $P_1$.
+By Prop. 99, if $P$ is between $A$ and $P_1$, $OP$ is not a normal, but $NK < NG$. Therefore, by the same proof as that employed in Prop. 104, we find that $OP$ increases continually as $P$ moves from $A$ towards $P_1$.
 
 We have therefore to prove that $OP$ diminishes continually as $P$ moves from $P_1$ to $P_2$. Let $P$ be any point between $P_1$ and $P_2$, and let the tangents at $P_1$, $P$ meet in $T$. Join $OT$.
 
-Then, by Prop. 105, $TP_1 &lt; TP$.
+Then, by Prop. 105, $TP_1 < TP$.
 
 Also
 
 $$
-TP_1^2 + OP_1^2 &gt; TP^2 + OP^2,
+TP_1^2 + OP_1^2 > TP^2 + OP^2,
 $$
 
-since $AK &gt; AG$, and consequently the angle $OPT$ is obtuse.
+since $AK > AG$, and consequently the angle $OPT$ is obtuse.
 
 Therefore
 
 $$
-OP &lt; OP_1.
+OP < OP_1.
 $$
 
-Similarly it can be proved that, if $P'$ is a point between $P$ and $P_2$, $OP' &lt; OP$.
+Similarly it can be proved that, if $P'$ is a point between $P$ and $P_2$, $OP' < OP$.
 
 That $OP$ increases continually as $P$ moves from $P_2$ further away from $A$ and $P_1$ is proved by the method of Prop. 104.
 
@@ -7708,7 +7708,7 @@ For any point $P'$ between $B$ and $P_1$ we use the method of Prop. 106, drawing
 
 ---
 
-Thus we derive at once that $OB &lt; OP'$, and similarly that $OP'$ increases continually as $P'$ passes from $B$ to $P_1$.
+Thus we derive at once that $OB < OP'$, and similarly that $OP'$ increases continually as $P'$ passes from $B$ to $P_1$.
 
 For the part of the curve between $P_1$ and $A$ we employ the method of reductio ad absurdum used in the second part of Prop. 104.
 
@@ -7738,7 +7738,7 @@ If $O$ be a point below the major axis of an ellipse such that three normals can
 
 (2) $OP_1$ is the **greatest** of all lines from $O$ to points on the semi-ellipse from $A$ to $P_2$, and the nearer to $OP_1$ on either side is greater than the more remote.
 
-(3) of the two **maxima**, $OP_3 &gt; OP_1$.
+(3) of the two **maxima**, $OP_3 > OP_1$.
 
 Part (2) of this proposition is established by the method of Prop. 106.
 
@@ -7753,44 +7753,44 @@ CN_1: N_1G_1 = AA': p_a = CN_3: N_3G_3;
 $$
 
 $$
-\therefore MN_1: N_1G_1 &lt; CN_3: N_3G_3
+\therefore MN_1: N_1G_1 < CN_3: N_3G_3
 $$
 $$
-&lt; MN_3: N_3G_3, \text{ a fortiori},
+< MN_3: N_3G_3, \text{ a fortiori},
 $$
 
 whence
 
 $$
-MG_1: N_1G_1 &lt; MG_3: N_3G_3;
+MG_1: N_1G_1 < MG_3: N_3G_3;
 $$
 
 and, by similar triangles,
 
 $$
-OM: P_1N_1 &lt; OM: P_3N_3,
+OM: P_1N_1 < OM: P_3N_3,
 $$
 
 or
 
 $$
-P_1N_1 &gt; P_3N_3.
+P_1N_1 > P_3N_3.
 $$
 
 If then $P_1p_1$ be parallel to the axis, meeting the curve in $p_1$, we have at once, on producing $OM$ to $R$,
 
 $$
-p_1R &gt; P_1R,
+p_1R > P_1R,
 $$
 
 so that
 
 $$
-Op_1 &gt; OP_1;
+Op_1 > OP_1;
 $$
 
 $$
-\therefore \text{ a fortiori } OP_3 &gt; OP_1.
+\therefore \text{ a fortiori } OP_3 > OP_1.
 $$
 
 $$
@@ -8314,7 +8314,7 @@ In a given right cone to find a section equal to a given hyperbola. (A necessary
 
 Let the given hyperbola be that of which $aa', al$ are the transverse axis and parameter respectively.
 
-I. Suppose $OI^2 : BI^2 &lt; aa' : al$, where $I$ is the centre of the base of the given cone.
+I. Suppose $OI^2 : BI^2 < aa' : al$, where $I$ is the centre of the base of the given cone.
 
 Let a circle be circumscribed about the axial triangle $OBC$, and produce $OI$ to meet the circle again in $D$.
 
@@ -8327,7 +8327,7 @@ OI : ID = OI^2 : BI^2,
 $$
 so that
 $$
-OI : ID &lt; aa' : al.
+OI : ID < aa' : al.
 $$
 
 ![img-180.jpeg](images/img-180.jpeg)
@@ -8377,9 +8377,9 @@ If then (2) $OH$ meet $BC$ in $H$, $QQ'$ in $R$, and the circle again in $K$, we
 
 $$
 \begin{aligned}
-aa': al &amp;= OH^2 : BH \cdot HC \\
-&amp;= OH^2 : OH \cdot HK \\
-&amp;= OH : HK;
+aa': al &= OH^2 : BH \cdot HC \\
+&= OH^2 : OH \cdot HK \\
+&= OH : HK;
 \end{aligned}
 $$
 
@@ -8393,7 +8393,7 @@ II. If $OI^2 : BI^2 = aa' : al$, we shall have $OI : ID = aa' : al$, and $OQ, OQ
 
 In this case there will be only one section equal to the given hyperbola whose vertex is on $OC$, and the axis of this section will be perpendicular to $BC$.
 
-III. If $OI^2 : BI^2 &gt; aa' : al$, no section can be found in the right cone which is equal to the given hyperbola.
+III. If $OI^2 : BI^2 > aa' : al$, no section can be found in the right cone which is equal to the given hyperbola.
 
 For, if possible, let there be such a section, and let $ON$ be drawn parallel to its axis meeting $BC$ in $N$.
 
@@ -8402,10 +8402,10 @@ Then we must have $aa' : al = ON^2 : BN \cdot NC$,
 so that
 
 $$
-OI^2 : BI \cdot IC &gt; ON^2 : BN \cdot NC.
+OI^2 : BI \cdot IC > ON^2 : BN \cdot NC.
 $$
 
-But $ON^2 &gt; OI^2$, while $BI \cdot IC &gt; BN \cdot NC$: which is absurd.
+But $ON^2 > OI^2$, while $BI \cdot IC > BN \cdot NC$: which is absurd.
 
 ---
 
@@ -8501,9 +8501,9 @@ Then, if $AL'$ be the latus rectum of the parabolic section of the cone $FAR$ ma
 
 $$
 \begin{aligned}
-AL': AF &amp;= AR^2: AF \cdot FR \\
-&amp;= AM^2: AE \cdot EM \\
-&amp;= AL: AE.
+AL': AF &= AR^2: AF \cdot FR \\
+&= AM^2: AE \cdot EM \\
+&= AL: AE.
 \end{aligned}
 $$
 
@@ -8536,11 +8536,11 @@ $$
 
 I. Suppose that
 $$
-OD^2: DB^2 &lt; AA': AL,
+OD^2: DB^2 < AA': AL,
 $$
 so that
 $$
-FI: IE &lt; AA': AL.
+FI: IE < AA': AL.
 $$
 
 ![img-184.jpeg](images/img-184.jpeg)
@@ -8570,10 +8570,10 @@ We have, by construction,
 
 $$
 \begin{aligned}
-AA': AL &amp;= FI: IH \\
-&amp;= FK: KQ, \text{ by parallels}, \\
-&amp;= FK.KQ: KQ^2 \\
-&amp;= A'K.KA: KQ^2.
+AA': AL &= FI: IH \\
+&= FK: KQ, \text{ by parallels}, \\
+&= FK.KQ: KQ^2 \\
+&= A'K.KA: KQ^2.
 \end{aligned}
 $$
 
@@ -8637,7 +8637,7 @@ $$
 
 In this case $Q$, $Q'$ coalesce with $E$, and the cone with apex $E$ and base the circle on $AG$ as diameter perpendicular to the plane of $FQA$ is the cone required.
 
-III. If $OD^2: DB^2 &gt; AA': AL$, no right cone having the desired properties can be drawn.
+III. If $OD^2: DB^2 > AA': AL$, no right cone having the desired properties can be drawn.
 
 For, if possible, let $P$ be the apex of such a cone, and we shall have, as before,
 
@@ -8648,13 +8648,13 @@ $$
 But
 
 $$
-AA': AL &lt; OD^2: DB^2, \text{ or } FI: IE.
+AA': AL < OD^2: DB^2, \text{ or } FI: IE.
 $$
 
 Hence
 
 $$
-FT: TP &lt; FI: IE, \text{ which is absurd}.
+FT: TP < FI: IE, \text{ which is absurd}.
 $$
 
 Therefore, etc.
@@ -8870,8 +8870,8 @@ From (1) and (2) we have
 
 $$
 \begin{aligned}
-PT^2 : CD^2 &amp;= PF : CP \\
-&amp;= NT : CN.
+PT^2 : CD^2 &= PF : CP \\
+&= NT : CN.
 \end{aligned}
 $$
 
@@ -8961,8 +8961,8 @@ Now
 
 $$
 \begin{aligned}
-PT^2 : CD^2 &amp;= NT : CN \quad \text{[Prop. 125]} \\
-&amp;= AM : A'M, \text{ by similar triangles.}
+PT^2 : CD^2 &= NT : CN \quad \text{[Prop. 125]} \\
+&= AM : A'M, \text{ by similar triangles.}
 \end{aligned}
 $$
 
@@ -8976,9 +8976,9 @@ whence, *ex aequali*,
 
 $$
 \begin{aligned}
-CP^2 : CD^2 &amp;= (AM : A'M) \cdot (A'Q^2 : AQ^2) \\
-&amp;= (AM : A'M) \times (A'Q^2 : A'M \cdot MH') \\
-&amp;\quad \times (A'M \cdot MH' : AM \cdot MH) \times (AM \cdot MH : AQ^2).
+CP^2 : CD^2 &= (AM : A'M) \cdot (A'Q^2 : AQ^2) \\
+&= (AM : A'M) \times (A'Q^2 : A'M \cdot MH') \\
+&\quad \times (A'M \cdot MH' : AM \cdot MH) \times (AM \cdot MH : AQ^2).
 \end{aligned}
 $$
 
@@ -9130,9 +9130,9 @@ Using the figures and construction of the preceding two propositions, we have
 
 $$
 \begin{aligned}
-AA'^2: BB'^2 &amp;= AA': p_a \\
-&amp;= A'H: AH, \text{ by construction,} \\
-&amp;= A'H: A'H'.
+AA'^2: BB'^2 &= AA': p_a \\
+&= A'H: AH, \text{ by construction,} \\
+&= A'H: A'H'.
 \end{aligned}
 $$
 
@@ -9282,7 +9282,7 @@ Also, if $AA' = BB'$, $PP' = DD'$.
 
 ---
 
-(1) Of the figures of Prop. 127, the first corresponds to the case where $AA' &gt; BB'$, and the second to the case where $AA' &lt; BB'$.
+(1) Of the figures of Prop. 127, the first corresponds to the case where $AA' > BB'$, and the second to the case where $AA' < BB'$.
 
 Taking then the $\left\{ \begin{array}{l} \text{first} \\ \text{second} \end{array} \right\}$ figure respectively, it follows from
 
@@ -9293,7 +9293,7 @@ $$
 that
 
 $$
-PP'_{\text{or}&lt;} \geq DD'.
+PP'_{\text{or}<} \geq DD'.
 $$
 
 Also $AA'^2 : BB'^2 = AA' : p_a = A'H : AH$, by construction,
@@ -9305,7 +9305,7 @@ $$
 and
 
 $$
-AH' : AH_{\text{or}&lt;} \geq MH' : MH,
+AH' : AH_{\text{or}<} \geq MH' : MH,
 $$
 
 while $MH' : MH \left\{ \begin{array}{l} \text{diminishes} \\ \text{or increases} \end{array} \right\}$ continually as $M$ moves further from $A$, i.e. as $Q$, or $P$, moves further from $A$ along the curve.
@@ -9313,7 +9313,7 @@ while $MH' : MH \left\{ \begin{array}{l} \text{diminishes} \\ \text{or increases
 Therefore
 
 $$
-AA'^2 : BB'^2_{\text{or}&lt;} PP'^2 : DD'^2,
+AA'^2 : BB'^2_{\text{or}<} PP'^2 : DD'^2,
 $$
 
 and the latter ratio $\left\{ \begin{array}{l} \text{diminishes} \\ \text{or increases} \end{array} \right\}$ as $P$ moves further from $A$.
@@ -9345,7 +9345,7 @@ and $PP' = DD'$ always.
 In an ellipse, if $AA'$ be the major, and $BB'$ the minor, axis, and if $PP'$, $DD'$ be any other two conjugate diameters, then
 
 $$
-AA' : BB' &gt; PP' : DD',
+AA' : BB' > PP' : DD',
 $$
 
 and the latter ratio diminishes continually as $P$ moves from $A$ to $B$.
@@ -9358,15 +9358,15 @@ $$
 CA^2:CB^2 = AN.NA':PN^2;
 $$
 
-$$\therefore AN.NA' &gt; PN^2,$$
+$$\therefore AN.NA' > PN^2,$$
 
 and, adding $CN^2$ to each,
 
-$$CA^2 &gt; CP^2,$$
+$$CA^2 > CP^2,$$
 
 or
 
-$$AA' &gt; PP' \tag{1}$$
+$$AA' > PP' \tag{1}$$
 
 ![img-198.jpeg](images/img-198.jpeg)
 
@@ -9381,12 +9381,12 @@ where $DM$ is the ordinate to $BB'$.
 Therefore
 
 $$
-BM.MB' &lt; DM^2,
+BM.MB' < DM^2,
 $$
 
-and, adding $CM^2$, $CB^2 &lt; CD^2;$
+and, adding $CM^2$, $CB^2 < CD^2;$
 
-$$\therefore BB' &lt; DD' \tag{2}$$
+$$\therefore BB' < DD' \tag{2}$$
 
 Again, if $P_1P_1', D_1D_1'$ be another pair of conjugates, $P_1$ being further from $A$ than $P$, $D_1$ will be further from $B$ than $D$.
 
@@ -9399,18 +9399,18 @@ $$
 But
 
 $$
-AN_1.N_1A' &gt; AN.NA';
+AN_1.N_1A' > AN.NA';
 $$
 
-$$\therefore P_1N_1^2 &gt; PN^2,$$
+$$\therefore P_1N_1^2 > PN^2,$$
 
 and
 
 $$
-AN_1.N_1A' - AN.NA' &gt; P_1N_1^2 - PN^2.
+AN_1.N_1A' - AN.NA' > P_1N_1^2 - PN^2.
 $$
 
-But, as above, $AN_1.N_1A' &gt; P_1N_1^2,$
+But, as above, $AN_1.N_1A' > P_1N_1^2,$
 
 and
 
@@ -9418,33 +9418,33 @@ $$
 AN_1.N_1A' - AN.NA' = CN^2 - CN_1^2;
 $$
 
-$$\therefore CN^2 - CN_1^2 &gt; P_1N_1^2 - PN^2;$$
+$$\therefore CN^2 - CN_1^2 > P_1N_1^2 - PN^2;$$
 
 thus
 
 $$
-CP^2 &gt; CP_1^2,
+CP^2 > CP_1^2,
 $$
 
 or
 
-$$PP' &gt; P_1P_1' \tag{3}$$
+$$PP' > P_1P_1' \tag{3}$$
 
 In an exactly similar manner we prove that
 
-$$DD' &lt; D_1D_1' \tag{4}$$
+$$DD' < D_1D_1' \tag{4}$$
 
 ---
 
 We have therefore, by (1) and (2),
 
-$$AA': BB' &gt; PP': DD',$$
+$$AA': BB' > PP': DD',$$
 
-and, by (3) and (4), $PP': DD' &gt; P_1P_1': D_1D_1'$.
+and, by (3) and (4), $PP': DD' > P_1P_1': D_1D_1'$.
 
 **Cor.** It is at once clear, if $p_a, p, p_1$ are the parameters corresponding to $AA', PP', P_1P_1'$, that
 
-$$p_a &lt; p, \quad p &lt; p_1, \text{ etc.}$$
+$$p_a < p, \quad p < p_1, \text{ etc.}$$
 
 ## Proposition 133.
 
@@ -9452,7 +9452,7 @@ $$p_a &lt; p, \quad p &lt; p_1, \text{ etc.}$$
 
 (1) In a hyperbola or an ellipse
 
-$$AA' + BB' &lt; PP' + DD',$$
+$$AA' + BB' < PP' + DD',$$
 
 where $PP', DD'$ are any conjugate diameters other than the axes.
 
@@ -9470,22 +9470,22 @@ $$
 
 and, by the aid of Prop. 131,
 
-$$AA' \sim BB' &gt; PP' \sim DD';$$
+$$AA' \sim BB' > PP' \sim DD';$$
 
 $$
-\therefore AA' + BB' &lt; PP' + DD'.
+\therefore AA' + BB' < PP' + DD'.
 $$
 
 Similarly it is proved that $PP' + DD'$ increases as $P$ moves further from $A$.
 
-In the case where $AA' = BB', PP' = DD',$ and $PP' &gt; AA'$; and the proposition still holds.
+In the case where $AA' = BB', PP' = DD',$ and $PP' > AA'$; and the proposition still holds.
 
 (2) For the ellipse
 
-$$AA': BB' &gt; PP': DD';$$
+$$AA': BB' > PP': DD';$$
 
 $$
-\therefore (AA'^2 + BB'^2) : (AA' + BB')^2 &gt; (PP'^2 + DD'^2) : (PP' + DD')^2.
+\therefore (AA'^2 + BB'^2) : (AA' + BB')^2 > (PP'^2 + DD'^2) : (PP' + DD')^2.
 $$
 
 But
@@ -9493,7 +9493,7 @@ But
 $AA'^2 + BB'^2 = PP'^2 + DD'^2;$ [Prop. 129]
 
 $$
-\therefore AA' + BB' &lt; PP' + DD'.
+\therefore AA' + BB' < PP' + DD'.
 $$
 
 ---
@@ -9506,7 +9506,7 @@ Similarly it may be proved that $PP' + DD'$ increases as $P$ moves from $A$ unti
 
 In every ellipse or hyperbola having unequal axes
 
-$$AA' \sim BB' &gt; PP' \sim DD',$$
+$$AA' \sim BB' > PP' \sim DD',$$
 
 where $PP'$, $DD'$ are any other conjugate diameters. Also, as $P$ moves from $A$, $PP' \sim DD'$ diminishes, in the hyperbola continually, and in the ellipse until $PP'$, $DD'$ take up the position of the equal conjugate diameters.
 
@@ -9518,11 +9518,11 @@ $$AA'^2 \sim BB'^2 = PP'^2 \sim DD'^2,$$
 
 and
 
-$$PP' &gt; AA'.$$
+$$PP' > AA'.$$
 
 It follows that
 
-$$AA' \sim BB' &gt; PP' \sim DD',$$
+$$AA' \sim BB' > PP' \sim DD',$$
 
 and the latter diminishes continually as $P$ moves further from $A$.
 
@@ -9534,17 +9534,17 @@ and the latter diminishes continually as $P$ moves further from $A$.
 
 In every hyperbola or ellipse
 
-$$AA'. BB' &lt; PP'. DD',$$
+$$AA'. BB' < PP'. DD',$$
 
 and $PP'$, $DD'$ increases as $P$ moves away from $A$, in the hyperbola continually, and in the ellipse until $PP'$, $DD'$ coincide with the equal conjugate diameters.
 
 We have
 
-$$AA' + BB' &lt; PP' + DD',$$
+$$AA' + BB' < PP' + DD',$$
 
 so that
 
-$$(AA' + BB')^2 &lt; (PP' + DD')^2.$$
+$$(AA' + BB')^2 < (PP' + DD')^2.$$
 
 [Prop. 133]
 
@@ -9559,12 +9559,12 @@ $$
 Therefore, by subtraction,
 
 $$
-AA'.BB' &lt; PP'.DD',
+AA'.BB' < PP'.DD',
 $$
 
 and in like manner it will be shown that $PP DD'$ increases until $PP', DD'$ coincides with the equal conjugate diameters.
 
-For the hyperbola [proof omitted in Apollonius] $PP' &gt; AA'$, $DD' &gt; BB'$, and $PP', DD'$ both increase continually as $P$ moves away from $A$. Hence the proposition is obvious.
+For the hyperbola [proof omitted in Apollonius] $PP' > AA'$, $DD' > BB'$, and $PP', DD'$ both increase continually as $P$ moves away from $A$. Hence the proposition is obvious.
 
 ## Proposition 136.
 
@@ -9668,13 +9668,13 @@ $$
 
 Supposing $p_a$ to be the parameter corresponding to the axis $AA'$ in a hyperbola, and $p$ to be the parameter corresponding to a diameter $PP'$,
 
-(1) if $AA'$ be not less than $p_a$, then $p_a &lt; p$, and $p$ increases continually as $P$ moves further from $A$;
+(1) if $AA'$ be not less than $p_a$, then $p_a < p$, and $p$ increases continually as $P$ moves further from $A$;
 
 ---
 
-(2) if $AA'$ be less than $p_a$ but not less than $\frac{p_a}{2}$, then $p_a &lt; p$, and $p$ increases as $P$ moves away from $A$;
+(2) if $AA'$ be less than $p_a$ but not less than $\frac{p_a}{2}$, then $p_a < p$, and $p$ increases as $P$ moves away from $A$;
 
-(3) if $AA' &lt; \frac{p_a}{2}$, there can be found a diameter $P_o P_o'$ on either side of the axis such that $p_o = 2P_o P_o'$. Also $p_o$ is less than any other parameter $p$, and $p$ increases as $P$ moves further from $P_o$ in either direction.
+(3) if $AA' < \frac{p_a}{2}$, there can be found a diameter $P_o P_o'$ on either side of the axis such that $p_o = 2P_o P_o'$. Also $p_o$ is less than any other parameter $p$, and $p$ increases as $P$ moves further from $P_o$ in either direction.
 
 (1) (a) If $AA' = p_a$, we have [Prop. 131 (2)]
 
@@ -9684,9 +9684,9 @@ $$
 
 and $PP'$, and therefore $p$, increases continually as $P$ moves away from $A$.
 
-(b) If $AA' &gt; p_a$, $AA' &gt; BB'$, and, as in Prop. 131 (1), $PP' : DD'$, and therefore $PP' : p$, diminishes continually as $P$ moves away from $A$. But $PP'$ increases. Therefore $p$ increases all the more.
+(b) If $AA' > p_a$, $AA' > BB'$, and, as in Prop. 131 (1), $PP' : DD'$, and therefore $PP' : p$, diminishes continually as $P$ moves away from $A$. But $PP'$ increases. Therefore $p$ increases all the more.
 
-(2) Suppose $AA' &lt; p_a$ but $\angle \frac{p_a}{2}$.
+(2) Suppose $AA' < p_a$ but $\angle \frac{p_a}{2}$.
 
 Let $P$ be any point on the branch with vertex $A$; draw $A'Q$ parallel to $CP$ meeting the same branch in $Q$, and draw the ordinate $QM$.
 
@@ -9704,26 +9704,26 @@ as in the preceding propositions.
 
 Therefore $AA'^2: p_a^2 = A'H \cdot AH': AH^2$ (α).
 
-We have now $AH &gt; AH'$ but $\ngtr 2AH'$.
+We have now $AH > AH'$ but $\ngtr 2AH'$.
 
 And
 
 $$
-MH + HA &gt; 2AH;
+MH + HA > 2AH;
 $$
 
 $$
-\therefore MH + HA: AH &gt; AH: AH',
+\therefore MH + HA: AH > AH: AH',
 $$
 
-or $(MH + HA)AH' &gt; AH^2$ (β).
+or $(MH + HA)AH' > AH^2$ (β).
 
 It follows that
 
 $$
 \begin{array}{l}
 (MH + HA)AM: (MH + HA)AH', \text{ or } AM: AH', \\
-&lt; (MH + HA)AM: AH^2.
+< (MH + HA)AM: AH^2.
 \end{array}
 $$
 
@@ -9731,21 +9731,21 @@ Therefore, componendo,
 
 $$
 \begin{array}{l}
-MH': AH' &lt; (MH + HA)AM + AH^2: AH^2 \\
-&lt; MH^2: AH^2 \quad (\gamma),
+MH': AH' < (MH + HA)AM + AH^2: AH^2 \\
+< MH^2: AH^2 \quad (\gamma),
 \end{array}
 $$
 
 whence
 
 $$
-A'H \cdot MH': A'H \cdot AH' &lt; MH^2: AH^2,
+A'H \cdot MH': A'H \cdot AH' < MH^2: AH^2,
 $$
 
 or, alternately,
 
 $$
-A'H \cdot MH': MH^2 &lt; A'H \cdot AH': AH^2.
+A'H \cdot MH': MH^2 < A'H \cdot AH': AH^2.
 $$
 
 But, by Prop. 130 (2), and by the result (α) above, these ratios are respectively equal to $AA'^2: p^2$, and $AA'^2: p_a^2$.
@@ -9753,27 +9753,27 @@ But, by Prop. 130 (2), and by the result (α) above, these ratios are respective
 Therefore
 
 $$
-AA'^2: p^2 &lt; AA'^2: p_a^2,
+AA'^2: p^2 < AA'^2: p_a^2,
 $$
 
 or
 
 $$
-p_a &lt; p.
+p_a < p.
 $$
 
 Again, if $P_1$ be a point further from $A$ than $P$ is, and if $A'Q_1$ is parallel to $CP_1$, and $M_1$ is the foot of the ordinate $QM_1$, then, since $AH \ngtr 2AH'$,
 
 $$
-MH &lt; 2MH';
+MH < 2MH';
 $$
 
-also $M_1H + HM &gt; 2MH$.
+also $M_1H + HM > 2MH$.
 
 Thus
 
 $$
-(M_1H + HM)MH' &gt; MH^2.
+(M_1H + HM)MH' > MH^2.
 $$
 
 This is a similar relation to that in (β) above except that $M$ is substituted for $A$, and $M_1$ for $M$.
@@ -9781,22 +9781,22 @@ This is a similar relation to that in (β) above except that $M$ is substituted 
 We thus derive, by the same proof, the corresponding result to (γ) above, or
 
 $$
-M_1H': MH' &lt; M_1H^2: MH^2,
+M_1H': MH' < M_1H^2: MH^2,
 $$
 
 whence
 
 $$
-A'H \cdot M_1H': M_1H^2 &lt; A'H \cdot MH': MH^2,
+A'H \cdot M_1H': M_1H^2 < A'H \cdot MH': MH^2,
 $$
 
 or
 
 $$
-AA'^2: p_1^2 &lt; AA'^2: p^2,
+AA'^2: p_1^2 < AA'^2: p^2,
 $$
 
-so that $p &lt; p_1$, and the proposition is proved.
+so that $p < p_1$, and the proposition is proved.
 
 ---
 
@@ -9817,59 +9817,59 @@ Next, let $P$ be a point on the curve between $P_0$ and $A$, and $Q, M$ correspo
 Then
 
 $$
-M_0H'.H'M &lt; HH'^2,
+M_0H'.H'M < HH'^2,
 $$
 
-since $MH' &lt; M_0H'$.
+since $MH' < M_0H'$.
 
 Add to each side the rectangle $(MH + HH')MH'$, and we have
 
 $$
-(M_0H + HM)MH' &lt; MH^2.
+(M_0H + HM)MH' < MH^2.
 $$
 
-This again corresponds to the relation $(\beta)$ above, with $M$ substituted for $A, M_0$ for $M$, and $&lt;$ instead of $&gt;$.
+This again corresponds to the relation $(\beta)$ above, with $M$ substituted for $A, M_0$ for $M$, and $<$ instead of $>$.
 
 The result corresponding to $(\gamma)$ above is
 
 $$
-M_0H': MH' &gt; M_0H^2: MH^2;
+M_0H': MH' > M_0H^2: MH^2;
 $$
 
 $$
-\therefore A'H \cdot M_0H': M_0H^2 &gt; A'H \cdot MH': MH^2,
+\therefore A'H \cdot M_0H': M_0H^2 > A'H \cdot MH': MH^2,
 $$
 
 or
 
 $$
-AA'^2: p_0^2 &gt; AA'^2: p^2.
+AA'^2: p_0^2 > AA'^2: p^2.
 $$
 
 Therefore
 
 $$
-p &gt; p_0.
+p > p_0.
 $$
 
 And in like manner we prove that $p$ increases as $P$ moves from $P_0$ to $A$.
 
 Lastly, let $P$ be more remote from $A$ than $P_0$ is.
 
-In this case $H'M &gt; H'M_0$,
+In this case $H'M > H'M_0$,
 
-and we have $MH'.H'M_0 &gt; HH'^2$,
+and we have $MH'.H'M_0 > HH'^2$,
 
 and, by the last preceding proof, interchanging $M$ and $M_0$ and substituting the opposite sign of relation,
 
 $$
-AA'^2: p^2 &lt; AA'^2: p_0^2,
+AA'^2: p^2 < AA'^2: p_0^2,
 $$
 
 and
 
 $$
-p &gt; p_0.
+p > p_0.
 $$
 
 In the same way we prove that $p$ increases as $P$ moves further away from $P$ and $A$.
@@ -9885,7 +9885,7 @@ Hence the proposition is established.
 In a hyperbola with unequal axes, if $p_a$ be the parameter corresponding to $AA'$ and $p$ that corresponding to $PP'$,
 
 $$
-AA' \sim p_a &gt; PP' \sim p,
+AA' \sim p_a > PP' \sim p,
 $$
 
 and $PP' \sim p$ diminishes continually as $P$ moves away from $A$.
@@ -9911,29 +9911,29 @@ $$
 But
 
 $$
-A'H \cdot MH' &gt; A'H \cdot AH';
+A'H \cdot MH' > A'H \cdot AH';
 $$
 
 $$
-\therefore AA'^2: (PP' \sim p)^2 &gt; AA'^2: (AA' \sim p_a)^2.
+\therefore AA'^2: (PP' \sim p)^2 > AA'^2: (AA' \sim p_a)^2.
 $$
 
 Hence
 
 $$
-AA' \sim p_a &gt; PP' \sim p.
+AA' \sim p_a > PP' \sim p.
 $$
 
 Similarly, if $P_1$, $M_1$ be further from $A$ than $P$, $M$ are, we have
 
 $$
-A'H \cdot M_1 H' &gt; A'H \cdot MH',
+A'H \cdot M_1 H' > A'H \cdot MH',
 $$
 
 and it follows that
 
 $$
-PP' \sim p &gt; P_1 P_1' \sim p_1,
+PP' \sim p > P_1 P_1' \sim p_1,
 $$
 
 and so on.
@@ -9950,11 +9950,11 @@ In an ellipse, if $P_0 P_0'$, $D_0 D_0'$ be the equal conjugate diameters and $P
 
 (2) $BB' \sim p_b$ is the **maximum** value of $PP' \sim p$ for all points $P$ between $B$ and $P_0$, and $PP' \sim p$ diminishes continually as $P$ passes from $B$ to $P_0$,
 
-(3) $BB' \sim p_b &gt; AA' \sim p_a$.
+(3) $BB' \sim p_b > AA' \sim p_a$.
 
 The results (1) and (2) follow at once from Prop. 132.
 
-(3) Since $p_b : BB' = AA' : p_a$, and $p_b &gt; AA'$, it follows at once that $BB' \sim p_b &gt; AA' \sim p_a$.
+(3) Since $p_b : BB' = AA' : p_a$, and $p_b > AA'$, it follows at once that $BB' \sim p_b > AA' \sim p_a$.
 
 ## Proposition 140.
 
@@ -9963,12 +9963,12 @@ The results (1) and (2) follow at once from Prop. 132.
 (1) In a hyperbola, if $AA'$ be not less than $\frac{1}{3}p_a$,
 
 $$
-PP' + p &gt; AA' + p_a,
+PP' + p > AA' + p_a,
 $$
 
 where $PP'$ is any other diameter and $p$ the corresponding parameter; and $PP' + p$ will be the smaller the nearer $P$ approaches to $A$.
 
-(2) If $AA' &lt; \frac{1}{3}p_a$, there is on each side of the axis a diameter, as $P_0P_0'$, such that $P_0P_0' = \frac{1}{3}p_0$; and $P_0P_0' + p_0$ is less than $PP' + p$, where $PP'$ is any other diameter on the same side of the axis. Also $PP' + p$ increases as $P$ moves away from $P_0$.
+(2) If $AA' < \frac{1}{3}p_a$, there is on each side of the axis a diameter, as $P_0P_0'$, such that $P_0P_0' = \frac{1}{3}p_0$; and $P_0P_0' + p_0$ is less than $PP' + p$, where $PP'$ is any other diameter on the same side of the axis. Also $PP' + p$ increases as $P$ moves away from $P_0$.
 
 (1) The construction being the same as before, we suppose
 
@@ -9978,7 +9978,7 @@ In this case [Prop. 137 (1)] $PP'$ increases as $P$ moves from $A$, and $p$ alon
 
 Therefore $PP' + p$ also increases continually.
 
-(b) Suppose $AA' &lt; p_a$ but $\nless \frac{1}{3}p_a$;
+(b) Suppose $AA' < p_a$ but $\nless \frac{1}{3}p_a$;
 
 $$
 \therefore AH' \nless \frac{1}{3}AH;
@@ -10011,42 +10011,42 @@ $$MH': AH' \ngtr 4(AH + AH')AM + (AH + AH')^2 : (AH + AH')^2.$$
 Now
 
 $$(MH + MH')^2 - (AH + AH')^2 = 2AM \quad (MH + MH' + AH + AH')$$
-$$&gt; 4AM \quad (AH + AH')$$
+$$> 4AM \quad (AH + AH')$$
 
-$$\therefore 4AM(AH + AH') + (AH + AH')^2 &lt; (MH + MH')^2.$$
+$$\therefore 4AM(AH + AH') + (AH + AH')^2 < (MH + MH')^2.$$
 
 It follows that
 
-$$MH': AH' &lt; (MH + MH')^2 : (AH + AH')^2,$$
+$$MH': AH' < (MH + MH')^2 : (AH + AH')^2,$$
 
 or
 
-$$A'H \cdot MH' : (MH + MH')^2 &lt; A'H \cdot AH' : (AH + AH')^2;$$
+$$A'H \cdot MH' : (MH + MH')^2 < A'H \cdot AH' : (AH + AH')^2;$$
 
-$$\therefore AA'^2 : (PP' + p)^2 &lt; AA'^2 : (AA' + p_a)^2 \quad \text{[by Prop. 130 (3)]}$$
+$$\therefore AA'^2 : (PP' + p)^2 < AA'^2 : (AA' + p_a)^2 \quad \text{[by Prop. 130 (3)]}$$
 
 Hence
 
-$$AA' + p_a &lt; PP' + p.$$
+$$AA' + p_a < PP' + p.$$
 
 Again, since
 
 $$AH' \nless \frac{1}{4}(AH + AH'),$$
-$$MH' &gt; \frac{1}{4}(MH + MH')$$
+$$MH' > \frac{1}{4}(MH + MH')$$
 
-$$\therefore 4(MH + MH') \cdot MH' &gt; (MH + MH')^2.$$
+$$\therefore 4(MH + MH') \cdot MH' > (MH + MH')^2.$$
 
 And, if $P_1$ be another point further from $A$ than $P$ is, and $Q_1, M_1$ points corresponding to $Q, M$, we have, by the same proof as before (substituting $M$ for $A$, and $M_1$ for $M$),
 
-$$A'H \cdot M_1H' : (M_1H + M_1H')^2 &lt; A'H \cdot MH' : (MH + MH')^2.$$
+$$A'H \cdot M_1H' : (M_1H + M_1H')^2 < A'H \cdot MH' : (MH + MH')^2.$$
 
 We derive
 
-$$PP' + p &lt; P_1P_1' + p_1;$$
+$$PP' + p < P_1P_1' + p_1;$$
 
 and the proposition is established.
 
-(2) We have $AH' &lt; \frac{1}{3}AH$, so that $AH' &lt; \frac{1}{2}HH'$.
+(2) We have $AH' < \frac{1}{3}AH$, so that $AH' < \frac{1}{2}HH'$.
 
 Make $H'M_0$ equal to $\frac{1}{2}HH'$, so that $M_0H' = \frac{1}{3}M_0H$.
 
@@ -10065,15 +10065,15 @@ $$M_0H' = \frac{1}{4}(M_0H + M_0H').$$
 
 Now suppose $P$ to be a point between $A$ and $P_0$, so that
 
-$$M_0H' &gt; MH';$$
-$$\therefore (M_0H + M_0H')^2 &gt; (M_0H + MH') \cdot 4M_0H'.$$
+$$M_0H' > MH';$$
+$$\therefore (M_0H + M_0H')^2 > (M_0H + MH') \cdot 4M_0H'.$$
 
 ---
 
 Subtracting from each side the rectangle $(M_0H + MH') \cdot 4MM_0$,
 
 $$
-(MH + MH')^2 &gt; (M_0H + MH') \cdot 4MH';
+(MH + MH')^2 > (M_0H + MH') \cdot 4MH';
 $$
 
 $$
@@ -10081,55 +10081,55 @@ $$
 $$
 
 $$
-&gt; (M_0H + MH') \cdot 4MM_0 : (MH + MH')^2.
+> (M_0H + MH') \cdot 4MM_0 : (MH + MH')^2.
 $$
 
 Therefore, componendo,
 
 $$
-M_0H' : MH' &gt; (M_0H + MH') \cdot 4MM_0 + (MH + MH')^2 : (MH + MH')^2
+M_0H' : MH' > (M_0H + MH') \cdot 4MM_0 + (MH + MH')^2 : (MH + MH')^2
 $$
 
 $$
-&gt; (M_0H + M_0H')^2 : (MH + MH')^2.
+> (M_0H + M_0H')^2 : (MH + MH')^2.
 $$
 
 Hence
 
 $$
-A'H \cdot M_0H' : (M_0H + M_0H')^2 &gt; A'H \cdot MH' : (MH + MH')^2.
+A'H \cdot M_0H' : (M_0H + M_0H')^2 > A'H \cdot MH' : (MH + MH')^2.
 $$
 
 Therefore [Prop. 130 (3)]
 
 $$
-AA'^2 : (P_0P_0' + p_0)^2 &gt; AA'^2 : (PP' + p)^2,
+AA'^2 : (P_0P_0' + p_0)^2 > AA'^2 : (PP' + p)^2,
 $$
 
 and
 
 $$
-PP' + p &gt; P_0P_0' + p_0.
+PP' + p > P_0P_0' + p_0.
 $$
 
 Again, if $P_1$ be a point between $P$ and $A$, we have
 
 $$
-(MH + MH')^2 &gt; (MH + M_1H') \cdot 4MH',
+(MH + MH')^2 > (MH + M_1H') \cdot 4MH',
 $$
 
 and we prove exactly as before that
 
 $$
-P_1P_1' + p_1 &gt; PP' + p,
+P_1P_1' + p_1 > PP' + p,
 $$
 
 and so on.
 
-Lastly, if $MH &gt; M_0H$, we shall have
+Lastly, if $MH > M_0H$, we shall have
 
 $$
-(MH + M_0H') \cdot 4M_0H' &gt; (M_0H + M_0H')^2.
+(MH + M_0H') \cdot 4M_0H' > (M_0H + M_0H')^2.
 $$
 
 If to both sides of this inequality there be added the rectangle $(MH + M_0H') \cdot 4MM_0$, they become respectively
@@ -10141,7 +10141,7 @@ $$
 and the method of proof used above gives
 
 $$
-P_0P_0' + p_0 &lt; PP' + p,
+P_0P_0' + p_0 < PP' + p,
 $$
 
 and so on.
@@ -10154,7 +10154,7 @@ Hence the proposition is established.
 
 [VII. 41.]
 
-In any ellipse, if $PP'$ be any diameter and $p$ its parameter, $PP' + p &gt; AA' + p_a$, and $PP' + p$ is the less the nearer $P$ is to $A$. Also $BB' + p_b &gt; PP' + p$.
+In any ellipse, if $PP'$ be any diameter and $p$ its parameter, $PP' + p > AA' + p_a$, and $PP' + p$ is the less the nearer $P$ is to $A$. Also $BB' + p_b > PP' + p$.
 
 ![img-202.jpeg](images/img-202.jpeg)
 
@@ -10200,10 +10200,10 @@ $$
 AA'^2: (BB' + p_b)^2 = A'H \cdot A'H': HH'^2 \quad \text{(β)}.
 $$
 
-From $(\alpha)$ and $(\beta)$, since $AH' &gt; A'H'$,
+From $(\alpha)$ and $(\beta)$, since $AH' > A'H'$,
 
 $$
-AA' + p_a &lt; BB' + p_b.
+AA' + p_a < BB' + p_b.
 $$
 
 Again $AA'^2: (PP' + p)^2 = A'H \cdot MH': HH'^2$, [Prop. 130 (3)]
@@ -10211,21 +10211,21 @@ Again $AA'^2: (PP' + p)^2 = A'H \cdot MH': HH'^2$, [Prop. 130 (3)]
 and $AA'^2: (P_1P_1' + p_1)^2 = A'H \cdot M_1H': HH'^2$, where $P_1$ is between $P$ and $B$, from which it follows, since
 
 $$
-AH' &gt; MH' &gt; M_1H' &gt; A'H',
+AH' > MH' > M_1H' > A'H',
 $$
 
 that
 
 $$
-AA' + p_a &lt; PP' + p,
+AA' + p_a < PP' + p,
 $$
 
 $$
-PP' + p &lt; P_1P_1' + p_1,
+PP' + p < P_1P_1' + p_1,
 $$
 
 $$
-P_1P_1' + p_1 &lt; BB' + p_b,
+P_1P_1' + p_1 < BB' + p_b,
 $$
 
 and the proposition follows.
@@ -10239,7 +10239,7 @@ and the proposition follows.
 In a hyperbola, if $PP'$ be any diameter with parameter $p$,
 
 $$
-AA'.p_a &lt; PP'.p,
+AA'.p_a < PP'.p,
 $$
 
 and $PP'.p$ increases as $P$ moves away from $A$.
@@ -10252,10 +10252,10 @@ $$
 
 and $A'H:MH = AA'^2:PP'.p$, [Prop. 130 (4)]
 
-while $AH &lt; MH$;
+while $AH < MH$;
 
 $$
-\therefore AA'.p_a &lt; PP'.p,
+\therefore AA'.p_a < PP'.p,
 $$
 
 and, since $MH$ increases as $P$ moves from $A$, so does $PP'.p$.
@@ -10264,7 +10264,7 @@ and, since $MH$ increases as $P$ moves from $A$, so does $PP'.p$.
 
 [VII. 43.]
 
-In an ellipse $AA'.p_a &lt; PP'.p$, where $PP'$ is any diameter, and $PP'.p$ increases as $P$ moves away from $A$, reaching a **maximum** when $P$ coincides with $B$ or $B'$.
+In an ellipse $AA'.p_a < PP'.p$, where $PP'$ is any diameter, and $PP'.p$ increases as $P$ moves away from $A$, reaching a **maximum** when $P$ coincides with $B$ or $B'$.
 
 The result is derived at once, like the last proposition, from Prop. 130 (4).
 
@@ -10282,24 +10282,24 @@ In a hyperbola,
 
 (1) if $AA' \nless p_a$, or
 
-(2) if $AA' &lt; p_a$, but $AA'^2 \nless \frac{1}{2}(AA' - p_a)^2$, then
+(2) if $AA' < p_a$, but $AA'^2 \nless \frac{1}{2}(AA' - p_a)^2$, then
 
 $$
-AA'^2 + p_a^2 &lt; PP'^2 + p^2,
+AA'^2 + p_a^2 < PP'^2 + p^2,
 $$
 
 where $PP'$ is any diameter, and $PP'^2 + p^2$ increases as $P$ moves away from $A$;
 
 ---
 
-(3) if $AA'^2 &lt; \frac{1}{2}(AA' \sim p_a)^2$, then there will be found on either side of the axis a diameter $P_0P_0'$ such that $P_0P_0'^2 = \frac{1}{2}(P_0P_0' \sim p_a)^2$, and $P_0P_0'^2 + p_a^2$ will be less than $PP'^2 + p^2$, where $PP'$ is any other diameter. Also $PP'^2 + p^2$ will be the smaller the nearer $PP'$ is to $P_0P_0'$.
+(3) if $AA'^2 < \frac{1}{2}(AA' \sim p_a)^2$, then there will be found on either side of the axis a diameter $P_0P_0'$ such that $P_0P_0'^2 = \frac{1}{2}(P_0P_0' \sim p_a)^2$, and $P_0P_0'^2 + p_a^2$ will be less than $PP'^2 + p^2$, where $PP'$ is any other diameter. Also $PP'^2 + p^2$ will be the smaller the nearer $PP'$ is to $P_0P_0'$.
 
 (1) Let $AA'$ be not less than $p_a$.
 
-Then, if $PP'$ be any other diameter, $p &gt; p_a$, and $p$ increases as $P$ moves further from $A$ [Prop. 137 (1)]; also $AA' &lt; PP'$, which increases as $P$ moves further from $A$;
+Then, if $PP'$ be any other diameter, $p > p_a$, and $p$ increases as $P$ moves further from $A$ [Prop. 137 (1)]; also $AA' < PP'$, which increases as $P$ moves further from $A$;
 
 $$
-\therefore AA'^2 + p_a^2 &lt; PP'^2 + p^2,
+\therefore AA'^2 + p_a^2 < PP'^2 + p^2,
 $$
 
 and $PP'^2 + p^2$ increases continually as $P$ moves further from $A$.
@@ -10315,29 +10315,29 @@ $$
 and
 
 $$
-2MH'.AH' &gt; HH'^2.
+2MH'.AH' > HH'^2.
 $$
 
 Adding $2AH.AH'$ to each side of the last inequality,
 
 $$
 \begin{aligned}
-2(MH + AH')AH' &amp;&gt; 2AH.AH' + HH'^2 \\
-&amp;&gt; AH^2 + AH'^2;
+2(MH + AH')AH' &> 2AH.AH' + HH'^2 \\
+&> AH^2 + AH'^2;
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-\therefore 2(MH + AH')AM: &amp;= 2(MH + AH')AH', \text{ or } AM: AH', \\
-&amp;= 2(MH + AH')AM: AH^2 + AH'^2.
+\therefore 2(MH + AH')AM: &= 2(MH + AH')AH', \text{ or } AM: AH', \\
+&= 2(MH + AH')AM: AH^2 + AH'^2.
 \end{aligned}
 $$
 
 Therefore, componendo,
 
 $$
-MH': AH' &lt; 2(MH + AH')AM + AH^2 + AH'^2: AH^2 + AH'^2,
+MH': AH' < 2(MH + AH')AM + AH^2 + AH'^2: AH^2 + AH'^2,
 $$
 
 and
@@ -10349,37 +10349,37 @@ $$
 so that
 
 $$
-MH': AH' &lt; MH^2 + MH'^2: AH^2 + AH'^2,
+MH': AH' < MH^2 + MH'^2: AH^2 + AH'^2,
 $$
 
 or
 
 $$
-A'H.MH': MH^2 + MH'^2 &lt; A'H.AH': AH^2 + AH'^2;
+A'H.MH': MH^2 + MH'^2 < A'H.AH': AH^2 + AH'^2;
 $$
 
 $$
-\therefore AA'^2: PP'^2 + p^2 &lt; AA'^2: AA'^2 + p_a^2. \quad [\text{Prop. 130 (5)}]
+\therefore AA'^2: PP'^2 + p^2 < AA'^2: AA'^2 + p_a^2. \quad [\text{Prop. 130 (5)}]
 $$
 
 Thus
 
 $$
-AA'^2 + p_a^2 &lt; PP'^2 + p^2.
+AA'^2 + p_a^2 < PP'^2 + p^2.
 $$
 
 Again, since
 
 $$
-2MH'^2 &gt; HH'^2,
+2MH'^2 > HH'^2,
 $$
 
-and (if $AM_1 &gt; AM$) $2M_1H'.MH' &gt; HH'^2,$
+and (if $AM_1 > AM$) $2M_1H'.MH' > HH'^2,$
 
 we prove in a similar manner, by substituting $M$ for $A$ and $M_1$ for $M$, that
 
 $$
-PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.
+PP'^2 + p^2 < P_1P_1'^2 + p_1^2.
 $$
 
 ---
@@ -10387,7 +10387,7 @@ $$
 (3) Let $AA'$ be less than $\frac{1}{2}(AA' - p_0)^2$,
 so that
 $$
-2AH'^2 &lt; HH'^2.
+2AH'^2 < HH'^2.
 $$
 Make $2M_0H'^2$ equal to $HH'^2$.
 Now
@@ -10404,52 +10404,52 @@ $$
 $$
 and
 $$
-2M_0H'.MH' &lt; HH'^2.
+2M_0H'.MH' < HH'^2.
 $$
 Adding $2MH$. $MH'$ to each side,
 $$
-2(M_0H + MH')MH' &lt; MH^2 + MH'^2,
+2(M_0H + MH')MH' < MH^2 + MH'^2,
 $$
 and, exactly in the same way as before, we prove that
 $$
-P_0P_0'^2 + p_0^2 &lt; PP'^2 + p^2.
+P_0P_0'^2 + p_0^2 < PP'^2 + p^2.
 $$
 Again, if $P_1$ be between $A$ and $P$,
 $$
-2MH'.M_1H' &lt; HH'^2,
+2MH'.M_1H' < HH'^2,
 $$
 whence (adding $2M_1H$. $M_1H'$)
 $$
-2(MH + M_1H')M_1H' &lt; M_1H^2 + M_1H'^2,
+2(MH + M_1H')M_1H' < M_1H^2 + M_1H'^2,
 $$
 and, in the same way,
 $$
-PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.
+PP'^2 + p^2 < P_1P_1'^2 + p_1^2.
 $$
 Similarly
 $$
-P_1P_1'^2 + p_1^2 &lt; AA'^2 + p_0^2.
+P_1P_1'^2 + p_1^2 < AA'^2 + p_0^2.
 $$
 Lastly, if
 $$
-AM &gt; AM_0,
+AM > AM_0,
 $$
 $$
-2MH'.M_0H' &gt; HH'^2,
+2MH'.M_0H' > HH'^2,
 $$
 and, if
 $$
-AM_1 &gt; AM,
+AM_1 > AM,
 $$
 $$
-2M_1H'.MH' &gt; HH'^2;
+2M_1H'.MH' > HH'^2;
 $$
 whence we derive in like manner that
 $$
-PP'^2 + p^2 &gt; P_0P_0'^2 + p_0^2,
+PP'^2 + p^2 > P_0P_0'^2 + p_0^2,
 $$
 $$
-P_1P_1'^2 + p_1^2 &gt; PP'^2 + p^2,
+P_1P_1'^2 + p_1^2 > PP'^2 + p^2,
 $$
 and so on.
 
@@ -10461,9 +10461,9 @@ and so on.
 
 In an ellipse,
 
-(1) if $AA'^2 \ngtr \frac{1}{2}(AA' + p_a)^2$, then $AA'^2 + p_a^2 &lt; PP'^2 + p^2$, and the latter increases as $P$ moves away from $A$, reaching a **maximum** when $P$ coincides with $B$;
+(1) if $AA'^2 \ngtr \frac{1}{2}(AA' + p_a)^2$, then $AA'^2 + p_a^2 < PP'^2 + p^2$, and the latter increases as $P$ moves away from $A$, reaching a **maximum** when $P$ coincides with $B$;
 
-(2) if $AA'^2 &gt; \frac{1}{2}(AA' + p_a)^2$, then there will be on each side of the axis a diameter $P_0P_0'$ such that $P_0P_0'^2 = \frac{1}{2}(P_0P_0' + p_0)^2$, and $P_0P_0'^2 + p_0^2$ will then be less than $PP'^2 + p^2$ in the same quadrant, while this latter increases as $P$ moves from $P_0$ on either side.
+(2) if $AA'^2 > \frac{1}{2}(AA' + p_a)^2$, then there will be on each side of the axis a diameter $P_0P_0'$ such that $P_0P_0'^2 = \frac{1}{2}(P_0P_0' + p_0)^2$, and $P_0P_0'^2 + p_0^2$ will then be less than $PP'^2 + p^2$ in the same quadrant, while this latter increases as $P$ moves from $P_0$ on either side.
 
 (1) Suppose $AA'^2 \ngtr \frac{1}{2}(AA' + p_a)^2$.
 
@@ -10514,13 +10514,13 @@ $$
 whence
 
 $$
-2A'H \cdot MH' &lt; HH'^2.
+2A'H \cdot MH' < HH'^2.
 $$
 
 Subtracting $2MH \cdot MH'$, we have
 
 $$
-2A'M \cdot MH' &lt; MH^2 + MH'^2 \quad \text{(1)},
+2A'M \cdot MH' < MH^2 + MH'^2 \quad \text{(1)},
 $$
 
 $$
@@ -10528,7 +10528,7 @@ $$
 $$
 
 $$
-&gt; 2A'M \cdot AM : MH^2 + MH'^2,
+> 2A'M \cdot AM : MH^2 + MH'^2,
 $$
 
 and, since $2A'M \cdot AM + MH^2 + MH'^2 = A'H^2 + A'H'^2$,
@@ -10537,16 +10537,16 @@ and, since $2A'M \cdot AM + MH^2 + MH'^2 = A'H^2 + A'H'^2$,
 
 we have, *componendo*,
 
-$$AH': MH' &gt; A'H^2 + A'H'^2 : MH^2 + MH'^2,$$
+$$AH': MH' > A'H^2 + A'H'^2 : MH^2 + MH'^2,$$
 
 $$
-\therefore A'H. AH': A'H^2 + A'H'^2 &gt; A'H. MH': MH^2 + MH'^2,
+\therefore A'H. AH': A'H^2 + A'H'^2 > A'H. MH': MH^2 + MH'^2,
 $$
 
 whence
 
 $$
-AA'^2 : (AA'^2 + p_a^2) &gt; AA'^2 : (PP'^2 + p^2),
+AA'^2 : (AA'^2 + p_a^2) > AA'^2 : (PP'^2 + p^2),
 $$
 
 [Prop. 130 (5)]
@@ -10554,29 +10554,29 @@ $$
 or
 
 $$
-AA'^2 + p_a^2 &lt; PP'^2 + p^2.
+AA'^2 + p_a^2 < PP'^2 + p^2.
 $$
 
-Again, either $MH &lt; M_1H'$, or $MH \nless M_1H'$.
+Again, either $MH < M_1H'$, or $MH \nless M_1H'$.
 
 (a) Let
 
-$$MH &lt; M_1H'$$
+$$MH < M_1H'$$
 
 Then
 
 $$
-MH^2 + MH'^2 &gt; M_1H^2 + M_1H'^2,
+MH^2 + MH'^2 > M_1H^2 + M_1H'^2,
 $$
 
 and
 
 $$
-M_1H^2 + M_1H'^2 &gt; M_1H'.2(M_1H' - MH)
+M_1H^2 + M_1H'^2 > M_1H'.2(M_1H' - MH)
 $$
 
 $$
-\therefore MM_1.2(M_1H' - MH): M_1H'.2(M_1H' - MH), \text{ or } MM_1: M_1H', &gt; MM_1.2(M_1H' - MH): M_1H^2 + M_1H'^2.
+\therefore MM_1.2(M_1H' - MH): M_1H'.2(M_1H' - MH), \text{ or } MM_1: M_1H', > MM_1.2(M_1H' - MH): M_1H^2 + M_1H'^2.
 $$
 
 But
@@ -10591,18 +10591,18 @@ $$
 
 thus, *componendo*, we have
 
-$$MH': M_1H' &gt; MH^2 + MH'^2 : M_1H^2 + M_1H'^2;$$
+$$MH': M_1H' > MH^2 + MH'^2 : M_1H^2 + M_1H'^2;$$
 
 therefore, alternately,
 
-$$A'H. MH': MH^2 + MH'^2 &gt; A'H. M_1H': M_1H^2 + M_1H'^2,$$
+$$A'H. MH': MH^2 + MH'^2 > A'H. M_1H': M_1H^2 + M_1H'^2,$$
 
-and $$AA'^2 : PP'^2 + p^2 &gt; AA'^2 : P_1P_1'^2 + p_1^2, \text{ [Prop. 130 (5)]}$$
+and $$AA'^2 : PP'^2 + p^2 > AA'^2 : P_1P_1'^2 + p_1^2, \text{ [Prop. 130 (5)]}$$
 
 so that
 
 $$
-PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.
+PP'^2 + p^2 < P_1P_1'^2 + p_1^2.
 $$
 
 (b) If
@@ -10613,12 +10613,12 @@ $$MH^2 + MH'^2 \ngtr M_1H^2 + M_1H'^2,$$
 
 and it results, in the same way as before, that
 
-$$A'H. MH': MH^2 + MH'^2 &gt; A'H. M_1H': M_1H^2 + M_1H'^2,$$
+$$A'H. MH': MH^2 + MH'^2 > A'H. M_1H': M_1H^2 + M_1H'^2,$$
 
 and
 
 $$
-PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.
+PP'^2 + p^2 < P_1P_1'^2 + p_1^2.
 $$
 
 Lastly, since
@@ -10631,21 +10631,21 @@ $$
 A'H. M_1H': M_1H^2 + M_1H'^2 = AA'^2 : P_1P_1'^2 + p_1^2,
 $$
 
-$$M_1H^2 + M_1H'^2 &gt; 2A'M_1. M_1H' &gt; M_1H'.2(M_1H' - A'H') &gt; M_1H'.2(M_1H' - MH), \text{ a fortiori.}$$
+$$M_1H^2 + M_1H'^2 > 2A'M_1. M_1H' > M_1H'.2(M_1H' - A'H') > M_1H'.2(M_1H' - MH), \text{ a fortiori.}$$
 
 ---
 
 it is shown in the same manner that
 
-$$P_1P_1'^2 + p_1^2 &lt; BB'^2 + p_0^2.$$
+$$P_1P_1'^2 + p_1^2 < BB'^2 + p_0^2.$$
 
 (2) Suppose
 
-$$AA'^2 &gt; \frac{1}{2}(AA' + p_0)^2,$$
+$$AA'^2 > \frac{1}{2}(AA' + p_0)^2,$$
 
 so that
 
-$$2AH'^2 &gt; HH'^2.$$
+$$2AH'^2 > HH'^2.$$
 
 Make $2M_0H'^2$ equal to $HH'^2$, so that
 
@@ -10669,23 +10669,23 @@ $$HH'.CM_0 = M_0H.M_0H'.$$
 
 If then (a)
 
-$$AM &lt; AM_0$$
+$$AM < AM_0$$
 
-$$4CM_0.CH' &gt; 2MH.M_0H'.$$
+$$4CM_0.CH' > 2MH.M_0H'.$$
 
 Adding $2MM_0.M_0H'$ to each side,
 
-$$4CM_0.CH' + 2MM_0.M_0H' &gt; 2M_0H.M_0H',$$
+$$4CM_0.CH' + 2MM_0.M_0H' > 2M_0H.M_0H',$$
 
 and again, adding $4CM_0^2$,
 
-$$2(CM + CM_0)M_0H' &gt; (M_0H^2 + M_0H'^2).$$
+$$2(CM + CM_0)M_0H' > (M_0H^2 + M_0H'^2).$$
 
 It follows that
 
 $$2(CM + CM_0)MM_0: 2(CM + CM_0)M_0H', \text{ or } MM_0:M_0H',$$
 
-$$&lt; 2(CM + CM_0)MM_0: (M_0H^2 + M_0H'^2).$$
+$$< 2(CM + CM_0)MM_0: (M_0H^2 + M_0H'^2).$$
 
 Now
 
@@ -10695,40 +10695,40 @@ $$= MH^2 + MH'^2,$$
 
 so that, *componendo*,
 
-$$MH':M_0H' &lt; MH^2 + MH'^2: M_0H^2 + M_0H'^2,$$
+$$MH':M_0H' < MH^2 + MH'^2: M_0H^2 + M_0H'^2,$$
 
 and
 
-$$A'H.MH': MH^2 + MH'^2 &lt; A'H.M_0H': M_0H^2 + M_0H'^2,$$
+$$A'H.MH': MH^2 + MH'^2 < A'H.M_0H': M_0H^2 + M_0H'^2,$$
 
 whence
 
-$$P_0P_0'^2 + p_0^2 &lt; PP'^2 + p^2.$$
+$$P_0P_0'^2 + p_0^2 < PP'^2 + p^2.$$
 
 Similarly, if
 
-$$AM_1 &lt; AM,$$
+$$AM_1 < AM,$$
 
-$$2HH'.CM &gt; 2M_1H.MH',$$
+$$2HH'.CM > 2M_1H.MH',$$
 
 and we prove, in the same manner as above,
 
-$$PP'^2 + p^2 &lt; P_1P_1'^2 + p_1^2.$$
+$$PP'^2 + p^2 < P_1P_1'^2 + p_1^2.$$
 
 ---
 
-And, since $2HH'.CM_1 &gt; 2AH.M_1H'$
+And, since $2HH'.CM_1 > 2AH.M_1H'$
 
 in like manner
 
 $$
-P_1P_1'^2 + p_1^2 &lt; AA'^2 + p_a^2.
+P_1P_1'^2 + p_1^2 < AA'^2 + p_a^2.
 $$
 
-Lastly $(b)$, if $AM &gt; AM_0$, the same method of proof gives
+Lastly $(b)$, if $AM > AM_0$, the same method of proof gives
 
 $$
-P_0P_0'^2 + p_0^2 &lt; PP'^2 + p^2,
+P_0P_0'^2 + p_0^2 < PP'^2 + p^2,
 $$
 
 etc.
@@ -10739,17 +10739,17 @@ etc.
 
 In a hyperbola,
 
-(1) if $AA' &gt; p_a$, then
+(1) if $AA' > p_a$, then
 
-$AA'^2 \sim p_a^2 &lt; PP'^2 \sim p^2$, where $PP'$ is any diameter, and $PP'^2 \sim p^2$ increases as $P$ moves further from $A$;
+$AA'^2 \sim p_a^2 < PP'^2 \sim p^2$, where $PP'$ is any diameter, and $PP'^2 \sim p^2$ increases as $P$ moves further from $A$;
 
-also $PP'^2 \sim p^2 &gt; AA'^2 \sim p_a.AA'$ but $&lt; 2(AA'^2 \sim p_a.AA')$:
+also $PP'^2 \sim p^2 > AA'^2 \sim p_a.AA'$ but $< 2(AA'^2 \sim p_a.AA')$:
 
-(2) if $AA' &lt; p_a$, then
+(2) if $AA' < p_a$, then
 
-$AA'^2 \sim p_a^2 &gt; PP'^2 \sim p^2$, which diminishes as $P$ moves away from $A$;
+$AA'^2 \sim p_a^2 > PP'^2 \sim p^2$, which diminishes as $P$ moves away from $A$;
 
-also $PP'^2 \sim p^2 &gt; 2(AA'^2 \sim p_a.AA')$.
+also $PP'^2 \sim p^2 > 2(AA'^2 \sim p_a.AA')$.
 
 (1) As usual, $A'H: AH = AH': A'H' = AA': p_a$;
 
@@ -10760,60 +10760,60 @@ $$
 Now
 
 $$
-MH': AH' &lt; MH: AH;
+MH': AH' < MH: AH;
 $$
 
 $$
-\therefore MH': AH' &lt; MH' + MH: AH' + AH
+\therefore MH': AH' < MH' + MH: AH' + AH
 $$
 
 $$
 \begin{array}{l}
-&lt; (MH' + MH) HH': (AH' + AH) HH', \\
+< (MH' + MH) HH': (AH' + AH) HH', \\
 \end{array}
 $$
 
 i.e.
 
 $$
-&lt; MH'^2 \sim MH^2: AH'^2 \sim AH^2.
+< MH'^2 \sim MH^2: AH'^2 \sim AH^2.
 $$
 
 Hence
 
 $$
-A'H.MH': MH'^2 \sim MH^2 &lt; A'H.AH': AH'^2 \sim AH^2;
+A'H.MH': MH'^2 \sim MH^2 < A'H.AH': AH'^2 \sim AH^2;
 $$
 
 $$
-\therefore AA'^2: PP'^2 \sim p^2 &lt; AA'^2: AA'^2 \sim p_a^2, \text{ [Prop. 130 (5)]}
+\therefore AA'^2: PP'^2 \sim p^2 < AA'^2: AA'^2 \sim p_a^2, \text{ [Prop. 130 (5)]}
 $$
 
 or
 
 $$
-AA'^2 \sim p_a^2 &lt; PP'^2 \sim p^2.
+AA'^2 \sim p_a^2 < PP'^2 \sim p^2.
 $$
 
 Again, if
 
 $$
-AM_1 &gt; AM,
+AM_1 > AM,
 $$
 
 $$
-M_1H': MH' &lt; M_1H: MH;
+M_1H': MH' < M_1H: MH;
 $$
 
 $$
-\therefore M_1H': MH' &lt; M_1H' + M_1H: MH' + MH,
+\therefore M_1H': MH' < M_1H' + M_1H: MH' + MH,
 $$
 
 ---
 
 and, proceeding as before, we find
 
-$$PP'^2 \sim p^2 &lt; P_1 P_1'^2 \sim p_1^2,$$
+$$PP'^2 \sim p^2 < P_1 P_1'^2 \sim p_1^2,$$
 
 and so on.
 
@@ -10821,7 +10821,7 @@ Now, if $PO$ be measured along $PP'$ equal to $p$,
 
 $$PP'^2 \sim p^2 = 2PO \cdot OP' + OP'^2;$$
 
-$\therefore PP'^2 \sim p^2 &gt; PP' \cdot OP'$ but $&lt; 2PP' \cdot OP'$.
+$\therefore PP'^2 \sim p^2 > PP' \cdot OP'$ but $< 2PP' \cdot OP'$.
 
 But
 
@@ -10829,36 +10829,36 @@ $$PP' \cdot OP' = PP'^2 - PP' \cdot PO$$
 
 $$
 \begin{aligned}
-&amp;= PP'^2 - p \cdot PP' \\
-&amp;= AA'^2 - p_a \cdot AA'; \quad \text{[Prop. 129]} \\
+&= PP'^2 - p \cdot PP' \\
+&= AA'^2 - p_a \cdot AA'; \quad \text{[Prop. 129]} \\
 \end{aligned}
 $$
 
-$\therefore PP'^2 \sim p^2 &gt; AA'^2 \sim p_a \cdot AA'$ but $&lt; 2(AA'^2 \sim p_a \cdot AA')$.
+$\therefore PP'^2 \sim p^2 > AA'^2 \sim p_a \cdot AA'$ but $< 2(AA'^2 \sim p_a \cdot AA')$.
 
-(2) If $AA' &lt; p_a$,
+(2) If $AA' < p_a$,
 
-$$MH': AH' &gt; MH: AH;$$
+$$MH': AH' > MH: AH;$$
 
 $$
-\therefore MH': AH' &gt; MH' + MH: AH' + AH,
+\therefore MH': AH' > MH' + MH: AH' + AH,
 $$
 
 and
 
-$$A'H \cdot MH': A'H \cdot AH' &gt; (MH' + MH)HH': (AH' + AH)HH',$$
+$$A'H \cdot MH': A'H \cdot AH' > (MH' + MH)HH': (AH' + AH)HH',$$
 
 i.e.
 
-$$&gt; MH'^2 \sim MH^2: AH'^2 \sim AH^2.$$
+$$> MH'^2 \sim MH^2: AH'^2 \sim AH^2.$$
 
 Therefore, proceeding as above, we find in this case
 
-$$PP'^2 \sim p^2 &lt; AA'^2 \sim p_a^2.$$
+$$PP'^2 \sim p^2 < AA'^2 \sim p_a^2.$$
 
 Similarly
 
-$$P_1 P_1'^2 \sim p_1^2 &lt; PP'^2 \sim p^2,$$
+$$P_1 P_1'^2 \sim p_1^2 < PP'^2 \sim p^2,$$
 
 and so on.
 
@@ -10876,14 +10876,14 @@ $$PP'^2 \sim p^2 = PP'^2 \sim PO^2$$
 
 $$
 \begin{aligned}
-&amp;= 2PP' \cdot P'O + P'O^2 \\
-&amp;&gt; 2PP' \cdot OP' \\
+&= 2PP' \cdot P'O + P'O^2 \\
+&> 2PP' \cdot OP' \\
 \end{aligned}
 $$
 
 or
 
-$$&gt; 2(AA'^2 \sim p_a \cdot AA').$$
+$$> 2(AA'^2 \sim p_a \cdot AA').$$
 
 ---
 
@@ -10893,18 +10893,18 @@ $$&gt; 2(AA'^2 \sim p_a \cdot AA').$$
 
 In an ellipse,
 
-(1) if $PP'$ be any diameter such that $PP' &gt; p$,
+(1) if $PP'$ be any diameter such that $PP' > p$,
 
 $$
-AA'^2 \sim p_a^2 &gt; PP'^2 \sim p^2,
+AA'^2 \sim p_a^2 > PP'^2 \sim p^2,
 $$
 
 and $PP'^2 \sim p^2$ diminishes as $P$ moves further from $A$;
 
-(2) if $PP'$ be any diameter such that $PP' &lt; p$,
+(2) if $PP'$ be any diameter such that $PP' < p$,
 
 $$
-BB'^2 \sim p_b^2 &gt; PP'^2 \sim p^2,
+BB'^2 \sim p_b^2 > PP'^2 \sim p^2,
 $$
 
 and $PP'^2 \sim p^2$ diminishes as $P$ moves further from $B$.
@@ -10912,77 +10912,77 @@ and $PP'^2 \sim p^2$ diminishes as $P$ moves further from $B$.
 (1) In this case (using the figure of Prop. 141)
 
 $$
-AH': MH' &lt; AC : CM
+AH': MH' < AC : CM
 $$
 
 $$
-\therefore A'H. AH': A'H. MH' &lt; 2HH'. AC : 2HH'. CM
+\therefore A'H. AH': A'H. MH' < 2HH'. AC : 2HH'. CM
 $$
 
 i.e.
 
 $$
-&lt; AH'^2 \sim AH^2 : MH'^2 \sim MH^2.
+< AH'^2 \sim AH^2 : MH'^2 \sim MH^2.
 $$
 
 Therefore, alternately,
 
 $$
-A'H. AH': AH'^2 \sim AH^2 &lt; A'H. MH': MH'^2 \sim MH^2.
+A'H. AH': AH'^2 \sim AH^2 < A'H. MH': MH'^2 \sim MH^2.
 $$
 
 Hence
 
 $$
-AA'^2 : AA'^2 \sim p_a^2 &lt; AA'^2 : PP'^2 \sim p^2, \text{ [Prop. 130 (5)]}
+AA'^2 : AA'^2 \sim p_a^2 < AA'^2 : PP'^2 \sim p^2, \text{ [Prop. 130 (5)]}
 $$
 
 and
 
 $$
-AA'^2 \sim p_a^2 &gt; PP'^2 \sim p^2.
+AA'^2 \sim p_a^2 > PP'^2 \sim p^2.
 $$
 
-Also, if $AM_1 &gt; AM$, we shall have in the same way
+Also, if $AM_1 > AM$, we shall have in the same way
 
 $$
-A'H. MH': A'H. M_1H' &lt; MH'^2 \sim MH^2 : M_1H'^2 \sim M_1H^2,
+A'H. MH': A'H. M_1H' < MH'^2 \sim MH^2 : M_1H'^2 \sim M_1H^2,
 $$
 
 and therefore
 
 $$
-PP'^2 \sim p^2 &gt; P_1P_1'^2 \sim p_1^2, \text{ and so on.}
+PP'^2 \sim p^2 > P_1P_1'^2 \sim p_1^2, \text{ and so on.}
 $$
 
 (2) $P$ must in this case lie between $B$ and the extremity of either of the equal conjugate diameters, and $M$ will lie between $C$ and $A'$ if $P$ is on the quadrant $AB$.
 
 ---
 
-Then, if $M_1$ corresponds to another point $P_1$, and $AM_1 &gt; AM$, we have
+Then, if $M_1$ corresponds to another point $P_1$, and $AM_1 > AM$, we have
 
 $$
-MH' &gt; M_1H', \text{ and } CM &lt; CM_1;
-$$
-
-$$
-\therefore A'H \cdot MH' : A'H \cdot M_1H' &gt; CM : CM_1
+MH' > M_1H', \text{ and } CM < CM_1;
 $$
 
 $$
-&gt; 2CM \cdot HH' : 2CM_1 \cdot HH',
+\therefore A'H \cdot MH' : A'H \cdot M_1H' > CM : CM_1
+$$
+
+$$
+> 2CM \cdot HH' : 2CM_1 \cdot HH',
 $$
 
 i.e.
 
 $$
-&gt; MH^2 \sim MH'^2 : M_1H^2 \sim M_1H'^2,
+> MH^2 \sim MH'^2 : M_1H^2 \sim M_1H'^2,
 $$
 
 whence, in the same manner, we prove
 
 $$
-PP'^2 \sim p^2 &lt; P_1P_1'^2 \sim p_1^2;
+PP'^2 \sim p^2 < P_1P_1'^2 \sim p_1^2;
 $$
 
 and $PP'^2 \sim p^2$ increases as $P$ moves nearer to $B$, being a *maximum* when $P$ coincides with $B$.

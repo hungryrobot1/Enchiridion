@@ -38,15 +38,15 @@ Let $A, B$ be two unequal weights (of which $A$ is the greater) balancing about 
 
 ![img-98.jpeg](images/img-98.jpeg)
 
-Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
+Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC > CB$, they will incline towards $A$ at the greater distance [Post. 1].
 
 Hence
 
 $$
-AC &lt; CB.
+AC < CB.
 $$
 
-Conversely, if the weights balance, and $AC &lt; CB$, then $A &gt; B$.
+Conversely, if the weights balance, and $AC < CB$, then $A > B$.
 
 ## Proposition 4.
 
@@ -126,7 +126,7 @@ Suppose, if possible, that $(A + a)$ is too great to balance $B$. Take from $(A 
 
 Then, since $A$, $B$ are commensurable, and
 
-$$A:B &lt; DC:CE,$$
+$$A:B < DC:CE,$$
 
 $A$ and $B$ will not balance [Prop. 6], but $D$ will be depressed.
 
@@ -284,11 +284,11 @@ Now, if $n$ be the number of parts into which $AC$ is divided,
 
 $$
 \begin{aligned}
-\Delta ADC : &amp; \text{(sum of triangles on } AN, NP, \ldots) \\
-&amp;= AC^2 : (AN^2 + NP^2 + \ldots) \\
-&amp;= n^2 : n \\
-&amp;= n : 1 \\
-&amp;= AC : AN.
+\Delta ADC : & \text{(sum of triangles on } AN, NP, \ldots) \\
+&= AC^2 : (AN^2 + NP^2 + \ldots) \\
+&= n^2 : n \\
+&= n : 1 \\
+&= AC : AN.
 \end{aligned}
 $$
 
@@ -308,8 +308,8 @@ It follows that
 
 $$
 \begin{aligned}
-\Delta ABC : &amp; \text{(sum of all the small } \Delta s) = CA : AN \\
-&amp;&gt; VO : OH, \text{ by parallels}.
+\Delta ABC : & \text{(sum of all the small } \Delta s) = CA : AN \\
+&> VO : OH, \text{ by parallels}.
 \end{aligned}
 $$
 

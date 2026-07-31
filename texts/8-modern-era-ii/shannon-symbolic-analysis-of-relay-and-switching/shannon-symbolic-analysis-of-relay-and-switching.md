@@ -451,15 +451,15 @@ This may be realized with the circuit of Figure 14, using only one $A$ element f
 
 $$
 \begin{array}{c c c}
-W = &amp; &amp; B + \\
-X = &amp; A + &amp; \\
-Y = &amp; &amp; CY \\
-Z = &amp; &amp; F + EZ
+W = & & B + \\
+X = & A + & \\
+Y = & & CY \\
+Z = & & F + EZ
 \end{array}
 \quad
 \begin{array}{c c c}
-&amp; CW &amp; \\
-&amp; WX &amp; \\
+& CW & \\
+& WX & \\
 \end{array}
 $$
 
@@ -742,7 +742,7 @@ C.E. Shannon
 
 More than one symmetric function of a certain set of variables may be realized with just one circuit of the form of Figure 25, providing the different functions have no $a$-numbers in common. If there are common $a$-numbers the levels may be shifted down, or an extra relay may be added so that one circuit is still sufficient.
 
-The general network of Figure 25 contains $n(n + 1)$ elements. We will show that for any given selection of $a$-numbers, at least $n$ of the elements will be superfluous. Each number from 1 to $n - 1$ inclusive which is not in the set of $a$-numbers produces two unnecessary elements; 0 or $n$ missing will produce one unnecessary element. However, if two of the $a$-numbers differ by only one, then two elements will be superfluous. If more than two of the $a$-numbers are adjacent, or if two or more adjacent numbers are missing, then more than one element apiece will be superfluous. It is evident then that the worst case will be that in which the $a$-numbers are all the odd numbers or all the even numbers from 0 to $n$. In each of these cases it is easily seen that $n$ of the elements will be superfluous. In these cases the shifting down process may be used if $n &gt; 2$ so that the maximum of $n^2$ elements will be needed only for the four particular functions $X, X', X \oplus Y$, and $(X \oplus Y)'$.
+The general network of Figure 25 contains $n(n + 1)$ elements. We will show that for any given selection of $a$-numbers, at least $n$ of the elements will be superfluous. Each number from 1 to $n - 1$ inclusive which is not in the set of $a$-numbers produces two unnecessary elements; 0 or $n$ missing will produce one unnecessary element. However, if two of the $a$-numbers differ by only one, then two elements will be superfluous. If more than two of the $a$-numbers are adjacent, or if two or more adjacent numbers are missing, then more than one element apiece will be superfluous. It is evident then that the worst case will be that in which the $a$-numbers are all the odd numbers or all the even numbers from 0 to $n$. In each of these cases it is easily seen that $n$ of the elements will be superfluous. In these cases the shifting down process may be used if $n > 2$ so that the maximum of $n^2$ elements will be needed only for the four particular functions $X, X', X \oplus Y$, and $(X \oplus Y)'$.
 
 ![img-26.jpeg](images/img-26.jpeg)
 
@@ -871,13 +871,13 @@ These expressions can be simplified considerably, first by combining the second 
 
 $$
 \begin{array}{c c c}
-U = &amp; &amp; h ^ {\prime} + e [ a d (b + w ^ {\prime}) + x ^ {\prime} ] \cdot \\
-&amp; &amp; (x + y ^ {\prime} + d v) (y + v b) U \\
-w = &amp; &amp; c w \\
-x = Z ^ {\prime} + &amp; &amp; b x + w \\
-y = &amp; U ^ {\prime} + &amp; (a + c) y \\
-&amp; &amp; x + \\
-v = &amp; &amp; ac + a ^ {\prime} c ^ {\prime}
+U = & & h ^ {\prime} + e [ a d (b + w ^ {\prime}) + x ^ {\prime} ] \cdot \\
+& & (x + y ^ {\prime} + d v) (y + v b) U \\
+w = & & c w \\
+x = Z ^ {\prime} + & & b x + w \\
+y = & U ^ {\prime} + & (a + c) y \\
+& & x + \\
+v = & & ac + a ^ {\prime} c ^ {\prime}
 \end{array}
 $$
 
@@ -959,7 +959,7 @@ Edited by
 **Aaron D. Wyner**
 
 Mathematical Sciences Research Dept.
-AT&amp;T Bell Laboratories
+AT&T Bell Laboratories
 Murray Hill, NJ 07974
 USA
 

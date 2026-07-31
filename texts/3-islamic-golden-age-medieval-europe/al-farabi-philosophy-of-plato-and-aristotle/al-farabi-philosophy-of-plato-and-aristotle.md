@@ -2101,7 +2101,7 @@ St. = Alfarabi, Aphorisms of the Statesman, ed. D. M. Dunlop (Cambridge, 1961).
 11 tūqiʿunā: tūqiʿ lanā BM, EH || 13 nastāmil: "nasluk" F || ilā: + "al-yaqīn wa-nasluk fī matlūb ākhar ṭārīqā naṣīr minh ilā mā huw mithāluh aw khayāluh aw ṭārīqā yufdī binā ilā" F || 19 takhuṣṣ wāḥidah BM
 4 1 bi-ṣināʿah BM, EH || 6 fa-tuḍallil BM, EH || wa-yataḥayyar: aw tuḥayyirah fīh BM, EH || 15 bimā: biḥā mā || 16 fīh: fīhā BM, EH, F || 19 aw li-kathīr BM, EH
 5 2 wa-: + "idhā kānat al-maʿlūmāt al-uwal fī jins min al-ajnās hiy bi-ayānihā asbāb mā yashtamil ʿalayh dhālik al-jins" F || idhāʾ: idh EH, F || 19 bi-wujūd BM, F
-6 1 (transfer this line to the top of p. 7) || 2 [ʿalayh] BM, F || 5 ʿalā: + mā huw BM || 10 lā yatakhaṭṭ&lt;ā&gt; BM || 11 fa-idhā BM, EH
+6 1 (transfer this line to the top of p. 7) || 2 [ʿalayh] BM, F || 5 ʿalā: + mā huw BM || 10 lā yatakhaṭṭ<ā> BM || 11 fa-idhā BM, EH
 7 5 [min] BM, EH || 9 maʿlūmah BM, EH || 10 majhūlah BM, EH || 11 -hā: biḥā BM || 19 fa-natakhaṭṭā BM?, EH?
 8 3 wujūd mabdāʾih BM, EH || 11 wa-huw BM, EH, F || 13 bi-al-aʿdād: al-aʿdād
 9 1 wa-lākin: dhālik BM, EH || 2 wa-kān: kān BM, EH || 3 [min²] BM, EH || 4 famā BM, EH || 13 al-taʿīm || 14 alladhi: + <fih> || 15 yanzur: + fīh BM, EH || 17 fa-yakuff EH || idh BM, EH
@@ -2120,7 +2120,7 @@ NOTES TO THE ARABIC TEXT
 
 NOTES TO THE ARABIC TEXT
 
-8 istinād: ījād BM, EH || 11 tadūm BM || 12 tadūm: + &lt;wāḥidah bi-al-&gt;adad bal tadūm&gt; || 14 taqtarīn¹: tuqran BM
+8 istinād: ījād BM, EH || 11 tadūm BM || 12 tadūm: + <wāḥidah bi-al->adad bal tadūm> || 14 taqtarīn¹: tuqran BM
 18 1 aqṣā: aydā || bi-al-irādah BM, EH || 8 tarkībāt BM, EH || ṣuwariyyah BM || 13 māvalayh: fāḍiyyah BM || 16 mukhālīfah (cf. 19:3)
 19 2 allatī: + yūjad limā EH || 7 lahā: + indamā yūjad BM, EH || 14 [wa-] EH || 17 hādha: + an BM, EH || 19 yanfāuhum: bi-baḍihim BM
 20 5 [lā] EH || māhiyyah: mihnah EH || 7 zamān: + mā BM, EH || 8 fa-al-mihnah EH || 13 wa-al-mustanbiṭ BM, EH, F || 16 anfa
@@ -2128,7 +2128,7 @@ NOTES TO THE ARABIC TEXT
 22 5 al-uwal: "al-ūlā" F || 12, 13 garad BM || 12 ṣināh: + ṣināh EH || 14 al-hiraf: al-siyar BM, EH || 19 wa-li-ajl BM, EH
 23 2 [wa-] || 3 annah: in BM || 4 khayyir: + illā (read lā) khayyir BM, EH || 7 khulquh BM, EH || fikrih BM, EH || <wa->alā || 11 wa-kadhālik BM, EH || 13 fa-faḍīlatuh BM || wa-kull BM || fi: min BM, EH || 17 [minhā] || 18 [lammā kānat] || 19 al-muqtarīnah BM
 24 2 wa-bayān: fa-īnṛn || 7 gharad BM || bi-manzil BM || 16 lah: tilk || [wa-] BM, EH || faḍīlatuh BM, EH
-25 6 kadhālik: + &lt;ṣāhib&gt; || 9 wa-tilk BM, EH || 12 natamakkan BM || 14 al-ṣināh: al-ṣināt BM, EH || 18 al-juz-iyyah: al-ḥarbiyyah EH? || 19 al-ṣanā-iv: + al-ḥarbiyyah EH?
+25 6 kadhālik: + <ṣāhib> || 9 wa-tilk BM, EH || 12 natamakkan BM || 14 al-ṣināh: al-ṣināt BM, EH || 18 al-juz-iyyah: al-ḥarbiyyah EH? || 19 al-ṣanā-iv: + al-ḥarbiyyah EH?
 26 13 fa-in: + kān BM, EH || 16 an²: + <yakūn>
 27 5 allatī: "innamā" F || munfaridah BM?, F || 6 al-khulqiyyah: "al-fikriyyah" F || 8 huw: hawā EH, F || 9 huw bih: "hawāh" F, EH? || 13 illā an: "allā" F || 18 al-faḍīlah al-fikriyyah hiy: "faḍīlah khulqiyyah ghayr" F || 19 al-faḍīlah: + "al-fikriyyah" F || al-khayriyyah: al-khayr BM, EH, F
 28 2 tastanbiṭuhā: "tustanbaṭ biḥā" F || 8 al-tha-lab BM, EH, F || 12 in lam yuqsar EH || 19 tashbah BM, EH, F

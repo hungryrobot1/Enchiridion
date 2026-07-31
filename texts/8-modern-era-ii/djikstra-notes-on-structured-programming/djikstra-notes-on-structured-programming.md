@@ -196,7 +196,7 @@ $$
 operating on the variables "r" and "dd" leaves the relations
 
 $$
-0 \leq r &lt; dd \tag{1}
+0 \leq r < dd \tag{1}
 $$
 
 invariant. One just "follows" the little piece of program assuming that (1) is satisfied to start with. After the execution of the first statement, which halves
@@ -208,7 +208,7 @@ EWD249 - 9
 the value of dd, but leaves r unchanged, the relations
 
 $$
-0 \leq r &lt; 2 * d d \tag{2}
+0 \leq r < 2 * d d \tag{2}
 $$
 
 will hold. Now we distinguish two mutually exclusive cases.
@@ -216,21 +216,21 @@ will hold. Now we distinguish two mutually exclusive cases.
 1)  $\mathrm{dd} \leq \mathrm{r}$ . Together with (2) this leads to the relations
 
 $$
-\mathrm{dd} \leq \mathrm{r} &lt; 2 * \mathrm{dd}; \tag{3}
+\mathrm{dd} \leq \mathrm{r} < 2 * \mathrm{dd}; \tag{3}
 $$
 
 In this case the statement following do will be executed, ordering a decrease of  $r$  by dd, so that from (3) it follows that eventually
 
 $$
-0 \leq r &lt; \mathrm{dd}
+0 \leq r < \mathrm{dd}
 $$
 
 i.e. (1) will be satisfied.
 
-2)  $\underline{\text{non}} \, \mathrm{dd} \leq r$  (i.e.  $\mathrm{dd} &gt; r$ ). In this case the statement following do will be skipped and therefore also  $r$  has its final value. In this case "dd &gt; r" together with (2), which is valid after the execution of the first statement leads immediately to
+2)  $\underline{\text{non}} \, \mathrm{dd} \leq r$  (i.e.  $\mathrm{dd} > r$ ). In this case the statement following do will be skipped and therefore also  $r$  has its final value. In this case "dd > r" together with (2), which is valid after the execution of the first statement leads immediately to
 
 $$
-0 \leq r &lt; \mathrm{dd}
+0 \leq r < \mathrm{dd}
 $$
 
 so that also in the second case (1) will be satisfied.
@@ -254,7 +254,7 @@ $$
 $$
 
 $$
-\text{for } i &gt; 0 \quad d_i = f(d_{i-1}) \tag{2b}
+\text{for } i > 0 \quad d_i = f(d_{i-1}) \tag{2b}
 $$
 
 ---
@@ -276,7 +276,7 @@ $$
 and
 
 $$
-\operatorname{non} \operatorname{prop}(d_i) \quad \text{for all } i \text{ satisfying } 0 \leq i &lt; k \tag{5}.
+\operatorname{non} \operatorname{prop}(d_i) \quad \text{for all } i \text{ satisfying } 0 \leq i < k \tag{5}.
 $$
 
 We now consider the following program part:
@@ -318,7 +318,7 @@ $$
 and
 
 $$
-\operatorname{non} \operatorname{prop}(d_i) \quad \text{for all } i \text{ satisfying } 0 \leq i &lt; n \tag{7b}
+\operatorname{non} \operatorname{prop}(d_i) \quad \text{for all } i \text{ satisfying } 0 \leq i < n \tag{7b}
 $$
 
 The above statement holds for $n = 0$ (by enumerative reasoning); we have to prove (by enumerative reasoning) that when it holds for $n = N$ ($N \geq 0$), it will also hold for $n = N + 1$.
@@ -359,7 +359,7 @@ $$
 
 i.e. relation (7a) for $N = N + 1$ and thus the induction step (7) has been proved.
 
-Now we shall show that the repetition terminates after the k-th execution of the repeated statement. The n-th execution cannot take place for $n &gt; k$ for (on account of 7b) this would imply
+Now we shall show that the repetition terminates after the k-th execution of the repeated statement. The n-th execution cannot take place for $n > k$ for (on account of 7b) this would imply
 
 $$
 \underline{\text{non prop}} (d_{k})
@@ -377,7 +377,7 @@ $$
 \operatorname{prop} \left(d _ {n}\right) \quad . \tag {8}
 $$
 
-This excludes termination for $n &lt; k$, as this would violate (5). As a result the repetition will terminate with $n = k$, so that (3) follows from (7a), (4) follows from (8) and (5) follows from (7b). Which terminates our proof.
+This excludes termination for $n < k$, as this would violate (5). As a result the repetition will terminate with $n = k$, so that (3) follows from (7a), (4) follows from (8) and (5) follows from (7b). Which terminates our proof.
 
 Before turning our attention away from this example illustrating the use of mathematical induction as a pattern of reasoning, I should like to add some remarks, because I have the uneasy feeling that by now some of my readers -in particular experienced and competent programmers- will be terribly irritated, viz. those
 
@@ -438,7 +438,7 @@ EWD249 - 15
 Let us consider the following program section, where the integer constants $a$ and $d$ satisfy the relations
 
 $$
-a \geq 0 \quad \text{and} \quad d &gt; 0
+a \geq 0 \quad \text{and} \quad d > 0
 $$
 
 ```
@@ -456,7 +456,7 @@ To apply the Linear Search Theorem (see Section "On our mental aids", subsection
 ```
 for i = 0
 dd_i = d
-for i &gt; 0
+for i > 0
 dd_i = 2 * dd_{i-1}
 from which
 dd_n = d * 2^n
@@ -464,10 +464,10 @@ dd_n = d * 2^n
 
 (1)
 
-can be derived by normal mathematical techniques, which also tell us that (because $d &gt; 0$) for finite $r$
+can be derived by normal mathematical techniques, which also tell us that (because $d > 0$) for finite $r$
 
 $$
-dd_k &gt; r
+dd_k > r
 $$
 
 will hold for some finite $k$, thus ensuring that the first repetition terminates with
@@ -500,7 +500,7 @@ $$
 d d = d d _ {k}
 $$
 
-and therefore,  $0\leq r &lt;   dd$  (2)
+and therefore,  $0\leq r <   dd$  (2)
 
 holds. As shown earlier (Section "On our mental aids.", subsection "On enumeration") the repeated statement of the second clause leaves this relation invariant. After termination (on account of "while dd ≠ d do") we can conclude
 
@@ -511,7 +511,7 @@ $$
 which together with (2) gives
 
 $$
-0 \leq r &lt;   d \tag {3}
+0 \leq r <   d \tag {3}
 $$
 
 Furthermore we prove that after the initialisation
@@ -531,7 +531,7 @@ holds.
 3) The second repeated statement consists of two statements. The first ("dd:= dd/2") leaves (5) invariant, the second one also leaves (5) invariant for either it leaves r untouched or it decreases r by the current value of dd, an operation which on account of (4) also maintains the validity of (5). Therefore the whole second repeated statement leaves (5) invariant and therefore the whole repetition leaves (5) invariant. Combining (3) and (5), the final value therefore satisfies
 
 $$
-0 \leq r &lt;   d \quad \text{and} \quad a \equiv r \mod (d)
+0 \leq r <   d \quad \text{and} \quad a \equiv r \mod (d)
 $$
 
 i.e.  $r$  is the smalles non-negative remainder of the division of  $a$  by  $d$ .
@@ -575,7 +575,7 @@ after its execution.)
 **Remark 3.** As an exercise (for which acknowledgement is due to James King, CMU, Pittsburgh, USA) for the reader, prove that with integer A, B, x, y and z and
 
 $$
-A &gt; 0 \quad \text{and} \quad B \geq 0
+A > 0 \quad \text{and} \quad B \geq 0
 $$
 
 after the execution of the program section
@@ -596,7 +596,7 @@ finally  z = A^B  will hold.
 The proof has to show that (in spite of "y:= y / 2") all variables keep integer values; the method shows the invariance of
 
 $$
-x &gt; 0 \text{ and } y \geq 0 \text{ and } A^B = z * x^y
+x > 0 \text{ and } y \geq 0 \text{ and } A^B = z * x^y
 $$
 
 ---
@@ -612,7 +612,7 @@ The answer to this question seems to be the following. If one proves the correct
 When writing a program operating on real numbers with rounded operations, one must be aware of the assumptions one makes, such as
 
 ```
-b &gt; 0 implies a + b ≥ a
+b > 0 implies a + b ≥ a
 a * b = b * a
 -(a * b) = (-a) * b
 0 * x = 0
@@ -659,7 +659,7 @@ The simplest case is a parsing, a decomposition, into a fixed number of subactio
 ![img-0.jpeg](images/img-0.jpeg)
 S1; S2; ...; Sn
 
-The validity of this decomposition has to be established by enumerative reasoning. In this case, shortening of the conceptual gap between program and computation can be achieved by requiring that a linear piece of program text contains names or descriptions of the subactions in the order in which they have to take place. In our earlier example (invariance of  $0 \leq r &lt; dd$ )
+The validity of this decomposition has to be established by enumerative reasoning. In this case, shortening of the conceptual gap between program and computation can be achieved by requiring that a linear piece of program text contains names or descriptions of the subactions in the order in which they have to take place. In our earlier example (invariance of  $0 \leq r < dd$ )
 
 ```txt
 "dd:= dd / 2;
@@ -673,7 +673,7 @@ this condition is satisfied. The primary decomposition of the computation is int
 reduce r modulo dd".
 ```
 
-We are considering all initial states satisfying  $0 \leq r &lt; dd$  and in all computations then considered, the given parsing into two subactions is applicable.
+We are considering all initial states satisfying  $0 \leq r < dd$  and in all computations then considered, the given parsing into two subactions is applicable.
 
 ---
 
@@ -762,7 +762,7 @@ EWD249 - 27
 leaves the relation
 
 $$
-0 \leq r &lt; dd
+0 \leq r < dd
 $$
 
 invariant. Yet, even if we can ensure that these relations hold before execution of the quoted program part, we cannot conclude that they always hold, viz. not necessarily between the execution of the two quoted statements. In other words: the validity of such relations is dependent on the progress of the computation, and this seems typical for a sequential process.
@@ -861,7 +861,7 @@ On the arrays X and Y we can define of $0 \leq j \leq N$ the $N + 1$ functions $
 $$
 \begin{array}{l}
 \text{for } j = 0 \quad \text{EQUAL}_j = \underline{\text{true}} \\
-\text{for } j &gt; 0 \quad \text{EQUAL}_j = \text{EQUAL}_{j-1} \text{ and } (X[j] = Y[j])
+\text{for } j > 0 \quad \text{EQUAL}_j = \text{EQUAL}_{j-1} \text{ and } (X[j] = Y[j])
 \end{array}
 \tag{5}
 $$
@@ -1082,7 +1082,7 @@ The first prime number being given (= 2), the thousandst being assumed unknown t
 
 begin integer $k, j$; $k := 0$; $j := 1$;
 
-while $k &lt; 1000$ do begin "increase $j$ until next prime number";
+while $k < 1000$ do begin "increase $j$ until next prime number";
 
 $$
 k := k + 1; \quad p[k] := j \quad \text{end}
@@ -1113,7 +1113,7 @@ Again its correctness can hardly be subject to doubt. If, however, we assume tha
 
 ```txt
 begin integer k, j; p[1]:= 2; k:= 1; j:= 1;
-while k &lt; 1000 do
+while k < 1000 do
 begin "increase odd j until next odd prime number";
 k:= k + 1; p[k]:= j
 end
@@ -1170,7 +1170,7 @@ We use the facts that
 "Here you are guilty of a serious omission! Your program makes use of a deep result of number theory, namely that if  $p_n$  denotes the  $n$ -th prime number we always have
 
 $$
-p _ {n + 1} &lt;   p _ {n} ^ {2} \quad . "
+p _ {n + 1} <   p _ {n} ^ {2} \quad . "
 $$
 
 Peccavi.)
@@ -1183,7 +1183,7 @@ When the value of ord is known we can give for "give for odd j to jprime the mea
 
 begin integer n; n:= 2; jprime:= true;
 
-while  $n &lt;$  ord and jprime do
+while  $n <$  ord and jprime do
 
 begin "give to jprime the meaning:  $p[n]$  is not a factor of  $j$ ";  $n := n + 1$  end
 
@@ -1211,7 +1211,7 @@ begin integer k, j; p[1]:= 2; k:= 1;
 
 "set j to one";
 
-while k &lt; 1000 do
+while k < 1000 do
 
 begin "increase odd j until next odd prime number";
 
@@ -1258,7 +1258,7 @@ begin j:=1; "set ord initial" end;
 begin j:=j+2; "adjust ord" end;
 2b2(4)d =
 begin integer n; n:=2; jprime:=true;
-while n &lt; ord and jprime do
+while n < ord and jprime do
 begin "give to jprime the meaning: p[n] is not a factor of j";
 n:=n+1
 end
@@ -1316,12 +1316,12 @@ expressed in terms of
 If we have a built-in division, the implementation of "make r equal to the remainder of j over p[n]" can be assumed to be an easy matter. The case that the refinement of 2b4(4)d can be treated independently is now left to the interested reader. To give the algorithm an unexpected turn we shall assume the absence of a convenient remainder computation. In that case the algorithm
 
 $$
-"r := j; \text{ while } r &gt; 0 \text{ do } r := r - p[n]"
+"r := j; \text{ while } r > 0 \text{ do } r := r - p[n]"
 $$
 
 would lead to the (non-positive) remainder but it would be most unattractive from the point of view of computation time. Again this asks for the introduction of some additional tabulated material (similar to the way in which "ord" has been introduced).
 
-We want to know whether a given value of $j$ is a multiple of $p[n]$ for $n &lt; \text{ord}$. In order to assist us in this analysis we introduce a second array in the elements
+We want to know whether a given value of $j$ is a multiple of $p[n]$ for $n < \text{ord}$. In order to assist us in this analysis we introduce a second array in the elements
 
 ---
 
@@ -1331,16 +1331,16 @@ of which we can store multiples of the successive prime numbers, as close to $j$
 
 **integer array mult[1:30]**
 
-and introduce the convention that for $n &lt; \text{ord}$, $\text{mult}[n]$ will be a multiple of $p[n]$ and will satisfy the relation
+and introduce the convention that for $n < \text{ord}$, $\text{mult}[n]$ will be a multiple of $p[n]$ and will satisfy the relation
 
 $$
-\operatorname{mult}[n] &lt; j + p[n]
+\operatorname{mult}[n] < j + p[n]
 $$
 
 a relation that remains invariantly true under increase of $j$. Whenever we wish to investigate, whether $p[n]$ is a factor of $j$, we increase $\operatorname{mult}[n]$ by $p[n]$ as long as
 
 $$
-\operatorname{mult}[n] &lt; j
+\operatorname{mult}[n] < j
 $$
 
 After this increase $\operatorname{mult}[n] = j$ is the necessary and sufficient condition for $j$ to be a multiple of $p[n]$.
@@ -1373,7 +1373,7 @@ level 2b5(4):
 
 2b4(4)d =
 
-**begin while mult[n] &lt; j do mult[n]:= mult[n] + p[n]; r:= j - mult[n] end**
+**begin while mult[n] < j do mult[n]:= mult[n] + p[n]; r:= j - mult[n] end**
 
 which has made our computation close to an implementation of the Sieve of Eratosthenes!
 
@@ -1488,7 +1488,7 @@ EWD249 - 55
 prime table (see Section "A first example of step-wise program composition") with the introduction of "ord", which is functionally dependent on "j", viz. "ord" is the minimum value satisfying
 
 $$
-p[\text{ord}] \uparrow 2 &gt; j
+p[\text{ord}] \uparrow 2 > j
 $$
 
 where the adjustment of "ord" was a very attractive operation thanks to the fact that "j" was monotonically increasing in time.
@@ -1645,13 +1645,13 @@ The problem is the following one. There is given a line printer which is control
 Furthermore two integer functions of an integer argument are given, satisfying
 
 $$
-\text{for } 0 \leq i &lt; 1000: \quad 0 \leq f(x(i)) &lt; 100 \quad \text{and} \quad 0 \leq f(y(i)) &lt; 50
+\text{for } 0 \leq i < 1000: \quad 0 \leq f(x(i)) < 100 \quad \text{and} \quad 0 \leq f(y(i)) < 50
 $$
 
 Now we have to make a program printing 50 lines, numbered from top to bottom by a y-co-ordinate running from 49 through 0, the positions on a line being numbered from left to right by an x-co-ordinate running from 0 through 99. On the thousand positions (or less in the case of coincidence) given by
 
 $$
-x = f(x(i)) \text{ and } y = f(y(i)) \text{ for some } i \text{ satisfying } 0 \leq i &lt; 1000
+x = f(x(i)) \text{ and } y = f(y(i)) \text{ for some } i \text{ satisfying } 0 \leq i < 1000
 $$
 
 a mark has to be printed; all other positions on the paper have to remain blank. In other words: a curve is given in a discrete parameter representation and we wish to use the line printer as a digital plotter.
@@ -1779,7 +1779,7 @@ begin integer i;
 ```
 
 ```txt
-setmarks:  $|i := 0$ ; while  $i &lt; 1000$  do |add mark; i plus 1|;
+setmarks:  $|i := 0$ ; while  $i < 1000$  do |add mark; i plus 1|;
 ```
 
 ```txt
@@ -1792,7 +1792,7 @@ end
 
 This algorithm is to be understood in a machine whose instruction repertoire comprises "add mark(i, image)" which will change the value of "image" in accordance with the addition of the i-th mark. It describes the order in which the marks are dealt with; it shows that all marks will be dealt with exactly once.
 
-But this is not all: a new variable (viz. "i") has been introduced, the algorithm appeals to a set of actions referring to this variable ("i := 0", "i &lt; 1000" and "i plus 1") and if I were completely consistent, it seems that I should list them at the bottom, as possibly requiring further clarification at a later stage, just as "add mark". I have not done so (I have treated them along the same lines as the while-do clause). From the point of view of language semantics this separate treatment of an implicitly understood type integer does not seem attractive, and it seems hard to justify, why the type integer is treated differently from the type "image": both are implicitly understood in this machine.
+But this is not all: a new variable (viz. "i") has been introduced, the algorithm appeals to a set of actions referring to this variable ("i := 0", "i < 1000" and "i plus 1") and if I were completely consistent, it seems that I should list them at the bottom, as possibly requiring further clarification at a later stage, just as "add mark". I have not done so (I have treated them along the same lines as the while-do clause). From the point of view of language semantics this separate treatment of an implicitly understood type integer does not seem attractive, and it seems hard to justify, why the type integer is treated differently from the type "image": both are implicitly understood in this machine.
 
 Yet I have done it. All the time I design programs for non-existing machines and add: "if we now had a machine comprising the primitives here assumed, then the job is done". This is, logically speaking, correct; in practice it is a joke, because we know very well that we cannot assume a general purpose machine to be available whose instruction code is so very well tailored to our needs. We should not close our eyes -nor feign to do so!- to our responsibility to provide such primitives in a later stage of the design. When I now appeal to a well-understood type "integer" and the operations defined on variables of such a type in this exceptional manner, I do so with the intention of expressing that -although these facilities have to be provided in some form or another- providing these facilities falls outside the scope of the programmer's responsibility and also that the programmer will accept any reasonable implementation of them.
 
@@ -1870,8 +1870,8 @@ LONGREP
 ```txt
 begin integer k;
 line: {integer array sym[0 : 99]};
-lineprint: {k:= 0; while k &lt; 100 do {PRSYM(sym[k]); k plus 1}; NLCR};
-lineclear: {k:= 0; while k &lt; 100 do {sym[k]:= space; k plus 1};
+lineprint: {k:= 0; while k < 100 do {PRSYM(sym[k]); k plus 1}; NLCR};
+lineclear: {k:= 0; while k < 100 do {sym[k]:= space; k plus 1};
 linemark: {sym[x]:= mark}
 end
 ```
@@ -1884,10 +1884,10 @@ SHORTREP
 ```txt
 begin integer k;
 line: {integer f; integer array sym[0 : 99]};
-lineprint: {k:= 0; while k &lt; f do {PRSYM(sym[k]); k plus 1}; NLCR};
+lineprint: {k:= 0; while k < f do {PRSYM(sym[k]); k plus 1}; NLCR};
 lineclear: {f:= 0};
 linemark: {sym[x]:= mark;
-if f ≤ x do {k:= f; while k &lt; x do {sym[k]:= space; k plus 1};
+if f ≤ x do {k:= f; while k < x do {sym[k]:= space; k plus 1};
 f:= x + 1}
 end
 ```
@@ -1905,7 +1905,7 @@ linemark: {while f ≤ x do {sym[f]:= space; f plus 1};
 sym[x]:= mark}
 ```
 
-a version which guarantees that whenever "sym[x] := mark" is executed, the relation "x &lt; f" will always be satisfied: it is precisely the function of the first line to see to this. The reader is invited to try to understand both versions of linemark and to compare both reasonings. He will then agree with my judgement that the original version is lousy.
+a version which guarantees that whenever "sym[x] := mark" is executed, the relation "x < f" will always be satisfied: it is precisely the function of the first line to see to this. The reader is invited to try to understand both versions of linemark and to compare both reasonings. He will then agree with my judgement that the original version is lousy.
 
 The second version jumped into my mind on account of the following observation. The conditional clause
 
@@ -2143,7 +2143,7 @@ repeat $s := s + 1$;
 
 $k$: "the number of ways in which $s$ can be decomposed as the sum of two $n$-th powers"
 
-until $k &gt; 1$
+until $k > 1$
 
 thus arriving at a hopelessly inefficient algorithm. The error he made was the decision at too early a stage to investigate the natural numbers in succession, the overwhelming majority of which are not decomposable at all. Reasoning that the value we are looking for is the smallest decomposable number satisfying an additional property, one comes to an algorithm whose first sketch could be
 
@@ -2157,7 +2157,7 @@ t:= 1 (and further initialization);
 repeat s:= "smallest decomposable value larger than t";
 k:= "the number of ways the above minimum is obtained"
 t:= s
-until k &gt; 1"
+until k > 1"
 ```
 
 By storing a collection of triples (number pairs with their corresponding s-value), among which each time the pair(s) with minimum s-value exceeding t will occur and adjusting this collection each time t is increased, a program emerges that is orders of magnitude more efficient, t jumping from decomposable value to the next decomposable value. Programming (or problem solving in general?) as the judicious postponement of decisions and commitments!

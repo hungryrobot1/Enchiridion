@@ -17,7 +17,7 @@ IN TWO VOLUMES.
 VOL. II.
 
 LONDON
-TRÜBNER &amp; CO., LUDGATE HILL.
+TRÜBNER & CO., LUDGATE HILL.
 1888.
 [All rights reserved.]
 
@@ -114,7 +114,7 @@ To date by the here-mentioned eras requires in any case vast numbers, since thei
 (4.) Valabha, and
 (5.) Gupta.
 
-The Hindus believe regarding Śrī Harsha that he used to examine the soil in order to see what of hidden treasures was in its interior, as far down as the seventh earth; that, in fact, he found such treasures; and that, in consequence, he could dispense with oppressing his subjects (by taxes, &amp;c.) His era is used in Mathurā and the country of Kanoj. Between Śrī Harsha and Vikramāditya there is an interval of 400 years, as I have been told by some of the inhabitants of that region. However, in the Kashmīrian calendar I have read that Śrī Harsha was 664 years later than Vikramāditya. In face of this discrepancy I am in perfect uncertainty, which to the present moment has not yet been cleared up by any trustworthy information.
+The Hindus believe regarding Śrī Harsha that he used to examine the soil in order to see what of hidden treasures was in its interior, as far down as the seventh earth; that, in fact, he found such treasures; and that, in consequence, he could dispense with oppressing his subjects (by taxes, &c.) His era is used in Mathurā and the country of Kanoj. Between Śrī Harsha and Vikramāditya there is an interval of 400 years, as I have been told by some of the inhabitants of that region. However, in the Kashmīrian calendar I have read that Śrī Harsha was 664 years later than Vikramāditya. In face of this discrepancy I am in perfect uncertainty, which to the present moment has not yet been cleared up by any trustworthy information.
 
 Those who use the era of Vikramāditya live in the southern and western parts of India. It is used in the following way: 342 are multiplied by 3, which gives
 
@@ -862,7 +862,7 @@ and *adhimása* days, as the general lunar days are equal to the sum of universa
 
 The following rule of Ya’kûb for the computation of the partial *únarátra* days by means of the partial *adhimása* months is found in all the manuscripts of his book:—
 
-&gt; “The past *adhimása*, together with the fractions of the current *adhimása*, are multiplied by the universal *únarátra* days, and the product is divided by the universal solar months. The quotient is added to the *adhimása*. The sum is the number of the past *únarátras*.”
+> “The past *adhimása*, together with the fractions of the current *adhimása*, are multiplied by the universal *únarátra* days, and the product is divided by the universal solar months. The quotient is added to the *adhimása*. The sum is the number of the past *únarátras*.”
 
 This rule does not, as I think, show that its author knew the subject thoroughly, nor that he had much confidence either in analogy or experiment. For the *adhimása* months which have passed of the *caturyuga* up to our gauge-date are, according to the theory of Pulisa, 1,196,525⁴⁴⁸⁹⁷. Multiplying this number by the *únarátra* of the *caturyuga*, we get the product 30,011,600,068,426⁵¹. Dividing this number by the solar months, we get the quotient 578,927. Adding this to the *adhimása*, we get the sum 1,775,452. And this is not what we wanted to find. On the contrary, the number of *únarátra* days is 18,835,700. Nor is the product of the multiplication of this number by 30 that which we wanted to find. On the contrary, it is 53,263,560. Both numbers are far away from the truth.
 
@@ -981,7 +981,7 @@ The theory of Varāhamihira comes very near that of Brahmagupta; for here the fr
 
 In a Muhammadan canon or calendar called *the canon Al-harkan* we find the same method of calculation, but applied to and starting from another era, the epoch of which must fall 40,081 (days) after that of the era of Yazdajird. According to this book, the beginning of the Indian year falls on Sunday the 21st of Daimāh of the year 110 of Yazdajird. The method may be tested in the following manner:—
 
-&gt; "Take seventy-two years, change them into months by multiplying them by 12, which gives the product 864. Add thereto the months which have elapsed between the 1st of Sha'bān of the year 197, and the 1st of the month in which you happen to be. Write down the sum in two different places. Multiply the lower number by 7 and divide the product by 228. Add the quotient to the upper number and multiply the sum by 30. Add to the product the number of days which have elapsed of the month in which you are. Write down this number in two different places.
+> "Take seventy-two years, change them into months by multiplying them by 12, which gives the product 864. Add thereto the months which have elapsed between the 1st of Sha'bān of the year 197, and the 1st of the month in which you happen to be. Write down the sum in two different places. Multiply the lower number by 7 and divide the product by 228. Add the quotient to the upper number and multiply the sum by 30. Add to the product the number of days which have elapsed of the month in which you are. Write down this number in two different places.
 
 Method of the Arabic canon
 *Al-harkan*.
@@ -1016,7 +1016,7 @@ We have already in a former place mentioned the outlines of this method. After t
 CHAPTER LIII. 55
 which in the method of *ahargana* deviate to some other process. Unfortunately that which we possess of the book is badly translated. What we are able to quote from it is the following:—
 
-He subtracts 821 from the years of the Śakakāla. The remainder is the *basis*. This would be the year 132 for our gauge-year. He writes down this number in three different places. He multiplies the first number by 132 degrees. The product gives the number 17,424 for our gauge-date. He multiplies the second number by 46 minutes, and gets the product 6072. He multiplies the third number by 34, and gets the product 4488. He divides it by 50, and the quotient represents minutes, seconds, &amp;c., viz. 89′ 46″. Then he adds to the sum of degrees in the upper place 112, changing the seconds to minutes, the minutes to degrees, the degrees to circles. Thus he gets 48 circles 358° 41′ 45″. This is the mean place of the moon when the sun enters Aries.
+He subtracts 821 from the years of the Śakakāla. The remainder is the *basis*. This would be the year 132 for our gauge-year. He writes down this number in three different places. He multiplies the first number by 132 degrees. The product gives the number 17,424 for our gauge-date. He multiplies the second number by 46 minutes, and gets the product 6072. He multiplies the third number by 34, and gets the product 4488. He divides it by 50, and the quotient represents minutes, seconds, &c., viz. 89′ 46″. Then he adds to the sum of degrees in the upper place 112, changing the seconds to minutes, the minutes to degrees, the degrees to circles. Thus he gets 48 circles 358° 41′ 45″. This is the mean place of the moon when the sun enters Aries.
 
 Further, he divides the degrees of the mean place of the moon by 12. The quotient represents days. The remainder of the division he multiplies by 60, and adds thereto the minutes of the mean place of the moon. He divides the sum by 12, and the quotient represents *ghaṭīs* and minor portions of time. Thus we get 27° 23′ 29″, i.e. *adhimāsa* days. No doubt this number represents the past portion of the *adhimāsa* month, which is at present in the course of formation.
 
@@ -1122,7 +1122,7 @@ Traditional view on the sun being below the moon.
 
 WHEN speaking of the *lokas*, we have already given a quotation from the *Vishṇu-Purāṇa* and from the commentary of Patañjali, according to which the place of the sun is in the order of the planets below that of the moon. This is the traditional view of the Hindus. Compare in particular the following passage of the *Matsya-Purāṇa*:—
 
-&gt; “The distance of heaven from the earth is equal to the radius of the earth. The sun is the lowest of all planets. Above him there is the moon, and above the moon are the lunar stations and their stars. Above them is Mercury, then follow Venus, Mars, Jupiter, Saturn, the Great Bear, and above it the pole. The pole is connected with the heaven. The stars cannot be counted by man. Those who impugn this view maintain that the moon at conjunction becomes hidden by the sun, as the light of the lamp becomes invisible in the light of the sun, and she becomes more visible the more she moves away from the sun.”
+> “The distance of heaven from the earth is equal to the radius of the earth. The sun is the lowest of all planets. Above him there is the moon, and above the moon are the lunar stations and their stars. Above them is Mercury, then follow Venus, Mars, Jupiter, Saturn, the Great Bear, and above it the pole. The pole is connected with the heaven. The stars cannot be counted by man. Those who impugn this view maintain that the moon at conjunction becomes hidden by the sun, as the light of the lamp becomes invisible in the light of the sun, and she becomes more visible the more she moves away from the sun.”
 
 We shall now give some quotations from the books of this school relating to the sun, the moon, and the stars, and we shall combine herewith the views of the astronomers, although of the latter we have only a very slender knowledge.
 
@@ -1437,7 +1437,7 @@ By this method is found what Brahmagupta wants to find, quite correctly, without
 
 The methods of the computation of the diameters of sun and moon, as given by the Hindu *canones*, such as the *Khaṇḍakhādyaka* and *Karaṇasāra*, are the same as are found in the canon of Alkhwārizmī. Also the computation of the diameter of the shadow in the *Khaṇḍakhādyaka* is similar to that one given by Alkhwārizmī, whilst the *Karaṇasāra* has the following method:—
 
-&gt; “Multiply the *bhukti* of the moon by 4 and the *bhukti* of the sun by 13. Divide the difference between the two products by 30, and the quotient is the diameter of the shadow.”
+> “Multiply the *bhukti* of the moon by 4 and the *bhukti* of the sun by 13. Divide the difference between the two products by 30, and the quotient is the diameter of the shadow.”
 
 The *Karaṇatilaka* gives the following method for the computation of the diameter of the sun:—“Divide the *bhukti* of the sun by 2, and write down the half in two different places. In the one place divide it by 10, and add the quotient to the number in the second place. The sum is the number of minutes of the diameter of the sun.”
 
@@ -1589,7 +1589,7 @@ and moon in a perfectly correct form, we must state that at that time there was 
 
 The stations occupy a smaller or larger space according to their figures, i.e. their constellations, not they themselves, for all stations occupy the same space on the ecliptic. This fact does not seem to be known to the Hindus, although we have already related similar notions of theirs regarding the Great Bear. For Brahmagupta says in the *Uttara-khaṇḍakhādyāka*, i.e. the emendation of the *Khaṇḍa-khādyāka*:—
 
-&gt; "The measure of some stations exceeds the measure of the mean daily motion of the moon by one half. Accordingly their measure is 19° 45′ 52″ 18″. There are six stations, viz. Rohiṇī, Punarvasu, Uttaraphalguni, Viśâkhâ, Uttarâshâḍhâ, Uttarabhâdrapadâ. These together occupy the space of 118° 35′ 13″ 48″. Further six stations are short ones, each of them occupying less than the mean daily motion of the moon by one half. Accordingly their measure is 6° 35′ 17″ 26″. These are Bharaṇī, Ârdrâ, Âśleshâ, Svâti, Jyeshṭhâ, Śatabhishaj. They together occupy the space of 39° 31′ 44″ 36″. Of the remaining fifteen stations, each occupies as much as the mean daily motion. Accordingly it occupies the space of 13° 10′ 34″ 52″. They together occupy the space of 197° 38′ 43″. These three groups of stations together occupy the space of 355° 45′ 41″ 24″, the remainder of the complete circle 4° 14′ 18″ 36″, and this is the space of *Abhijit*, i.e. the Falling Eagle, which is left out. I have tried to make the investigation of this subject acceptable to the
+> "The measure of some stations exceeds the measure of the mean daily motion of the moon by one half. Accordingly their measure is 19° 45′ 52″ 18″. There are six stations, viz. Rohiṇī, Punarvasu, Uttaraphalguni, Viśâkhâ, Uttarâshâḍhâ, Uttarabhâdrapadâ. These together occupy the space of 118° 35′ 13″ 48″. Further six stations are short ones, each of them occupying less than the mean daily motion of the moon by one half. Accordingly their measure is 6° 35′ 17″ 26″. These are Bharaṇī, Ârdrâ, Âśleshâ, Svâti, Jyeshṭhâ, Śatabhishaj. They together occupy the space of 39° 31′ 44″ 36″. Of the remaining fifteen stations, each occupies as much as the mean daily motion. Accordingly it occupies the space of 13° 10′ 34″ 52″. They together occupy the space of 197° 38′ 43″. These three groups of stations together occupy the space of 355° 45′ 41″ 24″, the remainder of the complete circle 4° 14′ 18″ 36″, and this is the space of *Abhijit*, i.e. the Falling Eagle, which is left out. I have tried to make the investigation of this subject acceptable to the
 
 Each station occupies the same space on the ecliptic.
 
@@ -1650,11 +1650,11 @@ The apsis of the sun is, according to Pulisa, 2⅔ zodiacal signs. The double of
 
 Brahmagupta maintains the following in the emendation of the *Khaṇḍakhādyaka*:—
 
-&gt; “The position of Suhail is 27° Orion, its southern latitude 71 parts. The degrees of its distance from the sun necessary for its heliacal rising are 12.
-&gt;
-&gt; “The position of Mrigavyādha, *i.e.* Sirius Yemenicus, is 26° Orion, its southern latitude 40 parts. The degrees of its distance from the sun necessary for its heliacal rising are 13. If you want to find the time of their risings, imagine the sun to be in the place of the star. That amount of the day which has already elapsed is the number of degrees of its distance from the sun necessary for its heliacal rising. Fix the ascendens on this particular place. When, then, the sun reaches the degree of this ascendens, the star first becomes visible.
-&gt;
-&gt; “In order to find the time of the heliacal setting of a star, add to the degree of the star six complete zodiacal signs. Subtract from the sum the degrees of its distance from the sun necessary for its heliacal rising, and
+> “The position of Suhail is 27° Orion, its southern latitude 71 parts. The degrees of its distance from the sun necessary for its heliacal rising are 12.
+>
+> “The position of Mrigavyādha, *i.e.* Sirius Yemenicus, is 26° Orion, its southern latitude 40 parts. The degrees of its distance from the sun necessary for its heliacal rising are 13. If you want to find the time of their risings, imagine the sun to be in the place of the star. That amount of the day which has already elapsed is the number of degrees of its distance from the sun necessary for its heliacal rising. Fix the ascendens on this particular place. When, then, the sun reaches the degree of this ascendens, the star first becomes visible.
+>
+> “In order to find the time of the heliacal setting of a star, add to the degree of the star six complete zodiacal signs. Subtract from the sum the degrees of its distance from the sun necessary for its heliacal rising, and
 
 On the heliacal rising of Canopus.
 Quotation from Brahmagupta.
@@ -2234,11 +2234,11 @@ ALBERUNI'S INDIA.
 
 The word *samvatsara*, which means *the years*, is a technical term for cycles of years constructed on the basis of the revolutions of Jupiter and the sun, the heliacal rising of the former being reckoned as the beginning. It revolves in sixty years, and is therefore called *shashṭyabda*, i.e. sixty years.
 
-We have already mentioned that the names of the lunar stations are, by the names of the months, divided into groups, each month having a namesake in the corresponding group of stations. We have represented these things in a table, in order to facilitate the subject (v. i. 218). Knowing the station in which the heliacal rising of Jupiter occurs, and looking up this station in the just-mentioned table, you find at the left of it the name of the month which rules over the year in question. You bring the year in connection with the month, and say, e.g. *the year of Caitra, the year of Vaiśākha*, &amp;c. For each of these years there exist astrological rules which are well known in their literature.
+We have already mentioned that the names of the lunar stations are, by the names of the months, divided into groups, each month having a namesake in the corresponding group of stations. We have represented these things in a table, in order to facilitate the subject (v. i. 218). Knowing the station in which the heliacal rising of Jupiter occurs, and looking up this station in the just-mentioned table, you find at the left of it the name of the month which rules over the year in question. You bring the year in connection with the month, and say, e.g. *the year of Caitra, the year of Vaiśākha*, &c. For each of these years there exist astrological rules which are well known in their literature.
 
 For the computation of the lunar station in which the heliacal rising of Jupiter occurs, Varāhamihira gives the following rule in his *Samhita*:—
 
-&gt; “Take the Śakakāla, multiply it by 11, and multiply the product by 4. You may do this, or you may also multiply the Śakakāla by 44. Add 8589 to the product
+> “Take the Śakakāla, multiply it by 11, and multiply the product by 4. You may do this, or you may also multiply the Śakakāla by 44. Add 8589 to the product
 
 Page 263.
 Explanation of the terms *samvatsara* and *shashṭyabda*.
@@ -2251,7 +2251,7 @@ How to find the lunar station of Jupiter’s heliacal rising. Quotation from Var
 
 124 ALBERUNI'S INDIA.
 
-and divide the sum by 3750. The quotient represents years, months, days, &amp;c.
+and divide the sum by 3750. The quotient represents years, months, days, &c.
 
 "Add them to the Śakakāla, and divide the sum by 60. The quotient represents great sexagenarian yugas, i.e. complete shashtyabdas, which, as not being necessary, are disregarded. Divide the remainder by 5, and the quotient represents small, complete five-year yugas. That which remains being less than one yuga, is called samvatsara, i.e. the year.
 
@@ -2682,15 +2682,15 @@ Page 273.
 
 The holy much venerated ponds are in the cold mountains round Meru. The following information regarding them is found in both the *Vāyu* and the *Matsya Purāṇas*:—
 
-&gt; “At the foot of Meru there is Arhata (?), a very great pond, described as shining like the moon. In it originates the river Zanba (? Jambu), which is very pure, flowing over the purest gold.
-&gt;
-&gt; “Near the mountain Sveta there is the pond Uttaramānasa, and around it twelve other ponds, each of them like a lake. Thence come the two rivers Sāṇḍi (?) and Maddhyandā (?), which flow to Kīmpurusha.
-&gt;
-&gt; “Near the mountain Nīla there is the pond *pyvā* (pitanda ?) adorned with lotuses.
-&gt;
-&gt; “Near the mountain Nishadha there is the pond Vishṇupada, whence comes the river Sarasvatī, *i.e.*, Sarsuti. Besides, the river Gandharvī comes from there.
-&gt;
-&gt; “In the mountain Kailāsa there is the pond Manda, as large as a sea, whence comes the river Mandākinī.
+> “At the foot of Meru there is Arhata (?), a very great pond, described as shining like the moon. In it originates the river Zanba (? Jambu), which is very pure, flowing over the purest gold.
+>
+> “Near the mountain Sveta there is the pond Uttaramānasa, and around it twelve other ponds, each of them like a lake. Thence come the two rivers Sāṇḍi (?) and Maddhyandā (?), which flow to Kīmpurusha.
+>
+> “Near the mountain Nīla there is the pond *pyvā* (pitanda ?) adorned with lotuses.
+>
+> “Near the mountain Nishadha there is the pond Vishṇupada, whence comes the river Sarasvatī, *i.e.*, Sarsuti. Besides, the river Gandharvī comes from there.
+>
+> “In the mountain Kailāsa there is the pond Manda, as large as a sea, whence comes the river Mandākinī.
 
 An extract on holy ponds from the *Vāyu* and *Matsya Purāṇas*.
 
@@ -3157,7 +3157,7 @@ in the evening. On the third day he eats nothing except what by chance is given 
 
 Another kind, called *paráka*, is this: A man takes his food at noon on three consecutive days. Then he transfers his eating-hour to the evening during three further consecutive days. Then he fasts uninterruptedly during three consecutive days without breaking fast.
 
-Another kind, called *candráyaṇa*, is this: A man fasts on the day of full moon; on the following day he takes only a mouthful, on the third day he takes double this amount, on the fourth day the threefold of it, &amp;c., &amp;c., going on thus till the day of new moon. On that day he fasts; on the following days he again diminishes his food by one mouthful a day, till he again fasts on the day of full moon.
+Another kind, called *candráyaṇa*, is this: A man fasts on the day of full moon; on the following day he takes only a mouthful, on the third day he takes double this amount, on the fourth day the threefold of it, &c., &c., going on thus till the day of new moon. On that day he fasts; on the following days he again diminishes his food by one mouthful a day, till he again fasts on the day of full moon.
 
 Another kind, called *másavása* (*másopavása*), is this: A man uninterruptedly fasts all the days of a month without ever breaking fast.
 
@@ -3676,7 +3676,7 @@ CHAPTER LXXVIII. 197
 198 ALBERUNI'S INDIA.
 Page 296.
 
-The Hindus attribute to some of the *karanas* dominants, as is their custom. Further they give rules showing what during each *karana* must be done or not, rules which are similar to collections of astrological prognostics (as to lucky or unlucky days, &amp;c.). If we give here a second diagram of the *karanas*, we thereby simply mean to confirm what we have said already, and to repeat a subject which is unknown among us. Thus it is rendered easy to learn the subject, because learning is the fruit of repetition.
+The Hindus attribute to some of the *karanas* dominants, as is their custom. Further they give rules showing what during each *karana* must be done or not, rules which are similar to collections of astrological prognostics (as to lucky or unlucky days, &c.). If we give here a second diagram of the *karanas*, we thereby simply mean to confirm what we have said already, and to repeat a subject which is unknown among us. Thus it is rendered easy to learn the subject, because learning is the fruit of repetition.
 
 |  In which half
 of the month,
@@ -4269,7 +4269,7 @@ Take the distance of the star from the degree of its *altitudo* according to the
 
 The computation of this species of years for the *ascendens* is this:—
 
-Take the distance of its degree from $0^{\circ}$ of Aries, a year for each *nuhbahr*; months and days, &amp;c., in the same way as in the preceding computation. The number you get is divided by 12, and the remainder being less than 12, represents the number of years of the *ascendens*.
+Take the distance of its degree from $0^{\circ}$ of Aries, a year for each *nuhbahr*; months and days, &c., in the same way as in the preceding computation. The number you get is divided by 12, and the remainder being less than 12, represents the number of years of the *ascendens*.
 
 ## The third species.
 
@@ -4312,7 +4312,7 @@ species, two additions from different sides are to be made, only one addition, v
 
 By these methods the years become *adjusted*, and the sum of them is the duration of the life of that man who is born at the moment in question.
 
-It now remains for us to explain the method of the Hindus regarding the *periods* (sic). Life is divided in the above-mentioned three species of years, and immediately after the birth, into years of sun and moon. That one is preponderating which has the most forces and *balas* (vide ii. 225); if they equal each other, that one is preponderating which has the greatest *portio* (sic) in its place, then the next one, &amp;c. The companion of these years is either the *ascendens* or that planet which stands in the *cardines* with many forces and *portiones*. The several planets come together in the *cardines*, their influence and sequence are determined by their forces and shares. After them follow those planets which stand near the *cardines*, then those which stand in the *inclined* signs, their order being determined in the same way as in the preceding case. Thus becomes known in what part of the whole human life the years of every single planet fall.
+It now remains for us to explain the method of the Hindus regarding the *periods* (sic). Life is divided in the above-mentioned three species of years, and immediately after the birth, into years of sun and moon. That one is preponderating which has the most forces and *balas* (vide ii. 225); if they equal each other, that one is preponderating which has the greatest *portio* (sic) in its place, then the next one, &c. The companion of these years is either the *ascendens* or that planet which stands in the *cardines* with many forces and *portiones*. The several planets come together in the *cardines*, their influence and sequence are determined by their forces and shares. After them follow those planets which stand near the *cardines*, then those which stand in the *inclined* signs, their order being determined in the same way as in the preceding case. Thus becomes known in what part of the whole human life the years of every single planet fall.
 
 However, the single parts of life are not computed exclusively in the years of the one planet, but according to the influences which companion-stars exercise upon it, *i.e.* the planets which stand in aspect with it. For they make it partake in their rule and make it share in their division of the years. A planet which stands in the same sign with the planet ruling over the part of life in question, shares with it one-half. That which stands in the fifth and ninth signs, shares with
 
@@ -4325,7 +4325,7 @@ The method for the computation of the years of such a companionship (if the ruli
 
 Take for the master of the years (i.e. that planet which rules over a certain part of the life of a man) one as numerator and one as denominator, i.e. $\frac{1}{4}$, one whole, because it rules over the whole. Further, take for each companion (i.e. each planet which stands in aspect with the former) only the numerator of its denominator (not the entire fraction). You multiply each denominator by all the numerators and their sum, in which operation the original planet and its fraction are disregarded. Thereby all the fractions are reduced to one and the same denominator. The equal denominator is disregarded. Each numerator is multiplied by the sum of the year and the product divided by the sum of the numerators. The quotient represents the years *kālambūka* (*kāla-bhāga* ?) of a planet.
 
-As regards the order of the planets, after the question as to the preponderance of their influence has been decided (? text in disorder), in so far as each of them exercises its individual influence. In the same way as has already been explained (vide ii. 230), the preponderating planets are those standing in the cardines, first the strongest, then the less strong, &amp;c., then those standing near the cardines, and lastly those standing in the inclined signs.
+As regards the order of the planets, after the question as to the preponderance of their influence has been decided (? text in disorder), in so far as each of them exercises its individual influence. In the same way as has already been explained (vide ii. 230), the preponderating planets are those standing in the cardines, first the strongest, then the less strong, &c., then those standing near the cardines, and lastly those standing in the inclined signs.
 
 From the description given in the preceding pages, the reader learns how the Hindus compute the duration of human life. He learns from the positions of the planets, which they occupy on the origin (i.e. at
 
@@ -4498,19 +4498,19 @@ The author (Varâhamihira) had divided the comets into three classes: the *high*
 
 He further says (chap. xi. 42):—
 
-&gt; “If the light of the middle class of comets shines on the instruments of the kings, the banners, parasols, fans, and fly-flaps, this bodes destruction to the rulers. If it shines on a house, or tree, or mountain, this bodes destruction to the empire. If it shines on the furniture of the house, its inhabitants will perish. If it shines on the sweepings of the house, its owner will perish.”
+> “If the light of the middle class of comets shines on the instruments of the kings, the banners, parasols, fans, and fly-flaps, this bodes destruction to the rulers. If it shines on a house, or tree, or mountain, this bodes destruction to the empire. If it shines on the furniture of the house, its inhabitants will perish. If it shines on the sweepings of the house, its owner will perish.”
 
 Further Varâhamihira says (chap. xi. 6):—
 
-&gt; “If a shooting-star falls down opposite to the tail of a comet, health and wellbeing cease, the rains lose their beneficial effects, and likewise the trees which are holy to Mahâdeva—there is no use in enumerating them, since their names and their essences are unknown among us Muslims—and the conditions in the realm of Cola, Sita, the Huns and Chinese are troubled.”
+> “If a shooting-star falls down opposite to the tail of a comet, health and wellbeing cease, the rains lose their beneficial effects, and likewise the trees which are holy to Mahâdeva—there is no use in enumerating them, since their names and their essences are unknown among us Muslims—and the conditions in the realm of Cola, Sita, the Huns and Chinese are troubled.”
 
 Further he says (chap. xi. 62):—
 
-&gt; “Examine the direction of the tail of the comet, it being indifferent whether the tail hangs down or stands erect or is inclined, and examine the lunar station, the edge of which is touched by it. In that case predict destruction to the place and that its inhabitants will be attacked by armies which will devour them as the peacock devours the snakes.
+> “Examine the direction of the tail of the comet, it being indifferent whether the tail hangs down or stands erect or is inclined, and examine the lunar station, the edge of which is touched by it. In that case predict destruction to the place and that its inhabitants will be attacked by armies which will devour them as the peacock devours the snakes.
 
-&gt; “From these comets you must except those which bode something good.
+> “From these comets you must except those which bode something good.
 
-&gt; “As regards the other comets, you must investigate in what lunar stations they appear, or in what station their tails lie or to what station their tails reach. In that case you must predict destruction to the princes of those countries which are indicated by the lunar
+> “As regards the other comets, you must investigate in what lunar stations they appear, or in what station their tails lie or to what station their tails reach. In that case you must predict destruction to the princes of those countries which are indicated by the lunar
 
 ---
 
@@ -4624,11 +4624,11 @@ The contents of the eighty chapters of the book may be arranged under the follow
 - Chap. 2–II. On Religious, Philosophical, and cognate subjects.
 - Chap. 12–17. On Literature and Metrology, Strange Customs and Superstitions.
 - Chap. 18–31. On Geography, Descriptive, Mathematical, and Traditional, *i.e.* Pauranic.
-- Chap. 32–62. On Chronology and Astronomy, interspersed with chapters of Religious Tradition, *e.g.* on Nârâ-yana, Vâsudeva, &amp;c.
+- Chap. 32–62. On Chronology and Astronomy, interspersed with chapters of Religious Tradition, *e.g.* on Nârâ-yana, Vâsudeva, &c.
 - Chap. 63–76. On Laws, Manners and Customs, Festivals and Fast Days.
 - Chap. 77–80. On Astrological Subjects.
 
-The word *makûla*, translated by *category*, is a technical term of Arabian philosophy. It was coined by the first Arabian translators of Aristotle for the purpose of rendering *κατηγορία*, and has since become current in the school language of Islam (*cf.* the Arabic title of *Aristotelis Categoræ Græce cum versione Arabica*, &amp;c., edid. J. Th. Zenker, Lipsiæ, 1846). The Syrian predecessors of those Arabian translators had simply transferred the Greek word just as
+The word *makûla*, translated by *category*, is a technical term of Arabian philosophy. It was coined by the first Arabian translators of Aristotle for the purpose of rendering *κατηγορία*, and has since become current in the school language of Islam (*cf.* the Arabic title of *Aristotelis Categoræ Græce cum versione Arabica*, &c., edid. J. Th. Zenker, Lipsiæ, 1846). The Syrian predecessors of those Arabian translators had simply transferred the Greek word just as
 
 ---
 
@@ -4638,13 +4638,13 @@ it is into their own language; cf. e.g. Jacob of Edessa in G. Hoffmann's *De Her
 
 That a Muslim author should investigate the ideas of idolaters, and not only such as Muslims may adopt, but also such as they must reject and condemn, that he quotes the Koran and the Gospel side by side (p. 4–5), is a proof of a broadness of view and liberality of mind more frequently met with in the ancient times of Islam, in the centuries before the establishment of Muhammadan orthodoxy by Alghazzālī (died A.D. III I), than later. There was more field for utterances of mental individuality before the ideas of all the nations of Islam were moulded into a unity which makes it difficult to recognise the individual influences of every single nation on the general development of the Muhammadan mind, before all Islam had become one huge religious community, in which local and national differences seem to have lost most of their original importance for the spiritual life of man. The work of Alberuni is unique in Muslim literature, as an earnest attempt to study an idolatrous world of thought, not proceeding from the intention of attacking and refuting it, but uniformly showing the desire to be just and impartial, even when the opponent’s views are declared to be inadmissible. There can be hardly a doubt that under other circumstances, in other periods of Muslim history and other countries, the present work might have proved fatal to its author; and it shows that the religious policy of King Maḥmūd, the great destroyer of Hindu temples and idols, under whom Alberuni wrote, must have been so liberal as to be rarely met with in the annals of Islam (cf. pp. 268, 269).
 
-P. 5. *The master ʿAbū-Sahl, &amp;c.*—Al-tiflīsī, i.e. a native of Tiflis in the Caucasus, is not known from other sources. I suppose he was one of the high civil functionaries of the realm or court of Maḥmūd. The name *Sahl* occurs very frequently among men of Persian descent of those times, and the title *Ustādh* = master, is in the Taʿrīkh-i-Baihakī always prefixed, if not precisely as an official title, at all events as a title expressive of profound respect on the part of the speaker, to the names of the ministers and
+P. 5. *The master ʿAbū-Sahl, &c.*—Al-tiflīsī, i.e. a native of Tiflis in the Caucasus, is not known from other sources. I suppose he was one of the high civil functionaries of the realm or court of Maḥmūd. The name *Sahl* occurs very frequently among men of Persian descent of those times, and the title *Ustādh* = master, is in the Taʿrīkh-i-Baihakī always prefixed, if not precisely as an official title, at all events as a title expressive of profound respect on the part of the speaker, to the names of the ministers and
 
 ---
 
 ANNOTATIONS. 251
 
-highest civil officials of Maḥmūd and Masʿūd, such as Bū Sahl Zauzanī, Bū Sahl Ḥamdūnī, Bū Nasr Mushkān, the minister of state, whose secretary Al-baihakī was, as well as to the name of Alberuni (ልን, 16), but never to the names of the great military men (cf. on titles in the Ghaznawī empire, A. de Biberstein Kazimirski, *Menoutchehrī*, Paris, 1887, p. 308). Administrative skill was a legacy left by the organisation of the Sasanian empire to the Persians of later centuries, whilst military qualities seem entirely to have disappeared among the descendants of Rustam. For all the generals and officers of Maḥmūd and Masʿūd were Turks, as Altuntash, Arslan Jādhib, Ariyarok, Bagtagīn, Bilkātagīn, Niyāltagīn, Noshtagīn, &amp;c. The Ghazna princes spoke Persian with their civil functionaries, Turkish with their generals and soldiers (cf. Elliot, *History of India*, ii. 81, 102).
+highest civil officials of Maḥmūd and Masʿūd, such as Bū Sahl Zauzanī, Bū Sahl Ḥamdūnī, Bū Nasr Mushkān, the minister of state, whose secretary Al-baihakī was, as well as to the name of Alberuni (ልን, 16), but never to the names of the great military men (cf. on titles in the Ghaznawī empire, A. de Biberstein Kazimirski, *Menoutchehrī*, Paris, 1887, p. 308). Administrative skill was a legacy left by the organisation of the Sasanian empire to the Persians of later centuries, whilst military qualities seem entirely to have disappeared among the descendants of Rustam. For all the generals and officers of Maḥmūd and Masʿūd were Turks, as Altuntash, Arslan Jādhib, Ariyarok, Bagtagīn, Bilkātagīn, Niyāltagīn, Noshtagīn, &c. The Ghazna princes spoke Persian with their civil functionaries, Turkish with their generals and soldiers (cf. Elliot, *History of India*, ii. 81, 102).
 
 P. 5. *The Muʿtazila sect.*—The dogma, *God has no knowledge*, is part of their doctrine on the qualities of God, maintained especially by Maʿmar Ibn ʿAbbād Al-Sulami. (Cf. on this and related subjects the treatise of H. Steiner, *Die Mutaziliten oder die Freidenker im Islam*, Leipzig, 1865, pp. 50, 52, 59, and Al-Shahrastānī’s “Book of Religious and Philosophical Sects,” edited by Cureton, London, 1846, p. 30, ll. 7–9). Proceeding from the study of Greek philosophy, the doctors of this school tried to save the free will of man as against predestination. There was once in Arabic a large literature composed by them and by their opponents, most of which is unknown, at all events not yet brought to light. Most of these books were of a polemical nature, and it is against their polemical bias that the criticism of Alberuni is directed. With regard to his own work, he expressly declares (p. 7) that it is not a polemical one. The book which Abū-Sahl had before him, and which gave rise to the discussion between him and our author, was probably one like that of Abulḥasan Al-ʿashʿarī (died A.D. 935), the great predecessor of Alghazzālī, “On the Qualities of God,” in which he attacks the Muʿtazila doctrine of the negation of God’s omniscience. (Cf. W. Spitta, *Zur Geschichte Abulḥasan Al-ʿashʿarī’s*, Leipzig, 1876, p. 64.) The same author has also written an extensive work against the antagonists of
 
@@ -4664,7 +4664,7 @@ Pp. 6–7. *Alērānshahrī and Zurkān.*—Our author has not made any use of t
 
 ANNOTATIONS. 253
 
-author of a general work on the history of religions. Alberuni seems to have known this book already (A.D. 1000) when he wrote his “Chronology,” for there he gives two quotations, one an Eranian, and the other an Armenian tradition, on the authority of Alêrânshahrî (v. “Chronology of Ancient Nations,” &amp;c., translated by Dr. C. Edward Sachau, London, 1879, pp. 208, 211).
+author of a general work on the history of religions. Alberuni seems to have known this book already (A.D. 1000) when he wrote his “Chronology,” for there he gives two quotations, one an Eranian, and the other an Armenian tradition, on the authority of Alêrânshahrî (v. “Chronology of Ancient Nations,” &c., translated by Dr. C. Edward Sachau, London, 1879, pp. 208, 211).
 
 The word Êrânshahr was known to the Arabs as the name of the whole Sasanian empire, from the Oxus to the Euphrates. So it is used, e.g. by Abû-Alî ‘Aḥmad Ibn ‘Umar Ibn Dusta in his geographical work (British Museum, add. 23.378 on fol. 120b), where he describes the whole extent of it. If, however, Êrânshahr here means the place where the author Abul’abbâs was born, we must take the word in the more restricted meaning, which is mentioned by Albalâdhurî. For it is also the name of a part of the Sasanian empire, viz. one of the four provinces of Khurâsân, the country between Nîshâpur, Tûs, and Herât. Accordingly, we suppose that Alêrânshahrî means a native of this particular province. Cf. Almuḳaddasî, p. 818, Yâḳût, i. 819. According to another tradition, the name Êrânshahr also applied to Nîshâpur, i.e. the name of the province was used to denote its capital. Cf. Almuḳaddasî, p. 819.
 
@@ -4714,7 +4714,7 @@ Alberuni’s knowledge of Christianity may have been communicated by various cha
 
 kites, whilst he expressly states that he does not, know the Jacobites. Cf. “Chronology of Ancient Nations,” pp. 283, 4; 292, 12; 295, 22; 312, 16.
 
-Where Alberuni learned Greek philosophy, and who introduced him to the study of Plato’s Dialogues and Leges, he does not state himself. The Arabic translations which he used, and which are tolerably correct, had passed through Syriac versions which are now no longer extant (e.g. those of Plato). Alberuni was personally acquainted and had literary connections with a man who was one of the first representatives of Greek learning in the Muslim world in that age, Abulkhair Alkhammâr, and it was perhaps to him that Alberuni owed part of his classical education. Abulkhair was born a Christian in Bagdad, A.H. 942. He lived some time in Khwârizm, and migrated thence, together with Alberuni and others, to Ghazna, A.D. 1017, after Maḥmûd had annexed that country to his empire. He died in Ghazna during Maḥmûd’s reign, i.e. before A.D. 1030, and is said to have become a Muslim, towards the end of his life. He was a famous physician, and wrote on medical subjects and on Greek philosophy; besides he translated the works of Greek philosophers (e.g. Theophrast) from Syriac into Arabic. Of his writings we may mention a “Book of Comparison of the Theory of the (Greek) Philosophers and of the Christians,” “Explanation of the Theory of the Ancients (i.e. Greek philosophers) regarding the Creator and regarding Laws,” “The Life of the Philosopher,” “On the ὕλη,” “On Meteorology,” &amp;c. His pedigree points to a Persian descent. Cf. Chronologie Orientalischer Völker, Einleitung, p. xxxii., Fibrist, p. 110, and the work of Shahrazûri ﱠﱡﱡﱡﱡﱡﱡﱡﱡ (manuscript of the Royal Library of Berlin, MSS. Orient. oct. 217, fol. 144b–146a); C. Schefer, Chrestomathie Persane, p. 141.
+Where Alberuni learned Greek philosophy, and who introduced him to the study of Plato’s Dialogues and Leges, he does not state himself. The Arabic translations which he used, and which are tolerably correct, had passed through Syriac versions which are now no longer extant (e.g. those of Plato). Alberuni was personally acquainted and had literary connections with a man who was one of the first representatives of Greek learning in the Muslim world in that age, Abulkhair Alkhammâr, and it was perhaps to him that Alberuni owed part of his classical education. Abulkhair was born a Christian in Bagdad, A.H. 942. He lived some time in Khwârizm, and migrated thence, together with Alberuni and others, to Ghazna, A.D. 1017, after Maḥmûd had annexed that country to his empire. He died in Ghazna during Maḥmûd’s reign, i.e. before A.D. 1030, and is said to have become a Muslim, towards the end of his life. He was a famous physician, and wrote on medical subjects and on Greek philosophy; besides he translated the works of Greek philosophers (e.g. Theophrast) from Syriac into Arabic. Of his writings we may mention a “Book of Comparison of the Theory of the (Greek) Philosophers and of the Christians,” “Explanation of the Theory of the Ancients (i.e. Greek philosophers) regarding the Creator and regarding Laws,” “The Life of the Philosopher,” “On the ὕλη,” “On Meteorology,” &c. His pedigree points to a Persian descent. Cf. Chronologie Orientalischer Völker, Einleitung, p. xxxii., Fibrist, p. 110, and the work of Shahrazûri ﱠﱡﱡﱡﱡﱡﱡﱡﱡ (manuscript of the Royal Library of Berlin, MSS. Orient. oct. 217, fol. 144b–146a); C. Schefer, Chrestomathie Persane, p. 141.
 
 It must be observed that Alberuni, in comparing Hindu doctrines with those of Plato, follows in the wake of Megasthenes, who says: Παραπλέκουσι δὲ καὶ μύθους, ὥσπερ καὶ Πλάτων, περὶ τε ἀφθαρσίας ψυχῆς καὶ τῶν καθ’ ἄδου κρίσεων καὶ ἄλλα τοιαῦτα (Schwanbeck, Bonn, 1846, p. 138).
 
@@ -4742,7 +4742,7 @@ R
 
 Mahmûd and Mas’ûd (Elliot, ii. 117, 123), then to Ahmad Ibn Ḥasan of Maimand, who was grand vizir, A.D. 1007–1025, under Mahmûd, and a second time, 1030–1033, under Mas’ûd, and rose afterwards to be a commanding officer in the army (Elliot, ii. 125–127). This class of men spoke and wrote Hindî (of course with Arabic characters) and Persian (perhaps also Turkish, as this language prevailed in the army), and it is probably in these circles that we must look for the origin of Urdu or Hindustani. The first author who wrote in this language, the Dante of Muhammadan India, is one Mas’ûd, who died a little more than a century after the death of King Mahmûd (A.H. 525 = A.D. 1131). Cf. A. Sprenger, “Catalogue of the Arabic, Persian, and Hindustany Manuscripts of the Libraries of the King of Oudh,” Calcutta, 1854, pp. 407, 485. If we had any of the Hindî writings of those times, they would probably exhibit the same kind of Indian speech as that which is found in Alberuni’s book.
 
-P. 18.—The bearing of the words (9, 14, 15), which I have translated “and must pronounce the case-endings either,” &amp;c., is doubtful. The word ’î’râb means the process or mode of Arabizing a foreign word, and refers both to consonants and vowels. An ’î’râb mashhûr would be a generally known Arabic mode of pronunciation of a word of Indian origin, an ’î’râb ma’mûl such a pronunciation of an Indian word in Arabic as is not yet known, but invented for the purpose. E.g. the Sanskrit word dvîpa appears in two different forms, as dîb, v.v., which must be classed under the first head, and as dbîp, v.w., which belongs to the second class. If it is this the author means, we must observe that the former class, i.e. the class of words which had already general currency in Arabic before he wrote his Indica, is insignificantly small in comparison with the large number of words which by Alberuni were for the first time presented to a reader of Arabic (v. preface of the edition of the Arabic original, p. xxvii.).
+P. 18.—The bearing of the words (9, 14, 15), which I have translated “and must pronounce the case-endings either,” &c., is doubtful. The word ’î’râb means the process or mode of Arabizing a foreign word, and refers both to consonants and vowels. An ’î’râb mashhûr would be a generally known Arabic mode of pronunciation of a word of Indian origin, an ’î’râb ma’mûl such a pronunciation of an Indian word in Arabic as is not yet known, but invented for the purpose. E.g. the Sanskrit word dvîpa appears in two different forms, as dîb, v.v., which must be classed under the first head, and as dbîp, v.w., which belongs to the second class. If it is this the author means, we must observe that the former class, i.e. the class of words which had already general currency in Arabic before he wrote his Indica, is insignificantly small in comparison with the large number of words which by Alberuni were for the first time presented to a reader of Arabic (v. preface of the edition of the Arabic original, p. xxvii.).
 
 Another meaning of the word ’î’râb is the vowel-pronunciation at the end of the words, chiefly the nouns; in fact, the case-endings. Accordingly, ’irâb mashhûr may mean case-ending (in German, vocalischer Auslaut) as it is gene-
 
@@ -4752,7 +4752,7 @@ ANNOTATIONS. 259
 
 rally used in Hindi, e.g. देवीं दुर्गे, رِفْوَتِيْ, revati, and ‘i’rāb ma’mūl, a case-ending added to a word purposely in order to make it amenable to the rules of Arabic declension (diptoton and triptoton), e.g. ثَلَثَ لَعْلَمَ = Skr. لَعْلَمَ, کُورَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ وَ
 
-are *shu* in *Hindi*? If the former were the case, we ought also to have *ṣa* in *genitive* and accusative, and we ought to read *ṣa* a *caste* (vārṇa), *ṣa* an *impure one* (mlechā), *ṣa* a *measure* (māna), &amp;c. But these forms do not occur in the manuscript, and therefore I hold the termination *u* to be the Indian nominative, developed out of the *δ* of Prakrit, and still extant in Sindhi. (Cf. E. Trumpp, *Die Stammbildung des Sindhi*, “Journal of the German Oriental Society,” xvi. p. 129; his “Grammar of the Sindhi Language,” p. 32). The Arabic manuscript is not sufficiently accurate to enable us to form an opinion to what extent names in Alberuni’s Hindi terminated in *u*, but we must certainly say that this is the case in the vast majority of nouns. If we are correct in this, the term ‘i’rāb ma’mūl cannot mean an artificial case-ending or one invented or added for the purpose, because it existed already in the Indian dialect whence Alberuni took the word.
+are *shu* in *Hindi*? If the former were the case, we ought also to have *ṣa* in *genitive* and accusative, and we ought to read *ṣa* a *caste* (vārṇa), *ṣa* an *impure one* (mlechā), *ṣa* a *measure* (māna), &c. But these forms do not occur in the manuscript, and therefore I hold the termination *u* to be the Indian nominative, developed out of the *δ* of Prakrit, and still extant in Sindhi. (Cf. E. Trumpp, *Die Stammbildung des Sindhi*, “Journal of the German Oriental Society,” xvi. p. 129; his “Grammar of the Sindhi Language,” p. 32). The Arabic manuscript is not sufficiently accurate to enable us to form an opinion to what extent names in Alberuni’s Hindi terminated in *u*, but we must certainly say that this is the case in the vast majority of nouns. If we are correct in this, the term ‘i’rāb ma’mūl cannot mean an artificial case-ending or one invented or added for the purpose, because it existed already in the Indian dialect whence Alberuni took the word.
 
 Of the words *الإحتفال لَعْلَمَ* and *الاحتفال لَعْلَمَ* تَعْلَمَ, the former half refers to the writing of the consonants (and perhaps of the *Leszeichen*). Accordingly the latter half ought to refer to the vowels; but ‘i’rāb does not mean vowels or vocalisation; it only means the vocalisation of the final consonant of the word. Therefore I am inclined to prefer the first of the two interpretations here proposed, and to translate for in order to fix the pronunciation we must change the points (i.e. the diacritical points of the consonants, *sā* و *tā* و *sā* و *tā* و *sā* و *tā*) and the signs (perhaps he means the Hamza, which cannot be applied to Indian sounds), and must secure its correct pronunciation by such a process of Arabizing as is either already in general use or is carried out (or invented) for the purpose. This is an example (and there are hundreds more) of the concise style of the author, so sorely fraught with
 
@@ -4762,11 +4762,11 @@ Of the words *الإحتفال لَعْلَمَ* and *الاحتفال لَعْ�
 
 ambiguity. Every single word is perfectly clear and certain, and still the sentence may be understood in entirely different ways.
 
-P. 19, 3. *Which in our Persian grammatical system are considered as, &amp;c.*—Literally, “Which our companions call having,” &amp;c. Speaking of his fellow-Muslims in opposition to the Hindus, the author always says *our companions, our people*, not meaning national differences, Arab, Persian, or Turk, but exclusively the difference of creed.
+P. 19, 3. *Which in our Persian grammatical system are considered as, &c.*—Literally, “Which our companions call having,” &c. Speaking of his fellow-Muslims in opposition to the Hindus, the author always says *our companions, our people*, not meaning national differences, Arab, Persian, or Turk, but exclusively the difference of creed.
 
 In Sanskrit a word (a syllable) may commence with one, two, or three consonants, *e.g.* *āvi*, *jyā*, *strī*, *kshveḍa*, which is impossible in Arabic, where each syllable begins and ends with one consonant only. Alberuni’s comparison cannot, therefore, refer to Arabic.
 
-In Persian, the rules for the beginning and end of the syllable are different. Whilst in the ancient forms of Iranian speech a syllable could commence with two consonants, as, *e.g.* *fratama*, *khsapa*, Neo-Persian permits only one consonant at the beginning of a syllable, *fardum*, *shab*. However, the end of a syllable may consist of two consecutive consonants, as in *yāfī* *یافت*, *baksh* *عشش*, *mard* *مرد*, &amp;c. Alberuni seems to hint at these examples, and at a doctrine of certain grammarians, who are not known, to this effect, that the first of these two consonants is to be considered as having not a complete or clear vowel, but an indistinct *hidden* one, something like a *schiva mobile* of Hebrew grammar.
+In Persian, the rules for the beginning and end of the syllable are different. Whilst in the ancient forms of Iranian speech a syllable could commence with two consonants, as, *e.g.* *fratama*, *khsapa*, Neo-Persian permits only one consonant at the beginning of a syllable, *fardum*, *shab*. However, the end of a syllable may consist of two consecutive consonants, as in *yāfī* *یافت*, *baksh* *عشش*, *mard* *مرد*, &c. Alberuni seems to hint at these examples, and at a doctrine of certain grammarians, who are not known, to this effect, that the first of these two consonants is to be considered as having not a complete or clear vowel, but an indistinct *hidden* one, something like a *schiva mobile* of Hebrew grammar.
 
 There is a small number of words (or syllables) in Neo-Persian which indeed commence with the two consonants *خوا*, *خوبش*, *خوب*, *خوب*, as, *e.g.* *خوا*, *خوا*, *استخوان*, *استخوان*, but they were at the author’s time pronounced as a single one, if we may judge from the metrical system of the *Shāhnāma* of his contemporary Firdausi, who was only a little older than himself. (*Cf.* similar remarks of the author, i. 138, 139.)
 
@@ -4776,7 +4776,7 @@ P. 20. *Sagara.*—The story of Sagara is related in *Vishnu-Purdna*, translated
 
 ANNOTATIONS. 261
 
-of a Hindu who," &amp;c., i.e. "I recollect having heard the story," &amp;c. and the words with which he winds up the story may mean, "I feel thankful to my fate that it was not I and my contemporaries whom he treated thus, but former generations."
+of a Hindu who," &c., i.e. "I recollect having heard the story," &c. and the words with which he winds up the story may mean, "I feel thankful to my fate that it was not I and my contemporaries whom he treated thus, but former generations."
 
 P. 21. Shamaniyya.—The Buddhists are in Arabic called by this name, which is derived from a Prakritic form of Sanskrit śramaṇa (Strabo Ṣapμāvaı, Hieronymus Samanaei), and by the word المحرّة, i.e. the red-robed people (= raktapaṭa), which refers to the red-brown (= kāshāya) cloaks of the Buddhist monks. Cf. Kern, *Der Buddhismus und seine Geschichte in Indien*, übersetzt von H. Jacobi, Leipzig, 1882, ii. 45. See another note of our author's on Buddhism in his "Chronology of Ancient Nations," pp. 188, 189. It is extremely difficult, from the utter lack of historic tradition, to check the author's statements as to the western extension of Buddhism, which certainly never reached Mosul. Before all, it will be necessary to examine how far Alberuni, when speaking of the ancient history and institutions of Eran, was under the influence of the poets of his time, Daḳiḳi, Asadi, and Firdausi, who versified Eranian folklore for the edification of the statesmen of the Samanian and Ghaznavi empires, all of them of Eranian descent. Hearing the songs of the heroic exploits of their ancestors consoled them to a certain degree for the only too palpable fact that their nation was no longer the ruling one, but subject to another; that Arabs and Turks had successively stepped into the heritage of their ancestors.
 
@@ -4795,17 +4795,17 @@ Instead of Bahmanvā read Bamhanvā = Brahmanavāṭa.
 
 P. 23. The words of Varāhamihira are found in his Brihat-Samhitā, translated by Kern in the "Journal of the Royal Asiatic Society," 1870, p. 441 (ii. 15): "The Greeks, indeed, are foreigners, but with them this science is in a flourishing state. Hence they are honoured as though they were Rishis; how much more then a twice-born man, if he be versed in astrology."
 
-P. 25. Think of Socrates, &amp;c.—The author speaks of a Socratic fate or calamity, meaning a fate like that which befell Socrates. I do not know from what particular source Alberuni and his contemporaries derived their information about the history of Greek philosophy. There is a broad stream of literary tradition on this subject in Arabic literature, but it has not yet been investigated what was its origin, whether it proceeded from one source or from several. Those men, mostly Greek heathens from Ḥarrān or Syrian Christians, who had enjoyed the Greek education of the time, not only translated Greek literature into Syria and Arabic for the benefit of their Arab masters, but wrote also general works on the history of Greek learning and literature, probably translating and adopting for their purpose some one of the most current schoolbooks on this subject, used in the schools of Alexandria, Athens, Antioch, &amp;c. Among authors who wrote such books, some being mere compilations of the famous sentences of Greek sages (doxographic), others having a more historic character, are Ḥunain Ibn 'Ishāk, his son 'Ishāk Ibn Ḥunain, and Kustā Ibn Lūkā (i.e. Constans the son of Lucas). But what were the Greek works from which they took their information, and which they probably communicated to the Arabs exactly as they were? I am inclined to think that they used works of Porphyrius and Ammonius, the Greek originals of which are no longer extant.
+P. 25. Think of Socrates, &c.—The author speaks of a Socratic fate or calamity, meaning a fate like that which befell Socrates. I do not know from what particular source Alberuni and his contemporaries derived their information about the history of Greek philosophy. There is a broad stream of literary tradition on this subject in Arabic literature, but it has not yet been investigated what was its origin, whether it proceeded from one source or from several. Those men, mostly Greek heathens from Ḥarrān or Syrian Christians, who had enjoyed the Greek education of the time, not only translated Greek literature into Syria and Arabic for the benefit of their Arab masters, but wrote also general works on the history of Greek learning and literature, probably translating and adopting for their purpose some one of the most current schoolbooks on this subject, used in the schools of Alexandria, Athens, Antioch, &c. Among authors who wrote such books, some being mere compilations of the famous sentences of Greek sages (doxographic), others having a more historic character, are Ḥunain Ibn 'Ishāk, his son 'Ishāk Ibn Ḥunain, and Kustā Ibn Lūkā (i.e. Constans the son of Lucas). But what were the Greek works from which they took their information, and which they probably communicated to the Arabs exactly as they were? I am inclined to think that they used works of Porphyrius and Ammonius, the Greek originals of which are no longer extant.
 
 ---
 
 ANNOTATIONS. 263
 
-P. 25. *Jurare in verba, &amp;c.*—The Hindus consider, *e.g.* the sciences of astronomy and astrology as *founded upon tradition*, and their authors produce in their books side by side their own perhaps more advanced ideas and some silly notions of any predecessors of theirs, although they are fully aware that both are totally irreconcilable with each other. *Cf.* the words of Varâhamihira to this effect in *Brihat Saṁhitâ*, ix. 7, and the note of his commentator Utpala to v. 32. Alberuni pronounces most energetically against this kind of scientific composition when speaking of Brahmagupta in chapter lix. on eclipses.
+P. 25. *Jurare in verba, &c.*—The Hindus consider, *e.g.* the sciences of astronomy and astrology as *founded upon tradition*, and their authors produce in their books side by side their own perhaps more advanced ideas and some silly notions of any predecessors of theirs, although they are fully aware that both are totally irreconcilable with each other. *Cf.* the words of Varâhamihira to this effect in *Brihat Saṁhitâ*, ix. 7, and the note of his commentator Utpala to v. 32. Alberuni pronounces most energetically against this kind of scientific composition when speaking of Brahmagupta in chapter lix. on eclipses.
 
 P. 27. *Beyond all likeness and unlikeness*, an expression frequent in the description of the Deity. Literally translated: *things that are opposite to each other and things that are like each other.* Perhaps the rhyme *didd* and *nidd*, *‘addâd* and *‘andâd*, has contributed to the coining of this term. As for the idea, it may be compared with the term *dvandvâs* in Hindu philosophy = *pairs of opposites*, as pleasure and pain, health and sickness. *Bhagavad-Gîtâ*, ii. 45, vii. 27; “Yoga Aphorisms of Patañjali” (edited by Rajendralâla Mitra), ii. 48, p. 111.
 
-P. 27. *Who is the worshipped one? &amp;c.*—The greater part of this extract from Patañjali has been translated into Persian by Abulma’ali Muhammad Ibn ‘Ubaid-Allâh in his *Kitâb-bayân-al’adyân*; v. C. Schefer, *Chrestomathie Persane*, i. 179-188; *سوال کدامست آن معبود که همه کان بتوفیق او را*. 189-190. یابند بعبادت او جواب آنکه همه امیدها بدوست وهمه بیمیا آلع*
+P. 27. *Who is the worshipped one? &c.*—The greater part of this extract from Patañjali has been translated into Persian by Abulma’ali Muhammad Ibn ‘Ubaid-Allâh in his *Kitâb-bayân-al’adyân*; v. C. Schefer, *Chrestomathie Persane*, i. 179-188; *سوال کدامست آن معبود که همه کان بتوفیق او را*. 189-190. یابند بعبادت او جواب آنکه همه امیدها بدوست وهمه بیمیا آلع*
 
 P. 27. *Patañjali.*—The book of this name used and translated by the author had the form of a conversation between two persons, simply called “the asking one,” and “the answering one,” and its subject was *the search for liberation and for the union of the soul with the object of its meditation* (i. 132), *the emancipation of the soul from the fetters of the body* (i. 8). It was a popular book of theosophy, propounding in questions and answers the doctrine of the Yoga, a theistic philosophy developed by Patañjali out of the atheistic Saṁkhya philosophy of Kapila. *Cf.* J. Davies, “Hindu Philosophy,” *Saṁkhyâ Kârikâ of Iśvara Krishna*, London, 1881, p. 116. The latter is called *nirśvara* =
 
@@ -4819,7 +4819,7 @@ Alberuni’s Patañjali is totally different from “The Yoga Aphorisms of Pata�
 
 Moreover, the extracts given in the *Indica* stand in no relation with the commentary of Bhoja Rājā, although the commentator here and there mentions ideas which in a like or similar form occur in Alberuni’s work, both works being intended to explain the principles of the same school of philosophy.
 
-Besides the text of Patañjali, a commentary also is mentioned and quoted (i. 232, 234, 236, 238, 248), مضر باثنجل or كتاب باثنجل. It is most remarkable that the extracts from this commentary are all of them not of a philosophic, but of a plainly Paurānic character, treating of cosmographic subjects, the *lokas*, *Mount Meru*, the different spheres, &amp;c. The name of the commentator is not mentioned. If the quotations on i. 273 *seq.* may be considered as derived from this commentary, the author was Balabhadra. V. index i. *s.v.* Patañjali.
+Besides the text of Patañjali, a commentary also is mentioned and quoted (i. 232, 234, 236, 238, 248), مضر باثنجل or كتاب باثنجل. It is most remarkable that the extracts from this commentary are all of them not of a philosophic, but of a plainly Paurānic character, treating of cosmographic subjects, the *lokas*, *Mount Meru*, the different spheres, &c. The name of the commentator is not mentioned. If the quotations on i. 273 *seq.* may be considered as derived from this commentary, the author was Balabhadra. V. index i. *s.v.* Patañjali.
 
 P. 29. *Gītā.*—The book *Gītā* is, according to Alberuni, a part of the book *Bhārata* (*i.e.* *Mahābhārata*, which term does not occur in the *Indica*¹), and a conversation between Vāsudeva and Arjuna (قال باندود لارجس). It is largely quoted in chapters relating to religion and philosophy. We have now to examine in what relation Alberuni’s *Gītā* stands to the well-known *Bhagavad-Gītā* as we have it in our time. Cf. “Hindu Philosophy,” “The Bhagavad-Gītā, or the Sacred Lay,” translated by J. Davies, London, 1882. The latter is described as a skilful union of the systems of *Kapila* and *Patañjali* with a large admixture of the prevailing *Brāhmanic doctrines*. Although the opinions regarding its origin differ widely, it can scarcely be denied that it is not free from having been influenced to a certain degree by
 
@@ -4853,7 +4853,7 @@ Various generations of Hindu scholars have modelled and remodelled this book, on
 
 As regards the quotation on this page (29), it exhibits only in the substance a distant relationship with Bhagavad-Gītā, x. 3: “He who knows Me as unborn and without beginning, the mighty Lord of the world, he of mortals is free from delusion, he is free from all sin.”
 
-P. 30. Sāṃkhya.—The book Sāṃkhya, as used and translated by Alberuni, had the form of a conversation between an anchorite and a sage, and it contained a treatise on the origines and a description of all created beings (i. 8), a book on divine subjects (i. 132). It was composed by Kapila. The author quotes it largely on questions of religion and philosophy. The Sāṃkhya philosophy of Kapila is the most ancient system of thought among the Hindus, the source of the Yoga doctrine of Patañjali. Cf. Colebrooke, “Essays,” i. 239–279; J. Davies, “Hindu Philosophy,” &amp;c., p. 101 seq.
+P. 30. Sāṃkhya.—The book Sāṃkhya, as used and translated by Alberuni, had the form of a conversation between an anchorite and a sage, and it contained a treatise on the origines and a description of all created beings (i. 8), a book on divine subjects (i. 132). It was composed by Kapila. The author quotes it largely on questions of religion and philosophy. The Sāṃkhya philosophy of Kapila is the most ancient system of thought among the Hindus, the source of the Yoga doctrine of Patañjali. Cf. Colebrooke, “Essays,” i. 239–279; J. Davies, “Hindu Philosophy,” &c., p. 101 seq.
 
 The relation between Alberuni’s Sāṃkhya and the so-called Sāṃkhyapravacanam (“The Sāṃkhya Aphorisms of Kapila,” translated by Ballantyne, London, 1885) is a very distant one, and is limited to this, that there occurs a small number of passages which show a similarity of matter, not of form. The latter book (the Sūtras) seems to be a late secondary production; v. A. Weber, Vorlesungen über Indische Literaturgeschichte, p. 254, note 250. Besides, the philosophic system propounded by Alberuni under the name of Sāṃkhya seems in various and essential points to differ from that of the Sūtras; it seems altogether to have had a totally different tendency. The Sūtras treat of the complete cessation of pain; the first one runs thus: “Well, the complete cessation of pain, (which is) of three kinds, is the complete end of man;” whilst the Sāṃkhya of Alberuni teaches moksha by means of knowledge.
 
@@ -4865,9 +4865,9 @@ ANNOTATIONS. 267
 
 1881). Both works teach *moksha* by means of knowledge, and contain here and there the same subject-matter. It must be observed that of those illustrative tales which Alberuni’s *Sāṁkhya* gives in full length, short indications are found in the *Sāṁkhya Kārikā*. Its author, Īśvara Krishna, says at the end of his book that he has written his seventy *Śūtras*, excluding illustrative tales. This is not quite correct, as sometimes, though he has not told them, he has at all events indicated them. His words show that he has copied from a book like the *Sāṁkhya* of Alberuni, in which the tales were not only indicated, but related at full length. Cf. A. Weber, *Vorlesungen über Indische Literaturgeschichte*, Berlin, 1876, p. 254, note 250. Hall considers the *S. Pravacanam* to be younger than the *S. Kārikā*.
 
-If, in the third place, we examine the *Bhāshya* of Gauḍapāda, we find that it is not identical with Alberuni’s *Sāṁkhya*, but a near relative of it. Cf. the *Sāṁkhya Kārikā*, &amp;c., translated by Colebrooke, also the *Bhāshya* of Gauḍapāda, translated by H. H. Wilson, Oxford, 1837; Colebrooke, “Essays,” i. 245. Most of the quotations given by Alberuni are found only slightly differing in Gauḍapāda, and some agree literally, as I shall point out in the notes to the single passages. Almost all the illustrative tales mentioned by Alberuni are found in Gauḍapāda, being, as a rule, more extensive in Alberuni than in Gauḍapāda. The latter seems to have taken his information from a work near akin to, or identical with, that *Sāṁkhya* book which was used by Alberuni.
+If, in the third place, we examine the *Bhāshya* of Gauḍapāda, we find that it is not identical with Alberuni’s *Sāṁkhya*, but a near relative of it. Cf. the *Sāṁkhya Kārikā*, &c., translated by Colebrooke, also the *Bhāshya* of Gauḍapāda, translated by H. H. Wilson, Oxford, 1837; Colebrooke, “Essays,” i. 245. Most of the quotations given by Alberuni are found only slightly differing in Gauḍapāda, and some agree literally, as I shall point out in the notes to the single passages. Almost all the illustrative tales mentioned by Alberuni are found in Gauḍapāda, being, as a rule, more extensive in Alberuni than in Gauḍapāda. The latter seems to have taken his information from a work near akin to, or identical with, that *Sāṁkhya* book which was used by Alberuni.
 
-According to Colebrooke (in the preface of the work just mentioned, on p. xiii.), Gauḍapāda was the teacher of Śaṁkara Ācārya, who is said to have lived in the eighth Christian century. Cf. also A. Weber, *Vorlesungen*, pp. 179, 254, and 260. Alberuni does not mention Gauḍapāda, as far as I can see. Or is he perhaps identical with *Gauḍa the anchorite*, whom Alberuni mentions even before Kapila? Cf. the passage, i. 131–132: “Besides, the Hindus have books, &amp;c., on the process of becoming God and seeking liberation from the world, as, e.g. the book composed by Gauḍa the anchorite, which goes by his name.”
+According to Colebrooke (in the preface of the work just mentioned, on p. xiii.), Gauḍapāda was the teacher of Śaṁkara Ācārya, who is said to have lived in the eighth Christian century. Cf. also A. Weber, *Vorlesungen*, pp. 179, 254, and 260. Alberuni does not mention Gauḍapāda, as far as I can see. Or is he perhaps identical with *Gauḍa the anchorite*, whom Alberuni mentions even before Kapila? Cf. the passage, i. 131–132: “Besides, the Hindus have books, &c., on the process of becoming God and seeking liberation from the world, as, e.g. the book composed by Gauḍa the anchorite, which goes by his name.”
 
 Kapila, the father of the *Sāṁkhya* philosophy, is mentioned by Alberuni also as the author of a book called
 
@@ -4877,7 +4877,7 @@ Kapila, the father of the *Sāṁkhya* philosophy, is mentioned by Alberuni also
 
 Nyāyabhāshā, “on the Veda and its interpretation, also showing that it has been created, and distinguishing within the Veda between such injunctions as are obligatory only in certain cases and those which are obligatory in general” (i. 132). The subject of this book is evidently not related to the Nyāya philosophy, but to the tenets of the Mīmāmsā philosophy, i.e. the Pūrvamīmāmsā, (Colebrooke, “Essays,” i. p. 319–349; J. Davies, “Hindu Philosophy,” p. 2; Thibaut, Arthasaṃgraha, Benares, 1882), a system of rules which are applied to the text of the Veda and its sacrificial prescriptions.
 
-P. 31. The anthropomorphic doctrines, the teachings of the Jabriyya sect, &amp;c.—The sect called Jabriyya, Jabariyya, and Mujbara teaches that the actions of man proceed from God. They are the followers of Al-najjār. Cf. Fihrist, p. 179 seq.
+P. 31. The anthropomorphic doctrines, the teachings of the Jabriyya sect, &c.—The sect called Jabriyya, Jabariyya, and Mujbara teaches that the actions of man proceed from God. They are the followers of Al-najjār. Cf. Fihrist, p. 179 seq.
 
 The Ahl-altashbīh, or anthropomorphists, teach that God is similar to His creatures. Cf. Statio Quinta et Sexta et appendix libri Mevakif, edit. Th. Sørensen, Leipzig, 1858, p. 362; Kitāb-i-Yamīnī of Al-Utbī, translated by J. Reynolds, London, 1858, preface, pp. xxv. xxix.; “Book of Religious and Philosophical Sects,” by Alshahrastānī, edited by Cureton, pp. 59, 61, and 75 seq.
 
@@ -4899,7 +4899,7 @@ That, notwithstanding all this, there was a large margin for liberty of religiou
 
 P. 33. τὸ λανθάνεω.—The word *kumūn*, which I have thus rendered, means to be hidden. Not knowing to what school of Greek philosophers the author refers, I can only give the note of Reiske, “اهل الكمون, Philosophi qui omnes animas simul et semel creatas et reconditas in Adamo putant” (Freytag, *Lexicon Arabicum*, s.h.v.).
 
-P. 33. *Pailāsōpā*, &amp;c.—As Syrian scholars were the author’s teachers in Greek philosophy, he knows the Greek word φιλόσοφος only in its Syrian garb.
+P. 33. *Pailāsōpā*, &c.—As Syrian scholars were the author’s teachers in Greek philosophy, he knows the Greek word φιλόσοφος only in its Syrian garb.
 
 ---
 
@@ -4950,7 +4950,7 @@ The first and third quotations are not found in the Greek text, and Ed. Zeller, 
 
 δαιμόνων εἰπεῖν καὶ γνῶναι τὴν γένεσιν κ.τ.λ.), the latter from passages like 32B and 92B.
 
-The index of the works of Johannes Philoponus or Scholasticus (Steinschneider, *Al-Fārābī*, p. 152 seq.) does not mention a commentary on *Tīmæus*, if it is not concealed under the title of one of his books, في الكون والفساد, i.e. on *existing and perishing*. As he was a literary opponent of Nestorius, he seems to have been a strict Monophysite, which would be in keeping with the third quotation, “God is in the single number,” &amp;c. Cf. the note to pp. 56, 57.
+The index of the works of Johannes Philoponus or Scholasticus (Steinschneider, *Al-Fārābī*, p. 152 seq.) does not mention a commentary on *Tīmæus*, if it is not concealed under the title of one of his books, في الكون والفساد, i.e. on *existing and perishing*. As he was a literary opponent of Nestorius, he seems to have been a strict Monophysite, which would be in keeping with the third quotation, “God is in the single number,” &c. Cf. the note to pp. 56, 57.
 
 P. 36. Johannes Grammaticus (identical with J. Philoponus and Scholasticus) is five times quoted. There are three extracts from his *Refutatio Procli*, and two more, the origin of which is not mentioned, but probably taken from the same book. The passage here mentioned is found in Joannis Grammatici Philoponi Alexandrini contra Produm de Mundi aeternitate, libri xviii., Venetiis, 1551, Greek and Latin, in the 18th λόγος, chap. ix. (there is no pagination; cf. the Latin translation, p. 95):
 
@@ -4966,17 +4966,17 @@ P. 40. *Gītā.*—Cf. with these words the *Bhagavad-Gītā* (of J. Davies), xv
 
 “Entering into the earth, I sustain all things by my vital force, and becoming a savoury juice, I nourish all herbs (v. 14).
 
-“I become fire, and enter into the bodies of all that breathe, &amp;c. And I am seated in the hearts of all: from
+“I become fire, and enter into the bodies of all that breathe, &c. And I am seated in the hearts of all: from
 
 ---
 
 ANNOTATIONS. 273
 
-Me come *memory, knowledge, and the power of reason,* &amp;c. (v. 15).
+Me come *memory, knowledge, and the power of reason,* &c. (v. 15).
 
 Davies supposes the whole of verse 15 to be an interpolation, but this remark must, as it seems, be limited to the final sentence of verse 15 only, *i.e.* to the words: “I form the Vedānta, and I am one who knows the Vedas.”
 
-P. 40. *Apollonius.*—A Greek book of Apollonius of Tyana of this title is not known to me, but it exists in Arabic, كتاب في العلل (*Liber de Causis*), in the library of Leyden, cf. Wenrich, *De Auctorum Graecorum Versionibus et Commentariis Syriacis, Arabicis, &amp;c.*, p. 239.
+P. 40. *Apollonius.*—A Greek book of Apollonius of Tyana of this title is not known to me, but it exists in Arabic, كتاب في العلل (*Liber de Causis*), in the library of Leyden, cf. Wenrich, *De Auctorum Graecorum Versionibus et Commentariis Syriacis, Arabicis, &c.*, p. 239.
 
 Pp. 40–44.—The Sāmkhya doctrine of the twenty-five *tattvas* is found in the commentary of Gaudapāda to the *Sāmkhya Kārikā* of Īśvara Krishna, where also the saying of Vyāsa (here i. 44 and 104) is found. Cf. the translation of H. H. Wilson, p. 79, i. 14.
 
@@ -5013,7 +5013,7 @@ P. 47. Dancing-girl.—This example is likewise found in Gaudapāda, p. 170 (Bh�
 
 P. 48. Mānī.—Vide note to pp. 7, 8.
 
-P. 48. The book of Sāṃkhya, &amp;c.—The theory of predominance among the three primary forces (guṇa), v. in Gaudapāda, pp. 92, 93, to v. 25, p. 49 to v. 12; the com
+P. 48. The book of Sāṃkhya, &c.—The theory of predominance among the three primary forces (guṇa), v. in Gaudapāda, pp. 92, 93, to v. 25, p. 49 to v. 12; the com
 
 ---
 
@@ -5021,15 +5021,15 @@ ANNOTATIONS. 275
 
 parison of the soul with a spectator on p. 72 to v. 19 (also *Bhagavad-Gítá*, xiv. 23); the story of the innocent among the robbers on p. 74 to v. 20.
 
-P. 49. *The soul is in matter, &amp;c.*—The soul compared to a charioteer, v. in Gaudapāda, p. 66 to v. 17.
+P. 49. *The soul is in matter, &c.*—The soul compared to a charioteer, v. in Gaudapāda, p. 66 to v. 17.
 
-Pp. 52–54. *Vāsudeva speaks to Arjuna, &amp;c.*—Of these quotations from *Gítá*, compare the passage, “Eternity is common to both of us, &amp;c., whilst they were concealed from you,” with *Bhagavad-Gítá*, iv. 5: “Many have been in past time the births of me, and of thee also, Arjuna. All these I know, but thou knowest them not, O slayer of foes!”
+Pp. 52–54. *Vāsudeva speaks to Arjuna, &c.*—Of these quotations from *Gítá*, compare the passage, “Eternity is common to both of us, &c., whilst they were concealed from you,” with *Bhagavad-Gítá*, iv. 5: “Many have been in past time the births of me, and of thee also, Arjuna. All these I know, but thou knowest them not, O slayer of foes!”
 
 Of the other quotations on these two pages, I do not see how they could be compared with any passage in *Bhagavad-Gítá*, except for the general tenor of the ideas. With the phrase, “For he loves God and God loves him,” cf. *Bhagavad-Gítá*, xii. 14–20, “Who worships me is dear to me.”
 
 P. 54. *Vishṇu-Dharma*.—Alberuni gives large quotations from this book. He speaks of it i. 132, and translates the title as *the religion of God*.
 
-I do not know the Sanskrit original of the book, for it is totally different from the *Vishṇu-Smṛti*, or *Vishṇu-Sūtra*, or *Vaishṇava Dharmaśāstra*, translated by J. Jolly (“The Institutes of Vishṇu,” Oxford, 1880), a law-book in a hundred chapters, similar to those of Āpastamba, Yājnavalkya, Vasishṭha, the Gṛihyasūtras, &amp;c. Our *Vishṇu-Dharma* is a sort of Purāṇa, full of those legends and notions characteristic of the literature of Purāṇas; but the author does not assign it to them. Most of the extracts here given are conversations between the sage Mārkaṇḍeya and Vajra, others a conversation between the king Parīksha and the sage Śaṭānīka. The extracts treat of mythological subjects (i. 54); the twelve suns (i. 216, 217); the pole (i. 241); the planets and fixed stars (i. 287, 288); star-legends (i. 291); the story of Hiraṇyāksha (ii. 140); the names of the Manvantaras (i. 387); the dominants of the planets (ii. 121); in particular, of chronological and astronomical subjects. The author has taken several series of names from the *Vishṇu-Dharma*. He
+I do not know the Sanskrit original of the book, for it is totally different from the *Vishṇu-Smṛti*, or *Vishṇu-Sūtra*, or *Vaishṇava Dharmaśāstra*, translated by J. Jolly (“The Institutes of Vishṇu,” Oxford, 1880), a law-book in a hundred chapters, similar to those of Āpastamba, Yājnavalkya, Vasishṭha, the Gṛihyasūtras, &c. Our *Vishṇu-Dharma* is a sort of Purāṇa, full of those legends and notions characteristic of the literature of Purāṇas; but the author does not assign it to them. Most of the extracts here given are conversations between the sage Mārkaṇḍeya and Vajra, others a conversation between the king Parīksha and the sage Śaṭānīka. The extracts treat of mythological subjects (i. 54); the twelve suns (i. 216, 217); the pole (i. 241); the planets and fixed stars (i. 287, 288); star-legends (i. 291); the story of Hiraṇyāksha (ii. 140); the names of the Manvantaras (i. 387); the dominants of the planets (ii. 121); in particular, of chronological and astronomical subjects. The author has taken several series of names from the *Vishṇu-Dharma*. He
 
 ---
 
@@ -5082,7 +5082,7 @@ The sentences which in the Arabic follow after these
 
 278 ALBERUNI'S INDIA.
 
-words (“Our souls lead an existence of their own,” &amp;c.) cannot be combined with the Greek text, and I suppose they were taken from some commentary.
+words (“Our souls lead an existence of their own,” &c.) cannot be combined with the Greek text, and I suppose they were taken from some commentary.
 
 The second quotation is found
 
@@ -5092,7 +5092,7 @@ The second quotation is found
 
 In some sentences the Arabic and Greek texts agree literally; in others they differ to such an extent that this extract, too, does not seem to be taken from a simple translation of the text of *Phædo*, but rather from a work in which text and commentary were mixed together, and the original form of a dialogue was changed into that of a simple relation. Alberuni erroneously held this to be the original form of the book. We have arrived at a similar result in the case of Plato’s *Timaeus*.
 
-Proclus has composed a commentary on the saying of Plato that the soul is immortal, in three sections: v. Wenrich, *De Auctorum Graecorum Versionibus*, &amp;c., p. 288; and Zeller, *Philosophie der Griechen*, iii. 6, 780, 1. This was probably an Arabic edition of *Phædo*, and possibly that one which Alberuni used. Cf. note to p. 35.
+Proclus has composed a commentary on the saying of Plato that the soul is immortal, in three sections: v. Wenrich, *De Auctorum Graecorum Versionibus*, &c., p. 288; and Zeller, *Philosophie der Griechen*, iii. 6, 780, 1. This was probably an Arabic edition of *Phædo*, and possibly that one which Alberuni used. Cf. note to p. 35.
 
 The quotations from *Phædo* given farther on (pp. 65–67) agree more accurately with the Greek original, but in them, too, the dialogistic form has disappeared.
 
@@ -5160,7 +5160,7 @@ P. 63. *Viṣṇu-Purāṇa.*—This quotation is related in substance to Book I
 
 P. 64. *Sāṃkhya.*—The *S. Kārikā* and Gauḍapāda do not seem to offer anything analogous to this passage.
 
-P. 64.—*A theosoph, &amp;c.*—The passage relating to the four degrees of metempsychosis has been translated into Persian by Abulmaʿāli Muḥammad Ibn ʿUbaid-Allāh in his *Bayān al-ʿadyān*: v. C. Schefer, *Chrestomathie Persane*, i. 184, l. 3–8.
+P. 64.—*A theosoph, &c.*—The passage relating to the four degrees of metempsychosis has been translated into Persian by Abulmaʿāli Muḥammad Ibn ʿUbaid-Allāh in his *Bayān al-ʿadyān*: v. C. Schefer, *Chrestomathie Persane*, i. 184, l. 3–8.
 *Abū-Yaʿkūb* and his work are not known to me from other sources.
 
 P. 65. *Johannes Grammaticus.*—*Vide* note to p. 36.
@@ -5170,21 +5170,21 @@ P. 65. *Johannes Grammaticus.*—*Vide* note to p. 36.
 
 ANNOTATIONS. 281
 
-The body is earthy, &amp;c., 81 C, D:—
+The body is earthy, &c., 81 C, D:—
 
 Ἐμβριθὲς δὲ γε, ὦ φίλε, τοῦτο οἴεσθαι χρὴ εἶναι καὶ βαρὺ καὶ γεῶδες καὶ ὁρατόν· ὃ δὴ καὶ ἔχουσα ἡ τοιαύτη ψυχὴ βαρύνεταί τε καὶ ἔλεεται πάλιν εἰς τὸν ὁρατὸν τόπον φόβῳ τοῦ αἰδοῦς τε καὶ Ἄιδου, ὥσπερ λέγεται, περὶ τὰ μνήματά τε καὶ τοῦς τάφους κυλινδουμένη, περὶ ἃ δὴ καὶ ὠφθη ἄττα ψυχῶν σειοειδῆ φαντάσματα, οἷα παρέχονται αἱ τοιαῦται ψυχαὶ εἴδωλα αἱ μὴ καθαρῶς ἀπολυθεῖσαι, ἀλλὰ καὶ τοῦ ὁρατοῦ μετέχουσαι, διὸ καὶ ὁρῶνται.
 
-It appears that these are not the souls, &amp;c., 81D–82A:—
+It appears that these are not the souls, &c., 81D–82A:—
 
 Εἰκὸς μέντοι, ὦ Κέβης· καὶ οὗ τί γε τὰς τῶν ἀγαθῶν ταύτας εἶναι, ἀλλὰ τὰς τῶν φαύλων, αἱ περὶ τὰ τοιαῦτα ἀναγκάζονται πλανᾶσθαι δίκην τίνουσαι τῆς προτέρας τροφῆς κακῆς οὔσης· καὶ μέχρι γε τούτου πλανῶνται, ἕως ἂν τῇ Ἐυνεπακολουθοῦντος τοῦ σωματοειδοῦς ἐπιθυμία πάλιν ἐνδεθῶσιν εἰς σῶμα.
 
 Ἐνδοῦνται δὲ, ὥσπερ εἰκός, εἰς τοιαῦτα ἤθη ὁποῖ ἄττ’ ἂν καὶ μεμελετηκυῖαι τύχωσιν ἐν τῷ βίῳ. Τὰ ποῖα δὴ ταῦτα λέγεις, ὦ Σώκρατες; Οἷον τοὺς μὲν γαστριμαργίας τε καὶ ὕβρεις καὶ φιλοποσίας μεμελετηκότας καὶ μὴ διευλαβημένους εἰς τὰ τῶν ὄνων γένη καὶ τῶν τοιούτων θηρίων εἰκὸς ἐνδύεσθαι· ἢ οὐκ οἷει; πάνυ μὲν οὖν εἰκὸς λέγεις. Τοὺς δέ γε ἀδικίας τε καὶ τυραννίδας καὶ ἀρπαγὰς προτετιμηκότας εἰς τὰ τῶν λύκων τε καὶ ἱεράκων καὶ ἰκτίνων γένη.
 
-If I did not think that I am going, &amp;c., 63B:—
+If I did not think that I am going, &c., 63B:—
 
 εἰ μὲν μὴ ἄμην ἥξειν πρῶτον μὲν παρὰ θεοὺς ἄλλους σοφούς τε καὶ ἀγαθούς, ἔπειτα καὶ παρ’ ἀνθρώπους τετε-λευτηκότας ἀμεινοὺς τῶν ἐνθάδε, ἡδίκουν ἂν οὐκ ἀγανακτῶν τῷ θανάτῳ.
 
-P. 66. When a man dies, a daimon, &amp;c., 107D, 108C:—
+P. 66. When a man dies, a daimon, &c., 107D, 108C:—
 
 λέγεται δὲ οὕτως, ὡς ἄρα τελευτήσαντα ἕκαστον ὁ ἑκάστου δαίμων, ὅσπερ ζῶντα εἰλήχει, οὗτος ἄγειν ἐπιχειρεῖ εἰς δή τινα τόπον, οἱ δεῖ τοὺς συλλεγέντας διαδικασαμένους εἰς Ἄιδου πορεύεσθαι μετὰ ἡγεμόνος ἐκείνου, ὅς δὴ προστέ-
 
@@ -5194,7 +5194,7 @@ P. 66. When a man dies, a daimon, &amp;c., 107D, 108C:—
 
 τακται τοὺς ἐνθένδε ἐκεῖσε πορεῦσαι. τυχόντας δ’ ἐκεῖ, ὧν δεῖ τυχεῖν, καὶ μείναντας ὃν χρὴ χρόνον, ἄλλος δεῦρο πάλιν ἡγεμὼν κομίζει ἐν πολλαῖς χρόνου καὶ μακραῖς περιόδους. ἔστι δὲ ἄρα ἡ πορεία οὐχ ὡς ὁ Αἰσχύλου Τήλεφος λέγει· ἐκεῖνος μὲν γὰρ ἀπλῆν οἶμόν φησιν εἰς Ἀιδού φέρειν, ἡ δοῦτε ἁπλῆ οὔτε μία φαίνεται μοι εἶναι. οὐδὲ γὰρ ἂν ἡγεμόνων ἔδει, οὐ γὰρ πού τις ἂν διαμάρτοι οὐδαμόσε μιᾶς ὁδοῦ οὔσης. νῦν δὲ ἔοικε σχίσεις δὲ καὶ περιόδους πολλὰς ἔχειν· ἀπὸ τῶν ὁσίων τε καὶ νομίμων τῶν ἐνθάδε τεκμαιρόμενος λέγω. ἡ μὲν κοσμία τε καὶ φρόνιμος ψυχὴ ἔπεται τε καὶ οὐκ ἀγνοεῖ τὰ παρόντα· ἡ δ’ ἐπιθυμητικῶς τοῦ σώματος ἔχουσα, ὅπερ ἐν τῷ ἐμπροσθεν εἶπον, περὶ ἐκεῖνο πολὺν χρόνον ἐπτοημένη καὶ περὶ τὸν ὁρατὸν τόπον πολλὰ ἀντιτείνασα καὶ πολλὰ παθοῦσα βίᾳ καὶ μόγις ὑπὸ τοῦ προστεταγμένου δαίμονος οἴχεται ἀγομένη. ἀφικομένην δὲ ὄθιπερ αἱ ἄλλαι, τὴν μὲν ἀκάθαρτον καὶ τι πεποιηκυῖαν τοιοῦτον, ἢ φόνων ἀδίκων ἡμμένην ἢ ἄλλ’ ἄττα τοιαῦτα εἰργασμένην, ἃ τούτων ἀδελφά τε καὶ ἀδελφῶν ψυχῶν ἔργα τύγχανει ὄντα, ταύτην μὲν ἅπας φεύγει τε καὶ ὑπεκτρέπεται καὶ οὔτε ξυνέμπορος οὔτε ἡγεμὼν ἐθέλει γίγνεσθαι, αὐτὴ δὲ πλανᾶται ἐν πάσῃ ἐχομένη ἀπορίᾳ, ἕως ἂν δή τινες χρόνοι γένωνται, ὧν ἐλθόντων ὑπ’ ἀνάγκης φέρεται εἰς τὴν αὐτῇ πρέπουσαν οἴκησιν· ἡ δὲ καθαρῶς τε καὶ μετρίως τὸν βίον διεξελθοῦσα καὶ ξυνέμπορων καὶ ἡγεμόνων θεῶν τυχοῦσα ἤκησεν τὸν αὐτῃ ἑκάστη τόπον προσήκοντα.
 
-Those of the dead who led a middle sort of life, &amp;c., and Those who repented of their sins, &amp;c., 113D–114C:
+Those of the dead who led a middle sort of life, &c., and Those who repented of their sins, &c., 113D–114C:
 
 καὶ οἱ μὲν ἂν δόξωσι μέσως βεβιωκέναι, πορευθέντες ἐπὶ τὸν Ἀχέροντα, ἀναβάντες ἃ δὴ αὐτοῖς ὀχήματά ἐστιν, ἐπὶ τούτων ἀφικνοῦνται εἰς τὴν λίμνην, καὶ ἐκεῖ οἰκοῦσί τε καὶ καθαιρόμενοι τῶν τε ἀδικημάτων διδόντες δίκας ἀπολύονται, εἶ τίς τι ἠδίκηκεν, τῶν τε εὐεργεσιῶν τιμὰς φέρονται κατὰ τὴν ἀξίαν ἕκαστος. οἱ δ’ ἂν δόξωσιν ἀνιάτως ἔχειν διὰ τὰ μεγέθη τῶν ἁμαρτημάτων, ἱεροσυλίας πολλὰς καὶ μεγάλας ἢ φόνους ἀδίκους καὶ παρανόμους
 
@@ -5206,7 +5206,7 @@ ANNOTATIONS. 283
 
 P. 68. Ignorance, knowledge.—Cf. Sāṃkhya Kārikā, v. 44, “By knowledge is deliverance; by the reverse, bondage.”
 
-P. 69. These eight things, &amp;c.—Cf. the Commentary of Bhojarājā to “The Yoga Aphorisms of Patañjali,” &amp;c., v. xlv., also Gaudapāda’s Bhāshya to the Sāṃkhyā Kārikā, v. xxiii. (pp. 83, 84), where he quotes the work of Patañjali (Pātañjala).
+P. 69. These eight things, &c.—Cf. the Commentary of Bhojarājā to “The Yoga Aphorisms of Patañjali,” &c., v. xlv., also Gaudapāda’s Bhāshya to the Sāṃkhyā Kārikā, v. xxiii. (pp. 83, 84), where he quotes the work of Patañjali (Pātañjala).
 
 P. 69. Passing through several stages.—Cf. with these four stages of knowledge the “seven kinds of enlightenment” in “The Yoga Aphorisms,” ii. v. xxvii., and Commentary.
 
@@ -5242,9 +5242,9 @@ P. 73.—The three primary forces are *rajas*, *tamas*, *sattva*.
 
 P. 73. *To stop all motions, and even the breathing.*—Cf. on the *stoppage of motion* and the expulsion and retention of breath, “Yoga Aphorisms of Patañjali,” i. xxxiv., and the notes of Rājendralālā Mitra.
 
-P. 73. *In the book Gītā.*—The two quotations as given here are not found in the *Bhagavad-Gītā*. Only the comparison with the lamp occurs in vi. 19: “As a lamp sheltered from the wind does not flicker;” this is the wonted simile of the Yogin who is subdued in thought,” &amp;c.
+P. 73. *In the book Gītā.*—The two quotations as given here are not found in the *Bhagavad-Gītā*. Only the comparison with the lamp occurs in vi. 19: “As a lamp sheltered from the wind does not flicker;” this is the wonted simile of the Yogin who is subdued in thought,” &c.
 
-Also the comparison with the waters of the rivers not increasing the ocean is found ii. 70: “He attains to peace into whom all desires enter as rivers enter into the ocean, which is ever filled, and (yet) remains within its bounds,” &amp;c.
+Also the comparison with the waters of the rivers not increasing the ocean is found ii. 70: “He attains to peace into whom all desires enter as rivers enter into the ocean, which is ever filled, and (yet) remains within its bounds,” &c.
 
 P. 74. *The following nine rules.*—Five of these commandments are mentioned in “The Yoga Aphorisms,” ii. xxx., and the other four seem to be identical with the five obligations mentioned in ii. xxxii.
 
@@ -5278,7 +5278,7 @@ the four parts of the path of liberation on pp. 76–80 I do not know a parallel
 
 P. 77. *In the book Vishnu-Dharma.—Cf.* on was one note to p. 54. The Arabic text has not Pariksha, but Pariksha, which name is mentioned by Hall in a note to Vishnu-Purāṇa, iv., chap. xx. p. 154.
 
-Pp. 78, 79. *The book Gītā.*—These three extracts are not found in the Bhagavad-Gītā. The words, “He who mortifies his lust,” &amp;c., compare with Bhagavad-Gītā, iv. 21, “Void of hope, self-restrained in thought, performing merely bodily work, he contracts no sin.” Regarding the passage, “Pleasures of a kind which, in reality, are disguised pains,” v. note to p. 70.
+Pp. 78, 79. *The book Gītā.*—These three extracts are not found in the Bhagavad-Gītā. The words, “He who mortifies his lust,” &c., compare with Bhagavad-Gītā, iv. 21, “Void of hope, self-restrained in thought, performing merely bodily work, he contracts no sin.” Regarding the passage, “Pleasures of a kind which, in reality, are disguised pains,” v. note to p. 70.
 
 The expression, *the nine doors of thy body* (p. 79, 8), is also found in Bhagavad-Gītā, v. 13: “in the city of nine gates,” i.e. in the body. Cf. also *Sāṃkhya Kārikā*, v. xxxv.
 
@@ -5290,7 +5290,7 @@ Pp. 81, 82. *Sāṃkhya.*—The comparison with the wheel of the potter (not the
 
 P. 82. *In the book of Patañjali.*—I have not found these two passages anywhere else. As to the faculties of the perfect Yogin, cf. “Yoga Aphorisms,” iii. 42, 44, 45.
 
-P. 83. *The Sūfī explain the Koranic verse, &amp;c.*—Being asked about the story of Dhulkarnaini (Bicornutus, i.e. Alexander), Muhammad says, “We (i.e. Allah) have made room for him on earth;” or, as Sale translates, “We established for him on earth,” which means, “We have given him
+P. 83. *The Sūfī explain the Koranic verse, &c.*—Being asked about the story of Dhulkarnaini (Bicornutus, i.e. Alexander), Muhammad says, “We (i.e. Allah) have made room for him on earth;” or, as Sale translates, “We established for him on earth,” which means, “We have given him
 
 ---
 
@@ -5324,15 +5324,15 @@ Pp. 86, 87. *Arjuna says.*—The comparison of Brahman with an *aśvattha* tree 
 
 The doctrine of Patañjali.—Ideas similar to these Sūfī sentences are found in *Bhagavad-Gítâ*, vi. 28–31, describing the union of the soul with Brahman.
 
-Pp. 87, 88.—On Abū-Bakr Ash-shiblī cf. Ibn Khallikān, translated by De Slane, i. 511–513; Abulmahāsin, *Annales*, ii. 313. He lived in Bagdad, was a pupil of Junaid, died A.H. 334 = A.D. 946, in Bagdad, and was buried there. On Abū-Yazīd Albiṣṭāmī cf. Ibn Khallikān, nr. 311. He died A.H. 261 = A.D. 875. Jāmī has articles on these two mystics with many quotations from them in his *Nafahāt-alʿuns* (Lee’s “Persian Series,” the *Nafahāt-alons*, &amp;c., or the Lives of the Soofis, by Jāmī, Calcutta, 1859, pp. 201 and 62).
+Pp. 87, 88.—On Abū-Bakr Ash-shiblī cf. Ibn Khallikān, translated by De Slane, i. 511–513; Abulmahāsin, *Annales*, ii. 313. He lived in Bagdad, was a pupil of Junaid, died A.H. 334 = A.D. 946, in Bagdad, and was buried there. On Abū-Yazīd Albiṣṭāmī cf. Ibn Khallikān, nr. 311. He died A.H. 261 = A.D. 875. Jāmī has articles on these two mystics with many quotations from them in his *Nafahāt-alʿuns* (Lee’s “Persian Series,” the *Nafahāt-alons*, &c., or the Lives of the Soofis, by Jāmī, Calcutta, 1859, pp. 201 and 62).
 
-P. 88. The Sūfī explain the Koranic passage (Sura 2; 68), &amp;c.—“And when you had killed a person and were dis-vol. II.”
+P. 88. The Sūfī explain the Koranic passage (Sura 2; 68), &c.—“And when you had killed a person and were dis-vol. II.”
 
 ---
 
 290 ALBERUN'S INDIA.
 
-puting among yourselves (the one throwing the blame on the other), whilst God was bringing to light what you concealed, then we spoke: Beat him (the killed person) with part of her (the killed cow mentioned in the preceding"). In that case the killed person will again become alive and tell who murdered him. "Thus God brings to life the dead ones," &amp;c. Cf. A. Geiger, *Was hat Mohammed aus dem Judenthume aufgenommen?* Bonn, 1833, p. 172. Muhammad has moulded this part of Sûra 2 from elements taken directly or indirectly from Numb. xix. 2 seq., and Deut. xxi. 2 seq.
+puting among yourselves (the one throwing the blame on the other), whilst God was bringing to light what you concealed, then we spoke: Beat him (the killed person) with part of her (the killed cow mentioned in the preceding"). In that case the killed person will again become alive and tell who murdered him. "Thus God brings to life the dead ones," &c. Cf. A. Geiger, *Was hat Mohammed aus dem Judenthume aufgenommen?* Bonn, 1833, p. 172. Muhammad has moulded this part of Sûra 2 from elements taken directly or indirectly from Numb. xix. 2 seq., and Deut. xxi. 2 seq.
 
 The Sufies try to show by this sentence that the body must be mortified before the heart can become alive by mystic knowledge.
 
@@ -5342,9 +5342,9 @@ The reading of the MS. سَمِسَ is certainly wrong. The author means *saumya
 
 P. 90. *In the book Gītā.*—The first quotation on the prevalence of one of the three *gunas*, *sattva*, *rajas*, *tamas*, is to be compared with Bhagavad-Gītā, xvii. 3, 4, seq., and xiv. 6–8 seq.
 
-The second extract, “Belief and virtue,” &amp;c. I am inclined to combine with Bhagavad-Gītā, xvi. 3, 4, seq.
+The second extract, “Belief and virtue,” &c. I am inclined to combine with Bhagavad-Gītā, xvi. 3, 4, seq.
 
-P. 91. *People say that Zoroaster,* &amp;c.—The author was aware of the identity of the Persian *dēv* (demon) with the Indian *deva* (god). It is in this way that he tries to account for the discrepancy of the meaning.
+P. 91. *People say that Zoroaster,* &c.—The author was aware of the identity of the Persian *dēv* (demon) with the Indian *deva* (god). It is in this way that he tries to account for the discrepancy of the meaning.
 
 P. 92. *Sāṃkhya*, v. p. 89; *Vāsudeva*, v. p. 90, or *Bhagavad-Gītā*, xvii. 4.
 
@@ -5365,13 +5365,13 @@ The second quotation, v. on p. 271:—
 
 ἀξιοὶ βάλλειν ἦν ὑνδωνύμων ἑβῆκε ῥίζαν, ἐπειδὴ στάχυς ὀνομάζεται νάρδου·βούλεται δ’ αὐτὴν εἶναι Κρητικήν, ἐνθα φησὶν, ἣν ἀνέθρεψε χῶρος ὁ τὸν Πίσση Ζῆνα λοχεύσαμενος, ἐπειδὴ τὸν Δία φασὶν οἱ μυθολόγοι κατὰ τὸ Δικταῖον δρὸς ἐν Κρήτη τραφῆναι, κρυπτόμενον ὑπὸ τῆς μητρὸς Ἀνθ. ὅπως μὴ καὶ αὐτὸς ὑπὸ τοῦ πατρὸς τοῦ Κρόνου καταπόθῃ.
 
-— P. 96. Europe, the daughter of Phœnix, &amp;c.—In the source whence the author drew his information about Greek legends, Greek, Hebrew, and Persian traditions seem to have been mixed together. It was synchronistic like the Chronicon of Eusebius, with which it is nearly related (note to p. 105), comparing the dates of Greek history with those of the Biblical and Persian history. Julius Africanus and Eusebius are the fathers of this kind of literature, but I do not know by whom the book which Alberuni used had been composed. Cf. Eusebi chronicorum canonum quæ supersunt, ed. A. Schœne, ii. p. 13 (Zeus), 26 (Cecrops), 32, 34 (Asterius); also the Syriac Epitome, p. 204, 206.
+— P. 96. Europe, the daughter of Phœnix, &c.—In the source whence the author drew his information about Greek legends, Greek, Hebrew, and Persian traditions seem to have been mixed together. It was synchronistic like the Chronicon of Eusebius, with which it is nearly related (note to p. 105), comparing the dates of Greek history with those of the Biblical and Persian history. Julius Africanus and Eusebius are the fathers of this kind of literature, but I do not know by whom the book which Alberuni used had been composed. Cf. Eusebi chronicorum canonum quæ supersunt, ed. A. Schœne, ii. p. 13 (Zeus), 26 (Cecrops), 32, 34 (Asterius); also the Syriac Epitome, p. 204, 206.
 
 P. 96. The story of Alexander is derived from the romance of Pseudo-Kallisthenes (ed. Didot), which Eastern scholars have mistaken for a historic record.
 
 “Man cannot oppose the gods” (p. 97, 1) = πρὸς πάντας γὰρ δυνάμεθα οἱ βασιλεῖς, πρὸς δὲ τοὺς θεὸνς οὐ δυνάμεθα (ed. Didot, i. 9).
 
-“When then he died,” &amp;c., “from a wound in the neck,” &amp;c. (p. 97, 4) = πεσὼν δὲ Νεκτανεβὼς λαμβάνει φοβερὸν τραῦμα κατὰ τοῦ ἰσχίου αὐτοῦ (i. 14).
+“When then he died,” &c., “from a wound in the neck,” &c. (p. 97, 4) = πεσὼν δὲ Νεκτανεβὼς λαμβάνει φοβερὸν τραῦμα κατὰ τοῦ ἰσχίου αὐτοῦ (i. 14).
 
 ---
 
@@ -5422,7 +5422,7 @@ P. 100. *When Ardashīr Ibn Bābak.—Cf.* with these ranks of the Persian natio
 
 P. 101. *The Vaiśya who were created from.*—In the Arabic text, ™, 4, there is a lacuna, where originally stood the words “from the thigh (ūru) of Brahman. The Sûdra who were created from.” Cf. Manu, *Dharmaśāstra*, i. 87, *mukha-bāhu-ūru-paj-jānaṁ*.
 
-P. 101. *Hādī, Doma, &amp;c.*—Of these classes of outcast people, the Badhatau are not known to me. The Candāla are well known, called *Sandālia* by Ibn Khurdādhbih (Elliot, “History of India,” i. 16). The Hādīs and Dōm are mentioned by Colebrooke, “Essays,” ii., “Enumeration of Indian Classes,” p. 169, note 3. On the latter (cf. Rom, the name of the gipsies), v. “Memoirs on the History, Folk-lore, and Distribution of the Races,” &amp;c., by Elliot, edited by Beames, London, 1869, i. p. 84. Are the Badhatau identical with the Bediyās, mentioned in the note of Colebrooke just quoted?
+P. 101. *Hādī, Doma, &c.*—Of these classes of outcast people, the Badhatau are not known to me. The Candāla are well known, called *Sandālia* by Ibn Khurdādhbih (Elliot, “History of India,” i. 16). The Hādīs and Dōm are mentioned by Colebrooke, “Essays,” ii., “Enumeration of Indian Classes,” p. 169, note 3. On the latter (cf. Rom, the name of the gipsies), v. “Memoirs on the History, Folk-lore, and Distribution of the Races,” &c., by Elliot, edited by Beames, London, 1869, i. p. 84. Are the Badhatau identical with the Bediyās, mentioned in the note of Colebrooke just quoted?
 
 P. 103. *Vāsudeva answered.*—The first quotation from *Gītā* is identical with *Bhagavad-Gītā*, xviii. 41–45; the second is similar to ii. 31–38.
 
@@ -5436,7 +5436,7 @@ P. 105. *Minos.*—I cannot acquit the book on ancient history which Alberuni us
 
 294 ALBERUNI'S INDIA.
 
-At the time of Darius, &amp;c.—Except the synchronism of Persian history, the whole passage relating to Numa Pompilius may be derived from Eusebius, Chronicon, ii. 82:—
+At the time of Darius, &c.—Except the synchronism of Persian history, the whole passage relating to Numa Pompilius may be derived from Eusebius, Chronicon, ii. 82:—
 
 Νουμᾶς μετὰ Ῥωμύλον βασιλεύσας Ῥώμης πρῶτος νόμους Ῥωμαίους εἰσήγαγεν· [ὁ αὐτὸς τὸ Καπετώλιον ἐκ θεμελίων ὡκοδόμησεν·] ὁ αὐτὸς τῷ ἐνιαυτῷ δύο μήνας προσέθηκε, τόν τε Ἰανουάριον καὶ τὸν Φεβρουάριον, δεκα-μηναίου τοῦ ἐνιαυτοῦ πρὸ τούτου χρηματίζοντος· ὁ αὐτὸς καὶ κογγιάριον ἔδωκεν, ἀσσάρια ξύλινα καὶ σκύτινα καὶ ὑστράκινα.
 
@@ -5538,7 +5538,7 @@ That which I have underlined forms the text as given by Alberuni.
 
 P. 127.—Vyāsa had four śishya.—Cf. Vishnu-Purāṇa, book iii. chap. iv.
 
-P. 128. A peculiar kind of recitation.—This is a description of the four pāṭhas, padapāṭha, kramapāṭha, &amp;c. Cf. Colebrooke, “Essays,” i. 18.
+P. 128. A peculiar kind of recitation.—This is a description of the four pāṭhas, padapāṭha, kramapāṭha, &c. Cf. Colebrooke, “Essays,” i. 18.
 
 P. 128. Kāṇḍin.—The word کانیى evidently refers to the divisions of the Yajurveda called kāṇḍikā. “The text of the Yajurveda is composed of Kāṇrī, and its name (the name of Yajurveda? what name of it?) is derived from it (from kāṇrī?), i.e. the collection (or totality) of kāṇrī.” It does not appear which one of the names of Yajurveda is here meant by the author as having been derived from
 
@@ -5548,7 +5548,7 @@ ANNOTATIONS. 299
 
 kânrî. Is there a name of Yajurveda like kāṇḍika or kāṇḍin, meaning consisting of kaṇḍikās?
 
-In kānrî = kaṇḍikā the cerebral ḍ is rendered by an Arabic r, as in كرب kudava, ساري vyāḍi, كور garuda, درور dravida, دارى nāḍī, ساري vinādī, درور vaidūrya, &amp;c. The termination in long t seems to be characteristic of the vernacular form of Indian speech, and is probably a survival of the more ancient termination ika, ikā. Cf. R. Hörnle, “Comparative Grammar of the Gaudian Languages,” § 195, 203, 205.
+In kānrî = kaṇḍikā the cerebral ḍ is rendered by an Arabic r, as in كرب kudava, ساري vyāḍi, كور garuda, درور dravida, دارى nāḍī, ساري vinādī, درور vaidūrya, &c. The termination in long t seems to be characteristic of the vernacular form of Indian speech, and is probably a survival of the more ancient termination ika, ikā. Cf. R. Hörnle, “Comparative Grammar of the Gaudian Languages,” § 195, 203, 205.
 
 P. 128. Yājnavalkya.—Cf. Vishṇu-Purāṇa, book iii. chap. v.
 
@@ -5576,7 +5576,7 @@ no relation to the Nyâya philosophy or logical system of Gautama (cf. Colebrook
 
 **Mîmâmsâ.**—Cf. Colebrooke, “Essays,” i. 319. In opposition to Kapila, Jaimini teaches that the Veda is primeval and superhuman. This theory and the discussions through which it has passed are also found in the history of Islam applied to the Koran. According to Islam, the Koran too is primeval and superhuman.
 
-**Laukâyata:** read Lôkayata.—It is the materialistic doctrine of the Cârvâka sect that perception alone is a means of proof. Cf. G. A. Jacob, “Manual of Hindu Pantheism,” Vedântasâra, p. 74; Colebrooke, “Essays,” i. 426 seg., 456 seg.; J. Muir, verses from the Sarva-darśana-sangraha, &amp;c., illustrating the tenets of the Chârvâkas or Indian materialists, “Journal of the Royal Asiatic Society,” 1861, p. 299, and “Journal of the German Oriental Society,” xiv. 519.
+**Laukâyata:** read Lôkayata.—It is the materialistic doctrine of the Cârvâka sect that perception alone is a means of proof. Cf. G. A. Jacob, “Manual of Hindu Pantheism,” Vedântasâra, p. 74; Colebrooke, “Essays,” i. 426 seg., 456 seg.; J. Muir, verses from the Sarva-darśana-sangraha, &c., illustrating the tenets of the Chârvâkas or Indian materialists, “Journal of the Royal Asiatic Society,” 1861, p. 299, and “Journal of the German Oriental Society,” xiv. 519.
 
 Brihaspati is the founder of this school; his *sûtra* is quoted by Bhâskara-âcârya. The *Bârhaspatyasûtra*m is mentioned by A. Weber, *Vorlesungen*, p. 263.
 
@@ -5604,7 +5604,7 @@ P. 136. *Sātaḍhāna*.—Other forms of the name are *Sālavāhana*, *Sālivā
 
 P. 136.—Instead of *māudakam* read *modakam* = *māudakam*.
 
-P. 136.—*Abulʿaswad*, &amp;c., is, according to the literary tradition, the originator of their grammatical science. Cf. G. Flügel, *Grammatische Schulen der Araber*, p. 19 seq.
+P. 136.—*Abulʿaswad*, &c., is, according to the literary tradition, the originator of their grammatical science. Cf. G. Flügel, *Grammatische Schulen der Araber*, p. 19 seq.
 
 P. 136. *Chandas*.—In translating the chapter on metrics, I have derived much help from Colebrooke, “Essays,” ii. p. 57 (on Sanskrit and Prākrit poetry), and from Weber’s edition of the Sūtras of Piṅgala (*Indische Studien*, vol. viii.). Alberuni, however, seems to have used other sources and to have followed another system, which has greatly increased the task of the translator.
 
@@ -5625,21 +5625,21 @@ P. 140. *Madhya.*—I do not know this term in Sanskrit, and the signs *in* admi
 
 P. 141.—*Haribhatta?*—This name is not known to me as that of an author of a lexicographical work. The MS. clearly writes *hariuddu*, which may represent various other forms of Sanskrit names.
 
-P. 141.—The single letters *m, y, r, &amp;c.*, denoting the single feet, are mentioned by Colebrooke, “Essays,” ii. 63.
+P. 141.—The single letters *m, y, r, &c.*, denoting the single feet, are mentioned by Colebrooke, “Essays,” ii. 63.
 
-P. 142. Place the numeral 2, &amp;c.—The rule, as explained in ll. 4, &amp;c., differs from that one which is followed in the example (ll. 11–14), in so far as in the former place the subtraction of 1 (“and from the product (4) he subtracts 1”) has been omitted. But even if we correct the text of the rule according to the exemplification, it cannot be correct, and we agree with Alberuni that something in the manuscript must have been wrong (also in the passage below, ll. 30–34). For it can be applied not to all eight feet, but only to two, viz., to
+P. 142. Place the numeral 2, &c.—The rule, as explained in ll. 4, &c., differs from that one which is followed in the example (ll. 11–14), in so far as in the former place the subtraction of 1 (“and from the product (4) he subtracts 1”) has been omitted. But even if we correct the text of the rule according to the exemplification, it cannot be correct, and we agree with Alberuni that something in the manuscript must have been wrong (also in the passage below, ll. 30–34). For it can be applied not to all eight feet, but only to two, viz., to
 
 $$
 \begin{aligned}
-&amp; \left| \left| &lt; (2 \times 2 = 4 - 1 = 3 \times 2 = 6 - 1 = 5) \right. \right. \\
-&amp; \text{and to} \\
-&amp; \left| &lt; \right| (2 \times 2 = 4 - 1 = 3 \times 2 = 6),
+& \left| \left| < (2 \times 2 = 4 - 1 = 3 \times 2 = 6 - 1 = 5) \right. \right. \\
+& \text{and to} \\
+& \left| < \right| (2 \times 2 = 4 - 1 = 3 \times 2 = 6),
 \end{aligned}
 $$
 
 i.e. these two feet occupy respectively the fifth and sixth places in the arrangement on p. 141 (below).
 
-P. 143. The Greeks, too, &amp;c.—The comparison with Greek metrics is unintelligible, as something must have been dropped in the Arabic text.
+P. 143. The Greeks, too, &c.—The comparison with Greek metrics is unintelligible, as something must have been dropped in the Arabic text.
 
 P. 143. Consonant or syllable.—I suppose the author means syllable. The Arabic word *a* has the same inconvenience as Sanskrit *akshara* of meaning both syllable and sound (mostly consonant).
 
@@ -5689,7 +5689,7 @@ The latter work (here ii. 7) is also called Karaṇakhaṇḍakhādyaka (i. 156)
 
 A third composition of Brahmagupta's called Uttarakhaṇḍakhādyaka, is mentioned i. 156, and quoted ii. 87, 91.
 
-Cf. on Brahmagupta Colebrooke, "Essays," ii. 409 seq.; Dr. Bhāu Dājī, "Brief Notes on the Age and Authenticity of the Works of Āryabhaṭa, Varāhamihira, Brahmagupta, &amp;c.," in the "Journal of the Royal Asiatic Society," 1865, vol. i. 392 seq.
+Cf. on Brahmagupta Colebrooke, "Essays," ii. 409 seq.; Dr. Bhāu Dājī, "Brief Notes on the Age and Authenticity of the Works of Āryabhaṭa, Varāhamihira, Brahmagupta, &c.," in the "Journal of the Royal Asiatic Society," 1865, vol. i. 392 seq.
 
 Notes from Varāhamihira's Pañcasiddhāntikā have been edited by G. Thibaut in the "Journal of the Asiatic Society of Bengal," 1884, vol. liii. p. 259.
 
@@ -5709,9 +5709,9 @@ The relation between Pulisa and Paulisa is this:—
 
 *Paulisa* is the sage who communicates his wisdom in this *Siddhānta*. He was a native of Saintra, *i.e.* Alexandria.
 
-*Pulisa* is the redactor or editor of the book. The one as well as the other is called *Greek* (not *Byzantine* Greek). “Pulisa says in his *Siddhānta* that Paulisa the Greek had mentioned somewhere,” &amp;c., i. 266.
+*Pulisa* is the redactor or editor of the book. The one as well as the other is called *Greek* (not *Byzantine* Greek). “Pulisa says in his *Siddhānta* that Paulisa the Greek had mentioned somewhere,” &c., i. 266.
 
-A commentator of this *Siddhānta* is mentioned i. 339 med., where I now prefer to translate: “The commentator of the *Siddhānta* of Pulisa,” &amp;c.
+A commentator of this *Siddhānta* is mentioned i. 339 med., where I now prefer to translate: “The commentator of the *Siddhānta* of Pulisa,” &c.
 
 *Pulisa* quotes Parâśara (ii. 208), and is himself quoted by Āryabhaṭa jun. (i. 316).
 
@@ -5719,7 +5719,7 @@ A commentator of this *Siddhānta* is mentioned i. 339 med., where I now prefer 
 
 *Cf.* on the *Pulisasiddhānta* H. Kern, *The Bṛhat Saṅhitā*, preface, p. 48.
 
-P. 156.—Āryabhaṭa senior is clearly distinguished from Āryabhaṭa junior, who is mostly called “that one from Kusumapura,” *i.e.* Pāṭaliputra (Patna). Alberuni knows him only through the quotations in the works of Brahmagupta. He mentions two of his works, *Daśagitikā* and *Āryāshṭaśata*, which have been edited by Kern, *Ārya-bhaṭīyam*, 1874. Cf. Dr. Bhâu Dâjî, “Brief Notes on the Age and Authenticity of the Works of Āryabhaṭa,” &amp;c., p. 392.
+P. 156.—Āryabhaṭa senior is clearly distinguished from Āryabhaṭa junior, who is mostly called “that one from Kusumapura,” *i.e.* Pāṭaliputra (Patna). Alberuni knows him only through the quotations in the works of Brahmagupta. He mentions two of his works, *Daśagitikā* and *Āryāshṭaśata*, which have been edited by Kern, *Ārya-bhaṭīyam*, 1874. Cf. Dr. Bhâu Dâjî, “Brief Notes on the Age and Authenticity of the Works of Āryabhaṭa,” &c., p. 392.
 
 P. 156. *Balabhadra*.—Of his works are mentioned:—
 
@@ -5743,7 +5743,7 @@ P. 156. *Kūra-babayā*.—As *kūra* means rice, باج, *babayā*, must mean *
 
 P. 156. *Khaṇḍa-khādyaka-tappā*.—The MS. has *tappā* or *tippā* (*tuppā*), of which I do not know the Sanskrit form. تیا changed to تیا would be = *tippant* or commentary.
 
-*Vijayanandin*.—Alberuni quotes from him a method for the computation of the longitude of a place (i. 313), a note on the dominants of year, month, and *horā* (i. 343), on the circumpolar stars (ii. 90), an *ahargana* rule (ii. 49, 50). An astronomer of this name is mentioned by Dr. Bhāu Dājī as anterior to Śrīshena, the author of *Romakasidhānta*: v. “The Age and Authenticity of the Works of Āryabhāṭa,” &amp;c. (“Journal of the Royal Asiatic Society,” 1864), p. 408.
+*Vijayanandin*.—Alberuni quotes from him a method for the computation of the longitude of a place (i. 313), a note on the dominants of year, month, and *horā* (i. 343), on the circumpolar stars (ii. 90), an *ahargana* rule (ii. 49, 50). An astronomer of this name is mentioned by Dr. Bhāu Dājī as anterior to Śrīshena, the author of *Romakasidhānta*: v. “The Age and Authenticity of the Works of Āryabhāṭa,” &c. (“Journal of the Royal Asiatic Society,” 1864), p. 408.
 
 P. 156. *Bhadatta* (? *Mihdatta*).—The MS. reads مهدّتی. Bhadatta is mentioned by Kern in the preface to his *Bṛhat Saṅhitā*, p. 29. Alberuni quotes from the work of Vitteśvara a note on the motion of the Great Bear (i. 392), on the mean places of the stars (ii. 60), on the diameters of sun and moon (ii. 79), the latitude of Kashmīr (i. 317), the era used in the book (ii. 7). It must have been translated into Arabic before Alberuni wrote the *Indica*, because he complains that that part of the book which he had was badly translated (ii. 55).
 
@@ -5770,7 +5770,7 @@ P. 157. *Bhadīla* (?).—The MS. has *bahattal*, and I suppose that the correct
 
 On *Parāśara* and *Garga* cf. Kern, *Bṛhat Saṅhitā*, preface, pp. 31, 33; on *Satya*, *Jīvaśarman*, p. 51; on *Maṇittha*, p. 52. Mau is probably identical with Maya: v. Weber, *Vorlesungen*, p. 270.
 
-P. 158. Of *Varāhamihira*, &amp;c.—This author has composed not only the *Shatpāñcāśikā* and *Horāpāñcāhotriya* (?), but also the *Yogayātrā*, *Tikanīyātrā* (?), and *Vivāhapatala*: v. Kern, *Bṛhat Saṅhitā*, preface, pp. 25, 26; his translation of the *Yogayātrā* in Weber’s *Indische Studien*, x. 161.
+P. 158. Of *Varāhamihira*, &c.—This author has composed not only the *Shatpāñcāśikā* and *Horāpāñcāhotriya* (?), but also the *Yogayātrā*, *Tikanīyātrā* (?), and *Vivāhapatala*: v. Kern, *Bṛhat Saṅhitā*, preface, pp. 25, 26; his translation of the *Yogayātrā* in Weber’s *Indische Studien*, x. 161.
 
 The name of the author of the book on architecture is missing in the Arabic text. If it was not likewise a work of *Varāhamihira*’s, it may have been composed by Nagnajit or Viśvakarman: v. Kern, *l. c.* p. 51.
 
@@ -5782,7 +5782,7 @@ The word is the title of two different books, one by Utpala from Kashmir (v. not
 
 308 ALBERUNI'S INDIA.
 
-days, &amp;c. It probably contained the names of the twenty-four *horā* (i. 344); it mentioned the names of the third parts of the day (ii. 120), the names of the *vishṭi* (ii. 201), the unlucky days of the year (ii. 192), the name of Vikramāditya (ii. 6, *vide* note to the place).
+days, &c. It probably contained the names of the twenty-four *horā* (i. 344); it mentioned the names of the third parts of the day (ii. 120), the names of the *vishṭi* (ii. 201), the unlucky days of the year (ii. 192), the name of Vikramāditya (ii. 6, *vide* note to the place).
 
 The reading of the word بَنگال as *Bangāla* is probably not correct. Is it = *punyakāla*?
 
@@ -5856,7 +5856,7 @@ Here he gives the measures of the circumference and the diameter of the zodiacal
 
 312 ALBERUNI'S INDIA.
 
-the earth in *yojanas* (i. 312), a statement on the latitude of Ujain, and a quotation from the book *Arkand* on the same subject (i. 316). He mentions the four *mānas* or measures of time, *sauramāna*, *cāndramāna*, &amp;c. (i. 353). His work contained tables of the revolutions of the planets, borrowed from a Hindu who had come in an embassy from Sindh to the court of the Khalif Almansûr, A.H. 154 (=A.D. 771), but Alberuni finds in these tables considerable deviations from those of the Hindus (ii. 15). He is accused of having misunderstood the word Āryabhaṭa, so as to take it not for the name of an author, but for a technical term meaning $\frac{1}{1600}$ of the measures employed in the great Siddhânta (that of Brahmagupta), on ii. 18, 19. He called the leap-month (*padamāsa*?) instead of *adhimāsa* (ii. 23). He gives an incorrect method for the computation of the solar days in the *ahargaṇa* and for the reduction of years into days (by the side of a correct one) on ii. 26, 34, 38. He gives further details of the *ahargaṇa* computation (ii. 44, 45), and a table indicating the distances of the planets from the earth, borrowed from a Hindu, A.H. 161 (=A.D. 777, 778), on ii. 67, 68.
+the earth in *yojanas* (i. 312), a statement on the latitude of Ujain, and a quotation from the book *Arkand* on the same subject (i. 316). He mentions the four *mānas* or measures of time, *sauramāna*, *cāndramāna*, &c. (i. 353). His work contained tables of the revolutions of the planets, borrowed from a Hindu who had come in an embassy from Sindh to the court of the Khalif Almansûr, A.H. 154 (=A.D. 771), but Alberuni finds in these tables considerable deviations from those of the Hindus (ii. 15). He is accused of having misunderstood the word Āryabhaṭa, so as to take it not for the name of an author, but for a technical term meaning $\frac{1}{1600}$ of the measures employed in the great Siddhânta (that of Brahmagupta), on ii. 18, 19. He called the leap-month (*padamāsa*?) instead of *adhimāsa* (ii. 23). He gives an incorrect method for the computation of the solar days in the *ahargaṇa* and for the reduction of years into days (by the side of a correct one) on ii. 26, 34, 38. He gives further details of the *ahargaṇa* computation (ii. 44, 45), and a table indicating the distances of the planets from the earth, borrowed from a Hindu, A.H. 161 (=A.D. 777, 778), on ii. 67, 68.
 
 Accordingly the work of Ya’kūb seems to have been a complete system of astronomy, chronology, and mathematical geography. It is called *Compositio Sphærarum* and also *I.e. Canon*.
 
@@ -5892,7 +5892,7 @@ tradition hides of animals were first prepared for vellum at Pergamum long after
 
 P. 171. On the fabrication of papyrus, cf. Wilkinson, “Manners and Customs of the Ancient Egyptians,” ii. p. 180.
 
-P. 172. As for the Greek alphabet, &amp;c.—The source of this tradition on the origin of the Greek alphabet seems to be certain scholia to the Ars Grammatica of Dionysius Thrax: v. Immanuel Bekker, Anecdota Graeca, Berlin, 1816, vol. ii. p. 780 seq. The synchronistic notes point more to Joannes Malalas; perhaps these things were originally mentioned in the lacuna O 129.
+P. 172. As for the Greek alphabet, &c.—The source of this tradition on the origin of the Greek alphabet seems to be certain scholia to the Ars Grammatica of Dionysius Thrax: v. Immanuel Bekker, Anecdota Graeca, Berlin, 1816, vol. ii. p. 780 seq. The synchronistic notes point more to Joannes Malalas; perhaps these things were originally mentioned in the lacuna O 129.
 
 Asidhas seems to be a mistake for Palamedes, Agenon for Agenor.
 
@@ -5916,7 +5916,7 @@ ployé par les Indiens, les Tibétains et les Javanais, (Extrait du Journal Asia
 
 P. 181. Pushandhila.—The eunuch is called shandha. This seems to be a diminutive form compounded with the word pums (G. Bühler).
 
-P. 182. They magnify the nouns of their language, &amp;c.—This somewhat enigmatic sentence seems to have the following meaning:—An Arabic word, e.g. karsh (a sea-animal), is magnified, i.e. receives a larger form, by being changed into the diminutive form, i.e. kuraish (a small sea-animal, as a proper noun, the name of the tribe to which Muhammad belonged). The diminutive form serves the purpose of magnifying the form of the word: cf. Kashshâf to Koran, 106, 2, والتسَغير للتعليم (not للتقييم). If the Hindus magnify their nouns by giving them the feminine gender, this must be referred to some of the pleonastic suffixes, e.g. â, î, which are added to Indian nouns without altering their meaning. In appearance they are the terminations of the feminine gender, in reality euphonic changes of the more ancient suffixes aka and ika, e.g. paṭâ, board, by the side of paṭ. Cf. Hörnle, “Comparative Grammar of the Gaudian Languages,” § 194 seq.
+P. 182. They magnify the nouns of their language, &c.—This somewhat enigmatic sentence seems to have the following meaning:—An Arabic word, e.g. karsh (a sea-animal), is magnified, i.e. receives a larger form, by being changed into the diminutive form, i.e. kuraish (a small sea-animal, as a proper noun, the name of the tribe to which Muhammad belonged). The diminutive form serves the purpose of magnifying the form of the word: cf. Kashshâf to Koran, 106, 2, والتسَغير للتعليم (not للتقييم). If the Hindus magnify their nouns by giving them the feminine gender, this must be referred to some of the pleonastic suffixes, e.g. â, î, which are added to Indian nouns without altering their meaning. In appearance they are the terminations of the feminine gender, in reality euphonic changes of the more ancient suffixes aka and ika, e.g. paṭâ, board, by the side of paṭ. Cf. Hörnle, “Comparative Grammar of the Gaudian Languages,” § 194 seq.
 
 P. 183.—An explanation of the Indian chess has been published by A. Van der Linde, *Geschichte und Litteratur des Shachspiels*.
 
@@ -6042,7 +6042,7 @@ P. 208. The coast of India begins with Tīz.—Cf. with this route along the coa
 Munha = Skr. mukha, Prakrit muham, Hindī muñh: v. Hörnle, “Comparative Grammar,” § 116.
 Daibal.—On the identification with Karāci v. Elliot, “History of India,” i. 375. Daibal-Sindh is the Dīuleindī of Duarte Borbosa, translated by Stanley, p. 49 (Hakluyt Society).
 
-Pp. 208, 209.—Barot = Baroda, Kanbāyat = Kambay, Bihroj = Broach. Sūbāra is identical with Skr. Śūrpāraka, Ptolemy’s Σούπαρα, and the Sufāla of the Arabs. Tāna = Skr. sthāna, and Sandān is perhaps = samdhāna. To Sūbāra, cf. Bhagvánlál Indraji, “Antiquarian Remains of Sopara,” &amp;c., “Journal” of the Bombay branch, 1881, 1882, vol. xv. p. 273.
+Pp. 208, 209.—Barot = Baroda, Kanbāyat = Kambay, Bihroj = Broach. Sūbāra is identical with Skr. Śūrpāraka, Ptolemy’s Σούπαρα, and the Sufāla of the Arabs. Tāna = Skr. sthāna, and Sandān is perhaps = samdhāna. To Sūbāra, cf. Bhagvánlál Indraji, “Antiquarian Remains of Sopara,” &c., “Journal” of the Bombay branch, 1881, 1882, vol. xv. p. 273.
 
 P. 209.—Panjayāvar seems to be a mistake for some older form of the name Tanjore.
 Rāmsher = Rāmeśvara?—On Rāma and the monkeys of the Kishkindha mountains cf. the fourth book of the Rāmāyaṇa.
@@ -6094,11 +6094,11 @@ P. 218.—Compare the table of the nakshatras with E. Burgess, Sūrya Siddhānta
 
 P. 219.—Varāhamihira.—Vide note to p. 54.
 
-P. 220.—The Greek names kriya κρίος, tāmbiru ταῦρος, jituma δίδυμοι, pārtīna παρθένος, &amp;c., are declared to be not generally known. Cf. A. Weber, Indische Studien, ii. 259. Instead of jītu read cetthu.
+P. 220.—The Greek names kriya κρίος, tāmbiru ταῦρος, jituma δίδυμοι, pārtīna παρθένος, &c., are declared to be not generally known. Cf. A. Weber, Indische Studien, ii. 259. Instead of jītu read cetthu.
 
 P. 222. Galenus.—I have not been able to verify this quotation about Asclepius in the Greek works of Galenus.
 
-P. 223. From the belief of the nations who lived in ancient times in and round Babel, &amp;c.—That information
+P. 223. From the belief of the nations who lived in ancient times in and round Babel, &c.—That information
 
 ---
 
@@ -6134,13 +6134,13 @@ Pp. 228, 229.—The author repeatedly complains of the great verosity of the San
 
 a great number of synonyms, in order that one word may fit into the metre if others will not. Cf. i. 213, 217, 299.
 
-P. 229. For those men who, &amp;c.—This is the only passage in which Alberuni clearly speaks of his Pandits. Apparently he tried hard to learn Sanskrit, but could not succeed on account of the difficulties of which he himself complains, and he studied Indian literature in the same manner as the first English scholars in Bengal, by the help of native Pandits.
+P. 229. For those men who, &c.—This is the only passage in which Alberuni clearly speaks of his Pandits. Apparently he tried hard to learn Sanskrit, but could not succeed on account of the difficulties of which he himself complains, and he studied Indian literature in the same manner as the first English scholars in Bengal, by the help of native Pandits.
 
 P. 230. Table.—Cf. Vishṇu-Purāṇa, ii. 209, where the fifth and seventh earths are called mahātala and pātāla.
 
 Also the Vāyu-Purāṇa (ed. Rajendralāla Mitra, Calcutta, 1880) offers somewhat different names, viz. atalam, sutalam, vitalam, gabhastalam, mahāṭalam, śrīṭalam, pātālam, and krishṇa-bhaumam, pāṇḍu, raktam, pīta, śarkara, śilāmayam, sauvarṇa (vol. i. p. 391, v. II–14).
 
-P. 231. The spiritual beings, &amp;c.—This list of names is literally taken from Vāyu-Purāṇa, vol. i. p. 391, v. 15–394, v. 43 (Adhyāya, 50).
+P. 231. The spiritual beings, &c.—This list of names is literally taken from Vāyu-Purāṇa, vol. i. p. 391, v. 15–394, v. 43 (Adhyāya, 50).
 
 P. 231. Johannes Grammaticus.—I have not been able to find this quotation in the Greek text, nor the verse of Homer. Vide note to p. 36.
 
@@ -6178,13 +6178,13 @@ P. 240.—*Aljaihānt* is one of the fathers of Muslim literature on geography a
 
 light. Cf. Aloys Sprenger, *Die Post- und Reiserouten des Orients*, Vorrede, p. xvii.
 
-P. 241. *When Brahman wanted, &amp;c.*—On the division of Brahman, on Dhruva, &amp;c., cf. *Vishnu-Purāṇa*, i. pp. 104, 161 seq.
+P. 241. *When Brahman wanted, &c.*—On the division of Brahman, on Dhruva, &c., cf. *Vishnu-Purāṇa*, i. pp. 104, 161 seq.
 
 P. 242. 1020 to 1030 stars.—This is the number of stars enumerated in the star-catalogue of ‘Abdurraḥmān Ṣūfī (cf. Schjellerup, *Description des Étoiles fixes par Alṣūfī*, St. Petersburg, 1874), which Alberuni has transferred into his *Canon Masudicus*.
 
-*Should those men breathe and receive, &amp;c.*—I am not quite certain whether I have found out the right meaning of these words or not.
+*Should those men breathe and receive, &c.*—I am not quite certain whether I have found out the right meaning of these words or not.
 
-P. 243. *The commentator Balabhadra, &amp;c.*—*Vide* note to p. 156.
+P. 243. *The commentator Balabhadra, &c.*—*Vide* note to p. 156.
 
 P. 245, l. 10.—The values here given correspond to the greatest declination of 24°. So AT = 1397' is the sine of 24°, BT = 298' the versed sine of 24°, and TH the difference between this latter and the radius 3438' (*Schram*).
 
@@ -6198,7 +6198,7 @@ P. 246. *Āryabhaṭa of Kusumapura* is repeatedly quoted by Alberuni. He mentio
 
 ANNOTATIONS. 327
 
-Alberuni warns the reader not to confound this Âryabhaṭa with the elder scholar of this name, to whose followers he belongs. In this place (i. 246) Alberuni does not seem to have used a work of Âryabhaṭa *junior* himself, but to have taken these words of his from a commentary of Balabhadra. We learn here that the book had been translated into Arabic, but do not learn which particular work of Balabhadra’s. Was it his commentary on the *Khaṇḍakhādyaka* of Brahmagupta? *Vide* note to p. 156. That Alberuni had made a new edition of the Arabic version of the *Khaṇḍakhādyaka* is known (*v.* edition of the Arabic original, pref. p. xx.); perhaps he had also procured himself an Arabic translation of Balabhadra’s commentary. Cf. on this younger Âryabhaṭa, Kern, *Bṛhat Sañhitā*, preface, pp. 59, 60, and Dr. Bhâu Dâjî, “Brief Notes on the Age and Authenticity of the Works of Âryabhaṭa, Varâhamihira,” &amp;c., p. 392. Alberuni always calls him Âryabhaṭa of Kusumapura (Patna), to distinguish him from his elder namesake.
+Alberuni warns the reader not to confound this Âryabhaṭa with the elder scholar of this name, to whose followers he belongs. In this place (i. 246) Alberuni does not seem to have used a work of Âryabhaṭa *junior* himself, but to have taken these words of his from a commentary of Balabhadra. We learn here that the book had been translated into Arabic, but do not learn which particular work of Balabhadra’s. Was it his commentary on the *Khaṇḍakhādyaka* of Brahmagupta? *Vide* note to p. 156. That Alberuni had made a new edition of the Arabic version of the *Khaṇḍakhādyaka* is known (*v.* edition of the Arabic original, pref. p. xx.); perhaps he had also procured himself an Arabic translation of Balabhadra’s commentary. Cf. on this younger Âryabhaṭa, Kern, *Bṛhat Sañhitā*, preface, pp. 59, 60, and Dr. Bhâu Dâjî, “Brief Notes on the Age and Authenticity of the Works of Âryabhaṭa, Varâhamihira,” &c., p. 392. Alberuni always calls him Âryabhaṭa of Kusumapura (Patna), to distinguish him from his elder namesake.
 
 P. 247. *Śuktibām*.—This seems to be some vernacular form for *Śuktimat*. *Viṣṇu-Purāṇa*, ii. 127. Rikshabâm = *Rikshavat* (?).
 
@@ -6303,7 +6303,7 @@ nadyāḥ śrotas tu gaṅgāyāḥ pratyapadyata saptadḥā nalinī hrādinī 
 
 V. 39.
 
-sītā cakshuś ca sindhuś ca pratīcīm diśam āśritāḥ saptamī tv anugā tāsām dakshīnena bhagīrathī, &amp;c.
+sītā cakshuś ca sindhuś ca pratīcīm diśam āśritāḥ saptamī tv anugā tāsām dakshīnena bhagīrathī, &c.
 
 V. 42.
 
@@ -6374,9 +6374,9 @@ P. 263. *Created.*—This word seems to prove that Alberuni already adhered to t
 
 P. 264. *Ibn Almukāfī* (‘Abdallāh) and *‘Abdalkarīm* are also mentioned in the author’s “Chronology of Ancient Nations,” pp. 80 and 108.
 
-P. 265. *For this the astronomers requite them, &amp;c.*—When writing these criticisms, the author probably thought of Brahmagupta. Cf. the chapter on eclipses, ii. 110 seq.
+P. 265. *For this the astronomers requite them, &c.*—When writing these criticisms, the author probably thought of Brahmagupta. Cf. the chapter on eclipses, ii. 110 seq.
 
-P. 267. *Yamakotī, Laṅkā, &amp;c.*—Cf. the same names in *Sūrya-Siddhānta*, xii. 38–40.
+P. 267. *Yamakotī, Laṅkā, &c.*—Cf. the same names in *Sūrya-Siddhānta*, xii. 38–40.
 
 P. 268. *Āryabhāṭa, Vasishṭha, Lāṭa.*—All the astronomers quoted in this context were not known to the author from their own works, but only through quotations in the works of Brahmagupta. Also the words of Varāhamihira
 
@@ -6386,7 +6386,7 @@ ANNOTATIONS. 333
 
 (here and p. 272) seem to be quotations of Brahmagupta (evidently p. 276), although they possibly might have been taken from Varâhamihira's *Pañcasiddhântiká*. Pulisa, of course, must be excepted, as his *Siddhânta* was in the hands of Alberuni, and in course of being translated by him.
 
-P. 271. *Amarâvatî, Vaivasvata, &amp;c.—Cf.* on these four cities *Vishnu-Purâna*, ii. 240.
+P. 271. *Amarâvatî, Vaivasvata, &c.—Cf.* on these four cities *Vishnu-Purâna*, ii. 240.
 
 P. 273. *Âpta-purâna-kâra*. — I do not see how the Arabic signs must be read. The translation of the term means *the true ones who follow the Purâna*.
 
@@ -6403,13 +6403,13 @@ the sine of the field of vision equal to $0^\circ 0' 1'' 3'''$, which correspond
 
 P. 277. *Prāṇa.*—Cf. on this measure of time here i. 334, 335.
 
-P. 278. *The inhabitants of Mount Meru, &amp;c.*, till as a westward motion, almost identical with *Sūrya-Siddhānta*, xii. 55.
+P. 278. *The inhabitants of Mount Meru, &c.*, till as a westward motion, almost identical with *Sūrya-Siddhānta*, xii. 55.
 
-P. 281. *There is a story of an ancient Greek, &amp;c.*—Probably taken from Porphyry’s book on the opinions of the most prominent philosophers about the nature of the sphere. *Vide* note to p. 43.
+P. 281. *There is a story of an ancient Greek, &c.*—Probably taken from Porphyry’s book on the opinions of the most prominent philosophers about the nature of the sphere. *Vide* note to p. 43.
 
-P. 289. *The Greeks determined, &amp;c.*—The author has given a description of the winds, according to the Arabian and Persian views, in his “Chronology of Ancient Nations,” pp. 340, 341.
+P. 289. *The Greeks determined, &c.*—The author has given a description of the winds, according to the Arabian and Persian views, in his “Chronology of Ancient Nations,” pp. 340, 341.
 
-P. 291. *Atri, Daksha, &amp;c.*—The legends here referred to are found in *Vishṇu-Purāṇa*, i. 153, ii. 21 seq.
+P. 291. *Atri, Daksha, &c.*—The legends here referred to are found in *Vishṇu-Purāṇa*, i. 153, ii. 21 seq.
 
 P. 294.—*The Rishi Bhuvana-kosa* (i.e. globe) is only mentioned in this place, and not known to me from other sources. His work, the title of which is not given, seems to have treated of geography.
 
@@ -6529,7 +6529,7 @@ P. 306. Rāvaṇa the demon.—The author refers to the fifth and sixth books of
 
 P. 308.—A straight line from Laṅkā to Meru is also mentioned on p. 316. The first degree of longitude, according to the Indian system, is also described in Sūrya-Siddhānta, i. 62. Instead of Kurukshetra the author seems to have pronounced Kurukketru. At all events, he did not write a sh. Therefore the compound ksh must have undergone the Prakritic change into kkh, as in pokkharo = pushkara (Vararuci, iii. 29).
 
-P. 309.—These wares are deposited, &amp;c.—This kind of commerce with savage nations is the same as that carried on by Carthage with tribes on the west coast of Africa; v. Herodotus, iv. 196; C. Müller, Geographi Graeci Minores, i. p. xxvii., and Meltzer, Geschichte der Karthager, p. 232 and 506.
+P. 309.—These wares are deposited, &c.—This kind of commerce with savage nations is the same as that carried on by Carthage with tribes on the west coast of Africa; v. Herodotus, iv. 196; C. Müller, Geographi Graeci Minores, i. p. xxvii., and Meltzer, Geschichte der Karthager, p. 232 and 506.
 
 P. 310.—Langabālūs is identified with the Nicobar
 
@@ -6611,7 +6611,7 @@ On the identification of Bamhanwâ or Almansûra in Sindh, v. Cunningham, l. l. 
 
 The statements of Alberuni regarding the Kabul valley and environs have been laid down in a sketch-map of Aloys Sprenger, Post- und Reiserouten des Orients, No. 12; the Punjâb and the approaches of Kashmir, ibid. No. 13.
 
-P. 319.—Muhammad Ibn, &amp;c., is the famous Razes of the Middle Ages, who died probably A.D. 932. The author has written a catalogue of his works which exists in Leyden; v. Chronologie Orientalischer Völker von Alberuni, Einleitung, p. xi.; Wüstenfeld, Geschichte der Arabischen Aerzte, No. 98.
+P. 319.—Muhammad Ibn, &c., is the famous Razes of the Middle Ages, who died probably A.D. 932. The author has written a catalogue of his works which exists in Leyden; v. Chronologie Orientalischer Völker von Alberuni, Einleitung, p. xi.; Wüstenfeld, Geschichte der Arabischen Aerzte, No. 98.
 
 P. 320.—Alexander of Aphrodisias is the famous commentator of Aristotle, who lived in Athens about 200 after Christ. Cf. Fihrist, p. 252, and Zeller, Geschichte der Griechischen Philosophie, 3, 419. The quotation is found in Aristotle, Phys. vii. 1.
 
@@ -6629,7 +6629,7 @@ In the Arabic text, p. ١٦٣, ١٧, read مالحة instead of مالية, and 
 
 P. 324. *That being who is above him, i.e., a being of the next higher order.*—The opposite of the term نحل نحل is نحل نحل (for the being of the next lower order) on p. ١٧٧, ٢٠ (translation i. ٣٤١).
 
-P. 325. *Vishnu-Purāṇa.*—The first words, *Maharlokā lies, &amp;c., there is one kalpa, are found in ii. chap. vii. p. ٢٢٦.* The sons of Brahman are mentioned in *Vishnu-Purāṇa*, ii. ٢٠٠, note. The name Sanandanāda (Sanandanātha?) is perhaps a mistake for Sanātana. Cf. *Sāṁkhya Kārikā* with the commentary of Gaudapāda by Colebrooke-Wilson, p. ١.
+P. 325. *Vishnu-Purāṇa.*—The first words, *Maharlokā lies, &c., there is one kalpa, are found in ii. chap. vii. p. ٢٢٦.* The sons of Brahman are mentioned in *Vishnu-Purāṇa*, ii. ٢٠٠, note. The name Sanandanāda (Sanandanātha?) is perhaps a mistake for Sanātana. Cf. *Sāṁkhya Kārikā* with the commentary of Gaudapāda by Colebrooke-Wilson, p. ١.
 
 P. 325. *Abū-Māshar.*—*Vide* note to p. ٣٥٤.
 
@@ -6688,7 +6688,7 @@ P. 343. Vijayanandin.—*Vide* note to p. 156. The title of his book would be in
 P. 344. *Names of the horás.*—I have not found these names in Sanskrit. Perhaps they are mentioned in some commentary to *Sūrya Siddhānta*, xii. 79.
 On *Srūdhava*, v. note to p. 158.
 
-P. 347. *Physical scholars know, &amp;c.*—There is a similar passage on the physical effects of moonlight in the author’s “Chronology of Ancient Nations,” p. 163. I am afraid I have not caught the sense of the sentence, “and that she affects (?) linen clothes,” &amp;c.
+P. 347. *Physical scholars know, &c.*—There is a similar passage on the physical effects of moonlight in the author’s “Chronology of Ancient Nations,” p. 163. I am afraid I have not caught the sense of the sentence, “and that she affects (?) linen clothes,” &c.
 
 P. 348. Atuh (?).—The MS. seems to read *átvahhu*.
 The word *مُجْهَد*, *Bṛrā*, is perhaps a mistake for *مُقَدَّ*, *barkhu*, which, according to the table, ii. 197 (cf. *Trumpp*, “Grammar of the Sindhi Language,” p. 158), is the name of the first day of a *paksha*.
@@ -6706,7 +6706,7 @@ P. 353.—The information on the four *mānas* (cf. *Sūrya-Siddhānta*, chap. x
 
 P. 353.—*Bhukti*, in Arabic *buht*, is the daily motion of a planet; cf. *Sūrya-Siddhānta*, i. 27, note, and here, ii. 195. The Arabic form does not seem to have passed through an intermediate stage of a Prakritic nature, for in Prakrit it would have been *bhuttī* (Vararuci, iii. 1).
 
-P. 355. The *sāvana-māna* is used, &amp;c.—Cf. the similar rules in *Sūrya-Siddhānta*, xiv. 3, 13, 15, 18, 19.
+P. 355. The *sāvana-māna* is used, &c.—Cf. the similar rules in *Sūrya-Siddhānta*, xiv. 3, 13, 15, 18, 19.
 
 P. 356. *Uttarāyaṇa*.—On the two *ayanas* cf. *Sūrya-Siddhānta*, xiv. 9.
 
@@ -6716,7 +6716,7 @@ P. 358. *Dominants of the halves of the months*.—I do not know a Sanskrit list
 
 P. 359.—*Dimas* (probably pronounced *dimasu*) = Sanskrit *divasa*, is the shibboleth of the Indian vernacular dialect spoken round Alberuni, and probably by himself. I do not know which dialect this was, nor whether there are any traces of it in our days. The change between *v* and *m* is also observed in the following examples: — *carmanmat* = *carmanvati* (Chambal), — *himamant* = *himavant*, — *jāgamalku* = *yājnavalkya*, — *macē* = *vatsya*, — *sugrīmu* = *sugrīva*. Some examples of the change of *v* to *m* are also given by Hörnle, “Comparative Grammar,” § 134.
 
-P. 359. The three sounds *h*, *kh*, and *sh*, &amp;c.—On the pro-
+P. 359. The three sounds *h*, *kh*, and *sh*, &c.—On the pro-
 
 ---
 
@@ -6756,7 +6756,7 @@ P. 371. *Utsarpini, avarsarpini*, are terms employed in the Jaina system. Cf. Co
 
 P. 372. *The book Smriti mentions*.—This is Manu, *Dharmaśāstra*, i. 80.
 
-P. 375. *A translation of his whole work, &amp;c*.—Cf. note to pp. 153, 154. Alberuni was translating the *Pulisa-Siddhānta*, which until that time had not yet been translated into Arabic by Muslim scholars, because they did not like its theological tendency.
+P. 375. *A translation of his whole work, &c*.—Cf. note to pp. 153, 154. Alberuni was translating the *Pulisa-Siddhānta*, which until that time had not yet been translated into Arabic by Muslim scholars, because they did not like its theological tendency.
 
 P. 376. *Brahmagupta*.—*Vide* note to pp. 153, 154.
 
@@ -6962,7 +6962,7 @@ kritamjayah saptadaśe rīṇajyoshṭādaśe smṛitah.
 
 Alberuni has read rīṇajyeshṭoshṭādaśe instead of rīṇajyeshṭādaśe, and has wrongly divided these words into rīṇajyeshṭo-ashṭādaśe instead of rīṇajyo ashṭādaśe. Further, he has been guided by the analogy of jyaishṭha (the name of the month), which in vernacular was pronounced jertu, in changing rīṇajyeshṭa into rīnajertu.
 
-P. 398. Vishṇu-Dharma.—In mentioning Vāsudeva, Saṃkarshaṇa, &amp;c., as the names of Vishṇu in the yugas, this source agrees with the teaching of the sect of the Bhāgavatas or Pāñcarātras.—Vide Colebrooke, “Essays,” i. 439, 440.
+P. 398. Vishṇu-Dharma.—In mentioning Vāsudeva, Saṃkarshaṇa, &c., as the names of Vishṇu in the yugas, this source agrees with the teaching of the sect of the Bhāgavatas or Pāñcarātras.—Vide Colebrooke, “Essays,” i. 439, 440.
 
 ---
 
@@ -6970,15 +6970,15 @@ ANNOTATIONS. 355
 
 P. 401.—The story of the birth of Vâsudeva, i.e. Krishna, is related in the *Vishnu-Purâna*, book v. chap. iii.
 
-P. 403. *The children of Kaurava*, &amp;c.—The following traditions are taken from the *Mahâbhârata*: the dice-playing from book ii., or *sabhâparvan*; the preparing for battle from book v., or *udyogaparvan*; the destruction of the five brothers by the curse of the Brahmin from book xvi., or *mausalaparvan*; their going to heaven from book xvii., or *mahâprasthânikaparvan*.
+P. 403. *The children of Kaurava*, &c.—The following traditions are taken from the *Mahâbhârata*: the dice-playing from book ii., or *sabhâparvan*; the preparing for battle from book v., or *udyogaparvan*; the destruction of the five brothers by the curse of the Brahmin from book xvi., or *mausalaparvan*; their going to heaven from book xvii., or *mahâprasthânikaparvan*.
 
-The introductory sentence of this relation, *وَكَانَ أُولَامُكُمُ كَرُورٌ عَلَى بَنِ العُمُومَةِ*, literally, “The children of Kaurava were over their cousins,” is odd, and perhaps not free from a lacuna. Pându had died, and his children grow up in Hastinapura, at the court of Kaurava, i.e. Dhritarâshtra, their uncle, the brother of Pându. One expects a sentence like “The children of Kaurava cherished enmity against their cousins,” but as the Arabic words run, one could scarcely translate them otherwise than I have done. The children of Kaurava had “the charge of their cousins,” &amp;c.
+The introductory sentence of this relation, *وَكَانَ أُولَامُكُمُ كَرُورٌ عَلَى بَنِ العُمُومَةِ*, literally, “The children of Kaurava were over their cousins,” is odd, and perhaps not free from a lacuna. Pându had died, and his children grow up in Hastinapura, at the court of Kaurava, i.e. Dhritarâshtra, their uncle, the brother of Pându. One expects a sentence like “The children of Kaurava cherished enmity against their cousins,” but as the Arabic words run, one could scarcely translate them otherwise than I have done. The children of Kaurava had “the charge of their cousins,” &c.
 
 P. 407. On the *akshauhiṇṭ* cf. H. H. Wilson, “Works,” 2d edit., iv. p. 290 (on the art of war as known to the Hindus).
 
 *Mankalus* seems to be a mistake for *Myrtilus*. Cf. *Eratosthenis Catasterismorum Reliquiae*, rec. C. Robert, p. 104. The source of Alberuni seems to have been a book like the chronicle of *Johannes Malalas*.
 
-The second tradition, taken from a commentary on Aratus’ *Phænomena* (vide note to p. 97), is found in the same book, *Eratosthenis*, &amp;c., p. 100, 98. For this information I am indebted to my colleague, Professor C. Robert.
+The second tradition, taken from a commentary on Aratus’ *Phænomena* (vide note to p. 97), is found in the same book, *Eratosthenis*, &c., p. 100, 98. For this information I am indebted to my colleague, Professor C. Robert.
 
 P. 408.—The number 284,323 of people who ride on chariots and elephants is a mistake for 284,310. I do not see what is the origin of this surplus of 13 men. However, the wrong number must be kept as it is, since the author reckons with it in the following computation.
 
@@ -7032,13 +7032,13 @@ ANNOTATIONS. 359
 
 of the kalpa 1,972,948,132 years, and of Brahman's life 26,215,732,948,132 years, as stated p. 3, ll. 6–9 (Schram).
 
-P. 3. *It was I who told it to Yudhishthira, &amp;c.*—The author of *Vishnu-Dharma* refers in these words to the third parvan (vanaparvan) of the *Mahābhārata*.
+P. 3. *It was I who told it to Yudhishthira, &c.*—The author of *Vishnu-Dharma* refers in these words to the third parvan (vanaparvan) of the *Mahābhārata*.
 
 P. 4, l. 29.—From the beginning of Brahman's life to that of the present kalpa there have elapsed 6068 kalpas or 6068 × 1008 × 4,320,000 or 26,423,470,080,000 years. Six manvantaras = 6 × 72 × 4,320,000 or 1,866,240,000 years; twenty-seven cataryugas = 27 × 4,320,000 or 116,640,000 years; three yugas + 4132 years = 3 × 1,080,000 + 4132 or 3,244,132 years. The latter number represents the years elapsed of the caturyuga; adding to it successively the other numbers of years, we find the numbers given ll. 29–31 of this page. The Arabic manuscript has 26,425,456,200,000 instead of 26,425,456,204,132 (Schram).
 
-P. 6, l. 3.—In the book *Srūdhava, &amp;c., cf.* note to i. p. 158. *Candrabija.*—I first took the reading of the manuscript to be *جندربير*, but now I believe I can see a pale dot above the last consonant, so that we may read *جندربير*. On the *shashtyabda*, or sixty-years cycle, *cf.* chap. lxii. p. 123.
+P. 6, l. 3.—In the book *Srūdhava, &c., cf.* note to i. p. 158. *Candrabija.*—I first took the reading of the manuscript to be *جندربير*, but now I believe I can see a pale dot above the last consonant, so that we may read *جندربير*. On the *shashtyabda*, or sixty-years cycle, *cf.* chap. lxii. p. 123.
 
-P. 6. *The epoch of the era of Śaka, &amp;c.*—Alberuni speaks of this era in his *Canon Masudicus* (composed during the reign of Mas’ūd) in the following terms: *الوقت بلغة الهند هو كال واههر التواريخ عندهم وخاصّة عند منچميهم فکكال اى وقت سق وبحسب من سنة هلاكه لانه كان متغلبًا عليه والوسم فيه وفى غيرة ان تذكر سنيه التامّة دون الناقصة*. (Beginning of the sixth chapter, book i., copied from the Codex Elliot, now in the British Museum.)
+P. 6. *The epoch of the era of Śaka, &c.*—Alberuni speaks of this era in his *Canon Masudicus* (composed during the reign of Mas’ūd) in the following terms: *الوقت بلغة الهند هو كال واههر التواريخ عندهم وخاصّة عند منچميهم فکكال اى وقت سق وبحسب من سنة هلاكه لانه كان متغلبًا عليه والوسم فيه وفى غيرة ان تذكر سنيه التامّة دون الناقصة*. (Beginning of the sixth chapter, book i., copied from the Codex Elliot, now in the British Museum.)
 
 Translation: “*Time* is called *Kāla* in the language of the Hindus. The era most famous among them, and in particular among their astronomers, is the *Śakakāla*, i.e. *the time of Śaka*. This era is reckoned from the year of his destruction, because he was ruling (rather, tyrannising), over it (i.e. over that time). In this as well as in other
 
@@ -7113,7 +7113,7 @@ ANNOTATIONS. 363
 
 anything but the anomalistic revolution is completely excluded. Moreover, the number of the revolutions of the apsis, 488,105,858, being augmented by 57,265,194,142, is equal to 57,753,300,000, the number of sidereal revolutions; and, indeed, the revolutions of the apsis, *plus* the anomalistic revolutions, must be equal to the sidereal revolutions (*Schram*).
 
-P. 16.—The note in the table “The anomalistic revolution of the moon is here treated,” &amp;c., is not quite clear, and probably materially incorrect. That the term حَامَة القَوم means the anomaly (*àvouaàla* in Greek, *kendra* (*κέντρον*) in Sanskrit), was first pointed out to me by my friend and colleague, Prof. Förster; but this note, which seems to be intended as a sort of explanation of the term, does not exactly render what astronomers understand by *anomaly*. Literally translated it runs thus: “The Ḥāṣṣat-alkamar stands in the place of the *apsis*, because the result is its (whose? the apsis’?) share, since it (the *ḥāṣṣat-alkamar*) is the difference between the two motions” (قَانْ مَا جَرْحَ يَكُونُ حَسْتَهْ اَلَا ) (not اَوْ). Accordingly, we must translate the term as “falling to the moon as her lot or share,” viz., movement, in Arabic الحَارَةِ الْحَامَةِ. Therefore, in the Arabic text, pp. 16, 17 and 18, 8 write حَامَةَ حَامَةَ حَامَةَ.
+P. 16.—The note in the table “The anomalistic revolution of the moon is here treated,” &c., is not quite clear, and probably materially incorrect. That the term حَامَة القَوم means the anomaly (*àvouaàla* in Greek, *kendra* (*κέντρον*) in Sanskrit), was first pointed out to me by my friend and colleague, Prof. Förster; but this note, which seems to be intended as a sort of explanation of the term, does not exactly render what astronomers understand by *anomaly*. Literally translated it runs thus: “The Ḥāṣṣat-alkamar stands in the place of the *apsis*, because the result is its (whose? the apsis’?) share, since it (the *ḥāṣṣat-alkamar*) is the difference between the two motions” (قَانْ مَا جَرْحَ يَكُونُ حَسْتَهْ اَلَا ) (not اَوْ). Accordingly, we must translate the term as “falling to the moon as her lot or share,” viz., movement, in Arabic الحَارَةِ الْحَامَةِ. Therefore, in the Arabic text, pp. 16, 17 and 18, 8 write حَامَةَ حَامَةَ حَامَةَ.
 
 P. 19.—Abû-alḥasan of Ahwâz is mentioned only in this place. He seems to have been a contemporary of Alfazârî and Ya’kûb Ibn Ṭârik.
 
@@ -7513,9 +7513,9 @@ P. 78, l. 27.—This and the two following passages are not clear. Alberuni does
 
 P. 79.—Alkhwārizmī is mentioned here and ii. 114 (on the various colours of eclipses). According to Fihrist, p. ٣٣, he composed an epitome of the Sindhind (Brahma-Siddhānta). He is famous as the author of a work on algebra, edited by Rosen, London, 1831. Cf. also. L. Rodet, L’Algèbre d’Alkhwārizmī et les Méthodes Indienne et Grecque (“Journal Asiatique,” 101 (1878), pp. 5 seq.).
 
-P. 82. Two suns, two moons, &amp;c.—This theory, as well as the expression fish (a name for the polar star?), seem to be of Jaina origin. Cf. Colebrooke, “Essays,” ii. 201.
+P. 82. Two suns, two moons, &c.—This theory, as well as the expression fish (a name for the polar star?), seem to be of Jaina origin. Cf. Colebrooke, “Essays,” ii. 201.
 
-P. 84.—Cf. with this table of the Nakshatras a paper of Thibaut, “The Number of the Stars constituting the several Nakshatras according to Brahmagupta, &amp;c.,” the “Indian Antiquary,” 1885, p. 43; also Colebrooke, “Essays,” ii. 284, and Sūrya-Siddhānta, p. 321.
+P. 84.—Cf. with this table of the Nakshatras a paper of Thibaut, “The Number of the Stars constituting the several Nakshatras according to Brahmagupta, &c.,” the “Indian Antiquary,” 1885, p. 43; also Colebrooke, “Essays,” ii. 284, and Sūrya-Siddhānta, p. 321.
 
 ---
 
@@ -7602,7 +7602,7 @@ The regent of Uttarabhâdrapadâ is placed side by side with Pûrvabhâdrapadâ,
 
 P. 123.—On the sixty-years cycle cf. *Sûrya-Siddhânta*, i. 55, and xiv. 17; Varâhamihira, *Brihat-Samhitâ*, viii. 20–53.
 
-P. 125.—For the names Samvatsara, Parivatsara, &amp;c., cf. *Brihat-Samhitâ*, viii. 24; *Sûrya-Siddhânta*, xiv. 17, note; Weber, *Ueber den Vedakalender genannt Jyotisham*, p. 34–36.
+P. 125.—For the names Samvatsara, Parivatsara, &c., cf. *Brihat-Samhitâ*, viii. 24; *Sûrya-Siddhânta*, xiv. 17, note; Weber, *Ueber den Vedakalender genannt Jyotisham*, p. 34–36.
 
 Pp. 127, 128.—The dominants of the single *lustra* are given in *Brihat-Samhitâ*, chap. viii. 23.
 
@@ -7692,9 +7692,9 @@ P. 153. *That a Brahmin and a Caṇḍāla are equal to him.*—Cf. the saying o
 
 P. 155.—On the forbidden degrees of marriage, cf. Manu, iii. 5.
 
-P. 156.—On garbādhāna, sīmaṁtonnayanam, &amp;c., cf. the Dharmaśāstra of Gautama, viii. 14; also the Gṛihyasūtras of Aśvalāyana, i. 13, 14.
+P. 156.—On garbādhāna, sīmaṁtonnayanam, &c., cf. the Dharmaśāstra of Gautama, viii. 14; also the Gṛihyasūtras of Aśvalāyana, i. 13, 14.
 
-P. 157. *Thus, when Kābul was conquered, &amp;c.*—The sentence added in brackets to indicate the meaning of the author’s words, as I understand them, ought to run thus: “(which proves that he abhorred the eating of cows’ meat and sodomy, but that he did not consider harlotry as anything baneful or unlawful).”
+P. 157. *Thus, when Kābul was conquered, &c.*—The sentence added in brackets to indicate the meaning of the author’s words, as I understand them, ought to run thus: “(which proves that he abhorred the eating of cows’ meat and sodomy, but that he did not consider harlotry as anything baneful or unlawful).”
 
 The detail in the history of Kābul here alluded to is not known from other sources, *e.g. Balādhurā*. During the Omayya Kaliphate of Damascus, both Kābul and Sijistan bravely fought against the Muslims. During certain years they were subdued and had to pay tribute, but Kābul always remained under the sway of its Hindu (Brahmin) kings of the Pāla dynasty. It was incorporated into the Khalif’s empire under the Abbaside Ma’mūn; it had to receive a Muslim governor, but retained at his side
 
@@ -7748,7 +7748,7 @@ P. 167.—The quotation from *Phædo* is found 115C–116A:—
 καὶ θάπτειν οὕτως, ὅπως ἄν σοι φίλον ᾖ καὶ μάλιστα ἡγῇ
 νόμιμον εἶναι.
 
-P. 168. *Galenus*, &amp;c.—I do not know the Greek original of this quotation. Cf. note to i. p. 35.
+P. 168. *Galenus*, &c.—I do not know the Greek original of this quotation. Cf. note to i. p. 35.
 
 P. 69.—The words of Vâsudeva are a quotation from *Bhagavad-Gítâ*, viii. 24.
 
@@ -7806,7 +7806,7 @@ Bahand.—Vide Wilson, l. c., and vasanta, here ii. 179.
 
 P. 179. Gaur-t-r.—Cf. note to ii. 177.
 
-P. 180. Gāihat (?), &amp;c.—In the Arabic text the word ما must be added before طعم.
+P. 180. Gāihat (?), &c.—In the Arabic text the word ما must be added before طعم.
 
 In the following line there is a lacuna, which in my translation I have filled up by the help of the Persian translation of Gardēzī which runs thus:—
 

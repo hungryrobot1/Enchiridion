@@ -47,7 +47,7 @@ Let any two adjacent sides, meeting in $A$, touch the circle at $P, Q$ respectiv
 Then [Assumptions, 2]
 
 $$
-PA + AQ &gt; (\operatorname{arc} PQ).
+PA + AQ > (\operatorname{arc} PQ).
 $$
 
 A similar inequality holds for each angle of the polygon; and, by addition, the required result follows.
@@ -70,16 +70,16 @@ $$
 EH: HG = AC: AF.
 $$
 
-But, since $AF &gt; D$ (or $CB$),
+But, since $AF > D$ (or $CB$),
 
 $$
-AC: AF &lt; AC: CB.
+AC: AF < AC: CB.
 $$
 
 Therefore, componendo,
 
 $$
-EG: GH &lt; AB: D.
+EG: GH < AB: D.
 $$
 
 Hence $EG$, $GH$ are two lines satisfying the given condition.
@@ -93,7 +93,7 @@ Let $A, B$ represent the given magnitudes, $A$ being the greater.
 Find [Prop. 2] two straight lines $F, KL$, of which $F$ is the greater, such that
 
 $$
-F: KL &lt; A: B \quad \text{(1)}.
+F: KL < A: B \quad \text{(1)}.
 $$
 
 ![img-1.jpeg](images/img-1.jpeg)
@@ -111,11 +111,11 @@ Join $NC$, which (by the construction) will be the side of a regular polygon ins
 Now, since
 
 $$
-\angle CON &lt; 2 \angle LKM,
+\angle CON < 2 \angle LKM,
 $$
 
 $$
-\angle HOC &lt; \angle LKM,
+\angle HOC < \angle LKM,
 $$
 
 and the angles at $H, L$ are right;
@@ -123,21 +123,21 @@ and the angles at $H, L$ are right;
 therefore
 
 $$
-MK:LK &gt; OC:OH
+MK:LK > OC:OH
 $$
 
 $$
 \begin{array}{l}
-&gt; OP:OH. \\
-\text{Hence} \quad ST:CN &lt; MK:LK \\
-&amp;&lt; F:LK;
+> OP:OH. \\
+\text{Hence} \quad ST:CN < MK:LK \\
+&< F:LK;
 \end{array}
 $$
 
 therefore, *a fortiori*, by (1),
 
 $$
-ST:CN &lt; A:B.
+ST:CN < A:B.
 $$
 
 Thus two polygons are found satisfying the given condition.
@@ -160,7 +160,7 @@ Let $A$ be the given circle and $B, C$ the given magnitudes, $B$ being the great
 
 ![img-5.jpeg](images/img-5.jpeg)
 
-Take two unequal straight lines $D$, $E$, of which $D$ is the greater, such that $D:E &lt; B:C$ [Prop. 2], and let $F$ be a mean proportional between $D$, $E$, so that $D$ is also greater than $F$.
+Take two unequal straight lines $D$, $E$, of which $D$ is the greater, such that $D:E < B:C$ [Prop. 2], and let $F$ be a mean proportional between $D$, $E$, so that $D$ is also greater than $F$.
 
 Describe (in the manner of Prop. 3) one polygon about the circle, and inscribe another in it, so that the side of the former has to the side of the latter a ratio less than the ratio $D:F$.
 
@@ -186,7 +186,7 @@ Let $A$ be the given circle and $B$ the given area.
 
 Now, there being two unequal magnitudes $A + B$ and $A$, let a polygon $(C)$ be circumscribed about the circle and a polygon $(I)$ inscribed in it [as in Prop. 5], so that
 
-$$ C : I &lt; A + B : A \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots (1). $$
+$$ C : I < A + B : A \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots (1). $$
 
 The circumscribed polygon $(C)$ shall be that required.
 
@@ -194,15 +194,15 @@ For the circle $(A)$ is greater than the inscribed polygon $(I)$.
 
 Therefore, from (1), a fortiori,
 
-$$ C: A &lt; A + B: A, $$
+$$ C: A < A + B: A, $$
 
 whence
 
-$$ C &lt; A + B, $$
+$$ C < A + B, $$
 
 or
 
-$$ C - A &lt; B. $$
+$$ C - A < B. $$
 
 ## Proposition 7.
 
@@ -227,7 +227,7 @@ Draw a chord $AB$ in the circle, and join $OA$, $OB$. Bisect the arc $ACB$ in $C
 Then
 
 $$
-\triangle OAC + \triangle OBC &gt; \triangle OAB.
+\triangle OAC + \triangle OBC > \triangle OAB.
 $$
 
 ![img-7.jpeg](images/img-7.jpeg)
@@ -246,16 +246,16 @@ We have now two surfaces
 
 and, since the two surfaces have the same extremities (the perimeter of the triangle $OAC$), the former surface is greater than the latter, which is included by it [Assumptions, 3 or 4].
 
-Hence (surface $O A E C$) + (segment $A E C$) &gt; △ $O A C$.
+Hence (surface $O A E C$) + (segment $A E C$) > △ $O A C$.
 
-Similarly (surface $O C F B$) + (segment $C F B$) &gt; △ $O B C$.
+Similarly (surface $O C F B$) + (segment $C F B$) > △ $O B C$.
 
 Therefore, since $D$ is not less than the sum of the segments, we have, by addition,
 
 $$
 \begin{array}{l}
-\text{(surface } O A E C F B \text{)} + D &gt; △ O A C + △ O B C \\
-&gt; △ O A B + D, \text{ by hypothesis}.
+\text{(surface } O A E C F B \text{)} + D > △ O A C + △ O B C \\
+> △ O A B + D, \text{ by hypothesis}.
 \end{array}
 $$
 
@@ -270,17 +270,17 @@ Let $A G E$, $E H C$, $C K F$, $F L B$ be those segments, and join $O E$, $O F$.
 Then, as before,
 
 $$
-\text{(surface } O A G E \text{)} + \text{(segment } A G E \text{)} &gt; △ O A E
+\text{(surface } O A G E \text{)} + \text{(segment } A G E \text{)} > △ O A E
 $$
 
-and (surface $O E H C$) + (segment $E H C$) &gt; △ $O E C$.
+and (surface $O E H C$) + (segment $E H C$) > △ $O E C$.
 
 Therefore (surface $O A G H C$) + (segments $A G E$, $E H C$)
 
 $$
 \begin{array}{l}
-&gt; △ O A E + △ O E C \\
-&gt; △ O A C, \text{ a fortiori}.
+> △ O A E + △ O E C \\
+> △ O A C, \text{ a fortiori}.
 \end{array}
 $$
 
@@ -291,8 +291,8 @@ Hence, by addition,
 $$
 \begin{array}{l}
 \text{(surface } O A G E H C K F L B \text{)} + \text{(segments } A G E, E H C, C K F, F L B) \\
-&gt; △ O A C + △ O B C \\
-&gt; △ O A B + D, \text{ by hypothesis}.
+> △ O A C + △ O B C \\
+> △ O A B + D, \text{ by hypothesis}.
 \end{array}
 $$
 
@@ -309,13 +309,13 @@ Let $ECF$ be drawn touching the circle at $C$, the middle point of the arc $ACB$
 Then
 
 $$
-ED + DF &gt; EF,
+ED + DF > EF,
 $$
 
 and, adding $AE + FB$ to each side,
 
 $$
-AD + DB &gt; AE + EF + FB.
+AD + DB > AE + EF + FB.
 $$
 
 Now $OA$, $OC$, $OB$, being generators of the cone, are equal, and they are respectively perpendicular to the tangents at $A$, $C$, $B$.
@@ -325,7 +325,7 @@ Now $OA$, $OC$, $OB$, being generators of the cone, are equal, and they are resp
 It follows that
 
 $$
-\Delta OAD + \Delta ODB &gt; \Delta OAE + \Delta OEF + \Delta OFB.
+\Delta OAD + \Delta ODB > \Delta OAE + \Delta OEF + \Delta OFB.
 $$
 
 Let the area $G$ be equal to the excess of the first sum over the second.
@@ -347,7 +347,7 @@ That is, the surface of the pyramid exclusive of the face $OAB$ is greater than 
 Taking away the segment from each sum, we have
 
 $$
-\Delta OAE + \Delta OEF + \Delta OFB + L &gt; \text{the surface } OAHCKB.
+\Delta OAE + \Delta OEF + \Delta OFB + L > \text{the surface } OAHCKB.
 $$
 
 And $G$ is not less than $L$.
@@ -369,19 +369,19 @@ Let the remainders be those between the segment and the polygon $APQRSB$, and le
 Then, as before,
 
 $$
-\triangle OAE + \triangle OEF + \triangle OFB &gt; \triangle OAP + \triangle OPQ + \ldots + \triangle OSB.
+\triangle OAE + \triangle OEF + \triangle OFB > \triangle OAP + \triangle OPQ + \ldots + \triangle OSB.
 $$
 
 Also, as before,
 
 (surface of pyramid $OAPQRSB$ excluding the face $OAB$)
 
-&gt; the part $OACB$ of the surface of the cone together with the segment $ACB$.
+> the part $OACB$ of the surface of the cone together with the segment $ACB$.
 
 Taking away the segment from each sum,
 
 $$
-\triangle OAP + \triangle OPQ + \ldots + M &gt; \text{the part } OACB \text{ of the surface of the cone.}
+\triangle OAP + \triangle OPQ + \ldots + M > \text{the part } OACB \text{ of the surface of the cone.}
 $$
 
 Hence, a fortiori,
@@ -426,7 +426,7 @@ Then the circle $B$ shall be equal to the surface of the cylinder (excluding the
 
 For, if not, $B$ must be either greater or less than $S$.
 
-I. Suppose $B &lt; S$.
+I. Suppose $B < S$.
 
 Then it is possible to circumscribe a regular polygon about $B$, and to inscribe another in it, such that the ratio of the former to the latter is less than the ratio $S : B$.
 
@@ -446,10 +446,10 @@ Thus
 
 $$
 \begin{aligned}
-\triangle KDM : \text{(polygon about } B \text{)} &amp;= MD^2 : H^2 \\
-&amp;= MD^2 : CD \cdot EF \\
-&amp;= MD : NF \\
-&amp;= \triangle KDM : \triangle LFN \\
+\triangle KDM : \text{(polygon about } B \text{)} &= MD^2 : H^2 \\
+&= MD^2 : CD \cdot EF \\
+&= MD : NF \\
+&= \triangle KDM : \triangle LFN \\
 \text{(since } DK = FL\text{)}.
 \end{aligned}
 $$
@@ -458,25 +458,25 @@ Therefore (polygon about $B$) = $\triangle LFN$
 
 $$
 \begin{aligned}
-&amp;= \square EL \\
-&amp;= \text{(surface of prism about } A \text{),}
+&= \square EL \\
+&= \text{(surface of prism about } A \text{),}
 \end{aligned}
 $$
 
 from above.
 
-But (polygon about $B$) : (polygon in $B$) $&lt; S : B$.
+But (polygon about $B$) : (polygon in $B$) $< S : B$.
 
 Therefore
 
 $$
-(\text{surface of prism about } A): (\text{polygon in } B) &lt; S : B,
+(\text{surface of prism about } A): (\text{polygon in } B) < S : B,
 $$
 
 and, alternately,
 
 $$
-(\text{surface of prism about } A) : S &lt; (\text{polygon in } B) : B;
+(\text{surface of prism about } A) : S < (\text{polygon in } B) : B;
 $$
 
 which is impossible, since the surface of the prism is greater than $S$, while the polygon inscribed in $B$ is less than $B$.
@@ -487,12 +487,12 @@ $$
 B \nless S.
 $$
 
-II. Suppose $B &gt; S$.
+II. Suppose $B > S$.
 
 Let a regular polygon be circumscribed about $B$ and another inscribed in it so that
 
 $$
-(\text{polygon about } B) : (\text{polygon in } B) &lt; B : S.
+(\text{polygon about } B) : (\text{polygon in } B) < B : S.
 $$
 
 Inscribe in $A$ a polygon similar to that inscribed in $B$, and erect a prism on the polygon inscribed in $A$ of the same height as the cylinder.
@@ -502,7 +502,7 @@ Again, let $DK$, $FL$, drawn as before, be each equal to the perimeter of the po
 Then, in this case,
 
 $$
-\triangle KDM &gt; (\text{polygon inscribed in } A)
+\triangle KDM > (\text{polygon inscribed in } A)
 $$
 
 (since the perpendicular from the centre on a side of the polygon is less than the radius of $A$).
@@ -513,40 +513,40 @@ Now
 
 $$
 \begin{aligned}
-(\text{polygon in } A) : (\text{polygon in } B) &amp;= MD^2 : H^2, \\
-&amp;= \triangle KDM : \triangle LFN, \text{ as before.}
+(\text{polygon in } A) : (\text{polygon in } B) &= MD^2 : H^2, \\
+&= \triangle KDM : \triangle LFN, \text{ as before.}
 \end{aligned}
 $$
 
 And
 
 $$
-\triangle KDM &gt; (\text{polygon in } A).
+\triangle KDM > (\text{polygon in } A).
 $$
 
 Therefore
 
 $$
-\triangle LFN, \text{ or (surface of prism)} &gt; (\text{polygon in } B).
+\triangle LFN, \text{ or (surface of prism)} > (\text{polygon in } B).
 $$
 
 But this is impossible, because
 
 $$
 \begin{aligned}
-(\text{polygon about } B) : (\text{polygon in } B) &amp;&lt; B : S, \\
-&amp;&lt; (\text{polygon about } B) : S, \text{ a fortiori}, \\
+(\text{polygon about } B) : (\text{polygon in } B) &< B : S, \\
+&< (\text{polygon about } B) : S, \text{ a fortiori}, \\
 \end{aligned}
 $$
 
 so that
 
 $$
-(\text{polygon in } B) &gt; S,
+(\text{polygon in } B) > S,
 $$
 
 $$
-&gt; (\text{surface of prism}), \text{ a fortiori}.
+> (\text{surface of prism}), \text{ a fortiori}.
 $$
 
 Hence $B$ is neither greater nor less than $S$, and therefore
@@ -569,7 +569,7 @@ Then shall $B$ be equal to the surface of the cone (excluding the base), which w
 
 If not, $B$ must be either greater or less than $S$.
 
-I. Suppose $B &lt; S$.
+I. Suppose $B < S$.
 
 Let a regular polygon be described about $B$ and a similar one inscribed in it such that the former has to the latter a ratio less than the ratio $S : B$.
 
@@ -592,12 +592,12 @@ $$(\text{surface of pyramid}) = (\text{polygon about } B).$$
 Now
 
 $$
-(\text{polygon about } B): (\text{polygon in } B) &lt; S : B.
+(\text{polygon about } B): (\text{polygon in } B) < S : B.
 $$
 
 Therefore
 
-$$(\text{surface of pyramid}): (\text{polygon in } B) &lt; S : B,$$
+$$(\text{surface of pyramid}): (\text{polygon in } B) < S : B,$$
 
 which is impossible, (because the surface of the pyramid is greater than $S$, while the polygon in $B$ is less than $B$).
 
@@ -605,7 +605,7 @@ Hence
 
 $$B \nless S.$$
 
-II. Suppose $B &gt; S$.
+II. Suppose $B > S$.
 
 Take regular polygons circumscribed and inscribed to $B$ such that the ratio of the former to the latter is less than the ratio $B : S$.
 
@@ -618,19 +618,19 @@ $$(\text{polygon in } A): (\text{polygon in } B) = C^2 : E^2$$
 $$= C : D$$
 
 $$
-&gt; (\text{polygon in } A): (\text{surface of pyramid excluding base}).
+> (\text{polygon in } A): (\text{surface of pyramid excluding base}).
 $$
 
 This is clear because the ratio of $C$ to $D$ is greater than the ratio of the perpendicular from the centre of $A$ on a side of the polygon to the perpendicular from the apex of the cone on the same side*.
 
 Therefore
 
-$$(\text{surface of pyramid}) &gt; (\text{polygon in } B).$$
+$$(\text{surface of pyramid}) > (\text{polygon in } B).$$
 
 But
 
 $$
-(\text{polygon about } B): (\text{polygon in } B) &lt; B : S.
+(\text{polygon about } B): (\text{polygon in } B) < B : S.
 $$
 
 Therefore,
@@ -639,7 +639,7 @@ $$
 a \text{ fortiori},
 $$
 
-$$(\text{polygon about } B): (\text{surface of pyramid}) &lt; B : S;$$
+$$(\text{polygon about } B): (\text{surface of pyramid}) < B : S;$$
 
 which is impossible.
 
@@ -741,10 +741,10 @@ Then, since the base of $OAB$ is equal to the surface of $DEF$,
 
 $$
 \begin{aligned}
-&amp;= (\text{surface of } DEF): \text{ (base of } DEF) \\
-&amp;= DF: FG \quad \text{[Prop. 15]} \\
-&amp;= DG: GH, \text{ by similar triangles}, \\
-&amp;= DG: OC.
+&= (\text{surface of } DEF): \text{ (base of } DEF) \\
+&= DF: FG \quad \text{[Prop. 15]} \\
+&= DG: GH, \text{ by similar triangles}, \\
+&= DG: OC.
 \end{aligned}
 $$
 
@@ -798,10 +798,10 @@ $$
 
 $$
 \begin{aligned}
-&amp;= (\text{surface of } OAB): (\text{base of } OAB) \\
-&amp;= OB : BC \quad \text{[Prop. 15]} \\
-&amp;= OD : DE, \text{ by similar triangles}, \\
-&amp;= LP : FG, \text{ by hypothesis}.
+&= (\text{surface of } OAB): (\text{base of } OAB) \\
+&= OB : BC \quad \text{[Prop. 15]} \\
+&= OD : DE, \text{ by similar triangles}, \\
+&= LP : FG, \text{ by hypothesis}.
 \end{aligned}
 $$
 
@@ -1016,7 +1016,7 @@ $$
 $$
 
 $$
-&lt; AA'^2.
+< AA'^2.
 $$
 
 Therefore the surface of the inscribed figure, or the circle $R$, is less than four times the circle $AMA'M'$.
@@ -1093,11 +1093,11 @@ Let $R$ be a circle equal to the surface of the circumscribed solid.
 
 Now $(BB' + CC' + \ldots): AA' = A'B: BA$, [as in Prop. 21] so that $AB(BB' + CC' + \ldots) = AA'. A'B$.
 
-Hence $(\text{radius of } R) = \sqrt{AA'.A'B}$ [Prop. 29] $&gt; A'B$.
+Hence $(\text{radius of } R) = \sqrt{AA'.A'B}$ [Prop. 29] $> A'B$.
 
 But $A'B = 20P$, where $P$ is the point in which $AB$ touches the circle $ama'm'$.
 
-Therefore $(\text{radius of } R) &gt; (\text{diameter of circle } ama'm')$; whence $R$, and therefore the surface of the circumscribed solid, is greater than four times the great circle of the given sphere.
+Therefore $(\text{radius of } R) > (\text{diameter of circle } ama'm')$; whence $R$, and therefore the surface of the circumscribed solid, is greater than four times the great circle of the given sphere.
 
 ## Proposition 31.
 
@@ -1169,7 +1169,7 @@ Then, if $C$ is not equal to the surface of the sphere, it must either be less o
 I. Suppose $C$ less than the surface of the sphere.
 
 It is then possible to find two lines $ \beta, \gamma $, of which $ \beta$ is the greater, such that
-$$ \beta : \gamma &lt; \left( \text{surface of sphere} \right) : C. \quad \text{[Prop. 2]} $$
+$$ \beta : \gamma < \left( \text{surface of sphere} \right) : C. \quad \text{[Prop. 2]} $$
 
 Take such lines, and let $ \delta $ be a mean proportional between them.
 
@@ -1182,9 +1182,9 @@ Let the polygons with the circle revolve together about a diameter common to all
 Then (surface of outer solid): (surface of inner solid)
 $$
 \begin{aligned}
-&amp;= (\text{side of outer})^2 : (\text{side of inner})^2 \quad \text{[Prop. 32]} \\
-&amp;&lt; \beta^2 : \delta^2, \text{ or } \beta : \gamma \\
-&amp;&lt; (\text{surface of sphere}) : C, \text{ a fortiori}.
+&= (\text{side of outer})^2 : (\text{side of inner})^2 \quad \text{[Prop. 32]} \\
+&< \beta^2 : \delta^2, \text{ or } \beta : \gamma \\
+&< (\text{surface of sphere}) : C, \text{ a fortiori}.
 \end{aligned}
 $$
 
@@ -1196,7 +1196,7 @@ II. Suppose $C$ greater than the surface of the sphere.
 
 Take lines $\beta, \gamma$, of which $\beta$ is the greater, such that
 $$
-\beta : \gamma &lt; C : (\text{surface of sphere}).
+\beta : \gamma < C : (\text{surface of sphere}).
 $$
 
 Circumscribe and inscribe to the great circle similar regular polygons, as before, such that their sides are in a ratio less than that of $\beta$ to $\delta$, and suppose solids of revolution generated in the usual manner.
@@ -1206,7 +1206,7 @@ Then, in this case,
 $$
 \begin{array}{l}
 \text{(surface of circumscribed solid)} : \text{(surface of inscribed solid)} \\
-\quad &lt; C : \text{(surface of sphere)}.
+\quad < C : \text{(surface of sphere)}.
 \end{array}
 $$
 
@@ -1231,7 +1231,7 @@ Suppose $V$ to be a cone whose base is equal to four times the great circle and 
 Then, by hypothesis, the sphere is greater than $V$; and two lines $\beta, \gamma$ can be found (of which $\beta$ is the greater) such that
 
 $$
-\beta : \gamma &lt; \text{(volume of sphere)} : V.
+\beta : \gamma < \text{(volume of sphere)} : V.
 $$
 
 Between $\beta$ and $\gamma$ place two arithmetic means $\delta, \epsilon$.
@@ -1244,9 +1244,9 @@ Thus (vol. of outer solid): (vol. of inscribed solid)
 
 $$
 \begin{array}{l}
-&lt; \beta^{3}: \delta^{3}, \text{ by hypothesis}, \\
-&lt; \beta: \gamma, \text{ a fortiori (since } \beta: \gamma &gt; \beta^{3}: \delta^{3}), \\
-&lt; \text{ (volume of sphere) }: V, \text{ a fortiori}.
+< \beta^{3}: \delta^{3}, \text{ by hypothesis}, \\
+< \beta: \gamma, \text{ a fortiori (since } \beta: \gamma > \beta^{3}: \delta^{3}), \\
+< \text{ (volume of sphere) }: V, \text{ a fortiori}.
 \end{array}
 $$
 
@@ -1262,35 +1262,35 @@ $$
 \beta - \delta : \beta = \delta - x : \delta
 $$
 
-and, since $\beta &gt; \delta$, $\beta - \delta &gt; \delta - x$.
+and, since $\beta > \delta$, $\beta - \delta > \delta - x$.
 
 But, by hypothesis, $\beta - \delta = \delta - \epsilon$.
 
 Therefore
 
 $$
-\delta - \epsilon &gt; \delta - x,
+\delta - \epsilon > \delta - x,
 $$
 
 or
 
 $$
-x &gt; \epsilon.
+x > \epsilon.
 $$
 
 Again, suppose $\delta : x = x : y$,
 
-and, as before, we have $\delta - x &gt; x - y$,
+and, as before, we have $\delta - x > x - y$,
 
-so that, a fortiori, $\delta - \epsilon &gt; x - y$.
+so that, a fortiori, $\delta - \epsilon > x - y$.
 
 Therefore
 
 $$
-\epsilon - \gamma &gt; x - y;
+\epsilon - \gamma > x - y;
 $$
 
-and, since $x &gt; \epsilon$, $y &gt; \gamma$.
+and, since $x > \epsilon$, $y > \gamma$.
 
 Now, by hypothesis, $\beta, \delta, x, y$ are in continued proportion;
 
@@ -1301,7 +1301,7 @@ $$
 $$
 
 $$
-&lt; \beta : \gamma.
+< \beta : \gamma.
 $$
 
 solid is greater than that of the sphere [Prop. 28], while the volume of the inscribed solid is less than $V$ [Prop. 27].
@@ -1313,7 +1313,7 @@ II. If possible, let the sphere be less than $V$.
 In this case we take $\beta, \gamma$ ($\beta$ being the greater) such that
 
 $$
-\beta : \gamma &lt; V : \text{(volume of sphere)}.
+\beta : \gamma < V : \text{(volume of sphere)}.
 $$
 
 The rest of the construction and proof proceeding as before, we have finally
@@ -1321,7 +1321,7 @@ The rest of the construction and proof proceeding as before, we have finally
 (volume of outer solid) : (volume of inscribed solid)
 
 $$
-&lt; V : \text{(volume of sphere)}.
+< V : \text{(volume of sphere)}.
 $$
 
 But this is impossible, because the volume of the outer solid is greater than $V$ [Prop. 31, Cor.], and the volume of the inscribed solid is less than the volume of the sphere.
@@ -1400,7 +1400,7 @@ $$
 AB \left(BB' + CC' + \dots + KK' + LM\right).
 $$
 
-But this rectangle $\begin{array}{l} = A'B. \text{AM} \\ &lt; A'A. \text{AM} \\ &lt; AL' \end{array}$ [Prop. 22]
+But this rectangle $\begin{array}{l} = A'B. \text{AM} \\ < A'A. \text{AM} \\ < AL' \end{array}$ [Prop. 22]
 
 ![img-30.jpeg](images/img-30.jpeg)
 
@@ -1448,7 +1448,7 @@ The surface of the solid figure so circumscribed about the sector of the sphere 
 
 For draw the tangents $lT$, $l'T'$ to the inner segment at $l$, $l'$. These with the sides of the polygon will describe by their revolution a solid whose surface is greater than that of the segment [Assumptions, 4].
 
-But the surface described by the revolution of $lT$ is less than that described by the revolution of $LT$, since the angle $TlL$ is a right angle, and therefore $LT &gt; lT$.
+But the surface described by the revolution of $lT$ is less than that described by the revolution of $LT$, since the angle $TlL$ is a right angle, and therefore $LT > lT$.
 
 Hence, a fortiori, the surface described by $LK \ldots A \ldots K'L'$ is greater than that of the segment.
 
@@ -1476,7 +1476,7 @@ $$
 
 But this rectangle is equal to $A'B$. $AM$ [as in Prop. 22].
 
-Next, since $AL'$, $al'$ are parallel, the triangles $AML'$, $aml'$ are similar. And $AL' &gt; al'$; therefore $AM &gt; am$.
+Next, since $AL'$, $al'$ are parallel, the triangles $AML'$, $aml'$ are similar. And $AL' > al'$; therefore $AM > am$.
 
 Also
 $$
@@ -1484,7 +1484,7 @@ A'B = 2ON = aa'.
 $$
 Therefore
 $$
-A'B \cdot AM &gt; am \cdot aa' &gt; al''.
+A'B \cdot AM > am \cdot aa' > al''.
 $$
 
 Hence the surface of the solid figure circumscribed to the sector is greater than a circle whose radius is equal to $al'$, or $al$.
@@ -1555,12 +1555,12 @@ Let $R$ be a circle whose radius is equal to *al*. Then the surface of the segme
 
 ![img-35.jpeg](images/img-35.jpeg)
 
-I. Suppose, if possible, $S &gt; R$.
+I. Suppose, if possible, $S > R$.
 
 Let *lal'* be a segment of a great circle which is less than a semicircle. Join *Ol*, *Ol'*, and let similar polygons with $2n$ equal sides be circumscribed and inscribed to the sector, as in the previous propositions, but such that
 
 $$
-(\text{circumscribed polygon}): (\text{inscribed polygon}) &lt; S : R.
+(\text{circumscribed polygon}): (\text{inscribed polygon}) < S : R.
 $$
 
 [Prop. 6]
@@ -1571,10 +1571,10 @@ Then
 
 $$
 \begin{aligned}
-&amp; (\text{surface of outer solid}): (\text{surface of inner solid}) \\
-&amp; = AB^{\#} : ab^{\#} \quad \text{[Prop. 41]} \\
-&amp; = (\text{circumscribed polygon}): (\text{inscribed polygon}) \\
-&amp; &lt; S : R, \text{ by hypothesis}.
+& (\text{surface of outer solid}): (\text{surface of inner solid}) \\
+& = AB^{\#} : ab^{\#} \quad \text{[Prop. 41]} \\
+& = (\text{circumscribed polygon}): (\text{inscribed polygon}) \\
+& < S : R, \text{ by hypothesis}.
 \end{aligned}
 $$
 
@@ -1582,14 +1582,14 @@ But the surface of the outer solid is greater than $S$ [Prop. 39].
 
 Therefore the surface of the inner solid is greater than $R$; which is impossible, by Prop. 37.
 
-II. Suppose, if possible, $S &lt; R$.
+II. Suppose, if possible, $S < R$.
 
 In this case we circumscribe and inscribe polygons such that their ratio is less than $R : S$; and we arrive at the result that
 
 $$
 \begin{array}{l}
 \text{(surface of outer solid)} : \text{(surface of inner solid)} \\
-&lt; R : S.
+< R : S.
 \end{array}
 $$
 
@@ -1629,12 +1629,12 @@ Let $R$ be a cone whose base is equal to the surface of the segment $lal'$ of a 
 
 Then, if $S$ is not equal to $R$, it must be either greater or less.
 
-I. Suppose, if possible, that $S &gt; R$.
+I. Suppose, if possible, that $S > R$.
 
 Find two straight lines $\beta, \gamma$, of which $\beta$ is the greater, such that
 
 $$
-\beta : \gamma &lt; S : R;
+\beta : \gamma < S : R;
 $$
 
 and let $\delta, \epsilon$ be two arithmetic means between $\beta, \gamma$.
@@ -1649,22 +1649,22 @@ $$
 (V + \text{cone } OLL'): (v + \text{cone } Oll') = AB^2: ab^3 \quad [\text{Prop. 41}]
 $$
 $$
-&lt; \beta^3: \delta^3
+< \beta^3: \delta^3
 $$
 $$
-&lt; \beta: \gamma, \text{ a fortiori},
+< \beta: \gamma, \text{ a fortiori},
 $$
 $$
-&lt; S: R, \text{ by hypothesis.}
+< S: R, \text{ by hypothesis.}
 $$
 
 Now
 
 $$
-(V + \text{cone } OLL') &gt; S.
+(V + \text{cone } OLL') > S.
 $$
 
-Therefore also $(v + \text{cone } Oll') &gt; R$.
+Therefore also $(v + \text{cone } Oll') > R$.
 
 But this is impossible, by Prop. 38, Cor. combined with Props. 42, 43.
 
@@ -1674,12 +1674,12 @@ $$
 S \ngtr R.
 $$
 
-II. Suppose, if possible, that $S &lt; R$.
+II. Suppose, if possible, that $S < R$.
 
 In this case we take $\beta, \gamma$ such that
 
 $$
-\beta: \gamma &lt; R: S,
+\beta: \gamma < R: S,
 $$
 
 and the rest of the construction proceeds as before.
@@ -1687,19 +1687,19 @@ and the rest of the construction proceeds as before.
 We thus obtain the relation
 
 $$
-(V + \text{cone } OLL'): (v + \text{cone } Oll') &lt; R: S.
+(V + \text{cone } OLL'): (v + \text{cone } Oll') < R: S.
 $$
 
 Now
 
 $$
-(v + \text{cone } Oll') &lt; S.
+(v + \text{cone } Oll') < S.
 $$
 
 Therefore
 
 $$
-(V + \text{cone } OLL') &lt; R;
+(V + \text{cone } OLL') < R;
 $$
 
 which is impossible, by Prop. 40, Cor. 2 combined with Props. 42, 43.
@@ -1738,8 +1738,8 @@ Then, since in equal cylinders the heights and bases are reciprocally proportion
 
 $$
 \begin{aligned}
-AB^2 : EF^2 &amp;= CG : OD \\
-&amp;= EF : OD
+AB^2 : EF^2 &= CG : OD \\
+&= EF : OD
 \end{aligned}
 \tag{1}
 $$
@@ -1783,8 +1783,8 @@ Then, since
 
 $$
 \begin{aligned}
-AB : EF &amp;= EF : MN = MN : OD, \\
-EF^2 &amp;= AB \cdot MN,
+AB : EF &= EF : MN = MN : OD, \\
+EF^2 &= AB \cdot MN,
 \end{aligned}
 $$
 
@@ -1792,9 +1792,9 @@ and therefore
 
 $$
 \begin{aligned}
-AB^2 : EF^2 &amp;= AB : MN \\
-&amp;= EF : OD \\
-&amp;= CG : OD;
+AB^2 : EF^2 &= AB : MN \\
+&= EF : OD \\
+&= CG : OD;
 \end{aligned}
 $$
 
@@ -1882,8 +1882,8 @@ Again, since $H'M : MA' = OA + AM : AM$,
 
 $$
 \begin{aligned}
-H'A' : OA &amp;= A'M : MA \\
-&amp;= OA : AH, \text{ from above.}
+H'A' : OA &= A'M : MA \\
+&= OA : AH, \text{ from above.}
 \end{aligned}
 $$
 
@@ -1965,8 +1965,8 @@ $$
 
 $$
 \begin{aligned}
-&amp;= (\text{circle with radius } AB): (\text{circle with radius } A'B) \\
-&amp;= (\text{surface of segment } BAB'): (\text{surface of segment } BA'B').
+&= (\text{circle with radius } AB): (\text{circle with radius } A'B) \\
+&= (\text{surface of segment } BAB'): (\text{surface of segment } BA'B').
 \end{aligned}
 $$
 
@@ -2056,13 +2056,13 @@ $$
 
 $$ = AA'^2: A'M^2, \text{ by means of (6)} $$
 
-(c) To express the ratios $A'H': H'M$ and $HH': H'M$ more simply we make the following construction. Produce $OA$ to $D$ so that $OA = AD$. ($D$ will lie beyond $H$, for $A'M &gt; MA$, and therefore, by (5), $OA &gt; AH$.)
+(c) To express the ratios $A'H': H'M$ and $HH': H'M$ more simply we make the following construction. Produce $OA$ to $D$ so that $OA = AD$. ($D$ will lie beyond $H$, for $A'M > MA$, and therefore, by (5), $OA > AH$.)
 
 Then
 $$
 \begin{aligned}
-A'H': H'M &amp;= OA : OA + AM \\
-&amp;= AD : DM \quad \dots \dots \dots \dots \dots \dots \dots \tag{7}.
+A'H': H'M &= OA : OA + AM \\
+&= AD : DM \quad \dots \dots \dots \dots \dots \dots \dots \tag{7}.
 \end{aligned}
 $$
 
@@ -2074,9 +2074,9 @@ $$
 Thus, using equations (8), (7) and the value of $HH': H'A'$ above found, we have
 $$
 \begin{aligned}
-AD : DE &amp;= HH': H'M \\
-&amp;= (HH': H'A').(A'H': H'M) \\
-&amp;= (AA'^2 : A'M^2).(AD : DM).
+AD : DE &= HH': H'M \\
+&= (HH': H'A').(A'H': H'M) \\
+&= (AA'^2 : A'M^2).(AD : DM).
 \end{aligned}
 $$
 
@@ -2166,8 +2166,8 @@ $(\beta)$ Next we have
 
 $$
 \begin{aligned}
-H'A' : H'M &amp;= OA : OA + AM \\
-&amp;= AD : DM.
+H'A' : H'M &= OA : OA + AM \\
+&= AD : DM.
 \end{aligned}
 $$
 
@@ -2296,7 +2296,7 @@ Place $AC$ at right angles to $AB$. Join $CO$, and produce it to $R$. Draw $EBR$
 Then, since
 
 $$
-AC.D &lt; AO.OB^2,
+AC.D < AO.OB^2,
 $$
 
 measure $RQ'$ along $RQ$ so that
@@ -2383,7 +2383,7 @@ $AM:AC = D:MB^2$.
 
 It remains to be proved that, if $AB$ be divided at $O$ so that $BO = 2AO$, then $AO.OB^2$ is the maximum value of $AM.MB^2$,
 or
-$AO.OB^2 &gt; AM.MB^2$,
+$AO.OB^2 > AM.MB^2$,
 where $M$ is any point on $AB$ other than $O$.
 
 Suppose that $AO : AC = CE \cdot EL' : OB^2$,
@@ -2434,7 +2434,7 @@ $$ qR^2 = EL'.ER, $$
 so that
 
 $$
-QR^2 &lt; EL'.ER.
+QR^2 < EL'.ER.
 $$
 
 Suppose $QR^2 = EL.ER$,
@@ -2454,12 +2454,12 @@ $$ AM.MB^2 = CE.EL.AC. $$
 Therefore
 
 $$
-AM.MB^2 &lt; CE.EL'.AC
+AM.MB^2 < CE.EL'.AC
 $$
 
-$$ &lt; AO.OB^2. $$
+$$ < AO.OB^2. $$
 
-If $AC.D &lt; AO.OB^2$, there are two solutions because there will be two points of intersection between the parabola and the hyperbola.
+If $AC.D < AO.OB^2$, there are two solutions because there will be two points of intersection between the parabola and the hyperbola.
 
 For, if we draw with vertex $E$ and axis $EN$ a parabola whose parameter is equal to $EL$, the parabola will pass through the point $Q$ (see the last figure); and, since the parabola meets the diameter $CF$ beyond $Q$, it must meet the hyperbola again (which has $CF$ for its asymptote).
 
@@ -2695,8 +2695,8 @@ Now
 $C: D = HM: MH'$, by hypothesis,
 $$
 \begin{aligned}
-&amp;= HM.MH': MH' \\
-&amp;= RM.MR': MH'^2, \text{ by (δ)}.
+&= HM.MH': MH' \\
+&= RM.MR': MH'^2, \text{ by (δ)}.
 \end{aligned}
 $$
 
@@ -2818,8 +2818,8 @@ From the property of the ellipse,
 
 $$
 \begin{aligned}
-QV^2: PV.P'V &amp;= p: PP' \\
-&amp;= D: 2C.
+QV^2: PV.P'V &= p: PP' \\
+&= D: 2C.
 \end{aligned}
 $$
 
@@ -3084,10 +3084,10 @@ Hence the ratio $OA' + A'M : A'M$ is given; and therefore $A'M$ is given.
 διορισμός.
 
 Now
-$OA' : A'M &gt; OA' : A'A$,
+$OA' : A'M > OA' : A'A$,
 so that
-$OA' + A'M : A'M &gt; OA' + A'A : A'A$
-&gt; 3 : 2.
+$OA' + A'M : A'M > OA' + A'A : A'A$
+> 3 : 2.
 
 Thus, in order that a solution may be possible, it is a necessary condition that the given ratio must be greater than 3 : 2.
 
@@ -3099,9 +3099,9 @@ Take a line $DE$, and a point $F$ on it, such that $DE:EF$ is equal to the given
 
 Now, since
 $OA' + A'A : A'A = 3 : 2$,
-$DE : EF &gt; OA' + A'A : A'A$,
+$DE : EF > OA' + A'A : A'A$,
 so that
-$DF : FE &gt; OA' : A'A$.
+$DF : FE > OA' : A'A$.
 
 Hence a point $M$ can be found on $AA'$ such that
 $DF : FE = OA' : A'M$ ... (2).
@@ -3122,8 +3122,8 @@ If a sphere be cut by a plane not passing through the centre into two segments $
 $$
 \begin{array}{l}
 \text{(segmt. } A'B'B') : \text{(segmt. } ABB') \\
-\quad &lt; \text{(surface of } A'B'B')^2 : \text{(surface of } ABB')^2 \\
-\text{but } &gt; \text{(surface of } A'B'B')^{3/2} : \text{(surface of } ABB')^{3/2}.
+\quad < \text{(surface of } A'B'B')^2 : \text{(surface of } ABB')^2 \\
+\text{but } > \text{(surface of } A'B'B')^{3/2} : \text{(surface of } ABB')^{3/2}.
 \end{array}
 $$
 
@@ -3158,20 +3158,20 @@ $$
 
 We have therefore to prove
 
-(a) that $H'M: MH &lt; A'M^2: MA^2,$
+(a) that $H'M: MH < A'M^2: MA^2,$
 
-(b) that $H'M: MH &gt; A'M^3: MA^3.$
+(b) that $H'M: MH > A'M^3: MA^3.$
 
 (a) From (2) above,
 
 $$
 \begin{aligned}
-A'M: AM &amp;= H'M: OA + AM \\
-&amp;= H'A': OA', \text{ since } OA = OA'.
+A'M: AM &= H'M: OA + AM \\
+&= H'A': OA', \text{ since } OA = OA'.
 \end{aligned}
 $$
 
-Since $A'M &gt; AM$, $H'A' &gt; OA'$; therefore, if we take $K$ on $H'A'$ so that $OA' = A'K$, $K$ will fall between $H'$ and $A'$.
+Since $A'M > AM$, $H'A' > OA'$; therefore, if we take $K$ on $H'A'$ so that $OA' = A'K$, $K$ will fall between $H'$ and $A'$.
 
 And, by (1), $A'M: AM = KM: MH.$
 
@@ -3179,44 +3179,44 @@ Thus
 
 $$
 \begin{aligned}
-KM: MH &amp;= H'A': A'K, \text{ since } A'K = OA', \\
-&amp;&gt; H'M: MK.
+KM: MH &= H'A': A'K, \text{ since } A'K = OA', \\
+&> H'M: MK.
 \end{aligned}
 $$
 
 Therefore
 
 $$
-H'M. MH &lt; KM^3.
+H'M. MH < KM^3.
 $$
 
 It follows that
 
 $$
-H'M. MH: MH^2 &lt; KM^3: MH^2,
+H'M. MH: MH^2 < KM^3: MH^2,
 $$
 
 or
 
 $$
 \begin{aligned}
-H'M: MH &amp;&lt; KM^2: MH^2 \\
-&amp;&lt; A'M^2: AM^2, \text{ by (1)}.
+H'M: MH &< KM^2: MH^2 \\
+&< A'M^2: AM^2, \text{ by (1)}.
 \end{aligned}
 $$
 
 (b) Since $OA' = OA,$
 
 $$
-A'M. MA &lt; A'O. OA,
+A'M. MA < A'O. OA,
 $$
 
 or
 
 $$
 \begin{aligned}
-A'M: OA' &amp;&lt; OA: AM \\
-&amp;&lt; H'A': A'M, \text{ by means of (2)}.
+A'M: OA' &< OA: AM \\
+&< H'A': A'M, \text{ by means of (2)}.
 \end{aligned}
 $$
 
@@ -3224,8 +3224,8 @@ Therefore
 
 $$
 \begin{aligned}
-A'M^2 &amp;&lt; H'A'. OA' \\
-&amp;&lt; H'A'. A'K.
+A'M^2 &< H'A'. OA' \\
+&< H'A'. A'K.
 \end{aligned}
 $$
 
@@ -3261,31 +3261,31 @@ $$ H' A': A' K = H' N': N K' $$
 
 Now
 
-$$ H' M: M K &gt; H' N: N K. $$
+$$ H' M: M K > H' N: N K. $$
 
 Therefore
 
-$$ H' M': M K' &gt; H' A': A' K $$
+$$ H' M': M K' > H' A': A' K $$
 
-$$ &gt; H' A': O A' $$
+$$ > H' A': O A' $$
 
-$$ &gt; A' M: M A, \text{ by (2), as above,} $$
+$$ > A' M: M A, \text{ by (2), as above,} $$
 
-$$ &gt; O A' + A' M: M H, \text{ by (1)}, $$
+$$ > O A' + A' M: M H, \text{ by (1)}, $$
 
-$$ &gt; K M: M H. $$
+$$ > K M: M H. $$
 
 Hence
 
 $$ H' M': M H' = (H' M': M K'). (K M': M H') $$
 
-$$ &gt; (K M: M H). (K M': M H'). $$
+$$ > (K M: M H). (K M': M H'). $$
 
 It follows that
 
-$$ H' M: M H &gt; K M'^{\frac{3}{2}}: M H'^{\frac{3}{2}} $$
+$$ H' M: M H > K M'^{\frac{3}{2}}: M H'^{\frac{3}{2}} $$
 
-$$ &gt; A' M'^{\frac{5}{2}}: A M'^{\frac{3}{2}}, \text{ by (1).} $$
+$$ > A' M'^{\frac{5}{2}}: A M'^{\frac{3}{2}}, \text{ by (1).} $$
 
 [The text of Archimedes adds an alternative proof of this proposition, which is here omitted because it is in fact neither clearer nor shorter than the above.]
 
@@ -3303,8 +3303,8 @@ Suppose the surfaces of the segment $ABB'$ and of the hemisphere $DEE'$ to be eq
 
 Since the surfaces are equal, $AB = DE$. [I. 42, 43]
 
-Now, in Fig. 1, $AB^2 &gt; 2AM^2$ and $&lt; 2AO^2$,
-and, in Fig. 2, $AB^2 &lt; 2AM^2$ and $&gt; 2AO^2$.
+Now, in Fig. 1, $AB^2 > 2AM^2$ and $< 2AO^2$,
+and, in Fig. 2, $AB^2 < 2AM^2$ and $> 2AO^2$.
 
 Hence, if $R$ be taken on $AA'$ such that
 $$
@@ -3328,7 +3328,7 @@ Again, produce $CD$ to $F$ so that $CD = DF$, and the cone $FEE'$ will be equal 
 
 Now
 $$
-AR \cdot RA' &gt; AM \cdot MA',
+AR \cdot RA' > AM \cdot MA',
 $$
 and
 $$
@@ -3337,34 +3337,34 @@ $$
 
 Hence
 
-$$AR.RA' + RA^2 &gt; AM.MA' + AM.A'K,$$
+$$AR.RA' + RA^2 > AM.MA' + AM.A'K,$$
 
 or
 
-$$AA'.AR &gt; AM.MK$$
+$$AA'.AR > AM.MK$$
 
-$$&gt; HM.A'M, \text{ by (1).}$$
+$$> HM.A'M, \text{ by (1).}$$
 
 Therefore
 
-$$AA': A'M &gt; HM: AR,$$
+$$AA': A'M > HM: AR,$$
 
 or
 
-$$AB^2: BM^2 &gt; HM: AR,$$
+$$AB^2: BM^2 > HM: AR,$$
 
 i.e.
 
-$$AR^2: BM^2 &gt; HM: 2AR, \text{ since } AB^2 = 2AR^2,$$
+$$AR^2: BM^2 > HM: 2AR, \text{ since } AB^2 = 2AR^2,$$
 
-$$&gt; HM: CF.$$
+$$> HM: CF.$$
 
 Thus, since $AR = CD$, or $CE$,
 
-(circle on diam. $EE'$): (circle on diam. $BB'$) $&gt; HM: CF$.
+(circle on diam. $EE'$): (circle on diam. $BB'$) $> HM: CF$.
 
 It follows that
 
-$$(\text{the cone } FEE') &gt; (\text{the cone } HBB'),$$
+$$(\text{the cone } FEE') > (\text{the cone } HBB'),$$
 
 and therefore the hemisphere $DEE'$ is greater in volume than the segment $ABB'$.

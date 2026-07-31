@@ -338,7 +338,7 @@ watch their grouping, and we know nothing directly about them, but we may gain s
 
 **Stable Forms.**—The changes in the substance of the newly-fertilised ova of all animals, of which more is annually becoming known,¹ indicate segregations as well as aggregations, and it is reasonable to suppose that repulsions concur with affinities in producing them. We know nothing as yet of the nature of these affinities and repulsions, but we may expect them to act in great numbers and on all sides in a space of three dimensions, just as the personal likings and dis-
 
-¹ A valuable memoir on the state of our knowledge of these matters up to the end of 1887 is published in Vol. XIX. of the *Proceedings of the Philosophical Society of Glasgow*, and reprinted under the title of *The Modern Cell Theory, and Theories as to the Physiological Basis of Heredity*, by Prof. John Gray McKendrick, M.D., F.R.S., &amp;c. (R. Anderson, Glasgow, 1888.)
+¹ A valuable memoir on the state of our knowledge of these matters up to the end of 1887 is published in Vol. XIX. of the *Proceedings of the Philosophical Society of Glasgow*, and reprinted under the title of *The Modern Cell Theory, and Theories as to the Physiological Basis of Heredity*, by Prof. John Gray McKendrick, M.D., F.R.S., &c. (R. Anderson, Glasgow, 1888.)
 
 ---
 
@@ -373,7 +373,7 @@ The frequent combination of the same features in Landscape Scenery, justifies th
 
 are walking by the brookside, along the seashore, in the woods, or on the hills.
 
-Even in Cookery it seems difficult to invent a new and good dish, though the current recipes are few, and the proportions of the flour, sugar, butter, eggs, &amp;c., used in making them might be indefinitely varied and be still eatable. I consulted cookery books to learn the facts authoritatively, and found the following passage: “I have constantly kept in view the leading principles of this work, namely, to give in these domestic recipes the most exact quantities. . . . I maintain that one cannot be too careful; it is the only way to put an end to those approximations and doubts which will beset the steps of the inexperienced, and which account for so many people eating indifferent meals at home.”¹
+Even in Cookery it seems difficult to invent a new and good dish, though the current recipes are few, and the proportions of the flour, sugar, butter, eggs, &c., used in making them might be indefinitely varied and be still eatable. I consulted cookery books to learn the facts authoritatively, and found the following passage: “I have constantly kept in view the leading principles of this work, namely, to give in these domestic recipes the most exact quantities. . . . I maintain that one cannot be too careful; it is the only way to put an end to those approximations and doubts which will beset the steps of the inexperienced, and which account for so many people eating indifferent meals at home.”¹
 
 It is the triteness of these experiences that makes the most varied life monotonous after a time, and many old men as well as Solomon have frequent occasion to lament that there is nothing new under the sun.
 
@@ -548,7 +548,7 @@ the one required. For example: let us suppose the Strength of Pull of a man to h
 
 iv.] SCHEMES OF DISTRIBUTION AND OF FREQUENCY. 41
 
-position will be exactly Middlemost, after the Strengths of all the men in the group have been marshalled in the order of their magnitudes. In other words, he is of mediocre strength. The accepted term to express the value that occupies the Middlemost position is “Median,” which may be used either as an adjective or as a substantive, but it will be usually replaced in this book by the abbreviated form M. I also use the word “Mid” in a few combinations, such as “Mid-Fraternity,” to express the same thing. The Median, M, has three properties. The first follows immediately from its construction, namely, that the chance is an equal one, of any previously unknown measure in the group exceeding or falling short of M. The second is, that the most probable value of any previously unknown measure in the group is M. Thus if N be any one of the measures, and u be the value of the unit in which the measure is recorded, such as an inch, tenth of an inch, &amp;c., then the number of measures that fall between (N − ½u) and (N + ½u), is greatest when N = M. Mediocrity is always the commonest condition, for reasons that will become apparent later on. The third property is that whenever the curve of the Scheme is symmetrically disposed on either side of M, except that one half of it is turned upwards, and the other half downwards, then M is identical with the ordinary Arithmetic Mean or Average. This is closely the condition of all the curves I have to discuss. The reader may look on the Median and on the Mean as being practically the same things, throughout this book.
+position will be exactly Middlemost, after the Strengths of all the men in the group have been marshalled in the order of their magnitudes. In other words, he is of mediocre strength. The accepted term to express the value that occupies the Middlemost position is “Median,” which may be used either as an adjective or as a substantive, but it will be usually replaced in this book by the abbreviated form M. I also use the word “Mid” in a few combinations, such as “Mid-Fraternity,” to express the same thing. The Median, M, has three properties. The first follows immediately from its construction, namely, that the chance is an equal one, of any previously unknown measure in the group exceeding or falling short of M. The second is, that the most probable value of any previously unknown measure in the group is M. Thus if N be any one of the measures, and u be the value of the unit in which the measure is recorded, such as an inch, tenth of an inch, &c., then the number of measures that fall between (N − ½u) and (N + ½u), is greatest when N = M. Mediocrity is always the commonest condition, for reasons that will become apparent later on. The third property is that whenever the curve of the Scheme is symmetrically disposed on either side of M, except that one half of it is turned upwards, and the other half downwards, then M is identical with the ordinary Arithmetic Mean or Average. This is closely the condition of all the curves I have to discuss. The reader may look on the Median and on the Mean as being practically the same things, throughout this book.
 
 ---
 
@@ -593,7 +593,7 @@ Data for Eighteen Schemes.—Sufficient data for reconstructing any Scheme, with
 
 A series of Schemes that express the distribution of various faculties, is valuable in an anthropometric laboratory, for they enable every person who is measured to find his Rank or Grade in each of them.
 
-Diagrams may also be constructed by drawing parallel lines, each divided into 100 Grades, and entering each round number of inches, lbs., &amp;c., at their proper places. A diagram of this kind is very convenient for reference, but it does not admit of being printed; it must be drawn or lithographed. I have constructed one of these
+Diagrams may also be constructed by drawing parallel lines, each divided into 100 Grades, and entering each round number of inches, lbs., &c., at their proper places. A diagram of this kind is very convenient for reference, but it does not admit of being printed; it must be drawn or lithographed. I have constructed one of these
 Digitized by Google
 
 ---
@@ -663,7 +663,7 @@ Suppose that we have only two Schemes, A. and B., that we wish to compare. Let $
 
 v.] NORMAL VARIABILITY. 53
 
-selected Grades will be always those of $25^\circ$ and $75^\circ$. They stand at the first and third quarterly divisions of the base, and are therefore easily found by a pair of compasses. They are also well placed to afford a fair criterion of the general slope of the Curve. If we call the perpendicular at $25^\circ$, $Q_{.1}$; and that at $75^\circ$, $Q_{.2}$, then the unit by which every Scheme will be defined is its value of $\frac{1}{2}(Q_{.2} - Q_{.1})$, and will be called its $Q$. As the $M$ measures the Average Height of the curved boundary of a Scheme, so the $Q$ measures its general slope. When we wish to transform many different Schemes, numbered I., II., III., &amp;c., whose respective values of $Q$ are $q_1$, $q_2$, $q_3$, &amp;c., to others whose values of $Q$ are in each case equal to $q_0$, then all the data from which Scheme I. was drawn, must be multiplied by $\frac{q_0}{q_1}$; those from which Scheme II. was drawn, by $\frac{q_0}{q_2}$, and so on, and new Schemes have to be constructed from these transmuted values.
+selected Grades will be always those of $25^\circ$ and $75^\circ$. They stand at the first and third quarterly divisions of the base, and are therefore easily found by a pair of compasses. They are also well placed to afford a fair criterion of the general slope of the Curve. If we call the perpendicular at $25^\circ$, $Q_{.1}$; and that at $75^\circ$, $Q_{.2}$, then the unit by which every Scheme will be defined is its value of $\frac{1}{2}(Q_{.2} - Q_{.1})$, and will be called its $Q$. As the $M$ measures the Average Height of the curved boundary of a Scheme, so the $Q$ measures its general slope. When we wish to transform many different Schemes, numbered I., II., III., &c., whose respective values of $Q$ are $q_1$, $q_2$, $q_3$, &c., to others whose values of $Q$ are in each case equal to $q_0$, then all the data from which Scheme I. was drawn, must be multiplied by $\frac{q_0}{q_1}$; those from which Scheme II. was drawn, by $\frac{q_0}{q_2}$, and so on, and new Schemes have to be constructed from these transmuted values.
 
 Our $Q$ has the further merit of being practically the same as the value which mathematicians call the “Probable Error,” of which we shall speak further on.
 
@@ -673,7 +673,7 @@ Want of space in Table 2 prevented the insertion of the measures at the Grades $
 
 54 NATURAL INHERITANCE. [CHAP.
 
-These are not identical in value, because the outline of the Scheme is a curved and not a straight line, but the difference between them is small, and is approximately the same in all Schemes. It will shortly be seen that $$Q' = 1.015 \times Q$$ approximately; therefore a series of Deviations measured in terms of the large unit $$Q$$ are numerically smaller than if they had been measured in terms of the small unit (for the same reason that the numerals in 2, 3, &amp;c., *feet* are smaller than those in the corresponding values of 24, 36, &amp;c., *inches*), and they must be multiplied by 1.015 when it is desired to change them into a series having the smaller value of $$Q$$ for their unit.
+These are not identical in value, because the outline of the Scheme is a curved and not a straight line, but the difference between them is small, and is approximately the same in all Schemes. It will shortly be seen that $$Q' = 1.015 \times Q$$ approximately; therefore a series of Deviations measured in terms of the large unit $$Q$$ are numerically smaller than if they had been measured in terms of the small unit (for the same reason that the numerals in 2, 3, &c., *feet* are smaller than those in the corresponding values of 24, 36, &c., *inches*), and they must be multiplied by 1.015 when it is desired to change them into a series having the smaller value of $$Q$$ for their unit.
 
 All the 18 Schemes of Deviation that can be derived from Table 2 have been treated on these principles, and the results are given in Table 3. Their general accordance with one another, and still more with the mean of all of them, is obvious.
 
@@ -898,7 +898,7 @@ sisters (if any) of each of those ancestors. (Importance will be attached both t
 
 “The Extracts must be legibly entered either in the tabular forms contained in the copy of the ‘Record of Family Faculties’ (into which, if more space is wanted, additional pages may be stitched), or they may be written in any other book with pages of the same size as those of the Record, provided that the information be arranged in the same tabular form and order. (It will be obvious that uniformity in the arrangement of documents is of primary importance to those who examine and collate a large number of them.)
 
-“Each competitor must furnish the name and address of a referee of good social standing (magistrate, clergyman, lawyer, medical practitioner, &amp;c.), who is personally acquainted with his family, and of whom inquiry may be made, if desired, as to the general trustworthiness of the competitor.
+“Each competitor must furnish the name and address of a referee of good social standing (magistrate, clergyman, lawyer, medical practitioner, &c.), who is personally acquainted with his family, and of whom inquiry may be made, if desired, as to the general trustworthiness of the competitor.
 
 “The Extracts must be sent prepaid and by post, addressed to Francis Galton, 42 Rutland Gate, London, S.W. It will be convenient if the letters ‘R.F.F.’ (Record of Family Faculties) be written in the left-hand corner of the parcel, below the address.
 
@@ -1440,7 +1440,7 @@ that law is expressed, that the relation between $yy'$ and $x$ is also governed 
 
 It might well be that natural selection would favour the indefinite increase of numerous separate faculties, if their improvement could be effected without detriment to the rest; then, mediocrity in that faculty would not be the safest condition. Thus an increase of fleetness would be a clear gain to an animal liable to be hunted by beasts of prey, if no other useful faculty was thereby diminished.
 
-But a too free use of this “if” would show a jaunty disregard of a real difficulty. Organisms are so knit together that change in one direction involves change in many others; these may not attract attention, but they are none the less existent. Organisms are like ships of war constructed for a particular purpose in warfare, as cruisers, line of battle ships, &amp;c., on the principle of obtaining the utmost efficiency for their special purpose. The result is a compromise between a variety of conflicting desiderata, such as cost, speed, accommodation, stability, weight of guns, thickness of armour, quick steering power, and so on. It is hardly possible in a ship of any long established type to make an improvement in any one of these respects, without a sacrifice in other directions. If the fleetness is increased, the engines must be larger, and more space must be given up to coal, and this diminishes the remaining
+But a too free use of this “if” would show a jaunty disregard of a real difficulty. Organisms are so knit together that change in one direction involves change in many others; these may not attract attention, but they are none the less existent. Organisms are like ships of war constructed for a particular purpose in warfare, as cruisers, line of battle ships, &c., on the principle of obtaining the utmost efficiency for their special purpose. The result is a compromise between a variety of conflicting desiderata, such as cost, speed, accommodation, stability, weight of guns, thickness of armour, quick steering power, and so on. It is hardly possible in a ship of any long established type to make an improvement in any one of these respects, without a sacrifice in other directions. If the fleetness is increased, the engines must be larger, and more space must be given up to coal, and this diminishes the remaining
 
 ---
 
@@ -1457,7 +1457,7 @@ vii.] DISCUSSION OF THE DATA OF STATURE. 125
 
 The value of the M of a small Fraternity may be much affected by the addition or subtraction even of a single member, it may therefore be called the apparent M, to be distinguished from the true M, from which its members would be found to be dispersed, if there had been many more of them. The apparent M approximates towards the true M as the Fraternity increases in size, though at a much slower rate. We have now somehow to get at this true M. For distinction and for brevity let us call the apparent M of any small Fraternity (MF'), and that of the corresponding true M (MF). Then (MF) may be deduced from (MF') as follows:—
 
-We will begin by allowing ourselves for the moment to imagine the existence of an exceedingly large Fraternity, far more numerous than is physiologically possible, and to suppose that its members vary among themselves just as widely, neither more nor less so, than in the small Fraternities of real life. The (MF') of our large ideal Fraternity will therefore be identical with its (MF), and its Q will be the same as b. Next, take at random out of this huge ideal Fraternity a large number of small samples, each consisting of the same number, n, of brothers, and call the apparent Mid-values in the several samples, (MF'₁), (MF'₂), &amp;c. It can easily be shown that (MF'₁), (MF'₂), &amp;c., will be so distributed about the common centre of (MF), that the Prob. Deviation of any one of them from it, that is to say, the Q of their system will = b × ½ₙ. If n = 1, then the Prob. Deviation becomes b, as it should. If n = 2, the Prob.
+We will begin by allowing ourselves for the moment to imagine the existence of an exceedingly large Fraternity, far more numerous than is physiologically possible, and to suppose that its members vary among themselves just as widely, neither more nor less so, than in the small Fraternities of real life. The (MF') of our large ideal Fraternity will therefore be identical with its (MF), and its Q will be the same as b. Next, take at random out of this huge ideal Fraternity a large number of small samples, each consisting of the same number, n, of brothers, and call the apparent Mid-values in the several samples, (MF'₁), (MF'₂), &c. It can easily be shown that (MF'₁), (MF'₂), &c., will be so distributed about the common centre of (MF), that the Prob. Deviation of any one of them from it, that is to say, the Q of their system will = b × ½ₙ. If n = 1, then the Prob. Deviation becomes b, as it should. If n = 2, the Prob.
 
 ---
 
@@ -1479,7 +1479,7 @@ vii.] DISCUSSION OF THE DATA OF STATURE. 127
 
 four independent values of $b$, which are respectively 1·01, 1·01, 1·20, and 1·08; the mean of these is 1·07.
 
-**Second Method**: from the mean value of Fraternal Regression:—We may look on the Population as composed of a system of Fraternities. Call their respective true centres (see last paragraph) $(\mathbf{MF}_1)$, $(\mathbf{MF}_2)$, &amp;c. These will be distributed about $\mathbf{P}$ with an as yet unknown Prob. Deviation, that we will call $c$. The individual members of each Fraternity will of course be distributed from their own (MF) with a $\mathbf{Q}$ equal to $b$.
+**Second Method**: from the mean value of Fraternal Regression:—We may look on the Population as composed of a system of Fraternities. Call their respective true centres (see last paragraph) $(\mathbf{MF}_1)$, $(\mathbf{MF}_2)$, &c. These will be distributed about $\mathbf{P}$ with an as yet unknown Prob. Deviation, that we will call $c$. The individual members of each Fraternity will of course be distributed from their own (MF) with a $\mathbf{Q}$ equal to $b$.
 
 Then $(1\cdot 7)^2 = c^2 +b^2$ (1)
 
@@ -1583,7 +1583,7 @@ heritages that blend and those that are mutually exclusive, must be here borne i
 
 ## Separate Contribution of each Ancestor.
 
-In making the statement that Mid-Parents whose Stature is $P \pm D$ have children whose average stature is $P \pm \frac{2}{3}D$, it is supposed that no separate account has been taken of the previous ancestry. Yet though nothing may be known of them, something is tacitly implied and has been tacitly allowed for, and this requires to be eliminated before we can learn the amount of the Parental bequest, pure and simple. What that something is, we must now try to discover. When speaking of converse Regression, it was shown that a peculiarity in a Man implied a peculiarity of $\frac{1}{3}$ of that amount in his Mid-Parent. Call the peculiarity of the Mid-Parent D, then the implied peculiarity of the Mid-Parent of the Mid-Parent, that is of the Mid-Grand-Parent of the Man, would on the above supposition be $\frac{1}{3}D$, that of the Mid-Great-Grand-Parent would be $\frac{1}{6}D$, and so on. Hence the total bequeathable property would amount to $D(1 + \frac{1}{3} + \frac{1}{6} + \&amp;c.) = D\frac{3}{2}$.
+In making the statement that Mid-Parents whose Stature is $P \pm D$ have children whose average stature is $P \pm \frac{2}{3}D$, it is supposed that no separate account has been taken of the previous ancestry. Yet though nothing may be known of them, something is tacitly implied and has been tacitly allowed for, and this requires to be eliminated before we can learn the amount of the Parental bequest, pure and simple. What that something is, we must now try to discover. When speaking of converse Regression, it was shown that a peculiarity in a Man implied a peculiarity of $\frac{1}{3}$ of that amount in his Mid-Parent. Call the peculiarity of the Mid-Parent D, then the implied peculiarity of the Mid-Parent of the Mid-Parent, that is of the Mid-Grand-Parent of the Man, would on the above supposition be $\frac{1}{3}D$, that of the Mid-Great-Grand-Parent would be $\frac{1}{6}D$, and so on. Hence the total bequeathable property would amount to $D(1 + \frac{1}{3} + \frac{1}{6} + \&c.) = D\frac{3}{2}$.
 
 Do the bequests from each of the successive generations reach the child without any, or what, diminution by the way? I have not sufficient data to yield a direct reply, and must therefore try limiting suppositions.
 
@@ -1741,8 +1741,8 @@ is known with certainty of any of the ancestors of S except F. We have seen that
 
 $$
 \begin{aligned}
-&amp; \mathrm{D} \left\{ \frac{1}{4} + 2 \left( \frac{1}{3} \times \frac{1}{2^4} \right) + 4 \left( \frac{1}{9} + \frac{1}{2^3} \right) + \&amp;c. \right\} \\
-&amp; = \mathrm{D} \left\{ \frac{1}{2^2} + \frac{1}{2^2 \cdot 3} + \frac{1}{2^4 \cdot 3^2} + \&amp;c. \right\} = \mathrm{D} \times 0 \cdot 30.
+& \mathrm{D} \left\{ \frac{1}{4} + 2 \left( \frac{1}{3} \times \frac{1}{2^4} \right) + 4 \left( \frac{1}{9} + \frac{1}{2^3} \right) + \&c. \right\} \\
+& = \mathrm{D} \left\{ \frac{1}{2^2} + \frac{1}{2^2 \cdot 3} + \frac{1}{2^4 \cdot 3^2} + \&c. \right\} = \mathrm{D} \times 0 \cdot 30.
 \end{aligned}
 $$
 
@@ -1760,7 +1760,7 @@ The pair of columns headed I. in Table 18 shows the way of summing the chances t
 
 II. Eye-colours given of the four Grand Parents—
 
-Suppose D to be possessed by G₁ and that nothing whatever is known with certainty of any other ancestor of S. Then it has been shown that the child of G₁ (that is F) will possess $\frac{1}{3}$D ; that each of the two parents of G₁ (who stand in the relation of G₂ to S) will also possess $\frac{1}{3}$D ; that each of the four grandparents of G₁ (who stand in the relation of G₃ to S) will possess $\frac{1}{3}$D, and so on. Also it has been shown that the shares of their several peculiarities that will on the average be transmitted by F, G₁, G₂, &amp;c., are $\frac{1}{4}$, $\frac{1}{16}$, $\frac{1}{64}$, &amp;c.,
+Suppose D to be possessed by G₁ and that nothing whatever is known with certainty of any other ancestor of S. Then it has been shown that the child of G₁ (that is F) will possess $\frac{1}{3}$D ; that each of the two parents of G₁ (who stand in the relation of G₂ to S) will also possess $\frac{1}{3}$D ; that each of the four grandparents of G₁ (who stand in the relation of G₃ to S) will possess $\frac{1}{3}$D, and so on. Also it has been shown that the shares of their several peculiarities that will on the average be transmitted by F, G₁, G₂, &c., are $\frac{1}{4}$, $\frac{1}{16}$, $\frac{1}{64}$, &c.,
 
 ---
 
@@ -1770,8 +1770,8 @@ respectively. Hence the aggregate of the probable heritages from $G_1$ are expre
 
 $$
 \begin{array}{l}
-D \left\{ \frac{1}{3} \times \frac{1}{2^2} + 1 \times \frac{1}{2^4} + \frac{1}{3} \times 2 \times \frac{1}{2^6} + \frac{1}{9} \times 4 \times \frac{1}{2^8} + \&amp;c. \right\} \\
-= D \left\{ \frac{1}{12} + \left( \frac{1}{2^4} + \frac{1}{3 \times 2^5} + \frac{1}{3^2 \times 2^6} + \&amp;c. \right) \right\} = D \times \left( \frac{1}{12} + \frac{3}{40} \right) = D \times 0.16.
+D \left\{ \frac{1}{3} \times \frac{1}{2^2} + 1 \times \frac{1}{2^4} + \frac{1}{3} \times 2 \times \frac{1}{2^6} + \frac{1}{9} \times 4 \times \frac{1}{2^8} + \&c. \right\} \\
+= D \left\{ \frac{1}{12} + \left( \frac{1}{2^4} + \frac{1}{3 \times 2^5} + \frac{1}{3^2 \times 2^6} + \&c. \right) \right\} = D \times \left( \frac{1}{12} + \frac{3}{40} \right) = D \times 0.16.
 \end{array}
 $$
 
@@ -1933,7 +1933,7 @@ It is most desirable as a preliminary to more minute inquiries, that the causes 
 ---
 
 166 NATURAL INHERITANCE. [CHAP.
-ceding chapters. There are a certain number of recognized groups of disease, which we may call A, B, C, &amp;c., and the proportion of persons who die of these diseases in each of the two generations is the same. The preliminary question to be determined is whether and to what extent those who die of A in the second generation, are more or less often descended from those who died of A in the first generation, than would have been the case if disease were neither hereditarily transmitted nor clung to the same families for any other reason. Similarly as regards B, C, D, and the rest.
+ceding chapters. There are a certain number of recognized groups of disease, which we may call A, B, C, &c., and the proportion of persons who die of these diseases in each of the two generations is the same. The preliminary question to be determined is whether and to what extent those who die of A in the second generation, are more or less often descended from those who died of A in the first generation, than would have been the case if disease were neither hereditarily transmitted nor clung to the same families for any other reason. Similarly as regards B, C, D, and the rest.
 
 This inquiry would be more difficult than those hitherto attempted, because longevity and fertility are both affected by the state of health, and the circumstances of home life and occupation have a great effect in causing and in checking disease. Also because the father and mother are found in some notable cases to contribute disease in very different degrees to their male and female descendants.
 
@@ -2617,7 +2617,7 @@ NATURAL INHERITANCE.
 |  Totals ... | 5 | 7 | 32 | 59 | 48 | 117 | 138 | 120 | 167 | 99 | 64 | 41 | 17 | 14 | 928 | 205 |  |   |
 |  Medians ... | ... | ... | 66·3 | 67·8 | 67·9 | 67·7 | 67·9 | 68·3 | 68·5 | 69·0 | 69·0 | 70·0 |  |  |  |  |  |   |
 
-**Note.**—In calculating the medians, the entries have been taken as referring to the middle of the squares in which they stand. The reason why the headings run 62·2, 63·2, &amp;c., instead of 62·5, 63·5, &amp;c., is that the observations are unequally distributed between 62 and 63, 63 and 64, &amp;c., there being a strong bias in favour of integral inches. After careful consideration, I concluded that the headings, as adopted, best satisfied the conditions. This inequality was not apparent in the case of the mid-parents.
+**Note.**—In calculating the medians, the entries have been taken as referring to the middle of the squares in which they stand. The reason why the headings run 62·2, 63·2, &c., instead of 62·5, 63·5, &c., is that the observations are unequally distributed between 62 and 63, 63 and 64, &c., there being a strong bias in favour of integral inches. After careful consideration, I concluded that the headings, as adopted, best satisfied the conditions. This inequality was not apparent in the case of the mid-parents.
 
 ¹ I have reprinted this Table without alteration from that published in the *Proc. Roy. Soc.*, notwithstanding a small blunder since discovered in sorting the entries between the first and second lines. It is obvious that 4 children cannot have 5 Mid-Parents. The first line is not considered at all, on account of the paucity of the numbers it contains. The bottom line, which looks suspicious, is correct.
 
@@ -2965,7 +2965,7 @@ Those marked with an asterisk (*) are reprinted with slight revision in the Appe
 NATURAL INHERITANCE.
 
 ## WORKS ON HEREDITY BY THE AUTHOR.
-(Published by Messrs. Macmillan &amp; Co.)
+(Published by Messrs. Macmillan & Co.)
 
 Hereditary Genius. 1869.
 English Men of Science. 1874.
@@ -3410,7 +3410,7 @@ APPENDIX E. 239
 
 arithmetical mean is more likely to be the true measurement than any other quantity that can be named.
 
-This assumption cannot be justified in vital phenomena. For example, suppose we endeavour to match a tint; Weber's law, in its approximative and simplest form, of Sensation varying as the logarithm of the Stimulus, tells us that a series of tints, in which the quantities of white scattered on a black ground are as 1, 2, 4, 8, 16, 32, &amp;c., will appear to the eye to be separated by equal intervals of tint. Therefore, in matching a grey that contains 8 portions of white, we are just as likely to err by selecting one that has 16 portions as one that has 4 portions. In the first case there would be an error in excess, of 8 units of absolute tint; in the second there would be an error in deficiency, of 4. Therefore, an error of the same magnitude in excess or in deficiency is not equally probable in the judgment of tints by the eye. Conversely, if two persons, who are equally good judges, describe their impressions of a certain tint, and one says that it contains 4 portions of white and the other that it contains 16 portions, the most reasonable conclusion is that it really contains 8 portions. The arithmetic mean of the two estimates is 10, which is not the most probable value; it is the geometric mean 8, $(4:8::8:16)$, which is the most probable.
+This assumption cannot be justified in vital phenomena. For example, suppose we endeavour to match a tint; Weber's law, in its approximative and simplest form, of Sensation varying as the logarithm of the Stimulus, tells us that a series of tints, in which the quantities of white scattered on a black ground are as 1, 2, 4, 8, 16, 32, &c., will appear to the eye to be separated by equal intervals of tint. Therefore, in matching a grey that contains 8 portions of white, we are just as likely to err by selecting one that has 16 portions as one that has 4 portions. In the first case there would be an error in excess, of 8 units of absolute tint; in the second there would be an error in deficiency, of 4. Therefore, an error of the same magnitude in excess or in deficiency is not equally probable in the judgment of tints by the eye. Conversely, if two persons, who are equally good judges, describe their impressions of a certain tint, and one says that it contains 4 portions of white and the other that it contains 16 portions, the most reasonable conclusion is that it really contains 8 portions. The arithmetic mean of the two estimates is 10, which is not the most probable value; it is the geometric mean 8, $(4:8::8:16)$, which is the most probable.
 
 Precisely the same condition characterises every determination by each of the senses; for example, in judging of the weight of bodies or of their temperatures, of the loudness and of the pitches of tones, and of estimates of lengths and distances as wholes. Thus, three rods of the lengths $a$, $b$, $c$, when taken successively in the hand, appear to differ by equal intervals when $a:b::b:c$, and not when $a-b=b-c$. In all physiological phenomena, where there is on the one hand a stimulus and on the other a response to that stimulus Weber's or some other geometric law may be assumed to prevail in other words, the true mean is geometric rather than arithmetic.
 
@@ -3439,7 +3439,7 @@ The decay of the families of men who occupied conspicuous positions in past time
 
 ¹ Reprinted, with slight revision, from the Journ. Anthropol. Inst. 1888.
 
-² “Au milieu des renseignements précis et des opinions très-sensées de MM. Benoiston de Châteauneuf, Galton, et autres statisticiens, je n’ai pas rencontré la réflexion bien importante qu’ils auraient dû faire de l’extinction inévitable des noms de famille. Évidemment tous les noms doivent s’éteindre . . . . Un mathématicien pourrait calculer comment la réduction des noms ou titres aurait lieu, d’après la probabilité des naissances toutes féminines ou toutes masculines ou mélangées et la probabilité d’absence de naissances dans un couple quelconque,” &amp;c.—ALPHONSE DE CANDOLLE, Histoire des Sciences et des Savants, 1873.
+² “Au milieu des renseignements précis et des opinions très-sensées de MM. Benoiston de Châteauneuf, Galton, et autres statisticiens, je n’ai pas rencontré la réflexion bien importante qu’ils auraient dû faire de l’extinction inévitable des noms de famille. Évidemment tous les noms doivent s’éteindre . . . . Un mathématicien pourrait calculer comment la réduction des noms ou titres aurait lieu, d’après la probabilité des naissances toutes féminines ou toutes masculines ou mélangées et la probabilité d’absence de naissances dans un couple quelconque,” &c.—ALPHONSE DE CANDOLLE, Histoire des Sciences et des Savants, 1873.
 
 R
 
@@ -3615,7 +3615,7 @@ $$
 
 that is where $y = 1$.
 
-All the surnames, therefore, tend to extinction in an indefinite time, and this result might have been anticipated generally, for a surname once lost can never be recovered, and there is an additional chance of loss in every successive generation. This result must not be confounded with that of the extinction of the male population; for in every binomial case where $q$ is greater than 2, we have $t_1 + 2t_2 + \text{etc.} + qt_q &gt; 1$, and, therefore an indefinite increase of male population.
+All the surnames, therefore, tend to extinction in an indefinite time, and this result might have been anticipated generally, for a surname once lost can never be recovered, and there is an additional chance of loss in every successive generation. This result must not be confounded with that of the extinction of the male population; for in every binomial case where $q$ is greater than 2, we have $t_1 + 2t_2 + \text{etc.} + qt_q > 1$, and, therefore an indefinite increase of male population.
 
 The true interpretation is that each of the quantities, $m_1$, $m_2$, etc., tends to become zero, as $r$ is indefinitely increased, but that it does not follow that the product of each by the infinitely large number $N$ is also zero.
 
@@ -3645,7 +3645,7 @@ of Family Faculties. This will now be briefly described again. Each kinsman can 
 
 As regards the letters, F stands for Father and M for Mother, whenever no letter succeeds them; otherwise they stand for Father's and for Mother's respectively. Thus F is Father; FM is Father's Mother; FMF is Father's Mother's Father.
 
-As regards the principle upon which the numbers are assigned, arithmeticians will understand me when I say that it is in accordance with the binary system of notation, which runs parallel to the binary distribution of the successive ranks of ancestry, as two parents, four grandparents, eight great-grandparents, and so on. The “subject” of the pedigree is of generation O; that of his parents, of generation 1; that of his grandparents, of generation 2, &amp;c. This is clearly shown in the following table:—
+As regards the principle upon which the numbers are assigned, arithmeticians will understand me when I say that it is in accordance with the binary system of notation, which runs parallel to the binary distribution of the successive ranks of ancestry, as two parents, four grandparents, eight great-grandparents, and so on. The “subject” of the pedigree is of generation O; that of his parents, of generation 1; that of his grandparents, of generation 2, &c. This is clearly shown in the following table:—
 
 |  Kinship. | Order of Generation. | Numerical Values |   |   |   | in Decimal Notation.  |   |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3900,7 +3900,7 @@ Music, 155, 158
 Geometric Mean, 118, Appendix E, 238
 Gouffé, cookery book, 24
 Governments, 22
-Grades, 37, 40 ; of modulus, mean error, &amp;c., 57
+Grades, 37, 40 ; of modulus, mean error, &c., 57
 Grove battery, 31
 
 Natural, its meaning, 4 ; natural selection, 32, 119
@@ -4034,4 +4034,4 @@ Prepared by the direction of the Collective Investigation Committee of the Briti
 
 4to. 3s. 6d. Or, with Cards of Wools for Testing Colour Vision, 4s. 6d.
 
-MACMILLAN &amp; CO., LONDON.
+MACMILLAN & CO., LONDON.

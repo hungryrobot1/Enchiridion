@@ -136,11 +136,11 @@ Magnificoes of Venice, Officers of the Court of Justice, Gaoler, Servants, and o
 
 SCENE.—Partly at VENICE; and partly at BELMONT, the Seat of PORTIA, on the Continent.
 
-THE SCENERY Painted by Mr. GRIEVE and Mr. TELBIN, Assisted by Mr. W. GORDON, Mr. F. LLOYDS, Mr. CUTHBERT, Mr. DAYES, &amp;c.
+THE SCENERY Painted by Mr. GRIEVE and Mr. TELBIN, Assisted by Mr. W. GORDON, Mr. F. LLOYDS, Mr. CUTHBERT, Mr. DAYES, &c.
 
 THE MUSIC under the direction of Mr. J.L. HATTON.
 
-THE DECORATIONS &amp; APPOINTMENTS by Mr. E.W. BRADWELL.
+THE DECORATIONS & APPOINTMENTS by Mr. E.W. BRADWELL.
 
 The DRESSES by Mrs. and Miss HOGGINS.
 
@@ -184,7 +184,7 @@ THE MERCHANT OF VENICE.
 
 ---
 
-Various groups of Nobles, Citizens, Merchants, Foreigners, Water-Carriers, Flower Girls, &amp;c., pass and repass. Procession of the Doge, in state, across the square.[1]
+Various groups of Nobles, Citizens, Merchants, Foreigners, Water-Carriers, Flower Girls, &c., pass and repass. Procession of the Doge, in state, across the square.[1]
 
 ANTONIO, SALARINO, and SALANIO come forward.
 
@@ -1706,7 +1706,7 @@ FOOTNOTES:
 
 [73]
 That many may be meant; Many modes of speech were familiar in Shakespeare's age that are now no longer used.
-"May be meant," id est, meaning by that, &amp;c.
+"May be meant," id est, meaning by that, &c.
 
 42
 
@@ -2337,11 +2337,11 @@ It may be doubted whether he quite strictly adhered to the requisite condition, 
 
 [90]
 
-The Duke cannot deny, &amp;c. As the reason here given seems a little perplex'd, it may be proper to explain it. If, says he, the duke stop the course of law, it will be attended with this inconvenience, that stranger merchants, by whom the wealth and power of this city is supported, will cry out of injustice. For the known stated law being their guide and security, they will never bear to have the current of it stopped on any pretence of equity whatsoever.—WARBURTON.
+The Duke cannot deny, &c. As the reason here given seems a little perplex'd, it may be proper to explain it. If, says he, the duke stop the course of law, it will be attended with this inconvenience, that stranger merchants, by whom the wealth and power of this city is supported, will cry out of injustice. For the known stated law being their guide and security, they will never bear to have the current of it stopped on any pretence of equity whatsoever.—WARBURTON.
 
 [91]
 
-For the commodity that strangers have With us in Venice, if it be denied, &amp;c. Id est, for the denial of those rights to strangers, which render their abode at Venice so commodious and agreeable to them, would much impeach the justice of the state. The consequence would be, that strangers would not reside or carry on traffick here; and the
+For the commodity that strangers have With us in Venice, if it be denied, &c. Id est, for the denial of those rights to strangers, which render their abode at Venice so commodious and agreeable to them, would much impeach the justice of the state. The consequence would be, that strangers would not reside or carry on traffick here; and the
 
 ---
 
@@ -3046,7 +3046,7 @@ But, say, it is my humour; The Jew being asked a question which the law does not
 
 "And they stand gaping like a roasted pig."
 
-A passage in one of Nashe's pamphlets (which perhaps furnished our author with his instance), may serve to confirm the observation: "The causes conducting unto wrath are as diverse as the actions of a man's life. Some will take on like a madman, if they see a pig come to the table. Sotericus, the surgeon, was cholerick at the sight of sturgeon," &amp;c. Pierce Pennylesse his Supplication to the Devil, 1592.—MALONE.
+A passage in one of Nashe's pamphlets (which perhaps furnished our author with his instance), may serve to confirm the observation: "The causes conducting unto wrath are as diverse as the actions of a man's life. Some will take on like a madman, if they see a pig come to the table. Sotericus, the surgeon, was cholerick at the sight of sturgeon," &c. Pierce Pennylesse his Supplication to the Devil, 1592.—MALONE.
 
 [102]
 
@@ -3148,7 +3148,7 @@ This epithet was in our poet's time more striking and better understood, because
 
 (D) This judgment is related by Gracian, the celebrated Spanish Jesuit, in his Hero, with a reflection at the conclusion of it;
 
-"The vivacity of that great Turke enters into competition with that of Solomon: a Jew pretended to cut an ounce of the flesh of a Christian upon a penalty of usury; he urged it to the Prince, with as much obstinacy, as perfidiousness towards God. The great Judge commanded a pair of scales to be brought, threatening the Jew with death if he cut either more or less: And this was to give a sharp decision to a malicious process, and to the world a miracle of subtilty."—The Hero, p. 24, &amp;c.
+"The vivacity of that great Turke enters into competition with that of Solomon: a Jew pretended to cut an ounce of the flesh of a Christian upon a penalty of usury; he urged it to the Prince, with as much obstinacy, as perfidiousness towards God. The great Judge commanded a pair of scales to be brought, threatening the Jew with death if he cut either more or less: And this was to give a sharp decision to a malicious process, and to the world a miracle of subtilty."—The Hero, p. 24, &c.
 
 Gregorio Leti, in his Life of Sixtus V., has a similar story. The papacy of Sixtus began in 1583. He died Aug. 29, 1590.—Steevens
 

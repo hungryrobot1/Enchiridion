@@ -47,7 +47,7 @@ Let any two adjacent sides, meeting in $A$, touch the circle at $P, Q$ respectiv
 Then [Assumptions, 2]
 
 $$
-PA + AQ &gt; (\operatorname{arc} PQ).
+PA + AQ > (\operatorname{arc} PQ).
 $$
 
 A similar inequality holds for each angle of the polygon; and, by addition, the required result follows.
@@ -70,16 +70,16 @@ $$
 EH: HG = AC: AF.
 $$
 
-But, since $AF &gt; D$ (or $CB$),
+But, since $AF > D$ (or $CB$),
 
 $$
-AC: AF &lt; AC: CB.
+AC: AF < AC: CB.
 $$
 
 Therefore, componendo,
 
 $$
-EG: GH &lt; AB: D.
+EG: GH < AB: D.
 $$
 
 Hence $EG$, $GH$ are two lines satisfying the given condition.
@@ -93,7 +93,7 @@ Let $A, B$ represent the given magnitudes, $A$ being the greater.
 Find [Prop. 2] two straight lines $F, KL$, of which $F$ is the greater, such that
 
 $$
-F: KL &lt; A: B \quad \text{(1)}.
+F: KL < A: B \quad \text{(1)}.
 $$
 
 ![img-1.jpeg](images/img-1.jpeg)
@@ -111,11 +111,11 @@ Join $NC$, which (by the construction) will be the side of a regular polygon ins
 Now, since
 
 $$
-\angle CON &lt; 2 \angle LKM,
+\angle CON < 2 \angle LKM,
 $$
 
 $$
-\angle HOC &lt; \angle LKM,
+\angle HOC < \angle LKM,
 $$
 
 and the angles at $H, L$ are right;
@@ -123,21 +123,21 @@ and the angles at $H, L$ are right;
 therefore
 
 $$
-MK:LK &gt; OC:OH
+MK:LK > OC:OH
 $$
 
 $$
 \begin{array}{l}
-&gt; OP:OH. \\
-\text{Hence} \quad ST:CN &lt; MK:LK \\
-&amp;&lt; F:LK;
+> OP:OH. \\
+\text{Hence} \quad ST:CN < MK:LK \\
+&< F:LK;
 \end{array}
 $$
 
 therefore, *a fortiori*, by (1),
 
 $$
-ST:CN &lt; A:B.
+ST:CN < A:B.
 $$
 
 Thus two polygons are found satisfying the given condition.
@@ -160,7 +160,7 @@ Let $A$ be the given circle and $B, C$ the given magnitudes, $B$ being the great
 
 ![img-5.jpeg](images/img-5.jpeg)
 
-Take two unequal straight lines $D$, $E$, of which $D$ is the greater, such that $D:E &lt; B:C$ [Prop. 2], and let $F$ be a mean proportional between $D$, $E$, so that $D$ is also greater than $F$.
+Take two unequal straight lines $D$, $E$, of which $D$ is the greater, such that $D:E < B:C$ [Prop. 2], and let $F$ be a mean proportional between $D$, $E$, so that $D$ is also greater than $F$.
 
 Describe (in the manner of Prop. 3) one polygon about the circle, and inscribe another in it, so that the side of the former has to the side of the latter a ratio less than the ratio $D:F$.
 
@@ -186,7 +186,7 @@ Let $A$ be the given circle and $B$ the given area.
 
 Now, there being two unequal magnitudes $A + B$ and $A$, let a polygon $(C)$ be circumscribed about the circle and a polygon $(I)$ inscribed in it [as in Prop. 5], so that
 
-$$ C : I &lt; A + B : A \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots (1). $$
+$$ C : I < A + B : A \quad \dots \dots \dots \dots \dots \dots \dots \dots \dots (1). $$
 
 The circumscribed polygon $(C)$ shall be that required.
 
@@ -194,15 +194,15 @@ For the circle $(A)$ is greater than the inscribed polygon $(I)$.
 
 Therefore, from (1), a fortiori,
 
-$$ C: A &lt; A + B: A, $$
+$$ C: A < A + B: A, $$
 
 whence
 
-$$ C &lt; A + B, $$
+$$ C < A + B, $$
 
 or
 
-$$ C - A &lt; B. $$
+$$ C - A < B. $$
 
 ## Proposition 7.
 
@@ -227,7 +227,7 @@ Draw a chord $AB$ in the circle, and join $OA$, $OB$. Bisect the arc $ACB$ in $C
 Then
 
 $$
-\triangle OAC + \triangle OBC &gt; \triangle OAB.
+\triangle OAC + \triangle OBC > \triangle OAB.
 $$
 
 ![img-7.jpeg](images/img-7.jpeg)
@@ -246,16 +246,16 @@ We have now two surfaces
 
 and, since the two surfaces have the same extremities (the perimeter of the triangle $OAC$), the former surface is greater than the latter, which is included by it [Assumptions, 3 or 4].
 
-Hence (surface $O A E C$) + (segment $A E C$) &gt; △ $O A C$.
+Hence (surface $O A E C$) + (segment $A E C$) > △ $O A C$.
 
-Similarly (surface $O C F B$) + (segment $C F B$) &gt; △ $O B C$.
+Similarly (surface $O C F B$) + (segment $C F B$) > △ $O B C$.
 
 Therefore, since $D$ is not less than the sum of the segments, we have, by addition,
 
 $$
 \begin{array}{l}
-\text{(surface } O A E C F B \text{)} + D &gt; △ O A C + △ O B C \\
-&gt; △ O A B + D, \text{ by hypothesis}.
+\text{(surface } O A E C F B \text{)} + D > △ O A C + △ O B C \\
+> △ O A B + D, \text{ by hypothesis}.
 \end{array}
 $$
 
@@ -270,17 +270,17 @@ Let $A G E$, $E H C$, $C K F$, $F L B$ be those segments, and join $O E$, $O F$.
 Then, as before,
 
 $$
-\text{(surface } O A G E \text{)} + \text{(segment } A G E \text{)} &gt; △ O A E
+\text{(surface } O A G E \text{)} + \text{(segment } A G E \text{)} > △ O A E
 $$
 
-and (surface $O E H C$) + (segment $E H C$) &gt; △ $O E C$.
+and (surface $O E H C$) + (segment $E H C$) > △ $O E C$.
 
 Therefore (surface $O A G H C$) + (segments $A G E$, $E H C$)
 
 $$
 \begin{array}{l}
-&gt; △ O A E + △ O E C \\
-&gt; △ O A C, \text{ a fortiori}.
+> △ O A E + △ O E C \\
+> △ O A C, \text{ a fortiori}.
 \end{array}
 $$
 
@@ -291,8 +291,8 @@ Hence, by addition,
 $$
 \begin{array}{l}
 \text{(surface } O A G E H C K F L B \text{)} + \text{(segments } A G E, E H C, C K F, F L B) \\
-&gt; △ O A C + △ O B C \\
-&gt; △ O A B + D, \text{ by hypothesis}.
+> △ O A C + △ O B C \\
+> △ O A B + D, \text{ by hypothesis}.
 \end{array}
 $$
 
@@ -309,13 +309,13 @@ Let $ECF$ be drawn touching the circle at $C$, the middle point of the arc $ACB$
 Then
 
 $$
-ED + DF &gt; EF,
+ED + DF > EF,
 $$
 
 and, adding $AE + FB$ to each side,
 
 $$
-AD + DB &gt; AE + EF + FB.
+AD + DB > AE + EF + FB.
 $$
 
 Now $OA$, $OC$, $OB$, being generators of the cone, are equal, and they are respectively perpendicular to the tangents at $A$, $C$, $B$.
@@ -325,7 +325,7 @@ Now $OA$, $OC$, $OB$, being generators of the cone, are equal, and they are resp
 It follows that
 
 $$
-\Delta OAD + \Delta ODB &gt; \Delta OAE + \Delta OEF + \Delta OFB.
+\Delta OAD + \Delta ODB > \Delta OAE + \Delta OEF + \Delta OFB.
 $$
 
 Let the area $G$ be equal to the excess of the first sum over the second.
@@ -347,7 +347,7 @@ That is, the surface of the pyramid exclusive of the face $OAB$ is greater than 
 Taking away the segment from each sum, we have
 
 $$
-\Delta OAE + \Delta OEF + \Delta OFB + L &gt; \text{the surface } OAHCKB.
+\Delta OAE + \Delta OEF + \Delta OFB + L > \text{the surface } OAHCKB.
 $$
 
 And $G$ is not less than $L$.
@@ -369,19 +369,19 @@ Let the remainders be those between the segment and the polygon $APQRSB$, and le
 Then, as before,
 
 $$
-\triangle OAE + \triangle OEF + \triangle OFB &gt; \triangle OAP + \triangle OPQ + \ldots + \triangle OSB.
+\triangle OAE + \triangle OEF + \triangle OFB > \triangle OAP + \triangle OPQ + \ldots + \triangle OSB.
 $$
 
 Also, as before,
 
 (surface of pyramid $OAPQRSB$ excluding the face $OAB$)
 
-&gt; the part $OACB$ of the surface of the cone together with the segment $ACB$.
+> the part $OACB$ of the surface of the cone together with the segment $ACB$.
 
 Taking away the segment from each sum,
 
 $$
-\triangle OAP + \triangle OPQ + \ldots + M &gt; \text{the part } OACB \text{ of the surface of the cone.}
+\triangle OAP + \triangle OPQ + \ldots + M > \text{the part } OACB \text{ of the surface of the cone.}
 $$
 
 Hence, a fortiori,
@@ -426,7 +426,7 @@ Then the circle $B$ shall be equal to the surface of the cylinder (excluding the
 
 For, if not, $B$ must be either greater or less than $S$.
 
-## I. Suppose $B &lt; S$.
+## I. Suppose $B < S$.
 
 Then it is possible to circumscribe a regular polygon about $B$, and to inscribe another in it, such that the ratio of the former to the latter is less than the ratio $S : B$.
 
@@ -446,10 +446,10 @@ Thus
 
 $$
 \begin{aligned}
-\triangle KDM : \text{(polygon about } B \text{)} &amp;= MD^2 : H^2 \\
-&amp;= MD^2 : CD \cdot EF \\
-&amp;= MD : NF \\
-&amp;= \triangle KDM : \triangle LFN \\
+\triangle KDM : \text{(polygon about } B \text{)} &= MD^2 : H^2 \\
+&= MD^2 : CD \cdot EF \\
+&= MD : NF \\
+&= \triangle KDM : \triangle LFN \\
 \text{(since } DK = FL\text{)}.
 \end{aligned}
 $$
@@ -458,25 +458,25 @@ Therefore (polygon about $B$) = $\triangle LFN$
 
 $$
 \begin{aligned}
-&amp;= \square EL \\
-&amp;= \text{(surface of prism about } A \text{),}
+&= \square EL \\
+&= \text{(surface of prism about } A \text{),}
 \end{aligned}
 $$
 
 from above.
 
-But (polygon about $B$) : (polygon in $B$) $&lt; S : B$.
+But (polygon about $B$) : (polygon in $B$) $< S : B$.
 
 Therefore
 
 $$
-(\text{surface of prism about } A): (\text{polygon in } B) &lt; S : B,
+(\text{surface of prism about } A): (\text{polygon in } B) < S : B,
 $$
 
 and, alternately,
 
 $$
-(\text{surface of prism about } A) : S &lt; (\text{polygon in } B) : B;
+(\text{surface of prism about } A) : S < (\text{polygon in } B) : B;
 $$
 
 which is impossible, since the surface of the prism is greater than $S$, while the polygon inscribed in $B$ is less than $B$.
@@ -487,12 +487,12 @@ $$
 B \nless S.
 $$
 
-II. Suppose $B &gt; S$.
+II. Suppose $B > S$.
 
 Let a regular polygon be circumscribed about $B$ and another inscribed in it so that
 
 $$
-(\text{polygon about } B) : (\text{polygon in } B) &lt; B : S.
+(\text{polygon about } B) : (\text{polygon in } B) < B : S.
 $$
 
 Inscribe in $A$ a polygon similar to that inscribed in $B$, and erect a prism on the polygon inscribed in $A$ of the same height as the cylinder.
@@ -502,7 +502,7 @@ Again, let $DK$, $FL$, drawn as before, be each equal to the perimeter of the po
 Then, in this case,
 
 $$
-\triangle KDM &gt; (\text{polygon inscribed in } A)
+\triangle KDM > (\text{polygon inscribed in } A)
 $$
 
 (since the perpendicular from the centre on a side of the polygon is less than the radius of $A$).
@@ -513,40 +513,40 @@ Now
 
 $$
 \begin{aligned}
-(\text{polygon in } A) : (\text{polygon in } B) &amp;= MD^2 : H^2, \\
-&amp;= \triangle KDM : \triangle LFN, \text{ as before.}
+(\text{polygon in } A) : (\text{polygon in } B) &= MD^2 : H^2, \\
+&= \triangle KDM : \triangle LFN, \text{ as before.}
 \end{aligned}
 $$
 
 And
 
 $$
-\triangle KDM &gt; (\text{polygon in } A).
+\triangle KDM > (\text{polygon in } A).
 $$
 
 Therefore
 
 $$
-\triangle LFN, \text{ or (surface of prism)} &gt; (\text{polygon in } B).
+\triangle LFN, \text{ or (surface of prism)} > (\text{polygon in } B).
 $$
 
 But this is impossible, because
 
 $$
 \begin{aligned}
-(\text{polygon about } B) : (\text{polygon in } B) &amp;&lt; B : S, \\
-&amp;&lt; (\text{polygon about } B) : S, \text{ a fortiori}, \\
+(\text{polygon about } B) : (\text{polygon in } B) &< B : S, \\
+&< (\text{polygon about } B) : S, \text{ a fortiori}, \\
 \end{aligned}
 $$
 
 so that
 
 $$
-(\text{polygon in } B) &gt; S,
+(\text{polygon in } B) > S,
 $$
 
 $$
-&gt; (\text{surface of prism}), \text{ a fortiori}.
+> (\text{surface of prism}), \text{ a fortiori}.
 $$
 
 Hence $B$ is neither greater nor less than $S$, and therefore
@@ -569,7 +569,7 @@ Then shall $B$ be equal to the surface of the cone (excluding the base), which w
 
 If not, $B$ must be either greater or less than $S$.
 
-## I. Suppose $B &lt; S$.
+## I. Suppose $B < S$.
 
 Let a regular polygon be described about $B$ and a similar one inscribed in it such that the former has to the latter a ratio less than the ratio $S : B$.
 
@@ -592,12 +592,12 @@ $$(\text{surface of pyramid}) = (\text{polygon about } B).$$
 Now
 
 $$
-(\text{polygon about } B): (\text{polygon in } B) &lt; S : B.
+(\text{polygon about } B): (\text{polygon in } B) < S : B.
 $$
 
 Therefore
 
-$$(\text{surface of pyramid}): (\text{polygon in } B) &lt; S : B,$$
+$$(\text{surface of pyramid}): (\text{polygon in } B) < S : B,$$
 
 which is impossible, (because the surface of the pyramid is greater than $S$, while the polygon in $B$ is less than $B$).
 
@@ -605,7 +605,7 @@ Hence
 
 $$B \nless S.$$
 
-II. Suppose $B &gt; S$.
+II. Suppose $B > S$.
 
 Take regular polygons circumscribed and inscribed to $B$ such that the ratio of the former to the latter is less than the ratio $B : S$.
 
@@ -618,19 +618,19 @@ $$(\text{polygon in } A): (\text{polygon in } B) = C^2 : E^2$$
 $$= C : D$$
 
 $$
-&gt; (\text{polygon in } A): (\text{surface of pyramid excluding base}).
+> (\text{polygon in } A): (\text{surface of pyramid excluding base}).
 $$
 
 This is clear because the ratio of $C$ to $D$ is greater than the ratio of the perpendicular from the centre of $A$ on a side of the polygon to the perpendicular from the apex of the cone on the same side*.
 
 Therefore
 
-$$(\text{surface of pyramid}) &gt; (\text{polygon in } B).$$
+$$(\text{surface of pyramid}) > (\text{polygon in } B).$$
 
 But
 
 $$
-(\text{polygon about } B): (\text{polygon in } B) &lt; B : S.
+(\text{polygon about } B): (\text{polygon in } B) < B : S.
 $$
 
 Therefore,
@@ -639,7 +639,7 @@ $$
 a \text{ fortiori},
 $$
 
-$$(\text{polygon about } B): (\text{surface of pyramid}) &lt; B : S;$$
+$$(\text{polygon about } B): (\text{surface of pyramid}) < B : S;$$
 
 which is impossible.
 
@@ -741,10 +741,10 @@ Then, since the base of $OAB$ is equal to the surface of $DEF$,
 
 $$
 \begin{aligned}
-&amp;= (\text{surface of } DEF): \text{ (base of } DEF) \\
-&amp;= DF: FG \quad \text{[Prop. 15]} \\
-&amp;= DG: GH, \text{ by similar triangles}, \\
-&amp;= DG: OC.
+&= (\text{surface of } DEF): \text{ (base of } DEF) \\
+&= DF: FG \quad \text{[Prop. 15]} \\
+&= DG: GH, \text{ by similar triangles}, \\
+&= DG: OC.
 \end{aligned}
 $$
 
@@ -798,10 +798,10 @@ $$
 
 $$
 \begin{aligned}
-&amp;= (\text{surface of } OAB): (\text{base of } OAB) \\
-&amp;= OB : BC \quad \text{[Prop. 15]} \\
-&amp;= OD : DE, \text{ by similar triangles}, \\
-&amp;= LP : FG, \text{ by hypothesis}.
+&= (\text{surface of } OAB): (\text{base of } OAB) \\
+&= OB : BC \quad \text{[Prop. 15]} \\
+&= OD : DE, \text{ by similar triangles}, \\
+&= LP : FG, \text{ by hypothesis}.
 \end{aligned}
 $$
 
@@ -1016,7 +1016,7 @@ $$
 $$
 
 $$
-&lt; AA'^2.
+< AA'^2.
 $$
 
 Therefore the surface of the inscribed figure, or the circle $R$, is less than four times the circle $AMA'M'$.
@@ -1093,11 +1093,11 @@ Let $R$ be a circle equal to the surface of the circumscribed solid.
 
 Now $(BB' + CC' + \ldots): AA' = A'B: BA$, [as in Prop. 21] so that $AB(BB' + CC' + \ldots) = AA'. A'B$.
 
-Hence $(\text{radius of } R) = \sqrt{AA'.A'B}$ [Prop. 29] $&gt; A'B$.
+Hence $(\text{radius of } R) = \sqrt{AA'.A'B}$ [Prop. 29] $> A'B$.
 
 But $A'B = 20P$, where $P$ is the point in which $AB$ touches the circle $ama'm'$.
 
-Therefore $(\text{radius of } R) &gt; (\text{diameter of circle } ama'm')$; whence $R$, and therefore the surface of the circumscribed solid, is greater than four times the great circle of the given sphere.
+Therefore $(\text{radius of } R) > (\text{diameter of circle } ama'm')$; whence $R$, and therefore the surface of the circumscribed solid, is greater than four times the great circle of the given sphere.
 
 ## Proposition 31.
 
@@ -1169,7 +1169,7 @@ Then, if $C$ is not equal to the surface of the sphere, it must either be less o
 I. Suppose $C$ less than the surface of the sphere.
 
 It is then possible to find two lines $ \beta, \gamma $, of which $ \beta$ is the greater, such that
-$$ \beta : \gamma &lt; \left( \text{surface of sphere} \right) : C. \quad \text{[Prop. 2]} $$
+$$ \beta : \gamma < \left( \text{surface of sphere} \right) : C. \quad \text{[Prop. 2]} $$
 
 Take such lines, and let $ \delta $ be a mean proportional between them.
 
@@ -1182,9 +1182,9 @@ Let the polygons with the circle revolve together about a diameter common to all
 Then (surface of outer solid): (surface of inner solid)
 $$
 \begin{aligned}
-&amp;= (\text{side of outer})^2 : (\text{side of inner})^2 \quad \text{[Prop. 32]} \\
-&amp;&lt; \beta^2 : \delta^2, \text{ or } \beta : \gamma \\
-&amp;&lt; (\text{surface of sphere}) : C, \text{ a fortiori}.
+&= (\text{side of outer})^2 : (\text{side of inner})^2 \quad \text{[Prop. 32]} \\
+&< \beta^2 : \delta^2, \text{ or } \beta : \gamma \\
+&< (\text{surface of sphere}) : C, \text{ a fortiori}.
 \end{aligned}
 $$
 
@@ -1196,7 +1196,7 @@ II. Suppose $C$ greater than the surface of the sphere.
 
 Take lines $\beta, \gamma$, of which $\beta$ is the greater, such that
 $$
-\beta : \gamma &lt; C : (\text{surface of sphere}).
+\beta : \gamma < C : (\text{surface of sphere}).
 $$
 
 Circumscribe and inscribe to the great circle similar regular polygons, as before, such that their sides are in a ratio less than that of $\beta$ to $\delta$, and suppose solids of revolution generated in the usual manner.
@@ -1206,7 +1206,7 @@ Then, in this case,
 $$
 \begin{array}{l}
 \text{(surface of circumscribed solid)} : \text{(surface of inscribed solid)} \\
-\quad &lt; C : \text{(surface of sphere)}.
+\quad < C : \text{(surface of sphere)}.
 \end{array}
 $$
 
@@ -1231,7 +1231,7 @@ Suppose $V$ to be a cone whose base is equal to four times the great circle and 
 Then, by hypothesis, the sphere is greater than $V$; and two lines $\beta, \gamma$ can be found (of which $\beta$ is the greater) such that
 
 $$
-\beta : \gamma &lt; \text{(volume of sphere)} : V.
+\beta : \gamma < \text{(volume of sphere)} : V.
 $$
 
 Between $\beta$ and $\gamma$ place two arithmetic means $\delta, \epsilon$.
@@ -1244,9 +1244,9 @@ Thus (vol. of outer solid): (vol. of inscribed solid)
 
 $$
 \begin{array}{l}
-&lt; \beta^{3}: \delta^{3}, \text{ by hypothesis}, \\
-&lt; \beta: \gamma, \text{ a fortiori (since } \beta: \gamma &gt; \beta^{3}: \delta^{3}), \\
-&lt; \text{ (volume of sphere) }: V, \text{ a fortiori}.
+< \beta^{3}: \delta^{3}, \text{ by hypothesis}, \\
+< \beta: \gamma, \text{ a fortiori (since } \beta: \gamma > \beta^{3}: \delta^{3}), \\
+< \text{ (volume of sphere) }: V, \text{ a fortiori}.
 \end{array}
 $$
 
@@ -1262,35 +1262,35 @@ $$
 \beta - \delta : \beta = \delta - x : \delta
 $$
 
-and, since $\beta &gt; \delta$, $\beta - \delta &gt; \delta - x$.
+and, since $\beta > \delta$, $\beta - \delta > \delta - x$.
 
 But, by hypothesis, $\beta - \delta = \delta - \epsilon$.
 
 Therefore
 
 $$
-\delta - \epsilon &gt; \delta - x,
+\delta - \epsilon > \delta - x,
 $$
 
 or
 
 $$
-x &gt; \epsilon.
+x > \epsilon.
 $$
 
 Again, suppose $\delta : x = x : y$,
 
-and, as before, we have $\delta - x &gt; x - y$,
+and, as before, we have $\delta - x > x - y$,
 
-so that, a fortiori, $\delta - \epsilon &gt; x - y$.
+so that, a fortiori, $\delta - \epsilon > x - y$.
 
 Therefore
 
 $$
-\epsilon - \gamma &gt; x - y;
+\epsilon - \gamma > x - y;
 $$
 
-and, since $x &gt; \epsilon$, $y &gt; \gamma$.
+and, since $x > \epsilon$, $y > \gamma$.
 
 Now, by hypothesis, $\beta, \delta, x, y$ are in continued proportion;
 
@@ -1301,7 +1301,7 @@ $$
 $$
 
 $$
-&lt; \beta : \gamma.
+< \beta : \gamma.
 $$
 
 solid is greater than that of the sphere [Prop. 28], while the volume of the inscribed solid is less than $V$ [Prop. 27].
@@ -1313,7 +1313,7 @@ II. If possible, let the sphere be less than $V$.
 In this case we take $\beta, \gamma$ ($\beta$ being the greater) such that
 
 $$
-\beta : \gamma &lt; V : \text{(volume of sphere)}.
+\beta : \gamma < V : \text{(volume of sphere)}.
 $$
 
 The rest of the construction and proof proceeding as before, we have finally
@@ -1321,7 +1321,7 @@ The rest of the construction and proof proceeding as before, we have finally
 (volume of outer solid) : (volume of inscribed solid)
 
 $$
-&lt; V : \text{(volume of sphere)}.
+< V : \text{(volume of sphere)}.
 $$
 
 But this is impossible, because the volume of the outer solid is greater than $V$ [Prop. 31, Cor.], and the volume of the inscribed solid is less than the volume of the sphere.
@@ -1400,7 +1400,7 @@ $$
 AB \left(BB' + CC' + \dots + KK' + LM\right).
 $$
 
-But this rectangle $\begin{array}{l} = A'B. \text{AM} \\ &lt; A'A. \text{AM} \\ &lt; AL' \end{array}$ [Prop. 22]
+But this rectangle $\begin{array}{l} = A'B. \text{AM} \\ < A'A. \text{AM} \\ < AL' \end{array}$ [Prop. 22]
 
 ![img-30.jpeg](images/img-30.jpeg)
 
@@ -1448,7 +1448,7 @@ The surface of the solid figure so circumscribed about the sector of the sphere 
 
 For draw the tangents $lT$, $l'T'$ to the inner segment at $l$, $l'$. These with the sides of the polygon will describe by their revolution a solid whose surface is greater than that of the segment [Assumptions, 4].
 
-But the surface described by the revolution of $lT$ is less than that described by the revolution of $LT$, since the angle $TlL$ is a right angle, and therefore $LT &gt; lT$.
+But the surface described by the revolution of $lT$ is less than that described by the revolution of $LT$, since the angle $TlL$ is a right angle, and therefore $LT > lT$.
 
 Hence, a fortiori, the surface described by $LK \ldots A \ldots K'L'$ is greater than that of the segment.
 
@@ -1476,7 +1476,7 @@ $$
 
 But this rectangle is equal to $A'B$. $AM$ [as in Prop. 22].
 
-Next, since $AL'$, $al'$ are parallel, the triangles $AML'$, $aml'$ are similar. And $AL' &gt; al'$; therefore $AM &gt; am$.
+Next, since $AL'$, $al'$ are parallel, the triangles $AML'$, $aml'$ are similar. And $AL' > al'$; therefore $AM > am$.
 
 Also
 $$
@@ -1484,7 +1484,7 @@ A'B = 2ON = aa'.
 $$
 Therefore
 $$
-A'B \cdot AM &gt; am \cdot aa' &gt; al''.
+A'B \cdot AM > am \cdot aa' > al''.
 $$
 
 Hence the surface of the solid figure circumscribed to the sector is greater than a circle whose radius is equal to $al'$, or $al$.
@@ -1555,12 +1555,12 @@ Let $R$ be a circle whose radius is equal to *al*. Then the surface of the segme
 
 ![img-35.jpeg](images/img-35.jpeg)
 
-I. Suppose, if possible, $S &gt; R$.
+I. Suppose, if possible, $S > R$.
 
 Let *lal'* be a segment of a great circle which is less than a semicircle. Join *Ol*, *Ol'*, and let similar polygons with $2n$ equal sides be circumscribed and inscribed to the sector, as in the previous propositions, but such that
 
 $$
-(\text{circumscribed polygon}): (\text{inscribed polygon}) &lt; S : R.
+(\text{circumscribed polygon}): (\text{inscribed polygon}) < S : R.
 $$
 
 [Prop. 6]
@@ -1571,10 +1571,10 @@ Then
 
 $$
 \begin{aligned}
-&amp; (\text{surface of outer solid}): (\text{surface of inner solid}) \\
-&amp; = AB^{\#} : ab^{\#} \quad \text{[Prop. 41]} \\
-&amp; = (\text{circumscribed polygon}): (\text{inscribed polygon}) \\
-&amp; &lt; S : R, \text{ by hypothesis}.
+& (\text{surface of outer solid}): (\text{surface of inner solid}) \\
+& = AB^{\#} : ab^{\#} \quad \text{[Prop. 41]} \\
+& = (\text{circumscribed polygon}): (\text{inscribed polygon}) \\
+& < S : R, \text{ by hypothesis}.
 \end{aligned}
 $$
 
@@ -1582,14 +1582,14 @@ But the surface of the outer solid is greater than $S$ [Prop. 39].
 
 Therefore the surface of the inner solid is greater than $R$; which is impossible, by Prop. 37.
 
-II. Suppose, if possible, $S &lt; R$.
+II. Suppose, if possible, $S < R$.
 
 In this case we circumscribe and inscribe polygons such that their ratio is less than $R : S$; and we arrive at the result that
 
 $$
 \begin{array}{l}
 \text{(surface of outer solid)} : \text{(surface of inner solid)} \\
-&lt; R : S.
+< R : S.
 \end{array}
 $$
 
@@ -1629,12 +1629,12 @@ Let $R$ be a cone whose base is equal to the surface of the segment $lal'$ of a 
 
 Then, if $S$ is not equal to $R$, it must be either greater or less.
 
-I. Suppose, if possible, that $S &gt; R$.
+I. Suppose, if possible, that $S > R$.
 
 Find two straight lines $\beta, \gamma$, of which $\beta$ is the greater, such that
 
 $$
-\beta : \gamma &lt; S : R;
+\beta : \gamma < S : R;
 $$
 
 and let $\delta, \epsilon$ be two arithmetic means between $\beta, \gamma$.
@@ -1649,22 +1649,22 @@ $$
 (V + \text{cone } OLL'): (v + \text{cone } Oll') = AB^2: ab^3 \quad [\text{Prop. 41}]
 $$
 $$
-&lt; \beta^3: \delta^3
+< \beta^3: \delta^3
 $$
 $$
-&lt; \beta: \gamma, \text{ a fortiori},
+< \beta: \gamma, \text{ a fortiori},
 $$
 $$
-&lt; S: R, \text{ by hypothesis.}
+< S: R, \text{ by hypothesis.}
 $$
 
 Now
 
 $$
-(V + \text{cone } OLL') &gt; S.
+(V + \text{cone } OLL') > S.
 $$
 
-Therefore also $(v + \text{cone } Oll') &gt; R$.
+Therefore also $(v + \text{cone } Oll') > R$.
 
 But this is impossible, by Prop. 38, Cor. combined with Props. 42, 43.
 
@@ -1674,12 +1674,12 @@ $$
 S \ngtr R.
 $$
 
-II. Suppose, if possible, that $S &lt; R$.
+II. Suppose, if possible, that $S < R$.
 
 In this case we take $\beta, \gamma$ such that
 
 $$
-\beta: \gamma &lt; R: S,
+\beta: \gamma < R: S,
 $$
 
 and the rest of the construction proceeds as before.
@@ -1687,19 +1687,19 @@ and the rest of the construction proceeds as before.
 We thus obtain the relation
 
 $$
-(V + \text{cone } OLL'): (v + \text{cone } Oll') &lt; R: S.
+(V + \text{cone } OLL'): (v + \text{cone } Oll') < R: S.
 $$
 
 Now
 
 $$
-(v + \text{cone } Oll') &lt; S.
+(v + \text{cone } Oll') < S.
 $$
 
 Therefore
 
 $$
-(V + \text{cone } OLL') &lt; R;
+(V + \text{cone } OLL') < R;
 $$
 
 which is impossible, by Prop. 40, Cor. 2 combined with Props. 42, 43.
@@ -1738,8 +1738,8 @@ Then, since in equal cylinders the heights and bases are reciprocally proportion
 
 $$
 \begin{aligned}
-AB^2 : EF^2 &amp;= CG : OD \\
-&amp;= EF : OD
+AB^2 : EF^2 &= CG : OD \\
+&= EF : OD
 \end{aligned}
 \tag{1}
 $$
@@ -1783,8 +1783,8 @@ Then, since
 
 $$
 \begin{aligned}
-AB : EF &amp;= EF : MN = MN : OD, \\
-EF^2 &amp;= AB \cdot MN,
+AB : EF &= EF : MN = MN : OD, \\
+EF^2 &= AB \cdot MN,
 \end{aligned}
 $$
 
@@ -1792,9 +1792,9 @@ and therefore
 
 $$
 \begin{aligned}
-AB^2 : EF^2 &amp;= AB : MN \\
-&amp;= EF : OD \\
-&amp;= CG : OD;
+AB^2 : EF^2 &= AB : MN \\
+&= EF : OD \\
+&= CG : OD;
 \end{aligned}
 $$
 
@@ -1882,8 +1882,8 @@ Again, since $H'M : MA' = OA + AM : AM$,
 
 $$
 \begin{aligned}
-H'A' : OA &amp;= A'M : MA \\
-&amp;= OA : AH, \text{ from above.}
+H'A' : OA &= A'M : MA \\
+&= OA : AH, \text{ from above.}
 \end{aligned}
 $$
 
@@ -1965,8 +1965,8 @@ $$
 
 $$
 \begin{aligned}
-&amp;= (\text{circle with radius } AB): (\text{circle with radius } A'B) \\
-&amp;= (\text{surface of segment } BAB'): (\text{surface of segment } BA'B').
+&= (\text{circle with radius } AB): (\text{circle with radius } A'B) \\
+&= (\text{surface of segment } BAB'): (\text{surface of segment } BA'B').
 \end{aligned}
 $$
 
@@ -2056,13 +2056,13 @@ $$
 
 $$ = AA'^2: A'M^2, \text{ by means of (6)} $$
 
-(c) To express the ratios $A'H': H'M$ and $HH': H'M$ more simply we make the following construction. Produce $OA$ to $D$ so that $OA = AD$. ($D$ will lie beyond $H$, for $A'M &gt; MA$, and therefore, by (5), $OA &gt; AH$.)
+(c) To express the ratios $A'H': H'M$ and $HH': H'M$ more simply we make the following construction. Produce $OA$ to $D$ so that $OA = AD$. ($D$ will lie beyond $H$, for $A'M > MA$, and therefore, by (5), $OA > AH$.)
 
 Then
 $$
 \begin{aligned}
-A'H': H'M &amp;= OA : OA + AM \\
-&amp;= AD : DM \quad \dots \dots \dots \dots \dots \dots \dots \tag{7}.
+A'H': H'M &= OA : OA + AM \\
+&= AD : DM \quad \dots \dots \dots \dots \dots \dots \dots \tag{7}.
 \end{aligned}
 $$
 
@@ -2074,9 +2074,9 @@ $$
 Thus, using equations (8), (7) and the value of $HH': H'A'$ above found, we have
 $$
 \begin{aligned}
-AD : DE &amp;= HH': H'M \\
-&amp;= (HH': H'A').(A'H': H'M) \\
-&amp;= (AA'^2 : A'M^2).(AD : DM).
+AD : DE &= HH': H'M \\
+&= (HH': H'A').(A'H': H'M) \\
+&= (AA'^2 : A'M^2).(AD : DM).
 \end{aligned}
 $$
 
@@ -2166,8 +2166,8 @@ $(\beta)$ Next we have
 
 $$
 \begin{aligned}
-H'A' : H'M &amp;= OA : OA + AM \\
-&amp;= AD : DM.
+H'A' : H'M &= OA : OA + AM \\
+&= AD : DM.
 \end{aligned}
 $$
 
@@ -2296,7 +2296,7 @@ Place $AC$ at right angles to $AB$. Join $CO$, and produce it to $R$. Draw $EBR$
 Then, since
 
 $$
-AC.D &lt; AO.OB^2,
+AC.D < AO.OB^2,
 $$
 
 measure $RQ'$ along $RQ$ so that
@@ -2383,7 +2383,7 @@ $AM:AC = D:MB^2$.
 
 It remains to be proved that, if $AB$ be divided at $O$ so that $BO = 2AO$, then $AO.OB^2$ is the maximum value of $AM.MB^2$,
 or
-$AO.OB^2 &gt; AM.MB^2$,
+$AO.OB^2 > AM.MB^2$,
 where $M$ is any point on $AB$ other than $O$.
 
 Suppose that $AO : AC = CE \cdot EL' : OB^2$,
@@ -2434,7 +2434,7 @@ $$ qR^2 = EL'.ER, $$
 so that
 
 $$
-QR^2 &lt; EL'.ER.
+QR^2 < EL'.ER.
 $$
 
 Suppose $QR^2 = EL.ER$,
@@ -2454,12 +2454,12 @@ $$ AM.MB^2 = CE.EL.AC. $$
 Therefore
 
 $$
-AM.MB^2 &lt; CE.EL'.AC
+AM.MB^2 < CE.EL'.AC
 $$
 
-$$ &lt; AO.OB^2. $$
+$$ < AO.OB^2. $$
 
-If $AC.D &lt; AO.OB^2$, there are two solutions because there will be two points of intersection between the parabola and the hyperbola.
+If $AC.D < AO.OB^2$, there are two solutions because there will be two points of intersection between the parabola and the hyperbola.
 
 For, if we draw with vertex $E$ and axis $EN$ a parabola whose parameter is equal to $EL$, the parabola will pass through the point $Q$ (see the last figure); and, since the parabola meets the diameter $CF$ beyond $Q$, it must meet the hyperbola again (which has $CF$ for its asymptote).
 
@@ -2695,8 +2695,8 @@ Now
 $C: D = HM: MH'$, by hypothesis,
 $$
 \begin{aligned}
-&amp;= HM.MH': MH' \\
-&amp;= RM.MR': MH'^2, \text{ by (δ)}.
+&= HM.MH': MH' \\
+&= RM.MR': MH'^2, \text{ by (δ)}.
 \end{aligned}
 $$
 
@@ -2818,8 +2818,8 @@ From the property of the ellipse,
 
 $$
 \begin{aligned}
-QV^2: PV.P'V &amp;= p: PP' \\
-&amp;= D: 2C.
+QV^2: PV.P'V &= p: PP' \\
+&= D: 2C.
 \end{aligned}
 $$
 
@@ -3084,10 +3084,10 @@ Hence the ratio $OA' + A'M : A'M$ is given; and therefore $A'M$ is given.
 διορισμός.
 
 Now
-$OA' : A'M &gt; OA' : A'A$,
+$OA' : A'M > OA' : A'A$,
 so that
-$OA' + A'M : A'M &gt; OA' + A'A : A'A$
-&gt; 3 : 2.
+$OA' + A'M : A'M > OA' + A'A : A'A$
+> 3 : 2.
 
 Thus, in order that a solution may be possible, it is a necessary condition that the given ratio must be greater than 3 : 2.
 
@@ -3099,9 +3099,9 @@ Take a line $DE$, and a point $F$ on it, such that $DE:EF$ is equal to the given
 
 Now, since
 $OA' + A'A : A'A = 3 : 2$,
-$DE : EF &gt; OA' + A'A : A'A$,
+$DE : EF > OA' + A'A : A'A$,
 so that
-$DF : FE &gt; OA' : A'A$.
+$DF : FE > OA' : A'A$.
 
 Hence a point $M$ can be found on $AA'$ such that
 $DF : FE = OA' : A'M$ ... (2).
@@ -3122,8 +3122,8 @@ If a sphere be cut by a plane not passing through the centre into two segments $
 $$
 \begin{array}{l}
 \text{(segmt. } A'B'B') : \text{(segmt. } ABB') \\
-\quad &lt; \text{(surface of } A'B'B')^2 : \text{(surface of } ABB')^2 \\
-\text{but } &gt; \text{(surface of } A'B'B')^{3/2} : \text{(surface of } ABB')^{3/2}.
+\quad < \text{(surface of } A'B'B')^2 : \text{(surface of } ABB')^2 \\
+\text{but } > \text{(surface of } A'B'B')^{3/2} : \text{(surface of } ABB')^{3/2}.
 \end{array}
 $$
 
@@ -3158,20 +3158,20 @@ $$
 
 We have therefore to prove
 
-(a) that $H'M: MH &lt; A'M^2: MA^2,$
+(a) that $H'M: MH < A'M^2: MA^2,$
 
-(b) that $H'M: MH &gt; A'M^3: MA^3.$
+(b) that $H'M: MH > A'M^3: MA^3.$
 
 (a) From (2) above,
 
 $$
 \begin{aligned}
-A'M: AM &amp;= H'M: OA + AM \\
-&amp;= H'A': OA', \text{ since } OA = OA'.
+A'M: AM &= H'M: OA + AM \\
+&= H'A': OA', \text{ since } OA = OA'.
 \end{aligned}
 $$
 
-Since $A'M &gt; AM$, $H'A' &gt; OA'$; therefore, if we take $K$ on $H'A'$ so that $OA' = A'K$, $K$ will fall between $H'$ and $A'$.
+Since $A'M > AM$, $H'A' > OA'$; therefore, if we take $K$ on $H'A'$ so that $OA' = A'K$, $K$ will fall between $H'$ and $A'$.
 
 And, by (1), $A'M: AM = KM: MH.$
 
@@ -3179,44 +3179,44 @@ Thus
 
 $$
 \begin{aligned}
-KM: MH &amp;= H'A': A'K, \text{ since } A'K = OA', \\
-&amp;&gt; H'M: MK.
+KM: MH &= H'A': A'K, \text{ since } A'K = OA', \\
+&> H'M: MK.
 \end{aligned}
 $$
 
 Therefore
 
 $$
-H'M. MH &lt; KM^3.
+H'M. MH < KM^3.
 $$
 
 It follows that
 
 $$
-H'M. MH: MH^2 &lt; KM^3: MH^2,
+H'M. MH: MH^2 < KM^3: MH^2,
 $$
 
 or
 
 $$
 \begin{aligned}
-H'M: MH &amp;&lt; KM^2: MH^2 \\
-&amp;&lt; A'M^2: AM^2, \text{ by (1)}.
+H'M: MH &< KM^2: MH^2 \\
+&< A'M^2: AM^2, \text{ by (1)}.
 \end{aligned}
 $$
 
 (b) Since $OA' = OA,$
 
 $$
-A'M. MA &lt; A'O. OA,
+A'M. MA < A'O. OA,
 $$
 
 or
 
 $$
 \begin{aligned}
-A'M: OA' &amp;&lt; OA: AM \\
-&amp;&lt; H'A': A'M, \text{ by means of (2)}.
+A'M: OA' &< OA: AM \\
+&< H'A': A'M, \text{ by means of (2)}.
 \end{aligned}
 $$
 
@@ -3224,8 +3224,8 @@ Therefore
 
 $$
 \begin{aligned}
-A'M^2 &amp;&lt; H'A'. OA' \\
-&amp;&lt; H'A'. A'K.
+A'M^2 &< H'A'. OA' \\
+&< H'A'. A'K.
 \end{aligned}
 $$
 
@@ -3261,31 +3261,31 @@ $$ H' A': A' K = H' N': N K' $$
 
 Now
 
-$$ H' M: M K &gt; H' N: N K. $$
+$$ H' M: M K > H' N: N K. $$
 
 Therefore
 
-$$ H' M': M K' &gt; H' A': A' K $$
+$$ H' M': M K' > H' A': A' K $$
 
-$$ &gt; H' A': O A' $$
+$$ > H' A': O A' $$
 
-$$ &gt; A' M: M A, \text{ by (2), as above,} $$
+$$ > A' M: M A, \text{ by (2), as above,} $$
 
-$$ &gt; O A' + A' M: M H, \text{ by (1)}, $$
+$$ > O A' + A' M: M H, \text{ by (1)}, $$
 
-$$ &gt; K M: M H. $$
+$$ > K M: M H. $$
 
 Hence
 
 $$ H' M': M H' = (H' M': M K'). (K M': M H') $$
 
-$$ &gt; (K M: M H). (K M': M H'). $$
+$$ > (K M: M H). (K M': M H'). $$
 
 It follows that
 
-$$ H' M: M H &gt; K M'^{\frac{3}{2}}: M H'^{\frac{3}{2}} $$
+$$ H' M: M H > K M'^{\frac{3}{2}}: M H'^{\frac{3}{2}} $$
 
-$$ &gt; A' M'^{\frac{5}{2}}: A M'^{\frac{3}{2}}, \text{ by (1).} $$
+$$ > A' M'^{\frac{5}{2}}: A M'^{\frac{3}{2}}, \text{ by (1).} $$
 
 [The text of Archimedes adds an alternative proof of this proposition, which is here omitted because it is in fact neither clearer nor shorter than the above.]
 
@@ -3303,8 +3303,8 @@ Suppose the surfaces of the segment $ABB'$ and of the hemisphere $DEE'$ to be eq
 
 Since the surfaces are equal, $AB = DE$. [I. 42, 43]
 
-Now, in Fig. 1, $AB^2 &gt; 2AM^2$ and $&lt; 2AO^2$,
-and, in Fig. 2, $AB^2 &lt; 2AM^2$ and $&gt; 2AO^2$.
+Now, in Fig. 1, $AB^2 > 2AM^2$ and $< 2AO^2$,
+and, in Fig. 2, $AB^2 < 2AM^2$ and $> 2AO^2$.
 
 Hence, if $R$ be taken on $AA'$ such that
 $$
@@ -3328,7 +3328,7 @@ Again, produce $CD$ to $F$ so that $CD = DF$, and the cone $FEE'$ will be equal 
 
 Now
 $$
-AR \cdot RA' &gt; AM \cdot MA',
+AR \cdot RA' > AM \cdot MA',
 $$
 and
 $$
@@ -3337,35 +3337,35 @@ $$
 
 Hence
 
-$$AR.RA' + RA^2 &gt; AM.MA' + AM.A'K,$$
+$$AR.RA' + RA^2 > AM.MA' + AM.A'K,$$
 
 or
 
-$$AA'.AR &gt; AM.MK$$
+$$AA'.AR > AM.MK$$
 
-$$&gt; HM.A'M, \text{ by (1).}$$
+$$> HM.A'M, \text{ by (1).}$$
 
 Therefore
 
-$$AA': A'M &gt; HM: AR,$$
+$$AA': A'M > HM: AR,$$
 
 or
 
-$$AB^2: BM^2 &gt; HM: AR,$$
+$$AB^2: BM^2 > HM: AR,$$
 
 i.e.
 
-$$AR^2: BM^2 &gt; HM: 2AR, \text{ since } AB^2 = 2AR^2,$$
+$$AR^2: BM^2 > HM: 2AR, \text{ since } AB^2 = 2AR^2,$$
 
-$$&gt; HM: CF.$$
+$$> HM: CF.$$
 
 Thus, since $AR = CD$, or $CE$,
 
-(circle on diam. $EE'$): (circle on diam. $BB'$) $&gt; HM: CF$.
+(circle on diam. $EE'$): (circle on diam. $BB'$) $> HM: CF$.
 
 It follows that
 
-$$(\text{the cone } FEE') &gt; (\text{the cone } HBB'),$$
+$$(\text{the cone } FEE') > (\text{the cone } HBB'),$$
 
 and therefore the hemisphere $DEE'$ is greater in volume than the segment $ABB'$.
 
@@ -3407,8 +3407,8 @@ Therefore
 
 $$
 \begin{array}{l}
-TG &gt; GA \\
-&gt; GH.
+TG > GA \\
+> GH.
 \end{array}
 $$
 
@@ -3441,7 +3441,7 @@ The ratio of the circumference of any circle to its diameter is less than $3\fra
 I. Let $AB$ be the diameter of any circle, $O$ its centre, $AC$ the tangent at $A$; and let the angle $AOC$ be one-third of a right angle.
 
 Then
-$$ OA : AC [= \sqrt{3} : 1] &gt; 265 : 153 \quad \text{(1)}, $$
+$$ OA : AC [= \sqrt{3} : 1] > 265 : 153 \quad \text{(1)}, $$
 
 and
 $$ OC : CA [= 2 : 1] = 306 : 153 \quad \text{(2)}. $$
@@ -3456,15 +3456,15 @@ $$ [CO + OA : OA = CA : DA, \text{ or}] $$
 $$ CO + OA : CA = OA : AD. $$
 
 Therefore [by (1) and (2)]
-$$ OA : AD &gt; 571 : 153 \quad \text{(3)}. $$
+$$ OA : AD > 571 : 153 \quad \text{(3)}. $$
 
 Hence
 $$ OD^2 : AD^2 [= (OA^2 + AD^2) : AD^2 $$
-$$ &gt; (571^2 + 153^2) : 153^2 ] $$
-$$ &gt; 349450 : 23409, $$
+$$ > (571^2 + 153^2) : 153^2 ] $$
+$$ > 349450 : 23409, $$
 
 so that
-$$ OD : DA &gt; 591 \frac{1}{5} : 153 \quad \text{(4)}. $$
+$$ OD : DA > 591 \frac{1}{5} : 153 \quad \text{(4)}. $$
 
 ![img-54.jpeg](images/img-54.jpeg)
 
@@ -3477,21 +3477,21 @@ so that
 $$ DO + OA : DA = OA : AE. ] $$
 
 Therefore
-$$ OA : AE [&gt; (591 \frac{1}{5} + 571) : 153, \text{ by (3) and (4)} ] $$
-$$ &gt; 1162 \frac{1}{5} : 153 \quad \text{(5)}. $$
+$$ OA : AE [> (591 \frac{1}{5} + 571) : 153, \text{ by (3) and (4)} ] $$
+$$ > 1162 \frac{1}{5} : 153 \quad \text{(5)}. $$
 
 [It follows that
 
 $$
 \begin{aligned}
-OE^2 : EA^2 &amp;&gt; \left\{(1162\frac{1}{8})^2 + 153^2\right\} : 153^2 \\
-&amp;&gt; (1350534\frac{3}{8}4 + 23409) : 23409 \\
-&amp;&gt; 1373943\frac{3}{8}4 : 23409.
+OE^2 : EA^2 &> \left\{(1162\frac{1}{8})^2 + 153^2\right\} : 153^2 \\
+&> (1350534\frac{3}{8}4 + 23409) : 23409 \\
+&> 1373943\frac{3}{8}4 : 23409.
 \end{aligned}
 $$
 
 Thus
-$OE : EA &gt; 1172\frac{1}{8} : 153 \quad \text{(6).}$
+$OE : EA > 1172\frac{1}{8} : 153 \quad \text{(6).}$
 
 Thirdly, let $OF$ bisect the angle $AOE$ and meet $AE$ in $F$.
 
@@ -3499,19 +3499,19 @@ We thus obtain the result [corresponding to (3) and (5) above] that
 
 $$
 \begin{aligned}
-OA : AF &amp;\left[ \left(1162\frac{1}{8} + 1172\frac{1}{8}\right) : 153 \right] \\
-&amp;&gt; 2334\frac{1}{4} : 153 \quad \text{(7).}
+OA : AF &\left[ \left(1162\frac{1}{8} + 1172\frac{1}{8}\right) : 153 \right] \\
+&> 2334\frac{1}{4} : 153 \quad \text{(7).}
 \end{aligned}
 $$
 
 [Therefore
-$OF^2 : FA^2 &gt; \left\{ (2334\frac{1}{4})^2 + 153^2 \right\} : 153^2 $
+$OF^2 : FA^2 > \left\{ (2334\frac{1}{4})^2 + 153^2 \right\} : 153^2 $
 $$
-&gt; 5472132\frac{1}{16} : 23409.
+> 5472132\frac{1}{16} : 23409.
 $$
 
 Thus
-$OF : FA &gt; 2339\frac{1}{4} : 153 \quad \text{(8).}$
+$OF : FA > 2339\frac{1}{4} : 153 \quad \text{(8).}$
 
 Fourthly, let $OG$ bisect the angle $AOF$, meeting $AF$ in $G$.
 
@@ -3521,7 +3521,7 @@ $$
 OA : AG \left[ \left(2334\frac{1}{4} + 2339\frac{1}{4}\right) : 153, \text{ by means of (7) and (8)} \right]
 $$
 $$
-&gt; 4673\frac{1}{2} : 153.
+> 4673\frac{1}{2} : 153.
 $$
 
 Now the angle $AOC$, which is one-third of a right angle, has been bisected four times, and it follows that
@@ -3541,7 +3541,7 @@ Thus $GH$ is one side of a regular polygon of 96 sides circumscribed to the give
 
 And, since
 $$
-OA : AG &gt; 4673\frac{1}{2} : 153,
+OA : AG > 4673\frac{1}{2} : 153,
 $$
 while
 $$
@@ -3564,7 +3564,7 @@ $$
 $$
 
 $$
-\left[ &lt; 3 + \frac{667\frac{1}{2}}{4672\frac{1}{2}} \right] &lt; 3.
+\left[ < 3 + \frac{667\frac{1}{2}}{4672\frac{1}{2}} \right] < 3.
 $$
 
 Therefore the circumference of the circle (being less than the perimeter of the polygon) is *a fortiori* less than $3\frac{1}{2}$ times the diameter $AB$.
@@ -3574,7 +3574,7 @@ II. Next let $AB$ be the diameter of a circle, and let $AC$, meeting the circle 
 Then
 
 $$
-AC : CB \ [= \sqrt{3} : 1] &lt; 1351 : 780.
+AC : CB \ [= \sqrt{3} : 1] < 1351 : 780.
 $$
 
 *First*, let $AD$ bisect the angle $BAC$ and meet $BC$ in $d$ and the circle in $D$. Join $BD$.
@@ -3583,8 +3583,8 @@ Then
 
 $$
 \begin{aligned}
-&amp; \angle BAD = \angle dAC \\
-&amp; = \angle dBD,
+& \angle BAD = \angle dAC \\
+& = \angle dBD,
 \end{aligned}
 $$
 
@@ -3602,10 +3602,10 @@ $$
 
 $$
 \begin{aligned}
-&amp; [= AC : Cd] \\
-&amp; = AB : Bd \quad \text{[Eucl. VI. 3]} \\
-&amp; = AB + AC : Bd + Cd \\
-&amp; = AB + AC : BC
+& [= AC : Cd] \\
+& = AB : Bd \quad \text{[Eucl. VI. 3]} \\
+& = AB + AC : Bd + Cd \\
+& = AB + AC : BC
 \end{aligned}
 $$
 
@@ -3615,17 +3615,17 @@ $$
 BA + AC : BC = AD : DB.
 $$
 
-[But $AC:CB &lt; 1351:780$, from above,
+[But $AC:CB < 1351:780$, from above,
 
 while $BA:BC = 2:1$
 $= 1560:780$.]
 
-Therefore $AD:DB &lt; 2911:780$...(1).
+Therefore $AD:DB < 2911:780$...(1).
 
-[Hence $AB^2:BD^2 &lt; (2911^2 + 780^2):780^2$
-$&lt; 9082321:608400$.]
+[Hence $AB^2:BD^2 < (2911^2 + 780^2):780^2$
+$< 9082321:608400$.]
 
-Thus $AB:BD &lt; 3013\frac{3}{4}:780$ ...(2).
+Thus $AB:BD < 3013\frac{3}{4}:780$ ...(2).
 
 Secondly, let $AE$ bisect the angle $BAD$, meeting the circle in $E$; and let $BE$ be joined.
 
@@ -3633,58 +3633,58 @@ Then we prove, in the same way as before, that
 
 $$
 \begin{aligned}
-AE:EB &amp;= BA + AD:BD \\
-&amp;&lt; (3013\frac{3}{4} + 2911):780, \text{ by (1) and (2)} \\
-&amp;&lt; 5924\frac{3}{4}:780 \\
-&amp;&lt; 5924\frac{3}{4} \times \frac{4}{13}:780 \times \frac{4}{13} \\
-&amp;&lt; 1823:240
+AE:EB &= BA + AD:BD \\
+&< (3013\frac{3}{4} + 2911):780, \text{ by (1) and (2)} \\
+&< 5924\frac{3}{4}:780 \\
+&< 5924\frac{3}{4} \times \frac{4}{13}:780 \times \frac{4}{13} \\
+&< 1823:240
 \end{aligned}
 $$
 
-[Hence $AB^2:BE^2 &lt; (1823^2 + 240^2):240^2$
-$&lt; 3380929:57600$.]
+[Hence $AB^2:BE^2 < (1823^2 + 240^2):240^2$
+$< 3380929:57600$.]
 
-Therefore $AB:BE &lt; 1838\frac{9}{11}:240$...(4).
+Therefore $AB:BE < 1838\frac{9}{11}:240$...(4).
 
 Thirdly, let $AF$ bisect the angle $BAE$, meeting the circle in $F$.
 
 Thus $AF:FB = BA + AE:BE$
-$&lt; 3661\frac{9}{11}:240$, by (3) and (4)]
-$&lt; 3661\frac{9}{11} \times \frac{1}{40}:240 \times \frac{11}{40}$
-$&lt; 1007:66$...(5).
+$< 3661\frac{9}{11}:240$, by (3) and (4)]
+$< 3661\frac{9}{11} \times \frac{1}{40}:240 \times \frac{11}{40}$
+$< 1007:66$...(5).
 
 [It follows that
 
 $$
 \begin{aligned}
-AB^2:BF^2 &amp;&lt; (1007^2 + 66^2):66^2 \\
-&amp;&lt; 1018405:4356.
+AB^2:BF^2 &< (1007^2 + 66^2):66^2 \\
+&< 1018405:4356.
 \end{aligned}
 $$
 
-Therefore $AB:BF &lt; 1009\frac{1}{6}:66$...(6).
+Therefore $AB:BF < 1009\frac{1}{6}:66$...(6).
 
 Fourthly, let the angle $BAF$ be bisected by $AG$ meeting the circle in $G$.
 
 Then $AG:GB = BA + AF:BF$
-$&lt; 2016\frac{1}{6}:66$, by (5) and (6).
+$< 2016\frac{1}{6}:66$, by (5) and (6).
 
 [And
 $$
 \begin{aligned}
-AB^2:BG^2 &amp;&lt; [(2016\frac{1}{6})^2 + 66^2] : 66^2 \\
-&amp;&lt; 4069284_{\frac{3}{56}} : 4356.]
+AB^2:BG^2 &< [(2016\frac{1}{6})^2 + 66^2] : 66^2 \\
+&< 4069284_{\frac{3}{56}} : 4356.]
 \end{aligned}
 $$
 
 Therefore
 $$
-AB:BG &lt; 2017\frac{1}{4} : 66,
+AB:BG < 2017\frac{1}{4} : 66,
 $$
 
 whence
 $$
-BG:AB &gt; 66 : 2017\frac{1}{4} \quad \text{(7)}.
+BG:AB > 66 : 2017\frac{1}{4} \quad \text{(7)}.
 $$
 
 [Now the angle $BAG$ which is the result of the fourth bisection of the angle $BAC$, or of one-third of a right angle, is equal to one-fortyeighth of a right angle.
@@ -3699,21 +3699,21 @@ Therefore $BG$ is a side of a regular inscribed polygon of 96 sides.
 It follows from (7) that
 $$
 \begin{aligned}
-\text{(perimeter of polygon)} : AB &amp;[&gt; 96 \times 66 : 2017\frac{1}{4}] \\
-&amp;&gt; 6336 : 2017\frac{1}{4}.
+\text{(perimeter of polygon)} : AB &[> 96 \times 66 : 2017\frac{1}{4}] \\
+&> 6336 : 2017\frac{1}{4}.
 \end{aligned}
 $$
 
 And
 $$
-\frac{6336}{2017\frac{1}{4}} &gt; 3\frac{1}{10}.
+\frac{6336}{2017\frac{1}{4}} > 3\frac{1}{10}.
 $$
 
 Much more then is the circumference of the circle greater than $3\frac{1}{10}$ times the diameter.
 
 Thus the ratio of the circumference to the diameter
 $$
-&lt; 3\frac{1}{7} \text{ but } &gt; 3\frac{1}{10}.
+< 3\frac{1}{7} \text{ but } > 3\frac{1}{10}.
 $$
 
 # ON CONOIDS AND SPHEROIDS.
@@ -3782,7 +3782,7 @@ And if a cylinder be cut by two parallel planes meeting all the sides [generator
 
 *If in an ascending arithmetical progression consisting of the magnitudes $A_1, A_2, \ldots, A_n$ the common difference be equal to the least term $A_1$, then*
 
-$$ \begin{array}{l} n \cdot A_n &lt; 2(A_1 + A_2 + \ldots + A_n), \\ \text{and} \quad &gt; 2(A_1 + A_2 + \ldots + A_{n-1}). \end{array} $$
+$$ \begin{array}{l} n \cdot A_n < 2(A_1 + A_2 + \ldots + A_n), \\ \text{and} \quad > 2(A_1 + A_2 + \ldots + A_{n-1}). \end{array} $$
 
 [The proof of this is given incidentally in the treatise *On Spirals*, Prop. 11. By placing lines side by side to represent the terms of the progression and then producing each so as to make it equal to the greatest term, Archimedes gives the equivalent of the following proof.
 
@@ -3805,13 +3805,13 @@ $$
 whence
 
 $$
-n \cdot A_n &lt; 2S_n,
+n \cdot A_n < 2S_n,
 $$
 
 and
 
 $$
-n \cdot A_n &gt; 2S_{n-1}.
+n \cdot A_n > 2S_{n-1}.
 $$
 
 Thus, if the progression is $a, 2a, \ldots, na,$
@@ -3821,13 +3821,13 @@ $$ S_n = \frac{n(n + 1)}{2}a, $$
 and
 
 $$
-n^a a &lt; 2S_n,
+n^a a < 2S_n,
 $$
 
 but
 
 $$
-&gt; 2S_{n-1}.]
+> 2S_{n-1}.]
 $$
 
 ## Proposition 1.
@@ -4045,23 +4045,23 @@ $$(n + 1)A_n^2 + A_1(A_1 + A_2 + A_3 + \ldots + A_n) = 3(A_1^2 + A_2^2 + \ldots 
 
 **Cor. 1.** *From this it is evident that*
 
-$$n \cdot A_n^2 &lt; 3(A_1^2 + A_2^2 + \ldots + A_n^2) \quad \text{(1).}$$
+$$n \cdot A_n^2 < 3(A_1^2 + A_2^2 + \ldots + A_n^2) \quad \text{(1).}$$
 
 Also $A_n^2 = A_1\{A_n + 2(A_{n-1} + A_{n-2} + \ldots + A_1)\}$, as above,
 
 so that
 
 $$
-A_n^2 &gt; A_1(A_n + A_{n-1} + \ldots + A_1),
+A_n^2 > A_1(A_n + A_{n-1} + \ldots + A_1),
 $$
 
 and therefore
 
-$$A_n^2 + A_1(A_1 + A_2 + \ldots + A_n) &lt; 2A_n^2.$$
+$$A_n^2 + A_1(A_1 + A_2 + \ldots + A_n) < 2A_n^2.$$
 
 *It follows from the proposition that*
 
-$$n \cdot A_n^2 &gt; 3(A_1^2 + A_2^2 + \ldots + A_{n-1}^2) \quad \text{(2).}$$
+$$n \cdot A_n^2 > 3(A_1^2 + A_2^2 + \ldots + A_{n-1}^2) \quad \text{(2).}$$
 
 **Cor. 2.** All these results will hold if we substitute *similar figures* for squares on all the lines; for similar figures are in the duplicate ratio of their sides.
 
@@ -4080,9 +4080,9 @@ $$= \frac{a^2}{3} \left\{ (n + 1) n^2 + \frac{n(n + 1)}{2} \right\}$$
 
 $$= a^2 \cdot \frac{n(n + 1)(2n + 1)}{6}.$$
 
-Also (2) $n^2 &lt; 3(1^2 + 2^2 + 3^2 + \ldots + n^2)$,
+Also (2) $n^2 < 3(1^2 + 2^2 + 3^2 + \ldots + n^2)$,
 
-and (3) $n^2 &gt; 3(1^2 + 2^2 + 3^2 + \ldots + \overline{n - 1}^2).$]
+and (3) $n^2 > 3(1^2 + 2^2 + 3^2 + \ldots + \overline{n - 1}^2).$]
 
 ## Proposition 2.
 
@@ -4098,78 +4098,78 @@ A_n = a \cdot nx + (nx)^2,
 \end{array}
 $$
 
-then $n \cdot A_n : (A_1 + A_2 + \ldots + A_n) &lt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right),$
+then $n \cdot A_n : (A_1 + A_2 + \ldots + A_n) < (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right),$
 
 and
 
 $$
-n \cdot A_n : (A_1 + A_2 + \ldots + A_{n-1}) &gt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right).
+n \cdot A_n : (A_1 + A_2 + \ldots + A_{n-1}) > (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right).
 $$
 
 For, by the Lemma immediately preceding Prop. 1,
 
 $$
-n \cdot anx &lt; 2 (ax + a \cdot 2x + \ldots + a \cdot nx),
+n \cdot anx < 2 (ax + a \cdot 2x + \ldots + a \cdot nx),
 $$
 
 and
 
 $$
-&gt; 2 (ax + a \cdot 2x + \ldots + a \cdot n - 1 \cdot x).
+> 2 (ax + a \cdot 2x + \ldots + a \cdot n - 1 \cdot x).
 $$
 
 Also, by the Lemma preceding this proposition,
 
 $$
-n \cdot (nx)^2 &lt; 3 \left[ x^2 + (2x)^2 + (3x)^2 + \ldots + (nx)^2 \right]
+n \cdot (nx)^2 < 3 \left[ x^2 + (2x)^2 + (3x)^2 + \ldots + (nx)^2 \right]
 $$
 
 and
 
 $$
-&gt; 3 \left[ x^2 + (2x)^2 + \ldots + (n - 1 \cdot x)^2 \right].
+> 3 \left[ x^2 + (2x)^2 + \ldots + (n - 1 \cdot x)^2 \right].
 $$
 
 Hence
 
 $$
-\frac{an^2x}{2} + \frac{n(nx)^2}{3} &lt; \left[ (ax + x^2) + [a \cdot 2x + (2x)^2] + \ldots + [a \cdot nx + (nx)^2] \right],
+\frac{an^2x}{2} + \frac{n(nx)^2}{3} < \left[ (ax + x^2) + [a \cdot 2x + (2x)^2] + \ldots + [a \cdot nx + (nx)^2] \right],
 $$
 
 and
 
 $$
-&gt; \left[ (ax + x^2) + [a \cdot 2x + (2x)^2] + \ldots + [a \cdot n - 1 \cdot x + (n - 1 \cdot x)^2] \right],
+> \left[ (ax + x^2) + [a \cdot 2x + (2x)^2] + \ldots + [a \cdot n - 1 \cdot x + (n - 1 \cdot x)^2] \right],
 $$
 
 or
 
 $$
-\frac{an^2x}{2} + \frac{n(nx)^2}{3} &lt; A_1 + A_2 + \ldots + A_n,
+\frac{an^2x}{2} + \frac{n(nx)^2}{3} < A_1 + A_2 + \ldots + A_n,
 $$
 
 and
 
 $$
-&gt; A_1 + A_2 + \ldots + A_{n-1}.
+> A_1 + A_2 + \ldots + A_{n-1}.
 $$
 
 It follows that
 
 $$
-n \cdot A_n : (A_1 + A_2 + \ldots + A_n) &lt; n \left[ a \cdot nx + (nx)^2 \right] : \left\{ \frac{an^2x}{2} + \frac{n(nx)^2}{3} \right\},
+n \cdot A_n : (A_1 + A_2 + \ldots + A_n) < n \left[ a \cdot nx + (nx)^2 \right] : \left\{ \frac{an^2x}{2} + \frac{n(nx)^2}{3} \right\},
 $$
 
 or
 
 $$
-n \cdot A_n : (A_1 + A_2 + \ldots + A_n) &lt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right);
+n \cdot A_n : (A_1 + A_2 + \ldots + A_n) < (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right);
 $$
 
 also
 
 $$
-n \cdot A_n : (A_1 + A_2 + \ldots + A_{n-1}) &gt; (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right).
+n \cdot A_n : (A_1 + A_2 + \ldots + A_{n-1}) > (a + nx) : \left( \frac{a}{2} + \frac{nx}{3} \right).
 $$
 
 ## Proposition 3.
@@ -4298,8 +4298,8 @@ Now $P'$: (polygon inscribed in $O$)
 
 $$
 \begin{aligned}
-&amp;= (\text{circle } AbA'b'): O \\
-&amp;= CA : CB, \text{ by hypothesis.}
+&= (\text{circle } AbA'b'): O \\
+&= CA : CB, \text{ by hypothesis.}
 \end{aligned}
 $$
 
@@ -4311,7 +4311,7 @@ Hence $O$ is not greater than the ellipse.
 
 II. If possible, let $O$ be less than the ellipse.
 
-In this case we inscribe in the ellipse a polygon $P$ with $4n$ equal sides such that $P &gt; O$.
+In this case we inscribe in the ellipse a polygon $P$ with $4n$ equal sides such that $P > O$.
 
 Let the perpendiculars from the angular points on the axis $AA'$ be produced to meet the auxiliary circle, and let the corresponding polygon $(P')$ in the circle be formed.
 
@@ -4320,13 +4320,13 @@ Inscribe in $O$ a polygon similar to $P'$.
 Then
 $$
 \begin{aligned}
-P' : P &amp;= CA : CB \\
-&amp;= (\text{circle } AbA'b'): O, \text{ by hypothesis,} \\
-&amp;= P': (\text{polygon inscribed in } O).
+P' : P &= CA : CB \\
+&= (\text{circle } AbA'b'): O, \text{ by hypothesis,} \\
+&= P': (\text{polygon inscribed in } O).
 \end{aligned}
 $$
 
-Therefore the polygon inscribed in $O$ is equal to the polygon $P$; which is impossible, because $P &gt; O$.
+Therefore the polygon inscribed in $O$ is equal to the polygon $P$; which is impossible, because $P > O$.
 
 Hence $O$, being neither greater nor less than the ellipse, is equal to it; and the required result follows.
 
@@ -4342,8 +4342,8 @@ For
 
 $$
 \begin{aligned}
-(\text{area of ellipse}): (\text{area of auxiliary circle}) &amp;= BB': AA' \quad \text{[Prop. 4]} \\
-&amp;= AA'.\, BB': AA'^2.
+(\text{area of ellipse}): (\text{area of auxiliary circle}) &= BB': AA' \quad \text{[Prop. 4]} \\
+&= AA'.\, BB': AA'^2.
 \end{aligned}
 $$
 
@@ -4377,7 +4377,7 @@ where $CA$ is half the major axis of the ellipse.
 
 "And this is possible, since
 
-$$ BE. ED : EO^2 &gt; BC. CB' : CO^2. $$
+$$ BE. ED : EO^2 > BC. CB' : CO^2. $$
 
 [Both the construction and this proposition are assumed as known.]
 
@@ -4519,9 +4519,9 @@ by the property of the circle.
 
 Hence, since $PN$, $QM$ are equal as well as parallel, $PQ$ is parallel to $MN$ and therefore to $CO$. It follows that $PQ$ is a generator of the cylinder, whose surface accordingly passes through $P$.
 
-(2) If $BB' &gt; DE$, we take $E'$ on $A'E$ such that $DE' = BB'$ and describe a circle on $DE'$ as diameter in a plane perpendicular to that of the paper; and the rest of the construction and proof is exactly similar to those given for case (1).
+(2) If $BB' > DE$, we take $E'$ on $A'E$ such that $DE' = BB'$ and describe a circle on $DE'$ as diameter in a plane perpendicular to that of the paper; and the rest of the construction and proof is exactly similar to those given for case (1).
 
-(3) Suppose $BB' &lt; DE$.
+(3) Suppose $BB' < DE$.
 
 Take a point $K$ on $CO$ produced such that
 
@@ -4563,9 +4563,9 @@ Hence, ex aequali, since $OR = OD$,
 
 $$
 \begin{aligned}
-QH^2: AN.NA' &amp;= KR^2: CA^2 \\
-&amp;= CB^2: CA^2 \\
-&amp;= PN^2: AN.NA'.
+QH^2: AN.NA' &= KR^2: CA^2 \\
+&= CB^2: CA^2 \\
+&= PN^2: AN.NA'.
 \end{aligned}
 $$
 
@@ -4666,14 +4666,14 @@ $$DM \cdot ME : RM \cdot MR' = OA^2 : OP^2,$$
 or
 $$QM^2 : RM \cdot MR' = OA^2 : OP^2.$$
 
-Now (1) in the hyperbola $OA &lt; OP$, because $AT &lt; AN$, and accordingly $OT &lt; OP$, while $OA &lt; OT$,
+Now (1) in the hyperbola $OA < OP$, because $AT < AN$, and accordingly $OT < OP$, while $OA < OT$,
 
 (2) in the ellipse, if $KK'$ be the diameter parallel to $RR'$, and $BB'$ the minor axis,
 
 $$BC \cdot CB' : KC \cdot CK' = OA^2 : OP^2;$$
 
 and
-$$BC \cdot CB' &lt; KC \cdot CK'$$, so that $OA &lt; OP$.
+$$BC \cdot CB' < KC \cdot CK'$$, so that $OA < OP$.
 
 Hence in both cases the locus of $Q$ is an ellipse whose major axis is $RR'$.
 
@@ -4803,7 +4803,7 @@ I. If possible, let the segment be greater than $X$.
 We can then inscribe and circumscribe, as in the last proposition, figures made up of cylinders or frusta of cylinders with equal height and such that
 
 $$
-(\text{circumscribed fig.}) - (\text{inscribed fig.}) &lt; (\text{segment}) - X.
+(\text{circumscribed fig.}) - (\text{inscribed fig.}) < (\text{segment}) - X.
 $$
 
 Let the greatest of the cylinders or frusta forming the circumscribed figure be that whose base is the circle or ellipse about $BC$ and whose axis is $OD$, and let the smallest of them be that whose base is the circle or ellipse about $PP'$ and whose axis is $AL$.
@@ -4817,13 +4817,13 @@ Produce all the plane bases of the cylinders or frusta to meet the surface of th
 Now, since
 
 $$
-(\text{circumscribed fig.}) - (\text{inscr. fig.}) &lt; (\text{segment}) - X,
+(\text{circumscribed fig.}) - (\text{inscr. fig.}) < (\text{segment}) - X,
 $$
 
 it follows that
 
 $$
-(\text{inscribed figure}) &gt; X \quad
+(\text{inscribed figure}) > X \quad
 $$
 
 Next, comparing successively the cylinders or frusta with heights equal to $OD$ and respectively forming parts of the complete cylinder or frustum $EC$ and of the inscribed figure, we have
@@ -4832,9 +4832,9 @@ Next, comparing successively the cylinders or frusta with heights equal to $OD$ 
 
 $$
 \begin{aligned}
-&amp;= BD^2 : RO^2 \\
-&amp;= AD : AO \\
-&amp;= BD : TO, \text{ where } AB \text{ meets } OR \text{ in } T.
+&= BD^2 : RO^2 \\
+&= AD : AO \\
+&= BD : TO, \text{ where } AB \text{ meets } OR \text{ in } T.
 \end{aligned}
 $$
 
@@ -4854,14 +4854,14 @@ where $BD, HO, \ldots$ are all equal, and $BD, TO, SN, \ldots$ diminish in arith
 
 But [Lemma preceding Prop. 1]
 
-$$BD + HO + \ldots &gt; 2(TO + SN + \ldots).$$
+$$BD + HO + \ldots > 2(TO + SN + \ldots).$$
 
-Therefore (cylinder or frustum $EC$) &gt; 2 (inscribed fig.),
+Therefore (cylinder or frustum $EC$) > 2 (inscribed fig.),
 
 or
 
 $$
-X &gt; (\text{inscribed fig.})
+X > (\text{inscribed fig.})
 $$
 
 which is impossible, by $(\alpha)$ above.
@@ -4870,11 +4870,11 @@ II. If possible, let the segment be less than $X$.
 
 In this case we inscribe and circumscribe figures as before, but such that
 
-$$(\text{circumscr. fig.}) - (\text{inscr. fig.}) &lt; X - (\text{segment}),$$
+$$(\text{circumscr. fig.}) - (\text{inscr. fig.}) < X - (\text{segment}),$$
 
 whence it follows that
 
-$$(\text{circumscribed figure}) &lt; X \quad \ldots \ldots \ldots \ldots (\beta).$$
+$$(\text{circumscribed figure}) < X \quad \ldots \ldots \ldots \ldots (\beta).$$
 
 And, comparing the cylinders or frusta making up the complete cylinder or frustum $CE$ and the circumscribed figure respectively, we have
 
@@ -4900,11 +4900,11 @@ Hence [Prop. 1]
 
 $$= (BD + HO + \ldots) : (BD + TO + \ldots),$$
 
-$$&lt; 2 : 1, \quad \text{[Lemma preceding Prop. 1]}$$
+$$< 2 : 1, \quad \text{[Lemma preceding Prop. 1]}$$
 
 and it follows that
 
-$$X &lt; (\text{circumscribed fig.}) \text{;}$$
+$$X < (\text{circumscribed fig.}) \text{;}$$
 
 which is impossible, by $(\beta)$.
 
@@ -4940,9 +4940,9 @@ Therefore
 
 $$
 \begin{aligned}
-(\text{cone } ABB') : (\text{cone } PQQ') &amp;= (QD : QV) \cdot (AN : PK) \\
-&amp;= (PK : PV) \cdot (AN : PK) \\
-&amp;= AN : PV.
+(\text{cone } ABB') : (\text{cone } PQQ') &= (QD : QV) \cdot (AN : PK) \\
+&= (PK : PV) \cdot (AN : PK) \\
+&= AN : PV.
 \end{aligned}
 $$
 
@@ -4966,9 +4966,9 @@ But
 
 $$
 \begin{aligned}
-&amp; \text{(cone } APp \text{)} : \text{(cone } AP'p') = (PN^2 : P'N'^2) \cdot (AN : AN') \\
-&amp; = (AN : AN') \cdot (AN : AN') \\
-&amp; = AN^2 : AN'^2;
+& \text{(cone } APp \text{)} : \text{(cone } AP'p') = (PN^2 : P'N'^2) \cdot (AN : AN') \\
+& = (AN : AN') \cdot (AN : AN') \\
+& = AN^2 : AN'^2;
 \end{aligned}
 $$
 
@@ -5028,11 +5028,11 @@ I. If possible, let the segment be greater than $V$.
 
 Inscribe and circumscribe to the segment figures made up of cylinders or frusta of cylinders, with axes along $AD$ and all equal to one another, such that
 
-$$ \text{(circumscribed fig.)} - \text{(inscr. fig.)} &lt; \text{(segmt.)} - V, $$
+$$ \text{(circumscribed fig.)} - \text{(inscr. fig.)} < \text{(segmt.)} - V, $$
 
 whence
 
-$$ \text{(inscribed figure)} &gt; V \dots \dots \dots \dots \dots (\gamma). $$
+$$ \text{(inscribed figure)} > V \dots \dots \dots \dots \dots (\gamma). $$
 
 Produce all the planes forming the bases of the cylinders or frusta of cylinders to meet the surface of the complete cylinder or frustum $EB'$.
 
@@ -5048,9 +5048,9 @@ Comparing now the successive cylinders or frusta (1) in the complete cylinder or
 
 $$
 \begin{aligned}
-&amp;= BD^2 : PN^2 \\
-&amp;= AD \cdot A'D : AN \cdot A'N, \text{ from the hyperbola}, \\
-&amp;= S : (ap + p^2).
+&= BD^2 : PN^2 \\
+&= AD \cdot A'D : AN \cdot A'N, \text{ from the hyperbola}, \\
+&= S : (ap + p^2).
 \end{aligned}
 $$
 
@@ -5060,9 +5060,9 @@ Again
 
 $$
 \begin{aligned}
-&amp;= BD^2 : QM^2 \\
-&amp;= AD \cdot A'D : AM \cdot A'M \\
-&amp;= S : (aq + q^2),
+&= BD^2 : QM^2 \\
+&= AD \cdot A'D : AM \cdot A'M \\
+&= S : (aq + q^2),
 \end{aligned}
 $$
 
@@ -5076,14 +5076,14 @@ Combining the proportions, we have [Prop. 1]
 
 $$
 \begin{aligned}
-&amp;= (\text{sum of all the spaces } S) : (ap + p^2) + (aq + q^2) + \dots \\
-&amp;&gt; (a + b) : \left(\frac{a}{2} + \frac{b}{3}\right) \quad \text{[Prop. 2]} \\
-&amp;&gt; A'D : \frac{HD}{3}, \quad \text{since } a = AA', \quad b = AD, \\
-&amp;&gt; (EB') : V, \quad \text{by } (S) \text{ above}.
+&= (\text{sum of all the spaces } S) : (ap + p^2) + (aq + q^2) + \dots \\
+&> (a + b) : \left(\frac{a}{2} + \frac{b}{3}\right) \quad \text{[Prop. 2]} \\
+&> A'D : \frac{HD}{3}, \quad \text{since } a = AA', \quad b = AD, \\
+&> (EB') : V, \quad \text{by } (S) \text{ above}.
 \end{aligned}
 $$
 
-Hence (inscribed figure) $&lt; V$.
+Hence (inscribed figure) $< V$.
 
 But this is impossible, because, by $(\gamma)$ above, the inscribed figure is greater than $V$.
 
@@ -5092,29 +5092,29 @@ But this is impossible, because, by $(\gamma)$ above, the inscribed figure is gr
 In this case we circumscribe and inscribe figures such that
 
 $$
-(\text{circumscribed fig.}) - (\text{inscribed fig.}) &lt; V - (\text{segment}),
+(\text{circumscribed fig.}) - (\text{inscribed fig.}) < V - (\text{segment}),
 $$
 
 whence we derive
 
 $$
-V &gt; (\text{circumscribed figure}) \dots \dots \dots \dots \dots (\delta).
+V > (\text{circumscribed figure}) \dots \dots \dots \dots \dots (\delta).
 $$
 
 We now compare successive cylinders or frusta in the complete cylinder or frustum and in the *circumscribed* figure; and we have
 
 $$
 \begin{aligned}
-&amp;(\text{first cylinder or frustum in } EB') : (\text{first in circumscribed fig.}) \\
-&amp;= S : S \\
-&amp;= S : (ab + b^2),
+&(\text{first cylinder or frustum in } EB') : (\text{first in circumscribed fig.}) \\
+&= S : S \\
+&= S : (ab + b^2),
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-&amp;(\text{second in } EB') : (\text{second in circumscribed fig.}) \\
-&amp;= S : (ap + p^2),
+&(\text{second in } EB') : (\text{second in circumscribed fig.}) \\
+&= S : (ap + p^2),
 \end{aligned}
 $$
 
@@ -5124,11 +5124,11 @@ Hence [Prop. 1]
 
 $$
 \begin{aligned}
-&amp;(\text{cylinder or frustum } EB') : (\text{circumscribed fig.}) \\
-&amp;= (\text{sum of all spaces } S) : (ab + b^2) + (ap + p^2) + \dots \\
-&amp;&lt; (a + b) : \left(\frac{a}{2} + \frac{b}{3}\right) \quad \text{[Prop. 2]} \\
-&amp;&lt; A'D : \frac{HD}{3} \\
-&amp;&lt; (EB') : V, \text{ by } (\beta) \text{ above}.
+&(\text{cylinder or frustum } EB') : (\text{circumscribed fig.}) \\
+&= (\text{sum of all spaces } S) : (ab + b^2) + (ap + p^2) + \dots \\
+&< (a + b) : \left(\frac{a}{2} + \frac{b}{3}\right) \quad \text{[Prop. 2]} \\
+&< A'D : \frac{HD}{3} \\
+&< (EB') : V, \text{ by } (\beta) \text{ above}.
 \end{aligned}
 $$
 
@@ -5140,8 +5140,8 @@ Therefore, by $(\alpha)$,
 
 $$
 \begin{aligned}
-&amp;(\text{segment } ABB') : (\text{cone or segment of cone } ABB') \\
-&amp;= (AD + 3CA) : (AD + 2CA).
+&(\text{segment } ABB') : (\text{cone or segment of cone } ABB') \\
+&= (AD + 3CA) : (AD + 2CA).
 \end{aligned}
 $$
 
@@ -5153,8 +5153,8 @@ $$
 
 $$
 \begin{aligned}
-&amp;= CA + A'D : A'D \\
-&amp;\quad [= 3CA - AD : 2CA - AD].
+&= CA + A'D : A'D \\
+&\quad [= 3CA - AD : 2CA - AD].
 \end{aligned}
 $$
 
@@ -5199,13 +5199,13 @@ I. Suppose, if possible, that the segment is greater than $V$.
 Let figures be inscribed and circumscribed to the segment consisting of cylinders or frusta of cylinders, with axes along $AD$ and all equal to one another, such that
 
 $$
-(\text{circumscribed fig.}) - (\text{inscribed fig.}) &lt; (\text{segment}) - V,
+(\text{circumscribed fig.}) - (\text{inscribed fig.}) < (\text{segment}) - V,
 $$
 
 whence it follows that
 
 $$
-(\text{inscribed fig.}) &gt; V \quad \dots \dots \dots \dots \dots \dots (\gamma).
+(\text{inscribed fig.}) > V \quad \dots \dots \dots \dots \dots \dots (\gamma).
 $$
 
 Produce all the planes forming the bases of the cylinders or frusta to meet the surface of the complete cylinder or frustum $EB'$. Thus, if $ND$ be the axis of the greatest cylinder or frustum of a cylinder in the circumscribed figure, the complete cylinder or frustum $EB'$ will be divided into cylinders or frusta of cylinders each equal to the greatest of those in the circumscribed figure.
@@ -5220,9 +5220,9 @@ Then
 
 $$
 \begin{aligned}
-&amp; \text{the first gnomon} = A'D \cdot AD - ND \cdot (A'D - AN) \\
-&amp; = A'D \cdot AN + ND \cdot AN \\
-&amp; = AN \cdot A'N.
+& \text{the first gnomon} = A'D \cdot AD - ND \cdot (A'D - AN) \\
+& = A'D \cdot AN + ND \cdot AN \\
+& = AN \cdot A'N.
 \end{aligned}
 $$
 
@@ -5246,9 +5246,9 @@ Then, comparing successively the cylinders or frusta of cylinders (1) in the com
 
 $$
 \begin{aligned}
-&amp;= BD^2 : PN^2 \\
-&amp;= AD \cdot A'D : AN \cdot A'N \\
-&amp;= S : \text{(first gnomon)};
+&= BD^2 : PN^2 \\
+&= AD \cdot A'D : AN \cdot A'N \\
+&= S : \text{(first gnomon)};
 \end{aligned}
 $$
 
@@ -5274,10 +5274,10 @@ Now the differences between $S$ and the successive gnomons are $R_1, R_2, \ldots
 
 $$
 \begin{aligned}
-R_1 &amp;= cx + x^2, \\
-R_2 &amp;= c \cdot 2x + (2x)^2, \\
-&amp;\text{...} \\
-R_n &amp;= cb + b^2 = S,
+R_1 &= cx + x^2, \\
+R_2 &= c \cdot 2x + (2x)^2, \\
+&\text{...} \\
+R_n &= cb + b^2 = S,
 \end{aligned}
 $$
 
@@ -5286,15 +5286,15 @@ where $b = nx = AD$.
 Hence [Prop. 2]
 
 $$
-(\text{sum of all spaces } S): (R_1 + R_2 + \ldots + R_n) &lt; (c + b): \left(\frac{c}{2} + \frac{b}{3}\right).
+(\text{sum of all spaces } S): (R_1 + R_2 + \ldots + R_n) < (c + b): \left(\frac{c}{2} + \frac{b}{3}\right).
 $$
 
 It follows that
 
 $$
 \begin{aligned}
-(\text{sum of all spaces } S): (\text{sum of gnomons}) &amp;&gt; (c + b): \left(\frac{c}{2} + \frac{2b}{3}\right) \\
-&amp;&gt; A'D: \frac{HD}{3}.
+(\text{sum of all spaces } S): (\text{sum of gnomons}) &> (c + b): \left(\frac{c}{2} + \frac{2b}{3}\right) \\
+&> A'D: \frac{HD}{3}.
 \end{aligned}
 $$
 
@@ -5302,14 +5302,14 @@ Thus (cylinder or frustum $EB'$): (inscribed fig.)
 
 $$
 \begin{aligned}
-&amp;&gt; A'D: \frac{HD}{3} \\
-&amp;&gt; (\text{cylinder or frustum } EB'): V,
+&> A'D: \frac{HD}{3} \\
+&> (\text{cylinder or frustum } EB'): V,
 \end{aligned}
 $$
 
 from $(\beta)$ above.
 
-Therefore (inscribed fig.) $&lt; V$;
+Therefore (inscribed fig.) $< V$;
 
 which is impossible, by $(\gamma)$ above.
 
@@ -5320,10 +5320,10 @@ II. If possible, let the segment $ABB'$ be less than $V$.
 We then inscribe and circumscribe figures such that
 
 $$
-(\text{circumscribed fig.}) - (\text{inscribed fig.}) &lt; V - (\text{segment}),
+(\text{circumscribed fig.}) - (\text{inscribed fig.}) < V - (\text{segment}),
 $$
 
-whence $V &gt; (\text{circumscribed fig.})$. $(\delta)$.
+whence $V > (\text{circumscribed fig.})$. $(\delta)$.
 
 In this case we compare the cylinders or frusta in $(EB')$ with those in the *circumscribed* figure.
 
@@ -5331,10 +5331,10 @@ Thus
 
 $$
 \begin{aligned}
-&amp;\text{(first cylinder or frustum in } EB') : \text{(first in circumscribed fig.)} \\
-&amp;= S : S; \\
-&amp;\text{(second in } EB') : \text{(second in circumscribed fig.)} \\
-&amp;= S : \text{(first gnomon)},
+&\text{(first cylinder or frustum in } EB') : \text{(first in circumscribed fig.)} \\
+&= S : S; \\
+&\text{(second in } EB') : \text{(second in circumscribed fig.)} \\
+&= S : \text{(first gnomon)},
 \end{aligned}
 $$
 
@@ -5348,19 +5348,19 @@ Now
 
 $$[S + \text{(all the gnomons)}] = nS - (R_1 + R_2 + \ldots + R_{n-1}).$$
 
-And $nS: R_1 + R_2 + \ldots + R_{n-1} &gt; (c + b): \left(\frac{c}{2} + \frac{b}{3}\right)$, [Prop. 2] so that
+And $nS: R_1 + R_2 + \ldots + R_{n-1} > (c + b): \left(\frac{c}{2} + \frac{b}{3}\right)$, [Prop. 2] so that
 
-$$nS: [S + \text{(all the gnomons)}] &lt; (c + b): \left(\frac{c}{2} + \frac{2b}{3}\right).$$
+$$nS: [S + \text{(all the gnomons)}] < (c + b): \left(\frac{c}{2} + \frac{2b}{3}\right).$$
 
 It follows that, if we combine the above proportions as in Prop. 1, we obtain
 
 (cylinder or frustum $EB'$): (circumscribed fig.)
 
-$$&lt; (c + b): \left(\frac{c}{2} + \frac{2b}{3}\right)$$
+$$< (c + b): \left(\frac{c}{2} + \frac{2b}{3}\right)$$
 
-$$&lt; A'D: \frac{HD}{3}$$
+$$< A'D: \frac{HD}{3}$$
 
-$$&lt; (EB'): V, \text{ by } (\beta) \text{ above.}$$
+$$< (EB'): V, \text{ by } (\beta) \text{ above.}$$
 
 Hence the circumscribed figure is greater than $V$; which is impossible, by $(\delta)$ above.
 
@@ -5461,8 +5461,8 @@ But (cone or segment of cone $APP'$): (segment $APP'$)
 
 $$
 \begin{aligned}
-&amp;= A'N : NH' \quad \text{[Props. 29, 30]} \\
-&amp;= AN . A'N : AN . NH'.
+&= A'N : NH' \quad \text{[Props. 29, 30]} \\
+&= AN . A'N : AN . NH'.
 \end{aligned}
 $$
 
@@ -5486,8 +5486,8 @@ Hence (segment $A'PP'$): (segment $APP'$)
 
 $$
 \begin{aligned}
-&amp;= (HH' . AK - AN . NH') : AN . NH' \\
-&amp;= (AK . NH + NH' . NK) : AN . NH'.
+&= (HH' . AK - AN . NH') : AN . NH' \\
+&= (AK . NH + NH' . NK) : AN . NH'.
 \end{aligned}
 $$
 
@@ -5497,8 +5497,8 @@ Further,
 
 $$
 \begin{aligned}
-&amp;= NH' : A'N \\
-&amp;= AN . NH' : AN . A'N,
+&= NH' : A'N \\
+&= AN . NH' : AN . A'N,
 \end{aligned}
 $$
 
@@ -5508,8 +5508,8 @@ and
 
 $$
 \begin{aligned}
-&amp;= AN : A'N \\
-&amp;= AN . A'N : A'N^2.
+&= AN : A'N \\
+&= AN . A'N : A'N^2.
 \end{aligned}
 $$
 
@@ -5519,9 +5519,9 @@ From the last three proportions we obtain, *ex aequali*,
 
 $$
 \begin{aligned}
-&amp;= (AK . NH + NH' . NK) : A'N^s \\
-&amp;= (AK . NH + NH' . NK) : (CA^2 + NH' . CN) \\
-&amp;= (AK . NH + NH' . NK) : (AK . AN + NH' . CN) \dots (\beta).
+&= (AK . NH + NH' . NK) : A'N^s \\
+&= (AK . NH + NH' . NK) : (CA^2 + NH' . CN) \\
+&= (AK . NH + NH' . NK) : (AK . AN + NH' . CN) \dots (\beta).
 \end{aligned}
 $$
 
@@ -5530,13 +5530,13 @@ But
 $$
 \begin{aligned}
 AK . NH : AK . AN = NH : AN \\
-&amp;= CA + AN : AN \\
-&amp;= AK + CA : CA \\
-&amp;\text{(since } AK : AC = AC : AN\text{)} \\
-&amp;= HK : CA \\
-&amp;= HK - NH : CA - AN \\
-&amp;= NK : CN \\
-&amp;= NH' . NK : NH' . CN.
+&= CA + AN : AN \\
+&= AK + CA : CA \\
+&\text{(since } AK : AC = AC : AN\text{)} \\
+&= HK : CA \\
+&= HK - NH : CA - AN \\
+&= NK : CN \\
+&= NH' . NK : NH' . CN.
 \end{aligned}
 $$
 
@@ -5560,8 +5560,8 @@ $$
 
 $$
 \begin{aligned}
-(\text{spheroid}) - (\text{lesser segment}) &amp;= (\text{greater segment}), \\
-4 \cdot ab^2 - \frac{2a + x}{a + x} \cdot y^2(a - x) &amp;= \frac{2a - x}{a - x} \cdot y^2(a + x);
+(\text{spheroid}) - (\text{lesser segment}) &= (\text{greater segment}), \\
+4 \cdot ab^2 - \frac{2a + x}{a + x} \cdot y^2(a - x) &= \frac{2a - x}{a - x} \cdot y^2(a + x);
 \end{aligned}
 $$
 
@@ -5613,22 +5613,22 @@ Given two unequal lines, viz. a straight line and the circumference of a circle,
 
 For, by the Lemma, the excess can, by being added a sufficient number of times to itself, be made to exceed the lesser line.
 
-Thus e.g., if $c &gt; l$ (where $c$ is the circumference of the circle and $l$ the length of the straight line), we can find a number $n$ such that
+Thus e.g., if $c > l$ (where $c$ is the circumference of the circle and $l$ the length of the straight line), we can find a number $n$ such that
 
 $$
-n \ (c - l) &gt; l.
+n \ (c - l) > l.
 $$
 
 Therefore
 
 $$
-c - l &gt; \frac{l}{n},
+c - l > \frac{l}{n},
 $$
 
 and
 
 $$
-c &gt; l + \frac{l}{n} &gt; l.
+c > l + \frac{l}{n} > l.
 $$
 
 Hence we have only to divide $l$ into $n$ equal parts and add one of them to $l$. The resulting line will satisfy the condition.
@@ -5638,7 +5638,7 @@ Hence we have only to divide $l$ into $n$ equal parts and add one of them to $l$
 Given a circle with centre $O$, and the tangent to it at a point $A$, it is possible to draw from $O$ a straight line $OPF$, meeting the circle in $P$ and the tangent in $F$, such that, if $c$ be the circumference of any given circle whatever,
 
 $$
-FP : OP &lt; (\operatorname{arc} AP) : c.
+FP : OP < (\operatorname{arc} AP) : c.
 $$
 
 Take a straight line, as $D$, greater than the circumference $c$. [Prop. 3]
@@ -5654,7 +5654,7 @@ $$
 \begin{array}{l}
 FP : OP = AP : PH, \text{ by parallels}, \\
 = AP : D \\
-&lt; (\operatorname{arc} AP) : c.
+< (\operatorname{arc} AP) : c.
 \end{array}
 $$
 
@@ -5678,7 +5678,7 @@ $$
 
 whence
 $$
-D : E &lt; OB : BT.
+D : E < OB : BT.
 $$
 
 Suppose that a line $PH$ (greater than $BT$) is taken such that
@@ -5689,7 +5689,7 @@ $$
 
 ![img-77.jpeg](images/img-77.jpeg)
 
-and let $PH$ be so placed that it passes through $B$ and $P$ lies on the circumference of the circle, while $H$ is on the line $OH$. ($PH$ will fall outside $BT$, because $PH &gt; BT$.) Join $OP$ meeting $AB$ in $F$.
+and let $PH$ be so placed that it passes through $B$ and $P$ lies on the circumference of the circle, while $H$ is on the line $OH$. ($PH$ will fall outside $BT$, because $PH > BT$.) Join $OP$ meeting $AB$ in $F$.
 
 We now have
 
@@ -5714,8 +5714,8 @@ where $D: E$ is any given ratio greater than $BM: MO$.
 Draw $OT$ parallel to $AB$, and $BT$ perpendicular to $BO$ meeting $OT$ in $T$.
 
 In this case,
-$$ D : E &gt; BM : MO $$
-&gt; OB : BT, by similar triangles.
+$$ D : E > BM : MO $$
+> OB : BT, by similar triangles.
 
 ![img-78.jpeg](images/img-78.jpeg)
 
@@ -5736,17 +5736,17 @@ where $D : E$ is any given ratio less than $BM : MO$.
 If $OT$ be drawn parallel to $AB$ meeting the tangent at $B$ in $T$,
 $$ BM : MO = OB : BT, $$
 so that
-$$ D : E &lt; OB : BT. $$
+$$ D : E < OB : BT. $$
 Take a point $C$ on $TB$ produced such that
 $$ D : E = OB : BC, $$
 whence
-$$ BC &gt; BT. $$
+$$ BC > BT. $$
 
 Through the points $O, T, C$ describe a circle, and let $OB$ be produced to meet this circle in $K$.
 
 ![img-79.jpeg](images/img-79.jpeg)
 
-Then, since $BC &gt; BT$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a straight line $OGQ$, meeting $CT$ in $G$ and the circle about $OTC$ in $Q$, such that $GQ = BK$.
+Then, since $BC > BT$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a straight line $OGQ$, meeting $CT$ in $G$ and the circle about $OTC$ in $Q$, such that $GQ = BK$.
 
 Let $OGQ$ meet $AB$ in $F$ and the original circle in $P$.
 
@@ -5819,8 +5819,8 @@ Then
 
 $$
 \begin{array}{l}
-D: E &gt; BM: MO \\
-&gt; OB: BT, \text{ by similar triangles.}
+D: E > BM: MO \\
+> OB: BT, \text{ by similar triangles.}
 \end{array}
 $$
 
@@ -5829,7 +5829,7 @@ Produce $TB$ to $C$ so that
 $$
 \begin{array}{l}
 D: E = OB: BC, \\
-\text{where} \quad BC &lt; BT.
+\text{where} \quad BC < BT.
 \end{array}
 $$
 
@@ -5837,7 +5837,7 @@ $$
 
 Describe a circle through the points $O, T, C$, and produce $OB$ to meet this circle in $K$.
 
-Then, since $TB &gt; BC$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a line $OGQ$, meeting $CT$ in $G$, and the circle about $OTC$ in $Q$, such that $GQ = BK$. Let $OQ$ meet the original circle in $P$ and $AB$ produced in $F$.
+Then, since $TB > BC$, and $OB$ is perpendicular to $CT$, it is possible to draw from $O$ a line $OGQ$, meeting $CT$ in $G$, and the circle about $OTC$ in $Q$, such that $GQ = BK$. Let $OQ$ meet the original circle in $P$ and $AB$ produced in $F$.
 
 We now prove, exactly as in the last proposition, that
 
@@ -5887,13 +5887,13 @@ $$
 **Cor. 1.** It follows from this proposition that
 
 $$
-n \cdot A_n^2 &lt; 3 (A_1^2 + A_2^2 + \ldots + A_n^2),
+n \cdot A_n^2 < 3 (A_1^2 + A_2^2 + \ldots + A_n^2),
 $$
 
 and also that
 
 $$
-n \cdot A_n^2 &gt; 3 (A_1^2 + A_2^2 + \ldots + A_{n-1}^2).
+n \cdot A_n^2 > 3 (A_1^2 + A_2^2 + \ldots + A_{n-1}^2).
 $$
 
 [For the proof of the latter inequality see p. 109 above.]
@@ -5905,13 +5905,13 @@ $$
 If $A_1, A_2, \ldots, A_n$ be $n$ lines forming an ascending arithmetical progression [in which the common difference is equal to the least term $A_1$]*, then
 
 $$
-(n - 1) A_n^2 : (A_n^2 + A_{n-1}^2 + \ldots + A_2^2) &lt; A_n^2 : \{A_n \cdot A_1 + \frac{1}{3}(A_n - A_1)^2\};
+(n - 1) A_n^2 : (A_n^2 + A_{n-1}^2 + \ldots + A_2^2) < A_n^2 : \{A_n \cdot A_1 + \frac{1}{3}(A_n - A_1)^2\};
 $$
 
 but
 
 $$
-(n - 1) A_n^2 : (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2) &gt; A_n^2 : \{A_n \cdot A_1 + \frac{1}{3}(A_n - A_1)^2\}.
+(n - 1) A_n^2 : (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2) > A_n^2 : \{A_n \cdot A_1 + \frac{1}{3}(A_n - A_1)^2\}.
 $$
 
 [Archimedes sets out the terms side by side in the manner shown in the figure, where $BC = A_n$, $DE = A_{n-1}, \ldots, RS = A_1$, and produces $DE, FG, \ldots, RS$ until they are respectively equal to $BC$ or $A_n$, so that $EH, GI, \ldots, SU$ in the figure are respectively equal to $A_1, A_2, \ldots, A_{n-1}$. He further measures lengths $BK, DL, FM, \ldots, PV$ along $BC, DE, FG, \ldots, PQ$ respectively each equal to $RS$.]
@@ -5932,9 +5932,9 @@ $$
 
 In order therefore to prove the desired result, we have only to show that
 
-$$ (n - 1) A_n \cdot A_1 + \frac{1}{3}(n - 1) A_{n-1}^2 &lt; (A_n^2 + A_{n-1}^2 + \ldots + A_2^2) $$
+$$ (n - 1) A_n \cdot A_1 + \frac{1}{3}(n - 1) A_{n-1}^2 < (A_n^2 + A_{n-1}^2 + \ldots + A_2^2) $$
 
-but $$ &gt; (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2). $$
+but $$ > (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2). $$
 
 I. To prove the first inequality, we have
 
@@ -5968,58 +5968,58 @@ $$ + nA_1 \cdot A_{n-1} \ldots (2). $$
 
 Comparing the right-hand sides of (1) and (2), we see that $$ (n - 1) A_1^2 $$ is common to both sides, and
 
-$$ (n - 1) A_1 \cdot A_{n-1} &lt; n A_1 \cdot A_{n-1}, $$
+$$ (n - 1) A_1 \cdot A_{n-1} < n A_1 \cdot A_{n-1}, $$
 
 while, by Prop. 10, Cor. 1,
 
-$$ \frac{1}{3}(n - 1) A_{n-1}^2 &lt; A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2. $$
+$$ \frac{1}{3}(n - 1) A_{n-1}^2 < A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2. $$
 
 It follows therefore that
 
-$$ (n - 1) A_n \cdot A_1 + \frac{1}{3}(n - 1) A_{n-1}^2 &lt; (A_n^2 + A_{n-1}^2 + \ldots + A_2^2); $$
+$$ (n - 1) A_n \cdot A_1 + \frac{1}{3}(n - 1) A_{n-1}^2 < (A_n^2 + A_{n-1}^2 + \ldots + A_2^2); $$
 
 and hence the first part of the proposition is proved.
 
 II. We have now, in order to prove the second result, to show that
 
-$$ (n - 1) A_n \cdot A_1 + \frac{1}{3}(n - 1) A_{n-1}^2 &gt; (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2). $$
+$$ (n - 1) A_n \cdot A_1 + \frac{1}{3}(n - 1) A_{n-1}^2 > (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2). $$
 
 The right-hand side is equal to
 
 $$
 \begin{aligned}
-&amp;(A_{n-2} + A_1)^2 + (A_{n-3} + A_1)^3 + \ldots + (A_1 + A_1)^3 + A_1^2 \\
-&amp;= A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2 \\
-&amp;\quad + (n-1) A_1^2 \\
-&amp;\quad + 2A_1(A_{n-2} + A_{n-3} + \ldots + A_1) \\
-&amp;= (A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2) \\
-&amp;\quad + (n-1) A_1^2 \\
-&amp;\quad + A_1 \begin{cases}
+&(A_{n-2} + A_1)^2 + (A_{n-3} + A_1)^3 + \ldots + (A_1 + A_1)^3 + A_1^2 \\
+&= A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2 \\
+&\quad + (n-1) A_1^2 \\
+&\quad + 2A_1(A_{n-2} + A_{n-3} + \ldots + A_1) \\
+&= (A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2) \\
+&\quad + (n-1) A_1^2 \\
+&\quad + A_1 \begin{cases}
 A_{n-2} + A_{n-3} + \ldots + A_1 \\
 + A_1 + A_2 + \ldots + A_{n-2}
 \end{cases} \\
-&amp;= (A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2) \\
-&amp;\quad + (n-1) A_1^2 \\
-&amp;\quad + (n-2) A_1 \cdot A_{n-1} \quad \text{(3)}.
+&= (A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2) \\
+&\quad + (n-1) A_1^2 \\
+&\quad + (n-2) A_1 \cdot A_{n-1} \quad \text{(3)}.
 \end{aligned}
 $$
 
 Comparing this expression with the right-hand side of (1) above, we see that $(n-1) A_1^2$ is common to both sides, and
 
 $$
-(n-1) A_1 \cdot A_{n-1} &gt; (n-2) A_1 \cdot A_{n-1},
+(n-1) A_1 \cdot A_{n-1} > (n-2) A_1 \cdot A_{n-1},
 $$
 
 while, by Prop. 10, Cor. 1,
 
 $$
-\frac{1}{3}(n-1) A_{n-1}^2 &gt; (A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2).
+\frac{1}{3}(n-1) A_{n-1}^2 > (A_{n-2}^2 + A_{n-3}^2 + \ldots + A_1^2).
 $$
 
 Hence
 
 $$
-(n-1) A_n \cdot A_1 + \frac{1}{3}(n-1) A_{n-1}^2 &gt; (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2);
+(n-1) A_n \cdot A_1 + \frac{1}{3}(n-1) A_{n-1}^2 > (A_{n-1}^2 + A_{n-2}^2 + \ldots + A_1^2);
 $$
 
 and the second required result follows.
@@ -6069,10 +6069,10 @@ $$
 But in any triangle $POQ$, if the bisector of the angle $POQ$ meets $PQ$ in $K$,
 
 $$
-OP + OQ &gt; 2OK.
+OP + OQ > 2OK.
 $$
 
-Therefore $OK &lt; OR$, and it follows that some point on $BC$ between $P$ and $Q$ lies within the spiral. Hence $BC$ cuts the spiral; which is contrary to the hypothesis.
+Therefore $OK < OR$, and it follows that some point on $BC$ between $P$ and $Q$ lies within the spiral. Hence $BC$ cuts the spiral; which is contrary to the hypothesis.
 
 ## Proposition 14.
 
@@ -6126,7 +6126,7 @@ If possible, let it be a right angle. $BC$ will then touch the circle at $P$.
 
 Therefore [Prop. 5] it is possible to draw a line $OQC$ meeting the circle through $P$ in $Q$ and $BC$ in $C$, such that
 
-$$CQ:OQ &lt; (\operatorname{arc} PQ):(\operatorname{arc} DLP) \quad \dots \dots \dots \dots (1).$$
+$$CQ:OQ < (\operatorname{arc} PQ):(\operatorname{arc} DLP) \quad \dots \dots \dots \dots (1).$$
 
 Suppose that $OC$ meets the spiral in $R$ and the ‘first circle’ in $R'$; and produce $OP$ to meet the ‘first circle’ in $P'$.
 
@@ -6134,14 +6134,14 @@ From (1) it follows, componendo, that
 
 $$
 \begin{aligned}
-CO : OQ &amp;&lt; (\operatorname{arc} DLQ) : (\operatorname{arc} DLP) \\
-&amp;&lt; (\operatorname{arc} AKR') : (\operatorname{arc} AKP') \\
-&amp;&lt; OR : OP.
+CO : OQ &< (\operatorname{arc} DLQ) : (\operatorname{arc} DLP) \\
+&< (\operatorname{arc} AKR') : (\operatorname{arc} AKP') \\
+&< OR : OP.
 \end{aligned}
 \tag{Prop. 14}
 $$
 
-But this is impossible, because $OQ = OP$, and $OR &lt; OC$.
+But this is impossible, because $OQ = OP$, and $OR < OC$.
 
 Hence the angle $OPC$ is not a right angle. It was also proved not to be acute.
 
@@ -6179,7 +6179,7 @@ $$
 
 If not, $OB$ must be either greater or less than $c$.
 
-(1) If possible, suppose $OB &gt; c$.
+(1) If possible, suppose $OB > c$.
 
 Measure along $OB$ a length $OD$ less than $OB$ but greater than $c$.
 
@@ -6194,24 +6194,24 @@ Thus, alternately, since $AO = PO$,
 $$
 \begin{array}{l}
 FP: PO = PA:OD \\
-&lt; (\operatorname{arc} PA):c,
+< (\operatorname{arc} PA):c,
 \end{array}
 $$
 
-since $(\operatorname{arc} PA) &gt; PA$, and $OD &gt; c$.
+since $(\operatorname{arc} PA) > PA$, and $OD > c$.
 
 Componendo,
 
 $$
 \begin{array}{l}
-FO:PO &lt; (c + \operatorname{arc} PA):c \\
-&lt; OQ:OA,
+FO:PO < (c + \operatorname{arc} PA):c \\
+< OQ:OA,
 \end{array}
 $$
 
 where $OF$ meets the spiral in $Q$. [Prop. 15]
 
-Therefore, since $OA = OP$, $FO &lt; OQ$; which is impossible.
+Therefore, since $OA = OP$, $FO < OQ$; which is impossible.
 
 Hence
 
@@ -6219,7 +6219,7 @@ $$
 OB \ngtr c.
 $$
 
-(2) If possible, suppose $OB &lt; c$.
+(2) If possible, suppose $OB < c$.
 
 Measure $OE$ along $OB$ so that $OE$ is greater than $OB$ but less than $c$.
 
@@ -6236,22 +6236,22 @@ Then we have, alternately,
 $$
 \begin{array}{l}
 F'P':P'O = AG:OE \\
-&gt; (\operatorname{arc} AP'):c,
+> (\operatorname{arc} AP'):c,
 \end{array}
 $$
 
-because $AG &gt; (\operatorname{arc} AP')$, and $OE &lt; c$.
+because $AG > (\operatorname{arc} AP')$, and $OE < c$.
 
 Therefore
 
 $$
 \begin{array}{l}
-F'O : P'O &lt; (\operatorname{arc} AKP') : c \\
-&lt; OQ' : OA. \quad [Prop. 14]
+F'O : P'O < (\operatorname{arc} AKP') : c \\
+< OQ' : OA. \quad [Prop. 14]
 \end{array}
 $$
 
-But this is impossible, since $OA = OP'$, and $OQ' &lt; OF'$.
+But this is impossible, since $OA = OP'$, and $OQ' < OF'$.
 
 Hence
 
@@ -6273,7 +6273,7 @@ If then $c'$ is the circumference of the ‘second circle,’ we have to prove t
 
 For, if not, $OB'$ must be either greater or less than $2c'$.
 
-(1) If possible, suppose $OB' &gt; 2c'$.
+(1) If possible, suppose $OB' > 2c'$.
 
 Measure $OD'$ along $OB'$ so that $OD'$ is less than $OB'$ but greater than $2c'$.
 
@@ -6290,23 +6290,23 @@ We now have, since $A'O = PO$,
 $$
 \begin{array}{l}
 FP : PO = PA' : OD' \\
-&lt; (\operatorname{arc} A'P) : 2c',
+< (\operatorname{arc} A'P) : 2c',
 \end{array}
 $$
 
-because $(\operatorname{arc} A'P) &gt; A'P$ and $OD' &gt; 2c'$.
+because $(\operatorname{arc} A'P) > A'P$ and $OD' > 2c'$.
 
 Therefore
 
 $$
-FO : PO &lt; (2c' + \operatorname{arc} A'P) : 2c'
+FO : PO < (2c' + \operatorname{arc} A'P) : 2c'
 $$
 
 $$
-&lt; OQ : OA'. \quad [Prop. 15, Cor.]
+< OQ : OA'. \quad [Prop. 15, Cor.]
 $$
 
-Hence $FO &lt; OQ$; which is impossible.
+Hence $FO < OQ$; which is impossible.
 
 Thus
 
@@ -6368,8 +6368,8 @@ We have then
 
 $$
 \begin{aligned}
-FQ:QO &amp;= PQ:OU \\
-&amp;&lt; (\operatorname{arc} PQ): (\operatorname{arc} KRP), \text{ by hypothesis}.
+FQ:QO &= PQ:OU \\
+&< (\operatorname{arc} PQ): (\operatorname{arc} KRP), \text{ by hypothesis}.
 \end{aligned}
 $$
 
@@ -6377,8 +6377,8 @@ Componendo,
 
 $$
 \begin{aligned}
-FO:QO &amp;&lt; (\operatorname{arc} KRQ): (\operatorname{arc} KRP) \\
-&amp;&lt; OQ': OP. \quad [Prop. 14]
+FO:QO &< (\operatorname{arc} KRQ): (\operatorname{arc} KRP) \\
+&< OQ': OP. \quad [Prop. 14]
 \end{aligned}
 $$
 
@@ -6388,7 +6388,7 @@ $$
 QO = OP.
 $$
 
-Therefore $FO &lt; OQ'$; which is impossible.
+Therefore $FO < OQ'$; which is impossible.
 
 Hence
 
@@ -6473,35 +6473,35 @@ $$
 
 For, if not, $R_1$ must be either greater or less than $C_1$.
 
-**I.** If possible, suppose $R_1 &lt; \frac{1}{3}C_1$.
+**I.** If possible, suppose $R_1 < \frac{1}{3}C_1$.
 
 We can then circumscribe a figure about $R_1$ made up of similar sectors of circles such that, if $F$ be the area of this figure,
 
 $$
-F - R_1 &lt; \frac{1}{3}C_1 - R_1,
+F - R_1 < \frac{1}{3}C_1 - R_1,
 $$
 
 whence
 
 $$
-F &lt; \frac{1}{3}C_1.
+F < \frac{1}{3}C_1.
 $$
 
 Let $OP, OQ, \ldots$ be the radii of the circular sectors, beginning from the smallest. The radius of the largest is of course $OA$.
 
 The radii then form an ascending arithmetical progression in which the common difference is equal to the least term $OP$. If $n$ be the number of the sectors, we have [by Prop. 10, Cor. 1]
 
-$$n \cdot OA^2 &lt; 3 \cdot (OP^2 + OQ^2 + \ldots + OA^2);$$
+$$n \cdot OA^2 < 3 \cdot (OP^2 + OQ^2 + \ldots + OA^2);$$
 
 ![img-92.jpeg](images/img-92.jpeg)
 
 and, since the similar sectors are proportional to the squares on their radii, it follows that
 
-$$C_1 &lt; 3F,$$
+$$C_1 < 3F,$$
 
 or
 
-$$F &gt; \frac{1}{3}C_1.$$
+$$F > \frac{1}{3}C_1.$$
 
 But this is impossible, since $F$ was less than $\frac{1}{3}C_1$.
 
@@ -6509,31 +6509,31 @@ Therefore
 
 $$R_1 \nless \frac{1}{3}C_1.$$
 
-II. If possible, suppose $R_1 &gt; \frac{1}{3}C_1$.
+II. If possible, suppose $R_1 > \frac{1}{3}C_1$.
 
 We can then *inscribe* a figure made up of similar sectors of circles such that, if $f$ be its area,
 
-$$R_1 - f &lt; R_1 - \frac{1}{3}C_1,$$
+$$R_1 - f < R_1 - \frac{1}{3}C_1,$$
 
 whence
 
 $$
-f &gt; \frac{1}{3}C_1.
+f > \frac{1}{3}C_1.
 $$
 
 If there are $(n - 1)$ sectors, their radii, as $OP, OQ, \ldots$, form an ascending arithmetical progression in which the least term is equal to the common difference, and the greatest term, as $OY$, is equal to $(n - 1)OP$.
 
 Thus [Prop. 10, Cor. 1].
 
-$$ n. OA^2 &gt; 3 (OP^2 + OQ^2 + \ldots + OY^2), $$
+$$ n. OA^2 > 3 (OP^2 + OQ^2 + \ldots + OY^2), $$
 
 whence
-$$ C_1 &gt; 3f, $$
+$$ C_1 > 3f, $$
 
 or
-$$ f &lt; \frac{1}{3}C_1; $$
+$$ f < \frac{1}{3}C_1; $$
 
-which is impossible, since $$ f &gt; \frac{1}{3}C_1. $$
+which is impossible, since $$ f > \frac{1}{3}C_1. $$
 
 Therefore
 $$ R_1 \ne \frac{1}{3}C_1. $$
@@ -6591,8 +6591,8 @@ But, by Prop. 15, Cor.,
 
 $$
 \begin{aligned}
-\left( n + \frac{p}{q} \right) \text{ (circle } B'MC) : &amp; \left\{ \left( n + \frac{p}{q} \right) \text{ (circle } B'MC) + \text{ (sector } B'MC) \right\} \\
-&amp; = OB : OC,
+\left( n + \frac{p}{q} \right) \text{ (circle } B'MC) : & \left\{ \left( n + \frac{p}{q} \right) \text{ (circle } B'MC) + \text{ (sector } B'MC) \right\} \\
+& = OB : OC,
 \end{aligned}
 $$
 
@@ -6608,9 +6608,9 @@ Thus
 
 $$
 \begin{aligned}
-\frac{\text{area } BEC}{\text{sector } B'MC} &amp;= \frac{1}{3} \left\{ \left( \frac{O B}{O C - O B} \right) \left( 1 - \frac{O B^2}{O C^2} \right) + 1 \right\} \\
-&amp;= \frac{1}{3} \cdot \frac{O B (O C + O B) + O C^2}{O C^2} \\
-&amp;= \frac{O C \cdot O B + \frac{1}{3} (O C - O B)^2}{O C^2}.
+\frac{\text{area } BEC}{\text{sector } B'MC} &= \frac{1}{3} \left\{ \left( \frac{O B}{O C - O B} \right) \left( 1 - \frac{O B^2}{O C^2} \right) + 1 \right\} \\
+&= \frac{1}{3} \cdot \frac{O B (O C + O B) + O C^2}{O C^2} \\
+&= \frac{O C \cdot O B + \frac{1}{3} (O C - O B)^2}{O C^2}.
 \end{aligned}
 $$
 
@@ -6661,18 +6661,18 @@ $$
 
 For, if not, the area of the spiral $OBC$ (which we will call $S$) must be either greater or less than $\sigma$.
 
-I. Suppose, if possible, $S &lt; \sigma$.
+I. Suppose, if possible, $S < \sigma$.
 
 Circumscribe to the area $S$ a figure made up of similar sectors of circles, such that, if $F$ be the area of the figure,
 
 $$
-F - S &lt; \sigma - S,
+F - S < \sigma - S,
 $$
 
 whence
 
 $$
-F &lt; \sigma.
+F < \sigma.
 $$
 
 Let the radii of the successive sectors, starting from $OB$, be $OP$, $OQ$, ... $OC$. Produce $OP$, $OQ$, ... to meet the circle $CKB'$, ...
@@ -6688,24 +6688,24 @@ Therefore [see Prop. 11 and Cor.]
 $$
 \begin{array}{l}
 (n - 1) O C ^ {2}: \left(O P ^ {2} + O Q ^ {2} + \dots + O C ^ {2}\right) \\
-&lt; O C ^ {2}: \left\{O C. O B + \frac {1}{3} (O C - O B) ^ {2} \right\} \\
-&lt; (\text{sector } O B ^ {\prime} C): \sigma , \text{ by hypothesis}.
+< O C ^ {2}: \left\{O C. O B + \frac {1}{3} (O C - O B) ^ {2} \right\} \\
+< (\text{sector } O B ^ {\prime} C): \sigma , \text{ by hypothesis}.
 \end{array}
 $$
 
 Hence, since similar sectors are as the squares of their radii,
 
 $$
-(\text{sector } O B ^ {\prime} C): F &lt; (\text{sector } O B ^ {\prime} C): \sigma,
+(\text{sector } O B ^ {\prime} C): F < (\text{sector } O B ^ {\prime} C): \sigma,
 $$
 
 so that
 
 $$
-F &gt; \sigma.
+F > \sigma.
 $$
 
-But this is impossible, because $F &lt; \sigma$.
+But this is impossible, because $F < \sigma$.
 
 Therefore
 
@@ -6713,18 +6713,18 @@ $$
 S \nless \sigma.
 $$
 
-## II. Suppose, if possible, $S &gt; \sigma$.
+## II. Suppose, if possible, $S > \sigma$.
 
 Inscribe in the area $S$ a figure made up of similar sectors of circles such that, if $f$ be its area,
 
 $$
-S - f &lt; S - \sigma,
+S - f < S - \sigma,
 $$
 
 whence
 
 $$
-f &gt; \sigma.
+f > \sigma.
 $$
 
 Suppose $OB, OP, \ldots, OY$ to be the radii of the successive sectors making up the figure $f$, being $(n - 1)$ in number.
@@ -6734,19 +6734,19 @@ We shall have in this case [see Prop. 11 and Cor.]
 $$
 \begin{array}{l}
 (n - 1) O C ^ {2}: (O B ^ {2} + O P ^ {2} + \dots + O Y ^ {2}) \\
-&gt; O C ^ {2}: \left[ O C. O B + \frac {1}{3} (O C - O B) ^ {2} \right],
+> O C ^ {2}: \left[ O C. O B + \frac {1}{3} (O C - O B) ^ {2} \right],
 \end{array}
 $$
 
-whence (sector $OB'C$): $f &gt;$ (sector $OB'C$): $\sigma$,
+whence (sector $OB'C$): $f >$ (sector $OB'C$): $\sigma$,
 
 so that
 
 $$
-f &lt; \sigma.
+f < \sigma.
 $$
 
-But this is impossible, because $f &gt; \sigma$.
+But this is impossible, because $f > \sigma$.
 
 Therefore
 
@@ -6794,17 +6794,17 @@ Next, for the third turn, we have
 
 $$
 \begin{aligned}
-(R_1 + R_2 + R_3) : \text{('third circle')} &amp;= \left\{ r_3 r_3 + \frac{1}{3} (r_3 - r_2)^2 \right\} : r_3^2 \\
-&amp;= (3 \cdot 2 + \frac{1}{3}) : 3^2 \\
-&amp;= 19 : 27,
+(R_1 + R_2 + R_3) : \text{('third circle')} &= \left\{ r_3 r_3 + \frac{1}{3} (r_3 - r_2)^2 \right\} : r_3^2 \\
+&= (3 \cdot 2 + \frac{1}{3}) : 3^2 \\
+&= 19 : 27,
 \end{aligned}
 $$
 
 and
 $$
 \begin{aligned}
-\text{('third circle')} &amp;= 9 \text{ ('first circle')} \\
-&amp;= 27 R_1;
+\text{('third circle')} &= 9 \text{ ('first circle')} \\
+&= 27 R_1;
 \end{aligned}
 $$
 
@@ -6817,8 +6817,8 @@ and, by (1) above, it follows that
 
 $$
 \begin{aligned}
-R_3 &amp;= 12 R_1 \\
-&amp;= 2 R_2 \dots \dots \dots \dots \dots \dots \dots \dots \dots (2),
+R_3 &= 12 R_1 \\
+&= 2 R_2 \dots \dots \dots \dots \dots \dots \dots \dots \dots (2),
 \end{aligned}
 $$
 
@@ -6832,8 +6832,8 @@ $$
 
 $$
 \begin{aligned}
-(R_1 + R_2 + \dots + R_{n-1}) : &amp;\text{(n-1th circle)} \\
-&amp;= \left\{ r_{n-1} r_{n-2} + \frac{1}{3} (r_{n-1} - r_{n-2})^2 \right\} : r_{n-1}^2,
+(R_1 + R_2 + \dots + R_{n-1}) : &\text{(n-1th circle)} \\
+&= \left\{ r_{n-1} r_{n-2} + \frac{1}{3} (r_{n-1} - r_{n-2})^2 \right\} : r_{n-1}^2,
 \end{aligned}
 $$
 
@@ -6846,9 +6846,9 @@ Therefore
 
 $$
 \begin{aligned}
-(R_1 + R_2 + \dots + R_n) : &amp;\text{(} R_1 + R_2 + \dots + R_{n-1} \text{)} \\
-&amp;= \left\{ n (n-1) + \frac{1}{3} \right\} : \left\{ (n-1) (n-2) + \frac{1}{3} \right\} \\
-&amp;= \left\{ 3n (n-1) + 1 \right\} : \left\{ 3 (n-1) (n-2) + 1 \right\}.
+(R_1 + R_2 + \dots + R_n) : &\text{(} R_1 + R_2 + \dots + R_{n-1} \text{)} \\
+&= \left\{ n (n-1) + \frac{1}{3} \right\} : \left\{ (n-1) (n-2) + \frac{1}{3} \right\} \\
+&= \left\{ 3n (n-1) + 1 \right\} : \left\{ 3 (n-1) (n-2) + 1 \right\}.
 \end{aligned}
 $$
 
@@ -6857,7 +6857,7 @@ Dirimendo,
 $$
 \begin{aligned}
 R_n : (R_1 + R_2 + \dots + R_{n-1}) \\
-&amp;= 6 (n-1) : \left\{ 3 (n-1) (n-2) + 1 \right\} \dots \dots \dots (a).
+&= 6 (n-1) : \left\{ 3 (n-1) (n-2) + 1 \right\} \dots \dots \dots (a).
 \end{aligned}
 $$
 
@@ -6872,8 +6872,8 @@ from which we derive
 $$
 \begin{aligned}
 R_{n-1} : (R_1 + R_2 + \dots + R_{n-1}) \\
-&amp;= 6 (n-2) : \left\{ 6 (n-2) + 3 (n-2) (n-3) + 1 \right\} \\
-&amp;= 6 (n-2) : \left\{ 3 (n-1) (n-2) + 1 \right\} \dots \dots \dots (b).
+&= 6 (n-2) : \left\{ 6 (n-2) + 3 (n-2) (n-3) + 1 \right\} \\
+&= 6 (n-2) : \left\{ 3 (n-1) (n-2) + 1 \right\} \dots \dots \dots (b).
 \end{aligned}
 $$
 
@@ -6909,10 +6909,10 @@ whence
 
 $$
 \begin{aligned}
-E: (\sigma + F) &amp;= \{OC \cdot (OC - OB) - \frac{1}{3}(OC - OB)^2\} \\
-&amp;\quad : \{OC \cdot OB + \frac{1}{3}(OC - OB)^2\} \\
-&amp;= \{OB \cdot (OC - OB) + \frac{2}{3}(OC - OB)^2\} \\
-&amp;\quad : \{OC \cdot OB + \frac{1}{3}(OC - OB)^2\} \ldots \ldots \ldots (2).
+E: (\sigma + F) &= \{OC \cdot (OC - OB) - \frac{1}{3}(OC - OB)^2\} \\
+&\quad : \{OC \cdot OB + \frac{1}{3}(OC - OB)^2\} \\
+&= \{OB \cdot (OC - OB) + \frac{2}{3}(OC - OB)^2\} \\
+&\quad : \{OC \cdot OB + \frac{1}{3}(OC - OB)^2\} \ldots \ldots \ldots (2).
 \end{aligned}
 $$
 
@@ -6932,8 +6932,8 @@ whence
 
 $$
 \begin{aligned}
-(\sigma + F): F &amp;= \left\{O C. O B + \frac {1}{5} (O C - O B) ^ {2} \right\} \\
-&amp;\quad : \left\{O B (O C - O B) + \frac {1}{5} (O C - O B) ^ {2} \right\}.
+(\sigma + F): F &= \left\{O C. O B + \frac {1}{5} (O C - O B) ^ {2} \right\} \\
+&\quad : \left\{O B (O C - O B) + \frac {1}{5} (O C - O B) ^ {2} \right\}.
 \end{aligned}
 $$
 
@@ -6941,9 +6941,9 @@ Combining this with (2) above, we obtain
 
 $$
 \begin{aligned}
-E: F &amp;= \left\{O B (O C - O B) + \frac {2}{5} (O C - O B) ^ {2} \right\} \\
-&amp;\quad : \left\{O B (O C - O B) + \frac {1}{5} (O C - O B) ^ {2} \right\} \\
-&amp;= \left\{O B + \frac {2}{5} (O C - O B) \right\}: \left\{O B + \frac {1}{5} (O C - O B) \right\}.
+E: F &= \left\{O B (O C - O B) + \frac {2}{5} (O C - O B) ^ {2} \right\} \\
+&\quad : \left\{O B (O C - O B) + \frac {1}{5} (O C - O B) ^ {2} \right\} \\
+&= \left\{O B + \frac {2}{5} (O C - O B) \right\}: \left\{O B + \frac {1}{5} (O C - O B) \right\}.
 \end{aligned}
 $$
 
@@ -6987,15 +6987,15 @@ Let $A, B$ be two unequal weights (of which $A$ is the greater) balancing about 
 
 ![img-98.jpeg](images/img-98.jpeg)
 
-Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC &gt; CB$, they will incline towards $A$ at the greater distance [Post. 1].
+Then shall $AC$ be less than $BC$. For, if not, take away from $A$ the weight $(A - B)$. The remainders will then incline towards $B$ [Post. 3]. But this is impossible, for (1) if $AC = CB$, the equal remainders will balance, or (2) if $AC > CB$, they will incline towards $A$ at the greater distance [Post. 1].
 
 Hence
 
 $$
-AC &lt; CB.
+AC < CB.
 $$
 
-Conversely, if the weights balance, and $AC &lt; CB$, then $A &gt; B$.
+Conversely, if the weights balance, and $AC < CB$, then $A > B$.
 
 ## Proposition 4.
 
@@ -7075,7 +7075,7 @@ Suppose, if possible, that $(A + a)$ is too great to balance $B$. Take from $(A 
 
 Then, since $A$, $B$ are commensurable, and
 
-$$A:B &lt; DC:CE,$$
+$$A:B < DC:CE,$$
 
 $A$ and $B$ will not balance [Prop. 6], but $D$ will be depressed.
 
@@ -7233,11 +7233,11 @@ Now, if $n$ be the number of parts into which $AC$ is divided,
 
 $$
 \begin{aligned}
-\Delta ADC : &amp; \text{(sum of triangles on } AN, NP, \ldots) \\
-&amp;= AC^2 : (AN^2 + NP^2 + \ldots) \\
-&amp;= n^2 : n \\
-&amp;= n : 1 \\
-&amp;= AC : AN.
+\Delta ADC : & \text{(sum of triangles on } AN, NP, \ldots) \\
+&= AC^2 : (AN^2 + NP^2 + \ldots) \\
+&= n^2 : n \\
+&= n : 1 \\
+&= AC : AN.
 \end{aligned}
 $$
 
@@ -7257,8 +7257,8 @@ It follows that
 
 $$
 \begin{aligned}
-\Delta ABC : &amp; \text{(sum of all the small } \Delta s) = CA : AN \\
-&amp;&gt; VO : OH, \text{ by parallels}.
+\Delta ABC : & \text{(sum of all the small } \Delta s) = CA : AN \\
+&> VO : OH, \text{ by parallels}.
 \end{aligned}
 $$
 
@@ -7571,12 +7571,12 @@ Join $HF$ and produce it to meet in $K$ the line through $B$ parallel to $AO$.
 
 Then we have
 
-(inscribed figure): (remainder of segmt.) $&gt; \Delta ABB': S$
+(inscribed figure): (remainder of segmt.) $> \Delta ABB': S$
 
 $$
 \begin{array}{l}
-&gt; BE: EO \\
-&gt; KF: FH.
+> BE: EO \\
+> KF: FH.
 \end{array}
 $$
 
@@ -7628,17 +7628,17 @@ $$
 \left(\triangle AQB + \triangle AQ'B'\right) : \triangle ABB' = FF' : F'L. \quad [I. 6, 7]
 $$
 
-[Hence $FG : GK &gt; FF' : F'L$,
+[Hence $FG : GK > FF' : F'L$,
 
 or
 
 $$
-GK : FG &lt; F'L : FF',
+GK : FG < F'L : FF',
 $$
 
-and, componendo, $FK : FG &lt; FL : FF'$, while $FK &gt; FL$.]
+and, componendo, $FK : FG < FL : FF'$, while $FK > FL$.]
 
-Therefore $FG &gt; FF'$, or $G$ lies nearer than $F'$ to the vertex $A$.
+Therefore $FG > FF'$, or $G$ lies nearer than $F'$ to the vertex $A$.
 
 Using this last result, and proceeding in the same way, we can prove the proposition for any figure inscribed ‘in the recognised manner.’
 
@@ -7656,7 +7656,7 @@ $$
 
 In the segment inscribe ‘in the recognised manner’ a figure such that the sum of the segments left over is less than $S$. Let $F$ be the centre of gravity of the inscribed figure.
 
-We shall prove that $FG &lt; D$.
+We shall prove that $FG < D$.
 
 For, if not, $FG$ must be either equal to, or greater than, $D$.
 
@@ -7666,9 +7666,9 @@ And clearly
 
 $$
 \begin{array}{l}
-&gt; \triangle ABB' : S \\
-&gt; AG : D \\
-&gt; AG : FG, \text{ by hypothesis (since } FG \nless D).
+> \triangle ABB' : S \\
+> AG : D \\
+> AG : FG, \text{ by hypothesis (since } FG \nless D).
 \end{array}
 $$
 
@@ -7697,7 +7697,7 @@ $$
 and inscribe in the segment $BAB'$ ‘in the recognised manner’ a figure such that, if $F$ be its centre of gravity,
 
 $$
-GF &lt; GH.
+GF < GH.
 $$
 
 [Prop. 6]
@@ -7705,7 +7705,7 @@ $$
 Inscribe in the segment $bab'$ ‘in the recognised manner’ a similar figure; then, if $f$ be the centre of gravity of this figure,
 
 $$
-ag &lt; af.
+ag < af.
 $$
 
 [Prop. 5]
@@ -7715,17 +7715,17 @@ And, by Prop. 3, $af:fo = AF:FO$.
 But
 
 $$
-AF:FO &lt; AH:HO
+AF:FO < AH:HO
 $$
 
 $$
-&lt; ag:go, \text{ by hypothesis}.
+< ag:go, \text{ by hypothesis}.
 $$
 
 Therefore
 
 $$
-af:fo &lt; ag:go; \text{ which is impossible}.
+af:fo < ag:go; \text{ which is impossible}.
 $$
 
 It follows that $G, g$ cannot but divide $AO, ao$ in the same ratio.
@@ -7889,7 +7889,7 @@ $$
 so that
 
 $$
-z &lt; (c - d).
+z < (c - d).
 $$
 
 Therefore
@@ -8199,18 +8199,18 @@ Let $CO$ meet the sections of the earth and sun in $H$, $K$ respectively; and le
 
 Join $EO$, $OF$, $OG$, $OP$, $OQ$, $AB$, and let $AB$ meet $CO$ in $M$.
 
-Now $CO &gt; EO$, since the sun is just above the horizon.
+Now $CO > EO$, since the sun is just above the horizon.
 
 Therefore
 
 $$
-\angle PEQ &gt; \angle FCG.
+\angle PEQ > \angle FCG.
 $$
 
 $$
 \begin{array}{r l}
-\text{And} &amp; \angle PEQ &gt; \frac{1}{200}R \\
-\text{but} &amp; &lt; \frac{1}{104}R
+\text{And} & \angle PEQ > \frac{1}{200}R \\
+\text{but} & < \frac{1}{104}R
 \end{array}
 \quad \text{where } R \text{ represents a right angle.}
 $$
@@ -8220,25 +8220,25 @@ $$
 Thus
 
 $$
-\angle FCG &lt; \frac{1}{104}R, \text{ a fortiori},
+\angle FCG < \frac{1}{104}R, \text{ a fortiori},
 $$
 
 and the chord $AB$ subtends an arc of the great circle which is less than $\frac{1}{800}$th of the circumference of that circle, i.e.
 
-$AB &lt;$ (side of 656-sided polygon inscribed in the circle).
+$AB <$ (side of 656-sided polygon inscribed in the circle).
 
 Now the perimeter of any polygon inscribed in the great circle is less than $\frac{4}{100}$CO. [Cf. Measurement of a circle, Prop. 3.]
 
 Therefore
 
 $$
-AB : CO &lt; 11 : 1148,
+AB : CO < 11 : 1148,
 $$
 
 and, a fortiori,
 
 $$
-AB &lt; \frac{1}{100}CO \quad \text{(a)}.
+AB < \frac{1}{100}CO \quad \text{(a)}.
 $$
 
 Again, since $CA = CO$, and $AM$ is perpendicular to $CO$, while $OF$ is perpendicular to $CA$,
@@ -8256,74 +8256,74 @@ $$
 Thus
 
 $$
-\text{(diameter of sun)} &lt; \frac{1}{100}CO, \text{ by (a)},
+\text{(diameter of sun)} < \frac{1}{100}CO, \text{ by (a)},
 $$
 
 and, a fortiori,
 
 $$
-\text{(diameter of earth)} &lt; \frac{1}{100}CO. \quad \text{[Assumption 2]}
+\text{(diameter of earth)} < \frac{1}{100}CO. \quad \text{[Assumption 2]}
 $$
 
 Hence
 $$
-CH + OK &lt; \frac{1}{100}CO,
+CH + OK < \frac{1}{100}CO,
 $$
 so that
 $$
-HK &gt; \frac{99}{100}CO,
+HK > \frac{99}{100}CO,
 $$
 or
 $$
-CO : HK &lt; 100 : 99.
+CO : HK < 100 : 99.
 $$
 And
 $$
-CO &gt; CF,
+CO > CF,
 $$
 while
 $$
-HK &lt; EQ.
+HK < EQ.
 $$
 Therefore
 $$
-CF : EQ &lt; 100 : 99 \quad
+CF : EQ < 100 : 99 \quad
 $$
 
 Now in the right-angled triangles $CFO$, $EQO$, of the sides about the right angles,
 
 $$
-OF = OQ, \text{ but } EQ &lt; CF \text{ (since } EO &lt; CO\text{).}
+OF = OQ, \text{ but } EQ < CF \text{ (since } EO < CO\text{).}
 $$
 
 Therefore
 $$
-\angle OEQ : \angle OCF &gt; CO : EO,
+\angle OEQ : \angle OCF > CO : EO,
 $$
 but
 $$
-&lt; CF : EQ.
+< CF : EQ.
 $$
 
 Doubling the angles,
 
 $$
 \begin{array}{l}
-\angle PEQ : \angle ACB &lt; CF : EQ \\
-&lt; 100 : 99, \text{ by } (\beta) \text{ above.}
+\angle PEQ : \angle ACB < CF : EQ \\
+< 100 : 99, \text{ by } (\beta) \text{ above.}
 \end{array}
 $$
 
 But
 $$
-\angle PEQ &gt; \frac{1}{200}R, \text{ by hypothesis.}
+\angle PEQ > \frac{1}{200}R, \text{ by hypothesis.}
 $$
 
 Therefore
 $$
 \begin{array}{l}
-\angle ACB &gt; \frac{99}{20000}R \\
-&gt; \frac{1}{203}R.
+\angle ACB > \frac{99}{20000}R \\
+> \frac{1}{203}R.
 \end{array}
 $$
 
@@ -8331,45 +8331,45 @@ It follows that the arc $AB$ is greater than $\frac{1}{812}$th of the circumfere
 
 Hence, *a fortiori*,
 
-$AB$ &gt; (side of chiliagon inscribed in great circle), and $AB$ is equal to the diameter of the sun, as proved above.
+$AB$ > (side of chiliagon inscribed in great circle), and $AB$ is equal to the diameter of the sun, as proved above.
 
 **The following results can now be proved :**
 
-*(diameter of ‘universe’) &lt; 10,000* *(diameter of earth)*,
+*(diameter of ‘universe’) < 10,000* *(diameter of earth)*,
 
-and *(diameter of ‘universe’) &lt; 10,000,000,000* *stadia.*
+and *(diameter of ‘universe’) < 10,000,000,000* *stadia.*
 
 $$
-\frac{\tan a}{\tan b} &gt; \frac{a}{b} &gt; \frac{\sin a}{\sin b},
+\frac{\tan a}{\tan b} > \frac{a}{b} > \frac{\sin a}{\sin b},
 $$
 
 (1) Suppose, for brevity, that $d_u$ represents the diameter of the ‘universe,’ $d_s$ that of the sun, $d_e$ that of the earth, and $d_m$ that of the moon.
 
 By hypothesis, $d_s \ngtr 30d_m$, [Assumption 3]
-and $d_e &gt; d_m$; [Assumption 2]
-therefore $d_s &lt; 30d_e$.
+and $d_e > d_m$; [Assumption 2]
+therefore $d_s < 30d_e$.
 
 Now, by the last proposition,
 
-$d_s &gt;$ (side of chiliagon inscribed in great circle),
-so that (perimeter of chiliagon) $&lt; 1000d_s$
-$&lt; 30,000d_e$.
+$d_s >$ (side of chiliagon inscribed in great circle),
+so that (perimeter of chiliagon) $< 1000d_s$
+$< 30,000d_e$.
 
 But the perimeter of any regular polygon with more sides than 6 inscribed in a circle is greater than that of the inscribed regular hexagon, and therefore greater than three times the diameter. Hence
 
-(perimeter of chiliagon) $&gt; 3d_u$.
+(perimeter of chiliagon) $> 3d_u$.
 
 It follows that
 
 $$
-d_u &lt; 10,000d_e.
+d_u < 10,000d_e.
 $$
 
 (2) (Perimeter of earth) $\ngtr 3,000,000$ stadia. [Assumption 1]
-and (perimeter of earth) $&gt; 3d_e$.
+and (perimeter of earth) $> 3d_e$.
 
-Therefore $d_e &lt; 1,000,000$ stadia,
-whence $d_u &lt; 10,000,000,000$ stadia.
+Therefore $d_e < 1,000,000$ stadia,
+whence $d_u < 10,000,000,000$ stadia.
 
 ## Assumption 5.
 
@@ -8463,7 +8463,7 @@ $$\begin{array}{l}
 \div 6 \text{ units of second} \\
 \text{order} + 40,000,000 \\
 \text{units of first order} \\
-\text{(a fortiori)} &lt; 10 \text{ units of second} \\
+\text{(a fortiori)} < 10 \text{ units of second} \\
 \text{order of numbers.}
 \end{array}$$
 grains of sand.
@@ -8502,7 +8502,7 @@ We now gradually increase the diameter of the supposed sphere, multiplying it by
 
 But, by the proposition above [p. 227],
 
-(diameter of ‘universe’) &lt; 10,000,000,000 stadia.
+(diameter of ‘universe’) < 10,000,000,000 stadia.
 
 Hence the number of grains of sand which could be contained in a sphere of the size of our ‘universe’ is less than 1,000 units of the seventh order of numbers [or 10<sup>21</sup>].
 
@@ -8517,29 +8517,29 @@ $$
 And [p. 227]
 
 $$
-\left(\text{diameter of ‘universe}’ \right) &lt; 10,000\ (\text{diam. of earth});
+\left(\text{diameter of ‘universe}’ \right) < 10,000\ (\text{diam. of earth});
 $$
 
 whence
 
 $$
-(\text{diam. of sphere of fixed stars}) &lt; 10,000\ (\text{diam. of ‘universe’}).
+(\text{diam. of sphere of fixed stars}) < 10,000\ (\text{diam. of ‘universe’}).
 $$
 
 Therefore
 
 $$
-(\text{sphere of fixed stars}) &lt; (10,000)^3.\ (‘\text{universe’}).
+(\text{sphere of fixed stars}) < (10,000)^3.\ (‘\text{universe’}).
 $$
 
 It follows that the number of grains of sand which would be contained in a sphere equal to the sphere of the fixed stars
 
 $$
 \begin{aligned}
-&amp;&lt; (10,000)^3 \times 1,000\ \text{units of seventh order} \\
-&amp;&lt; (13\text{th term of series}) \times (52\text{nd term of series}) \\
-&amp;&lt; 64\text{th term of series} \quad \text{[i.e. } 10^{83}\text{]} \\
-&amp;&lt; [10^7\ \text{or}]\ 10,000,000\ \text{units of eighth order of numbers}.
+&< (10,000)^3 \times 1,000\ \text{units of seventh order} \\
+&< (13\text{th term of series}) \times (52\text{nd term of series}) \\
+&< 64\text{th term of series} \quad \text{[i.e. } 10^{83}\text{]} \\
+&< [10^7\ \text{or}]\ 10,000,000\ \text{units of eighth order of numbers}.
 \end{aligned}
 $$
 
@@ -8714,8 +8714,8 @@ Therefore, as before, there will be equilibrium.
 Thus
 $$
 \begin{aligned}
-P : \triangle BCD &amp;= OE : AO \\
-&amp;= 1 : 3,
+P : \triangle BCD &= OE : AO \\
+&= 1 : 3,
 \end{aligned}
 $$
 
@@ -8735,7 +8735,7 @@ $$
 Then, if an area $P$ suspended from $A$ keep the system in equilibrium,
 
 $$
-P &lt; \triangle BCD \text{ but } &gt; Q.
+P < \triangle BCD \text{ but } > Q.
 $$
 
 Take $G$ the centre of gravity of the triangle $BCD$, and draw $GH$ parallel to $DC$, i.e. vertically, meeting $BO$ in $H$.
@@ -8751,7 +8751,7 @@ $$
 whence
 
 $$
-P &lt; \triangle BCD.
+P < \triangle BCD.
 $$
 
 Also
@@ -8763,13 +8763,13 @@ $$
 Therefore, by (1),
 
 $$
-\triangle BCD : Q &gt; \triangle BCD : P,
+\triangle BCD : Q > \triangle BCD : P,
 $$
 
 and
 
 $$
-P &gt; Q.
+P > Q.
 $$
 
 ## Propositions 10, 11.
@@ -8783,7 +8783,7 @@ $$
 Then, if $P$ be the area which, when suspended from $A$, keeps the system in equilibrium,
 
 $$
-P &lt; Q.
+P < Q.
 $$
 
 The same is true in the particular case where the angles at $C$, $F$ are right, and consequently $C$, $F$ coincide with $O$, $H$ respectively.
@@ -8812,10 +8812,10 @@ $$
 AO : OH = (\text{trapezium } CDEF) : Q.
 $$
 
-Since $OK &lt; OH$, it follows that
+Since $OK < OH$, it follows that
 
 $$
-P &lt; Q.
+P < Q.
 $$
 
 ## Propositions 12, 13.
@@ -8834,7 +8834,7 @@ $$
 
 If then an area $P$ suspended from $A$ keep the system in equilibrium,
 
-$$P &gt; R \text{ but } &lt; Q.$$
+$$P > R \text{ but } < Q.$$
 
 Take the centre of gravity $G$ of the trapezium, as in the last propositions, and let the line through $G$ parallel to $DC$ meet $OB$ in $K$.
 
@@ -8848,9 +8848,9 @@ Hence
 
 $$
 \begin{array}{rl}
-&amp; \text{(trapezium } CDEF: P &gt; \text{(trapezium } CDEF): Q, \\
-&amp; \text{but} \quad &lt; \text{(trapezium } CDEF): R. \\
-&amp; \text{It follows that} \quad &amp; P &lt; Q \text{ but } &gt; R.
+& \text{(trapezium } CDEF: P > \text{(trapezium } CDEF): Q, \\
+& \text{but} \quad < \text{(trapezium } CDEF): R. \\
+& \text{It follows that} \quad & P < Q \text{ but } > R.
 \end{array}
 $$
 
@@ -8864,8 +8864,8 @@ Let the diameters $Eq, E_1O_1, \ldots, E_nO_n$ meet a straight line $QOA$ drawn 
 
 It is required to prove that
 
-(1) $\triangle EqQ &lt; 3$ (sum of trapezia $FO_1, F_1O_2, \ldots, F_{n-1}O_n$ and $\triangle E_nO_nQ$),
-(2) $\triangle EqQ &gt; 3$ (sum of trapezia $R_1O_2, R_2O_3, \ldots, R_{n-1}O_n$ and $\triangle R_nO_nQ$).
+(1) $\triangle EqQ < 3$ (sum of trapezia $FO_1, F_1O_2, \ldots, F_{n-1}O_n$ and $\triangle E_nO_nQ$),
+(2) $\triangle EqQ > 3$ (sum of trapezia $R_1O_2, R_2O_3, \ldots, R_{n-1}O_n$ and $\triangle R_nO_nQ$).
 
 ![img-123.jpeg](images/img-123.jpeg)
 
@@ -8880,45 +8880,45 @@ $$
 Again
 $$
 \begin{aligned}
-AO : OH_1 &amp;= QO : OH_1 \\
-&amp;= Qq : qO_1 \\
-&amp;= E_1O_1 : O_1R_1 \text{ [by means of Prop. 5]} \\
-&amp;= (\text{trapezium } EO_1) : (\text{trapezium } FO_1);
+AO : OH_1 &= QO : OH_1 \\
+&= Qq : qO_1 \\
+&= E_1O_1 : O_1R_1 \text{ [by means of Prop. 5]} \\
+&= (\text{trapezium } EO_1) : (\text{trapezium } FO_1);
 \end{aligned}
 $$
 
 whence [Props. 10, 11]
 
 $$
-(FO_1) &gt; P_1.
+(FO_1) > P_1.
 $$
 
 Next
 $$
 \begin{aligned}
-AO : OH_1 &amp;= E_1O_1 : O_1R_1 \\
-&amp;= (E_1O_2) : (R_1O_2) \quad \text{...(α),}
+AO : OH_1 &= E_1O_1 : O_1R_1 \\
+&= (E_1O_2) : (R_1O_2) \quad \text{...(α),}
 \end{aligned}
 $$
 
 while
 $$
 \begin{aligned}
-AO : OH_2 &amp;= E_2O_2 : O_2R_2 \\
-&amp;= (E_2O_2) : (F_1O_2) \quad \text{...(β)};
+AO : OH_2 &= E_2O_2 : O_2R_2 \\
+&= (E_2O_2) : (F_1O_2) \quad \text{...(β)};
 \end{aligned}
 $$
 
 and, since $(\alpha)$ and $(\beta)$ are simultaneously true, we have, by Props. 12, 13,
 
 $$
-(F_1O_2) &gt; P_2 &gt; (R_1O_2).
+(F_1O_2) > P_2 > (R_1O_2).
 $$
 
 Similarly it may be proved that
 
 $$
-(F_2O_2) &gt; P_3 &gt; (R_2O_3),
+(F_2O_2) > P_3 > (R_2O_3),
 $$
 
 and so on.
@@ -8926,34 +8926,34 @@ and so on.
 Lastly [Props. 8, 9]
 
 $$
-\triangle E_n O_n Q &gt; P_{n+1} &gt; \triangle R_n O_n Q.
+\triangle E_n O_n Q > P_{n+1} > \triangle R_n O_n Q.
 $$
 
 By addition, we obtain
 
-(1) $(FO_1) + (F_1O_2) + \ldots + (F_{n-1}O_n) + \triangle E_n O_n Q &gt; P_1 + P_2 + \ldots + P_{n+1}$
+(1) $(FO_1) + (F_1O_2) + \ldots + (F_{n-1}O_n) + \triangle E_n O_n Q > P_1 + P_2 + \ldots + P_{n+1}$
 
 $$
-&gt; \frac{1}{8} \triangle EqQ,
+> \frac{1}{8} \triangle EqQ,
 $$
 
 or
 $$
-\triangle EqQ &lt; 3 \quad (FO_1 + F_1O_2 + \ldots + F_{n-1}O_n + \triangle E_n O_n Q).
+\triangle EqQ < 3 \quad (FO_1 + F_1O_2 + \ldots + F_{n-1}O_n + \triangle E_n O_n Q).
 $$
 
-(2) $(R_1O_2) + (R_2O_3) + \ldots + (R_{n-1}O_n) + \triangle R_n O_n Q &lt; P_2 + P_3 + \ldots + P_{n+1}$
+(2) $(R_1O_2) + (R_2O_3) + \ldots + (R_{n-1}O_n) + \triangle R_n O_n Q < P_2 + P_3 + \ldots + P_{n+1}$
 
 $$
 \begin{aligned}
-&amp;&lt; P_1 + P_2 + \ldots + P_{n+1}, \text{ a fortiori,} \\
-&amp;&lt; \frac{1}{8} \triangle EqQ,
+&< P_1 + P_2 + \ldots + P_{n+1}, \text{ a fortiori,} \\
+&< \frac{1}{8} \triangle EqQ,
 \end{aligned}
 $$
 
 or
 $$
-\triangle EqQ &gt; 3 \quad (R_1O_2 + R_2O_3 + \ldots + R_{n-1}O_n + \triangle R_n O_n Q).
+\triangle EqQ > 3 \quad (R_1O_2 + R_2O_3 + \ldots + R_{n-1}O_n + \triangle R_n O_n Q).
 $$
 
 ## Proposition 16.
@@ -8983,13 +8983,13 @@ Let $O_3R_3$ meet $QR_2$ in $D_2$ and $QR_4$ in $F_3$, and so on.
 We have, by hypothesis,
 
 $$
-\triangle FqQ &lt; (\text{area of segment}) - \frac{1}{3} \triangle EqQ,
+\triangle FqQ < (\text{area of segment}) - \frac{1}{3} \triangle EqQ,
 $$
 
 or
 
 $$
-(\text{area of segment}) - \triangle FqQ &gt; \frac{1}{3} \triangle EqQ \quad \dots \dots \dots (\alpha).
+(\text{area of segment}) - \triangle FqQ > \frac{1}{3} \triangle EqQ \quad \dots \dots \dots (\alpha).
 $$
 
 Now, since all the parts of $qE$, as $qF$ and the rest, are equal, $O_1R_1 = R_1F_1$, $O_2D_1 = D_1R_2 = R_2F_2$, and so on; therefore
@@ -9004,14 +9004,14 @@ $$
 But
 
 $$
-\text{(area of segment)} &lt; (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
+\text{(area of segment)} < (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
 $$
 
 Subtracting, we have
 
 $$
 \begin{array}{l}
-\text{(area of segment)} - \triangle FqQ &lt; (R_1O_2 + R_2O_3 + \dots \\
+\text{(area of segment)} - \triangle FqQ < (R_1O_2 + R_2O_3 + \dots \\
 + R_{n-1}O_n + \triangle R_nO_nQ),
 \end{array}
 $$
@@ -9019,13 +9019,13 @@ $$
 whence, *a fortiori*, by $(\alpha)$,
 
 $$
-\frac{1}{3}\triangle EqQ &lt; (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
+\frac{1}{3}\triangle EqQ < (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
 $$
 
 But this is impossible, since [Props. 14, 15]
 
 $$
-\frac{1}{3}\triangle EqQ &gt; (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
+\frac{1}{3}\triangle EqQ > (R_1O_2 + R_2O_3 + \dots + R_{n-1}O_n + \triangle R_nO_nQ).
 $$
 
 Therefore
@@ -9038,12 +9038,12 @@ II. If possible, suppose the area of the segment less than $\frac{1}{3}\triangle
 
 Take a submultiple of the triangle $EqQ$, as the triangle $FqQ$, less than the excess of $\frac{1}{3}\triangle EqQ$ over the area of the segment, and make the same construction as before.
 
-Since $\triangle FqQ &lt; \frac{1}{3}\triangle EqQ - \text{(area of segment)}$, it follows that
+Since $\triangle FqQ < \frac{1}{3}\triangle EqQ - \text{(area of segment)}$, it follows that
 
 $$
 \begin{array}{l}
-\triangle FqQ + \text{(area of segment)} &lt; \frac{1}{3}\triangle EqQ \\
-&lt; (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
+\triangle FqQ + \text{(area of segment)} < \frac{1}{3}\triangle EqQ \\
+< (FO_1 + F_1O_2 + \dots + F_{n-1}O_n + \triangle E_nO_nQ).
 \end{array}
 $$
 
@@ -9053,8 +9053,8 @@ Subtracting from each side the area of the segment, we have
 
 $$
 \begin{array}{l}
-\triangle FqQ &lt; \text{(sum of spaces } qFR_1, R_1F_1R_2, \dots E_nR_nQ) \\
-&lt; (FO_1 + F_1D_1 + \dots + F_{n-1}D_{n-1} + \triangle E_nR_nQ), \text{ a fortiori};
+\triangle FqQ < \text{(sum of spaces } qFR_1, R_1F_1R_2, \dots E_nR_nQ) \\
+< (FO_1 + F_1D_1 + \dots + F_{n-1}D_{n-1} + \triangle E_nR_nQ), \text{ a fortiori};
 \end{array}
 $$
 
@@ -9221,7 +9221,7 @@ $$ \Delta PQq = 8\Delta Prq. $$
 
 If there be a series of areas $A, B, C, D, \ldots$ each of which is four times the next in order, and if the largest, $A$, be equal to the triangle $PQq$ inscribed in a parabolic segment $PQq$ and having the same base with it and equal height, then
 
-$$ (A + B + C + D + \ldots) &lt; \text{(area of segment } PQq\text{)}. $$
+$$ (A + B + C + D + \ldots) < \text{(area of segment } PQq\text{)}. $$
 
 For, since $\Delta PQq = 8\Delta PRQ = 8\Delta Pqr$, where $R, r$ are the vertices of the segments cut off by $PQ, Pq$, as in the last proposition,
 
@@ -9324,7 +9324,7 @@ If then we inscribe in the segments cut off by $PQ$, $Pq$ triangles which have t
 Therefore the polygon so formed must be greater than the area $K$; which is impossible, since [Prop. 23]
 
 $$
-A + B + C + \dots + Z &lt; \frac{4}{3} A,
+A + B + C + \dots + Z < \frac{4}{3} A,
 $$
 
 where
@@ -9349,7 +9349,7 @@ $$
 Now, since $K$ exceeds $A + B + C + \ldots + X$ by an area less than $X$, and the area of the segment by an area greater than $X$, it follows that
 
 $$
-A + B + C + \dots + X &gt; \text{(the segment)};
+A + B + C + \dots + X > \text{(the segment)};
 $$
 
 which is impossible, by Prop. 22 above.
@@ -9584,9 +9584,9 @@ Hence, by (1),
 
 $$
 \begin{aligned}
-\text{weight of } (A + B) : \text{weight of } (C + D) &amp;= G : F + G \\
-&amp;= D : C + D \\
-&amp;= B : A + B.
+\text{weight of } (A + B) : \text{weight of } (C + D) &= G : F + G \\
+&= D : C + D \\
+&= B : A + B.
 \end{aligned}
 $$
 
@@ -9717,10 +9717,10 @@ Now, since $AN = \frac{3}{2}AC,$
 and
 
 $$
-AN &gt; \frac{3}{4}p,
+AN > \frac{3}{4}p,
 $$
 
-it follows that $AC &gt; \frac{p}{2}$.
+it follows that $AC > \frac{p}{2}$.
 
 Measure $CO$ along $CA$ equal to $\frac{p}{2}$, and $OR$ along $OC$ equal to $\frac{1}{2} AO$.
 
@@ -9798,7 +9798,7 @@ Draw the tangent $PT$ parallel to $QQ'$, and the diameter $PV$, bisecting $QQ'$,
 
 Let $F$ be the centre of gravity of the portion above the surface, $C$ that of the whole solid, and produce $FC$ to $H$, the centre of gravity of the immersed portion.
 
-As in the last proposition, $AC &gt; \frac{p}{2}$, and we measure $CO$ along $CA$ equal to $\frac{p}{2}$, and $OR$ along $OC$ equal to $\frac{1}{2} AO$.
+As in the last proposition, $AC > \frac{p}{2}$, and we measure $CO$ along $CA$ equal to $\frac{p}{2}$, and $OR$ along $OC$ equal to $\frac{1}{2} AO$.
 
 Then $AN = \frac{3}{2} AC$, and $AR = \frac{3}{2} AO$;
 
@@ -9865,7 +9865,7 @@ Now the force acting on the submerged portion of the solid will act upwards thro
 
 ## Proposition 6.
 
-If a right segment of a paraboloid lighter than a fluid be such that its axis $AM$ is greater than $\frac{3}{4}p$, but $AM : \frac{1}{2}p &lt; 15 : 4$, and if the segment be placed in the fluid with its axis so inclined to the vertical that its base touches the fluid, it will never remain in such a position that the base touches the surface in one point only.
+If a right segment of a paraboloid lighter than a fluid be such that its axis $AM$ is greater than $\frac{3}{4}p$, but $AM : \frac{1}{2}p < 15 : 4$, and if the segment be placed in the fluid with its axis so inclined to the vertical that its base touches the fluid, it will never remain in such a position that the base touches the surface in one point only.
 
 Suppose the segment of the paraboloid to be placed in the position described, and let the plane through the axis $AM$ perpendicular to the surface of the fluid intersect the segment of the paraboloid in the parabolic segment $BAB'$ and the plane of the surface of the fluid in $BQ$.
 
@@ -9877,7 +9877,7 @@ $$
 
 ![img-142.jpeg](images/img-142.jpeg)
 
-Thus $AM : CK &gt; AM : \frac{1}{2}p$, by hypothesis; therefore $CK &lt; \frac{1}{2}p$.
+Thus $AM : CK > AM : \frac{1}{2}p$, by hypothesis; therefore $CK < \frac{1}{2}p$.
 
 Measure $CO$ along $CA$ equal to $\frac{1}{2}p$. Also draw $KR$ perpendicular to $AC$ meeting the parabola in $R$.
 
@@ -9904,7 +9904,7 @@ It follows that
 $$ PV_{\text{or}} = \frac{3}{2} PI, $$
 
 so that
-$$ PI_{\text{or}} &lt; 2IV. $$
+$$ PI_{\text{or}} < 2IV. $$
 
 Let $F$ be the centre of gravity of the immersed portion of the paraboloid, so that $PF = 2FV$. Produce $FC$ to $H$, the centre of gravity of the portion above the surface.
 
@@ -9989,8 +9989,8 @@ Therefore
 
 $$
 \begin{aligned}
-x' - x &amp;= \cos \theta \left\{ \frac{p}{4} (\cot^2 \theta + 2) - \frac{2}{3} (\sqrt{ph} \cot \theta - \frac{p}{4} \cot^2 \theta) \right\} \\
-&amp;= \cos \theta \left\{ \frac{p}{4} (\frac{5}{3} \cot^2 \theta + 2) - \frac{2}{3} \sqrt{ph} \cot \theta \right\}.
+x' - x &= \cos \theta \left\{ \frac{p}{4} (\cot^2 \theta + 2) - \frac{2}{3} (\sqrt{ph} \cot \theta - \frac{p}{4} \cot^2 \theta) \right\} \\
+&= \cos \theta \left\{ \frac{p}{4} (\frac{5}{3} \cot^2 \theta + 2) - \frac{2}{3} \sqrt{ph} \cot \theta \right\}.
 \end{aligned}
 $$
 
@@ -9999,18 +9999,18 @@ If then the solid can never rest in the position described, but must turn in the
 Therefore
 
 $$
-\left( \frac{2}{3} \right)^2 ph &lt; \frac{5}{8} p^2,
+\left( \frac{2}{3} \right)^2 ph < \frac{5}{8} p^2,
 $$
 
 or
 
 $$
-h &lt; \frac{1.5}{8} p.
+h < \frac{1.5}{8} p.
 $$
 
 ## Proposition 7.
 
-Given a right segment of a paraboloid of revolution lighter than a fluid and such that its axis $AM$ is greater than $\frac{3}{4}p$, but $AM : \frac{1}{2}p &lt; 15 : 4$, if the segment be placed in the fluid so that its base is entirely submerged, it will never rest in such a position that the base touches the surface of the fluid at one point only.
+Given a right segment of a paraboloid of revolution lighter than a fluid and such that its axis $AM$ is greater than $\frac{3}{4}p$, but $AM : \frac{1}{2}p < 15 : 4$, if the segment be placed in the fluid so that its base is entirely submerged, it will never rest in such a position that the base touches the surface of the fluid at one point only.
 
 Suppose the solid so placed that one point of the base only $(B)$ touches the surface of the fluid. Let the plane through $B$ and the axis $AM$ cut the solid in the parabolic segment $BAB'$ and the plane of the surface of the fluid in the chord $BQ$ of the parabola.
 
@@ -10023,7 +10023,7 @@ $$
 It follows that
 
 $$
-CK &lt; \frac{1}{2} p.
+CK < \frac{1}{2} p.
 $$
 
 Measure $CO$ along $CA$ equal to $\frac{1}{2}p$. Draw $KR$ perpendicular to $AM$ meeting the parabola in $R$.
@@ -10035,13 +10035,13 @@ Let $PT$, touching at $P$, be the tangent to the parabola which is parallel to $
 Then, as in the last proposition, we prove that
 
 $$
-PV_{\text{or} &gt;}^{\equiv} \frac{3}{2} PI,
+PV_{\text{or} >}^{\equiv} \frac{3}{2} PI,
 $$
 
 and
 
 $$
-PI_{\text{or} &lt; } = 2IV.
+PI_{\text{or} < } = 2IV.
 $$
 
 Let $F$ be the centre of gravity of the portion of the solid above the surface; join $FC$ and produce it to $H$, the centre of gravity of the portion submerged.
@@ -10052,7 +10052,7 @@ The proof is the same if the point $I$ is not on $VP$ but on $VP$ produced.
 
 ## Proposition 8.
 
-Given a solid in the form of a right segment of a paraboloid of revolution whose axis $AM$ is greater than $\frac{3}{4}p$, but such that $AM : \frac{1}{2}p &lt; 15 : 4$, and whose specific gravity bears to that of a fluid a ratio less than $(AM - \frac{3}{4}p)^3 : AM^3$, then, if the solid be placed in the fluid so that its base does not touch the fluid and its axis is inclined at an angle to the vertical, the solid will not return to the position in which its axis is vertical and will not remain in any position except that in which its axis makes with the surface of the fluid a certain angle to be described.
+Given a solid in the form of a right segment of a paraboloid of revolution whose axis $AM$ is greater than $\frac{3}{4}p$, but such that $AM : \frac{1}{2}p < 15 : 4$, and whose specific gravity bears to that of a fluid a ratio less than $(AM - \frac{3}{4}p)^3 : AM^3$, then, if the solid be placed in the fluid so that its base does not touch the fluid and its axis is inclined at an angle to the vertical, the solid will not return to the position in which its axis is vertical and will not remain in any position except that in which its axis makes with the surface of the fluid a certain angle to be described.
 
 Let $am$ be taken equal to the axis $AM$, and let $c$ be a point on $am$ such that $ac = 2cm$. Measure $co$ along $ca$ equal to $\frac{1}{2}p$, and $or$ along $oc$ equal to $\frac{1}{2}ao$.
 
@@ -10067,19 +10067,19 @@ and suppose $X = 2Y$.
 Now
 $$
 \begin{aligned}
-ar &amp;= \frac{3}{2}ao = \frac{3}{2}\left(\frac{2}{3}am - \frac{1}{2}p\right) \\
-&amp;= am - \frac{3}{4}p \\
-&amp;= AM - \frac{3}{4}p.
+ar &= \frac{3}{2}ao = \frac{3}{2}\left(\frac{2}{3}am - \frac{1}{2}p\right) \\
+&= am - \frac{3}{4}p \\
+&= AM - \frac{3}{4}p.
 \end{aligned}
 $$
 
 Therefore, by hypothesis,
 
 $$
-(X + Y)^2 : am^2 &lt; ar^2 : am^2,
+(X + Y)^2 : am^2 < ar^2 : am^2,
 $$
 
-whence $(X + Y) &lt; ar$, and therefore $X &lt; ao$.
+whence $(X + Y) < ar$, and therefore $X < ao$.
 
 Measure $ob$ along $oa$ equal to $X$, and draw $bd$ perpendicular to $ab$ and of such length that
 
@@ -10099,7 +10099,7 @@ I. Suppose the angle $OTP$ greater than the angle $dab$.
 
 Thus
 $$
-PN^2 : NT^4 &gt; db^2 : ba^2.
+PN^2 : NT^4 > db^2 : ba^2.
 $$
 But
 $$
@@ -10114,18 +10114,18 @@ db^2 : ba^2 = \frac{1}{2} co : ab, \text{ by } (\beta).
 $$
 Therefore
 $$
-NT &lt; 2ab,
+NT < 2ab,
 $$
 or
 $$
-AN &lt; ab,
+AN < ab,
 $$
 whence
 $$
-NO &gt; bo \quad (\text{since } ao = AO)
+NO > bo \quad (\text{since } ao = AO)
 $$
 $$
-&gt; X.
+> X.
 $$
 
 Now $(X + Y)^2 : am^2 = (\text{spec. gr. of solid}) : (\text{spec. gr. of fluid})$
@@ -10141,21 +10141,21 @@ X + Y = PV.
 $$
 But
 $$
-PL (= NO) &gt; X
+PL (= NO) > X
 $$
 $$
-&gt; \frac{2}{3}(X + Y), \quad \text{since } X = 2Y,
+> \frac{2}{3}(X + Y), \quad \text{since } X = 2Y,
 $$
 $$
-&gt; \frac{2}{3}PV,
+> \frac{2}{3}PV,
 $$
 or
 $$
-PV &lt; \frac{3}{2}PL,
+PV < \frac{3}{2}PL,
 $$
 and therefore
 $$
-PL &gt; 2LV.
+PL > 2LV.
 $$
 
 Take a point $F$ on $PV$ so that $PF = 2FV$, i.e., so that $F$ is the centre of gravity of the immersed portion of the solid.
@@ -10172,21 +10172,21 @@ II. Suppose the angle $OTP$ less than the angle $dab$. In this case, we shall ha
 
 $$
 \begin{array}{l}
-AN &gt; ab, \\
-NO &lt; X.
+AN > ab, \\
+NO < X.
 \end{array}
 $$
 
 Also
 
 $$
-PV &gt; \frac{3}{2}PL,
+PV > \frac{3}{2}PL,
 $$
 
 and therefore
 
 $$
-PL &lt; 2LV.
+PL < 2LV.
 $$
 
 ![img-145.jpeg](images/img-145.jpeg)
@@ -10219,7 +10219,7 @@ $$ \cot^2 dab = ab^2 / bd^2 = \frac{4}{p} \left\{ \frac{2}{3} (h - k) - \frac{p}
 
 ## Proposition 9.
 
-Given a solid in the form of a right segment of a paraboloid of revolution whose axis $ AM $ is greater than $ \frac{3}{4} p $, but such that $ AM : \frac{1}{2} p &lt; 15 : 4 $, and whose specific gravity bears to that of a fluid a ratio greater than $ [AM^2 - (AM - \frac{3}{4} p)^2] : AM^2 $, then, if the solid be placed in the fluid with its axis inclined at an angle to the vertical but so that its base is entirely below the surface, the solid will not return to the position in which its axis is vertical and will not remain in any position except that in which its axis makes with the surface of the fluid an angle equal to that described in the last proposition.
+Given a solid in the form of a right segment of a paraboloid of revolution whose axis $ AM $ is greater than $ \frac{3}{4} p $, but such that $ AM : \frac{1}{2} p < 15 : 4 $, and whose specific gravity bears to that of a fluid a ratio greater than $ [AM^2 - (AM - \frac{3}{4} p)^2] : AM^2 $, then, if the solid be placed in the fluid with its axis inclined at an angle to the vertical but so that its base is entirely below the surface, the solid will not return to the position in which its axis is vertical and will not remain in any position except that in which its axis makes with the surface of the fluid an angle equal to that described in the last proposition.
 
 Take $ am $ equal to $ AM $, and take $ c $ on $ am $ such that $ ac = 2cm $. Measure $ co $ along $ ca $ equal to $ \frac{1}{2} p $, and $ ar $ along $ ac $ such that $ ar = \frac{3}{2} ao $.
 
@@ -10242,15 +10242,15 @@ $$
 
 Therefore, by hypothesis,
 $$
-am^2 - ar^2 : am^2 &lt; \{ am^2 - (X + Y)^2 \} : am^2,
+am^2 - ar^2 : am^2 < \{ am^2 - (X + Y)^2 \} : am^2,
 $$
 whence
 $$
-X + Y &lt; ar,
+X + Y < ar,
 $$
 and therefore
 $$
-X &lt; ao.
+X < ao.
 $$
 
 Make $ob$ (measured along $oa$) equal to $X$, and draw $bd$ perpendicular to $ba$ and of such length that
@@ -10269,29 +10269,29 @@ I. Suppose the angle $MTP$ greater than the angle $dab$. Let $AM$ be cut as befo
 Then, we have, as in the last proposition,
 
 $$
-PN^2: NT^2 &gt; db^2: ba^2,
+PN^2: NT^2 > db^2: ba^2,
 $$
 
 whence
 
 $$
-co: NT &gt; \frac{1}{2}co: ab,
+co: NT > \frac{1}{2}co: ab,
 $$
 
 and therefore
 
 $$
-AN &lt; ab.
+AN < ab.
 $$
 
 It follows that
 
 $$
-NO &gt; bo
+NO > bo
 $$
 
 $$
-&gt; X.
+> X.
 $$
 
 Again, since the specific gravity of the solid is to that of the fluid as the immersed portion of the solid to the whole,
@@ -10315,17 +10315,17 @@ $$
 And
 
 $$
-PL \text{ (or } NO) &gt; X
+PL \text{ (or } NO) > X
 $$
 
 $$
-&gt; \frac{2}{3}PV,
+> \frac{2}{3}PV,
 $$
 
 so that
 
 $$
-PL &gt; 2LV.
+PL > 2LV.
 $$
 
 Take $F$ on $PV$ so that $PF=2FV$. Then $F$ is the centre of gravity of the portion of the solid above the surface.
@@ -10344,7 +10344,7 @@ III. If the angle $MTP$ is equal to the angle $dab$, the solid will rest in that
 
 ## Proposition 10.
 
-Given a solid in the form of a right segment of a paraboloid of revolution in which the axis $AM$ is of a length such that $AM: \frac{1}{2}p &gt; 15:4$, and supposing the solid placed in a fluid of greater specific gravity so that its base is entirely above the surface of the fluid, to investigate the positions of rest.
+Given a solid in the form of a right segment of a paraboloid of revolution in which the axis $AM$ is of a length such that $AM: \frac{1}{2}p > 15:4$, and supposing the solid placed in a fluid of greater specific gravity so that its base is entirely above the surface of the fluid, to investigate the positions of rest.
 
 ### (Preliminary.)
 
@@ -10356,7 +10356,7 @@ $$
 AM: CK = 15:4 \quad (a),
 $$
 
-whence, by the hypothesis, $CK &gt; \frac{1}{2}p$.
+whence, by the hypothesis, $CK > \frac{1}{2}p$.
 
 Suppose $CO$ measured along $CA$ equal to $\frac{1}{2}p$, and take a point $R$ on $AM$ such that $MR = \frac{3}{2}CO$.
 
@@ -10436,9 +10436,9 @@ It follows that
 
 $$
 \begin{align*}
-Q_1 Q_2 : Q_3 Q_3 &amp;= 2 : 1, \\
-Q_1 Q_2 &amp;= 2 Q_2 Q_3. \\
-\text{Similarly} &amp; P_1 P_2 = 2 P_2 P_3.
+Q_1 Q_2 : Q_3 Q_3 &= 2 : 1, \\
+Q_1 Q_2 &= 2 Q_2 Q_3. \\
+\text{Similarly} & P_1 P_2 = 2 P_2 P_3.
 \end{align*}
 $$
 
@@ -10472,10 +10472,10 @@ $$
 
 **(II.)** *if*
 
-*(spec. gr. of solid): (spec. gr. of fluid) &lt; AR² : AM²*
+*(spec. gr. of solid): (spec. gr. of fluid) < AR² : AM²*
 
 $$
-\text{but} &gt; Q_1 Q_2^2 : AM^2,
+\text{but} > Q_1 Q_2^2 : AM^2,
 $$
 
 *the solid will not rest with its base touching the surface of the fluid in one point only, but in such a position that its base does not touch the surface at any point and its axis makes with the surface an angle greater than U;*
@@ -10494,32 +10494,32 @@ $$
 
 **(IV.)** *if*
 
-*(spec. gr. of solid): (spec. gr. of fluid) &gt; P_1 P_2² : AM²*
+*(spec. gr. of solid): (spec. gr. of fluid) > P_1 P_2² : AM²*
 
 $$
-\text{but} &lt; Q_1 Q_2^2 : AM^2,
+\text{but} < Q_1 Q_2^2 : AM^2,
 $$
 
 the solid will rest and remain in a position with its base more submerged;
 
 (V.) if
 
-(spec. gr. of solid): (spec. gr. of fluid) $&lt; P_{1}P_{2}^{2}: AM^{2}$, the solid will rest in a position in which its axis is inclined to the surface of the fluid at an angle less than $T_{1}$, but so that the base does not even touch the surface at one point.
+(spec. gr. of solid): (spec. gr. of fluid) $< P_{1}P_{2}^{2}: AM^{2}$, the solid will rest in a position in which its axis is inclined to the surface of the fluid at an angle less than $T_{1}$, but so that the base does not even touch the surface at one point.
 
 (Proof.)
 
-(I.) Since $AM &gt; \frac{3}{4}p$, and
+(I.) Since $AM > \frac{3}{4}p$, and
 
 (spec. gr. of solid): (spec. gr. of fluid) $\div (AM - \frac{3}{4}p)^{2}: AM^{2}$, it follows, by Prop. 4, that the solid will be in stable equilibrium with its axis vertical.
 
 (II.) In this case
 
-(spec. gr. of solid): (spec. gr. of fluid) $&lt; AR^{2}: AM^{2}$
+(spec. gr. of solid): (spec. gr. of fluid) $< AR^{2}: AM^{2}$
 
 but
 
 $$
-&gt; Q_{1}Q_{2}^{2}: AM^{2}.
+> Q_{1}Q_{2}^{2}: AM^{2}.
 $$
 
 ![img-150.jpeg](images/img-150.jpeg)
@@ -10530,7 +10530,7 @@ $$
 l^{2}: AM^{2},
 $$
 
-so that $l &lt; AR$ but $&gt; Q_{1}Q_{2}$.
+so that $l < AR$ but $> Q_{1}Q_{2}$.
 
 Place $P'V'$ between the two parabolas $BAB_{1}, BP_{2}Q_{3}M$ equal to $l$ and parallel to $AM$; and let $P'V'$ meet the intermediate parabola in $F'$.
 
@@ -10642,9 +10642,9 @@ Then
 
 $$
 \begin{aligned}
-l^2 : AM^2 &amp;= (\text{spec. gr. of solid}) : (\text{spec. gr. of fluid}) \\
-&amp;= (\text{portion immersed}) : (\text{whole solid}) \\
-&amp;= PV^2 : AM^2,
+l^2 : AM^2 &= (\text{spec. gr. of solid}) : (\text{spec. gr. of fluid}) \\
+&= (\text{portion immersed}) : (\text{whole solid}) \\
+&= PV^2 : AM^2,
 \end{aligned}
 $$
 
@@ -10664,12 +10664,12 @@ $$
 
 Also $AT = AT'$, $AN = AN'$, $PN = P'N'$.
 
-Now, in the first figure, $P'I &lt; 2IV'$.
+Now, in the first figure, $P'I < 2IV'$.
 
 Therefore, if $OL$ be perpendicular to $PV$ in the second figure,
 
 $$
-PL &lt; 2LV.
+PL < 2LV.
 $$
 
 Take $F$ on $LV$ so that $PF = 2FV$, i.e. so that $F$ is the centre of gravity of the immersed portion of the solid. And $C$ is the centre of gravity of the whole solid. Join $FC$ and produce it to $H$, the centre of gravity of the portion above the surface.
@@ -10711,23 +10711,23 @@ It follows that the angle between $QQ'$ and $BB'$ is less than the angle $B_{1}B
 Therefore
 
 $$
-\angle U &lt; \angle PTN,
+\angle U < \angle PTN,
 $$
 
 whence
 
 $$
-AN' &gt; AN,
+AN' > AN,
 $$
 
-and therefore $N'O$ (or $Q_{1}Q_{2}) &lt; PL,$
+and therefore $N'O$ (or $Q_{1}Q_{2}) < PL,$
 
 where $OL$ is perpendicular to $PV$.
 
 It follows, since $Q_{1}Q_{2} = 2Q_{2}Q_{3}$, that
 
 $$
-PL &gt; 2LV.
+PL > 2LV.
 $$
 
 Therefore $F$, the centre of gravity of the immersed portion of the solid, is between $P$ and $L$, while, as before, $CL$ is perpendicular to the surface of the fluid.
@@ -10746,10 +10746,10 @@ Thus the paraboloid will remain in the position in which one point $B$ of the ba
 
 (IV.) In this case
 
-(spec. gr. of solid): (spec. gr. of fluid) &gt; $P_1P_2^2 : AM^2$
+(spec. gr. of solid): (spec. gr. of fluid) > $P_1P_2^2 : AM^2$
 
 $$
-\text{but} &lt; Q_1Q_2^2 : AM^2.
+\text{but} < Q_1Q_2^2 : AM^2.
 $$
 
 Suppose the ratio to be equal to $l^2 : AM^2$, so that $l$ is greater than $P_1P_2$ but less than $Q_1Q_2$.
@@ -10775,26 +10775,26 @@ Thus the segments $BP'q$, $QPQ'$ of the paraboloid are equal in volume; and it f
 Therefore
 
 $$
-\angle P'T'N' &lt; \angle PTN,
+\angle P'T'N' < \angle PTN,
 $$
 
-and hence $AN' &gt; AN$,
+and hence $AN' > AN$,
 
 so that
 
 $$
-NO &gt; N'O,
+NO > N'O,
 $$
 
 i.e.
 
 $$
-PL &gt; P'I
+PL > P'I
 $$
 
-$&gt; P'F'$, a fortiori.
+$> P'F'$, a fortiori.
 
-Thus $PL &gt; 2LV$, so that $F$, the centre of gravity of the immersed portion of the solid, is between $L$ and $P$, while $CL$ is perpendicular to the surface of the fluid.
+Thus $PL > 2LV$, so that $F$, the centre of gravity of the immersed portion of the solid, is between $L$ and $P$, while $CL$ is perpendicular to the surface of the fluid.
 
 If then we produce $FC$ to $H$, the centre of gravity of the portion of the solid above the surface, we prove that the solid will not rest but turn in the direction of diminishing the angle $PTN$.
 
@@ -10813,7 +10813,7 @@ and therefore $P'I = PL$,
 whence
 
 $$
-PL &gt; 2LV.
+PL > 2LV.
 $$
 
 ![img-157.jpeg](images/img-157.jpeg)
@@ -10822,9 +10822,9 @@ Thus $F$ again lies between $P$ and $L$, and, as before, the paraboloid will tur
 
 ## (V.) In this case
 
-(spec. gr. of solid): (spec. gr. of fluid) $&lt; P_{1}P_{2} : AM^{2}$.
+(spec. gr. of solid): (spec. gr. of fluid) $< P_{1}P_{2} : AM^{2}$.
 
-If then the ratio is equal to $l^{2} : AM^{2}$, $l &lt; P_{1}P_{2}$. Place $P'V'$ between the parabolas $BP_{1}Q_{1}$ and $BP_{2}Q_{2}$ equal in length to $l$
+If then the ratio is equal to $l^{2} : AM^{2}$, $l < P_{1}P_{2}$. Place $P'V'$ between the parabolas $BP_{1}Q_{1}$ and $BP_{2}Q_{2}$ equal in length to $l$
 
 and parallel to $AM$. Let $P'V'$ meet the intermediate parabola in $F'$ and $OP_3$ in $I$.
 
@@ -10860,7 +10860,7 @@ $$
 PL = P'I,
 $$
 
-whence it follows that $PL &lt; 2LV$.
+whence it follows that $PL < 2LV$.
 
 Thus $F$, the centre of gravity of the immersed portion of the solid, lies between $L$ and $V$, while $CL$ is perpendicular to the surface of the fluid.
 
@@ -10891,13 +10891,13 @@ $$
 But
 
 $$
-P_1P_2 &gt; P'F'.
+P_1P_2 > P'F'.
 $$
 
 Therefore
 
 $$
-PL &gt; \frac{2}{3}PV,
+PL > \frac{2}{3}PV,
 $$
 
 so that $F$, the centre of gravity of the immersed portion of the solid, lies between $P$ and $L$.
@@ -10946,9 +10946,9 @@ In the first figure of Archimedes (p. 284 above) we have
 
 $$
 \begin{aligned}
-&amp; AK = \frac{2}{5}h, \\
-&amp; M_2D^2 = \frac{3}{5}p \cdot OK = \frac{3}{5}p \left( \frac{2}{5}h - \frac{2}{5}h - \frac{1}{2}p \right) \\
-&amp; = \frac{3p}{5} \left( \frac{4h}{15} - \frac{p}{2} \right).
+& AK = \frac{2}{5}h, \\
+& M_2D^2 = \frac{3}{5}p \cdot OK = \frac{3}{5}p \left( \frac{2}{5}h - \frac{2}{5}h - \frac{1}{2}p \right) \\
+& = \frac{3p}{5} \left( \frac{4h}{15} - \frac{p}{2} \right).
 \end{aligned}
 $$
 
@@ -10956,8 +10956,8 @@ If $P_1P_2P_3$ meet $BM$ in $D'$, it follows that
 
 $$
 \begin{aligned}
-&amp; \left.\frac{M_3D}{M_3D'}\right\} = M_2D \pm M_3M_2 \\
-&amp; = \sqrt{\frac{3p}{5} \left( \frac{4h}{15} - \frac{p}{2} \right)} \pm \frac{1}{10} \sqrt{ph}, \\
+& \left.\frac{M_3D}{M_3D'}\right\} = M_2D \pm M_3M_2 \\
+& = \sqrt{\frac{3p}{5} \left( \frac{4h}{15} - \frac{p}{2} \right)} \pm \frac{1}{10} \sqrt{ph}, \\
 \end{aligned}
 $$
 
@@ -10965,8 +10965,8 @@ and
 
 $$
 \begin{aligned}
-&amp; \left.\frac{MD}{MD'}\right\} = MM_2 \mp M_2D \\
-&amp; = \frac{2}{5} \sqrt{ph} \mp \sqrt{\frac{3p}{5} \left( \frac{4h}{15} - \frac{p}{2} \right)}.
+& \left.\frac{MD}{MD'}\right\} = MM_2 \mp M_2D \\
+& = \frac{2}{5} \sqrt{ph} \mp \sqrt{\frac{3p}{5} \left( \frac{4h}{15} - \frac{p}{2} \right)}.
 \end{aligned}
 $$
 
@@ -10974,8 +10974,8 @@ Now, from the property of the parabola,
 
 $$
 \begin{aligned}
-\cot U &amp;= 2MD/p, \\
-\cot T_1 &amp;= 2MD'/p,
+\cot U &= 2MD/p, \\
+\cot T_1 &= 2MD'/p,
 \end{aligned}
 $$
 
@@ -10999,8 +10999,8 @@ Equation (2) gives, on the substitution in it of the value of $\cot \theta$ cont
 
 $$
 \begin{aligned}
-\sqrt{k} &amp;= \sqrt{h} - \frac{1}{10} \left(4 \sqrt{h} \pm \sqrt{16 h - 30 p}\right) \\
-&amp;= \frac{3}{5} \sqrt{h} \mp \frac{1}{10} \sqrt{16 h - 30 p},
+\sqrt{k} &= \sqrt{h} - \frac{1}{10} \left(4 \sqrt{h} \pm \sqrt{16 h - 30 p}\right) \\
+&= \frac{3}{5} \sqrt{h} \mp \frac{1}{10} \sqrt{16 h - 30 p},
 \end{aligned}
 $$
 
@@ -11016,8 +11016,8 @@ Now it is easily seen that
 
 $$
 \begin{aligned}
-Q_1 Q_2 &amp;= h / 2 - M D' / p + 2 M_2 D' / p, \\
-P_1 P_2 &amp;= h / 2 - M D'^2 / p + 2 M_2 D'^2 / p.
+Q_1 Q_2 &= h / 2 - M D' / p + 2 M_2 D' / p, \\
+P_1 P_2 &= h / 2 - M D'^2 / p + 2 M_2 D'^2 / p.
 \end{aligned}
 $$
 
@@ -11025,8 +11025,8 @@ Therefore, using the values of $MD$, $MD'$, $M_2 D$, $M_2 D'$ above found, we ha
 
 $$
 \begin{aligned}
-Q_1 Q_2 &amp;= \frac{h}{2} + \frac{3}{5} \left( \frac{4 h}{15} - \frac{p}{2} \right) - \frac{7 h}{50} \pm \frac{6}{5} \sqrt{ \frac{3 h}{5} \left( \frac{4 h}{15} - \frac{p}{2} \right) } \\
-&amp;= \frac{13}{25} h - \frac{3}{10} p \pm \frac{3}{25} \sqrt{h (16 h - 30 p)},
+Q_1 Q_2 &= \frac{h}{2} + \frac{3}{5} \left( \frac{4 h}{15} - \frac{p}{2} \right) - \frac{7 h}{50} \pm \frac{6}{5} \sqrt{ \frac{3 h}{5} \left( \frac{4 h}{15} - \frac{p}{2} \right) } \\
+&= \frac{13}{25} h - \frac{3}{10} p \pm \frac{3}{25} \sqrt{h (16 h - 30 p)},
 \end{aligned}
 $$
 
@@ -11071,8 +11071,8 @@ Add to each the angle $CDF$, and it follows that
 
 $$
 \begin{aligned}
-\angle ADC + \angle CDF &amp;= \angle CDF + \angle DFH \\
-&amp;= (\text{two right angles}).
+\angle ADC + \angle CDF &= \angle CDF + \angle DFH \\
+&= (\text{two right angles}).
 \end{aligned}
 $$
 
@@ -11739,9 +11739,9 @@ But
 
 $$
 \begin{aligned}
-\angle BCD + \angle BAD &amp;= (\text{two right angles}) \\
-&amp;= \angle BAD + \angle DAE \\
-&amp;= \angle BMD + \angle DMA,
+\angle BCD + \angle BAD &= (\text{two right angles}) \\
+&= \angle BAD + \angle DAE \\
+&= \angle BMD + \angle DMA,
 \end{aligned}
 $$
 
@@ -11767,8 +11767,8 @@ Now, in the triangle $DMO$,
 
 $$
 \begin{aligned}
-\angle MOD &amp;= \frac{2}{8} \text{ (right angle)}, \\
-\angle DMO &amp;= \frac{6}{8} \text{ (right angle)}.
+\angle MOD &= \frac{2}{8} \text{ (right angle)}, \\
+\angle DMO &= \frac{6}{8} \text{ (right angle)}.
 \end{aligned}
 $$
 
@@ -11788,10 +11788,10 @@ Again
 
 $$
 \begin{aligned}
-\angle EDA &amp;= (\text{supplement of } ADC) \\
-&amp;= \angle CBA \\
-&amp;= \frac{2}{8} \text{ (right angle)} \\
-&amp;= \angle ODM.
+\angle EDA &= (\text{supplement of } ADC) \\
+&= \angle CBA \\
+&= \frac{2}{8} \text{ (right angle)} \\
+&= \angle ODM.
 \end{aligned}
 $$
 
@@ -11828,9 +11828,9 @@ Let $W, w$ be the numbers of white bulls and cows respectively,
 
 $$
 \begin{array}{c c c c c c c}
-X, &amp; x &amp; &amp; , &amp; &amp; \text{black} &amp; &amp; , &amp; &amp; , \\
-Y, &amp; y &amp; &amp; , &amp; &amp; \text{yellow} &amp; &amp; , &amp; &amp; , \\
-Z, &amp; z &amp; &amp; , &amp; &amp; \text{dappled} &amp; &amp; , &amp; &amp; , \\
+X, & x & & , & & \text{black} & & , & & , \\
+Y, & y & & , & & \text{yellow} & & , & & , \\
+Z, & z & & , & & \text{dappled} & & , & & , \\
 \end{array}
 $$
 
@@ -11964,9 +11964,9 @@ Putting for $Y, Z$ their values as above ascertained, we have
 
 $$
 \begin{aligned}
-\frac{q (q + 1)}{2} &amp;= (3^4 \cdot 11 + 2^3 \cdot 5 \cdot 79) \cdot 4657n \\
-&amp;= 2471 \cdot 4657n \\
-&amp;= 7 \cdot 353 \cdot 4657n.
+\frac{q (q + 1)}{2} &= (3^4 \cdot 11 + 2^3 \cdot 5 \cdot 79) \cdot 4657n \\
+&= 2471 \cdot 4657n \\
+&= 7 \cdot 353 \cdot 4657n.
 \end{aligned}
 $$
 
@@ -12030,10 +12030,10 @@ Thus
 
 $$
 \begin{aligned}
-Y + Z &amp;= 2471.4657n \\
-&amp;= 2471.4657.117423 \\
-&amp;= 1351238949081 \\
-&amp;= \frac{1643921.1643922}{2},
+Y + Z &= 2471.4657n \\
+&= 2471.4657.117423 \\
+&= 1351238949081 \\
+&= \frac{1643921.1643922}{2},
 \end{aligned}
 $$
 
@@ -12043,12 +12043,12 @@ The number in equation $(\theta)$ which has to be the product of two integers is
 
 $$
 \begin{aligned}
-W + X &amp;= 2.3.(7.53 + 3.89).4657n \\
-&amp;= 2^2.3.11.29.4657n \\
-&amp;= 2^3.3.11.29.4657.117423 \\
-&amp;= 2^3.3^4.11.29.4657.4349 \\
-&amp;= (2^3.3^4.4349).(11.29.4657) \\
-&amp;= 1409076.1485583,
+W + X &= 2.3.(7.53 + 3.89).4657n \\
+&= 2^2.3.11.29.4657n \\
+&= 2^3.3.11.29.4657.117423 \\
+&= 2^3.3^4.11.29.4657.4349 \\
+&= (2^3.3^4.4349).(11.29.4657) \\
+&= 1409076.1485583,
 \end{aligned}
 $$
 
@@ -12058,14 +12058,14 @@ The solution is then as follows (substituting for $n$ its value 117423):
 
 $$
 \begin{aligned}
-W &amp;= 1217263415886 \\
-X &amp;= 876035935422 \\
-Y &amp;= 487233469701 \\
-Z &amp;= 864005479380 \\
-w &amp;= 846192410280 \\
-x &amp;= 574579625058 \\
-y &amp;= 638688708099 \\
-z &amp;= \underline{412838131860} \\
+W &= 1217263415886 \\
+X &= 876035935422 \\
+Y &= 487233469701 \\
+Z &= 864005479380 \\
+w &= 846192410280 \\
+x &= 574579625058 \\
+y &= 638688708099 \\
+z &= \underline{412838131860} \\
 \end{aligned}
 $$
 

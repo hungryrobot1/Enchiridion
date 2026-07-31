@@ -222,7 +222,7 @@ In chapter 5 divisions of small numbers and simple fractions are presented. Besi
 The composed fractions as used by Leonardo include decimal fractions. For example, the decimal fraction 28.2429536481 occurs in chapter 12 in the problem entitled *A Man Who Travelled through Twelve Cities*, and is expressed by Leonardo with the composed fraction
 
 $$
-\begin{array}{c c c c c c c c c c} 1 &amp; 8 &amp; 4 &amp; 6 &amp; 3 &amp; 5 &amp; 9 &amp; 2 &amp; 4 &amp; 2 \\ \hline 10 &amp; 10 &amp; 10 &amp; 10 &amp; 10 &amp; 10 &amp; 10 &amp; 10 &amp; 10 &amp; 10 \end{array} \quad 28.
+\begin{array}{c c c c c c c c c c} 1 & 8 & 4 & 6 & 3 & 5 & 9 & 2 & 4 & 2 \\ \hline 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 & 10 \end{array} \quad 28.
 $$
 
 In chapter 6 Leonardo treats mixed numbers or whole numbers with simple fractions. These procedures involve changing mixed numbers to improper fractions, performing the operations, and then reducing the answer again to a mixed number. The results are usually expressed in composed fractions. Results are checked by casting out nines or some other modulus. Operations for whole numbers with two or three fractional parts in one composed fraction are presented. He then presents operations in order for whole numbers with two fractional parts in two composed fractions, whole numbers with two fractions with many parts, three fractions, and pure fractions. Leonardo then presents another special notation: numbers and fractions terminating in a circle. Fractions of mixed numbers are treated.
@@ -977,7 +977,7 @@ and one makes then the sum of the sums; and thus one will be able to add any exp
 |  For things | vii denari |  |  | 7  |
 |  For things | xxx pounds & viii soldi | 30 | 8 |   |
 
-Sum cclxviii pounds &amp; ii soldi &amp; i denaro
+Sum cclxviii pounds & ii soldi & i denaro
 
 ---
 
@@ -6413,19 +6413,19 @@ The rules for the summing of series were indeed shown; now truly applications of
 
 262 II. Liber Abaci
 
-&gt; *More on Two Travellers, One of Whom Follows the Other with Increasing Numbers.*
+> *More on Two Travellers, One of Whom Follows the Other with Increasing Numbers.*
 
 Also if it is proposed that one man goes daily 21 miles, and the other truly goes with increasing odd numbers of miles beginning with one, and with continuing successive odd numbers, then it will be clear that he follows for 21 days. If we take 21 odd numbers in order, then there will be the sum of them from one up to 41; whence the sum of the odd numbers which increase from one up to 41 is the product of the 21 by itself.
 
-&gt; *On Two Travellers, One of Whom Goes after the Other by Even Numbers.*
+> *On Two Travellers, One of Whom Goes after the Other by Even Numbers.*
 
 Truly if it is proposed that one goes daily 30 miles, and the other truly goes after by increasing even numbers, then it is done thus. You subtract 1 from the 30; there remains 29, and a total of 29 days he follows. Because there are 29 even numbers increasing from two up to 58, and because the sum of the even numbers up to 58 results from the multiplication of the 29 times the 30, it will not be doubted that he follows for 870 days.
 
-&gt; *When One Man Goes after Another by Increasing Threes or Some Other Number.*
+> *When One Man Goes after Another by Increasing Threes or Some Other Number.*
 
 Truly if it is proposed that one goes daily some number of miles, that can be integrally divided by the increase number of the series by which the other follows, which increases by threes, or fours, or fives, or any other number, then it is done thus: the number of miles that the first man goes daily you divide by the increase number of the other, and the quotient is doubled, and from the doubled sum is subtracted 1; the residue will be the amount of days for which he follows. For example, it is put that one goes daily [p169] 60 miles, and the other truly goes with an increase of threes, that is in the first day 3 miles, in the second 6, in the third 9, and so forth; you divide the 60 by the 3; there will be 20 that you double; there will be 40, from which you subtract one; there remains 39, and for this amount of days he will follow; 39 is the number of numbers which increase by threes up to the triple of 39, that is 117. The sum of the numbers which increase by threes, from 3 up to 117, indeed results from the multiplication of the 39 times the 60, as is found by the first rule. And he who daily goes 60 miles, goes similarly for 39 times 60 miles in the 39 days.
 
-&gt; *On the Same for an Increase by Fives.*
+> *On the Same for an Increase by Fives.*
 
 Also if the other is gone after by an increase of fives, then you double a fifth of the 60, and thence subtract one, then you find 23 for the number of days, and thus it can be done for any number of increases.
 
@@ -11256,7 +11256,7 @@ Also there is a number, and I cast out a third of it and 6 denari, and that whic
 
 number .ad.; if to this is added the number .dc., then .ac. will be $\frac{4}{7}8$; if to this is added half of it, namely .cb., that is $\frac{1}{3}$ part of it, as a third part of one number is half of the residue, then $\frac{6}{7}12$ results for the entire number .ab.
 
-&gt; You note that it is thus reduced to a rule of algebra; you put for the sought number the thing; from it you subtract a third of the thing and 6 denari; $\frac{2}{3}$ things minus 6 denari remain, and you multiply them by 5, and $\frac{1}{3}3$ things minus 30 denari remain which are equal to the sought number, namely the thing; therefore to each part is added the 30 denari. And you will have that 3 and one third things are equal to one thing plus 30 denari; from both parts you subtract one thing. And it remains that 2 things plus one third of a thing are equal to 30 denari; therefore one thing is worth $\frac{6}{7}12$ denari which is the sought number. [p425]
+> You note that it is thus reduced to a rule of algebra; you put for the sought number the thing; from it you subtract a third of the thing and 6 denari; $\frac{2}{3}$ things minus 6 denari remain, and you multiply them by 5, and $\frac{1}{3}3$ things minus 30 denari remain which are equal to the sought number, namely the thing; therefore to each part is added the 30 denari. And you will have that 3 and one third things are equal to one thing plus 30 denari; from both parts you subtract one thing. And it remains that 2 things plus one third of a thing are equal to 30 denari; therefore one thing is worth $\frac{6}{7}12$ denari which is the sought number. [p425]
 
 Let .ad. times 5, namely .gh., yield 24 more than the number .ab.; then the multiplication of .gf. by .ad. will be nine minus the multiplication of .gf. by .ac.; and 9 results from .gf. times .dc., that is the $\frac{1}{2}1$ times the 6; therefore .gf. times .ad. yields the number .ab. minus 9, and if to it is added the 24, then there will be 33 which results from .fh. times .ad.; therefore if the 33 is divided by the $\frac{1}{3}3$, namely by .fh., then $\frac{3}{7}9$ results for the number .ad.; therefore the number .ac. is $\frac{3}{7}15$; if to this is added half of it, namely $\frac{5}{7}7$, then there will be $\frac{1}{7}23$ for the entire number .ab.
 

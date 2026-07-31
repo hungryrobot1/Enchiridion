@@ -155,8 +155,8 @@ That this was, indeed, the case, even when $\phi(x)$ is not necessarily developa
 
 $$
 \begin{aligned}
-\phi(x) &amp;= \frac{1}{2} b_{0} + b_{1} \cos x + b_{2} \cos 2x + \dots \\
-&amp;\quad + a_{1} \sin x + a_{2} \sin 2x + \dots,
+\phi(x) &= \frac{1}{2} b_{0} + b_{1} \cos x + b_{2} \cos 2x + \dots \\
+&\quad + a_{1} \sin x + a_{2} \sin 2x + \dots,
 \end{aligned}
 $$
 
@@ -285,7 +285,7 @@ The ancient Greeks discovered the existence of incommensurable geometrical magni
 If we know that the sums $s_n$ have a limit $s$, we can at once prove the necessity of this condition; but its sufficiency (that is to say, if, for any assigned positive rational $\epsilon$, an integer $n$ can always be found such that
 
 $$
-\left| s_n - s_{n+1} \right| &lt; \epsilon,
+\left| s_n - s_{n+1} \right| < \epsilon,
 $$
 
 where $r$ is any integer, then a limit $s$ exists) requires a previous definition of the system of real numbers, of which the supposed limit is to be one. For it is evidently a vicious circle to define a real
@@ -361,7 +361,7 @@ If the $y$-value corresponding to $x = X$ is $G$, the upper limit is called the 
 
 It is of the utmost importance to realize that, whereas until Weierstrass’s time such subjects as the theory of points of condensation of an infinite aggregate and the theory of irrational numbers, on which the founding of the theory of functions
 
-* Even if $y$ is finite for every single $x$ of the interval $a \leq x \leq b$, all these $y$’s need not be, in absolute amount, less than some finite number (for example, $f(x) = 1/x$ for $x &gt; 0$, $f(0) = 0$, in the interval $0 \leq x \leq 1$), but if they are (as in the case of the sum of a uniformly convergent series), these $y$’s have a finite upper and lower limit in the sense defined.
+* Even if $y$ is finite for every single $x$ of the interval $a \leq x \leq b$, all these $y$’s need not be, in absolute amount, less than some finite number (for example, $f(x) = 1/x$ for $x > 0$, $f(0) = 0$, in the interval $0 \leq x \leq 1$), but if they are (as in the case of the sum of a uniformly convergent series), these $y$’s have a finite upper and lower limit in the sense defined.
 
 † There is another conception (due to Cauchy and P. du Bois-Reymond) allied to that of upper and lower limit. With every infinite aggregate, there are (attained) upper and lower points of condensation, which we may call by the Latin name “Limites.”
 
@@ -393,7 +393,7 @@ are two infinite series such that the limit of
 
 $$ a_\nu \sin \nu x + b_\nu \cos \nu x, $$
 
-for every value of $ x $ which lies in a given interval $ (a &lt; x &lt; b) $ of the domain of real magnitudes, is zero with increasing $ \nu $, both $ a_\nu $ and $ b_\nu $ converge, with increasing $ \nu $, to zero. This theorem leads to a criterion for the convergence of a trigonometrical series
+for every value of $ x $ which lies in a given interval $ (a < x < b) $ of the domain of real magnitudes, is zero with increasing $ \nu $, both $ a_\nu $ and $ b_\nu $ converge, with increasing $ \nu $, to zero. This theorem leads to a criterion for the convergence of a trigonometrical series
 
 $$ \frac{1}{2}b_0 + a_1 \sin x + b_1 \cos x + \ldots + a_\nu \sin \nu x + b_\nu \cos \nu x + \ldots, $$
 
@@ -403,7 +403,7 @@ INTRODUCTION 25
 
 that Riemann proved under the supposition of the integral form for the coefficients. In a paper immediately following this one, Cantor used this theorem to prove that there is only *one* representation of $f(x)$ in the form of a trigonometrical series convergent for every value of $x$, except, possibly, a finite number of $x$'s; if the sums of two trigonometrical series differ for a finite number of $x$'s, the forms of the series coincide.
 
-In 1871, Cantor gave a simpler proof of the uniqueness of the representation, and extended this theorem to: If we have, for every value of $x$, a convergent representation of the value 0 by a trigonometrical series, the coefficients of this representation are zero. In the same year, he also gave a simpler proof of his first theorem that, if $\lim (a_{\nu} \sin \nu x + b_{\nu} \cos \nu x) = 0$ for $a &lt; x &lt; b$, then both $\lim a_{\nu}$ and $\lim b_{\nu}$ are zero.
+In 1871, Cantor gave a simpler proof of the uniqueness of the representation, and extended this theorem to: If we have, for every value of $x$, a convergent representation of the value 0 by a trigonometrical series, the coefficients of this representation are zero. In the same year, he also gave a simpler proof of his first theorem that, if $\lim (a_{\nu} \sin \nu x + b_{\nu} \cos \nu x) = 0$ for $a < x < b$, then both $\lim a_{\nu}$ and $\lim b_{\nu}$ are zero.
 
 In November 1871, Cantor further extended his theorem by proving that the convergence or equality of the sums of trigonometrical series may be renounced for certain *infinite* aggregates of $x$'s in the interval $0 \ldots 2\pi$ without the theorem ceasing to hold. To describe the structure that such an aggregate may have in this case, Cantor began with “some explanations, or rather some simple indications, intended to put in a full light the different manners in which numerical magnitudes, in number finite or infinite, can behave,” in order to make the exposition of the theorem in question as short as possible.
 
@@ -417,7 +417,7 @@ The system A of rational numbers (including 0) serves as basis for arriving at a
 
 of rational numbers, given by some law, and such that, if we take the positive rational number $ e $ as small as we wish, there is an integer $ n_1 $ such that
 
-(2) $$ |a_{n+m} - a_n| &lt; e \quad (n \geq n_1), $$
+(2) $$ |a_{n+m} - a_n| < e \quad (n \geq n_1), $$
 
 whatever the positive integer $ m $ is.* This property Cantor expressed by the words, “the series (1) has a determined limit $ b $,” and remarked particularly that these words, at that point, only served to enunciate the above property of the series, and, just as we connect (1) with a special sign $ b $, we must also attach different signs $ b', b'', \ldots $, to different series of the same species. However, because of the fact that the “limit” may be supposed to be previously defined as: the number (if such there be) $ b $ such that $ |b - a_\nu| $ becomes infinitely small as $ \nu $ increases, it appears better to avoid the word and say, with Heine, in his exposition of Cantor’s theory, the series $ (a_\nu) $ is a “number-series,” or, as Cantor afterwards expressed it, $ (a_\nu) $ is a “fundamental series.”
 
@@ -436,13 +436,13 @@ $$
 have a determined limit $b'$, we find that (1) and (1') have always one of the three relations, which exclude one another: $(a) a_n - a'_n$ becomes infinitely small as $n$ increases; $(b)$ from a certain $n$ on, it remains always greater than $\epsilon$, where $\epsilon$ is positive and rational; $(c)$ from a certain $n$ on, it remains always less than $-\epsilon$. In these cases we say, respectively,
 
 $$
-b = b', \quad b &gt; b', \quad \text{or} \quad b &lt; b'.
+b = b', \quad b > b', \quad \text{or} \quad b < b'.
 $$
 
 Similarly, we find that (1) has only one of the three relations with a rational number $a$: $(a) a_n - a$ becomes infinitely small as $n$ increases; $(b)$ from a certain $n$ on, it remains always greater than $\epsilon$; $(c)$ from a certain $n$ on, it remains less than $-\epsilon$. We express this by
 
 $$
-b = a, \quad b &gt; a, \quad \text{or} \quad b &lt; a,
+b = a, \quad b > a, \quad \text{or} \quad b < a,
 $$
 
 respectively. Then we can prove that $b - a_n$ becomes infinitely small as $n$ increases, which, consequently, justifies the name given to $b$ of “limit of the series (1).”
@@ -635,11 +635,11 @@ INTRODUCTION 39
 
 height N in order of magnitude, and then the various heights in their order of magnitude.
 
-Suppose, now, that the totality of the real numbers in the interval $(a \ldots \beta)$, where $a &lt; \beta$, could be arranged in the simply infinite series
+Suppose, now, that the totality of the real numbers in the interval $(a \ldots \beta)$, where $a < \beta$, could be arranged in the simply infinite series
 
 (5) $u_{1}, u_{2}, \ldots, u_{v}, \ldots$
 
-Let $a'$, $\beta'$ be the two first numbers of (5), different from one another and from $a$, $\beta$, and such that $a' &lt; \beta'$; similarly, let $a''$, $\beta''$, where $a'' &lt; \beta''$, be the first different numbers in $(a' \ldots \beta')$, and so on. The numbers $a'$, $a''$, $\ldots$ are members of (5) whose indices increase constantly; and similarly for the numbers $\beta'$, $\beta''$, $\ldots$ of decreasing magnitude. Each of the intervals $(a \ldots \beta)$, $(a' \ldots \beta')$, $(a'' \ldots \beta'')$, $\ldots$ includes all those which follow. We can then only conceive two cases: either $(a)$ the number of intervals is finite;—let the last be $(a^{(v)} \ldots \beta^{(v)})$; then, since there is in this interval at most one number of (5), we can take in it a number $\eta$ which does not belong to (5);—or $(b)$ there are infinitely many intervals. Then, since $a$, $a'$, $a''$, $\ldots$ increase constantly without increasing *ad infinitum*, they have a certain limit $a^{(\infty)}$, and similarly $\beta$, $\beta'$, $\beta''$, $\ldots$ decrease constantly towards a certain limit $\beta^{(\infty)}$. If $a^{(\infty)} = \beta^{(\infty)}$ (which always happens when applying this method to the system $(\omega)$), we easily see that the number $\eta = a^{(\infty)}$ cannot be in (5).* If, on the contrary, $a^{(\infty)} &lt; \beta^{(\infty)}$, every number $\eta$ in
+Let $a'$, $\beta'$ be the two first numbers of (5), different from one another and from $a$, $\beta$, and such that $a' < \beta'$; similarly, let $a''$, $\beta''$, where $a'' < \beta''$, be the first different numbers in $(a' \ldots \beta')$, and so on. The numbers $a'$, $a''$, $\ldots$ are members of (5) whose indices increase constantly; and similarly for the numbers $\beta'$, $\beta''$, $\ldots$ of decreasing magnitude. Each of the intervals $(a \ldots \beta)$, $(a' \ldots \beta')$, $(a'' \ldots \beta'')$, $\ldots$ includes all those which follow. We can then only conceive two cases: either $(a)$ the number of intervals is finite;—let the last be $(a^{(v)} \ldots \beta^{(v)})$; then, since there is in this interval at most one number of (5), we can take in it a number $\eta$ which does not belong to (5);—or $(b)$ there are infinitely many intervals. Then, since $a$, $a'$, $a''$, $\ldots$ increase constantly without increasing *ad infinitum*, they have a certain limit $a^{(\infty)}$, and similarly $\beta$, $\beta'$, $\beta''$, $\ldots$ decrease constantly towards a certain limit $\beta^{(\infty)}$. If $a^{(\infty)} = \beta^{(\infty)}$ (which always happens when applying this method to the system $(\omega)$), we easily see that the number $\eta = a^{(\infty)}$ cannot be in (5).* If, on the contrary, $a^{(\infty)} < \beta^{(\infty)}$, every number $\eta$ in
 
 * For if it were, we would have $\eta = u_{\beta}$, $\beta$ being a determined index; but that is not possible, for $u_{\beta}$ is not in $(a^{(\beta)} \ldots \beta^{(\beta)})$, whilst $\eta$, by definition, is.
 
@@ -695,9 +695,9 @@ where the $a$'s are positive integers. There is thus a $(1, 1)$-correspondence b
 
 $$
 \begin{aligned}
-e_1 &amp;= (a_{1, 1}, a_{1, 2}, \ldots, a_{1, \nu}, \ldots), \\
-e_2 &amp;= (a_{2, 1}, a_{2, 2}, \ldots, a_{2, \nu}, \ldots), \ldots, \\
-e_n &amp;= (a_{n, 1}, a_{n, 2}, \ldots, a_{n, \nu}, \ldots);
+e_1 &= (a_{1, 1}, a_{1, 2}, \ldots, a_{1, \nu}, \ldots), \\
+e_2 &= (a_{2, 1}, a_{2, 2}, \ldots, a_{2, \nu}, \ldots), \ldots, \\
+e_n &= (a_{n, 1}, a_{n, 2}, \ldots, a_{n, \nu}, \ldots);
 \end{aligned}
 $$
 
@@ -713,7 +713,7 @@ $$
 (6) \quad \beta_{(\nu - 1)n + \mu} = a_{\mu, \nu} \quad \text{(} \mu = 1, 2, \ldots, n; \nu = 1, 2, \ldots \infty\text{)}
 $$
 
-is established. Inversely, such a $d$ determines uniquely the series of $\beta$'s and, by (6), the series of the $a$'s, and hence, again of the $e$'s. We have only to show, now, that there can exist a $(1, 1)$-correspondence between the irrational numbers $0 &lt; e &lt; 1$ and the real (irrational and rational) numbers $0 \leq x \leq 1$. For this purpose, we remark that all the rational numbers of this interval can be written in the form of a simply infinite series
+is established. Inversely, such a $d$ determines uniquely the series of $\beta$'s and, by (6), the series of the $a$'s, and hence, again of the $e$'s. We have only to show, now, that there can exist a $(1, 1)$-correspondence between the irrational numbers $0 < e < 1$ and the real (irrational and rational) numbers $0 \leq x \leq 1$. For this purpose, we remark that all the rational numbers of this interval can be written in the form of a simply infinite series
 
 $$
 \phi_1, \phi_2, \ldots, \phi_n, \ldots \uparrow
@@ -1123,22 +1123,22 @@ INTRODUCTION 65
 in the form (7), and therefore has not the power of (I). Let $\alpha_{\kappa_s}$ be the first number of (1) which is greater than $a_1$, $a_{\kappa_s}$ the first greater than $a_{\kappa_s'}$, and so on; so that we have
 
 $$
-1 &lt; \kappa_3 &lt; \kappa_3 &lt; \cdots
+1 < \kappa_3 < \kappa_3 < \cdots
 $$
 
 and
 
 $$
-a_1 &lt; a_{\kappa_s} &lt; a_{\kappa_s} &lt; \cdots,
+a_1 < a_{\kappa_s} < a_{\kappa_s} < \cdots,
 $$
 
 and
 
 $$
-a_v &lt; a_{\kappa_h} \text{ if } v &lt; \kappa_h.
+a_v < a_{\kappa_h} \text{ if } v < \kappa_h.
 $$
 
-Now it may happen that, from a certain number $a_{\kappa_p}$ on, all following it in the series (7) are smaller than it; then it is evidently the greatest. If, on the other hand, there is no such greatest number, imagine the series of integers from 1 on and smaller than $a_1$, add to it the series of integers $\geq a_1$ and $&gt; a_{\kappa_s'}$ then the series of integers $\geq a_{\kappa_s}$ and $&lt; a_{\kappa_s'}$ and so on; we thus get a definite part of successive numbers of (I) and (II) which is evidently of the first power, and consequently, by the definition of (II), there is a least number $\beta$ of (II) which is greater than all of these numbers. Therefore $\beta &gt; a_{\kappa_h}$ and thus also $\beta &gt; a_v$, and also every number $\beta' &lt; \beta$ is surpassed in magnitude by certain numbers $a_{\kappa_h}$.
+Now it may happen that, from a certain number $a_{\kappa_p}$ on, all following it in the series (7) are smaller than it; then it is evidently the greatest. If, on the other hand, there is no such greatest number, imagine the series of integers from 1 on and smaller than $a_1$, add to it the series of integers $\geq a_1$ and $> a_{\kappa_s'}$ then the series of integers $\geq a_{\kappa_s}$ and $< a_{\kappa_s'}$ and so on; we thus get a definite part of successive numbers of (I) and (II) which is evidently of the first power, and consequently, by the definition of (II), there is a least number $\beta$ of (II) which is greater than all of these numbers. Therefore $\beta > a_{\kappa_h}$ and thus also $\beta > a_v$, and also every number $\beta' < \beta$ is surpassed in magnitude by certain numbers $a_{\kappa_h}$.
 
 If there is a greatest $a_{\kappa_p} = \gamma$, then the number $\gamma + 1$ is a member of (II) and not of (7); and if there is not a greatest, the number $\beta$ is a member of (II) and not of (7).
 
@@ -1154,7 +1154,7 @@ $$
 (a_\beta),\ (\beta = \omega,\ \omega + 1,\ \dots\ a,\ \dots)
 $$
 
-where we always have $\beta &lt; \Omega$, where $\Omega$ is the first number of (III); and consequently $(a_\beta)$ is either finite or of the power of (I) or of that of (II), *quartum non datur*. From this results the theorem: If $N$ is any well-defined aggregate of the second power, $M'$ is a part of $M$ and $M''$ is a part of $M'$, and we know that $M''$ is of the same power as $M$, then $M'$ is of the same power as $M$, and therefore as $M''$; and Cantor remarked that this theorem is generally valid, and promised to return to it.*
+where we always have $\beta < \Omega$, where $\Omega$ is the first number of (III); and consequently $(a_\beta)$ is either finite or of the power of (I) or of that of (II), *quartum non datur*. From this results the theorem: If $N$ is any well-defined aggregate of the second power, $M'$ is a part of $M$ and $M''$ is a part of $M'$, and we know that $M''$ is of the same power as $M$, then $M'$ is of the same power as $M$, and therefore as $M''$; and Cantor remarked that this theorem is generally valid, and promised to return to it.*
 
 Though the commutative law does not, in general, hold with the transfinite numbers, the associative law does, but the distributive law is only generally valid in the form:
 
@@ -1495,25 +1495,25 @@ in (a) and (b) the parts played by M and N are interchanged, two conditions aris
 
 We express the relation of $\mathfrak{a}$ to $\mathfrak{b}$ characterized by (a) and (b) by saying: $\mathfrak{a}$ is “less” than $\mathfrak{b}$ or $\mathfrak{b}$ is “greater” than $\mathfrak{a}$; in signs
 
-(1) $\mathfrak{a}&lt;\mathfrak{b}\quad\text{or}\quad\mathfrak{b}&gt;\mathfrak{a}.$
+(1) $\mathfrak{a}<\mathfrak{b}\quad\text{or}\quad\mathfrak{b}>\mathfrak{a}.$
 
 We can easily prove that,
 
-(2) if $\mathfrak{a}&lt;\mathfrak{b}$ and $\mathfrak{b}&lt;\mathfrak{c}$, then we always have $\mathfrak{a}&lt;\mathfrak{c}$.
+(2) if $\mathfrak{a}<\mathfrak{b}$ and $\mathfrak{b}<\mathfrak{c}$, then we always have $\mathfrak{a}<\mathfrak{c}$.
 
-Similarly, from the definition, it follows at once that, if $P_1$ is part of an aggregate $P$, from $\mathfrak{a}&lt;\overline{P}_1$ follows $\mathfrak{a}&lt;\overline{P}$ and from $\overline{P}&lt;\mathfrak{b}$ follows $\overline{P}_1&lt;\mathfrak{b}$.
+Similarly, from the definition, it follows at once that, if $P_1$ is part of an aggregate $P$, from $\mathfrak{a}<\overline{P}_1$ follows $\mathfrak{a}<\overline{P}$ and from $\overline{P}<\mathfrak{b}$ follows $\overline{P}_1<\mathfrak{b}$.
 
 We have seen that, of the three relations
 
 $$
-\mathfrak{a} = \mathfrak{b},\ \mathfrak{a} &lt; \mathfrak{b},\ \mathfrak{b} &lt; \mathfrak{a},
+\mathfrak{a} = \mathfrak{b},\ \mathfrak{a} < \mathfrak{b},\ \mathfrak{b} < \mathfrak{a},
 $$
 
 each one excludes the two others. On the other hand, the theorem that, with any two cardinal numbers $\mathfrak{a}$ and $\mathfrak{b}$, one of those three relations must necessarily be realized, is by no means self-evident and can hardly be proved at this stage.
 
 Not until later, when we shall have gained a survey over the ascending sequence of the transfinite cardinal numbers and an insight into their connexion, will result the truth of the theorem:
 
-A. If $\mathfrak{a}$ and $\mathfrak{b}$ are any two cardinal numbers, then either $\mathfrak{a}=\mathfrak{b}$ or $\mathfrak{a}&lt;\mathfrak{b}$ or $\mathfrak{a}&gt;\mathfrak{b}$.
+A. If $\mathfrak{a}$ and $\mathfrak{b}$ are any two cardinal numbers, then either $\mathfrak{a}=\mathfrak{b}$ or $\mathfrak{a}<\mathfrak{b}$ or $\mathfrak{a}>\mathfrak{b}$.
 
 From this theorem the following theorems, of which, however, we will here make no use, can be very simply derived:
 
@@ -1716,7 +1716,7 @@ $$
 
 (where $f(\nu) = 0$ or 1)
 
-of the numbers $x$ in the binary system. If we pay attention to the fact that every number $x$ is only represented once, with the exception of the numbers $x = \frac{2\nu + 1}{2^{\mu}} &lt; 1$, which are represented twice over, we have, if we denote the “enumerable” totality of the latter by $\{s_\nu\}$,
+of the numbers $x$ in the binary system. If we pay attention to the fact that every number $x$ is only represented once, with the exception of the numbers $x = \frac{2\nu + 1}{2^{\mu}} < 1$, which are represented twice over, we have, if we denote the “enumerable” totality of the latter by $\{s_\nu\}$,
 
 $$
 2^{\mathfrak{M}_0} = \overline{(\{s_\nu\}, \overline{X})}.
@@ -1726,10 +1726,10 @@ If we take away from X any “enumerable” aggregate $\{t_\nu\}$ and denote the
 
 $$
 \begin{aligned}
-X &amp;= (\{t_\nu\}, X_1) = (\{t_{2\nu-1}\}, \{t_{2\nu}\}, X_1), \\
-&amp;\quad (\{s_\nu\}, X) = (\{s_\nu\}, \{t_\nu\}, X_1), \\
-\{t_{2\nu-1}\} &amp;\sim \{s_\nu\}, \quad \{t_{2\nu}\} \sim \{t_\nu\}, \quad X_1 \sim X_1; \\
-X &amp;\sim (\{s_\nu\}, X),
+X &= (\{t_\nu\}, X_1) = (\{t_{2\nu-1}\}, \{t_{2\nu}\}, X_1), \\
+&\quad (\{s_\nu\}, X) = (\{s_\nu\}, \{t_\nu\}, X_1), \\
+\{t_{2\nu-1}\} &\sim \{s_\nu\}, \quad \{t_{2\nu}\} \sim \{t_\nu\}, \quad X_1 \sim X_1; \\
+X &\sim (\{s_\nu\}, X),
 \end{aligned}
 $$
 
@@ -1876,7 +1876,7 @@ Proof of A.—Every one of the aggregates which we have denoted by $ \mathbf{E}_
 
 E_{ν-1} are not equivalent, and accordingly their cardinal numbers $\mu=\overline{\overline{E}}_{\mu-1}$ and $\nu=\overline{\overline{E}}_{\nu-1}$ are not equal.
 
-*Proof of B.*—If of the two finite cardinal numbers $\mu$ and $\nu$ the first is the earlier and the second the later, then $\mu&lt;\nu$. For consider the two aggregates $\mathbf{M}=\mathbf{E}_{\mu-1}$ and $\mathbf{N}=\mathbf{E}_{\nu-1}$; for them each of the two conditions in § 2 for $\overline{\overline{\mathbf{M}}}&lt;\overline{\overline{\mathbf{N}}}$ is fulfilled. The condition (a) is fulfilled because, by theorem E, a part of $\mathbf{M}=\mathbf{E}_{\mu-1}$ can only have one of the cardinal numbers 1, 2, 3, . . ., $\mu-1$, and therefore, by theorem A, cannot be equivalent to the aggregate $\mathbf{N}=\mathbf{E}_{\nu-1}$. The condition (b) is fulfilled because M itself is a part of N.
+*Proof of B.*—If of the two finite cardinal numbers $\mu$ and $\nu$ the first is the earlier and the second the later, then $\mu<\nu$. For consider the two aggregates $\mathbf{M}=\mathbf{E}_{\mu-1}$ and $\mathbf{N}=\mathbf{E}_{\nu-1}$; for them each of the two conditions in § 2 for $\overline{\overline{\mathbf{M}}}<\overline{\overline{\mathbf{N}}}$ is fulfilled. The condition (a) is fulfilled because, by theorem E, a part of $\mathbf{M}=\mathbf{E}_{\mu-1}$ can only have one of the cardinal numbers 1, 2, 3, . . ., $\mu-1$, and therefore, by theorem A, cannot be equivalent to the aggregate $\mathbf{N}=\mathbf{E}_{\nu-1}$. The condition (b) is fulfilled because M itself is a part of N.
 
 *Proof of C.*—Let $\mathfrak{a}$ be a cardinal number which is less than $\nu+1$. Because of the condition (b) of § 2, there is a part of $\mathbf{E}_{\nu}$ with the cardinal number $\mathfrak{a}$. By theorem E, a part of $\mathbf{E}_{\nu}$ can only have one of the cardinal numbers 1, 2, 3, . . ., $\nu$. Thus $\mathfrak{a}$ is equal to one of the cardinal numbers 1, 2, 3, . . ., $\nu$. By theorem B, none of these is greater than $\nu$. Consequently there is no cardinal number $\mathfrak{a}$ which is less than $\nu+1$ and greater than $\nu$.
 
@@ -1903,7 +1903,7 @@ $$
 such that
 
 $$
-\kappa_1 &lt; \kappa_2 &lt; \kappa_3, \ldots
+\kappa_1 < \kappa_2 < \kappa_3, \ldots
 $$
 
 § 6
@@ -1936,7 +1936,7 @@ But we showed in § 5 that  $\mu + \mathbf{I}$  is always different from  $\mu$ 
 The number  $\aleph_0$  is greater than any finite number  $\mu$ :
 
 $$
-\aleph_0 &gt; \mu. \tag{3}
+\aleph_0 > \mu. \tag{3}
 $$
 
 [493] This follows, if we pay attention to § 3, from the three facts that  $\mu = (1, 2, 3, \ldots, \mu)$ , that no part of the aggregate  $(1, 2, 3, \ldots, \mu)$  is equivalent to the aggregate  $\{\nu\}$ , and that  $(1, 2, 3, \ldots, \mu)$  is itself a part of  $\{\nu\}$ .
@@ -1944,7 +1944,7 @@ $$
 On the other hand,  $\aleph_0$  is the least transfinite cardinal number. If  $\mathfrak{a}$  is any transfinite cardinal number different from  $\aleph_0$ , then
 
 $$
-\aleph_0 &lt; \mathfrak{a}. \tag{4}
+\aleph_0 < \mathfrak{a}. \tag{4}
 $$
 
 ---
@@ -1974,7 +1974,7 @@ $$
 where
 
 $$
-\kappa_\nu &lt; \kappa_{\nu+1};
+\kappa_\nu < \kappa_{\nu+1};
 $$
 
 consequently we have
@@ -2019,8 +2019,8 @@ Now, obviously
 
 $$
 \begin{aligned}
-\{\nu\} &amp;= (\{2\nu - 1\}, \{2\nu\}), \\
-(\{2\nu - 1\}, \{2\nu\}) &amp;\sim (\{a_\nu\}, \{b_\nu\}),
+\{\nu\} &= (\{2\nu - 1\}, \{2\nu\}), \\
+(\{2\nu - 1\}, \{2\nu\}) &\sim (\{a_\nu\}, \{b_\nu\}),
 \end{aligned}
 $$
 
@@ -2139,7 +2139,7 @@ We call an aggregate M “simply ordered” if a definite “order of precedence
 The relation of two elements $m_1$ and $m_2$, in which $m_1$ has the lower rank in the given order of precedence and $m_2$ the higher, is expressed by the formulæ:
 
 $$
-m_1 &lt; m_2, \quad m_2 &gt; m_1.
+m_1 < m_2, \quad m_2 > m_1.
 $$
 
 Thus, for example, every aggregate P of points defined on a straight line is a simply ordered aggregate if, of every two points $p_1$ and $p_2$ belonging to it, that one whose co-ordinate (an origin and a positive direction having been fixed upon) is the lesser is given the lower rank.
@@ -2261,7 +2261,7 @@ $$
 where $\nu$ represents all positive and negative finite integers, including 0, and where likewise
 
 $$
-e_{\nu} &lt; e_{\nu+1}.
+e_{\nu} < e_{\nu+1}.
 $$
 
 This aggregate has no lowest and no highest element in rank. Its type is, by the definition of a sum given in § 8,
@@ -2279,7 +2279,7 @@ $$
 where
 
 $$
-f_{\nu'} &lt; f_{\nu'+1}.
+f_{\nu'} < f_{\nu'+1}.
 $$
 
 Then the two ordered aggregates can be so imaged on one another that, if we understand by $\nu_{0'}$ a definite one of the numbers $\nu'$, to the element $e_{\nu'}$ of
@@ -2400,8 +2400,8 @@ Consider a third ordered aggregate $P = \{p\}$ with the ordinal type $P = \gamma
 
 $$
 \begin{aligned}
-a \cdot \beta &amp;= \{m_n\}, \quad \beta \cdot \gamma = \{\overline{n_p}\}, \quad (a \cdot \beta) \cdot \gamma = \{\overline{(m_n)_p}\}, \\
-a \cdot (\beta \cdot \gamma) &amp;= \{\overline{m_{(n_p)}}\}.
+a \cdot \beta &= \{m_n\}, \quad \beta \cdot \gamma = \{\overline{n_p}\}, \quad (a \cdot \beta) \cdot \gamma = \{\overline{(m_n)_p}\}, \\
+a \cdot (\beta \cdot \gamma) &= \{\overline{m_{(n_p)}}\}.
 \end{aligned}
 $$
 
@@ -2441,7 +2441,7 @@ If we compare the definitions of the elementary operations for cardinal numbers,
 
 ## The Ordinal Type $\eta$ of the Aggregate R of all Rational Numbers which are Greater than 0 and Smaller than 1, in their Natural Order of Precedence
 
-By R we understand, as in § 7, the system of all rational numbers $p/q$ ($p$ and $q$ being relatively prime) which $&gt; 0$ and $&lt; 1$, in their natural order of precedence, where the magnitude of a number
+By R we understand, as in § 7, the system of all rational numbers $p/q$ ($p$ and $q$ being relatively prime) which $> 0$ and $< 1$, in their natural order of precedence, where the magnitude of a number
 
 ---
 
@@ -2455,7 +2455,7 @@ $$
 
 But we have put the same aggregate in another order of precedence in which we call it R₀. This order is determined, in the first place, by the magnitude of p + q, and in the second place—for rational numbers for which p + q has the same value—by the magnitude of p / q itself. The aggregate R₀ is a well-ordered aggregate of type ω:
 
-(2) $R_0 = (r_1, r_2, \ldots, r_r, \ldots)$, where $r_r &lt; r_{r+1}$,
+(2) $R_0 = (r_1, r_2, \ldots, r_r, \ldots)$, where $r_r < r_{r+1}$,
 
 (3) $\overline{R}_0 = \omega$.
 
@@ -2583,11 +2583,11 @@ From the theorem which we have just proved result, for example, the following th
 
 [507] The ordinal type of the aggregate of all negative and positive rational numbers, including zero, in their natural order of precedence, is $\eta$.
 
-The ordinal type of the aggregate of all rational numbers which are greater than $a$ and less than $b$, in their natural order of precedence, where $a$ and $b$ are any real numbers, and $a &lt; b$, is $\eta$.
+The ordinal type of the aggregate of all rational numbers which are greater than $a$ and less than $b$, in their natural order of precedence, where $a$ and $b$ are any real numbers, and $a < b$, is $\eta$.
 
 The ordinal type of the aggregate of all real algebraic numbers in their natural order of precedence is $\eta$.
 
-The ordinal type of the aggregate of all real algebraic numbers which are greater than $a$ and less than $b$, in their natural order of precedence, where $a$ and $b$ are any real numbers and $a &lt; b$, is $\eta$.
+The ordinal type of the aggregate of all real algebraic numbers which are greater than $a$ and less than $b$, in their natural order of precedence, where $a$ and $b$ are any real numbers and $a < b$, is $\eta$.
 
 For all these ordered aggregates satisfy the three conditions required in our theorem for $\mathbf{M}$ (see Crelle’s Journal, vol. lxxvii, p. 258).*
 
@@ -2617,11 +2617,11 @@ The repeated application of (7) and (8) gives for every finite number $\nu$:
 
 (13) $\eta^{\nu} = \eta.$
 
-On the other hand we easily see that, for $\nu &gt; 1$, the types $1 + \eta, \eta + 1, \nu \cdot \eta, 1 + \eta + 1$ are different both from one another and from $\eta$. We have
+On the other hand we easily see that, for $\nu > 1$, the types $1 + \eta, \eta + 1, \nu \cdot \eta, 1 + \eta + 1$ are different both from one another and from $\eta$. We have
 
 (14) $\eta + 1 + \eta = \eta,$
 
-but $\eta + \nu + \eta$, for $\nu &gt; 1$, is different from $\eta$.
+but $\eta + \nu + \eta$, for $\nu > 1$, is different from $\eta$.
 
 Finally, it deserves to be emphasized that
 
@@ -2639,11 +2639,11 @@ OF TRANSFINITE NUMBERS 129
 
 parts of M which have the types $\omega$ and $*\omega$ appear to be especially valuable; we call them “fundamental series of the first order contained in M,” and the former—of type $\omega$—we call an “ascending” series, the latter—of type $*\omega$—a “descending” one. Since we limit ourselves to the consideration of fundamental series of the first order (in later investigations fundamental series of higher order will also occupy us), we will here simply call them “fundamental series.” Thus an “ascending fundamental series” is of the form
 
-(1) $\{a_{\nu}\}$, where $a_{\nu} &lt; a_{\nu+1}$;
+(1) $\{a_{\nu}\}$, where $a_{\nu} < a_{\nu+1}$;
 
 a “descending fundamental series” is of the form
 
-(2) $\{b_{\nu}\}$, where $b_{\nu} &gt; b_{\nu+1}$.
+(2) $\{b_{\nu}\}$, where $b_{\nu} > b_{\nu+1}$.
 
 The letter $\nu$, as well as $\kappa$, $\lambda$, and $\mu$, has everywhere in our considerations the signification of an arbitrary finite cardinal number or of a finite type (a finite ordinal number).
 
@@ -2654,13 +2654,13 @@ We call two ascending fundamental series $\{a_{\nu}\}$ and $\{a_{\nu}'\}$ in M �
 if, for every element $a_{\nu}$ there are elements $a_{\lambda}'$ such that
 
 $$
-a_{\nu} &lt; a_{\lambda}',
+a_{\nu} < a_{\lambda}',
 $$
 
 and also for every element $a_{\nu}'$ there are elements $a_{\mu}$ such that
 
 $$
-a_{\nu}' &lt; a_{\mu}.
+a_{\nu}' < a_{\mu}.
 $$
 
 ---
@@ -2674,13 +2674,13 @@ Two descending fundamental series $\{b_{\nu}\}$ and $\{b_{\nu}^{\prime}\}$ in $\
 if for every element $b_{\nu}$ there are elements $b_{\lambda}^{\prime}$ such that
 
 $$
-b_{\nu} &gt; b_{\lambda}^{\prime},
+b_{\nu} > b_{\lambda}^{\prime},
 $$
 
 and for every element $b_{\nu}^{\prime}$ there are elements $b_{\mu}$ such that
 
 $$
-b_{\nu}^{\prime} &gt; b_{\mu}.
+b_{\nu}^{\prime} > b_{\mu}.
 $$
 
 An ascending fundamental series $\{a_{\nu}\}$ and a descending one $\{b_{\nu}\}$ are said to be “coherent,” in signs
@@ -2690,13 +2690,13 @@ An ascending fundamental series $\{a_{\nu}\}$ and a descending one $\{b_{\nu}\}$
 if (a) for all values of $\nu$ and $\mu$
 
 $$
-a_{\nu} &lt; b_{\mu},
+a_{\nu} < b_{\mu},
 $$
 
 and (b) in $\mathbf{M}$ exists at most one (thus either only one or none at all) element $m_0$ such that, for all $\nu$'s,
 
 $$
-a_{\nu} &lt; m_0 &lt; b_{\nu}.
+a_{\nu} < m_0 < b_{\nu}.
 $$
 
 Then we have the theorems:
@@ -2715,21 +2715,21 @@ such a position with respect to the ascending fundamental series $\{a_{\nu}\}$ t
 
 (a) for every $\nu$
 
-$$a_{\nu} &lt; m_{0},$$
+$$a_{\nu} < m_{0},$$
 
 (b) for every element $m$ of $\mathbf{M}$ that precedes $m_{0}$ there exists a certain number $\nu_{0}$ such that
 
-$$a_{\nu} &gt; m,\quad \text{for}\quad \nu \equiv \nu_{0},$$
+$$a_{\nu} > m,\quad \text{for}\quad \nu \equiv \nu_{0},$$
 
 then we will call $m_{0}$ a “limiting element (Grenzelement) of $\{a_{\nu}\}$ in $\mathbf{M}$” and also a “principal element (Hauptelement) of $\mathbf{M}$.” In the same way we call $m_{0}$ a “principal element of $\mathbf{M}$” and also “limiting element of $\{b_{\nu}\}$ in $\mathbf{M}$” if these conditions are satisfied:
 
 (a) for every $\nu$
 
-$$b_{\nu} &gt; m_{0},$$
+$$b_{\nu} > m_{0},$$
 
 (b) for every element $m$ of $\mathbf{M}$ that follows $m_{0}$ exists a certain number $\nu_{0}$ such that
 
-$$b_{\nu} &gt; m,\quad \text{for}\quad \nu \equiv \nu_{0}.$$
+$$b_{\nu} > m,\quad \text{for}\quad \nu \equiv \nu_{0}.$$
 
 A fundamental series can never have more than one limiting element in $\mathbf{M}$; but $\mathbf{M}$ has, in general, many principal elements.
 
@@ -2771,7 +2771,7 @@ For example, η is a type which is “dense in itself,” and, as we showed in �
 
 We turn to the investigation of the ordinal type of the aggregate X = {x} of all real numbers x, such that x ≥ 0 and ≤ 1, in their natural order of precedence, so that, with any two of its elements x and x',
 
-$$ x &lt; x', \quad \text{if} \quad x &lt; x'. $$
+$$ x < x', \quad \text{if} \quad x < x'. $$
 
 Let the notation for this type be
 
@@ -2811,17 +2811,17 @@ This is, of course, the case for those elements of X which belong to R, and for 
 
 136 TRANSFINITE NUMBERS
 
-which belong to S. Let us compare an element $r$ of R with an element $x_0$ of X which does not belong to R; let the corresponding elements of M be $s$ and $m_0$. If $r &lt; x_0$, there is an ascending fundamental series $\{r_{\kappa_\nu}\}$, which is limited by $x_0$ and, from a certain $\nu_0$ on,
+which belong to S. Let us compare an element $r$ of R with an element $x_0$ of X which does not belong to R; let the corresponding elements of M be $s$ and $m_0$. If $r < x_0$, there is an ascending fundamental series $\{r_{\kappa_\nu}\}$, which is limited by $x_0$ and, from a certain $\nu_0$ on,
 
 $$
-r &lt; r_{\kappa_\nu} \quad \text{for} \quad \nu \geq \nu_0.
+r < r_{\kappa_\nu} \quad \text{for} \quad \nu \geq \nu_0.
 $$
 
-The image of $\{r_{\kappa_\nu}\}$ in M is an ascending fundamental series $\{s_{\lambda_\nu}\}$, which will be limited by an $m_0$ of M, and we have (§ 10) $s_{\lambda_\nu} &lt; m_0$ for every $\nu$, and $s &lt; s_{\lambda_\nu}$ for $\nu \geq \nu_0$. Thus (§ 7) $s &lt; m_0$.
+The image of $\{r_{\kappa_\nu}\}$ in M is an ascending fundamental series $\{s_{\lambda_\nu}\}$, which will be limited by an $m_0$ of M, and we have (§ 10) $s_{\lambda_\nu} < m_0$ for every $\nu$, and $s < s_{\lambda_\nu}$ for $\nu \geq \nu_0$. Thus (§ 7) $s < m_0$.
 
-If $r &gt; x_0$, we conclude similarly that $s &gt; m_0$.
+If $r > x_0$, we conclude similarly that $s > m_0$.
 
-Let us consider, finally, two elements $x_0$ and $x'_0$ not belonging to R and the elements $m_0$ and $m'_0$ corresponding to them in M; then we show, by an analogous consideration, that, if $x_0 &lt; x'_0$, then $m_0 &lt; m'_0$.
+Let us consider, finally, two elements $x_0$ and $x'_0$ not belonging to R and the elements $m_0$ and $m'_0$ corresponding to them in M; then we show, by an analogous consideration, that, if $x_0 < x'_0$, then $m_0 < m'_0$.
 
 The proof of the similarity of X and M is now finished, and we thus have
 
@@ -2858,17 +2858,17 @@ that no elements in rank between $f'$ and $F'$ occur in $F$.*
 
 In particular, to every single element $f$ of $F$, if it is not the highest, follows in rank as next higher another definite element $f'$; this results from the condition II if for $F'$ we put the single element $f$. Further, if, for example, an infinite series of consecutive elements
 
-$$ e' &lt; e'' &lt; e''' &lt; \dots &lt; e^{(v)} &lt; e^{(v+1)} \dots $$
+$$ e' < e'' < e''' < \dots < e^{(v)} < e^{(v+1)} \dots $$
 
 is contained in $F$ in such a way, however, that there are also in $F$ elements of [208] higher rank than all elements $e^{(v)}$, then, by the second condition, putting for $F'$ the totality $\{e^{(v)}\}$, there must exist an element $f'$ such that not only
 
-$$ f' &gt; e^{(v)} $$
+$$ f' > e^{(v)} $$
 
 for all values of $v$, but that also there is no element $g$ in $F$ which satisfies the two conditions
 
-$$ g &lt; f',$$
+$$ g < f',$$
 
-$$ g &gt; e^{(v)} $$
+$$ g > e^{(v)} $$
 
 for all values of $v$.
 
@@ -2882,7 +2882,7 @@ $$ (a_1, a_2, \dots, a_\nu, \dots b_1, b_2, \dots, b_\mu, \dots c_1, c_2, c_3), 
 
 where
 
-$$ a_\nu &lt; a_{\nu+1} &lt; b_\mu &lt; b_{\mu+1} &lt; c_1 &lt; c_2 &lt; c_3, $$
+$$ a_\nu < a_{\nu+1} < b_\mu < b_{\mu+1} < c_1 < c_2 < c_3, $$
 
 * This definition of “well-ordered aggregates,” apart from the wording, is identical with that which was introduced in vol. xxi of the Math. Ann., p. 548 (Grundlagen einer allgemeinen Mannichfaltigkeitslehre, p. 4). [See Section VII of the Introduction.]
 
@@ -2953,9 +2953,9 @@ gate R of all the other elements of F, including $f$, is a “remainder of F,”
 
 $$
 \begin{array}{ll}
-\text{(1)} &amp; \text{F} = (\text{A}, \text{R}), \\
-\text{(2)} &amp; \text{R} = (f, \text{R}'), \\
-\text{(3)} &amp; \text{A} \prec \text{R}. \\
+\text{(1)} & \text{F} = (\text{A}, \text{R}), \\
+\text{(2)} & \text{R} = (f, \text{R}'), \\
+\text{(3)} & \text{A} \prec \text{R}. \\
 \end{array}
 $$
 
@@ -3009,15 +3009,15 @@ by the element $c_2$.
 
 If A and A' are two segments of F, $f$ and $f'$ their determining elements, and
 
-$$f' &lt; f,$$
+$$f' < f,$$
 
 then A' is a segment of A. We call A' the “less,” and A the “greater” segment of F:
 
-$$A' &lt; A.$$
+$$A' < A.$$
 
 Correspondingly we may say of every A of F that it is “less” than F itself:
 
-$$A &lt; F.$$
+$$A < F.$$
 
 [211] A. If two similar well-ordered aggregates F and G are imaged on one another, then to every segment A of F corresponds a similar segment B of G, and to every segment B of G corresponds a similar segment A of F, and the elements $f$ and $g$ of F and G by which the corresponding segments A and B are determined also correspond to one another in the imaging.
 
@@ -3031,16 +3031,16 @@ $n'$ of N that precedes $n$, and inversely. If we apply this general theorem to 
 
 B. A well-ordered aggregate F is not similar to any of its segments A.
 
-*Proof.*—Let us suppose that F $\bigcirc$ A, then we will imagine an imaging of F on A set up. By theorem A the segment A' of A corresponds to the segment A of F, so that A' $\bigcirc$ A. Thus also we would have A' $\bigcirc$ F and A' $&lt;$ A. From A' would result, in the same manner, a smaller segment A'' of F, such that A'' $\bigcirc$ F and A'' $&lt;$ A'; and so on. Thus we would obtain an infinite series
+*Proof.*—Let us suppose that F $\bigcirc$ A, then we will imagine an imaging of F on A set up. By theorem A the segment A' of A corresponds to the segment A of F, so that A' $\bigcirc$ A. Thus also we would have A' $\bigcirc$ F and A' $<$ A. From A' would result, in the same manner, a smaller segment A'' of F, such that A'' $\bigcirc$ F and A'' $<$ A'; and so on. Thus we would obtain an infinite series
 
 $$
-A &gt; A' &gt; A'' \dots A^{(v)} &gt; A^{(v+1)} \dots
+A > A' > A'' \dots A^{(v)} > A^{(v+1)} \dots
 $$
 
 of segments of F, which continually become smaller and all similar to the aggregate F. We will denote by $f, f', f'', \ldots, f^{(v)}, \ldots$ the elements of F which determine these segments; then we would have
 
 $$
-f &gt; f' &gt; f'' &gt; \dots &gt; f^{(v)} &gt; f^{(v+1)} \dots
+f > f' > f'' > \dots > f^{(v)} > f^{(v+1)} \dots
 $$
 
 We would therefore have an infinite part
@@ -3074,7 +3074,7 @@ C. A well-ordered aggregate F is similar to no part of any one of its segments A
 *Proof.*—Let us suppose that F′ is a part of a segment A of F and F′ ⊢ F. We imagine an imaging of F on F′; then, by theorem A, to a segment A of the well-ordered aggregate F corresponds as image the segment F″ of F′; let this segment be determined by the element f′ of F′. The element f′ is also an element of A, and determines a segment A′ of A of which F″ is a part. The supposition of a part F′ of a segment A of F such that F′ ⊢ F leads us consequently to a part F″ of a segment A′ of A such that F″ ⊢ A. The same manner of conclusion gives us a part F″ of a segment A″ of A′ such that F″ ⊢ A′. Proceeding thus, we get, as in the proof of theorem B, an infinite series of segments of F which continually become smaller:
 
 $$
-\mathbf{A} &gt; \mathbf{A}' &gt; \mathbf{A}'' \dots \mathbf{A}^{(\nu)} &gt; \mathbf{A}^{(\nu+1)} \dots,
+\mathbf{A} > \mathbf{A}' > \mathbf{A}'' \dots \mathbf{A}^{(\nu)} > \mathbf{A}^{(\nu+1)} \dots,
 $$
 
 ---
@@ -3083,13 +3083,13 @@ $$
 
 and thus an infinite series of elements determining these segments:
 
-$$ f &gt; f' &gt; f''. \dots f^{(v)} &gt; f^{(v+1)} \dots, $$
+$$ f > f' > f''. \dots f^{(v)} > f^{(v+1)} \dots, $$
 
 in which is no lowest element, and this is impossible by theorem A of § 12. Thus there is no part F' of a segment A of F such that F' ⊂ F.
 
 D. Two different segments A and A' of a well-ordered aggregate F are not similar to one another.
 
-*Proof.*—If A' &lt; A, then A' is a segment of the well-ordered aggregate A, and thus, by theorem B, cannot be similar to A.
+*Proof.*—If A' < A, then A' is a segment of the well-ordered aggregate A, and thus, by theorem B, cannot be similar to A.
 
 E. Two similar well-ordered aggregates F and G can be imaged on one another only in a single manner.
 
@@ -3105,21 +3105,21 @@ G. If A and B are similar segments of two well-
 
 OF TRANSFINITE NUMBERS 147
 
-ordered aggregates F and G, for every smaller segment A'&lt;A of F there is a similar segment B'&lt;B of G and for every smaller segment B'&lt;B of G a similar segment A'&lt;A of F.
+ordered aggregates F and G, for every smaller segment A'<A of F there is a similar segment B'<B of G and for every smaller segment B'<B of G a similar segment A'<A of F.
 
 The proof follows from theorem A applied to the similar aggregates A and B.
 
-H. If A and A' are two segments of a well-ordered aggregate F, B and B' are two segments similar to those of a well-ordered aggregate G, and A'&lt;A, then B'&lt;B.
+H. If A and A' are two segments of a well-ordered aggregate F, B and B' are two segments similar to those of a well-ordered aggregate G, and A'<A, then B'<B.
 
 The proof follows from the theorems F and G.
 
-I. If a segment B of a well-ordered aggregate G is similar to no segment of a well-ordered aggregate F, then both every segment B'&gt;B of D and G itself are similar neither to a segment of F nor F itself.
+I. If a segment B of a well-ordered aggregate G is similar to no segment of a well-ordered aggregate F, then both every segment B'>B of D and G itself are similar neither to a segment of F nor F itself.
 
 The proof follows from theorem G.
 
 K. If for any segment A of a well-ordered aggregate F there is a similar segment B of another well-ordered aggregate G, and also inversely, for every segment B of G a similar segment A of F, then F $\sim$ G.
 
-Proof.—We can image F and G on one another according to the following law: Let the lowest element $f_1$ of F correspond to the lowest element $g_1$ of G. If $f &gt; f_1$ is any other element of F, it determines a segment A of F. To this segment belongs by supposition a definite similar segment B of G, and let the element $g$ of G which determines the segment B be the image of F. And if $g$ is any element of G that follows $g_1$, it determines a segment B of G, to which by supposition a similar
+Proof.—We can image F and G on one another according to the following law: Let the lowest element $f_1$ of F correspond to the lowest element $g_1$ of G. If $f > f_1$ is any other element of F, it determines a segment A of F. To this segment belongs by supposition a definite similar segment B of G, and let the element $g$ of G which determines the segment B be the image of F. And if $g$ is any element of G that follows $g_1$, it determines a segment B of G, to which by supposition a similar
 
 ---
 
@@ -3157,7 +3157,7 @@ L. If for every segment A of a well-ordered aggregate F there is a similar segme
 
 OF TRANSFINITE NUMBERS 149
 
-of G which is greater than B₁ is such that no segment similar to it is present in F. Thus the segments B of G which correspond to similar segments of F must all be less than B₁, and to every segment B &lt; B₁ belongs a similar segment A of F, because B₁ is the least segment of G among those to which no similar segments in F correspond. Thus, for every segment A of F there is a similar segment B of B₁, and for every segment B of B₁ there is a similar segment A of F. By theorem K, we thus have
+of G which is greater than B₁ is such that no segment similar to it is present in F. Thus the segments B of G which correspond to similar segments of F must all be less than B₁, and to every segment B < B₁ belongs a similar segment A of F, because B₁ is the least segment of G among those to which no similar segments in F correspond. Thus, for every segment A of F there is a similar segment B of B₁, and for every segment B of B₁ there is a similar segment A of F. By theorem K, we thus have
 
 $$ F \underset{B_1}{\sim} B_1. $$
 
@@ -3247,17 +3247,17 @@ $$
 G \sim A_1.
 $$
 
-As we easily see, each of these cases still subsists if F and G are replaced by aggregates respectively similar to them. Accordingly, we have to do with three mutually exclusive relations of the types $\alpha$ and $\beta$ to one another. In the first case $\alpha = \beta$; in the second we say that $\alpha &lt; \beta$; in the third we say that $\alpha &gt; \beta$. Thus we have the theorem:
+As we easily see, each of these cases still subsists if F and G are replaced by aggregates respectively similar to them. Accordingly, we have to do with three mutually exclusive relations of the types $\alpha$ and $\beta$ to one another. In the first case $\alpha = \beta$; in the second we say that $\alpha < \beta$; in the third we say that $\alpha > \beta$. Thus we have the theorem:
 
 ---
 
 OF TRANSFINITE NUMBERS 153
 
-A. If $a$ and $\beta$ are any two ordinal numbers, we have either $a = \beta$ or $a &lt; \beta$ or $a &gt; \beta$.
+A. If $a$ and $\beta$ are any two ordinal numbers, we have either $a = \beta$ or $a < \beta$ or $a > \beta$.
 
 From the definition of minority and majority follows easily:
 
-B. If we have three ordinal numbers $a, \beta, \gamma$, and if $a &lt; \beta$ and $\beta &lt; \gamma$, then $a &lt; \gamma$.
+B. If we have three ordinal numbers $a, \beta, \gamma$, and if $a < \beta$ and $\beta < \gamma$, then $a < \gamma$.
 
 Thus the ordinal numbers form, when arranged in order of magnitude, a simply ordered aggregate; it will appear later that it is a well-ordered aggregate.
 
@@ -3276,7 +3276,7 @@ In the sum $a + \beta$, $a$ is called the “augend” and $\beta$ the “addend
 Since $\mathbf{F}$ is a segment of $(\mathbf{F}, \mathbf{G})$, we have always
 
 $$
-a &lt; a + \beta. \tag{2}
+a < a + \beta. \tag{2}
 $$
 
 On the other hand, $\mathbf{G}$ is not a segment but a remainder of $(\mathbf{F}, \mathbf{G})$, and may thus, as we saw in § 13, be similar to the aggregate $(\mathbf{F}, \mathbf{G})$. If this
@@ -3424,7 +3424,7 @@ then
 
 We have
 
-(20) $a_{\nu + 1} &gt; a_{\nu},$
+(20) $a_{\nu + 1} > a_{\nu},$
 
 and, by (10), we can express the numbers $\beta_{\nu}$ by the numbers $a_{\nu}$ as follows:
 
@@ -3443,19 +3443,19 @@ thus represents *any* infinite series of ordinal numbers which satisfy the condi
 (b) If $\beta'$ is any ordinal number less than $\beta$, then, from a certain $\nu$ onwards, we always have
 
 $$
-a_{\nu} &gt; \beta'.
+a_{\nu} > \beta'.
 $$
 
-For, since $\beta' &lt; \beta$, there is a segment $B'$ of the
+For, since $\beta' < \beta$, there is a segment $B'$ of the
 
 ---
 
 158 THE FOUNDING OF THE THEORY
 
-aggregate $G$ which is of type $\beta'$. The element of $G$ which determines this segment must belong to one of the parts $G_v$; we will call this part $G_{v_0}$. But then $B'$ is also a segment of $(G_1, G_2, \ldots, G_{v_0})$, and consequently $\beta' &lt; a_{v_0}$. Thus
+aggregate $G$ which is of type $\beta'$. The element of $G$ which determines this segment must belong to one of the parts $G_v$; we will call this part $G_{v_0}$. But then $B'$ is also a segment of $(G_1, G_2, \ldots, G_{v_0})$, and consequently $\beta' < a_{v_0}$. Thus
 
 $$
-a_v &gt; \beta'
+a_v > \beta'
 $$
 
 for $v \geq v_0$.
@@ -3486,7 +3486,7 @@ We have already mentioned in § 7 that all simply
 
 OF TRANSFINITE NUMBERS 159
 
-ordered aggregates of given finite cardinal number $\nu$ have one and the same ordinal type. This may be proved here as follows. Every simply ordered aggregate of finite cardinal number is a well-ordered aggregate; for it, and every one of its parts, must have a lowest element,—and this, by theorem B of § 12, characterizes it as a well-ordered aggregate. The types of finite simply ordered aggregates are thus none other than finite ordinal numbers. But two different ordinal numbers $\alpha$ and $\beta$ cannot belong to the same finite cardinal number $\nu$. For if, say, $\alpha &lt; \beta$ and $\overline{G} = \beta$, then, as we know, there exists a segment B of G such that $\overline{B} = \alpha$. Thus the aggregate G and its part B would have the same finite cardinal number $\nu$. But this, by theorem C of § 6, is impossible. Thus the finite ordinal numbers coincide in their properties with the finite cardinal numbers.
+ordered aggregates of given finite cardinal number $\nu$ have one and the same ordinal type. This may be proved here as follows. Every simply ordered aggregate of finite cardinal number is a well-ordered aggregate; for it, and every one of its parts, must have a lowest element,—and this, by theorem B of § 12, characterizes it as a well-ordered aggregate. The types of finite simply ordered aggregates are thus none other than finite ordinal numbers. But two different ordinal numbers $\alpha$ and $\beta$ cannot belong to the same finite cardinal number $\nu$. For if, say, $\alpha < \beta$ and $\overline{G} = \beta$, then, as we know, there exists a segment B of G such that $\overline{B} = \alpha$. Thus the aggregate G and its part B would have the same finite cardinal number $\nu$. But this, by theorem C of § 6, is impossible. Thus the finite ordinal numbers coincide in their properties with the finite cardinal numbers.
 
 The case is quite different with the transfinite ordinal numbers; to one and the same transfinite cardinal number $\mathfrak{a}$ belong an infinity of ordinal numbers which form a unitary and connected system. We will call this system the “number-class $Z(\mathfrak{a})$,” and it is a part of the class of types $[\mathfrak{a}]$ of § 7. The next object of our consideration is the number-class $Z(\mathfrak{N}_0)$, which we will call “the second number-class.” For in this connexion we understand by “the first number-class” the totality $\{\nu\}$ of finite ordinal numbers.
 
@@ -3551,7 +3551,7 @@ $$
 Since $F$ is a segment of $(F, g)$, we have
 
 $$
-a + 1 &gt; a. \quad (8)
+a + 1 > a. \quad (8)
 $$
 
 We also have
@@ -3612,7 +3612,7 @@ $$
 \overline{\overline{G}} \leq \aleph_{0} \cdot \aleph_{0} = \aleph_{0}.
 $$
 
-But, in any case, $G$ is a transfinite aggregate, and so the case $\overline{\overline{G}} &lt; \aleph_{0}$ is excluded.
+But, in any case, $G$ is a transfinite aggregate, and so the case $\overline{\overline{G}} < \aleph_{0}$ is excluded.
 
 We will call two fundamental series $\{\alpha_{\nu}\}$ and $\{\alpha'_{\nu}\}$ of numbers of the first or second number-class (§ 10) “coherent,” in signs:
 
@@ -3623,7 +3623,7 @@ $$
 if for every $\nu$ there are finite numbers $\lambda_{0}$ and $\mu_{0}$ such that
 
 $$
-\alpha'_{\lambda} &gt; \alpha_{\nu}, \quad \lambda \geq \lambda_{0}, \tag{10}
+\alpha'_{\lambda} > \alpha_{\nu}, \quad \lambda \geq \lambda_{0}, \tag{10}
 $$
 
 ---
@@ -3633,14 +3633,14 @@ OF TRANSFINITE NUMBERS 163
 and
 
 $$
-\alpha_{\mu} &gt; \alpha'_{\nu}, \quad \mu \geq \mu_0. \tag{II}
+\alpha_{\mu} > \alpha'_{\nu}, \quad \mu \geq \mu_0. \tag{II}
 $$
 
 [223] D. The limiting numbers $\operatorname{Lim}_{\nu} \alpha_{\nu}$ and $\operatorname{Lim}_{\nu} \alpha'_{\nu}$ belonging respectively to two fundamental series $\{\alpha_{\nu}\}$ and $\{\alpha'_{\nu}\}$ are equal when, and only when, $\{\alpha_{\nu}\} \parallel \{\alpha'_{\nu}\}$.
 
-*Proof.* — For the sake of shortness we put $\operatorname{Lim}_{\nu} \alpha_{\nu} = \beta$, $\operatorname{Lim}_{\nu} \alpha'_{\nu} = \gamma$. We will first suppose that $\{\alpha_{\nu}\} \parallel \{\alpha'_{\nu}\}$; then we assert that $\beta = \gamma$. For if $\beta$ were not equal to $\gamma$, one of these two numbers would have to be the smaller. Suppose that $\beta &lt; \gamma$. From a certain $\nu$ onwards we would have $\alpha'_{\nu} &gt; \beta$ (§ 14), and consequently, by (II), from a certain $\mu$ onwards we would have $\alpha_{\mu} &gt; \beta$. But this is impossible because $\beta = \operatorname{Lim}_{\nu} \alpha_{\nu}$. Thus for all $\mu$'s we have $\alpha_{\mu} &lt; \beta$.
+*Proof.* — For the sake of shortness we put $\operatorname{Lim}_{\nu} \alpha_{\nu} = \beta$, $\operatorname{Lim}_{\nu} \alpha'_{\nu} = \gamma$. We will first suppose that $\{\alpha_{\nu}\} \parallel \{\alpha'_{\nu}\}$; then we assert that $\beta = \gamma$. For if $\beta$ were not equal to $\gamma$, one of these two numbers would have to be the smaller. Suppose that $\beta < \gamma$. From a certain $\nu$ onwards we would have $\alpha'_{\nu} > \beta$ (§ 14), and consequently, by (II), from a certain $\mu$ onwards we would have $\alpha_{\mu} > \beta$. But this is impossible because $\beta = \operatorname{Lim}_{\nu} \alpha_{\nu}$. Thus for all $\mu$'s we have $\alpha_{\mu} < \beta$.
 
-If, inversely, we suppose that $\beta = \gamma$, then, because $\alpha_{\nu} &lt; \gamma$, we must conclude that, from a certain $\lambda$ onwards, $\alpha'_{\lambda} &gt; \alpha_{\nu}$, and, because $\alpha'_{\nu} &lt; \beta$, we must conclude that, from a certain $\mu$ onwards, $\alpha_{\mu} &gt; \alpha'_{\nu}$. That is to say, $\{\alpha_{\nu}\} \parallel \{\alpha'_{\nu}\}$.
+If, inversely, we suppose that $\beta = \gamma$, then, because $\alpha_{\nu} < \gamma$, we must conclude that, from a certain $\lambda$ onwards, $\alpha'_{\lambda} > \alpha_{\nu}$, and, because $\alpha'_{\nu} < \beta$, we must conclude that, from a certain $\mu$ onwards, $\alpha_{\mu} > \alpha'_{\nu}$. That is to say, $\{\alpha_{\nu}\} \parallel \{\alpha'_{\nu}\}$.
 
 E. If $\alpha$ is any number of the second number-class and $\nu_0$ any finite ordinal number, we have $\nu_0 + \alpha = \alpha$, and consequently also $\alpha - \nu_0 = \alpha$.
 
@@ -3648,8 +3648,8 @@ E. If $\alpha$ is any number of the second number-class and $\nu_0$ any finite o
 
 $$
 \begin{aligned}
-\omega &amp;= (f_1, f_2, \dots, f_\nu, \dots), \\
-\nu_0 &amp;= (\underline{g_1}, \underline{g_2}, \dots, \underline{g_{\nu_0}}),
+\omega &= (f_1, f_2, \dots, f_\nu, \dots), \\
+\nu_0 &= (\underline{g_1}, \underline{g_2}, \dots, \underline{g_{\nu_0}}),
 \end{aligned}
 $$
 
@@ -3661,7 +3661,7 @@ and consequently
 
 $$ \nu_0 + \omega = (\overline{g_1, g_2, \ldots, g_{\nu_0}, f_1, f_2, \ldots, f_\nu, \ldots}) = \omega. $$
 
-But if $ \alpha &gt; \omega $, we have
+But if $ \alpha > \omega $, we have
 
 $$ \alpha = \omega + (\alpha - \omega), \\
 \nu_0 + \alpha = (\nu_0 + \omega) + (\alpha - \omega) = \omega + (\alpha - \omega) = \alpha. $$
@@ -3720,10 +3720,10 @@ But
 
 $$
 \begin{aligned}
-(\alpha + \nu_0)\nu &amp;= \underbrace{\frac{1}{(\alpha + \nu_0)} + \underbrace{2}_{(\alpha + \nu_0)} + \ldots + \underbrace{\nu}_{(\alpha + \nu_0)}_{\nu}} \\
-&amp;= \alpha + \underbrace{\frac{1}{(\nu_0 + \alpha)} + \underbrace{2}_{(\nu_0 + \alpha)} + \ldots + \underbrace{\nu - 1}_{(\nu_0 + \alpha) + \nu_0}}_{\nu}} \\
-&amp;= \underbrace{\frac{1}{a} + \frac{2}{a} + \ldots + \frac{\nu}{a} + \nu_0}_{\alpha + \nu_0} \\
-&amp;= \alpha\nu + \nu_0.
+(\alpha + \nu_0)\nu &= \underbrace{\frac{1}{(\alpha + \nu_0)} + \underbrace{2}_{(\alpha + \nu_0)} + \ldots + \underbrace{\nu}_{(\alpha + \nu_0)}_{\nu}} \\
+&= \alpha + \underbrace{\frac{1}{(\nu_0 + \alpha)} + \underbrace{2}_{(\nu_0 + \alpha)} + \ldots + \underbrace{\nu - 1}_{(\nu_0 + \alpha) + \nu_0}}_{\nu}} \\
+&= \underbrace{\frac{1}{a} + \frac{2}{a} + \ldots + \frac{\nu}{a} + \nu_0}_{\alpha + \nu_0} \\
+&= \alpha\nu + \nu_0.
 \end{aligned}
 $$
 
@@ -3751,7 +3751,7 @@ $$
 \overline{\mathbf{A}}' = \alpha',
 $$
 
-and inversely every segment $\mathbf{A}'$ determines by its type $\overline{\mathbf{A}}' = \alpha'$ a number $\alpha' &lt; \alpha$ of the first or second number-class. For, since $\overline{\overline{\mathbf{F}}} = \aleph_0$, $\overline{\overline{\mathbf{A}}}'$ can only be either a finite cardinal number or $\aleph_0$. The segment $\mathbf{A}'$ is determined by an element $f' &gt; f_1$ of $\mathbf{F}$, and inversely every element $f' &gt; f_1$ of $\mathbf{F}$ determines a segment $\mathbf{A}'$ of $\mathbf{F}$. If $f'$ and $f''$ are two elements of $\mathbf{F}$ which follow $f_1$ in rank, $\mathbf{A}'$ and $\mathbf{A}''$ are the segments of $\mathbf{F}$ determined by them, $\alpha'$ and $\alpha''$ are their ordinal types, and, say $f' &lt; f''$, then, by § 13, $\mathbf{A}' &lt; \mathbf{A}''$ and consequently $\alpha' &lt; \alpha''$. [225] If, then, we put $\mathbf{F} = (f_1, \mathbf{F}')$, we obtain, when we make the element $f'$ of $\mathbf{F}'$ correspond to the element $\alpha'$ of $\{\alpha'\}$, an imaging of these two aggregates. Thus we have
+and inversely every segment $\mathbf{A}'$ determines by its type $\overline{\mathbf{A}}' = \alpha'$ a number $\alpha' < \alpha$ of the first or second number-class. For, since $\overline{\overline{\mathbf{F}}} = \aleph_0$, $\overline{\overline{\mathbf{A}}}'$ can only be either a finite cardinal number or $\aleph_0$. The segment $\mathbf{A}'$ is determined by an element $f' > f_1$ of $\mathbf{F}$, and inversely every element $f' > f_1$ of $\mathbf{F}$ determines a segment $\mathbf{A}'$ of $\mathbf{F}$. If $f'$ and $f''$ are two elements of $\mathbf{F}$ which follow $f_1$ in rank, $\mathbf{A}'$ and $\mathbf{A}''$ are the segments of $\mathbf{F}$ determined by them, $\alpha'$ and $\alpha''$ are their ordinal types, and, say $f' < f''$, then, by § 13, $\mathbf{A}' < \mathbf{A}''$ and consequently $\alpha' < \alpha''$. [225] If, then, we put $\mathbf{F} = (f_1, \mathbf{F}')$, we obtain, when we make the element $f'$ of $\mathbf{F}'$ correspond to the element $\alpha'$ of $\{\alpha'\}$, an imaging of these two aggregates. Thus we have
 
 $$
 \overline{\{\alpha'\}} = \overline{\mathbf{F}}'.
@@ -3809,9 +3809,9 @@ $$
 
 $$
 \begin{aligned}
-1 &amp;&lt; \rho_2 &lt; \rho_3 &lt; \dots &lt; \rho_\nu &lt; \rho_{\nu+1} \\
-a'_1 &amp;&lt; a'_{\rho_3} &lt; a'_{\rho_3} &lt; \dots &lt; a'_{\rho_\nu} &lt; a'_{\rho_{\nu+1}} \\
-a'_\mu &amp;&lt; a'_{\rho_\nu} \quad \text{always if} \quad \mu &lt; \rho'_\nu;
+1 &< \rho_2 < \rho_3 < \dots < \rho_\nu < \rho_{\nu+1} \\
+a'_1 &< a'_{\rho_3} < a'_{\rho_3} < \dots < a'_{\rho_\nu} < a'_{\rho_{\nu+1}} \\
+a'_\mu &< a'_{\rho_\nu} \quad \text{always if} \quad \mu < \rho'_\nu;
 \end{aligned}
 $$
 
@@ -3821,7 +3821,7 @@ $$
 a'_\nu \lesssim a'_{\rho_\nu}.
 $$
 
-Hence we see that every number $a'_\nu$, and consequently every number $a' &lt; a$, is exceeded by numbers $a'_{\rho_\nu}$ for sufficiently great values of $\nu$. But $a$ is the number which, in respect of magnitude, immediately follows all the numbers $a'$, and consequently is also the next greater number with respect to all $a'_{\rho_\nu}$. If, therefore, we put $a'_1 = a_1$, $a_{\rho_{\nu+1}} = a_{\nu+1}$, we have
+Hence we see that every number $a'_\nu$, and consequently every number $a' < a$, is exceeded by numbers $a'_{\rho_\nu}$ for sufficiently great values of $\nu$. But $a$ is the number which, in respect of magnitude, immediately follows all the numbers $a'$, and consequently is also the next greater number with respect to all $a'_{\rho_\nu}$. If, therefore, we put $a'_1 = a_1$, $a_{\rho_{\nu+1}} = a_{\nu+1}$, we have
 
 $$
 a = \lim_{\nu} a_\nu.
@@ -3929,9 +3929,9 @@ such that
 
 $$
 \begin{aligned}
-I &amp;&lt; \rho_2 &lt; \rho_3 \dots &lt; \rho_v &lt; \rho_{v+1} &lt; \dots, \\
-\gamma_1 &amp;&lt; \gamma_{\rho_3} &lt; \gamma_{\rho_3} \dots &lt; \gamma_{\rho_v} &lt; \gamma_{\rho_{v+1}} &lt; \dots, \\
-\gamma_v &amp;\leq \gamma_{\rho_v}.
+I &< \rho_2 < \rho_3 \dots < \rho_v < \rho_{v+1} < \dots, \\
+\gamma_1 &< \gamma_{\rho_3} < \gamma_{\rho_3} \dots < \gamma_{\rho_v} < \gamma_{\rho_{v+1}} < \dots, \\
+\gamma_v &\leq \gamma_{\rho_v}.
 \end{aligned}
 $$
 
@@ -3944,7 +3944,7 @@ $$
 which is greater than all numbers $\gamma_{\rho_{\nu}}$. Consequently we would have
 
 $$
-\delta &gt; \gamma_{\nu}
+\delta > \gamma_{\nu}
 $$
 
 for every $\nu$. But $\{\gamma_{\nu}\}$ contains all numbers of the second number-class, and consequently also the number $\delta$; thus we would have, for a definite $\nu_0$,
@@ -3953,7 +3953,7 @@ $$
 \delta = \gamma_{\nu_0},
 $$
 
-which equation is inconsistent with the relation $\delta &gt; \gamma_{\nu_0}$. The supposition $\overline{\{a\}} = \aleph_0$ consequently leads to a contradiction.
+which equation is inconsistent with the relation $\delta > \gamma_{\nu_0}$. The supposition $\overline{\{a\}} = \aleph_0$ consequently leads to a contradiction.
 
 E. Any totality $\{\beta\}$ of different numbers $\beta$ of the second number-class has, if it is infinite, either the cardinal number $\aleph_0$ or the cardinal number $\overline{\{a\}}$ of the second number-class.
 
@@ -3993,7 +3993,7 @@ where $\mu, \nu_0$ are finite and different from zero, but $\nu_1, \nu_2, \ldots
 
 (2) $\omega^{\mu '}\nu ' + \omega^{\mu}\nu = \omega^{\mu}\nu ,$
 
-if $\mu' &lt; \mu$ and $\nu &gt; 0$, $\nu' &gt; 0$. For, by (8) of § 14, we have
+if $\mu' < \mu$ and $\nu > 0$, $\nu' > 0$. For, by (8) of § 14, we have
 
 $$
 \omega^ {\mu^ {\prime}} \nu^ {\prime} + \omega^ {\mu} \nu = \omega^ {\mu^ {\prime}} \left(\nu^ {\prime} + \omega^ {\mu - \mu^ {\prime}} \nu\right),
@@ -4025,9 +4025,9 @@ $$
 \psi = \omega^{\lambda} \rho_{0} + \omega^{\lambda-1} \rho_{1} + \dots + \rho_{\lambda}. \tag{4}
 $$
 
-If $\mu$ and $\lambda$ are different and, say, $\mu &lt; \lambda$, we have by (2) $\phi + \psi = \psi$, and therefore $\phi &lt; \psi$.
+If $\mu$ and $\lambda$ are different and, say, $\mu < \lambda$, we have by (2) $\phi + \psi = \psi$, and therefore $\phi < \psi$.
 
-[230] If $\mu = \lambda$, $\nu_{0}$, and $\rho_{0}$ are different, and, say, $\nu_{0} &lt; \rho_{0}$, we have by (2)
+[230] If $\mu = \lambda$, $\nu_{0}$, and $\rho_{0}$ are different, and, say, $\nu_{0} < \rho_{0}$, we have by (2)
 
 $$
 \phi + \left( \omega^{\lambda} (\rho_{0} - \nu_{0}) + \omega^{\lambda-1} \rho_{1} + \dots + \rho_{\mu} \right) = \psi,
@@ -4036,7 +4036,7 @@ $$
 and therefore
 
 $$
-\phi &lt; \psi.
+\phi < \psi.
 $$
 
 If, finally,
@@ -4045,7 +4045,7 @@ $$
 \mu = \lambda, \quad \nu_{0} = \rho_{0}, \quad \nu_{1} = \rho_{1}, \quad \dots, \quad \nu_{\sigma-1} = \rho_{\sigma-1}, \quad \sigma \overline{\geq} \mu,
 $$
 
-but $\nu_{\sigma}$ is different from $\rho_{\sigma}$ and, say, $\nu_{\sigma} &lt; \rho_{\sigma}$, we have by (2)
+but $\nu_{\sigma}$ is different from $\rho_{\sigma}$ and, say, $\nu_{\sigma} < \rho_{\sigma}$, we have by (2)
 
 $$
 \phi + \left( \omega^{\lambda - \sigma} (\rho_{\sigma} - \nu_{\sigma}) + \omega^{\lambda - \sigma - 1} \rho_{\sigma + 1} + \dots + \rho_{\mu} \right) = \psi,
@@ -4054,14 +4054,14 @@ $$
 and therefore again
 
 $$
-\phi &lt; \psi.
+\phi < \psi.
 $$
 
 Thus, we see that only in the case of complete identity of the expressions $\phi$ and $\psi$ can the numbers represented by them be equal.
 
 The addition of $\phi$ and $\psi$ leads to the following result:
 
-(a) If $\mu &lt; \lambda$, then, as we have remarked above,
+(a) If $\mu < \lambda$, then, as we have remarked above,
 
 $$
 \phi + \psi = \psi;
@@ -4077,7 +4077,7 @@ $$
 
 176 THE FOUNDING OF THE THEORY
 
-(c) If $\mu &gt; \lambda$, we have
+(c) If $\mu > \lambda$, we have
 
 $$
 \begin{array}{l}
@@ -4140,7 +4140,7 @@ $$
 where
 
 $$
-\mu &gt; \mu_{1} &gt; \mu_{2} &gt; \dots &gt; \mu_{\tau} \geq 0
+\mu > \mu_{1} > \mu_{2} > \dots > \mu_{\tau} \geq 0
 $$
 
 and $\kappa_{0}, \kappa_{1}, \dots, \kappa_{\tau}$ are finite numbers which are different from zero. Then we have
@@ -4192,7 +4192,7 @@ $$
 Let $\xi$ be a variable whose domain consists of the numbers of the first and second number-classes including zero. Let $\gamma$ and $\delta$ be two constants belonging to the same domain, and let
 
 $$
-\delta &gt; 0, \quad \gamma &gt; 1.
+\delta > 0, \quad \gamma > 1.
 $$
 
 We can then assert the following theorem:
@@ -4204,13 +4204,13 @@ A. There is one wholly determined one-valued function $f(\xi)$ of the variable $
 (b) If $\xi'$ and $\xi''$ are any two values of $\xi$, and if
 
 $$
-\xi' &lt; \xi'',
+\xi' < \xi'',
 $$
 
 then
 
 $$
-f(\xi') &lt; f(\xi'')..
+f(\xi') < f(\xi'')..
 $$
 
 [232] (c) For every value of $\xi$ we have
@@ -4241,23 +4241,23 @@ Proof.—By (a) and (c), we have
 
 $$ f(1) = \delta \gamma, \quad f(2) = \delta \gamma \gamma, \quad f(3) = \delta \gamma \gamma \gamma, \quad \ldots, $$
 
-and, because $ \delta &gt; 0 $ and $ \gamma &gt; 1 $, we have
+and, because $ \delta > 0 $ and $ \gamma > 1 $, we have
 
-$$ f(1) &lt; f(2) &lt; f(3) &lt; \ldots &lt; f(\nu) &lt; f(\nu + 1) &lt; \ldots $$
+$$ f(1) < f(2) < f(3) < \ldots < f(\nu) < f(\nu + 1) < \ldots $$
 
-Thus the function $ f(\xi) $ is wholly determined for the domain $ \xi &lt; \omega $. Let us now suppose that the theorem is valid for all values of $ \xi $ which are less than $ a $, where $ a $ is any number of the second number-class, then it is also valid for $ \xi \leq a $. For if $ a $ is of the first kind, we have from (c):
+Thus the function $ f(\xi) $ is wholly determined for the domain $ \xi < \omega $. Let us now suppose that the theorem is valid for all values of $ \xi $ which are less than $ a $, where $ a $ is any number of the second number-class, then it is also valid for $ \xi \leq a $. For if $ a $ is of the first kind, we have from (c):
 
-$$ f(a) = f(a_{-1})\gamma &gt; f(a_{-1}); $$
+$$ f(a) = f(a_{-1})\gamma > f(a_{-1}); $$
 
 so that the conditions (b), (c), and (d) are satisfied for $ \xi \leq a $. But if $ a $ is of the second kind and $ \{a_{\nu}\} $ is a fundamental series such that $ \lim_{\nu} a_{\nu} = a $, then it follows from (b) that also $ \{f(a_{\nu})\} $ is a fundamental series, and from (d) that $ f(a) = \lim_{\nu} f(a_{\nu}) $. If we take another fundamental series $ \{a_{\nu}'\} $ such that $ \lim_{\nu} a_{\nu}' = a $, then, because of (b), the two fundamental series $ \{f(a_{\nu})\} $ and $ \{f(a_{\nu}')\} $ are coherent, and thus also $ f(a) = \lim_{\nu} f(a_{\nu}') $. The value of $ f(a) $ is, consequently, uniquely determined in this case also.
 
-If $ a' $ is any number less than $ a $, we easily convince ourselves that $ f(a') &lt; f(a) $. The conditions (b), (c), and (d) are also satisfied for $ \xi \preceq a $. Hence follows the validity of the theorem for all values of $ \xi $. For if there were exceptional values of $ \xi $ for which it did not hold, then, by theorem B of § 16, one of
+If $ a' $ is any number less than $ a $, we easily convince ourselves that $ f(a') < f(a) $. The conditions (b), (c), and (d) are also satisfied for $ \xi \preceq a $. Hence follows the validity of the theorem for all values of $ \xi $. For if there were exceptional values of $ \xi $ for which it did not hold, then, by theorem B of § 16, one of
 
 ---
 
 180 THE FOUNDING OF THE THEORY
 
-them, which we will call $a$, would have to be the least. Then the theorem would be valid for $\xi &lt; a$, but not for $\xi \leq a$, and this would be in contradiction with what we have proved. Thus there is for the whole domain of $\xi$ one and only one function $f(\xi)$ which satisfies the conditions $(a)$ to $(d)$.
+them, which we will call $a$, would have to be the least. Then the theorem would be valid for $\xi < a$, but not for $\xi \leq a$, and this would be in contradiction with what we have proved. Thus there is for the whole domain of $\xi$ one and only one function $f(\xi)$ which satisfies the conditions $(a)$ to $(d)$.
 
 [233] If we attribute to the constant $\delta$ the value $1$ and then denote the function $f(\xi)$ by
 
@@ -4270,7 +4270,7 @@ we can formulate the following theorem:
 B. If $\gamma$ is any constant greater than 1 which belongs to the first or second number-class, there is a wholly definite function $\gamma^{\xi}$ of $\xi$ such that:
 
 (a) $\gamma^{0} = 1$;
-(b) If $\xi' &lt; \xi''$ then $\gamma^{\xi'} &lt; \gamma^{\xi''}$;
+(b) If $\xi' < \xi''$ then $\gamma^{\xi'} < \gamma^{\xi''}$;
 (c) For every value of $\xi$ we have $\gamma^{\xi + 1} = \gamma^{\xi} \gamma$;
 (d) If $\{\xi_{\nu}\}$ is a fundamental series, then $\{\gamma^{\xi_{\nu}}\}$ is such a series, and we have, if $\xi = \lim_{\nu} \xi_{\nu}$, the equation
 
@@ -4310,7 +4310,7 @@ we recognize that $\phi(\xi)$ satisfies the following four conditions:
 
 (a) $\phi(\circ) = \gamma^{a}$;
 
-(b) If $\xi' &lt; \xi''$, then $\phi(\xi') &lt; \phi(\xi'')$;
+(b) If $\xi' < \xi''$, then $\phi(\xi') < \phi(\xi'')$;
 
 (c) For every value of $\xi$ we have $\psi(\xi + 1) = \phi(\xi)\gamma$;
 
@@ -4347,7 +4347,7 @@ $$
 always have $\lim_{\nu} a \xi_{\nu} = a \lim_{\nu} \xi_{\nu}$, then we can, by theorem D, assert the following:
 
 (a) $\psi(0) = 1$;
-(b) If $\xi' &lt; \xi''$, then $\psi(\xi') &lt; \psi(\xi'')$;
+(b) If $\xi' < \xi''$, then $\psi(\xi') < \psi(\xi'')$;
 (c) For every value of $\xi$ we have $\psi(\xi + 1) = \psi(\xi)\gamma^{\alpha}$;
 (d) If $\{\xi_{\nu}\}$ is a fundamental series, then $\{\psi(\xi_{\nu})\}$ is also such a series, and we have, if $\xi = \lim_{\nu} \xi_{\nu}$, the equation $\psi(\xi) = \lim_{\nu} \psi(\xi_{\nu})$.
 
@@ -4359,13 +4359,13 @@ $$
 
 On the *magnitude* of $\gamma^{\xi}$ in comparison with $\xi$ we can assert the following theorem:
 
-F. If $\gamma &gt; 1$, we have, for every value of $\xi$,
+F. If $\gamma > 1$, we have, for every value of $\xi$,
 
 $$
 \gamma^{\xi} \geq \xi.
 $$
 
-*Proof.*—In the cases $\xi = 0$ and $\xi = 1$ the theorem is immediately evident. We now show that, if it holds for all values of $\xi$ which are smaller than a given number $\alpha &gt; 1$, it also holds for $\xi = \alpha$.
+*Proof.*—In the cases $\xi = 0$ and $\xi = 1$ the theorem is immediately evident. We now show that, if it holds for all values of $\xi$ which are smaller than a given number $\alpha > 1$, it also holds for $\xi = \alpha$.
 
 If $\alpha$ is of the first kind, we have, by supposition,
 
@@ -4399,7 +4399,7 @@ If, on the other hand, $\alpha$ is of the second kind and
 
 $$ \alpha = \lim_{\nu} \alpha_{\nu}, $$
 
-then, because $ \alpha_{\nu} &lt; \alpha $, we have by supposition
+then, because $ \alpha_{\nu} < \alpha $, we have by supposition
 
 $$
 \alpha_{\nu} \leq \gamma^{a_{\nu}}.
@@ -4417,9 +4417,9 @@ $$ \alpha \leq \gamma^{a}. $$
 
 If, now, there were values of $ \xi $ for which
 
-$$ \xi &gt; \gamma^{\xi}, $$
+$$ \xi > \gamma^{\xi}, $$
 
-one of them, by theorem B of § 16, would have to be the least. If this number is denoted by $ \alpha $, we would have, for $ \xi &lt; \alpha $,
+one of them, by theorem B of § 16, would have to be the least. If this number is denoted by $ \alpha $, we would have, for $ \xi < \alpha $,
 
 $$
 \xi \leq \gamma^{\xi}; \tag{235}
@@ -4427,7 +4427,7 @@ $$
 
 but
 
-$$ \alpha &gt; \gamma^{\alpha}, $$
+$$ \alpha > \gamma^{\alpha}, $$
 
 which contradicts what we have proved above. Thus we have for all values of $ \xi
 
@@ -4443,12 +4443,12 @@ Let $ \alpha $ be any number of the second number-class. The power $ \omega^{\xi
 
 184 THE FOUNDING OF THE THEORY
 
-of $\xi$, greater than $a$. By theorem F of § 18, this is always the case for $\xi &gt; a$; but in general it will also happen for smaller values of $\xi$.
+of $\xi$, greater than $a$. By theorem F of § 18, this is always the case for $\xi > a$; but in general it will also happen for smaller values of $\xi$.
 
 By theorem B of § 16, there must be, among the values of $\xi$ for which
 
 $$
-\omega^{\xi} &gt; a,
+\omega^{\xi} > a,
 $$
 
 one which is the least. We will denote it by $\beta$, and we easily convince ourselves that it cannot be a number of the second kind. If, indeed, we had
@@ -4457,7 +4457,7 @@ $$
 \beta = \lim_{\nu} \beta_{\nu},
 $$
 
-we would have, since $\beta_{\nu} &lt; \beta$,
+we would have, since $\beta_{\nu} < \beta$,
 
 $$
 \omega^{\beta_{\nu}} \stackrel{\infty}{\sim} a,
@@ -4478,13 +4478,13 @@ $$
 whereas we have
 
 $$
-\omega^{\beta} &gt; a.
+\omega^{\beta} > a.
 $$
 
 Therefore $\beta$ is of the first kind. We denote $\beta_{-1}$ by $a_0$, so that $\beta = a_0 + 1$, and consequently can assert that there is a wholly determined number $a_0$ of the first or second number-class which satisfies the two conditions:
 
 $$
-\omega^{\circ} \leq a, \quad \omega^{\circ\omega} \omega &gt; a. \tag{I}
+\omega^{\circ} \leq a, \quad \omega^{\circ\omega} \omega > a. \tag{I}
 $$
 
 From the second condition we conclude that
@@ -4503,13 +4503,13 @@ $$ \operatorname{Lim}_{\nu} \omega^{\alpha_0} \nu = \omega^{\alpha_0} \omega \le
 
 The least finite number $\nu$ for which
 
-$$ \omega^{\alpha_0} \nu &gt; \alpha $$
+$$ \omega^{\alpha_0} \nu > \alpha $$
 
-will be denoted by $ \kappa_0 + 1 $. Because of (1), we have $ \kappa_0 &gt; 0 $.
+will be denoted by $ \kappa_0 + 1 $. Because of (1), we have $ \kappa_0 > 0 $.
 
 [236] There is, therefore, a wholly determined number $ \kappa_0 $ of the first number-class such that
 
-$$ (2) \quad \omega^{\alpha_0} \kappa_0 \leq \alpha, \quad \omega^{\alpha_0} (\kappa_0 + 1) &gt; \alpha. $$
+$$ (2) \quad \omega^{\alpha_0} \kappa_0 \leq \alpha, \quad \omega^{\alpha_0} (\kappa_0 + 1) > \alpha. $$
 
 If we put $ \alpha - \omega^{\alpha_0} \kappa_0 = \alpha' $, we have
 
@@ -4517,11 +4517,11 @@ $$ (3) \quad \alpha = \omega^{\alpha_0} \kappa_0 + \alpha' $$
 
 and
 
-$$ (4) \quad 0 \leq \alpha' &lt; \omega^{\alpha_0}, \quad 0 &lt; \kappa_0 &lt; \omega. $$
+$$ (4) \quad 0 \leq \alpha' < \omega^{\alpha_0}, \quad 0 < \kappa_0 < \omega. $$
 
 But $ \alpha $ can be represented in the form (3) under the conditions (4) in only a single way. For from (3) and (4) follow inversely the conditions (2) and thence the conditions (1). But only the number $ \alpha_0 = \beta_{-1} $ satisfies the conditions (1), and by the conditions (2) the finite number $ \kappa_0 $ is uniquely determined. From (1) and (4) follows, by paying attention to theorem F of § 18, that
 
-$$ \alpha' &lt; \alpha, \quad \alpha_0 \leq \alpha. $$
+$$ \alpha' < \alpha, \quad \alpha_0 \leq \alpha. $$
 
 Thus we can assert the following theorem:
 
@@ -4537,7 +4537,7 @@ $$ \alpha = \omega^{\alpha_0} \kappa_0 + \alpha', $$
 
 where
 
-$$ 0 \leq \alpha' &lt; \omega^{\alpha_0}, \quad 0 &lt; \kappa_0 &lt; \omega, $$
+$$ 0 \leq \alpha' < \omega^{\alpha_0}, \quad 0 < \kappa_0 < \omega, $$
 
 and $ \alpha' $ is always smaller than $ \alpha $, but $ \alpha_0 $ is smaller than or equal to $ \alpha $.
 
@@ -4547,11 +4547,11 @@ $$ \alpha' = \omega^{\alpha_1} \kappa_1 + \alpha'', $$
 
 where
 
-$$ 0 \leq \alpha'' &lt; \omega^{\alpha_1}, \quad 0 &lt; \kappa_1 &lt; \omega, $$
+$$ 0 \leq \alpha'' < \omega^{\alpha_1}, \quad 0 < \kappa_1 < \omega, $$
 
 and
 
-$$ \alpha_1 &lt; \alpha_0, \quad \alpha'' &lt; \alpha'. $$
+$$ \alpha_1 < \alpha_0, \quad \alpha'' < \alpha'. $$
 
 In general we get a further sequence of analogous equations:
 
@@ -4561,7 +4561,7 @@ $$ \alpha''' = \omega^{\alpha_3} \kappa_3 + \alpha''. $$
 
 But this sequence cannot be infinite, but must necessarily break off. For the numbers $ \alpha, \alpha', \alpha'', \ldots $ decrease in magnitude:
 
-$$ \alpha &gt; \alpha' &gt; \alpha'' &gt; \alpha''' \ldots $$
+$$ \alpha > \alpha' > \alpha'' > \alpha''' \ldots $$
 
 If a series of decreasing transfinite numbers were infinite, then no term would be the least; and this is impossible by theorem B of § 16. Consequently we must have, for a certain finite numerical value $ \tau $,
 
@@ -4582,7 +4582,7 @@ $$
 where $\alpha_0, \alpha_1, \ldots, \alpha_\tau$ are numbers of the first or second number-class, such that:
 
 $$
-\alpha_0 &gt; \alpha_1 &gt; \alpha_2 &gt; \dots &gt; \alpha_\tau \geq 0,
+\alpha_0 > \alpha_1 > \alpha_2 > \dots > \alpha_\tau \geq 0,
 $$
 
 while $\kappa_0, \kappa_1, \ldots, \kappa_\tau, \tau + 1$ are numbers of the first number-class which are different from zero.
@@ -4604,7 +4604,7 @@ $$
 $$
 
 $$
-\omega^{\alpha'} \kappa' + \omega^{\alpha''} \kappa'' = \omega^{\alpha''} \kappa'', \quad \alpha' &lt; \alpha'', \tag{10}
+\omega^{\alpha'} \kappa' + \omega^{\alpha''} \kappa'' = \omega^{\alpha''} \kappa'', \quad \alpha' < \alpha'', \tag{10}
 $$
 
 where $\kappa, \kappa', \kappa''$ here denote finite numbers, serve both for the comparison of $\alpha$ with $\beta$ and for the
@@ -4617,23 +4617,23 @@ carrying out of their sum and difference. These are generalizations of the formu
 
 For the formation of the product $a\beta$, the following formulae come into consideration:
 
-(11) $a\lambda = \omega^{a_0}\kappa_0\lambda + \omega^{a_1}\kappa_1 + \ldots + \omega^{a_\tau}\kappa_\tau, \quad 0 &lt; \lambda &lt; \omega;$
+(11) $a\lambda = \omega^{a_0}\kappa_0\lambda + \omega^{a_1}\kappa_1 + \ldots + \omega^{a_\tau}\kappa_\tau, \quad 0 < \lambda < \omega;$
 
 (12) $a\omega = \omega^{a_0 + 1};$
 
-(13) $a\omega^{\beta'} = \omega^{a_0 + \beta'}, \quad \beta' &gt; 0.$
+(13) $a\omega^{\beta'} = \omega^{a_0 + \beta'}, \quad \beta' > 0.$
 
 The exponentiation $a^\beta$ can be easily carried out on the basis of the following formulae:
 
-(14) $a^{\lambda} = \omega^{a_0\lambda}\kappa_0 + \ldots, \quad 0 &lt; \lambda &lt; \omega.$
+(14) $a^{\lambda} = \omega^{a_0\lambda}\kappa_0 + \ldots, \quad 0 < \lambda < \omega.$
 
 The terms not written on the right have a lower degree than the first. Hence follows readily that the fundamental series $\{a^\lambda\}$ and $\{\omega^{a_0\lambda}\}$ are coherent, so that
 
-(15) $a^{\omega} = \omega^{a_0\omega}, \quad a_0 &gt; 0.$
+(15) $a^{\omega} = \omega^{a_0\omega}, \quad a_0 > 0.$
 
 Thus, in consequence of theorem E of § 18, we have:
 
-(16) $a^{\omega^{\beta'}} = \omega^{a_0\omega^{\beta'}}, \quad a_0 &gt; 0, \quad \beta' &gt; 0.$
+(16) $a^{\omega^{\beta'}} = \omega^{a_0\omega^{\beta'}}, \quad a_0 > 0, \quad \beta' > 0.$
 
 By the help of these formulae we can prove the following theorems:
 
@@ -4664,7 +4664,7 @@ $$
 But if
 
 $$
-a_0 &gt; \beta_0, \quad a_1 &gt; \beta_0, \dots, \quad a_\rho \geq \beta_0, \quad a_{\rho+1} &lt; \beta_0,
+a_0 > \beta_0, \quad a_1 > \beta_0, \dots, \quad a_\rho \geq \beta_0, \quad a_{\rho+1} < \beta_0,
 $$
 
 then
@@ -4673,7 +4673,7 @@ $$
 \alpha + \beta = \omega^{a_0}\kappa_0 + \dots + \omega^{a_\rho}\kappa_\rho + \omega^{\beta_0}\lambda_0 + \omega^{\beta_1}\lambda_1 + \dots + \omega^{\beta_\sigma}\lambda_\sigma.
 $$
 
-E. If $\beta$ is of the second kind ($\beta_\sigma &gt; 0$), then
+E. If $\beta$ is of the second kind ($\beta_\sigma > 0$), then
 
 $$
 \alpha\beta = \omega^{a_0 + \beta_0}\lambda_0 + \omega^{a_0 + \beta_1}\lambda_1 + \dots + \omega^{a_0 + \beta_\sigma}\lambda_\sigma = \omega^{a_0}\beta;
@@ -4688,7 +4688,7 @@ $$
 \end{array}
 $$
 
-F. If $\beta$ is of the second kind ($\beta_\sigma &gt; 0$), then
+F. If $\beta$ is of the second kind ($\beta_\sigma > 0$), then
 
 $$
 \alpha^\beta = \omega^{a_0\beta}.
@@ -4724,7 +4724,7 @@ $$
 a = \omega^{\gamma_0} a',
 $$
 
-where $\gamma_0 &gt; 0$ and $a'$ is a number of the first kind which belongs to the first or second number-class.
+where $\gamma_0 > 0$ and $a'$ is a number of the first kind which belongs to the first or second number-class.
 
 [239] I. In order that two numbers $a$ and $\beta$ of the second number-class should satisfy the relation
 
@@ -4768,7 +4768,7 @@ $$
 \alpha + \beta = \beta + \alpha
 $$
 
-we first conclude that the degree $a_0$ of $\alpha$ must be equal to the degree $\beta_0$ of $\beta$. For if, say, $a_0 &lt; \beta_0$, we would have, by theorem D,
+we first conclude that the degree $a_0$ of $\alpha$ must be equal to the degree $\beta_0$ of $\beta$. For if, say, $a_0 < \beta_0$, we would have, by theorem D,
 
 $$
 \alpha + \beta = \beta,
@@ -4783,7 +4783,7 @@ $$
 which is not possible, since, by (2) of § 14,
 
 $$
-\beta + \alpha &gt; \beta.
+\beta + \alpha > \beta.
 $$
 
 Thus we may put
@@ -4841,7 +4841,7 @@ $$
 and we suppose that
 
 $$
-\alpha &gt; \beta.
+\alpha > \beta.
 $$
 
 We will imagine both numbers, by theorem G, in their product-form, and let
@@ -4853,7 +4853,7 @@ $$
 where $\alpha'$ and $\beta'$ are without a common factor (besides 1) at the left end. We have then
 
 $$
-\alpha' &gt; \beta',
+\alpha' > \beta',
 $$
 
 and
@@ -4880,7 +4880,7 @@ $$ \alpha' = \beta' $$
 
 Thus there remains only the possibility that
 
-$$ \alpha' &gt; \omega, \quad \beta' &lt; \omega. $$
+$$ \alpha' > \omega, \quad \beta' < \omega. $$
 
 But the finite number $ \beta' $ must be 1:
 
@@ -4894,7 +4894,7 @@ $$ \alpha = \beta \alpha', $$
 
 where $ \alpha' $ is a number belonging to the second number-class, which is of the first kind, and must be less than $ \alpha $:
 
-$$ \alpha' &lt; \alpha. $$
+$$ \alpha' < \alpha. $$
 
 Between $ \alpha' $ and $ \beta $ the relation
 
@@ -4902,7 +4902,7 @@ $$ \alpha' \beta = \beta \alpha' $$
 
 subsists.
 
-[241] Consequently if also $ \alpha' &gt; \beta $, we conclude in the same way the existence of a transfinite number of the first kind $ \alpha'' $ which is less than $ \alpha' $ and such that
+[241] Consequently if also $ \alpha' > \beta $, we conclude in the same way the existence of a transfinite number of the first kind $ \alpha'' $ which is less than $ \alpha' $ and such that
 
 $$ \alpha' = \beta \alpha'', \quad \alpha'' \beta = \beta \alpha''. $$
 
@@ -4951,19 +4951,19 @@ $$
 and have
 
 $$
-\alpha = \beta^{\rho_0} \beta_1, \quad \beta \beta_1 = \beta_1 \beta, \quad \beta_1 &lt; \beta.
+\alpha = \beta^{\rho_0} \beta_1, \quad \beta \beta_1 = \beta_1 \beta, \quad \beta_1 < \beta.
 $$
 
 Thus there is also a finite number $\rho_1$ such that
 
 $$
-\beta = \beta_1^{\rho_1} \beta_1, \quad \beta_1 \beta_2 = \beta_2 \beta_1, \quad \beta_2 &lt; \beta_1.
+\beta = \beta_1^{\rho_1} \beta_1, \quad \beta_1 \beta_2 = \beta_2 \beta_1, \quad \beta_2 < \beta_1.
 $$
 
 In general, we have analogously:
 
 $$
-\beta_1 = \beta_2^{\rho_1} \beta_2, \quad \beta_2 \beta_3 = \beta_3 \beta_2, \quad \beta_3 &lt; \beta_3,
+\beta_1 = \beta_2^{\rho_1} \beta_2, \quad \beta_2 \beta_3 = \beta_3 \beta_2, \quad \beta_3 < \beta_3,
 $$
 
 and so on. The series of decreasing numbers $\beta_1$, $\beta_2$, $\beta_3$, . . . also must, by theorem B of § 16, break off. Thus there exists a finite number $\kappa$ such that
@@ -5000,7 +5000,7 @@ $$
 
 The degree $a_0$ of a number $a$ is, as is immediately evident from the normal form:
 
-(1) $a = \omega^{a_0} \kappa_0 + \omega^{a_1} \kappa_1 + \ldots, a_0 &gt; a_1 &gt; \ldots, 0 &lt; \kappa_\nu &lt; \omega,$
+(1) $a = \omega^{a_0} \kappa_0 + \omega^{a_1} \kappa_1 + \ldots, a_0 > a_1 > \ldots, 0 < \kappa_\nu < \omega,$
 
 when we pay attention to theorem F of § 18, never greater than $a$; but it is a question whether there are not numbers for which $a_0 = a$. In such a case the normal form of $a$ would reduce to the first term, and this term would be equal to $\omega^a$, that is to say, $a$ would be a root of the equation
 
@@ -5024,7 +5024,7 @@ $$
 
 The limit $\operatorname{Lim}_{\nu} \gamma_\nu = \operatorname{E}(\gamma)$ of this fundamental series is always an $\epsilon$-number.
 
-*Proof.*—Since $\gamma$ is not an $\epsilon$-number, we have $\omega^\gamma &gt; \gamma$, that is to say, $\gamma_1 &gt; \gamma$. Thus, by theorem B of § 18, we have also $\omega^{\gamma_1} &gt; \omega^\gamma$, that is to say, $\gamma_2 &gt; \gamma_1$; and in the same way follows that $\gamma_3 &gt; \gamma_2$, and so on. The series $\{\gamma_\nu\}$ is thus a fundamental series. We denote its limit, which is a function of $\gamma$, by $\operatorname{E}(\gamma)$ and have:
+*Proof.*—Since $\gamma$ is not an $\epsilon$-number, we have $\omega^\gamma > \gamma$, that is to say, $\gamma_1 > \gamma$. Thus, by theorem B of § 18, we have also $\omega^{\gamma_1} > \omega^\gamma$, that is to say, $\gamma_2 > \gamma_1$; and in the same way follows that $\gamma_3 > \gamma_2$, and so on. The series $\{\gamma_\nu\}$ is thus a fundamental series. We denote its limit, which is a function of $\gamma$, by $\operatorname{E}(\gamma)$ and have:
 
 $$
 \omega^{\operatorname{E}(\gamma)} = \operatorname{Lim}_{\nu} \omega^\gamma = \operatorname{Lim}_{\nu} \gamma_{\nu+1} = \operatorname{E}(\gamma).
@@ -5046,10 +5046,10 @@ $$
 \omega^{\epsilon'} = \epsilon'.
 $$
 
-Since $\epsilon' &gt; \omega$, we have $\omega^{\epsilon'} &gt; \omega^{\omega}$, that is to say, $\epsilon' &gt; \omega_1$. Similarly $\omega^{\epsilon'} &gt; \omega^{\omega_1}$, that is to say, $\epsilon' &gt; \omega_2$, and so on. We have in general
+Since $\epsilon' > \omega$, we have $\omega^{\epsilon'} > \omega^{\omega}$, that is to say, $\epsilon' > \omega_1$. Similarly $\omega^{\epsilon'} > \omega^{\omega_1}$, that is to say, $\epsilon' > \omega_2$, and so on. We have in general
 
 $$
-\epsilon' &gt; \omega_\nu,
+\epsilon' > \omega_\nu,
 $$
 
 ---
@@ -5073,7 +5073,7 @@ Thus $\epsilon_0 = \operatorname{E}(1)$ is the least of all $\epsilon$-numbers.
 C. If $\epsilon'$ is any $\epsilon$-number, $\epsilon''$ is the next greater $\epsilon$-number, and $\gamma$ is any number which lies between them:
 
 $$
-\epsilon' &lt; \gamma &lt; \epsilon'',
+\epsilon' < \gamma < \epsilon'',
 $$
 
 then $\operatorname{E}(\gamma) = \epsilon''$.
@@ -5081,37 +5081,37 @@ then $\operatorname{E}(\gamma) = \epsilon''$.
 Proof.
 
 $$
-\epsilon' &lt; \gamma &lt; \epsilon''
+\epsilon' < \gamma < \epsilon''
 $$
 
 follows
 
 $$
-\omega^{\epsilon'} &lt; \omega^{\gamma} &lt; \omega^{\epsilon''},
+\omega^{\epsilon'} < \omega^{\gamma} < \omega^{\epsilon''},
 $$
 
 that is to say,
 
 $$
-\epsilon' &lt; \gamma_1 &lt; \epsilon''.
+\epsilon' < \gamma_1 < \epsilon''.
 $$
 
 Similarly we conclude
 
 $$
-\epsilon' &lt; \gamma_2 &lt; \epsilon'',
+\epsilon' < \gamma_2 < \epsilon'',
 $$
 
 and so on. We have, in general,
 
 $$
-\epsilon' &lt; \gamma_v &lt; \epsilon'',
+\epsilon' < \gamma_v < \epsilon'',
 $$
 
 and thus
 
 $$
-\epsilon' &lt; \operatorname{E}(\gamma) \leq \epsilon''.
+\epsilon' < \operatorname{E}(\gamma) \leq \epsilon''.
 $$
 
 By theorem A, $\operatorname{E}(\gamma)$ is an $\epsilon$-number. Since $\epsilon''$ is the $\epsilon$-number which follows $\epsilon'$ next in order of magnitude, $\operatorname{E}(\gamma)$ cannot be less than $\epsilon''$, and thus we must have
@@ -5159,7 +5159,7 @@ by no means embraces the totality of $\epsilon$-numbers results from the followi
 E. If $\epsilon, \epsilon', \epsilon'', \ldots$ is any infinite series of $\epsilon$-numbers such that
 
 $$
-\epsilon &lt; \epsilon' &lt; \epsilon''. \dots \epsilon^{(\nu)} &lt; \epsilon^{(\nu+1)} &lt; \dots,
+\epsilon < \epsilon' < \epsilon''. \dots \epsilon^{(\nu)} < \epsilon^{(\nu+1)} < \dots,
 $$
 
 then $\lim_{\nu} \epsilon^{(\nu)}$ is an $\epsilon$-number, and, in fact, the $\epsilon$-number which follows next in order of magnitude to all the numbers $\epsilon^{(\nu)}$.
@@ -5209,7 +5209,7 @@ $$
 G. If $\epsilon$ is any $\epsilon$-number and $\alpha$ is any number of the first or second number-class which is less than $\epsilon$:
 
 $$
-\alpha &lt; \epsilon,
+\alpha < \epsilon,
 $$
 
 then $\epsilon$ satisfies the three equations:
@@ -5218,7 +5218,7 @@ $$
 \alpha + \epsilon = \epsilon, \quad \alpha \epsilon = \epsilon, \quad \alpha^{\epsilon} = \epsilon.
 $$
 
-*Proof.*—If $\alpha_0$ is the degree of $\alpha$, we have $\alpha_0 \leq \alpha$, and consequently, because of $\alpha &lt; \epsilon$, we also have $\alpha_0 &lt; \epsilon$. But the degree of $\epsilon = \omega^{\epsilon}$ is $\epsilon$; thus $\alpha$ has a less degree than $\epsilon$. Consequently, by theorem D of § 19,
+*Proof.*—If $\alpha_0$ is the degree of $\alpha$, we have $\alpha_0 \leq \alpha$, and consequently, because of $\alpha < \epsilon$, we also have $\alpha_0 < \epsilon$. But the degree of $\epsilon = \omega^{\epsilon}$ is $\epsilon$; thus $\alpha$ has a less degree than $\epsilon$. Consequently, by theorem D of § 19,
 
 $$
 \alpha + \epsilon = \epsilon,
@@ -5275,13 +5275,13 @@ $$
 Then, in the first place, from this formula follows that
 
 $$
-\beta &gt; \alpha.
+\beta > \alpha.
 $$
 
 On the other hand, $\beta$ must be of the second kind, since, if not, we would have
 
 $$
-\alpha^{\beta} &gt; \beta.
+\alpha^{\beta} > \beta.
 $$
 
 Thus we have, by theorem F of § 19,

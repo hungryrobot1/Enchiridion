@@ -1,16 +1,4 @@
-# Errors that travel in families
-
-*Draft — written as the release lands rather than reconstructed at the end of it. This directory has no `metadata.json`, which is what keeps it off the site; adding one publishes it. At publish, that file should read:*
-
-```json
-{
-  "id": "0.3.4",
-  "title": "Errors that travel in families",
-  "date": "TBD",
-  "summary": "A wrong figure in a mathematics book renders perfectly and reads plausibly — so this release went looking for the ones already in the library, and found that they arrive in groups.",
-  "filename": "entry.md"
-}
-```
+# Errors that travel in families, and a more expressive site design
 
 A misspelled word in a translation announces itself. A wrong figure in a mathematics text does not: it renders perfectly, it reads plausibly, and the only thing that gives it away is that the mathematics is false — which a reader will not notice unless they are checking, and checking is what a reader of a first encounter is least equipped to do. The library now holds a good deal of mathematics recovered from photographic scans, and this release is largely about that problem: not the writing of new texts, but the correctness of the ones already on the shelf.
 
@@ -46,7 +34,47 @@ The Table of Chords was better. It runs in half-degree steps — a half, one, on
 
 That last number is the encouraging one. It says the fractions were lost systematically and nothing else went wrong — and it points at a general rule. Wrong digits are invisible in prose, but they are usually *detectable in the structures that matter*, because tables carry redundancy and prose does not.
 
-Ptolemy's zodiacal signs are the next family and a harder one: twelve signs shattered across twenty-one different symbols. They are not repaired yet.
+Ptolemy's zodiacal signs are the next family and a harder one: twelve signs shattered across twenty-one different symbols.
+
+## The family with no arithmetic
+
+Every repair described so far was made without opening the scan, because the text carried its own correction. A chord's value says whether its label needs its half back. Four hundred twenty-seven correct spellings say what the twelve wrong ones were meant to be. The zodiac has nothing of the kind. A wrong sign leaves no arithmetic residue, reads as ordinary astronomy, and can only be settled by looking at the page — and there are seven hundred pages.
+
+So the signs were the occasion for building something else: a way to put the printed page and the transcription side by side and have the comparison done by a reader who is not us. A stretch of pages is cut into a batch — the images, the corresponding markdown, and a brief stating what to look for — and the same batch is given to two readers independently. What both return in identical form is applied; what only one returns is held for another pass.
+
+The reason for two is worth stating precisely, because the measurement contradicted the expectation. Two readers were meant to catch each other *misreading* a glyph. Across four page-sets they never once did: of twenty-two shared readings, twenty-one agreed exactly, and the single conflict was one reader failing to look at something the other saw. The second pass buys **recall**, not correctness — which is worth paying for on the passages a syllabus actually assigns, where a missed error is the expensive kind, and hard to justify across a book nobody has been asked to read.
+
+Three findings came out of the work that outlast the signs themselves.
+
+**A brief can be wrong, and a wrong brief corrupts every reading made under it.** Toomer writes a doubled degree sign for angles measured against two right angles rather than four. The brief called it duplication and instructed readers to delete it — so the apparatus was quietly destroying real notation until the pattern was checked against the printing. The cheapest repair available is to the instructions, not to the text.
+
+**Agreement is not correctness.** Twice, both readers returned the same correct reading of the page and the same unusable way of writing it — once dropping a delimiter, once setting a raised unit outside the mathematics where four hundred thirteen existing instances sit inside it. Both passed corroboration by being unanimous. Both were caught afterward by the ordinary render checks, which is the argument for keeping a consumer in the loop that has no idea what the readers agreed about.
+
+**And where the text can check itself, no reader should be asked.** Two families that would have cost hundreds of page comparisons were settled by arithmetic instead, at no cost per instance. The rule that emerged: spend judgment only where judgment is the only thing that works.
+
+## The passages that are actually assigned
+
+Partway through the sign work, a scoping question forced itself. Correcting the *Almagest* completely is months of comparison against a photographic scan, and the parts of it under repair — the fifth book, the ninth through thirteenth — are not parts any reader has been asked to open. The syllabus assigns Book I.
+
+Measuring where the damage actually sits changed the plan. **Book I contains no zodiac corruption at all**, and one defect in its entirety. Of thirty works in the syllabus carrying recommended passages, exactly one was not already clean.
+
+So proofreading stopped being a milestone and became ongoing work, aimed first at what readers are sent to. Book I was then taken through the full apparatus — its own sixteen chapters proofread against the print, fifty-four corrections applied. Two of its regions were deliberately excluded from that expense, because both are tables whose own arithmetic already settles them.
+
+Its recommended passages were rewritten in the process, for the same reason Apollonius's were: they named divisions the book does not have. "Book I introduction" is not an address. Ptolemy's sixteen chapter titles are.
+
+One thing the pass turned up that no pattern search would have. Book I's printed table of contents lists sixteen chapters; the text carries fifteen headings. Chapter fourteen ends with Ptolemy saying he will set out a table, and no table follows — it appears further down, past the next chapter's opening, exactly where Toomer prints a chapter that *is* a table. Nothing is out of order. A heading is simply missing, and it took reading the pages to see it.
+
+## What the render checks cannot see
+
+The checks that certify a mathematical text ask whether the notation *parses* — whether the renderer can make sense of it. That turns out to be a much weaker question than it appears, and four kinds of damage passed it cleanly.
+
+Two thousand seven hundred HTML entities had survived conversion across nineteen files. In prose they merely look wrong. Inside an aligned block the ampersand **is** the column separator, so two hundred thirty-six displays had their alignment silently switched off and the escape text set into the formula. Every one of them parsed.
+
+A stray pair of code fences in Apollonius put **sixty-nine percent of the book** inside a code block. The check that missed it counted fences and found an even number — but both were openers, and a fence closes on any fence, so the count was even and the book was ruined. Counting parity was the wrong question; opener against closer is the right one.
+
+Project Gutenberg boilerplate was still sitting in three literary texts, in one case because a combined file had been split and the licence went with the wrong half. And a single misread letter in Seneca — a `d` become a dollar sign — was caught only because a stray delimiter in prose cannot be anything but wrong.
+
+The general lesson is one this release kept relearning: **a check that returns nothing has proved nothing until it has been shown to find a case known to exist.** A vocabulary probe reported a spotless Euclid, because Euclid's point labels are plain text and the probe reads mathematics — it had measured nothing and reported cleanliness. A reflow tool reported no candidates in Apollonius while ninety-five paragraphs sat hidden behind that code fence. Tools now refuse to answer where they cannot see.
 
 ## Reading Diophantus
 
@@ -240,7 +268,9 @@ The Grand Tour's second section had its recommended passages rewritten. They had
 
 ## What's next
 
-The zodiacal signs of the *Almagest* are the next family to settle, and the census has more waiting behind them. Beyond the repairs lies the question they were always in service of: not merely whether these texts are correct, but whether the mathematics in them is *composed* consistently — displayed the way the printed books display it, so that a derivation reads as a derivation. That work now comes before the Islamic Golden Age rather than after it, on the reasoning that a settled method is much cheaper to establish before there are more texts to reprocess than after — and that the section ahead is itself full of dense and unusual mathematical typography.
+The *Almagest* is corrected where it is read and imperfect where it is not, and that is now a deliberate position rather than an unfinished job. Its deep books hold signs still unidentified, a fraction that does not close in a quotation from Hipparchus, and a chapter heading to restore — all of it recorded, none of it assigned to a reader. Apollonius, by contrast, came through the same apparatus and is finished; it joins the shelf as the sixty-seventh text held to that standard, leaving Ptolemy alone in the workshop.
+
+Beyond the repairs lies the question they were always in service of: not merely whether these texts are correct, but whether the mathematics in them is *composed* consistently — displayed the way the printed books display it, so that a derivation reads as a derivation. That work now comes before the Islamic Golden Age rather than after it, on the reasoning that a settled method is much cheaper to establish before there are more texts to reprocess than after — and that the section ahead is itself full of dense and unusual mathematical typography.
 
 The era's own supplements remain the near work, with Diophantus now the first of them written.
 

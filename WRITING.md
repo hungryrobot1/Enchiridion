@@ -1,6 +1,8 @@
 # Writing for Enchiridion
 
-This document governs Enchiridion's public copy, supplements, modules, and other original prose. It is a living guide. Its purpose is not to make every piece sound the same, but to preserve a common posture toward the reader and the books.
+This document governs Enchiridion's public copy, supplements, modules, and other original prose. Its purpose is not to make every piece sound the same, but to preserve a common posture toward the reader and the books.
+
+This charter is alive. It carries the program’s pedagogy and should evolve through the work of writing and building the curriculum. Writers are invited to record what the work teaches: where this guidance helped, where it failed, and how it should change.
 
 ## The governing aim
 

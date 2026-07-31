@@ -1,0 +1,7 @@
+{
+  "id": "0.3.4",
+  "title": "Errors that travel in families, and a more expressive site design",
+  "date": "2026-07-31",
+  "summary": "A wrong figure in a mathematics book renders perfectly and reads plausibly — so this release went looking for the ones already in the library, found that they arrive in groups, and rebuilt the four pages around what a reader is actually doing.",
+  "filename": "entry.md"
+}

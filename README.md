@@ -36,14 +36,25 @@ For a complete, current list of every text, supplement, and module, see **[INVEN
 | [`texts/`](texts/) | The primary sources, one directory per text. Each holds the source file(s) — rendered markdown, PDF, HTML, or plain text — and a `metadata.json` (author, year, translator, topics, format, prerequisites). See [`texts/metadata-schema.json`](texts/metadata-schema.json). |
 | [`supplements/`](supplements/) | Companion materials tied to specific texts — labs, exercise sets, notation guides, study guides. `supplements/modules/` holds multi-chapter skill-building sequences (e.g. *Introduction to Ancient Greek*) that span eras; `supplements/references/` holds third-party reference works. |
 | [`syllabi/`](syllabi/) | The reading sequences. `grand-tour.json` is the canonical chronological journey; it points at texts, supplements, and module chapters as a single ordered list. |
-| [`ocr/`](ocr/) | The text-processing pipeline — OCR and PDF text-extraction tooling that turns source scans into clean, render-correct markdown. See [`ocr/README.md`](ocr/README.md) for the full workflow. |
+| [`ocr/`](ocr/) | The text-processing pipeline, arranged as the stages a text moves through — `0-recon`, `1-prepare`, `2-extract`, `3-postprocess`, `4-proofread`, plus the unnumbered `verify/`, `figures/`, and `drama/`. Each stage carries a `STAGE.md` saying what it consumes, what it produces, what test says it succeeded, and what it does not check. See [`ocr/README.md`](ocr/README.md). |
 | [`site/`](site/) | The web reader: a Vite single-page app that renders texts, supplements, modules, and syllabi. Builds to [`docs/`](docs/), which GitHub Pages serves. |
+| [`mcp/`](mcp/) | The MCP server, which lets a language model read the corpus directly. See below. |
 | [`utilities/`](utilities/) | Maintenance scripts — inventory generation, metadata backfill, PDF compression. |
 | [`changelogs/`](changelogs/) | Per-release notes, surfaced on the site's Changelog page. |
 
 Each content type has a metadata schema: [texts](texts/metadata-schema.json), [supplements](supplements/metadata-schema.json), [modules](supplements/modules/metadata-schema.json), and [syllabi](syllabi/metadata-schema.json).
 
 **[WRITING.md](WRITING.md)** governs the project's original prose — supplements, modules, public copy, catalog descriptions, changelogs. Read it before drafting any of them.
+
+## Reading the library in conversation
+
+[`mcp/`](mcp/) holds an [MCP](https://modelcontextprotocol.io/) server that gives a language model direct access to the corpus — listing works, fetching a syllabus, walking a text's structure, searching, and reading a numbered section rather than recalling it. It runs over stdio for a local client, or as a Cloudflare Worker.
+
+The point is not retrieval. A model asked about Euclid I.47 from memory will produce something plausible about Euclid I.47; the same model handed the actual section quotes the edition in this library, cites its path, and can be checked. The server exists so that a study conversation stays anchored to the text the reader has open.
+
+Its instructions ([`mcp/src/instructions.ts`](mcp/src/instructions.ts)) hold the program's posture rather than leaving it to the model: work from what the passage says, prefer questions to answers, do not pre-digest a hard passage into a summary, and stay inside what the reader has actually read. Difficulty is where the learning is, so a stuck reader is not to be rescued prematurely. That file is the clearest single statement of the seminar stance anywhere in the repository.
+
+Section addresses are resolved forgivingly — `book-i/5`, `book-i/prop-5`, and `book-i/proposition-5` are one address — and a near miss narrows the search rather than falling back to fetching an entire table of contents. See [`mcp/README.md`](mcp/README.md) for the tools and setup.
 
 ## How the site works
 

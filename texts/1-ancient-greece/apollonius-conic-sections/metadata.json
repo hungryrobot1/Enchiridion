@@ -17,5 +17,5 @@
   "prerequisites": [
     "euclid-elements"
   ],
-  "ocr_status": "needs-cleanup"
+  "ocr_status": "complete"
 }

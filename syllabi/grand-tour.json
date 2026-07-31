@@ -2,7 +2,7 @@
   "id": "grand-tour",
   "title": "The Grand Tour",
   "kind": "canonical",
-  "description": "The canonical reading sequence through Enchiridion. Roughly chronological by era, with supplements and module chapters attached as tributaries to the texts they accompany.",
+  "description": "The Grand Tour is a syllabus. Primary works appear roughly in the order they were written. Laboratories, exercises, and module chapters are woven through the sequence. Where a work lists passages, those are the intended reading; otherwise, read the whole work. Long mathematical texts are done incrementally alongside other books. Begin at the top and proceed at your own pace.",
   "sections": [
     {
       "id": "1-ancient-greece",
@@ -223,7 +223,10 @@
           "type": "text",
           "id": "apollonius-conic-sections",
           "passages": [
-            "Book I: definitions and propositions 1–15"
+            "The Cone: the introductory definitions and Propositions 1–4",
+            "The Diameter and its Conjugate: Propositions 5–10",
+            "Tangents: Propositions 11–15",
+            "Asymptotes: Propositions 28, 30, 36"
           ],
           "note": "Long-running. Begin here and continue alongside Sophocles and the remaining Archimedes treatises."
         },

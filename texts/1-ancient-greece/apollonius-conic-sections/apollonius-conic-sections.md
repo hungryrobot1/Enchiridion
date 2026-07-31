@@ -1759,9 +1759,7 @@ $$ \therefore QH + MN: QT + MU = QH: QT = RM: MF \text{ [from (A)]}; $$
 $$ QM(QH + MN): QM(QT + MU) = RM^2: RM.MF; $$
 $$ \therefore [\text{by (B)}] \quad RM^2 = QM(QH + MN) = QM.MK. $$
 
-The same is true for the opposite branch of the hyperbola. The tangent at $Q'$ is parallel to $QT$, and $P'E'$ to $PE$.
-
-[Prop. 21, Note.]
+The same is true for the opposite branch of the hyperbola. The tangent at $Q'$ is parallel to $QT$, and $P'E'$ to $PE$. [Prop. 21, Note.]
 
 $$ \therefore O'Q': Q'E' = OQ: QE = p': 2QT = p': 2Q'T', $$
 
@@ -1980,9 +1978,7 @@ $$
 \end{aligned}
 $$
 
-therefore $p$ is the parameter corresponding to the diameter $PP'$.
-
-[Prop. 23]
+therefore $p$ is the parameter corresponding to the diameter $PP'$. [Prop. 23]
 
 The opposite branch of the hyperbola with vertex $A'$ can be described in the same way.
 
@@ -2159,9 +2155,7 @@ p: 2PT = NH^2: NH.HP \\
 \end{array}
 $$
 
-Therefore $p$ is the parameter corresponding to $PP'$.
-
-[Prop. 23]
+Therefore $p$ is the parameter corresponding to $PP'$. [Prop. 23]
 
 problem here reduces to drawing $NHN'$ in a given direction (parallel to $PT$) so that
 
@@ -2328,9 +2322,7 @@ Let $CL, CL'$ be the asymptotes, and $P$ the point. Produce $PC$ to $P'$ so that
 
 ![img-48.jpeg](images/img-48.jpeg)
 
-Take a length $p$ such that $LL'^2 = p \cdot PP'$, and with diameter $PP'$ and parameter $p$ describe a hyperbola such that the ordinates to $PP'$ are parallel to $LL'$.
-
-[Prop. 25]
+Take a length $p$ such that $LL'^2 = p \cdot PP'$, and with diameter $PP'$ and parameter $p$ describe a hyperbola such that the ordinates to $PP'$ are parallel to $LL'$. [Prop. 25]
 
 ---
 
@@ -2991,9 +2983,7 @@ In the particular case where $P$ coincides with $A$, the vertex, the perpendicul
 
 (2) Let the given point be any external point $O$. Draw the diameter $OBV$ meeting the curve at $B$, and make $BV$ equal to $OB$. Then draw through $V$ the straight line $VP$ parallel to the tangent at $B$ [drawn as in (1)] meeting the curve in $P$. Join $OP$.
 
-$OP$ is the tangent required, because $PV$, being parallel to the tangent at $B$, is an ordinate to $BV$, and $OB = BV$.
-
-[Prop. 12]
+$OP$ is the tangent required, because $PV$, being parallel to the tangent at $B$, is an ordinate to $BV$, and $OB = BV$. [Prop. 12]
 
 [This construction obviously gives the two tangents through $O$.]
 
@@ -3454,22 +3444,35 @@ $$
 
 ---
 
-```markdown
 whence
-$CA^2:CB^2>FI^2:IL^2$
-$>L'I:IL.$
+$$
+CA^2:CB^2>FI^2:IL^2
+$$
+$$
+>L'I:IL.
+$$
 
 It follows that
-$\alpha\beta:\beta\gamma>L'I:IL,$
+$$
+\alpha\beta:\beta\gamma>L'I:IL,
+$$
 so that
-$\alpha\gamma:\gamma\beta>L'L:IL,$
+$$
+\alpha\gamma:\gamma\beta>L'L:IL,
+$$
 and, halving the antecedents,
-$\delta\gamma:\gamma\beta>OL:LI,$
+$$
+\delta\gamma:\gamma\beta>OL:LI,
+$$
 so that
-$\delta\beta:\beta\gamma>OI:IL.$
+$$
+\delta\beta:\beta\gamma>OI:IL.
+$$
 
 Hence, if $H$ be such a point that
-$\delta\beta:\beta\gamma=OI:IH,$
+$$
+\delta\beta:\beta\gamma=OI:IH,
+$$
 $IH$ is less than $IL.$
 
 ---
@@ -3494,9 +3497,17 @@ $$
 TP = PV, \quad [Prop. 12]
 $$
 
-so that $TV = 2PV,$
+so that
 
-and $\square EV = \triangle QTV.$
+$$
+TV = 2PV,
+$$
+
+and
+
+$$
+\square EV = \triangle QTV.
+$$
 
 ---
 
@@ -3646,7 +3657,11 @@ II. In figs. 4, 5, 6 we have [Props. 18, 53]
 
 $$\triangle R'U'W' = \triangle CF'W' - \triangle CQT,$$
 
-so that $\triangle CQT = \text{quadrilateral } CU'R'F',$
+so that
+
+$$
+\triangle CQT = \text{quadrilateral } CU'R'F',
+$$
 
 ---
 
@@ -3659,7 +3674,11 @@ $$
 ![img-91.jpeg](images/img-91.jpeg)
 Fig. 5.
 
-Similarly $\Delta HFQ = HTUR$;
+Similarly
+
+$$
+\Delta HFQ = HTUR;
+$$
 
 and we deduce, as before,
 
@@ -3728,7 +3747,11 @@ $$ \therefore CQ:CE = CP:CT, $$
 
 ---
 
-whence $QQ': EQ = PP': TP,$
+whence
+
+$$
+QQ': EQ = PP': TP,
+$$
 
 and the same proportion is true for the squares;
 
@@ -3865,11 +3888,19 @@ $$
 \end{array}
 $$
 
-Hence $D'C \cdot CG = CQ \cdot QT,$
+Hence
+
+$$
+D'C \cdot CG = CQ \cdot QT,
+$$
 
 or $\triangle D'CG = \triangle CQT$ (1).
 
-Again, $CM : MU = CQ : QT$
+Again,
+
+$$
+CM : MU = CQ : QT
+$$
 
 $$
 \begin{array}{l}
@@ -4399,7 +4430,11 @@ $$
 \therefore TR = RM \quad \text{(1)}.
 $$
 
-Again $CP^2:PL^2 = PW'.W'P':R'W'^2$
+Again
+
+$$
+CP^2:PL^2 = PW'.W'P':R'W'^2
+$$
 
 $$
 \begin{aligned}
@@ -4408,7 +4443,11 @@ $$
 \end{aligned}
 $$
 
-Also $CP^2:PL^2 = R'w'^2:w'V^2;$
+Also
+
+$$
+CP^2:PL^2 = R'w'^2:w'V^2;
+$$
 
 $$
 \therefore w'V^2 = Cw'^2 + CV.CT,
@@ -4422,7 +4461,11 @@ III. The particular case in which one of the tangents is a tangent at infinity, 
 
 Let $LPL'$ be the tangent at $P$. Draw $PD$, $LM$ parallel to $CL'$, and let $LM$ meet the curve in $R$ and the straight line $PF$ drawn through $P$ parallel to $CL$ in $M$. Also draw $RE$ parallel to $CL$.
 
-Now $LP = PL'$;
+Now
+
+$$
+LP = PL';
+$$
 
 $$
 \therefore PD = CF = FL', \quad FP = CD = DL.
@@ -4430,7 +4473,11 @@ $$
 
 And $FP.PD = ER.RL$ [Prop. 34]
 
-But $ER = LC = 2CD = 2FP$;
+But
+
+$$
+ER = LC = 2CD = 2FP;
+$$
 
 $$
 \therefore PD = 2LR,
@@ -4603,13 +4650,19 @@ $$
 
 ---
 
-Also $ RV^2 : VR'^2 = HQ^2 : QH'^2 $
+Also
+
+$$
+RV^2 : VR'^2 = HQ^2 : QH'^2
+$$
 
 $$
 = \Delta HFQ : \Delta H'F'Q = HTUR : H'TU'R'.
 $$
 
-$\therefore RV^2 : VR'^2 = HTUR \pm \Delta RUW : H'TU'R' \pm \Delta R'U'W'$
+$$
+\therefore RV^2 : VR'^2 = HTUR \pm \Delta RUW : H'TU'R' \pm \Delta R'U'W'
+$$
 
 $$
 \begin{array}{l}
@@ -4765,7 +4818,11 @@ If a tangent to a hyperbola, $LPL'$, meet the asymptotes in $L$, $L'$, the trian
 
 Draw $PD$, $PF$ parallel to the asymptotes (as in the third figure of Prop. 62).
 
-Now $LP = PL'$;
+Now
+
+$$
+LP = PL';
+$$
 
 $$
 \therefore CL = 2CD = 2PF,
@@ -4797,11 +4854,19 @@ $$
 LC \cdot CL' = MC \cdot CM',
 $$
 
-so that $LC : CM' = MC : CL'$;
+so that
+
+$$
+LC : CM' = MC : CL';
+$$
 
 $\therefore LM', L'M$ are parallel.
 
-It follows that $OL : LL' = OM' : M'M$,
+It follows that
+
+$$
+OL : LL' = OM' : M'M,
+$$
 
 or, halving the consequents,
 
@@ -4981,7 +5046,11 @@ $$
 \therefore S'P = S'K.
 $$
 
-And $PZ = ZK$;
+And
+
+$$
+PZ = ZK;
+$$
 
 $\therefore S'Z$ is at right angles to the tangent, or $Z$ coincides with $Y'$.
 
@@ -5011,10 +5080,9 @@ SP &= 2CM, \\
 S'P &= S'K = 2MY'; \\
 \therefore SP \pm S'P &= 2(CM \pm MY') \\
 &= 2CY' \\
-&= AA'.
+&= AA'. \quad [\text{Prop. 72}]
 \end{aligned}
 $$
-[Prop. 72]
 
 ---
 
@@ -5047,9 +5115,17 @@ $$
 \end{aligned}
 $$
 
-Hence $p: PP' = PR \cdot P'R': PP'^2$.
+Hence
 
-Therefore $PR \cdot P'R' = p \cdot PP'$
+$$
+p: PP' = PR \cdot P'R': PP'^2.
+$$
+
+Therefore
+
+$$
+PR \cdot P'R' = p \cdot PP'
+$$
 
 $$
 = DD'^2.
@@ -5075,7 +5151,11 @@ Draw through $R$ the ordinate $RW$ (parallel to $QQ'$) meeting the curve again i
 
 ![img-119.jpeg](images/img-119.jpeg)
 
-Now $QL^2: LP.PL' = QL^2: LP^2$
+Now
+
+$$
+QL^2: LP.PL' = QL^2: LP^2
+$$
 
 $$
 \begin{array}{l}
@@ -5084,7 +5164,11 @@ $$
 \end{array}
 $$
 
-But $QL.Q'L': QL^2 = QK.Q'K': QK^2$.
+But
+
+$$
+QL.Q'L': QL^2 = QK.Q'K': QK^2.
+$$
 
 Therefore, *ex aequali*,
 
@@ -5127,7 +5211,11 @@ $$
 = L'R \cdot RL : LQ^2.
 $$
 
-But $tQ^2 : tQ \cdot tQ' = LQ^2 : LQ \cdot L'Q'$.
+But
+
+$$
+tQ^2 : tQ \cdot tQ' = LQ^2 : LQ \cdot L'Q'.
+$$
 
 Therefore, ex aequali,
 
@@ -5139,7 +5227,11 @@ tq^2 : tQ \cdot tQ' &= L'R \cdot RL : LQ \cdot L'Q' \\
 \end{aligned}
 $$
 
-Thus $Qr \cdot Q'r' : QQ'^2 = tQ \cdot tQ' : tq^2$.
+Thus
+
+$$
+Qr \cdot Q'r' : QQ'^2 = tQ \cdot tQ' : tq^2.
+$$
 
 [It is easy to see that the last two propositions give the property of the three-line locus. For, since the two tangents and the chord of contact are fixed while the position of $R$ alone varies, the result may be expressed thus,
 
@@ -5161,11 +5253,17 @@ $$Q_1 r: Rq_2' = Q_1 Q_2: Q_2 q_2',$$
 
 $$Q_2 r': Rq_1 = Q_1 Q_2: Q_1 q_1.$$
 
-Hence $Q_1 r \cdot Q_2 r': Rq_1 \cdot Rq_2' = Q_1 Q_2^2: Q_1 q_1 \cdot Q_2 q_2'$.
+Hence
+
+$$
+Q_1 r \cdot Q_2 r': Rq_1 \cdot Rq_2' = Q_1 Q_2^2: Q_1 q_1 \cdot Q_2 q_2'.
+$$
 
 But $Rq_1 \cdot Rq_2': Rv_1^2 = T_1Q_1 \cdot T_1Q_2: T_1V^2$, by similar triangles
 
-$\therefore Rq_1 \cdot Rq_2': Rv_1^2 = \text{(const.)}$.
+$$
+\therefore Rq_1 \cdot Rq_2': Rv_1^2 = \text{(const.)}.
+$$
 
 Also $Q_1 Q_2^2$ is constant, and $Q_1 r \cdot Q_2 r'$ is constant, as proved.
 
@@ -5673,7 +5771,11 @@ $$
 
 ![img-138.jpeg](images/img-138.jpeg)
 
-Now $MI:IH = CA:AM = AA':p_a.$
+Now
+
+$$
+MI:IH = CA:AM = AA':p_a.
+$$
 
 Therefore $MI.(MI \pm IH):AA'.(AA' \pm p_a) = MI^2:AA'^2$, or
 
@@ -5717,7 +5819,11 @@ Let $AE$ be set off along the axis equal to half the parameter, and join $PE, PO
 
 Then [Props. 82, 83] $PE > AE$,
 
-so that $\angle PAE > \angle APE$;
+so that
+
+$$
+\angle PAE > \angle APE;
+$$
 
 and a fortiori
 
@@ -5725,7 +5831,11 @@ $$
 \angle PAO > \angle APO,
 $$
 
-so that $PO > AO$.
+so that
+
+$$
+PO > AO.
+$$
 
 And, if $P'$ be another point more remote from $A$,
 
@@ -5916,7 +6026,11 @@ $$
 
 If $E'$ be a point on the minor axis of an ellipse at a distance from $B$ equal to half the parameter of $BB'$ [or $\frac{CA^2}{CB}$], then $E'B$ is the **maximum** straight line from $E$ to the curve; and, if $P$ be any other point on it, $E'P$ diminishes as $P$ moves further from $B$ on either side.
 
-Also $E'B' - E'P' = Bn^2 \cdot \frac{p_b - BB'}{BB'} \left[= Bn^2 \cdot \frac{CA^2 - CB^2}{CB^2} \right].$
+Also
+
+$$
+E'B' - E'P' = Bn^2 \cdot \frac{p_b - BB'}{BB'} \left[= Bn^2 \cdot \frac{CA^2 - CB^2}{CB^2} \right].
+$$
 
 Apollonius proves this separately for the cases (1) where $\frac{p_b}{2} < BB'$, (2) where $\frac{p_b}{2} = BB'$, and (3) where $\frac{p_b}{2} > BB'$.
 
@@ -5930,13 +6044,21 @@ By Prop. 81 (which is applicable to either axis) we have, if $Bm = \frac{Pb}{2} 
 
 $$ Pn^2 = 2 \text{ (quadrilateral } mBnh). $$
 
-Also $nE'^2 = 2 \triangle mkE'$.
+Also
+
+$$
+nE'^2 = 2 \triangle mkE'.
+$$
 
 $$
 \therefore PE'^2 = 2 \triangle mBE' - 2 \triangle mhk.
 $$
 
-But $BE'^2 = 2 \triangle mBE'$.
+But
+
+$$
+BE'^2 = 2 \triangle mBE'.
+$$
 
 $$
 \begin{aligned}
@@ -6193,9 +6315,17 @@ $$ \angle P'G'N' > \angle PGN. $$
 
 (c) In the hyperbola, let $AL$ be drawn perpendicular to $AA'$ to meet the asymptote in $L$ and $CP$ in $O$. Also let $AM$ be equal to $\frac{p_a}{2}$.
 
-Now $AA': p_a = CA: AM = CN: NG,$
+Now
 
-and $OA: CA = PN: CN, \text{ by similar triangles};$
+$$
+AA': p_a = CA: AM = CN: NG,
+$$
+
+and
+
+$$
+OA: CA = PN: CN, \text{ by similar triangles};
+$$
 
 therefore, ex aequali, $OA: AM = PN: NG$.
 
@@ -6340,13 +6470,19 @@ Let $P_1P_2$ meet the axis in $T$, and draw the ordinates $P_1N_1$, $P_2N_2$.
 Draw $OM$ perpendicular to the axis, and measure $MH$ towards the vertex equal to $\frac{p_a}{2}$.
 
 Then
-$MH = N_2G_2,$
+$$
+MH = N_2G_2,
+$$
 
 and
-$N_2H = G_2M.$
+$$
+N_2H = G_2M.
+$$
 
 Therefore
-$MH: HN_2 = N_2G_2: G_2M$
+$$
+MH: HN_2 = N_2G_2: G_2M
+$$
 $= P_2N_2: MO,$ by similar triangles.
 
 Therefore
@@ -6356,11 +6492,17 @@ Similarly
 $HM. MO = P_1N_1. N_1H$ }
 
 Therefore
-$HN_1: HN_2 = P_2N_2: P_1N_1$
-$= TN_2: TN_1,$
+$$
+HN_1: HN_2 = P_2N_2: P_1N_1
+$$
+$$
+= TN_2: TN_1,
+$$
 
 whence
-$N_1N_2: HN_1 = N_1N_2: TN_2;$
+$$
+N_1N_2: HN_1 = N_1N_2: TN_2;
+$$
 $\therefore TN_2 = HN_1$ } (B).
 and
 $TN_1 = HN_2$ }
@@ -6413,27 +6555,47 @@ P_2N_2 : PN > HN : HN_2 \quad \text{(1) and (3),} \\
 \end{array}
 $$
 
-Thus $P_2N_2 \cdot N_2H > PN \cdot NH \quad \text{(1) and (3)}$
+Thus
+
+$$
+P_2N_2 \cdot N_2H > PN \cdot NH \quad \text{(1) and (3)}
+$$
 
 $$
 < PN \cdot NH \quad \text{(2)}.
 $$
 
-Hence $HM \cdot MO > PN \cdot NH \quad \text{(1) and (3)} \quad \text{by (A) above.}$
+Hence
+
+$$
+HM \cdot MO > PN \cdot NH \quad \text{(1) and (3)} \quad \text{by (A) above.}
+$$
 
 $$
 < PN \cdot NH \quad \text{(2)}
 $$
 
-Therefore $MO : PN > NH : HM \quad \text{(1) and (3)}$
+Therefore
+
+$$
+MO : PN > NH : HM \quad \text{(1) and (3)}
+$$
 
 $$
 < NH : HM \quad \text{(2)}
 $$
 
-and $MO : PN = MK : NK$.
+and
 
-Therefore $MK : NK > NH : HM \quad \text{(1) and (3)}$
+$$
+MO : PN = MK : NK.
+$$
+
+Therefore
+
+$$
+MK : NK > NH : HM \quad \text{(1) and (3)}
+$$
 
 $$
 < NH : HM \quad \text{(2)},
@@ -6596,41 +6758,75 @@ But $P_{2}U_{2} \cdot U_{2}V = CE \cdot EV$, from above,
 
 $$= LO \cdot OR, \because CE : LO = OR : EV;$$
 
-$\therefore LO \cdot OR > PU \cdot UV.$
+$$
+\therefore LO \cdot OR > PU \cdot UV.
+$$
 
 Suppose (2) that $AN > AN_{1}$ but $< AN_{2}$.
 
-Then $TU_{1} < UV;$
+Then
 
-$\therefore U_{1}U : TU_{1} > U_{1}U : UV,$
+$$
+TU_{1} < UV;
+$$
 
-whence $TU : TU_{1} > U_{1}V : UV;$
+$$
+\therefore U_{1}U : TU_{1} > U_{1}U : UV,
+$$
 
-$\therefore QU : P_{1}U_{1} > U_{1}V : UV,$
+whence
+
+$$
+TU : TU_{1} > U_{1}V : UV;
+$$
+
+$$
+\therefore QU : P_{1}U_{1} > U_{1}V : UV,
+$$
 
 by similar triangles.
 
-Therefore $(a \text{ fortiori}) PU \cdot UV > P_{1}U_{1} \cdot U_{1}V$
+Therefore
+
+$$
+(a \text{ fortiori}) PU \cdot UV > P_{1}U_{1} \cdot U_{1}V
+$$
 
 $$> LO \cdot OR.$$
 
 Lastly (3) let $AN$ be $> AN_{2}$.
 
-Then $TU_{1} > UV;$
+Then
 
-$\therefore U_{1}U : TU_{1} < U_{1}U : UV,$
+$$
+TU_{1} > UV;
+$$
 
-whence $TU : TU_{1} < U_{1}V : UV,$
+$$
+\therefore U_{1}U : TU_{1} < U_{1}U : UV,
+$$
+
+whence
+
+$$
+TU : TU_{1} < U_{1}V : UV,
+$$
 
 or
 
-$QU : P_{1}U_{1} < U_{1}V : UV;$
+$$
+QU : P_{1}U_{1} < U_{1}V : UV;
+$$
 
-$\therefore P_{1}U_{1} \cdot U_{1}V > QU \cdot UV,$
+$$
+\therefore P_{1}U_{1} \cdot U_{1}V > QU \cdot UV,
+$$
 
 and $a \text{ fortiori}$ $> PU \cdot UV;$
 
-$\therefore LO \cdot OR > PU \cdot UV,$
+$$
+\therefore LO \cdot OR > PU \cdot UV,
+$$
 
 as in (1) above.
 
@@ -6648,7 +6844,9 @@ i.e.
 
 $$LS : SU \stackrel{>}{_<} UV : LV;$$
 
-$\therefore LU : US \stackrel{>}{_<} LU : LV,$
+$$
+\therefore LU : US \stackrel{>}{_<} LU : LV,
+$$
 
 and
 
@@ -6808,17 +7006,39 @@ where $P_1N_1$ is the ordinate passing through $N_1$.
 
 Join $OP_1$ meeting the axis in $K_1$.
 
-Then $y: P_1N_1 = N_1H: HM$;
+Then
 
-$\therefore OM: P_1N_1 > N_1H: HM,$
+$$
+y: P_1N_1 = N_1H: HM;
+$$
 
-or $MK_1: K_1N_1 > N_1H: HM$;
+$$
+\therefore OM: P_1N_1 > N_1H: HM,
+$$
 
-hence $MN_1: N_1K_1 > MN_1: HM,$
+or
 
-so that $N_1K_1 < HM,$
+$$
+MK_1: K_1N_1 > N_1H: HM;
+$$
 
-i.e. $N_1K_1 < \frac{Pa}{2}.$
+hence
+
+$$
+MN_1: N_1K_1 > MN_1: HM,
+$$
+
+so that
+
+$$
+N_1K_1 < HM,
+$$
+
+i.e.
+
+$$
+N_1K_1 < \frac{Pa}{2}.
+$$
 
 Therefore $OP_1$ is not a normal, and $N_1K_1 < N_1G_1$.
 
@@ -6909,9 +7129,17 @@ $$
 AN_1 = \frac{1}{3}(x - 2a).
 $$
 
-Also $y^2 : P_1N_1^2 = N_1H^2 : HM^2$,
+Also
 
-or $y^2 : 4a \cdot AN_1 = N_1H^2 : 4a^2$;
+$$
+y^2 : P_1N_1^2 = N_1H^2 : HM^2,
+$$
+
+or
+
+$$
+y^2 : 4a \cdot AN_1 = N_1H^2 : 4a^2;
+$$
 
 $$
 \begin{aligned}
@@ -6920,7 +7148,11 @@ $$
 \end{aligned}
 $$
 
-or $27ay^2 = 4(x - 2a)^2$,
+or
+
+$$
+27ay^2 = 4(x - 2a)^2,
+$$
 
 which is the Cartesian equation of the **evolute** of a parabola.]
 
@@ -7058,13 +7290,25 @@ $$
 
 If $AN < AN_1$,
 
-$wu < u_1v$,
+$$
+wu < u_1v,
+$$
 
-and $u_1u: uw > u_1u: u_1v$,
+and
 
-whence $u_1w: uw > uv: u_1v$,
+$$
+u_1u: uw > u_1u: u_1v,
+$$
 
-$\therefore P_1u_1: Qu > uv: u_1v$
+whence
+
+$$
+u_1w: uw > uv: u_1v,
+$$
+
+$$
+\therefore P_1u_1: Qu > uv: u_1v
+$$
 
 (where $PN$ meets $P_1T$ in $Q$);
 
@@ -7313,7 +7557,11 @@ $$ O'n : nC = AA' : p_a. $$
 
 ![img-161.jpeg](images/img-161.jpeg)
 
-Therefore $CN : NK_1 = AA' : p_a,$
+Therefore
+
+$$
+CN : NK_1 = AA' : p_a,
+$$
 
 where $N$ is the foot of the ordinate of $P$, the point in which $nP$ drawn parallel to the major axis meets the ellipse, and $K_1$ is the point in which $O'P$ meets the major axis;
 
@@ -7420,7 +7668,11 @@ If $O$ be any point outside a conic, but not on the axis whose extremity is $A$,
 
 For the parabola we have only to measure $MH$ in the direction of the axis produced outside the curve, and of length equal to $\frac{p_a}{2}$, to draw $HR$ perpendicular to the axis on the same side as $O$, and, with $HR$, $HA$ as asymptotes, to describe a [rectangular] hyperbola through $O$. This will meet the curve in a point $P$, and, if $OP$ be joined and produced to meet the axis in $K$ and $HR$ in $R$, we have at once $HM = NK$.
 
-Therefore $NK = \frac{p_a}{2}$,
+Therefore
+
+$$
+NK = \frac{p_a}{2},
+$$
 
 and $PK$ is a normal.
 
@@ -7450,9 +7702,13 @@ For we have (1) $MK: HN = MK: LR'$, since $OR = PR'$, and therefore $IL = UR'$.
 
 Therefore $MK: HN = MO: OL$, by similar triangles,
 
-$= MC: CH,$
+$$
+= MC: CH,
+$$
 
-$\therefore CH: HM = OL: LM.$
+$$
+\therefore CH: HM = OL: LM.
+$$
 
 Therefore, alternately,
 
@@ -7462,39 +7718,69 @@ In case (2) $OL: LM = CH: HM,$
 
 or
 
-$OL. LI = CH. HI,$
+$$
+OL. LI = CH. HI,
+$$
 
 [so that $O, C$ are on opposite branches of the same rectangular hyperbola].
 
-Therefore $PU: OL = LI: IU,$
+Therefore
+
+$$
+PU: OL = LI: IU,
+$$
 
 or, by similar triangles,
 
-$UR': R'L = LI: IU,$
+$$
+UR': R'L = LI: IU,
+$$
 
-whence $R'L = IU = HN$;
+whence
 
-$\therefore MK: HN = MK: R'L$
+$$
+R'L = IU = HN;
+$$
 
-$= MO: OL$
+$$
+\therefore MK: HN = MK: R'L
+$$
 
-$= MC: CH,$
+$$
+= MO: OL
+$$
+
+$$
+= MC: CH,
+$$
 
 and $MK: MC = NH: HC$, as before (A).
 
 Thus, in either case, we derive
 
-$CK: CM = CN: CH,$
+$$
+CK: CM = CN: CH,
+$$
 
 and hence, alternately,
 
-$CN: CK = CH: CM,$
+$$
+CN: CK = CH: CM,
+$$
 
-so that $CN: NK = CH: HM$
+so that
 
-$= AA': p_a;$
+$$
+CN: NK = CH: HM
+$$
 
-$\therefore NK = NG,$
+$$
+= AA': p_a;
+$$
+
+$$
+\therefore NK = NG,
+$$
 
 and $OP$ is the normal at $P$.
 
@@ -7930,7 +8216,11 @@ $$
 PN^2 : AN \cdot NA' = pn^2 : an \cdot na'.
 $$
 
-But $AN \cdot NA' : AN^2 = an \cdot na' : an^2$,
+But
+
+$$
+AN \cdot NA' : AN^2 = an \cdot na' : an^2,
+$$
 
 because $A'N : AN = a'n : an$;
 
@@ -8068,19 +8358,31 @@ $$qv^2 = pl.pv.$$
 
 (1) Now, since $\angle PTA = \angle pta$,
 
-$\angle OPH = \angle oph,$
+$$
+\angle OPH = \angle oph,
+$$
 
 and the triangles $OPH$, $oph$ are similar.
 
-Therefore $OP: PH = op: ph$,
+Therefore
 
-so that $PL: PT = pl: pt$.
+$$
+OP: PH = op: ph,
+$$
+
+so that
+
+$$
+PL: PT = pl: pt.
+$$
 
 But, by hypothesis,
 
 $$PV: PT = pv: pt;$$
 
-$\therefore PL: PV = pl: pv,$
+$$
+\therefore PL: PV = pl: pv,
+$$
 
 and, since $QV$ is a mean proportional between $PV$, $PL$, and $qv$ between $pv$, $pl$,
 
@@ -8167,17 +8469,33 @@ Therefore $PN^2:CN.NT = pn^2:cn.nt.$ [Prop. 14]
 
 Also the angles $PTN$, $ptn$ are equal,
 
-therefore $PN:NT = pn:nt.$
+therefore
 
-Hence $PN:CN = pn:cn,$
+$$
+PN:NT = pn:nt.
+$$
 
-and $\angle PCN = \angle pcn.$
+Hence
+
+$$
+PN:CN = pn:cn,
+$$
+
+and
+
+$$
+\angle PCN = \angle pcn.
+$$
 
 Therefore also $\angle CPT = \angle cpt.$
 
 It follows that the triangles $OPH$, $oph$ are similar.
 
-Therefore $OP:PH = op:ph.$
+Therefore
+
+$$
+OP:PH = op:ph.
+$$
 
 But
 $$
@@ -8187,15 +8505,27 @@ op:ph = pl:2pt
 \end{array}\right\},
 $$
 
-whence $PL:PT = pl:pt.$
+whence
+
+$$
+PL:PT = pl:pt.
+$$
 
 Also, by similar triangles,
 
-$PT:CP = pt:cp;$
+$$
+PT:CP = pt:cp;
+$$
 
-$\therefore PL:CP = pl:cp,$
+$$
+\therefore PL:CP = pl:cp,
+$$
 
-or $PL:PP' = pl:pp'$
+or
+
+$$
+PL:PP' = pl:pp'
+$$
 
 (A).
 
@@ -8203,13 +8533,19 @@ Therefore the “figures” on the diameters $PP'$, $pp'$ are similar.
 
 Again, we made $PV:PT = pv:pt,$
 
-so that $PL:PV = pl:pv$
+so that
+
+$$
+PL:PV = pl:pv
+$$
 
 (B).
 
 We derive, by the method employed in Prop. 112, that
 
-$QV:PV = qv:pv,$
+$$
+QV:PV = qv:pv,
+$$
 
 and that, if $PV$, $pv$ be proportionally divided in the points $V'$, $v'$, the ordinates through these points are in the same ratios.
 
@@ -8365,7 +8701,6 @@ Let a circle be circumscribed about the axial triangle $OBC$, and produce $OI$ t
 
 ---
 
-```markdown
 Then
 $$
 OI : ID = OI^2 : BI^2,
@@ -8829,9 +9164,7 @@ $$= AH:A'H\text{, by construction,}$$
 
 or
 
-$$NK:AN = AH:AN$$
-
-[Prop. 8]
+$$NK:AN = AH:AN \quad [\text{Prop. 8}]$$
 
 ![img-188.jpeg](images/img-188.jpeg)
 
@@ -9589,9 +9922,7 @@ $$AA' + BB' < PP' + DD',$$
 
 so that
 
-$$(AA' + BB')^2 < (PP' + DD')^2.$$
-
-[Prop. 133]
+$$(AA' + BB')^2 < (PP' + DD')^2. \quad [\text{Prop. 133}]$$
 
 ---
 
@@ -10591,10 +10922,8 @@ $$
 whence
 
 $$
-AA'^2 : (AA'^2 + p_a^2) > AA'^2 : (PP'^2 + p^2),
+AA'^2 : (AA'^2 + p_a^2) > AA'^2 : (PP'^2 + p^2), \quad [\text{Prop. 130 (5)}]
 $$
-
-[Prop. 130 (5)]
 
 or
 
@@ -11035,4 +11364,6 @@ and $PP'^2 \sim p^2$ increases as $P$ moves nearer to $B$, being a *maximum* whe
 ![img-203.jpeg](images/img-203.jpeg)
 
 CAMBRIDGE : PRINTED BY J. AND C. F. CLAY, AT THE UNIVERSITY PRESS.
+
+
 

@@ -279,6 +279,41 @@ apparatus under the standing policy):
     primary motions in the heavens
 ```
 
+### Warm-up pair — pages 48–53, 2026-07-31
+
+Two `gpt-5.6-sol` runs at medium effort over the first six pages of Book I
+(md 465–507: the end of the notation preface, chapters 1–4).
+
+| | run A | run B |
+|---|---|---|
+| findings | 7 (3 claiming an error) | 6 (1 claiming an error) |
+| diff regions | 3 | 1 |
+| unexplained edits | 0 | 0 |
+| findings not enacted | 0 | 0 |
+
+**Corroborated and applied: `Of,` → `Or,` at line 495** — "Or, if they did turn
+back, how could this not be obvious?" A genuine word misread, both runs
+independent, the printed letter visibly a roman *r*. Triad unchanged from
+baseline afterwards (2 failures of 3936 blocks, 120 backslashes).
+
+**Held, uncorroborated:** two straight-vs-curly apostrophes in "earth's"
+(L505, L507). Run A alone. Real — Toomer prints the curly form — but see below.
+
+**The disagreement was a MISS again, not a misread.** Third page-set in a row
+where two runs never read the same glyph two different ways; the whole delta is
+one run reporting something the other did not look at. On Book I's prose this is
+even more pronounced than on the zodiac pages. **The second run is buying recall,
+not correctness** — which is worth paying for on recommended passages, where a
+missed defect is the expensive kind, and hard to justify anywhere else.
+
+**Apostrophes are not a clean family and were not chased.** Ptolemy has 992
+curly and 264 straight, but the straight ones do double duty as quotation marks
+in Toomer's glosses ('midday circle', 'colure'), so the majority convention does
+not license a sweep the way the raised unit letters did (427 correct vs 12).
+Fixing it needs the possessive subfamily isolated first. Deliberately deferred:
+the recommended-passage pass is reconciliation against the page, not a hunt for
+text-wide patterns.
+
 ### Where delegation is and is not worth spending
 
 Book I is PDF pages 45–87. Two regions inside it have a **structural licence**

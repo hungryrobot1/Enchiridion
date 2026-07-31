@@ -79,9 +79,9 @@ SKIP_PREFIXES = ("#", ">", "|", "-", "*", "!", "```", "~~~", "<")
 
 def classify(paragraph: str):
     """Classify a paragraph; returns (kind, payload) where kind in
-    {'p1','p2','p3',None}."""
+    {'p1','p1b','p2','p3',None}."""
     if "\n" in paragraph:
-        return None, None
+        return classify_multiline(paragraph)
     line = paragraph.strip()
     if not line or line.startswith(SKIP_PREFIXES):
         return None, None
@@ -106,7 +106,61 @@ def classify(paragraph: str):
     return None, None
 
 
+# P1B — a derivation step that occupies a WHOLE LINE inside a multi-line
+# paragraph. This is the third structural variant the corpus uses, and neither
+# P1 nor P2 can see it:
+#
+#     And
+#     $CV \cdot CT = CP^2$; [Prop. 14]
+#     $\therefore Cv \cdot Ct = CD^2$.
+#
+# P1 requires the whole PARAGRAPH to be math, and this paragraph begins with
+# "And". P2 requires the connector and the formula on ONE line, and here the
+# connector has a line to itself. So Apollonius reported P1=0, P2=0 while
+# containing 69 of these.
+#
+# The proof that display is the intended form is in the text itself: the same
+# construction appears correctly transcribed a few lines later, connector on its
+# own line followed directly by `$$` blocks with no blank line between. That is
+# the shape reproduced here.
+#
+# A trailing bracketed citation stays OUTSIDE the display, which is the corpus
+# convention -- 106 `[Prop. N]` citations in Apollonius and not one of them
+# inside a `$$` block.
+P1B_RE = re.compile(r"^\$(?!\$)([^$]+)\$\s*([.,;:!?]?)\s*(\[[^\]]*\])?\s*$")
+
+
+def classify_multiline(paragraph: str):
+    """Promote whole-line derivation steps inside a multi-line paragraph.
+
+    Only fires when at least one line is nothing but a formula, and never
+    touches the lines around it: a connective keeps its own line, and prose that
+    merely *contains* math is left alone, since inline is sometimes the right
+    call inside a running argument.
+    """
+    lines = paragraph.split("\n")
+    if any(l.lstrip().startswith("$$") for l in lines):
+        return None, None          # already has display; leave the mix alone
+    if any(l.strip().startswith(SKIP_PREFIXES) for l in lines):
+        return None, None
+    if not any(P1B_RE.match(l.strip()) for l in lines):
+        return None, None
+    return "p1b", lines
+
+
 def rewrite(kind, payload):
+    if kind == "p1b":
+        out = []
+        for line in payload:
+            m = P1B_RE.match(line.strip())
+            if not m:
+                out.append(line)
+                continue
+            formula, punct, cite = m.group(1).strip(), m.group(2), m.group(3)
+            out.append(f"$$\n{formula}{punct}\n$$")
+            if cite:
+                out.append(cite)
+        return "\n".join(out)
     if kind == "p1":
         formula, punct = payload
         return f"$$\n{formula}{punct}\n$$"
@@ -150,7 +204,7 @@ def process(path: Path, apply: bool, show_p3: bool):
     text = path.read_text()
     pieces = split_paragraphs(text)
 
-    counts = {"p1": 0, "p2": 0, "p3": 0}
+    counts = {"p1": 0, "p1b": 0, "p2": 0, "p3": 0}
     p3_lines = []
     result = []
     samples = []
@@ -160,7 +214,7 @@ def process(path: Path, apply: bool, show_p3: bool):
             result.append(para)
             continue
         kind, payload = classify(para)
-        if kind in ("p1", "p2"):
+        if kind in ("p1", "p1b", "p2"):
             counts[kind] += 1
             new = rewrite(kind, payload)
             if len(samples) < 3:
@@ -174,7 +228,7 @@ def process(path: Path, apply: bool, show_p3: bool):
             result.append(para)
 
     name = path.name
-    print(f"{name}: P1={counts['p1']}  P2={counts['p2']}  P3(review)={counts['p3']}")
+    print(f"{name}: P1={counts['p1']}  P1b={counts['p1b']}  P2={counts['p2']}  P3(review)={counts['p3']}")
     if not apply and samples:
         for before, after in samples[:2]:
             print(f"  --- {before}")
@@ -183,7 +237,7 @@ def process(path: Path, apply: bool, show_p3: bool):
         for l in p3_lines:
             print(f"  P3: {l}")
 
-    if apply and (counts["p1"] or counts["p2"]):
+    if apply and (counts["p1"] or counts["p1b"] or counts["p2"]):
         path.write_text("\n".join(result))
         print(f"  applied → {name} (now run the diagnostic triad)")
 

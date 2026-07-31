@@ -1474,7 +1474,6 @@ then we always have
 
 $$ (M, N, P, \ldots) \sim (M', N', P', \ldots). $$
 
-```
 § 2
 “Greater” and “Less” with Powers
 

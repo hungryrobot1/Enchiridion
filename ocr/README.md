@@ -2,6 +2,65 @@
 
 Workflow for turning a source PDF into a clean, reader-ready markdown text in this repo. The OCR step itself uses the Mistral OCR API; everything else is local post-processing.
 
+## Layout
+
+A text moves through numbered stages in order. **Numbered directories are
+positions in the lifecycle; unnumbered ones are called from anywhere.**
+
+```
+0-recon/         what is this document, and which track does it take
+1-prepare/       narrow the PDF to the text we actually want
+2-extract/       PDF-native extraction, or OCR
+3-postprocess/   raw markdown → reader-ready markdown
+4-proofread/     compare against the printed page
+
+verify/          runs between every pair of stages; never edits
+figures/         a track: spans extract, postprocess, and verify
+drama/           a track: genre-specific post-processing
+text-specific-tools/   per-text tools, one directory per text
+```
+
+Each directory carries a **`STAGE.md`** declaring four things: what it consumes,
+what it produces, **what test says it succeeded**, and **what it does not
+check**. That fourth field is the one worth reading. It is where this pipeline
+records that a green diagnostic triad is not a claim of correctness — the triad
+tests well-formedness, and four defect classes have passed it cleanly.
+
+**When you add a tool, register it in that directory's `STAGE.md`.** A tool
+absent from the table is a tool the next session will not know exists.
+
+### Why the stages are marked out this way
+
+The boundaries are drawn where the **acceptance test** changes, because that is
+what determines whether a stage can be safely delegated — not whether it uses
+tools or judgment. Stage 3 has a real mechanical test and is the first candidate
+for dispatch. Stage 0 has none and probably never will. Stage 2 has a
+completeness test and no correctness test, which is why extraction dispatch
+*grows* the proofreading backlog rather than shrinking it: it yields triad-clean
+text, not correct text.
+
+### The feedback loop
+
+**A defect found late becomes a check that runs early.** When a proofreading
+finding turns out to be systematic rather than local, it gets promoted into
+`3-postprocess/` or `verify/`, and the ledger notes where it went.
+`decode-html-entities.py` exists because 2,701 entities were first noticed by eye
+during proofreading. The loop also runs backwards: when the `°°` brief turned out
+to be telling workers to delete real content, the fix belonged in the *brief*,
+which is the highest-leverage repair available, because a bad brief corrupts
+every future run.
+
+### TODO — pipeline restructure
+
+- **Audit `3-postprocess/` and `text-specific-tools/` for misfiled tools.**
+  `strip-heath-notes.py` is general-folder but Heath-specific and there is
+  already a `text-specific-tools/heath/`. Others likely. Not urgent; track here
+  until the rebuild is done.
+- **Per-text working state** currently lives under `4-proofread/<text-id>/`. A
+  shared `work/` may be wanted once a second stage starts producing it.
+- `text-specific-tools/` keeps its name rather than shortening to
+  `text-specific/` — the rename buys nothing and churns references.
+
 ## Setup
 
 ```sh
@@ -17,14 +76,14 @@ echo "MISTRAL_API_KEY=..." > .env
 **PyMuPDF imports as `pymupdf`, not `fitz`.** The legacy `fitz` name is squatted
 on PyPI by an unrelated package, so an environment can have that one installed
 and fail in ways that look like a PyMuPDF bug. Anything here that opens a PDF —
-the extraction track, the page renderers, `ocr/proofreading/prepare-batch.py` —
+the extraction track, the page renderers, `ocr/4-proofread/prepare-batch.py` —
 needs this venv's interpreter, not the system `python3`.
 
 ## End-to-end sequence
 
 1. **Acquire source.** Place under `texts/<era>/<text-id>/`. If the source
    is an EPUB (e.g. Project Gutenberg), convert to PDF first:
-   `./ocr/convert-epub-to-pdf.sh <path-to-epub>`. Mistral's OCR API is
+   `./ocr/1-prepare/convert-epub-to-pdf.sh <path-to-epub>`. Mistral's OCR API is
    PDF-only, and inspecting the rendered PDF makes the split decision
    (next step) much easier. Then run `python utilities/inventory.py` to
    register the text in the catalog.
@@ -75,8 +134,8 @@ All scripts default to dry-run; pass `--apply` (or equivalent) to write.
 | Script | Purpose |
 |---|---|
 | `lint-math.py` | Detect unbalanced `$`/`$$` and Greek-letter glue slips (`\taui`, `\alphaX`). Reports only — fix manually. Regex-based; flags syntactic suspicions. Pair with `check-math.js` for render-aware coverage. |
-| `check-math.js` | **Render-aware** math diagnostics. Walks every `$...$` and `$$...$$` block in the file, runs each through KaTeX with `throwOnError: true`, and reports blocks that fail to render — with line numbers and the exact KaTeX error message. Catches issues `lint-math.py` can't (missing `}` inside `\text{}`, undefined control sequences, double superscripts, etc.) while ignoring syntactic patterns KaTeX silently accepts. Run from project root: `node ocr/check-math.js <markdown-path>` or no arg to scan everything under `texts/`. Uses the same `KATEX_MACROS` config as the renderer (`site/src/readers/md-reader.js`), so reported failures are what the reader actually sees. See "Render-aware math diagnostics" below. |
-| `check-raw-latex.js` | **Render-aware** scan for LaTeX that leaked *outside* `$...$` or `$$...$$` delimiters. Mirrors `md-reader.js`'s pipeline (placeholder extraction → marked) then walks the markdown for surviving `\` characters not consumed by markdown escaping. Reports one line per finding with source line number and 120-char preview. Catches bare math runs the OCR left unwrapped (`\therefore`, `\angle`, bare `\begin{array}`) — these would render as ugly raw LaTeX to the reader. Run from project root: `node ocr/check-raw-latex.js <markdown-path>`. Companion to `check-math.js`: that one says "this math doesn't render"; this one says "this math isn't being treated as math at all." See "Diagnostic triad" below. |
+| `check-math.js` | **Render-aware** math diagnostics. Walks every `$...$` and `$$...$$` block in the file, runs each through KaTeX with `throwOnError: true`, and reports blocks that fail to render — with line numbers and the exact KaTeX error message. Catches issues `lint-math.py` can't (missing `}` inside `\text{}`, undefined control sequences, double superscripts, etc.) while ignoring syntactic patterns KaTeX silently accepts. Run from project root: `node ocr/verify/check-math.js <markdown-path>` or no arg to scan everything under `texts/`. Uses the same `KATEX_MACROS` config as the renderer (`site/src/readers/md-reader.js`), so reported failures are what the reader actually sees. See "Render-aware math diagnostics" below. |
+| `check-raw-latex.js` | **Render-aware** scan for LaTeX that leaked *outside* `$...$` or `$$...$$` delimiters. Mirrors `md-reader.js`'s pipeline (placeholder extraction → marked) then walks the markdown for surviving `\` characters not consumed by markdown escaping. Reports one line per finding with source line number and 120-char preview. Catches bare math runs the OCR left unwrapped (`\therefore`, `\angle`, bare `\begin{array}`) — these would render as ugly raw LaTeX to the reader. Run from project root: `node ocr/verify/check-raw-latex.js <markdown-path>`. Companion to `check-math.js`: that one says "this math doesn't render"; this one says "this math isn't being treated as math at all." See "Diagnostic triad" below. |
 | `collapse-inline-display.py` | Demote mid-prose `$$X$$` to inline `$X$` when the block is short, single-line, and embedded in surrounding text. |
 | `strip-running-headers.py` | ToC-driven. Strips book-level + section-level running headers, bare page-number lines, and `H. C. <n>` printer's marks. Promotes the first occurrence of each ToC section title to `# heading`. Idempotent. |
 | `rejoin-split-paragraphs.py` | Find paragraph pairs split by OCR artifacts (page breaks, footnote intrusions) and merge the halves. Two modes: `--rule` finds stray `---` rules between halves (legacy behavior, useful for non-math texts where `---` rarely appears in tables); `--blank` finds blank-line-separated splits where prev ends mid-clause and next looks like a continuation (better fit for math-heavy texts where `---` is reserved for table syntax). Dialogue-safe: refuses to merge across structural lines (headings, list items, speaker tags, table rows, images, code fences, display math, figure captions, bracketed-letter list openers `[a]`/`[b]`, classical-proof markers like `I say that`). Reports candidates grouped by category (`continuation-punct-','`, `next-lowercase`, `next-opens-bracket`, `midword-then-capital`, `other`) so they can be selectively applied with `--categories "cat1;cat2;…"` (semicolon-separated). `--min-words N` adds a `-short` suffix to categories where either side has fewer than N words, isolating short-line patterns (sub-section labels, math lead-ins) that usually shouldn't merge. Pass `--verse` to join with newline instead of space for verse texts. See "Diagnostic triad" below. |
@@ -114,13 +173,13 @@ OCR cost.
 Twin-mode sequence (Euclid English side, 545 pp ≈ 10 min strip + 30 s extract):
 
 ```bash
-python3 ocr/strip-pdf-text.py source/Elements-english.pdf source/Elements-english-stripped.pdf
-python3 ocr/extract-pdf-images.py source/Elements-english.pdf english-images/ \
+python3 ocr/1-prepare/strip-pdf-text.py source/Elements-english.pdf source/Elements-english-stripped.pdf
+python3 ocr/figures/extract-pdf-images.py source/Elements-english.pdf english-images/ \
     --twin source/Elements-english-stripped.pdf
 python3 ocr/text-specific-tools/euclid/rewrite-euclid-image-refs.py --scaffold euclid-elements.md \
     --manifest english-images/manifest.json --english source/extracted-english.md \
     --output <out.md>
-python3 ocr/audit-diagram-coverage.py --scaffold <out.md> \
+python3 ocr/figures/audit-diagram-coverage.py --scaffold <out.md> \
     --manifest english-images/manifest.json --pdf source/Elements-english.pdf
 ```
 
@@ -132,12 +191,12 @@ Meditations. Bilingual/diagram-heavy texts use the PDF-native section above
 instead; scans go to Mistral OCR.
 
 ```bash
-python3 ocr/recon-pdf.py source.pdf                 # 1. recon (ALWAYS first)
-python3 ocr/crop-pdf.py source.pdf source/cropped.pdf --bbox …   # 2. crop page numbers
-python3 ocr/extract-text.py source/cropped.pdf source/raw.md --pages A-B  # 3. content span only
+python3 ocr/0-recon/recon-pdf.py source.pdf                 # 1. recon (ALWAYS first)
+python3 ocr/1-prepare/crop-pdf.py source.pdf source/cropped.pdf --bbox …   # 2. crop page numbers
+python3 ocr/2-extract/extract-text.py source/cropped.pdf source/raw.md --pages A-B  # 3. content span only
 python3 ocr/text-specific-tools/<author>/partition-<text>.py …  # 4. structure
-python3 ocr/join-line-wrap-hyphens.py <out.md>                   # 5a. hyphen wraps
-python3 ocr/rejoin-split-paragraphs.py --blank <out.md>          # 5b. page-boundary splits
+python3 ocr/3-postprocess/join-line-wrap-hyphens.py <out.md>                   # 5a. hyphen wraps
+python3 ocr/3-postprocess/rejoin-split-paragraphs.py --blank <out.md>          # 5b. page-boundary splits
 #    review the category report; --apply with selected categories.
 #    Leave "other" (both sides read complete) unless individually verified.
 ```
@@ -200,7 +259,7 @@ turn shows up as a false divergence.
 **Per-text tools** live in `ocr/text-specific-tools/<author>/` and are the
 canonical record of that edition's structure decisions — write the docstring
 as documentation. The corpus-wide candidacy map is `ocr/corpus-audit.md` /
-`.json` (regenerate with `ocr/survey-corpus.py`).
+`.json` (regenerate with `ocr/0-recon/survey-corpus.py`).
 
 **Final step — artifact hygiene.** When the text is `complete` and verified,
 the only intermediates that stay in `source/` are the text ones: `raw.md` (and
@@ -295,11 +354,11 @@ Keep `KATEX_MACROS` in `check-math.js` synchronized with `md-reader.js` so the c
 
 ```sh
 # After OCR + structural cleanup, before paragraph joins:
-python3 ocr/lint-math.py texts/.../foo.md     # syntactic suspects
-node ocr/check-math.js texts/.../foo.md        # actual render failures
+python3 ocr/verify/lint-math.py texts/.../foo.md     # syntactic suspects
+node ocr/verify/check-math.js texts/.../foo.md        # actual render failures
 
 # Cluster the output by error type:
-node ocr/check-math.js texts/.../foo.md 2>&1 | \
+node ocr/verify/check-math.js texts/.../foo.md 2>&1 | \
   grep "KaTeX parse error" | \
   sed 's/.*KaTeX parse error: //' | sed 's/ at.*//' | \
   sort | uniq -c | sort -rn
@@ -345,9 +404,9 @@ The shared principle is [consumer-correctness](../README.md) — when a downstre
 ### Recommended sequence
 
 ```sh
-python3 ocr/lint-math.py texts/.../foo.md     # cheap syntactic pre-filter
-node ocr/check-math.js texts/.../foo.md        # render failures (KaTeX)
-node ocr/check-raw-latex.js texts/.../foo.md   # raw-LaTeX leaks (marked)
+python3 ocr/verify/lint-math.py texts/.../foo.md     # cheap syntactic pre-filter
+node ocr/verify/check-math.js texts/.../foo.md        # render failures (KaTeX)
+node ocr/verify/check-raw-latex.js texts/.../foo.md   # raw-LaTeX leaks (marked)
 ```
 
 Each tool returns exit code 1 if it finds anything, 0 if clean. A text is post-processing-complete when all three return 0.
@@ -356,7 +415,7 @@ What none of the three can verify: that the math content *as transcribed* matche
 
 That is the correctness problem, and it is addressed by a different pipeline. In rough order of cost:
 
-1. **The vocabulary census** (`ocr/math-vocab-census.py`) groups suspect tokens by context signature, so errors surface as *families* and one adjudication settles many instances.
+1. **The vocabulary census** (`ocr/verify/math-vocab-census.py`) groups suspect tokens by context signature, so errors surface as *families* and one adjudication settles many instances.
 2. **Computation**, wherever the content is redundant enough to check itself. The Almagest's Table of Chords is the type case: 90 lost fraction marks were restored by recomputing each row from its own chord value. Tables carry redundancy; prose does not, which is why a digit error is recoverable in a table and invisible in a sentence.
 3. **Reading the printed page**, for what is left. Render the source page (PyMuPDF `get_pixmap`, ~190dpi full page or zoom 400 for a detail), look at it, and fix by exact-match anchor with an asserted occurrence count. This is minutes per instance rather than hours, and it is the only method that can see an error which left no trace — a symbol that vanished cleanly defeats every pattern method by construction.
 4. **[Delegated proofreading](proofreading/README.md)** when step 3 does not scale — a handful of texts across the whole library, where the typography is a worst case and pattern analysis is spent. That directory holds the harness, the briefs, and the findings; read its README before reaching for it.

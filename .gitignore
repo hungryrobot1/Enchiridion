@@ -21,5 +21,5 @@ mcp/.wrangler/
 site/public/toc/
 
 # Proofreading: derived artifacts only. Briefs, findings and ledgers ARE tracked.
-ocr/proofreading/*/pagemap.json
-ocr/proofreading/*/batches/
+ocr/4-proofread/*/pagemap.json
+ocr/4-proofread/*/batches/

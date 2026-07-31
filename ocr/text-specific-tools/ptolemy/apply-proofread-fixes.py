@@ -8,7 +8,7 @@ reasons: a wrong edit is invisible where a wrong claim is reviewable, and fifty
 workers editing fifty slices would re-decide the same glyph fifty times, without
 ever noticing they disagreed.
 
-  ocr/proofreading/verify-batch.py <batch> --fixes fixes.json
+  ocr/4-proofread/verify-batch.py <batch> --fixes fixes.json
   ocr/text-specific-tools/ptolemy/apply-proofread-fixes.py fixes.json          # dry run
   ocr/text-specific-tools/ptolemy/apply-proofread-fixes.py fixes.json --apply
 
@@ -243,9 +243,9 @@ def main() -> int:
         path.write_text(text, encoding="utf-8")
         print(f"wrote {path}")
         print("now run the diagnostic triad before committing:")
-        print(f"  ocr/.venv/bin/python3 ocr/lint-math.py {path}")
-        print(f"  node ocr/check-math.js {path}")
-        print(f"  node ocr/check-raw-latex.js {path}")
+        print(f"  ocr/.venv/bin/python3 ocr/verify/lint-math.py {path}")
+        print(f"  node ocr/verify/check-math.js {path}")
+        print(f"  node ocr/verify/check-raw-latex.js {path}")
     else:
         print("(dry run — pass --apply to write)")
     return 0

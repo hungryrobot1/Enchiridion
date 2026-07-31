@@ -29,6 +29,11 @@ tests well-formedness, and four defect classes have passed it cleanly.
 **When you add a tool, register it in that directory's `STAGE.md`.** A tool
 absent from the table is a tool the next session will not know exists.
 
+**[`DISPATCH.md`](DISPATCH.md)** is the protocol for running a text through this
+pipeline when the person running it is not us: where to start, what never to do
+by hand, when to stop and ask, and what is worth reporting back. It deliberately
+adds no vocabulary of its own — the stages below are the vocabulary.
+
 ### Why the stages are marked out this way
 
 The boundaries are drawn where the **acceptance test** changes, because that is

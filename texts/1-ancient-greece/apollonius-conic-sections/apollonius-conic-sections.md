@@ -1112,7 +1112,9 @@ Cor. It follows at once that $QV: VT$ is equal to the ratio compounded of the ra
 If $Qv$ be the ordinate to the diameter conjugate to $PP'$, and $QT$, the tangent at $Q$, meet that conjugate diameter in $t$, then
 
 (1) $Cv \cdot Ct = CD^2$,
+
 (2) $Qv^2: Cv \cdot vt = PP': p$ [or $CP^2: CD^2$],
+
 (3) $tD: tD' = vD': vD$ for the hyperbola,
 and
 $tD: tD' = vD: vD'$ for the ellipse and circle.
@@ -2404,6 +2406,7 @@ $$
 If $Q, Q'$ are on opposite branches, and $QQ'$ meet the asymptotes in $K, K'$, and if $CP$ be the semidiameter parallel to $QQ'$, then
 
 (1) $KQ \cdot QK' = CP^2$,
+
 (2) $QK = Q'K'$.
 
 Draw the tangent at $P$ meeting the asymptotes in $L, L'$, and
@@ -2647,6 +2650,7 @@ $$
 If $Q$ be any point on a hyperbola, and $CE$ be drawn from the centre parallel to the tangent at $Q$ to meet the conjugate hyperbola in $E$, then
 
 (1) the tangent at $E$ will be parallel to $CQ$, and
+
 (2) $CQ, CE$ will be conjugate diameters.
 
 Let $PP', DD'$ be the conjugate diameters of reference, and let $QV$ be the ordinate from $Q$ to $PP'$, and $EW$ the ordinate
@@ -4535,6 +4539,7 @@ $$ \therefore Q'O: OQ = LQ': LQ. $$
 i.e. in the figures drawn below
 
 (1) $RT: TR' = RI: IR'$,
+
 (2) $RO: OR' = RV: VR'$.
 
 ![img-103.jpeg](images/img-103.jpeg)

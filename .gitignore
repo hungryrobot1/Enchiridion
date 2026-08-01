@@ -23,3 +23,9 @@ site/public/toc/
 # Proofreading: derived artifacts only. Briefs, findings and ledgers ARE tracked.
 ocr/4-proofread/*/pagemap.json
 ocr/4-proofread/*/batches/
+
+# Dispatch runs: the record is tracked, the transcript is not.
+# NOTES.md is the point of a run, and a global NOTES.md rule above was
+# silently swallowing it -- the findings are the deliverable, not debris.
+ocr/runs/*/run.log
+!ocr/runs/*/NOTES.md

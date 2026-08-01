@@ -132,5 +132,5 @@ find "$WORK" -maxdepth 1 -name '*.md' ! -name 'TASK.md' ! -name 'NOTES.md' \
 find "$WORK" -name '*.py' -not -path "$WORK/source/*" \
      -exec cp {} "$RUN/" \; 2>/dev/null || true
 
-echo "  exit $RC → ocr/runs/$TEXT_ID/"
+echo "  exit $RC → ${RUN#$ROOT/}/"
 ls -1 "$RUN" | sed 's/^/    /'

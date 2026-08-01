@@ -114,7 +114,12 @@ cp "$WORK/TASK.md" "$RUN/" 2>/dev/null || true
 [ -f "$WORK/NOTES.md" ] && cp "$WORK/NOTES.md" "$RUN/" || echo "  NO NOTES.md — the run reported nothing about itself" >&2
 find "$WORK" -maxdepth 1 -name '*.md' ! -name 'TASK.md' ! -name 'NOTES.md' \
      -exec cp {} "$RUN/" \; 2>/dev/null || true
-find "$WORK/ocr" -name '*.py' -exec cp {} "$RUN/" \; 2>/dev/null || true
+# Any tool the worker wrote, wherever it chose to put it. The first version
+# looked only under $WORK/ocr and silently dropped both Dedekind tools:
+# Rousseau used ocr/text-specific-tools/, Dedekind used text-specific-tools/,
+# and nothing tells a worker which. Search the workspace, skip its sources.
+find "$WORK" -name '*.py' -not -path "$WORK/source/*" \
+     -exec cp {} "$RUN/" \; 2>/dev/null || true
 
 echo "  exit $RC → ocr/runs/$TEXT_ID/"
 ls -1 "$RUN" | sed 's/^/    /'

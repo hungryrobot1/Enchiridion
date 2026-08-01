@@ -1,0 +1,10 @@
+{
+  "text_id": "dedekind-essays-on-theory-of-numbers",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "52e28d5",
+  "started": "2026-08-01T13:06:56Z",
+  "finished": "2026-08-01T13:19:46Z",
+  "exit_code": 0
+}

@@ -30,15 +30,26 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SRC_DIR="$(ls -d "$ROOT"/texts/*/"$TEXT_ID" 2>/dev/null | head -1 || true)"
 [ -n "$SRC_DIR" ] || { echo "no text directory for '$TEXT_ID'" >&2; exit 1; }
 
-RUN="$ROOT/ocr/runs/$TEXT_ID"
+# RUN_LABEL keeps a second run of the same text beside the first instead of on
+# top of it. Re-running a text after changing its inputs is the whole method
+# here, and two runs cannot be compared if the first is only recoverable from
+# git history.
+RUN="$ROOT/ocr/runs/${TEXT_ID}${RUN_LABEL:+-$RUN_LABEL}"
 WORK="$RUN/workspace"
 rm -rf "$WORK"; mkdir -p "$WORK/source"
 
-# Sources only. Never the corpus markdown: a worker handed the current .md would
-# be reviewing our previous answer instead of reading the source.
-find "$SRC_DIR" -maxdepth 1 -type f \
-     \( -name '*.pdf' -o -name '*.epub' -o -name '*.txt' -o -name '*.htm*' \
-        -o -name 'metadata.json' \) -exec cp {} "$WORK/source/" \;
+# Everything the text directory holds EXCEPT the corpus markdown, which is our
+# previous answer rather than a source -- a worker handed it reviews us instead
+# of reading the original. (That exclusion is right for an EXTRACTION job. A
+# repair job, where the existing markdown IS the subject, wants the opposite;
+# when we run one, this comment gets narrower rather than the rule looser.)
+#
+# A blacklist rather than a whitelist, because the first version listed pdf,
+# epub, txt, htm and metadata -- and would have silently withheld the Project
+# Gutenberg .tex source we went and found for Dedekind, which is the single most
+# valuable file in that directory. A source type nobody anticipated should
+# arrive, not vanish.
+find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp {} "$WORK/source/" \;
 
 TITLE=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('title',''))")
 AUTHOR=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('author',''))")

@@ -28,4 +28,5 @@ ocr/4-proofread/*/batches/
 # NOTES.md is the point of a run, and a global NOTES.md rule above was
 # silently swallowing it -- the findings are the deliverable, not debris.
 ocr/runs/*/run.log
+ocr/runs/*/workspace/
 !ocr/runs/*/NOTES.md

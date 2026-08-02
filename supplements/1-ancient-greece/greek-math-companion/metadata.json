@@ -1,14 +1,12 @@
 {
-  "title": "Reading Greek Mathematics",
+  "title": "Reading Euclid",
   "type": "study-guide",
   "era": "ancient-greece",
   "texts": [
-    "euclid-elements",
-    "apollonius-conic-sections",
-    "ptolemy-almagest"
+    "euclid-elements"
   ],
-  "description": "Orientation to the structure of Greek mathematical propositions, with notation guidance for Euclid and conceptual primers for Apollonius and Ptolemy",
+  "description": "An introduction to working through the Elements: what Euclid defines, what he asks to be done, and how a construction becomes a demonstration",
   "filename": "content.md",
   "prerequisites": [],
-  "content_status": "complete"
+  "content_status": "draft"
 }

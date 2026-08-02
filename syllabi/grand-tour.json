@@ -2,7 +2,7 @@
   "id": "grand-tour",
   "title": "The Grand Tour",
   "kind": "canonical",
-  "description": "The Grand Tour is a syllabus. Primary works appear roughly in the order they were written. Laboratories, exercises, and module chapters are woven through the sequence. Where a work lists passages, those are the intended reading; otherwise, read the whole work. Long mathematical texts are done incrementally alongside other books. Begin at the top and proceed at your own pace.",
+  "description": "The Grand Tour is a syllabus. Primary works appear roughly in the order they were written. Laboratories, exercises, and module chapters are woven through the sequence. Where a work lists passages, those are the intended reading; otherwise, read the whole work. Long mathematical texts are worked alongside other books. Begin at the top and proceed at your own pace.",
   "sections": [
     {
       "id": "1-ancient-greece",

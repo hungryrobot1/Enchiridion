@@ -80,8 +80,8 @@ export function renderAbout(container) {
         Difficulty is an essential part of the encounter.
       </p>
       <p>
-        Supplements appear to provide an extra dimension of engagment or where
-        a practical barrier would otherwise hinder the reading. A notation guide
+        Supplements enter where they can add another dimension to the reading or
+        where a practical barrier would otherwise hinder it. A notation guide
         can make an unfamiliar page legible; a lab can put a proposition into the
         reader's hands; an exercise can supply the practice a text assumes.
         Their task is to make further work possible and then get out of the way.
@@ -100,9 +100,9 @@ export function renderAbout(container) {
         The program is being built era by era. Some texts have been processed
         into clean, rendered editions; others remain as source PDFs. Some
         supplements and modules are complete, while others reserve a place in the
-        sequence for work still to be written. The library and syllabus can change at any time.
-        Books can be added and removed. The syllabus remains under active construction and
-        revision. What appears here is an honest snapshot of the project, not necessarily
+        sequence for work still to be written. The library and syllabus remain
+        under active construction and revision; books may be added or removed.
+        What appears here is an honest snapshot of the project, not necessarily
         what will be there when it's fully built.
       </p>
       <p>

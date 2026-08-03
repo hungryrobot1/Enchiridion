@@ -1,0 +1,5 @@
+The TeX source is now in your workspace: source/specrel.tex, fetched from the Fourmilab page named on PDF page 24 and verified as the generating source — 1,594 lines, 554 dollar-delimited spans, 14 equation environments, \title{ON THE ELECTRODYNAMICS OF MOVING BODIES}.
+
+Your reasoning was right, and it matches an earlier run on Dedekind that hit the same wall and was resolved the same way: use the TeX as the extraction source and the generated PDF as its RENDERED WITNESS. Note carefully what that witness can and cannot establish — a PDF generated from this same TeX validates conversion and layout, but it is not an independent edition, so it cannot show whether Walker's transcription matches Einstein's 1905 printing. Keep ocr_status at pending on those grounds unless something else settles it.
+
+Permission granted for the source-native track. Permission NOT granted for the paid OCR API; you should not need it. There is a worked precedent in ocr/runs/dedekind-essays-on-theory-of-numbers-with-tex/ — a converter that asserts its structure and leaves unknown TeX commands visible so check-raw-latex rejects them rather than passing a guess.

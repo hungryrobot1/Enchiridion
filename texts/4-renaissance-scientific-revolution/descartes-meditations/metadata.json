@@ -1,14 +1,14 @@
 {
-  "title": "Meditations on First Philosophy",
-  "author": "René Descartes",
-  "translator": "John Veitch",
+  "title": "Six Metaphysical Meditations, with Hobbes's Objections and Descartes's Answers",
+  "author": "Ren\u00e9 Descartes",
+  "translator": "William Molyneux",
   "year_written": 1641,
-  "year_translated": 1901,
+  "year_translated": 1680,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg70091-images-3.pdf",
-  "description": "Six meditations establishing the foundations of knowledge through radical doubt",
+  "format": "markdown",
+  "filename": "descartes-meditations.md",
+  "description": "William Molyneux's 1680 English translation of Descartes's six Metaphysical Meditations, together with Hobbes's Third Objections and Descartes's replies.",
   "topics": [
     "philosophy",
     "epistemology",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "descartes-discourse-on-method"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

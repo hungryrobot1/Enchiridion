@@ -1,0 +1,28 @@
+{
+  "text_id": "einstein-on-electrodynamics-of-moving-bodies",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "5096ebd",
+  "session_id": "019fc899-fdcf-7db2-bd8f-64b27dc0f4cf",
+  "started": "2026-08-03T17:09:22Z",
+  "finished": "2026-08-03T17:29:47Z",
+  "exit_code": 0,
+  "resumes": [
+    {
+      "started": "2026-08-03T17:32:40Z",
+      "finished": "2026-08-03T17:32:40Z",
+      "exit_code": 2
+    },
+    {
+      "started": "2026-08-03T17:34:53Z",
+      "finished": "2026-08-03T17:34:53Z",
+      "exit_code": 2
+    },
+    {
+      "started": "2026-08-03T17:39:14Z",
+      "finished": "2026-08-03T17:49:58Z",
+      "exit_code": 0
+    }
+  ]
+}

@@ -6,8 +6,8 @@
   "year_translated": 1923,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "specrel.pdf",
+  "format": "markdown",
+  "filename": "einstein-on-electrodynamics-of-moving-bodies.md",
   "description": "Special theory of relativity unifying space, time, and the constancy of the speed of light",
   "topics": [
     "physics",
@@ -15,5 +15,5 @@
   ],
   "era": "modern-era-i",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

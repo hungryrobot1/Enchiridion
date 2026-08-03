@@ -19,6 +19,10 @@ From files on disk, never from a database that could disagree with them:
 
   provenance.json absent, run.log growing   RUNNING
   ESCALATION.md present                     BLOCKED  (waiting on us)
+
+An answered escalation is renamed ESCALATION-answered.md and keeps its ANSWER.md
+beside it, so the exchange survives as the record while the run stops reporting
+blocked. Only a live ESCALATION.md means somebody is waiting.
   provenance.json present, exit 0           DONE
   provenance.json present, exit non-zero    FAILED
 
@@ -47,7 +51,12 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-QUIET_AFTER = 300  # seconds without a log write before RUNNING becomes STALLED
+# Seconds of log silence before RUNNING becomes STALLED. 300 was too eager:
+# codex logs in bursts and goes quiet for longer than five minutes while
+# working, so a live Einstein run was reported STALLED twice while its
+# process was demonstrably alive. Runs so far have taken 13-44 minutes, so
+# a quarter of an hour of silence is the first point worth remarking on.
+QUIET_AFTER = 900
 
 
 def state_of(run: Path) -> tuple[str, str]:
@@ -66,10 +75,15 @@ def state_of(run: Path) -> tuple[str, str]:
 
     if prov.exists():
         try:
-            rc = json.loads(prov.read_text()).get("exit_code", 0)
+            d = json.loads(prov.read_text())
         except json.JSONDecodeError:
             return "DONE", "provenance unreadable"
-        return ("DONE", "") if rc == 0 else ("FAILED", f"exit {rc}")
+        # The LAST attempt decides the state. A failed resume after a successful
+        # first run was reported DONE, which hid a broken resume completely.
+        resumes = d.get("resumes") or []
+        rc = resumes[-1]["exit_code"] if resumes else d.get("exit_code", 0)
+        where = " on resume" if resumes else ""
+        return ("DONE", "") if rc == 0 else ("FAILED", f"exit {rc}{where}")
 
     if log.exists():
         quiet = time.time() - log.stat().st_mtime

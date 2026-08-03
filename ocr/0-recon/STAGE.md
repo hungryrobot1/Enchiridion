@@ -4,6 +4,33 @@
 **Produces:** a decision, not a file. Which extraction track this text takes, what
 has to be cropped or split first, and whether it is worth doing at all yet.
 
+## Ask whether a better source exists
+
+The first question is not what to do with the file we have. It is **whether the
+file we have is the one to work from** — because a published PDF is often the
+*output* of a source we could get instead, and extraction cannot recover what
+generating it discarded. Dedekind's PDF yielded zero mathematical expressions;
+its LaTeX yielded 3,262. See `../2-extract/STAGE.md`.
+
+Where to look, from the two texts that have gone this way:
+
+- **Project Gutenberg** publishes the LaTeX for texts typeset from it, at
+  `gutenberg.org/files/<id>/<id>-t/<id>-t.tex`. It is not linked from the book's
+  landing page; the address has to be tried.
+- **Fourmilab** ships a `_tex.zip` beside the PDF (`specrel_tex.zip` for
+  Einstein's 1905 paper).
+- The sibling **epub** most PG texts carry is built from the same transcription —
+  a witness rather than a better source, but see the README on using it as one.
+
+**This is acquisition work, and a dispatched worker cannot do it**: the search
+needs network access, which is a permission question rather than a judgment, and
+both runs that needed a source stopped here and asked. Doing it before dispatch
+is cheaper than an escalation, and much cheaper than a completed run that has to
+be thrown away.
+
+No systematic sweep has been made. Searching per text as texts come up measures
+the hit rate, which is what would justify a corpus-wide pass later.
+
 ## Acceptance test
 
 **None, and there cannot be one.** Recon's output is a judgment about a document,

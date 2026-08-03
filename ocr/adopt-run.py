@@ -49,6 +49,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -102,11 +103,32 @@ def find_candidate(run_dir: Path, explicit: str | None) -> Path | None:
     return cands[0] if len(cands) == 1 else None
 
 
+def stamp_adopted(prov_path: Path, prov: dict, target: Path) -> None:
+    """Record that this run's output reached the library.
+
+    The dashboard hides adopted runs by default, so that what it prints stays
+    the work still open rather than a growing history. This is the only fact it
+    cannot derive from the files it already reads: a run directory looks the
+    same before and after its output was taken, and the published text carries
+    no memory of which run produced it.
+
+    Written by the tool that did the thing, into the run's own provenance,
+    beside the other stamps -- not into a separate index that could disagree.
+    """
+    prov["adopted"] = {
+        "at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "target": str(target.relative_to(ROOT)),
+    }
+    prov_path.write_text(json.dumps(prov, indent=2) + "\n")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("run_dir")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--candidate")
+    ap.add_argument("--readopt", action="store_true",
+                    help="re-adopt a run whose published text has since changed")
     args = ap.parse_args()
 
     run_dir = Path(args.run_dir).resolve()
@@ -154,9 +176,32 @@ def main() -> int:
     print(f"  candidate: {cand.name}  ({cand.stat().st_size/1024:.0f} KB)")
     print(f"  target   : {target.relative_to(ROOT)}")
 
+    # A run that has already been adopted is no longer an authority on the
+    # published text. Backfilling adoption stamps re-ran this over Dedekind and
+    # silently reverted a hand edit made after adoption -- restoring a state the
+    # library had deliberately moved on from -- and reset an ocr_status a person
+    # had promoted to complete. Adoption is one-way by design; going back the
+    # other way has to be asked for.
+    if prov.get("adopted") and target.is_file() and not args.readopt:
+        drifted = not filecmp.cmp(cand, target, shallow=False)
+        promoted = meta.get("ocr_status") == "complete"
+        if drifted or promoted:
+            print("\n  REFUSED — this run was already adopted"
+                  f" ({prov['adopted'].get('at', '')}), and the published text has"
+                  " since moved:")
+            if drifted:
+                print("    the file differs from this run's output (edited after adoption)")
+            if promoted:
+                print("    its status is 'complete' — somebody read it")
+            print("  Re-adopting would overwrite that. Pass --readopt if that is"
+                  " what you mean.")
+            return 1
+
     if target.is_file() and filecmp.cmp(cand, target, shallow=False):
         if meta.get("ocr_status") in ("needs-review", "complete"):
             print("  already adopted, byte-identical, status set — nothing to do")
+            if args.apply:
+                stamp_adopted(prov_path, prov, target)
             return 0
         print("  content already identical; only the status differs")
 
@@ -216,8 +261,12 @@ def main() -> int:
 
     meta["filename"] = target.name
     meta["format"] = "markdown"
-    meta["ocr_status"] = "needs-review"
+    # needs-review is a floor, not an assignment. Only a person reading the text
+    # against its source can set 'complete', and this must never take that back.
+    if meta.get("ocr_status") != "complete":
+        meta["ocr_status"] = "needs-review"
     meta_path.write_text(json.dumps(meta, indent=2) + "\n")
+    stamp_adopted(prov_path, prov, target)
     print(f"\n  adopted → {target.relative_to(ROOT)}")
     print("  ocr_status = needs-review  (machine-checked; nobody has read it yet)")
 

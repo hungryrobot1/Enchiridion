@@ -10,7 +10,7 @@ positions in the lifecycle; unnumbered ones are called from anywhere.**
 ```
 0-recon/         what is this document, and which track does it take
 1-prepare/       narrow the PDF to the text we actually want
-2-extract/       PDF-native extraction, or OCR
+2-extract/       source-native, PDF-native, or OCR
 3-postprocess/   raw markdown → reader-ready markdown
 4-proofread/     compare against the printed page
 
@@ -34,8 +34,16 @@ the person running it is not us. It carries both halves: the bookkeeping, and th
 charter sent to the worker — where to start, what the checks actually ask, when to
 stop and ask rather than guess, and what is worth reporting back. The charter
 lives in the script rather than in a document beside it so the instructions and
-the thing that sends them cannot drift apart. Completed runs are kept under
-[`runs/`](runs/); `ocr/runs-status.py` summarises them.
+the thing that sends them cannot drift apart. Runs are kept under
+[`runs/`](runs/), permanently — they are the record of what was asked and what
+came back.
+
+`ocr/runs-status.py` prints the runs **still open**. A run closes when
+`adopt-run.py` takes its output into the library, or when a `CLOSED.md` in the
+run directory says why it was set aside without adoption. `--all` shows every
+run; nothing is ever deleted. **Adoption is one-way**: it sets `needs-review`
+and never overwrites a text a person has since edited or promoted to
+`complete`.
 
 ### Why the stages are marked out this way
 
@@ -89,8 +97,11 @@ needs this venv's interpreter, not the system `python3`.
 
 ## End-to-end sequence
 
-1. **Acquire source.** Place under `texts/<era>/<text-id>/`. If the source
-   is an EPUB (e.g. Project Gutenberg), convert to PDF first:
+1. **Acquire source.** Place under `texts/<era>/<text-id>/`. **Before settling
+   for the PDF, look for the structured source it was generated from** — see
+   `0-recon/STAGE.md`; for a text with notation this decides everything
+   downstream, and it needs network access, so it cannot be delegated. If the
+   source is an EPUB (e.g. Project Gutenberg), convert to PDF first:
    `./ocr/1-prepare/convert-epub-to-pdf.sh <path-to-epub>`. Mistral's OCR API is
    PDF-only, and inspecting the rendered PDF makes the split decision
    (next step) much easier. Then run `python utilities/inventory.py` to
@@ -157,12 +168,50 @@ All scripts default to dry-run; pass `--apply` (or equivalent) to write.
 | `collapse-verse-blanks.py` | Collapse OCR-inserted blank lines between consecutive verse lines within a single speaker block. Conservative rule: only collapses blanks within runs of 3+ verse lines separated by single blanks — a lone blank between two tight verse blocks is preserved as a genuine stanza break. Skips speaker tags, headings, stage directions, strophe/antistrophe markers, list items, images, and horizontal rules as boundaries. Run only on texts with `layout: "verse"` in metadata. |
 | `collect_images.py` | After hand-splitting a multi-treatise OCR output, copy the referenced images into a sibling `images/` folder. |
 
+## Source-native extraction (where a structured source can be had)
+
+**Prefer the source a PDF was generated from, over the PDF.** For anything
+carrying real notation this is not a refinement, it is the difference between a
+usable text and an unusable one.
+
+A PDF's text layer records glyphs and where they sat. It does not record that
+two glyphs stood in a numerator-over-denominator relation, or that one was a
+subscript, and extraction cannot recover what was never written down. Dedekind
+is the controlled experiment — same text, same model, same instructions, one
+file added to `source/`:
+
+| source | math blocks | Greek |
+|---|---|---|
+| the publisher's PDF | **0** | mojibake |
+| the LaTeX it was generated from | **3,262** | intact |
+
+The PDF run also rendered 227 instances of Dedekind's set-relation symbol as the
+digit `3`, silently and consistently — a defect no diagnostic here can see, since
+`3` is well-formed. Einstein repeated the result: 0 math blocks from the PDF, 366
+from Fourmilab's TeX.
+
+There is no tool for this track. Both texts were done by reading the LaTeX
+directly, using the published PDF as a **rendered witness** — the authority on
+how a passage should look, not on what it says. That is the same relationship the
+sibling epub has to a PG text, and it carries the same limit: a source and its
+own output are one act of copying rendered twice, so they establish fidelity and
+never correctness (see the note at the end of the diagnostic-triad section).
+
+**Finding the source is recon's job and needs network access**, so a dispatched
+worker cannot do it — both runs that needed one stopped and asked. Known
+addresses are in `0-recon/STAGE.md`.
+
 ## PDF-native extraction (bilingual / clean-embedded-text PDFs)
 
 For PDFs with clean embedded text (e.g. Fitzpatrick's Euclid), deterministic
 PyMuPDF extraction replaces Mistral OCR entirely: crop + split + extract +
 scaffold. Greek polytonic comes through perfectly, and there is no per-text
 OCR cost.
+
+**This holds for prose, and for bilingual and polytonic text. It does not hold
+for mathematics** — see the section above. Where a text has notation and no
+structured source can be found, extraction is still the right track, but its
+output should be read as prose-complete and notation-suspect.
 
 | Script | Purpose |
 |---|---|

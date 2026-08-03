@@ -7,5 +7,9 @@
   "started": "2026-08-01T14:36:13Z",
   "finished": "2026-08-01T15:19:45Z",
   "exit_code": 0,
-  "session_id": "019fbdc1-0f2a-7971-8268-c49109eda958"
+  "session_id": "019fbdc1-0f2a-7971-8268-c49109eda958",
+  "adopted": {
+    "at": "2026-08-03T18:51:04Z",
+    "target": "texts/6-nineteenth-century/dedekind-essays-on-theory-of-numbers/dedekind-essays-on-theory-of-numbers.md"
+  }
 }

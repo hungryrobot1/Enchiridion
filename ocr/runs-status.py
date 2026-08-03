@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """What every dispatch run is doing, and which ones are waiting on us.
 
-  ocr/runs-status.py              table on stdout
+  ocr/runs-status.py              the runs still open
+  ocr/runs-status.py --all        every run ever dispatched
   ocr/runs-status.py --html FILE  same data as a standalone page
   ocr/runs-status.py --escalations only the runs blocked on an answer
 
@@ -31,6 +32,18 @@ without provenance is reported STALLED rather than RUNNING, because a machine
 that slept mid-run looks exactly like a worker that is thinking, and the
 difference matters when deciding whether to wait.
 
+## Closed runs are hidden
+
+By default this prints only what is still open, because a dashboard that also
+prints months of finished work stops being read. A run is closed when it has
+been adopted -- `adopt-run.py` stamps the provenance -- or when a `CLOSED.md` in
+the run directory says why it was set aside without adoption. Nothing is
+deleted: the run directories are the record, and `--all` shows every one.
+
+`CLOSED.md` is freeform and its content is never parsed, only its first line is
+shown. Writing one is how a superseded or abandoned run stops asking for
+attention; deleting it reopens the run.
+
 ## Resuming
 
 A blocked run is resumed with its session id, which the dispatcher records in
@@ -59,19 +72,38 @@ from pathlib import Path
 QUIET_AFTER = 900
 
 
+TERMINAL = ("ADOPTED", "CLOSED")
+
+
+def first_line(path: Path) -> str:
+    for line in path.read_text(errors="replace").splitlines():
+        if line.strip() and not line.startswith("#"):
+            return line.strip()[:60]
+    return ""
+
+
 def state_of(run: Path) -> tuple[str, str]:
     """Returns (state, detail). Derived from files, never asserted."""
     prov = run / "provenance.json"
     esc = run / "ESCALATION.md"
     log = run / "run.log"
+    closed = run / "CLOSED.md"
+
+    # Closed states come first, and CLOSED before ADOPTED: a run set aside by
+    # hand is set aside whatever else its files say, including an escalation
+    # nobody intends to answer.
+    if closed.exists():
+        return "CLOSED", first_line(closed) or "see CLOSED.md"
+    if prov.exists():
+        try:
+            adopted = json.loads(prov.read_text()).get("adopted")
+        except json.JSONDecodeError:
+            adopted = None
+        if adopted:
+            return "ADOPTED", f"→ {adopted.get('target', '')}"
 
     if esc.exists():
-        first = ""
-        for line in esc.read_text(errors="replace").splitlines():
-            if line.strip() and not line.startswith("#"):
-                first = line.strip()[:60]
-                break
-        return "BLOCKED", first or "see ESCALATION.md"
+        return "BLOCKED", first_line(esc) or "see ESCALATION.md"
 
     if prov.exists():
         try:
@@ -134,11 +166,21 @@ def collect(root: Path) -> list[dict]:
     return rows
 
 
-def print_table(rows: list[dict], only_blocked: bool) -> None:
+def print_table(rows: list[dict], only_blocked: bool, show_all: bool) -> None:
+    hidden = 0
     if only_blocked:
         rows = [r for r in rows if r["state"] == "BLOCKED"]
+    elif not show_all:
+        keep = [r for r in rows if r["state"] not in TERMINAL]
+        hidden = len(rows) - len(keep)
+        rows = keep
     if not rows:
-        print("  no runs" if not only_blocked else "  nothing blocked")
+        if only_blocked:
+            print("  nothing blocked")
+        elif hidden:
+            print(f"  nothing open — {hidden} closed run(s) hidden (--all to see them)")
+        else:
+            print("  no runs")
         return
     print(f"  {'run':44} {'state':8} {'min':>5} {'out KB':>7} {'notes':>6} {'tools':>5}")
     print("  " + "-" * 80)
@@ -148,6 +190,8 @@ def print_table(rows: list[dict], only_blocked: bool) -> None:
               f"{r['output_kb']:7.0f} {r['notes_kb']:6.1f} {r['tools']:5}")
         if r["detail"]:
             print(f"      {r['detail']}")
+    if hidden:
+        print(f"\n  {hidden} closed run(s) hidden — --all to see them")
     blocked = [r for r in rows if r["state"] == "BLOCKED"]
     for r in blocked:
         print(f"\n  BLOCKED — {r['path']}/ESCALATION.md")
@@ -159,9 +203,13 @@ def print_table(rows: list[dict], only_blocked: bool) -> None:
 
 def write_html(rows: list[dict], path: Path) -> None:
     colour = {"DONE": "#2f6f3e", "BLOCKED": "#9a5b00", "RUNNING": "#26506e",
-              "FAILED": "#8c2f2f", "STALLED": "#6b5b2f", "EMPTY": "#666"}
+              "FAILED": "#8c2f2f", "STALLED": "#6b5b2f", "EMPTY": "#666",
+              "ADOPTED": "#777", "CLOSED": "#777"}
+    # The page is the archive view and keeps everything, but open work sorts to
+    # the top and closed work greys out, so the two halves stay distinguishable
+    # without a second file.
     cells = []
-    for r in rows:
+    for r in sorted(rows, key=lambda r: (r["state"] in TERMINAL, r["name"])):
         m = f"{r['minutes']:.0f}" if r["minutes"] is not None else "—"
         cells.append(
             f"<tr><td><code>{html.escape(r['name'])}</code>"
@@ -187,7 +235,8 @@ def write_html(rows: list[dict], path: Path) -> None:
 <table><tr><th>run<th>state<th>min<th>out KB<th>notes<th>tools</tr>
 {''.join(cells)}</table>
 <p>Generated {datetime.now().strftime('%Y-%m-%d %H:%M')} by <code>ocr/runs-status.py</code>.
-State is derived from files on disk, not stored.</p>""", encoding="utf-8")
+State is derived from files on disk, not stored. Open runs first, then adopted
+and closed ones; the terminal shows only the open half.</p>""", encoding="utf-8")
     print(f"  wrote {path}")
 
 
@@ -196,11 +245,13 @@ def main() -> int:
     ap.add_argument("--html", metavar="FILE")
     ap.add_argument("--escalations", action="store_true",
                     help="only runs blocked on an answer")
+    ap.add_argument("--all", action="store_true",
+                    help="include adopted and closed runs")
     args = ap.parse_args()
 
     root = Path(__file__).resolve().parents[1]
     rows = collect(root)
-    print_table(rows, args.escalations)
+    print_table(rows, args.escalations, args.all)
     if args.html:
         write_html(rows, Path(args.html))
     return 1 if any(r["state"] == "BLOCKED" for r in rows) else 0

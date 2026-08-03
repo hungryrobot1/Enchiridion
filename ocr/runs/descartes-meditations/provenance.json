@@ -34,5 +34,9 @@
       "finished": "2026-08-03T17:49:39Z",
       "exit_code": 0
     }
-  ]
+  ],
+  "adopted": {
+    "at": "2026-08-03T18:51:06Z",
+    "target": "texts/4-renaissance-scientific-revolution/descartes-meditations/descartes-meditations.md"
+  }
 }

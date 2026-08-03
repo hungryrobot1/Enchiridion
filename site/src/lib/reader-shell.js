@@ -112,6 +112,11 @@ export async function renderReader(container, options) {
       readerCleanup = await reader.render(contentEl, url, shell, {
         layout, title, tocId: options.tocId, work: options.work,
         chapters: options.chapters, typePanel,
+        // Forwarded explicitly, like everything else here. This list is an
+        // allowlist, so a new reader option is silently dropped in transit
+        // until it is added -- it reaches the shell and never reaches the
+        // reader, which looks exactly like the feature not working.
+        flatSectionsBelow: options.flatSectionsBelow,
       });
       if (fmt === 'markdown' || fmt === 'md') {
         rewriteRelativeMdLinks(contentEl, options.linkRewriter);

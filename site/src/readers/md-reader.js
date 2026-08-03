@@ -212,7 +212,7 @@ export default {
     // recursion the same hang just moves to the section's toggle. Each level is
     // parsed only when its parent opens; the deepest sections (no further
     // subheadings) parse their content directly.
-    const ctx = { md, blocksById };
+    const ctx = { md, blocksById, flatBelow: opts.flatSectionsBelow ?? null };
     const { preambleMd, sections } = splitMarkdownIntoSections(text, 1);
 
     wrapper.innerHTML = md.parse(preambleMd);
@@ -423,8 +423,69 @@ function wrapInterlinearGroups(root) {
 // instead of waiting on the async toggle event.
 const sectionBuilders = new WeakMap();
 
+// Same contract as buildSection -- same slug path, same `data-section`, same
+// class, so `childSectionsOf` and `openSectionPath` treat the two alike and a
+// deep link resolves identically whichever shape a section took. It carries no
+// entry in `sectionBuilders` because there is nothing deferred to build.
+function buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) {
+  const { md, blocksById, flatBelow } = ctx;
+
+  const section = document.createElement('section');
+  section.className = 'md-reader__section md-reader__section--flat';
+  section.dataset.level = String(level);
+
+  const slug = uniqueSlug(slugifyHeading(headingMd), usedSlugs);
+  const path = parentPath ? `${parentPath}/${slug}` : slug;
+  section.dataset.section = path;
+
+  // Real heading elements, so the document keeps a correct outline for
+  // assistive technology instead of a wall of undifferentiated prose.
+  const heading = document.createElement(`h${Math.min(level + 1, 6)}`);
+  heading.className = 'md-reader__section-heading';
+  heading.innerHTML = md.parseInline(headingMd);
+  heading.appendChild(buildAnchorButton(section));
+  section.appendChild(heading);
+
+  const body = document.createElement('div');
+  section.appendChild(body);
+
+  const { preambleMd, sections } = splitMarkdownIntoSections(bodyMd, level + 1);
+  body.innerHTML = md.parse(preambleMd);
+  finalizeSubtree(body, blocksById);
+
+  const childSlugs = new Set();
+  for (const sub of sections) {
+    body.appendChild(buildSection(sub, level + 1, ctx, path, childSlugs));
+  }
+  return section;
+}
+
 function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) {
-  const { md, blocksById } = ctx;
+  const { md, blocksById, flatBelow } = ctx;
+
+  // A FLAT section renders as a heading with its content beneath it, rather
+  // than as a thing to be clicked open. Pascal's Pensées is the case that asked
+  // for it: 923 numbered fragments, many of them a single aphoristic line,
+  // where making each its own collapsible meant sixty clicks to read sixty
+  // thoughts.
+  //
+  // The alternative was to demote the fragments to `###` in the markdown, which
+  // works -- the splitter matches an exact level, so a gap in the levels ends
+  // the recursion and the body renders inline. It was rejected because it puts
+  // a rendering decision into the prose source as an implicit convention, and
+  // because fragments would then vanish from `buildToc`, which reads the
+  // markdown: the contents, the MCP server's mirror of it, and every `?s=`
+  // deep link would have to be rebuilt to get back what they already do. This
+  // way the markdown, the contents and the anchors are all untouched, and only
+  // the rendering changes -- which is where the decision belongs.
+  //
+  // The cost is that a flat section is parsed when its PARENT opens, not when
+  // it is opened itself, so it forfeits the lazy split that keeps long
+  // documents responsive. Opt in per text, and not for one with heavy sections:
+  // Pascal's largest is 77 KB of prose with no math.
+  if (flatBelow != null && level > flatBelow) {
+    return buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs);
+  }
 
   const details = document.createElement('details');
   details.className = 'md-reader__section';
@@ -497,10 +558,14 @@ function parseSectionParam() {
 
 // Direct child sections of a node. The wrapper holds them as immediate
 // children; a built <details> holds them inside its body div.
+// Matches on the CLASS rather than the tag, so a flat <section> is found the
+// same way a collapsible <details> is. Selecting on `details` was what made a
+// flat section unreachable by deep link while looking, from the outside, like
+// an ordinary one.
 function childSectionsOf(node) {
   const sel = node.classList?.contains('md-reader')
-    ? ':scope > details.md-reader__section'
-    : ':scope > div > details.md-reader__section';
+    ? ':scope > .md-reader__section'
+    : ':scope > div > .md-reader__section';
   return Array.from(node.querySelectorAll(sel));
 }
 
@@ -530,9 +595,11 @@ function openSectionPath(wrapper, path) {
   for (const segment of segments) {
     const next = resolveSegment(scope, segment);
     if (!next) break;
+    // A flat section has nothing deferred and nothing to open; it is already
+    // rendered by the time its parent exists.
     const ensureBuilt = sectionBuilders.get(next);
     if (ensureBuilt) ensureBuilt();
-    next.open = true;
+    if (next.tagName === 'DETAILS') next.open = true;
     target = next;
     scope = next;
   }
@@ -540,10 +607,14 @@ function openSectionPath(wrapper, path) {
   if (!target) return;
   requestAnimationFrame(() => {
     target.scrollIntoView({ block: 'start' });
-    const summary = target.querySelector(':scope > summary');
-    if (summary) {
-      summary.classList.add('md-reader__section-summary--targeted');
-      setTimeout(() => summary.classList.remove('md-reader__section-summary--targeted'), 2000);
+    // A collapsible section is flagged on its summary, a flat one on its
+    // heading; without the fallback a deep link into a flat section would
+    // scroll correctly and then give no sign of having arrived anywhere.
+    const marker = target.querySelector(
+      ':scope > summary, :scope > .md-reader__section-heading');
+    if (marker) {
+      marker.classList.add('md-reader__section-summary--targeted');
+      setTimeout(() => marker.classList.remove('md-reader__section-summary--targeted'), 2000);
     }
   });
 }

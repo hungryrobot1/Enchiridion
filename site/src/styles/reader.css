@@ -460,6 +460,28 @@
   margin-left: var(--space-md);
 }
 
+/* Flat sections (Pascal's numbered fragments) are read straight through rather
+   than opened one at a time, so they carry no rule, no disclosure arrow and no
+   indent — the number is a marker in the text, not a door. They keep their §
+   anchor: still addressable, just not collapsible. */
+.md-reader__section--flat {
+  margin: var(--space-lg) 0 0;
+  border-top: none;
+}
+
+.md-reader__section .md-reader__section--flat {
+  margin-left: 0;
+}
+
+.md-reader__section-heading {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  line-height: var(--line-height-tight);
+  color: var(--color-ink-soft);
+  margin: 0 0 var(--space-2xs);
+  scroll-margin-top: calc(var(--header-height) + var(--space-sm));
+}
+
 .md-reader__section-summary::-webkit-details-marker {
   display: none;
 }
@@ -500,6 +522,7 @@
 }
 
 .md-reader__section-summary:hover .md-reader__anchor,
+.md-reader__section-heading:hover .md-reader__anchor,
 .md-reader__anchor:focus-visible {
   opacity: 1;
 }

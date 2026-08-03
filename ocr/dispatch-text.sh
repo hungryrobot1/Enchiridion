@@ -3,12 +3,14 @@
 #
 #   ocr/dispatch-text.sh <text-id> [model]
 #
-# This is BOOKKEEPING ONLY. It assembles a workspace, pins provenance, and files
-# what comes back under ocr/runs/<text-id>/. It says nothing about how to process
-# a text — that is ocr/README.md and the STAGE.md files, which the worker reads
-# for itself. Nothing here is per-genre or per-text, because after one run we do
-# not know what varies, and guessing is how you get an interface you have to
-# unlearn.
+# Two things live here and nothing else: the BOOKKEEPING (assemble a workspace,
+# pin provenance, file what comes back under ocr/runs/<text-id>/) and the CHARTER
+# sent to the worker. There was a separate ocr/DISPATCH.md holding the charter;
+# it duplicated the prompt and the two would have drifted apart. One file, so the
+# instructions and the thing that sends them are versioned together.
+#
+# What is NOT here is anything per-genre or per-text. How to process a text is
+# ocr/README.md and the STAGE.md files, which the worker reads for itself.
 #
 # It exists because the first run was assembled by hand and the record came out
 # wrong twice: artifacts landed in a scratch directory the user could not read,
@@ -54,6 +56,13 @@ find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp {} "$WORK/source/" \
 TITLE=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('title',''))")
 AUTHOR=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('author',''))")
 
+# The prompt IS the charter. There was a separate ocr/DISPATCH.md saying much of
+# this; it overlapped with the prompt and the two would have drifted. One place,
+# versioned with the script that sends it.
+#
+# Two heredocs on purpose: the first interpolates paths and titles, the second is
+# quoted so prose containing $ and backticks needs no escaping. Escaping a long
+# charter by hand is how a charter acquires silent typos.
 cat > "$WORK/TASK.md" <<EOF
 # Task
 
@@ -62,32 +71,98 @@ Take one text as far through the Enchiridion pipeline as it will honestly go.
 **The text:** $AUTHOR, *$TITLE* (\`$TEXT_ID\`). Its sources are in \`source/\`,
 along with the metadata the library currently holds for it.
 
-**Where to start:** \`$ROOT/ocr/README.md\`, then \`$ROOT/ocr/DISPATCH.md\`.
-Each stage directory has a \`STAGE.md\` saying what it consumes, what it
-produces, what test says it succeeded, and — the useful part — what that test
-does not check. There is no brief specific to this text. If those documents
-leave you guessing, that is a fact about them worth reporting.
+**The repository** is at \`$ROOT\`, readable but not writable by you. Start with
+\`$ROOT/ocr/README.md\`. Use \`$ROOT/ocr/.venv/bin/python3\` where PyMuPDF is
+needed — it imports as \`pymupdf\`, not \`fitz\`.
 
-**Where you may write:** this workspace. The repository is readable, and its
-tools, precedents in \`ocr/text-specific-tools/\`, and documentation are yours to
-use. Use \`$ROOT/ocr/.venv/bin/python3\` where PyMuPDF is needed.
-
-**What the checks are for.** The diagnostic triad asks whether a renderer can
-handle the notation — so it is informative exactly to the degree the text
-contains notation, and says nothing about whether the words are the right words.
-Most checks here answer a narrower question than their name suggests. Reading
-what a check actually asks is worth more than running it.
-
-**What we want besides the text.** Keep \`NOTES.md\`. The processing is the
-smaller half of this; the larger half is what the attempt teaches about the
-pipeline. Worth recording: where the documentation was wrong, missing, or
-contradicted what you found; what you decided and on what evidence; what you
-could not settle and why; anything true beyond this one text.
-
-A stage left undone with a clear account of what blocked it is a good outcome.
-So is a decision made on stated evidence. What is not useful is a silent guess,
-because nothing downstream can catch one.
+**Where you may write:** this workspace, and nowhere else.
 EOF
+
+cat >> "$WORK/TASK.md" <<'CHARTER'
+
+## How the pipeline is arranged
+
+A text moves through numbered stages: `0-recon`, `1-prepare`, `2-extract`,
+`3-postprocess`, `4-proofread`. Unnumbered directories are called from anywhere —
+`verify/` holds checks that never edit, `figures/` and `drama/` are tracks that
+span several stages, `text-specific-tools/` holds per-text work and its
+precedents are worth reading before you write your own.
+
+Each stage carries a `STAGE.md` saying what it consumes, what it produces, what
+test says it succeeded, and what that test does not check. The last field is the
+useful one. There is no brief specific to your text; if these documents leave you
+guessing, that is a fact about them worth reporting.
+
+## What the checks are for
+
+Most checks here answer a narrower question than their name suggests, and knowing
+which question is worth more than running them.
+
+The diagnostic triad asks whether a renderer can handle the notation. It is
+informative exactly to the degree the text contains notation, and it says nothing
+about whether the words are the right words. A text with no mathematics will pass
+it while telling you nothing.
+
+Two sources agreeing is weaker evidence than it looks. An epub and a PDF built
+from one transcription, or a PDF generated from the TeX beside it, are two
+renderings of a single act of copying: they establish fidelity, never
+correctness. Where that is the situation, say so rather than letting agreement
+stand in for a second witness.
+
+And a probe that finds nothing has proved nothing until it has been shown to find
+a case known to exist. Four separate false conclusions here came from believing a
+zero. Ship a negative control, or a positive one — compare a page with itself
+before trusting a duplicate scan that reports none.
+
+## Working on the text
+
+Never edit the text by hand. Repairs go through a script with asserted anchors
+and counts, so that a wrong edit is reviewable rather than invisible, and so the
+work can be re-derived when a source is re-extracted. Run the relevant acceptance
+test after each change and report what it said.
+
+## When to stop and ask
+
+Stopping is a good outcome, and three kinds of question are worth stopping for.
+
+**A decision that is ours to make.** Apparatus is the standing example: editorial
+introductions, notes-on-the-text and bibliographies come out, while authorial
+footnotes and a translator's bracketed interpolations stay — and getting it
+backwards deletes the author. Alternating verse and prose is another; a
+whole-work verse declaration shatters prose that alternates with it. These fail
+invisibly, which is why they are worth a question rather than a guess.
+
+**Permission, which is not a judgment at all.** Network access, or anything that
+spends money or touches an external service — running the OCR API, for instance,
+where a mistake upstream means paying to do it again. Ask; do not decide.
+
+**The method's premise does not hold here.** If the approach the documents assume
+turns out not to apply to your text — no independent witness where one was
+presumed, a stage contract written for PDFs when a better source is not a PDF —
+that is the most valuable thing you can tell us, because it corrects the
+documents rather than the text.
+
+To stop: write `ESCALATION.md` in this workspace saying what you need and what
+turns on it, then finish. Your session is resumable, so you will be restarted
+with an answer and your context intact. A blocked stage with a clear account
+beats a finished text with a silent guess, because nothing downstream can catch
+a guess.
+
+## What to write down
+
+Keep `NOTES.md`. The processing is the smaller half of this; what the attempt
+teaches about the pipeline is the larger half. Worth recording: what you decided
+and on what evidence, where the documentation was wrong or missing or
+contradicted what you found, what you could not settle, and anything true beyond
+this one text.
+
+Note also where the time went — which steps were slow, and whether each was slow
+because the work is genuinely intricate or because the tooling made it harder
+than it needed to be. We cannot tell those apart from the outside.
+
+Do not mark anything complete that you have not verified, and do not change
+`ocr_status` to claim a completeness you could not establish.
+CHARTER
 
 mkdir -p "$RUN"
 START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
@@ -107,6 +182,11 @@ END=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
 # Provenance is written HERE, not by whatever called this, so a caller that dies
 # does not take the record with it.
+# The session id makes a run RESUMABLE: `codex exec resume <id> "<answer>"`
+# restarts the worker with its context intact, which is how an escalation gets
+# answered without holding a process open waiting for us.
+SESSION_ID="$(grep -aoE 'session id: [0-9a-f-]{36}' "$RUN/run.log" | head -1 | awk '{print $3}' || true)"
+
 cat > "$RUN/provenance.json" <<EOF
 {
   "text_id": "$TEXT_ID",
@@ -114,6 +194,7 @@ cat > "$RUN/provenance.json" <<EOF
   "reasoning_effort": "$EFFORT",
   "codex_cli": "$(codex --version 2>/dev/null || echo unknown)",
   "repo_head": "$(git -C "$ROOT" rev-parse --short HEAD)",
+  "session_id": "${SESSION_ID:-unknown}",
   "started": "$START",
   "finished": "$END",
   "exit_code": $RC
@@ -123,6 +204,7 @@ EOF
 # Lift the record out of the disposable workspace.
 cp "$WORK/TASK.md" "$RUN/" 2>/dev/null || true
 [ -f "$WORK/NOTES.md" ] && cp "$WORK/NOTES.md" "$RUN/" || echo "  NO NOTES.md — the run reported nothing about itself" >&2
+[ -f "$WORK/ESCALATION.md" ] && { cp "$WORK/ESCALATION.md" "$RUN/"; echo "  ESCALATED — see $RUN/ESCALATION.md"; } || true
 find "$WORK" -maxdepth 1 -name '*.md' ! -name 'TASK.md' ! -name 'NOTES.md' \
      -exec cp {} "$RUN/" \; 2>/dev/null || true
 # Any tool the worker wrote, wherever it chose to put it. The first version

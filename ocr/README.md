@@ -29,10 +29,13 @@ tests well-formedness, and four defect classes have passed it cleanly.
 **When you add a tool, register it in that directory's `STAGE.md`.** A tool
 absent from the table is a tool the next session will not know exists.
 
-**[`DISPATCH.md`](DISPATCH.md)** is the protocol for running a text through this
-pipeline when the person running it is not us: where to start, what never to do
-by hand, when to stop and ask, and what is worth reporting back. It deliberately
-adds no vocabulary of its own — the stages below are the vocabulary.
+**[`dispatch-text.sh`](dispatch-text.sh)** runs a text through this pipeline when
+the person running it is not us. It carries both halves: the bookkeeping, and the
+charter sent to the worker — where to start, what the checks actually ask, when to
+stop and ask rather than guess, and what is worth reporting back. The charter
+lives in the script rather than in a document beside it so the instructions and
+the thing that sends them cannot drift apart. Completed runs are kept under
+[`runs/`](runs/); `ocr/runs-status.py` summarises them.
 
 ### Why the stages are marked out this way
 

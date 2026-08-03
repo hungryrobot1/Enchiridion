@@ -65,7 +65,7 @@ and
 
 (8) from $\overline{M} = \overline{N}$ we get $M \sim N$.
 
-Thus the equivalence of aggregates forms the neces- sary and sufficient condition for the equality of their cardinal numbers.
+Thus the equivalence of aggregates forms the necessary and sufficient condition for the equality of their cardinal numbers.
 
 [483] In fact, according to the above definition of power, the cardinal number $\overline{\overline{\mathbf{M}}}$ remains unaltered if in the place of each of one or many or even all elements $m$ of $\mathbf{M}$ other things are substituted. If, now, $\mathbf{M} \sim \mathbf{N}$, there is a law of co-ordination by means of which $\mathbf{M}$ and $\mathbf{N}$ are uniquely and reciprocally referred to one another; and by it to the element $m$ of $\mathbf{M}$ corresponds the element $n$ of $\mathbf{N}$. Then we can imagine, in the place of every element $m$ of $\mathbf{M}$, the corresponding element $n$ of $\mathbf{N}$ substituted, and, in this way, $\mathbf{M}$ transforms into $\mathbf{N}$ without alteration of cardinal number. Consequently
 
@@ -79,7 +79,7 @@ The converse of the theorem results from the remark that between the elements of
 
 In the same way $\mathbf{N} \sim \overline{\overline{\mathbf{N}}}$. If then $\overline{\overline{\mathbf{M}}} = \overline{\overline{\mathbf{N}}}$, we have, by (6), $\mathbf{M} \sim \mathbf{N}$.
 
-We will mention the following theorem, which results immediately from the conception of equival- ence. If M, N, P, . . . are aggregates which have no common elements, M', N', P', . . . are also aggregates with the same property, and if
+We will mention the following theorem, which results immediately from the conception of equivalence. If M, N, P, . . . are aggregates which have no common elements, M', N', P', . . . are also aggregates with the same property, and if
 
 $$ M \sim M', \quad N \sim N', \quad P \sim P', \quad \ldots, $$
 
@@ -289,16 +289,16 @@ $$
 $$
 
 
-[488] We see how pregnant and far-reaching these simple formulae extended to powers are by the following example. If we denote the power of the linear continuum X (that is, the totality X of real numbers $x$ such that $x \geq$ and $\leq 1$) by $\mathfrak{o}$, we easily see that it may be represented by, amongst others, the formula:
+[488] We see how pregnant and far-reaching these simple formulae extended to powers are by the following example. If we denote the power of the linear continuum X (that is, the totality X of real numbers $x$ such that $x \geq$ and $\leq 1$) by $\mathfrak{c}$, we easily see that it may be represented by, amongst others, the formula:
 
 $$
-\mathfrak{o} = 2^{\mathfrak{M}_0}, \tag{I1}
+\mathfrak{c} = 2^{\aleph_0}, \tag{11}
 $$
 
-where $\S 6$ gives the meaning of $\mathfrak{M}_0$. In fact, by (4), $2^{\mathfrak{M}}$ is the power of all representations
+where $\S 6$ gives the meaning of $\aleph_0$. In fact, by (4), $2^{\aleph_0}$ is the power of all representations
 
 $$
-x = \frac{f(1)}{2} + \frac{f(2)}{2^2} + \dots + \frac{f(\nu)}{2^\nu} + \dots \tag{I2}
+x = \frac{f(1)}{2} + \frac{f(2)}{2^2} + \dots + \frac{f(\nu)}{2^\nu} + \dots \tag{12}
 $$
 
 (where $f(\nu) = 0$ or 1)
@@ -306,7 +306,7 @@ $$
 of the numbers $x$ in the binary system. If we pay attention to the fact that every number $x$ is only represented once, with the exception of the numbers $x = \frac{2\nu + 1}{2^{\mu}} < 1$, which are represented twice over, we have, if we denote the “enumerable” totality of the latter by $\{s_\nu\}$,
 
 $$
-2^{\mathfrak{M}_0} = \overline{(\{s_\nu\}, \overline{X})}.
+2^{\aleph_0} = \overline{(\{s_\nu\}, \overline{X})}.
 $$
 
 If we take away from X any “enumerable” aggregate $\{t_\nu\}$ and denote the remainder by $X_1$, we have:
@@ -323,25 +323,25 @@ $$
 
 and thus (§ 1)
 
-$$ 2^{\aleph_0} = \overline{\overline{\chi}} = 0. $$
+$$ 2^{\aleph_0} = \overline{\overline{X}} = \mathfrak{c}. $$
 
 From (11) follows by squaring (by § 6, (6))
 
-$$ 0 \cdot 0 = 2^{\aleph_0} \cdot 2^{\aleph_0} = 2^{\aleph_0 + \aleph_0} = 2^{\aleph_0} = 0, $$
+$$ \mathfrak{c} \cdot \mathfrak{c} = 2^{\aleph_0} \cdot 2^{\aleph_0} = 2^{\aleph_0 + \aleph_0} = 2^{\aleph_0} = \mathfrak{c}, $$
 
-and hence, by continued multiplication by 0,
+and hence, by continued multiplication by $\mathfrak{c}$,
 
-(13) $$ 0^{\nu} = 0, $$
+(13) $$ \mathfrak{c}^{\nu} = \mathfrak{c}, $$
 
 where $\nu$ is any finite cardinal number.
 
 If we raise both sides of (11) to the power * $\aleph_0$ we get
 
-$$ 0^{\aleph_0} = (2^{\aleph_0^0})^{\aleph_0} = 2^{\aleph_0 \cdot \aleph_0}. $$
+$$ \mathfrak{c}^{\aleph_0} = (2^{\aleph_0})^{\aleph_0} = 2^{\aleph_0 \cdot \aleph_0}. $$
 
 But since, by § 6, (8), $\aleph_0 \cdot \aleph_0 = \aleph_0$, we have
 
-(14) $$ 0^{\aleph_0} = 0. $$
+(14) $$ \mathfrak{c}^{\aleph_0} = \mathfrak{c}. $$
 
 The formulæ (13) and (14) mean that both the $\nu$-dimensional and the $\aleph_0$-dimensional continuum have the power of the one-dimensional continuum. Thus the whole contents of my paper in Crelle’s Journal, vol. lxxxiv, 1878,† are derived purely algebraically with these few strokes of the pen from the fundamental formulæ of the calculation with cardinal numbers.
 
@@ -430,11 +430,11 @@ E. If $\mathbf{N}$ is an aggregate with the finite cardinal number $\nu$, and $\
 
 *Proof of E.*—We will suppose the correctness of the theorem up to a certain $\nu$ and then conclude its validity for the number $\nu + 1$ which immediately follows, in the following manner:—We start from the aggregate $E_{\nu} = (e_0, e_1, \ldots, e_{\nu})$ as an aggregate with the cardinal number $ \nu + 1 $. If the theorem is true for this aggregate, its truth for any other aggregate with the same cardinal number $ \nu + 1 $ follows at once by § 1. Let $ \mathbf{E}' $ be any part of $ \mathbf{E}_\nu $; we distinguish the following cases:
 
-(a) $ \mathbf{E}' $ does not contain $ e_\nu $ as element, then $ \mathbf{E} $ is either $ \mathbf{E}_{\nu-1}[49\mathbf{I}] $ or a part of $ \mathbf{E}_{\nu-1} $, and so has as cardinal number either $ \nu $ or one of the numbers $ 1, 2, 3, \ldots, \nu-1 $, because we supposed our theorem true for the aggregate $ \mathbf{E}_{\nu-1} $, with the cardinal number $ \nu $.
+(a) $\mathbf{E}'$ does not contain $e_\nu$ as element, then $\mathbf{E}'$ is either $\mathbf{E}_{\nu-1}$ [491] or a part of $\mathbf{E}_{\nu-1}$, and so has as cardinal number either $ \nu $ or one of the numbers $ 1, 2, 3, \ldots, \nu-1 $, because we supposed our theorem true for the aggregate $ \mathbf{E}_{\nu-1} $, with the cardinal number $ \nu $.
 
 (b) $ \mathbf{E}' $ consists of the single element $ e_\nu $, then $ \overline{\mathbf{E}'} = 1 $.
 
-(c) $ \mathbf{E}' $ consists of $ e_\nu $ and an aggregate $ \mathbf{E}'' $, so that $ \mathbf{E}' = (\mathbf{E}''', e_\nu) $. $ \mathbf{E}'' $ is a part of $ \mathbf{E}_{\nu-1} $ and has therefore by supposition as cardinal number one of the numbers $ 1, 2, 3, \ldots, \nu-1 $. But now $ \overline{\mathbf{E}'} = \overline{\mathbf{E}''} + 1 $, and thus the cardinal number of $ \mathbf{E}' $ is one of the numbers $ 2, 3, \ldots, \nu $.
+(c) $ \mathbf{E}' $ consists of $ e_\nu $ and an aggregate $ \mathbf{E}'' $, so that $\mathbf{E}' = (\mathbf{E}'', e_\nu)$. $ \mathbf{E}'' $ is a part of $ \mathbf{E}_{\nu-1} $ and has therefore by supposition as cardinal number one of the numbers $ 1, 2, 3, \ldots, \nu-1 $. But now $ \overline{\mathbf{E}'} = \overline{\mathbf{E}''} + 1 $, and thus the cardinal number of $ \mathbf{E}' $ is one of the numbers $ 2, 3, \ldots, \nu $.
 
 Proof of A.—Every one of the aggregates which we have denoted by $ \mathbf{E}_\nu $ has the property of not being equivalent to any of its parts. For if we suppose that this is so as far as a certain $ \nu $, it follows from the theorem D that it is so for the immediately following number $ \nu + 1 $. For $ \nu = 1 $, we recognize at once that the aggregate $ \mathbf{E}_1 = (e_0, e_1) $ is not equivalent to any of its parts, which are here $ (e_0) $ and $ (e_1) $. Consider, now, any two numbers $ \mu $ and $ \nu $ of the series $ 1, 2, 3, \ldots $; then, if $ \mu $ is the earlier and $ \nu $ the later, $ \mathbf{E}_{\mu-1} $ is a part of $ \mathbf{E}_{\nu-1} $. Thus $ \mathbf{E}_{\mu-1} $ and E_{ν-1} are not equivalent, and accordingly their cardinal numbers $\mu=\overline{\overline{E}}_{\mu-1}$ and $\nu=\overline{\overline{E}}_{\nu-1}$ are not equal.
 
@@ -464,8 +464,7 @@ $$
 
 ## § 6
 
-### The Smallest Transfinite Cardinal Number
-Aleph-Zero
+### The Smallest Transfinite Cardinal Number Aleph-Zero
 
 Aggregates with finite cardinal numbers are called “finite aggregates,” all others we will call “transfinite aggregates” and their cardinal numbers “transfinite cardinal numbers.”
 
@@ -596,7 +595,7 @@ $$
 $$
 
 
-Proof.—By (6) of § 3, $N_0 \cdot N_0$ is the cardinal number of the aggregate of bindings
+Proof.—By (6) of § 3, $\aleph_0 \cdot \aleph_0$ is the cardinal number of the aggregate of bindings
 
 $$
 \{( \mu, \nu) \},
@@ -720,7 +719,7 @@ $$
 
 its corresponding cardinal number.
 
-The ordinal types of finite ordered aggregates offer no special interest. For we easily convince ourselves that, for one and the same finite cardinal number $\nu$, all simply ordered aggregates are similar to one another, and thus have one and the same type. Thus the finite simple ordinal types are subject to the same laws as the finite cardinal numbers, and it is allowable to use the same signs 1, 2, 3, . . ., $\nu$, . . . for them, although they are conceptually different from the cardinal numbers. The case is quite different with the transfinite ordinal types; for to one and the same cardinal number belong innumerably many different types of simply ordered aggregates, which, in their totality, constitute a particular “class of types” (Typenclasse). Every one of these classes of types is, therefore, determined by the transfinite cardinal number $\mathfrak{a}$ which is common to all the types belonging to the class. Thus we call it for short the class of types $[\mathfrak{a}]$. That class which naturally presents itself first to us, and whose complete investigation must, accordingly, be the next special aim of the theory of transfinite aggregates, is the class of types $[\mathbf{N}_0]$ which embraces all the types with the least transfinite cardinal number $\mathbf{N}_0$. From the cardinal number which determines the class of types $[\mathfrak{a}]$ we have to distinguish that cardinal number $\mathfrak{a}'$ which for its part [499] is determined by the class of types $[\mathfrak{a}]$. The latter is the cardinal number which (§ 1) the class $[\mathfrak{a}]$ has, in so far as it represents a well-defined aggregate whose elements are all the types $\mathfrak{a}$ with the cardinal number $\mathfrak{a}$. We will see that $\mathfrak{a}'$ is different from $\mathfrak{a}$, and indeed always greater than $\mathfrak{a}$.
+The ordinal types of finite ordered aggregates offer no special interest. For we easily convince ourselves that, for one and the same finite cardinal number $\nu$, all simply ordered aggregates are similar to one another, and thus have one and the same type. Thus the finite simple ordinal types are subject to the same laws as the finite cardinal numbers, and it is allowable to use the same signs 1, 2, 3, . . ., $\nu$, . . . for them, although they are conceptually different from the cardinal numbers. The case is quite different with the transfinite ordinal types; for to one and the same cardinal number belong innumerably many different types of simply ordered aggregates, which, in their totality, constitute a particular “class of types” (Typenclasse). Every one of these classes of types is, therefore, determined by the transfinite cardinal number $\mathfrak{a}$ which is common to all the types belonging to the class. Thus we call it for short the class of types $[\mathfrak{a}]$. That class which naturally presents itself first to us, and whose complete investigation must, accordingly, be the next special aim of the theory of transfinite aggregates, is the class of types $[\aleph_0]$ which embraces all the types with the least transfinite cardinal number $\aleph_0$. From the cardinal number which determines the class of types $[\mathfrak{a}]$ we have to distinguish that cardinal number $\mathfrak{a}'$ which for its part [499] is determined by the class of types $[\mathfrak{a}]$. The latter is the cardinal number which (§ 1) the class $[\mathfrak{a}]$ has, in so far as it represents a well-defined aggregate whose elements are all the types $\mathfrak{a}$ with the cardinal number $\mathfrak{a}$. We will see that $\mathfrak{a}'$ is different from $\mathfrak{a}$, and indeed always greater than $\mathfrak{a}$.
 
 If in an ordered aggregate $\mathbf{M}$ all the relations of precedence of its elements are inverted, so that “lower” becomes “higher” and “higher” becomes “lower” everywhere, we again get an ordered aggregate, which we will denote by
 
@@ -1255,7 +1254,7 @@ HALLE, March 1895.
 
 ### Well-Ordered Aggregates
 
-Among simply ordered aggregates “well-ordered aggregates” deserve a special place; their ordinal types, which we call “ordinal numbers,” form the natural material for an exact definition of the higher transfinite cardinal numbers or powers,—a definition which is throughout conformable to that which was given us for the least transfinite cardinal number $A$ leph-zero by the system of all finite numbers $v$ (§ 6).
+Among simply ordered aggregates “well-ordered aggregates” deserve a special place; their ordinal types, which we call “ordinal numbers,” form the natural material for an exact definition of the higher transfinite cardinal numbers or powers,—a definition which is throughout conformable to that which was given us for the least transfinite cardinal number Aleph-zero by the system of all finite numbers $v$ (§ 6).
 
 We call a simply ordered aggregate $F$ (§ 7) “well-ordered” if its elements $f$ ascend in a definite succession from a lowest $f_1$ in such a way that:
 
@@ -1340,7 +1339,7 @@ E. If in a well-ordered aggregate G, in place of its elements $g$ well-ordered a
 
 ### The Segments of Well-Ordered Aggregates
 
-If $f$ is any element of the well-ordered aggregate $F$ which is different from the initial element $f_1$, then we will call the aggregate $A$ of all elements of $F$ which precede $f$ a “segment (Abschnitt) of $F$,” or, more fully, “the segment of $F$ which is defined by the element $f$.” On the other hand, the aggre- gate R of all the other elements of F, including $f$, is a “remainder of F,” and, more fully, “the remainder which is determined by the element $f$.” The aggregates A and R are, by theorem C of § 12, well-ordered, and we may, by § 8 and § 12, write:
+If $f$ is any element of the well-ordered aggregate $F$ which is different from the initial element $f_1$, then we will call the aggregate $A$ of all elements of $F$ which precede $f$ a “segment (Abschnitt) of $F$,” or, more fully, “the segment of $F$ which is defined by the element $f$.” On the other hand, the aggregate R of all the other elements of F, including $f$, is a “remainder of F,” and, more fully, “the remainder which is determined by the element $f$.” The aggregates A and R are, by theorem C of § 12, well-ordered, and we may, by § 8 and § 12, write:
 
 $$
 \begin{array}{ll}
@@ -1475,7 +1474,7 @@ F. If F and G are two well-ordered aggregates, a segment A of F can have at most
 
 *Proof.*—If the segment A of F could have two segments B and B' in G which were similar to it, B and B' would be similar to one another, which is impossible by theorem D.
 
-G. If A and B are similar segments of two well- ordered aggregates F and G, for every smaller segment A'<A of F there is a similar segment B'<B of G and for every smaller segment B'<B of G a similar segment A'<A of F.
+G. If A and B are similar segments of two well-ordered aggregates F and G, for every smaller segment A'<A of F there is a similar segment B'<B of G and for every smaller segment B'<B of G a similar segment A'<A of F.
 
 The proof follows from theorem A applied to the similar aggregates A and B.
 
@@ -1569,7 +1568,7 @@ O. If a part $F'$ of a well-ordered aggregate $F$ is not similar to any segment 
 
 ### The Ordinal Numbers of Well-Ordered Aggregates
 
-By § 7, every simply ordered aggregate $M$ has a definite ordinal type $\overline{M}$; this type is the general con- cept which results from M if we abstract from the nature of its elements while retaining their order of precedence, so that out of them proceed units (Einsen) which stand in a definite relation of precedence to one another. All aggregates which are similar to one another, and only such, have one and the same ordinal type. We call the ordinal type of a well-ordered aggregate F its “ordinal number.”
+By § 7, every simply ordered aggregate $M$ has a definite ordinal type $\overline{M}$; this type is the general concept which results from M if we abstract from the nature of its elements while retaining their order of precedence, so that out of them proceed units (Einsen) which stand in a definite relation of precedence to one another. All aggregates which are similar to one another, and only such, have one and the same ordinal type. We call the ordinal type of a well-ordered aggregate F its “ordinal number.”
 
 If $\alpha$ and $\beta$ are any two ordinal numbers, one can stand to the other in one of three possible relations. For if F and G are two well-ordered aggregates such that
 
@@ -1801,7 +1800,7 @@ $$
 
 We have already mentioned in § 7 that all simply ordered aggregates of given finite cardinal number $\nu$ have one and the same ordinal type. This may be proved here as follows. Every simply ordered aggregate of finite cardinal number is a well-ordered aggregate; for it, and every one of its parts, must have a lowest element,—and this, by theorem B of § 12, characterizes it as a well-ordered aggregate. The types of finite simply ordered aggregates are thus none other than finite ordinal numbers. But two different ordinal numbers $\alpha$ and $\beta$ cannot belong to the same finite cardinal number $\nu$. For if, say, $\alpha < \beta$ and $\overline{G} = \beta$, then, as we know, there exists a segment B of G such that $\overline{B} = \alpha$. Thus the aggregate G and its part B would have the same finite cardinal number $\nu$. But this, by theorem C of § 6, is impossible. Thus the finite ordinal numbers coincide in their properties with the finite cardinal numbers.
 
-The case is quite different with the transfinite ordinal numbers; to one and the same transfinite cardinal number $\mathfrak{a}$ belong an infinity of ordinal numbers which form a unitary and connected system. We will call this system the “number-class $Z(\mathfrak{a})$,” and it is a part of the class of types $[\mathfrak{a}]$ of § 7. The next object of our consideration is the number-class $Z(\mathfrak{N}_0)$, which we will call “the second number-class.” For in this connexion we understand by “the first number-class” the totality $\{\nu\}$ of finite ordinal numbers.
+The case is quite different with the transfinite ordinal numbers; to one and the same transfinite cardinal number $\mathfrak{a}$ belong an infinity of ordinal numbers which form a unitary and connected system. We will call this system the “number-class $Z(\mathfrak{a})$,” and it is a part of the class of types $[\mathfrak{a}]$ of § 7. The next object of our consideration is the number-class $Z(\aleph_0)$, which we will call “the second number-class.” For in this connexion we understand by “the first number-class” the totality $\{\nu\}$ of finite ordinal numbers.
 
 
 [221]
@@ -1841,14 +1840,14 @@ with *finite* ordinal number $\nu$. Thus $\gamma = \nu$. Therefore there are no 
 
 B. If $a$ is any number of the second number-class, the number $a + 1$ follows it as the next greater number of the same number-class.
 
-*Proof.*—Let $F$ be a well-ordered aggregate of the type $a$ and of the cardinal number $N_0$:
+*Proof.*—Let $F$ be a well-ordered aggregate of the type $a$ and of the cardinal number $\aleph_0$:
 
 $$
 \overline{F} = a, \quad (5)
 $$
 
 $$
-\overline{a} = N_0. \quad (6)
+\overline{a} = \aleph_0. \quad (6)
 $$
 
 We have, where by $g$ is understood a new element,
@@ -1866,14 +1865,14 @@ $$
 We also have
 
 $$
-\overline{a + 1} = \overline{a} + 1 = N_0 + 1 = N_0 \quad (\S 6).
+\overline{a + 1} = \overline{a} + 1 = \aleph_0 + 1 = \aleph_0 \quad (\S 6).
 $$
 
 Therefore the number $a + 1$ belongs to the second number-class. Between $a$ and $a + 1$ there are no ordinal numbers; for every number $\gamma$ [222] which is less than $a + 1$ corresponds, as type, to a segment of $(F, g)$, and such a segment can only be either $F$ or a segment of $F$. Therefore $\gamma$ is either equal to or less than $a$.
 
 C. If $a_1, a_2, \ldots, a_\nu, \ldots$ is any fundamental series of numbers of the first or second number-class, then the number $\text{Lim } a_\nu \ (\S 14)$ following them next in order of magnitude belongs to the second number-class.
 
-*Proof.*—By $\S 14$ there results from the funda- mental series $\{\alpha_{\nu}\}$ the number $\operatorname{Lim} \alpha_{\nu}$ if we set up another series $\beta_{1}, \beta_{2}, \ldots, \beta_{\nu}, \ldots$, where
+*Proof.*—By $\S 14$ there results from the fundamental series $\{\alpha_{\nu}\}$ the number $\operatorname{Lim} \alpha_{\nu}$ if we set up another series $\beta_{1}, \beta_{2}, \ldots, \beta_{\nu}, \ldots$, where
 
 $$
 \beta_{1} = \alpha_{1}, \quad \beta_{2} = \alpha_{2} - \alpha_{1}, \ldots, \quad \beta_{\nu + 1} = \alpha_{\nu + 1} - \alpha_{\nu}, \ldots
@@ -2057,7 +2056,7 @@ $$
 
 Since $\overline{\alpha} = \aleph_0$, we also have $\overline{\{\overline{\alpha'}\}} = \aleph_0$; thus we have the theorems:
 
-I. The aggregate $\{\alpha'\}$ of numbers $\alpha'$ of the first and second number-classes which are smaller than a number $a$ of the second number-class has the cardinal number $N_0$.
+I. The aggregate $\{\alpha'\}$ of numbers $\alpha'$ of the first and second number-classes which are smaller than a number $a$ of the second number-class has the cardinal number $\aleph_0$.
 
 K. Every number $a$ of the second number-class is either such that $(a)$ it arises out of the next smaller number $a_{-1}$ by the addition of $I$:
 
@@ -2132,7 +2131,7 @@ Before we turn to the more detailed considerations in the following paragraphs o
 * [Cf. Section VII of the Introduction.]
 
 
-cardinal number which is possessed by the aggregate $Z(\mathfrak{M}_0) = \{a\}$ of all these numbers.
+cardinal number which is possessed by the aggregate $Z(\aleph_0) = \{a\}$ of all these numbers.
 
 [227] A. The totality $\{a\}$ of all numbers $a$ of the second number-class forms, when arranged in order of magnitude, a well-ordered aggregate.
 
@@ -2168,11 +2167,11 @@ B. Every totality of different numbers of the first and second number-classes ha
 
 C. Every totality of different numbers of the first and second number-classes arranged in their order of magnitude forms a well-ordered aggregate.
 
-We will now show that the power of the second number-class is different from that of the first, which is $N_0$.
+We will now show that the power of the second number-class is different from that of the first, which is $\aleph_0$.
 
-D. The power of the totality $\{\alpha\}$ of all numbers $\alpha$ of the second number-class is not equal to $N_0$.
+D. The power of the totality $\{\alpha\}$ of all numbers $\alpha$ of the second number-class is not equal to $\aleph_0$.
 
-*Proof.*—If $\{\overline{\alpha}\}$ were equal to $N_0$, we could bring the totality $\{\alpha\}$ into the form of a simply infinite series
+*Proof.*—If $\{\overline{\alpha}\}$ were equal to $\aleph_0$, we could bring the totality $\{\alpha\}$ into the form of a simply infinite series
 
 $$
 \gamma_1, \gamma_2, \dots, \gamma_r, \dots
@@ -2225,13 +2224,13 @@ $$
 \overline{A}_{a_0} = a_0 - \omega.
 $$
 
-Thus we have either $\{\overline{\beta}\} = a_0 - \omega$ or $\{\overline{\beta}\} = \{\overline{a}\}$, and consequently $\{\overline{\beta}\}$ is either equal to $\overline{a_0 - \omega}$ or $\{\overline{a}\}$. But $\overline{a_0 - \omega}$ is either a finite cardinal number or is equal to $N_0$ (theorem I of § 15). The first case is here excluded because $\{\beta\}$ is supposed to be an infinite aggregate. Thus the cardinal number $\{\overline{\beta}\}$ is either equal to $N_0$ or $\{\overline{a}\}$.
+Thus we have either $\{\overline{\beta}\} = a_0 - \omega$ or $\{\overline{\beta}\} = \{\overline{a}\}$, and consequently $\{\overline{\beta}\}$ is either equal to $\overline{a_0 - \omega}$ or $\{\overline{a}\}$. But $\overline{a_0 - \omega}$ is either a finite cardinal number or is equal to $\aleph_0$ (theorem I of § 15). The first case is here excluded because $\{\beta\}$ is supposed to be an infinite aggregate. Thus the cardinal number $\{\overline{\beta}\}$ is either equal to $\aleph_0$ or $\{\overline{a}\}$.
 
 F. The power of the second number-class $\{a\}$ is the second greatest transfinite cardinal number Aleph-one.
 
-[229] Proof.—There is no cardinal number $a$ which is greater than $N_0$ and less than $\{\overline{a}\}$. For if not, there would have to be, by § 2, an infinite part $\{\beta\}$ of $\{a\}$ such that $\{\overline{\beta}\} = a$. But by the theorem E just proved, the part $\{\beta\}$ has either the cardinal number $N_0$ or the cardinal number $\{\overline{a}\}$. Thus the cardinal number $\{\overline{a}\}$ is necessarily the cardinal number, which immediately follows $N_0$ in magnitude; we call this new cardinal number $N_1$.
+[229] Proof.—There is no cardinal number $a$ which is greater than $\aleph_0$ and less than $\{\overline{a}\}$. For if not, there would have to be, by § 2, an infinite part $\{\beta\}$ of $\{a\}$ such that $\{\overline{\beta}\} = a$. But by the theorem E just proved, the part $\{\beta\}$ has either the cardinal number $\aleph_0$ or the cardinal number $\{\overline{a}\}$. Thus the cardinal number $\{\overline{a}\}$ is necessarily the cardinal number, which immediately follows $\aleph_0$ in magnitude; we call this new cardinal number $\aleph_1$.
 
-In the second number-class $Z(N_0)$ we possess, consequently, the natural representative for the second greatest transfinite cardinal number Aleph-one.
+In the second number-class $Z(\aleph_0)$ we possess, consequently, the natural representative for the second greatest transfinite cardinal number Aleph-one.
 
 
 ## § 17
@@ -2419,11 +2418,11 @@ $$
 
 The factors $\omega^{\lambda} + 1$ which occur here are all irresoluble, and a number $\phi$ can be represented in this product-form in only one way. If $\mu_{\tau} = 0$, then $\phi$ is of the first kind, in all other cases it is of the second kind.
 
-The apparent deviation of the formulae of this paragraph from those which were given in Math. Ann., vol. xxi, p. 585 (or Grundlagen, p. 41), is merely a consequence of the different writing of the product of two numbers: we now put the multi- plicand on the left and the multiplicator on the right, but then we put them in the contrary way.
+The apparent deviation of the formulae of this paragraph from those which were given in Math. Ann., vol. xxi, p. 585 (or Grundlagen, p. 41), is merely a consequence of the different writing of the product of two numbers: we now put the multiplicand on the left and the multiplicator on the right, but then we put them in the contrary way.
 
 ## § 18
 
-### The Power * $\gamma^a$ in the Domain of the Second Number-Class
+### The Power<sup>*</sup> $\gamma^{\alpha}$ in the Domain of the Second Number-Class
 
 Let $\xi$ be a variable whose domain consists of the numbers of the first and second number-classes including zero. Let $\gamma$ and $\delta$ be two constants belonging to the same domain, and let
 
@@ -2633,8 +2632,10 @@ $$ \xi > \gamma^{\xi}, $$
 
 one of them, by theorem B of § 16, would have to be the least. If this number is denoted by $ \alpha $, we would have, for $ \xi < \alpha $,
 
+[235]
+
 $$
-\xi \leq \gamma^{\xi}; \tag{235}
+\xi \leq \gamma^{\xi};
 $$
 
 but
@@ -3167,7 +3168,7 @@ The degree $a_0$ of a number $a$ is, as is immediately evident from the normal f
 
 when we pay attention to theorem F of § 18, never greater than $a$; but it is a question whether there are not numbers for which $a_0 = a$. In such a case the normal form of $a$ would reduce to the first term, and this term would be equal to $\omega^a$, that is to say, $a$ would be a root of the equation
 
-(2) $\omega^{\xi} = \hat{\xi}.$
+(2) $\omega^{\xi} = \xi.$
 
 On the other hand, every root $a$ of this equation would have the normal form $\omega^a$; its degree would be equal to itself.
 

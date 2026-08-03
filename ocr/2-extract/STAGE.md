@@ -1,7 +1,9 @@
 # Stage 2 — Extract
 
-**Consumes:** a prepared PDF.
-**Produces:** raw markdown, plus an `images/` folder.
+**Consumes:** a prepared PDF, *or* a structured source — LaTeX, or the XHTML
+inside an EPUB. The PDF-only wording here was wrong the day the source-native
+track was added, and the Hamlet run named the mismatch from the other side.
+**Produces:** raw markdown, plus an `images/` folder where the source has figures.
 
 Three tracks, chosen at recon:
 

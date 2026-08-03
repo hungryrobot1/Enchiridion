@@ -1,0 +1,32 @@
+{
+  "title": "Hamlet",
+  "sections": [
+    { "title": "Dramatis Personæ" },
+    { "title": "SCENE. Elsinore." },
+    { "title": "ACT I" },
+    { "title": "SCENE I. Elsinore. A platform before the Castle." },
+    { "title": "SCENE II. Elsinore. A room of state in the Castle." },
+    { "title": "SCENE III. A room in Polonius’s house." },
+    { "title": "SCENE IV. The platform." },
+    { "title": "SCENE V. A more remote part of the Castle." },
+    { "title": "ACT II" },
+    { "title": "SCENE I. A room in Polonius’s house." },
+    { "title": "SCENE II. A room in the Castle." },
+    { "title": "ACT III" },
+    { "title": "SCENE I. A room in the Castle." },
+    { "title": "SCENE II. A hall in the Castle." },
+    { "title": "SCENE III. A room in the Castle." },
+    { "title": "SCENE IV. Another room in the Castle." },
+    { "title": "ACT IV" },
+    { "title": "SCENE I. A room in the Castle." },
+    { "title": "SCENE II. Another room in the Castle." },
+    { "title": "SCENE III. Another room in the Castle." },
+    { "title": "SCENE IV. A plain in Denmark." },
+    { "title": "SCENE V. Elsinore. A room in the Castle." },
+    { "title": "SCENE VI. Another room in the Castle." },
+    { "title": "SCENE VII. Another room in the Castle." },
+    { "title": "ACT V" },
+    { "title": "SCENE I. A churchyard." },
+    { "title": "SCENE II. A hall in the Castle." }
+  ]
+}

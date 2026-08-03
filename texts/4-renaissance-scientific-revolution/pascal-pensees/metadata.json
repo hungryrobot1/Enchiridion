@@ -1,13 +1,13 @@
 {
-  "title": "Pensées",
+  "title": "Pens\u00e9es",
   "author": "Blaise Pascal",
   "translator": "W.F. Trotter",
   "year_written": 1670,
   "year_translated": 1910,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "pg18269-images-3.pdf",
+  "format": "markdown",
+  "filename": "pascal-pensees.md",
   "description": "Fragmentary reflections on faith, reason, and the human condition",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

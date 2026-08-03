@@ -9,5 +9,14 @@
   "started": "2026-08-03T19:07:24Z",
   "finished": "2026-08-03T19:52:01Z",
   "exit_code": 0,
-  "completed": false
+  "completed": false,
+  "resumes": [
+    {
+      "started": "2026-08-03T19:55:05Z",
+      "finished": "2026-08-03T20:02:04Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "interrupted"
+    }
+  ]
 }

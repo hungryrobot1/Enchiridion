@@ -168,10 +168,12 @@ else
   echo "  resume FAILED (exit $RC) — escalation left open" >&2
 fi
 [ -f "$WORK/NOTES.md" ] && cp "$WORK/NOTES.md" "$RUN/"
-find "$WORK" -maxdepth 1 -name '*.md' ! -name 'TASK.md' ! -name 'NOTES.md' \
-     ! -name 'ANSWER.md' -exec cp {} "$RUN/" \; 2>/dev/null || true
-find "$WORK" -name '*.py' -not -path "$WORK/source/*" \
+# Everything the worker left, not an extension list -- see dispatch-text.sh.
+find "$WORK" -maxdepth 1 -type f ! -name 'TASK.md' ! -name 'ANSWER.md' \
      -exec cp {} "$RUN/" \; 2>/dev/null || true
+find "$WORK" \( -name '*.py' -o -name '*.sh' \) -not -path "$WORK/source/*" \
+     -exec cp {} "$RUN/" \; 2>/dev/null || true
+[ -d "$WORK/controls" ] && cp -R "$WORK/controls" "$RUN/" 2>/dev/null || true
 [ -f "$WORK/ESCALATION.md" ] && cp "$WORK/ESCALATION.md" "$RUN/" && \
   echo "  ESCALATED AGAIN — see $RUN/ESCALATION.md"
 

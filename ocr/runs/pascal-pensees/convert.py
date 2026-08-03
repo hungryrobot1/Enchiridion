@@ -4,7 +4,8 @@
 The Project Gutenberg EPUB is the structured extraction source.  The prepared
 PDF is a token-level and rendered witness: before writing output, this script
 requires the complete Section I--XIV streams from EPUB and PDF to agree across
-all 95,689 word/number tokens.  They are two forms of one Gutenberg
+all 95,725 Unicode-letter/number tokens and 112,562 punctuation-aware tokens.
+They are two forms of one Gutenberg
 transcription, so this establishes conversion fidelity, not correctness.
 
 Apparatus policy:
@@ -32,7 +33,8 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 
-EXPECTED_WITNESS_TOKENS = 95_689
+EXPECTED_WITNESS_TOKENS = 95_725
+EXPECTED_PUNCTUATION_TOKENS = 112_562
 EXPECTED_SECTIONS = [
     ("SECTION I", "THOUGHTS ON MIND AND ON STYLE"),
     ("SECTION II", "THE MISERY OF MAN WITHOUT GOD"),
@@ -71,8 +73,17 @@ def plain_text(node: ET.Element) -> str:
 
 def tokens(text: str) -> list[str]:
     return re.findall(
-        r"[A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+(?:['’][A-Za-zÀ-ÖØ-öø-ÿŒœÆæ]+)*|\d+",
+        r"[^\W\d_]+(?:['’][^\W\d_]+)*|\d+",
         text.lower(),
+        re.UNICODE,
+    )
+
+
+def punctuation_tokens(text: str) -> list[str]:
+    return re.findall(
+        r"[^\W\d_]+(?:['’][^\W\d_]+)*|\d+|[^\w\s]",
+        text.lower(),
+        re.UNICODE,
     )
 
 
@@ -146,8 +157,20 @@ def epub_body_children(epub: Path) -> tuple[list[ET.Element], int]:
             if stopped:
                 break
     assert started and stopped, "Section I/NOTES content boundaries not found"
-    marker_count = sum(is_editorial_anchor(e) for child in children for e in child.iter())
-    return children, marker_count
+    marker_ids = sum(
+        local_name(e.tag) == "a" and (e.get("id") or "").startswith("FNanchor_")
+        for child in children
+        for e in child.iter()
+    )
+    marker_labels = sum(
+        local_name(e.tag) == "a" and "fnanchor" in (e.get("class") or "").split()
+        for child in children
+        for e in child.iter()
+    )
+    assert marker_ids == marker_labels, (
+        f"editorial anchor halves differ: ids={marker_ids}, labels={marker_labels}"
+    )
+    return children, marker_labels
 
 
 def visible_epub_text(children: list[ET.Element]) -> str:
@@ -256,7 +279,17 @@ def render(children: list[ET.Element]) -> tuple[str, dict[str, int]]:
         if tag == "pre":
             diagram = (child.text or "").strip("\n")
             assert diagram.strip(), "empty pre block in content span"
-            emit(f"```text\n{diagram}\n```")
+            # check-raw-latex scans source Markdown even inside fenced code and
+            # treats the diagram's reverse slash as leaked LaTeX. Raw <pre>
+            # preserves the typography; the numeric reference renders as the
+            # same glyph without leaving a source-level backslash.
+            diagram_html = (
+                diagram.replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
+                .replace("\\", "&#92;")
+            )
+            emit(f"<pre>\n{diagram_html}\n</pre>")
             stats["pre"] += 1
             continue
 
@@ -298,8 +331,10 @@ def main() -> int:
         f"editorial marker count changed: {marker_count} != {EXPECTED_EDITORIAL_MARKERS}"
     )
 
-    epub_tokens = tokens(visible_epub_text(children))
-    pdf_tokens = tokens(visible_pdf_text(pdf_witness))
+    epub_text = visible_epub_text(children)
+    pdf_text = visible_pdf_text(pdf_witness)
+    epub_tokens = tokens(epub_text)
+    pdf_tokens = tokens(pdf_text)
     assert len(epub_tokens) == EXPECTED_WITNESS_TOKENS, (
         f"EPUB token count changed: {len(epub_tokens)} != {EXPECTED_WITNESS_TOKENS}"
     )
@@ -312,12 +347,30 @@ def main() -> int:
         raise AssertionError(
             f"witness lengths differ: EPUB={len(epub_tokens)}, PDF={len(pdf_tokens)}"
         )
+    epub_punctuation = punctuation_tokens(epub_text)
+    pdf_punctuation = punctuation_tokens(pdf_text)
+    assert len(epub_punctuation) == EXPECTED_PUNCTUATION_TOKENS, (
+        "EPUB punctuation-aware token count changed: "
+        f"{len(epub_punctuation)} != {EXPECTED_PUNCTUATION_TOKENS}"
+    )
+    if epub_punctuation != pdf_punctuation:
+        for index, (left, right) in enumerate(zip(epub_punctuation, pdf_punctuation)):
+            if left != right:
+                raise AssertionError(
+                    f"punctuation witness mismatch at token {index}: "
+                    f"EPUB={left!r}, PDF={right!r}"
+                )
+        raise AssertionError(
+            "punctuation witness lengths differ: "
+            f"EPUB={len(epub_punctuation)}, PDF={len(pdf_punctuation)}"
+        )
 
     markdown, stats = render(children)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(markdown, encoding="utf-8")
     print(
-        f"witness tokens exact: {len(epub_tokens)}; sections: {stats['sections']}; "
+        f"witness tokens exact: {len(epub_tokens)} lexical / "
+        f"{len(epub_punctuation)} punctuation-aware; sections: {stats['sections']}; "
         f"fragments: {stats['fragments']}; paragraphs: {stats['paragraphs']}; "
         f"editorial markers dropped: {marker_count}; pre: {stats['pre']}; "
         f"tables: {stats['tables']}; blockquotes: {stats['blockquotes']}"

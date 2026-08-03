@@ -158,9 +158,92 @@ def structure(path: Path) -> None:
     print("structure: removed 63 page rules; normalized 2 article and 20 section headings")
 
 
+def finishing(path: Path) -> None:
+    text = path.read_text(encoding="utf-8")
+    text = replace_exact(
+        text,
+        "### The Smallest Transfinite Cardinal Number\nAleph-Zero",
+        "### The Smallest Transfinite Cardinal Number Aleph-Zero",
+    )
+    text = replace_exact(
+        text,
+        "### The Power * $\\gamma^a$ in the Domain of the Second Number-Class",
+        "### The Power<sup>*</sup> $\\gamma^{\\alpha}$ in the Domain of the Second Number-Class",
+    )
+    text = replace_exact(text, "$A$ leph-zero", "Aleph-zero")
+    text = replace_exact(text, r"\hat{\xi}", r"\xi")
+
+    # One printed aleph-zero family was read four different ways.  The counts
+    # are deliberately token-specific so that an ordinary aggregate M or N
+    # can never be swept into the repair.
+    for before, after, expected in (
+        (r"\mathfrak{M}_0", r"\aleph_0", 4),
+        (r"\mathfrak{N}_0", r"\aleph_0", 1),
+        (r"\mathbf{N}_0", r"\aleph_0", 2),
+        (r"\mathfrak{M}", r"\aleph_0", 1),
+        ("N_0", r"\aleph_0", 16),
+    ):
+        text = replace_exact(text, before, after, expected)
+    text = replace_exact(text, "new cardinal number $N_1$.", "new cardinal number $\\aleph_1$.")
+
+    text = replace_exact(text, r"\mathfrak{o}", r"\mathfrak{c}", 2)
+    continuum_fixes = [
+        (r"\tag{I1}", r"\tag{11}"),
+        (r"\tag{I2}", r"\tag{12}"),
+        (
+            r"$$ 2^{\aleph_0} = \overline{\overline{\chi}} = 0. $$",
+            r"$$ 2^{\aleph_0} = \overline{\overline{X}} = \mathfrak{c}. $$",
+        ),
+        (
+            r"$$ 0 \cdot 0 = 2^{\aleph_0} \cdot 2^{\aleph_0} = 2^{\aleph_0 + \aleph_0} = 2^{\aleph_0} = 0, $$",
+            r"$$ \mathfrak{c} \cdot \mathfrak{c} = 2^{\aleph_0} \cdot 2^{\aleph_0} = 2^{\aleph_0 + \aleph_0} = 2^{\aleph_0} = \mathfrak{c}, $$",
+        ),
+        ("and hence, by continued multiplication by 0,", "and hence, by continued multiplication by $\\mathfrak{c}$,"),
+        (r"(13) $$ 0^{\nu} = 0, $$", r"(13) $$ \mathfrak{c}^{\nu} = \mathfrak{c}, $$"),
+        (
+            r"$$ 0^{\aleph_0} = (2^{\aleph_0^0})^{\aleph_0} = 2^{\aleph_0 \cdot \aleph_0}. $$",
+            r"$$ \mathfrak{c}^{\aleph_0} = (2^{\aleph_0})^{\aleph_0} = 2^{\aleph_0 \cdot \aleph_0}. $$",
+        ),
+        (r"(14) $$ 0^{\aleph_0} = 0. $$", r"(14) $$ \mathfrak{c}^{\aleph_0} = \mathfrak{c}. $$"),
+    ]
+    for before, after in continuum_fixes:
+        text = replace_exact(text, before, after)
+
+    assert not re.search(r"\\mathfrak\{[MN]\}_0|\\mathbf\{N\}_0|(?<![A-Za-z])N_0", text)
+    path.write_text(text, encoding="utf-8")
+    print("finishing: applied counted witness-backed notation/title repairs")
+
+
+def pagination(path: Path) -> None:
+    text = path.read_text(encoding="utf-8")
+    text = replace_exact(
+        text,
+        "(a) $ \\mathbf{E}' $ does not contain $ e_\\nu $ as element, then $ \\mathbf{E} $ is either $ \\mathbf{E}_{\\nu-1}[49\\mathbf{I}] $ or a part of $ \\mathbf{E}_{\\nu-1} $",
+        "(a) $\\mathbf{E}'$ does not contain $e_\\nu$ as element, then $\\mathbf{E}'$ is either $\\mathbf{E}_{\\nu-1}$ [491] or a part of $\\mathbf{E}_{\\nu-1}$",
+    )
+    text = replace_exact(
+        text,
+        "$ \\mathbf{E}' = (\\mathbf{E}''', e_\\nu) $",
+        "$\\mathbf{E}' = (\\mathbf{E}'', e_\\nu)$",
+    )
+    text = replace_exact(
+        text,
+        "$$\n\\xi \\leq \\gamma^{\\xi}; \\tag{235}\n$$",
+        "[235]\n\n$$\n\\xi \\leq \\gamma^{\\xi};\n$$",
+    )
+
+    markers = [int(n) for n in re.findall(r"\[([0-9]{3})\]", text)]
+    for low, high in ((481, 512), (207, 246)):
+        expected = list(range(low, high + 1))
+        seen = sorted(n for n in markers if low <= n <= high)
+        assert seen == expected, f"journal pagination {low}-{high} is incomplete or duplicated: {seen}"
+    path.write_text(text, encoding="utf-8")
+    print("pagination: restored [491] and [235]; both journal-page sequences are complete")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("phase", choices=("apparatus", "furniture", "notation", "structure"))
+    parser.add_argument("phase", choices=("apparatus", "furniture", "notation", "structure", "finishing", "pagination"))
     parser.add_argument("path", type=Path, help="output path, or proposal path for in-place phases")
     parser.add_argument("--source", type=Path)
     args = parser.parse_args()

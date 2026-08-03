@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg1524-images-3.pdf",
+  "format": "markdown",
+  "filename": "shakespeare-hamlet.md",
   "description": "Tragedy of a prince confronting mortality, duty, and the corruption of power",
   "topics": [
     "literature",
@@ -16,5 +16,5 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

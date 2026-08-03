@@ -5,6 +5,11 @@
 Work in progress. No completeness claim has been made and the source metadata's
 `ocr_status` has not been changed.
 
+- The session was externally interrupted after raw extraction and drama-audit
+  control checks, but before the planned speaker-normalization script was
+  written. Workspace review confirmed there was no half-written normalizer or
+  derived final file; extraction was the last completed mutation.
+
 ## Recon and route
 
 - Read the pipeline README and every applicable stage contract, including the
@@ -51,6 +56,69 @@ Work in progress. No completeness claim has been made and the source metadata's
   was mistaken for significant line endings. This would silently turn prose
   into verse-like hard breaks. The converter now uses a private sentinel and
   the raw extraction is always regenerated from the EPUB rather than edited.
+- Successful extraction: 183,557 characters / 31,834 whitespace-delimited
+  words; asserted 5 acts, 20 numbered scenes, 1,192 drama paragraphs, 70 scene
+  descriptions, and 115 right-aligned stage directions.
+- The raw-extraction triad exited 0: 0 lint issues, 0 KaTeX failures out of 0
+  math blocks, and 0 surviving backslashes. This is renderer evidence only and
+  nearly vacuous for Hamlet; the summary's “0 file(s)” means zero files with
+  findings, not that the supplied file was skipped.
+
+## Post-processing
+
+- `normalize_hamlet_speakers.py` rewrites only exact paragraph-opening tags and
+  asserts every spelling/count before writing a separate output. It normalized
+  1,137 tags. Unambiguous role tags follow the drama track's full-name rule:
+  `KING` → `CLAUDIUS` (102) and `QUEEN` → `GERTRUDE` (69). Joint and case-varied
+  tags are canonicalized without changing speech text.
+- The normalizer joins the first speech line to `**NAME:**` and preserves every
+  later EPUB-explicit hard break. It does not set `layout: verse`: known verse
+  (“To be…” / “Whether…”) renders a hard break, while known prose (“Get thee to
+  a nunnery…”) stays continuous.
+- The triad after speaker normalization again exited 0 with 0 math blocks. No
+  in-page links, HTML entities, raw fences, Gutenberg markers, transcriber note,
+  or lowercase-opening debris paragraph remains.
+- The short-paragraph census is dominated by real short speeches, acts, and
+  stage directions. Six untagged speech fragments remain source-faithful
+  continuations around intervening directions; attributing them afresh would be
+  an editorial change, so they were not guessed at.
+- `toc.json` mirrors all 27 headings after the title (cast, overall setting,
+  five acts, and twenty scenes).
+
+## Drama audit and controls
+
+- Shipped `controls/unclosed-stage-direction.md` as a positive control. The
+  drama audit finds its one known unclosed direction.
+- On final Hamlet the audit reports 0 unclosed-single, 0 stray-close, and 0
+  glued-to-speaker. Its two `unclosed-multi` reports are balanced directions
+  (`Reads`, `Advancing`) inside verse paragraphs; its one bare-direction report
+  is Horatio's ordinary verse line “Walks o’er the dew…”. These were inspected
+  and not changed.
+
+## Final mechanical verification
+
+- A fresh temporary extraction and normalization compared byte-for-byte equal
+  to `shakespeare-hamlet.raw.md` and `shakespeare-hamlet.md`.
+- `verify_hamlet.py` passes: 31,834 words, 28 headings including the title,
+  1,137 canonical speaker tags, exact ToC correspondence, no forbidden debris,
+  and positive mixed verse/prose controls.
+- The repository's own `marked` and `section-tree.js` parse the candidate as
+  five lazy act sections with scene children `[5, 2, 4, 7, 2]`; the known verse
+  control renders `<br>` and the known prose control does not.
+- A visual in-reader spot-check could not be performed because this session had
+  no connected browser backend. This is a tooling limitation; the static reader
+  checks do not replace visual review.
+
+## Proofreading limit
+
+- Stage 4 was not completed. The PDF is a Calibre rendering of this very EPUB,
+  not a scan of an independent printed edition. Checking it establishes that
+  the conversion preserved Gutenberg's transcription and presentation, not
+  that Gutenberg copied Shakespeare correctly. The proposed text therefore
+  belongs at `needs-review`, never `complete`.
+- No `ESCALATION.md` is needed to propose the machine-checked candidate: the
+  adoption workflow deliberately accepts such files at `needs-review`. A real
+  stage-4 pass will require an independent printed witness and human comparison.
 
 ## Documentation findings
 
@@ -62,6 +130,14 @@ Work in progress. No completeness claim has been made and the source metadata's
   this EPUB marks verse line endings explicitly and prose only by source
   whitespace, allowing the extraction to preserve the local distinction
   without a whole-work `layout: verse` declaration.
+- The reader code comments currently list “Shakespeare” among whole-work verse
+  examples even though the task charter warns that whole-work verse breaks
+  alternating prose. The source-aware mixed strategy used here should become a
+  documented drama mode before it is generalized.
+- The workspace contains two new text-specific tools, but the repository's
+  `STAGE.md` cannot be updated from this read-only run. Adoption/maintenance
+  should move them under `ocr/text-specific-tools/shakespeare/` and register
+  them, or generalize the EPUB extractor if the pattern repeats.
 
 ## Time
 
@@ -69,3 +145,6 @@ Work in progress. No completeness claim has been made and the source metadata's
   intricate: establishing which XHTML whitespace is mere source wrapping and
   which `<br/>` is an authorial/typographic line ending, then making that
   distinction reviewable with asserted structural counts.
+- Post-processing itself was quick once the 43 exact speaker-tag forms and
+  counts were enumerated. The reader spot-check cost tooling time because no
+  browser backend was available; the static fallback was straightforward.

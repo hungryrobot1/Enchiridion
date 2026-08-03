@@ -285,14 +285,25 @@ EOF
 cp "$WORK/TASK.md" "$RUN/" 2>/dev/null || true
 [ -f "$WORK/NOTES.md" ] && cp "$WORK/NOTES.md" "$RUN/" || echo "  NO NOTES.md — the run reported nothing about itself" >&2
 [ -f "$WORK/ESCALATION.md" ] && { cp "$WORK/ESCALATION.md" "$RUN/"; echo "  ESCALATED — see $RUN/ESCALATION.md"; } || true
-find "$WORK" -maxdepth 1 -name '*.md' ! -name 'TASK.md' ! -name 'NOTES.md' \
+# EVERY top-level file the worker left, not a list of extensions we thought of.
+# The extension list was .md and .py, so Hamlet's toc.json -- a required
+# deliverable, named in its own PROPOSED.md -- stayed in the gitignored
+# workspace and would have been destroyed by the next dispatch. Cantor's
+# run_repair.sh likewise. That is the same whitelist-defaults-to-exclusion
+# failure as the source copier and the tool lifter before it, and the rule it
+# keeps teaching is that the part of a system that keeps the record should fail
+# loudly and keep too much.
+find "$WORK" -maxdepth 1 -type f ! -name 'TASK.md' ! -name 'ANSWER.md' \
      -exec cp {} "$RUN/" \; 2>/dev/null || true
 # Any tool the worker wrote, wherever it chose to put it. The first version
 # looked only under $WORK/ocr and silently dropped both Dedekind tools:
 # Rousseau used ocr/text-specific-tools/, Dedekind used text-specific-tools/,
 # and nothing tells a worker which. Search the workspace, skip its sources.
-find "$WORK" -name '*.py' -not -path "$WORK/source/*" \
+find "$WORK" \( -name '*.py' -o -name '*.sh' \) -not -path "$WORK/source/*" \
      -exec cp {} "$RUN/" \; 2>/dev/null || true
+# Controls are evidence: a worker that plants a known defect to prove a checker
+# can see it has produced the only artifact that justifies trusting the checker.
+[ -d "$WORK/controls" ] && cp -R "$WORK/controls" "$RUN/" 2>/dev/null || true
 
 echo "  exit $RC → ${RUN#$ROOT/}/"
 ls -1 "$RUN" | sed 's/^/    /'

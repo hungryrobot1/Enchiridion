@@ -140,8 +140,14 @@ needs this venv's interpreter, not the system `python3`.
    nor a capital — the two patterns that surface catchword orphans,
    signature marks, dangling heading fragments, and unmerged page-boundary
    continuations.
-7. **Author `toc.json`.** Hand-authored, per text. Drives heading
-   reconciliation and (eventually) an in-reader ToC sidebar.
+7. **Author `toc.json` — only if this text's processing needs it.** It is an
+   *input* to `strip-running-headers.py`, which uses it to recognise running
+   headers and promote section titles. It is not what the reader displays: the
+   site builds its own contents from the markdown's headings. Sixteen texts
+   carry one, all from the era-1 batch that needed header stripping; the texts
+   adopted since do not, and are none the worse. Two dispatch runs read this
+   step as mandatory and had to decide for themselves, which is what prompted
+   the correction.
 8. **Spot-check.** Open in the reader, scroll, sample sections, eyeball
    diagrams.
 9. **Update `metadata.json`.** Set `"format": "markdown"`.

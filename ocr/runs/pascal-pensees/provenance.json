@@ -9,5 +9,18 @@
   "started": "2026-08-03T19:07:21Z",
   "finished": "2026-08-03T19:52:01Z",
   "exit_code": 0,
-  "completed": false
+  "completed": false,
+  "resumes": [
+    {
+      "started": "2026-08-03T19:54:55Z",
+      "finished": "2026-08-03T20:03:53Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "interrupted"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-03T20:09:24Z",
+    "target": "texts/4-renaissance-scientific-revolution/pascal-pensees/pascal-pensees.md"
+  }
 }

@@ -9,5 +9,18 @@
   "started": "2026-08-03T19:07:23Z",
   "finished": "2026-08-03T19:52:01Z",
   "exit_code": 0,
-  "completed": false
+  "completed": false,
+  "resumes": [
+    {
+      "started": "2026-08-03T19:55:03Z",
+      "finished": "2026-08-03T20:00:29Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "interrupted"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-03T20:09:26Z",
+    "target": "texts/4-renaissance-scientific-revolution/shakespeare-hamlet/shakespeare-hamlet.md"
+  }
 }

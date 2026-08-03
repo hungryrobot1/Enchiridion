@@ -30,10 +30,17 @@ function stripStrayFences(text) {
   return text.replace(/^[ \t]*```(?:markdown)?[ \t]*\r?\n?/gm, '');
 }
 
-// For texts with `layout: "verse"` in metadata (tragedies, blank-verse epic,
-// Shakespeare). Append two trailing spaces to every "verse line" so markdown
-// renders single newlines as <br>. Skips lines that already have structural
-// meaning (headings, blanks, list items, stage directions, tables, HRs).
+// For texts that are verse THROUGHOUT and declare `layout: "verse"` (the Greek
+// tragedies, Lucretius). Append two trailing spaces to every "verse line" so
+// markdown renders single newlines as <br>. Skips lines that already have
+// structural meaning (headings, blanks, list items, stage directions, tables,
+// HRs).
+//
+// NOT Shakespeare, though this comment used to say so. A play that alternates
+// verse and prose cannot use a whole-work declaration: it would break every
+// prose speech into ragged lines. Those texts carry their line endings in the
+// source instead — Hamlet's come from the EPUB's explicit <br/>, which marks
+// exactly the breaks the compositor set and nothing else.
 function applyVerseLineBreaks(text) {
   const lines = text.split('\n');
   const out = new Array(lines.length);

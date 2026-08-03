@@ -119,7 +119,12 @@ def main() -> int:
         print("no provenance.json — this run did not finish", file=sys.stderr)
         return 2
     prov = json.loads(prov_path.read_text())
-    text_id = prov["text_id"]
+    # "text" is the legacy key from the hand-rolled wrapper that predated
+    # dispatch-text.sh; the first run in ocr/runs/ still carries it.
+    text_id = prov.get("text_id") or prov.get("text")
+    if not text_id:
+        print("provenance names no text", file=sys.stderr)
+        return 2
 
     if (run_dir / "ESCALATION.md").is_file():
         print("run is BLOCKED on an escalation; answer it before adopting", file=sys.stderr)

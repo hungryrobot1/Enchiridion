@@ -1,5 +1,5 @@
 {
-  "text": "rousseau-social-contract-and-discourses",
+  "text_id": "rousseau-social-contract-and-discourses",
   "model": "gpt-5.6-sol",
   "reasoning_effort": "medium",
   "codex_cli": "codex-cli 0.146.0",

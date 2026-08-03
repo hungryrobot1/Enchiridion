@@ -6,8 +6,8 @@
   "year_translated": 1913,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "pg46333-images-3.pdf",
+  "format": "markdown",
+  "filename": "rousseau-social-contract-and-discourses.md",
   "description": "Theory of popular sovereignty and the general will as the basis of legitimate government",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

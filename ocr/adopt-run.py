@@ -52,6 +52,9 @@ import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from run_manifest import output_candidates  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 VENV = ROOT / "ocr" / ".venv" / "bin" / "python3"
 
@@ -98,8 +101,7 @@ def find_candidate(run_dir: Path, explicit: str | None) -> Path | None:
             p = run_dir / Path(m.group(1)).name
             if p.is_file():
                 return p
-    cands = [f for f in run_dir.glob("*.md")
-             if f.name not in ("NOTES.md", "TASK.md", "ESCALATION.md", "PROPOSED.md")]
+    cands = output_candidates(run_dir)
     return cands[0] if len(cands) == 1 else None
 
 

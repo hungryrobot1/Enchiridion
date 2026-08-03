@@ -189,6 +189,25 @@ The first `h1` in a file is treated as the document title, and lazy sectioning
 begins at the second. So a collected volume needs its own title as the opening
 `h1` — otherwise the whole of the first work stays eager and never collapses.
 
+## What a run is expected to leave behind
+
+Four things, and only these are load-bearing:
+
+- **the markdown** — the transcription itself;
+- **`PROPOSED.md`** — naming which file that is, when there is more than one;
+- **`NOTES.md`** — what you did, found, and could not establish;
+- **the scripts that produced it** — anywhere in the workspace; they are lifted
+  from wherever you put them. Without them the text is an artifact nobody can
+  rebuild.
+
+Plus `ESCALATION.md` if you had to stop and ask.
+
+Everything else in the workspace is disposable, and you should feel free to
+treat it that way — intermediates, extractions, scratch files. In particular
+**do not write a `toc.json`.** The site generates a text's contents from its own
+headings at build time, and the headings themselves are settled at review. A run
+that hand-authors one is producing something nobody consumes.
+
 ## Naming your result
 
 If you produce a text you believe belongs in the library, write `PROPOSED.md`

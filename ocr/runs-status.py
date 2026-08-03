@@ -60,9 +60,13 @@ import argparse
 import html
 import json
 import os
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from run_manifest import output_candidates  # noqa: E402
 
 # Seconds of log silence before RUNNING becomes STALLED. 300 was too eager:
 # codex logs in bursts and goes quiet for longer than five minutes while
@@ -158,8 +162,7 @@ def collect(root: Path) -> list[dict]:
             except json.JSONDecodeError:
                 pass
         state, detail = state_of(run)
-        outs = [f for f in run.glob("*.md")
-                if f.name not in ("NOTES.md", "TASK.md", "ESCALATION.md")]
+        outs = output_candidates(run)
         rows.append({
             "name": run.name,
             "state": state,

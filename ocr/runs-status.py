@@ -113,9 +113,19 @@ def state_of(run: Path) -> tuple[str, str]:
         # The LAST attempt decides the state. A failed resume after a successful
         # first run was reported DONE, which hid a broken resume completely.
         resumes = d.get("resumes") or []
-        rc = resumes[-1]["exit_code"] if resumes else d.get("exit_code", 0)
+        last = resumes[-1] if resumes else d
+        rc = last.get("exit_code", 0)
         where = " on resume" if resumes else ""
-        return ("DONE", "") if rc == 0 else ("FAILED", f"exit {rc}{where}")
+        if rc != 0:
+            return "FAILED", f"exit {rc}{where}"
+        # Exit 0 is necessary and not sufficient: codex handles SIGTERM and
+        # exits 0, so a run cut off by a sleeping laptop looked exactly like a
+        # finished one. `completed` records whether the log ended normally.
+        # Runs predating the field are assumed complete rather than retroactively
+        # doubted.
+        if not last.get("completed", True):
+            return "INCOMPLETE", f"cut off mid-work{where}; resumable"
+        return "DONE", ""
 
     if log.exists():
         quiet = time.time() - log.stat().st_mtime
@@ -204,7 +214,7 @@ def print_table(rows: list[dict], only_blocked: bool, show_all: bool) -> None:
 def write_html(rows: list[dict], path: Path) -> None:
     colour = {"DONE": "#2f6f3e", "BLOCKED": "#9a5b00", "RUNNING": "#26506e",
               "FAILED": "#8c2f2f", "STALLED": "#6b5b2f", "EMPTY": "#666",
-              "ADOPTED": "#777", "CLOSED": "#777"}
+              "ADOPTED": "#777", "CLOSED": "#777", "INCOMPLETE": "#8c5a2f"}
     # The page is the archive view and keeps everything, but open work sorts to
     # the top and closed work greys out, so the two halves stay distinguishable
     # without a second file.

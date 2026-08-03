@@ -1,0 +1,13 @@
+{
+  "text_id": "shakespeare-hamlet",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "a3e0268",
+  "session_id": "019fc906-065a-7433-a7c9-a5ffa1cee9c2",
+  "started": "2026-08-03T19:07:23Z",
+  "finished": "2026-08-03T19:52:01Z",
+  "exit_code": 0,
+  "completed": false
+}

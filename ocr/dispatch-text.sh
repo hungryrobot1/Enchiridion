@@ -252,6 +252,19 @@ END=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 # answered without holding a process open waiting for us.
 SESSION_ID="$(grep -aoE 'session id: [0-9a-f-]{36}' "$RUN/run.log" | head -1 | awk '{print $3}' || true)"
 
+# EXIT CODE IS NOT A COMPLETION SIGNAL. `codex exec` handles SIGTERM and exits
+# 0, so three runs killed mid-work after the machine slept were all recorded
+# exit 0 and displayed as DONE -- a killed run and a finished one were
+# indistinguishable in the record.
+#
+# The log itself can tell them apart: codex prints a "tokens used" summary when
+# a turn ends normally, and nothing of the sort when it is cut off. Checked
+# against the five completed runs (all have it) and the three killed ones (none
+# do) before being trusted, because a probe that returns zero has proved nothing
+# until it has been shown to find a case known to exist.
+COMPLETED=false
+grep -aq "tokens used" "$RUN/run.log" && COMPLETED=true
+
 cat > "$RUN/provenance.json" <<EOF
 {
   "text_id": "$TEXT_ID",
@@ -263,7 +276,8 @@ cat > "$RUN/provenance.json" <<EOF
   "session_id": "${SESSION_ID:-unknown}",
   "started": "$START",
   "finished": "$END",
-  "exit_code": $RC
+  "exit_code": $RC,
+  "completed": $COMPLETED
 }
 EOF
 

@@ -26,9 +26,18 @@
 
 set -euo pipefail
 
-RUN_DIR="${1:?usage: ocr/resume-run.sh <run-dir> \"answer\" | --answer-file FILE}"
+RUN_DIR="${1:?usage: ocr/resume-run.sh <run-dir> \"answer\" | --answer-file FILE | --interrupted}"
 shift
-if [ "${1:-}" = "--answer-file" ]; then
+# --interrupted restarts a run that was cut off rather than one that asked a
+# question. A sleeping laptop leaves codex parked on a half-open socket; the
+# process must be killed, and what it needs afterwards is not an answer. Sending
+# it "your escalation has been answered" would be a lie about its own history,
+# and the exchange must NOT be archived as an escalation, because none occurred.
+INTERRUPTED=false
+if [ "${1:-}" = "--interrupted" ]; then
+  INTERRUPTED=true
+  ANSWER=""
+elif [ "${1:-}" = "--answer-file" ]; then
   ANSWER="$(cat "${2:?--answer-file needs a path}")"
 else
   ANSWER="${1:?an answer is required}"
@@ -52,7 +61,16 @@ TEXT_ID="$(python3 -c "import json;d=json.load(open('$PROV'));print(d.get('text_
 SRC_DIR="$(ls -d "$ROOT"/texts/*/"$TEXT_ID" 2>/dev/null | head -1 || true)"
 if [ -n "$SRC_DIR" ]; then
   before=$(ls -1 "$WORK/source" 2>/dev/null | wc -l | tr -d ' ')
-  find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp -n {} "$WORK/source/" \; 2>/dev/null || true
+  # Honour the run's own repair flag, or the re-sync would quietly re-impose the
+  # extraction-job exclusion on a repair job and withhold the very file it is
+  # about. cp -n throughout: source/ is the pristine copy and the worker's
+  # working files live elsewhere, but never overwrite what is already there.
+  REPAIR_RUN="$(python3 -c "import json;print(json.load(open('$PROV')).get('repair',False))")"
+  if [ "$REPAIR_RUN" = "True" ]; then
+    find "$SRC_DIR" -maxdepth 1 -type f -exec cp -n {} "$WORK/source/" \; 2>/dev/null || true
+  else
+    find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp -n {} "$WORK/source/" \; 2>/dev/null || true
+  fi
   after=$(ls -1 "$WORK/source" 2>/dev/null | wc -l | tr -d ' ')
   [ "$after" -gt "$before" ] && echo "  source/ gained $((after - before)) file(s) since dispatch"
 fi
@@ -62,10 +80,23 @@ fi
 # instead deleted a freshly written second escalation, and then tested for it.
 rm -f "$WORK/ESCALATION.md"
 
-printf '%s\n' "$ANSWER" > "$WORK/ANSWER.md"
-cp "$WORK/ANSWER.md" "$RUN/ANSWER.md"
+if [ "$INTERRUPTED" = true ]; then
+  PROMPT="Your run was cut off part-way through. Nothing was wrong with the work:
+the machine this was running on went to sleep, the connection died, and the
+process had to be killed. You did not fail and you did not ask a question.
 
-PROMPT="Your escalation has been answered.
+Everything you had written to the workspace is still there. Take a moment to
+read back what you had done -- your own notes and files are the record, since
+your last few actions may not have completed -- and carry on from where you
+stopped, under the same instructions in TASK.md.
+
+If anything you were part-way through was left in an inconsistent state, say so
+in NOTES.md rather than assuming it completed."
+else
+  printf '%s\n' "$ANSWER" > "$WORK/ANSWER.md"
+  cp "$WORK/ANSWER.md" "$RUN/ANSWER.md"
+
+  PROMPT="Your escalation has been answered.
 
 $ANSWER
 
@@ -73,8 +104,11 @@ The answer is also in ANSWER.md in your workspace, and source/ has been re-synce
 in case it now holds a file you asked for. Carry on from where you stopped, under
 the same instructions in TASK.md. If the answer raises a further question you
 should not decide, write a new ESCALATION.md and finish again."
+fi
 
 echo "resuming $(basename "$RUN")  [$MODEL, effort=$EFFORT, session ${SESSION:0:8}…]"
+[ "$INTERRUPTED" = true ] && echo "  (restart after interruption — no escalation to archive)"
+MARKERS_BEFORE=$(grep -ac "tokens used" "$RUN/run.log" || true)
 START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 set +e
 # `codex exec resume` does NOT accept --sandbox at all -- that flag belongs to
@@ -93,11 +127,22 @@ RC=$?
 set -e
 END=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-python3 - "$PROV" "$START" "$END" "$RC" <<'PY'
+# See dispatch-text.sh: exit 0 does not mean the turn ended, because codex exits
+# 0 on SIGTERM. Each resume appends its own "tokens used" marker, so the count
+# rising across this attempt is what says it ran to a natural stop.
+MARKERS_AFTER=$(grep -ac "tokens used" "$RUN/run.log" || true)
+COMPLETED=false
+[ "${MARKERS_AFTER:-0}" -gt "${MARKERS_BEFORE:-0}" ] && COMPLETED=true
+
+python3 - "$PROV" "$START" "$END" "$RC" "$COMPLETED" "$INTERRUPTED" <<'PY'
 import json, sys
 prov_path, start, end, rc = sys.argv[1], sys.argv[2], sys.argv[3], int(sys.argv[4])
+completed, interrupted = sys.argv[5] == "true", sys.argv[6] == "true"
 d = json.load(open(prov_path))
-d.setdefault("resumes", []).append({"started": start, "finished": end, "exit_code": rc})
+d.setdefault("resumes", []).append({
+    "started": start, "finished": end, "exit_code": rc,
+    "completed": completed, "reason": "interrupted" if interrupted else "escalation",
+})
 json.dump(d, open(prov_path, "w"), indent=2)
 PY
 
@@ -111,7 +156,9 @@ PY
 # mechanism destroying the record it existed to keep. Numbering pairs them and
 # keeps the order they occurred in, and `ocr/runs/*/escalations/` then reads as
 # one corpus of everything workers could not decide.
-if [ $RC -eq 0 ]; then
+if [ "$INTERRUPTED" = true ]; then
+  :   # nothing was asked, so there is nothing to archive
+elif [ $RC -eq 0 ]; then
   mkdir -p "$RUN/escalations"
   N=$(printf "%02d" $(( $(ls "$RUN/escalations"/*-escalation.md 2>/dev/null | wc -l) + 1 )))
   [ -f "$RUN/ESCALATION.md" ] && mv "$RUN/ESCALATION.md" "$RUN/escalations/$N-escalation.md"

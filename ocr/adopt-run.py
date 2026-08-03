@@ -175,6 +175,13 @@ def main() -> int:
         """])
         print(f"  {'ok ' if rc_tree == 0 else 'FAIL'} structure  {tree_out.strip()[:60]}")
 
+        # In-page anchors are worse than broken here: the router treats an
+        # unknown hash as a route and ejects the reader to the front page. This
+        # is a gate rather than advice because it reached adoption once already.
+        anchors = len(re.findall(r'href="#', staged.read_text()))
+        print(f"  {'ok ' if anchors == 0 else 'FAIL'} no in-page links"
+              f"{'' if anchors == 0 else f'  ({anchors} found — run strip-inpage-anchors.py)'}")
+
         new = triad(staged)
         for name, (rc_c, tail) in new.items():
             print(f"  {'ok ' if rc_c == 0 else 'FAIL'} {name:16} {tail}")
@@ -188,7 +195,7 @@ def main() -> int:
                     regressed.append(f"{name}: {a} -> {b}")
 
         bad = [n for n, (rc_c, _) in new.items() if rc_c != 0]
-        if bad or rc_tree != 0 or regressed:
+        if bad or rc_tree != 0 or regressed or anchors:
             print("\n  REFUSED — nothing written.")
             for r in regressed:
                 print(f"    regression against the published text: {r}")

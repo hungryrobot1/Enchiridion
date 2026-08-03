@@ -148,6 +148,19 @@ with an answer and your context intact. A blocked stage with a clear account
 beats a finished text with a silent guess, because nothing downstream can catch
 a guess.
 
+## Two things about the reader you cannot infer from the source
+
+In-page links do not work here. The router keys on the URL hash, so a footnote
+link does not fail quietly — it sends the reader to the front page and loses
+their place; and sections are built lazily, so the target is usually not present
+anyway. Keep a superscript marker, which is the author's and tells a reader which
+sentence carries the note, and drop the navigation around it.
+`3-postprocess/strip-inpage-anchors.py` does exactly this.
+
+The first `h1` in a file is treated as the document title, and lazy sectioning
+begins at the second. So a collected volume needs its own title as the opening
+`h1` — otherwise the whole of the first work stays eager and never collapses.
+
 ## Naming your result
 
 If you produce a text you believe belongs in the library, write `PROPOSED.md`

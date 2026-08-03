@@ -54,8 +54,26 @@ behind that code fence.
 | `collapse-verse-blanks.py` | Collapses OCR-inserted blank lines inside continuous verse. |
 | `collapse-inline-display.py` | Collapses mid-prose `$$X$$` to inline `$X$` — the opposite move from `reflow-derivations.py`, and the choice between them is contextual. |
 | `reflow-derivations.py` | Promotes structurally-display inline math to display blocks (classes P1, P1b, P2). Reports P3 candidates for human judgment rather than acting on them. |
+| `strip-inpage-anchors.py` | Removes footnote navigation — the anchor wrapper, its id targets, the return arrow — and **keeps the `<sup>` marker and the note**. Matches only complete anchor pairs: `<a` in this corpus is frequently *less-than-a* inside mathematics. |
 | `decode-html-entities.py` | Decodes `&gt;`/`&lt;`/`&amp;` that survived conversion. Idempotent; refuses on double-encoding. |
 | `swap-lang-div-text.py` | Replaces language-div text from a re-extraction, for bilingual texts. |
 
 Drama-specific post-processing lives in `../drama/`; figure repair in
 `../figures/`.
+
+## Two reader conventions a converter cannot guess
+
+**In-page links do not work and cannot be made to.** The router keys on the URL
+hash, so any hash that is not a known route sends the reader to `#/` — a footnote
+link does not merely fail, it ejects you from the text and loses your place. And
+sections are built lazily, so a note near the end is usually not in the DOM to be
+scrolled to anyway. Both halves are structural. Keep the superscript marker,
+which is authorial and tells the reader which sentence a note belongs to; drop
+the navigation. `strip-inpage-anchors.py` does this. **61 of 116 epub sources in
+the corpus carry footnote anchors**, so this is the common case, not an oddity.
+
+**The first `h1` is the document title.** The reader treats it as the title block
+and begins lazy sectioning at the *second*. A collected volume whose file opens
+with its first work's `h1` therefore keeps that entire work eager — Dedekind's
+45,000-word first essay sat in the preamble until a volume title was added above
+it. Set the volume title as the opening `h1`, in the caps the title page uses.

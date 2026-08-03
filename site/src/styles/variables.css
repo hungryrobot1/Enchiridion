@@ -58,6 +58,7 @@
   --status-progress: #a07020;
   --status-stub: #a09590;
   --status-needs-cleanup: #9c5a3c;
+  --status-review: #3a6b8a;
 
   /* A scanned plate is black ink on white paper. On a dark page it cannot be
      inverted (that ruins a photograph) and cannot sit bare (it glares). It gets
@@ -155,6 +156,7 @@
   --status-progress: #d3a441;
   --status-stub: #6f7883;
   --status-needs-cleanup: #c47a5a;
+  --status-review: #7fb3d5;
 
   --figure-mat: #f2efea;
   --figure-mat-pad: var(--space-md);

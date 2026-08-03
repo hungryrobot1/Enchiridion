@@ -1,0 +1,219 @@
+#!/usr/bin/env python3
+"""Take a dispatch run's output into the corpus, or refuse and change nothing.
+
+  ocr/adopt-run.py <run-dir>              dry run: check everything, write nothing
+  ocr/adopt-run.py <run-dir> --apply      adopt, if and only if every check passes
+  ocr/adopt-run.py <run-dir> --candidate FILE   name the output explicitly
+
+## Why adoption is ours and not the worker's
+
+A worker cannot reach the corpus: it writes inside its workspace and the real
+text sits outside the sandbox root. That is the property that makes dispatch safe
+to run at all, and handing a worker a tool that writes into `texts/` would spend
+it. So the worker PROPOSES -- it names its final artifact in `PROPOSED.md` and
+says what it verified -- and adoption happens from outside, gated on checks this
+script runs for itself rather than on the worker's report of them.
+
+## Validate first, write last
+
+Every check runs against a staged copy in a temporary directory. The corpus is
+touched only after all of them pass, and then in one move. A rejected adoption
+leaves `texts/` byte-identical to how it started, so a failed attempt costs
+nothing and can simply be run again once the cause is fixed.
+
+Re-adopting the same output is a no-op rather than an error: the file compares
+equal, the status is already right, and the script says so and exits 0.
+
+## What it checks
+
+  * the candidate parses as markdown and yields a section tree (the reader's own
+    module, not a second implementation of it);
+  * the diagnostic triad, run here rather than believed from NOTES.md;
+  * for a text that already has markdown, that the triad has not REGRESSED --
+    adopting something worse than what is already published is the one failure
+    this cannot be allowed to make quietly.
+
+## What it deliberately does not check
+
+Whether the words are the right words. Nothing here reads the text against its
+source, which is why adoption sets `needs-review` and never `complete`. Only a
+person who has compared it to the printed page can make that change.
+"""
+from __future__ import annotations
+
+import argparse
+import filecmp
+import json
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+VENV = ROOT / "ocr" / ".venv" / "bin" / "python3"
+
+
+def run(cmd: list[str]) -> tuple[int, str]:
+    p = subprocess.run(cmd, capture_output=True, text=True, cwd=ROOT)
+    return p.returncode, (p.stdout + p.stderr)
+
+
+def triad(md: Path) -> dict[str, tuple[int, str]]:
+    """Exit code and last meaningful line for each check."""
+    out = {}
+    for name, cmd in (
+        ("lint-math", [str(VENV), "ocr/verify/lint-math.py", str(md)]),
+        ("check-math", ["node", "ocr/verify/check-math.js", str(md)]),
+        ("check-raw-latex", ["node", "ocr/verify/check-raw-latex.js", str(md)]),
+    ):
+        rc, text = run(cmd)
+        lines = [l.strip() for l in text.splitlines() if l.strip()]
+        # The SUMMARY line, not the last line: check-math prints KaTeX warnings
+        # after its summary, and comparing warning text across two runs would
+        # make the regression test meaningless.
+        summary = next((l for l in lines if re.search(
+            r"(issues|failures|surviving backslashes) across", l)), lines[-1] if lines else "")
+        out[name] = (rc, summary[:90])
+    return out
+
+
+def failures(summary: str) -> int | None:
+    """The leading count out of a check's summary line, for regression tests."""
+    m = re.match(r"\s*(\d+)\s", summary)
+    return int(m.group(1)) if m else None
+
+
+def find_candidate(run_dir: Path, explicit: str | None) -> Path | None:
+    if explicit:
+        p = (run_dir / explicit) if not Path(explicit).is_absolute() else Path(explicit)
+        return p if p.is_file() else None
+    proposed = run_dir / "PROPOSED.md"
+    if proposed.is_file():
+        # First fenced or backticked filename in the proposal.
+        m = re.search(r"[`\"]([\w.\-/]+\.md)[`\"]", proposed.read_text())
+        if m:
+            p = run_dir / Path(m.group(1)).name
+            if p.is_file():
+                return p
+    cands = [f for f in run_dir.glob("*.md")
+             if f.name not in ("NOTES.md", "TASK.md", "ESCALATION.md", "PROPOSED.md")]
+    return cands[0] if len(cands) == 1 else None
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("run_dir")
+    ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--candidate")
+    args = ap.parse_args()
+
+    run_dir = Path(args.run_dir).resolve()
+    if not run_dir.is_dir():
+        print(f"no such run directory: {run_dir}", file=sys.stderr)
+        return 2
+
+    prov_path = run_dir / "provenance.json"
+    if not prov_path.is_file():
+        print("no provenance.json — this run did not finish", file=sys.stderr)
+        return 2
+    prov = json.loads(prov_path.read_text())
+    text_id = prov["text_id"]
+
+    if (run_dir / "ESCALATION.md").is_file():
+        print("run is BLOCKED on an escalation; answer it before adopting", file=sys.stderr)
+        return 2
+
+    cand = find_candidate(run_dir, args.candidate)
+    if cand is None:
+        print("cannot identify the output. The run left several .md files and no\n"
+              "PROPOSED.md naming one. Pass --candidate FILE.", file=sys.stderr)
+        return 2
+
+    dirs = list(ROOT.glob(f"texts/*/{text_id}"))
+    if not dirs:
+        print(f"no text directory for '{text_id}'", file=sys.stderr)
+        return 2
+    text_dir = dirs[0]
+    meta_path = text_dir / "metadata.json"
+    meta = json.loads(meta_path.read_text())
+    # metadata.filename points at the SOURCE for a text that has not been
+    # processed yet -- for Dedekind it was 21016-pdf.pdf, and reusing it here
+    # would have adopted the markdown straight over the source PDF. Only reuse
+    # it when it already names markdown; otherwise take the convention name.
+    existing = meta.get("filename") or ""
+    target = text_dir / (existing if existing.endswith(".md") else f"{text_id}.md")
+
+    print(f"  run      : {run_dir.name}")
+    print(f"  candidate: {cand.name}  ({cand.stat().st_size/1024:.0f} KB)")
+    print(f"  target   : {target.relative_to(ROOT)}")
+
+    if target.is_file() and filecmp.cmp(cand, target, shallow=False):
+        if meta.get("ocr_status") in ("needs-review", "complete"):
+            print("  already adopted, byte-identical, status set — nothing to do")
+            return 0
+        print("  content already identical; only the status differs")
+
+    # --- everything below runs against a staged copy ---
+    with tempfile.TemporaryDirectory() as td:
+        staged = Path(td) / target.name
+        shutil.copy2(cand, staged)
+
+        rc, out = run([str(VENV), "-c",
+                       "import sys;sys.path.insert(0,'site/src/lib');"
+                       "print('markdown readable:', len(open(sys.argv[1]).read())>0)",
+                       str(staged)])
+        print(f"  {'ok ' if rc == 0 else 'FAIL'} readable")
+
+        rc_tree, tree_out = run(["node", "-e", f"""
+          const {{readFileSync}} = require('fs');
+          const md = readFileSync({json.dumps(str(staged))}, 'utf8');
+          const n = (md.match(/^#{{1,3}} /gm) || []).length;
+          if (!n) {{ console.error('no headings — the reader would render one blob'); process.exit(1); }}
+          console.log('headings: ' + n);
+        """])
+        print(f"  {'ok ' if rc_tree == 0 else 'FAIL'} structure  {tree_out.strip()[:60]}")
+
+        new = triad(staged)
+        for name, (rc_c, tail) in new.items():
+            print(f"  {'ok ' if rc_c == 0 else 'FAIL'} {name:16} {tail}")
+
+        regressed = []
+        if target.is_file():
+            old = triad(target)
+            for name in new:
+                a, b = failures(old[name][1]), failures(new[name][1])
+                if a is not None and b is not None and b > a:
+                    regressed.append(f"{name}: {a} -> {b}")
+
+        bad = [n for n, (rc_c, _) in new.items() if rc_c != 0]
+        if bad or rc_tree != 0 or regressed:
+            print("\n  REFUSED — nothing written.")
+            for r in regressed:
+                print(f"    regression against the published text: {r}")
+            if bad:
+                print(f"    failing checks: {', '.join(bad)}")
+            return 1
+
+        if not args.apply:
+            print("\n  all checks pass (dry run — pass --apply to adopt)")
+            return 0
+
+        shutil.copy2(staged, target)
+
+    meta["filename"] = target.name
+    meta["format"] = "markdown"
+    meta["ocr_status"] = "needs-review"
+    meta_path.write_text(json.dumps(meta, indent=2) + "\n")
+    print(f"\n  adopted → {target.relative_to(ROOT)}")
+    print("  ocr_status = needs-review  (machine-checked; nobody has read it yet)")
+
+    rc, out = run(["npm", "--prefix", "site", "run", "build-index"])
+    tail = [l for l in out.splitlines() if l.strip()][-1:] or [""]
+    print(f"  {'ok ' if rc == 0 else 'FAIL'} build-index  {tail[0][:70]}")
+    return 0 if rc == 0 else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

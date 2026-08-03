@@ -127,6 +127,7 @@
 .gt-item__mark--progress { --mark-color: var(--status-progress); }
 .gt-item__mark--stub { --mark-color: var(--status-stub); }
 .gt-item__mark--needs-cleanup { --mark-color: var(--status-needs-cleanup); }
+.gt-item__mark--review { --mark-color: var(--status-review); }
 .gt-item__mark--none { --mark-color: var(--color-rule); }
 
 /* A text read at several points in the sequence — Scripture's five stations

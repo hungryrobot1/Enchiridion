@@ -148,6 +148,18 @@ with an answer and your context intact. A blocked stage with a clear account
 beats a finished text with a silent guess, because nothing downstream can catch
 a guess.
 
+## Naming your result
+
+If you produce a text you believe belongs in the library, write `PROPOSED.md`
+naming the file in backticks and saying what you verified about it. Adoption is
+not yours to perform — the corpus is outside your sandbox by design — but a run
+that leaves several markdown files and no proposal cannot be adopted without
+someone guessing which one you meant. One earlier run left a raw extraction and a
+draft side by side, and neither was labelled.
+
+A proposal is not a claim that the text is finished. Adoption sets its status to
+`needs-review`: machine-checked, and not yet read against the source by a person.
+
 ## What to write down
 
 Keep `NOTES.md`. The processing is the smaller half of this; what the attempt

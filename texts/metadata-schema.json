@@ -176,7 +176,7 @@
       "items": {
         "type": "string"
       },
-      "description": "Directory names of immediate predecessor texts (one layer deep, temporally proximal). Chain rather than accumulate — e.g., Maxwell → Einstein special → Einstein general, not Euclid → ... → Einstein."
+      "description": "Directory names of immediate predecessor texts (one layer deep, temporally proximal). Chain rather than accumulate \u2014 e.g., Maxwell \u2192 Einstein special \u2192 Einstein general, not Euclid \u2192 ... \u2192 Einstein."
     },
     "supplements": {
       "type": "array",
@@ -187,10 +187,11 @@
     },
     "ocr_status": {
       "type": "string",
-      "description": "Whether the text is ready to read in clean markdown form",
+      "description": "Whether the text is ready to read in clean markdown form. needs-review: produced by the processing pipeline and machine-checked, but not yet read against the source by a person.",
       "enum": [
         "complete",
         "needs-cleanup",
+        "needs-review",
         "pending",
         "not-applicable"
       ]

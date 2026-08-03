@@ -2,11 +2,12 @@
 // vocabulary used by the renderer and CSS. Renderers should pass through the
 // item's metadata-derived status; this module handles the mapping.
 //
-// Display values: ready | progress | stub | needs-cleanup | none
+// Display values: ready | progress | review | stub | needs-cleanup | none
 
 const TEXT_DISPLAY = {
   complete: 'ready',
   'needs-cleanup': 'needs-cleanup',
+  'needs-review': 'review',
   pending: 'stub',
   'not-applicable': 'none',
 };
@@ -26,6 +27,7 @@ export const STATUS_WORD = {
   progress: 'PROGRESS',
   stub: 'STUB',
   'needs-cleanup': 'CLEANUP',
+  review: 'REVIEW',
   none: '',
 };
 
@@ -36,6 +38,7 @@ export const STATUS_LABEL = {
   progress: 'Being transcribed or written; partial.',
   stub: 'Catalogued and planned; no content yet.',
   'needs-cleanup': 'Readable, but OCR artefacts remain — figures and formulae especially.',
+  review: 'Transcribed and machine-checked; not yet read against the source.',
   none: '',
 };
 

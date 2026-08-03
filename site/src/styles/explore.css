@@ -259,6 +259,7 @@
 .explore__status--progress { color: var(--status-progress); }
 .explore__status--stub { color: var(--status-stub); }
 .explore__status--needs-cleanup { color: var(--status-needs-cleanup); }
+.explore__status--review { color: var(--status-review); }
 .explore__status--none { color: transparent; }
 
 .explore__cell--title {

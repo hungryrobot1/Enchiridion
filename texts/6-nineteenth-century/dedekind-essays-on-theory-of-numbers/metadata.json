@@ -6,8 +6,8 @@
   "year_translated": 1901,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "21016-pdf.pdf",
+  "format": "markdown",
+  "filename": "dedekind-essays-on-theory-of-numbers.md",
   "description": "Rigorous construction of the real numbers through Dedekind cuts",
   "topics": [
     "mathematics",
@@ -15,5 +15,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

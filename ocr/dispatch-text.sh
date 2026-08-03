@@ -40,21 +40,48 @@ RUN="$ROOT/ocr/runs/${TEXT_ID}${RUN_LABEL:+-$RUN_LABEL}"
 WORK="$RUN/workspace"
 rm -rf "$WORK"; mkdir -p "$WORK/source"
 
-# Everything the text directory holds EXCEPT the corpus markdown, which is our
-# previous answer rather than a source -- a worker handed it reviews us instead
-# of reading the original. (That exclusion is right for an EXTRACTION job. A
-# repair job, where the existing markdown IS the subject, wants the opposite;
-# when we run one, this comment gets narrower rather than the rule looser.)
+# Everything the text directory holds. On an EXTRACTION job the corpus markdown
+# is excluded: it is our previous answer rather than a source, and a worker
+# handed it reviews us instead of reading the original.
+#
+# REPAIR=1 says the existing markdown IS the subject -- the text is already
+# transcribed and the work is post-processing it. Then withholding it hands the
+# worker everything except the file the run is for, which is how a whitelist
+# withheld the Dedekind .tex from the run we fetched it for. This is the case
+# the exclusion's comment anticipated, so it is a narrower rule and not a looser
+# one: the caller says which job this is, rather than the script guessing from
+# metadata that is itself unreliable.
 #
 # A blacklist rather than a whitelist, because the first version listed pdf,
-# epub, txt, htm and metadata -- and would have silently withheld the Project
-# Gutenberg .tex source we went and found for Dedekind, which is the single most
-# valuable file in that directory. A source type nobody anticipated should
-# arrive, not vanish.
-find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp {} "$WORK/source/" \;
+# epub, txt, htm and metadata -- and would have silently withheld that .tex,
+# the single most valuable file in that directory. A source type nobody
+# anticipated should arrive, not vanish.
+if [ "${REPAIR:-}" = "1" ]; then
+  find "$SRC_DIR" -maxdepth 1 -type f -exec cp {} "$WORK/source/" \;
+else
+  find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp {} "$WORK/source/" \;
+fi
 
 TITLE=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('title',''))")
 AUTHOR=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('author',''))")
+
+# One paragraph, only when the job starts from an existing transcription. It says
+# where to start and what the markdown's standing is; everything else in the
+# charter applies unchanged, which is the point of not having modes.
+OPENING="Take one text as far through the Enchiridion pipeline as it will honestly go."
+REPAIR_NOTE=""
+if [ "${REPAIR:-}" = "1" ]; then
+  OPENING="Take one text that is ALREADY TRANSCRIBED further through the Enchiridion pipeline."
+  REPAIR_NOTE="
+**This is a repair job, not an extraction.** \`source/\` contains the markdown
+the library currently publishes for this text, alongside the original it was
+made from. That markdown is the subject of the work: improve it in place rather
+than re-deriving it. The original is there so you can check the markdown against
+it — it is the page witness, and where the two disagree the page is right.
+
+Which stage the work belongs to is yours to determine from the state of the
+file. Say what you concluded and why."
+fi
 
 # The prompt IS the charter. There was a separate ocr/DISPATCH.md saying much of
 # this; it overlapped with the prompt and the two would have drifted. One place,
@@ -66,10 +93,11 @@ AUTHOR=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));pri
 cat > "$WORK/TASK.md" <<EOF
 # Task
 
-Take one text as far through the Enchiridion pipeline as it will honestly go.
+$OPENING
 
 **The text:** $AUTHOR, *$TITLE* (\`$TEXT_ID\`). Its sources are in \`source/\`,
 along with the metadata the library currently holds for it.
+$REPAIR_NOTE
 
 **The repository** is at \`$ROOT\`, readable but not writable by you. Start with
 \`$ROOT/ocr/README.md\`. Use \`$ROOT/ocr/.venv/bin/python3\` where PyMuPDF is
@@ -190,6 +218,18 @@ Do not mark anything complete that you have not verified, and do not change
 CHARTER
 
 mkdir -p "$RUN"
+
+# DRY=1 assembles the workspace and stops. A malformed charter or a missing
+# source is only visible once the workspace exists, and finding out by spending
+# a run is the expensive way to learn it.
+if [ "${DRY:-}" = "1" ]; then
+  echo "DRY RUN — workspace assembled, nothing dispatched"
+  echo "  $WORK"
+  echo "  source/:"; ls -1 "$WORK/source" | sed 's/^/    /'
+  echo "  TASK.md: $(wc -l < "$WORK/TASK.md" | tr -d ' ') lines"
+  exit 0
+fi
+
 START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 echo "dispatching $TEXT_ID  [$MODEL, effort=$EFFORT]"
 
@@ -215,6 +255,7 @@ SESSION_ID="$(grep -aoE 'session id: [0-9a-f-]{36}' "$RUN/run.log" | head -1 | a
 cat > "$RUN/provenance.json" <<EOF
 {
   "text_id": "$TEXT_ID",
+  "repair": $([ "${REPAIR:-}" = "1" ] && echo true || echo false),
   "model": "$MODEL",
   "reasoning_effort": "$EFFORT",
   "codex_cli": "$(codex --version 2>/dev/null || echo unknown)",

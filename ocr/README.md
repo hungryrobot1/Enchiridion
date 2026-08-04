@@ -284,6 +284,17 @@ translator's bracketed interpolations inside sentences ("[for negligence]").
 The apparatus remains accessible in the source PDF and the raw extract under
 `source/` — stripped, not destroyed.
 
+**Bilingual editions: keep the original only where the curriculum teaches the
+language.** Many nineteenth-century editions print the original text alongside
+the translation — Rosen's al-Khwarizmi gives 104 KB of Arabic after the English,
+and it is al-Khwarizmi's own words, not Rosen's apparatus. Keep it when a reader
+of this curriculum can be expected to meet the language: Euclid's Greek stays,
+because the Greek module teaches it and the reader has an interlinear mode for
+it. Otherwise take the translation alone. This is not a judgment about the
+original's value. It is that we cannot proofread what nobody here reads, the
+reader has no right-to-left support, and a language with no module has no reader
+who would use it. The original stays in the source PDF, as the apparatus does.
+
 **Structure conventions:** titles stay ALL CAPS as typeset. Chapter/book
 markers become headings validated by sequence (a standalone numeral is a
 heading only if it is 1 or previous+1, resetting at book boundaries — a stray

@@ -1,8 +1,6 @@
 # Writing for Enchiridion
 
-This document governs Enchiridion's public copy, supplements, modules, and other original prose. Its purpose is not to make every piece sound the same, but to preserve a common posture toward the reader and the books.
-
-This charter is alive. It carries the program’s pedagogy and should evolve through the work of writing and building the curriculum. Writers are invited to record what the work teaches: where this guidance helped, where it failed, and how it should change.
+This document governs Enchiridion's public copy, supplements, modules, and other original prose. Its purpose is not to make every piece sound the same, but to preserve a common posture toward the reader and the books. This charter is alive. It carries the program’s pedagogy and should evolve through the work of writing and building the curriculum.
 
 ## The governing aim
 
@@ -58,7 +56,7 @@ Do not add biography, intellectual history, scholarly interpretation, later rece
 
 Context is warranted when it is necessary to use the text, when the source or transmission bears directly on what is in front of the reader, or when the distinction between evidence and inference is itself the problem under examination. Even then, give no more than the encounter requires and return promptly to the work.
 
-When an inference must be made, distinguish it from what the text states. Write confidently where the evidence is firm, conditionally where it is not, and leave what is unknown unknown. The eventual payoff comes in retrospect, as the student progresses through the program and forms their own context.
+When an inference must be made, distinguish it from what the text states. Write confidently where the evidence is firm, conditionally where it is not, and leave what is unknown unknown. The eventual payoff comes in retrospect, as the student progresses through the program and forms their own context. Do discuss previous threads explicitly covered in the program if they are relevant for comparative or pedagogical purposes.
 
 ### Keep old and modern concepts distinct
 
@@ -66,7 +64,7 @@ Modern notation and vocabulary can make an old procedure easier to follow. They 
 
 Do not silently replace a ratio with a fraction, a square with an exponent, comparative thrust with pressure, or a geometric construction with an algebraic equation. First let the historical expression do its work. If a modern translation is useful, name it as a translation and ask what it clarifies, changes, or leaves out.
 
-The goal is not to imitate ancient vocabulary after it has ceased to help. It is to keep the reader from mistaking familiarity of notation for identity of thought.
+The goal is not to imitate ancient vocabulary after it has ceased to help. It is to allow the reader to experience the assumptions of different mathematical frameworks without applying the assumptions that come with modern notation.
 
 ### Leave live questions open
 

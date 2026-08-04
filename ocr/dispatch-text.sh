@@ -149,6 +149,46 @@ and counts, so that a wrong edit is reviewable rather than invisible, and so the
 work can be re-derived when a source is re-extracted. Run the relevant acceptance
 test after each change and report what it said.
 
+## One printed mark, two spellings
+
+Transcribing mathematics means deciding, glyph by glyph, what was printed. Those
+decisions are made page by page and are not consistent with one another, so a
+finished text usually contains places where one printed mark was resolved two
+ways. At least one is wrong, and nothing here can see it: both spellings render,
+so the triad passes.
+
+The question is not "does this render" but **where does this document disagree
+with itself**. Three shapes are worth hunting:
+
+- **A rare spelling beside a common one of the same kind** — a relation used once
+  where a synonym is used thirty times.
+- **One notation spelled two ways** — `\alpha_{-1}` on one line and `a_{-1}` on
+  another, for the same quantity. The strongest signal, and invisible to anything
+  counting LaTeX commands, because `a` is not a command.
+- **Anything inside math that is not mathematics** — a CJK or Cyrillic character,
+  a `\text{}` wrapped round a single mark, a `\stackrel` inventing a structure the
+  page does not have. This is what OCR emits when it cannot identify a glyph.
+
+`ocr/verify/math-vocab-census.py` reports all three and decides none of them.
+
+Two cautions, both learned by getting it wrong:
+
+**Judge within a section, not across the document.** The same token can be right
+in one part and wrong in another. Cantor writes `a_\nu` for the elements of an
+aggregate in § 7, correctly, and the OCR wrote `a_\nu` for the ordinal in § 18,
+wrongly. A document-wide fix corrupts § 7.
+
+**A self-consistent variant is weaker evidence than a lone one.** Three
+occurrences agreeing with each other may be a distinction the edition really
+makes; one against thirty is likely a slip.
+
+None of this is a verdict. Each is a question only the printed page answers, and
+the answer is one of three: the edition genuinely distinguishes them — say why;
+it is a misread — repair it by anchor and **cite the page you read**; or you
+cannot tell — escalate. **Do not repair a variant you have not seen printed.**
+The commoner spelling is not automatically right. What you know is that they
+cannot both be.
+
 ## When to stop and ask
 
 Stopping is a good outcome, and three kinds of question are worth stopping for.

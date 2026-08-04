@@ -112,6 +112,10 @@ RELATION = {
     "neq", "leqslant", "geqslant", "parallel", "perp", "propto", "ngtr",
     "nless", "gg", "ll", "prec", "succ", "notin", "ni", "subset", "supset",
     "coloneqq", "triangleq", "doteq",
+    # Added after `\preceq` -- a misread of Cantor's `≦` -- fell through as
+    # "other" and so was invisible to a report grouping by kind.
+    "preceq", "succeq", "leqq", "geqq", "lneq", "gneq", "subseteq", "supseteq",
+    "asymp", "models", "mid", "nmid", "sqsubseteq", "eqslantless",
 }
 OPERATOR = {"pm", "mp", "times", "cdot", "div", "ast", "star", "oplus", "otimes"}
 ARROW = {
@@ -226,6 +230,164 @@ def census_text(md: str):
     return cmds, slots
 
 
+# ---------------------------------------------------------------------------
+# Three reports the command census cannot produce, each added after a defect it
+# would have caught went through it untouched. Cantor's § 18 is the positive
+# control for all three: the same printed alpha resolved as `\alpha` and as `a`,
+# the same printed `≦` resolved as `\leq`, `\preceq` and a CJK ideograph stacked
+# on a tilde. The slot analysis reported STRAYS: (none).
+# ---------------------------------------------------------------------------
+
+# Latin letters and the Greek commands they are misread as, in the script faces
+# these editions use. Not exhaustive; extend it when a text teaches a new pair.
+#
+# LOWERCASE ONLY, deliberately. An uppercase Latin letter beside a lowercase
+# Greek one is usually a convention rather than a confusion -- Cantor's
+# `K = \{\kappa\}` is an aggregate and its elements, and `\operatorname{E}(\gamma)`
+# beside `\epsilon` is a function and its values. Including the uppercase pairs
+# produced more false positives than the report had true ones.
+CONFUSABLE = {
+    "a": "alpha", "b": "beta", "e": "epsilon", "n": "eta", "o": "omicron",
+    "p": "rho", "u": "mu", "v": "nu", "w": "omega", "x": "chi", "y": "gamma",
+    "k": "kappa", "t": "tau", "z": "zeta", "i": "iota",
+}
+# `r`/gamma was tried and removed: γ resembles y, not r, and the pair did
+# nothing but report `\gamma_r` -- a gamma with an index -- as a confusion.
+
+# Brace groups whose contents are names, not notation. `\begin{aligned}` was
+# being tokenised into seven identifiers, one of which is a bare `a`, so every
+# aligned environment reported itself as an alpha confusion.
+NAMED_GROUP = re.compile(
+    r"\\(?:begin|end|text|operatorname|mathrm|mathbf|mathcal|label|tag)"
+    r"\s*\{[^{}]*\}")
+
+# Anything here inside math is not mathematics. Buried in `\text{}` it is
+# invisible to a command census and renders without complaint.
+FOREIGN_SCRIPT = re.compile(
+    r"[　-鿿Ѐ-ӿ֐-׿؀-ۿ가-힯]")
+
+
+def line_index(md: str):
+    """Offsets of each line start, for turning a match position into a line."""
+    out, pos = [0], md.find("\n")
+    while pos != -1:
+        out.append(pos + 1)
+        pos = md.find("\n", pos + 1)
+    return out
+
+
+def section_at(headings: list[tuple[int, str]], line: int) -> str:
+    """The nearest heading at or above a line."""
+    best = "(front matter)"
+    for h_line, title in headings:
+        if h_line <= line:
+            best = title
+        else:
+            break
+    return best
+
+
+def spans_with_context(md: str):
+    """Yield (span_text, line_number, section_heading) for every math span.
+
+    Section-aware because the same token can be right in one part of a text and
+    wrong in another: Cantor writes `a_\\nu` for the elements of an aggregate in
+    § 7, correctly, and the OCR wrote `a_\\nu` for the ordinal in § 18, wrongly.
+    A document-wide count cannot tell those apart and a document-wide fix
+    corrupts the innocent one.
+    """
+    starts = line_index(md)
+    headings = []
+    for i, line in enumerate(md.split("\n")):
+        if re.match(r"^#{1,4} ", line):
+            headings.append((i + 1, line.lstrip("# ").strip()[:56]))
+
+    import bisect
+    for m in MATH.finditer(md):
+        span = (m.group(1) or m.group(2) or "").strip()
+        if not span:
+            continue
+        line = bisect.bisect_right(starts, m.start())
+        yield span, line, section_at(headings, line)
+
+
+def confusable_report(md: str):
+    """Sections where a Latin letter and its Greek lookalike both appear.
+
+    Two signals, the first much sharper than the second:
+
+      SAME SPAN     one formula containing both `\\alpha` and a bare `a`. The
+                    page printed one glyph; the transcription rendered it two
+                    ways inside a single expression.
+      SAME SECTION  both present in one section, with counts. Weaker, because a
+                    section may legitimately use both, but it is what catches a
+                    misread that never shares a formula with its correct twin.
+    """
+    per_section: dict[str, dict[str, Counter]] = defaultdict(
+        lambda: defaultdict(Counter))
+    same_span: dict[str, list[tuple[int, str, str]]] = defaultdict(list)
+
+    for span, line, section in spans_with_context(md):
+        tokens = TOKEN.findall(NAMED_GROUP.sub(" ", span))
+        letters = {t for t in tokens if re.fullmatch(r"[a-z]", t)}
+        greeks = {t[1:] for t in tokens if t.startswith("\\") and t[1:] in GREEK}
+        for latin, greek in CONFUSABLE.items():
+            if latin in letters:
+                per_section[section][f"{latin}/{greek}"]["latin"] += 1
+            if greek in greeks:
+                per_section[section][f"{latin}/{greek}"]["greek"] += 1
+            if latin in letters and greek in greeks:
+                same_span[f"{latin}/{greek}"].append((line, section, span[:72]))
+    return per_section, same_span
+
+
+def kind_stray_report(cmds: Counter):
+    """Singletons sharing a KIND with a dominant command, counted document-wide.
+
+    The slot analysis missed `\\preceq` because it partitions by surrounding
+    context, and `\\leq`'s 24 uses were spread over six different slots -- so no
+    slot was dominated enough for a singleton to read as a trespasser. Asking
+    the question document-wide, of one kind at a time, restores the signal the
+    partition dissolved.
+    """
+    out = []
+    for kind in ("relation", "operator", "arrow"):
+        members = Counter({c: n for c, n in cmds.items() if category(c) == kind})
+        if len(members) < 2:
+            continue
+        (top, top_n), = members.most_common(1)
+        # The kind's profile, not a single accusation. `\preceq` appearing once
+        # among relations does not tell you WHICH relation it was misread from;
+        # naming only the commonest member would have asserted that `\equiv` is
+        # a misread of `\sim`, which is very likely false. Report the singleton
+        # and let the page decide what it should have been.
+        profile = ", ".join(f"\\{c}({n})" for c, n in members.most_common(3))
+        for cmd, n in members.items():
+            if cmd != top and n <= 2 and top_n >= 10 * max(n, 1):
+                out.append((kind, cmd, n, profile))
+    return out
+
+
+# A math span longer than this is not a formula. It is an unbalanced `$` that
+# swallowed the prose after it, and every foreign character in that prose then
+# reports as a misread: al-Biruni produced 24 findings from one missing
+# delimiter, all of them ordinary Arabic in ordinary text. Delimiter balance is
+# lint-math's finding, so this report counts them and says so once.
+IMPLAUSIBLE_SPAN = 300
+
+
+def foreign_report(md: str):
+    """Characters inside math that belong to no mathematical notation."""
+    out, runaway = [], 0
+    for span, line, section in spans_with_context(md):
+        if len(span) > IMPLAUSIBLE_SPAN:
+            runaway += 1
+            continue
+        for ch in dict.fromkeys(FOREIGN_SCRIPT.findall(span)):
+            out.append((line, section, ch, span[:72]))
+    return out, runaway
+
+
 def iter_texts(paths: list[Path] | None, only: str | None):
     if paths:
         for p in paths:
@@ -264,7 +426,10 @@ def main() -> int:
             continue
         cmds, slots = census_text(md)
         if cmds:
-            per_text[name] = {"cmds": cmds, "slots": slots, "spans": len(math_spans(md))}
+            per_text[name] = {"cmds": cmds, "slots": slots, "spans": len(math_spans(md)),
+                              "confusable": confusable_report(md),
+                              "kind_strays": kind_stray_report(cmds),
+                              "foreign": foreign_report(md)}
 
     if not per_text:
         print("no markdown texts with math found")
@@ -369,12 +534,76 @@ def main() -> int:
         print(f"--- {name} ({len(rare)} of {len(d['cmds'])} distinct)")
         print(f"    {listed}\n")
 
+    # ---- foreign script ----------------------------------------------------
+    print("=" * 78)
+    print("FOREIGN SCRIPT IN MATH — near-certain misreads")
+    print("=" * 78)
+    any_foreign = False
+    for name, d in sorted(per_text.items()):
+        hits, runaway = d["foreign"]
+        for line, section, ch, span in hits:
+            any_foreign = True
+            print(f"  {name}:{line}  U+{ord(ch):04X}  § {section}")
+            print(f"      {span}")
+        if runaway:
+            print(f"  {name}: {runaway} math span(s) over {IMPLAUSIBLE_SPAN} chars "
+                  f"— unbalanced delimiters, not examined here (see lint-math)")
+    if not any_foreign:
+        print("(no foreign script in well-formed spans)")
+    print()
+
+    # ---- kind strays -------------------------------------------------------
+    print("=" * 78)
+    print("KIND STRAYS — a singleton beside a dominant command of the same kind")
+    print("=" * 78)
+    any_stray = False
+    for name, d in sorted(per_text.items()):
+        for kind, cmd, n, profile in d["kind_strays"]:
+            any_stray = True
+            print(f"  {name}  {kind} \\{cmd}({n})  — kind led by {profile}")
+    if not any_stray:
+        print("(none)")
+    print()
+
+    # ---- confusable letters ------------------------------------------------
+    #
+    # Reported as questions, not findings. Judge within a section, and treat a
+    # pair sharing one formula as far stronger evidence than a pair merely
+    # sharing a section.
+    print("=" * 78)
+    print("CONFUSABLE LETTERS — a Latin letter beside its Greek lookalike")
+    print("=" * 78)
+    for name, d in sorted(per_text.items()):
+        per_section, same_span = d["confusable"]
+        if same_span:
+            print(f"--- {name}: BOTH IN ONE FORMULA (strongest signal)")
+            for pair, hits in sorted(same_span.items()):
+                for line, section, span in hits[:4]:
+                    print(f"    {pair:<12} line {line:<6} § {section}")
+                    print(f"        {span}")
+                if len(hits) > 4:
+                    print(f"        … {len(hits) - 4} more")
+        rows = []
+        for section, pairs in per_section.items():
+            for pair, c in pairs.items():
+                lat, gre = c.get("latin", 0), c.get("greek", 0)
+                if lat and gre:
+                    rows.append((section, pair, lat, gre))
+        if rows:
+            print(f"--- {name}: both present in one section")
+            for section, pair, lat, gre in sorted(rows, key=lambda r: -min(r[2], r[3]))[:12]:
+                print(f"    {pair:<12} latin {lat:<5} greek {gre:<5} § {section}")
+        if same_span or rows:
+            print("    VERDICT: ______   PAGE READ: ______\n")
+
     if args.json:
         out = {
             name: {
                 "spans": d["spans"],
                 "commands": dict(d["cmds"]),
                 "slots": {sig: dict(c) for sig, c in d["slots"].items()},
+                "kind_strays": d["kind_strays"],
+                "foreign": [[l, s, c, x] for l, s, c, x in d["foreign"][0]],
             }
             for name, d in per_text.items()
         }

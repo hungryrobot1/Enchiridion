@@ -105,6 +105,65 @@ def find_candidate(run_dir: Path, explicit: str | None) -> Path | None:
     return cands[0] if len(cands) == 1 else None
 
 
+TOOLS_DIR = ROOT / "ocr" / "text-specific-tools"
+
+
+def tools_slug(text_id: str) -> str:
+    """Which author directory a text's tools belong in.
+
+    Matched against the directories that already exist before anything is
+    derived, because the convention there is an author's name and no rule
+    recovers it from a text id: `marcus-aurelius` keeps both words, `cantor`
+    keeps one. Falling back, take the first component, or the first two where
+    the first is a particle -- `al-khwarizmi-algebra` is al-Khwarizmi, not "al".
+    """
+    for existing in sorted(p.name for p in TOOLS_DIR.iterdir() if p.is_dir()):
+        if text_id == existing or text_id.startswith(existing + "-"):
+            return existing
+    parts = text_id.split("-")
+    return "-".join(parts[:2]) if len(parts[0]) <= 3 and len(parts) > 1 else parts[0]
+
+
+def file_tools(run_dir: Path, text_id: str) -> list[Path]:
+    """Copy a run's scripts into text-specific-tools/, beside their precedents.
+
+    The manifest calls these load-bearing: without them an adopted text is an
+    artifact nobody can rebuild, and re-deriving a repair after a source is
+    re-extracted means having the script that made it. But a worker cannot file
+    them -- the repository is read-only to it by design -- so five runs' worth
+    sat in ocr/runs/ where text-specific-tools/ is supposed to be the canonical
+    record. Four separate runs reported this as a gap. It is a gap in adoption.
+
+    Copied, not moved: the run directory is the record of what the worker
+    produced and stays intact.
+    """
+    scripts = sorted(p for p in run_dir.iterdir()
+                     if p.suffix in (".py", ".sh") and p.is_file())
+    if not scripts:
+        return []
+    dest = TOOLS_DIR / tools_slug(text_id)
+    dest.mkdir(parents=True, exist_ok=True)
+    for s in scripts:
+        shutil.copy2(s, dest / s.name)
+
+    # A note rather than a STAGE.md edit: this records where the scripts came
+    # from, which is the thing a later reader needs and cannot reconstruct.
+    note = dest / "PROVENANCE.md"
+    line = (f"- `{text_id}` — {len(scripts)} script(s) from dispatch run "
+            f"`{run_dir.name}`, adopted "
+            f"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}: "
+            + ", ".join(f"`{s.name}`" for s in scripts) + "\n")
+    if not note.exists():
+        note.write_text(
+            "# Where these scripts came from\n\n"
+            "Written by dispatched workers and copied here at adoption. The run "
+            "directory under `ocr/runs/` holds the worker's own notes on each.\n\n")
+    if line not in note.read_text():
+        with note.open("a") as fh:
+            fh.write(line)
+    return [dest / s.name for s in scripts]
+
+
 def stamp_adopted(prov_path: Path, prov: dict, target: Path) -> None:
     """Record that this run's output reached the library.
 
@@ -268,6 +327,10 @@ def main() -> int:
     if meta.get("ocr_status") != "complete":
         meta["ocr_status"] = "needs-review"
     meta_path.write_text(json.dumps(meta, indent=2) + "\n")
+    filed = file_tools(run_dir, text_id)
+    for p in filed:
+        print(f"  filed  {p.relative_to(ROOT)}")
+
     stamp_adopted(prov_path, prov, target)
     print(f"\n  adopted → {target.relative_to(ROOT)}")
     print("  ocr_status = needs-review  (machine-checked; nobody has read it yet)")

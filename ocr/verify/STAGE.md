@@ -30,6 +30,27 @@ It does **not** answer "does this say what the page said." Nothing in this
 directory does. See `../3-postprocess/STAGE.md` for the four defect classes that
 passed the triad cleanly.
 
+## The macro budget
+
+`KATEX_MACROS` in `site/src/readers/md-reader.js` is the corpus-wide budget, and
+`check-math.js` mirrors it so the checker reports what the reader will actually
+see. **Keep the two synchronised**, or a text passes here and breaks in the
+reader.
+
+Add a macro when the convention recurs across texts (`\arc` appears in Ptolemy
+*and* Heath), when defining it preserves the translator's own notation, and when
+the expansion is unambiguous in every context. Toomer's `\arc` was 70 render
+failures fixed by one line.
+
+Do **not** add one for one-off OCR garbage — fix the source instead — or for
+notation that varies by translator, which should stay source-explicit rather than
+depend on a global expansion.
+
+When the same KaTeX error repeats dozens of times the fix is usually wholesale: a
+missing macro, one regex pass over glued identifiers (`\arcsel`, `\arcAG`), a
+double superscript KaTeX rejects (`x^{a}^{b}`, common in OCR'd sexagesimals), or
+HTML entities inside math. Cluster by error type, fix the biggest class, re-run.
+
 ## The rule that governs everything here
 
 **A probe returning zero is not evidence until it has been shown to find a case

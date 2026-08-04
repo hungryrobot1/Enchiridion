@@ -42,6 +42,33 @@ So for any text carrying real notation, **the extraction track is chosen by
 whether a structured source could be found**, which makes it a question for
 stage 0 rather than this one.
 
+## The sibling EPUB is a witness
+
+Most Project Gutenberg texts ship a matching EPUB built from the same
+transcription. Use it two ways: token-for-token cross-validation of the
+extraction, and as a **paragraph-break oracle** — a break falling exactly on a
+page turn is invisible in the PDF's geometry but plain in the EPUB's continuous
+HTML. Lucretius reconciled 9,730 verse lines with zero warnings and recovered 34
+page-turn breaks this way.
+
+No dedicated tooling: unzip and strip tags inline in the partition script. Four
+caveats, each proven on a real text:
+
+- **Sort the EPUB's internal HTML files NUMERICALLY** (`-h-2` before `-h-10`). A
+  lexicographic sort silently scrambles the witness — caught on Hero, whose
+  reconciliation went from 1,380 phantom diffs to 0 once ordered correctly.
+- **Reconcile against a fully filtered stream.** Strip the EPUB's own per-file PG
+  running headers and footnote markers before diffing, or every page turn shows
+  up as a false divergence.
+- Some PG PDFs mark paragraphs *only* by first-line indent inside page-sized
+  blocks, defeating `extract-text.py`'s block paragraphing. Read the line geometry
+  directly (exemplar: `text-specific-tools/augustine/partition-confessions.py`).
+- `extract-text.py` joins lines with spaces, so **verse partition tools must read
+  the PDF directly** rather than its output.
+
+An EPUB and its PDF are one transcription rendered twice. They establish
+fidelity, never correctness.
+
 ## Acceptance test
 
 **Mechanical but weak: the output exists, parses as markdown, and has roughly the

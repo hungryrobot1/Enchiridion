@@ -23,6 +23,26 @@ cropped footnote from a cropped body line. We do not have one.
 That the pages kept are the right pages. Splitting to 179–184 verifies only that
 you got six pages, never that they were the six you meant.
 
+## Dup-scan the scan first — a procedure with no tool
+
+Library scans repeat leaves: a re-shot page, sometimes a whole re-shot
+gathering. Taylor's Proclus Vol. II hid a 16-page re-shot signature, and the
+*Elements of Theology* scan hid four re-shot leaf clusters, some adjacent.
+
+**Undetected duplicates corrupt proposition and chapter sequences downstream,
+and are far cheaper to drop before OCR than to unpick after.** Hash-compare each
+page's normalised text-layer midsection for exact duplicates, *and*
+fuzzy-compare near offsets — `difflib` ratio > 0.85 at offsets 1–6 and at the
+gathering width, about 16.
+
+No tool implements this; it has been done per text. It is written down here
+because it is the kind of thing that is obvious once and invisible afterwards,
+and because a run that skips it produces a text whose defects look like OCR
+error rather than a duplicated leaf.
+
+A duplicate probe that reports none is worth a positive control before you
+believe it — compare a page with itself.
+
 ## Tools
 
 | Tool | What it does |

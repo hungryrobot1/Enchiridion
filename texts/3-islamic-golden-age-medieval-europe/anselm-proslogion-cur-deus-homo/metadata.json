@@ -2,12 +2,12 @@
   "title": "Proslogion; Cur Deus Homo",
   "author": "Anselm of Canterbury",
   "translator": "Sidney Norton Deane",
-  "year_written": "1077–1098",
+  "year_written": "1077\u20131098",
   "year_translated": 1903,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "stanselmeproslog00anseuoft.pdf",
+  "format": "markdown",
+  "filename": "anselm-proslogion-cur-deus-homo.md",
   "description": "The ontological argument for God's existence and a rational account of the Incarnation",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

@@ -6,8 +6,8 @@
   "year_translated": 1910,
   "language": "English",
   "original_language": "Arabic",
-  "format": "pdf",
-  "filename": "alberunisindiaac01biru.pdf",
+  "format": "markdown",
+  "filename": "al-biruni-india-i.md",
   "description": "Comprehensive study of Indian science, mathematics, philosophy, and culture",
   "topics": [
     "natural-philosophy",
@@ -17,5 +17,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

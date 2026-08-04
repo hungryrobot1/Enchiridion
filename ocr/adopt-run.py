@@ -164,6 +164,129 @@ def file_tools(run_dir: Path, text_id: str) -> list[Path]:
     return [dest / s.name for s in scripts]
 
 
+# A run's NOTES.md mixes two things deliberately: what this TEXT needs, and what
+# the attempt taught us about our TOOLING. Only the first belongs beside the
+# text -- the run is a record of an event, the text folder a record of a thing
+# that outlives every run that touched it.
+#
+# This excludes the pipeline sections rather than enumerating the textual ones,
+# because the two failure modes are not symmetric. Dropping a finding hides a
+# real defect from the only person who will ever look for it; importing a
+# paragraph about a slow script wastes a few seconds. An include-list was tried
+# first and immediately lost Anselm's page-cited repairs, which are the most
+# valuable thing that run produced.
+PIPELINE_HEADINGS = (
+    "time", "tooling", "pipeline", "documentation", "scripts and",
+    "observations", "controls", "where the",
+)
+
+
+def extract_text_findings(notes: Path) -> list[tuple[str, str]]:
+    """Pull the sections of a run's NOTES.md that are about the text.
+
+    Heading-matched rather than clever, and biased toward keeping: everything
+    survives except sections that are plainly about our tooling. The full notes
+    are one link away regardless, so this decides what a reviewer sees without
+    being asked, not what exists.
+    """
+    if not notes.is_file():
+        return []
+    out: list[tuple[str, str]] = []
+    current: str | None = None
+    body: list[str] = []
+    for line in notes.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^(#{2,3}) (.+)$", line)
+        if m:
+            if current and any(b.strip() for b in body):
+                out.append((current, "\n".join(body).strip()))
+            title = m.group(2).strip()
+            low = title.lower()
+            current = None if any(k in low for k in PIPELINE_HEADINGS) else title
+            body = []
+        elif current:
+            body.append(line)
+    if current and any(b.strip() for b in body):
+        out.append((current, "\n".join(body).strip()))
+    return out
+
+
+def write_review(text_dir: Path, text_id: str, meta: dict, run_dir: Path,
+                 prov: dict) -> Path:
+    """Create or refresh the text's review record.
+
+    This is the bridge between processing and review. A run knows things a
+    reviewer needs -- which readings are doubtful, what witness exists, what was
+    repaired and on whose authority -- and until now that knowledge lived only in
+    `ocr/runs/`, gitignored siblings away from the text it describes, in a
+    directory that gets pruned.
+
+    An existing human review log is never overwritten: everything below the log
+    marker is regenerated, everything above it is the reviewer's and is kept.
+    """
+    review = text_dir / "review.md"
+    marker = "<!-- review log — hand-written, never regenerated -->"
+    kept = ""
+    if review.is_file():
+        existing = review.read_text(encoding="utf-8")
+        if marker in existing:
+            kept = existing.split(marker, 1)[1]
+
+    findings = extract_text_findings(run_dir / "NOTES.md")
+    rel_run = run_dir.relative_to(ROOT)
+    parts = [
+        f"# {meta.get('title', text_id)} — review record",
+        "",
+        "What is known about this text as a text: where it came from, what can "
+        "check it, and what is doubtful. Generated at adoption from the "
+        "processing run, then maintained by whoever reviews it.",
+        "",
+        "**Status is a claim about process, not about correctness.** "
+        "`needs-review` means machine-processed and unread. `complete` means a "
+        "person performed the review below and judged the text shippable — not "
+        "that it is free of errors. Every text is an ongoing project.",
+        "",
+        "## Provenance",
+        "",
+        f"- Source file: `{meta.get('filename', '?')}`",
+        f"- Translator: {meta.get('translator') or '—'}"
+        + (f" ({meta['year_translated']})" if meta.get("year_translated") else ""),
+        f"- Processed by run [`{rel_run}`](../../../{rel_run}) "
+        f"({prov.get('model', '?')}, {prov.get('started', '?')[:10]})",
+        f"- Full processing notes: [`{rel_run}/NOTES.md`](../../../{rel_run}/NOTES.md)",
+        "",
+    ]
+    if findings:
+        parts += ["## What the processing run found", ""]
+        parts += [
+            "Copied from the run's notes at adoption. These are the text's open "
+            "questions, not the pipeline's.", ""]
+        for title, body in findings:
+            parts += [f"### {title}", "", body, ""]
+    else:
+        parts += [
+            "## What the processing run found", "",
+            "The run recorded no text-specific findings under a recognised "
+            f"heading. Read [`{rel_run}/NOTES.md`](../../../{rel_run}/NOTES.md) "
+            "before reviewing — it may still say something useful.", ""]
+
+    parts += [
+        "## Review", "",
+        "The pass that sets `complete`: read the run's escalations and notes to "
+        "learn what the processing actually encountered, then read the text in "
+        "the rendered reader, comparing against the source where something looks "
+        "wrong. Not a full proofread — a judgement about whether it is shippable.",
+        "",
+        "- [ ] Escalations and notes read",
+        "- [ ] Rendered in the reader; structure, headings and contents look right",
+        "- [ ] Spot-checked against the source where the notes flagged doubt",
+        "- [ ] Remaining known issues recorded below",
+        "",
+        marker,
+    ]
+    review.write_text("\n".join(parts) + (kept if kept else "\n"), encoding="utf-8")
+    return review
+
+
 def stamp_adopted(prov_path: Path, prov: dict, target: Path) -> None:
     """Record that this run's output reached the library.
 
@@ -263,6 +386,11 @@ def main() -> int:
             print("  already adopted, byte-identical, status set — nothing to do")
             if args.apply:
                 stamp_adopted(prov_path, prov, target)
+                # Still refresh the review record. It was introduced after some
+                # texts were adopted, and re-deriving it costs nothing: the
+                # hand-written log below the marker is preserved.
+                review = write_review(text_dir, text_id, meta, run_dir, prov)
+                print(f"  review {review.relative_to(ROOT)}")
             return 0
         print("  content already identical; only the status differs")
 
@@ -357,6 +485,9 @@ def main() -> int:
     filed = file_tools(run_dir, text_id)
     for p in filed:
         print(f"  filed  {p.relative_to(ROOT)}")
+
+    review = write_review(text_dir, text_id, meta, run_dir, prov)
+    print(f"  review {review.relative_to(ROOT)}")
 
     stamp_adopted(prov_path, prov, target)
     print(f"\n  adopted → {target.relative_to(ROOT)}")

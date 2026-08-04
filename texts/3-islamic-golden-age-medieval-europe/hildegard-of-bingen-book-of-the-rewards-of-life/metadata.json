@@ -6,8 +6,8 @@
   "year_translated": 1994,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "BookoftheRewardsofLife.pdf",
+  "format": "markdown",
+  "filename": "hildegard-of-bingen-book-of-the-rewards-of-life.md",
   "description": "Visionary work on virtues, vices, and the moral universe",
   "topics": [
     "theology",
@@ -16,5 +16,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

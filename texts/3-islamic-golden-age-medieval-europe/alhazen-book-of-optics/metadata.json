@@ -6,8 +6,8 @@
   "year_translated": 1989,
   "language": "English",
   "original_language": "Arabic",
-  "format": "pdf",
-  "filename": "The_Optics_of_Ibn_Al-Haytham_Books_I.pdf",
+  "format": "markdown",
+  "filename": "alhazen-book-of-optics.md",
   "description": "Groundbreaking work on vision, light, and the experimental method",
   "topics": [
     "optics",
@@ -16,5 +16,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

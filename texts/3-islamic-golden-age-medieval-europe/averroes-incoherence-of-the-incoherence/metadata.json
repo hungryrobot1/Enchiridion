@@ -6,8 +6,8 @@
   "year_translated": 1954,
   "language": "English",
   "original_language": "Arabic",
-  "format": "pdf",
-  "filename": "Averroes Incoherence of the Incoherence.pdf",
+  "format": "markdown",
+  "filename": "averroes-incoherence-of-the-incoherence.md",
   "description": "Defense of Aristotelian philosophy against Al-Ghazali's critique of rational inquiry",
   "topics": [
     "philosophy",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "al-farabi-philosophy-of-plato-and-aristotle"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

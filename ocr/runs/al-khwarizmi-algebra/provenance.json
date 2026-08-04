@@ -1,0 +1,17 @@
+{
+  "text_id": "al-khwarizmi-algebra",
+  "repair": true,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "7e84649",
+  "session_id": "019fcb05-5f63-7cf3-90ff-0aa588898764",
+  "started": "2026-08-04T04:25:54Z",
+  "finished": "2026-08-04T04:50:17Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-04T05:32:10Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/al-khwarizmi-algebra/al-khwarizmi-algebra.md"
+  }
+}

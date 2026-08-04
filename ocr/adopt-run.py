@@ -289,6 +289,26 @@ def main() -> int:
         # In-page anchors are worse than broken here: the router treats an
         # unknown hash as a route and ejects the reader to the front page. This
         # is a gate rather than advice because it reached adoption once already.
+        # Images. A repair run may regenerate figures -- al-Khwarizmi recropped
+        # 18 diagrams from the scan at 288 dpi, referencing `img-N.png` where the
+        # corpus held only the older `img-N.jpeg` -- so a reference can resolve
+        # against the run, against the text directory, or nowhere. Nowhere means
+        # a published text with broken figures, and nothing else here would have
+        # noticed: the triad reads math, and the anchor check reads links.
+        refs = sorted(set(re.findall(r'\]\(images/([^)]+)\)', staged.read_text())))
+        run_images = run_dir / "images"
+        unresolved = [r for r in refs
+                      if not (text_dir / "images" / r).is_file()
+                      and not (run_images / r).is_file()]
+        from_run = [r for r in refs if (run_images / r).is_file()
+                    and not (text_dir / "images" / r).is_file()]
+        if refs:
+            print(f"  {'ok ' if not unresolved else 'FAIL'} images       "
+                  f"{len(refs)} referenced, {len(from_run)} new from this run"
+                  + (f", {len(unresolved)} UNRESOLVED" if unresolved else ""))
+            for r in unresolved[:5]:
+                print(f"      missing: {r}")
+
         anchors = len(re.findall(r'href="#', staged.read_text()))
         print(f"  {'ok ' if anchors == 0 else 'FAIL'} no in-page links"
               f"{'' if anchors == 0 else f'  ({anchors} found — run strip-inpage-anchors.py)'}")
@@ -306,10 +326,12 @@ def main() -> int:
                     regressed.append(f"{name}: {a} -> {b}")
 
         bad = [n for n, (rc_c, _) in new.items() if rc_c != 0]
-        if bad or rc_tree != 0 or regressed or anchors:
+        if bad or rc_tree != 0 or regressed or anchors or unresolved:
             print("\n  REFUSED — nothing written.")
             for r in regressed:
                 print(f"    regression against the published text: {r}")
+            if unresolved:
+                print(f"    {len(unresolved)} image reference(s) resolve nowhere")
             if bad:
                 print(f"    failing checks: {', '.join(bad)}")
             return 1
@@ -319,6 +341,11 @@ def main() -> int:
             return 0
 
         shutil.copy2(staged, target)
+        if from_run:
+            (text_dir / "images").mkdir(exist_ok=True)
+            for r in from_run:
+                shutil.copy2(run_images / r, text_dir / "images" / r)
+            print(f"  copied {len(from_run)} new image(s) into {(text_dir / 'images').relative_to(ROOT)}")
 
     meta["filename"] = target.name
     meta["format"] = "markdown"

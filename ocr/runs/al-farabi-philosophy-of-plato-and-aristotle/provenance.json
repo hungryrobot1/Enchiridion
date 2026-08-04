@@ -1,0 +1,17 @@
+{
+  "text_id": "al-farabi-philosophy-of-plato-and-aristotle",
+  "repair": true,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "7e84649",
+  "session_id": "019fcb14-5d32-7120-9513-cde9c5f35374",
+  "started": "2026-08-04T04:42:17Z",
+  "finished": "2026-08-04T04:58:02Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-04T05:32:12Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/al-farabi-philosophy-of-plato-and-aristotle/al-farabi-philosophy-of-plato-and-aristotle.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "text_id": "al-biruni-india-ii",
+  "repair": true,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "7e84649",
+  "session_id": "019fcb14-58f0-7270-844d-364245a8e888",
+  "started": "2026-08-04T04:42:15Z",
+  "finished": "2026-08-04T04:54:18Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-04T05:01:33Z",
+      "finished": "2026-08-04T05:29:48Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-04T05:32:17Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/al-biruni-india-ii/al-biruni-india-ii.md"
+  }
+}

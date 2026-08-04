@@ -1,0 +1,17 @@
+{
+  "text_id": "fibonacci-liber-abaci",
+  "repair": true,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "7e84649",
+  "session_id": "019fcb14-62a1-7bd0-a3dd-c4ec853d8dd7",
+  "started": "2026-08-04T04:42:18Z",
+  "finished": "2026-08-04T04:58:28Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-04T05:32:15Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/fibonacci-liber-abaci/fibonacci-liber-abaci.md"
+  }
+}

@@ -61,6 +61,12 @@ if [ "${REPAIR:-}" = "1" ]; then
 else
   find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp {} "$WORK/source/" \;
 fi
+# `-type f` copies no directories, so a text's images/ never arrived. The
+# markdown references them, so a repair job saw every reference resolve to
+# nothing: al-Biruni stopped and asked whether to reconstruct three figures that
+# already existed, and al-Khwarizmi rebuilt eighteen from the scan rather than
+# ask. Both responses were reasonable and both were caused by us.
+[ -d "$SRC_DIR/images" ] && cp -R "$SRC_DIR/images" "$WORK/source/" || true
 
 TITLE=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('title',''))")
 AUTHOR=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('author',''))")
@@ -75,9 +81,18 @@ if [ "${REPAIR:-}" = "1" ]; then
   REPAIR_NOTE="
 **This is a repair job, not an extraction.** \`source/\` contains the markdown
 the library currently publishes for this text, alongside the original it was
-made from. That markdown is the subject of the work: improve it in place rather
-than re-deriving it. The original is there so you can check the markdown against
-it — it is the page witness, and where the two disagree the page is right.
+made from and any images the text already has. That markdown is the subject of
+the work: repair it rather than re-deriving it. The original is there so you can
+check the markdown against it — it is the page witness, and where the two
+disagree the page is right.
+
+**Write your repaired markdown to the workspace root, not over \`source/\`.**
+Keep \`source/\` as delivered, so the two can be compared and so the repair can
+be re-run from a clean input. An earlier run read "improve it in place" as an
+instruction to edit \`source/\` directly, and its finished work was not collected,
+because \`source/\` is the input and is deliberately not gathered up afterwards.
+If you produce new or corrected images, put them in an \`images/\` directory at
+the workspace root too.
 
 Which stage the work belongs to is yours to determine from the state of the
 file. Say what you concluded and why."
@@ -363,6 +378,21 @@ find "$WORK" \( -name '*.py' -o -name '*.sh' \) -not -path "$WORK/source/*" \
 # Controls are evidence: a worker that plants a known defect to prove a checker
 # can see it has produced the only artifact that justifies trusting the checker.
 [ -d "$WORK/controls" ] && cp -R "$WORK/controls" "$RUN/" 2>/dev/null || true
+# Images the run produced or corrected.
+[ -d "$WORK/images" ] && cp -R "$WORK/images" "$RUN/" 2>/dev/null || true
+# Rescue: a repair job that edited source/ in place despite the charter. The
+# input is pristine in the text directory, so anything here that differs from it
+# is work, and losing work to a filing rule is the failure this pipeline keeps
+# repeating.
+if [ -d "$WORK/source" ]; then
+  for f in "$WORK/source"/*.md; do
+    [ -e "$f" ] || continue
+    orig="$SRC_DIR/$(basename "$f")"
+    if [ ! -f "$orig" ] || ! cmp -s "$f" "$orig"; then
+      cp "$f" "$RUN/" && echo "  rescued $(basename "$f") — it was repaired inside source/" >&2
+    fi
+  done
+fi
 
 echo "  exit $RC → ${RUN#$ROOT/}/"
 ls -1 "$RUN" | sed 's/^/    /'

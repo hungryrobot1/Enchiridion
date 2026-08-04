@@ -71,6 +71,9 @@ if [ -n "$SRC_DIR" ]; then
   else
     find "$SRC_DIR" -maxdepth 1 -type f ! -name '*.md' -exec cp -n {} "$WORK/source/" \; 2>/dev/null || true
   fi
+  # See dispatch-text.sh: `-type f` never carried the text's images/ across, so
+  # every image reference in a repair job's markdown resolved to nothing.
+  [ -d "$SRC_DIR/images" ] && cp -Rn "$SRC_DIR/images" "$WORK/source/" 2>/dev/null || true
   after=$(ls -1 "$WORK/source" 2>/dev/null | wc -l | tr -d ' ')
   [ "$after" -gt "$before" ] && echo "  source/ gained $((after - before)) file(s) since dispatch"
 fi

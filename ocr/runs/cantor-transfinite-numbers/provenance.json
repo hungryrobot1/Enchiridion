@@ -18,5 +18,9 @@
       "completed": true,
       "reason": "interrupted"
     }
-  ]
+  ],
+  "adopted": {
+    "at": "2026-08-04T00:05:24Z",
+    "target": "texts/6-nineteenth-century/cantor-transfinite-numbers/cantor-transfinite-numbers.md"
+  }
 }

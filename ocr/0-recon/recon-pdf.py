@@ -44,11 +44,43 @@ def main() -> int:
     n = doc.page_count
     rect = doc[min(2, n - 1)].rect
     print(f"pages: {n}   page size: {rect.width:.0f} x {rect.height:.0f}")
+    producer = f"{doc.metadata.get('producer','')} {doc.metadata.get('creator','')}".strip()
+    if producer:
+        print(f"producer/creator: {producer}")
 
     toc = doc.get_toc()
     print(f"embedded ToC entries: {len(toc)}")
     for lvl, title, pg in toc[:10]:
         print(f"   {'  ' * (lvl - 1)}{title} → p.{pg}")
+
+    # ---- images ----
+    # The unique-image count is exact and cheap. Placement is SAMPLED, because
+    # get_image_rects() rasterizes, and on a page-image scan that means hashing a
+    # full-page photograph once per page: three separate runs reported this as
+    # the slowest step in recon, ~2 minutes on a 400-page scan, and one worker
+    # interrupted it and got the same answer instantly from an xref-only pass.
+    xrefs: set = set()
+    full_page = 0
+    in_text = 0
+    page_area = rect.width * rect.height
+    step = max(1, n // 40)
+    sample = list(range(0, n, step))
+    for pno in range(n):
+        for img in doc[pno].get_images():
+            xrefs.add(img[0])
+    for pno in sample:
+        try:
+            imgs = doc[pno].get_images()
+            if not imgs:
+                continue
+            for r in doc[pno].get_image_rects(imgs[0][0]):
+                if (r.width * r.height) / page_area > 0.8:
+                    full_page += 1
+                else:
+                    in_text += 1
+        except Exception:
+            pass
+    img_ratio = len(xrefs) / max(n, 1)
 
     # ---- font histogram + line inventory (single pass) ----
     sizes: Counter = Counter()
@@ -92,7 +124,7 @@ def main() -> int:
         print("*** and the source-native track do not apply; heading tiers,")
         print("*** page-number clusters and Gutenberg markers cannot be")
         print("*** reported, because all of them are read from the text layer.")
-        print(f"\npages: {n}   images: {images}" if "images" in dir() else f"\npages: {n}")
+        print(f"\nimages: {len(xrefs)} unique (ratio {img_ratio:.2f}/page)")
         return 0
 
     body = sizes.most_common(1)[0][0]
@@ -135,23 +167,36 @@ def main() -> int:
     for p, t in body_numerals[:10]:
         print(f"     p.{p}: {t!r}")
 
-    # ---- images ----
-    xrefs = set()
-    full_page = 0
-    in_text = 0
-    page_area = rect.width * rect.height
-    for pno in range(n):
-        for img in doc[pno].get_images():
-            xrefs.add(img[0])
-        try:
-            for r in doc[pno].get_image_rects(doc[pno].get_images()[0][0]) if doc[pno].get_images() else []:
-                if (r.width * r.height) / page_area > 0.8:
-                    full_page += 1
-                else:
-                    in_text += 1
-        except Exception:
-            pass
-    print(f"\nimages: {len(xrefs)} unique (ratio {len(xrefs)/max(n,1):.2f}/page); sampled placement: {full_page} full-page, {in_text} in-text")
+    print(f"\nimages: {len(xrefs)} unique (ratio {img_ratio:.2f}/page); "
+          f"placement over {len(sample)} sampled page(s): {full_page} full-page, {in_text} in-text")
+    if len(sample) < n:
+        print("   (placement is sampled; the unique-image count is exact)")
+
+    # ---- route ----
+    # The verdict lives here, after both the text and the image evidence, because
+    # the most common source shape in this corpus needs BOTH to be recognised: an
+    # Internet Archive scan with an embedded OCR layer. It has plenty of
+    # extractable text, so the no-text branch above never fires, and it was
+    # therefore reported as if it were PDF-native. Four texts in one batch were
+    # this shape, and each worker had to discover it by rendering a page and
+    # reading it. Roger Bacon was misjudged from the outside for the same reason.
+    ocr_producer = any(k in producer.upper() for k in ("ABBYY", "FINEREADER", "LURATECH", "TESSERACT"))
+    mostly_scanned = full_page >= max(1, len(sample) * 0.8)
+    if mostly_scanned or (ocr_producer and img_ratio >= 0.9):
+        print("\n*** SCAN WITH AN EMBEDDED OCR LAYER.")
+        print("*** Nearly every page carries a full-page raster, so the text layer")
+        print("*** was produced by OCR over photographs rather than typeset.")
+        print("*** It is NOT a PDF-native source: its characters are guesses, and")
+        print("*** its errors are already in the file. Judge the layer before")
+        print("*** trusting it — render a page and compare it against the text.")
+        print("*** Route: usually OCR, which is run BY HAND (see 2-extract/STAGE.md).")
+        print("*** The page images are a real printed witness, so stage 4 applies.")
+    elif ocr_producer:
+        print("\n*** Producer is OCR software but the pages are not mostly rasters.")
+        print("*** Likely a RECONSTRUCTION: re-typeset OCR output with no page")
+        print("*** images. Extractable, but it is its own only witness — nothing")
+        print("*** can check it, and re-OCRing it only re-reads the reconstruction.")
+        print("*** Route: extract, state the ceiling, and expect needs-review.")
     return 0
 
 

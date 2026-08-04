@@ -1,0 +1,29 @@
+{
+  "text_id": "kayyam-rubaiyat",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "a01dc8c",
+  "session_id": "019fcd7d-b8f3-7ff2-8de8-5c99a0afa548",
+  "started": "2026-08-04T15:56:35Z",
+  "finished": "2026-08-04T16:05:16Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-04T16:13:04Z",
+      "finished": "2026-08-04T16:16:19Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-04T16:17:23Z",
+      "finished": "2026-08-04T16:20:18Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ]
+}

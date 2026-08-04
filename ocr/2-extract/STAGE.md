@@ -85,11 +85,36 @@ shrinking it: it yields triad-clean text, not correct text.
 Whether any character is the character on the page. That question is deferred to
 stage 4, and for most of the corpus it is still deferred.
 
+## `ocr.py` is run by hand, never by a dispatched run
+
+**A dispatched worker must not invoke `ocr.py`.** It is always run manually,
+outside the run's sandbox, which has no outbound network by design. A worker that
+tries the call gets a DNS failure, learns nothing, and has to escalate twice —
+which happened to three runs in one batch before this was written down.
+
+If OCR is the chosen track, **prepare the PDF and then escalate**. The escalation
+is not a request for permission to run a command; it is a handoff. It should
+carry:
+
+- the ask itself, in one line;
+- **the prepared file** and the exact command to run on it;
+- what preparation produced it — the page ranges kept and dropped, the asserted
+  page count, which boundary leaves were rendered and what they show;
+- any crop applied, or an explicit statement that none was and why. A crop that
+  cuts marginal apparatus mid-column makes the OCR worse, so "no crop, because
+  the marginal synopses interrupt the central text region" is a finding, not an
+  omission;
+- the duplicate-leaf scan result, with its positive control.
+
+Preparation is the part of this stage a run can actually do, and it is what makes
+the OCR output clean. Do all of it before escalating. The run resumes with the
+resulting markdown and images placed in the workspace.
+
 ## Tools
 
 | Tool | What it does |
 |---|---|
-| `ocr.py` | Mistral OCR pipeline. Writes `<text-id>.md` beside the PDF plus an `images/` subfolder. Reads `MISTRAL_API_KEY` from `ocr/.env`. |
+| `ocr.py` | Mistral OCR pipeline. **Run manually only — see above.** Writes `<text-id>.md` beside the PDF plus an `images/` subfolder, where `<text-id>` is the PDF's *parent directory name*, so pass an explicit output directory when that would be wrong. Reads `MISTRAL_OCR_KEY` from `ocr/.env`. |
 | `extract-text.py` | Extracts embedded PDF text into markdown via PyMuPDF. The right track for prose wherever the text layer permits it; lossy for notation — see above. |
 
 The source-native track has no tool of its own yet. Both texts done this way were

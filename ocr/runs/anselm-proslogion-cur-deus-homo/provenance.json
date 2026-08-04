@@ -1,0 +1,33 @@
+{
+  "text_id": "anselm-proslogion-cur-deus-homo",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "a01dc8c",
+  "session_id": "019fcd7d-c184-7680-af39-ec4aa40161de",
+  "started": "2026-08-04T15:56:38Z",
+  "finished": "2026-08-04T16:03:43Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-04T16:12:54Z",
+      "finished": "2026-08-04T16:14:43Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-04T16:15:55Z",
+      "finished": "2026-08-04T16:35:12Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-04T17:23:40Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/anselm-proslogion-cur-deus-homo/anselm-proslogion-cur-deus-homo.md"
+  }
+}

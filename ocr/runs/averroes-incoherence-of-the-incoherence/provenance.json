@@ -1,0 +1,33 @@
+{
+  "text_id": "averroes-incoherence-of-the-incoherence",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "a01dc8c",
+  "session_id": "019fcd7d-e370-78c2-ac02-9c461cd3bc1c",
+  "started": "2026-08-04T15:56:47Z",
+  "finished": "2026-08-04T16:07:20Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-04T16:13:06Z",
+      "finished": "2026-08-04T16:17:14Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-04T16:32:03Z",
+      "finished": "2026-08-04T16:36:15Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-04T17:23:36Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/averroes-incoherence-of-the-incoherence/averroes-incoherence-of-the-incoherence.md"
+  }
+}

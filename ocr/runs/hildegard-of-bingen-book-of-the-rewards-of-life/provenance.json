@@ -1,0 +1,33 @@
+{
+  "text_id": "hildegard-of-bingen-book-of-the-rewards-of-life",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "a01dc8c",
+  "session_id": "019fcd7d-bcc5-7f01-bc18-101c818599d3",
+  "started": "2026-08-04T15:56:37Z",
+  "finished": "2026-08-04T16:00:34Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-04T16:13:01Z",
+      "finished": "2026-08-04T16:26:25Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-04T16:31:37Z",
+      "finished": "2026-08-04T16:40:52Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-04T17:23:38Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/hildegard-of-bingen-book-of-the-rewards-of-life/hildegard-of-bingen-book-of-the-rewards-of-life.md"
+  }
+}

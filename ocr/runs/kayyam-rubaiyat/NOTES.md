@@ -1,0 +1,179 @@
+# Run notes — `kayyam-rubaiyat`
+
+## Outcome
+
+`kayyam-rubaiyat.md` is a deterministic, reader-shaped transcription of the
+1859 First Edition only. `convert_kayyam.py` is the load-bearing derivation
+script. The edition scope was settled by `ANSWER.md`: the library's purity rule
+excludes the Fifth Edition, and `year_translated: 1859` is correct.
+
+No `toc.json` was created. `source/metadata.json`, including
+`ocr_status: pending`, was not changed. The text honestly stops at
+`needs-review`; the absence of an independent scan is the expected textual
+ceiling. A separate reader-structure contradiction is recorded in
+`ESCALATION.md`.
+
+## Stage 0 — recon
+
+- Read `ocr/README.md` and every numbered stage's `STAGE.md` before processing.
+- `recon-pdf.py` found a 42-page PDF with a clean embedded text layer, an
+  embedded contents tree, Gutenberg boilerplate on PDF pp.4 and 37–42, the
+  introduction on pp.8–11, its footnotes on p.12, First Edition on pp.13–21,
+  Fifth Edition on pp.22–33, and end notes beginning p.34.
+- The sibling EPUB is the structured source, so this takes the source-native
+  track. The PDF is a rendered witness for the same Gutenberg transcription,
+  not an independent witness.
+- The title pages identify Omar Khayyam and “Rendered into English Verse by
+  Edward Fitzgerald.” Metadata identifies the same author and translator but
+  spells the surname `FitzGerald`; the output follows the supplied title page's
+  capitalization.
+- `ANSWER.md` establishes that the library holds the 1859 First Edition. The
+  Fifth Edition's presence in the source volume does not expand the work's scope.
+
+### Duplicate-page probe
+
+The stage has no tool, so this was performed ad hoc against normalized PDF text
+inside the page margins. Exact and fuzzy comparisons covered offsets 1–6 and
+through 16 (the gathering width). The positive control compared PDF p.13 with
+itself and returned similarity 1.0. No distinct page pair exceeded 0.85 and no
+exact duplicate was found. This tests the generated PDF's pages, not an earlier
+paper edition.
+
+## Stage 1 — prepare
+
+No crop or split was needed because the converter reads an asserted XHTML range
+directly. The First Edition boundary was checked against the PDF contents and
+page text. The Fifth Edition remains in `source/` but is never emitted.
+
+## Stage 2 — extract
+
+`convert_kayyam.py` reads the one EPUB XHTML content file and selects the range
+from `First Edition` up to (but not including) `Fifth Edition`. The source's
+later `Notes:` boundary is also asserted, making source-structure drift visible.
+It excludes:
+
+- the entire Fifth Edition;
+- the Project Gutenberg header, footer, and licence;
+- the contents/navigation table;
+- Fitzgerald's introduction and its eight linked footnotes;
+- the end notes.
+
+It retains the First Edition's 75 stanzas, the `KUZA—NAMA. ("Book of Pots")`
+intertitle, and `TAMAM SHUD.`. The text is under 100 KB and uses one opening
+`h1`. With the redundant edition heading removed, sequence-valid stanza numbers
+and the intertitle are promoted to `h2`; leaving them at `h3` would create a
+heading-level gap. Verse line endings remain Markdown hard breaks.
+
+Final extraction evidence:
+
+- 14,031 characters, 2,481 whitespace-delimited words, and 534 lines;
+- 75 numbered stanzas plus one intertitle `<pre>`;
+- all 76 retained `<pre>` blocks occur in PDF pp.13–21 with exact character
+  order after removing layout whitespace;
+- one `h1`, 75 `h2`s, and zero `h3`s (74 valid numeral headings plus the
+  intertitle; the anomalous stanza label remains plain text);
+- deterministic regeneration compared byte-for-byte equal with the proposal.
+
+This is source-fidelity evidence only. Because PDF and EPUB render one Gutenberg
+transcription, their agreement is not corroboration and cannot establish that
+Gutenberg copied an earlier edition correctly.
+
+### Reader heading-level correction and remaining contradiction
+
+`ANSWER.md` correctly identifies a general structural trap: the reader splits
+at an exact heading level, so removing a wrapper requires promoting every level
+beneath it. The converter was changed from `###` to `##`; a controlled diff
+confirmed that exactly 75 heading markers changed and no other text did. The
+converter still sequence-validates 75 numbered stanzas, and deterministic
+regeneration remains byte-for-byte equal.
+
+However, executing the repository's actual
+`site/src/lib/section-tree.js::buildToc()` against the corrected file returned
+zero sections. `splitMarkdownIntoSections(markdown, 2)` directly sees all 75
+`h2`s, but `buildToc()` first calls the level-1 splitter. With only the title
+`h1`, that call yields zero sections and never recurses. A minimal `# T` +
+`## I` control also returned zero; a `# T` + `# BOOK` + `## I` control returned
+one top-level section with one child. The reader calls the same level-1 splitter
+before building live sections. This evidence conflicts with the premise that
+the `h2` promotion alone restores contents and deep links, so no such claim is
+made; see `ESCALATION.md`.
+
+## Page-adjudicated anomaly
+
+The First Edition sequence reads `XLVIII.`, `XLVIX.`, `L.`. A 3× render of
+supplied PDF p.18 visibly confirms `XLVIX.`. Per `ANSWER.md`, it is preserved
+exactly as printed.
+
+The converter asserts this exception. Because heading promotion requires a
+valid numeral sequence, `XLVIX.` remains a plain standalone label rather than
+being silently normalized or promoted.
+
+## Stage 3 — post-process and checks
+
+The converter performs the relevant post-processing at source: excluded
+apparatus, anchors, page furniture, and wrappers never enter the output. Dry
+runs reported:
+
+- 0 HTML entities to decode;
+- 0 Latin presentation ligatures to expand;
+- 0 in-page navigation artifacts;
+- 0 bare page-number lines;
+- no HTML tags, Markdown links/images, code fences, dollar signs, tabs, raw
+  backslashes, or Gutenberg mentions.
+
+`collapse-verse-blanks.py` was not applied. It is documented for texts whose
+metadata declares `layout: verse`; moreover, its dry run proposed collapsing
+the deliberate blanks around the plain `XLVIX.` exception. Its boundary
+heuristic assumes structural numeral lines were promotable headings.
+
+`join-line-wrap-hyphens.py` was inapplicable and was not run: EPUB `<pre>`
+elements explicitly encode the verse lines, while the tool repairs wrapping
+introduced by PDF/OCR extraction. Applying it could alter source-native hyphens.
+
+### Diagnostic triad and controls
+
+The positive-control Markdown contains one unbalanced `$`, one undefined KaTeX
+command, and one raw LaTeX leak. After narrowing the edition, the three tools
+were re-run after the heading correction; each exited 1 and found its intended
+defect.
+Against `kayyam-rubaiyat.md`, all three then exited 0:
+
+- `lint-math.py`: 0 issues;
+- `check-math.js`: 0 failures out of 0 math blocks;
+- `check-raw-latex.js`: 0 surviving backslashes.
+
+`lint-math.py`'s clean summary says “0 file(s),” but source inspection shows this
+is the number of files *with issues*, not files scanned. The wording is easy to
+misread. The math vocabulary census reports no Markdown texts with math. Since
+the poem has no mathematical notation, the triad is only a renderer-safety
+check and says nothing about whether the words are correct.
+
+The final character census found only the source's em dash (U+2014) outside
+ASCII; no foreign-script character is present.
+
+## Stage 4 — proofreading ceiling
+
+Every retained poem block was compared mechanically with the supplied PDF
+rendering, and `XLVIX.` was visually inspected. PDF and EPUB share one act of
+transcription, so this cannot become correctness proofreading or corroboration.
+Per `ANSWER.md`, no network search is authorized or needed: `needs-review` is the
+expected ceiling. No word-level correctness claim is made.
+
+## Documentation and time
+
+Most time went to source-boundary and evidence questions: reading the stage
+contracts, distinguishing apparatus from poem content, proving the duplicate
+probe with a positive control, visually adjudicating `XLVIX.`, and testing the
+heading correction through the reader's actual section-tree implementation. The
+edition and heading rewrites themselves were mechanically simple because the
+converter uses asserted boundaries and counts.
+
+Tooling friction was smaller but real: the source-native track has no common
+converter, the duplicate-scan procedure has no tool, the triad's clean summaries
+do not consistently state how many files were actually read, and the verse-blank
+heuristic misclassifies a source-verified numeral that correctly was not promoted
+to a heading. The stage documents did not settle multi-revision source scope;
+`ANSWER.md` supplied the missing purity rule for this text. The exact-level
+reader design adds another general hazard: promoting children is necessary when
+a wrapper is removed, but the checked-in implementation also requires a
+level-1 section before it will recurse to those children.

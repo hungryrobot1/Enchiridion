@@ -40,6 +40,52 @@ A tool's count also means nothing if the tool cannot *see* the region:
 `reflow-derivations.py` reported 0 candidates while 95 paragraphs sat hidden
 behind that code fence.
 
+## What this stage may repair, and on whose authority
+
+The rule **"never repair a variant you have not seen printed"** belongs to
+stage 4. It governs adjudication against an external witness: deciding what the
+page *says* in a case the document itself cannot settle. It is not a general ban
+on fixing things.
+
+**This stage repairs on internal evidence, and needs no printed page to do it.**
+The distinguishing question is not how confident you feel — it is *where the
+evidence lives*. If the document itself establishes the defect, the repair is
+post-processing and belongs here. If settling it requires looking at the book,
+it is proofreading and belongs in stage 4.
+
+Repairs licensed here, because the markdown carries its own evidence:
+
+- **Readings impossible in the language.** `1 saw` is not an English sentence;
+  the pronoun `I` was read as a digit. Hildegard's ABBYY layer contains 99 of
+  these (`3.1 saw` for `3. I saw`) plus `/ am the power`, where a slash stands in
+  for `I`. No printed page is needed to know that a sentence has no subject.
+- **Words impossible in the language**, where exactly one repair is available:
+  `DIFERENTIATED`, `moti/n`, `w_ o`, `printiples`. Distinguish these from words
+  that are merely *unexpected* — a Latin term in a philosophical translation, an
+  archaic spelling, a proper name — which are stage-4 questions.
+- **Mechanical debris**: line-wrap hyphens, page-turn splits, running headers,
+  undecoded entities, ligatures, page furniture. Never controversial.
+- **Characters from a script the document does not use.** A Greek `Ό` in a text
+  with no Greek in it is the confusable-letter signature, not a reading.
+
+Still forbidden here, because the evidence is external:
+
+- Anything where **more than one repair is plausible**. `Wenks`, `pilch`, `Cue`
+  could each be several words; choosing one is guessing, and guessing produces a
+  text that reads confidently and is wrong.
+- Anything turning on **what an edition happens to print** — a printer's error
+  faithfully transcribed (`XLVIX.` in FitzGerald), an unusual spelling, an
+  editorial insertion.
+
+Two obligations on every repair made here, without exception. **Apply it by
+script with an asserted count**, so the change is reviewable and reproducible;
+and **state the rule that licensed it**, so a reader of the notes can check the
+reasoning rather than the outcome. A repair whose justification is "it looked
+wrong" is a stage-4 question wearing stage-3 clothes.
+
+When a case is genuinely unclear, leave the reading and list it. A bounded list
+of open questions is a better artifact than a confident text.
+
 ## Tools
 
 | Tool | What it does |

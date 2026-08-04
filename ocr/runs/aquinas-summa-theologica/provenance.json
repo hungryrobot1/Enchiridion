@@ -1,0 +1,13 @@
+{
+  "text_id": "aquinas-summa-theologica",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "a01dc8c",
+  "session_id": "019fcda5-84fd-74d3-a08e-ec885b0ada15",
+  "started": "2026-08-04T16:40:04Z",
+  "finished": "2026-08-04T16:40:06Z",
+  "exit_code": 1,
+  "completed": false
+}

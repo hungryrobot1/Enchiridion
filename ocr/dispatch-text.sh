@@ -204,6 +204,31 @@ cannot tell — escalate. **Do not repair a variant you have not seen printed.**
 The commoner spelling is not automatically right. What you know is that they
 cannot both be.
 
+**The repair rule above is a stage-4 rule.** It governs adjudicating a reading
+against the printed page. Stage 3 repairs on evidence inside the document itself
+and needs no page: `1 saw` has no subject, `moti/n` is not a word, and neither is
+a doubtful reading of anything. The test is where the evidence lives and whether
+exactly one repair is available — see `3-postprocess/STAGE.md`, which states it
+in full. Do not defer a broken string to stage 4; do not resolve an ambiguous one
+in stage 3.
+
+## The library holds whole works
+
+**Transcribe the entire work, always.** The library's promise is that a reader
+can read any text cover to cover. What the syllabus recommends is often a small
+fraction of a book — a few chapters, one of thirteen parts — and that has no
+bearing on what gets transcribed. Never narrow a text to the part you think will
+be assigned, and never stop early because a work is long.
+
+This does not loosen the apparatus policy: editorial introductions, commentary,
+bibliographies and indices still come out. The distinction is between *the work*
+and *the edition's furniture around it*. A translator's commentary volume is
+furniture even when it is half the file; Book XIII is the work even if nobody is
+assigned it.
+
+Where a work spans several physical volumes or several supplied files, it is
+still one work. Say so, and transcribe all of it.
+
 ## When to stop and ask
 
 Stopping is a good outcome, and three kinds of question are worth stopping for.
@@ -216,8 +241,16 @@ whole-work verse declaration shatters prose that alternates with it. These fail
 invisibly, which is why they are worth a question rather than a guess.
 
 **Permission, which is not a judgment at all.** Network access, or anything that
-spends money or touches an external service — running the OCR API, for instance,
-where a mistake upstream means paying to do it again. Ask; do not decide.
+touches an external service. Ask; do not decide.
+
+**OCR is always run by hand, by us, outside this sandbox — which has no network.**
+Do not invoke `ocr.py`; it cannot work here, and three runs in one batch each
+spent a cycle discovering that. If OCR is the track, do all the preparation, then
+escalate a HANDOFF rather than a request: the prepared file and the exact command,
+the page ranges kept and dropped with an asserted count, which boundary leaves you
+rendered and what they show, the duplicate-leaf scan with its control, and whether
+you cropped — including an explicit "no crop, because…" when you did not. The
+preparation is what makes the OCR clean, and it is entirely yours to do.
 
 **The method's premise does not hold here.** If the approach the documents assume
 turns out not to apply to your text — no independent witness where one was

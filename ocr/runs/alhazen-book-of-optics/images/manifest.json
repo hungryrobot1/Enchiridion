@@ -1,0 +1,36 @@
+[
+  {
+    "source_page": 36,
+    "prepared_page": 32,
+    "xref": 209,
+    "bbox": [
+      516.4,
+      70.0,
+      773.26,
+      282.4
+    ],
+    "area_ratio": 0.10574117498946294,
+    "caption": "FIGURE 1",
+    "filename": "figure-1.png",
+    "width": 1427,
+    "height": 1180,
+    "sha256": "72f2326fa404f4dceb793cfd87cf3dde26429a12d6919e64a7c46e7fbdbb087a"
+  },
+  {
+    "source_page": 124,
+    "prepared_page": 120,
+    "xref": 738,
+    "bbox": [
+      147.8,
+      180.55,
+      285.5,
+      471.07
+    ],
+    "area_ratio": 0.07968075805025292,
+    "caption": "FIGURE III.1",
+    "filename": "figure-iii-1.png",
+    "width": 765,
+    "height": 1614,
+    "sha256": "53e2dfad8fe67582e7b0a01295282807cbf6b78f38afb98d0c81740aa435d490"
+  }
+]

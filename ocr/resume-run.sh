@@ -177,6 +177,32 @@ find "$WORK" -maxdepth 1 -type f ! -name 'TASK.md' ! -name 'ANSWER.md' \
 find "$WORK" \( -name '*.py' -o -name '*.sh' \) -not -path "$WORK/source/*" \
      -exec cp {} "$RUN/" \; 2>/dev/null || true
 [ -d "$WORK/controls" ] && cp -R "$WORK/controls" "$RUN/" 2>/dev/null || true
+# Images the run produced or corrected.
+[ -d "$WORK/images" ] && cp -R "$WORK/images" "$RUN/" 2>/dev/null || true
+# The same rescue dispatch-text.sh performs, and for the same reason: markdown
+# left in source/ is work, and losing work to a filing rule is the failure this
+# pipeline keeps repeating. This copy was missing here while dispatch-text.sh had
+# it, so a run that finished via a RESUME could strand its output -- which is now
+# most runs. al-Biruni wrote its 667 KB proposed text to source/ and named it in
+# PROPOSED.md; the run directory got the proposal and not the text, and the next
+# dispatch of that text would have deleted it.
+if [ -d "$WORK/source" ]; then
+  for f in "$WORK/source"/*.md; do
+    [ -e "$f" ] || continue
+    orig="$SRC_DIR/$(basename "$f")"
+    if [ ! -f "$orig" ] || ! cmp -s "$f" "$orig"; then
+      cp "$f" "$RUN/" && echo "  rescued $(basename "$f") from source/" >&2
+    fi
+  done
+  # Images too, and for the same reason. `ocr.py` writes images/ beside the
+  # markdown it produces, so an OCR run resynced into source/ leaves them there.
+  # The adopt gate refuses a text whose image references resolve nowhere, which
+  # is correct -- but the images existed and were simply never lifted.
+  if [ -d "$WORK/source/images" ]; then
+    mkdir -p "$RUN/images"
+    cp -Rn "$WORK/source/images"/* "$RUN/images/" 2>/dev/null || true
+  fi
+fi
 [ -f "$WORK/ESCALATION.md" ] && cp "$WORK/ESCALATION.md" "$RUN/" && \
   echo "  ESCALATED AGAIN — see $RUN/ESCALATION.md"
 

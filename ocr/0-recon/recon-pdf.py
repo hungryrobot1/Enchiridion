@@ -77,6 +77,24 @@ def main() -> int:
                 if PG_RE.search(text):
                     pg_markers.append((pno + 1, text[:70]))
 
+    # No font census means no embedded text layer at all -- which is not an
+    # error condition, it is the single most important thing recon can report:
+    # this PDF is a scan and must go to OCR rather than to extraction. It used
+    # to crash here with IndexError, on the tool the stage document names as the
+    # first thing to run on anything new, so the answer "this is a scan" was the
+    # one answer it could not give.
+    if not sizes:
+        print("\nfont histogram (chars): (none)")
+        print("body size: N/A — NO EMBEDDED TEXT LAYER")
+        print(f"chars/page: 0   mean line length: 0")
+        print("\n*** This PDF carries no extractable text. It is a scan.")
+        print("*** Route: OCR (ocr/2-extract/ocr.py). PDF-native extraction")
+        print("*** and the source-native track do not apply; heading tiers,")
+        print("*** page-number clusters and Gutenberg markers cannot be")
+        print("*** reported, because all of them are read from the text layer.")
+        print(f"\npages: {n}   images: {images}" if "images" in dir() else f"\npages: {n}")
+        return 0
+
     body = sizes.most_common(1)[0][0]
     print(f"\nfont histogram (chars): {sizes.most_common(6)}")
     print(f"body size: {body}")

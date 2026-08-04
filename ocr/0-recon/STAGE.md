@@ -48,7 +48,7 @@ Anything about the eventual markdown. Recon reads the *source*.
 
 | Tool | What it does |
 |---|---|
-| `recon-pdf.py` | Standard reconnaissance battery for a source PDF — page count, text-layer presence and quality, font census, image inventory. The first thing to run on anything new. |
+| `recon-pdf.py` | Standard reconnaissance battery for a source PDF — page count, text-layer presence and quality, font census, image inventory. The first thing to run on anything new. **A PDF with no text layer at all reports "NO EMBEDDED TEXT LAYER" and routes to OCR**; everything else it prints — heading tiers, page-number clusters, Gutenberg markers — is read from the text layer and is therefore unavailable for a scan. It used to crash with `IndexError` on exactly that case, so the one answer it could not give was the most important one. |
 | `survey-corpus.py` | Surveys every pending text in the corpus for extraction candidacy. Corpus-wide rather than per-text; also the tool that surfaces metadata drift. |
 | `detect-apparatus.py` | Detects leftover editorial/scholarly apparatus in a corpus text — introductions, notes-on-the-text, bibliographies. Supports the apparatus-stripping policy. |
 

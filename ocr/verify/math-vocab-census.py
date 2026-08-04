@@ -425,8 +425,15 @@ def main() -> int:
         if "$" not in md:
             continue
         cmds, slots = census_text(md)
-        if cmds:
-            per_text[name] = {"cmds": cmds, "slots": slots, "spans": len(math_spans(md)),
+        spans = math_spans(md)
+        # `if cmds:` here excluded any text whose math contains no backslash
+        # commands -- and that is precisely the notation the confusable-letter
+        # report was written for. Al-Khwarizmi has 28 math spans, all of them
+        # bare point labels like `$ABCD$`, and the tool answered "no markdown
+        # texts with math found". The worker caught it and said so: that zero was
+        # not evidence of a clean census, it was evidence of a gate.
+        if cmds or spans:
+            per_text[name] = {"cmds": cmds, "slots": slots, "spans": len(spans),
                               "confusable": confusable_report(md),
                               "kind_strays": kind_stray_report(cmds),
                               "foreign": foreign_report(md)}

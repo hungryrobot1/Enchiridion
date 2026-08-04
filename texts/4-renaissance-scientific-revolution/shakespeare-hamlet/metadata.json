@@ -16,5 +16,6 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "needs-review"
+  "ocr_status": "needs-review",
+  "collapse": 1
 }

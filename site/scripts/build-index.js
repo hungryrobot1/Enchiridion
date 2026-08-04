@@ -77,7 +77,7 @@ async function buildTextIndex() {
         original_language: meta.original_language,
         format: meta.format,
         layout: meta.layout || null,
-        flat_sections_below: meta.flat_sections_below ?? null,
+        collapse: meta.collapse ?? null,
         filename: meta.filename,
         description: meta.description || '',
         topics: meta.topics || [],

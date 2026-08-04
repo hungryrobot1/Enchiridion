@@ -38,6 +38,19 @@ import * as reference from '../../site/src/lib/section-tree.js';
 const abbrevRef = reference.abbreviateSlug;
 const matchSegmentRef = reference.matchSegment;
 
+// Where sectioning starts: level 1 unless the document's only `#` is its
+// title, in which case its divisions are whatever level they actually use.
+// This mirrors buildToc; both walkers below reimplement the tree rather than
+// calling it, which is exactly how they came to disagree with the module they
+// exist to check.
+function startSections(text) {
+  const first = reference.splitMarkdownIntoSections(text, 1);
+  if (first.sections.length > 0) return [first.sections, 1];
+  const fallback = reference.shallowestHeadingLevel(text, 2);
+  if (fallback === null) return [[], 1];
+  return [reference.splitMarkdownIntoSections(text, fallback).sections, fallback];
+}
+
 function referencePaths(text) {
   const paths = [];
   const walk = (sections, level, parentPath) => {
@@ -46,12 +59,15 @@ function referencePaths(text) {
       const slug = reference.uniqueSlug(reference.slugifyHeading(sec.headingMd), used);
       const path = parentPath ? `${parentPath}/${slug}` : slug;
       paths.push(path);
-      const sub = reference.splitMarkdownIntoSections(sec.bodyMd, level + 1);
-      walk(sub.sections, level + 1, path);
+      const childLevel = reference.shallowestHeadingLevel(sec.bodyMd, level + 1);
+      if (childLevel !== null) {
+        const sub = reference.splitMarkdownIntoSections(sec.bodyMd, childLevel);
+        walk(sub.sections, childLevel, path);
+      }
     }
   };
-  const { sections } = reference.splitMarkdownIntoSections(text, 1);
-  walk(sections, 1, null);
+  const [sections, top] = startSections(text);
+  walk(sections, top, null);
   return paths;
 }
 
@@ -71,11 +87,15 @@ function referenceAbbrevMap(text) {
       const shortSlug = abbrevRef(slugs[i], slugs);
       const short = parentShort ? `${parentShort}/${shortSlug}` : shortSlug;
       map.set(path, short);
-      const sub = reference.splitMarkdownIntoSections(sec.bodyMd, level + 1);
-      walk(sub.sections, level + 1, path, short);
+      const childLevel = reference.shallowestHeadingLevel(sec.bodyMd, level + 1);
+      if (childLevel !== null) {
+        const sub = reference.splitMarkdownIntoSections(sec.bodyMd, childLevel);
+        walk(sub.sections, childLevel, path, short);
+      }
     });
   };
-  walk(reference.splitMarkdownIntoSections(text, 1).sections, 1, null, null);
+  const [topSections, topLevel] = startSections(text);
+  walk(topSections, topLevel, null, null);
   return map;
 }
 

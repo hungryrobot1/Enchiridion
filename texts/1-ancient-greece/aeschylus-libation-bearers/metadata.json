@@ -9,7 +9,7 @@
   "format": "markdown",
   "layout": "verse",
   "filename": "aeschylus-libation-bearers.md",
-  "description": "Second play of the Oresteia. Orestes returns to avenge his father, killing his mother Clytemnestra — and is pursued by the Furies for matricide.",
+  "description": "Second play of the Oresteia. Orestes returns to avenge his father, killing his mother Clytemnestra \u2014 and is pursued by the Furies for matricide.",
   "topics": [
     "literature",
     "drama",
@@ -17,5 +17,6 @@
   ],
   "era": "ancient-greece",
   "prerequisites": [],
-  "ocr_status": "complete"
+  "ocr_status": "complete",
+  "collapse": 0
 }

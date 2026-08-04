@@ -8,7 +8,7 @@
   "original_language": "Greek",
   "format": "markdown",
   "filename": "archimedes-floating-bodies.md",
-  "description": "Foundational treatise of hydrostatics — the buoyancy principle, conditions for equilibrium of submerged and partially submerged bodies, and the stability of floating solids. Book II extends the analysis to paraboloids of revolution.",
+  "description": "Foundational treatise of hydrostatics \u2014 the buoyancy principle, conditions for equilibrium of submerged and partially submerged bodies, and the stability of floating solids. Book II extends the analysis to paraboloids of revolution.",
   "topics": [
     "physics",
     "mechanics",
@@ -19,5 +19,6 @@
   "prerequisites": [
     "euclid-elements"
   ],
-  "ocr_status": "complete"
+  "ocr_status": "complete",
+  "collapse": 0
 }

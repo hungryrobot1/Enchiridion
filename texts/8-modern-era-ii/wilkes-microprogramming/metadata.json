@@ -18,5 +18,6 @@
   "prerequisites": [
     "von-neumann-edvac"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "pending",
+  "collapse": 0
 }

@@ -154,16 +154,42 @@ function buildNodes(
     const path = parentPath ? `${parentPath}/${slug}` : slug;
     const shortSlug = abbreviateSlug(slug, slugs);
     const short = parentShort ? `${parentShort}/${shortSlug}` : shortSlug;
-    const sub = splitMarkdownIntoSections(sec.bodyMd, level + 1);
+    const childLevel = shallowestHeadingLevel(sec.bodyMd, level + 1);
+    const sub = childLevel === null
+      ? { sections: [] }
+      : splitMarkdownIntoSections(sec.bodyMd, childLevel);
     return {
       path,
       ...(short === path ? {} : { short }),
       heading: sec.headingMd,
       level,
       words: countWords(sec.headingMd) + countWords(sec.bodyMd),
-      children: buildNodes(sub.sections, level + 1, path, short),
+      children: childLevel === null ? [] : buildNodes(sub.sections, childLevel, path, short),
     };
   });
+}
+
+/**
+ * The shallowest heading level at or below `minLevel` that actually occurs.
+ *
+ * Mirror of the same function in site/src/lib/section-tree.js. Sectioning used
+ * to assume heading levels are contiguous and begin at `#`; a document whose
+ * only `#` is its title, or one with a gap (`#` then `###`), silently produced
+ * fewer sections rather than an error. Asking which level is next fixes both
+ * and changes nothing where levels are contiguous.
+ */
+function shallowestHeadingLevel(text: string, minLevel: number): number | null {
+  let best: number | null = null;
+  let inFence = false;
+  for (const line of text.split('\n')) {
+    if (/^(```|~~~)/.test(line)) inFence = !inFence;
+    if (inFence) continue;
+    const m = /^(#{1,6}) (?!#)/.exec(line);
+    if (!m) continue;
+    const lvl = m[1].length;
+    if (lvl >= minLevel && (best === null || lvl < best)) best = lvl;
+  }
+  return best;
 }
 
 /** Build the full section tree for a markdown document. */
@@ -178,11 +204,19 @@ export function buildToc(text: string): Toc {
       break;
     }
   }
-  const { sections } = splitMarkdownIntoSections(text, 1);
+  let startLevel = 1;
+  let { sections } = splitMarkdownIntoSections(text, 1);
+  if (sections.length === 0) {
+    const fallback = shallowestHeadingLevel(text, 2);
+    if (fallback !== null) {
+      startLevel = fallback;
+      sections = splitMarkdownIntoSections(text, fallback).sections;
+    }
+  }
   return {
     title,
     words: countWords(text),
-    sections: buildNodes(sections, 1, null, null),
+    sections: buildNodes(sections, startLevel, null, null),
   };
 }
 
@@ -302,8 +336,14 @@ export function extractSection(text: string, path: string): { heading: string; m
   if (segments.length === 0) return null;
 
   let body = text;
-  let level = 1;
+  // Descend by the levels the document actually uses, not by assuming each is
+  // one deeper than the last. This walk must agree with buildToc exactly: a
+  // path the tree publishes and this cannot resolve is a dead ?s= link.
+  let level = splitMarkdownIntoSections(text, 1).sections.length > 0
+    ? 1
+    : (shallowestHeadingLevel(text, 2) ?? 1);
   let heading = '';
+  let foundLevel = level;
 
   for (const segment of segments) {
     const { sections } = splitMarkdownIntoSections(body, level);
@@ -315,10 +355,12 @@ export function extractSection(text: string, path: string): { heading: string; m
 
     heading = sections[i].headingMd;
     body = sections[i].bodyMd;
-    level += 1;
+    foundLevel = level;
+    const next = shallowestHeadingLevel(body, level + 1);
+    level = next ?? level + 1;
   }
 
-  const hashes = '#'.repeat(level - 1);
+  const hashes = '#'.repeat(foundLevel);
   return { heading, markdown: `${hashes} ${heading}\n${body}` };
 }
 
@@ -379,11 +421,19 @@ export function sectionSpans(text: string): SectionSpan[] {
         start: base + start,
         end: base + end,
       });
-      walk(lines.slice(start + 1, end), base + start + 1, level + 1, path, short);
+      const body = lines.slice(start + 1, end);
+      const childLevel = shallowestHeadingLevel(body.join('\n'), level + 1);
+      if (childLevel !== null) walk(body, base + start + 1, childLevel, path, short);
     }
   };
 
-  walk(text.split('\n'), 0, 1, null, null);
+  // Same fall-through as buildToc: a work whose only `#` is its title has its
+  // divisions at some deeper level, and extraction must find the identical
+  // sections the tree names, or a resolvable path will fail to extract.
+  const startLevel = splitMarkdownIntoSections(text, 1).sections.length > 0
+    ? 1
+    : (shallowestHeadingLevel(text, 2) ?? 1);
+  walk(text.split('\n'), 0, startLevel, null, null);
   return spans;
 }
 

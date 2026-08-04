@@ -29,8 +29,12 @@
  * Split markdown into the sections at one heading level, outside code fences.
  *
  * At the top level the first `#` is the work's title rather than a section, so
- * sections begin at the second one; a document with a single h1 has no
- * sections and reads as one continuous scroll.
+ * sections begin at the second one.
+ *
+ * This splits at ONE exact level and knows nothing about which level to ask
+ * for. Callers use `shallowestHeadingLevel` to decide that, because "one
+ * deeper than the parent" is an assumption a real corpus breaks — see the note
+ * on that function.
  */
 export function splitMarkdownIntoSections(text, level) {
   const lines = text.split('\n');
@@ -232,6 +236,41 @@ function truncateHeading(heading) {
   return { heading: `${body}…`, truncated: true };
 }
 
+/**
+ * The shallowest heading level at or below `minLevel` that actually occurs.
+ *
+ * Sectioning used to assume heading levels are contiguous and start at `#`.
+ * Two shapes broke that assumption, both silently, and both by producing FEWER
+ * sections rather than an error:
+ *
+ *   - a document whose only `#` is its title, whose divisions are `##`. The
+ *     level-1 split returns nothing, so the recursion never reaches them. This
+ *     is 22 published texts — every Plato dialogue, all the tragedy, four
+ *     Archimedes treatises, Epictetus — which render as one scroll on purpose
+ *     but consequently have no contents, no anchors and no `?s=` links either.
+ *   - a gap: `#` then `###` with no `##`, where the recursion stops at the
+ *     missing level and everything below it disappears. Proclus loses 50
+ *     hand-authored sections this way.
+ *
+ * Asking which level is next, rather than assuming it is one deeper, fixes both
+ * without changing anything about documents whose levels are contiguous: a
+ * heading's parent is the nearest heading above it that is shallower, which is
+ * what the old recursion already computed whenever it worked at all.
+ */
+export function shallowestHeadingLevel(text, minLevel) {
+  let best = null;
+  let inFence = false;
+  for (const line of text.split('\n')) {
+    if (/^(```|~~~)/.test(line)) inFence = !inFence;
+    if (inFence) continue;
+    const m = /^(#{1,6}) (?!#)/.exec(line);
+    if (!m) continue;
+    const lvl = m[1].length;
+    if (lvl >= minLevel && (best === null || lvl < best)) best = lvl;
+  }
+  return best;
+}
+
 function buildNodes(sections, level) {
   const used = new Set();
   const slugs = sections.map((sec) => uniqueSlug(slugifyHeading(sec.headingMd), used));
@@ -239,14 +278,17 @@ function buildNodes(sections, level) {
   return sections.map((sec, i) => {
     const slug = slugs[i];
     const short = abbreviateSlug(slug, slugs);
-    const sub = splitMarkdownIntoSections(sec.bodyMd, level + 1);
+    const childLevel = shallowestHeadingLevel(sec.bodyMd, level + 1);
+    const sub = childLevel === null
+      ? { sections: [] }
+      : splitMarkdownIntoSections(sec.bodyMd, childLevel);
     return {
       slug,
       ...(short === slug ? {} : { short }),
       ...truncateHeading(sec.headingMd),
       level,
       words: countWords(sec.headingMd) + countWords(sec.bodyMd),
-      children: buildNodes(sub.sections, level + 1),
+      children: childLevel === null ? [] : buildNodes(sub.sections, childLevel),
     };
   });
 }
@@ -286,10 +328,21 @@ export function buildToc(text) {
       break;
     }
   }
-  const { sections } = splitMarkdownIntoSections(text, 1);
+  // A document whose only `#` is its title has no level-1 sections. Start at
+  // whatever level its divisions actually use, so it still gets a tree — the
+  // title is found above and stays out of it either way.
+  let startLevel = 1;
+  let { sections } = splitMarkdownIntoSections(text, 1);
+  if (sections.length === 0) {
+    const fallback = shallowestHeadingLevel(text, 2);
+    if (fallback !== null) {
+      startLevel = fallback;
+      sections = splitMarkdownIntoSections(text, fallback).sections;
+    }
+  }
   return {
     title,
     words: countWords(text),
-    sections: buildNodes(sections, 1),
+    sections: buildNodes(sections, startLevel),
   };
 }

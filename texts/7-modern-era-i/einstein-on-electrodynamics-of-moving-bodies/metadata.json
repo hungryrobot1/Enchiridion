@@ -15,5 +15,6 @@
   ],
   "era": "modern-era-i",
   "prerequisites": [],
-  "ocr_status": "needs-review"
+  "ocr_status": "needs-review",
+  "collapse": 0
 }

@@ -31,7 +31,7 @@ export async function renderTextReader(container, params) {
     path: text.path,
     format: text.format,
     layout: text.layout,
-    flatSectionsBelow: text.flat_sections_below,
+    collapse: text.collapse,
     repoUrl: buildRepoUrl(text.path),
     // Only texts have generated tables of contents; supplements and module
     // chapters are short enough to read as one scroll.

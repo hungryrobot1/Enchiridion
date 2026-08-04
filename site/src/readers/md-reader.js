@@ -5,6 +5,7 @@ import { mountSectionBreadcrumb } from './section-breadcrumb.js';
 import { loadToc, loadPassages, mountTocSidebar } from './toc-sidebar.js';
 import {
   splitMarkdownIntoSections,
+  shallowestHeadingLevel,
   slugifyHeading,
   uniqueSlug,
   abbreviateSlug,
@@ -212,15 +213,23 @@ export default {
     // recursion the same hang just moves to the section's toggle. Each level is
     // parsed only when its parent opens; the deepest sections (no further
     // subheadings) parse their content directly.
-    const ctx = { md, blocksById, flatBelow: opts.flatSectionsBelow ?? null };
-    const { preambleMd, sections } = splitMarkdownIntoSections(text, 1);
+    const ctx = { md, blocksById, flatBelow: opts.collapse ?? null };
+    // Start at whatever level this document's divisions actually use. A work
+    // whose only `#` is its title has no level-1 sections, and asking for
+    // level 1 and stopping is what left 22 published texts with no sections,
+    // no contents and no anchors at all.
+    let topLevel = 1;
+    if (splitMarkdownIntoSections(text, 1).sections.length === 0) {
+      topLevel = shallowestHeadingLevel(text, 2) ?? 1;
+    }
+    const { preambleMd, sections } = splitMarkdownIntoSections(text, topLevel);
 
     wrapper.innerHTML = md.parse(preambleMd);
     finalizeSubtree(wrapper, blocksById);
 
     const usedSlugs = new Set();
     for (const section of sections) {
-      wrapper.appendChild(buildSection(section, 1, ctx, '', usedSlugs));
+      wrapper.appendChild(buildSection(section, topLevel, ctx, '', usedSlugs));
     }
 
     container.innerHTML = '';
@@ -449,13 +458,16 @@ function buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlu
   const body = document.createElement('div');
   section.appendChild(body);
 
-  const { preambleMd, sections } = splitMarkdownIntoSections(bodyMd, level + 1);
+  const childLevel = shallowestHeadingLevel(bodyMd, level + 1);
+  const { preambleMd, sections } = childLevel === null
+    ? { preambleMd: bodyMd, sections: [] }
+    : splitMarkdownIntoSections(bodyMd, childLevel);
   body.innerHTML = md.parse(preambleMd);
   finalizeSubtree(body, blocksById);
 
   const childSlugs = new Set();
   for (const sub of sections) {
-    body.appendChild(buildSection(sub, level + 1, ctx, path, childSlugs));
+    body.appendChild(buildSection(sub, childLevel, ctx, path, childSlugs));
   }
   return section;
 }
@@ -510,13 +522,16 @@ function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) 
     if (built) return;
     built = true;
 
-    const { preambleMd, sections } = splitMarkdownIntoSections(bodyMd, level + 1);
+    const childLevel = shallowestHeadingLevel(bodyMd, level + 1);
+    const { preambleMd, sections } = childLevel === null
+      ? { preambleMd: bodyMd, sections: [] }
+      : splitMarkdownIntoSections(bodyMd, childLevel);
     body.innerHTML = md.parse(preambleMd);
     finalizeSubtree(body, blocksById);
 
     const childSlugs = new Set();
     for (const sub of sections) {
-      body.appendChild(buildSection(sub, level + 1, ctx, path, childSlugs));
+      body.appendChild(buildSection(sub, childLevel, ctx, path, childSlugs));
     }
   };
   sectionBuilders.set(details, ensureBuilt);

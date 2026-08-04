@@ -8,7 +8,7 @@
   "original_language": "Greek",
   "format": "markdown",
   "filename": "archimedes-equilibrium-of-planes.md",
-  "description": "Archimedes's axiomatic treatment of statics — the law of the lever and centers of gravity derived from postulates about balance. Among the earliest surviving examples of physics derived deductively from first principles.",
+  "description": "Archimedes's axiomatic treatment of statics \u2014 the law of the lever and centers of gravity derived from postulates about balance. Among the earliest surviving examples of physics derived deductively from first principles.",
   "topics": [
     "physics",
     "mechanics",
@@ -19,5 +19,6 @@
   "prerequisites": [
     "euclid-elements"
   ],
-  "ocr_status": "complete"
+  "ocr_status": "complete",
+  "collapse": 0
 }

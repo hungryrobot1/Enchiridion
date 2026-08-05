@@ -888,7 +888,13 @@
   color: var(--color-ink-faint);
 }
 
-/* Focus mode hides the site header; the bar takes its place at the top. */
+/* Both ways of going fullscreen hide the site header, so the bar takes its
+   place at the top. Two selectors because they are two different mechanisms:
+   `:fullscreen` is the real Fullscreen API (desktop), `.focus-mode` the CSS
+   fallback for browsers without it (iOS). Missing the `:fullscreen` half left
+   the bar stranded 56px down, holding its place against a header that was no
+   longer there — the same pairing `.reader__toc` already carries below. */
+:fullscreen .reader__locator,
 .focus-mode .reader__locator {
   top: 0;
 }

@@ -90,15 +90,16 @@
   --max-width-full: 72rem;
   --header-height: 3.5rem;
 
-  /* The reader's thin bars. The toolbar is one of these; the locator is the
-     other, and they match so the text is bounded by two identical rules rather
-     than a tall block above a thin one. Three other rules depend on this
-     height — the fixed contents panel's top offset, the fullscreen variant of
-     the same, and section scroll-margin — so it is stated once here.
+  /* The reader's one bar. It now carries the back arrow as well as the contents
+     toggle and the crumbs, so it grows by a quarter-rem; 40px gives the 28px
+     controls 6px of air top and bottom. Three rules depend on this height (the
+     bar itself, the contents panel's top offset — plus its fullscreen variant —
+     and section scroll-margin), so it is stated once.
 
-     Note that only the locator is sticky; the toolbar scrolls away. So the
-     offsets below mean ONE bar, not two. */
-  --reader-bar: 2.25rem;
+     The presentation controls are no longer in a bar at all: they live in the
+     sidecar, a floating cluster pinned to the viewport, which has no bearing on
+     these offsets. */
+  --reader-bar: 2.5rem;
 
   /* Transitions */
   --transition: 150ms ease;

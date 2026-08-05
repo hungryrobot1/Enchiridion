@@ -25,14 +25,21 @@
 // open at once is fine: only the one under the line is named.
 
 // The bar's container class is `reader__locator`, NOT `reader__crumbs`. Do
-// not rename it back for tidiness. Some filter list Brave ships carries an
-// un-scoped cosmetic rule matching the exact class `reader__crumbs` — written
-// for some other site, never restricted to it — so with Shields on the bar
-// was given `display: none` and vanished. It fails in the worst possible way:
-// the element is in the DOM, our own code sets `hidden = false`, no request
-// fails, and nothing appears in the console. Only Brave, only that exact
-// string: `crumbs`, `breadcrumbs` and `reader__crumb` all test clean, which
-// is why the individual crumbs below keep their names.
+// not rename it back for tidiness — it now holds the back arrow and the
+// contents toggle as well as the crumbs, which makes the name look stale, and
+// it is not. Some filter list Brave ships carries an un-scoped cosmetic rule
+// matching the exact class `reader__crumbs` — written for some other site,
+// never restricted to it — so with Shields on the bar was given
+// `display: none` and vanished. It fails in the worst possible way: the
+// element is in the DOM, our own code sets `hidden = false`, no request fails,
+// and nothing appears in the console. Only Brave, only that exact string:
+// `crumbs`, `breadcrumbs` and `reader__crumb` all test clean, which is why the
+// individual crumbs below keep their names.
+//
+// The inner scroller added for the merged bar is `.reader__locator-run` for the
+// same reason. `.reader__crumb-run` would also test clean, but keeping the
+// whole family under `locator` keeps the poisoned string out of this file
+// entirely, so nobody has to remember the rule in order to stay safe.
 const SECTION_SEL = 'details.md-reader__section';
 
 // Sections one level below `node`. Top-level sections are direct children of
@@ -103,7 +110,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
   const viewport = shell.querySelector('.reader__viewport');
   if (!viewport) return () => {};
 
-  const { onChain, contents } = opts;
+  const { onChain, contents, back } = opts;
 
   const bar = document.createElement('nav');
   bar.className = 'reader__locator';
@@ -115,6 +122,20 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
   // state rather than an empty bar.
   bar.hidden = false;
   shell.insertBefore(bar, viewport);
+
+  // The back arrow used to live in a toolbar that scrolled away. It is the one
+  // control here that leaves the text rather than moving within it, so it sits
+  // alone at the left behind a hairline, ahead of everything that is about
+  // position inside the work. Built once and re-inserted, like the toggle.
+  let backLink = null;
+  if (back) {
+    backLink = document.createElement('a');
+    backLink.className = 'reader__locator-back';
+    backLink.href = back.href;
+    backLink.textContent = '←';
+    backLink.title = `Back to ${back.label}`;
+    backLink.setAttribute('aria-label', `Back to ${back.label}`);
+  }
 
   // The toggle is built once and re-inserted on each render, so the crumb
   // rebuild below never destroys it (and never drops its listener).
@@ -147,6 +168,24 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
     window.scrollBy({ top: delta, behavior: 'smooth' });
   };
 
+  const makeDivider = () => {
+    const d = document.createElement('span');
+    d.className = 'reader__locator-divider';
+    d.setAttribute('aria-hidden', 'true');
+    return d;
+  };
+
+  // The left-hand fade is only correct when the run actually overruns —
+  // otherwise it fades a title that has plenty of room.
+  let run = null;
+  const syncRunOverflow = () => {
+    if (!run) return;
+    run.classList.toggle(
+      'reader__locator-run--overflowing',
+      run.scrollWidth > run.clientWidth + 1,
+    );
+  };
+
   // null, not '' — an empty chain stringifies to '', so seeding this with ''
   // made the first update a no-op and the bar only appeared once you had
   // scrolled into a section. It must render once up front to put the contents
@@ -169,20 +208,28 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
     );
 
     bar.replaceChildren();
+    if (backLink) {
+      bar.appendChild(backLink);
+      bar.appendChild(makeDivider());
+    }
     if (toggleBtn) {
       bar.appendChild(toggleBtn);
-      const divider = document.createElement('span');
-      divider.className = 'reader__locator-divider';
-      divider.setAttribute('aria-hidden', 'true');
-      bar.appendChild(divider);
+      bar.appendChild(makeDivider());
     }
+
+    // The crumbs get their own scroller. The bar cannot be its own any more:
+    // it has fixed members at its leading edge now, and scrolling the bar
+    // would scroll ← and ☰ off it.
+    run = document.createElement('div');
+    run.className = 'reader__locator-run';
+
     crumbs.forEach((crumb, i) => {
       if (i > 0) {
         const sep = document.createElement('span');
         sep.className = 'reader__crumb-sep';
         sep.setAttribute('aria-hidden', 'true');
         sep.textContent = '›';
-        bar.appendChild(sep);
+        run.appendChild(sep);
       }
       const btn = document.createElement('button');
       btn.type = 'button';
@@ -191,8 +238,19 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
       btn.textContent = crumb.label;
       btn.title = `Go to the top of ${crumb.label}`;
       btn.addEventListener('click', () => scrollTo(crumb.section));
-      bar.appendChild(btn);
+      run.appendChild(btn);
     });
+    bar.appendChild(run);
+
+    // Right-anchor: when the chain overruns, the crumb you need is the deepest
+    // one and the title is what you can afford to lose. Scrolling to the end is
+    // a no-op when everything fits, so this is also the ordinary case with no
+    // branch. Not `margin-left: auto` on a max-content child — auto margins
+    // cannot resolve negative, so the moment the child is wider than the
+    // container the margin resolves to 0, the run stays left-anchored, and it
+    // is the deepest crumb that gets clipped.
+    run.scrollLeft = run.scrollWidth;
+    syncRunOverflow();
     bar.hidden = false;
   };
 
@@ -206,10 +264,20 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
     });
   };
 
+  // `update` early-returns when the chain is unchanged, which is the common
+  // case on resize — but the width just changed, so whether the run overruns
+  // may have changed with it. Recompute that separately. Deliberately NOT
+  // re-anchoring here: on iOS the URL bar collapsing fires resize, and yanking
+  // a run the reader had scrolled by hand would be the wrong answer.
+  const onResize = () => {
+    onScroll();
+    syncRunOverflow();
+  };
+
   window.addEventListener('scroll', onScroll, { passive: true });
   // Opening or closing a section changes the geometry under the line.
   wrapper.addEventListener('toggle', onScroll, true);
-  window.addEventListener('resize', onScroll);
+  window.addEventListener('resize', onResize);
   update();
 
   return {
@@ -217,7 +285,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
     destroy() {
       window.removeEventListener('scroll', onScroll);
       wrapper.removeEventListener('toggle', onScroll, true);
-      window.removeEventListener('resize', onScroll);
+      window.removeEventListener('resize', onResize);
       bar.remove();
     },
   };

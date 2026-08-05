@@ -296,6 +296,7 @@ export default {
     let crumbs = null;
     if (shell) {
       crumbs = mountSectionBreadcrumb(shell, wrapper, opts.title || '', {
+        back: opts.backHref ? { href: opts.backHref, label: opts.backLabel } : null,
         onChain: (path) => sidebar?.setCurrent(path),
         contents: sidebar ? {
           onToggle: () => setContentsOpen(!sidebar.isOpen()),

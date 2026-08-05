@@ -4,7 +4,7 @@ This document governs Enchiridion's public copy, supplements, modules, and other
 
 ## The governing aim
 
-Enchiridion brings readers into direct contact with primary works and equips them to remain there.
+Enchiridion equips readers for sustained engagement with primary works.
 
 The program's writing should remove accidental barriers: an unfamiliar notation, an unavailable instrument, a missing convention, a form of argument the reader has not met. It should not remove the productive difficulty of the work itself. The supplement succeeds when the reader can return to the text with better questions and greater independence, not when the supplement has supplied a finished interpretation.
 

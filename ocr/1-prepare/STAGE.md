@@ -51,4 +51,4 @@ believe it — compare a page with itself.
 | `crop-pdf.py` | Crops pages by trimming margins, producing a new PDF. |
 | `crop-footnotes.py` | Crops page-bottom footnote blocks out of a scanned PDF **before** OCR, using font-size separation. Fails when note and body type don't separate — see the README for the fallback. |
 | `strip-pdf-text.py` | Emits a copy of a PDF with the prose text layer removed. Used to force OCR, and to isolate figures. |
-| `convert-epub-to-pdf.sh` | Converts EPUB to PDF via Calibre's `ebook-convert`. Mistral's OCR API is PDF-only. |
+| `convert-epub-to-pdf.sh` | Converts EPUB to PDF via Calibre's `ebook-convert`. Mistral's OCR API is PDF-only. **Run `0-recon/recon-epub.py` first.** This is the right default for a prose book and the wrong one for a text whose EPUB stores its formulas as LaTeX in an attribute: the conversion renders those strings to pixels so that OCR can read them back as strings. Nine texts in the corpus are in that position. |

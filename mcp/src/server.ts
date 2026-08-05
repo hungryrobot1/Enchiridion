@@ -9,4 +9,4 @@ import { buildServer } from './tools.js';
 
 const transport = new StdioServerTransport();
 await buildServer().connect(transport);
-console.error('enchiridion-mcp: serving the certified corpus over stdio');
+console.error('enchiridion-mcp: serving the published corpus over stdio');

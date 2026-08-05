@@ -1,5 +1,5 @@
 /**
- * Enchiridion MCP tools — five tools over the certified corpus,
+ * Enchiridion MCP tools — five tools over the published corpus,
  * registered on a transport-agnostic McpServer (stdio and Workers entries
  * both consume buildServer()).
  *
@@ -378,7 +378,7 @@ async function resolveWork(
   }
   return {
     miss:
-      `No certified work matches "${guess}". It may not be in the corpus yet — ` +
+      `No work matches "${guess}". It may not be in the corpus yet — ` +
       `list_works with q: "<author or title>" to check, or without q for everything.`,
   };
 }
@@ -525,17 +525,15 @@ server.registerTool(
 
     const withNote = <T extends { content: unknown[] }>(res: T): T => {
       if (found.note) res.content.unshift({ type: 'text' as const, text: found.note });
-      // The caveat travels with the text rather than the catalogue, because this
-      // is where someone reads the words and may quote them back.
+      // A flag, not the explanation: what [unreviewed] means is stated once in the
+      // server instructions, which the client holds for the whole session. Sending
+      // the full caveat here would repeat it on every read — and there is nowhere
+      // to remember that we already sent it, since the remote transport builds a
+      // fresh server per request (worker.ts) and module scope spans conversations.
       if (work.status === 'needs-review') {
         res.content.unshift({
           type: 'text' as const,
-          text:
-            `[${work.id} is machine-transcribed and not yet read against its source. ` +
-            'The wording is usually right but any single word may not be. Mention this ' +
-            "if the student's point turns on exact phrasing, and treat one strange word " +
-            'as possible transcription damage rather than as the author being odd — but ' +
-            'do not repeat the caveat every time the text comes up.]',
+          text: `[unreviewed: ${work.id}]`,
         });
       }
       return res;

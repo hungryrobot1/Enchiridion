@@ -7,12 +7,15 @@
  * Nothing is bundled: the corpus stays canonical in the repository, and every
  * text is available to the server the moment it is pushed.
  *
- * Only certified content is served:
- *   texts       — format: markdown  AND  ocr_status: complete
- *   supplements — format: md       AND  content_status: complete
+ * What is served is what is READABLE, not what has been reviewed:
+ *   texts       — format: markdown  AND  ocr_status: complete | needs-review
+ *   supplements — format: md        AND  content_status: complete
  *   modules     — chapters with content_status: complete
- * Anything below that bar is invisible to the model by design: serving an
- * unaudited transcript would poison text-anchoring at the source.
+ * A text shipped on the site is a text a student may be reading, so withholding
+ * it from the model helps no one. `needs-review` means transcribed and
+ * machine-checked but not yet read against the source; that status travels with
+ * the work (see Work.status) and surfaces as an [unreviewed] flag, so the model
+ * knows which words it should not stake an argument on.
  */
 
 export const RAW_BASE = 'https://raw.githubusercontent.com/hungryrobot1/Enchiridion/main/';
@@ -103,7 +106,7 @@ export interface Work {
    * label.
    */
   status?: string;
-  /** module kind only: certified chapters in order. */
+  /** module kind only: published chapters in order. */
   chapters?: { stem: string; filename: string; title: string; alongside: string[] }[];
   /** module kind only: repo dir of the module. */
   dir?: string;

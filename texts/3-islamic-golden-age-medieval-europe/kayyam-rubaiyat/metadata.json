@@ -6,8 +6,8 @@
   "year_translated": 1859,
   "language": "English",
   "original_language": "Persian",
-  "format": "pdf",
-  "filename": "pg246-images-3.pdf",
+  "format": "markdown",
+  "filename": "kayyam-rubaiyat.md",
   "description": "Quatrains by the Persian mathematician-astronomer-poet on mortality, fate, and the beauty of the present moment",
   "topics": [
     "literature",
@@ -16,5 +16,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

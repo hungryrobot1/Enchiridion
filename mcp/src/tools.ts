@@ -157,7 +157,11 @@ function workLine(w: Work): string {
         ? ` [${w.type}]${w.texts?.length ? ` — accompanies ${w.texts.join(', ')}` : ''}`
         : '';
   const desc = w.description ? `\n    ${w.description}` : '';
-  return `  ${w.id}${who}${desc}`;
+  // Marked, not hidden. These texts are shipped and readable; the mark says a
+  // person has not read this one against its source yet, so its wording is
+  // machine-produced and a transcription error anywhere in it is possible.
+  const unreviewed = w.status === 'needs-review' ? '  [unreviewed]' : '';
+  return `  ${w.id}${who}${unreviewed}${desc}`;
 }
 
 server.registerTool(
@@ -165,7 +169,7 @@ server.registerTool(
   {
     title: 'List the works in the library',
     description:
-      'Enumerate the certified corpus: primary texts, supplements (lab manuals, ' +
+      'Enumerate the readable corpus: primary texts, supplements (lab manuals, ' +
       'study guides), and language/skill modules. Filter with q (matches id, ' +
       'title or author — pass an author name or a word from the title to find ' +
       'a work without listing everything), kind, or era (substring, e.g. ' +
@@ -521,6 +525,19 @@ server.registerTool(
 
     const withNote = <T extends { content: unknown[] }>(res: T): T => {
       if (found.note) res.content.unshift({ type: 'text' as const, text: found.note });
+      // The caveat travels with the text rather than the catalogue, because this
+      // is where someone reads the words and may quote them back.
+      if (work.status === 'needs-review') {
+        res.content.unshift({
+          type: 'text' as const,
+          text:
+            `[${work.id} is machine-transcribed and not yet read against its source. ` +
+            'The wording is usually right but any single word may not be. Mention this ' +
+            "if the student's point turns on exact phrasing, and treat one strange word " +
+            'as possible transcription damage rather than as the author being odd — but ' +
+            'do not repeat the caveat every time the text comes up.]',
+        });
+      }
       return res;
     };
 

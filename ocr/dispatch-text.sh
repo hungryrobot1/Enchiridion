@@ -320,6 +320,26 @@ Note also where the time went — which steps were slow, and whether each was sl
 because the work is genuinely intricate or because the tooling made it harder
 than it needed to be. We cannot tell those apart from the outside.
 
+**Open `NOTES.md` with a `## For the reviewer` section.** At adoption a
+`review.md` is generated beside the text in the corpus, and that section goes to
+the top of it. It is the handover to the person who will read your text against
+its source, possibly months from now, knowing nothing about your run.
+
+Put there what they need and could not work out for themselves: what witness
+exists for this text and what it can settle, which readings you repaired and
+under what licence, which you left and why, where you were uncertain, and what
+you would check first. A page-indexed list of doubtful readings is the single
+most useful thing a run can leave — it turns an unverifiable text into one with
+a bounded set of open questions.
+
+Everything else in `NOTES.md` still reaches them; the rest of the file is swept
+in below that section, minus what is plainly about our tooling. So this is not a
+filter you can lose work through — write the section to lead with what matters,
+not to decide what survives.
+
+Keep it about THIS TEXT. What the run taught us about the pipeline belongs in the
+rest of the notes; the reviewer is reading a book, not debugging a script.
+
 Do not mark anything complete that you have not verified, and do not change
 `ocr_status` to claim a completeness you could not establish.
 CHARTER

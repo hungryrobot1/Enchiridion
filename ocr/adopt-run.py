@@ -232,6 +232,11 @@ def write_review(text_dir: Path, text_id: str, meta: dict, run_dir: Path,
             kept = existing.split(marker, 1)[1]
 
     findings = extract_text_findings(run_dir / "NOTES.md")
+    # The run's own handover leads, if it wrote one. The charter asks for it; the
+    # sweep below still carries everything else, so a run that forgets loses
+    # nothing -- which is the point. A section that decides what survives is a
+    # whitelist, and every whitelist in this pipeline has silently dropped work.
+    findings.sort(key=lambda f: 0 if "for the reviewer" in f[0].lower() else 1)
     rel_run = run_dir.relative_to(ROOT)
     parts = [
         f"# {meta.get('title', text_id)} — review record",

@@ -90,6 +90,19 @@ export interface Work {
   texts?: string[];
   /** repo path of the markdown (text/supplement kinds). */
   path?: string;
+  /**
+   * Processing status, present on texts. 'complete' means a person has read the
+   * text against its source and judged it shippable -- NOT that it is free of
+   * errors; every text is an ongoing project. 'needs-review' means it was
+   * produced by the processing pipeline and machine-checked, but nobody has read
+   * it yet, so a transcription error anywhere in it is entirely possible.
+   *
+   * Say so if a student is relying on the exact wording of a needs-review text,
+   * and prefer not to build an argument on a single odd word in one. Do not
+   * volunteer it unprompted on every mention; it is a caveat, not a warning
+   * label.
+   */
+  status?: string;
   /** module kind only: certified chapters in order. */
   chapters?: { stem: string; filename: string; title: string; alongside: string[] }[];
   /** module kind only: repo dir of the module. */
@@ -110,7 +123,14 @@ export async function loadWorks(): Promise<Work[]> {
   const works: Work[] = [];
 
   for (const t of textIdx.texts ?? []) {
-    if (t.format !== 'markdown' || t.ocr_status !== 'complete') continue;
+    // Readable, not reviewed. This used to admit only 'complete', which gated
+    // on whether a PERSON had read the text -- a different question from whether
+    // a student can. Seventeen texts were shipped, readable on the site, and
+    // invisible here: someone could open Averroes in the reader and find that
+    // Claude denied the text existed. The status travels with the work instead,
+    // so the caveat can be spoken rather than enforced by absence.
+    if (t.format !== 'markdown') continue;
+    if (t.ocr_status !== 'complete' && t.ocr_status !== 'needs-review') continue;
     works.push({
       id: t.id,
       kind: 'text',
@@ -122,6 +142,7 @@ export async function loadWorks(): Promise<Work[]> {
       description: t.description,
       topics: t.topics,
       path: t.path,
+      status: t.ocr_status,
     });
   }
 

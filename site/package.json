@@ -10,7 +10,6 @@
     "build-index": "node scripts/build-index.js"
   },
   "dependencies": {
-    "epubjs": "0.3.93",
     "katex": "0.16.38",
     "marked": "17.0.4",
     "pdfjs-dist": "4.10.38"

@@ -581,12 +581,6 @@
   margin: 0 auto;
 }
 
-.epub-reader-container {
-  width: 100%;
-  height: 80vh;
-  background: var(--color-surface);
-}
-
 .reader__chapter-nav {
   display: flex;
   justify-content: space-between;

@@ -6,7 +6,6 @@ import { isRead, toggleRead } from './read-state.js';
 
 import mdReader from '../readers/md-reader.js';
 import pdfReader from '../readers/pdf-reader.js';
-import epubReader from '../readers/epub-reader.js';
 import htmlReader from '../readers/html-reader.js';
 import txtReader from '../readers/txt-reader.js';
 
@@ -14,7 +13,6 @@ const READERS = {
   markdown: mdReader,
   md: mdReader,
   pdf: pdfReader,
-  epub: epubReader,
   html: htmlReader,
   txt: txtReader,
 };

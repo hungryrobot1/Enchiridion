@@ -65,7 +65,6 @@
       "type": "string",
       "description": "File format of the text in the repo",
       "enum": [
-        "epub",
         "pdf",
         "txt",
         "html",
@@ -82,8 +81,12 @@
     "collapse": {
       "type": "integer",
       "minimum": 0,
-      "description": "How many heading levels render as collapsible sections; anything deeper renders as a heading with its content beneath. Omit to collapse at every level, which is the default and right for most texts. 0 renders the whole work as one continuous scroll (Plato's dialogues, Greek tragedy, Epictetus) — use it only where the text is short enough to parse whole, since a flat section is parsed when its parent opens. 1 collapses only the top division and reads continuously inside it (Shakespeare's acts, Pascal's fragments). This is a RENDERING decision only: sections, slugs, contents entries and ?s= deep links exist at every level regardless, so choosing a scroll never costs addressability.",
-      "examples": [0, 1, 2]
+      "description": "How many heading levels render as collapsible sections; anything deeper renders as a heading with its content beneath. Omit to collapse at every level, which is the default and right for most texts. 0 renders the whole work as one continuous scroll (Plato's dialogues, Greek tragedy, Epictetus) \u2014 use it only where the text is short enough to parse whole, since a flat section is parsed when its parent opens. 1 collapses only the top division and reads continuously inside it (Shakespeare's acts, Pascal's fragments). This is a RENDERING decision only: sections, slugs, contents entries and ?s= deep links exist at every level regardless, so choosing a scroll never costs addressability.",
+      "examples": [
+        0,
+        1,
+        2
+      ]
     },
     "filename": {
       "type": "string",

@@ -78,10 +78,17 @@ export function startRouter(container) {
     }
 
     const saved = savedScroll.get(hash);
-    if (fromHash !== null && READER_ROUTE_RE.test(fromHash) && saved !== undefined) {
-      // Returning from a reader: restore after layout settles.
+    // Readers restore their own position, structurally and across sessions (see
+    // lib/reading-position.js). This pixel offset was recorded against a DOM
+    // whose sections have since collapsed back to summaries, so replaying it
+    // into a reader would land somewhere arbitrary and undo the anchor besides.
+    const enteringReader = READER_ROUTE_RE.test(hash);
+    if (!enteringReader && fromHash !== null && READER_ROUTE_RE.test(fromHash) && saved !== undefined) {
+      // Returning from a reader to a listing: restore after layout settles.
       requestAnimationFrame(() => window.scrollTo(0, saved));
     } else {
+      // Readers start at the top; if one has a position to restore it does so
+      // in its own rAF, which runs after this.
       window.scrollTo(0, 0);
     }
 

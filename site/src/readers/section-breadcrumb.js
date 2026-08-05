@@ -64,6 +64,32 @@ function sectionAt(node, y) {
   return found.getBoundingClientRect().bottom > y ? found : null;
 }
 
+// Where the locator bar pins: just under the site header (which may be hidden
+// in focus mode — measuring live handles that). This is the reference line for
+// "which section are we in", and reading position anchors against the same
+// line, so the two can never disagree about where the reader is.
+export function referenceLine(bar) {
+  const header = document.querySelector('.site-header');
+  const headerBottom = header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
+  const locator = bar ?? document.querySelector('.reader__locator');
+  return headerBottom + (locator && !locator.hidden ? locator.offsetHeight : 0);
+}
+
+// The open sections containing `y`, outermost first. Exported because reading
+// position needs exactly this walk: duplicating it is how the `level + 1`
+// assumption ended up in seven places across three files.
+export function sectionChainAt(wrapper, y) {
+  const chain = [];
+  let node = wrapper;
+  for (;;) {
+    const next = sectionAt(node, y);
+    if (!next) break;
+    chain.push(next);
+    node = next;
+  }
+  return chain;
+}
+
 function summaryLabel(section) {
   const summary = section.querySelector(':scope > summary');
   if (!summary) return '';
@@ -110,14 +136,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
     toggleBtn.classList.toggle('reader__locator-toggle--active', open);
   };
 
-  // Where the bar pins: just under the site header (which may be hidden in
-  // focus mode — measuring live handles that). The reference line for "which
-  // section are we in" is the bar's own bottom edge.
-  const pinnedLine = () => {
-    const header = document.querySelector('.site-header');
-    const headerBottom = header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
-    return headerBottom + (bar.hidden ? 0 : bar.offsetHeight);
-  };
+  const pinnedLine = () => referenceLine(bar);
 
   const scrollTo = (section) => {
     if (!section) {
@@ -135,15 +154,7 @@ export function mountSectionBreadcrumb(shell, wrapper, title, opts = {}) {
   let rendered = null;
 
   const update = () => {
-    const y = pinnedLine() + 1;
-    const chain = [];
-    let node = wrapper;
-    for (;;) {
-      const next = sectionAt(node, y);
-      if (!next) break;
-      chain.push(next);
-      node = next;
-    }
+    const chain = sectionChainAt(wrapper, pinnedLine() + 1);
 
     const key = chain.map(s => s.dataset.section).join('|');
     if (key === rendered) return;

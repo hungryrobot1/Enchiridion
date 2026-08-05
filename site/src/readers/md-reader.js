@@ -1,7 +1,8 @@
 import { Marked } from 'marked';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
-import { mountSectionBreadcrumb } from './section-breadcrumb.js';
+import { mountSectionBreadcrumb, referenceLine, sectionChainAt } from './section-breadcrumb.js';
+import { readPosition, writePosition, clearPosition } from '../lib/reading-position.js';
 import { loadToc, loadPassages, mountTocSidebar } from './toc-sidebar.js';
 import {
   splitMarkdownIntoSections,
@@ -310,11 +311,24 @@ export default {
     // Deep link: `#/route?s=<section-path>` opens the named section (building
     // each lazy ancestor on the way down) and scrolls to it. Segments may be
     // full slugs or abbreviations of them; see resolveSegment.
+    // Keyed by route rather than by text id, so a module chapter — which has no
+    // tocId — gets its own position rather than sharing one with its siblings.
+    const positionKey = window.location.hash.split('?')[0];
+
     const targetSection = parseSectionParam();
-    if (targetSection) openSectionPath(wrapper, targetSection);
+    if (targetSection) {
+      // An explicit link wins over a remembered position. Someone following a
+      // shared `?s=` link means to land there, and a reader returning to their
+      // own place did not ask for a section by name.
+      openSectionPath(wrapper, targetSection);
+    } else {
+      restoreReadingPosition(wrapper, positionKey);
+    }
+    const stopTracking = trackReadingPosition(wrapper, positionKey);
 
     return () => {
       document.removeEventListener('keydown', onEscape);
+      stopTracking();
       crumbs?.destroy();
       sidebar?.destroy();
       container.innerHTML = '';
@@ -602,7 +616,10 @@ function resolveSegment(scope, segment) {
 // Segments may be abbreviated (see resolveSegment). Ancestors are built as we
 // descend, so each level's children exist in the DOM by the time we look for
 // them.
-function openSectionPath(wrapper, path) {
+// `scroll: false` builds and opens the path but leaves the viewport alone —
+// what restoring a reading position needs, since it opens several paths and
+// then aligns on one anchor at the end rather than jumping to each in turn.
+function openSectionPath(wrapper, path, { scroll = true } = {}) {
   const segments = path.split('/').filter(Boolean);
   let scope = wrapper;
   let target = null;
@@ -619,7 +636,7 @@ function openSectionPath(wrapper, path) {
     scope = next;
   }
 
-  if (!target) return;
+  if (!target || !scroll) return;
   requestAnimationFrame(() => {
     target.scrollIntoView({ block: 'start' });
     // A collapsible section is flagged on its summary, a flat one on its
@@ -632,6 +649,132 @@ function openSectionPath(wrapper, path) {
       setTimeout(() => marker.classList.remove('md-reader__section-summary--targeted'), 2000);
     }
   });
+}
+
+// --- Reading position -------------------------------------------------------
+//
+// Open sections and scroll position are one feature, not two. A collapsed text
+// is a few summaries and nothing else — the body of a section does not exist
+// until it is opened — so there is no position to restore until the sections
+// that made that position are open again. Restoring therefore runs in one
+// order: replay the open paths, let layout settle, then align the anchor.
+
+const SECTION_SEL = '.md-reader__section';
+
+/** The reader's current position, described structurally rather than in pixels. */
+function positionSnapshot(wrapper) {
+  const line = referenceLine();
+  const chain = sectionChainAt(wrapper, line + 1);
+  const anchor = chain.length ? chain[chain.length - 1] : null;
+
+  // Leaves only: `openSectionPath` builds every ancestor on the way down, so
+  // storing the chain as well would just be storing it twice.
+  const open = [...wrapper.querySelectorAll('details.md-reader__section[open]')]
+    .filter((el) => !el.querySelector('details.md-reader__section[open]'))
+    .map((el) => el.dataset.section)
+    .filter(Boolean);
+
+  return {
+    open,
+    anchor: anchor?.dataset.section ?? null,
+    // How far past the anchor's top edge we have read. Small, and independent
+    // of everything above the anchor in the document.
+    offset: anchor ? Math.round(line - anchor.getBoundingClientRect().top) : 0,
+    scrollY: Math.round(window.scrollY),
+  };
+}
+
+function findSection(wrapper, path) {
+  try {
+    return wrapper.querySelector(`${SECTION_SEL}[data-section="${CSS.escape(path)}"]`);
+  } catch {
+    return null;
+  }
+}
+
+function restoreReadingPosition(wrapper, key) {
+  const saved = readPosition(key);
+  if (!saved) return;
+  if (!saved.open.length && !saved.anchor && saved.scrollY < 50) return;
+
+  for (const path of saved.open) openSectionPath(wrapper, path, { scroll: false });
+
+  const align = () => {
+    if (saved.anchor) {
+      const el = findSection(wrapper, saved.anchor);
+      // A path that no longer resolves means the text was re-adopted with
+      // different headings. The sections that did resolve are still open, which
+      // is a fair approximation; silently sitting at the top would be worse.
+      if (!el) return 0;
+      const delta = el.getBoundingClientRect().top - (referenceLine() - saved.offset);
+      window.scrollBy(0, delta);
+      return delta;
+    }
+    window.scrollTo(0, saved.scrollY);
+    return 0;
+  };
+
+  // The router scrolls to 0 immediately after mount returns, so the first pass
+  // has to be deferred past it (see router.js). The second pass corrects for
+  // layout that settles late — figures loading is the common case — and stands
+  // down the moment the reader touches anything, because after that the
+  // position on screen is theirs and not ours to adjust.
+  let cancelled = false;
+  const standDown = () => { cancelled = true; };
+  const events = ['wheel', 'touchstart', 'keydown', 'pointerdown'];
+  events.forEach((e) => window.addEventListener(e, standDown, { once: true, passive: true }));
+
+  requestAnimationFrame(() => {
+    align();
+    setTimeout(() => {
+      if (!cancelled) align();
+      events.forEach((e) => window.removeEventListener(e, standDown));
+    }, 400);
+  });
+}
+
+function trackReadingPosition(wrapper, key) {
+  let timer = null;
+
+  const flush = () => {
+    timer = null;
+    const snap = positionSnapshot(wrapper);
+    // Back at the top with nothing open is a reader who finished or restarted.
+    // Keeping the old anchor would drag them back down on their next visit.
+    if (!snap.open.length && !snap.anchor && snap.scrollY < 50) clearPosition(key);
+    else writePosition(key, snap);
+  };
+
+  // Writing is synchronous and hits the disk, so it must never ride the scroll
+  // handler directly; a pause in scrolling is the signal that a position is
+  // worth keeping.
+  const schedule = () => {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(flush, 500);
+  };
+
+  const flushNow = () => {
+    if (timer) { clearTimeout(timer); timer = null; }
+    flush();
+  };
+
+  // A reader who closes the tab mid-chapter is exactly the reader this feature
+  // is for, and they never generate a settled pause. `pagehide` fires on tab
+  // close and on bfcache eviction; `visibilitychange` covers switching away on
+  // mobile, where pagehide is unreliable.
+  const onHide = () => { if (document.visibilityState === 'hidden') flushNow(); };
+
+  window.addEventListener('scroll', schedule, { passive: true });
+  wrapper.addEventListener('toggle', schedule, true);
+  window.addEventListener('pagehide', flushNow);
+  document.addEventListener('visibilitychange', onHide);
+
+  return () => {
+    window.removeEventListener('scroll', schedule);
+    window.removeEventListener('pagehide', flushNow);
+    document.removeEventListener('visibilitychange', onHide);
+    flushNow();
+  };
 }
 
 // The § button on each section summary: copies a deep link to that section.

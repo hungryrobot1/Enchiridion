@@ -23,8 +23,8 @@ downstream, and the decision belongs to stage 0.
 
 | track | when | what it costs |
 |---|---|---|
-| **source-native** | a LaTeX or EPUB source exists | nothing but finding it |
-| **PDF-native** (`extract-text.py`) | the PDF has a clean text layer | nothing; deterministic |
+| **source-native** (`extract-epub.py`, or by hand for `.tex`) | a LaTeX or EPUB source exists | nothing but finding it |
+| **PDF-native** (`extract-pdf.py`) | the PDF has a clean text layer | nothing; deterministic |
 | **OCR** (`ocr.py`, Mistral) | the source is a scan | money, and 3–5% error |
 
 ### Ask whether a better source exists — before anything else
@@ -51,9 +51,25 @@ for a better source, and the addresses that have worked, are in
 [`0-recon/STAGE.md`](0-recon/STAGE.md). The search needs network access, so it
 cannot be delegated to a worker.
 
-There is no tool for the source-native track. Both texts done this way were
-handled by reading the LaTeX directly, with the published PDF as a **rendered
-witness** — the authority on how a passage should look, never on what it says.
+The `.tex` half of the source-native track has no tool. Both texts done that way
+were handled by reading the LaTeX directly, with the published PDF as a
+**rendered witness** — the authority on how a passage should look, never on what
+it says.
+
+The EPUB half does, and it is where the corpus's remaining easy wins are. A
+transcriber who renders formulas to images usually keeps the LaTeX they rendered
+from, in an attribute on the image: run [`0-recon/recon-epub.py`](0-recon/recon-epub.py)
+on any text whose folder holds an `.epub`. Nine texts carry 21,278 formulas that
+way — Principia Mathematica, Newton's Principia, Bohr, Hilbert, Lovelace,
+Minkowski, two Einstein papers — and all nine are routed EPUB → PDF → OCR by
+default, which renders those strings to pixels so OCR can read them back as
+strings.
+
+Two limits, both load-bearing. It is the same transcription either way, so it is
+not a printed witness and stage 4 still wants the page; the gain is only that OCR
+does not add its error rate on top of the transcriber's. And it does not
+generalise: **OCR is still the right route for mathematics in a PDF**, where the
+encoding varies by producer and rasterising is what normalises it.
 
 ---
 

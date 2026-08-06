@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Partition the extracted Aristotle collective-works markdown by work.
 
-Input is the raw extract-text.py output of the collected-works PDF. The volume
+Input is the raw extract-pdf.py output of the collected-works PDF. The volume
 has no embedded ToC, but its typography is perfectly regular:
 
   - work boundaries:  "Aristotle - <Title>  [Translated by <Translator>]"

@@ -18,7 +18,7 @@ separator lines, so a song stays a single visual unit. Rhythm indents
 
 Like the Confessions, this PG PDF marks prose paragraph starts ONLY by
 first-line indent (x0=86 start vs x0=77 flush continuation), which defeats
-extract-text.py's block paragraphing, and verse must be read line-by-line —
+extract-pdf.py's block paragraphing, and verse must be read line-by-line —
 so this tool reads the CROPPED PDF's line geometry directly. Tiers:
 
   12.8pt                    BOOK N. (+ descriptive title on summary pages;

@@ -4,7 +4,7 @@
 Unlike the Enchiridion/Meditations partitioners, this tool reads the CROPPED
 PDF rather than the flat raw extract. This PG PDF typesets each page as ONE
 text block and marks paragraph starts with a 9pt first-line indent only —
-`extract-text.py` therefore collapses every page into a single mega-block,
+`extract-pdf.py` therefore collapses every page into a single mega-block,
 losing ~450 real paragraph boundaries (the raw extract under source/ shows
 102 page-blocks where the edition has ~460 paragraphs). The indent geometry
 is unambiguous, so paragraphing is recovered here, deterministically:

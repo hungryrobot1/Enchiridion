@@ -12,7 +12,7 @@ Three tracks, chosen at recon:
   transcription. The published PDF then serves as a rendered witness to how the
   text should look rather than as the thing being read. **Prefer this whenever
   it is available**, and see the caveat below for why.
-- **PDF-native extraction** (`extract-text.py`) when the PDF has a clean embedded
+- **PDF-native extraction** (`extract-pdf.py`) when the PDF has a clean embedded
   text layer. Beats OCR outright for prose, and for bilingual and polytonic
   texts — proven on Euclid. Preserves the source's own characters instead of
   guessing them.
@@ -61,9 +61,9 @@ caveats, each proven on a real text:
   running headers and footnote markers before diffing, or every page turn shows
   up as a false divergence.
 - Some PG PDFs mark paragraphs *only* by first-line indent inside page-sized
-  blocks, defeating `extract-text.py`'s block paragraphing. Read the line geometry
+  blocks, defeating `extract-pdf.py`'s block paragraphing. Read the line geometry
   directly (exemplar: `text-specific-tools/augustine/partition-confessions.py`).
-- `extract-text.py` joins lines with spaces, so **verse partition tools must read
+- `extract-pdf.py` joins lines with spaces, so **verse partition tools must read
   the PDF directly** rather than its output.
 
 An EPUB and its PDF are one transcription rendered twice. They establish
@@ -115,11 +115,19 @@ resulting markdown and images placed in the workspace.
 | Tool | What it does |
 |---|---|
 | `ocr.py` | Mistral OCR pipeline. **Run manually only — see above.** Writes `<text-id>.md` beside the PDF plus an `images/` subfolder, where `<text-id>` is the PDF's *parent directory name*, so pass an explicit output directory when that would be wrong. Reads `MISTRAL_OCR_KEY` from `ocr/.env`. |
-| `extract-text.py` | Extracts embedded PDF text into markdown via PyMuPDF. The right track for prose wherever the text layer permits it; lossy for notation — see above. |
+| `extract-pdf.py` | Extracts embedded PDF text into markdown via PyMuPDF. The right track for prose wherever the text layer permits it; lossy for notation — see above. |
+| `extract-epub.py` | Markdown from an EPUB, recovering each formula from the LaTeX its producer stored beside the rendered image. Only for sources `0-recon/recon-epub.py` reports as carrying recoverable notation; everything else is better served by the PDF route. `--report` prints the anomalies, which are this route's error patterns and are not OCR's. |
 
-The source-native track has no tool of its own yet. Both texts done this way were
-handled by reading the LaTeX directly, which is what a worker should do until the
-shape of the work repeats often enough to be worth a script.
+Named by SOURCE KIND, matching recon: `recon-pdf`/`extract-pdf`,
+`recon-epub`/`extract-epub`. `extract-pdf.py` was `extract-text.py` while it was
+the only extractor, which named its output rather than its input and stopped
+being unambiguous the moment a second one existed. The run records under `runs/`
+still say `extract-text.py`; they log commands as they were actually run and are
+not rewritten.
+
+The rest of the source-native track still has no tool. The two texts that arrived
+with `.tex` were handled by reading the LaTeX directly, which is what a worker
+should do until the shape of the work repeats often enough to be worth a script.
 
 Figure extraction lives in `../figures/`, since it spans this stage and the next.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""extract-text.py — extract embedded text from a PDF into markdown.
+"""extract-pdf.py — extract embedded text from a PDF into markdown.
 
 When a PDF has a clean embedded text layer (most modern publisher PDFs do),
 extraction is preferable to OCR: it's deterministic, fast, and lossless.
@@ -23,12 +23,12 @@ between. Page breaks are marked with a comment line `<!-- page N -->` so
 downstream tooling can chunk by page when needed.
 
 Usage:
-    python3 ocr/2-extract/extract-text.py source/Elements-english.pdf english.md
+    python3 ocr/2-extract/extract-pdf.py source/Elements-english.pdf english.md
 
-    python3 ocr/2-extract/extract-text.py source/Elements-english.pdf english.md \\
+    python3 ocr/2-extract/extract-pdf.py source/Elements-english.pdf english.md \\
         --min-font-size 9.5
 
-    python3 ocr/2-extract/extract-text.py source/Elements-english.pdf english.md \\
+    python3 ocr/2-extract/extract-pdf.py source/Elements-english.pdf english.md \\
         --pages 1-50 --inspect-fonts
 
 The `--inspect-fonts` flag prints a histogram of font sizes encountered

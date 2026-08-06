@@ -1,48 +1,6 @@
 [
  {
   "era": "3-islamic-golden-age-medieval-europe",
-  "id": "al-biruni-india-i",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "al-biruni-india-ii",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "al-farabi-philosophy-of-plato-and-aristotle",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "al-khwarizmi-algebra",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "alhazen-book-of-optics",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "anselm-proslogion-cur-deus-homo",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
   "id": "aquinas-summa-theologica",
   "class": "EXTRACT",
   "note": "",
@@ -52,41 +10,6 @@
   "mean_line_len": 105,
   "images": 2,
   "img_ratio": 0.0
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "averroes-incoherence-of-the-incoherence",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "fibonacci-liber-abaci",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "hildegard-of-bingen-book-of-the-rewards-of-life",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "kayyam-rubaiyat",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "maimonides-guide-for-the-perplexed",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
  },
  {
   "era": "3-islamic-golden-age-medieval-europe",
@@ -178,13 +101,6 @@
   "mean_line_len": 38,
   "images": 32,
   "img_ratio": 0.39
- },
- {
-  "era": "4-renaissance-scientific-revolution",
-  "id": "descartes-meditations",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
  },
  {
   "era": "4-renaissance-scientific-revolution",
@@ -343,20 +259,6 @@
   "mean_line_len": 47,
   "images": 0,
   "img_ratio": 0.0
- },
- {
-  "era": "4-renaissance-scientific-revolution",
-  "id": "pascal-pensees",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "4-renaissance-scientific-revolution",
-  "id": "shakespeare-hamlet",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
  },
  {
   "era": "4-renaissance-scientific-revolution",
@@ -660,13 +562,6 @@
  },
  {
   "era": "5-newtonian-enlightenment",
-  "id": "rousseau-social-contract-and-discourses",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
- },
- {
-  "era": "5-newtonian-enlightenment",
   "id": "smith-wealth-of-nations",
   "class": "EXTRACT",
   "note": "",
@@ -760,13 +655,6 @@
   "mean_line_len": 36,
   "images": 0,
   "img_ratio": 0.0
- },
- {
-  "era": "6-nineteenth-century",
-  "id": "cantor-transfinite-numbers",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
  },
  {
   "era": "6-nineteenth-century",
@@ -1304,13 +1192,6 @@
   "mean_line_len": 74,
   "images": 9,
   "img_ratio": 0.5
- },
- {
-  "era": "7-modern-era-i",
-  "id": "einstein-on-electrodynamics-of-moving-bodies",
-  "class": "DRIFT",
-  "note": "format markdown + status pending, .md exists \u2014 fix metadata",
-  "status": "needs-review"
  },
  {
   "era": "7-modern-era-i",

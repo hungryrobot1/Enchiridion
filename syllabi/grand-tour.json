@@ -642,6 +642,175 @@
           "id": "boethius-consoltion-of-philosophy"
         }
       ]
+    },
+    {
+      "id": "3-islamic-golden-age-medieval-europe",
+      "title": "Islamic Golden Age & Medieval Europe",
+      "description": "From al-Khwarizmi to Dante: the centuries in which Greek thought was preserved by being argued with, and in which a mathematics owing nothing to Euclid was built out of problems and procedures. Algebra arrives written in sentences, and the numerals arrive with it; by Fibonacci both are moving west. The question of what reason may settle and what it may not is asked here in three traditions at once. The section ends at a threshold rather than a conclusion.",
+      "items": [
+        {
+          "type": "text",
+          "id": "brahmagupta-brahmasphutasiddhanta",
+          "note": "Read the mathematical chapters only; the rest is astronomy. Zero is handled here as a number with rules of its own, and so are quantities less than nothing. The book al-Khwarizmi wrote beside the Algebra was called On Calculation with Hindu Numerals — this is what he meant.",
+          "passages": [
+            "Chapter 12: Arithmetic",
+            "Chapter 18: Kuttaka (the pulveriser) — the rules for zero and negatives"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "al-khwarizmi-algebra",
+          "note": "The spine of the section. There is not a symbol in it: every equation is a sentence, every solution a procedure, and the proofs at the back are Greek geometry pressed into service. Work the six cases until you can state them without looking.",
+          "passages": [
+            "The six cases and their solutions",
+            "The demonstrations",
+            "The chapter on mercantile transactions"
+          ]
+        },
+        {
+          "type": "supplement",
+          "id": "al-khwarizmi-notation-guide"
+        },
+        {
+          "type": "supplement",
+          "id": "al-khwarizmi-exercises"
+        },
+        {
+          "type": "text",
+          "id": "al-farabi-philosophy-of-plato-and-aristotle",
+          "note": "Short, and worth reading early: an inheritance being taken stock of rather than received."
+        },
+        {
+          "type": "text",
+          "id": "alhazen-book-of-optics",
+          "note": "A long-runner — a few sections a week alongside the rest. Watch what he does when an authority and an observation disagree, and how often he builds an apparatus rather than an argument.",
+          "passages": [
+            "Book I, Chapters 1–3: the nature of light and the conditions of sight",
+            "Book I, Chapter 6: the structure of the eye",
+            "Book II, Chapters 1–3: perception, and what the eye does not do alone",
+            "Book III, Chapter 7: errors of sight",
+            "Book VII: refraction"
+          ]
+        },
+        {
+          "type": "supplement",
+          "id": "alhazen-camera-obscura-lab"
+        },
+        {
+          "type": "supplement",
+          "id": "alhazen-optics-exercises"
+        },
+        {
+          "type": "text",
+          "id": "al-biruni-india-i",
+          "note": "A scholar of one civilisation reading another in its own language, and candid about the difficulty. Read the opening chapters on method before anything else; take the rest in parts.",
+          "passages": [
+            "Chapters 1–3: on the difficulty of the undertaking",
+            "Chapters 11–14: religion, philosophy, and the doctrine of the soul",
+            "Chapters 15–17: writing, science, and the ordering of knowledge"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "al-biruni-india-ii",
+          "note": "Continue in parts; the chapters on reckoning and on the calendar repay the most.",
+          "passages": [
+            "Chapters 18–20: notation, arithmetic, and measures",
+            "Chapters 47–49: the calendar and the reckoning of time"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "anselm-proslogion-cur-deus-homo",
+          "note": "The Proslogion is a few pages and one argument. Read it twice, and try to say exactly where it would fail before reading anyone who says so."
+        },
+        {
+          "type": "text",
+          "id": "kayyam-rubaiyat",
+          "note": "Read whole and at leisure, alongside the mathematics. The man who wrote these also wrote a treatise solving cubic equations by intersecting conics."
+        },
+        {
+          "type": "text",
+          "id": "hildegard-of-bingen-book-of-the-rewards-of-life",
+          "note": "A side thread; a few visions at a time.",
+          "passages": [
+            "Book I",
+            "Book III",
+            "Book VI"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "averroes-incoherence-of-the-incoherence",
+          "note": "An argument conducted through quotation: al-Ghazali's attack is printed inside the reply. Read a discussion at a time, and keep track of which voice you are hearing.",
+          "passages": [
+            "The First Discussion: the eternity of the world",
+            "The Fourth Discussion",
+            "The Seventeenth Discussion: causation"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "maimonides-guide-for-the-perplexed",
+          "note": "The third tradition asking the same question. The introduction states plainly who the book is and is not for; take him at his word.",
+          "passages": [
+            "The Introduction, and the epistle to Joseph",
+            "Part I, Chapters 31–35: the limits of the intellect",
+            "Part I, Chapters 71–76: the methods of the Kalam",
+            "Part II, Chapters 13–25: creation and eternity",
+            "Part III, Chapters 25–34: the reasons for the commandments"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "fibonacci-liber-abaci",
+          "note": "The second spine text, and the point at which the numerals move west. Long — read the opening on the nine figures, then problems as they interest you. Compare his procedures with al-Khwarizmi's.",
+          "passages": [
+            "Chapter 1: the nine Indian figures, and the zephir",
+            "Chapters 2–5: multiplication, addition, subtraction, division",
+            "Chapter 12: the problems (including the rabbits)",
+            "Chapter 13: the method of false position",
+            "Chapter 15: roots, and the geometry of proportion"
+          ]
+        },
+        {
+          "type": "supplement",
+          "id": "fibonacci-numeral-exercises"
+        },
+        {
+          "type": "text",
+          "id": "roger-bacon-opus-majus",
+          "note": "Read Part V on optics against Alhazen, and Part VI on experimental science for what it claims and what it only promises.",
+          "passages": [
+            "Part I: the four causes of error",
+            "Part IV: mathematics as the gate of the sciences",
+            "Part V: optics",
+            "Part VI: experimental science"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "aquinas-summa-theologica",
+          "note": "Vast, and not to be read through. Take a handful of questions and learn the form: objections first, then the contrary, then the reply. The structure is the argument.",
+          "passages": [
+            "I, Q.1: the nature of sacred doctrine",
+            "I, Q.2: the existence of God — the five ways",
+            "I, Q.75–76: the soul",
+            "I–II, Q.90–97: law",
+            "II–II, Q.1–7: faith"
+          ]
+        },
+        {
+          "type": "text",
+          "id": "dante-divine-comedy",
+          "note": "Whole, and at whatever pace it takes. The last book in the section written inside the world the section describes."
+        },
+        {
+          "type": "text",
+          "id": "descartes-discourse-on-method",
+          "note": "The threshold. Short, autobiographical, and written in French so that anyone could read it — which is itself the argument. Its own appendix on geometry waits at the start of the next section."
+        }
+      ]
     }
   ]
 }

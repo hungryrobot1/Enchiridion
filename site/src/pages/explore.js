@@ -22,6 +22,55 @@ const TYPE_LABELS = {
   reference: 'reference',
 };
 
+// Where you had the catalog narrowed to, kept across a trip into a text.
+//
+// sessionStorage, NOT localStorage, and the distinction is the whole design.
+// Theme and read state are preferences — they should outlive the browser. A
+// filter is a working context: you narrow to Ancient Greece, open three texts,
+// come back. Persisted forever it becomes a trap, because a fortnight later the
+// catalog opens showing 40 of 380 items for a reason you have long forgotten.
+// A session is exactly the span over which "where was I" is still a question
+// anyone is asking.
+const EXPLORE_STATE_KEY = 'enchiridion:explore-state';
+
+// An expanded row is cheap to store but unbounded in principle.
+const MAX_EXPANDED = 200;
+
+function loadExploreState() {
+  try {
+    const raw = sessionStorage.getItem(EXPLORE_STATE_KEY);
+    if (!raw) return null;
+    const d = JSON.parse(raw);
+    if (!d || typeof d !== 'object') return null;
+    const list = (v) => (Array.isArray(v) ? v.filter(x => typeof x === 'string') : []);
+    return {
+      type: list(d.type),
+      era: list(d.era),
+      query: typeof d.query === 'string' ? d.query : '',
+      sort: typeof d.sort === 'string' ? d.sort : null,
+      dir: d.dir === -1 ? -1 : 1,
+      expanded: list(d.expanded),
+    };
+  } catch {
+    return null;
+  }
+}
+
+function saveExploreState(state, expanded) {
+  try {
+    sessionStorage.setItem(EXPLORE_STATE_KEY, JSON.stringify({
+      type: [...state.type],
+      era: [...state.era],
+      query: state.query,
+      sort: state.sort,
+      dir: state.dir,
+      expanded: [...expanded].slice(0, MAX_EXPANDED),
+    }));
+  } catch {
+    /* full or unavailable — filtering still works, it just does not persist */
+  }
+}
+
 // Texts lead, then supplements and references, then modules. See the sort in
 // buildRows for why.
 const TYPE_ORDER = { text: 0, reference: 1, supplement: 1, module: 2 };
@@ -167,6 +216,29 @@ export async function renderExplore(container) {
     const state = { type: new Set(), era: new Set(), query: '', sort: null, dir: 1 };
     const expanded = new Set();
 
+    // Restore, but only values this catalog still has. An era directory that
+    // has been renumbered — the Modern Era III split will do exactly that — or
+    // a sort column since removed would otherwise filter the page down to
+    // nothing, and the reader would have no way to tell an empty result from a
+    // broken one.
+    const saved = loadExploreState();
+    if (saved) {
+      const knownTypes = new Set(rows.map(r => r.type));
+      const knownEras = new Set(rows.map(r => r.eraKey));
+      const knownIds = new Set(rows.map(r => r.id));
+      saved.type.filter(v => knownTypes.has(v)).forEach(v => state.type.add(v));
+      saved.era.filter(v => knownEras.has(v)).forEach(v => state.era.add(v));
+      state.query = saved.query;
+      if (COMPARATORS[saved.sort]) {
+        state.sort = saved.sort;
+        state.dir = saved.dir;
+      }
+      saved.expanded.filter(id => knownIds.has(id)).forEach(id => expanded.add(id));
+      searchInput.value = state.query;
+      root.querySelectorAll('.explore__filter-row[data-filter="type"], .explore__filter-row[data-filter="era"]')
+        .forEach(rowEl => syncChips(rowEl, rowEl.dataset.filter));
+    }
+
     function currentRows() {
       const q = state.query.trim().toLowerCase();
       const filtered = rows.filter(row => {
@@ -216,6 +288,11 @@ export async function renderExplore(container) {
       });
 
       jump.classList.toggle('explore__jump--filtering', Boolean(filtering));
+
+      // Written here rather than in each handler: every path that changes the
+      // view ends in render(), including resetFilters, so the stored copy
+      // cannot drift from what is on screen.
+      saveExploreState(state, expanded);
     }
 
     function syncChips(rowEl, key) {
@@ -307,6 +384,18 @@ export async function renderExplore(container) {
       // Only if it resolves to an era the catalog actually has — a stale or
       // hand-edited link should show the whole catalog, not an empty one.
       if (key && eras.some(e => e.key === key)) {
+        // An explicit link outranks a remembered view, the same way a `?s=`
+        // deep link outranks a saved reading position. Someone who clicks
+        // "Ancient Greece" means to see Ancient Greece — not Ancient Greece
+        // intersected with whatever they had narrowed to before they left,
+        // which reads as the click having half-failed.
+        state.type.clear();
+        state.era.clear();
+        state.query = '';
+        searchInput.value = '';
+        root.querySelectorAll('.explore__chip').forEach(c => {
+          if (c.dataset.value) c.classList.remove('explore__chip--active');
+        });
         state.era.add(key);
         if (eraRow) syncChips(eraRow, 'era');
       }

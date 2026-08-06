@@ -54,6 +54,32 @@ plus one text (Einstein's *Relativity*) whose formulas carry only their **spoken
 form — MathSpeak in a `title` attribute, which is a description made for the
 formula rather than the string it was set from, and is not recoverable.
 
+## The tools do not tell the whole story
+
+Every tool here answers the questions it was built to ask, and reports nothing
+about the questions nobody has thought to ask yet. That is not a defect to be
+fixed by adding checks; it is the permanent condition of this stage, and the
+reason recon stays a judgment rather than a battery.
+
+The EPUB is the standing example. The pipeline began from the assumption that
+every text would be OCR'd, so recon grew into PDF analysis — text layers, font
+histograms, page-number geometry — and the sibling `.epub` sat in the same
+folder for a year, read as a *witness* to the PDF and never as a source. Nothing
+was broken. `recon-pdf.py` answered its questions correctly the whole time. The
+question "what is already inside the file we are about to render to pixels" was
+simply not being asked, and no amount of running the existing tools would have
+raised it.
+
+So when a tool here reports cleanly, that means it found nothing it knows how to
+look for. Before routing a text, look at the source yourself — open the archive,
+read a page of the markup, see what the producer left behind. Three notation
+conventions turned up that way in a single afternoon, two of them after the tool
+had already reported its verdict. Expect more.
+
+When you find one: write down what distinguishes it, and say
+plainly what it does and does not establish. An unrecorded discovery has to be
+made again.
+
 ## Acceptance test
 
 **None, and there cannot be one.** Recon's output is a judgment about a document,

@@ -66,17 +66,14 @@ import zipfile
 from collections import Counter
 from pathlib import Path
 
+# The stage directories start with digits, so they are not importable as
+# packages; ocr/ is added to the path instead. The notation conventions are
+# shared with 2-extract/extract-epub.py rather than copied -- see that module.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from epub_notation import read_notation  # noqa: E402
+
 IMG_RE = re.compile(r"<img\b[^>]*>", re.I)
-TEX_RE = re.compile(r'data-tex="([^"]*)"')
-ALT_RE = re.compile(r'alt="([^"]*)"')
-CLASS_RE = re.compile(r'class="([^"]*)"')
-TITLE_RE = re.compile(r'title="([^"]*)"')
 SRC_RE = re.compile(r'src="([^"]*)"')
-HEIGHT_RE = re.compile(r"height:\s*([\d.]+)ex")
-# MediaWiki wraps its fallback alt text; the braces are the wrapper, not TeX.
-DISPLAYSTYLE_RE = re.compile(r"^\{\\displaystyle\s*(.*)\}$", re.S)
-
-
 MATHML_RE = re.compile(r"<math\b", re.I)
 HEAD_RE = re.compile(r"<h([1-6])\b[^>]*>(.*?)</h\1>", re.I | re.S)
 TAG_RE = re.compile(r"<[^>]+>")
@@ -86,47 +83,6 @@ PG_RE = re.compile(r"\*\*\* ?(START|END) OF THE PROJECT GUTENBERG", re.I)
 # in every PG file; an inline symbol runs 1-2ex, a fraction stack more. Only a
 # hint for planning — the extractor must decide properly.
 DISPLAY_EX = 3.0
-
-
-def extract_tex(tag: str) -> tuple[str, str, bool] | None:
-    """(latex, convention, is_display) for a formula image, or None if it is a
-    real illustration. Conventions are producer-specific; see the module docstring."""
-    tex = TEX_RE.search(tag)
-    if tex:
-        h = HEIGHT_RE.search(tag)
-        return unescape(tex.group(1)), "data-tex", bool(h and float(h.group(1)) > DISPLAY_EX)
-
-    css = (CLASS_RE.search(tag).group(1) if CLASS_RE.search(tag) else "")
-
-    # A THIRD shape, and not a source string: some PG transcriptions store the
-    # spoken form in `title` — "left-parenthesis x comma y comma z
-    # right-parenthesis" for (x, y, z). That is MathSpeak, produced FOR the
-    # formula rather than the formula it was set from. Turning it back into
-    # notation is translation, not recovery, and it is ambiguous as soon as an
-    # expression nests. Counted separately so nobody mistakes it for LaTeX.
-    if "frml" in css:
-        title = TITLE_RE.search(tag)
-        if title and title.group(1).strip():
-            return unescape(title.group(1)), "mathspeak-title", False
-
-    if "mwe-math" in css:
-        alt = ALT_RE.search(tag)
-        if not alt:
-            return None
-        body = unescape(alt.group(1)).strip()
-        m = DISPLAYSTYLE_RE.match(body)
-        if m:
-            body = m.group(1).strip()
-        # MediaWiki states it outright, which beats guessing from height.
-        return body, "mediawiki-alt", "fallback-image-display" in css or "-display" in css
-
-    return None
-
-
-def unescape(s: str) -> str:
-    return (s.replace("&amp;", "&").replace("&lt;", "<")
-             .replace("&gt;", ">").replace("&quot;", '"'))
-
 
 
 class Survey:
@@ -159,18 +115,17 @@ class Survey:
                         self.headings[int(level)] += 1
                 for tag in IMG_RE.findall(s):
                     self.images += 1
-                    found = extract_tex(tag)
+                    found = read_notation(tag)
                     if found:
-                        latex, convention, display = found
-                        self.conventions[convention] += 1
-                        if convention == "mathspeak-title":
-                            self.verbalized += 1
-                        else:
+                        self.conventions[found.convention] += 1
+                        if found.recoverable:
                             self.with_tex += 1
-                        if display:
+                        else:
+                            self.verbalized += 1
+                        if found.display:
                             self.display += 1
                         if len(self.samples) < 6:
-                            self.samples.append(latex)
+                            self.samples.append(found.latex)
                     else:
                         src = SRC_RE.search(tag)
                         self.illustrations[Path(src.group(1)).suffix.lower()

@@ -1,5 +1,5 @@
 {
-  "title": "Alberuni's India, Vol. I",
+  "title": "Alberuni's India",
   "author": "Al-Biruni",
   "translator": "Edward C. Sachau",
   "year_written": "~1030",
@@ -7,8 +7,8 @@
   "language": "English",
   "original_language": "Arabic",
   "format": "markdown",
-  "filename": "al-biruni-india-i.md",
-  "description": "Comprehensive study of Indian science, mathematics, philosophy, and culture",
+  "filename": "al-biruni-india.md",
+  "description": "Comprehensive study of Indian science, mathematics, philosophy, and culture, written by a Muslim scholar reading Sanskrit sources in the original",
   "topics": [
     "natural-philosophy",
     "mathematics",

@@ -659,6 +659,11 @@
         },
         {
           "type": "text",
+          "id": "al-farabi-philosophy-of-plato-and-aristotle",
+          "note": "Short, and worth reading early: an inheritance being taken stock of rather than received."
+        },
+        {
+          "type": "text",
           "id": "al-khwarizmi-algebra",
           "note": "The spine of the section. There is not a symbol in it: every equation is a sentence, every solution a procedure, and the proofs at the back are Greek geometry pressed into service. Work the six cases until you can state them without looking.",
           "passages": [
@@ -674,11 +679,6 @@
         {
           "type": "supplement",
           "id": "al-khwarizmi-exercises"
-        },
-        {
-          "type": "text",
-          "id": "al-farabi-philosophy-of-plato-and-aristotle",
-          "note": "Short, and worth reading early: an inheritance being taken stock of rather than received."
         },
         {
           "type": "text",
@@ -702,21 +702,29 @@
         },
         {
           "type": "text",
-          "id": "al-biruni-india-i",
-          "note": "A scholar of one civilisation reading another in its own language, and candid about the difficulty. Read the opening chapters on method before anything else; take the rest in parts.",
+          "id": "al-biruni-india",
+          "note": "A scholar of one civilisation reading another in its own language, and candid in the preface about what makes the attempt hard. Read that preface before anything else; take the eighty chapters in parts thereafter.",
           "passages": [
-            "Chapters 1–3: on the difficulty of the undertaking",
-            "Chapters 11–14: religion, philosophy, and the doctrine of the soul",
-            "Chapters 15–17: writing, science, and the ordering of knowledge"
+            "Preface: on hearsay, eye-witness, and the classes of liars",
+            "Chapters 1–3: the Hindus in general, and their belief about God and created things",
+            "Chapters 11–14: idols, the Veda, and their literature in the sciences",
+            "Chapters 15–16: metrology, and their writing and arithmetic",
+            "Chapter 17: on the sciences which prey on the ignorance of people",
+            "Chapters 25–26: the rivers of India, and the shape of heaven and earth",
+            "Chapters 49–52: the eras, and the reckoning of time",
+            "Chapters 63–66: rites, sacrifices, and pilgrimage"
           ]
         },
         {
           "type": "text",
-          "id": "al-biruni-india-ii",
-          "note": "Continue in parts; the chapters on reckoning and on the calendar repay the most.",
+          "id": "chaucer-canterbury-tales",
           "passages": [
-            "Chapters 18–20: notation, arithmetic, and measures",
-            "Chapters 47–49: the calendar and the reckoning of time"
+            "General Prologue",
+            "The Knight's Tale",
+            "The Miller's Tale",
+            "The Wife of Bath's Tale",
+            "The Franklin's Tale",
+            "The Pardoner's Tale"
           ]
         },
         {
@@ -728,6 +736,22 @@
           "type": "text",
           "id": "kayyam-rubaiyat",
           "note": "Read whole and at leisure, alongside the mathematics. The man who wrote these also wrote a treatise solving cubic equations by intersecting conics."
+        },
+        {
+          "type": "text",
+          "id": "fibonacci-liber-abaci",
+          "note": "The second spine text, and the point at which the numerals move west. Long — read the opening on the nine figures, then problems as they interest you. Compare his procedures with al-Khwarizmi's.",
+          "passages": [
+            "Chapter 1: the nine Indian figures, and the zephir",
+            "Chapters 2–5: multiplication, addition, subtraction, division",
+            "Chapter 12: the problems (including the rabbits)",
+            "Chapter 13: the method of false position",
+            "Chapter 15: roots, and the geometry of proportion"
+          ]
+        },
+        {
+          "type": "supplement",
+          "id": "fibonacci-numeral-exercises"
         },
         {
           "type": "text",
@@ -763,19 +787,15 @@
         },
         {
           "type": "text",
-          "id": "fibonacci-liber-abaci",
-          "note": "The second spine text, and the point at which the numerals move west. Long — read the opening on the nine figures, then problems as they interest you. Compare his procedures with al-Khwarizmi's.",
+          "id": "aquinas-summa-theologica",
+          "note": "Vast, and not to be read through. Take a handful of questions and learn the form: objections first, then the contrary, then the reply. The structure is the argument.",
           "passages": [
-            "Chapter 1: the nine Indian figures, and the zephir",
-            "Chapters 2–5: multiplication, addition, subtraction, division",
-            "Chapter 12: the problems (including the rabbits)",
-            "Chapter 13: the method of false position",
-            "Chapter 15: roots, and the geometry of proportion"
+            "I, Q.1: the nature of sacred doctrine",
+            "I, Q.2: the existence of God — the five ways",
+            "I, Q.75–76: the soul",
+            "I–II, Q.90–97: law",
+            "II–II, Q.1–7: faith"
           ]
-        },
-        {
-          "type": "supplement",
-          "id": "fibonacci-numeral-exercises"
         },
         {
           "type": "text",
@@ -786,18 +806,6 @@
             "Part IV: mathematics as the gate of the sciences",
             "Part V: optics",
             "Part VI: experimental science"
-          ]
-        },
-        {
-          "type": "text",
-          "id": "aquinas-summa-theologica",
-          "note": "Vast, and not to be read through. Take a handful of questions and learn the form: objections first, then the contrary, then the reply. The structure is the argument.",
-          "passages": [
-            "I, Q.1: the nature of sacred doctrine",
-            "I, Q.2: the existence of God — the five ways",
-            "I, Q.75–76: the soul",
-            "I–II, Q.90–97: law",
-            "II–II, Q.1–7: faith"
           ]
         },
         {

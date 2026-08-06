@@ -6,10 +6,10 @@ What is known about this text as a text: where it came from, what can check it, 
 
 ## Provenance
 
-- Source file: `al-biruni-india-i.md`
+- Source file: `al-biruni-india.md`
 - Translator: Edward C. Sachau (1910)
-- Processed by run [`ocr/runs/al-biruni-india-i`](../../../ocr/runs/al-biruni-india-i) (gpt-5.6-sol, 2026-08-04)
-- Full processing notes: [`ocr/runs/al-biruni-india-i/NOTES.md`](../../../ocr/runs/al-biruni-india-i/NOTES.md)
+- Processed by run [`ocr/runs/al-biruni-india`](../../../ocr/runs/al-biruni-india) (gpt-5.6-sol, 2026-08-04)
+- Full processing notes: [`ocr/runs/al-biruni-india/NOTES.md`](../../../ocr/runs/al-biruni-india/NOTES.md)
 
 ## What the processing run found
 
@@ -17,7 +17,7 @@ Copied from the run's notes at adoption. These are the text's open questions, no
 
 ### Outcome
 
-This run produced `source/al-biruni-india-i.md` and proposes it at
+This run produced `source/al-biruni-india.md` and proposes it at
 `needs-review`. It reached stage 3 completely and stage 4 only for targeted,
 source-witnessed questions. It was **not** read page by page against the scan,
 is not `complete`, and the supplied metadata's `ocr_status` remains unchanged.
@@ -188,3 +188,7 @@ The pass that sets `complete`: read the run's escalations and notes to learn wha
 - [ ] Remaining known issues recorded below
 
 <!-- review log — hand-written, never regenerated -->
+
+## Merged from two volumes
+
+Sachau printed this translation in two volumes and the corpus followed the binding: chapters I–XLVIII and XLIX–LXXX were separate entries. They are one work and are now one entry. Vol II arrived without a review record, so **chapters XLIX–LXXX have had no review pass at all** — the findings above cover the first volume only.

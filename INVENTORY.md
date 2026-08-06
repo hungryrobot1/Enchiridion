@@ -81,8 +81,7 @@ _Generated 2026-07-23 by `utilities/inventory.py`. Each entry is a directory nam
 
 ### Islamic Golden Age and Medieval Europe
 
-- al-biruni-india-i
-- al-biruni-india-ii
+- al-biruni-india
 - al-farabi-philosophy-of-plato-and-aristotle
 - al-khwarizmi-algebra
 - alhazen-book-of-optics

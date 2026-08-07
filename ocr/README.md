@@ -119,6 +119,40 @@ belonged in the *brief*. A wrong instruction corrupts every run made under it,
 which is why there are no per-text briefs — see
 [`dispatch-text.sh`](dispatch-text.sh), which carries the charter it sends.
 
+### `review.md`: half generated, half yours
+
+Every adopted text carries a `review.md` beside it. It is the bridge between
+processing and review: a run learns things a reviewer needs — which readings are
+doubtful, what witness exists, what was repaired and on whose authority — and
+without this file that knowledge stays in `ocr/runs/`, which is gitignored and
+gets pruned.
+
+The file has **two halves, divided by one line**:
+
+```
+<!-- review log — hand-written, never regenerated -->
+```
+
+Everything **above** the marker is derived from the run and is rewritten every
+time the run is adopted again. Everything **below** it is the reviewer's and is
+never touched — `adopt-run.py` splits on the marker and carries the tail through
+verbatim. Write observations, questions and decisions under the `## Review log`
+heading it seeds there.
+
+So there is no second file. Notes do not go in a sibling `notes.md`; they go at
+the bottom of the review record, directly beneath the run's own findings, which
+is where they are useful when reading. (This convention existed for weeks as a
+bare HTML comment with nothing pointing at it, and was nearly reinvented as a
+parallel file. An invisible convention is one you will build twice.)
+
+**To refresh a record without touching the text**, adopt the run again with
+`--apply`; when the published file is byte-identical this rewrites only the
+generated half. If `adopt-run.py` **refuses**, the published text has been edited
+since adoption and re-adopting would overwrite those edits — do not reach for
+`--readopt` to get past it. Generate the record by calling `write_review`
+directly, and record the divergence in the file, because from then on the
+generated half describes the run's output rather than the file being read.
+
 ---
 
 ## Policies

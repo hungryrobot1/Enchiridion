@@ -288,7 +288,19 @@ def write_review(text_dir: Path, text_id: str, meta: dict, run_dir: Path,
         "",
         marker,
     ]
-    review.write_text("\n".join(parts) + (kept if kept else "\n"), encoding="utf-8")
+    # Seed a visible log below the marker when there is nothing there yet.
+    # The marker alone is an HTML comment: it works, but a reviewer opening the
+    # file sees a generated record that appears to end, with no indication that
+    # the bottom of it is theirs. An invisible convention gets reinvented — this
+    # one nearly acquired a parallel `notes.md` for want of a heading.
+    seed = (
+        "\n\n## Review log\n\n"
+        "Observations, questions and decisions from reading this text. "
+        "Everything below the marker above belongs to the reviewer and is never "
+        "regenerated, so append freely — re-adopting the run rewrites only what "
+        "is above it.\n"
+    )
+    review.write_text("\n".join(parts) + (kept if kept else seed), encoding="utf-8")
     return review
 
 

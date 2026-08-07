@@ -1,0 +1,21 @@
+{
+  "title": "The Canterbury Tales",
+  "author": "Geoffrey Chaucer",
+  "translator": null,
+  "year_written": "~1387-1400",
+  "year_translated": null,
+  "language": "Middle English",
+  "original_language": "Middle English",
+  "format": "markdown",
+  "layout": "verse",
+  "filename": "chaucer-canterbury-tales.md",
+  "description": "An unfinished frame collection of tales told by pilgrims riding to Canterbury, in Skeat's critical text of the Middle English Chaucer wrote",
+  "topics": [
+    "literature",
+    "poetry",
+    "medieval-society"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": [],
+  "ocr_status": "needs-review"
+}

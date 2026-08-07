@@ -1,0 +1,21 @@
+{
+  "title": "Brahmasphutasiddhanta, Chapters XII and XVIII",
+  "author": "Brahmagupta",
+  "translator": "Henry Thomas Colebrooke",
+  "year_written": 628,
+  "year_translated": 1817,
+  "language": "English",
+  "original_language": "Sanskrit",
+  "format": "pdf",
+  "filename": "1817-HCOLEBROOKE_Algebra_with_Arithmetic_and_Mensuration_from_the_Sanskrit_of_Brahmagupta_and_Bhaskara.pdf",
+  "description": "Arithmetic and algebra from seventh-century India, where zero is given rules of its own and quantities less than nothing are treated as numbers",
+  "topics": [
+    "mathematics",
+    "algebra",
+    "arithmetic",
+    "number-theory"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": [],
+  "ocr_status": "pending"
+}

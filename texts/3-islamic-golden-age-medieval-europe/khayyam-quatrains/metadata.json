@@ -1,0 +1,21 @@
+{
+  "title": "The Quatrains of Omar Khayyam",
+  "author": "Omar Khayyam",
+  "translator": "E. H. Whinfield",
+  "year_written": "~1100",
+  "year_translated": 1883,
+  "language": "English",
+  "original_language": "Persian",
+  "format": "markdown",
+  "filename": "khayyam-quatrains.md",
+  "description": "Five hundred quatrains rendered close to the Persian, printed here without the facing original; read beside FitzGerald to see what a translation can decide",
+  "topics": [
+    "literature",
+    "poetry",
+    "philosophy"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": [],
+  "ocr_status": "needs-review",
+  "collapse": 0
+}

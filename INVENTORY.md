@@ -1,6 +1,6 @@
 # Enchiridion Inventory
 
-_Generated 2026-07-23 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
+_Generated 2026-08-06 by `utilities/inventory.py`. Each entry is a directory name (which doubles as the item id)._
 
 ## Texts
 
@@ -88,9 +88,14 @@ _Generated 2026-07-23 by `utilities/inventory.py`. Each entry is a directory nam
 - anselm-proslogion-cur-deus-homo
 - aquinas-summa-theologica
 - averroes-incoherence-of-the-incoherence
+- brahmagupta-brahmasphutasiddhanta
+- chaucer-canterbury-tales
+- dante-divine-comedy
+- descartes-discourse-on-method
 - fibonacci-liber-abaci
 - hildegard-of-bingen-book-of-the-rewards-of-life
-- kayyam-rubaiyat
+- khayyam-quatrains
+- khayyam-rubaiyat
 - maimonides-guide-for-the-perplexed
 - roger-bacon-opus-majus
 
@@ -101,7 +106,6 @@ _Generated 2026-07-23 by `utilities/inventory.py`. Each entry is a directory nam
 - arnauld-port-royal-logic
 - boyle-sceptical-chymist
 - copernicus-revolutions
-- descartes-discourse-on-method
 - descartes-la-geometrie
 - descartes-meditations
 - francis-bacon-novum-organum
@@ -326,10 +330,16 @@ _Generated 2026-07-23 by `utilities/inventory.py`. Each entry is a directory nam
 
 ### Rome and Late Antiquity
 
+- ancient-algorithms-lab
 - archimedes-cattle-problem-exercise
-- archimedes-sphere-and-cylinder-guide
-- hero-pneumatics-lab
-- nicomachus-notation-guide
+- hero-force-pump-lab
+- hero-reaction-engine-lab
+- hero-weight-of-air-lab
+- koine-john-prologue-exercise
+- pliny-botany-lab
+- reading-diophantus
+- splitting-powers-exercise
+- vitruvian-drawing-lab
 
 ### Islamic Golden Age and Medieval Europe
 

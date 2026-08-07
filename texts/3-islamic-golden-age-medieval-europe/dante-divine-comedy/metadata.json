@@ -1,0 +1,22 @@
+{
+  "title": "The Divine Comedy",
+  "author": "Dante Alighieri",
+  "translator": "Henry Francis Cary",
+  "year_written": "1308-1321",
+  "year_translated": 1814,
+  "language": "English",
+  "original_language": "Italian",
+  "format": "markdown",
+  "filename": "dante-divine-comedy.md",
+  "description": "A journey through Hell, Purgatory and Paradise, written inside the world the medieval centuries built and at the end of it",
+  "topics": [
+    "literature",
+    "poetry",
+    "theology",
+    "cosmology"
+  ],
+  "era": "islamic-golden-age-medieval",
+  "prerequisites": [],
+  "ocr_status": "needs-review",
+  "collapse": 2
+}

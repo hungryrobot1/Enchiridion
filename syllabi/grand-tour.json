@@ -650,8 +650,12 @@
       "items": [
         {
           "type": "text",
+          "id": "al-farabi-philosophy-of-plato-and-aristotle"
+        },
+        {
+          "type": "text",
           "id": "brahmagupta-brahmasphutasiddhanta",
-          "note": "Read the mathematical chapters only; the rest is astronomy. Zero is handled here as a number with rules of its own, and so are quantities less than nothing. The book al-Khwarizmi wrote beside the Algebra was called On Calculation with Hindu Numerals — this is what he meant.",
+          "note": "Read the mathematical chapters only; the rest is astronomy.",
           "passages": [
             "Chapter 12: Arithmetic",
             "Chapter 18: Kuttaka (the pulveriser) — the rules for zero and negatives"
@@ -659,13 +663,8 @@
         },
         {
           "type": "text",
-          "id": "al-farabi-philosophy-of-plato-and-aristotle",
-          "note": "Short, and worth reading early: an inheritance being taken stock of rather than received."
-        },
-        {
-          "type": "text",
           "id": "al-khwarizmi-algebra",
-          "note": "The spine of the section. There is not a symbol in it: every equation is a sentence, every solution a procedure, and the proofs at the back are Greek geometry pressed into service. Work the six cases until you can state them without looking.",
+          "note": "Rherotical algebra",
           "passages": [
             "The six cases and their solutions",
             "The demonstrations",
@@ -719,13 +718,14 @@
           "type": "text",
           "id": "chaucer-canterbury-tales",
           "passages": [
-            "General Prologue",
+            "The Prologue",
             "The Knight's Tale",
             "The Miller's Tale",
             "The Wife of Bath's Tale",
             "The Franklin's Tale",
             "The Pardoner's Tale"
-          ]
+          ],
+          "note": "Middle English, and not translated. Read it aloud: most of what looks difficult is spelling, and the ear settles what the eye will not. The frame promises four tales from each of thirty pilgrims and delivers twenty-four — the collection stops rather than ends."
         },
         {
           "type": "text",
@@ -734,7 +734,7 @@
         },
         {
           "type": "text",
-          "id": "kayyam-rubaiyat",
+          "id": "khayyam-rubaiyat",
           "note": "Read whole and at leisure, alongside the mathematics. The man who wrote these also wrote a treatise solving cubic equations by intersecting conics."
         },
         {

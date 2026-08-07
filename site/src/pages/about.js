@@ -10,20 +10,20 @@ export function renderAbout(container) {
     <section class="about__section">
       <h2 class="about__heading">The idea</h2>
       <p>
-        Enchiridion began as "the program I wished I had" when first starting
-        computer programming. I came to it from the Great Books program at St.
-        John's College, where mathematics and natural science are studied through
-        the works in which they first took shape. Those books gave me Euclid,
-        Ptolemy, Newton, and Maxwell. But it stopped short of information theory,
-        computer science, and programming languages.
+        Enchiridion began as the program "I wished I had" when first starting
+        out with computer programming. I came to it from a Great Books program at St.
+        John's, where mathematics and natural science are studied through
+        the books where they first took shape. Those books provided contact with
+        Euclid, Ptolemy, Newton, and Maxwell. But they stopped short of engineering,
+        information theory, computer science, and programming languages.
       </p>
       <p>
         Crossing that gap on one's own is difficult. Most paths
         into technical work outside of academia begin near the present:
         learn a language, pick a framework, internalize a useful collection of patterns.
         They can teach software engineering and practical skills for employment,
-        but they rarely ask where the abstractions came from: what is a computer,
-        and what sort of things do programming languages make possible? The
+        but they rarely ask where these things come from from: what is a computer?
+        and what kinds of things does technology make possible? These questions are
         first principles are treated as depth to be sought after learning to code
         rather than the ground coding stands on.
       </p>

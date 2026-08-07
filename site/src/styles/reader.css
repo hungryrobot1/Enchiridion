@@ -422,6 +422,46 @@
   margin: var(--space-xl) 0;
 }
 
+/* The work's title page, at the head of the reading column. Same three-line
+   structure and the same tokens as .reader__toc-titlepage, which it is built
+   by the same function as (lib/title-page.js) — the two must not drift.
+   No border-bottom: the first section's own border-top is the rule between
+   them, and two lines saying one thing reads as a mistake. */
+.md-reader__titlepage {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin: 0 0 var(--space-xl);
+}
+
+.md-reader__work-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  font-style: italic;
+  line-height: var(--line-height-tight);
+  color: var(--color-ink);
+  margin: 0;
+}
+
+.md-reader__work-byline,
+.md-reader__work-readout {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono-wide);
+  text-transform: uppercase;
+  line-height: var(--line-height-list);
+  margin: 0;
+}
+
+.md-reader__work-byline {
+  color: var(--color-ink-soft);
+}
+
+.md-reader__work-readout {
+  color: var(--color-ink-faint);
+}
+
 .md-reader__section {
   margin: var(--space-xl) 0 0;
   border-top: 1px solid var(--color-rule);
@@ -434,30 +474,75 @@
   padding-bottom: var(--space-md);
 }
 
+/* A collapsed section is a contents line, not a chapter title.
+ *
+ * It used to be styled as the markdown heading it came from — 32px at the top
+ * level, stepping down, each level indented further. That spent all of its
+ * emphasis on depth, which the indent already said and the contents panel says
+ * better, while the questions a reader actually asks before opening something
+ * — how long is it, have I been here — were not on the row at all.
+ *
+ * Now: one size at every depth, depth carried by the ordinal and by weight, and
+ * the word count at the right margin. Four cells — chevron, ordinal, label,
+ * meta — so every label in the document starts at the same x.
+ *
+ * The two column widths are variables because the flat heading has to line up
+ * with the labels without being a grid itself. Change them here only. */
+.md-reader__section-summary,
+.md-reader__section-heading {
+  --sec-chevron: 0.875rem;
+  --sec-ord: 3.25rem;
+  --sec-gutter: calc(var(--sec-chevron) + var(--sec-ord) + var(--space-xs) * 2);
+}
+
 .md-reader__section-summary {
+  display: grid;
+  grid-template-columns: var(--sec-chevron) var(--sec-ord) 1fr auto;
+  gap: 0 var(--space-xs);
+  align-items: baseline;
+  padding: var(--space-sm) 0;
   list-style: none;
   cursor: pointer;
   font-family: var(--font-serif);
-  font-size: var(--text-xl);
+  font-size: var(--text-base);
   line-height: var(--line-height-tight);
   color: var(--color-ink);
-  padding: var(--space-md) 0 var(--space-md) var(--space-lg);
-  position: relative;
 }
 
-/* Nested sections (e.g. Euclid's propositions within a book) step down in
-   heading size and indent so the hierarchy reads at a glance. */
-.md-reader__section[data-level="2"] > .md-reader__section-summary {
-  font-size: var(--text-lg);
+/* Depth is carried by weight and colour, never by size or inset. */
+.md-reader__section-label {
+  font-weight: 400;
 }
 
-.md-reader__section[data-level="3"] > .md-reader__section-summary,
-.md-reader__section[data-level="4"] > .md-reader__section-summary {
-  font-size: var(--text-base);
+.md-reader__section[data-depth="0"] > .md-reader__section-summary .md-reader__section-label {
+  font-weight: 600;
 }
 
-.md-reader__section .md-reader__section {
-  margin-left: var(--space-md);
+.md-reader__section[data-depth="2"] > .md-reader__section-summary .md-reader__section-label,
+.md-reader__section[data-depth="3"] > .md-reader__section-summary .md-reader__section-label {
+  color: var(--color-ink-soft);
+}
+
+/* The mono cells, in the idiom of .reader__toc-count and .explore__readout.
+   `nowrap` on the count is not optional: it is a two-word string in a
+   shrink-to-fit cell and it wraps without it. */
+.md-reader__section-ord,
+.md-reader__section-count {
+  font-family: var(--font-mono);
+  font-size: var(--text-3xs);
+  letter-spacing: var(--track-mono);
+  color: var(--color-ink-faint);
+  white-space: nowrap;
+}
+
+.md-reader__section-meta {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2xs);
+}
+
+.md-reader__section[open] > .md-reader__section-summary .md-reader__section-ord {
+  color: var(--color-accent);
 }
 
 /* Flat sections (Pascal's numbered fragments) are read straight through rather
@@ -469,16 +554,17 @@
   border-top: none;
 }
 
-.md-reader__section .md-reader__section--flat {
-  margin-left: 0;
-}
-
+/* A flat heading carries no chevron and no ordinal, but it is still a label
+   rather than prose, so it starts where the labels start. Padding rather than a
+   grid, because its content is inline markdown and would otherwise scatter
+   across the columns as anonymous grid items. */
 .md-reader__section-heading {
   font-family: var(--font-serif);
   font-size: var(--text-base);
   line-height: var(--line-height-tight);
   color: var(--color-ink-soft);
   margin: 0 0 var(--space-2xs);
+  padding-left: var(--sec-gutter);
   scroll-margin-top: calc(var(--header-height) + var(--space-sm));
 }
 
@@ -486,21 +572,23 @@
   display: none;
 }
 
+/* Grid column 1. `align-self: start` plus a fixed top offset keeps it on the
+   label's FIRST line — baseline alignment would centre it on a heading that
+   wraps to three lines, which Pliny's do. */
 .md-reader__section-summary::before {
   content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
+  align-self: start;
+  margin-top: 0.5em;
   width: 0.5em;
   height: 0.5em;
-  border-right: 2px solid var(--color-ink-soft);
-  border-bottom: 2px solid var(--color-ink-soft);
-  transform: translateY(-50%) rotate(-45deg);
+  border-right: 2px solid var(--color-ink-faint);
+  border-bottom: 2px solid var(--color-ink-faint);
+  transform: rotate(-45deg);
   transition: transform 0.15s ease;
 }
 
-.md-reader__section[open]>.md-reader__section-summary::before {
-  transform: translateY(-75%) rotate(45deg);
+.md-reader__section[open] > .md-reader__section-summary::before {
+  transform: rotate(45deg);
 }
 
 .md-reader__section-summary:hover {

@@ -209,7 +209,15 @@ export function matchSegment(slugs, segment) {
 
 // ------------------------------------------------------------- eager walk
 
-function countWords(text) {
+/**
+ * Words in a markdown slice, counting markdown syntax as words.
+ *
+ * Exported because the reader prints this number on every collapsed section and
+ * the contents panel prints it too. If the two used different counters they
+ * would disagree by one somewhere and nobody would ever find out which was
+ * right. It is deliberately crude in the same way in both places.
+ */
+export function countWords(text) {
   const m = text.match(/\S+/g);
   return m ? m.length : 0;
 }

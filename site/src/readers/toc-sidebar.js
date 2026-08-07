@@ -16,6 +16,7 @@
 
 import { slugifyHeading, matchSegment } from '../lib/section-tree.js';
 import { loadSyllabus } from '../lib/syllabus-loader.js';
+import { buildTitlePage } from '../lib/title-page.js';
 
 const LOADED = new Map();
 
@@ -246,30 +247,15 @@ export function mountTocSidebar({ toc, chapters, shell, viewport, onNavigate, pa
   // and cost 40px of every screen; here it reads as a title page, and the ☰
   // that opens it is the control directly above.
   if (work?.title) {
-    const head = document.createElement('div');
-    head.className = 'reader__toc-titlepage';
-
-    const titleEl = document.createElement('p');
-    titleEl.className = 'reader__toc-title';
-    titleEl.textContent = work.title;
-    head.appendChild(titleEl);
-
-    const byline = [work.author, work.year].filter(Boolean).join(' · ');
-    if (byline) {
-      const el = document.createElement('p');
-      el.className = 'reader__toc-byline';
-      el.textContent = byline;
-      head.appendChild(el);
-    }
-
-    if (work.translator) {
-      const el = document.createElement('p');
-      el.className = 'reader__toc-translator';
-      el.textContent = `tr. ${work.translator}`;
-      head.appendChild(el);
-    }
-
-    body.appendChild(head);
+    body.appendChild(buildTitlePage({
+      containerClass: 'reader__toc-titlepage',
+      title: work.title,
+      titleClass: 'reader__toc-title',
+      lines: [
+        { className: 'reader__toc-byline', text: [work.author, work.year].filter(Boolean).join(' · ') },
+        { className: 'reader__toc-translator', text: work.translator ? `tr. ${work.translator}` : '' },
+      ],
+    }));
   }
 
   // The syllabus's recommendations sit above the structure rather than as a

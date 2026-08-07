@@ -11,7 +11,9 @@ import {
   uniqueSlug,
   abbreviateSlug,
   matchSegment,
+  countWords,
 } from '../lib/section-tree.js';
+import { buildTitlePage } from '../lib/title-page.js';
 
 function resolveAgainstBase(href, baseUrl) {
   if (!href) return href;
@@ -227,11 +229,12 @@ export default {
 
     wrapper.innerHTML = md.parse(preambleMd);
     finalizeSubtree(wrapper, blocksById);
+    const titlepage = replaceTitleWithTitlePage(wrapper, opts);
 
     const usedSlugs = new Set();
-    for (const section of sections) {
-      wrapper.appendChild(buildSection(section, topLevel, ctx, '', usedSlugs));
-    }
+    sections.forEach((section, i) => {
+      wrapper.appendChild(buildSection(section, topLevel, ctx, '', usedSlugs, 0, String(i + 1)));
+    });
 
     container.innerHTML = '';
     container.appendChild(wrapper);
@@ -260,6 +263,7 @@ export default {
     };
 
     const toc = sections.length && opts.tocId ? await loadToc(opts.tocId) : null;
+    fillWorkReadout(titlepage, toc);
     // A module chapter has no generated table of contents — its panel lists the
     // module's other chapters instead, which is the only view of the module's
     // shape available from inside one of them.
@@ -447,16 +451,72 @@ function wrapInterlinearGroups(root) {
 // instead of waiting on the async toggle event.
 const sectionBuilders = new WeakMap();
 
+// The work's `# TITLE` renders as a 40px shout directly under a bar that
+// already names the work. Replace that one element with the same title-page
+// block the contents panel heads itself with, and leave the rest of the
+// preamble alone. Returns the block so the readout can be filled once the
+// table of contents resolves, or null when the text has no title heading —
+// which is the case for every text whose sections are themselves `#`.
+function replaceTitleWithTitlePage(wrapper, opts) {
+  const h1 = wrapper.querySelector('h1');
+  if (!h1) return null;
+
+  // The title comes from metadata rather than from scraping the heading, but
+  // the `h1` element stays as its tag: one real h1, outline intact.
+  const title = opts.title || opts.work?.title || h1.textContent.trim();
+  const byline = [
+    opts.work?.author,
+    opts.work?.translator ? `tr. ${opts.work.translator}` : '',
+  ].filter(Boolean).join(' · ');
+
+  const head = buildTitlePage({
+    containerClass: 'md-reader__titlepage',
+    title,
+    titleClass: 'md-reader__work-title',
+    titleTag: 'h1',
+    lines: [{ className: 'md-reader__work-byline', text: byline }],
+  });
+  h1.replaceWith(head);
+
+  // Several texts open with a `---` under the title. The first section's own
+  // border-top is now the rule between them, and two lines saying one thing
+  // reads as a mistake. Checked on the parsed DOM rather than in the markdown
+  // source, and only at the end of the preamble — sections have not been
+  // appended yet, so `lastElementChild` is exactly that.
+  if (wrapper.lastElementChild?.tagName === 'HR') {
+    wrapper.lastElementChild.remove();
+  }
+
+  return head;
+}
+
+// Filled after `loadToc` resolves, which happens once the wrapper is already in
+// the DOM. Omitted entirely when there is no table of contents — a module
+// chapter should not render an empty row where a readout would be.
+function fillWorkReadout(head, toc) {
+  if (!head || !toc?.sections?.length) return;
+  const parts = [
+    `${toc.sections.length.toLocaleString()} section${toc.sections.length === 1 ? '' : 's'}`,
+  ];
+  if (toc.words) parts.push(`${toc.words.toLocaleString()} words`);
+
+  const el = document.createElement('p');
+  el.className = 'md-reader__work-readout';
+  el.textContent = parts.join(' · ');
+  head.appendChild(el);
+}
+
 // Same contract as buildSection -- same slug path, same `data-section`, same
 // class, so `childSectionsOf` and `openSectionPath` treat the two alike and a
 // deep link resolves identically whichever shape a section took. It carries no
 // entry in `sectionBuilders` because there is nothing deferred to build.
-function buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) {
+function buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs, depth) {
   const { md, blocksById, flatBelow } = ctx;
 
   const section = document.createElement('section');
   section.className = 'md-reader__section md-reader__section--flat';
   section.dataset.level = String(level);
+  section.dataset.depth = String(depth);
 
   const slug = uniqueSlug(slugifyHeading(headingMd), usedSlugs);
   const path = parentPath ? `${parentPath}/${slug}` : slug;
@@ -481,13 +541,17 @@ function buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlu
   finalizeSubtree(body, blocksById);
 
   const childSlugs = new Set();
-  for (const sub of sections) {
-    body.appendChild(buildSection(sub, childLevel, ctx, path, childSlugs));
-  }
+  sections.forEach((sub, i) => {
+    body.appendChild(buildSection(sub, childLevel, ctx, path, childSlugs, depth + 1, String(i + 1)));
+  });
   return section;
 }
 
-function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) {
+// `depth` is 0-based distance from the document root; `ord` is the display
+// ordinal ("2.3.1") built from sibling position. Neither touches `data-section`
+// or the slug path -- ordinals are an index over what is on screen, and a
+// published `?s=` link must keep meaning what it meant.
+function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs, depth = 0, ord = '') {
   const { md, blocksById, flatBelow } = ctx;
 
   // A FLAT section renders as a heading with its content beneath it, rather
@@ -511,12 +575,13 @@ function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) 
   // documents responsive. Opt in per text, and not for one with heavy sections:
   // Pascal's largest is 77 KB of prose with no math.
   if (flatBelow != null && level > flatBelow) {
-    return buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs);
+    return buildFlatSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs, depth);
   }
 
   const details = document.createElement('details');
   details.className = 'md-reader__section';
   details.dataset.level = String(level);
+  details.dataset.depth = String(depth);
   details.open = false;
 
   const slug = uniqueSlug(slugifyHeading(headingMd), usedSlugs);
@@ -525,8 +590,34 @@ function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) 
 
   const summary = document.createElement('summary');
   summary.className = 'md-reader__section-summary';
-  summary.innerHTML = md.parseInline(headingMd);
-  summary.appendChild(buildAnchorButton(details));
+
+  // Four cells: chevron (::before), ordinal, label, meta. The label is its own
+  // element rather than the summary's own text because the crumb bar reads it
+  // by class -- see summaryLabel() in section-breadcrumb.js, which would
+  // otherwise silently start reporting "2.3 ON DIVISION. 398 w".
+  const ordEl = document.createElement('span');
+  ordEl.className = 'md-reader__section-ord';
+  ordEl.textContent = ord;
+  summary.appendChild(ordEl);
+
+  const label = document.createElement('span');
+  label.className = 'md-reader__section-label';
+  label.innerHTML = md.parseInline(headingMd);
+  summary.appendChild(label);
+
+  const meta = document.createElement('span');
+  meta.className = 'md-reader__section-meta';
+
+  // Counted when the section is BUILT, not when it is opened, so a closed row
+  // always has its number and nothing is fetched to get it. The same counter
+  // the TOC was built with, so the row and the contents panel cannot disagree.
+  const count = document.createElement('span');
+  count.className = 'md-reader__section-count';
+  count.textContent = `${(countWords(headingMd) + countWords(bodyMd)).toLocaleString()} w`;
+  meta.appendChild(count);
+  meta.appendChild(buildAnchorButton(details));
+  summary.appendChild(meta);
+
   details.appendChild(summary);
 
   const body = document.createElement('div');
@@ -545,9 +636,10 @@ function buildSection({ headingMd, bodyMd }, level, ctx, parentPath, usedSlugs) 
     finalizeSubtree(body, blocksById);
 
     const childSlugs = new Set();
-    for (const sub of sections) {
-      body.appendChild(buildSection(sub, childLevel, ctx, path, childSlugs));
-    }
+    sections.forEach((sub, i) => {
+      const childOrd = ord ? `${ord}.${i + 1}` : String(i + 1);
+      body.appendChild(buildSection(sub, childLevel, ctx, path, childSlugs, depth + 1, childOrd));
+    });
   };
   sectionBuilders.set(details, ensureBuilt);
   details.addEventListener('toggle', () => {

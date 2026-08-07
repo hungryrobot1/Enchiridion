@@ -97,9 +97,19 @@ export function sectionChainAt(wrapper, y) {
   return chain;
 }
 
+// A crumb is the heading and nothing else — this is the one bar that must stay
+// quiet. Since the summary became a grid it also holds an ordinal and a word
+// count, so taking its textContent would silently produce "2.3 ON DIVISION.
+// 398 w" in every crumb. Read the label element by class instead.
+//
+// The fallback is not dead code: flat sections render a heading rather than a
+// summary, and this also keeps working for any summary built before the label
+// element existed.
 function summaryLabel(section) {
   const summary = section.querySelector(':scope > summary');
   if (!summary) return '';
+  const label = summary.querySelector('.md-reader__section-label');
+  if (label) return label.textContent.trim();
   // Clone so the § copy-link button doesn't end up in the crumb text.
   const clone = summary.cloneNode(true);
   clone.querySelector('.md-reader__anchor')?.remove();

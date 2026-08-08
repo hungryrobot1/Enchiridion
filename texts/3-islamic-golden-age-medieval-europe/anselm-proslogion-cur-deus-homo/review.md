@@ -180,3 +180,7 @@ The pass that sets `complete`: read the run's escalations and notes to learn wha
 - [ ] Remaining known issues recorded below
 
 <!-- review log — hand-written, never regenerated -->
+
+## Review log
+
+Good to go. Marking as complete. Partial proofread is done. Still required is most of *Cur Deus Homo*. If there are any errors, it is likely only small blemishes.

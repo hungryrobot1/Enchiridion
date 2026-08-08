@@ -78,3 +78,13 @@ nothing.
 ## Review log
 
 Observations, questions and decisions from reading this text. Everything below the marker above belongs to the reviewer and is never regenerated, so append freely — re-adopting the run rewrites only what is above it.
+
+One of the key decisions with Khayyam is not text-specific, but the question of whether to go with the FitzGerald or the Whinfield for the syllabus. The Whinfield comes out as the clear winner as far as Enchiridion's concerned pedagogically. The FitzGerald is more like a different kind of work altogether. It's Victorian poetry with a Rubaiyat armature. While Whinfield's verse takes poetic liberties, this is makes the translation's fidelity a matter of degree versus a matter of kind. This is `khayyam-quatrains.md`.
+
+The final count is 500 quatrains per the table of contents.
+
+Faithfulness to source has not been verified. An eyeball scan provides that no quatrains are disfigured.
+
+The note in `metadata.json` was simplified. It no longer makes a pedagogical claim or instructs the reader to compare this edition with the FitzGerald.
+
+This text is now marked as `complete` with the caveat that it has not been proofread closely.

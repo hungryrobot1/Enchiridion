@@ -8,7 +8,7 @@
   "original_language": "Persian",
   "format": "markdown",
   "filename": "khayyam-quatrains.md",
-  "description": "Five hundred quatrains rendered close to the Persian, printed here without the facing original; read beside FitzGerald to see what a translation can decide",
+  "description": "Five hundred quatrains rendered close to the original Persian.",
   "topics": [
     "literature",
     "poetry",
@@ -16,6 +16,6 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "needs-review",
+  "ocr_status": "complete",
   "collapse": 0
 }

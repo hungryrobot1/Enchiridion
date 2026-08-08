@@ -74,3 +74,6 @@ from the source in one pass.
 ## Review log
 
 Observations, questions and decisions from reading this text. Everything below the marker above belongs to the reviewer and is never regenerated, so append freely — re-adopting the run rewrites only what is above it.
+
+The text appears clean and shippable. Consider adding Skeat's glossary at the end if it's available. Leaving as `needs-review` until remaining debris is cleaned up, most often found at the beginning of sections. Random notes and Latin expresssions, not belonging to Chaucer.
+

@@ -192,3 +192,7 @@ The pass that sets `complete`: read the run's escalations and notes to learn wha
 ## Merged from two volumes
 
 Sachau printed this translation in two volumes and the corpus followed the binding: chapters I–XLVIII and XLIX–LXXX were separate entries. They are one work and are now one entry. Vol II arrived without a review record, so **chapters XLIX–LXXX have had no review pass at all** — the findings above cover the first volume only.
+
+Some instances of unmerged line/paragraph breaks. Scan needed to locate them. Occasional floating hyphens left behind from merges.
+
+Not yet proofread. Leaving as `needs-review`.

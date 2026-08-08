@@ -110,3 +110,11 @@ The pass that sets `complete`: read the run's escalations and notes to learn wha
 ## Review log
 
 Observations, questions and decisions from reading this text. Everything below the marker above belongs to the reviewer and is never regenerated, so append freely — re-adopting the run rewrites only what is above it.
+
+No escalations were found in the run directory for this text. Render looks good,a dnthe contents were SHA-256 verified.
+
+Cleanup patterns identified:
+
+Inconsistent paragraph numbering punctuation. Some paragraphs are numbered with `N.` most with `N`. Either is fine, but one must be chosen, and sweep is needed in order to locate those which do not match the decided pattern. Recommending going with a bold number without the appended period, ie, `**N**` which follows previous patterns such as in Vitruvius. This approach does not trigger the markdown enumeration semantics.
+
+Otherwise, the render appears to be in great shape. The paragraph numbers can be considered the only blocker for this text to be marked `complete`. A word-level proofread was not conducted.

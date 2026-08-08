@@ -111,3 +111,5 @@ The pass that sets `complete`: read the run's escalations and notes to learn wha
 ## Review log
 
 Observations, questions and decisions from reading this text. Everything below the marker above belongs to the reviewer and is never regenerated, so append freely — re-adopting the run rewrites only what is above it.
+
+The prose is clean. Not proofread. This text uses rhetorical algebra with minimal LaTeX. No systematic or structural issues were found. Marking as `complete`.

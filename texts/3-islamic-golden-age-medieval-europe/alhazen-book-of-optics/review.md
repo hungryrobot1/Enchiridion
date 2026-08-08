@@ -192,3 +192,19 @@ The pass that sets `complete`: read the run's escalations and notes to learn wha
 - [ ] Remaining known issues recorded below
 
 <!-- review log — hand-written, never regenerated -->
+
+## Review log
+
+Alhazen's paragraphs are numbered using square brackets `[N]`. The brackets must be removed and the paragraph number put in bold `**N**`. Not all numbers appear at the beginning of paragraphs. Sometimes pearagraphs contain multiple numbers. Numbers seem to only appear at the beginning of sentences. Considering leaving paragraph structure as is and just changing the formatting of numbers to match established conventions.
+
+Counterargument: The brackets follow the original typography of the translation. Worth weighing merits of being faithful to typography versus having consistent markdown for numbering. As it turns out, these are not paragraph numbers, so the consistency argument does not fully follow anyways. Reasonable to leave as-is.
+
+A handful of unmerged paragraphs appear, where a newline appears mid sentence. Simple scan and mend.
+
+The prose is at least 99% clean. No obvious misreads or systematic patterns of failure were found. But a word-level proofread was not conducted.
+
+The `NOTES.md` file for this text raises an interesting point that should be considered more generally. Different delimiters can appear for LaTeX: `\\(...\\)`
+
+This has not been a critical consideration to this point because only dollar signs had appeared so these delimiters were not screened for, and as a result, went undetected once they did appear.
+
+I am marking this text as `complete` as it is clean, shippable prose. However, it is a long text (~188k words) which was OCR'd and like most texts in the library, it has not been proofread.

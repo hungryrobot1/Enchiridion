@@ -163,3 +163,13 @@ The pass that sets `complete`: read the run's escalations and notes to learn wha
 - [ ] Remaining known issues recorded below
 
 <!-- review log — hand-written, never regenerated -->
+
+## Review log
+
+This text remains in the library but not in the Grand Tour syllabus.
+
+Since the PDF was derived from the EPUB for this text, no fidelity witness or cross-reference is available. Programmatic verification of correctness is strong evidence.
+
+The one concern about headings has been addressed by the markdown reader redesign and new collapsing strategy. Here specifically, no collapsing is needed. At only 75 quatrains, it is short enough to be read in one sitting, and collapsing each quatrain would impose undue friction.
+
+Marking as `complete` because it is shippable, noting that no word-level verification or lose proofreading has been done.

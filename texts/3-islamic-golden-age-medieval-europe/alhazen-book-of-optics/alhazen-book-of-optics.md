@@ -2,22 +2,19 @@
 
 # BOOK I
 
-ON THE MANNER OF VISION IN GENERAL THE FIRST BOOK
-OF THE OPTICS
-
-OF ABŪ ʿALĪ AL-ḤASAN IBN AL-ḤASAN IBN AL-HAYTHAM
+ON THE MANNER OF VISION IN GENERAL THE FIRST BOOK OF THE OPTICS OF ABŪ ʿALĪ AL-ḤASAN IBN AL-ḤASAN IBN AL-HAYTHAM
 
 THE CHAPTERS OF THIS BOOK
 WHICH ARE EIGHT
 
-Chapter 1: Preface to the [whole] book
-Chapter 2: Inquiry into the properties of sight
+Chapter 1: Preface to the [whole] book\
+Chapter 2: Inquiry into the properties of sight\
 Chapter 3: Inquiry into the properties of lights and into the manner of
-radiation of lights
-Chapter 4: On the effect of light upon sight
-Chapter 5: On the structure of the eye
-Chapter 6: On the manner of vision
-Chapter 7: On the utilities of the instruments of sight
+radiation of lights\
+Chapter 4: On the effect of light upon sight\
+Chapter 5: On the structure of the eye\
+Chapter 6: On the manner of vision\
+Chapter 7: On the utilities of the instruments of sight\
 Chapter 8: On the reasons for the conditions without the combination of
 which vision is not effected
 

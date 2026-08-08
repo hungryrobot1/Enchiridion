@@ -6,8 +6,8 @@
   "year_translated": 1817,
   "language": "English",
   "original_language": "Sanskrit",
-  "format": "pdf",
-  "filename": "1817-HCOLEBROOKE_Algebra_with_Arithmetic_and_Mensuration_from_the_Sanskrit_of_Brahmagupta_and_Bhaskara.pdf",
+  "format": "markdown",
+  "filename": "brahmagupta-brahmasphutasiddhanta.md",
   "description": "Arithmetic and algebra from seventh-century India, where zero is given rules of its own and quantities less than nothing are treated as numbers",
   "topics": [
     "mathematics",
@@ -17,5 +17,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

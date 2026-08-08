@@ -4,10 +4,30 @@
   "model": "gpt-5.6-sol",
   "reasoning_effort": "medium",
   "codex_cli": "codex-cli 0.146.0",
-  "repo_head": "a01dc8c",
-  "session_id": "019fcda5-7faf-78f1-88d1-0fc281b18048",
-  "started": "2026-08-04T16:40:03Z",
-  "finished": "2026-08-04T16:40:05Z",
-  "exit_code": 1,
-  "completed": false
+  "repo_head": "ff5954a",
+  "session_id": "019fe20f-95d8-7fe3-a929-aab196e64f61",
+  "started": "2026-08-08T15:48:19Z",
+  "finished": "2026-08-08T15:57:52Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-08T16:06:52Z",
+      "finished": "2026-08-08T16:13:12Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-08T16:14:59Z",
+      "finished": "2026-08-08T16:33:37Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-08T16:34:55Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/roger-bacon-opus-majus/roger-bacon-opus-majus.md"
+  }
 }

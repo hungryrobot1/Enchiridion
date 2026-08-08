@@ -1,0 +1,33 @@
+{
+  "text_id": "brahmagupta-brahmasphutasiddhanta",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "ff5954a",
+  "session_id": "019fe214-433c-7d23-b9bc-71a1060efee9",
+  "started": "2026-08-08T15:53:26Z",
+  "finished": "2026-08-08T16:00:45Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-08T16:06:45Z",
+      "finished": "2026-08-08T16:17:42Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-08T16:20:50Z",
+      "finished": "2026-08-08T16:57:44Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-08T16:58:39Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/brahmagupta-brahmasphutasiddhanta/brahmagupta-brahmasphutasiddhanta.md"
+  }
+}

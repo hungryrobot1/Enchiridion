@@ -1,53 +1,5 @@
 [
  {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "aquinas-summa-theologica",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 621,
-  "chars_per_page": 4488,
-  "mean_line_len": 105,
-  "images": 2,
-  "img_ratio": 0.0
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "brahmagupta-brahmasphutasiddhanta",
-  "class": "SCAN",
-  "note": "shredded text layer (mean line 16)",
-  "status": "pending",
-  "pages": 478,
-  "chars_per_page": 1931,
-  "mean_line_len": 16,
-  "images": 956,
-  "img_ratio": 2.0
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "descartes-discourse-on-method",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 35,
-  "chars_per_page": 6748,
-  "mean_line_len": 117,
-  "images": 2,
-  "img_ratio": 0.06
- },
- {
-  "era": "3-islamic-golden-age-medieval-europe",
-  "id": "roger-bacon-opus-majus",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 450,
-  "chars_per_page": 2512,
-  "mean_line_len": 58,
-  "images": 900,
-  "img_ratio": 2.0
- },
- {
   "era": "4-renaissance-scientific-revolution",
   "id": "agricola-de-re-metallica",
   "class": "NON-PDF",

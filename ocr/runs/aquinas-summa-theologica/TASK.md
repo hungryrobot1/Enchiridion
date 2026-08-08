@@ -41,6 +41,40 @@ renderings of a single act of copying: they establish fidelity, never
 correctness. Where that is the situation, say so rather than letting agreement
 stand in for a second witness.
 
+That cuts both ways, and the useful half is about ERROR SOURCES rather than
+truth. If a source stores the string a formula was set from, reading it directly
+is strictly better than rendering it to pixels and asking OCR to read it back:
+both carry whatever the transcriber got wrong, and only one adds OCR's own rate
+on top. It is still not a printed witness, so stage 4 still wants the page.
+
+## Ask what the source already contains
+
+Before routing a text whose folder holds an `.epub`, run `0-recon/recon-epub.py`
+on it. The default route converts EPUB to PDF and OCRs the result, because
+Mistral's API is PDF-only — right for a prose book, and wrong for a text whose
+formulas are already LaTeX in an attribute on each image. Nine texts in this
+corpus are in that position, *Principia Mathematica* and Newton's *Principia*
+among them. Where it reports recoverable notation, use
+`2-extract/extract-epub.py` and read its `--report`; those anomalies are this
+route's error patterns, and they are not OCR's.
+
+Read the verdict carefully rather than the headline. A source can carry notation
+that is marked up and still not recoverable: one text stores only each formula's
+spoken form — "left-parenthesis x comma y comma z right-parenthesis" — which is a
+description made for the formula rather than the string it was set from, and
+turning it back into notation is translation. That text goes the OCR route like
+any other.
+
+None of this generalises to PDFs. **OCR remains the reliable route for
+mathematics in a PDF**, where the encoding varies by producer and rasterising is
+what normalises it. The EPUB case is narrow: the source hands over the string.
+
+And the recon tools do not tell the whole story — they report on the questions
+someone thought to ask. Three notation conventions turned up in one afternoon,
+two of them after a tool had already returned its verdict; a fourth should be
+expected. If you meet one, say so in your notes with what distinguishes it. An
+unrecorded discovery has to be made again.
+
 And a probe that finds nothing has proved nothing until it has been shown to find
 a case known to exist. Four separate false conclusions here came from believing a
 zero. Ship a negative control, or a positive one — compare a page with itself
@@ -208,6 +242,26 @@ this one text.
 Note also where the time went — which steps were slow, and whether each was slow
 because the work is genuinely intricate or because the tooling made it harder
 than it needed to be. We cannot tell those apart from the outside.
+
+**Open `NOTES.md` with a `## For the reviewer` section.** At adoption a
+`review.md` is generated beside the text in the corpus, and that section goes to
+the top of it. It is the handover to the person who will read your text against
+its source, possibly months from now, knowing nothing about your run.
+
+Put there what they need and could not work out for themselves: what witness
+exists for this text and what it can settle, which readings you repaired and
+under what licence, which you left and why, where you were uncertain, and what
+you would check first. A page-indexed list of doubtful readings is the single
+most useful thing a run can leave — it turns an unverifiable text into one with
+a bounded set of open questions.
+
+Everything else in `NOTES.md` still reaches them; the rest of the file is swept
+in below that section, minus what is plainly about our tooling. So this is not a
+filter you can lose work through — write the section to lead with what matters,
+not to decide what survives.
+
+Keep it about THIS TEXT. What the run taught us about the pipeline belongs in the
+rest of the notes; the reviewer is reading a book, not debugging a script.
 
 Do not mark anything complete that you have not verified, and do not change
 `ocr_status` to claim a completeness you could not establish.

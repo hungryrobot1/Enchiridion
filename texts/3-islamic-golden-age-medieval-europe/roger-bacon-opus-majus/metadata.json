@@ -6,8 +6,8 @@
   "year_translated": 1928,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "opusmajusofroger0001robe.pdf",
+  "format": "markdown",
+  "filename": "roger-bacon-opus-majus.md",
   "description": "Encyclopedic work advocating experimental science, optics, and mathematics",
   "topics": [
     "natural-philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

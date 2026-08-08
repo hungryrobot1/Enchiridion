@@ -6,8 +6,8 @@
   "year_translated": 1920,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg17611-images-3.pdf",
+  "format": "markdown",
+  "filename": "aquinas-summa-theologica.md",
   "description": "Comprehensive synthesis of Christian theology with Aristotelian philosophy",
   "topics": [
     "theology",
@@ -17,5 +17,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

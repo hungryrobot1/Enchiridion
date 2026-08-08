@@ -1,0 +1,27 @@
+PLANTED UNIT TEST PASS (not document evidence): 'Cuttácára' and 'Cuttācāra' -> 'cuttacara'
+DOCUMENT CONTROL PASS: real pair 'lilávati'/'līlāvatī' occurs in the markdown
+DISAGREEMENT BUCKETS: 6
+
+[bhascara's] total=3
+  bhāscara's: 2 — prep 22/print 298 (TRIANGLE and QUADRILATERAL.); prep 34/print 310 (TRIANGLE and QUADRILATERAL.)
+  bhaścara's: 1 — prep 24/print 300 (TRIANGLE and QUADRILATERAL.)
+
+[bhascara] total=2
+  bháscara: 1 — prep 8/print 284 (SECTION I.)
+  bhāscara: 1 — prep 54/print 330 (SECTION I.)
+
+[c'haris] total=2
+  c'hárís: 1 — prep 8/print 284 (SECTION I.)
+  c'hāris: 1 — prep 40/print 316 (MOUNDS OF GRAIN.)
+
+[ganesa] total=2
+  ganěśa: 1 — prep 24/print 300 (TRIANGLE and QUADRILATERAL.)
+  gañēsā: 1 — prep 39/print 315 (SAW.)
+
+[lilavati] total=2
+  lilávati: 1 — prep 18/print 294 (PROGRESSION.)
+  līlāvatī: 1 — prep 39/print 315 (SAW.)
+
+[sidd'hanta] total=2
+  sidd'hānta: 1 — prep 17/print 293 (PROGRESSION.)
+  sidd'hánta: 1 — prep 48/print 324 (SUPPLEMENT.)

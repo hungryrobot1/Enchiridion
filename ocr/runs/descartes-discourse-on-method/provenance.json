@@ -1,0 +1,26 @@
+{
+  "text_id": "descartes-discourse-on-method",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "ff5954a",
+  "session_id": "019fe20f-9cde-7e10-9441-052bbf2b7b6c",
+  "started": "2026-08-08T15:48:21Z",
+  "finished": "2026-08-08T16:02:19Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-08T16:06:45Z",
+      "finished": "2026-08-08T16:08:43Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-08T16:09:45Z",
+    "target": "texts/3-islamic-golden-age-medieval-europe/descartes-discourse-on-method/descartes-discourse-on-method.md"
+  }
+}

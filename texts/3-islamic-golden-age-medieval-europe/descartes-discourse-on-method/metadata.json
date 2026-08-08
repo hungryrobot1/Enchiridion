@@ -1,13 +1,13 @@
 {
   "title": "Discourse on the Method",
-  "author": "René Descartes",
+  "author": "Ren\u00e9 Descartes",
   "translator": "John Veitch",
   "year_written": 1637,
   "year_translated": 1850,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "pg59-images-3.pdf",
+  "format": "markdown",
+  "filename": "descartes-discourse-on-method.md",
   "description": "Foundation of modern philosophy and the method of systematic doubt",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "islamic-golden-age-medieval",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

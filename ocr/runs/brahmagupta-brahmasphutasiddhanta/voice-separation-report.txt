@@ -1,0 +1,12 @@
+Voice separation
+signed numbered groups kept: 126
+certain Ch./Com. numbered groups: 122
+other-signature numbered groups retained neutrally: 4
+unsigned numbered groups dropped: 68
+signed star/dagger asides kept: 4
+unsigned star/dagger asides dropped: 34
+reference markers removed: 101
+page-turn verse continuations merged: 29
+signed-note continuation paragraphs gathered: 453
+unresolved reference markers: 1
+printed p.292: '‡' before ‡ See Algebra of Brahm. § 32. A rule of the same import with

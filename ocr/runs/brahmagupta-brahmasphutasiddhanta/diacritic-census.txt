@@ -1,0 +1,19 @@
+PLANTED UNIT TEST PASS (not document evidence): 'Cuttácára' and 'Cuttācāra' -> 'cuttacara'
+DOCUMENT CONTROL: not requested
+DISAGREEMENT BUCKETS: 4
+
+[bhascara's] total=3
+  bháscara's: 2 — prep 22/print 298 (TRIANGLE and QUADRILATERAL.); prep 34/print 310 (TRIANGLE and QUADRILATERAL.)
+  bhaścara's: 1 — prep 24/print 300 (TRIANGLE and QUADRILATERAL.)
+
+[c'haris] total=2
+  c'hárís: 1 — prep 8/print 284 (SECTION I.)
+  c'háris: 1 — prep 40/print 316 (MOUNDS OF GRAIN.)
+
+[ganesa] total=2
+  ganěśa: 1 — prep 24/print 300 (TRIANGLE and QUADRILATERAL.)
+  gañēsá: 1 — prep 39/print 315 (SAW.)
+
+[lilavati] total=2
+  lilávati: 1 — prep 18/print 294 (PROGRESSION.)
+  lílávatí: 1 — prep 39/print 315 (SAW.)

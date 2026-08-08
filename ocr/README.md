@@ -116,8 +116,36 @@ entities were first noticed by eye.
 The loop also runs backwards, and that direction matters more: when the `°°`
 brief turned out to be telling workers to delete Toomer's own notation, the fix
 belonged in the *brief*. A wrong instruction corrupts every run made under it,
-which is why there are no per-text briefs — see
+which is why **how to process a text** is written down once, in
 [`dispatch-text.sh`](dispatch-text.sh), which carries the charter it sends.
+
+### `BRIEF.md`: decisions already taken about one text
+
+The charter says how the pipeline works and is the same for every text. A brief
+says what has already been settled about *this edition*, and lives beside it as
+`texts/<era>/<id>/BRIEF.md`. Dispatch copies it to the workspace root — not into
+`source/`, because `source/` is what the edition gives us and a brief is what we
+concluded about it; merging the two would make our judgments look like evidence
+from the page.
+
+It exists because **the escalation loop only ran one direction.** A worker that
+meets a question it should not decide can ask us. We had no way to answer one
+before it was asked, so a decision already settled in conversation reached a run
+only by being asked for again — at the cost of a round trip and a resume — and
+was re-asked on every re-dispatch, because nothing about it lived with the text.
+
+Keep the two kinds of instruction apart, and keep briefs rare. The hazard named
+above is real and applies here with full force: a wrong brief corrupts every run
+of that text, and a brief is a second place instructions can live. So a brief
+carries **editorial conclusions, not method** — which pages are in scope, whose
+voice is on them, what was decided about the apparatus and why. Anything that
+would be true of another text belongs in the charter or a `STAGE.md` instead.
+
+Two things make the hazard survivable. The brief is versioned with the text, so
+a wrong one is visible in review and in `git log` rather than buried in a run.
+And workers are told to follow it *and record any disagreement in `NOTES.md`* —
+so a brief that is wrong produces an argument in the record rather than silent
+compliance. The first is [Brahmagupta's](../texts/3-islamic-golden-age-medieval-europe/brahmagupta-brahmasphutasiddhanta/BRIEF.md).
 
 ### `review.md`: half generated, half yours
 

@@ -30,3 +30,28 @@ ocr/4-proofread/*/batches/
 ocr/runs/*/run.log
 ocr/runs/*/workspace/
 !ocr/runs/*/NOTES.md
+
+# The adopted text and its images live under texts/. A run that has been adopted
+# was keeping a byte-identical second copy of both, which git then kept forever:
+# ~14.6 MB across four adoptions, and the same again on every future one.
+#
+# WHITELIST -- and note that this repo has been bitten by a whitelist before.
+# dispatch-text.sh once listed the source types to copy and would have silently
+# withheld a .tex nobody anticipated, which is why it is a blacklist today. The
+# same hazard applies here: a NEW kind of record file, dropped into a run
+# directory by a future worker, will be ignored silently rather than tracked.
+# If you add one, add it here too. Better still, teach adopt-run.py to warn when
+# a run holds a .md that is neither whitelisted below nor the adopted candidate.
+ocr/runs/*/*.md
+ocr/runs/*/images/
+# NOTES.md is negated AGAIN here, deliberately. The negation twelve lines above
+# is not enough: gitignore takes the LAST matching rule, so the broad *.md
+# ignore just added would re-swallow the one file this section exists to keep --
+# the identical failure the comment above records. Order is the whole rule.
+!ocr/runs/*/NOTES.md
+!ocr/runs/*/TASK.md
+!ocr/runs/*/BRIEF.md
+!ocr/runs/*/PROPOSED.md
+!ocr/runs/*/CLOSED.md
+!ocr/runs/*/ESCALATION.md
+!ocr/runs/*/ANSWER.md

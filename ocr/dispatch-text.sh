@@ -68,6 +68,36 @@ fi
 # ask. Both responses were reasonable and both were caused by us.
 [ -d "$SRC_DIR/images" ] && cp -R "$SRC_DIR/images" "$WORK/source/" || true
 
+# A text may carry a BRIEF.md: decisions already taken about THIS text, which the
+# worker should not rediscover and must not overturn on its own.
+#
+# The escalation loop only runs one direction. A worker that meets a question it
+# should not decide can ask us, but we had no way to answer one BEFORE it was
+# asked -- so a decision the two of us settled in conversation reached the run
+# only by being asked for again, at the cost of a round trip and a resume. Worse,
+# it was re-asked on every re-dispatch, because nothing about the decision lived
+# with the text.
+#
+# It goes to the workspace ROOT, not source/. source/ is what the edition gives
+# us; the brief is what we have concluded about it, and merging the two would
+# make our own judgments look like evidence from the page. This is also why the
+# `! -name '*.md'` exclusion above does not reach it: that rule exists to
+# withhold our previous ANSWER (the published markdown) from an extraction job,
+# and a brief is not an answer -- it is the question already settled.
+if [ -f "$SRC_DIR/BRIEF.md" ]; then
+  cp "$SRC_DIR/BRIEF.md" "$WORK/BRIEF.md"
+  BRIEF_NOTE="
+
+**This text carries a \`BRIEF.md\`. Read it before you start.** It records
+decisions already taken about this particular text — editorial questions that
+were settled deliberately, and that are not yours to reopen. Where the brief and
+your own judgment disagree, follow the brief and say so in \`NOTES.md\`; if
+following it turns out to be impossible, or it is silent on something it plainly
+ought to cover, that is worth an escalation."
+else
+  BRIEF_NOTE=""
+fi
+
 TITLE=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('title',''))")
 AUTHOR=$(python3 -c "import json;m=json.load(open('$SRC_DIR/metadata.json'));print(m.get('author',''))")
 
@@ -112,7 +142,7 @@ $OPENING
 
 **The text:** $AUTHOR, *$TITLE* (\`$TEXT_ID\`). Its sources are in \`source/\`,
 along with the metadata the library currently holds for it.
-$REPAIR_NOTE
+$REPAIR_NOTE$BRIEF_NOTE
 
 **The repository** is at \`$ROOT\`, readable but not writable by you. Start with
 \`$ROOT/ocr/README.md\`. Use \`$ROOT/ocr/.venv/bin/python3\` where PyMuPDF is

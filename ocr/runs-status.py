@@ -18,7 +18,7 @@ happens to look.
 
 From files on disk, never from a database that could disagree with them:
 
-  provenance.json absent, run.log growing   RUNNING
+  run.log growing and newer than provenance RUNNING
   ESCALATION.md present                     BLOCKED  (waiting on us)
 
 An answered escalation is renamed ESCALATION-answered.md and keeps its ANSWER.md
@@ -31,6 +31,12 @@ blocked. Only a live ESCALATION.md means somebody is waiting.
 without provenance is reported STALLED rather than RUNNING, because a machine
 that slept mid-run looks exactly like a worker that is thinking, and the
 difference matters when deciding whether to wait.
+
+A growing log beats every other signal, and that ordering is the whole point.
+Provenance, escalations and adoption records are all written when a run STOPS,
+so after a re-dispatch they describe the attempt before this one. The comparison
+is which file is newer: a log younger than the provenance beside it means an
+attempt is under way that nothing on disk yet describes.
 
 ## Closed runs are hidden
 
@@ -98,6 +104,30 @@ def state_of(run: Path) -> tuple[str, str]:
     # nobody intends to answer.
     if closed.exists():
         return "CLOSED", first_line(closed) or "see CLOSED.md"
+
+    # A live log OUTRANKS every record of a previous attempt, because every one
+    # of those records is written when a run ENDS. Re-dispatching a text leaves
+    # the old provenance, escalation and adoption in place until the new attempt
+    # finishes, so the dashboard confidently described four actively running
+    # texts by what had happened to them days earlier: two showed FAILED with an
+    # exit code from an attempt that had already been superseded.
+    #
+    # The discriminator is which file is newer. dispatch-text.sh and
+    # resume-run.sh both append to run.log throughout and write provenance.json
+    # only at the end, so a log younger than the provenance beside it means a
+    # further attempt is under way that no record yet describes.
+    #
+    # Being wrong here is worse than being coarse. A dashboard that reports a
+    # working run as FAILED invites someone to re-dispatch it on top of itself,
+    # and the state it was reporting was, by construction, one attempt stale.
+    if log.exists():
+        quiet = time.time() - log.stat().st_mtime
+        newer = not prov.exists() or log.stat().st_mtime > prov.stat().st_mtime
+        if newer and quiet < QUIET_AFTER:
+            return "RUNNING", f"log active {int(quiet)}s ago"
+        if newer and prov.exists():
+            return "STALLED", f"log quiet {int(quiet // 60)}m, newer than provenance"
+
     if prov.exists():
         try:
             adopted = json.loads(prov.read_text()).get("adopted")

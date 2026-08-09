@@ -13,6 +13,15 @@
 # answer; it just makes sure the answer reaches the worker and the exchange
 # survives in the record.
 #
+# USE THIS RATHER THAN CALLING `codex exec resume` DIRECTLY. The resume itself
+# is the easy half; this script also lifts the worker's output out of the
+# gitignored workspace and archives the exchange. On 2026-08-09 two runs were
+# resumed by hand, did their work correctly, and left no trace in the run
+# directory -- the dashboard went on reporting BLOCKED on questions that had
+# been answered. If you have already resumed by hand, run
+# `ocr/file-run-artifacts.sh <run-dir>` afterwards; that is the same copy-up,
+# factored out so both paths file identically.
+#
 # Before resuming it re-syncs the workspace's source/ from the text directory,
 # because the commonest answer to an escalation is a file the worker did not
 # have -- Dedekind and Einstein both stopped for a missing TeX source. An answer

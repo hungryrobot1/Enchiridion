@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg1228-images-3.pdf",
+  "format": "markdown",
+  "filename": "darwin-origin-of-species.md",
   "description": "Theory of evolution by natural selection supported by extensive evidence",
   "topics": [
     "biology",
@@ -15,5 +15,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

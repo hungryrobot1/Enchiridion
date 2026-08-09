@@ -47,3 +47,19 @@ The route rule is repeated across the main README and stage 0, stage 1, and stag
 I had to build three things I expected the pipeline to have: a source/metadata identity audit, a count- and anchor-guarded combined range-and-crop preparer with a page-specific crop, and the duplicate-leaf probe that stage 1 prescribes but explicitly says has no tool. The generic crop geometry check could not identify `Lucida Blackletter.` as digital apparatus; that appeared only during visual review after an otherwise clean preparation, so the preparation had to be revised and reverified.
 
 The choices resolved here were whether to keep the duplicate-looking divisional title leaf, whether the notation glossary belonged to Gödel, and whether `Lucida Blackletter.` was authorial. I kept the divisional title as part of the work boundary; I dropped the glossary because it is explicitly an edition-level aid written about the translation; and I removed the font-name note because it belongs to the 2000 digital reset and sits outside Gödel's numbered footnote sequence. Another run could easily have kept all three by treating every mark after page 39 as authorial, and no automated check would have objected.
+
+## Resolution, 2026-08-09 — closed unpublishable, not completed
+
+The OCR handoff was never run and will not be. The escalation was answered from
+outside the pipeline: **this edition cannot be published at all.** The PDF is
+Meltzer's 1962 translation, still in copyright, and every other English
+translation is either in copyright or, in Hirzel's freely-reproducible case,
+only sections 1 and 2 of 4 with the footnotes removed.
+
+`ESCALATION.md` was removed because it had stopped being true. It described a
+run blocked on a person doing OCR; the run is blocked on a translation existing.
+Leaving it in place would have kept the dashboard asking for work that would
+have been wasted.
+
+Full survey and the January 2027 opening:
+`texts/8-modern-era-ii/godel-on-formally-undecidable-propositions/SOURCING.md`.

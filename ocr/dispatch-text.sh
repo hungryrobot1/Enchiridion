@@ -32,6 +32,22 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SRC_DIR="$(ls -d "$ROOT"/texts/*/"$TEXT_ID" 2>/dev/null | head -1 || true)"
 [ -n "$SRC_DIR" ] || { echo "no text directory for '$TEXT_ID'" >&2; exit 1; }
 
+# Ask the source what work it claims to be, BEFORE spending a turn on it.
+# Mendel's directory held a life of Schumann and Gödel's holds the wrong
+# translation; both were found by a dispatched worker opening the file, which
+# cost a full turn each -- 150-450k tokens to learn something a local check
+# answers in a second for nothing. This warns rather than refuses: a flag is
+# often a library plate ahead of a title page, and only a person can tell.
+if [ -x "$ROOT/ocr/.venv/bin/python3" ]; then
+  IDENT="$("$ROOT/ocr/.venv/bin/python3" "$ROOT/ocr/0-recon/check-source-identity.py" 2>/dev/null \
+            | grep -A1 -- "$TEXT_ID" || true)"
+  if [ -n "$IDENT" ]; then
+    echo "  ⚠ source identity — check before this run spends a turn on it:" >&2
+    printf '%s\n' "$IDENT" >&2
+    echo "    (ocr/0-recon/check-source-identity.py --self-test to prove the check works)" >&2
+  fi
+fi
+
 # RUN_LABEL keeps a second run of the same text beside the first instead of on
 # top of it. Re-running a text after changing its inputs is the whole method
 # here, and two runs cannot be compared if the first is only recoverable from

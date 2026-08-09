@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "Turing_Paper_1936.pdf",
+  "format": "markdown",
+  "filename": "turing-on-computable-numbers.md",
   "description": "Definition of the Turing machine and proof that the halting problem is undecidable",
   "topics": [
     "computer-science",
@@ -17,5 +17,5 @@
   ],
   "era": "modern-era-ii",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

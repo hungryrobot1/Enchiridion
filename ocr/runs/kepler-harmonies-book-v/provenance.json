@@ -1,0 +1,26 @@
+{
+  "text_id": "kepler-harmonies-book-v",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "eaa878d",
+  "session_id": "019fe384-5079-7fb2-9d83-534eda076c07",
+  "started": "2026-08-08T22:35:24Z",
+  "finished": "2026-08-08T22:45:59Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-09T01:59:30Z",
+      "finished": "2026-08-09T02:14:31Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-09T02:15:33Z",
+    "target": "texts/4-renaissance-scientific-revolution/kepler-harmonies-book-v/kepler-harmonies-book-v.md"
+  }
+}

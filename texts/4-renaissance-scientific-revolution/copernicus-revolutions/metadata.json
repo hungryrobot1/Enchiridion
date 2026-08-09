@@ -6,8 +6,8 @@
   "year_translated": 1939,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "The Revolutions of the Heavenly Spheres.pdf",
+  "format": "markdown",
+  "filename": "copernicus-revolutions.md",
   "description": "Heliocentric model of the solar system that initiated the Scientific Revolution",
   "topics": [
     "astronomy",
@@ -15,5 +15,5 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

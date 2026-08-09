@@ -1,0 +1,24 @@
+
+== next-lowercase  (9) ==
+  [blank] L406: not A R, Pu, R, R, R sim₂ sim₃ { not A L, Py ε(mf, z)
+  [blank] L409: A L, Py, R, R, R sim₃ mf g(mf, :)
+  [blank] L414: A L, L, L, L mf₂ mf₂ { C R, Px, L, L, L mf₂
+  [blank] L418: D R, Px, L, L, L mf₃ mf₃ { not : R, Pv, L, L, L mf₃
+  [blank] L421: : mf₄ mf₄ con (l(l(mf₅)), )
+  [blank] L426: None P: s6 s6 f(s6₁, inst, u)
+  [blank] L430: s6₁ L, L, L s6₂ s6₂ { D R, R, R, R s6₂
+  [blank] L433: not D inst s6₃ { C R, R s6₄
+  [blank] L436: not C inst s6₄ { C R, R s6₅
+
+== other  (8) ==
+  [blank] L299: The standard description is $DADDCRDAA; DAADDRDAAA;$
+  [blank] L305: A description number is 31332531173113353111731113322531111731111335317
+  [blank] L309: and so is 3133253117311335311173111332253111173111133531731323253117
+  [blank] L351: Each instruction consists of five consecutive parts (i) “D” followed by a sequence of letters “A”. This describes the relevant m-configur…
+  [blank] L641: On the other hand, (v) enables us to prove (vi) If $a$ and $\beta$ are computable and $a < \beta$ and $\phi(a) < 0 < \phi(\beta)$, where …
+  [blank] L649: We can then show that (vii) A power series whose coefficients form a computable sequence of computable numbers is computably convergent a…
+  [blank] L657: (ix) The limit of a uniformly computably convergent computable sequence of computable functions is a computable function. Hence (x) The s…
+  [blank] L808: When we substitute the meanings suggested on p. 259-60 we find that Un $(\mathfrak{M})$ has the interpretation "in some complete configur…
+
+would rejoin 17 paragraph pair(s)
+(dry-run — pass --apply to write changes)

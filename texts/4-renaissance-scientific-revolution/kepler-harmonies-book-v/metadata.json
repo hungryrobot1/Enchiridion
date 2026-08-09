@@ -6,8 +6,8 @@
   "year_translated": 1939,
   "language": "English",
   "original_language": "Latin",
-  "format": "html",
-  "filename": "Harmonies of the World_ 1. Concerning the Five Regular So... _ Internet Sacred Text Archive.html",
+  "format": "markdown",
+  "filename": "kepler-harmonies-book-v.md",
   "description": "Kepler's third law of planetary motion relating orbital periods to distances",
   "topics": [
     "astronomy",
@@ -19,5 +19,5 @@
   "prerequisites": [
     "kepler-astronomia-novia-latin"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

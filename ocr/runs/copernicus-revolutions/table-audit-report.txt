@@ -1,0 +1,7 @@
+Copernicus numerical-table audit
+- Markdown table blocks: 103
+- Markdown table rows: 3647
+- Inconsistent pipe-count rows: 0
+- Obvious digit/letter-confusable or question-mark cells: 0
+- Printed pages carrying numeric table rows (102 pages): 32-39, 56-58, 65-69, 73-76, 85-117, 130-133, 137, 147-152, 166-167, 179-184, 195-196, 212-213, 219, 228-238, 290-299, 324-327
+- LIMIT: these checks do not establish that any digit is correct. Every digit on the listed pages remains unverified against print.

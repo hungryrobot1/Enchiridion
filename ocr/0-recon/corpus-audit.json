@@ -44,18 +44,6 @@
  },
  {
   "era": "4-renaissance-scientific-revolution",
-  "id": "copernicus-revolutions",
-  "class": "SCAN",
-  "note": "shredded text layer (mean line 16)",
-  "status": "pending",
-  "pages": 454,
-  "chars_per_page": 2767,
-  "mean_line_len": 16,
-  "images": 468,
-  "img_ratio": 1.03
- },
- {
-  "era": "4-renaissance-scientific-revolution",
   "id": "descartes-la-geometrie",
   "class": "EXTRACT+FIGS",
   "note": "",
@@ -168,13 +156,6 @@
   "mean_line_len": 17,
   "images": 776,
   "img_ratio": 2.0
- },
- {
-  "era": "4-renaissance-scientific-revolution",
-  "id": "kepler-harmonies-book-v",
-  "class": "NON-PDF",
-  "note": "source format: html",
-  "status": "pending"
  },
  {
   "era": "4-renaissance-scientific-revolution",
@@ -885,18 +866,6 @@
   "mean_line_len": 19,
   "images": 1000,
   "img_ratio": 2.0
- },
- {
-  "era": "6-nineteenth-century",
-  "id": "mendel-experiments-on-plant-hybridization",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 35,
-  "chars_per_page": 3091,
-  "mean_line_len": 98,
-  "images": 10,
-  "img_ratio": 0.29
  },
  {
   "era": "6-nineteenth-century",
@@ -2069,18 +2038,6 @@
   "mean_line_len": 79,
   "images": 0,
   "img_ratio": 0.0
- },
- {
-  "era": "8-modern-era-ii",
-  "id": "turing-on-computable-numbers",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 36,
-  "chars_per_page": 1559,
-  "mean_line_len": 34,
-  "images": 36,
-  "img_ratio": 1.0
  },
  {
   "era": "8-modern-era-ii",

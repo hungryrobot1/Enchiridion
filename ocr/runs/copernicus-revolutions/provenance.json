@@ -1,0 +1,40 @@
+{
+  "text_id": "copernicus-revolutions",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "eaa878d",
+  "session_id": "019fe384-5079-7d40-9476-9df689489529",
+  "started": "2026-08-08T22:35:24Z",
+  "finished": "2026-08-08T22:44:07Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-09T01:28:22Z",
+      "finished": "2026-08-09T01:39:17Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-09T02:08:50Z",
+      "finished": "2026-08-09T02:10:47Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-09T02:13:19Z",
+      "finished": "2026-08-09T02:38:20Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-09T02:39:21Z",
+    "target": "texts/4-renaissance-scientific-revolution/copernicus-revolutions/copernicus-revolutions.md"
+  }
+}

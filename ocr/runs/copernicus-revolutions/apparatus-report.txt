@@ -1,0 +1,40 @@
+Copernicus critical-apparatus removal
+raw sha256: 51ada54d022e11fd80648bb9334838b0ee2d39882a1822057827542452602dec
+
+Removals by label form:
+- [Deleted in the autograph:]: 1
+- [Deleted version:]: 1
+- [Earlier draft:]: 5
+- [Earlier version concluding V,23:]: 1
+- [Earlier version of beginning V,1:]: 1
+- [Earlier version:]: 7
+- [In the autograph ...:]: 1
+- [Printed text:]: 4
+- [Printed version:]: 6
+- prose label: An earlier version of II, 12: 1
+- prose label: Here Copernicus originally planned: 1
+- prose label: The beginning of a new book: 1
+- prose label: The foregoing letter: 1
+- standalone notice + rejected passage: I,12 heading/autograph continuation: 1
+- standalone notice + rejected passage: rest deleted in autograph: 1
+- standalone original-plan chapter notice: 3
+- standalone restored marginal notice: 1
+
+Square-bracket census (matched pairs / openers / closers):
+- before: 2426 / 2441 / 2426
+- after: 2306 / 2307 / 2306
+- difference: 120 / 134 / 120
+- removed chunks contain: 134 openers / 120 closers
+
+Witnessed prose boundaries:
+- printed p. 25, 'Here Copernicus originally planned ...': rejected text ends 'you are dead.'; first final received prose kept afterward: 'In accordance with the common practice of'.
+- printed p. 26, 'The foregoing letter ...': rejected text ends 'science of the stars.'; first final received prose kept afterward: 'In accordance with the common practice of'.
+- printed p. 78, 'An earlier version of ... II, 12': rejected text ends 'which I discussed only as examples.'; first six prose words kept: 'The risings and settings of the'.
+- printed p. 80, 'The beginning of a new book ...': the introductory label alone is removed; after the explicitly delimited earlier draft, the first six received words kept are 'This opinion, I believe, should be'.
+- printed pp. 82-83, '[Earlier draft:]' (OCR rendered '# Earlier draft:'): the explicit end notice is '[The earlier draft ends abruptly here].'; first six words kept are 'For example, in the 2nd year'.
+
+Images:
+- raw references: 140
+- received-text references: 138
+- apparatus-only references removed: img-113.jpeg, img-128.jpeg
+- the source files remain in images/ so the raw extraction is reproducible

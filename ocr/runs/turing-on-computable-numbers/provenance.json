@@ -1,0 +1,33 @@
+{
+  "text_id": "turing-on-computable-numbers",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "eaa878d",
+  "session_id": "019fe384-5079-7432-9ad2-d85f367fac21",
+  "started": "2026-08-08T22:35:24Z",
+  "finished": "2026-08-08T22:43:15Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-09T01:28:22Z",
+      "finished": "2026-08-09T01:48:26Z",
+      "exit_code": 1,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-09T02:05:25Z",
+      "finished": "2026-08-09T02:24:12Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "interrupted"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-09T02:25:41Z",
+    "target": "texts/8-modern-era-ii/turing-on-computable-numbers/turing-on-computable-numbers.md"
+  }
+}

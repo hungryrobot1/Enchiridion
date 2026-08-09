@@ -14,6 +14,17 @@ track was added, and the Hamlet run named the mismatch from the other side.
 4. Notation anywhere in 1 or 2 outranks convenience: never render a formula to
    pixels so that OCR can read it back as a string.
 
+**OCR is only ever for a scan.** If the file has a usable text layer — check the
+producer; `calibre`, `Ghostscript`, `pdfTeX`, `Word` all mean born-digital — then
+OCR would render correct characters to pixels and read them back at 95–97%
+accuracy. That is a pure loss, and no later stage can detect it. Lavoisier's run
+reached the OCR handoff on a Calibre rendering of the EPUB sitting beside it in
+the same directory; the route was caught on the host, not by any check here.
+
+The phrase "the PDF route" in the tool table below means **`extract-pdf.py`**,
+reading the embedded text layer. It has never meant OCR. That sentence alone
+nearly cost 194 pages of clean transcription.
+
 Everything below explains *why*, and a run that has already chosen correctly does
 not need it. (A run reported reading the route argument several times to extract
 the rule, which was longer than the rule and repeated in the README. The rule now
@@ -174,7 +185,7 @@ resulting markdown and images placed in the workspace.
 |---|---|
 | `ocr.py` | Mistral OCR pipeline. **Run manually only — see above.** Writes `<text-id>.md` beside the PDF plus an `images/` subfolder, where `<text-id>` is the PDF's *parent directory name*, so pass an explicit output directory when that would be wrong. Reads `MISTRAL_OCR_KEY` from `ocr/.env`. |
 | `extract-pdf.py` | Extracts embedded PDF text into markdown via PyMuPDF. The right track for prose wherever the text layer permits it; lossy for notation — see above. |
-| `extract-epub.py` | Markdown from an EPUB, recovering each formula from the LaTeX its producer stored beside the rendered image. Only for sources `0-recon/recon-epub.py` reports as carrying recoverable notation; everything else is better served by the PDF route. `--report` prints the anomalies, which are this route's error patterns and are not OCR's. |
+| `extract-epub.py` | Markdown from an EPUB, recovering each formula from the LaTeX its producer stored beside the rendered image. Aimed at sources `0-recon/recon-epub.py` reports as carrying recoverable notation. An EPUB *without* notation is still a structured source and still takes the source-native route — read its XHTML directly, as the `.tex` sources were read directly. **"Not this tool" never means "OCR".** `--report` prints the anomalies, which are this route's error patterns and are not OCR's. |
 
 Named by SOURCE KIND, matching recon: `recon-pdf`/`extract-pdf`,
 `recon-epub`/`extract-epub`. `extract-pdf.py` was `extract-text.py` while it was

@@ -6,13 +6,13 @@
   "year_translated": 1790,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "pg30775-images-3.pdf",
+  "format": "markdown",
+  "filename": "lavoisier-elements-of-chemistry.md",
   "description": "Foundation of modern chemistry establishing conservation of mass and oxygen theory",
   "topics": [
     "chemistry"
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

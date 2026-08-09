@@ -1,0 +1,17 @@
+{
+  "text_id": "lavoisier-elements-of-chemistry",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9bae416",
+  "session_id": "019fe8ae-e8cc-7e02-b2be-93120ec35e1e",
+  "started": "2026-08-09T22:40:04Z",
+  "finished": "2026-08-09T22:49:16Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-09T23:16:22Z",
+    "target": "texts/5-newtonian-enlightenment/lavoisier-elements-of-chemistry/lavoisier-elements-of-chemistry.md"
+  }
+}

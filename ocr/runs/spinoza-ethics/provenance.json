@@ -1,0 +1,17 @@
+{
+  "text_id": "spinoza-ethics",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9bae416",
+  "session_id": "019fe8ae-dfb6-7e60-a519-e2118c5625cd",
+  "started": "2026-08-09T22:40:02Z",
+  "finished": "2026-08-09T22:49:23Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-09T22:53:26Z",
+    "target": "texts/4-renaissance-scientific-revolution/spinoza-ethics/spinoza-ethics.md"
+  }
+}

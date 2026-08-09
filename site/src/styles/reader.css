@@ -278,11 +278,26 @@
   font-style: italic;
 }
 
+/* A table wide enough to overflow scrolls inside its own box, so the page
+   never scrolls sideways to accommodate it. Written by wrapWideTables() in
+   readers/md-reader.js around every table it finds. */
+.reader__content--prose .table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: var(--space-md) 0;
+}
+
 .reader__content--prose table {
   border-collapse: collapse;
   margin: var(--space-md) 0;
   font-size: var(--text-sm);
   line-height: 1.4;
+}
+
+/* The box already carries the vertical rhythm; a second margin inside it
+   would show up as dead space at the top of every table. */
+.reader__content--prose .table-scroll table {
+  margin: 0;
 }
 
 .reader__content--prose th,

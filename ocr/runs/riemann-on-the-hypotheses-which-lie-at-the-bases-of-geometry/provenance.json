@@ -1,0 +1,17 @@
+{
+  "text_id": "riemann-on-the-hypotheses-which-lie-at-the-bases-of-geometry",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9bae416",
+  "session_id": "019fe8ae-f0ab-76d3-aa79-e2350140bdff",
+  "started": "2026-08-09T22:40:06Z",
+  "finished": "2026-08-09T22:50:11Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-09T22:53:23Z",
+    "target": "texts/6-nineteenth-century/riemann-on-the-hypotheses-which-lie-at-the-bases-of-geometry/riemann-on-the-hypotheses-which-lie-at-the-bases-of-geometry.md"
+  }
+}

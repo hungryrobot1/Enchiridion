@@ -904,7 +904,34 @@ function buildAnchorButton(details) {
 function finalizeSubtree(root, blocksById) {
   wrapInterlinearGroups(root);
   wrapImagesWithControls(root);
+  wrapWideTables(root);
   renderLatexPlaceholdersIn(root, blocksById);
+}
+
+// Some printed tables cannot be said in Markdown. Lovelace's Note G — the
+// diagram of the Bernoulli computation, and the reason anyone reads that text —
+// is 33 rows by 21 columns with `rowspan="11"` and `colspan="21"`; the spans are
+// what say which headings and braces govern which rows, so flattening them to
+// pipes does not simplify the table, it deletes its meaning. Those tables are
+// kept as the source's own HTML, which `marked` passes through untouched.
+//
+// What the page then needs is somewhere for them to go. A 21-column table is
+// wider than any reading column, and without a scroll container it forces the
+// whole document to scroll sideways — the text becomes unreadable to fix a
+// table. Give each table its own horizontally scrollable box instead, so the
+// overflow stays local to the thing that overflows.
+//
+// Applied to every table rather than to measured-wide ones only: width is not
+// known until layout, this runs before the subtree is in the document, and a
+// narrow table in a scroll box is indistinguishable from one without.
+function wrapWideTables(root) {
+  for (const table of root.querySelectorAll('table')) {
+    if (table.parentElement?.classList.contains('table-scroll')) continue;
+    const box = document.createElement('div');
+    box.className = 'table-scroll';
+    table.replaceWith(box);
+    box.appendChild(table);
+  }
 }
 
 // The language selector used to live here as a toolbar <select>. It is a row

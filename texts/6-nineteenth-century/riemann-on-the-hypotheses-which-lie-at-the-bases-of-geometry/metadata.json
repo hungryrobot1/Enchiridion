@@ -6,8 +6,8 @@
   "year_translated": 1873,
   "language": "English",
   "original_language": "German",
-  "format": "html",
-  "filename": "On the Hypotheses which lie at the Bases of Geometry..html",
+  "format": "markdown",
+  "filename": "riemann-on-the-hypotheses-which-lie-at-the-bases-of-geometry.md",
   "description": "Generalization of geometry to curved spaces of arbitrary dimension",
   "topics": [
     "mathematics",
@@ -15,5 +15,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

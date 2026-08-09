@@ -6,8 +6,8 @@
   "year_translated": 1883,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg3800-images-3.pdf",
+  "format": "markdown",
+  "filename": "spinoza-ethics.md",
   "description": "Geometric demonstration of a monist metaphysics, ethics, and the nature of God, mind, and freedom",
   "topics": [
     "philosophy",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "descartes-meditations"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

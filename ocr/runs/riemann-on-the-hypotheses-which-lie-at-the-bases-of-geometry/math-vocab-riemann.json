@@ -1,0 +1,38 @@
+{
+  "": {
+    "commands": {
+      "alpha": 2,
+      "frac": 11,
+      "sqrt": 3,
+      "sum": 6,
+      "textstyle": 1
+    },
+    "foreign": [],
+    "kind_strays": [],
+    "slots": {
+      "    ^ _ CMD": {
+        "sqrt": 2
+      },
+      "    ^ _ ID": {
+        "sum": 2
+      },
+      "    ^ _ ^": {
+        "alpha": 1
+      },
+      "  CMD _ CMD": {
+        "textstyle": 1
+      },
+      "  CMD _ ID": {
+        "sum": 3
+      },
+      "  CMD _ PUNCT": {
+        "sum": 1
+      },
+      "  NUM _ CMD": {
+        "alpha": 1,
+        "sqrt": 1
+      }
+    },
+    "spans": 98
+  }
+}

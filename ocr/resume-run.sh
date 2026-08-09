@@ -73,7 +73,11 @@ if [ -n "$SRC_DIR" ]; then
   fi
   # See dispatch-text.sh: `-type f` never carried the text's images/ across, so
   # every image reference in a repair job's markdown resolved to nothing.
-  [ -d "$SRC_DIR/images" ] && cp -Rn "$SRC_DIR/images" "$WORK/source/" 2>/dev/null || true
+  # Every subdirectory, not just one named `images/` -- see dispatch-text.sh:
+  # a saved web page keeps its assets in `<page>_files/`, and naming `images/`
+  # is a whitelist that silently drops any other layout.
+  find "$SRC_DIR" -mindepth 1 -maxdepth 1 -type d \
+    -exec cp -Rn {} "$WORK/source/" \; 2>/dev/null || true
   after=$(ls -1 "$WORK/source" 2>/dev/null | wc -l | tr -d ' ')
   [ "$after" -gt "$before" ] && echo "  source/ gained $((after - before)) file(s) since dispatch"
 fi

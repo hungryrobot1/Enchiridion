@@ -66,7 +66,17 @@ fi
 # nothing: al-Biruni stopped and asked whether to reconstruct three figures that
 # already existed, and al-Khwarizmi rebuilt eighteen from the scan rather than
 # ask. Both responses were reasonable and both were caused by us.
-[ -d "$SRC_DIR/images" ] && cp -R "$SRC_DIR/images" "$WORK/source/" || true
+#
+# That was first fixed by naming `images/` -- a whitelist of one, which held
+# only until a source kept its assets somewhere else. A saved web page stores
+# them in `<page>_files/`, so Kepler's Harmonies went out with all 43 of its
+# JPEGs sitting in the repo and none in the workspace. The run correctly
+# reported the diagrams missing, we diagnosed a defective source, and the
+# images were fetched again over the network. Every subdirectory now travels,
+# for the same reason the file copy above is a blacklist: a layout nobody
+# anticipated should arrive, not vanish.
+find "$SRC_DIR" -mindepth 1 -maxdepth 1 -type d \
+  -exec cp -R {} "$WORK/source/" \; 2>/dev/null || true
 
 # A text may carry a BRIEF.md: decisions already taken about THIS text, which the
 # worker should not rediscover and must not overturn on its own.
@@ -328,6 +338,21 @@ with an answer and your context intact. A blocked stage with a clear account
 beats a finished text with a silent guess, because nothing downstream can catch
 a guess.
 
+**`ESCALATION.md` is a signal, not a place to write things down.** Its mere
+presence puts this run into the BLOCKED state on a dashboard a person reads,
+which says: work has stopped and it is waiting on *them*. Nothing else in the
+workspace does that. So write the file only when you are genuinely stopped and
+need an answer to go on.
+
+In particular, do not use it to report an escalation that has already been
+resolved, or to surface something you merely think we would find interesting.
+One run wrote an `ESCALATION.md` reading "there is no active escalation; this
+file remains only to record why the run stopped and resumed" — a reasonable
+instinct about where to put a note, and it left a finished, proposable text
+sitting in the queue marked as waiting on a human. Findings, history, and
+anything else you want read go in `NOTES.md`, which is read every time and
+blocks nothing.
+
 ## Two things about the reader you cannot infer from the source
 
 In-page links do not work here. The router keys on the URL hash, so a footnote
@@ -347,12 +372,43 @@ Four things, and only these are load-bearing:
 
 - **the markdown** — the transcription itself;
 - **`PROPOSED.md`** — naming which file that is, when there is more than one;
-- **`NOTES.md`** — what you did, found, and could not establish;
+- **`NOTES.md`** — what you did, found, and could not establish, and close it
+  with `## Where this was harder than it needed to be` (see below);
 - **the scripts that produced it** — anywhere in the workspace; they are lifted
   from wherever you put them. Without them the text is an artifact nobody can
   rebuild.
 
 Plus `ESCALATION.md` if you had to stop and ask.
+
+## End `NOTES.md` with where this was harder than it needed to be
+
+You are the only one who sees this pipeline from the inside, and you see it
+fresh. We have read these documents so many times that we can no longer tell
+which parts are load-bearing and which are simply long. So close `NOTES.md`
+with a short section headed `## Where this was harder than it needed to be`,
+and answer plainly:
+
+- **Where was the documentation too thick?** Which passages did you have to
+  read more than once, or read in full to extract one fact? Where did you go
+  looking for something and not find it where you expected it?
+- **What did you have to build that you expected to already exist?** Name it.
+  If you wrote a script that feels like it should have been in the pipeline,
+  that is a gap, and it is worth more to us than the script.
+- **Where did the ordering fight you?** Anything you learned late that would
+  have changed an earlier decision, or a check that would have been cheap early
+  and was expensive where it actually happened.
+- **What was ambiguous enough that you had to choose?** Not the questions you
+  escalated — the ones you resolved on your own and might have resolved
+  differently on another day.
+
+**Describe the problem, not the solution.** We are not asking what to build; we
+will decide that, and a diagnosis stays useful long after a proposed fix stops
+fitting. "I read the stage contract three times to find the threshold" tells us
+more than "add a constants table."
+
+Be blunt, and do not be diplomatic about our documents. A run that says the
+instructions were fine when they were not costs us the one view of this system
+we cannot get any other way.
 
 Everything else in the workspace is disposable, and you should feel free to
 treat it that way — intermediates, extractions, scratch files. In particular

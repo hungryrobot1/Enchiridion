@@ -123,12 +123,34 @@ def judge(meta, claimed):
     # A single common-ish word is weak; require either the author or two words.
     title_hit = len(title_hits) >= 2 or (len(title_words) == 1 and title_hits)
 
+    # The translator is checked separately and reported even when author and
+    # title agree. Gödel's directory holds the right author and the right title
+    # in the WRONG TRANSLATION -- Meltzer 1962 where the metadata says Hirzel
+    # 2000 -- and author+title matching waved it through. For a translated work
+    # the translator is the edition, and getting it wrong can mean publishing a
+    # text we have no right to publish.
+    tn = surname(meta.get("translator", ""))
+    translator_named = bool(tn) and re.search(rf"\b{re.escape(tn)}\b", low)
+    # Only meaningful if the file names SOME translator; many scans name none.
+    other_translator = None
+    if tn and not translator_named:
+        m = re.search(
+            r"[Tt]ranslated (?:by|from[^.]{0,40}by)\s+([A-Z][\w.''-]*(?:\s+[A-Z][\w.''-]*){0,3})",
+            claimed,
+        )
+        if m and surname(m.group(1)) != tn:
+            other_translator = m.group(1).strip()
+
     if author_hit or title_hit:
         why = []
         if author_hit:
             why.append(f"author '{sn}'")
         if title_hits:
             why.append("title " + "/".join(sorted(title_hits)[:3]))
+        if other_translator:
+            return "FLAG", (f"author/title agree, but metadata says translator "
+                            f"{meta.get('translator')!r} and the file says "
+                            f"{other_translator!r}")
         return "ok", " + ".join(why)
 
     # Nothing matched. Say what the file thinks it is, which is the useful part.
@@ -142,7 +164,11 @@ def judge(meta, claimed):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true", help="print every text, not only findings")
+    ap.add_argument("--self-test", action="store_true",
+                    help="run the controls and exit; do this before believing a clean sweep")
     args = ap.parse_args()
+    if args.self_test:
+        return self_test()
 
     rows = []
     for mpath in sorted((ROOT / "texts").glob("*/*/metadata.json")):
@@ -178,15 +204,60 @@ def main():
     if not args.all and not show:
         print("  (nothing to show — run with --all to see the passes)")
 
-    # A check that has never caught anything is not yet evidence of anything.
-    # Mendel is the known case: if this run cannot see it, the check is broken.
-    mendel = [r for r in rows if r[2].startswith("mendel-")]
-    if mendel and mendel[0][0] != "FLAG":
-        print("\n  CONTROL FAILED: mendel-* did not flag, and it is known wrong.")
-        return 2
-    if mendel:
-        print("  control: mendel-* flagged as expected")
     return 1 if flags else 0
+
+
+# A check that has never been shown to catch anything proves nothing when it
+# comes back clean. This was first controlled against Mendel, the one directory
+# known to hold the wrong book -- and that control caught a real bug: "mendel"
+# matched inside "Mendelssohn", so the single known-wrong case scored as a pass.
+#
+# Then Mendel was FIXED, and the control started failing because its known-bad
+# case no longer existed. A control that depends on the corpus staying broken
+# expires the moment the bug is repaired. These are synthetic and permanent, and
+# the last one is a negative control -- without it, a check that flagged
+# everything would pass every positive control there is.
+CONTROLS = [
+    (
+        "wrong work, author name hidden inside a longer word",
+        {"author": "Gregor Mendel", "title": "Experiments on Plant Hybridization"},
+        "The Project Gutenberg eBook of Robert Schumann, Tone-Poet, Prophet and "
+        "Critic by Herbert F. Peyser. Schumann and Mendelssohn were friends, and "
+        "Mendelssohn conducted the premiere.",
+        "FLAG",
+    ),
+    (
+        "right work, wrong translation",
+        {"author": "Kurt Godel", "title": "On Formally Undecidable Propositions",
+         "translator": "Martin Hirzel"},
+        "On Formally Undecidable Propositions of Principia Mathematica And "
+        "Related Systems. KURT GODEL. Translated by B. Meltzer. Introduction by "
+        "R. B. Braithwaite.",
+        "FLAG",
+    ),
+    (
+        "a genuine match must NOT flag",
+        {"author": "John Stuart Mill", "title": "On Liberty"},
+        "On Liberty, by John Stuart Mill. The subject of this essay is civil, "
+        "or social liberty.",
+        "ok",
+    ),
+]
+
+
+def self_test() -> int:
+    failures = 0
+    for name, meta, claimed, expected in CONTROLS:
+        verdict, why = judge(meta, claimed)
+        ok = verdict == expected
+        print(f"  {'pass' if ok else 'FAIL'}  {name}: got {verdict} ({why})")
+        failures += not ok
+    if failures:
+        print(f"\n  {failures} control(s) FAILED — this check cannot be trusted.")
+        return 2
+    print("\n  controls pass: the check can flag a wrong work, a wrong "
+          "translation, and can still recognise a match")
+    return 0
 
 
 if __name__ == "__main__":

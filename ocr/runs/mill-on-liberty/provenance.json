@@ -9,5 +9,9 @@
   "started": "2026-08-09T03:23:29Z",
   "finished": "2026-08-09T03:30:25Z",
   "exit_code": 0,
-  "completed": true
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-09T03:31:37Z",
+    "target": "texts/6-nineteenth-century/mill-on-liberty/mill-on-liberty.md"
+  }
 }

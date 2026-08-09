@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg34901-images-3.pdf",
+  "format": "markdown",
+  "filename": "mill-on-liberty.md",
   "description": "Foundational defense of individual liberty and the limits of state authority",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

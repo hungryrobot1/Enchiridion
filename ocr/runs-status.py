@@ -66,9 +66,10 @@ import argparse
 import html
 import json
 import os
+import re
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -90,6 +91,43 @@ def first_line(path: Path) -> str:
         if line.strip() and not line.startswith("#"):
             return line.strip()[:60]
     return ""
+
+
+def failure_kind(log: Path) -> str:
+    """Name the failure from the end of the log, where the cause is printed."""
+    if not log.exists():
+        return ""
+    try:
+        with log.open("rb") as fh:
+            fh.seek(max(0, log.stat().st_size - 8192))
+            tail = fh.read().decode("utf-8", "ignore")
+    except OSError:
+        return ""
+    if "usage limit" in tail:
+        return "usage limit — "
+    if "failed to lookup address" in tail or "stream disconnected" in tail:
+        return "network — resumable with --interrupted; "
+    return ""
+
+
+def tokens_used(log: Path) -> int:
+    """Total tokens across every turn in this run.
+
+    The scarcest resource in the pipeline was invisible: answering "what did a
+    text cost" meant grepping raw logs, and the answer -- that a 35-page text
+    costs nearly what a 621-page one does -- reframed a whole week's plan. codex
+    prints `tokens used` then the count on the next line, once per turn.
+    """
+    if not log.exists():
+        return 0
+    try:
+        text = log.read_text("utf-8", errors="ignore")
+    except OSError:
+        return 0
+    return sum(
+        int(n.replace(",", ""))
+        for n in re.findall(r"tokens used\s*\n\s*([\d,]+)", text)
+    )
 
 
 def state_of(run: Path) -> tuple[str, str]:
@@ -136,8 +174,29 @@ def state_of(run: Path) -> tuple[str, str]:
         if adopted:
             return "ADOPTED", f"→ {adopted.get('target', '')}"
 
+    # An ESCALATION.md only means BLOCKED if it is NEWER than the last attempt.
+    # resume-run.sh archives it after the resume returns, so a run that dies
+    # mid-resume keeps the question it already had answered -- and this check ran
+    # before the exit code below, so a stale file outranked a real failure.
+    # Turing died on a dropped websocket and sat here reading BLOCKED, i.e.
+    # "waiting on you", for fifteen minutes. Compare timestamps rather than
+    # trusting that cleanup happened.
     if esc.exists():
-        return "BLOCKED", first_line(esc) or "see ESCALATION.md"
+        stale = False
+        if prov.exists():
+            try:
+                d0 = json.loads(prov.read_text())
+                attempts = d0.get("resumes") or []
+                started = (attempts[-1] if attempts else d0).get("started")
+                if started:
+                    when = datetime.strptime(
+                        started, "%Y-%m-%dT%H:%M:%SZ"
+                    ).replace(tzinfo=timezone.utc).timestamp()
+                    stale = esc.stat().st_mtime < when
+            except (json.JSONDecodeError, ValueError):
+                stale = False
+        if not stale:
+            return "BLOCKED", first_line(esc) or "see ESCALATION.md"
 
     if prov.exists():
         try:
@@ -151,7 +210,12 @@ def state_of(run: Path) -> tuple[str, str]:
         rc = last.get("exit_code", 0)
         where = " on resume" if resumes else ""
         if rc != 0:
-            return "FAILED", f"exit {rc}{where}"
+            # Say WHY where the log can tell us. A dropped connection and a
+            # usage limit both exit 1 and want opposite responses -- one is
+            # `resume-run.sh --interrupted` now, the other is waiting for a
+            # quota reset -- and reading that off the raw log was the only way
+            # to tell them apart.
+            return "FAILED", f"{failure_kind(log)}exit {rc}{where}"
         # Exit 0 is necessary and not sufficient: codex handles SIGTERM and
         # exits 0, so a run cut off by a sleeping laptop looked exactly like a
         # finished one. `completed` records whether the log ended normally.
@@ -202,6 +266,7 @@ def collect(root: Path) -> list[dict]:
             "notes_kb": (run / "NOTES.md").stat().st_size / 1024
                         if (run / "NOTES.md").exists() else 0,
             "tools": len(list(run.glob("*.py"))),
+            "tokens": tokens_used(run / "run.log"),
             "session_id": prov.get("session_id", ""),
             "model": prov.get("model", ""),
             "path": str(run.relative_to(root)),
@@ -225,14 +290,20 @@ def print_table(rows: list[dict], only_blocked: bool, show_all: bool) -> None:
         else:
             print("  no runs")
         return
-    print(f"  {'run':44} {'state':8} {'min':>5} {'out KB':>7} {'notes':>6} {'tools':>5}")
-    print("  " + "-" * 80)
+    print(f"  {'run':40} {'state':8} {'min':>5} {'tokens':>8} "
+          f"{'out KB':>7} {'notes':>6} {'tools':>5}")
+    print("  " + "-" * 84)
+    total = 0
     for r in rows:
         m = f"{r['minutes']:.0f}" if r["minutes"] is not None else "-"
-        print(f"  {r['name'][:44]:44} {r['state']:8} {m:>5} "
+        tk = f"{r['tokens']:,}" if r["tokens"] else "-"
+        total += r["tokens"]
+        print(f"  {r['name'][:40]:40} {r['state']:8} {m:>5} {tk:>8} "
               f"{r['output_kb']:7.0f} {r['notes_kb']:6.1f} {r['tools']:5}")
         if r["detail"]:
             print(f"      {r['detail']}")
+    if total:
+        print(f"  {'':40} {'':8} {'':>5} {total:>8,}  (shown)")
     if hidden:
         print(f"\n  {hidden} closed run(s) hidden — --all to see them")
     blocked = [r for r in rows if r["state"] == "BLOCKED"]

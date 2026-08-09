@@ -65,8 +65,12 @@ to catch — or its clean runs mean nothing.
 
 ## Tools
 
+**Before writing a script, look here first.** `verify-controls.py` was written
+three times by three runs before it was promoted.
+
 | Tool | What it does |
 |---|---|
+| `verify-controls.py` | Plants a defect of the right kind on each triad checker, requires each to reject it *with the expected message*, then runs all three against a candidate. **Use this rather than writing your own**, and rather than reporting the triad green without controls: three checkers exiting 0 is worth exactly what your confidence that they can exit non-zero is worth. |
 | `lint-math.py` | Lints for math-delimiter and Greek-letter slips. Catches stray `$` in prose, which cannot be anything but wrong. |
 | `check-math.js` | Renders every math block through KaTeX. Asks whether it **parses**, not whether it is right. |
 | `check-raw-latex.js` | Mirrors the reader's own `stripStrayFences` and marked config, so it sees the document the reader will see. |

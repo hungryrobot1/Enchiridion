@@ -95,8 +95,13 @@ Anything about the eventual markdown. Recon reads the *source*.
 
 ## Tools
 
+**Before writing a script, look in this directory and in the other stage
+directories.** Tools that were written five times each now live in the pipeline.
+
 | Tool | What it does |
 |---|---|
+| `recon-html.py` | Inventories what an HTML source references and reports which assets are **not on disk**. HTML is the one format that can be incomplete while looking whole: a container either opened or it did not, but a saved page is a manifest plus a hope. Kepler's *Harmonies* reached stage 2 before anyone noticed 31 diagrams were absent. **Run it on any HTML source.** |
+| `check-source-identity.py` | Asks every source file in the corpus what work it claims to be, and compares that with its metadata. Mendel's directory held a life of Schumann for five months; nothing upstream had ever asked a file to identify itself. Seconds, no tokens. |
 | `recon-pdf.py` | Standard reconnaissance battery for a source PDF — page count, text-layer presence and quality, font census, image inventory. The first thing to run on anything new. **A PDF with no text layer at all reports "NO EMBEDDED TEXT LAYER" and routes to OCR**; everything else it prints — heading tiers, page-number clusters, Gutenberg markers — is read from the text layer and is therefore unavailable for a scan. It used to crash with `IndexError` on exactly that case, so the one answer it could not give was the most important one. |
 | `recon-epub.py` | Reads an EPUB for what it already contains: which convention its notation is stored in, how many formulas carry recoverable LaTeX, how many carry only their spoken form, and how many images are real illustrations. `--corpus` sweeps every `.epub` under `texts/`. **Check for the convention, not for one attribute** — looking only for `data-tex` reported "no recoverable notation" for 571 formulas whose LaTeX was in a Wikisource export's alt text. |
 | `survey-corpus.py` | Sorts the whole corpus into complete, awaiting review, and pending, then probes each pending text for extraction candidacy. Corpus-wide rather than per-text; also the tool that surfaces metadata drift. The **review queue leads the report**: those texts already ship and are readable, so they are the only entries a person can act on directly. |

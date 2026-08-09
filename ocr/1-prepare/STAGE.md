@@ -23,7 +23,7 @@ cropped footnote from a cropped body line. We do not have one.
 That the pages kept are the right pages. Splitting to 179–184 verifies only that
 you got six pages, never that they were the six you meant.
 
-## Dup-scan the scan first — a procedure with no tool
+## Dup-scan the scan first — `check-duplicate-leaves.py`
 
 Library scans repeat leaves: a re-shot page, sometimes a whole re-shot
 gathering. Taylor's Proclus Vol. II hid a 16-page re-shot signature, and the
@@ -35,18 +35,39 @@ page's normalised text-layer midsection for exact duplicates, *and*
 fuzzy-compare near offsets — `difflib` ratio > 0.85 at offsets 1–6 and at the
 gathering width, about 16.
 
-No tool implements this; it has been done per text. It is written down here
-because it is the kind of thing that is obvious once and invisible afterwards,
-and because a run that skips it produces a text whose defects look like OCR
-error rather than a duplicated leaf.
+**Use `1-prepare/check-duplicate-leaves.py`. Do not write your own.**
 
-A duplicate probe that reports none is worth a positive control before you
-believe it — compare a page with itself.
+```sh
+ocr/.venv/bin/python3 ocr/1-prepare/check-duplicate-leaves.py PREPARED.pdf \
+    --expected-pages N [--positive-page 3]
+```
+
+It asserts the page count, plants a duplicate and requires the probe to catch it,
+then scans for real. Exit 1 means candidates need visual adjudication — render
+both pages and compare; matching blank leaves are not duplicates.
+
+This section used to say "a procedure with no tool" and describe the method, and
+five runs then wrote it five times, identically. That paragraph cost more than
+the tool would have.
+
+It also told them to control the probe by **comparing a page with itself**, which
+is what every copy did:
+
+```python
+ratio = SequenceMatcher(None, control, control).ratio()   # always 1.0
+```
+
+That cannot fail. It shows the page carries text and says nothing about whether
+duplicates can be found, so five runs reported a positive control that was a
+tautology. The tool now plants a real duplicate in the comparison set and
+requires detection. **A control that cannot fail is not a control** — see the
+README on probes that have never been shown to find anything.
 
 ## Tools
 
 | Tool | What it does |
 |---|---|
+| `check-duplicate-leaves.py` | Probes a prepared scan for repeated leaves, after planting one and proving it can be found. **Use this rather than writing your own.** |
 | `split.py` | Splits a PDF to a page range via `qpdf` and files the result in the text's `source/` directory. Accepts a text-id or a direct path. |
 | `crop-pdf.py` | Crops pages by trimming margins, producing a new PDF. |
 | `crop-footnotes.py` | Crops page-bottom footnote blocks out of a scanned PDF **before** OCR, using font-size separation. Fails when note and body type don't separate — see the README for the fallback. |

@@ -1,0 +1,5 @@
+source pages: 2; kept: 1-2; dropped: none
+prepared pages: 2; crop: none
+positive control page 1 vs itself: exact=True, ratio=1.000
+near-offset page 1 vs page 2: exact=False, ratio=0.004
+prepared file: prepared/watson-crick-molecular-structure-of-nucleic-acids/watson-crick-molecular-structure-of-nucleic-acids-prepared.pdf

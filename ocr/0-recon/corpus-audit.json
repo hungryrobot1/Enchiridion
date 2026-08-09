@@ -159,18 +159,6 @@
  },
  {
   "era": "4-renaissance-scientific-revolution",
-  "id": "montaigne-essays",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 688,
-  "chars_per_page": 4696,
-  "mean_line_len": 96,
-  "images": 2,
-  "img_ratio": 0.0
- },
- {
-  "era": "4-renaissance-scientific-revolution",
   "id": "more-utopia",
   "class": "EXTRACT",
   "note": "",
@@ -468,18 +456,6 @@
   "mean_line_len": 112,
   "images": 2,
   "img_ratio": 0.03
- },
- {
-  "era": "5-newtonian-enlightenment",
-  "id": "newton-opticks",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 127,
-  "chars_per_page": 7130,
-  "mean_line_len": 127,
-  "images": 57,
-  "img_ratio": 0.45
  },
  {
   "era": "5-newtonian-enlightenment",
@@ -890,18 +866,6 @@
   "mean_line_len": 84,
   "images": 672,
   "img_ratio": 2.0
- },
- {
-  "era": "6-nineteenth-century",
-  "id": "mill-on-liberty",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 62,
-  "chars_per_page": 2339,
-  "mean_line_len": 112,
-  "images": 2,
-  "img_ratio": 0.03
  },
  {
   "era": "6-nineteenth-century",
@@ -2098,18 +2062,6 @@
   "mean_line_len": 48,
   "images": 2,
   "img_ratio": 0.15
- },
- {
-  "era": "8-modern-era-ii",
-  "id": "watson-crick-molecular-structure-of-nucleic-acids",
-  "class": "SCAN",
-  "note": "low text density (no usable text layer)",
-  "status": "pending",
-  "pages": 2,
-  "chars_per_page": 843,
-  "mean_line_len": 13,
-  "images": 66,
-  "img_ratio": 33.0
  },
  {
   "era": "8-modern-era-ii",

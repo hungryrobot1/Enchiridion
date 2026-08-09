@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "molecularstructureofDNAswatsoncrick.pdf",
+  "format": "markdown",
+  "filename": "watson-crick-molecular-structure-of-nucleic-acids.md",
   "description": "Introduction of the double helix model of DNA",
   "topics": [
     "biology",
@@ -15,5 +15,5 @@
   ],
   "era": "modern-era-ii",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

@@ -40,6 +40,30 @@ A tool's count also means nothing if the tool cannot *see* the region:
 `reflow-derivations.py` reported 0 candidates while 95 paragraphs sat hidden
 behind that code fence.
 
+## Removing apparatus happens here — the rules are in the README
+
+This is the stage where notes, introductions and editorial matter are separated
+from the text, and the decisions that govern it are **not in this file**. They
+are in [`../README.md`](../README.md) under *Policies → Apparatus*. Read that
+section before classifying anything; it is short, and a run reported hunting for
+it from here.
+
+What it settles, in outline — the README has the reasoning and the precedents:
+
+- **authorial notes stay; editorial notes go**, with their `[N]` markers;
+- **critical variants go**, label and passage together, because the test is
+  *are these words the work?* rather than *are these words the author's?* —
+  but `[Printed text:]` is asymmetric: drop the label, **keep** the passage;
+- **a note you cannot attribute stays**, under a neutral marker, listed for the
+  reviewer. Never invent an attribution;
+- **a translator's interpolation inside a sentence stays**; an editor's label
+  *about* the text goes;
+- where a **signature** decides what stays, verify what it abbreviates first.
+  Colebrooke's `Ch.` is the commentator, not the editor, and a brief that said
+  otherwise would have deleted most of a chapter.
+
+Getting this backwards deletes the author, and nothing downstream can see it.
+
 ## What this stage may repair, and on whose authority
 
 The rule **"never repair a variant you have not seen printed"** belongs to

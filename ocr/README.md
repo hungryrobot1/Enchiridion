@@ -27,6 +27,10 @@ downstream, and the decision belongs to stage 0.
 | **PDF-native** (`extract-pdf.py`) | the PDF has a clean text layer | nothing; deterministic |
 | **OCR** (`ocr.py`, Mistral) | the source is a scan | money, and 3–5% error |
 
+The operative rule, and nothing else you need to choose a track, is the four
+lines at the top of [`2-extract/STAGE.md`](2-extract/STAGE.md). Everything below
+here is why.
+
 ### Ask whether a better source exists — before anything else
 
 A published PDF is often the *output* of a source we could have instead, and

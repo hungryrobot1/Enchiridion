@@ -1,0 +1,17 @@
+{
+  "text_id": "montaigne-essays",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "6f56ade",
+  "session_id": "019fe48c-088e-7851-ad8c-c851e90fff0e",
+  "started": "2026-08-09T03:23:29Z",
+  "finished": "2026-08-09T03:54:14Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-09T03:55:31Z",
+    "target": "texts/4-renaissance-scientific-revolution/montaigne-essays/montaigne-essays.md"
+  }
+}

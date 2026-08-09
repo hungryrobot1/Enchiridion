@@ -1,4 +1,21 @@
-## For the reviewer
+# Opticks — review record
+
+What is known about this text as a text: where it came from, what can check it, and what is doubtful. Generated at adoption from the processing run, then maintained by whoever reviews it.
+
+**Status is a claim about process, not about correctness.** `needs-review` means machine-processed and unread. `complete` means a person performed the review below and judged the text shippable — not that it is free of errors. Every text is an ongoing project.
+
+## Provenance
+
+- Source file: `newton-opticks.md`
+- Translator: —
+- Processed by run [`ocr/runs/newton-opticks`](../../../ocr/runs/newton-opticks) (gpt-5.6-sol, 2026-08-09)
+- Full processing notes: [`ocr/runs/newton-opticks/NOTES.md`](../../../ocr/runs/newton-opticks/NOTES.md)
+
+## What the processing run found
+
+Copied from the run's notes at adoption. These are the text's open questions, not the pipeline's.
+
+### For the reviewer
 
 This proposal is the complete authorial work in the supplied fourth-edition
 Gutenberg witness: Newton's three signed advertisements, all three Books, and
@@ -61,7 +78,7 @@ caption, retained page, final section, reference target, and final file bytes.
 It passes all 57 mappings. The apparently reversed Book I Part I Fig. 20/Fig. 19
 order is the source order and was retained.
 
-## Witness and route
+### Witness and route
 
 `source/pg33504-images-3.epub` contains five numbered XHTML content files and
 57 JPEG illustrations. Recon found no MathML and no image-carried LaTeX; every
@@ -75,7 +92,7 @@ were then used as same-transcription fidelity witnesses—continuous XHTML for
 structure and image assets, the PDF rendering for glyph inspection, and the PDF
 text layer for page-aligned prose comparison.
 
-## Preparation and extraction completeness
+### Preparation and extraction completeness
 
 `prepare_newton_opticks.py` asserts a 127-page source, identifies Gutenberg
 packaging by boundary text, and retains source PDF pages 3–121 inclusive: 119
@@ -108,7 +125,7 @@ Newton's three advertisements, Queries 1–31 in order, absence of Gutenberg end
 packaging, and all 57 final figures. Stage 2's mechanical completeness premise
 is satisfied; it is not a correctness claim.
 
-## Post-processing and repairs
+### Post-processing and repairs
 
 `build_newton_opticks.py` is the sole derivation from `source/raw.md` to the
 proposal. It hashes the raw OCR, prepared PDF, and EPUB before acting. It:
@@ -129,7 +146,7 @@ proposal. It hashes the raw OCR, prepared PDF, and EPUB before acting. It:
 The shared dry runs reported zero entity decodes, zero wrap-hyphen joins, zero
 bare page-number lines, and zero in-page navigation artifacts.
 
-## Verification
+### Verification
 
 `verify-controls.py` first made every triad checker reject its planted defect,
 then ran the proposal. Result: green—`lint-math` found zero issues,
@@ -155,19 +172,7 @@ No `toc.json` was written, and `source/metadata.json` remains unchanged with
 `ocr_status: pending`. Adoption—not this run—sets the proposed text to
 `needs-review`.
 
-## Time and limits
-
-The slow work was not OCR cleanup syntax. It was page-aligned comparison of a
-100,000-word text, separating real omissions from PDF table-reading-order
-noise, and visually proving figure and notation mappings. That intricacy is
-inherent. More avoidable time went to rediscovering the duplicate scanner,
-building a false self-match control from the then-current instructions, and
-then rerunning the corrected shared tool.
-
-No full human page-by-page proofreading against an independent 1730 print was
-possible. The proposal is machine-checked and bounded for review, not complete.
-
-## Where this was harder than it needed to be
+### Where this was harder than it needed to be
 
 The route-selection warning is repeated across the overview and stage contracts
 at much greater length than the operative rule. I had to reread the EPUB/PDF
@@ -201,3 +206,18 @@ belong to the work; the A–M *Lectiones Opticæ* notes, which call him “our A
 do not. I also treated `year_written: 1704` as the work's original publication
 date rather than silently replacing it with the supplied fourth edition's 1730
 date, because the schema exposes no edition-year field.
+
+## Review
+
+The pass that sets `complete`: read the run's escalations and notes to learn what the processing actually encountered, then read the text in the rendered reader, comparing against the source where something looks wrong. Not a full proofread — a judgement about whether it is shippable.
+
+- [ ] Escalations and notes read
+- [ ] Rendered in the reader; structure, headings and contents look right
+- [ ] Spot-checked against the source where the notes flagged doubt
+- [ ] Remaining known issues recorded below
+
+<!-- review log — hand-written, never regenerated -->
+
+## Review log
+
+Observations, questions and decisions from reading this text. Everything below the marker above belongs to the reviewer and is never regenerated, so append freely — re-adopting the run rewrites only what is above it.

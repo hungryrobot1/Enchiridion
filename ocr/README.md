@@ -201,6 +201,56 @@ Getting this backwards deletes the author, so it is worth a question rather than
 a guess. The apparatus is not destroyed — it remains in the source PDF and in the
 raw extract under `source/`.
 
+#### Critical variants: the author's words, and still not the work
+
+A critical edition prints rejected readings — deleted passages, earlier drafts,
+manuscript variants — usually under an editorial label. **These come out, label
+and passage together.**
+
+The test is not *are these words the author's?* but **are these words the
+work?** Copernicus's deleted drafts in the autograph are his, and they are still
+not *De revolutionibus*; they are the edition's scholarship about how the book
+came to be. Skeat prints a band of manuscript collation under every page of
+Chaucer, and 1,241 of those blocks were dropped for the same reason.
+
+This also fixes what the bracket rule is really about — **whose act of writing
+the bracket represents.** A translator's interpolation inside a sentence is part
+of rendering this text into English, and stays. An editor's label announcing a
+variant is a statement *about* the text, and goes.
+
+Two traps, both met on Copernicus:
+
+- **Some labels are asymmetric.** `[Printed text:]` and `[Printed version:]`
+  introduce the *received* reading. Remove the label and **keep** the passage;
+  removing both deletes the work.
+- **Prose labels have no closing delimiter.** "Here Copernicus originally
+  planned to include … which he later deleted" runs until it stops, and if the
+  cut overshoots it eats the author invisibly — what follows a deleted passage
+  is also his prose, so the result reads fine and passes every check. Adjudicate
+  each one against the rendered page and record the first words kept after the
+  cut.
+
+Assert the counts by label form, and give a before/after census of *all*
+bracketed spans with the difference accounted for exactly. That subtraction is
+what proves no ordinary interpolation was swept up with the apparatus.
+
+#### Unattributable notes: mark them, never guess
+
+When a note cannot be confidently assigned to the author or to the editor,
+**retain it under a neutral marker and list it for the reviewer.** Do not invent
+an attribution: a wrong one is invisible to every check we have and misleads a
+reader about who is speaking.
+
+This arrived on Brahmagupta — four notes signed `Ib.`, `Cn.` and `Gan.` where
+the rest were `Ch.` — and transferred unchanged to Kepler, where 10 of 20 notes
+were unsigned. Both runs kept the doubtful ones visible rather than resolving
+them by guess, and both told a reviewer exactly which ones to look at.
+
+Related: `Ch.` in Colebrooke's Brahmagupta abbreviates *Chaturvéda*, the
+commentator — not Colebrooke. A brief once said the reverse, and following it
+would have deleted most of chapter XII. Where signatures decide what stays,
+verify what the signature expands to before acting on it.
+
 ### Bilingual editions: keep the original only where the curriculum teaches it
 
 Many nineteenth-century editions print the original beside the translation.

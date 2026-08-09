@@ -6,8 +6,8 @@
   "year_translated": 1843,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "pg75107-images-3.pdf",
+  "format": "markdown",
+  "filename": "lovelace-sketch-of-the-analytical-engine.md",
   "description": "First published algorithm and vision of general-purpose computing",
   "topics": [
     "computation",
@@ -15,5 +15,5 @@
   ],
   "era": "modern-era-i",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

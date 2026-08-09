@@ -96,28 +96,6 @@ analytique…"* — a French title. Menabrea published in French, in the
 *Bibliothèque Universelle de Genève*, 1842. `metadata.json` says French and is
 right; leave it. Flagged only so nobody "corrects" it in the wrong direction.
 
-## Corrections, 2026-08-09 — made by the run, against this brief
-
-**The file-by-file disposition table above is too coarse, and the run was right
-to override it.** It says "file 1 — keep", full stop. File 1 also contains an
-explicitly *signed editor block*, which is apparatus and was removed. The
-disposition column describes where the work predominantly lives; it does not
-license keeping every byte of a file. Judge apparatus by what a passage is, not
-by which file it landed in.
-
-**Two of the "not settled" items below resolved, both against my expectation.**
-The wide-table question was answered upstream: source HTML with spans is kept
-(see the ruling in `ocr/runs/…/escalations/`). And the "diagram at the end of
-these Notes" is not an image at all — it is those XHTML tables, built partly
-from formula SVGs. I had filed it as an image-inventory question, which is what
-kept it looking unresolved until late.
-
-**A trap this brief should have caught and did not:** nothing in recon reports
-`rowspan` or `colspan`, and the generic extractor emitted a clean headline
-*after* silently discarding the spans on 13 tables. The most important object in
-the work was one green check away from being deleted. Table geometry is cheapest
-to inspect at recon and should be inspected there.
-
 ## Not settled — escalate early if these bite
 
 - **How wide Note G's table can be** before the reader mangles it. This is the

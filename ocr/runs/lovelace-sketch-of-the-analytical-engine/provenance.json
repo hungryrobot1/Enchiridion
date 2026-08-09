@@ -1,0 +1,17 @@
+{
+  "text_id": "lovelace-sketch-of-the-analytical-engine",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9bae416",
+  "session_id": "019fe8ae-f6ab-7393-b387-8623ba1024b3",
+  "started": "2026-08-09T22:40:08Z",
+  "finished": "2026-08-09T22:46:07Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-09T23:10:33Z",
+    "target": "texts/7-modern-era-i/lovelace-sketch-of-the-analytical-engine/lovelace-sketch-of-the-analytical-engine.md"
+  }
+}

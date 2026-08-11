@@ -230,18 +230,6 @@
   "img_ratio": 2.0
  },
  {
-  "era": "4-renaissance-scientific-revolution",
-  "id": "spinoza-ethics",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 113,
-  "chars_per_page": 4922,
-  "mean_line_len": 104,
-  "images": 2,
-  "img_ratio": 0.02
- },
- {
   "era": "5-newtonian-enlightenment",
   "id": "bayes-essay-towards-solving-a-problem-in-doctrine-of-chances",
   "class": "SCAN",
@@ -384,18 +372,6 @@
   "mean_line_len": 64,
   "images": 1,
   "img_ratio": 0.0
- },
- {
-  "era": "5-newtonian-enlightenment",
-  "id": "lavoisier-elements-of-chemistry",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 257,
-  "chars_per_page": 2584,
-  "mean_line_len": 45,
-  "images": 54,
-  "img_ratio": 0.21
  },
  {
   "era": "5-newtonian-enlightenment",
@@ -600,18 +576,6 @@
   "mean_line_len": 20,
   "images": 42,
   "img_ratio": 2.0
- },
- {
-  "era": "6-nineteenth-century",
-  "id": "darwin-origin-of-species",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 192,
-  "chars_per_page": 6605,
-  "mean_line_len": 117,
-  "images": 2,
-  "img_ratio": 0.01
  },
  {
   "era": "6-nineteenth-century",
@@ -890,13 +854,6 @@
   "mean_line_len": 115,
   "images": 9,
   "img_ratio": 0.07
- },
- {
-  "era": "6-nineteenth-century",
-  "id": "riemann-on-the-hypotheses-which-lie-at-the-bases-of-geometry",
-  "class": "NON-PDF",
-  "note": "source format: html",
-  "status": "pending"
  },
  {
   "era": "6-nineteenth-century",
@@ -1304,18 +1261,6 @@
   "chars_per_page": 6383,
   "mean_line_len": 114,
   "images": 4,
-  "img_ratio": 0.04
- },
- {
-  "era": "7-modern-era-i",
-  "id": "lovelace-sketch-of-the-analytical-engine",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 56,
-  "chars_per_page": 5559,
-  "mean_line_len": 62,
-  "images": 2,
   "img_ratio": 0.04
  },
  {

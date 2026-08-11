@@ -19,5 +19,6 @@
   "prerequisites": [
     "kepler-astronomia-novia-latin"
   ],
-  "ocr_status": "needs-review"
+  "ocr_status": "needs-review",
+  "rights": "Public domain — determined by the project owner, 2026-08-10. Wallis's translations (Copernicus, On the Revolutions of the Heavenly Spheres; Kepler, Epitome of Copernican Astronomy and Harmonies of the World), as carried by Great Books of the Western World and reprinted in facsimile by Prometheus in 1995, are in the public domain. Basis is the owner's determination; the underlying renewal record is not filed here. If that record is ever located, attach it — it would settle this permanently."
 }

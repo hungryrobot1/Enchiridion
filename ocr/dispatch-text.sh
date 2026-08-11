@@ -48,6 +48,21 @@ if [ -x "$ROOT/ocr/.venv/bin/python3" ]; then
   fi
 fi
 
+# Sourcing and rights are different questions, and only the first was ever asked
+# before dispatch. Gödel's run spent 148k tokens preparing a translation we may
+# not publish -- knowable in a second, from the metadata, for nothing. Like the
+# identity check this WARNS and never refuses: a flag is usually an unanswered
+# question rather than a no, and only a person can settle it.
+if [ -x "$ROOT/ocr/.venv/bin/python3" ]; then
+  RIGHTS="$("$ROOT/ocr/.venv/bin/python3" "$ROOT/ocr/0-recon/check-rights.py" "$TEXT_ID" 2>/dev/null \
+             | grep -A1 -- "$TEXT_ID" || true)"
+  if [ -n "$RIGHTS" ]; then
+    echo "  ⚠ rights unverified — settle this before the run, not after:" >&2
+    printf '%s\n' "$RIGHTS" >&2
+    echo "    (write the answer into metadata.json's \`rights\` field so it is asked once)" >&2
+  fi
+fi
+
 # RUN_LABEL keeps a second run of the same text beside the first instead of on
 # top of it. Re-running a text after changing its inputs is the whole method
 # here, and two runs cannot be compared if the first is only recoverable from

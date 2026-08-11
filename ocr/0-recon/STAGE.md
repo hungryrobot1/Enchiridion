@@ -80,6 +80,62 @@ When you find one: write down what distinguishes it, and say
 plainly what it does and does not establish. An unrecorded discovery has to be
 made again.
 
+### Do not expect the conventions to close
+
+A fourth turned up on 2026-08-10, and it is the one that sets expectations for
+the rest. Riemann's lecture came from Trinity College Dublin's HistMath pages:
+
+    <img src="flatmet.gif" alt="\sqrt{ \sum (dx)^2 }">
+
+No `data-tex`, no `mwe-math` class, no marker of any kind — a person hand-wrote
+the alt text as the formula. `read_notation` returned None for all six, because
+both existing conventions key on a marker. So `bare-alt` asks instead whether
+the string IS a formula, and that is the shape future cases will need too.
+
+**The working assumption is now that this stays cat-and-mouse.** A source landing
+cleanly in a named convention like `data-tex` is the lucky case, not the base
+case, even where a producer's house style would lead you to expect one. Two
+consequences, both practical:
+
+- **Do not build toward a complete catalogue of conventions.** The tail is heavy
+  and hand-built pages have no house style to catalogue. Prefer a content test
+  that degrades into "here is what looks like notation, you judge" over another
+  marker lookup that is certain and narrow.
+- **Per-source detective work is the expected cost, not a failure.** Budget a
+  look at the raw markup for every text carrying notation. The tools narrow where
+  to look; they do not replace looking.
+
+## Planned: the report should be shaped by the decision it feeds
+
+Not built yet. Recorded here so it is not re-derived.
+
+Recon currently reports an *inventory* — counts of things found. The decisions
+downstream need a different shape, and three misses in one wave came from facts
+that were present in the source and absent from the headline: notation in
+`alt`/`data-tex` twice, `rowspan`/`colspan` once, and "52 illustrations"
+concealing 26 thumbnail/original pairs. Lavoisier's near-miss was a producer
+string (`calibre 9.5.0`) that no report printed.
+
+So organise the report by **the decision each fact feeds**, not by stage — recon
+serves preparation at least as much as extraction, and a report shaped only
+around stage 2's routing rule would drop the stage-1 facts that are most of the
+work:
+
+1. **What is this** — identity, edition, translator (`check-source-identity.py`).
+2. **What comes out before anything else** → stage 1: boundaries, front and back
+   matter, apparatus, duplicate leaves, crop geometry, thumbnail-versus-original
+   plate pairs.
+3. **How should it be read** → stage 2: structured source present and where; text
+   layer born-digital / scanned / none, **with the producer string**; notation
+   present, recoverable, by which convention.
+4. **What plain Markdown cannot say** → stage 3 and the reader: table spans,
+   multi-column, verse, bilingual.
+
+The point is that the route should be *read off* the report rather than
+re-derived from four prose documents. Keep it to a headline plus a schema
+summary (element/attribute histogram with counts — tens of lines, not a dump),
+with the full manifest behind a flag.
+
 ## Acceptance test
 
 **None, and there cannot be one.** Recon's output is a judgment about a document,

@@ -29,6 +29,10 @@ from pathlib import Path
 
 import pymupdf
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from route import Facts, decide, render  # noqa: E402
+
 ROMAN_RE = re.compile(r"^[IVXLCDM]+\.?$")
 ARABIC_RE = re.compile(r"^\d{1,3}\.?$")
 PG_RE = re.compile(r"\*\*\* ?(START|END) OF THE PROJECT GUTENBERG", re.I)
@@ -119,12 +123,10 @@ def main() -> int:
         print("\nfont histogram (chars): (none)")
         print("body size: N/A — NO EMBEDDED TEXT LAYER")
         print(f"chars/page: 0   mean line length: 0")
-        print("\n*** This PDF carries no extractable text. It is a scan.")
-        print("*** Route: OCR (ocr/2-extract/ocr.py). PDF-native extraction")
-        print("*** and the source-native track do not apply; heading tiers,")
-        print("*** page-number clusters and Gutenberg markers cannot be")
-        print("*** reported, because all of them are read from the text layer.")
         print(f"\nimages: {len(xrefs)} unique (ratio {img_ratio:.2f}/page)")
+        print("\nheading tiers, page-number clusters and Gutenberg markers are")
+        print("unavailable: every one of them is read from the text layer.\n")
+        print(render(decide(Facts(text_layer="none", producer=producer))))
         return 0
 
     body = sizes.most_common(1)[0][0]
@@ -183,20 +185,18 @@ def main() -> int:
     ocr_producer = any(k in producer.upper() for k in ("ABBYY", "FINEREADER", "LURATECH", "TESSERACT"))
     mostly_scanned = full_page >= max(1, len(sample) * 0.8)
     if mostly_scanned or (ocr_producer and img_ratio >= 0.9):
-        print("\n*** SCAN WITH AN EMBEDDED OCR LAYER.")
-        print("*** Nearly every page carries a full-page raster, so the text layer")
-        print("*** was produced by OCR over photographs rather than typeset.")
-        print("*** It is NOT a PDF-native source: its characters are guesses, and")
-        print("*** its errors are already in the file. Judge the layer before")
-        print("*** trusting it — render a page and compare it against the text.")
-        print("*** Route: usually OCR, which is run BY HAND (see 2-extract/STAGE.md).")
-        print("*** The page images are a real printed witness, so stage 4 applies.")
+        layer = "ocr-layer"
     elif ocr_producer:
-        print("\n*** Producer is OCR software but the pages are not mostly rasters.")
-        print("*** Likely a RECONSTRUCTION: re-typeset OCR output with no page")
-        print("*** images. Extractable, but it is its own only witness — nothing")
-        print("*** can check it, and re-OCRing it only re-reads the reconstruction.")
-        print("*** Route: extract, state the ceiling, and expect needs-review.")
+        layer = "reconstruction"
+    else:
+        layer = "born-digital"
+
+    print()
+    print(render(decide(Facts(text_layer=layer, producer=producer))))
+    if layer == "ocr-layer":
+        print("\n  note            OCR here is run BY HAND — see 2-extract/STAGE.md.")
+        print("                  The page images are a real printed witness, so")
+        print("                  stage 4 applies to this text.")
     return 0
 
 

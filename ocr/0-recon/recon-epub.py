@@ -71,6 +71,7 @@ from pathlib import Path
 # shared with 2-extract/extract-epub.py rather than copied -- see that module.
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from epub_notation import read_notation  # noqa: E402
+from route import Facts, decide, render  # noqa: E402
 
 IMG_RE = re.compile(r"<img\b[^>]*>", re.I)
 SRC_RE = re.compile(r'src="([^"]*)"')
@@ -163,47 +164,38 @@ def report(s: Survey) -> None:
         for t in s.samples:
             print(f"    {t}")
 
+    # The route is a computed verdict now rather than prose the reader
+    # assembles. It used to be four branches of `***` lines here, and one of
+    # them was wrong: any EPUB whose images carried no notation was sent to OCR,
+    # on the reasoning that they might be pictures of formulas. Huygens'
+    # Treatise on Light is 53 geometric diagrams and prose, and the run had to
+    # read the surrounding argument and every image to establish that the
+    # headline did not fit. `route.decide` returns UNDETERMINED there instead,
+    # which is the true answer: nothing we compute tells a diagram from an
+    # equation.
     print()
-    if s.with_tex:
-        pct = 100.0 * s.with_tex / s.images if s.images else 0
-        print(f"*** NOTATION IS ALREADY LATEX: {s.with_tex} formulas, {pct:.0f}% of images.")
-        print("*** Do NOT route this through convert-epub-to-pdf.sh and OCR. That")
-        print("*** renders these strings to pixels so OCR can read them back as")
-        print("*** strings, and OCR's error rate is added on top of the")
-        print("*** transcriber's, which is in both routes either way.")
-        print("*** Route: extract from the source, reading the convention above.")
-        if "mediawiki-alt" in s.conventions:
-            print("*** MediaWiki names display vs inline in the class attribute —")
-            print("*** use it; it is the producer's own statement, not a guess.")
-        if "data-tex" in s.conventions:
-            print("*** For data-tex the display/inline split above is a HEIGHT")
-            print("*** HEURISTIC. Decide it from the typesetting, not from that.")
-        print("*** Still not a printed witness: it is a transcription either way,")
-        print("*** so stage 4 wants the page. Agreement between the stored LaTeX")
-        print("*** and an OCR of the image it produced proves nothing.")
-    elif s.mathml:
-        print(f"*** NOTATION IS MATHML: {s.mathml} elements, convertible without OCR.")
-        print("*** Route: extract from the source; MathML → LaTeX is mechanical.")
-    elif s.verbalized:
-        print(f"*** NOTATION IS MARKED UP BUT NOT RECOVERABLE: {s.verbalized} formulas")
-        print("*** carry only their SPOKEN form in a title attribute. That is a")
-        print("*** description produced for the formula, not the string it was set")
-        print("*** from, and it is ambiguous as soon as an expression nests.")
-        print("*** Route: convert-epub-to-pdf.sh, then OCR — as usual.")
-        print("*** Worth keeping anyway: the spoken forms are a cheap way to FLAG")
-        print("*** disagreements with the OCR output for a human to look at. They")
-        print("*** cannot settle one, since both descend from the same transcription.")
-    elif s.images:
-        print("*** Images carry NO recoverable notation.")
-        print("*** If any of them are formulas, they are pictures of formulas and")
-        print("*** only OCR can read them — which is what the PDF route is for.")
-        print("*** Route: convert-epub-to-pdf.sh, then OCR.")
-        print("*** Whichever route: a text-only conversion DROPS these images")
-        print("*** silently. Losing an illustration is visible; losing a formula")
-        print("*** leaves fluent prose with holes in it.")
-    else:
-        print("*** No images at all: prose. Extract from the source directly;")
-        print("*** the PDF round trip buys nothing and costs an OCR pass.")
+    print(render(decide(Facts(
+        structured="epub",
+        notation=(s.conventions.most_common(1)[0][0] if s.conventions
+                  else ("mathml" if s.mathml else None)),
+        notation_count=s.with_tex + s.mathml,
+        unrecoverable_count=s.verbalized,
+        plain_images=sum(s.illustrations.values()),
+    ))))
+
+    # These are about HOW to extract, not about which route, so they sit beside
+    # the verdict rather than inside it.
+    if "mediawiki-alt" in s.conventions:
+        print("\n  note            MediaWiki names display vs inline in the class")
+        print("                  attribute — use it. It is the producer's own")
+        print("                  statement, not a guess.")
+    if "data-tex" in s.conventions:
+        print("\n  note            for data-tex the display/inline split above is a")
+        print("                  HEIGHT HEURISTIC, and it is wrong often enough to")
+        print("                  matter: Hilbert's run found 15 wrong display")
+        print("                  decisions sitting behind a clean 248/248 count and")
+        print("                  a green renderer. Decide display from the")
+        print("                  typesetting context instead.")
 
 
 def corpus_sweep(root: Path) -> int:

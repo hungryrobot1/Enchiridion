@@ -42,6 +42,7 @@ from urllib.parse import unquote, urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from epub_notation import read_notation  # noqa: E402
+from route import Facts, decide, render  # noqa: E402
 
 # src/href on the tags that pull in content, not the ones that merely link out.
 ASSET = re.compile(
@@ -169,9 +170,17 @@ def main() -> int:
         print(f"      e.g. {found[0][:70]!r}")
     if illustrations:
         print(f"    {'illustration':<15} {illustrations:>5}  carries no notation")
-    if conventions and any(c != "mathspeak-title" for c in conventions):
-        print("    ROUTE: source-native. The LaTeX is already in this file — "
-              "rendering it to pixels for OCR to read back would be a pure loss.")
+    recoverable = {c: v for c, v in conventions.items() if c != "mathspeak-title"}
+    print()
+    print(render(decide(Facts(
+        structured="html",
+        notation=(next(iter(recoverable)) if recoverable
+                  else ("mathspeak-title" if conventions else None)),
+        notation_count=sum(len(v) for v in recoverable.values()),
+        unrecoverable_count=sum(len(v) for c, v in conventions.items()
+                                if c == "mathspeak-title"),
+        plain_images=illustrations,
+    ))))
 
     if args.urls:
         for ref in order:

@@ -67,7 +67,19 @@ from PIL import Image
 MD_IMG = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
 HTML_IMG = re.compile(r"<img[^>]*?\bsrc\s*=\s*[\"']([^\"']+)", re.I)
 # "Fig. 2", "Figure 12", "PLATE IV" — the prose's own claim that a figure exists.
-FIG_REF = re.compile(r"\b(fig(?:ure)?|plate)\.?\s*([0-9]{1,3}|[IVXLC]{1,6})\b", re.I)
+# Editions invent their own word for this: Hooke's Micrographia numbers plates
+# `Schem. I`, and a text whose label is not below is a text whose sequence goes
+# unchecked in silence. Hence --label, and hence the RESULT block saying out
+# loud when no sequence was found.
+DEFAULT_LABELS = ("fig(?:ure)?", "plate")
+
+
+def build_fig_ref(labels: tuple[str, ...] = DEFAULT_LABELS) -> re.Pattern:
+    alt = "|".join(labels)
+    return re.compile(rf"\b({alt})\.?\s*([0-9]{{1,3}}|[IVXLC]{{1,6}})\b", re.I)
+
+
+FIG_REF = build_fig_ref()
 
 # Below this many distinct numbers, a "sequence" is coincidence rather than a
 # numbering scheme, and its gaps mean nothing.
@@ -171,7 +183,7 @@ def _from_roman(s: str) -> int | None:
     return total if total and _to_roman(total) == s else None
 
 
-def figure_sequence(text: str) -> list[dict]:
+def figure_sequence(text: str, pat: re.Pattern | None = None) -> list[dict]:
     """The printed numbering, as a sequence, with its GAPS.
 
     THIS IS THE ONLY WITNESS HERE THAT THE PIPELINE DID NOT WRITE. Every other
@@ -190,10 +202,11 @@ def figure_sequence(text: str) -> list[dict]:
     A gap is a FINDING FOR A PERSON, never a failure: an edition may skip a
     number, and a figure may be printed without being named in the prose.
     """
+    pat = pat or FIG_REF
     groups: dict[tuple[str, str], Counter] = defaultdict(Counter)
-    for m in FIG_REF.finditer(text):
+    for m in pat.finditer(text):
         word, token = m.group(1).lower(), m.group(2)
-        kind = "plate" if word.startswith("plate") else "figure"
+        kind = word.rstrip(".") or "figure"
         if token.isdigit():
             groups[(kind, "arabic")][int(token)] += 1
         else:
@@ -216,7 +229,8 @@ def figure_sequence(text: str) -> list[dict]:
     return sorted(out, key=lambda s: -s["distinct"])
 
 
-def audit(md: Path | None, images: Path | None, source: Path | None) -> dict:
+def audit(md: Path | None, images: Path | None, source: Path | None,
+          pat: re.Pattern | None = None) -> dict:
     text = md.read_text(encoding="utf-8", errors="replace") if md else ""
 
     # The comparison is by BASENAME, both sides. Gilbert's run could not tell
@@ -248,7 +262,8 @@ def audit(md: Path | None, images: Path | None, source: Path | None) -> dict:
             in_source = {Path(n).name for n in z.namelist()
                          if Path(n).suffix.lower() in (".png", ".jpg", ".jpeg", ".gif")}
 
-    sequences = figure_sequence(text)
+    pat = pat or FIG_REF
+    sequences = figure_sequence(text, pat)
 
     # What this run was actually able to check. "No findings" is a claim about
     # the witnesses you had, and the verdict has to say which those were.
@@ -269,7 +284,7 @@ def audit(md: Path | None, images: Path | None, source: Path | None) -> dict:
         "orphans": sorted(names - set(ref_counts)) if md else [],
         "duplicates": [v for v in by_sha.values() if len(v) > 1],
         "pairs": find_pairs(facts),
-        "fig_refs": {m.group(2).upper() for m in FIG_REF.finditer(text)},
+        "fig_refs": {m.group(2).upper() for m in pat.finditer(text)},
         "sequences": sequences,
         "in_source": in_source,
         "witnesses": witnesses,
@@ -506,6 +521,17 @@ def self_test(tmp: Path) -> int:
          len(figure_sequence("Fig. 1 Fig. 2 Fig. 3 Plate 7 Plate 8 Plate 9")) == 2),
     ]
 
+    # An edition's own word for a figure. Micrographia numbers plates `Schem. I`
+    # and would otherwise be audited against a sequence of nothing, silently.
+    schem = "Schem. I. Schem. II. Schem. IV. Schem. V."
+    checks += [
+        ("NEGATIVE: an unknown label finds no sequence at all",
+         figure_sequence(schem) == []),
+        ("--label finds it, and its gap",
+         figure_sequence(schem, build_fig_ref(DEFAULT_LABELS + ("schem",)))[0]
+         ["missing"] == [3]),
+    ]
+
     # A basename collision must be visible, since both sides compare on it.
     coll_md = tmp / "coll.md"
     coll_md.write_text("![](a/fig1.png) and ![](b/fig1.png)\n")
@@ -531,6 +557,10 @@ def main() -> int:
     ap.add_argument("--source", type=Path,
                     help="the .epub or .zip, to find images that never made it out")
     ap.add_argument("--all", action="store_true", help="list every image")
+    ap.add_argument("--label", action="append", metavar="WORD",
+                    help="the edition's word for a numbered figure, if it is "
+                         "not fig/figure/plate — e.g. --label schem for "
+                         "Micrographia. Repeatable.")
     ap.add_argument("--self-test", action="store_true")
     args = ap.parse_args()
 
@@ -545,8 +575,11 @@ def main() -> int:
         ap.error("give a markdown file, or --source, or --images "
                  "(or --self-test)")
 
+    pat = build_fig_ref(DEFAULT_LABELS + tuple(re.escape(w) for w in args.label)) \
+        if args.label else FIG_REF
+
     print(f"  text                  {args.markdown.name if args.markdown else '— (none given)'}")
-    return report(audit(args.markdown, args.images, args.source), args.all)
+    return report(audit(args.markdown, args.images, args.source, pat), args.all)
 
 
 if __name__ == "__main__":

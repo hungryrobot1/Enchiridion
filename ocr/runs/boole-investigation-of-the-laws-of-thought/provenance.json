@@ -1,0 +1,26 @@
+{
+  "text_id": "boole-investigation-of-the-laws-of-thought",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9444887",
+  "session_id": "019ff3d6-000a-74b1-838a-88cf65bd8219",
+  "started": "2026-08-12T02:38:35Z",
+  "finished": "2026-08-12T02:42:04Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-12T03:51:19Z",
+      "finished": "2026-08-12T04:06:52Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T04:35:39Z",
+    "target": "texts/6-nineteenth-century/boole-investigation-of-the-laws-of-thought/boole-investigation-of-the-laws-of-thought.md"
+  }
+}

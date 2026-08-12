@@ -6,8 +6,8 @@
   "year_translated": 1912,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "pg14725-images-3.pdf",
+  "format": "markdown",
+  "filename": "huygens-treatise-on-light.md",
   "description": "Wave theory of light and the principle that bears Huygens' name",
   "topics": [
     "physics",
@@ -15,5 +15,5 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

@@ -1,0 +1,14 @@
+/Users/zacharygrunenberg/Projects/Enchiridion/ocr/runs/huygens-treatise-on-light/workspace/huygens-raw.md: 39,312 words, 0 formulas recovered
+
+--- notation ---
+  display: 0   inline: 0
+  illustrations: 64
+
+--- anomalies ---
+  none found across 0 formulas
+  (a clean sweep is not proof: these checks catch damage that is visible
+   in the string, not a formula faithfully carrying a transcriber's error)
+wrote huygens-treatise-on-light.md: 36,758 words
+retained 62 byte-identical EPUB images: 53 diagrams + 9 typographic images
+removed 2 translator-note images; excluded 1 unreferenced cover
+applied 4 source-internal repairs

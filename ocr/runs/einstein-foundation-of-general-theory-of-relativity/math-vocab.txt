@@ -1,0 +1,69 @@
+==============================================================================
+CENSUS
+==============================================================================
+text                                 spans  cmd uses  distinct
+                                       571     3,710        49
+
+==============================================================================
+SLOT ANALYSIS — contexts where transcription is inconsistent
+==============================================================================
+FLAT: one mark written many ways — the slot is an error family.
+STRAYS: one command owns the slot; the rest are misreads of it.
+
+------------------------------------------------------------------------------
+FLAT — candidate shattered glyphs
+------------------------------------------------------------------------------
+(none)
+
+------------------------------------------------------------------------------
+STRAYS — a dominant command with trespassers (the fix is implied)
+------------------------------------------------------------------------------
+(none)
+
+==============================================================================
+SYNONYM SPREAD — one notion, several spellings
+==============================================================================
+---  ---
+    upright text      \text=1  \mathrm=11
+
+==============================================================================
+RARE TAIL — commands used 2x or fewer in a text
+==============================================================================
+---  (14 of 49 distinct)
+    \pm(1), \text(1), \w(1), \Phi(1), \R(1), \S(1), \H(1), \equiv(1), \dx(1), \varepsilon(1), \T(2), \A(2), \g(2), \infty(2)
+
+==============================================================================
+FOREIGN SCRIPT IN MATH — near-certain misreads
+==============================================================================
+  : 14 math span(s) over 300 chars — unbalanced delimiters, not examined here (see lint-math)
+(no foreign script in well-formed spans)
+
+==============================================================================
+KIND STRAYS — a singleton beside a dominant command of the same kind
+==============================================================================
+(none)
+
+==============================================================================
+CONFUSABLE LETTERS — a Latin letter beside its Greek lookalike
+==============================================================================
+--- : BOTH IN ONE FORMULA (strongest signal)
+    t/tau        line 1185   § E. § 21. Newton's Theory as a First Approximation.
+        {\frac {d^{2}x_{\tau }}{dt^{2}}}=\Gamma _{44}^{\tau }
+    t/tau        line 1189   § E. § 21. Newton's Theory as a First Approximation.
+        {\begin{array}{l}{\frac {d^{2}x_{\tau }}{dt^{2}}}=\left[{44 \atop \tau }
+    t/tau        line 1195   § E. § 21. Newton's Theory as a First Approximation.
+        {\frac {d^{2}x_{\tau }}{dt^{2}}}=-{\frac {1}{2}}{\frac {\partial g_{44}}
+    x/chi        line 495    § § 10. Formation of Tensors through Differentiation.
+        \chi ={\frac {\partial ^{2}\varphi }{\partial x_{\mu }\partial x_{\nu }}
+    x/chi        line 499    § § 10. Formation of Tensors through Differentiation.
+        \chi =\left\{{\frac {\partial ^{2}\varphi }{\partial x_{\mu }\partial x_
+--- : both present in one section
+    t/tau        latin 4     greek 6     § E. § 21. Newton's Theory as a First Approximation.
+    x/chi        latin 23    greek 3     § § 10. Formation of Tensors through Differentiation.
+    t/tau        latin 2     greek 4     § § 20. Maxwell's Electro-Magnetic field-equations for the
+    a/alpha      latin 1     greek 20    § § 15. Hamiltonian Function for the Gravitation-field. La
+    t/tau        latin 8     greek 1     § § 15. Hamiltonian Function for the Gravitation-field. La
+    v/nu         latin 1     greek 7     § E. § 21. Newton's Theory as a First Approximation.
+    a/alpha      latin 1     greek 9     § § 22. Behaviour of measuring rods and clocks in a static
+    VERDICT: ______   PAGE READ: ______
+

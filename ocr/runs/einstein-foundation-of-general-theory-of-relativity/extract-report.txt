@@ -1,0 +1,11 @@
+raw.md: 17,377 words, 571 formulas recovered
+
+--- notation ---
+  mediawiki-alt: 571
+  display: 104   inline: 467
+  illustrations: 6
+
+--- anomalies ---
+  none found across 571 formulas
+  (a clean sweep is not proof: these checks catch damage that is visible
+   in the string, not a formula faithfully carrying a transcriber's error)

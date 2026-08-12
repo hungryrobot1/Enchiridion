@@ -1,0 +1,26 @@
+{
+  "text_id": "napier-construction-of-the-wonderful-canon-of-logarithms",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "b45b29b",
+  "session_id": "019fee77-4fe1-7b01-b83f-05709e2c32e6",
+  "started": "2026-08-11T01:37:04Z",
+  "finished": "2026-08-11T01:45:39Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-11T02:39:52Z",
+      "finished": "2026-08-11T03:15:42Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T04:35:33Z",
+    "target": "texts/4-renaissance-scientific-revolution/napier-construction-of-the-wonderful-canon-of-logarithms/napier-construction-of-the-wonderful-canon-of-logarithms.md"
+  }
+}

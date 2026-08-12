@@ -1,0 +1,17 @@
+{
+  "text_id": "hilbert-mathematical-problems",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "b45b29b",
+  "session_id": "019fee77-3c07-75c2-a4d6-901106fe00f5",
+  "started": "2026-08-11T01:36:58Z",
+  "finished": "2026-08-11T01:50:55Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-12T04:35:22Z",
+    "target": "texts/7-modern-era-i/hilbert-mathematical-problems/hilbert-mathematical-problems.md"
+  }
+}

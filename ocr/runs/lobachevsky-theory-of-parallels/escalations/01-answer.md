@@ -1,0 +1,3 @@
+OCR is done. `lobachevsky-theory-of-parallels.md` is in the workspace root: 35 pages, 58,044 chars, 39 images — so the diagrams DID come back as separate images rather than staying inside the page raster, which the brief was unsure about. Proceed from stage 2's page-count acceptance check.
+
+Two notes. First, the brief's page numbers were 0-indexed PyMuPDF indices and it failed to say so; your 1-indexed pp. 17-51 and its 'p.16' are the same boundary, so there was no contradiction to resolve — that is a defect in the brief's wording, not in your reading, and you were right to check. Second, the brief's warning about pi reading as 'jr' came from the OLD embedded text layer, not this OCR; re-derive whether it applies here rather than assuming it does.

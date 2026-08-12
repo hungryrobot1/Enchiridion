@@ -1,0 +1,67 @@
+==============================================================================
+CENSUS
+==============================================================================
+text                                 spans  cmd uses  distinct
+                                       136       600        19
+
+==============================================================================
+SLOT ANALYSIS — contexts where transcription is inconsistent
+==============================================================================
+FLAT: one mark written many ways — the slot is an error family.
+STRAYS: one command owns the slot; the rest are misreads of it.
+
+------------------------------------------------------------------------------
+FLAT — candidate shattered glyphs
+------------------------------------------------------------------------------
+(none)
+
+------------------------------------------------------------------------------
+STRAYS — a dominant command with trespassers (the fix is implied)
+------------------------------------------------------------------------------
+(none)
+
+==============================================================================
+SYNONYM SPREAD — one notion, several spellings
+==============================================================================
+---  ---
+    upright text      \text=1  \mathrm=13
+
+==============================================================================
+RARE TAIL — commands used 2x or fewer in a text
+==============================================================================
+---  (3 of 19 distinct)
+    \text(1), \left(1), \right(1)
+
+==============================================================================
+FOREIGN SCRIPT IN MATH — near-certain misreads
+==============================================================================
+  : 2 math span(s) over 300 chars — unbalanced delimiters, not examined here (see lint-math)
+(no foreign script in well-formed spans)
+
+==============================================================================
+KIND STRAYS — a singleton beside a dominant command of the same kind
+==============================================================================
+(none)
+
+==============================================================================
+CONFUSABLE LETTERS — a Latin letter beside its Greek lookalike
+==============================================================================
+--- : BOTH IN ONE FORMULA (strongest signal)
+    a/alpha      line 604    § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+        \cos \Pi(\alpha) = \sin \Pi(\beta) e^{f(a)},
+    a/alpha      line 729    § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+        (1.)\quad \tan \Pi(c) = \sin \Pi(\alpha)\tan \Pi(a),
+    b/beta       line 630    § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+        \sin \Pi(a) = \cos \Pi(\beta) \sin \Pi(b),
+    b/beta       line 660    § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+        \Pi(b)=\Pi(a)+\Pi(c+\beta).
+    b/beta       line 670    § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+        \Pi(c-\beta)=\Pi(a)+\Pi(b)
+    b/beta       line 690    § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+        \Pi(a)+\Pi(b)=\pi-\Pi(\beta-c)=\Pi(c-\beta),
+        … 3 more
+--- : both present in one section
+    b/beta       latin 48    greek 32    § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+    a/alpha      latin 65    greek 4     § GEOMETRICAL RESEARCHES ON THE THEORY OF PARALLELS
+    VERDICT: ______   PAGE READ: ______
+

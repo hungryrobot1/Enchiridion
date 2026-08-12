@@ -1,0 +1,3 @@
+Propose `gilbert-de-magnete.md` as the library transcription. Its required assets are in `images/`.
+
+Verified: complete six-book chapter sequence (115 chapters); source-native extraction from the supplied EPUB; apparatus and 253 editorial-note markers removed by asserted script; 96/96 figure references resolve with no duplicate or thumbnail candidates; controlled diagnostic triad green; no remaining page labels, in-page links, entities, code fences, Gutenberg boilerplate, or removed-apparatus markers. The supplied EPUB and PDF are dependent Project Gutenberg renderings, so correctness against print remains for human review and is not claimed.

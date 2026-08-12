@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "15114-pdf.pdf",
+  "format": "markdown",
+  "filename": "boole-investigation-of-the-laws-of-thought.md",
   "description": "Foundation of Boolean algebra linking logic to mathematics",
   "topics": [
     "mathematics",
@@ -15,5 +15,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

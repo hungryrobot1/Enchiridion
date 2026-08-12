@@ -1,0 +1,17 @@
+{
+  "text_id": "mill-utilitarianism",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "b45b29b",
+  "session_id": "019fee77-55d4-7402-94f3-85a4119c6ea9",
+  "started": "2026-08-11T01:37:05Z",
+  "finished": "2026-08-11T01:44:27Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-12T04:35:28Z",
+    "target": "texts/6-nineteenth-century/mill-utilitarianism/mill-utilitarianism.md"
+  }
+}

@@ -6,8 +6,8 @@
   "year_translated": 1889,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "constructionofwo00napiuoft.pdf",
+  "format": "markdown",
+  "filename": "napier-construction-of-the-wonderful-canon-of-logarithms.md",
   "description": "Explanation of how logarithmic tables were constructed, revolutionizing calculation",
   "topics": [
     "mathematics",
@@ -15,5 +15,5 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

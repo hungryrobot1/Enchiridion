@@ -1,0 +1,379 @@
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-68-<div class="x-ebookmaker-pageno" title="[Pg v]" id="pgepubid00002"><a id="Page_v"></a></div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-69-<div class="figcenter" style="width: 600px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:70:<img alt="" src="2832116635755288604_prefhead.png" title="" id="img_images_prefhead.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-71-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-72-<h2 id="pgepubid00003">PREFACE</h2>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-73-<div style="width: 147px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:74:<img alt="I" src="2832116635755288604_pref.png" title="I" id="img_images_pref.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-75-</div><p> wrote this Treatise during my sojourn in France twelve years ago,
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-76-and I communicated it in the year 1678 to the learned persons who then
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-143-<div class="x-ebookmaker-pageno" title="[Pg ix]" id="pgepubid00007"><a id="Page_ix"></a></div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-144-<div class="figcenter" style="width: 600px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:145:<img alt="." src="2832116635755288604_tranhead.png" title="" id="img_images_tranhead.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-146-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-147-<h2 id="pgepubid00008"><a id="NOTE_BY_THE_TRANSLATOR"/>NOTE BY THE TRANSLATOR</h2>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-148-<div style="width: 150px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:149:<img alt="C" src="2832116635755288604_trans.png" title="C" id="img_images_trans.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-150-</div><p>onsidering the great influence which this Treatise has exercised in
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-151-the development of the Science of Optics, it seems strange that two
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-306-<div><span class="x-ebookmaker-pageno" title="[Pg 1]" id="pgepubid00013"></span><a id="Page_1"/></div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-307-<div class="figcenter" style="width: 600px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:308:<img alt="" src="2832116635755288604_ch01head.png" title="" id="img_images_ch01head.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-309-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-310-<h1 id="pgepubid00014">TREATISE ON LIGHT</h1>
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-312-<h3 id="pgepubid00016">ON RAYS PROPAGATED IN STRAIGHT LINES</h3>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-313-<div style="width: 154px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:314:<img alt="A" src="2832116635755288604_ch01.png" title="A" id="img_images_ch01.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-315-</div><p>s happens in all the sciences in which Geometry is applied to matter,
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-316-the demonstrations concerning Optics are founded on truths drawn from
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-418-comprehensible.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-419-<div class="figcenter" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:420:<img alt="" src="2832116635755288604_pg005.png" title="" id="img_images_pg005.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-421-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-422-<p>Let A be the place of the sun, BD a part of the orbit or annual path
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-492-Satellite emerging from the shadow.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-493-<div class="figleft" style="width: 166px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:494:<img alt="" src="2832116635755288604_pg008.png" title="" id="img_images_pg008.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-495-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-496-<p>Let it be then supposed, the Earth being at B some time before the
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-678-the propagation of Light will always go on with an equal velocity.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-679-<div class="figleft" style="width: 131px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:680:<img alt="" src="2832116635755288604_pg015.png" title="" id="img_images_pg015.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-681-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-682-<p>And it must be known that although the particles of the ether are not
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-707-seems to serve only to transmit the light of the Sun and the Stars.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-708-<div class="figright" style="width: 182px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:709:<img alt="" src="2832116635755288604_pg017.png" title="" id="img_images_pg017.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-710-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-711-<p>I have then shown in what manner one may conceive Light to spread
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-754-two movements.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-755-<div class="figcenter" style="width: 500px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:756:<img alt="" src="2832116635755288604_pg018.png" title="" id="img_images_pg018.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-757-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-758-<p>But what may at first appear full strange and even incredible is that
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-776-rendering their action more sensible.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-777-<div class="figright" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:778:<img alt="" src="2832116635755288604_pg019.png" title="" id="img_images_pg019.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-779-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-780-<p>There is the further consideration in the emanation of these waves,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-872-<h3 id="pgepubid00039">ON REFLEXION</h3>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-873-<div style="width: 158px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:874:<img alt="H" src="2832116635755288604_ch02.png" title="H" id="img_images_ch02.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-875-</div><p>aving explained the effects of waves of light which spread in a
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-876-homogeneous matter, we will examine next that which happens to them on
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-889-This explanation will suffice once for all.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-890-<div class="figright" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:891:<img alt="" src="2832116635755288604_pg023.png" title="" id="img_images_pg023.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-892-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-893-<p>The piece C of the wave AC, will in a certain space of time advance as
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-959-intersects the circle CH and the ellipse AB.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-960-<div class="figcenter" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:961:<img alt="" src="2832116635755288604_pg026.png" title="" id="img_images_pg026.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-962-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-963-<p>One sees also that the said spheres of the partial waves cannot have
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1012-<h3 id="pgepubid00047">ON REFRACTION</h3>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1013-<div style="width: 145px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1014:<img alt="I" src="2832116635755288604_ch03.png" title="I" id="img_images_ch03.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1015-</div><p>n the same way as the effects of Reflexion have been explained by
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1016-waves of light reflected at the surface of polished bodies, we will
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1180-waves of light, as has been said.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1181-<div class="figright" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1182:<img alt="" src="2832116635755288604_pg034.png" title="" id="img_images_pg034.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1183-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1184-<p>Let us pass now to the explanation of the effects of Refraction,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1207-passing out, into BA.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1208-<div class="figleft" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1209:<img alt="" src="2832116635755288604_pg035.png" title="" id="img_images_pg035.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1210-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1211-<p>To explain then the reasons of these phenomena according to our
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1301-transparent body into the direction AN.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1302-<div class="figright" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1303:<img alt="" src="2832116635755288604_pg039.png" title="" id="img_images_pg039.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1304-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1305-<p>One sees also the reason for a noteworthy accident which happens in
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1400-here another which is simpler and easier.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1401-<div class="figleft" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1402:<img alt="" src="2832116635755288604_pg043.png" title="" id="img_images_pg043.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1403-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1404-<p>Let KF be the plane surface; A the point in the medium which the light
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1448-<h3 id="pgepubid00066">ON THE REFRACTION OF THE AIR</h3>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1449-<div style="width: 208px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1450:<img alt="W" src="2832116635755288604_ch04.png" title="W" id="img_images_ch04.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1451-</div><p>e have shown how the movement which constitutes light spreads by
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1452-spherical waves in any homogeneous matter. And it is evident that when
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1497-waves of light.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1498-<div class="figcenter" style="width: 500px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1499:<img alt="" src="2832116635755288604_pg047.png" title="" id="img_images_pg047.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1500-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1501-<p>Whence the configuration of the waves ought to become nearly such as
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1508-line which is perpendicular to the horizon.<span class="x-ebookmaker-pageno" title="[Pg 48]" id="pgepubid00069"></span><a id="Page_48"/></p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1509-<div class="figcenter" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1510:<img alt="" src="2832116635755288604_pg048.png" title="" id="img_images_pg048.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1511-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1512-<p>Let BC be the wave which brings the light to the spectator who is at
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1563-from this same eye.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1564-<div class="figleft" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1565:<img alt="" src="2832116635755288604_pg050.png" title="" id="img_images_pg050.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1566-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1567-<p>But to demonstrate this curvature of the rays conformably to all our
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1611-<p>1.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1612-<div style="width: 156px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1613:<img alt="T" src="2832116635755288604_ch05.png" title="T" id="img_images_ch05.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1614-</div><p>here is brought from Iceland, which is an Island in the North Sea, in
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1615-the latitude of 66 degrees, a kind of Crystal or transparent stone,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1644-gravity.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1645-<div class="figright" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1646:<img alt="" src="2832116635755288604_pg053.png" title="" id="img_images_pg053.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1647-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1648-<p>4. The pieces of it which are found have the figure of an oblique
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1687-straight.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1688-<div class="figcenter" style="width: 450px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1689:<img alt="" src="2832116635755288604_pg055.png" title="" id="img_images_pg055.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1690-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1691-<p>8. But in order to explain these phenomena more particularly, let
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1745-Crystal, or of glass, which is nearly 3 to 2.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1746-<div class="figright" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1747:<img alt="" src="2832116635755288604_pg058.png" title="" id="img_images_pg058.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1748-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1749-<p>12. The mode of making these observations exactly is as follows. Upon
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1808-edges mentioned.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1809-<div class="figleft" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1810:<img alt="" src="2832116635755288604_pg060.png" title="" id="img_images_pg060.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1811-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1812-<p>17. Finally, continuing my observations to discover the <span class="x-ebookmaker-pageno" title="[Pg 61]" id="pgepubid00084"></span><a id="Page_61"/>nature of
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1889-obtained at last the desired success, by proceeding as follows.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1890-<div class="figright" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1891:<img alt="" src="2832116635755288604_pg064.png" title="" id="img_images_pg064.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1892-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1893-<p>23. I considered first the effect of waves so formed, as respects the
+--
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1933-refraction, but along lines cutting the waves obliquely.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1934-<div class="figleft" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml:1935:<img alt="" src="2832116635755288604_pg065.png" title="" id="img_images_pg065.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1936-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-0.htm.xhtml-1937-<p>25. Inquiring subsequently what might be the position and form of
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-11-</head>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-12-<body class="x-ebookmaker x-ebookmaker-3"><div class="figright" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:13:<img alt="" src="2832116635755288604_pg067.png" title="" id="img_images_pg067.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-14-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-15-<p>27. To know from this the form of this spheroid, that is to say the
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-30-semi-diameter parallel to the tangent ML to be 98,779.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-31-<div class="figleft" style="width: 500px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:32:<img alt="" src="2832116635755288604_pg068.png" title="" id="img_images_pg068.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-33-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-34-<p>28. Now passing to the investigation of the refractions which
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-107-demonstrated thus.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-108-<div class="figcenter" style="width: 500px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:109:<img alt="" src="2832116635755288604_pg071.png" title="" id="img_images_pg071.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-110-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-111-<p>Let CO be perpendicular to CR, and across the angle OCG let OK be
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-138-which serves for the regular refraction.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-139-<div class="figright" style="width: 250px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:140:<img alt="" src="2832116635755288604_pg072.png" title="" id="img_images_pg072.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-141-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-142-<p>For we have stated before this, that the line N being the radius of a
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-160-obtuse angle of the crystal.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-161-<div class="figleft" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:162:<img alt="" src="2832116635755288604_pg073.png" title="" id="img_images_pg073.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-163-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-164-<p>34. The proportion of the refraction being what we have just seen, I
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-196-RC.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-197-<div class="figright" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:198:<img alt="" src="2832116635755288604_pg075.png" title="" id="img_images_pg075.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-199-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-200-<p>Let the same things be supposed as before; that is to say, let CO,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-252-in the crystal.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-253-<div class="figcenter" style="width: 500px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:254:<img alt="" src="2832116635755288604_pg077.png" title="" id="img_images_pg077.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-255-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-256-<p><span class="x-ebookmaker-pageno" title="[Pg 78]" id="pgepubid00101"></span><a id="Page_78"/>37. About the centre C, which I suppose to be in the intersection of
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-361-refraction of the ray RC.<span class="x-ebookmaker-pageno" title="[Pg 82]" id="pgepubid00105"></span><a id="Page_82"/></p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-362-<div class="figright" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:363:<img alt="" src="2832116635755288604_pg082.png" title="" id="img_images_pg082.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-364-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-365-<p>If now one considers the point I as at the bottom of the crystal, and
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-390-section is known.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-391-<div class="figleft" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:392:<img alt="" src="2832116635755288604_pg083.png" title="" id="img_images_pg083.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-393-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-394-<p>41. Now let there be represented the other section through EF in the
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-425-section, since the ratio of PD to DS was there as 99,324 to 70,283.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-426-<div class="figleft" style="width: 150px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:427:<img alt="" src="2832116635755288604_pg084.png" title="" id="img_images_pg084.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-428-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-429-<p>But by the regular refraction of the crystal, of which we have above
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-439-very far above the crystal, the elevation PS will thus be 2/5 of PD.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-440-<div class="figright" style="width: 75px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:441:<img alt="" src="2832116635755288604_pg085.png" title="" id="img_images_pg085.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-442-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-443-<p>42. If one takes a straight line AB for the thickness of the crystal,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-496-been demonstrated in Article 36.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-497-<div class="figleft" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:498:<img alt="" src="2832116635755288604_pg087.png" title="" id="img_images_pg087.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-499-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-500-<p>But it must be shown how one can determine the point of contact I. Let
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-542-major diameters.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-543-<div class="figright" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:544:<img alt="{Section ABKF}" src="2832116635755288604_pg089.png" title="" id="img_images_pg089.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-545-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-546-<p>Now as in the natural section of the crystal, made by a plane parallel
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-638-probability after having been confirmed by so many tests.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-639-<div class="figcenter" style="width: 450px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:640:<img alt="" src="2832116635755288604_pg093.png" title="" id="img_images_pg093.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-641-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-642-<p>The phenomenon is, that by taking two pieces of this crystal and
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-740-shaped and ranged in the same way.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-741-<div class="figright" style="width: 200px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:742:<img alt="{Pyramid and section of spheroids}" src="2832116635755288604_pg096.png" title="" id="img_images_pg096.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-743-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-744-<p><span class="x-ebookmaker-pageno" title="[Pg 97]" id="pgepubid00120"></span><a id="Page_97"/>There is even probability enough that the prisms of this crystal are
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-752-there are none which are repugnant to it.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-753-<div class="figleft" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:754:<img alt="{paralleloid arrangement of spheroids with planes of potential cleavage}" src="2832116635755288604_pg097.png" title="" id="img_images_pg097.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-755-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-756-<p>It may be objected that this crystal, being so composed, might be
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-826-it should be.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-827-<div class="figleft" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:828:<img alt="" src="2832116635755288604_pg100.png" title="" id="img_images_pg100.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-829-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-830-<p>To find from this the obtuse angle BCA, I imagined a sphere having its
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-841-the figure of the crystal.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-842-<div class="figright" style="width: 150px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:843:<img alt="" src="2832116635755288604_pg100a.png" title="" id="img_images_pg100a.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-844-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-845-<p>In the same figure, if the plane CGHF cuts the crystal so that it
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-887-Ellipse, will be 105,032.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-888-<div class="figleft" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:889:<img alt="" src="2832116635755288604_pg102.png" title="" id="img_images_pg102.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-890-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-891-<p>Similarly, because the angle OMZ is equal to CDZ, or LCZ, which is 44
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-923-centre.<span class="x-ebookmaker-pageno" title="[Pg 104]" id="pgepubid00127"></span><a id="Page_104"/></p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-924-<div class="figright" style="width: 350px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:925:<img alt="" src="2832116635755288604_pg104.png" title="" id="img_images_pg104.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-926-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-927-<p>Through the line BM, and through the points O and A, let there be
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-961-<h4 id="pgepubid00131"><i>Which serve for Refraction and for Reflexion</i>.</h4>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-962-<div style="width: 154px; float: left; margin-right: .2em;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:963:<img alt="A" src="2832116635755288604_ch06.png" title="A" id="img_images_ch06.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-964-</div><p>fter having explained how the properties of reflexion and refraction
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-965-follow from what we have supposed concerning the nature of light, and
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-980-future will discover in it utilities which at present are not seen.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-981-<div class="figcenter" style="width: 500px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:982:<img alt="" src="2832116635755288604_pg106.png" title="" id="img_images_pg106.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-983-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-984-<p>To proceed then to these figures, let us suppose first that it is
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-993-the finding of these curves becomes very easy.<span class="x-ebookmaker-pageno" title="[Pg 107]" id="pgepubid00133"></span><a id="Page_107"/></p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-994-<div class="figleft" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:995:<img alt="" src="2832116635755288604_pg107.png" title="" id="img_images_pg107.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-996-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-997-<p>So far as relates to the reflecting surface, since the sum of the
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1077-and it is entirely impossible.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1078-<div class="figcenter" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1079:<img alt="" src="2832116635755288604_pg110.png" title="" id="img_images_pg110.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1080-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1081-<p>From what has been demonstrated about this oval, it will be easy to
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1113-3 to 2.<span class="x-ebookmaker-pageno" title="[Pg 112]" id="pgepubid00138"></span><a id="Page_112"/></p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1114-<div class="figleft" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1115:<img alt="" src="2832116635755288604_pg112.png" title="" id="img_images_pg112.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1116-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1117-<p>Again, if one supposes the point B to be infinitely distant, in lieu
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1133-between the foci as 3 to 2.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1134-<div class="figright" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1135:<img alt="" src="2832116635755288604_pg113.png" title="" id="img_images_pg113.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1136-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1137-<p>These are the two cases in which Conic sections serve for refraction,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1153-set it forth.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1154-<div class="figleft" style="width: 400px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1155:<img alt="" src="2832116635755288604_pg114.png" title="" id="img_images_pg114.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1156-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1157-<p>As for the manner in which Mr. Des Cartes discovered these lines,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1172-right-angles.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1173-<div class="figcenter" style="width: 600px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1174:<img alt="" src="2832116635755288604_pg115.png" title="" id="img_images_pg115.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1175-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1176-<p>Then AK being an incident ray, and KB its refraction within the
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1221-the part AB is within the glass.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1222-<div class="figright" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1223:<img alt="" src="2832116635755288604_pg117.png" title="" id="img_images_pg117.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1224-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1225-<p>Let LG be a ray falling on the arc AK. Its refraction GV will be given
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1281-be reassembled at the point L.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1282-<div class="figleft" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1283:<img alt="" src="2832116635755288604_pg120.png" title="" id="img_images_pg120.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1284-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1285-<p>From the point L let there be drawn to some point of <span class="x-ebookmaker-pageno" title="[Pg 120]" id="pgepubid00146"></span><a id="Page_120"/>the given line
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1306-the surface KDB will be reassembled at the point L.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1307-<div class="figright" style="width: 250px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1308:<img alt="" src="2832116635755288604_pg121.png" title="" id="img_images_pg121.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1309-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1310-<p>Again, let there be given the surface AK, of any desired form,
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1357-travel along them.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1358-<div class="figleft" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1359:<img alt="" src="2832116635755288604_pg123.png" title="" id="img_images_pg123.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1360-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1361-<p>For in the case of rays which, for example, fall parallel upon a
+--
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1455-then F is one of the required points.</p>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1456-<div class="figright" style="width: 300px;">
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml:1457:<img alt="" src="2832116635755288604_pg127.png" title="" id="img_images_pg127.png"/>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1458-</div>
+recon-src/OEBPS/2049275686154020476_14725-h-1.htm.xhtml-1459-<p>And as the parallel rays are merely perpendiculars to the waves which

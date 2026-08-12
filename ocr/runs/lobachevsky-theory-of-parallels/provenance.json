@@ -1,0 +1,26 @@
+{
+  "text_id": "lobachevsky-theory-of-parallels",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "b45b29b",
+  "session_id": "019fee77-483a-7793-8642-c47db667e739",
+  "started": "2026-08-11T01:37:02Z",
+  "finished": "2026-08-11T01:41:45Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-11T02:39:52Z",
+      "finished": "2026-08-11T03:11:46Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T04:35:30Z",
+    "target": "texts/6-nineteenth-century/lobachevsky-theory-of-parallels/lobachevsky-theory-of-parallels.md"
+  }
+}

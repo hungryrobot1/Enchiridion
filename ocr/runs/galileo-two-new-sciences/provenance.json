@@ -1,0 +1,26 @@
+{
+  "text_id": "galileo-two-new-sciences",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9444887",
+  "session_id": "019ff3d5-f8cd-76c2-b2bc-aeb10a655f96",
+  "started": "2026-08-12T02:38:34Z",
+  "finished": "2026-08-12T03:47:28Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-12T03:52:08Z",
+      "finished": "2026-08-12T04:24:18Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T04:35:45Z",
+    "target": "texts/4-renaissance-scientific-revolution/galileo-two-new-sciences/galileo-two-new-sciences.md"
+  }
+}

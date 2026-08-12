@@ -1,0 +1,26 @@
+{
+  "text_id": "bayes-essay-towards-solving-a-problem-in-doctrine-of-chances",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9444887",
+  "session_id": "019ff3d6-052d-7541-bdec-b8e6eeec4f46",
+  "started": "2026-08-12T02:38:37Z",
+  "finished": "2026-08-12T03:47:02Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-12T03:52:08Z",
+      "finished": "2026-08-12T04:12:14Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T04:35:36Z",
+    "target": "texts/5-newtonian-enlightenment/bayes-essay-towards-solving-a-problem-in-doctrine-of-chances/bayes-essay-towards-solving-a-problem-in-doctrine-of-chances.md"
+  }
+}

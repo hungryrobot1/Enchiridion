@@ -6,8 +6,8 @@
   "year_translated": 1914,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "geometricalresea00lobaiala.pdf",
+  "format": "markdown",
+  "filename": "lobachevsky-theory-of-parallels.md",
   "description": "Lobachevsky's development of non-Euclidean geometry, demonstrating a consistent geometry in which Euclid's parallel postulate does not hold",
   "topics": [
     "mathematics",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "gauss-general-investigations-of-curved-surfaces"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

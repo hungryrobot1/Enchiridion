@@ -1,0 +1,17 @@
+{
+  "text_id": "einstein-foundation-of-general-theory-of-relativity",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "9444887",
+  "session_id": "019ff3d5-ee3f-72a1-b777-5ff66e1be2b2",
+  "started": "2026-08-12T02:38:31Z",
+  "finished": "2026-08-12T03:53:39Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-12T04:35:42Z",
+    "target": "texts/7-modern-era-i/einstein-foundation-of-general-theory-of-relativity/einstein-foundation-of-general-theory-of-relativity.md"
+  }
+}

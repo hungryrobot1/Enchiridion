@@ -87,30 +87,6 @@
  },
  {
   "era": "4-renaissance-scientific-revolution",
-  "id": "galileo-two-new-sciences",
-  "class": "EXTRACT+FIGS",
-  "note": "short mean line (21) \u2014 spot-check",
-  "status": "pending",
-  "pages": 340,
-  "chars_per_page": 1836,
-  "mean_line_len": 21,
-  "images": 678,
-  "img_ratio": 1.99
- },
- {
-  "era": "4-renaissance-scientific-revolution",
-  "id": "gilbert-de-magnete",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 437,
-  "chars_per_page": 1728,
-  "mean_line_len": 93,
-  "images": 284,
-  "img_ratio": 0.65
- },
- {
-  "era": "4-renaissance-scientific-revolution",
   "id": "hooke-micrographia",
   "class": "EXTRACT+FIGS",
   "note": "",
@@ -135,18 +111,6 @@
  },
  {
   "era": "4-renaissance-scientific-revolution",
-  "id": "huygens-treatise-on-light",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 71,
-  "chars_per_page": 4584,
-  "mean_line_len": 96,
-  "images": 66,
-  "img_ratio": 0.93
- },
- {
-  "era": "4-renaissance-scientific-revolution",
   "id": "kepler-astronomia-novia-latin",
   "class": "SCAN",
   "note": "shredded text layer (mean line 17)",
@@ -168,18 +132,6 @@
   "mean_line_len": 120,
   "images": 2,
   "img_ratio": 0.04
- },
- {
-  "era": "4-renaissance-scientific-revolution",
-  "id": "napier-construction-of-the-wonderful-canon-of-logarithms",
-  "class": "EXTRACT+FIGS",
-  "note": "short mean line (24) \u2014 spot-check",
-  "status": "pending",
-  "pages": 200,
-  "chars_per_page": 1990,
-  "mean_line_len": 24,
-  "images": 400,
-  "img_ratio": 2.0
  },
  {
   "era": "4-renaissance-scientific-revolution",
@@ -227,18 +179,6 @@
   "chars_per_page": 1687,
   "mean_line_len": 16,
   "images": 1490,
-  "img_ratio": 2.0
- },
- {
-  "era": "5-newtonian-enlightenment",
-  "id": "bayes-essay-towards-solving-a-problem-in-doctrine-of-chances",
-  "class": "SCAN",
-  "note": "shredded text layer (mean line 16)",
-  "status": "pending",
-  "pages": 49,
-  "chars_per_page": 1611,
-  "mean_line_len": 16,
-  "images": 98,
   "img_ratio": 2.0
  },
  {
@@ -543,18 +483,6 @@
  },
  {
   "era": "6-nineteenth-century",
-  "id": "boole-investigation-of-the-laws-of-thought",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 343,
-  "chars_per_page": 1851,
-  "mean_line_len": 36,
-  "images": 0,
-  "img_ratio": 0.0
- },
- {
-  "era": "6-nineteenth-century",
   "id": "carnot-motive-power-of-heat",
   "class": "SCAN",
   "note": "shredded text layer (mean line 17)",
@@ -737,18 +665,6 @@
  },
  {
   "era": "6-nineteenth-century",
-  "id": "lobachevsky-theory-of-parallels",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 64,
-  "chars_per_page": 1598,
-  "mean_line_len": 26,
-  "images": 128,
-  "img_ratio": 2.0
- },
- {
-  "era": "6-nineteenth-century",
   "id": "marx-capital-i",
   "class": "EXTRACT+FIGS",
   "note": "",
@@ -830,18 +746,6 @@
   "mean_line_len": 84,
   "images": 672,
   "img_ratio": 2.0
- },
- {
-  "era": "6-nineteenth-century",
-  "id": "mill-utilitarianism",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 40,
-  "chars_per_page": 6665,
-  "mean_line_len": 118,
-  "images": 2,
-  "img_ratio": 0.05
  },
  {
   "era": "6-nineteenth-century",
@@ -1025,18 +929,6 @@
  },
  {
   "era": "7-modern-era-i",
-  "id": "einstein-foundation-of-general-theory-of-relativity",
-  "class": "EXTRACT+FIGS",
-  "note": "",
-  "status": "pending",
-  "pages": 38,
-  "chars_per_page": 2905,
-  "mean_line_len": 57,
-  "images": 6,
-  "img_ratio": 0.16
- },
- {
-  "era": "7-modern-era-i",
   "id": "einstein-on-a-heuristic-point-of-view-about-the-creation-and-conversion-of-light",
   "class": "EXTRACT+FIGS",
   "note": "",
@@ -1202,18 +1094,6 @@
   "mean_line_len": 50,
   "images": 52,
   "img_ratio": 0.51
- },
- {
-  "era": "7-modern-era-i",
-  "id": "hilbert-mathematical-problems",
-  "class": "EXTRACT",
-  "note": "",
-  "status": "pending",
-  "pages": 48,
-  "chars_per_page": 2808,
-  "mean_line_len": 103,
-  "images": 2,
-  "img_ratio": 0.04
  },
  {
   "era": "7-modern-era-i",

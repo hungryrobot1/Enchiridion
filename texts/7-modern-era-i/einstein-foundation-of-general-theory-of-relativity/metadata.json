@@ -6,8 +6,8 @@
   "year_translated": 1923,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "The_Foundation_of_the_Generalised_Theory_of_Relativity.pdf",
+  "format": "markdown",
+  "filename": "einstein-foundation-of-general-theory-of-relativity.md",
   "description": "Geometric theory of gravitation as curvature of spacetime",
   "topics": [
     "physics",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "einstein-on-electrodynamics-of-moving-bodies"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

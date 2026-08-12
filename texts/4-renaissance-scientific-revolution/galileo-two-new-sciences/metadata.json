@@ -6,8 +6,8 @@
   "year_translated": 1914,
   "language": "English",
   "original_language": "Italian",
-  "format": "pdf",
-  "filename": "cu31924012322701.pdf",
+  "format": "markdown",
+  "filename": "galileo-two-new-sciences.md",
   "description": "Foundation of modern mechanics and kinematics through mathematical analysis of motion",
   "topics": [
     "physics",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "galileo-starry-messenger"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

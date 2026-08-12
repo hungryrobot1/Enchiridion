@@ -21,59 +21,35 @@ A text arrives as a scan, as a PDF with a text layer, or — best — as the
 structured source a PDF was generated from. Which it is decides everything
 downstream, and the decision belongs to stage 0.
 
-| track | when | what it costs |
-|---|---|---|
-| **source-native** (`extract-epub.py`, or by hand for `.tex`) | a LaTeX or EPUB source exists | nothing but finding it |
-| **PDF-native** (`extract-pdf.py`) | the PDF has a clean text layer | nothing; deterministic |
-| **OCR** (`ocr.py`, Mistral) | the source is a scan | money, and 3–5% error |
+**You do not choose the track by reading. Recon computes it and prints it** —
+`recon-pdf.py`, `recon-epub.py` and `recon-html.py` each end with a `ROUTE:`
+verdict giving the decision, the evidence for it, the alternatives not taken,
+and the conditions that would flip it. Read that. If your case is not among the
+`would flip` lines, you are done.
 
-The operative rule, and nothing else you need to choose a track, is the four
-lines at the top of [`2-extract/STAGE.md`](2-extract/STAGE.md). Everything below
-here is why.
+`ROUTE: UNDETERMINED` means the facts do not decide and a person must look at
+the source. It is a real answer, not a failure.
+
+The rule that verdict implements, its numbered exceptions, and the reasoning
+behind both are asserted in exactly one place:
+[`2-extract/STAGE.md`](2-extract/STAGE.md). This file used to restate them and
+the two drifted; five runs in one wave reported the cost.
 
 ### Ask whether a better source exists — before anything else
 
 A published PDF is often the *output* of a source we could have instead, and
-extraction cannot recover what generating it discarded. A PDF's text layer
-records glyphs and positions; it does not record that two glyphs stood in a
-numerator-over-denominator relation.
+extraction cannot recover what generating it discarded. This is the single
+highest-value question in the pipeline and it belongs to stage 0, so it is
+answered there: [`0-recon/STAGE.md`](0-recon/STAGE.md) holds where to look and
+the addresses that have worked; [`2-extract/STAGE.md`](2-extract/STAGE.md) holds
+the Dedekind controlled experiment that measures what it is worth — 0 math
+blocks from the publisher's PDF, 3,262 from the LaTeX it was generated from —
+and the two limits on that claim.
 
-Dedekind is the controlled experiment — same text, same model, same
-instructions, one file added to `source/`:
+The search needs network access, so it cannot be delegated to a worker.
 
-| source | math blocks | Greek |
-|---|---|---|
-| the publisher's PDF | **0** | mojibake |
-| the LaTeX it was generated from | **3,262** | intact |
-
-The PDF run also rendered 227 instances of Dedekind's set-relation symbol as the
-digit `3`, silently, and every diagnostic passed it. Einstein repeated the
-result: 0 from the PDF, 366 from Fourmilab's TeX.
-
-So **PDF extraction beats OCR for prose, and loses mathematics.** Where to look
-for a better source, and the addresses that have worked, are in
-[`0-recon/STAGE.md`](0-recon/STAGE.md). The search needs network access, so it
-cannot be delegated to a worker.
-
-The `.tex` half of the source-native track has no tool. Both texts done that way
-were handled by reading the LaTeX directly, with the published PDF as a
-**rendered witness** — the authority on how a passage should look, never on what
-it says.
-
-The EPUB half does, and it is where the corpus's remaining easy wins are. A
-transcriber who renders formulas to images usually keeps the LaTeX they rendered
-from, in an attribute on the image: run [`0-recon/recon-epub.py`](0-recon/recon-epub.py)
-on any text whose folder holds an `.epub`. Nine texts carry 21,278 formulas that
-way — Principia Mathematica, Newton's Principia, Bohr, Hilbert, Lovelace,
-Minkowski, two Einstein papers — and all nine are routed EPUB → PDF → OCR by
-default, which renders those strings to pixels so OCR can read them back as
-strings.
-
-Two limits, both load-bearing. It is the same transcription either way, so it is
-not a printed witness and stage 4 still wants the page; the gain is only that OCR
-does not add its error rate on top of the transcriber's. And it does not
-generalise: **OCR is still the right route for mathematics in a PDF**, where the
-encoding varies by producer and rasterising is what normalises it.
+This section used to restate both of those in full. That is how the route
+argument came to occupy 97 lines across five files.
 
 ---
 

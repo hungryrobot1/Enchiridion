@@ -5,7 +5,32 @@ inside an EPUB. The PDF-only wording here was wrong the day the source-native
 track was added, and the Hamlet run named the mismatch from the other side.
 **Produces:** raw markdown, plus an `images/` folder where the source has figures.
 
-## The rule, in four lines
+## You should not be deriving the route. Recon prints it.
+
+**This is the canonical statement of the route rule.** It is asserted here and
+nowhere else; the README points at this section rather than repeating it.
+
+But you should not normally be reading even this. `ocr/route.py` computes the
+verdict from what recon observed, and `recon-pdf.py`, `recon-epub.py` and
+`recon-html.py` all print it:
+
+    ROUTE: source-native
+    because         248 formula(s) carry recoverable LaTeX (data-tex) in the epub
+    not OCR         the strings are already here; rendering them to pixels so
+                    OCR can guess them back is a pure loss
+    would flip      if the notation were mathspeak-title — a SPOKEN description
+                    of the formula, not the string it was set from
+
+The **`would flip`** lines exist because the question that actually costs time is
+not *what is the route* but *have I read enough to be sure?* They name the
+conditions under which the verdict changes. **If your case is not listed there,
+you are done reading — including this document.**
+
+`ROUTE: UNDETERMINED` is a real answer and means what it says: the facts do not
+decide it and a person must. Do not resolve it by reading further down this page.
+Resolve it by looking at the source.
+
+### The rule the verdict implements
 
 1. A structured source exists (LaTeX, EPUB XHTML) → **source-native**.
 2. Otherwise the PDF has a clean text layer and **no notation to lose** →
@@ -14,21 +39,34 @@ track was added, and the Hamlet run named the mismatch from the other side.
 4. Notation anywhere in 1 or 2 outranks convenience: never render a formula to
    pixels so that OCR can read it back as a string.
 
-**OCR is only ever for a scan.** If the file has a usable text layer — check the
-producer; `calibre`, `Ghostscript`, `pdfTeX`, `Word` all mean born-digital — then
-OCR would render correct characters to pixels and read them back at 95–97%
-accuracy. That is a pure loss, and no later stage can detect it. Lavoisier's run
-reached the OCR handoff on a Calibre rendering of the EPUB sitting beside it in
-the same directory; the route was caught on the host, not by any check here.
+### The exceptions, numbered — scan for yours, do not read them all
 
-The phrase "the PDF route" in the tool table below means **`extract-pdf.py`**,
-reading the embedded text layer. It has never meant OCR. That sentence alone
-nearly cost 194 pages of clean transcription.
+Each of these was written because something went wrong. They are kept for that
+reason, and listed rather than argued so you can check whether yours appears in
+one pass.
+
+1. **OCR is only ever for a scan.** A usable text layer means OCR would render
+   correct characters to pixels and read them back at 95–97%. Pure loss, and no
+   later stage detects it. *Lavoisier reached the OCR handoff on a Calibre
+   rendering of the EPUB beside it.*
+2. **Check the producer field.** `calibre`, `Ghostscript`, `pdfTeX`, `Word` all
+   mean born-digital, and usually mean the real source is elsewhere.
+3. **"The PDF route" means `extract-pdf.py`.** It has never meant OCR. *That one
+   phrase nearly cost 194 pages of clean transcription.*
+4. **PDF-native is lossy for notation** — true for prose, false for mathematics.
+   See the section below; this is the one place the rule inverts.
+5. **Check the CONVENTION, not one attribute.** Looking only for `data-tex`
+   reported "no recoverable notation" for 571 formulas whose LaTeX sat in
+   Wikisource alt text. And do not expect the conventions to close — a source
+   landing cleanly in a named one is the lucky case.
+6. **An EPUB's images carrying no notation decides nothing.** A diagram and a
+   picture of an equation are the same fact to every tool here. Open three.
+7. **A recon tool reporting cleanly means it found nothing it knows to look
+   for.** Riemann's six formulas sat in plain `alt` attributes through a clean
+   verdict.
 
 Everything below explains *why*, and a run that has already chosen correctly does
-not need it. (A run reported reading the route argument several times to extract
-the rule, which was longer than the rule and repeated in the README. The rule now
-sits above its own justification.)
+not need it.
 
 Three tracks, chosen at recon:
 

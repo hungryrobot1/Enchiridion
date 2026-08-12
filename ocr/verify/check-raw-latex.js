@@ -250,8 +250,12 @@ function main() {
     }
   }
 
+  const n = targets.length;
+  const scanned = `${n} file${n === 1 ? '' : 's'} scanned`;
   console.log(
-    `\n${totalSlashes} surviving backslashes across ${totalLines} line(s) in ${filesWithHits} file(s).`
+    `\n${totalSlashes} surviving backslashes in ${scanned}` +
+    (filesWithHits ? `, on ${totalLines} line(s) in ${filesWithHits} file(s)` : '') +
+    `.`
   );
   process.exit(totalSlashes > 0 ? 1 : 0);
 }

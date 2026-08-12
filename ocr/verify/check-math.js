@@ -203,9 +203,12 @@ function main() {
     }
   }
 
+  const n = targets.length;
+  const scanned = `${n} file${n === 1 ? '' : 's'} scanned`;
   console.log(
-    `\n${totalFailures} failures across ${filesWithFailures} file(s), ` +
-    `out of ${totalBlocks} math blocks scanned.`
+    `\n${totalFailures} failures in ${scanned}` +
+    (filesWithFailures ? `, ${filesWithFailures} with failures` : '') +
+    `, out of ${totalBlocks} math blocks.`
   );
   process.exit(totalFailures > 0 ? 1 : 0);
 }

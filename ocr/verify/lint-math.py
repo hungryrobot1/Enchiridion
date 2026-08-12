@@ -128,7 +128,7 @@ def iter_targets(args: list[str]) -> list[Path]:
 
 
 def main() -> int:
-    targets = iter_targets(sys.argv[1:])
+    targets = list(iter_targets(sys.argv[1:]))
     total_issues = 0
     files_with_issues = 0
 
@@ -143,7 +143,10 @@ def main() -> int:
         for lineno, msg in issues:
             print(f"  {lineno}: {msg}")
 
-    print(f"\n{total_issues} issues across {files_with_issues} file(s).")
+    n = len(targets)
+    scanned = f"{n} file{'' if n == 1 else 's'} scanned"
+    print(f"\n{total_issues} issues in {scanned}"
+          + (f", {files_with_issues} with issues." if files_with_issues else "."))
     return 1 if total_issues else 0
 
 

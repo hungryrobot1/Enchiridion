@@ -85,6 +85,21 @@ FIG_REF = build_fig_ref()
 # numbering scheme, and its gaps mean nothing.
 SEQ_MIN = 3
 
+# A printed numbering is DENSE: it runs 1, 2, 3 with few holes. Ordinary prose
+# using the same word is sparse -- De Re Metallica is a book about metal plates,
+# and three stray uses spanning `plate I` to `plate C` produced 97 "gaps" that
+# cost a run real time. Below this fill ratio it is not a numbering scheme and
+# no gap is reported.
+SEQ_DENSITY = 0.5
+
+# `Fig. 3` is nearly always a citation. `figure 3` is often prose -- in Euler's
+# Elements of Algebra "figure" means DIGIT, and a dense, clean sequence 2-9 was
+# still not about diagrams. We cannot tell those apart mechanically, and this
+# tool does not guess elsewhere (it will not call an ornament an ornament), so
+# it does not guess here: it reports which surface form was seen and says that a
+# spelled-out-only sequence is weak evidence.
+ABBREVIATED = ("fig.", "figs.", "pl.")
+
 ORNAMENT_PX = 100 * 100      # below this area, almost certainly not an argument
 THUMB_RATIO = 0.5            # a thumbnail is at most half its original's width
 ASPECT_TOL = 0.06
@@ -151,6 +166,36 @@ def find_pairs(facts: list[dict], max_diff: int = 12) -> list[tuple[dict, dict]]
     return pairs
 
 
+# Micrographia's thumbnails are every one of them squeezed into a fixed 110x170
+# box, so their aspect ratios drift from the plates they shrink: 17 of 38 failed
+# the 6% prefilter, and at a 13x downscale the 32x32 comparison rejected more.
+# Content detection found 8 of 38.
+#
+# Loosening the pixel thresholds would bring back Huygens' 47 phantom pairs, so
+# this adds a SECOND, INDEPENDENT witness instead -- the publisher's own naming.
+# `scheme-01.png` beside `scheme-01t.png` is a claim someone else made, and it
+# survives a downscale that defeats the pixels. Same principle as the printed
+# sequence: prefer the witness the pipeline did not write.
+THUMB_SUFFIXES = ("t", "-t", "_t", "-thumb", "_thumb", "thumb",
+                  "-small", "_small", "-sm", "_sm")
+
+
+def find_name_pairs(facts: list[dict]) -> list[tuple[dict, dict]]:
+    """Thumbnail/original pairs asserted by FILENAME rather than by pixels."""
+    by_stem = {f["path"].stem: f for f in facts}
+    pairs = []
+    for stem, small in by_stem.items():
+        for suf in THUMB_SUFFIXES:
+            if not stem.endswith(suf) or len(stem) <= len(suf):
+                continue
+            large = by_stem.get(stem[:-len(suf)])
+            # Only a claim if the named thumbnail really is the smaller file.
+            if large and small["area"] and large["area"] > small["area"]:
+                pairs.append((small, large))
+                break
+    return pairs
+
+
 _ROMAN = [(100, "C"), (90, "XC"), (50, "L"), (40, "XL"),
           (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]
 
@@ -201,18 +246,25 @@ def figure_sequence(text: str, pat: re.Pattern | None = None) -> list[dict]:
 
     A gap is a FINDING FOR A PERSON, never a failure: an edition may skip a
     number, and a figure may be printed without being named in the prose.
+
+    WHAT IT MUST NOT DO IS INVENT GAPS. Shipped without the density floor, this
+    reported 97 of them on De Re Metallica -- a book about metal plates, where
+    three ordinary uses of the word spanned `plate I` to `plate C`. That cost a
+    run real time and is worse than reporting nothing.
     """
     pat = pat or FIG_REF
     groups: dict[tuple[str, str], Counter] = defaultdict(Counter)
+    forms: dict[tuple[str, str], Counter] = defaultdict(Counter)
     for m in pat.finditer(text):
         word, token = m.group(1).lower(), m.group(2)
         kind = word.rstrip(".") or "figure"
-        if token.isdigit():
-            groups[(kind, "arabic")][int(token)] += 1
-        else:
-            n = _from_roman(token)
-            if n is not None:
-                groups[(kind, "roman")][n] += 1
+        surface = m.group(0)[:len(m.group(1)) + 1].lower()
+        key_sys = "arabic" if token.isdigit() else "roman"
+        n = int(token) if token.isdigit() else _from_roman(token)
+        if n is None:
+            continue
+        groups[(kind, key_sys)][n] += 1
+        forms[(kind, key_sys)][surface] += 1
 
     out = []
     for (kind, system), counts in sorted(groups.items()):
@@ -220,10 +272,20 @@ def figure_sequence(text: str, pat: re.Pattern | None = None) -> list[dict]:
             continue
         lo, hi = min(counts), max(counts)
         fmt = _to_roman if system == "roman" else str
+        span = hi - lo + 1
+        density = len(counts) / span
+        f = forms[(kind, system)]
+        abbreviated = sum(v for k, v in f.items() if k in ABBREVIATED)
         out.append({
             "kind": kind, "system": system, "lo": lo, "hi": hi,
-            "distinct": len(counts),
-            "missing": [n for n in range(lo, hi + 1) if n not in counts],
+            "distinct": len(counts), "density": density,
+            # A sparse scatter is prose reusing the word, not a numbering.
+            "is_numbering": density >= SEQ_DENSITY,
+            # Spelled out throughout is weak evidence that these are citations.
+            "abbreviated": abbreviated,
+            "forms": dict(f),
+            "missing": ([n for n in range(lo, hi + 1) if n not in counts]
+                        if density >= SEQ_DENSITY else []),
             "fmt": fmt,
         })
     return sorted(out, key=lambda s: -s["distinct"])
@@ -270,6 +332,7 @@ def audit(md: Path | None, images: Path | None, source: Path | None,
     witnesses = {
         "markdown refs vs files on disk": bool(md) and have_images,
         "printed figure sequence": bool(sequences),
+        "filename thumbnail convention": bool(find_name_pairs(facts)),
         "source artifact": in_source is not None,
     }
 
@@ -284,6 +347,7 @@ def audit(md: Path | None, images: Path | None, source: Path | None,
         "orphans": sorted(names - set(ref_counts)) if md else [],
         "duplicates": [v for v in by_sha.values() if len(v) > 1],
         "pairs": find_pairs(facts),
+        "name_pairs": find_name_pairs(facts),
         "fig_refs": {m.group(2).upper() for m in pat.finditer(text)},
         "sequences": sequences,
         "in_source": in_source,
@@ -309,7 +373,22 @@ def report_sequence(a: dict) -> int:
         f = s["fmt"]
         span = f"{s['kind'].title()} {f(s['lo'])}–{f(s['hi'])}"
         print(f"\n  printed sequence      {span} ({s['system']}), "
-              f"{s['distinct']} distinct")
+              f"{s['distinct']} distinct, density {s['density']:.2f}")
+
+        if not s["is_numbering"]:
+            print("                        NOT A NUMBERING SCHEME — too sparse to be")
+            print("                        one. These are almost certainly ordinary")
+            print("                        prose uses of the word. No gaps reported;")
+            print("                        reporting them here once produced 97.")
+            continue
+
+        if not s["abbreviated"]:
+            forms = ", ".join(sorted(s["forms"]))
+            print(f"                        spelled out throughout ({forms}) — WEAK")
+            print("                        evidence that these are figure citations.")
+            print("                        In Euler 'figure' means DIGIT. Confirm the")
+            print("                        word means a diagram here before acting.")
+
         if not s["missing"]:
             print("                        continuous, no gap")
             continue
@@ -375,6 +454,19 @@ def report(a: dict, show_all: bool) -> int:
         print("      Same aspect ratio, one materially smaller. A count that")
         print("      includes both is double what the reader should see.")
 
+    named = [p for p in a["name_pairs"]
+             if {p[0]["path"], p[1]["path"]} not in
+             [{q[0]["path"], q[1]["path"]} for q in a["pairs"]]]
+    if named:
+        print(f"\n  ⚠ THUMBNAIL PAIRS BY FILENAME  {len(named)} more")
+        for small, large in named[:8]:
+            print(f"      {small['path'].name} ({small['w']}×{small['h']})"
+                  f"  ↔  {large['path'].name} ({large['w']}×{large['h']})")
+        print("      The names claim these are the same image at two sizes, and")
+        print("      the content check did NOT catch them — a fixed-box thumbnail")
+        print("      changes the aspect ratio and loses the detail the pixel")
+        print("      comparison needs. Two witnesses disagreeing is information.")
+
     if a["collisions"]:
         print(f"\n  ⚠ BASENAME COLLISIONS     {len(a['collisions'])}")
         for n in a["collisions"][:8]:
@@ -399,7 +491,7 @@ def report(a: dict, show_all: bool) -> int:
                   f"{f['bytes']//1024:>5} KB  ×{a['referenced'].get(f['path'].name, 0)}")
 
     problems = (len(a["dangling"]) + len(a["duplicates"]) + len(a["pairs"])
-                + len(a["collisions"]) + gaps)
+                + len(named) + len(a["collisions"]) + gaps)
 
     # THE VERDICT DECLARES ITS OWN REACH. Galileo's run trusted a clean result
     # that was clean about the wrong thing: 131 references matched 131 files
@@ -530,6 +622,46 @@ def self_test(tmp: Path) -> int:
         ("--label finds it, and its gap",
          figure_sequence(schem, build_fig_ref(DEFAULT_LABELS + ("schem",)))[0]
          ["missing"] == [3]),
+    ]
+
+    # THE TWO WAYS THIS INVENTED WORK IN ITS FIRST WAVE. Both cost a run time,
+    # and both are false POSITIVES -- worse than silence, because a person has
+    # to disprove each one.
+    metallurgy = ("A plate I of copper. Another plate L. A third plate C. "
+                  "Beat the plate thin.")            # De Re Metallica: 97 gaps
+    algebra = ("the figure 2 and the figure 3, then figure 4, figure 5, "
+               "figure 6, figure 7, figure 8, figure 9")   # Euler: digits
+    seq_m = figure_sequence(metallurgy)
+    seq_a = figure_sequence(algebra)
+    checks += [
+        ("SPARSE: prose reusing the word is not a numbering scheme",
+         all(not x["is_numbering"] for x in seq_m)),
+        ("...and it reports no gaps at all (this once produced 97)",
+         all(not x["missing"] for x in seq_m)),
+        ("DENSE BUT SPELLED OUT: reported, and marked weak evidence",
+         bool(seq_a) and seq_a[0]["is_numbering"] and seq_a[0]["abbreviated"] == 0),
+        ("an abbreviated `Fig.` sequence is NOT marked weak",
+         figure_sequence("Fig. 1 a. Fig. 2 b. Fig. 3 c.")[0]["abbreviated"] > 0),
+    ]
+
+    # THE HOOKE CASE: a fixed-box thumbnail whose aspect ratio does NOT match
+    # its original, so the pixel comparison cannot see it. 110x170 from 826x1225
+    # is Micrographia's actual shape. Content found 8 of 38; the names find all.
+    np_imgs = tmp / "np-images"
+    np_imgs.mkdir(exist_ok=True)
+    Image.new("RGB", (826, 1225), (30, 60, 90)).save(np_imgs / "scheme-01.png")
+    Image.new("RGB", (110, 170), (30, 60, 90)).save(np_imgs / "scheme-01t.png")
+    Image.new("RGB", (400, 400), (1, 2, 3)).save(np_imgs / "unrelated.png")
+    nf = [image_facts(p) for p in sorted(np_imgs.iterdir())]
+    named = find_name_pairs(nf)
+    checks += [
+        ("a fixed-box thumbnail is found by FILENAME when pixels cannot",
+         len(named) == 1
+         and {named[0][0]["path"].name, named[0][1]["path"].name}
+         == {"scheme-01t.png", "scheme-01.png"}),
+        ("NEGATIVE: an unrelated file is not paired by name",
+         all("unrelated.png" not in {s["path"].name, l["path"].name}
+             for s, l in named)),
     ]
 
     # A basename collision must be visible, since both sides compare on it.

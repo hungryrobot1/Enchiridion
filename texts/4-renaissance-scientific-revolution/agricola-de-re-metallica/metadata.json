@@ -6,8 +6,8 @@
   "year_translated": 1912,
   "language": "English",
   "original_language": "Latin",
-  "format": "html",
-  "filename": "The Project Gutenberg eBook of De Re Metallica, by Georgius Agricola..html",
+  "format": "markdown",
+  "filename": "agricola-de-re-metallica.md",
   "description": "Comprehensive treatise on mining, metallurgy, and the applied sciences of mineral extraction",
   "topics": [
     "engineering",
@@ -17,5 +17,5 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

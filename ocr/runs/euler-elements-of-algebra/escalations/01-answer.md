@@ -1,0 +1,1 @@
+OCR is done. euler-elements-of-algebra.md (462 pages, 986,039 chars, 2 images) and images/ are written beside the prepared PDF, from the exact SHA you named. Carry on from stage 2. Keep the bounded-result guidance in the brief: a partial honest result beats a complete-looking one, and this text is expected to need proofreading.

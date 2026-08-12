@@ -1,0 +1,26 @@
+{
+  "text_id": "agricola-de-re-metallica",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "65d887d",
+  "session_id": "019ff68a-6871-7571-a06f-0074c645bd69",
+  "started": "2026-08-12T15:14:51Z",
+  "finished": "2026-08-12T22:45:49Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-12T23:28:44Z",
+      "finished": "2026-08-12T23:30:32Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T23:31:34Z",
+    "target": "texts/4-renaissance-scientific-revolution/agricola-de-re-metallica/agricola-de-re-metallica.md"
+  }
+}

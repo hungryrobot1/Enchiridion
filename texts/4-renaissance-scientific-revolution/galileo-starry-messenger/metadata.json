@@ -6,8 +6,8 @@
   "year_translated": 1880,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg46036-images-3.pdf",
+  "format": "markdown",
+  "filename": "galileo-starry-messenger.md",
   "description": "First telescopic observations of the Moon, Jupiter's moons, and the Milky Way",
   "topics": [
     "astronomy",
@@ -17,5 +17,5 @@
   "prerequisites": [
     "copernicus-revolutions"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

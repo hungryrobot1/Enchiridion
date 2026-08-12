@@ -1,0 +1,10 @@
+hume-enquiry-raw.md: 62,013 words, 0 formulas recovered
+
+--- notation ---
+  display: 0   inline: 0
+  illustrations: 0
+
+--- anomalies ---
+  none found across 0 formulas
+  (a clean sweep is not proof: these checks catch damage that is visible
+   in the string, not a formula faithfully carrying a transcriber's error)

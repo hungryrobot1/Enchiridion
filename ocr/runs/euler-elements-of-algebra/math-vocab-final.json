@@ -1,0 +1,296 @@
+{
+  "": {
+    "commands": {
+      "begin": 185,
+      "beta": 30,
+      "cdot": 264,
+      "circ": 20,
+      "cos": 26,
+      "div": 10,
+      "dot": 1,
+      "dots": 28,
+      "end": 185,
+      "frac": 4340,
+      "geqslant": 8,
+      "hline": 95,
+      "infty": 9,
+      "left": 87,
+      "leqslant": 3,
+      "log": 117,
+      "mathbb": 8,
+      "mathrm": 67,
+      "mid": 22,
+      "mp": 8,
+      "overline": 3,
+      "pm": 185,
+      "qquad": 4,
+      "quad": 271,
+      "right": 87,
+      "sin": 1,
+      "sqrt": 1187,
+      "square": 49,
+      "tan": 4,
+      "text": 603,
+      "times": 500,
+      "underline": 24
+    },
+    "foreign": [],
+    "kind_strays": [],
+    "slots": {
+      "    ^ _ CMD": {
+        "sqrt": 6,
+        "underline": 4
+      },
+      "    ^ _ ID": {
+        "overline": 3,
+        "sqrt": 52
+      },
+      "    ^ _ NUM": {
+        "pm": 2,
+        "sqrt": 28
+      },
+      "    ^ _ OP": {
+        "log": 35,
+        "sqrt": 4
+      },
+      "    ^ _ PUNCT": {
+        "sqrt": 84
+      },
+      "    ^ _ REL": {
+        "beta": 1
+      },
+      "    ^ _ ^": {
+        "beta": 1,
+        "pm": 3,
+        "sqrt": 9,
+        "square": 4,
+        "times": 1
+      },
+      "   ID _ CMD": {
+        "dots": 2,
+        "geqslant": 2,
+        "mid": 8,
+        "pm": 25,
+        "sqrt": 5,
+        "times": 3
+      },
+      "   ID _ ID": {
+        "cdot": 8,
+        "dots": 1,
+        "geqslant": 2,
+        "pm": 16,
+        "sqrt": 47,
+        "times": 11
+      },
+      "   ID _ NUM": {
+        "cdot": 1,
+        "dot": 1,
+        "geqslant": 3,
+        "hline": 1,
+        "leqslant": 3,
+        "pm": 6,
+        "sqrt": 36
+      },
+      "   ID _ OP": {
+        "beta": 3,
+        "dots": 2,
+        "log": 11,
+        "sqrt": 119
+      },
+      "   ID _ PUNCT": {
+        "cdot": 4,
+        "pm": 3,
+        "sqrt": 18,
+        "times": 7
+      },
+      "   ID _ ^": {
+        "dots": 1
+      },
+      "   OP _ CMD": {
+        "dots": 1,
+        "sqrt": 8
+      },
+      "   OP _ ID": {
+        "dots": 3,
+        "sqrt": 68
+      },
+      "   OP _ NUM": {
+        "dots": 2,
+        "sqrt": 113
+      },
+      "   OP _ OP": {
+        "beta": 2,
+        "cos": 7,
+        "dots": 1,
+        "log": 24,
+        "sin": 1,
+        "sqrt": 44,
+        "tan": 1
+      },
+      "   OP _ PUNCT": {
+        "dots": 1,
+        "sqrt": 86
+      },
+      "   OP _ REL": {
+        "log": 1
+      },
+      "  CMD _ CMD": {
+        "hline": 12,
+        "sqrt": 30,
+        "underline": 13
+      },
+      "  CMD _ ID": {
+        "beta": 1,
+        "hline": 19,
+        "mp": 1,
+        "sqrt": 12,
+        "underline": 4
+      },
+      "  CMD _ NUM": {
+        "beta": 1,
+        "hline": 53,
+        "pm": 2,
+        "sqrt": 39,
+        "underline": 3
+      },
+      "  CMD _ OP": {
+        "cos": 9,
+        "hline": 7,
+        "log": 6,
+        "sqrt": 14
+      },
+      "  CMD _ PUNCT": {
+        "cdot": 1,
+        "hline": 3,
+        "sqrt": 50
+      },
+      "  CMD _ REL": {
+        "dots": 2
+      },
+      "  NUM _ CMD": {
+        "cdot": 37,
+        "mp": 4,
+        "pm": 60,
+        "sqrt": 11,
+        "times": 17
+      },
+      "  NUM _ ID": {
+        "beta": 2,
+        "cdot": 20,
+        "dots": 1,
+        "pm": 13,
+        "sqrt": 33,
+        "times": 10
+      },
+      "  NUM _ NUM": {
+        "cdot": 187,
+        "dots": 2,
+        "mid": 14,
+        "pm": 21,
+        "sqrt": 128,
+        "times": 270
+      },
+      "  NUM _ OP": {
+        "beta": 1,
+        "cos": 6,
+        "log": 26,
+        "sqrt": 33,
+        "times": 1
+      },
+      "  NUM _ PUNCT": {
+        "beta": 1,
+        "cdot": 4,
+        "pm": 1,
+        "sqrt": 13,
+        "times": 26
+      },
+      "  NUM _ SUP": {
+        "beta": 3
+      },
+      "  NUM _ ^": {
+        "cdot": 1,
+        "dots": 3
+      },
+      "  REL _ CMD": {
+        "dots": 2,
+        "mp": 2,
+        "pm": 2,
+        "sqrt": 8
+      },
+      "  REL _ ID": {
+        "mp": 1,
+        "pm": 1,
+        "sqrt": 18
+      },
+      "  REL _ NUM": {
+        "pm": 25,
+        "sqrt": 7
+      },
+      "  REL _ OP": {
+        "cos": 4,
+        "log": 13,
+        "sqrt": 3,
+        "square": 3,
+        "tan": 1
+      },
+      "  REL _ PUNCT": {
+        "sqrt": 52,
+        "square": 14
+      },
+      "  REL _ SUP": {
+        "beta": 1
+      },
+      "  REL _ ^": {
+        "dots": 2,
+        "infty": 3,
+        "square": 28
+      },
+      "  SUP _ OP": {
+        "circ": 12,
+        "infty": 4,
+        "log": 1
+      },
+      "  SUP _ REL": {
+        "circ": 8,
+        "infty": 1
+      },
+      "  SUP _ ^": {
+        "infty": 1
+      },
+      "PUNCT _ CMD": {
+        "dots": 1,
+        "pm": 5,
+        "times": 1
+      },
+      "PUNCT _ ID": {
+        "beta": 3,
+        "cdot": 1,
+        "div": 3,
+        "mathbb": 8,
+        "sqrt": 4,
+        "times": 3
+      },
+      "PUNCT _ NUM": {
+        "div": 3,
+        "geqslant": 1,
+        "sqrt": 2,
+        "times": 3
+      },
+      "PUNCT _ OP": {
+        "tan": 2
+      },
+      "PUNCT _ PUNCT": {
+        "div": 4,
+        "sqrt": 3,
+        "times": 147
+      },
+      "PUNCT _ SUP": {
+        "beta": 10
+      },
+      "PUNCT _ ^": {
+        "dots": 1
+      }
+    },
+    "spans": 10604
+  }
+}

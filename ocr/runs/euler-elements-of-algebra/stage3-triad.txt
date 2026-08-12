@@ -1,0 +1,7 @@
+  control lint-math.py: rejects its planted defect
+  control check-math.js: rejects its planted defect
+  control check-raw-latex.js: rejects its planted defect
+  lint-math.py: clean — 0 issues across 0 file(s).
+  check-math.js: clean — 0 failures across 0 file(s), out of 10607 math blocks scanned.
+  check-raw-latex.js: clean — 0 surviving backslashes across 0 line(s) in 0 file(s).
+  RESULT: triad green, and each checker was shown to go red first

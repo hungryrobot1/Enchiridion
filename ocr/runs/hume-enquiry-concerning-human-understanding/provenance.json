@@ -1,0 +1,26 @@
+{
+  "text_id": "hume-enquiry-concerning-human-understanding",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "65d887d",
+  "session_id": "019ff68a-7367-7360-9449-7c67cb464399",
+  "started": "2026-08-12T15:14:56Z",
+  "finished": "2026-08-12T22:44:27Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-12T23:21:53Z",
+      "finished": "2026-08-12T23:28:15Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T23:31:38Z",
+    "target": "texts/5-newtonian-enlightenment/hume-enquiry-concerning-human-understanding/hume-enquiry-concerning-human-understanding.md"
+  }
+}

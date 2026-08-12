@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg15491-images-3.pdf",
+  "format": "markdown",
+  "filename": "hooke-micrographia.md",
   "description": "Pioneering microscopic observations including the first use of the word 'cell'",
   "topics": [
     "natural-philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "renaissance-scientific-revolution",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

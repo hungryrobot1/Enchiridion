@@ -1,0 +1,17 @@
+{
+  "text_id": "galileo-starry-messenger",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "65d887d",
+  "session_id": "019ff68a-6aa6-7fc0-b75c-0f86b8b87ec5",
+  "started": "2026-08-12T15:14:54Z",
+  "finished": "2026-08-12T22:43:10Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-12T23:31:22Z",
+    "target": "texts/4-renaissance-scientific-revolution/galileo-starry-messenger/galileo-starry-messenger.md"
+  }
+}

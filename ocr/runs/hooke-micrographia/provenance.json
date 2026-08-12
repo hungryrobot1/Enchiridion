@@ -1,0 +1,17 @@
+{
+  "text_id": "hooke-micrographia",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "65d887d",
+  "session_id": "019ff68a-6856-7233-a516-19a2ebec6b9d",
+  "started": "2026-08-12T15:14:49Z",
+  "finished": "2026-08-12T22:49:07Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-12T23:31:19Z",
+    "target": "texts/4-renaissance-scientific-revolution/hooke-micrographia/hooke-micrographia.md"
+  }
+}

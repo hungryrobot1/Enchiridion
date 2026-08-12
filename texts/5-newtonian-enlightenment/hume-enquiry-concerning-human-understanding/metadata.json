@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg9662-images-3.pdf",
+  "format": "markdown",
+  "filename": "hume-enquiry-concerning-human-understanding.md",
   "description": "Empiricist investigation of causation, induction, and the limits of human knowledge",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

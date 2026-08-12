@@ -1,0 +1,721 @@
+
+ocr/runs/euler-elements-of-algebra/workspace/euler-elements-of-algebra.md
+  57:
+    - $$12 - 3 - 5 + 2 - 1$$ is the same as 5.
+    + $12 - 3 - 5 + 2 - 1$ is the same as 5.
+  61:
+    - 14. It will be perceived, from these examples, that the order in which we write the numbers is perfectly indifferent and arbitrary, provided the proper sign of each be preserved. We might with equal propriety have arranged the expression in the preceding article thus; $$12 + 2 - 5 - 3 - 1$$, or $$2 - 1 - 3 - 5 + 12$$, or $$2 + 12 - 3 - 1 - 5$$, or in still different orders; where it must be observed, that in the arrangement first proposed, the sign + is supposed to be placed before the number 12.
+    + 14. It will be perceived, from these examples, that the order in which we write the numbers is perfectly indifferent and arbitrary, provided the proper sign of each be preserved. We might with equal propriety have arranged the expression in the preceding article thus; $12 + 2 - 5 - 3 - 1$, or $2 - 1 - 3 - 5 + 12$, or $2 + 12 - 3 - 1 - 5$, or in still different orders; where it must be observed, that in the arrangement first proposed, the sign + is supposed to be placed before the number 12.
+  469:
+    - 4. Reduce $$\frac{x^2 - y^2}{x^4 - y^4}$$ to its lowest terms. Ans. $$\frac{1}{x^2 + y^2}$$.
+    + 4. Reduce $\frac{x^2 - y^2}{x^4 - y^4}$ to its lowest terms. Ans. $\frac{1}{x^2 + y^2}$.
+  471:
+    - 5. Reduce $$\frac{a^4 - x^4}{a^3 - a^2x - ax^2 + x^3}$$ to its lowest terms.
+    + 5. Reduce $\frac{a^4 - x^4}{a^3 - a^2x - ax^2 + x^3}$ to its lowest terms.
+  473:
+    - Ans. $$\frac{a^2 + x^2}{a - x}$$.
+    + Ans. $\frac{a^2 + x^2}{a - x}$.
+  475:
+    - 6. Reduce $$\frac{5a^5 + 10a^4x + 5a^3x^2}{a^3x + 2a^2x^3 + 2ax^3 + x^4}$$ to its lowest terms.
+    + 6. Reduce $\frac{5a^5 + 10a^4x + 5a^3x^2}{a^3x + 2a^2x^3 + 2ax^3 + x^4}$ to its lowest terms.
+  477:
+    - Ans. $$\frac{5a^4 + 5a^3x}{a^2x + ax^2 + x^3}$$.
+    + Ans. $\frac{5a^4 + 5a^3x}{a^2x + ax^2 + x^3}$.
+  483:
+    - 94. When fractions have equal denominators, there is no difficulty in adding and subtracting them; for $$\frac{2}{7} + \frac{3}{7}$$ is equal to $$\frac{3}{7}$$, and $$\frac{4}{7} - \frac{2}{7}$$ is equal to $$\frac{2}{7}$$. In this case, therefore, either for addition or subtraction, we alter only the numerators, and place the common denominator under the line, thus;
+    + 94. When fractions have equal denominators, there is no difficulty in adding and subtracting them; for $\frac{2}{7} + \frac{3}{7}$ is equal to $\frac{3}{7}$, and $\frac{4}{7} - \frac{2}{7}$ is equal to $\frac{2}{7}$. In this case, therefore, either for addition or subtraction, we alter only the numerators, and place the common denominator under the line, thus;
+  485:
+    - $$\frac{7}{100} + \frac{9}{100} - \frac{12}{100} - \frac{15}{100} + \frac{20}{100}$$ is equal to $$\frac{9}{100}$$;
+    + $\frac{7}{100} + \frac{9}{100} - \frac{12}{100} - \frac{15}{100} + \frac{20}{100}$ is equal to $\frac{9}{100}$;
+  487:
+    - $$\frac{24}{50} - \frac{7}{50} - \frac{12}{50} + \frac{31}{50}$$ is equal to $$\frac{36}{50}$$, or $$\frac{18}{25}$$;
+    + $\frac{24}{50} - \frac{7}{50} - \frac{12}{50} + \frac{31}{50}$ is equal to $\frac{36}{50}$, or $\frac{18}{25}$;
+  489:
+    - $$\frac{16}{20} - \frac{3}{20} - \frac{11}{20} + \frac{14}{20}$$ is equal to $$\frac{16}{20}$$, or $$\frac{4}{5}$$;
+    + $\frac{16}{20} - \frac{3}{20} - \frac{11}{20} + \frac{14}{20}$ is equal to $\frac{16}{20}$, or $\frac{4}{5}$;
+  491:
+    - also $$\frac{1}{2} + \frac{2}{3}$$ is equal to $$\frac{3}{3}$$, or 1, that is to say, an integer; and $$\frac{2}{4} - \frac{3}{4} + \frac{1}{4}$$ is equal to $$\frac{9}{4}$$, that is to say, nothing, or 0.
+    + also $\frac{1}{2} + \frac{2}{3}$ is equal to $\frac{3}{3}$, or 1, that is to say, an integer; and $\frac{2}{4} - \frac{3}{4} + \frac{1}{4}$ is equal to $\frac{9}{4}$, that is to say, nothing, or 0.
+  493:
+    - 95. But when fractions have not equal denominators, we can always change them into other fractions that have the same denominator. For example, when it is proposed to add together the fractions $$\frac{1}{2}$$ and $$\frac{1}{6}$$, we must consider that $$\frac{1}{2}$$ is the same as $$\frac{3}{6}$$, and that $$\frac{1}{6}$$ is equivalent to $$\frac{2}{6}$$; we have therefore, instead of the two fractions proposed, $$\frac{3}{6} + \frac{2}{6}$$, the sum of which is $$\frac{4}{6}$$. And if the two fractions were united by the sign minus, as $$\frac{1}{2} - \frac{1}{6}$$, we should have $$\frac{3}{6} - \frac{2}{6}$$, or $$\frac{1}{6}$$.
+    + 95. But when fractions have not equal denominators, we can always change them into other fractions that have the same denominator. For example, when it is proposed to add together the fractions $\frac{1}{2}$ and $\frac{1}{6}$, we must consider that $\frac{1}{2}$ is the same as $\frac{3}{6}$, and that $\frac{1}{6}$ is equivalent to $\frac{2}{6}$; we have therefore, instead of the two fractions proposed, $\frac{3}{6} + \frac{2}{6}$, the sum of which is $\frac{4}{6}$. And if the two fractions were united by the sign minus, as $\frac{1}{2} - \frac{1}{6}$, we should have $\frac{3}{6} - \frac{2}{6}$, or $\frac{1}{6}$.
+  495:
+    - As another example, let the fractions proposed be $$\frac{3}{4} + \frac{5}{6}$$. Here, since $$\frac{3}{4}$$ is the same as $$\frac{6}{6}$$, this value may be substituted for $$\frac{3}{4}$$, and we may then say $$\frac{6}{6} + \frac{5}{6}$$ makes $$\frac{11}{6}$$, or $$\frac{19}{6}$$.
+    + As another example, let the fractions proposed be $\frac{3}{4} + \frac{5}{6}$. Here, since $\frac{3}{4}$ is the same as $\frac{6}{6}$, this value may be substituted for $\frac{3}{4}$, and we may then say $\frac{6}{6} + \frac{5}{6}$ makes $\frac{11}{6}$, or $\frac{19}{6}$.
+  497:
+    - Suppose farther, that the sum of $$\frac{1}{6}$$ and $$\frac{1}{4}$$ were required, I say that it is $$\frac{7}{12}$$; for $$\frac{1}{3} = \frac{4}{12}$$, and $$\frac{1}{4} = \frac{3}{12}$$: therefore $$\frac{4}{12} + \frac{3}{12} = \frac{7}{12}$$.
+    + Suppose farther, that the sum of $\frac{1}{6}$ and $\frac{1}{4}$ were required, I say that it is $\frac{7}{12}$; for $\frac{1}{3} = \frac{4}{12}$, and $\frac{1}{4} = \frac{3}{12}$: therefore $\frac{4}{12} + \frac{3}{12} = \frac{7}{12}$.
+  685:
+    - The square of $$\left\{\begin{array}{l} \frac{1}{1} \\ \frac{2}{1} \\ \frac{1}{4} \\ \frac{3}{4} \end{array}\right\}$$ is $$\frac{1}{9};$$ $$\frac{4}{9};$$ $$\frac{1}{16};$$ $$\frac{9}{16}, \text{ \&c.}$$
+    + The square of $$\left\{\begin{array}{l} \frac{1}{1} \\ \frac{2}{1} \\ \frac{1}{4} \\ \frac{3}{4} \end{array}\right\}$$ is $\frac{1}{9};$ $\frac{4}{9};$ $\frac{1}{16};$ $\frac{9}{16}, \text{ \&c.}$
+  687:
+    - We have only therefore to divide the square of the numerator by the square of the denominator, and the fraction which expresses that division will be the square of the given fraction; thus, $$\frac{25}{64}$$ is the square of $$\frac{5}{8}$$; and reciprocally, $$\frac{5}{8}$$ is the root of $$\frac{25}{64}$$.
+    + We have only therefore to divide the square of the numerator by the square of the denominator, and the fraction which expresses that division will be the square of the given fraction; thus, $\frac{25}{64}$ is the square of $\frac{5}{8}$; and reciprocally, $\frac{5}{8}$ is the root of $\frac{25}{64}$.
+  689:
+    - 119. When the square of a mixed number, or a number composed of an integer and a fraction, is required, we have only to reduce it to a single fraction, and then take the square of that fraction. Let it be required, for example, to find the square of $$2\frac{1}{3}$$; we first express this mixed number by $$\frac{5}{2}$$, and taking the square of that fraction, we have $$\frac{25}{3}$$, or $$6\frac{1}{4}$$, for the value of the square of $$2\frac{1}{2}$$. Also to obtain the square of $$3\frac{1}{4}$$, we say $$3\frac{1}{2}$$ is equal to $$\frac{13}{4}$$; therefore its square is equal to $$\frac{169}{16}$$, or to $$10\frac{9}{16}$$. The squares of the numbers between 3 and 4, supposing them to increase by one fourth, are as follow:
+    + 119. When the square of a mixed number, or a number composed of an integer and a fraction, is required, we have only to reduce it to a single fraction, and then take the square of that fraction. Let it be required, for example, to find the square of $2\frac{1}{3}$; we first express this mixed number by $\frac{5}{2}$, and taking the square of that fraction, we have $\frac{25}{3}$, or $6\frac{1}{4}$, for the value of the square of $2\frac{1}{2}$. Also to obtain the square of $3\frac{1}{4}$, we say $3\frac{1}{2}$ is equal to $\frac{13}{4}$; therefore its square is equal to $\frac{169}{16}$, or to $10\frac{9}{16}$. The squares of the numbers between 3 and 4, supposing them to increase by one fourth, are as follow:
+  691:
+    - |  Numbers. | 3 | $$3\frac{1}{4}$$ | $$3\frac{1}{2}$$ | $$3\frac{3}{4}$$ | 4  |
+    + |  Numbers. | 3 | $3\frac{1}{4}$ | $3\frac{1}{2}$ | $3\frac{3}{4}$ | 4  |
+  693:
+    - |  Squares. | 9 | $$10\frac{9}{16}$$ | $$12\frac{1}{4}$$ | $$14\frac{1}{16}$$ | 16  |
+    + |  Squares. | 9 | $10\frac{9}{16}$ | $12\frac{1}{4}$ | $14\frac{1}{16}$ | 16  |
+  695:
+    - From this small Table we may infer, that if a root contain a fraction, its square also contains one. Let the root, for example, be $$1\frac{5}{12}$$; its square is $$\frac{259}{144}$$, or $$2\frac{1}{144}$$; that is to say, a little greater than the integer 2.
+    + From this small Table we may infer, that if a root contain a fraction, its square also contains one. Let the root, for example, be $1\frac{5}{12}$; its square is $\frac{259}{144}$, or $2\frac{1}{144}$; that is to say, a little greater than the integer 2.
+  697:
+    - 120. Let us now proceed to general expressions. First, when the root is $$a$$, the square must be $$aa$$; if the root be $$2a$$, the square is $$4aa$$; which shews that by doubling the root, the square becomes 4 times greater; also, if the root be $$3a$$, the square is $$9aa$$; and if the root be $$4a$$, the square is $$16aa$$. Farther, if the root be $$ab$$, the square is $$aabb$$; and if the root be $$abc$$, the square is $$aabbcc$$; or $$a'b'c^2$$.
+    + 120. Let us now proceed to general expressions. First, when the root is $a$, the square must be $aa$; if the root be $2a$, the square is $4aa$; which shews that by doubling the root, the square becomes 4 times greater; also, if the root be $3a$, the square is $9aa$; and if the root be $4a$, the square is $16aa$. Farther, if the root be $ab$, the square is $aabb$; and if the root be $abc$, the square is $aabbcc$; or $a'b'c^2$.
+  699:
+    - 121. Thus, when the root is composed of two, or more factors, we multiply their squares together; and, reciprocally, if a square be composed of two, or more factors, of which each is a square, we have only to multiply together the roots of those squares, to obtain the complete root of the square proposed. Thus, 2304 is equal to $$4 \times 16 \times 36$$, the square root of which is $$2 \times 4 \times 6$$, or 48; and 48 is found to be the true square root of 2304, because $$48 \times 48$$ gives 2304.
+    + 121. Thus, when the root is composed of two, or more factors, we multiply their squares together; and, reciprocally, if a square be composed of two, or more factors, of which each is a square, we have only to multiply together the roots of those squares, to obtain the complete root of the square proposed. Thus, 2304 is equal to $4 \times 16 \times 36$, the square root of which is $2 \times 4 \times 6$, or 48; and 48 is found to be the true square root of 2304, because $48 \times 48$ gives 2304.
+  1446:
+    - or barely, $$(a - b + c) \quad (d - e + f)$$
+    + or barely, $(a - b + c) \quad (d - e + f)$
+  1488:
+    - Product $$a^2 - b^2$$.
+    + Product $a^2 - b^2$.
+  1806:
+    - or, $$1 - a) 1 * (1 + a + \frac{a^2}{1 - a}$$
+    + or, $1 - a) 1 * (1 + a + \frac{a^2}{1 - a}$
+  1935:
+    - 304. When there are more than two terms in the divisor, we may also continue the division to infinity in the same manner. Thus, if the fraction $$\frac{1}{1-a+a^2}$$ were proposed, the infinite series, to which it is equal, will be found as follows:
+    + 304. When there are more than two terms in the divisor, we may also continue the division to infinity in the same manner. Thus, if the fraction $\frac{1}{1-a+a^2}$ were proposed, the infinite series, to which it is equal, will be found as follows:
+  1965:
+    - $$\frac{1}{1-a+a^2} = 1+a-a^3-a^4+a^6+a^7, \text{ \&c.};$$ where, if we make $$a=1$$, we have $$1=1+1-1-1+1+1-1-1$$, \&c. which series contains twice the series found above $$1-1+1-1+1$$, \&c. Now, as we have found this to be $$\frac{1}{2}$$, it is not extraordinary that we should find $$\frac{2}{2}$$, or 1, for the value of that which we have just determined.
+    + $\frac{1}{1-a+a^2} = 1+a-a^3-a^4+a^6+a^7, \text{ \&c.};$ where, if we make $a=1$, we have $1=1+1-1-1+1+1-1-1$, \&c. which series contains twice the series found above $1-1+1-1+1$, \&c. Now, as we have found this to be $\frac{1}{2}$, it is not extraordinary that we should find $\frac{2}{2}$, or 1, for the value of that which we have just determined.
+  1967:
+    - By making $$a=\frac{1}{2}$$, we shall have the equation $$\frac{1}{\frac{3}{4}} = \frac{4}{3} = 1+\frac{1}{2}-\frac{1}{3}-\frac{1}{16}+\frac{1}{64}+\frac{1}{128}-\frac{1}{512}$$, \&c.
+    + By making $a=\frac{1}{2}$, we shall have the equation $\frac{1}{\frac{3}{4}} = \frac{4}{3} = 1+\frac{1}{2}-\frac{1}{3}-\frac{1}{16}+\frac{1}{64}+\frac{1}{128}-\frac{1}{512}$, \&c.
+  1969:
+    - If $$a=\frac{1}{3}$$, we shall have the equation $$\frac{1}{\frac{7}{9}} = \frac{9}{7} = 1+\frac{1}{3}-\frac{1}{27}-\frac{1}{81}+\frac{1}{729}$$, \&c. and if we take the four leading terms of this series, we have $$\frac{104}{81}$$, which is only $$\frac{1}{167}$$ less than $$\frac{9}{7}$$.
+    + If $a=\frac{1}{3}$, we shall have the equation $\frac{1}{\frac{7}{9}} = \frac{9}{7} = 1+\frac{1}{3}-\frac{1}{27}-\frac{1}{81}+\frac{1}{729}$, \&c. and if we take the four leading terms of this series, we have $\frac{104}{81}$, which is only $\frac{1}{167}$ less than $\frac{9}{7}$.
+  1971:
+    - Suppose again $$a=\frac{2}{3}$$, we shall have $$\frac{1}{\frac{7}{9}} = \frac{9}{7} = 1+\frac{2}{3}-\frac{8}{27}-\frac{16}{81}+\frac{64}{729}$$, \&c. This series is therefore equal to the preceding one; and, by subtracting the one from the other, we obtain $$\frac{1}{3}-\frac{7}{27}-\frac{15}{81}+\frac{61}{729}$$, \&c. which is necessarily $$=0$$.
+    + Suppose again $a=\frac{2}{3}$, we shall have $\frac{1}{\frac{7}{9}} = \frac{9}{7} = 1+\frac{2}{3}-\frac{8}{27}-\frac{16}{81}+\frac{64}{729}$, \&c. This series is therefore equal to the preceding one; and, by subtracting the one from the other, we obtain $\frac{1}{3}-\frac{7}{27}-\frac{15}{81}+\frac{61}{729}$, \&c. which is necessarily $=0$.
+  1977:
+    - 1. Resolve $$\frac{ax}{a-x}$$ into an infinite series.
+    + 1. Resolve $\frac{ax}{a-x}$ into an infinite series.
+  1981:
+    - 2. Resolve $$\frac{b}{a+x}$$ into an infinite series.
+    + 2. Resolve $\frac{b}{a+x}$ into an infinite series.
+  1985:
+    - 3. Resolve $$\frac{a^2}{x+b}$$ into an infinite series.
+    + 3. Resolve $\frac{a^2}{x+b}$ into an infinite series.
+  1989:
+    - 4. Resolve $$\frac{1+x}{1-x}$$ into an infinite series.
+    + 4. Resolve $\frac{1+x}{1-x}$ into an infinite series.
+  1993:
+    - 5. Resolve $$\frac{a^2}{(a+x)^2}$$ into an infinite series.
+    + 5. Resolve $\frac{a^2}{(a+x)^2}$ into an infinite series.
+  2003:
+    - For example, the square of $$a + b$$ is found in the following manner:
+    + For example, the square of $a + b$ is found in the following manner:
+  2426:
+    - 340. After squares and cubes, we must consider higher powers, or powers of a greater number of degrees; which are generally represented by exponents in the manner before explained: we have only to remember, when the root is compound, to enclose it in a parenthesis: thus, $$(a + b)^5$$ means that $$a + b$$ is raised to the fifth power, and $$(a - b)^6$$ represents the sixth power of $$a - b$$, and so on. We shall in this chapter explain the nature of these powers.
+    + 340. After squares and cubes, we must consider higher powers, or powers of a greater number of degrees; which are generally represented by exponents in the manner before explained: we have only to remember, when the root is compound, to enclose it in a parenthesis: thus, $(a + b)^5$ means that $a + b$ is raised to the fifth power, and $(a - b)^6$ represents the sixth power of $a - b$, and so on. We shall in this chapter explain the nature of these powers.
+  2428:
+    - 341. Let $$a + b$$ be the root, or the first power, and the higher powers will be found, by multiplication, in the following manner:
+    + 341. Let $a + b$ be the root, or the first power, and the higher powers will be found, by multiplication, in the following manner:
+  2670:
+    - It is easy therefore to find how many transpositions the letters aaabbe, for example, may undergo. They are in number 6, and consequently, if they were all different, they would admit of 6 . 5 . 4 . 3 . 2 . 1 transpositions; but since a is found thrice in those letters, we must divide that number of transpositions by 3 . 2 . 1; and since b occurs twice, we must again divide it by 2 . 1: the number of transpositions required will therefore be $$\frac{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{3 \cdot 2 \cdot 1 \cdot 2 \cdot 1} = 5 \cdot 4 \cdot 3 = 60.$$
+    + It is easy therefore to find how many transpositions the letters aaabbe, for example, may undergo. They are in number 6, and consequently, if they were all different, they would admit of 6 . 5 . 4 . 3 . 2 . 1 transpositions; but since a is found thrice in those letters, we must divide that number of transpositions by 3 . 2 . 1; and since b occurs twice, we must again divide it by 2 . 1: the number of transpositions required will therefore be $\frac{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{3 \cdot 2 \cdot 1 \cdot 2 \cdot 1} = 5 \cdot 4 \cdot 3 = 60.$
+  2672:
+    - 359. We may now readily determine the coefficients of all the terms of any power; as for example of the seventh power, $$(a + b)^7$$.
+    + 359. We may now readily determine the coefficients of all the terms of any power; as for example of the seventh power, $(a + b)^7$.
+  2674:
+    - The first term is $$a^7$$, which occurs only once; and as all the other terms have each seven letters, it follows that the number of transpositions for each term would be $$7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$$, if all the letters were different; but since in the second term, $$a^6b$$, we find six letters alike, we must divide the above product by $$6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$$, whence it follows that the coefficient is $$\frac{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = \frac{7}{1}$$, or 7.
+    + The first term is $a^7$, which occurs only once; and as all the other terms have each seven letters, it follows that the number of transpositions for each term would be $7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$, if all the letters were different; but since in the second term, $a^6b$, we find six letters alike, we must divide the above product by $6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$, whence it follows that the coefficient is $\frac{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1} = \frac{7}{1}$, or 7.
+  2676:
+    - In the third term, $$a^5b^2$$, we find the same letter $$a$$ five times, and the same letter $$b$$ twice; we must therefore divide that number first by $$5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$$, and then by $$2 \cdot 1$$; whence results the coefficient $$\frac{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 \cdot 2 \cdot 1} = \frac{7 \cdot 6}{1 \cdot 2} = 21.$$
+    + In the third term, $a^5b^2$, we find the same letter $a$ five times, and the same letter $b$ twice; we must therefore divide that number first by $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1$, and then by $2 \cdot 1$; whence results the coefficient $\frac{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 \cdot 2 \cdot 1} = \frac{7 \cdot 6}{1 \cdot 2} = 21.$
+  2678:
+    - The fourth term $$a^4b^3$$ contains the letter $$a$$ four times, and the letter $$b$$ thrice; consequently, the whole number of the transpositions of the seven letters, must be divided, in the first place, by $$4 \cdot 3 \cdot 2 \cdot 1$$, and secondly, by $$3 \cdot 2 \cdot 1$$, and the coefficient becomes $$= \frac{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{4 \cdot 3 \cdot 2 \cdot 1 \cdot 3 \cdot 2 \cdot 1} = \frac{7 \cdot 6 \cdot 5}{1 \cdot 2 \cdot 3}.$$
+    + The fourth term $a^4b^3$ contains the letter $a$ four times, and the letter $b$ thrice; consequently, the whole number of the transpositions of the seven letters, must be divided, in the first place, by $4 \cdot 3 \cdot 2 \cdot 1$, and secondly, by $3 \cdot 2 \cdot 1$, and the coefficient becomes $= \frac{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1}{4 \cdot 3 \cdot 2 \cdot 1 \cdot 3 \cdot 2 \cdot 1} = \frac{7 \cdot 6 \cdot 5}{1 \cdot 2 \cdot 3}.$
+  2680:
+    - In the same manner, we find $$\frac{7 \cdot 6 \cdot 5 \cdot 4}{1 \cdot 2 \cdot 3 \cdot 4}$$ for the coefficient of the fifth term, and so of the rest; by which the rule before given is demonstrated .
+    + In the same manner, we find $\frac{7 \cdot 6 \cdot 5 \cdot 4}{1 \cdot 2 \cdot 3 \cdot 4}$ for the coefficient of the fifth term, and so of the rest; by which the rule before given is demonstrated .
+  3148:
+    - 433. It follows from this, that if we make the side n, the pentagonal number will be $$\frac{3n^2 - n}{2} = \frac{n(3n - 1)}{2}$$.
+    + 433. It follows from this, that if we make the side n, the pentagonal number will be $\frac{3n^2 - n}{2} = \frac{n(3n - 1)}{2}$.
+  3162:
+    - 435. So that when the side is n, the hexagonal number is $$2n^2 - n = n(2n - 1)$$; and we have farther to remark, that all the hexagonal numbers are also triangular; since, if we take of these last the first, the third, the fifth, &c. we have precisely the series of hexagons.
+    + 435. So that when the side is n, the hexagonal number is $2n^2 - n = n(2n - 1)$; and we have farther to remark, that all the hexagonal numbers are also triangular; since, if we take of these last the first, the third, the fifth, &c. we have precisely the series of hexagons.
+  3178:
+    - VIII-gon - $$\frac{6n^2 - 4n}{2} = 3n^2 - 2n = n(3n - 2).$$
+    + VIII-gon - $\frac{6n^2 - 4n}{2} = 3n^2 - 2n = n(3n - 2).$
+  3180:
+    - IX-gon - $$\frac{7n^2 - 5n}{2} = \frac{n(7n - 5)}{2}.$$
+    + IX-gon - $\frac{7n^2 - 5n}{2} = \frac{n(7n - 5)}{2}.$
+  3182:
+    - X-gon - $$\frac{8n^2 - 6n}{2} = 4n^2 - 3n = n(4n - 3).$$
+    + X-gon - $\frac{8n^2 - 6n}{2} = 4n^2 - 3n = n(4n - 3).$
+  3184:
+    - XI-gon - $$\frac{9n^2 - 7n}{2} = \frac{n(9n - 7)}{2}.$$
+    + XI-gon - $\frac{9n^2 - 7n}{2} = \frac{n(9n - 7)}{2}.$
+  3186:
+    - XII-gon - $$\frac{10n^2 - 8n}{2} = 5n^2 - 4n = n(5n - 4).$$
+    + XII-gon - $\frac{10n^2 - 8n}{2} = 5n^2 - 4n = n(5n - 4).$
+  3188:
+    - XX-gon - $$\frac{18n^2 - 16n}{2} = 9n^2 - 8n = n(9n - 8).$$
+    + XX-gon - $\frac{18n^2 - 16n}{2} = 9n^2 - 8n = n(9n - 8).$
+  3190:
+    - XXV-gon $$\frac{23n^2 - 21n}{2} = \frac{n(23n - 21)}{2}.$$
+    + XXV-gon $\frac{23n^2 - 21n}{2} = \frac{n(23n - 21)}{2}.$
+  3194:
+    - 437. So that the side being $n$, the $m$-gonal number will be represented by $$\frac{(m-2)n^2 - (m-4)n}{2}$$; whence we may deduce all the possible polygonal numbers which have the side $n$. Thus, for example, if the bigonal numbers were required, we should have $m = 2$, and consequently the number sought $= n$; that is to say, the bigonal numbers are the natural numbers, 1, 2, 3, &c. 
+    + 437. So that the side being $n$, the $m$-gonal number will be represented by $\frac{(m-2)n^2 - (m-4)n}{2}$; whence we may deduce all the possible polygonal numbers which have the side $n$. Thus, for example, if the bigonal numbers were required, we should have $m = 2$, and consequently the number sought $= n$; that is to say, the bigonal numbers are the natural numbers, 1, 2, 3, &c. 
+  3196:
+    - If we make $m = 3$, we have $$\frac{n^2 + n}{2}$$ for the triangular number required.
+    + If we make $m = 3$, we have $\frac{n^2 + n}{2}$ for the triangular number required.
+  3212:
+    - 441. We have here three things to consider; 1st, the first of the two given numbers, which is called the antecedent; 2dly, the other number, which is called the consequent; 3dly, the ratio of the two numbers, or the quotient arising from the division of the antecedent by the consequent. For example, if the relation of the numbers 18 and 12 be required, 18 is the antecedent, 12 is the consequent, and the ratio will be $$\frac{18}{12} = 1\frac{1}{2}$$; whence we see that the antecedent contains the consequent once and a half.
+    + 441. We have here three things to consider; 1st, the first of the two given numbers, which is called the antecedent; 2dly, the other number, which is called the consequent; 3dly, the ratio of the two numbers, or the quotient arising from the division of the antecedent by the consequent. For example, if the relation of the numbers 18 and 12 be required, 18 is the antecedent, 12 is the consequent, and the ratio will be $\frac{18}{12} = 1\frac{1}{2}$; whence we see that the antecedent contains the consequent once and a half.
+  3218:
+    - 443. Relation therefore is expressed by a fraction, whose numerator is the antecedent, and whose denominator is the consequent; but perspicuity requires that this fraction should be always reduced to its lowest terms: which is done, as we have already shewn, by dividing both the numerator and denominator by their greatest common divisor. Thus, the fraction $$\frac{18}{12}$$ becomes $$\frac{3}{2}$$, by dividing both terms by 6.
+    + 443. Relation therefore is expressed by a fraction, whose numerator is the antecedent, and whose denominator is the consequent; but perspicuity requires that this fraction should be always reduced to its lowest terms: which is done, as we have already shewn, by dividing both the numerator and denominator by their greatest common divisor. Thus, the fraction $\frac{18}{12}$ becomes $\frac{3}{2}$, by dividing both terms by 6.
+  4118:
+    - Let the present principal be $a$, and since a principal of 20l. amounts to 21l. at the end of a year, the principal $a$ will amount to $\frac{21}{20} \cdot a$ at the end of a year: and the same principal will amount, the following year, to $\frac{21^2}{20^2} \cdot a = (\frac{21}{20})^2 \cdot a$. Also, this principal of two years will amount to $(\frac{21}{20})^3 \cdot a$, the year after: which will therefore be the principal of three years; and still increasing in the same manner, the given principal will amount to $$(\frac{21}{20})^4 \cdot a$$ at the end of four years; to $$(\frac{21}{20})^5 \cdot a$$, at the end of five years; and after a century, it will amount to $$(\frac{21}{20})^{100} \cdot a$$; so that, in general, $$(\frac{21}{20})^6 \cdot a$$ will be the amount of this principal, after $$n$$ years; and this formula will serve to determine the amount of the principal, after any number of years.
+    + Let the present principal be $a$, and since a principal of 20l. amounts to 21l. at the end of a year, the principal $a$ will amount to $\frac{21}{20} \cdot a$ at the end of a year: and the same principal will amount, the following year, to $\frac{21^2}{20^2} \cdot a = (\frac{21}{20})^2 \cdot a$. Also, this principal of two years will amount to $(\frac{21}{20})^3 \cdot a$, the year after: which will therefore be the principal of three years; and still increasing in the same manner, the given principal will amount to $(\frac{21}{20})^4 \cdot a$ at the end of four years; to $(\frac{21}{20})^5 \cdot a$, at the end of five years; and after a century, it will amount to $(\frac{21}{20})^{100} \cdot a$; so that, in general, $(\frac{21}{20})^6 \cdot a$ will be the amount of this principal, after $n$ years; and this formula will serve to determine the amount of the principal, after any number of years.
+  4120:
+    - 545. The fraction $$\frac{21}{20}$$, which is used in this calculation, depends on the interest having been reckoned at 5 per cent., and on $$\frac{21}{20}$$ being equal to $$\frac{105}{100}$$. But if the interest were estimated at 6 per cent, the principal $$a$$ would amount to $$\frac{106}{100} \cdot a$$, at the end of a year; to $$(\frac{106}{100})^3 \cdot a$$, at the end of two years; and to $$\frac{106}{100}^n \cdot a$$, at the end of $$n$$ years.
+    + 545. The fraction $\frac{21}{20}$, which is used in this calculation, depends on the interest having been reckoned at 5 per cent., and on $\frac{21}{20}$ being equal to $\frac{105}{100}$. But if the interest were estimated at 6 per cent, the principal $a$ would amount to $\frac{106}{100} \cdot a$, at the end of a year; to $(\frac{106}{100})^3 \cdot a$, at the end of two years; and to $\frac{106}{100}^n \cdot a$, at the end of $n$ years.
+  4122:
+    - If the interest is only at 4 per cent. the principal $$a$$ will amount only to $$(\frac{104}{100})^n \cdot a$$, after $$n$$ years.
+    + If the interest is only at 4 per cent. the principal $a$ will amount only to $(\frac{104}{100})^n \cdot a$, after $n$ years.
+  4124:
+    - 546. When the principal $$a$$, as well as the number of years, is given, it is easy to resolve these formulae by logarithms. For if the question be according to our first supposition, we shall take the logarithm of $$(\frac{21}{20})^n \cdot a$$, which is $$= \log. (\frac{21}{20})^n + \log. a$$; because the given formula is the product of $$(\frac{21}{20})^n$$ and $$a$$. Also, as $$(\frac{21}{20})^n$$ is a power, we shall have $$\log. (\frac{21}{20})^n = n \log. \frac{21}{20}$$: so that the logarithm of the amount required is $$n \log. \frac{21}{20} + \log. a$$; and farther, the logarithm of the fraction $$\frac{21}{20} = \log. 21 - \log. 20$$.
+    + 546. When the principal $a$, as well as the number of years, is given, it is easy to resolve these formulae by logarithms. For if the question be according to our first supposition, we shall take the logarithm of $(\frac{21}{20})^n \cdot a$, which is $= \log. (\frac{21}{20})^n + \log. a$; because the given formula is the product of $(\frac{21}{20})^n$ and $a$. Also, as $(\frac{21}{20})^n$ is a power, we shall have $\log. (\frac{21}{20})^n = n \log. \frac{21}{20}$: so that the logarithm of the amount required is $n \log. \frac{21}{20} + \log. a$; and farther, the logarithm of the fraction $\frac{21}{20} = \log. 21 - \log. 20$.
+  4128:
+    - Here we have $$n = 100$$; and, consequently, the logarithm of the amount required will be $$100 \log. \frac{21}{20} + \log. 1000$$, which is calculated thus:
+    + Here we have $n = 100$; and, consequently, the logarithm of the amount required will be $100 \log. \frac{21}{20} + \log. 1000$, which is calculated thus:
+  4192:
+    - after 3 years, $(\frac{21}{20})^3a + (\frac{21}{20})^2b + \frac{21}{20}b + b$, after 4 years, $$(\frac{21}{20})^4 a + (\frac{21}{20})^3 b + (\frac{21}{20})^2 b + \frac{21}{20} b + b,$$ after $$n$$ years, $$(\frac{21}{20})^n a + (\frac{21}{20})^{n-1} b + (\frac{21}{20})^{n-2} b + \frac{21}{20} b,$$ &c.
+    + after 3 years, $(\frac{21}{20})^3a + (\frac{21}{20})^2b + \frac{21}{20}b + b$, after 4 years, $(\frac{21}{20})^4 a + (\frac{21}{20})^3 b + (\frac{21}{20})^2 b + \frac{21}{20} b + b,$ after $n$ years, $(\frac{21}{20})^n a + (\frac{21}{20})^{n-1} b + (\frac{21}{20})^{n-2} b + \frac{21}{20} b,$ &c.
+  4194:
+    - This amount evidently consists of two parts, of which the first is $$(\frac{21}{20})^n a$$; and the other, taken inversely, forms the series $$b + \frac{21}{20} b + (\frac{21}{20})^2 b + (\frac{21}{20})^3 b + \dots, (\frac{21}{20})^{n-1} b$$; which series is evidently a geometrical progression, the ratio of which is equal to $$\frac{21}{20}$$, and we shall therefore find its sum, by first multiplying the last term $$(\frac{21}{20})^{n-1} b$$ by the exponent $$\frac{21}{20}$$; which gives $$(\frac{21}{20})^n b$$. Then, subtracting the first term $$b$$, there remains $$(\frac{21}{20})^n b - b$$; and, lastly, dividing by the exponent minus 1, that is to say by $$\frac{1}{20}$$, we shall find the sum required to be $$20(\frac{21}{20})^n b - 20b$$; therefore the amount sought is, $$(\frac{21}{20})^n a + 20(\frac{21}{20})^n b - 20b = (\frac{21}{20})^n \times (a + 20b) - 20b$$.
+    + This amount evidently consists of two parts, of which the first is $(\frac{21}{20})^n a$; and the other, taken inversely, forms the series $b + \frac{21}{20} b + (\frac{21}{20})^2 b + (\frac{21}{20})^3 b + \dots, (\frac{21}{20})^{n-1} b$; which series is evidently a geometrical progression, the ratio of which is equal to $\frac{21}{20}$, and we shall therefore find its sum, by first multiplying the last term $(\frac{21}{20})^{n-1} b$ by the exponent $\frac{21}{20}$; which gives $(\frac{21}{20})^n b$. Then, subtracting the first term $b$, there remains $(\frac{21}{20})^n b - b$; and, lastly, dividing by the exponent minus 1, that is to say by $\frac{1}{20}$, we shall find the sum required to be $20(\frac{21}{20})^n b - 20b$; therefore the amount sought is, $(\frac{21}{20})^n a + 20(\frac{21}{20})^n b - 20b = (\frac{21}{20})^n \times (a + 20b) - 20b$.
+  4196:
+    - 551. The resolution of this formula requires us to calculate, separately, its first term $$(\frac{21}{20})^n \times (a + 20b)$$, which is $$n \log. \frac{21}{20} + \log. (a + 20b)$$; for the number which answers to this logarithm in the Tables will be the first term; and if from this we subtract $$20b$$, we shall have the amount sought.
+    + 551. The resolution of this formula requires us to calculate, separately, its first term $(\frac{21}{20})^n \times (a + 20b)$, which is $n \log. \frac{21}{20} + \log. (a + 20b)$; for the number which answers to this logarithm in the Tables will be the first term; and if from this we subtract $20b$, we shall have the amount sought.
+  4200:
+    - We have here $$a = 1000$$; $$b = 100$$; $$n = 25$$; the operation is therefore as follows:
+    + We have here $a = 1000$; $b = 100$; $n = 25$; the operation is therefore as follows:
+  4210:
+    - And the sum $$= 4.0068537885$$.
+    + And the sum $= 4.0068537885$.
+  4212:
+    - So that the first part, or the number which answers to this logarithm, is 10159·1, and if we subtract $$20b = 2000$$, we find that the principal in question, after twenty-five years, will amount to 8159·1l.
+    + So that the first part, or the number which answers to this logarithm, is 10159·1, and if we subtract $20b = 2000$, we find that the principal in question, after twenty-five years, will amount to 8159·1l.
+  4214:
+    - 553. Since then this principal of 1000l. is always increasing, and after twenty-five years amounts to $$8159 \frac{1}{10} l$$, we may require, in how many years it will amount to 1000000l.
+    + 553. Since then this principal of 1000l. is always increasing, and after twenty-five years amounts to $8159 \frac{1}{10} l$, we may require, in how many years it will amount to 1000000l.
+  4216:
+    - Let $$n$$ be the number of years required: and, since $$a = 1000$$, $$b = 100$$, the principal will be, at the end of $$n$$ years, $$(\frac{21}{20})^n \cdot (3000) - 2000$$, which sum must make 1000000; from it therefore results this equation;
+    + Let $n$ be the number of years required: and, since $a = 1000$, $b = 100$, the principal will be, at the end of $n$ years, $(\frac{21}{20})^n \cdot (3000) - 2000$, which sum must make 1000000; from it therefore results this equation;
+  4224:
+    - Then dividing both sides by 3000, we have $$(\frac{2}{20})^n = 334$$.
+    + Then dividing both sides by 3000, we have $(\frac{2}{20})^n = 334$.
+  4226:
+    - Taking the logarithms, $$n \log. \frac{2}{20} = \log. 334$$; and dividing by $$\log. \frac{2}{20}$$, we obtain $$n = \frac{\log. 334}{\log. \frac{2}{20}}$$. Now, $$\log. 334 = 2.5237465$$, and $$\log. \frac{2}{20} = 0.0211893$$; therefore $$n = 2.5237465$$; and, lastly, if we multiply the two terms of this fraction by 10000000, we shall have $$n = \frac{2.5237465}{0.0211893} = 119$$ years, 1 month, 7 days; and this is the time, in which the principal of 1000l. will be increased to 1000000l.
+    + Taking the logarithms, $n \log. \frac{2}{20} = \log. 334$; and dividing by $\log. \frac{2}{20}$, we obtain $n = \frac{\log. 334}{\log. \frac{2}{20}}$. Now, $\log. 334 = 2.5237465$, and $\log. \frac{2}{20} = 0.0211893$; therefore $n = 2.5237465$; and, lastly, if we multiply the two terms of this fraction by 10000000, we shall have $n = \frac{2.5237465}{0.0211893} = 119$ years, 1 month, 7 days; and this is the time, in which the principal of 1000l. will be increased to 1000000l.
+  4230:
+    - after 1 year, it would be $$\frac{2}{20}a - b$$,
+    + after 1 year, it would be $\frac{2}{20}a - b$,
+  4232:
+    - after 2 years, $$(\frac{2}{20})^2a - \frac{2}{20}b - b$$,
+    + after 2 years, $(\frac{2}{20})^2a - \frac{2}{20}b - b$,
+  4234:
+    - after 3 years, $$(\frac{2}{20})^3a - (\frac{2}{20})^2b - \frac{2}{20}b - b$$,
+    + after 3 years, $(\frac{2}{20})^3a - (\frac{2}{20})^2b - \frac{2}{20}b - b$,
+  4236:
+    - after n years, $$(\frac{2}{20})^n a - (\frac{2}{20})^{n-1}b - (\frac{2}{20})^{n-2}b \dots - (\frac{2}{20})b - b$$.
+    + after n years, $(\frac{2}{20})^n a - (\frac{2}{20})^{n-1}b - (\frac{2}{20})^{n-2}b \dots - (\frac{2}{20})b - b$.
+  4238:
+    - 555. This principal consists of two parts, one of which is $$(\frac{2}{20})^n \cdot a$$, and the other, which must be subtracted from it, taking the terms inversely, forms the following geometrical progression:
+    + 555. This principal consists of two parts, one of which is $(\frac{2}{20})^n \cdot a$, and the other, which must be subtracted from it, taking the terms inversely, forms the following geometrical progression:
+  4242:
+    - Now we have already found (Art. 550.) that the sum of this progression is $$20(\frac{2}{20})^n b - 20b$$; if, therefore, we subtract this quantity from $$(\frac{2}{20})^n \cdot a$$, we shall have for the principal required, after n years =
+    + Now we have already found (Art. 550.) that the sum of this progression is $20(\frac{2}{20})^n b - 20b$; if, therefore, we subtract this quantity from $(\frac{2}{20})^n \cdot a$, we shall have for the principal required, after n years =
+  4434:
+    - $$\frac{ax}{b} = c$$, we first multiply by $$b$$, in order to have $$ax = bc$$, and then dividing by $$a$$, we find $$x = \frac{bc}{a}$$.
+    + $\frac{ax}{b} = c$, we first multiply by $b$, in order to have $ax = bc$, and then dividing by $a$, we find $x = \frac{bc}{a}$.
+  4436:
+    - If $$\frac{ax}{b} - c = d$$, we begin by giving the equation this form $$\frac{ax}{b} = d + c$$; after which we obtain the value of $$ax = bd + bc$$, and then that of $$x = \frac{bd + bc}{a}$$.
+    + If $\frac{ax}{b} - c = d$, we begin by giving the equation this form $\frac{ax}{b} = d + c$; after which we obtain the value of $ax = bd + bc$, and then that of $x = \frac{bd + bc}{a}$.
+  4438:
+    - Let $$\frac{2}{3}x - 4 = 1$$, then $$\frac{2}{3}x = 5$$, and $$2x = 15$$; whence $$x = \frac{15}{2} = 7\frac{1}{2}$$.
+    + Let $\frac{2}{3}x - 4 = 1$, then $\frac{2}{3}x = 5$, and $2x = 15$; whence $x = \frac{15}{2} = 7\frac{1}{2}$.
+  4440:
+    - If $$\frac{4}{3}x + \frac{1}{2} = 5$$, we have $$\frac{4}{3}x = 5 - \frac{1}{2} = \frac{9}{2}$$; whence $$3x = 18$$, and $$x = 6$$.
+    + If $\frac{4}{3}x + \frac{1}{2} = 5$, we have $\frac{4}{3}x = 5 - \frac{1}{2} = \frac{9}{2}$; whence $3x = 18$, and $x = 6$.
+  4442:
+    - 580. Let us now consider a case, which may frequently occur; that is, when two or more terms contain the letter $$x$$, either on one side of the equation, or on both.
+    + 580. Let us now consider a case, which may frequently occur; that is, when two or more terms contain the letter $x$, either on one side of the equation, or on both.
+  4444:
+    - If those terms are all on the same side, as in the equation $$x + \frac{1}{2}x + 5 = 11$$, we have $$x + \frac{1}{2}x = 6$$; or $$3x = 12$$; and lastly, $$x = 4$$.
+    + If those terms are all on the same side, as in the equation $x + \frac{1}{2}x + 5 = 11$, we have $x + \frac{1}{2}x = 6$; or $3x = 12$; and lastly, $x = 4$.
+  4446:
+    - Let $$x + \frac{1}{4}x + \frac{1}{3}x = 44$$, be an equation, in which the value of $$x$$ is required. If we first multiply by 3, we have $$4x + \frac{1}{2}x = 132$$; then multiplying by 2, we have $$11x = 264$$; wherefore $$x = 24$$. We might have proceeded in a more concise manner, by beginning with the reduction of the three terms which contain $$x$$ to the single term $$\frac{11}{6}x$$; and then dividing the equation $$\frac{11}{6}x = 44$$ by 11. This would have given $$\frac{1}{6}x = 4$$, and $$x = 24$$, as before.
+    + Let $x + \frac{1}{4}x + \frac{1}{3}x = 44$, be an equation, in which the value of $x$ is required. If we first multiply by 3, we have $4x + \frac{1}{2}x = 132$; then multiplying by 2, we have $11x = 264$; wherefore $x = 24$. We might have proceeded in a more concise manner, by beginning with the reduction of the three terms which contain $x$ to the single term $\frac{11}{6}x$; and then dividing the equation $\frac{11}{6}x = 44$ by 11. This would have given $\frac{1}{6}x = 4$, and $x = 24$, as before.
+  4448:
+    - Let $$\frac{2}{3}x - \frac{1}{4}x + \frac{1}{2}x = 1$$. We shall have, by reduction, $$\frac{5}{12}x = 1$$, $$5x = 12$$, and $$x = 2\frac{1}{2}$$.
+    + Let $\frac{2}{3}x - \frac{1}{4}x + \frac{1}{2}x = 1$. We shall have, by reduction, $\frac{5}{12}x = 1$, $5x = 12$, and $x = 2\frac{1}{2}$.
+  4450:
+    - And, generally, let $$ax - bx + cx = d$$; which is the same as $$(a - b + c)x = d$$, and, by division, we derive $$x =$$
+    + And, generally, let $ax - bx + cx = d$; which is the same as $(a - b + c)x = d$, and, by division, we derive $x =$
+  4452:
+    - $$\frac{d}{a - b + c}$$.
+    + $\frac{d}{a - b + c}$.
+  4454:
+    - 581. When there are terms containing $$x$$ on both sides of the equation, we begin by making such terms vanish from that side from which it is most easily expunged; that is to say, in which there are the fewest terms so involved.
+    + 581. When there are terms containing $x$ on both sides of the equation, we begin by making such terms vanish from that side from which it is most easily expunged; that is to say, in which there are the fewest terms so involved.
+  4456:
+    - If we have, for example, the equation $$3x + 2 = x + 10$$, we must first subtract $$x$$ from both sides, which gives $$2x + 2 = 10$$; wherefore $$2x = 8$$, and $$x = 4$$.
+    + If we have, for example, the equation $3x + 2 = x + 10$, we must first subtract $x$ from both sides, which gives $2x + 2 = 10$; wherefore $2x = 8$, and $x = 4$.
+  4458:
+    - Let $$x + 4 = 20 - x$$; here it is evident that $$2x + 4 = 20$$; and consequently $$2x = 16$$, and $$x = 8$$.
+    + Let $x + 4 = 20 - x$; here it is evident that $2x + 4 = 20$; and consequently $2x = 16$, and $x = 8$.
+  4689:
+    - Let the less part be x, then the greater will be 25 - x; and the latter divided by the former ought to give the quotient 49: we have therefore $$\frac{25-x}{x} = 49$$. Multiplying by x, we have 25 - x = 49x; adding x, we have 25 = 50x; and dividing by 50, gives x = ½.
+    + Let the less part be x, then the greater will be 25 - x; and the latter divided by the former ought to give the quotient 49: we have therefore $\frac{25-x}{x} = 49$. Multiplying by x, we have 25 - x = 49x; adding x, we have 25 = 50x; and dividing by 50, gives x = ½.
+  4768:
+    - So that $$\frac{4x + 16}{3} = x + 10;$$ or, $$4x + 16 = 3x + 30;$$ therefore x + 16 = 30, and x = 14.
+    + So that $\frac{4x + 16}{3} = x + 10;$ or, $4x + 16 = 3x + 30;$ therefore x + 16 = 30, and x = 14.
+  4794:
+    - The banker must therefore give $$\frac{a(b-c)}{b-a}$$ pieces of the first kind, and $$\frac{b(c-a)}{b-a}$$ pieces of the second kind.
+    + The banker must therefore give $\frac{a(b-c)}{b-a}$ pieces of the first kind, and $\frac{b(c-a)}{b-a}$ pieces of the second kind.
+  4796:
+    - Remark. These two numbers are easily found by the Rule of Three, when it is required to apply the results which we have obtained. Thus, to find the first we say, $$b - a : a :: b - c : \frac{a(b-c)}{b-a}$$; and the second number is found thus; $$b - a : b :: c - a : \frac{b(c-a)}{b-a}$$.
+    + Remark. These two numbers are easily found by the Rule of Three, when it is required to apply the results which we have obtained. Thus, to find the first we say, $b - a : a :: b - c : \frac{a(b-c)}{b-a}$; and the second number is found thus; $b - a : b :: c - a : \frac{b(c-a)}{b-a}$.
+  4798:
+    - It ought to be observed also, that $$a$$ is less than $$b$$, and that $$c$$ is less than $$b$$; but at the same time greater than $$a$$, as the nature of the thing requires.
+    + It ought to be observed also, that $a$ is less than $b$, and that $c$ is less than $b$; but at the same time greater than $a$, as the nature of the thing requires.
+  4802:
+    - We have here $$a = 10$$, $$b = 20$$, and $$c = 17$$, which furnishes the following proportions:
+    + We have here $a = 10$, $b = 20$, and $c = 17$, which furnishes the following proportions:
+  4804:
+    - First, $$10 : 10 :: 3 : 3$$, so that the number of pieces of the first kind is 3.
+    + First, $10 : 10 :: 3 : 3$, so that the number of pieces of the first kind is 3.
+  4806:
+    - Secondly, $$10 : 20 :: 7 : 14$$, and the number of the second kind is 14.
+    + Secondly, $10 : 20 :: 7 : 14$, and the number of the second kind is 14.
+  4810:
+    - This question is rather of a singular nature, and therefore deserves particular attention. In order to resolve it more easily, we shall suppose the whole fortune to be $$z$$ pounds; and since all the children receive the same sum, let the share of each be $$x$$, by which means the number of children will be expressed by $$\frac{z}{x}$$. Now, this being laid down, we may proceed to the solution of the question, as follows:
+    + This question is rather of a singular nature, and therefore deserves particular attention. In order to resolve it more easily, we shall suppose the whole fortune to be $z$ pounds; and since all the children receive the same sum, let the share of each be $x$, by which means the number of children will be expressed by $\frac{z}{x}$. Now, this being laid down, we may proceed to the solution of the question, as follows:
+  4814:
+    - |  z | 1st | $$x = 100 + \frac{z - 100}{10}$$ |   |
+    + |  z | 1st | $x = 100 + \frac{z - 100}{10}$ |   |
+  4815:
+    - |  z - x | 2d | $$x = 200 + \frac{z - x - 200}{10}$$ | $$100 - \frac{x - 100}{10} = 0$$  |
+    + |  z - x | 2d | $x = 200 + \frac{z - x - 200}{10}$ | $100 - \frac{x - 100}{10} = 0$  |
+  4816:
+    - |  z - 2x | 3d | $$x = 300 + \frac{z - 2x - 300}{10}$$ | $$100 - \frac{x - 100}{10} = 0$$  |
+    + |  z - 2x | 3d | $x = 300 + \frac{z - 2x - 300}{10}$ | $100 - \frac{x - 100}{10} = 0$  |
+  4817:
+    - |  z - 3x | 4th | $$x = 400 + \frac{z - 3x - 400}{10}$$ | $$100 - \frac{x - 100}{10} = 0$$  |
+    + |  z - 3x | 4th | $x = 400 + \frac{z - 3x - 400}{10}$ | $100 - \frac{x - 100}{10} = 0$  |
+  4818:
+    - |  z - 4x | 5th | $$x = 500 + \frac{z - 4x - 500}{10}$$ | $$100 - \frac{x - 100}{10} = 0$$  |
+    + |  z - 4x | 5th | $x = 500 + \frac{z - 4x - 500}{10}$ | $100 - \frac{x - 100}{10} = 0$  |
+  4819:
+    - |  z - 5x | 6th | $$x = 600 + \frac{z - 5x - 600}{10}$$ | and so on.  |
+    + |  z - 5x | 6th | $x = 600 + \frac{z - 5x - 600}{10}$ | and so on.  |
+  4821:
+    - We have inserted, in the last column, the differences which we obtain by subtracting each portion from that which follows; but all the portions being equal, each of the differences must be = 0. As it happens also, that all these differences are expressed exactly alike, it will be sufficient to make one of them equal to nothing, and we shall have the equation $$100 - \frac{x - 100}{10} = 0$$. Here, multiplying by 10, we have $$1000 - x - 100 = 0$$, or $$900 - x = 0$$; and, consequently, $$x = 900$$.
+    + We have inserted, in the last column, the differences which we obtain by subtracting each portion from that which follows; but all the portions being equal, each of the differences must be = 0. As it happens also, that all these differences are expressed exactly alike, it will be sufficient to make one of them equal to nothing, and we shall have the equation $100 - \frac{x - 100}{10} = 0$. Here, multiplying by 10, we have $1000 - x - 100 = 0$, or $900 - x = 0$; and, consequently, $x = 900$.
+  4823:
+    - We know now, therefore, that the share of each child was 900; so that taking any one of the equations of the third column, the first for example, it becomes, by substituting the value of $$x$$, $$900 = 100 + \frac{z - 100}{10}$$, whence we immediately obtain the value of $$z$$; for we have
+    + We know now, therefore, that the share of each child was 900; so that taking any one of the equations of the third column, the first for example, it becomes, by substituting the value of $x$, $900 = 100 + \frac{z - 100}{10}$, whence we immediately obtain the value of $z$; for we have
+  4827:
+    - therefore $$z = 8100$$; and consequently $$\frac{z}{x} = 9$$.
+    + therefore $z = 8100$; and consequently $\frac{z}{x} = 9$.
+  5341:
+    - $$\frac{9 \times 169}{17 \times 49}x^2 = 4 \times 17 \times 169$$, which, divided by 169, is reduced to $$\frac{9}{17 \times 49}x^2 = 4 \times 17$$; multiplying also by $$17 \times 49$$, and dividing by 9, we have $$x^2 = \frac{4 \times 289 \times 49}{9}$$, in which all the factors are squares; whence we have, without any further calculation, the root $$x = \frac{2 \times 17 \times 7}{3} = \frac{238}{3} = 79\frac{1}{3}$$, as before.
+    + $\frac{9 \times 169}{17 \times 49}x^2 = 4 \times 17 \times 169$, which, divided by 169, is reduced to $\frac{9}{17 \times 49}x^2 = 4 \times 17$; multiplying also by $17 \times 49$, and dividing by 9, we have $x^2 = \frac{4 \times 289 \times 49}{9}$, in which all the factors are squares; whence we have, without any further calculation, the root $x = \frac{2 \times 17 \times 7}{3} = \frac{238}{3} = 79\frac{1}{3}$, as before.
+  5343:
+    - 637. Question 5. A company of merchants appoint a factor at Archangel. Each of them contributes for the trade, which they have in view, ten times as many crowns as there are partners; and the profit of the factor is fixed at twice as many crowns, per cent, as there are partners. Also, if $$\frac{1}{100}$$ part of his total gain be multiplied by $$2\frac{2}{9}$$, it will give the number of partners. That number is required.
+    + 637. Question 5. A company of merchants appoint a factor at Archangel. Each of them contributes for the trade, which they have in view, ten times as many crowns as there are partners; and the profit of the factor is fixed at twice as many crowns, per cent, as there are partners. Also, if $\frac{1}{100}$ part of his total gain be multiplied by $2\frac{2}{9}$, it will give the number of partners. That number is required.
+  5345:
+    - Let it be $$x$$; and since, each partner has contributed $$10x$$, the whole capital is $$10x^2$$. Now, for every hundred crowns, the factor gains $$2x$$, so that with the capital of $$10x^2$$ his profit will be $$\frac{1}{9}x^3$$. The $$\frac{1}{100}$$ part of his gain is $$\frac{1}{300}x^3$$; multiplying by $$2\frac{2}{9}$$, or by $$\frac{20}{9}$$, we have $$\frac{20}{4300}x^3$$, or $$\frac{1}{225}x^3$$, and this must be equal to the number of partners, or $$x$$.
+    + Let it be $x$; and since, each partner has contributed $10x$, the whole capital is $10x^2$. Now, for every hundred crowns, the factor gains $2x$, so that with the capital of $10x^2$ his profit will be $\frac{1}{9}x^3$. The $\frac{1}{100}$ part of his gain is $\frac{1}{300}x^3$; multiplying by $2\frac{2}{9}$, or by $\frac{20}{9}$, we have $\frac{20}{4300}x^3$, or $\frac{1}{225}x^3$, and this must be equal to the number of partners, or $x$.
+  5347:
+    - We have, therefore, the equation $$\frac{1}{225}x^3 = x$$, or $$x^3 = 225x$$; which appears, at first, to be of the third degree; but as we may divide by $$x$$, it is reduced to the quadratic $$x^2 = 225$$; whence $$x = 15$$.
+    + We have, therefore, the equation $\frac{1}{225}x^3 = x$, or $x^3 = 225x$; which appears, at first, to be of the third degree; but as we may divide by $x$, it is reduced to the quadratic $x^2 = 225$; whence $x = 15$.
+  5504:
+    - $$\frac{3x-3}{2}$$, if he had remained three months in the partnership: and as the profits gained in the same time are in proportion to the principals, we have the following proportion,
+    + $\frac{3x-3}{2}$, if he had remained three months in the partnership: and as the profits gained in the same time are in proportion to the principals, we have the following proportion,
+  5514:
+    - $$3x^2 - 3x = 19800 - 398x + 2x^2$$; and subtracting $$2x^2$$, we obtain $$x^2 - 3x = 19800 - 398x$$. Adding $$3x$$, gives $$x^2 = 19800 - 395x$$; then by the rule,
+    + $3x^2 - 3x = 19800 - 398x + 2x^2$; and subtracting $2x^2$, we obtain $x^2 - 3x = 19800 - 398x$. Adding $3x$, gives $x^2 = 19800 - 395x$; then by the rule,
+  5520:
+    - 654. Question 9. Two girls carry 100 eggs to market; the one had more than the other, and yet the sum which they both received for them was the same. The first says to the second, If I had had your eggs, I should have received 15 pence. The other answers, If I had had yours, I should have received $$6\frac{2}{3}$$ pence. How many eggs did each carry to market?
+    + 654. Question 9. Two girls carry 100 eggs to market; the one had more than the other, and yet the sum which they both received for them was the same. The first says to the second, If I had had your eggs, I should have received 15 pence. The other answers, If I had had yours, I should have received $6\frac{2}{3}$ pence. How many eggs did each carry to market?
+  5528:
+    - Also, since the second would have sold x eggs for $$6\frac{2}{3}$$ pence, we readily find how much she got for 100 - x eggs, thus:
+    + Also, since the second would have sold x eggs for $6\frac{2}{3}$ pence, we readily find how much she got for 100 - x eggs, thus:
+  5532:
+    - Now, both the girls received the same money; we have consequently the equation, $$\frac{15x}{100 - x} = \frac{2000 - 20x}{3x}$$, which becomes $$25x^2 = 200000 - 4000x$$; and, lastly,
+    + Now, both the girls received the same money; we have consequently the equation, $\frac{15x}{100 - x} = \frac{2000 - 20x}{3x}$, which becomes $25x^2 = 200000 - 4000x$; and, lastly,
+  5544:
+    - Suppose the first had $$x$$ ells; then the second must have had $$x + 3$$ ells; also, since the first would have sold $$x + 3$$ ells for 24 crowns, he must have received $$\frac{24x}{x + 3}$$ crowns for his $$x$$ ells. And, with regard to the second, since he would have sold $$x$$ ells for $$12\frac{1}{x}$$ crowns, he must have sold his $$x + 3$$ ells for $$\frac{25x + 75}{2x}$$; so that the whole sum they received was
+    + Suppose the first had $x$ ells; then the second must have had $x + 3$ ells; also, since the first would have sold $x + 3$ ells for 24 crowns, he must have received $\frac{24x}{x + 3}$ crowns for his $x$ ells. And, with regard to the second, since he would have sold $x$ ells for $12\frac{1}{x}$ crowns, he must have sold his $x + 3$ ells for $\frac{25x + 75}{2x}$; so that the whole sum they received was
+  5548:
+    - This equation becomes $$x^2 = 20x - 75$$; whence we have $$x = 10 \pm \sqrt{(100 - 75)} = 10 \pm 5$$.
+    + This equation becomes $x^2 = 20x - 75$; whence we have $x = 10 \pm \sqrt{(100 - 75)} = 10 \pm 5$.
+  5560:
+    - the i1igon, or triangle, is $$\frac{x^2+x}{2}$$,
+    + the i1igon, or triangle, is $\frac{x^2+x}{2}$,
+  5562:
+    - the ivgon, or square, - $$x^2$$,
+    + the ivgon, or square, - $x^2$,
+  5564:
+    - the vgon - - - - $$\frac{3x^2-x}{2}$$,
+    + the vgon - - - - $\frac{3x^2-x}{2}$,
+  5566:
+    - the viigon - - - - $$2x^2-x$$,
+    + the viigon - - - - $2x^2-x$,
+  5568:
+    - the viigon - - - - $$\frac{5x^2-3x}{2}$$,
+    + the viigon - - - - $\frac{5x^2-3x}{2}$,
+  5570:
+    - the viiigon - - - - $$3x^2-2x$$,
+    + the viiigon - - - - $3x^2-2x$,
+  5572:
+    - the ixgon - - - - $$\frac{7x^2-5x}{2}$$,
+    + the ixgon - - - - $\frac{7x^2-5x}{2}$,
+  5574:
+    - the xgon - - - - - $$4x^2-3x$$,
+    + the xgon - - - - - $4x^2-3x$,
+  5576:
+    - the ngon - - - - $$\frac{(n-2)x^2-(n-4)x}{2}$$.
+    + the ngon - - - - $\frac{(n-2)x^2-(n-4)x}{2}$.
+  5584:
+    - $$\frac{x^2+x}{2} = 91$$; or $$x^2 + x = 182$$, and $$x^2 = -x + 182$$; consequently,
+    + $\frac{x^2+x}{2} = 91$; or $x^2 + x = 182$, and $x^2 = -x + 182$; consequently,
+  5604:
+    - $$x = \frac{\sqrt{33} - 1}{2}$$ to it, the sum is $$x^2 + x = \frac{16}{2} = 8$$. Consequently, the triangle, or the triangular number, $$\frac{x^2 + x}{2} = 4$$.
+    + $x = \frac{\sqrt{33} - 1}{2}$ to it, the sum is $x^2 + x = \frac{16}{2} = 8$. Consequently, the triangle, or the triangular number, $\frac{x^2 + x}{2} = 4$.
+  5606:
+    - 662. The quadrangular numbers being the same as squares, they occasion no difficulty. For, supposing the given quadrangular number to be $$a$$, and its required root $$x$$, we shall have $$x^2 = a$$, and consequently, $$x = \sqrt{a}$$; so that the square root and the quadrangular root are the same thing.
+    + 662. The quadrangular numbers being the same as squares, they occasion no difficulty. For, supposing the given quadrangular number to be $a$, and its required root $x$, we shall have $x^2 = a$, and consequently, $x = \sqrt{a}$; so that the square root and the quadrangular root are the same thing.
+  5610:
+    - Let 22 be a number of this kind, and $$x$$ its root; then, by the third formula, we shall have $$\frac{3x^2 - x}{2} = 22$$, or $$3x^2 - x = 44$$, or $$x^2 = \frac{1}{3}x + \frac{44}{3}$$; from which we obtain,
+    + Let 22 be a number of this kind, and $x$ its root; then, by the third formula, we shall have $\frac{3x^2 - x}{2} = 22$, or $3x^2 - x = 44$, or $x^2 = \frac{1}{3}x + \frac{44}{3}$; from which we obtain,
+  5612:
+    - $$x = \frac{1}{6} + \sqrt{(\frac{1}{36} + \frac{44}{3})}$$, or $$x = \frac{1 + \sqrt{(529)}}{6} = \frac{1}{6} + \frac{23}{6} = 4$$; and consequently 4 is the pentagonal root of the number 22.
+    + $x = \frac{1}{6} + \sqrt{(\frac{1}{36} + \frac{44}{3})}$, or $x = \frac{1 + \sqrt{(529)}}{6} = \frac{1}{6} + \frac{23}{6} = 4$; and consequently 4 is the pentagonal root of the number 22.
+  5614:
+    - 664. Let the following question be now proposed; the pentagon $$a$$ being given, to find its root.
+    + 664. Let the following question be now proposed; the pentagon $a$ being given, to find its root.
+  5616:
+    - Let this root be $$x$$, and we have the equation
+    + Let this root be $x$, and we have the equation
+  5618:
+    - $$\frac{3x^2 - x}{2} = a$$, or $$3x^2 - x = 2a$$, or $$x^2 = \frac{1}{3}x + \frac{2a}{3}$$; by means of which we find $$x = \frac{1}{6} + \sqrt{(\frac{1}{36} + \frac{2a}{3})}$$, that is,
+    + $\frac{3x^2 - x}{2} = a$, or $3x^2 - x = 2a$, or $x^2 = \frac{1}{3}x + \frac{2a}{3}$; by means of which we find $x = \frac{1}{6} + \sqrt{(\frac{1}{36} + \frac{2a}{3})}$, that is,
+  5620:
+    - $$x = \frac{1 + \sqrt{(24a + 1)}}{6}$$. Therefore, when $$a$$ is a real pentagon, $$24a + 1$$ must be a square.
+    + $x = \frac{1 + \sqrt{(24a + 1)}}{6}$. Therefore, when $a$ is a real pentagon, $24a + 1$ must be a square.
+  5622:
+    - Let 330, for example, be the given pentagon, the root will be $$x = \frac{1 + \sqrt{(7921)}}{6} = \frac{1 + 89}{6} = 15$$.
+    + Let 330, for example, be the given pentagon, the root will be $x = \frac{1 + \sqrt{(7921)}}{6} = \frac{1 + 89}{6} = 15$.
+  5624:
+    - 665. Again, let $$a$$ be a given hexagonal number, the root of which is required.
+    + 665. Again, let $a$ be a given hexagonal number, the root of which is required.
+  5626:
+    - If we suppose it $$= x$$, we shall have $$2x^2 - x = a$$, or $$x^2 = \frac{1}{2}x + \frac{1}{2}a$$; and this gives
+    + If we suppose it $= x$, we shall have $2x^2 - x = a$, or $x^2 = \frac{1}{2}x + \frac{1}{2}a$; and this gives
+  5630:
+    - So that, in order that $$a$$ may be really a hexagon, $$8a + 1$$ must become a square; whence we see, that all hexagonal numbers are contained in triangular numbers; but it is not the same with the roots.
+    + So that, in order that $a$ may be really a hexagon, $8a + 1$ must become a square; whence we see, that all hexagonal numbers are contained in triangular numbers; but it is not the same with the roots.
+  5702:
+    - 678. If the square root of $2 + \sqrt{3}$ were required, we should have $a = 2$ and $\sqrt{b} = \sqrt{3}$; wherefore $a^2 - b = c^2 = 4 - 3 = 1$; so that, by the formula just given, the root sought will be $$\sqrt{\frac{2+1}{2}} \mp \sqrt{\frac{2-1}{2}} = \sqrt{\frac{1}{2}} + \sqrt{\frac{1}{2}}$$.
+    + 678. If the square root of $2 + \sqrt{3}$ were required, we should have $a = 2$ and $\sqrt{b} = \sqrt{3}$; wherefore $a^2 - b = c^2 = 4 - 3 = 1$; so that, by the formula just given, the root sought will be $\sqrt{\frac{2+1}{2}} \mp \sqrt{\frac{2-1}{2}} = \sqrt{\frac{1}{2}} + \sqrt{\frac{1}{2}}$.
+  5704:
+    - Let it be required to find the square root of the binomial $$11 + 6\sqrt{2}$$. Here we shall have $$a = 11$$, and $$\sqrt{b} = 6\sqrt{2}$$; consequently, $$b = 36 \times 2 = 72$$, and $$a^2 - b = 49$$, which gives $$c = 7$$; and hence we conclude, that the square root of $$11 + 6\sqrt{2}$$ is $$\sqrt{9} + \sqrt{2}$$, or $$3 + \sqrt{2}$$.
+    + Let it be required to find the square root of the binomial $11 + 6\sqrt{2}$. Here we shall have $a = 11$, and $\sqrt{b} = 6\sqrt{2}$; consequently, $b = 36 \times 2 = 72$, and $a^2 - b = 49$, which gives $c = 7$; and hence we conclude, that the square root of $11 + 6\sqrt{2}$ is $\sqrt{9} + \sqrt{2}$, or $3 + \sqrt{2}$.
+  5706:
+    - Required the square root of $$11 + 2\sqrt{30}$$. Here $$a = 11$$, and $$\sqrt{b} = 2\sqrt{30}$$; consequently, $$b = 4 \times 30 = 120$$, $$a^2 - b = 1$$, and $$c = 1$$; therefore the root required is $$\sqrt{6} + \sqrt{5}$$.
+    + Required the square root of $11 + 2\sqrt{30}$. Here $a = 11$, and $\sqrt{b} = 2\sqrt{30}$; consequently, $b = 4 \times 30 = 120$, $a^2 - b = 1$, and $c = 1$; therefore the root required is $\sqrt{6} + \sqrt{5}$.
+  5710:
+    - Let there be proposed, for example, the binomial $$1 + 4\sqrt{-3}$$. First, we shall have $$a = 1$$ and $$\sqrt{b} = 4\sqrt{-3}$$, that is to say, $$b = -48$$, and $$a^2 - b = 49$$; therefore $$c = 7$$, and consequently the square root required is $$\sqrt{4} + \sqrt{-3} = 2 + \sqrt{-3}$$.
+    + Let there be proposed, for example, the binomial $1 + 4\sqrt{-3}$. First, we shall have $a = 1$ and $\sqrt{b} = 4\sqrt{-3}$, that is to say, $b = -48$, and $a^2 - b = 49$; therefore $c = 7$, and consequently the square root required is $\sqrt{4} + \sqrt{-3} = 2 + \sqrt{-3}$.
+  5712:
+    - Again, let there be given $$-\frac{1}{2} + \frac{1}{2}\sqrt{-3}$$. First, we have $$a = -\frac{1}{2}$$; $$\sqrt{b} = \frac{1}{2}\sqrt{-3}$$, and $$b = \frac{1}{4} \times -3 = -\frac{1}{4}$$; whence $$a^2 - b = \frac{1}{4} + \frac{1}{4} = 1$$, and $$c = 1$$; and the result required is $$\sqrt{\frac{1}{4}} + \sqrt{-\frac{1}{4}} = \frac{1}{2} + \frac{\sqrt{-3}}{2}$$, or $$\frac{1}{2} + \frac{1}{2}\sqrt{-3}$$.
+    + Again, let there be given $-\frac{1}{2} + \frac{1}{2}\sqrt{-3}$. First, we have $a = -\frac{1}{2}$; $\sqrt{b} = \frac{1}{2}\sqrt{-3}$, and $b = \frac{1}{4} \times -3 = -\frac{1}{4}$; whence $a^2 - b = \frac{1}{4} + \frac{1}{4} = 1$, and $c = 1$; and the result required is $\sqrt{\frac{1}{4}} + \sqrt{-\frac{1}{4}} = \frac{1}{2} + \frac{\sqrt{-3}}{2}$, or $\frac{1}{2} + \frac{1}{2}\sqrt{-3}$.
+  5714:
+    - Another remarkable example is that in which it is required to find the square root of $$2\sqrt{-1}$$. As there is here no rational part, we shall have $$a = 0$$. Now, $$\sqrt{b} = 2\sqrt{-1}$$, and $$b = -4$$; wherefore $$a^2 - b = 4$$, and $$c = 2$$; consequently, the square root required is $$\sqrt{1} + \sqrt{-1} = 1 + \sqrt{-1}$$; and the square of this quantity is found to be $$1 + 2\sqrt{-1} - 1 = 2\sqrt{-1}$$.
+    + Another remarkable example is that in which it is required to find the square root of $2\sqrt{-1}$. As there is here no rational part, we shall have $a = 0$. Now, $\sqrt{b} = 2\sqrt{-1}$, and $b = -4$; wherefore $a^2 - b = 4$, and $c = 2$; consequently, the square root required is $\sqrt{1} + \sqrt{-1} = 1 + \sqrt{-1}$; and the square of this quantity is found to be $1 + 2\sqrt{-1} - 1 = 2\sqrt{-1}$.
+  5716:
+    - 680. Suppose now we have such an equation as $$x^2 = a \pm \sqrt{b}$$, and that $$a^2 - b = c^2$$; we conclude from this, that the value of $$x = \sqrt{\left(\frac{a+c}{2}\right)} \pm \sqrt{\left(\frac{a-c}{2}\right)}$$, which may be useful in many cases.
+    + 680. Suppose now we have such an equation as $x^2 = a \pm \sqrt{b}$, and that $a^2 - b = c^2$; we conclude from this, that the value of $x = \sqrt{\left(\frac{a+c}{2}\right)} \pm \sqrt{\left(\frac{a-c}{2}\right)}$, which may be useful in many cases.
+  5718:
+    - For example, if $$x^2 = 17 + 12\sqrt{2}$$, we shall have $$x = 3 + \sqrt{8} = 3 + 2\sqrt{2}$$.
+    + For example, if $x^2 = 17 + 12\sqrt{2}$, we shall have $x = 3 + \sqrt{8} = 3 + 2\sqrt{2}$.
+  5720:
+    - 681. This case occurs most frequently in the resolution of equations of the fourth degree, such as $$x^4 = 2ax^2 + d$$. For, if we suppose $$x^2 = y$$, we have $$x^4 = y^2$$, which reduces the given equation to $$y^2 = 2ay + d$$, and from this we find $$y = a \pm \sqrt{(a^2 + d)}$$, therefore, $$x^2 = a \pm \sqrt{(a^2 + d)}$$, and consequently we have another evolution to perform. Now, since $\sqrt{b} = \sqrt{(a^2 + d)}$, we have $b = a^2 + d$, and $a^2 - b = -d$; if, therefore, $-d$ is a square, as $c^2$, that is to say, $d = -c^2$, we may assign the root required.
+    + 681. This case occurs most frequently in the resolution of equations of the fourth degree, such as $x^4 = 2ax^2 + d$. For, if we suppose $x^2 = y$, we have $x^4 = y^2$, which reduces the given equation to $y^2 = 2ay + d$, and from this we find $y = a \pm \sqrt{(a^2 + d)}$, therefore, $x^2 = a \pm \sqrt{(a^2 + d)}$, and consequently we have another evolution to perform. Now, since $\sqrt{b} = \sqrt{(a^2 + d)}$, we have $b = a^2 + d$, and $a^2 - b = -d$; if, therefore, $-d$ is a square, as $c^2$, that is to say, $d = -c^2$, we may assign the root required.
+  5828:
+    - $$y^2 = \frac{3 + 3\sqrt{-3}}{2}$$, the sum of the squares $$x^2 + y^2 = 3$$, all the same quantity as required.
+    + $y^2 = \frac{3 + 3\sqrt{-3}}{2}$, the sum of the squares $x^2 + y^2 = 3$, all the same quantity as required.
+  5832:
+    - In our last question, let us suppose one of the numbers sought to be $$p + q$$, and the other $$p - q$$, then their sum will be $$2p$$, their product will be $$p^2 - q^2$$, and the sum of their squares will be $$2p^2 + 2q^2$$, which three quantities must be equal to each other; therefore making the first equal to the second, we have $$2p = p^2 - q^2$$, which gives $$q^2 = p^2 - 2p$$.
+    + In our last question, let us suppose one of the numbers sought to be $p + q$, and the other $p - q$, then their sum will be $2p$, their product will be $p^2 - q^2$, and the sum of their squares will be $2p^2 + 2q^2$, which three quantities must be equal to each other; therefore making the first equal to the second, we have $2p = p^2 - q^2$, which gives $q^2 = p^2 - 2p$.
+  5834:
+    - Substituting this value of $$q^2$$ in the third quantity $$(2p^2 + 2q^2)$$, and comparing the result $$4p^2 - 4p$$ with the first, we have $$2p = 4p^2 - 4p$$, whence $$p = \frac{3}{2}$$.
+    + Substituting this value of $q^2$ in the third quantity $(2p^2 + 2q^2)$, and comparing the result $4p^2 - 4p$ with the first, we have $2p = 4p^2 - 4p$, whence $p = \frac{3}{2}$.
+  5836:
+    - Consequently, $$q^2 = p^2 - 2p = -\frac{3}{4}$$, and $$q = \frac{\sqrt{-3}}{2}$$; so that the numbers sought are $$p + q = \frac{3 + \sqrt{-3}}{2}$$, and $$p - q = \frac{3 - \sqrt{-3}}{2}$$, as before.
+    + Consequently, $q^2 = p^2 - 2p = -\frac{3}{4}$, and $q = \frac{\sqrt{-3}}{2}$; so that the numbers sought are $p + q = \frac{3 + \sqrt{-3}}{2}$, and $p - q = \frac{3 - \sqrt{-3}}{2}$, as before.
+  5860:
+    - Ans. $$\frac{a}{2} \pm \sqrt{\left(\frac{2b-a^2}{4}\right)}$$, and
+    + Ans. $\frac{a}{2} \pm \sqrt{\left(\frac{2b-a^2}{4}\right)}$, and
+  5861:
+    - $$\frac{a}{2} \mp \sqrt{\left(\frac{2b-a^2}{4}\right)}$$.
+    + $\frac{a}{2} \mp \sqrt{\left(\frac{2b-a^2}{4}\right)}$.
+  6394:
+    - Let there be given the equation $$x^3 - ax^2 + bx - c = 0$$, in which, $$a, b, c$$, express integer numbers. If we suppose, for example, $$x = \frac{1}{2}$$, we shall have $$\frac{27}{2} - \frac{9}{4}a + \frac{3}{2}b - c = 0$$. Now here, the first term alone has 8 for the denominator; the others being either integer numbers, or numbers divided by 4 or by 2, and therefore cannot make 0 with the first term. The same thing happens with every other fraction.
+    + Let there be given the equation $x^3 - ax^2 + bx - c = 0$, in which, $a, b, c$, express integer numbers. If we suppose, for example, $x = \frac{1}{2}$, we shall have $\frac{27}{2} - \frac{9}{4}a + \frac{3}{2}b - c = 0$. Now here, the first term alone has 8 for the denominator; the others being either integer numbers, or numbers divided by 4 or by 2, and therefore cannot make 0 with the first term. The same thing happens with every other fraction.
+  7230:
+    - $$\frac{r}{p} = \frac{2q}{p} + 1$$, or $$r = 2q + p$$; whence we infer that the double of each term, added to the preceding term, will give the succeeding one. If, therefore, we begin again with 0, 1, we shall have the series,
+    + $\frac{r}{p} = \frac{2q}{p} + 1$, or $r = 2q + p$; whence we infer that the double of each term, added to the preceding term, will give the succeeding one. If, therefore, we begin again with 0, 1, we shall have the series,
+  7234:
+    - Whence it follows, that the value of $$x$$ will be expressed still more accurately by the following fractions:
+    + Whence it follows, that the value of $x$ will be expressed still more accurately by the following fractions:
+  7238:
+    - which, consequently, will always approximate nearer and nearer the true value of $$x = 1 + \sqrt{2}$$; so that if we take unity from these fractions, the value of $$\sqrt{2}$$ will be expressed more and more exactly by the succeeding fractions:
+    + which, consequently, will always approximate nearer and nearer the true value of $x = 1 + \sqrt{2}$; so that if we take unity from these fractions, the value of $\sqrt{2}$ will be expressed more and more exactly by the succeeding fractions:
+  7242:
+    - For example, $$\frac{99}{70}$$ has for its square $$\frac{9801}{4900}$$, which differs only by $$\frac{1}{4900}$$ from the number 2.
+    + For example, $\frac{99}{70}$ has for its square $\frac{9801}{4900}$, which differs only by $\frac{1}{4900}$ from the number 2.
+  7244:
+    - 795. This method is no less applicable to equations, which have a greater number of dimensions. If, for example, we have the equation of the third degree $$x^3 = x^2 + 2x + 1$$,
+    + 795. This method is no less applicable to equations, which have a greater number of dimensions. If, for example, we have the equation of the third degree $x^3 = x^2 + 2x + 1$,
+  7246:
+    - we must make $$x = \frac{q}{p}$$, $$x^2 = \frac{r}{p}$$, and $$x^3 = \frac{s}{p}$$; we shall then have $$s = r + 2q + p$$; which shews how, by means of the three terms $$p$$, $$q$$, and $$r$$, we are to determine the succeeding one, $$s$$; and, as the beginning is always arbitrary, we may form the following series:
+    + we must make $x = \frac{q}{p}$, $x^2 = \frac{r}{p}$, and $x^3 = \frac{s}{p}$; we shall then have $s = r + 2q + p$; which shews how, by means of the three terms $p$, $q$, and $r$, we are to determine the succeeding one, $s$; and, as the beginning is always arbitrary, we may form the following series:
+  7250:
+    - from which result the following fractions for the approximate values of $$x$$:
+    + from which result the following fractions for the approximate values of $x$:
+  7254:
+    - The first of these values would be very far from the truth; but if we substitute in the equation $$\frac{60}{28}$$, or $$\frac{13}{7}$$, instead of $$x$$, we obtain
+    + The first of these values would be very far from the truth; but if we substitute in the equation $\frac{60}{28}$, or $\frac{13}{7}$, instead of $x$, we obtain
+  7258:
+    - in which the error is only $$\frac{13}{343}$$.
+    + in which the error is only $\frac{13}{343}$.
+  7260:
+    - 796. It must be observed, however, that all equations are not of such a nature as to admit the application of this method; and, particularly, when the second term is wanting, it cannot be made use of. For example, let $$x^2 = 2$$; if we
+    + 796. It must be observed, however, that all equations are not of such a nature as to admit the application of this method; and, particularly, when the second term is wanting, it cannot be made use of. For example, let $x^2 = 2$; if we
+  7262:
+    - wished to make $$x = \frac{q}{p}$$, and $$x^2 = \frac{r}{p}$$, we should have
+    + wished to make $x = \frac{q}{p}$, and $x^2 = \frac{r}{p}$, we should have
+  7264:
+    - $$\frac{r}{p} = 2$$, or $$r = 2p$$, that is to say, $$r = 0q + 2p$$, whence would result the series
+    + $\frac{r}{p} = 2$, or $r = 2p$, that is to say, $r = 0q + 2p$, whence would result the series
+  7268:
+    - from which we can draw no conclusion, because each term, divided by the preceding, gives always $$x = 1$$, or $$x = 2$$. But we may obviate this inconvenience, by making $$x = y - 1$$; for by these means we have $$y^2 - 2y + 1 = 2$$; and if we now make $$y = \frac{q}{p}$$, and $$y^2 = \frac{r}{p}$$, we shall obtain the same approximation that has been already given.
+    + from which we can draw no conclusion, because each term, divided by the preceding, gives always $x = 1$, or $x = 2$. But we may obviate this inconvenience, by making $x = y - 1$; for by these means we have $y^2 - 2y + 1 = 2$; and if we now make $y = \frac{q}{p}$, and $y^2 = \frac{r}{p}$, we shall obtain the same approximation that has been already given.
+  7270:
+    - 797. It would be the same with the equation $$x^3 = 2$$. This method would not furnish such a series of numbers as would express the value of $$\sqrt[3]{2}$$. But we have only to suppose $$x = y - 1$$, in order to have the equation $$y^3 - 3y^2 + 3y - 1 = 2$$, or $$y^3 = 3y^2 - 3y + 3$$; and then making $$y = \frac{q}{p}$$, $$y^2 = \frac{r}{p}$$, and $$y^3 = \frac{s}{p}$$, we have $$s = 3r - 3q + 3p$$, by means of which we see how three given terms determine the succeeding one.
+    + 797. It would be the same with the equation $x^3 = 2$. This method would not furnish such a series of numbers as would express the value of $\sqrt[3]{2}$. But we have only to suppose $x = y - 1$, in order to have the equation $y^3 - 3y^2 + 3y - 1 = 2$, or $y^3 = 3y^2 - 3y + 3$; and then making $y = \frac{q}{p}$, $y^2 = \frac{r}{p}$, and $y^3 = \frac{s}{p}$, we have $s = 3r - 3q + 3p$, by means of which we see how three given terms determine the succeeding one.
+  7276:
+    - The last two terms of this series give $$y = \frac{3 \cdot 4}{1 + 4}$$, and $$x = \frac{5}{4}$$. This fraction approaches sufficiently near the cube root of 2; for the cube of $$\frac{5}{4}$$ is $$\frac{1 \cdot 5}{6 \cdot 4}$$, and $$2 = \frac{1 \cdot 8}{6 \cdot 4}$$; the difference, therefore, is only $$\frac{1}{6 \cdot 4}$$.
+    + The last two terms of this series give $y = \frac{3 \cdot 4}{1 + 4}$, and $x = \frac{5}{4}$. This fraction approaches sufficiently near the cube root of 2; for the cube of $\frac{5}{4}$ is $\frac{1 \cdot 5}{6 \cdot 4}$, and $2 = \frac{1 \cdot 8}{6 \cdot 4}$; the difference, therefore, is only $\frac{1}{6 \cdot 4}$.
+  7280:
+    - To shew this, let there be given the equation $$x^2 = x + 2$$, one of the roots of which is $$x = 2$$; as we have here, for the series, the formula $$r = q + 2p$$, if we take 1, 2, for the first two terms, we have the series 1, 2, 4, 8, 16, 32, 64, &c. a geometrical progression, whose exponent $$= 2$$. The same property is proved by the equation of the third degree, $$x^3 = x^2 + 3x + 9$$, which has $$x = 3$$ for one of the roots. If we suppose the leading terms to be 1, 3, 9, we shall find, by the formula, $$s = r + 3q + 9p$$, and the series 1, 3, 9, 27, 81, 243, &c. which is likewise a geometrical progression.
+    + To shew this, let there be given the equation $x^2 = x + 2$, one of the roots of which is $x = 2$; as we have here, for the series, the formula $r = q + 2p$, if we take 1, 2, for the first two terms, we have the series 1, 2, 4, 8, 16, 32, 64, &c. a geometrical progression, whose exponent $= 2$. The same property is proved by the equation of the third degree, $x^3 = x^2 + 3x + 9$, which has $x = 3$ for one of the roots. If we suppose the leading terms to be 1, 3, 9, we shall find, by the formula, $s = r + 3q + 9p$, and the series 1, 3, 9, 27, 81, 243, &c. which is likewise a geometrical progression.
+  7961:
+    - $$\sqrt{(a + bx + cx^2)}$$ Rational.
+    + $\sqrt{(a + bx + cx^2)}$ Rational.
+  8031:
+    - of $$\frac{n^2 + m^2}{n^2 - m^2}$$. Now, as we obtain from that, the equation
+    + of $\frac{n^2 + m^2}{n^2 - m^2}$. Now, as we obtain from that, the equation
+  8039:
+    - 46. The case which we have just analysed furnishes two methods of transforming the general formula $$a + bx + cx^2$$ into a square. The first of these applies to all cases in which $$c$$ is a square; and the second to those in which $$a$$ is a square. We shall consider both these suppositions.
+    + 46. The case which we have just analysed furnishes two methods of transforming the general formula $a + bx + cx^2$ into a square. The first of these applies to all cases in which $c$ is a square; and the second to those in which $a$ is a square. We shall consider both these suppositions.
+  8041:
+    - First, let us suppose that $$c$$ is a square, or that the given formula is $$a + bx + f^2x^2$$. Since this must be a square, we shall make $$\sqrt{(a + bx + f^2x^2)} = fx + \frac{m}{n}$$, and shall thus have $$a + bx + f^2x^2 = f^2x^2 + \frac{2mfx}{n} + \frac{m^2}{n^2}$$, in which the terms containing $$x^2$$ destroy each other, so that
+    + First, let us suppose that $c$ is a square, or that the given formula is $a + bx + f^2x^2$. Since this must be a square, we shall make $\sqrt{(a + bx + f^2x^2)} = fx + \frac{m}{n}$, and shall thus have $a + bx + f^2x^2 = f^2x^2 + \frac{2mfx}{n} + \frac{m^2}{n^2}$, in which the terms containing $x^2$ destroy each other, so that
+  8043:
+    - $$a + bx = \frac{2mfx}{n} + \frac{m^2}{n^2}$$. If we multiply by $$n^2$$, we obtain $$n^2a + n^2bx = 2mnfx + m^2$$; hence we find $$x = \frac{m^2 - n^2a}{n^2b - 2mnf}$$; and, substituting this value for $$x$$, we shall have
+    + $a + bx = \frac{2mfx}{n} + \frac{m^2}{n^2}$. If we multiply by $n^2$, we obtain $n^2a + n^2bx = 2mnfx + m^2$; hence we find $x = \frac{m^2 - n^2a}{n^2b - 2mnf}$; and, substituting this value for $x$, we shall have
+  8047:
+    - 47. As we have got a fraction for $$x$$, namely, $$\frac{m^2 - n^2a}{n^2b - 2mnf}$$, let us make $$x = \frac{p}{q}$$, then $$p = m^2 - n^2a$$, and $$q = n^2b - 2mnf$$; so that the formula $$a + \frac{bp}{q} + \frac{f^2p^2}{q^2}$$ is a square; and as it continues a square, though it be multiplied by the square $$q^2$$, it follows, that the formula $$aq^2 + bpq + f^2p^2$$ is also a square, by making $$p = m^2 - n^2a$$, and $$q = n^2b - 2mnf$$. Hence it is evident, that an infinite number of answers, in integer numbers, may result from this expression, because the values of the letters $$m$$ and $$n$$ are arbitrary.
+    + 47. As we have got a fraction for $x$, namely, $\frac{m^2 - n^2a}{n^2b - 2mnf}$, let us make $x = \frac{p}{q}$, then $p = m^2 - n^2a$, and $q = n^2b - 2mnf$; so that the formula $a + \frac{bp}{q} + \frac{f^2p^2}{q^2}$ is a square; and as it continues a square, though it be multiplied by the square $q^2$, it follows, that the formula $aq^2 + bpq + f^2p^2$ is also a square, by making $p = m^2 - n^2a$, and $q = n^2b - 2mnf$. Hence it is evident, that an infinite number of answers, in integer numbers, may result from this expression, because the values of the letters $m$ and $n$ are arbitrary.
+  8627:
+    - whence we obtain $$n = \frac{p + \sqrt{(3p^2 - 2)}}{2}$$. Now, since
+    + whence we obtain $n = \frac{p + \sqrt{(3p^2 - 2)}}{2}$. Now, since
+  8665:
+    - which gives $$n = \frac{2p + \sqrt{(7p^2 - 3)}}{3}$$. At present, since $$n \geqslant \frac{4}{3}p$$,
+    + which gives $n = \frac{2p + \sqrt{(7p^2 - 3)}}{3}$. At present, since $n \geqslant \frac{4}{3}p$,
+  8667:
+    - and, consequently, greater than $$p$$, let us make $$n = p + q$$, and we shall have $$p + 3q = \sqrt{(7p^2 - 3)}$$; then, squaring both sides, $$p^2 + 6pq + 9q^2 = 7p^2 - 3$$, so that
+    + and, consequently, greater than $p$, let us make $n = p + q$, and we shall have $p + 3q = \sqrt{(7p^2 - 3)}$; then, squaring both sides, $p^2 + 6pq + 9q^2 = 7p^2 - 3$, so that
+  8669:
+    - $$6p^2 = 6pq + 9q^2 + 3$$, or $$2p^2 = 2pq + 3q^2 + 1$$; whence we get $$p = \frac{q + \sqrt{(7q^2 + 2)}}{2}$$. Now, we have here $$p \geqslant \frac{3q}{2}$$;
+    + $6p^2 = 6pq + 9q^2 + 3$, or $2p^2 = 2pq + 3q^2 + 1$; whence we get $p = \frac{q + \sqrt{(7q^2 + 2)}}{2}$. Now, we have here $p \geqslant \frac{3q}{2}$;
+  8671:
+    - and, consequently, $$p \geqslant q$$; so that making $$p = q + r$$, we shall have $$q + 2r = \sqrt{(7q^2 + 2)}$$; the squares of which are $$q^2 + 4qr + 4r^2 = 7q^2 + 2$$; then $$6q^2 = 4qr + 4r^2 - 2$$,
+    + and, consequently, $p \geqslant q$; so that making $p = q + r$, we shall have $q + 2r = \sqrt{(7q^2 + 2)}$; the squares of which are $q^2 + 4qr + 4r^2 = 7q^2 + 2$; then $6q^2 = 4qr + 4r^2 - 2$,
+  8673:
+    - or $$3q^2 = 2qr + 2r^2 - 1$$; and, lastly, $$q = \frac{r + \sqrt{(7r^2 - 3)}}{3}$$.
+    + or $3q^2 = 2qr + 2r^2 - 1$; and, lastly, $q = \frac{r + \sqrt{(7r^2 - 3)}}{3}$.
+  8675:
+    - Since now $$q \geqslant r$$, let us suppose $$q = r + s$$, and we shall have
+    + Since now $q \geqslant r$, let us suppose $q = r + s$, and we shall have
+  8687:
+    - Now, this formula is like the first; so that making $$s = 0$$, we shall obtain $$r = 1$$, $$q = 1$$, $$p = 2$$, and $$n = 3$$, or $$m = 8$$.
+    + Now, this formula is like the first; so that making $s = 0$, we shall obtain $r = 1$, $q = 1$, $p = 2$, and $n = 3$, or $m = 8$.
+  8691:
+    - Since $$7n^2 + 1 = m^2$$, it follows that $$m \leqslant 3n$$.
+    + Since $7n^2 + 1 = m^2$, it follows that $m \leqslant 3n$.
+  8693:
+    - If, therefore, we suppose $$m = 3n - p$$, we shall have
+    + If, therefore, we suppose $m = 3n - p$, we shall have
+  8697:
+    - whence we obtain $$n = \frac{3p + \sqrt{(7p^2 + 2)}}{2}$$; so that $$n \leqslant 3p$$; for
+    + whence we obtain $n = \frac{3p + \sqrt{(7p^2 + 2)}}{2}$; so that $n \leqslant 3p$; for
+  8699:
+    - this reason we shall write $$n = 3p - 2q$$; and, squaring, we shall have $$9p^2 - 12pq + 4q^2 = 7p^2 + 2$$; or
+    + this reason we shall write $n = 3p - 2q$; and, squaring, we shall have $9p^2 - 12pq + 4q^2 = 7p^2 + 2$; or
+  8703:
+    - whence results $$p = 3q + \sqrt{(7q^2 + 1)}$$. Here, we can at once make $$q = 0$$, which gives $$p = 1$$, $$n = 3$$, and $$m = 8$$, as before.
+    + whence results $p = 3q + \sqrt{(7q^2 + 1)}$. Here, we can at once make $q = 0$, which gives $p = 1$, $n = 3$, and $m = 8$, as before.
+  8705:
+    - 103. Let $$a = 8$$, so that $$8n^2 + 1 = m^2$$, and $$m \leqslant 3n$$. Here, we must make $$m = 3n - p$$, and shall have
+    + 103. Let $a = 8$, so that $8n^2 + 1 = m^2$, and $m \leqslant 3n$. Here, we must make $m = 3n - p$, and shall have
+  8709:
+    - whence $$n = 3p + \sqrt{(8p^2 + 1)}$$, and this formula being already similar to the one proposed, we may make p = 0, which gives n = 1, and m = 3.
+    + whence $n = 3p + \sqrt{(8p^2 + 1)}$, and this formula being already similar to the one proposed, we may make p = 0, which gives n = 1, and m = 3.
+  8894:
+    - $$\sqrt{(a + bx + cx^2 + dx^3)}$$ Rational.
+    + $\sqrt{(a + bx + cx^2 + dx^3)}$ Rational.
+  8946:
+    - $$f^2 + dx^3 = f^2 + 2fpx + p^2x^2 + 2fqx^2 + 2pqx^3 + q^2x^4,$$ we should find 2fp = 0, p² + 2fq = 0, and q² = 0; whence dx³ = 0, and also x = 0.
+    + $f^2 + dx^3 = f^2 + 2fpx + p^2x^2 + 2fqx^2 + 2pqx^3 + q^2x^4,$ we should find 2fp = 0, p² + 2fq = 0, and q² = 0; whence dx³ = 0, and also x = 0.
+  10193:
+    - $$(r^2 + 2s^2)^2$$. The latter formula also becomes $$p^2 + 6q^2 = r^4 + 20r^2s^2 + 4s^4$$; and we know a case in which it becomes a square, namely, when $$p = 1$$, and $$q = 2$$, which gives $$r = 1$$, and $$s = 1$$; or, generally, $$r = s$$; so that the formula is $$25s^4$$. Knowing this case, therefore, let us make $$r = s + t$$; and we shall then have $$r^2 = s^2 + 2st + t^2$$, or $$r^4 = s^4 + 4s^3t + 6s^3t^2 + 4st^3 + t^4$$; so that our formula will become $$25s^4 + 44s^3t + 26s^3t^2 + 4st^3 + t^4$$: and, supposing its root to be $$5s^2 + fst + t^2$$, we shall make it equal to the square $$25s^4 + 10fs^2t + f^2s^2t^2 + 10s^2t^2 + 2fst^2 + t^4$$, by which means the first and last terms will be destroyed. Let us likewise make $$2f = 4$$, or $$f = 2$$, in order to remove the last terms but one, and we shall obtain the equation
+    + $(r^2 + 2s^2)^2$. The latter formula also becomes $p^2 + 6q^2 = r^4 + 20r^2s^2 + 4s^4$; and we know a case in which it becomes a square, namely, when $p = 1$, and $q = 2$, which gives $r = 1$, and $s = 1$; or, generally, $r = s$; so that the formula is $25s^4$. Knowing this case, therefore, let us make $r = s + t$; and we shall then have $r^2 = s^2 + 2st + t^2$, or $r^4 = s^4 + 4s^3t + 6s^3t^2 + 4st^3 + t^4$; so that our formula will become $25s^4 + 44s^3t + 26s^3t^2 + 4st^3 + t^4$: and, supposing its root to be $5s^2 + fst + t^2$, we shall make it equal to the square $25s^4 + 10fs^2t + f^2s^2t^2 + 10s^2t^2 + 2fst^2 + t^4$, by which means the first and last terms will be destroyed. Let us likewise make $2f = 4$, or $f = 2$, in order to remove the last terms but one, and we shall obtain the equation
+  10195:
+    - $$44s + 26t = 10fs + 10t + f^2t = 20s + 14t$$, or $$2s = -t$$, and $$\frac{s}{t} = -\frac{1}{2}$$; therefore $$s = -1$$, and $$t = 2$$, or $$t = -2s$$; and, consequently, $$r = -s$$, also $$r^2 = s^2$$, which is nothing more than the case already known.
+    + $44s + 26t = 10fs + 10t + f^2t = 20s + 14t$, or $2s = -t$, and $\frac{s}{t} = -\frac{1}{2}$; therefore $s = -1$, and $t = 2$, or $t = -2s$; and, consequently, $r = -s$, also $r^2 = s^2$, which is nothing more than the case already known.
+  10197:
+    - Let us rather, therefore, determine $$f$$ in such a manner, that the second terms may vanish. We must make $$10f = 44$$, or $$f = \frac{2}{3}$$; and then dividing the other terms by $$st^2$$, we shall have $$26s + 4t = 10s + f^2s + 2ft$$, that is, $$-\frac{8}{2} \frac{4}{3}s = \frac{2}{3}4t$$; which gives $$t = -\frac{7}{10}s$$, and $$r = s + t = \frac{7}{10}s$$, or $$\frac{r}{s} = \frac{3}{10}$$; so that $$r = 3$$, and $$s = 10$$; by which means we find $$p = 2s^2 - r^2 = 191$$, and $$q = 2rs = 60$$, and our formulae will be
+    + Let us rather, therefore, determine $f$ in such a manner, that the second terms may vanish. We must make $10f = 44$, or $f = \frac{2}{3}$; and then dividing the other terms by $st^2$, we shall have $26s + 4t = 10s + f^2s + 2ft$, that is, $-\frac{8}{2} \frac{4}{3}s = \frac{2}{3}4t$; which gives $t = -\frac{7}{10}s$, and $r = s + t = \frac{7}{10}s$, or $\frac{r}{s} = \frac{3}{10}$; so that $r = 3$, and $s = 10$; by which means we find $p = 2s^2 - r^2 = 191$, and $q = 2rs = 60$, and our formulae will be
+  10201:
+    - 224. Remark. In the same manner, other numbers may be found for $$m$$ and $$n$$, that will make our formulae squares; and it is proper to observe, that the ratio of $$m$$ to $$n$$ is arbitrary.
+    + 224. Remark. In the same manner, other numbers may be found for $m$ and $n$, that will make our formulae squares; and it is proper to observe, that the ratio of $m$ to $n$ is arbitrary.
+  10203:
+    - Let this ratio be as $$a$$ to $$b$$, and let $$m = az$$, and $$n = bz$$; it will be required to know how $$z$$ is to be determined, in order that the two formulae $$p^2 + azq^2$$, and $$p^2 + bzq^2$$, may be transformed into squares; the method of doing which we shall explain in the solution of the following problem.
+    + Let this ratio be as $a$ to $b$, and let $m = az$, and $n = bz$; it will be required to know how $z$ is to be determined, in order that the two formulae $p^2 + azq^2$, and $p^2 + bzq^2$, may be transformed into squares; the method of doing which we shall explain in the solution of the following problem.
+  10205:
+    - 225. Question 9. Two numbers, $$a$$ and $$b$$, being given, to find the number $$z$$ such, that the two formulae, $$p^2 + azq^2$$, and $$p^2 + bzq^2$$, may become squares; and, at the same time, to determine the least possible values of $$p$$ and $$q$$.
+    + 225. Question 9. Two numbers, $a$ and $b$, being given, to find the number $z$ such, that the two formulae, $p^2 + azq^2$, and $p^2 + bzq^2$, may become squares; and, at the same time, to determine the least possible values of $p$ and $q$.
+  10207:
+    - Here, if we make $$p^2 + azq^2 = r^2$$, and $$p^2 + bzq^2 = s^2$$, and multiply the first equation by $$a$$, and the second by $$b$$, the difference of the two products will furnish the equation
+    + Here, if we make $p^2 + azq^2 = r^2$, and $p^2 + bzq^2 = s^2$, and multiply the first equation by $a$, and the second by $b$, the difference of the two products will furnish the equation
+  10209:
+    - $$(b-a)p^2=br^2-as^2$$, and, consequently, $$p^2=\frac{br^2-as^2}{b-a}$$; which formula must be a square: now, this happens when $$r=s$$. Let us, therefore, in order to remove the fractions, suppose $$r=s+(b-a)t$$, and we shall have
+    + $(b-a)p^2=br^2-as^2$, and, consequently, $p^2=\frac{br^2-as^2}{b-a}$; which formula must be a square: now, this happens when $r=s$. Let us, therefore, in order to remove the fractions, suppose $r=s+(b-a)t$, and we shall have
+  10215:
+    - Let us now make $$p=s+\frac{x}{y}t$$, and we shall have
+    + Let us now make $p=s+\frac{x}{y}t$, and we shall have
+  10219:
+    - in which the terms $$s^2$$ destroy each other; so that the other terms being divided by $$t$$, and multiplied by $$y^2$$, give $$2sxy+tx^2=2bsy^2+b(b-a)ty^2$$; whence
+    + in which the terms $s^2$ destroy each other; so that the other terms being divided by $t$, and multiplied by $y^2$, give $2sxy+tx^2=2bsy^2+b(b-a)ty^2$; whence
+  10223:
+    - So that $$t=2xy-2by^2$$, and $$s=b(b-a)y^2-x^2$$. Farther, $$r=2(b-a)xy-b(b-a)y^2-x^2$$; and, consequently,
+    + So that $t=2xy-2by^2$, and $s=b(b-a)y^2-x^2$. Farther, $r=2(b-a)xy-b(b-a)y^2-x^2$; and, consequently,
+  10227:
+    - Having therefore found $$p$$, $$r$$, and $$s$$, it remains to determine $$z$$; and, for this purpose, let us subtract the first equation, $$p^2+azq^2=r^2$$, from the second, $$p^2+bzq^2=s^2$$; the remainder will be $$zq^2(b-a)=s^2-r^2=(s+r)\times(s-r)$$.
+    + Having therefore found $p$, $r$, and $s$, it remains to determine $z$; and, for this purpose, let us subtract the first equation, $p^2+azq^2=r^2$, from the second, $p^2+bzq^2=s^2$; the remainder will be $zq^2(b-a)=s^2-r^2=(s+r)\times(s-r)$.
+  10229:
+    - Now, $$s+r=2(b-a)xy-2x^2$$, and
+    + Now, $s+r=2(b-a)xy-2x^2$, and
+  10243:
+    - consequently, $$z=\frac{4xy((b-a)y-x)\times(by-x)}{q^2}.$$
+    + consequently, $z=\frac{4xy((b-a)y-x)\times(by-x)}{q^2}.$
+  10245:
+    - We must therefore take the greatest square for $$q^2$$, that will divide the numerator; but let us observe, that we have already found $$p=b(b-a)y^2+x^2-2bxy=(x-by)^2-aby^2$$; and therefore we may simplify, by making $$x=v+by$$, or $$x-by=v$$; for then $$p=v^2-aby^2$$, and
+    + We must therefore take the greatest square for $q^2$, that will divide the numerator; but let us observe, that we have already found $p=b(b-a)y^2+x^2-2bxy=(x-by)^2-aby^2$; and therefore we may simplify, by making $x=v+by$, or $x-by=v$; for then $p=v^2-aby^2$, and
+  10457:
+    - $$\frac{b}{c} = \frac{1}{2}$$, the second $$\frac{d}{c}$$ must be nearly equal to it; if, therefore, we make $$\frac{d}{e} = \frac{4}{3}$$, we shall have the difference $$z = \frac{1}{6}$$. We may also determine this second fraction by means of the first, generally; for since $$\frac{1}{2} - \frac{d}{e} = \frac{3e - 2d}{2e}$$, we must have $$3e - 2d = 1$$, and, consequently, $$2d = 3e - 1$$, and
+    + $\frac{b}{c} = \frac{1}{2}$, the second $\frac{d}{c}$ must be nearly equal to it; if, therefore, we make $\frac{d}{e} = \frac{4}{3}$, we shall have the difference $z = \frac{1}{6}$. We may also determine this second fraction by means of the first, generally; for since $\frac{1}{2} - \frac{d}{e} = \frac{3e - 2d}{2e}$, we must have $3e - 2d = 1$, and, consequently, $2d = 3e - 1$, and
+  10459:
+    - $$d = e + \frac{e - 1}{2}$$. So that making $$\frac{e - 1}{2} = m$$, or $$e = 2m + 1$$, we shall have $$d = 3m + 1$$, and our second fraction will be $$\frac{d}{e} = \frac{3m + 1}{2m + 1}$$. In the same manner, we may determine the second fraction for any first whatever, as in the following Table of examples:
+    + $d = e + \frac{e - 1}{2}$. So that making $\frac{e - 1}{2} = m$, or $e = 2m + 1$, we shall have $d = 3m + 1$, and our second fraction will be $\frac{d}{e} = \frac{3m + 1}{2m + 1}$. In the same manner, we may determine the second fraction for any first whatever, as in the following Table of examples:
+  10461:
+    - |  $$\frac{b}{c} = \frac{3}{2}$$ | $$\frac{5}{3}$$ | $$\frac{7}{3}$$ | $$\frac{8}{3}$$ | $$\frac{11}{4}$$ | $$\frac{13}{6}$$ | $$\frac{17}{7}$$  |
+    + |  $\frac{b}{c} = \frac{3}{2}$ | $\frac{5}{3}$ | $\frac{7}{3}$ | $\frac{8}{3}$ | $\frac{11}{4}$ | $\frac{13}{6}$ | $\frac{17}{7}$  |
+  10463:
+    - |  $$\frac{d}{e} = \frac{3m + 1}{2m + 1}$$ | $$\frac{5m + 1}{3m + 1}$$ | $$\frac{7m + 2}{3m + 1}$$ | $$\frac{8m + 3}{5m + 2}$$ | $$\frac{11m + 3}{4m + 1}$$ | $$\frac{13m + 5}{8m + 3}$$ | $$\frac{17m + 5}{7m + 2}$$  |
+    + |  $\frac{d}{e} = \frac{3m + 1}{2m + 1}$ | $\frac{5m + 1}{3m + 1}$ | $\frac{7m + 2}{3m + 1}$ | $\frac{8m + 3}{5m + 2}$ | $\frac{11m + 3}{4m + 1}$ | $\frac{13m + 5}{8m + 3}$ | $\frac{17m + 5}{7m + 2}$  |
+  10465:
+    - 4. When we have determined, in the manner required, the two fractions, $$\frac{b}{c}$$, and $$\frac{d}{e}$$, it will be easy to find a third also analogous to these. We have only to suppose $$f = b + d$$, and $$g = c + e$$, so that $$\frac{f}{g} = \frac{b + d}{c + e}$$; for the two first giving $$be - cd = \pm 1$$, we have $$\frac{f}{g} - \frac{b}{c} = \frac{\pm 1}{e^2 + ce}$$; and subtracting likewise the second from the third, we shall have
+    + 4. When we have determined, in the manner required, the two fractions, $\frac{b}{c}$, and $\frac{d}{e}$, it will be easy to find a third also analogous to these. We have only to suppose $f = b + d$, and $g = c + e$, so that $\frac{f}{g} = \frac{b + d}{c + e}$; for the two first giving $be - cd = \pm 1$, we have $\frac{f}{g} - \frac{b}{c} = \frac{\pm 1}{e^2 + ce}$; and subtracting likewise the second from the third, we shall have
+  10469:
+    - 5. After having determined in this manner the three fractions, $$\frac{b}{c}$$, $$\frac{d}{e}$$, and $$\frac{f}{g}$$, it will be easy to resolve our question for three numbers, $$x$$, $$y$$, and $$z$$, by making the three formulae $$xy + a$$, $$xz + a$$, and $$yz + a$$, become squares: since we have only to make $$x = b^2 - ac^2$$, $$y = d^2 - ae^2$$, and $$z = f^2 - ag^2$$. For example, in the foregoing Table, let us take $\frac{b}{c} = \frac{1}{2}$, and $\frac{d}{e} = \frac{1}{4}$, we shall then have
+    + 5. After having determined in this manner the three fractions, $\frac{b}{c}$, $\frac{d}{e}$, and $\frac{f}{g}$, it will be easy to resolve our question for three numbers, $x$, $y$, and $z$, by making the three formulae $xy + a$, $xz + a$, and $yz + a$, become squares: since we have only to make $x = b^2 - ac^2$, $y = d^2 - ae^2$, and $z = f^2 - ag^2$. For example, in the foregoing Table, let us take $\frac{b}{c} = \frac{1}{2}$, and $\frac{d}{e} = \frac{1}{4}$, we shall then have
+  10580:
+    - we have $$x + y = 855625 = (925)^2$$
+    + we have $x + y = 855625 = (925)^2$
+  10584:
+    - and $$y + z = 571536 = (756)^2$$
+    + and $y + z = 571536 = (756)^2$
+  10586:
+    - also, $$x - y = 13689 = (117)^2$$
+    + also, $x - y = 13689 = (117)^2$
+  10590:
+    - and $$y - z = 270400 = (520)^2$$.
+    + and $y - z = 270400 = (520)^2$.
+  10592:
+    - The Table which has been given, would enable us to find other numbers also, by supposing $$f^2 = 9$$, and $$k^2 = 4$$, $$g^2 = 121$$, and $$h^2 = 4$$; for then $$t^2 = 13 \times 5 \times 5 \times 13 \times 9 \times 25 = 9 \times 25 \times 25 \times 169$$, and
+    + The Table which has been given, would enable us to find other numbers also, by supposing $f^2 = 9$, and $k^2 = 4$, $g^2 = 121$, and $h^2 = 4$; for then $t^2 = 13 \times 5 \times 5 \times 13 \times 9 \times 25 = 9 \times 25 \times 25 \times 169$, and
+  10596:
+    - Now, as $$f = 3$$, $$g = 11$$, $$k = 2$$, and $$h = 2$$, we have $$a = fh = 6$$, and $$b = gk = 22$$; consequently,
+    + Now, as $f = 3$, $g = 11$, $k = 2$, and $h = 2$, we have $a = fh = 6$, and $b = gk = 22$; consequently,
+  10598:
+    - $$p = a^2 - b^2 = -448$$, $$q = a^2 + b^2 = 520$$, and $$r = 2ab = 264$$; whence $$2x = t^2 + p^2 + q^2 = 950625 + 200704 + 270400 = 1421729$$, and $$x = \frac{1421729}{2}$$; wherefore $$y = x - p^2 = \frac{1020321}{2}$$, and $$z = x - q^2 = \frac{880929}{2}$$.
+    + $p = a^2 - b^2 = -448$, $q = a^2 + b^2 = 520$, and $r = 2ab = 264$; whence $2x = t^2 + p^2 + q^2 = 950625 + 200704 + 270400 = 1421729$, and $x = \frac{1421729}{2}$; wherefore $y = x - p^2 = \frac{1020321}{2}$, and $z = x - q^2 = \frac{880929}{2}$.
+  10600:
+    - Now, it is to be observed, that if these numbers have the property required, they will preserve it by whatever square they are multiplied. If, therefore, we take them four times greater, the following numbers must be equally satisfactory: $$x = 2843458$$, $$y = 2040642$$, and $$z = 1761858$$; and as these numbers are greater than the former, we may consider the former as the least that the question admits of.
+    + Now, it is to be observed, that if these numbers have the property required, they will preserve it by whatever square they are multiplied. If, therefore, we take them four times greater, the following numbers must be equally satisfactory: $x = 2843458$, $y = 2040642$, and $z = 1761858$; and as these numbers are greater than the former, we may consider the former as the least that the question admits of.
+  10604:
+    - The preceding solution will serve to resolve the present question. In fact, if $$x, y$$, and $$z$$, are such numbers that the following formulæ, namely,
+    + The preceding solution will serve to resolve the present question. In fact, if $x, y$, and $z$, are such numbers that the following formulæ, namely,
+  10610:
+    - may become squares; it is evident, likewise, that the product $$x^2 - y^2$$ of the first and second, the product $$x^2 - z^2$$ of the third and fourth, and the product $$y^2 - z^2$$ of the fifth and sixth, will be squares; and, consequently, $$x^2, y^2$$, and $$z^2$$, will be three such squares as are sought. But these numbers would be very great, and there are, doubtless, less numbers that will satisfy the question; since, in order that $$x^2 - y^2$$ may become a square, it is not necessary that $$x + y$$, and $$x - y$$, should be squares: for example, $$25 - 9$$ is a square, although neither 5 + 3, nor 5 - 3, are squares. Let us, therefore, resolve the question independently of this consideration, and remark, in the first place, that we may take 1 for one of the squares sought: the reason for which is, that if the formulae $x^2 - y^2$, $x^2 - z^2$, and $y^2 - z^2$, are squares, they will continue so, though divided by $z^2$; consequently, we may suppose that the question is to transform
+    + may become squares; it is evident, likewise, that the product $x^2 - y^2$ of the first and second, the product $x^2 - z^2$ of the third and fourth, and the product $y^2 - z^2$ of the fifth and sixth, will be squares; and, consequently, $x^2, y^2$, and $z^2$, will be three such squares as are sought. But these numbers would be very great, and there are, doubtless, less numbers that will satisfy the question; since, in order that $x^2 - y^2$ may become a square, it is not necessary that $x + y$, and $x - y$, should be squares: for example, $25 - 9$ is a square, although neither 5 + 3, nor 5 - 3, are squares. Let us, therefore, resolve the question independently of this consideration, and remark, in the first place, that we may take 1 for one of the squares sought: the reason for which is, that if the formulae $x^2 - y^2$, $x^2 - z^2$, and $y^2 - z^2$, are squares, they will continue so, though divided by $z^2$; consequently, we may suppose that the question is to transform
+  10720:
+    - 3. Let us then rather make $$(q - 1)^2 = 4(p + 1)^2$$, or $$q - 1 = 2(p + 1)$$; we shall then have $$q = 2p + 3$$, and $$q + 1 = 2p + 4$$, or $$q + 1 = 2(p + 2)$$, and after having divided our formula by $$(p + 1)^2$$, we shall obtain the following; $$(2p + 3)^2 \times (p - 1)^2 + 16p^2(p + 2)^2$$, or
+    + 3. Let us then rather make $(q - 1)^2 = 4(p + 1)^2$, or $q - 1 = 2(p + 1)$; we shall then have $q = 2p + 3$, and $q + 1 = 2p + 4$, or $q + 1 = 2(p + 2)$, and after having divided our formula by $(p + 1)^2$, we shall obtain the following; $(2p + 3)^2 \times (p - 1)^2 + 16p^2(p + 2)^2$, or
+  10722:
+    - $$9 - 6p + 53p^2 + 68p^3 + 20p^4$$. Let its root be $$3 - p + gp^2$$, the square of which is $$9 - 6p + 6gp^2 + p^2 - 2gp^3 + gp^4$$; the first two terms vanish, and we may destroy the third by making $$6g + 1 = 53$$, or $$g = \frac{26}{3}$$; so that the other terms are divisible by $$p$$, and give $$20p + 68 = g^2p - 2g$$, or $$\frac{496}{9}p = \frac{246}{3}$$; therefore $$p = \frac{48}{11}$$, and $$q = \frac{189}{11}$$, by which means we obtain a new solution.
+    + $9 - 6p + 53p^2 + 68p^3 + 20p^4$. Let its root be $3 - p + gp^2$, the square of which is $9 - 6p + 6gp^2 + p^2 - 2gp^3 + gp^4$; the first two terms vanish, and we may destroy the third by making $6g + 1 = 53$, or $g = \frac{26}{3}$; so that the other terms are divisible by $p$, and give $20p + 68 = g^2p - 2g$, or $\frac{496}{9}p = \frac{246}{3}$; therefore $p = \frac{48}{11}$, and $q = \frac{189}{11}$, by which means we obtain a new solution.
+  10724:
+    - 4. If we make $$q - 1 = \frac{4}{3}(p - 1)$$, we have $$q = \frac{4}{3}p - \frac{1}{3}$$, and $$q + 1 = \frac{4}{3}p + \frac{2}{3} = \frac{2}{3}(2p + 1)$$, and the formula, after being divided by $$(p - 1)^2$$, becomes
+    + 4. If we make $q - 1 = \frac{4}{3}(p - 1)$, we have $q = \frac{4}{3}p - \frac{1}{3}$, and $q + 1 = \frac{4}{3}p + \frac{2}{3} = \frac{2}{3}(2p + 1)$, and the formula, after being divided by $(p - 1)^2$, becomes
+  10728:
+    - we have $$9(4p - 1)^2 \times (p + 1)^2 + 64p^2(2p + 1)^2 =$$
+    + we have $9(4p - 1)^2 \times (p + 1)^2 + 64p^2(2p + 1)^2 =$
+  10732:
+    - in which the first and last terms are both squares. If, therefore, we suppose the root to be $$20p^2 - 9p + 3$$, the square of which is $$400p^4 - 360p^3 + 120p^2 + 81p^2 - 54p + 9$$, we shall have $$472p + 73 = -360p + 201$$; wherefore $$p = \frac{2}{11}$$, and $$q = \frac{3}{27} - \frac{1}{3} = -\frac{5}{29}$$.
+    + in which the first and last terms are both squares. If, therefore, we suppose the root to be $20p^2 - 9p + 3$, the square of which is $400p^4 - 360p^3 + 120p^2 + 81p^2 - 54p + 9$, we shall have $472p + 73 = -360p + 201$; wherefore $p = \frac{2}{11}$, and $q = \frac{3}{27} - \frac{1}{3} = -\frac{5}{29}$.
+  10734:
+    - We might likewise have taken for the root $$20p^2 + 9p - 3$$, the square of which is $$400p^4 + 360p^3 - 120p^2 + 81p^2 - 54p + 9$$; but comparing this square with our formula, we should have found $$472p + 73 = 360p - 39$$, and consequently $$p = -1$$, a value which can be of no use to us.
+    + We might likewise have taken for the root $20p^2 + 9p - 3$, the square of which is $400p^4 + 360p^3 - 120p^2 + 81p^2 - 54p + 9$; but comparing this square with our formula, we should have found $472p + 73 = 360p - 39$, and consequently $p = -1$, a value which can be of no use to us.
+  10736:
+    - 5. We may also make our formula divisible by the two squares, $$(p + 1)^2$$, and $$(p - 1)^2$$, at the same time. For this purpose, let us make $$q = \frac{pt + 1}{p + t}$$; so that
+    + 5. We may also make our formula divisible by the two squares, $(p + 1)^2$, and $(p - 1)^2$, at the same time. For this purpose, let us make $q = \frac{pt + 1}{p + t}$; so that
+  10742:
+    - This formula will be divisible by $$(p + 1)^2 \times (p - 1)^2$$, and will be reduced to $$\frac{(pt + 1)^2}{(p + t)^2} + \frac{(t + 1)^2 \times (t - 1)^2}{(p + t)^4} \times p^2$$. If we multiply by $$(p + t)^4$$, the formula, as before, must be transformable into a square, and we shall have
+    + This formula will be divisible by $(p + 1)^2 \times (p - 1)^2$, and will be reduced to $\frac{(pt + 1)^2}{(p + t)^2} + \frac{(t + 1)^2 \times (t - 1)^2}{(p + t)^4} \times p^2$. If we multiply by $(p + t)^4$, the formula, as before, must be transformable into a square, and we shall have
+  10979:
+    - $$y - 3a = f^3y + 3bf^2 = \frac{a^6y}{b^6} + \frac{3a^4}{b^3}$$, which multiplied by $b^6$, becomes $b^6y - 3ab^6 = a^6y + 3a^4b^3$. This gives
+    + $y - 3a = f^3y + 3bf^2 = \frac{a^6y}{b^6} + \frac{3a^4}{b^3}$, which multiplied by $b^6$, becomes $b^6y - 3ab^6 = a^6y + 3a^4b^3$. This gives
+  10983:
+    - $$x = y - a = \frac{2ab^3 + a^4}{b^3 - a^3} = a \times \frac{2b^3 + a^3}{b^3 - a^3}.$$ So that the two cubes $a^3$ and $b^3$ being given, we know also the root of the third cube sought; and if we would have that root positive, we have only to suppose $b^3$ to be greater than $a^3$. Let us apply this to some examples.
+    + $x = y - a = \frac{2ab^3 + a^4}{b^3 - a^3} = a \times \frac{2b^3 + a^3}{b^3 - a^3}.$ So that the two cubes $a^3$ and $b^3$ being given, we know also the root of the third cube sought; and if we would have that root positive, we have only to suppose $b^3$ to be greater than $a^3$. Let us apply this to some examples.
+
+collapsed 239 span(s) across 1 file(s).

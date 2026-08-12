@@ -6,8 +6,8 @@
   "year_translated": 1828,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "elementsofalgebr00eule.pdf",
+  "format": "markdown",
+  "filename": "euler-elements-of-algebra.md",
   "description": "Comprehensive introduction to algebra from basic arithmetic to Diophantine equations",
   "topics": [
     "mathematics",
@@ -15,5 +15,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

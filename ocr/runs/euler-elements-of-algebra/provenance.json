@@ -1,0 +1,26 @@
+{
+  "text_id": "euler-elements-of-algebra",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "65d887d",
+  "session_id": "019ff68a-7833-73b0-a8da-128eefefe188",
+  "started": "2026-08-12T15:14:57Z",
+  "finished": "2026-08-12T22:41:33Z",
+  "exit_code": 0,
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-12T22:45:31Z",
+      "finished": "2026-08-12T23:06:34Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-12T23:31:26Z",
+    "target": "texts/5-newtonian-enlightenment/euler-elements-of-algebra/euler-elements-of-algebra.md"
+  }
+}

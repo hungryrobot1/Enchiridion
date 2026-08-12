@@ -1,0 +1,3 @@
+Propose `hooke-micrographia.md` as the library transcription. Its 39 required assets are in `images/`.
+
+Verified: complete authorial dedications, Preface, and Observation I–LX sequence; source-native extraction from the supplied EPUB; all 38 full-resolution Schemes present in a continuous `Schem` 1–38 sequence; 39/39 image references resolve; controlled diagnostic triad green; no Gutenberg boilerplate, removed apparatus, in-page links, entities, code fences, raw single-star emphasis, or unresolved assets. The sibling PDF is generated from the same Gutenberg transcription, so correctness against print remains for human review and is not claimed.

@@ -253,6 +253,26 @@ def decide(f: Facts) -> Route:
 
 LABEL_W = 16
 
+# A refusal that does not say what to do next is not finished. Boole's run hit
+# UNDETERMINED and then went hunting through four documents for "the material
+# needed to establish that UNDETERMINED meant stop" -- so the verdict that was
+# supposed to save reading caused reading. The exit has to travel WITH the
+# refusal, every time, which is why this is a constant and not prose in a
+# stage document that the worker would have to go and find.
+UNDETERMINED_PROTOCOL = [
+    "UNDETERMINED means STOP. It does not mean 'pick the likely one'.",
+    "1. Do the check under `would flip` above. It is written to be cheap "
+    "and it usually settles the route in a minute.",
+    "2. If it settles: you have your route. Record the fact you observed "
+    "and the route it gave in NOTES.md, and carry on. This needs no "
+    "permission and is not an escalation.",
+    "3. If it does not settle: write ESCALATION.md and STOP. Do not "
+    "extract on a guess.",
+    "Escalating here is a SUCCESS. Boole's run escalated on UNDETERMINED, "
+    "and the generating LaTeX turned out to exist -- 3,232 math lines that "
+    "a guess would have thrown away.",
+]
+
 
 def render(r: Route, indent: str = "  ", width: int = 78) -> str:
     """The verdict as the four-part block a worker reads instead of four docs."""
@@ -264,8 +284,9 @@ def render(r: Route, indent: str = "  ", width: int = 78) -> str:
     for line in r.would_flip:
         out.append(_row("would flip", line, indent, width))
     if r.decision == "UNDETERMINED":
-        out.append(_row("", "A PERSON DECIDES THIS ONE. Recon will not guess "
-                            "it for you.", indent, width))
+        out.append(_row("what to do", UNDETERMINED_PROTOCOL[0], indent, width))
+        for line in UNDETERMINED_PROTOCOL[1:]:
+            out.append(_row("", line, indent, width))
     return "\n".join(out)
 
 
@@ -338,6 +359,24 @@ def self_test() -> int:
         ok = got == want
         bad += not ok
         print(f"  {'pass' if ok else 'FAIL'}  {got:<14} want {want:<14} {name}")
+
+    # Every refusal must carry its exit. A verdict that says "stop" without
+    # saying what stopping looks like sends the worker back into the documents,
+    # which is the cost this module exists to remove.
+    undecided = [(n, f) for n, f, w in CONTROLS if w == "UNDETERMINED"]
+    assert undecided, "controls must include at least one UNDETERMINED case"
+    for name, facts in undecided:
+        text = render(decide(facts))
+        for want in ("what to do", "ESCALATION.md", "means STOP"):
+            if want not in text:
+                print(f"  FAIL  UNDETERMINED without {want!r}: {name}")
+                bad += 1
+    # ... and a decided route must NOT carry it, or it is noise on every run.
+    decided = next(f for _, f, w in CONTROLS if w == "source-native")
+    if "what to do" in render(decide(decided)):
+        print("  FAIL  the stop protocol printed on a DECIDED route")
+        bad += 1
+
     if bad:
         print(f"\n  {bad} CONTROL(S) FAILED — the route verdict cannot be trusted.")
         return 2

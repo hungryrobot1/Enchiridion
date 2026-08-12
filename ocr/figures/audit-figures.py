@@ -32,6 +32,22 @@ believed, and Huygens is the case that shows what that costs: recon routed it to
 OCR precisely because something decided that images without notation must be
 mathematics.
 
+RECONCILIATION IS NOT AUDIT, AND THE DIFFERENCE COST A RUN. Everything here
+except the sequence check compares two lists THIS PIPELINE PRODUCED, so it can
+only find loss that hit one side and not the other. Galileo's OCR dropped four
+diagrams and eight captions before either side existed; markdown and disk agreed
+at 131 = 131 and this tool said clean. The printed numbering is the one witness
+the pipeline did not write, and it is checked FIRST because it is also free.
+
+VALIDATED AGAINST THE CASE THAT DEFEATED THE PREVIOUS VERSION. Run on Galileo's
+raw pre-repair OCR (138 refs, 138 files, no reconciliation finding at all), the
+sequence check reports gaps at 3, 10, 44, 48, 55, 60, 86, 100, 111, 113 and 125
+-- the three diagrams and all eight captions the run found by hand. Fig. 50 is
+correctly absent from that list: its caption survived inside `more-Fig. 50 over`,
+so the number WAS in the prose and the defect was a different one. That check is
+a one-off validation against a live text, not a control; live controls expire
+when the text is fixed, so the permanent controls in self_test() are synthetic.
+
 Report only. It never moves, renames or deletes a file.
 """
 
@@ -51,7 +67,11 @@ from PIL import Image
 MD_IMG = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
 HTML_IMG = re.compile(r"<img[^>]*?\bsrc\s*=\s*[\"']([^\"']+)", re.I)
 # "Fig. 2", "Figure 12", "PLATE IV" — the prose's own claim that a figure exists.
-FIG_REF = re.compile(r"\b(?:fig(?:ure)?\.?|plate)\s*([0-9]{1,3}|[IVXLC]{1,6})\b", re.I)
+FIG_REF = re.compile(r"\b(fig(?:ure)?|plate)\.?\s*([0-9]{1,3}|[IVXLC]{1,6})\b", re.I)
+
+# Below this many distinct numbers, a "sequence" is coincidence rather than a
+# numbering scheme, and its gaps mean nothing.
+SEQ_MIN = 3
 
 ORNAMENT_PX = 100 * 100      # below this area, almost certainly not an argument
 THUMB_RATIO = 0.5            # a thumbnail is at most half its original's width
@@ -119,15 +139,102 @@ def find_pairs(facts: list[dict], max_diff: int = 12) -> list[tuple[dict, dict]]
     return pairs
 
 
-def audit(md: Path, images: Path | None, source: Path | None) -> dict:
-    text = md.read_text(encoding="utf-8", errors="replace")
-    refs = [Path(r).name for r in MD_IMG.findall(text) + HTML_IMG.findall(text)]
-    ref_counts = Counter(refs)
+_ROMAN = [(100, "C"), (90, "XC"), (50, "L"), (40, "XL"),
+          (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]
 
-    images = images or (md.parent / "images")
+
+def _to_roman(n: int) -> str:
+    out = []
+    for v, s in _ROMAN:
+        while n >= v:
+            out.append(s)
+            n -= v
+    return "".join(out)
+
+
+def _from_roman(s: str) -> int | None:
+    """Strict: only canonical numerals parse. Round-tripping is the whole test.
+
+    The regex is deliberately loose so it can catch `Plate iv`, which means it
+    also catches `Fig. ill`. Requiring int -> roman -> the same string back
+    rejects ILL, IIII and XXXX without a table of exceptions.
+    """
+    val = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+    s = s.upper()
+    total = prev = 0
+    for ch in reversed(s):
+        if ch not in val:
+            return None
+        v = val[ch]
+        total += -v if v < prev else v
+        prev = max(prev, v)
+    return total if total and _to_roman(total) == s else None
+
+
+def figure_sequence(text: str) -> list[dict]:
+    """The printed numbering, as a sequence, with its GAPS.
+
+    THIS IS THE ONLY WITNESS HERE THAT THE PIPELINE DID NOT WRITE. Every other
+    check in this file compares two lists we produced -- markdown references
+    against files on disk -- so it can only ever find loss that hit one side and
+    not the other. A figure dropped by OCR is missing from BOTH, the two sides
+    agree perfectly, and the audit reports clean. That is not a bug in the
+    comparison; it is what reconciliation means.
+
+    The printed numbers are different in kind: the printer wrote `Fig. 57`, not
+    us, and the number survives the loss of the figure it names because it is
+    spread over the whole book. Galileo's run found four absent diagrams and
+    eight absent captions by reconstructing this sequence BY HAND, after an
+    audit that had already told it 131 references matched 131 files.
+
+    A gap is a FINDING FOR A PERSON, never a failure: an edition may skip a
+    number, and a figure may be printed without being named in the prose.
+    """
+    groups: dict[tuple[str, str], Counter] = defaultdict(Counter)
+    for m in FIG_REF.finditer(text):
+        word, token = m.group(1).lower(), m.group(2)
+        kind = "plate" if word.startswith("plate") else "figure"
+        if token.isdigit():
+            groups[(kind, "arabic")][int(token)] += 1
+        else:
+            n = _from_roman(token)
+            if n is not None:
+                groups[(kind, "roman")][n] += 1
+
+    out = []
+    for (kind, system), counts in sorted(groups.items()):
+        if len(counts) < SEQ_MIN:
+            continue
+        lo, hi = min(counts), max(counts)
+        fmt = _to_roman if system == "roman" else str
+        out.append({
+            "kind": kind, "system": system, "lo": lo, "hi": hi,
+            "distinct": len(counts),
+            "missing": [n for n in range(lo, hi + 1) if n not in counts],
+            "fmt": fmt,
+        })
+    return sorted(out, key=lambda s: -s["distinct"])
+
+
+def audit(md: Path | None, images: Path | None, source: Path | None) -> dict:
+    text = md.read_text(encoding="utf-8", errors="replace") if md else ""
+
+    # The comparison is by BASENAME, both sides. Gilbert's run could not tell
+    # which basis was in play, so it is stated here and checked below: if two
+    # references differ only by directory, the basename basis is silently
+    # merging them and every count after this is wrong.
+    ref_paths = MD_IMG.findall(text) + HTML_IMG.findall(text)
+    ref_counts = Counter(Path(r).name for r in ref_paths)
+    by_base: dict[str, set[str]] = defaultdict(set)
+    for r in ref_paths:
+        by_base[Path(r).name].add(r)
+    collisions = sorted(b for b, paths in by_base.items() if len(paths) > 1)
+
+    images = images or (md.parent / "images" if md else None)
+    have_images = bool(images and images.is_dir())
     on_disk = sorted(p for p in images.iterdir()
                      if p.suffix.lower() in (".png", ".jpg", ".jpeg", ".gif",
-                                             ".svg", ".webp")) if images.is_dir() else []
+                                             ".svg", ".webp")) if have_images else []
     facts = [image_facts(p) for p in on_disk if p.suffix.lower() != ".svg"]
     names = {p.name for p in on_disk}
 
@@ -135,29 +242,79 @@ def audit(md: Path, images: Path | None, source: Path | None) -> dict:
     for f in facts:
         by_sha[f["sha"]].append(f)
 
-    fig_refs = {m.group(1).upper() for m in FIG_REF.finditer(text)}
-
     in_source = None
     if source and source.suffix.lower() in (".epub", ".zip"):
         with zipfile.ZipFile(source) as z:
             in_source = {Path(n).name for n in z.namelist()
                          if Path(n).suffix.lower() in (".png", ".jpg", ".jpeg", ".gif")}
 
+    sequences = figure_sequence(text)
+
+    # What this run was actually able to check. "No findings" is a claim about
+    # the witnesses you had, and the verdict has to say which those were.
+    witnesses = {
+        "markdown refs vs files on disk": bool(md) and have_images,
+        "printed figure sequence": bool(sequences),
+        "source artifact": in_source is not None,
+    }
+
     return {
         "referenced": ref_counts,
+        "collisions": collisions,
         "on_disk": names,
+        "have_images": have_images,
+        "have_md": bool(md),
         "facts": facts,
-        "dangling": sorted(set(ref_counts) - names),
-        "orphans": sorted(names - set(ref_counts)),
+        "dangling": sorted(set(ref_counts) - names) if have_images else [],
+        "orphans": sorted(names - set(ref_counts)) if md else [],
         "duplicates": [v for v in by_sha.values() if len(v) > 1],
         "pairs": find_pairs(facts),
-        "fig_refs": fig_refs,
+        "fig_refs": {m.group(2).upper() for m in FIG_REF.finditer(text)},
+        "sequences": sequences,
         "in_source": in_source,
+        "witnesses": witnesses,
     }
 
 
+def report_sequence(a: dict) -> int:
+    """Runs FIRST and costs nothing. Galileo's run named the ordering directly:
+    'Had that cheap sequence check happened first, the missing captions and
+    source-page crops would have been found together rather than in successive
+    passes.'"""
+    gaps = 0
+    if not a["sequences"]:
+        print("\n  printed sequence      none found — no numbering scheme with "
+              f"{SEQ_MIN}+ distinct")
+        print("                        numbers. The strongest witness available "
+              "here is")
+        print("                        absent; see the RESULT block.")
+        return 0
+
+    for s in a["sequences"]:
+        f = s["fmt"]
+        span = f"{s['kind'].title()} {f(s['lo'])}–{f(s['hi'])}"
+        print(f"\n  printed sequence      {span} ({s['system']}), "
+              f"{s['distinct']} distinct")
+        if not s["missing"]:
+            print("                        continuous, no gap")
+            continue
+        gaps += len(s["missing"])
+        shown = ", ".join(f(n) for n in s["missing"][:20])
+        print(f"  ⚠ GAPS IN THE SEQUENCE  {len(s['missing'])}: {shown}"
+              f"{'…' if len(s['missing']) > 20 else ''}")
+        print("      The prose numbers these but never names them. THIS IS THE")
+        print("      ONE CHECK HERE THAT CAN SEE A FIGURE LOST FROM BOTH THE")
+        print("      MARKDOWN AND THE DISK — the case reconciliation is blind to.")
+        print("      A gap is not automatically a defect: an edition may skip a")
+        print("      number, and a figure may be printed without being named.")
+        print("      Go to the printed pages either side and look.")
+    return gaps
+
+
 def report(a: dict, show_all: bool) -> int:
-    print(f"  images on disk        {len(a['on_disk'])}")
+    gaps = report_sequence(a)
+    print()
+    print(f"  images on disk        {len(a['on_disk']) if a['have_images'] else '— (no images dir)'}")
     print(f"  referenced in prose   {len(a['referenced'])} distinct, "
           f"{sum(a['referenced'].values())} reference(s)")
 
@@ -203,7 +360,15 @@ def report(a: dict, show_all: bool) -> int:
         print("      Same aspect ratio, one materially smaller. A count that")
         print("      includes both is double what the reader should see.")
 
-    if a["fig_refs"]:
+    if a["collisions"]:
+        print(f"\n  ⚠ BASENAME COLLISIONS     {len(a['collisions'])}")
+        for n in a["collisions"][:8]:
+            print(f"      {n}")
+        print("      Both sides of this audit are compared by BASENAME. These")
+        print("      names appear at more than one path, so they are being")
+        print("      merged and every count above understates the true number.")
+
+    if a["fig_refs"] and a["have_images"]:
         print(f"\n  figure references in the prose: {len(a['fig_refs'])} distinct "
               f"({', '.join(sorted(a['fig_refs'])[:10])}{'…' if len(a['fig_refs']) > 10 else ''})")
         print(f"  images at or above 100×100:     {len(big)}")
@@ -218,17 +383,34 @@ def report(a: dict, show_all: bool) -> int:
             print(f"      {f['path'].name:<38} {f['w']:>5}×{f['h']:<5} "
                   f"{f['bytes']//1024:>5} KB  ×{a['referenced'].get(f['path'].name, 0)}")
 
-    problems = len(a["dangling"]) + len(a["duplicates"]) + len(a["pairs"])
+    problems = (len(a["dangling"]) + len(a["duplicates"]) + len(a["pairs"])
+                + len(a["collisions"]) + gaps)
+
+    # THE VERDICT DECLARES ITS OWN REACH. Galileo's run trusted a clean result
+    # that was clean about the wrong thing: 131 references matched 131 files
+    # while four diagrams were absent from both. "No findings" is a claim about
+    # the witnesses you had, so the witnesses are named either way.
+    had = [w for w, ok in a["witnesses"].items() if ok]
+    lacked = [w for w, ok in a["witnesses"].items() if not ok]
     print()
-    if problems:
-        print(f"  RESULT: {problems} finding(s) that need a person. Nothing here has")
-        print("  been changed; this tool only reports.")
-        return 1
-    print("  RESULT: no unambiguous defect. Note what that does NOT mean: it")
-    print("  cannot tell a diagram from an ornament, or a correct figure from a")
-    print("  wrong one placed where a correct one belongs — and any count")
-    print("  difference printed above is still yours to explain.")
-    return 0
+    print(f"  RESULT: {problems} finding(s) that need a person." if problems
+          else "  RESULT: no defect found — against the witnesses listed below.")
+    for w in had:
+        print(f"    checked      {w}")
+    for w in lacked:
+        print(f"    NOT checked  {w}")
+    print(f"\n  reach: {len(had)} of {len(a['witnesses'])} witnesses.")
+    if not a["witnesses"]["printed figure sequence"]:
+        print("    Without a printed sequence, every check here compares two lists")
+        print("    THIS PIPELINE PRODUCED. A figure lost before extraction is")
+        print("    missing from both, they agree, and nothing above can see it.")
+    if not a["witnesses"]["source artifact"]:
+        print("    Without --source, an image that never survived extraction is")
+        print("    invisible.")
+    print("  Always invisible: whether a figure is a diagram or an ornament, and")
+    print("  whether a correct-looking figure is the RIGHT one for its place.")
+    print("  Nothing here has been changed; this tool only reports.")
+    return 1 if problems else 0
 
 
 # Synthetic and permanent. A control that depends on a text staying broken
@@ -285,6 +467,50 @@ def self_test(tmp: Path) -> int:
         ("a prose figure reference is detected",
          "2" in a["fig_refs"]),
     ]
+
+    # THE CONTROL THIS REVISION EXISTS FOR. Galileo's audit reported 131
+    # references against 131 files and was right; four diagrams were absent
+    # from BOTH sides and it could not see them. So: a text whose markdown and
+    # disk agree perfectly, with a hole in the printed numbering.
+    seq_imgs = tmp / "seq-images"
+    seq_imgs.mkdir(exist_ok=True)
+    for n in (1, 2, 3, 5, 6):                      # Fig. 4 was lost at OCR
+        Image.new("RGB", (300, 200), (n * 7, 40, 40)).save(seq_imgs / f"f{n}.png")
+    seq_md = tmp / "seq.md"
+    seq_md.write_text("".join(f"As Fig. {n} shows. ![](seq-images/f{n}.png)\n\n"
+                              for n in (1, 2, 3, 5, 6)))
+    s = audit(seq_md, seq_imgs, None)
+    seq = s["sequences"][0] if s["sequences"] else None
+    checks += [
+        ("SYMMETRIC LOSS: refs and disk agree perfectly (the Galileo case)",
+         not s["dangling"] and not s["orphans"]),
+        ("...and the printed sequence still finds the missing figure",
+         seq is not None and seq["missing"] == [4]),
+        ("the sequence witness is reported as checked",
+         s["witnesses"]["printed figure sequence"] is True),
+        ("an absent --source is reported as NOT checked",
+         s["witnesses"]["source artifact"] is False),
+        ("NEGATIVE: a continuous sequence reports no gap",
+         not figure_sequence("Fig. 1 a. Fig. 2 b. Fig. 3 c. Fig. 4 d.")[0]["missing"]),
+        ("NEGATIVE: too few numbers is not treated as a sequence",
+         figure_sequence("Fig. 1 and Fig. 9 only.") == []),
+        ("roman numbering is read as a sequence",
+         any(x["system"] == "roman" for x in
+             figure_sequence("Plate I. Plate II. Plate IV."))),
+        ("...and its gap is found",
+         [x for x in figure_sequence("Plate I. Plate II. Plate IV.")
+          if x["system"] == "roman"][0]["missing"] == [3]),
+        ("NEGATIVE: 'Fig. ill' is not parsed as a roman numeral",
+         _from_roman("ILL") is None and _from_roman("IIII") is None),
+        ("figures and plates are counted as separate sequences",
+         len(figure_sequence("Fig. 1 Fig. 2 Fig. 3 Plate 7 Plate 8 Plate 9")) == 2),
+    ]
+
+    # A basename collision must be visible, since both sides compare on it.
+    coll_md = tmp / "coll.md"
+    coll_md.write_text("![](a/fig1.png) and ![](b/fig1.png)\n")
+    checks.append(("a basename collision is reported",
+                   audit(coll_md, imgs, None)["collisions"] == ["fig1.png"]))
     bad = 0
     for name, ok in checks:
         bad += not ok
@@ -292,8 +518,9 @@ def self_test(tmp: Path) -> int:
     if bad:
         print(f"\n  {bad} CONTROL(S) FAILED — this audit cannot be trusted.")
         return 2
-    print("\n  controls pass: it finds the four defects it exists for, and does "
-          "not invent a pair or a duplicate where there is none")
+    print("\n  controls pass: it finds the defects it exists for, it finds a "
+          "figure lost\n  symmetrically from markdown AND disk, and it does not "
+          "invent a pair, a\n  duplicate or a gap where there is none")
     return 0
 
 
@@ -311,10 +538,14 @@ def main() -> int:
         import tempfile
         with tempfile.TemporaryDirectory() as d:
             return self_test(Path(d) / "audit")
-    if args.markdown is None:
-        ap.error("a markdown file is required unless --self-test")
+    # Gilbert's run wanted to look into an EPUB before there was any markdown.
+    # Either input alone is a usable audit; only BOTH missing is an error, and
+    # whichever is absent is then named as an unchecked witness in the RESULT.
+    if args.markdown is None and args.source is None and args.images is None:
+        ap.error("give a markdown file, or --source, or --images "
+                 "(or --self-test)")
 
-    print(f"  text                  {args.markdown.name}")
+    print(f"  text                  {args.markdown.name if args.markdown else '— (none given)'}")
     return report(audit(args.markdown, args.images, args.source), args.all)
 
 

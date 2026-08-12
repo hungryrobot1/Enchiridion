@@ -40,29 +40,97 @@ A tool's count also means nothing if the tool cannot *see* the region:
 `reflow-derivations.py` reported 0 candidates while 95 paragraphs sat hidden
 behind that code fence.
 
-## Removing apparatus happens here — the rules are in the README
+## Apparatus: the text itself and nothing else
 
-This is the stage where notes, introductions and editorial matter are separated
-from the text, and the decisions that govern it are **not in this file**. They
-are in [`../README.md`](../README.md) under *Policies → Apparatus*. Read that
-section before classifying anything; it is short, and a run reported hunting for
-it from here.
+This is where notes, introductions and editorial matter are separated from the
+text, so this is where the rules live. **Everything you need to classify a
+passage is in this section** — you should not have to open another file.
 
-What it settles, in outline — the README has the reasoning and the precedents:
+Strip Gutenberg boilerplate, edition contents pages, editor and translator
+introductions, notes-on-the-text, bibliographies, appendices, glossaries,
+indices, and editorial footnotes together with their `[N]` markers in the body.
 
-- **authorial notes stay; editorial notes go**, with their `[N]` markers;
-- **critical variants go**, label and passage together, because the test is
-  *are these words the work?* rather than *are these words the author's?* —
-  but `[Printed text:]` is asymmetric: drop the label, **keep** the passage;
-- **a note you cannot attribute stays**, under a neutral marker, listed for the
-  reviewer. Never invent an attribution;
-- **a translator's interpolation inside a sentence stays**; an editor's label
-  *about* the text goes;
-- where a **signature** decides what stays, verify what it abbreviates first.
-  Colebrooke's `Ch.` is the commentator, not the editor, and a brief that said
-  otherwise would have deleted most of a chapter.
+Authorial footnotes stay. So do a translator's bracketed interpolations inside
+sentences ("[for negligence]").
 
-Getting this backwards deletes the author, and nothing downstream can see it.
+Getting this backwards deletes the author, and nothing downstream can see it, so
+it is worth a question rather than a guess. The apparatus is not destroyed — it
+remains in the source PDF and in the raw extract under `source/`.
+
+### Front matter: the test is authorial presentation
+
+Several things sit between the title page and the first line of the work, and
+they are not one class. **A dedication written by the author is the author
+presenting the work, and stays. A publisher's address, a printer's notice or a
+library plate is someone else speaking about the object, and goes.**
+
+Galileo's run met exactly this pair and settled it that way: the dedication was
+kept, the original publisher's address dropped, both of which precede the
+dialogue. If a piece of front matter is signed by the author, assume it stays
+and say so in `NOTES.md`; if it is unsigned and administrative, it goes.
+
+### Critical variants: the author's words, and still not the work
+
+A critical edition prints rejected readings — deleted passages, earlier drafts,
+manuscript variants — usually under an editorial label. **These come out, label
+and passage together.**
+
+The test is not *are these words the author's?* but **are these words the
+work?** Copernicus's deleted drafts in the autograph are his, and they are still
+not *De revolutionibus*; they are the edition's scholarship about how the book
+came to be. Skeat prints a band of manuscript collation under every page of
+Chaucer, and 1,241 of those blocks were dropped for the same reason.
+
+This also fixes what the bracket rule is really about — **whose act of writing
+the bracket represents.** A translator's interpolation inside a sentence is part
+of rendering this text into English, and stays. An editor's label announcing a
+variant is a statement *about* the text, and goes.
+
+Two traps, both met on Copernicus:
+
+- **Some labels are asymmetric.** `[Printed text:]` and `[Printed version:]`
+  introduce the *received* reading. Remove the label and **keep** the passage;
+  removing both deletes the work.
+- **Prose labels have no closing delimiter.** "Here Copernicus originally
+  planned to include … which he later deleted" runs until it stops, and if the
+  cut overshoots it eats the author invisibly — what follows a deleted passage
+  is also his prose, so the result reads fine and passes every check. Adjudicate
+  each one against the rendered page and record the first words kept after the
+  cut.
+
+Assert the counts by label form, and give a before/after census of *all*
+bracketed spans with the difference accounted for exactly. That subtraction is
+what proves no ordinary interpolation was swept up with the apparatus.
+
+### Unattributable notes: mark them, never guess
+
+When a note cannot be confidently assigned to the author or to the editor,
+**retain it under a neutral marker and list it for the reviewer.** Do not invent
+an attribution: a wrong one is invisible to every check we have and misleads a
+reader about who is speaking.
+
+This arrived on Brahmagupta — four notes signed `Ib.`, `Cn.` and `Gan.` where
+the rest were `Ch.` — and transferred unchanged to Kepler, where 10 of 20 notes
+were unsigned. Both runs kept the doubtful ones visible rather than resolving
+them by guess, and both told a reviewer exactly which ones to look at.
+
+Related: `Ch.` in Colebrooke's Brahmagupta abbreviates *Chaturvéda*, the
+commentator — not Colebrooke. A brief once said the reverse, and following it
+would have deleted most of chapter XII. Where signatures decide what stays,
+verify what the signature expands to before acting on it.
+
+### Bilingual editions: keep the original only where the curriculum teaches it
+
+Many nineteenth-century editions print the original beside the translation.
+Rosen's al-Khwarizmi gives 104 KB of Arabic after the English, and that is
+al-Khwarizmi's own words, not Rosen's apparatus.
+
+Keep it where a reader of this curriculum can be expected to meet the language:
+Euclid's Greek stays, because the Greek module teaches it and the reader has an
+interlinear mode. Otherwise take the translation alone. Not a judgment about the
+original's value — we cannot proofread what nobody here reads, the reader has no
+right-to-left support, and a language with no module has no reader who would use
+it.
 
 ## What this stage may repair, and on whose authority
 

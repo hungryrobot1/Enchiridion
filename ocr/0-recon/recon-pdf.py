@@ -44,6 +44,13 @@ def main() -> int:
     ap.add_argument("--max-headings", type=int, default=60)
     args = ap.parse_args()
 
+    # Printing the cheap facts first only helps if they actually leave the
+    # process before the expensive pass runs. Piped into a log -- which is how a
+    # dispatched run sees this -- stdout is block-buffered, so a crash in the
+    # image pass would discard everything printed above it and reproduce exactly
+    # the failure this ordering was meant to fix.
+    sys.stdout.reconfigure(line_buffering=True)
+
     doc = pymupdf.open(args.pdf)
     n = doc.page_count
     rect = doc[min(2, n - 1)].rect
@@ -63,28 +70,20 @@ def main() -> int:
     # full-page photograph once per page: three separate runs reported this as
     # the slowest step in recon, ~2 minutes on a 400-page scan, and one worker
     # interrupted it and got the same answer instantly from an xref-only pass.
+    # `get_images()` reads the page's resource list and does not rasterize, so
+    # this is cheap and runs now. The PLACEMENT sampling below it is the
+    # expensive half -- `get_image_rects()` rasterizes -- and it has been moved
+    # to the end of the run. Napier's report died inside that pass and took the
+    # whole report with it, including the route evidence it had already earned.
+    # Cheap facts print first so that a crash costs the expensive answer only.
     xrefs: set = set()
-    full_page = 0
-    in_text = 0
-    page_area = rect.width * rect.height
-    step = max(1, n // 40)
-    sample = list(range(0, n, step))
     for pno in range(n):
         for img in doc[pno].get_images():
             xrefs.add(img[0])
-    for pno in sample:
-        try:
-            imgs = doc[pno].get_images()
-            if not imgs:
-                continue
-            for r in doc[pno].get_image_rects(imgs[0][0]):
-                if (r.width * r.height) / page_area > 0.8:
-                    full_page += 1
-                else:
-                    in_text += 1
-        except Exception:
-            pass
     img_ratio = len(xrefs) / max(n, 1)
+    page_area = rect.width * rect.height
+    step = max(1, n // 40)
+    sample = list(range(0, n, step))
 
     # ---- font histogram + line inventory (single pass) ----
     sizes: Counter = Counter()
@@ -169,10 +168,36 @@ def main() -> int:
     for p, t in body_numerals[:10]:
         print(f"     p.{p}: {t!r}")
 
-    print(f"\nimages: {len(xrefs)} unique (ratio {img_ratio:.2f}/page); "
-          f"placement over {len(sample)} sampled page(s): {full_page} full-page, {in_text} in-text")
-    if len(sample) < n:
-        print("   (placement is sampled; the unique-image count is exact)")
+    # The expensive pass, last and survivable. It rasterizes, and on a page-image
+    # scan that means hashing a full-page photograph once per sampled page.
+    full_page = in_text = 0
+    placement_failed = None
+    for pno in sample:
+        try:
+            imgs = doc[pno].get_images()
+            if not imgs:
+                continue
+            for r in doc[pno].get_image_rects(imgs[0][0]):
+                if (r.width * r.height) / page_area > 0.8:
+                    full_page += 1
+                else:
+                    in_text += 1
+        except Exception as exc:  # noqa: BLE001 — a verdict is worth more than a trace
+            placement_failed = exc
+            break
+
+    print(f"\nimages: {len(xrefs)} unique (ratio {img_ratio:.2f}/page)")
+    if placement_failed:
+        print(f"   ⚠ placement sampling failed ({type(placement_failed).__name__}: "
+              f"{placement_failed}); the unique-image count above is still exact.")
+        print("   The route verdict below is computed WITHOUT placement evidence,")
+        print("   so a scan-with-OCR-layer may read as a reconstruction. Check the")
+        print("   producer string and render a page before trusting it.")
+    else:
+        print(f"   placement over {len(sample)} sampled page(s): "
+              f"{full_page} full-page, {in_text} in-text")
+        if len(sample) < n:
+            print("   (placement is sampled; the unique-image count is exact)")
 
     # ---- route ----
     # The verdict lives here, after both the text and the image evidence, because

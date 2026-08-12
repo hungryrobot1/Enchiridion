@@ -32,6 +32,7 @@ figure attached to the wrong proposition passes every check here.
 | `recover-missing-diagrams.py` | Rasterizes **missing** diagrams from label positions alone, when no embedded image exists. |
 | `repair-partial-diagrams.py` | Re-rasterizes **partial** diagrams to include labels that fell outside the original crop. |
 | `audit-diagram-coverage.py` | Reports which propositions still need diagram repair. Report only. |
+| `audit-figures.py` | Reconciles a text's images against its prose, for **any** text, from what a run actually produces: a markdown file and an `images/` folder. Reports referenced-but-absent, present-but-unreferenced, byte-identical duplicates, thumbnail/original pairs, and images in the source that never survived extraction. **It will not classify** — a diagram and a picture of an equation are the same fact to every tool here, so it prints the evidence and leaves the judgment. Report only; `--self-test` before believing a clean run. |
 | `build-diagram-contact-sheet.py` | One-page HTML review sheet for every diagram mapping. Loads the audit's scaffold parser directly so the two agree on unit windows. |
 
 `build-diagram-contact-sheet.py` imports `audit-diagram-coverage.py` by path

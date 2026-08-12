@@ -90,6 +90,34 @@ def spine_documents(z: zipfile.ZipFile) -> list[str]:
                   if n.lower().endswith((".html", ".xhtml", ".htm")))
 
 
+def _wrap(inner: str, mark: str) -> str:
+    """Wrap in an emphasis marker, KEEPING the whitespace at its edges.
+
+    Markdown will not render `* text *`, so the marker has to sit tight against
+    the words -- but the earlier version got there with `inner.strip()`, which
+    DELETED that whitespace instead of moving it. `<i>Micrographia </i>is` came
+    out as `*Micrographia*is`.
+
+    Nothing downstream could see it. The extractor's own report is about
+    notation and said "no anomalies"; the triad tests math well-formedness; and
+    the result still reads as fluent prose with two words fused. Hooke's run
+    found it by eye and had to repair it per-text, and it plausibly explains
+    part of the standing corpus finding of paragraphs ending mid-word.
+
+    So: strip for the marker, and put the whitespace back outside it.
+
+    It is deliberately put back VERBATIM rather than collapsed to one space.
+    `a <i> spaced </i>word` really does carry two spaces, HTML and Markdown both
+    collapse them on render, and a general whitespace-collapsing pass here would
+    eat the two-space hardbreaks that verse depends on. Faithful and slightly
+    redundant beats tidy and lossy.
+    """
+    core = inner.strip()
+    lead = inner[:len(inner) - len(inner.lstrip())]
+    trail = inner[len(inner.rstrip()):]
+    return f"{lead}{mark}{core}{mark}{trail}"
+
+
 class Extractor:
     def __init__(self, out_dir: Path, keep_images: bool = True):
         self.out_dir = out_dir
@@ -120,13 +148,13 @@ class Extractor:
                 continue
             inner = self.inline_text(child)
             if child.tag in INLINE_EM and inner.strip():
-                inner = f"*{inner.strip()}*"
+                inner = _wrap(inner, "*")
             elif child.tag in INLINE_STRONG and inner.strip():
-                inner = f"**{inner.strip()}**"
+                inner = _wrap(inner, "**")
             elif child.tag == "sup" and inner.strip():
-                inner = f"^{inner.strip()}^"
+                inner = _wrap(inner, "^")
             elif child.tag == "sub" and inner.strip():
-                inner = f"~{inner.strip()}~"
+                inner = _wrap(inner, "~")
             parts.append(inner)
             if child.tail:
                 parts.append(child.tail)

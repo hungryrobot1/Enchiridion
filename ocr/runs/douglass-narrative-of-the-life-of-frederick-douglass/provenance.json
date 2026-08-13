@@ -1,0 +1,13 @@
+{
+  "text_id": "douglass-narrative-of-the-life-of-frederick-douglass",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "595652f",
+  "session_id": "019ff924-e3d7-7812-b6b8-fda035c3ac82",
+  "started": "2026-08-13T03:22:51Z",
+  "finished": "2026-08-13T03:22:58Z",
+  "exit_code": 1,
+  "completed": false
+}

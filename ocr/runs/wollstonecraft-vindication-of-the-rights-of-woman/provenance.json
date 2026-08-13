@@ -1,0 +1,13 @@
+{
+  "text_id": "wollstonecraft-vindication-of-the-rights-of-woman",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "595652f",
+  "session_id": "019ff924-e59c-76d2-b232-ae4730dc583f",
+  "started": "2026-08-13T03:22:52Z",
+  "finished": "2026-08-13T03:22:56Z",
+  "exit_code": 1,
+  "completed": false
+}

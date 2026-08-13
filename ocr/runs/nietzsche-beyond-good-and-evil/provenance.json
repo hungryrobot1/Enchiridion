@@ -1,0 +1,13 @@
+{
+  "text_id": "nietzsche-beyond-good-and-evil",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "595652f",
+  "session_id": "019ff924-ee88-7e12-88ea-dcaaf3a5f044",
+  "started": "2026-08-13T03:22:54Z",
+  "finished": "2026-08-13T03:22:57Z",
+  "exit_code": 1,
+  "completed": false
+}

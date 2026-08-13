@@ -139,6 +139,42 @@ expected page-to-line ratio.** That is genuinely all. Extraction is where the
 irreducible error enters — math OCR accuracy runs about 95–97%, and no test at
 this stage can tell a correctly transcribed `CN` from a misread `CM`.
 
+### For a source-native EPUB, there is a real one — use it
+
+The ratio test above is written around page-separated OCR and tells a prose
+EPUB nothing, which four runs in one wave said out loud after each building
+its own completeness check by hand. This is the shipped one:
+
+```sh
+ocr/.venv/bin/python3 ocr/verify/check-completeness.py SOURCE.epub OUT.md \
+    --dropped-doc <substring of a spine href removed on purpose> \
+    --dropped-text <file holding a passage removed on purpose>
+```
+
+**It asks whether anything in the source failed to arrive without anyone saying
+so.** A plain diff would be useless — the output is *supposed* to differ, since
+we remove apparatus deliberately — so **you declare what you removed and it
+verifies the difference is exactly that and nothing else.**
+
+Declaring is the work, and it is worth doing for its own sake: it forces the
+boundary of the work to be stated in a form something can check, which is the
+decision three runs made late and expensively. **Write the declaration from the
+decision you made, never from the tool's own output** — generating it from the
+diff makes the check pass by construction and proves nothing.
+
+On the *Principia* it went from 2,467 unexplained word occurrences to **11**,
+and all eleven were deliberate acts the run had already written down: the
+`XZand` → `XZ and` repair, the `FOOTNOTES:` heading dropped when the two notes
+were inlined, and divisional leaves printed once instead of twice.
+
+**What it does not establish.** That the text is *correct*. Locke's Sect. 2
+reads "distinguish these powers one from wealth, a father of a family" — words
+plainly lost — and it passes cleanly, because the loss is in the transcription
+we were given. Conservation is not truth, and stage 4 still wants the page.
+
+`--self-test` proves all thirteen branches, including that a word inside a
+formula excuses one loss of that word and not every loss of it.
+
 ### The one thing this stage CAN establish: no page came back empty
 
 "Roughly the expected ratio" was the whole test for a long time, with no command

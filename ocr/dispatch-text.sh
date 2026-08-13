@@ -131,10 +131,22 @@ if [ -f "$SRC_DIR/BRIEF.md" ]; then
 
 **This text carries a \`BRIEF.md\`. Read it before you start.** It records
 decisions already taken about this particular text — editorial questions that
-were settled deliberately, and that are not yours to reopen. Where the brief and
-your own judgment disagree, follow the brief and say so in \`NOTES.md\`; if
-following it turns out to be impossible, or it is silent on something it plainly
-ought to cover, that is worth an escalation."
+were settled deliberately, so that you do not have to rediscover them.
+
+Where the brief and your own judgment disagree, **follow the brief and say so in
+\`NOTES.md\`** — it is usually built on a closer look at the source than a first
+reading gives. That is a default and not a gag: **if you have a specific reason
+to think it is wrong, say what the reason is and escalate.** A brief is written
+before the file is opened in earnest, and this one has been wrong before —
+always in the parts that do not say how they were found. An observation that
+shows its evidence has never been wrong; a bare assertion is the one to doubt.
+
+Where the brief and a \`STAGE.md\` disagree, **follow the STAGE** and say so. The
+brief records what was established about this edition; it does not restate
+policy, and a sentence in it that reads like policy is a defect in the brief.
+
+If following it turns out to be impossible, or it is silent on something it
+plainly ought to cover, that is worth an escalation too."
 else
   BRIEF_NOTE=""
 fi

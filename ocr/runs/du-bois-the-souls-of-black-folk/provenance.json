@@ -1,0 +1,17 @@
+{
+  "text_id": "du-bois-the-souls-of-black-folk",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "b9911ce",
+  "session_id": "019ffbbd-e08e-7510-959f-39b1e50a2bc0",
+  "started": "2026-08-13T15:29:12Z",
+  "finished": "2026-08-13T22:57:51Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T23:03:02Z",
+    "target": "texts/7-modern-era-i/du-bois-the-souls-of-black-folk/du-bois-the-souls-of-black-folk.md"
+  }
+}

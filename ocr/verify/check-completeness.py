@@ -188,6 +188,24 @@ def markdown_words(md: str) -> Counter:
 
 # ---------------------------------------------------------------- the check
 
+def _removed(block: str, passage: str) -> bool:
+    """Is this preformatted block covered by a declared removal?
+
+    Compared on WORDS, not on characters. A run declares what it removed by
+    pasting the passage, and the whitespace it pastes will not match the
+    source's byte for byte -- which is the whole reason the block was
+    interesting. Requiring most of the block's words to appear in the
+    declaration is the honest test: it cannot be satisfied by a declaration
+    about something else, and it does not fail over a lost tab.
+    """
+    bw = words(block)
+    if not bw:
+        return False
+    pw = words(passage)
+    covered = sum(min(n, pw.get(t, 0)) for t, n in bw.items())
+    return covered >= 0.9 * sum(bw.values())
+
+
 class Result:
     def __init__(self):
         self.missing: Counter = Counter()
@@ -273,6 +291,13 @@ def check(epub: Path, out_md: Path, dropped_docs: list[str],
                 r.silent_docs.append(f"{name} (contributed nothing to the output)")
 
             for block in preformatted_blocks(raw):
+                # A DECLARED REMOVAL IS NOT A LOST BLOCK. Russell's run removed
+                # the bibliography, which is a `<pre>`, declared it, and still
+                # got a red result it could do nothing about -- the alignment
+                # rule ran before the declarations were honoured. Whatever the
+                # run said it removed cannot also be something it lost.
+                if any(_removed(block, passage) for passage in dropped_text):
+                    continue
                 lines = [ln for ln in block.split("\n") if ln.strip()]
                 # An indented line proves the alignment survived; a block with
                 # no indentation anywhere cannot testify either way, so skip it.
@@ -554,6 +579,29 @@ def selftest() -> int:
         ok &= p
         print(f"  {'PASS' if p else 'FAIL'}  pre: flattened alignment is caught "
               f"even though every WORD survived")
+
+        # Russell's shape: a chapter of prose, then a bibliography set as <pre>
+        # and removed on purpose. A block the run DECLARED it removed cannot
+        # also be a block whose alignment it lost.
+        biblio = "     Russell, B.   Principles.\n Moore, G. E.    Ethics."
+        mixed = _epub(tmp, {"m.xhtml": f"<p>The chapter itself is retained "
+                                       f"entire.</p><pre>{biblio}</pre>"})
+        out.write_text("The chapter itself is retained entire.\n", encoding="utf-8")
+        r = check(mixed, out, [], [biblio])
+        p = not r.lost_pre and r.ok
+        ok &= p
+        print(f"  {'PASS' if p else 'FAIL'}  pre: a DECLARED removal is not a "
+              f"lost block")
+        if not p:
+            print(f"        pre={r.lost_pre} missing={dict(r.missing)} "
+                  f"silent={r.silent_docs}")
+
+        # …and the exemption must not cover a block nobody declared.
+        r = check(mixed, out, [], ["something else entirely, unrelated words"])
+        p = len(r.lost_pre) == 1
+        ok &= p
+        print(f"  {'PASS' if p else 'FAIL'}  pre: an unrelated declaration does "
+              f"not excuse a lost block")
 
     print("all controls pass" if ok else "CONTROLS FAILED")
     return 0 if ok else 1

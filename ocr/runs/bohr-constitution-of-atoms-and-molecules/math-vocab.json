@@ -1,0 +1,299 @@
+{
+  "": {
+    "commands": {
+      "alpha": 61,
+      "begin": 4,
+      "beta": 12,
+      "cdot": 50,
+      "cos": 2,
+      "cosec": 5,
+      "cot": 1,
+      "delta": 31,
+      "dfrac": 57,
+      "end": 4,
+      "frac": 135,
+      "gamma": 2,
+      "geqq": 4,
+      "gt": 3,
+      "infty": 1,
+      "int": 2,
+      "lambda": 1,
+      "left": 24,
+      "lt": 2,
+      "nu": 40,
+      "omega": 94,
+      "operatorname": 5,
+      "partial": 2,
+      "pi": 57,
+      "pm": 1,
+      "qquad": 80,
+      "quad": 68,
+      "right": 24,
+      "sin": 3,
+      "sqrt": 9,
+      "sum": 15,
+      "surd": 7,
+      "tan": 2,
+      "tau": 113,
+      "text": 59,
+      "tfrac": 14,
+      "times": 8,
+      "vartheta": 4,
+      "xi": 1,
+      "zeta": 2
+    },
+    "foreign": [],
+    "kind_strays": [
+      [
+        "operator",
+        "pm",
+        1,
+        "\\cdot(50), \\times(8), \\pm(1)"
+      ]
+    ],
+    "slots": {
+      "    ^ _ CMD": {
+        "dfrac": 2,
+        "nu": 1,
+        "tau": 1
+      },
+      "    ^ _ ID": {
+        "delta": 15,
+        "dfrac": 29,
+        "pi": 1,
+        "tau": 3
+      },
+      "    ^ _ NUM": {
+        "dfrac": 4
+      },
+      "    ^ _ PUNCT": {
+        "delta": 1
+      },
+      "    ^ _ REL": {
+        "alpha": 2,
+        "lambda": 1,
+        "nu": 18,
+        "omega": 3,
+        "tau": 15
+      },
+      "    ^ _ SUP": {
+        "nu": 2,
+        "omega": 6,
+        "tau": 28
+      },
+      "    ^ _ ^": {
+        "alpha": 18,
+        "beta": 12,
+        "delta": 1,
+        "gamma": 2,
+        "nu": 5,
+        "omega": 17,
+        "pi": 1,
+        "tau": 14,
+        "xi": 1,
+        "zeta": 2
+      },
+      "   ID _ CMD": {
+        "cos": 1,
+        "dfrac": 2,
+        "nu": 1,
+        "pm": 1,
+        "vartheta": 2
+      },
+      "   ID _ ID": {
+        "delta": 5,
+        "gt": 2,
+        "pi": 4,
+        "sqrt": 1,
+        "sum": 1
+      },
+      "   ID _ NUM": {
+        "cdot": 3,
+        "geqq": 3,
+        "gt": 1,
+        "lt": 2
+      },
+      "   ID _ OP": {
+        "nu": 1,
+        "omega": 1
+      },
+      "   ID _ PUNCT": {
+        "sqrt": 1
+      },
+      "   ID _ REL": {
+        "nu": 2
+      },
+      "   ID _ SUP": {
+        "int": 1
+      },
+      "   ID _ ^": {
+        "nu": 8,
+        "omega": 4,
+        "tau": 2
+      },
+      "   OP _ CMD": {
+        "cot": 1
+      },
+      "   OP _ ID": {
+        "delta": 4,
+        "sum": 2,
+        "tfrac": 2
+      },
+      "   OP _ NUM": {
+        "dfrac": 3,
+        "sqrt": 1,
+        "tfrac": 1
+      },
+      "   OP _ PUNCT": {
+        "tan": 1
+      },
+      "   OP _ SUP": {
+        "sin": 1
+      },
+      "  CMD _ CMD": {
+        "sqrt": 1,
+        "sum": 1
+      },
+      "  CMD _ ID": {
+        "alpha": 1,
+        "cdot": 1,
+        "delta": 2,
+        "partial": 2,
+        "sum": 1
+      },
+      "  CMD _ NUM": {
+        "geqq": 1,
+        "omega": 4,
+        "pi": 1,
+        "sqrt": 1,
+        "tau": 3,
+        "tfrac": 1
+      },
+      "  CMD _ PUNCT": {
+        "pi": 1,
+        "surd": 2,
+        "vartheta": 1
+      },
+      "  CMD _ REL": {
+        "nu": 1,
+        "omega": 16
+      },
+      "  CMD _ SUP": {
+        "cos": 1,
+        "omega": 5,
+        "pi": 6,
+        "sin": 2,
+        "tau": 5
+      },
+      "  NUM _ CMD": {
+        "alpha": 2,
+        "cdot": 3,
+        "cosec": 3,
+        "pi": 4,
+        "sqrt": 2,
+        "sum": 2
+      },
+      "  NUM _ ID": {
+        "alpha": 3,
+        "cdot": 2,
+        "pi": 4,
+        "sqrt": 1,
+        "sum": 3,
+        "tfrac": 1,
+        "times": 2
+      },
+      "  NUM _ NUM": {
+        "cdot": 40,
+        "cosec": 1,
+        "surd": 4,
+        "times": 6
+      },
+      "  NUM _ OP": {
+        "pi": 1
+      },
+      "  NUM _ PUNCT": {
+        "alpha": 7,
+        "vartheta": 1
+      },
+      "  NUM _ REL": {
+        "pi": 1
+      },
+      "  NUM _ SUP": {
+        "alpha": 4,
+        "pi": 23,
+        "sum": 2,
+        "tau": 13
+      },
+      "  NUM _ ^": {
+        "alpha": 4,
+        "pi": 9
+      },
+      "  REL _ CMD": {
+        "dfrac": 2,
+        "sum": 1
+      },
+      "  REL _ ID": {
+        "alpha": 1,
+        "dfrac": 5,
+        "tau": 2
+      },
+      "  REL _ NUM": {
+        "dfrac": 6
+      },
+      "  REL _ PUNCT": {
+        "infty": 1
+      },
+      "  REL _ SUP": {
+        "int": 1,
+        "nu": 1,
+        "omega": 1,
+        "sum": 1,
+        "tan": 1,
+        "tau": 5
+      },
+      "  SUP _ CMD": {
+        "dfrac": 1,
+        "pi": 1
+      },
+      "  SUP _ NUM": {
+        "tfrac": 7
+      },
+      "  SUP _ REL": {
+        "tau": 1
+      },
+      "  SUP _ SUP": {
+        "tau": 4
+      },
+      "PUNCT _ CMD": {
+        "sqrt": 1,
+        "tfrac": 2
+      },
+      "PUNCT _ ID": {
+        "cdot": 1,
+        "delta": 3
+      },
+      "PUNCT _ NUM": {
+        "dfrac": 3,
+        "surd": 1
+      },
+      "PUNCT _ OP": {
+        "tau": 2
+      },
+      "PUNCT _ PUNCT": {
+        "alpha": 13,
+        "tau": 9
+      },
+      "PUNCT _ REL": {
+        "omega": 4
+      },
+      "PUNCT _ SUP": {
+        "alpha": 6,
+        "cosec": 1,
+        "omega": 33,
+        "sum": 1,
+        "tau": 6
+      }
+    },
+    "spans": 733
+  }
+}

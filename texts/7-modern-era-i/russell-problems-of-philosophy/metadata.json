@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg5827-images-3.pdf",
+  "format": "markdown",
+  "filename": "russell-problems-of-philosophy.md",
   "description": "Introduction to philosophical questions about knowledge, reality, and the external world",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "modern-era-i",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

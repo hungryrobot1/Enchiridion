@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "DuBois.pdf",
+  "format": "markdown",
+  "filename": "du-bois-the-souls-of-black-folk.md",
   "description": "Essays on race, double consciousness, and the color line in America",
   "topics": [
     "sociology",
@@ -16,5 +16,5 @@
   ],
   "era": "modern-era-i",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

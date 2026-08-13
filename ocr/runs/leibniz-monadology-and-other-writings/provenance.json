@@ -1,0 +1,13 @@
+{
+  "text_id": "leibniz-monadology-and-other-writings",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "b9911ce",
+  "session_id": "019ffbbd-ef62-7980-b69e-421d92451629",
+  "started": "2026-08-13T15:29:16Z",
+  "finished": "2026-08-13T22:59:05Z",
+  "exit_code": 0,
+  "completed": true
+}

@@ -6,9 +6,11 @@ Converts scanned PDFs to markdown using Mistral's OCR API.
 Usage:
   python ocr.py <pdf_path> [output_dir]
 
-Writes <text_id>.md into the same directory as the PDF (or output_dir if given),
+Writes <name>.md into the same directory as the PDF (or output_dir if given),
 and saves extracted images to an images/ subfolder alongside the markdown.
-The text_id is derived from the parent directory name of the PDF.
+<name> is the PDF's own filename with any `-prepared`, `-ocr-ready` or
+`-cropped` suffix dropped, so the output name is predictable from the command
+you typed.
 """
 
 import sys
@@ -30,8 +32,18 @@ def ocr_pdf(pdf_path: str, output_dir: str | None = None) -> str:
     if not pdf_path.exists():
         raise FileNotFoundError(f"PDF not found: {pdf_path}")
 
-    # Derive text ID from parent directory name
-    text_id = pdf_path.parent.name
+    # The output name comes from the PDF ITSELF, with its preparation suffix
+    # dropped -- `foo-prepared.pdf` writes `foo.md`.
+    #
+    # It used to come from the PDF's PARENT DIRECTORY, which is right only when
+    # the layout happens to be `<text-id>/<anything>.pdf`. Two runs in one wave
+    # had to read this file to find that out, and both wrote it into their
+    # handoff: Dirac's said the output "will be named ... because ocr.py derives
+    # its basename from the input PDF's parent directory", and Leibniz's warned
+    # its raw output would land as `source.md` because the prepared file sat in
+    # `workspace/source/`. A name nobody can predict from the command they typed
+    # is a name they have to go and look up.
+    text_id = re.sub(r"-(prepared|ocr-ready|cropped)$", "", pdf_path.stem)
     out_dir = Path(output_dir) if output_dir else pdf_path.parent
     md_path = out_dir / f"{text_id}.md"
     img_dir = out_dir / "images"

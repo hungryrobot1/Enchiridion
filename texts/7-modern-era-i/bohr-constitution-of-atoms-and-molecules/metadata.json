@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg72787-images-3.pdf",
+  "format": "markdown",
+  "filename": "bohr-constitution-of-atoms-and-molecules.md",
   "description": "Quantum model of the atom with discrete electron orbits and energy levels",
   "topics": [
     "physics",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "planck-origin-and-development-of-quantum-theory"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

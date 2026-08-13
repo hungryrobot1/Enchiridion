@@ -64,6 +64,49 @@ def run(cmd: list[str]) -> tuple[int, str]:
     return p.returncode, (p.stdout + p.stderr)
 
 
+def check_deployed() -> int:
+    """Say out loud that adopting a text is not publishing it.
+
+    `build-index` writes `site/public/text-index.json`. GitHub Pages serves
+    `docs/`, and `docs/text-index.json` is regenerated only by `vite build`.
+    Nothing failed when the two disagreed and nothing said anything, so fifteen
+    texts from waves 4-6 were adopted, committed and pushed while the live site
+    went on reporting them `pending` for three days. Adoption and deployment
+    were always separate steps; the defect was that only one of them was
+    visible.
+
+    Returns the number of texts whose PUBLISHED status is behind, and prints
+    them. It cannot run `vite build` itself: that rewrites `docs/`, which is
+    committed, and a build is the user's to make and review.
+    """
+    fresh = ROOT / "site" / "public" / "text-index.json"
+    live = ROOT / "docs" / "text-index.json"
+    if not (fresh.exists() and live.exists()):
+        return 0
+    try:
+        want = {t["id"]: t.get("ocr_status") for t in json.loads(fresh.read_text())["texts"]}
+        got = {t["id"]: t.get("ocr_status") for t in json.loads(live.read_text())["texts"]}
+    except (KeyError, ValueError):
+        return 0
+
+    behind = sorted(i for i in want if want[i] != got.get(i))
+    if not behind:
+        return 0
+
+    print(f"\n  ⚠ NOT LIVE — {len(behind)} text(s) read differently to a visitor "
+          f"than they do here:")
+    for i in behind[:12]:
+        print(f"      {i}: site says {want[i]}, enchiridion.education says "
+              f"{got.get(i) or 'nothing'}")
+    if len(behind) > 12:
+        print(f"      … and {len(behind) - 12} more")
+    print("\n    docs/ is what GitHub Pages serves, and only `vite build` "
+          "regenerates it:")
+    print("        cd site && npm run build")
+    print("    Commit docs/ with the adoption, or the work is not published.")
+    return len(behind)
+
+
 def triad(md: Path) -> dict[str, tuple[int, str]]:
     """Exit code and last meaningful line for each check."""
     out = {}
@@ -323,14 +366,69 @@ def stamp_adopted(prov_path: Path, prov: dict, target: Path) -> None:
     prov_path.write_text(json.dumps(prov, indent=2) + "\n")
 
 
+def selftest_deployed() -> int:
+    """Show check_deployed() finding the failure it was written for.
+
+    A probe returning zero has proved nothing until it has been shown to find a
+    case known to exist, and this one returns zero on a healthy tree — which is
+    exactly what it returned every day the site was three days stale, because
+    nobody was calling it. The two cases below are the two real shapes: a text
+    adopted here and still `pending` to a visitor, and a text absent from the
+    published index altogether.
+    """
+    global ROOT
+    real, ok = ROOT, True
+    with tempfile.TemporaryDirectory() as td:
+        s = Path(td)
+        (s / "site" / "public").mkdir(parents=True)
+        (s / "docs").mkdir(parents=True)
+        ROOT = s
+
+        def write(fresh, live):
+            (s / "site" / "public" / "text-index.json").write_text(json.dumps({"texts": fresh}))
+            (s / "docs" / "text-index.json").write_text(json.dumps({"texts": live}))
+
+        adopted = {"id": "hooke-micrographia", "ocr_status": "needs-review"}
+        settled = {"id": "homer-iliad", "ocr_status": "complete"}
+
+        print("control 1 — adopted here, still `pending` to a visitor")
+        write([adopted, settled], [{**adopted, "ocr_status": "pending"}, settled])
+        n = check_deployed()
+        ok &= n == 1
+        print(f"  {'PASS' if n == 1 else 'FAIL'} — found {n}, expected 1\n")
+
+        print("control 2 — missing from the published index altogether")
+        write([adopted, settled], [settled])
+        n = check_deployed()
+        ok &= n == 1
+        print(f"  {'PASS' if n == 1 else 'FAIL'} — found {n}, expected 1\n")
+
+        print("control 3 — a tree in sync must say nothing at all")
+        write([adopted, settled], [adopted, settled])
+        n = check_deployed()
+        ok &= n == 0
+        print(f"  {'PASS' if n == 0 else 'FAIL'} — found {n}, expected 0\n")
+
+    ROOT = real
+    print("all controls pass" if ok else "CONTROLS FAILED")
+    return 0 if ok else 1
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("run_dir")
+    ap.add_argument("run_dir", nargs="?")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--self-test", action="store_true",
+                    help="prove the not-live check can see a stale docs/")
     ap.add_argument("--candidate")
     ap.add_argument("--readopt", action="store_true",
                     help="re-adopt a run whose published text has since changed")
     args = ap.parse_args()
+
+    if args.self_test:
+        return selftest_deployed()
+    if not args.run_dir:
+        ap.error("run_dir is required unless --self-test")
 
     run_dir = Path(args.run_dir).resolve()
     if not run_dir.is_dir():
@@ -513,6 +611,8 @@ def main() -> int:
     rc, out = run(["npm", "--prefix", "site", "run", "build-index"])
     tail = [l for l in out.splitlines() if l.strip()][-1:] or [""]
     print(f"  {'ok ' if rc == 0 else 'FAIL'} build-index  {tail[0][:70]}")
+    if rc == 0:
+        check_deployed()
     return 0 if rc == 0 else 1
 
 

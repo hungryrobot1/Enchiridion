@@ -19,24 +19,25 @@ Where to look, from the two texts that have gone this way:
   landing page; the address has to be tried.
 - **Fourmilab** ships a `_tex.zip` beside the PDF (`specrel_tex.zip` for
   Einstein's 1905 paper).
-- The sibling **epub** most PG texts carry is built from the same transcription —
-  a witness rather than a better source, but see the README on using it as one.
-  For a text with mathematics it is often **more than a witness**: a transcriber
-  who renders formulas to images usually keeps the LaTeX they rendered from, in
-  an attribute on the image. Run `recon-epub.py` before routing any text whose
-  folder holds an `.epub`. Nine texts in the corpus — 21,278 formulas, among them
-  *Principia Mathematica* and Newton's *Principia* — carry their notation as
-  recoverable LaTeX and are currently routed through `convert-epub-to-pdf.sh` and
-  OCR, which renders those strings to pixels so OCR can read them back as
-  strings.
+- The sibling **epub** most PG texts carry is built from the same transcription,
+  and is often a better *source* than the PDF rather than merely a witness to
+  it. **Run `recon-epub.py` before routing any text whose folder holds an
+  `.epub`, and do what its `ROUTE:` verdict says.** That is the whole of this
+  stage's obligation.
 
-  This does not make the epub correct. It is the same transcription either way,
-  so it is still not a printed witness and stage 4 still wants the page; the
-  claim is only about error sources, since OCR adds one on top of the
-  transcriber's. And it does not generalise to PDFs: **OCR remains the reliable
-  route for math in a PDF**, where the encoding varies by producer and
-  rasterising is what normalises it. This is the narrow case where the source
-  hands over the string itself.
+  **The argument for that route lives in
+  [`../2-extract/STAGE.md`](../2-extract/STAGE.md) and nowhere else.** It used
+  to be restated here, in the README and in the extractor's docstring, and six
+  dispatched runs across two waves reported reading all four to extract one
+  operative fact. Two of the four also went stale — this passage was still
+  saying those texts are "currently routed through `convert-epub-to-pdf.sh` and
+  OCR" months after the source-native route replaced it. One home, so there is
+  one thing to keep true.
+
+  What belongs here is only the finding: a corpus sweep found **nine texts
+  carrying 21,278 formulas as recoverable LaTeX**, *Principia Mathematica* and
+  Newton's *Principia* among them, plus one (Einstein's *Relativity*) whose
+  formulas carry only their spoken form and are not recoverable.
 
 **This is acquisition work, and a dispatched worker cannot do it**: the search
 needs network access, which is a permission question rather than a judgment, and
@@ -48,11 +49,12 @@ No systematic sweep has been made for *external* sources. Searching per text as
 texts come up measures the hit rate, which is what would justify a corpus-wide
 pass later.
 
-One sweep of what we already hold has been made: `recon-epub.py --corpus` reads
-every `.epub` under `texts/` for recoverable notation. It found the nine above,
-plus one text (Einstein's *Relativity*) whose formulas carry only their **spoken**
-form — MathSpeak in a `title` attribute, which is a description made for the
-formula rather than the string it was set from, and is not recoverable.
+The sweep of what we already hold is `recon-epub.py --corpus`, which reads every
+`.epub` under `texts/` for recoverable notation. Einstein's *Relativity* is the
+one it found storing formulas as **MathSpeak in a `title` attribute** — a
+description made *for* the formula rather than the string it was set from, so
+turning it back into notation is translation, and ambiguous as soon as an
+expression nests. That text takes the OCR route like any other.
 
 ## The tools do not tell the whole story
 

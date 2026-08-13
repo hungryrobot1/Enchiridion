@@ -164,6 +164,9 @@ class Extractor:
         self.tables_html = 0
         self.table_rows = 0
         self.pre_blocks = 0
+        # One record per recovered formula: what the XHTML says about its
+        # mode, beside what the height heuristic guessed. See `_context`.
+        self.formula_context: list[dict] = []
 
     # -- inline ---------------------------------------------------------------
 
@@ -226,6 +229,44 @@ class Extractor:
             return None
         return found
 
+    def _context(self, el, heuristic_display: bool) -> dict:
+        """What the XHTML says about this formula's mode, beside what the
+        height heuristic guessed.
+
+        The heuristic decides display from image height, and the extractor has
+        always said so — while handing over nothing to check it against. Three
+        runs paid for that: Hilbert's found 15 wrong display calls behind a
+        green renderer, Newton's found all 643 wrong, and Bohr's aligned 731
+        formulas to their ancestors by hand to classify mode from
+        `align-center`, because "the generic extractor knew the height
+        heuristic was unreliable but emitted no machine-readable
+        formula-to-XHTML context report".
+
+        The signal that actually decides it: a formula ALONE in its block was
+        set as a displayed equation; one with prose beside it was set inline,
+        whatever its height. The block's class is reported too, since producers
+        mark centring there and the name varies.
+        """
+        node, chain = el, []
+        block = None
+        while node is not None and len(chain) < 5:
+            node = node.getparent()
+            if node is None or not isinstance(node.tag, str):
+                break
+            cls = " ".join((node.get("class") or "").split())
+            chain.append(f"{node.tag}.{cls.replace(' ', '.')}" if cls else node.tag)
+            if node.tag in BLOCK:
+                block = node
+                break
+        alone = False
+        if block is not None:
+            alone = not "".join(block.itertext()).strip()
+        return {"chain": "/".join(chain) or "?",
+                "block_class": " ".join((block.get("class") or "").split()) if block is not None else "",
+                "alone_in_block": alone,
+                "heuristic_display": bool(heuristic_display),
+                }
+
     def image(self, el) -> str:
         raw = etree.tostring(el, encoding="unicode")
         found = read_notation(raw)
@@ -238,6 +279,7 @@ class Extractor:
                 self.unrecoverable += 1
                 return "<!-- FORMULA NOT RECOVERABLE: spoken form only -->"
             self.formulas.append(found.latex)
+            self.formula_context.append(self._context(el, found.display))
             if found.display:
                 self.display += 1
                 # Inside a table cell, INLINE delimiters — not display ones.
@@ -477,6 +519,30 @@ def report(ex: Extractor) -> None:
     print(f"  tables: {ex.tables_md} as markdown, {ex.tables_html} kept as HTML"
           f" (spans), {ex.table_rows} rows", file=sys.stderr)
     print(f"  preformatted blocks: {ex.pre_blocks}", file=sys.stderr)
+
+    if ex.formula_context:
+        ctx = ex.formula_context
+        disagree = [c for c in ctx if c["alone_in_block"] != c["heuristic_display"]]
+        print("\n--- formula mode: what the XHTML says ---", file=sys.stderr)
+        print(f"  alone in its block (set as display): "
+              f"{sum(c['alone_in_block'] for c in ctx)}", file=sys.stderr)
+        print(f"  prose beside it (set inline):        "
+              f"{sum(not c['alone_in_block'] for c in ctx)}", file=sys.stderr)
+        print(f"  DISAGREES with the height heuristic: {len(disagree)}",
+              file=sys.stderr)
+        if disagree:
+            print("    the heuristic is the guess; the block is the evidence. "
+                  "Newton's run\n    found all 643 of its 'display' formulas "
+                  "were inline.", file=sys.stderr)
+            seen: Counter = Counter(c["chain"] for c in disagree)
+            for chain, n in seen.most_common(5):
+                print(f"    {n:5}  {chain}", file=sys.stderr)
+        classes = Counter(c["block_class"] for c in ctx if c["block_class"])
+        if classes:
+            print("  block classes carrying formulas (centring is marked here, "
+                  "and\n  the name varies by producer):", file=sys.stderr)
+            for cls, n in classes.most_common(6):
+                print(f"    {n:5}  {cls}", file=sys.stderr)
 
     print("\n--- notation ---", file=sys.stderr)
     for k, v in ex.conventions.most_common():

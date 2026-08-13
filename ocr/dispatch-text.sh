@@ -438,29 +438,40 @@ You are the only one who sees this pipeline from the inside, and you see it
 fresh. We have read these documents so many times that we can no longer tell
 which parts are load-bearing and which are simply long. So close `NOTES.md`
 with a short section headed `## Where this was harder than it needed to be`,
-and answer plainly:
-
-- **Where was the documentation too thick?** Which passages did you have to
-  read more than once, or read in full to extract one fact? Where did you go
-  looking for something and not find it where you expected it?
-- **What did you have to build that you expected to already exist?** Name it.
-  If you wrote a script that feels like it should have been in the pipeline,
-  that is a gap, and it is worth more to us than the script.
-- **Where did the ordering fight you?** Anything you learned late that would
-  have changed an earlier decision, or a check that would have been cheap early
-  and was expensive where it actually happened.
-- **What was ambiguous enough that you had to choose?** Not the questions you
-  escalated — the ones you resolved on your own and might have resolved
-  differently on another day.
+and say plainly what was harder than it needed to be.
 
 **Describe the problem, not the solution.** We are not asking what to build; we
 will decide that, and a diagnosis stays useful long after a proposed fix stops
 fitting. "I read the stage contract three times to find the threshold" tells us
 more than "add a constants table."
 
-Be blunt, and do not be diplomatic about our documents. A run that says the
-instructions were fine when they were not costs us the one view of this system
-we cannot get any other way.
+**"Nothing, really" is a complete and useful answer.** So is naming one thing.
+We would rather have what you actually found than a full list.
+
+<!-- This ask used to carry four sub-questions -- where was the documentation
+     too thick, what did you have to build, where did the ordering fight you,
+     what was ambiguous -- and a line saying a run that called the instructions
+     fine when they were not would cost us the one view we cannot otherwise
+     get.
+
+     It was measured on 2026-08-13 across the 40 runs that had answered it.
+     38 of 40 named the route documentation. 25 named the apparatus rules,
+     including runs made after that section was consolidated. NOT ONE had ever
+     said the documentation was fine.
+
+     A probe that has never returned zero in forty tries is not measuring; it
+     is a leading question, and we had been reading its near-universal answers
+     as convergent evidence and changing documents on the strength of them.
+     The sub-questions are removed to get an uncontaminated baseline. If the
+     same complaints come back unprompted, they are findings.
+
+     Worth knowing when reading the next few runs: the sub-question that
+     actually earned its keep was "what did you have to build that you expected
+     to exist" -- it surfaced the extractor's lost tables, its stripped <pre>
+     blocks, Du Bois's vector-drawn music and Bohr's formula alignment, every
+     one of which came with an artifact attached. If the answers get vaguer,
+     that is the piece to consider restoring. -->
+
 
 Everything else in the workspace is disposable, and you should feel free to
 treat it that way — intermediates, extractions, scratch files. In particular

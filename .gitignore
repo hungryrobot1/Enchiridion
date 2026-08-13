@@ -55,3 +55,23 @@ ocr/runs/*/images/
 !ocr/runs/*/CLOSED.md
 !ocr/runs/*/ESCALATION.md
 !ocr/runs/*/ANSWER.md
+
+# WITHHELD FOR RIGHTS — present on disk, deliberately absent from the repo.
+#
+# The work is public domain in every case here; the TRANSLATION is not, and the
+# translation is what we would be publishing. These three are in print and sell,
+# which is the fair-use factor we actually lose on: a free complete copy is
+# direct substitution for the book. Decided with the project owner 2026-08-13.
+#
+# The files stay so the work is not wasted. Each directory also has its
+# `metadata.json` renamed to `metadata.withheld.json`, which is what keeps
+# `build-index` from indexing a text whose markdown the site can no longer
+# fetch — the reader loads raw from this repo, so an untracked text is an entry
+# whose every link 404s.
+#
+# TO RESTORE ONE: delete its line here, rename the metadata back, `git add` the
+# directory, and put its entry back in `syllabi/grand-tour.json` (and
+# `site/src/lib/sample-works.js` for Ptolemy and Fibonacci).
+texts/1-ancient-greece/ptolemy-almagest/
+texts/3-islamic-golden-age-medieval-europe/fibonacci-liber-abaci/
+texts/3-islamic-golden-age-medieval-europe/hildegard-of-bingen-book-of-the-rewards-of-life/

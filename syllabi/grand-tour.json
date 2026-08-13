@@ -175,17 +175,6 @@
           "note": "Standalone observational lab; no surviving Eratosthenes primary text in the corpus. Precedes the parallax lab, which builds on its method."
         },
         {
-          "type": "text",
-          "id": "ptolemy-almagest",
-          "note": "Finish Euclid before starting this.",
-          "passages": [
-            "Book I, Chapters 1–2: the Preface and the order of the theorems",
-            "Book I, Chapters 3–8: that the heavens move like a sphere, and the earth's place within them",
-            "Book I, Chapters 9–11: the size of chords, and the Table of Chords",
-            "Book I, Chapters 12–16: the ecliptic, the preliminaries for spherical proofs, and rising-times"
-          ]
-        },
-        {
           "type": "supplement",
           "id": "parallax-lab",
           "note": "Builds directly on the Eratosthenes lab (size from one viewpoint to distance from two). Anchored on Almagest V.11-13."
@@ -738,30 +727,8 @@
           "note": "Read whole and at leisure, alongside the mathematics. The man who wrote these also wrote a treatise solving cubic equations by intersecting conics."
         },
         {
-          "type": "text",
-          "id": "fibonacci-liber-abaci",
-          "note": "The second spine text, and the point at which the numerals move west. Long — read the opening on the nine figures, then problems as they interest you. Compare his procedures with al-Khwarizmi's.",
-          "passages": [
-            "Chapter 1: the nine Indian figures, and the zephir",
-            "Chapters 2–5: multiplication, addition, subtraction, division",
-            "Chapter 12: the problems (including the rabbits)",
-            "Chapter 13: the method of false position",
-            "Chapter 15: roots, and the geometry of proportion"
-          ]
-        },
-        {
           "type": "supplement",
           "id": "fibonacci-numeral-exercises"
-        },
-        {
-          "type": "text",
-          "id": "hildegard-of-bingen-book-of-the-rewards-of-life",
-          "note": "A side thread; a few visions at a time.",
-          "passages": [
-            "Book I",
-            "Book III",
-            "Book VI"
-          ]
         },
         {
           "type": "text",

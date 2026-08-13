@@ -14,7 +14,6 @@ export const SAMPLE_WORKS = [
   { author: 'Euclid', title: 'Elements', id: 'euclid-elements' },
   { author: 'Archimedes', title: 'On the Equilibrium of Planes', id: 'archimedes-equilibrium-of-planes' },
   { author: 'Apollonius', title: 'Conic Sections', id: 'apollonius-conic-sections' },
-  { author: 'Ptolemy', title: 'Almagest', id: 'ptolemy-almagest' },
 
   // Rome and Late Antiquity
   { author: 'Lucretius', title: 'De Rerum Natura', id: 'lucretius-de-rerum-natura' },
@@ -28,7 +27,6 @@ export const SAMPLE_WORKS = [
   // Islamic Golden Age and Medieval Europe
   { author: 'Al-Khwarizmi', title: 'Algebra', id: 'al-khwarizmi-algebra' },
   { author: 'Alhazen', title: 'Book of Optics', id: 'alhazen-book-of-optics' },
-  { author: 'Fibonacci', title: 'Liber Abaci', id: 'fibonacci-liber-abaci' },
   { author: 'Maimonides', title: 'Guide for the Perplexed', id: 'maimonides-guide-for-the-perplexed' },
   { author: 'Aquinas', title: 'Summa Theologica', id: 'aquinas-summa-theologica' },
   { author: 'Averroes', title: 'The Incoherence of the Incoherence', id: 'averroes-incoherence-of-the-incoherence' },

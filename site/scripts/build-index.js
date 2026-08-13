@@ -36,8 +36,44 @@ function parseYearSort(yearWritten) {
   return match[2] ? -num : num;
 }
 
+// Text directories the repository actually contains.
+//
+// The reader fetches a text's markdown RAW FROM THE REPO (see `buildRawUrl`),
+// so a text that git is not tracking cannot be served, however present it is on
+// this disk. Indexing one anyway publishes an entry whose every link 404s —
+// which is worse than either having the text or not having it.
+//
+// This exists because three texts were withheld for rights reasons by
+// gitignoring their directories, and the files stayed on disk: without this,
+// the next build would have put all three straight back into text-index.json
+// pointing at URLs that no longer resolve. Withholding a text is now one
+// action — untrack the directory — rather than two that must be remembered
+// together.
+async function trackedTextDirs() {
+  const { execFile } = await import('child_process');
+  const { promisify } = await import('util');
+  try {
+    const { stdout } = await promisify(execFile)(
+      'git', ['ls-files', '--', 'texts'], { cwd: PROJECT_ROOT, maxBuffer: 32 * 1024 * 1024 });
+    const dirs = new Set();
+    for (const line of stdout.split('\n')) {
+      const parts = line.split('/');
+      if (parts.length >= 3) dirs.add(`${parts[1]}/${parts[2]}`);
+    }
+    return dirs;
+  } catch {
+    // Not a git checkout, or git is unavailable: index everything rather than
+    // silently publishing nothing. A missing guard is recoverable; an empty
+    // corpus shipped to the site is not.
+    console.warn('  ! could not ask git which texts are tracked; indexing all');
+    return null;
+  }
+}
+
 async function buildTextIndex() {
   const texts = [];
+  const tracked = await trackedTextDirs();
+  const withheld = [];
   const topicsSet = new Set();
   const authorsSet = new Set();
   const formatsSet = new Set();
@@ -52,6 +88,10 @@ async function buildTextIndex() {
       .filter(d => d.isDirectory());
 
     for (const textDir of textDirs) {
+      if (tracked && !tracked.has(`${eraDir.name}/${textDir.name}`)) {
+        withheld.push(`${eraDir.name}/${textDir.name}`);
+        continue;
+      }
       const metaPath = join(eraPath, textDir.name, 'metadata.json');
       let meta;
       try {
@@ -115,6 +155,10 @@ async function buildTextIndex() {
   };
 
   await writeFile(TEXT_OUTPUT, JSON.stringify(index));
+  if (withheld.length) {
+    console.log(`  withheld (on disk, untracked, not indexed): ${withheld.length}`);
+    for (const w of withheld) console.log(`    ${w}`);
+  }
   console.log(`Built text-index.json: ${texts.length} texts, ${topicsSet.size} topics, ${formatsSet.size} formats`);
 }
 

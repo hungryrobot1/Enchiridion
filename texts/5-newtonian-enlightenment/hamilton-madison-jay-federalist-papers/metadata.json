@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg18-images-3.pdf",
+  "format": "markdown",
+  "filename": "hamilton-madison-jay-federalist-papers.md",
   "description": "Arguments for ratification of the U.S. Constitution and theory of republican government",
   "topics": [
     "political-thought",
@@ -15,5 +15,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

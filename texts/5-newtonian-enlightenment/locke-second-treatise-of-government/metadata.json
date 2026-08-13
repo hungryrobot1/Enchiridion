@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg7370-images-3.pdf",
+  "format": "markdown",
+  "filename": "locke-second-treatise-of-government.md",
   "description": "Theory of natural rights, consent of the governed, and the right to revolution",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

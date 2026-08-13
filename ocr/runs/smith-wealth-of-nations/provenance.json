@@ -1,0 +1,17 @@
+{
+  "text_id": "smith-wealth-of-nations",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "43a5a10",
+  "session_id": "019ff891-a36e-75b2-b959-f76778698c36",
+  "started": "2026-08-13T00:42:01Z",
+  "finished": "2026-08-13T00:54:19Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T00:57:26Z",
+    "target": "texts/5-newtonian-enlightenment/smith-wealth-of-nations/smith-wealth-of-nations.md"
+  }
+}

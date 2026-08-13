@@ -1,0 +1,17 @@
+{
+  "text_id": "kant-critique-of-pure-reason",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "43a5a10",
+  "session_id": "019ff891-9934-7e91-a375-efeecfc37cdc",
+  "started": "2026-08-13T00:41:59Z",
+  "finished": "2026-08-13T00:52:36Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T00:57:23Z",
+    "target": "texts/5-newtonian-enlightenment/kant-critique-of-pure-reason/kant-critique-of-pure-reason.md"
+  }
+}

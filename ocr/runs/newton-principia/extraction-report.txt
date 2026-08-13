@@ -1,0 +1,11 @@
+newton-principia-raw.md: 276,492 words, 1,936 formulas recovered
+
+--- notation ---
+  data-tex: 1936
+  display: 643   inline: 1293
+  illustrations: 273
+
+--- anomalies ---
+  none found across 1936 formulas
+  (a clean sweep is not proof: these checks catch damage that is visible
+   in the string, not a formula faithfully carrying a transcriber's error)

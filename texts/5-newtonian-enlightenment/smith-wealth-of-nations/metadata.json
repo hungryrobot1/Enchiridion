@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg3300-images-3.epub",
+  "format": "markdown",
+  "filename": "smith-wealth-of-nations.md",
   "description": "Foundational treatise on political economy, the division of labor, and free markets",
   "topics": [
     "economics",
@@ -15,5 +15,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

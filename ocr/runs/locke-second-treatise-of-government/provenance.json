@@ -1,0 +1,17 @@
+{
+  "text_id": "locke-second-treatise-of-government",
+  "repair": false,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "43a5a10",
+  "session_id": "019ff891-abe1-79b3-a740-4659456f249d",
+  "started": "2026-08-13T00:42:04Z",
+  "finished": "2026-08-13T00:50:31Z",
+  "exit_code": 0,
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T00:57:29Z",
+    "target": "texts/5-newtonian-enlightenment/locke-second-treatise-of-government/locke-second-treatise-of-government.md"
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "title": "Philosophiæ Naturalis Principia Mathematica",
+  "title": "Philosophiæ Naturalis Principia Mathematica, with A Treatise of the System of the World",
   "author": "Isaac Newton",
   "translator": "Andrew Motte",
   "year_written": 1687,
   "year_translated": 1729,
   "language": "English",
   "original_language": "Latin",
-  "format": "pdf",
-  "filename": "pg76404-images-3.pdf",
-  "description": "Laws of motion and universal gravitation that unified terrestrial and celestial mechanics",
+  "format": "markdown",
+  "filename": "newton-principia.md",
+  "description": "Laws of motion and universal gravitation that unified terrestrial and celestial mechanics, with Newton's own non-mathematical exposition of the same system",
   "topics": [
     "physics",
     "mechanics",
@@ -17,5 +17,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

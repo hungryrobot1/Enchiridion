@@ -41,7 +41,23 @@ titles, and that is the whole of it.
 
 ## Apparatus
 
-Very little to remove: the PG header, the licence, and nothing else.
+Little to remove, but not nothing — an earlier draft of this brief said "the
+header, the licence, and nothing else", which contradicted stage 3 and cost the
+first run a decision it should not have had to make. **Stage 3 governs. Where
+this brief and the apparatus policy disagree, that is a defect in the brief:
+say so in `NOTES.md` and follow stage 3.**
+
+Out: the PG header and licence; the *"Digitized by Dave Gowan"* paragraph; the
+**1764 editor's note** (*"The present Edition of this Book has not only been
+collated with the first three Editions…"*) — an editor's note on the text, and
+apparatus; and the **`Contents` listing**, whose entries are bare chapter
+numbers with no titles.
+
+In: the historical title page and imprint as typeset, printed oddities and all.
+Note that the publisher line reads `1. WHISTON`, `1. RIVINGTON`, `1.
+RICHARDSON`, `1. HINXMAN` where capital `I.` was meant. Both supplied formats
+carry it because they share one transcription, so neither can settle it —
+**preserve it and list it for the reviewer** rather than normalising.
 
 **The `PREFACE` is Locke's own** — *"Reader, thou hast here the beginning and end
 of a discourse concerning government…"*, his note on the lost middle portion of

@@ -18,5 +18,9 @@
       "completed": true,
       "reason": "escalation"
     }
-  ]
+  ],
+  "adopted": {
+    "at": "2026-08-13T23:45:10Z",
+    "target": "texts/7-modern-era-i/dirac-quantum-theory-of-the-electron/dirac-quantum-theory-of-the-electron.md"
+  }
 }

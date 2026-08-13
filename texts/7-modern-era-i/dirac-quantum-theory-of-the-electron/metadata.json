@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "rspa.1928.0023.pdf",
+  "format": "markdown",
+  "filename": "dirac-quantum-theory-of-the-electron.md",
   "description": "Relativistic wave equation predicting antimatter and electron spin",
   "topics": [
     "physics",
@@ -18,5 +18,5 @@
   "prerequisites": [
     "de-broglie-on-the-theory-of-quanta"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

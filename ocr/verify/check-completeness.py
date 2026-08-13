@@ -104,11 +104,34 @@ def spine_documents(z: zipfile.ZipFile) -> list[str]:
                   if n.lower().endswith((".html", ".xhtml", ".htm")))
 
 
+# Elements whose boundaries are word boundaries. `text_content()` concatenates
+# with nothing between, so `<p>…ends here</p><p>And the next…</p>` arrives as
+# `hereAnd` — one token where the reader sees two, and therefore one phantom
+# loss and one phantom addition at EVERY block boundary. Faraday's run reported
+# 205 of them against the extractor's own raw output and spent most of its
+# verification time proving the text was fine.
+#
+# This is the exact counterpart of the emphasis rule in `strip_markdown`, and it
+# was missed because only one half was ever tested: INLINE MARKERS MUST JOIN
+# (`N*p*` is the source's `Np`), BLOCK BOUNDARIES MUST SEPARATE. Both halves now
+# have controls.
+BLOCK = {"p", "div", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote", "li",
+         "tr", "td", "th", "pre", "hr", "table", "figure", "figcaption", "br",
+         "dd", "dt", "ul", "ol", "section", "article"}
+
+
 def document_text(raw: bytes) -> str:
     doc = lxml_html.fromstring(raw)
-    for el in doc.iter():
-        if isinstance(el.tag, str) and el.tag in SKIP:
-            el.getparent().remove(el) if el.getparent() is not None else None
+    for el in list(doc.iter()):
+        if not isinstance(el.tag, str):
+            continue
+        if el.tag in SKIP:
+            if el.getparent() is not None:
+                el.getparent().remove(el)
+            continue
+        if el.tag in BLOCK:
+            el.text = " " + (el.text or "")
+            el.tail = " " + (el.tail or "")
     body = doc.find("body")
     return (body if body is not None else doc).text_content()
 
@@ -456,6 +479,34 @@ def selftest() -> int:
         ok &= p
         print(f"  {'PASS' if p else 'FAIL'}  superscript markers join too "
               f"(`AZ^2^` is the source's `AZ2`)")
+
+        # THE COUNTERPART OF THE EMPHASIS RULE, and the half that was missing.
+        # Inline markers join; block boundaries separate. Without this every
+        # `</p><p>` in the source fused two words into one, inventing a loss and
+        # an addition apiece — 205 of them on Faraday, against an extraction
+        # that was correct.
+        blocks = _epub(tmp, {"b.xhtml": "<p>the first paragraph ends here</p>"
+                                        "<p>and the next begins</p>"})
+        out.write_text("the first paragraph ends here\n\nand the next begins\n",
+                       encoding="utf-8")
+        r = check(blocks, out, [], [])
+        p = r.ok
+        ok &= p
+        print(f"  {'PASS' if p else 'FAIL'}  block boundaries separate words "
+              f"(no `hereand`)")
+        if not p:
+            print(f"        missing={dict(r.missing)} added={dict(r.added)}")
+
+        # Table cells are block boundaries too, and a row is where this bites
+        # hardest: every cell edge would otherwise fuse.
+        cells = _epub(tmp, {"c.xhtml": "<table><tr><td>alpha</td><td>bravo</td></tr>"
+                                       "<tr><td>charlie</td><td>delta</td></tr></table>"})
+        out.write_text("|  |  |\n| --- | --- |\n| alpha | bravo |\n"
+                       "| charlie | delta |\n", encoding="utf-8")
+        r = check(cells, out, [], [])
+        p = r.ok
+        ok &= p
+        print(f"  {'PASS' if p else 'FAIL'}  table cell edges separate too")
 
         # Notation the source set as running text may legitimately become math.
         math_src = _epub(tmp, {"m.xhtml": "<p>Then nn minus aa is the excess.</p>"})

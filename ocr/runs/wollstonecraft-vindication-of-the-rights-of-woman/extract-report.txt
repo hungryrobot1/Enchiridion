@@ -1,0 +1,25 @@
+raw.md: 86,550 words, 0 formulas recovered
+
+--- structure ---
+  tables: 0 as markdown, 0 kept as HTML (spans), 0 rows
+  preformatted blocks: 0
+
+--- notation ---
+  display: 0   inline: 0
+  illustrations: 0
+
+--- anomalies ---
+  none found across 0 formulas
+  (a clean sweep is not proof: these checks catch damage that is visible
+   in the string, not a formula faithfully carrying a transcriber's error)
+
+--- what this report did NOT check ---
+  THE NOTATION PASS ABOVE IS VACUOUS — this source has no formulas.
+  It found nothing because there was nothing of its kind to find.
+  the words: no check here reads prose. Damaged spellings, dropped
+    words and fused sentences pass silently.
+  completeness: nothing here compares the output against the source
+    as a whole. Use a token-level fidelity check for that, and remember
+    an EPUB and its generated PDF are one transcription, not two witnesses.
+  correctness: this is the transcriber's text either way. Stage 4
+    still wants the printed page.

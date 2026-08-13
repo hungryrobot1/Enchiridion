@@ -129,6 +129,20 @@ def _wrap(inner: str, mark: str) -> str:
     return f"{lead}{mark}{core}{mark}{trail}"
 
 
+# Class names producers use to mark a footnote reference that is not a <sup>.
+# Check for the CONVENTION rather than for one name, the same rule the notation
+# recovery follows: a fourth spelling should be expected, and adding it here is
+# cheaper than the silent digit-gluing it prevents.
+FOOTNOTE_REF_CLASSES = {"footnoteref", "fnref", "noteref", "footnotemark"}
+
+
+def _is_footnote_ref(el) -> bool:
+    if not isinstance(el.tag, str) or el.tag not in ("span", "a", "small"):
+        return False
+    classes = set((el.get("class") or "").split())
+    return bool(classes & FOOTNOTE_REF_CLASSES)
+
+
 class Extractor:
     def __init__(self, out_dir: Path, keep_images: bool = True):
         self.out_dir = out_dir
@@ -174,6 +188,20 @@ class Extractor:
                 inner = _wrap(inner, "^")
             elif child.tag == "sub" and inner.strip():
                 inner = _wrap(inner, "~")
+            elif _is_footnote_ref(child) and inner.strip():
+                # A footnote reference marked by CLASS rather than by <sup>.
+                # Gutenberg writes `<span class="footnoteref">227</span>`, and
+                # with no branch here the digits landed flush against the prose:
+                # Faraday's "fig. 3" followed by note 227 came out as
+                # `fig. 3227`. Plausible, wrong, and invisible to every check we
+                # run, 336 times in one book.
+                #
+                # Rendered as a superscript, not dropped. WHETHER a marker
+                # survives is stage 3's question -- authorial notes stay,
+                # editorial ones go with their markers -- and stage 3 cannot
+                # make that call about something this stage silently glued to a
+                # number.
+                inner = _wrap(inner, "^")
             parts.append(inner)
             if child.tail:
                 parts.append(child.tail)
@@ -586,6 +614,18 @@ SELFTEST_CASES = [
      "<tr><td>d</td></tr></table>",
      lambda md: "| d |  |  |" in md,
      "table: a short row is padded, not silently narrowed"),
+    # Faraday: a footnote reference marked by class, flush against a number.
+    # Without the branch this reads `fig. 3227` and nothing anywhere objects.
+    ('<p>see fig. 3<a href="#n"><span class="footnoteref">227</span></a>.</p>',
+     lambda md: "fig. 3^227^" in md,
+     "footnote ref by class becomes a superscript, not glued digits"),
+    ('<p>see fig. 3<a href="#n"><span class="fnref">227</span></a>.</p>',
+     lambda md: "fig. 3^227^" in md,
+     "the other spellings of that class are caught too"),
+    # A span with some unrelated class must NOT be treated as a marker.
+    ('<p>the <span class="smcap">Royal</span> Society</p>',
+     lambda md: "^" not in md and "the Royal Society" in md,
+     "an unrelated span class is left alone"),
 ]
 
 

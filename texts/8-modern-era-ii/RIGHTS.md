@@ -33,11 +33,50 @@ none of these. Nature's own PDF of the 1953 Wilkins paper has
 | `godel-on-formally-undecidable-propositions` | Meltzer 1962, in copyright; every English translation blocked or partial — see its `SOURCING.md` | **parked** |
 | `vaswani-shazeer-attention-is-all-you-need` | arXiv:1706.03762 states *"arXiv.org perpetual, non-exclusive license"* — grants **arXiv** distribution rights, not third parties | **blocked** unless relicensed |
 | `wilkins-stokes-wilson-molecular-structure-of-deoxypentose-nucleic-acids` | PDF text layer carries `© Nature Publishing Group 1953` | **blocked** pending permission |
+| `weber-protestant-ethic-and-spirit-of-capitalism` | title page: Parsons, Scribner's/Allen & Unwin, **first published 1930**; our copy is the third impression, 1950 — an impression, not an edition | **CLEAR**, PD in the US since 1 Jan 2026 |
+| `buchanan-poetry-and-mathematics` | copyright page: *"COPYRIGHT, 1929, BY SCOTT BUCHANAN / FIRST PRINTING, JULY, 1929"*, John Day — the 1929 first printing, not the 1962 or 1975 reissue | **CLEAR**, published before 1931 |
+| `shannon-a-mathematical-theory-of-communication` | see below — the non-renewal story does not hold up | **UNDETERMINED** |
 
 The arXiv finding generalises: **an arXiv posting is not an open licence.** The
 default grants arXiv the right to distribute and says nothing about us. Only a
 submission explicitly marked CC-BY or CC0 is usable, and that has to be read off
 the abstract page per paper.
+
+### Weber: a printed reservation of rights is not evidence about the term
+
+Weber's copyright page says *"This book is copyright under the Berne Convention.
+No portion of it may be reproduced by any process without written permission."*
+That was true when it was printed and it is now spent. **The notice describes the
+publisher's wishes, not the length of the term** — a 1930 publication ran 95
+years and expired on 1 January 2026, whatever the page says.
+
+This is worth keeping in view because it runs the opposite way from the Wilkins
+finding above, where a printed `©` line settled the matter. A notice can *end* an
+inquiry only when the term is still running. When the term has expired the notice
+is a historical artefact, and treating it as authority withholds a text that is
+free. **Read the date first, the notice second.**
+
+### Shannon: the non-renewal argument does not survive checking
+
+`shannon-a-mathematical-theory-of-communication` (BSTJ, 1948) looked like a clean
+win and is not one. The attractive argument is that a 1948 US work needed renewal
+in 1975–76 to keep its copyright, and the Online Books Page reports **"No issue or
+contribution copyright renewals were found for this serial."**
+
+**That is not a finding of non-renewal.** The same project states its own limit:
+*"Only the first active renewal of each periodical is guaranteed to be shown.
+Periodicals that first filed a renewal after 1977, or that did not renew
+copyrights, might not be included."* A negative result there is an absence of
+evidence, and this file's negative is exactly the shape the caveat describes.
+
+The practical posture also moved against us: **Nokia now licenses the Bell Labs
+Technical Journal archive through IEEE.** Bell being "permissive in practice" was
+the old reading of this row; a publisher selling access is not permissive, and it
+tells us who to ask.
+
+To settle it, someone must search the Catalog of Copyright Entries renewal volumes
+for 1975–76 directly rather than trusting a serial-level summary — or ask
+Nokia/IEEE. **Until then it is UNDETERMINED, which means STOP.**
 
 ## Almost certainly blocked — commercial books still in print
 
@@ -91,20 +130,20 @@ Plausibly open, worth checking first because a clear answer unlocks a lot ·
 Declaration, and this is the single most likely clean win) ·
 `berners-lee-information-management-a-proposal` (CERN/W3C, and CERN has
 released material from this period) ·
-`shannon-a-mathematical-theory-of-communication` and
-`shannon-symbolic-analysis-of-relay-and-switching` (AT&T 1948/1937; Bell Labs
-has been permissive in practice, which is **not** the same as a licence) ·
+`shannon-symbolic-analysis-of-relay-and-switching` (AT&T 1937 — same BSTJ
+problem as the 1948 paper, see the Shannon section above; **checked and still
+UNDETERMINED**, do not dispatch) ·
 `mullis-nobel-lecture` (Nobel Foundation; they publish lectures openly but
 assert copyright) · `brin-page-the-anatomy-of-large-scale-hypertextual-web-search-engine`
 (Stanford tech report)
 
 ## Already clear, or nearly
 
-- `buchanan-poetry-and-mathematics` — **1929, US public domain.** The one text in
-  this era the ordinary rule covers.
-- `weber-protestant-ethic-and-spirit-of-capitalism` — original 1905; the Parsons
-  translation is 1930, which puts it in the public domain as of January 2026.
-  **Confirm which translation the file actually is** before relying on this.
+- `buchanan-poetry-and-mathematics` — **1929, US public domain, VERIFIED** from
+  its own copyright page. The one text in this era the ordinary rule covers.
+- `weber-protestant-ethic-and-spirit-of-capitalism` — **VERIFIED** as the Parsons
+  1930 translation, PD in the US since January 2026. Both now carry the finding
+  in a `rights` field, so the question is asked once.
 - `ortega-gasset-…` — the Spanish original is 1930, but `metadata.json` records
   the translation as **1932**, and it is the translation we would publish. On the
   95-year term that clears in **2028**. The `translator` field is null, so we do

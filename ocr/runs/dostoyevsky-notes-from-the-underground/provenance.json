@@ -9,5 +9,9 @@
   "started": "2026-08-13T15:02:32Z",
   "finished": "2026-08-13T15:10:04Z",
   "exit_code": 0,
-  "completed": true
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T15:26:02Z",
+    "target": "texts/6-nineteenth-century/dostoyevsky-notes-from-the-underground/dostoyevsky-notes-from-the-underground.md"
+  }
 }

@@ -6,8 +6,8 @@
   "year_translated": 1906,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "pg4363-images-3.pdf",
+  "format": "markdown",
+  "filename": "nietzsche-beyond-good-and-evil.md",
   "description": "Critique of traditional morality and philosophy proposing new values beyond conventional categories",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "modern-era-i",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

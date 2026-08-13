@@ -9,5 +9,9 @@
   "started": "2026-08-13T15:02:30Z",
   "finished": "2026-08-13T15:08:42Z",
   "exit_code": 0,
-  "completed": true
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T15:25:59Z",
+    "target": "texts/7-modern-era-i/nietzsche-beyond-good-and-evil/nietzsche-beyond-good-and-evil.md"
+  }
 }

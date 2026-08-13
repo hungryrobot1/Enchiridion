@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg3420-images-3.pdf",
+  "format": "markdown",
+  "filename": "wollstonecraft-vindication-of-the-rights-of-woman.md",
   "description": "Foundational feminist argument for women's education and rational equality",
   "topics": [
     "philosophy",
@@ -16,5 +16,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

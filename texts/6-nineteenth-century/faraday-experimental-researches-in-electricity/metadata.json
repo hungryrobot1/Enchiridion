@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg14986-images-3.pdf",
+  "format": "markdown",
+  "filename": "faraday-experimental-researches-in-electricity.md",
   "description": "Discovery of electromagnetic induction and the concept of fields",
   "topics": [
     "physics",
@@ -16,5 +16,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

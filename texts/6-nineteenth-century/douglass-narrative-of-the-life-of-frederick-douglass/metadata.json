@@ -6,8 +6,8 @@
   "year_translated": null,
   "language": "English",
   "original_language": "English",
-  "format": "pdf",
-  "filename": "pg23-images-3.pdf",
+  "format": "markdown",
+  "filename": "douglass-narrative-of-the-life-of-frederick-douglass.md",
   "description": "Autobiography of an escaped slave and the dehumanizing reality of American slavery",
   "topics": [
     "literature",
@@ -16,5 +16,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

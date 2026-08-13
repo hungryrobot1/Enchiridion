@@ -9,5 +9,9 @@
   "started": "2026-08-13T15:02:26Z",
   "finished": "2026-08-13T15:10:48Z",
   "exit_code": 0,
-  "completed": true
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T15:25:52Z",
+    "target": "texts/6-nineteenth-century/douglass-narrative-of-the-life-of-frederick-douglass/douglass-narrative-of-the-life-of-frederick-douglass.md"
+  }
 }

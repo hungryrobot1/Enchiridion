@@ -9,5 +9,9 @@
   "started": "2026-08-13T15:02:27Z",
   "finished": "2026-08-13T15:11:43Z",
   "exit_code": 0,
-  "completed": true
+  "completed": true,
+  "adopted": {
+    "at": "2026-08-13T15:25:55Z",
+    "target": "texts/5-newtonian-enlightenment/wollstonecraft-vindication-of-the-rights-of-woman/wollstonecraft-vindication-of-the-rights-of-woman.md"
+  }
 }

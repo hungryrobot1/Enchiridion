@@ -6,8 +6,8 @@
   "year_translated": 1918,
   "language": "English",
   "original_language": "Russian",
-  "format": "pdf",
-  "filename": "pg600-images-3.pdf",
+  "format": "markdown",
+  "filename": "dostoyevsky-notes-from-the-underground.md",
   "description": "Monologue of a spiteful man rebelling against rationalism and determinism",
   "topics": [
     "literature",
@@ -17,5 +17,5 @@
   ],
   "era": "nineteenth-century",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

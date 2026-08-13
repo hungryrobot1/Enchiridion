@@ -1,7 +1,7 @@
 {
   "title": "The Collected Works of Aristotle",
   "author": "Aristotle",
-  "translator": "Various",
+  "translator": "Translated under the editorship of W. D. Ross (E. M. Edghill, A. J. Jenkinson, G. R. G. Mure, W. A. Pickard-Cambridge and others)",
   "year_written": "~350 BCE",
   "language": "English",
   "original_language": "Greek",
@@ -16,5 +16,7 @@
   ],
   "era": "ancient-greece",
   "prerequisites": [],
-  "ocr_status": "needs-cleanup"
+  "ocr_status": "needs-cleanup",
+  "year_translated": 1928,
+  "rights": "Public domain — this is *The Works of Aristotle*, translated under the editorship of W. D. Ross, Oxford 1928. Verified 2026-08-13 from the transcription itself, which carries the editorship line and names its translators; \"Barnes\" appears nowhere in it, so it is NOT the 1984 Revised Oxford Translation. Published before 1931."
 }

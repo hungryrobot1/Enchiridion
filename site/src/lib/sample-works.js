@@ -26,10 +26,8 @@ export const SAMPLE_WORKS = [
 
   // Islamic Golden Age and Medieval Europe
   { author: 'Al-Khwarizmi', title: 'Algebra', id: 'al-khwarizmi-algebra' },
-  { author: 'Alhazen', title: 'Book of Optics', id: 'alhazen-book-of-optics' },
   { author: 'Maimonides', title: 'Guide for the Perplexed', id: 'maimonides-guide-for-the-perplexed' },
   { author: 'Aquinas', title: 'Summa Theologica', id: 'aquinas-summa-theologica' },
-  { author: 'Averroes', title: 'The Incoherence of the Incoherence', id: 'averroes-incoherence-of-the-incoherence' },
 
   // Renaissance and Scientific Revolution
   { author: 'Copernicus', title: 'On the Revolutions of the Heavenly Spheres', id: 'copernicus-revolutions' },
@@ -88,12 +86,10 @@ export const SAMPLE_WORKS = [
 
   // Modern Era II
   { author: 'Gödel', title: 'On Formally Undecidable Propositions', id: 'godel-on-formally-undecidable-propositions' },
-  { author: 'Turing', title: 'On Computable Numbers', id: 'turing-on-computable-numbers' },
   { author: 'Turing', title: 'Computing Machinery and Intelligence', id: 'turing-computing-machinery-and-intelligence' },
   { author: 'Shannon', title: 'A Mathematical Theory of Communication', id: 'shannon-a-mathematical-theory-of-communication' },
   { author: 'Church', title: 'The Calculi of Lambda-Conversion', id: 'church-calculi-of-lambda-conversion' },
   { author: 'McCarthy', title: 'Recursive Functions of Symbolic Expressions', id: 'mccarthy-recursive-functions-of-symbolic-expressions' },
-  { author: 'Watson and Crick', title: 'Molecular Structure of Nucleic Acids', id: 'watson-crick-molecular-structure-of-nucleic-acids' },
   { author: 'Woese and Fox', title: 'Phylogenetic Structure of the Prokaryotic Domain', id: 'woese-fox-phylogenetic-structure-of-the-prokaryotic-domain-the-primary-kingdoms' },
   { author: 'Rivest, Shamir, and Adleman', title: 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems', id: 'rivest-shamir-adleman-a-method-for-obtaining-digital-signatures-and-public-key-cryptosystems' },
   { author: 'Dijkstra', title: 'Notes on Structured Programming', id: 'djikstra-notes-on-structured-programming' },

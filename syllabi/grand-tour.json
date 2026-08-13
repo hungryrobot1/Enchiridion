@@ -639,10 +639,6 @@
       "items": [
         {
           "type": "text",
-          "id": "al-farabi-philosophy-of-plato-and-aristotle"
-        },
-        {
-          "type": "text",
           "id": "brahmagupta-brahmasphutasiddhanta",
           "note": "Read the mathematical chapters only; the rest is astronomy.",
           "passages": [
@@ -667,18 +663,6 @@
         {
           "type": "supplement",
           "id": "al-khwarizmi-exercises"
-        },
-        {
-          "type": "text",
-          "id": "alhazen-book-of-optics",
-          "note": "A long-runner — a few sections a week alongside the rest. Watch what he does when an authority and an observation disagree, and how often he builds an apparatus rather than an argument.",
-          "passages": [
-            "Book I, Chapters 1–3: the nature of light and the conditions of sight",
-            "Book I, Chapter 6: the structure of the eye",
-            "Book II, Chapters 1–3: perception, and what the eye does not do alone",
-            "Book III, Chapter 7: errors of sight",
-            "Book VII: refraction"
-          ]
         },
         {
           "type": "supplement",
@@ -729,16 +713,6 @@
         {
           "type": "supplement",
           "id": "fibonacci-numeral-exercises"
-        },
-        {
-          "type": "text",
-          "id": "averroes-incoherence-of-the-incoherence",
-          "note": "An argument conducted through quotation: al-Ghazali's attack is printed inside the reply. Read a discussion at a time, and keep track of which voice you are hearing.",
-          "passages": [
-            "The First Discussion: the eternity of the world",
-            "The Fourth Discussion",
-            "The Seventeenth Discussion: causation"
-          ]
         },
         {
           "type": "text",

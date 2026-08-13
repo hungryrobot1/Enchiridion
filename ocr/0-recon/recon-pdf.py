@@ -33,6 +33,19 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from route import Facts, decide, render  # noqa: E402
 
+# Rights is decided HERE, beside the route, because this is the moment before
+# anything is spent. Goedel's run cost 148,000 tokens preparing a translation we
+# may not publish; the pre-flight in dispatch-text.sh warns after that decision
+# rather than before it.
+def _rights_block(src):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "check_rights", str(Path(__file__).resolve().parent / "check-rights.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.verdict_for_source(src)
+
+
 ROMAN_RE = re.compile(r"^[IVXLCDM]+\.?$")
 ARABIC_RE = re.compile(r"^\d{1,3}\.?$")
 PG_RE = re.compile(r"\*\*\* ?(START|END) OF THE PROJECT GUTENBERG", re.I)
@@ -222,6 +235,7 @@ def main() -> int:
         print("\n  note            OCR here is run BY HAND — see 2-extract/STAGE.md.")
         print("                  The page images are a real printed witness, so")
         print("                  stage 4 applies to this text.")
+    print(_rights_block(args.pdf))
     return 0
 
 

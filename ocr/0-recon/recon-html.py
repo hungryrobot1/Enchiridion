@@ -44,6 +44,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from epub_notation import read_notation  # noqa: E402
 from route import Facts, decide, render  # noqa: E402
 
+# Rights is decided HERE, beside the route, because this is the moment before
+# anything is spent. Goedel's run cost 148,000 tokens preparing a translation we
+# may not publish; the pre-flight in dispatch-text.sh warns after that decision
+# rather than before it.
+def _rights_block(src):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "check_rights", str(Path(__file__).resolve().parent / "check-rights.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.verdict_for_source(src)
+
+
 # src/href on the tags that pull in content, not the ones that merely link out.
 ASSET = re.compile(
     r"<(?:img|image|object|embed|source)\b[^>]*?\b(?:src|data)\s*=\s*[\"']([^\"']+)[\"']",
@@ -198,9 +211,11 @@ def main() -> int:
               f"diagrams, tables or notation, the prose alone is not the text. "
               f"Acquiring them needs network access, so escalate with the URL "
               f"list (--urls) rather than proceeding without them.")
+        print(_rights_block(args.source))
         return 1
 
     print("  RESULT: every referenced asset is present")
+    print(_rights_block(args.source))
     return 0
 
 

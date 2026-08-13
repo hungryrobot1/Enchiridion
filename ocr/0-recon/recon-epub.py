@@ -73,6 +73,19 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from epub_notation import read_notation  # noqa: E402
 from route import Facts, decide, render  # noqa: E402
 
+# Rights is decided HERE, beside the route, because this is the moment before
+# anything is spent. Goedel's run cost 148,000 tokens preparing a translation we
+# may not publish; the pre-flight in dispatch-text.sh warns after that decision
+# rather than before it.
+def _rights_block(src):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "check_rights", str(Path(__file__).resolve().parent / "check-rights.py"))
+    m = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(m)
+    return m.verdict_for_source(src)
+
+
 IMG_RE = re.compile(r"<img\b[^>]*>", re.I)
 SRC_RE = re.compile(r'src="([^"]*)"')
 MATHML_RE = re.compile(r"<math\b", re.I)
@@ -244,6 +257,7 @@ def main() -> int:
     if not args.epub:
         ap.error("give an EPUB path, or --corpus")
     report(Survey(args.epub).run())
+    print(_rights_block(args.epub))
     return 0
 
 

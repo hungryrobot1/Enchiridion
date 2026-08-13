@@ -114,6 +114,99 @@ def judge(meta: dict) -> tuple[str, str]:
     return "FLAG", f"{who}, {y} — after {PD_BEFORE - 1}, rights unverified"
 
 
+# ---------------------------------------------------------------- the verdict
+
+# The same four-part block `route.py` prints, for the same reason: a worker
+# reads one thing instead of hunting through documents, and UNDETERMINED means
+# STOP rather than "pick the likely one". Rights belong at recon because that is
+# where routing is decided and before anything has been spent -- Goedel's run
+# cost 148,000 tokens preparing a translation we may not publish.
+#
+# The ladder below is the part that was missing. Knowing a text is encumbered
+# is not useful on its own; what is useful is that ENCUMBERED IS OFTEN
+# PURCHASABLE, and nobody had written down where to go.
+ACQUISITION = [
+    "UNDETERMINED means STOP. It does not mean 'probably fine'.",
+    "1. IS THE WORK ITSELF PUBLIC DOMAIN, and only this TRANSLATION owned? "
+    "Then the choice was never 'have the text or not' -- it is 'have THIS "
+    "translation or not'. Our own translation is a real option, and "
+    "WITHHELD.md names a public-domain source to translate from for six texts "
+    "already in that position.",
+    "2. IS THERE A PORTAL? A licence that can be bought the same day is the "
+    "best outcome there is. Most journal publishers -- Springer Nature, "
+    "Elsevier, Wiley, Taylor & Francis -- route permissions through the "
+    "Copyright Clearance Center (RightsLink); look for 'Rights and "
+    "permissions' on the article page. Price it before assuming it is out of "
+    "reach.",
+    "3. NO PORTAL? Find a contact and ASK. Publishers keep a permissions "
+    "address; a living translator can be written to directly. Some will say "
+    "yes to a free, non-commercial curriculum -- but only if asked, and "
+    "nobody has ever granted permission that was not requested.",
+    "4. Only if all three fail: withhold, and record it in WITHHELD.md with "
+    "what was tried.",
+    "RECORD THE ANSWER IN `rights` EITHER WAY. A settled 'no' is worth as "
+    "much as a yes, because it is asked once instead of every time.",
+]
+
+
+def verdict_for_source(src) -> str:
+    """The RIGHTS block for whatever text a source file belongs to, or ''.
+
+    Called by every recon tool so that routing and rights are decided in one
+    place and at one moment. Silent when there is no metadata beside the
+    source — recon is often pointed at a scratch copy, and a missing record is
+    not a finding about the work.
+    """
+    from pathlib import Path as _P
+    mpath = _P(src).resolve().parent / "metadata.json"
+    if not mpath.exists():
+        return ""
+    try:
+        meta = json.loads(mpath.read_text())
+    except ValueError:
+        return ""
+    return "\n" + render_verdict(mpath.parent.name, meta)
+
+
+def render_verdict(text_id: str, meta: dict, indent: str = "  ") -> str:
+    """The RIGHTS block, printed beside ROUTE by every recon tool."""
+    sys.path.insert(0, str(ROOT / "ocr"))
+    from route import _row  # noqa: E402  -- one renderer, one look on the page
+
+    kind, why = judge(meta)
+    decision = {"CLEAR": "CLEAR", "RECORDED": "RECORDED"}.get(kind, "UNDETERMINED")
+    out = [f"{indent}RIGHTS: {decision}"]
+    out.append(_row("because", why, indent, 78))
+
+    orig = (meta.get("original_language") or "").strip().lower()
+    lang = (meta.get("language") or "").strip().lower()
+    translated = bool(orig) and bool(lang) and orig != lang
+
+    if decision == "CLEAR":
+        out.append(_row("not asked", "whether a licence exists: none is needed. "
+                                     "CLEAR here means the term has certainly "
+                                     "run, which is sufficient and not "
+                                     "necessary", indent, 78))
+        out.append(_row("would flip", "a wrong translator or year in the "
+                                      "metadata. This reads the record, not "
+                                      "the file, and the record has been wrong "
+                                      "in both directions", indent, 78))
+    elif decision == "UNDETERMINED":
+        if translated:
+            out.append(_row("note", f"the WORK may be public domain and only the "
+                                    f"{orig.title()}-to-{lang.title()} "
+                                    f"translation owned — check before treating "
+                                    f"this as blocked", indent, 78))
+        out.append(_row("would flip", "a licence, a permission granted, a "
+                                      "public-domain dedication, or a renewal "
+                                      "that lapsed. None of those are visible "
+                                      "to date arithmetic", indent, 78))
+        out.append(_row("what to do", ACQUISITION[0], indent, 78))
+        for line in ACQUISITION[1:]:
+            out.append(_row("", line, indent, 78))
+    return "\n".join(out)
+
+
 CONTROLS = [
     ("English original, null translator is CORRECT",
      {"original_language": "English", "language": "English",
@@ -162,10 +255,24 @@ def main() -> int:
     ap.add_argument("--all", action="store_true", help="print CLEAR rows too")
     ap.add_argument("--self-test", action="store_true",
                     help="run the controls; do this before believing a clean sweep")
+    ap.add_argument("--verdict", action="store_true",
+                    help="print the RIGHTS block for ONE text, as recon does")
     args = ap.parse_args()
 
     if args.self_test:
         return self_test()
+
+    if args.verdict:
+        if not args.text_id:
+            ap.error("--verdict needs a text_id")
+        hits = [p for p in (ROOT / "texts").glob("*/*/metadata.json")
+                if p.parent.name == args.text_id]
+        if not hits:
+            print(f"no text '{args.text_id}'", file=sys.stderr)
+            return 2
+        meta = json.loads(hits[0].read_text())
+        print(render_verdict(args.text_id, meta))
+        return 0 if judge(meta)[0] != "FLAG" else 1
 
     rows = []
     for mpath in sorted((ROOT / "texts").glob("*/*/metadata.json")):

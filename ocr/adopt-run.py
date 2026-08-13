@@ -568,9 +568,43 @@ def main() -> int:
                 if a is not None and b is not None and b > a:
                     regressed.append(f"{name}: {a} -> {b}")
 
+        # THE RIGHTS GATE. Recon decides this before anything is spent, but
+        # recon can be skipped and a repair job never runs it at all, so the
+        # last moment before a text reaches the site is the backstop. This one
+        # REFUSES rather than warning: everything else here is about whether the
+        # transcription is good, and a text we may not publish is not made
+        # publishable by being good. Adoption is the step that makes it live.
+        #
+        # It cannot decide the answer, only that nobody has. Write the answer
+        # into `rights` -- a settled "no" clears this too, because then the
+        # withholding is deliberate and recorded rather than unexamined.
+        rights_bad = False
+        try:
+            sys.path.insert(0, str(ROOT / "ocr" / "0-recon"))
+            import importlib.util
+            spec = importlib.util.spec_from_file_location(
+                "check_rights", str(ROOT / "ocr" / "0-recon" / "check-rights.py"))
+            cr = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(cr)
+            kind, why = cr.judge(meta)
+            if kind == "FLAG":
+                rights_bad = True
+                print(f"\n  RIGHTS: UNDETERMINED — {why}")
+                print("    Adoption publishes this text. Settle it first and write the")
+                print("    answer into metadata.json's `rights` field:")
+                print(f"      ocr/.venv/bin/python3 ocr/0-recon/check-rights.py "
+                      f"{text_id} --verdict")
+                print("    A settled 'no' clears this gate too — see WITHHELD.md.")
+            else:
+                print(f"  ok  rights       {kind.lower()}: {why[:58]}")
+        except Exception as exc:  # never let the gate's own failure block a run
+            print(f"  ?   rights       could not be checked ({exc})")
+
         bad = [n for n, (rc_c, _) in new.items() if rc_c != 0]
-        if bad or rc_tree != 0 or regressed or anchors or unresolved:
+        if bad or rc_tree != 0 or regressed or anchors or unresolved or rights_bad:
             print("\n  REFUSED — nothing written.")
+            if rights_bad:
+                print("    rights are unverified — see above")
             for r in regressed:
                 print(f"    regression against the published text: {r}")
             if unresolved:

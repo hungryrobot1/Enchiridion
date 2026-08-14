@@ -132,16 +132,28 @@ ACQUISITION = [
     "translation or not'. Our own translation is a real option, and "
     "WITHHELD.md names a public-domain source to translate from for six texts "
     "already in that position.",
-    "2. IS THERE A PORTAL? A licence that can be bought the same day is the "
-    "best outcome there is. Most journal publishers -- Springer Nature, "
-    "Elsevier, Wiley, Taylor & Francis -- route permissions through the "
-    "Copyright Clearance Center (RightsLink); look for 'Rights and "
-    "permissions' on the article page. Price it before assuming it is out of "
-    "reach.",
-    "3. NO PORTAL? Find a contact and ASK. Publishers keep a permissions "
-    "address; a living translator can be written to directly. Some will say "
-    "yes to a free, non-commercial curriculum -- but only if asked, and "
-    "nobody has ever granted permission that was not requested.",
+    "2. THE PORTAL IS PROBABLY NOT OUR ROUTE, and it is worth knowing why "
+    "before spending a morning on it. Most journal publishers -- Springer "
+    "Nature, Elsevier, Wiley, Taylor & Francis -- route permissions through "
+    "the Copyright Clearance Center (RightsLink), and its self-service rule "
+    "set is built for a DIFFERENT USE than ours: an author reusing their own "
+    "work, or an academic reusing up to about three figures or four hundred "
+    "words inside a new article or chapter. Republishing a COMPLETE text, "
+    "permanently, on a site anyone can read is outside that rule set and gets "
+    "routed to the publisher's rights department for manual review anyway. "
+    "Worse, where RightsLink does grant online full-text rights it commonly "
+    "conditions them on the site being password-protected or access-"
+    "restricted -- which is the one thing Enchiridion cannot agree to. "
+    "Checked 2026-08-13. Still look at the portal, because it names the "
+    "rights holder and tells you where to write; just do not expect to buy "
+    "your way through it in an afternoon.",
+    "3. SO THE REAL ROUTE IS USUALLY STEP 3: find a contact and ASK. "
+    "Publishers keep a permissions address -- Springer Nature is "
+    "journalpermissions@springernature.com; Wiley routes through Rights & "
+    "Permissions on wiley.com -- and a living translator can be written to "
+    "directly. Say plainly that the curriculum is free, non-commercial and "
+    "openly licensed. Some will say yes on exactly those grounds, but only "
+    "if asked, and nobody has ever granted permission that was not requested.",
     "4. Only if all three fail: withhold, and record it in WITHHELD.md with "
     "what was tried.",
     "RECORD THE ANSWER IN `rights` EITHER WAY. A settled 'no' is worth as "

@@ -1,0 +1,1 @@
+OCR is done. `weber-protestant-ethic-and-spirit-of-capitalism.md` is in the workspace: 272 pages, 579,767 characters, 0 images extracted. The page count matches your asserted 272 exactly. Proceed from stage 2's raw-output acceptance check.

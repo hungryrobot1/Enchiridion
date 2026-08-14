@@ -68,8 +68,41 @@ only route**, and asking is a real option that costs nothing to try.
 
 | text | holder to ask |
 |---|---|
-| Turing, *On Computable Numbers* (1936) | London Mathematical Society |
-| Watson & Crick, *Molecular Structure of Nucleic Acids* (1953) | Springer Nature |
+| text | holder to ask | how, and what is known |
+|---|---|---|
+| Turing, *On Computable Numbers* (1936) | London Mathematical Society, published by **Wiley** | Rights & Permissions on wiley.com; the LMS permissions hub is on the Wiley platform. **It also expires on a known date** — see below |
+| Watson & Crick, *Molecular Structure of Nucleic Acids* (1953) | **Springer Nature** | `journalpermissions@springernature.com`, or "Reprints and permissions" on the article page |
+
+**Turing has a clock on it, and the two jurisdictions disagree.** Turing died in
+1954, so under UK law (life + 70) the paper has been public domain **since 1
+January 2025**. That is not the law that governs us: we publish from the US,
+where a 1936 foreign publication was restored by the URAA and runs 95 years from
+publication — **public domain in the US on 1 January 2032**, and 2033 for the
+1937 second part. So asking is worth doing, but this is a text we will get either
+way, and the ask is really about getting it seven years early.
+
+### The portal is not the route, and here is why
+
+Checked 2026-08-13. The hope was that a publisher portal could clear a text the
+same day at a sane price. It cannot, for our use, and the reason is structural
+rather than about price.
+
+**RightsLink's self-service rule set is built for a different use than ours.**
+What it grants automatically is an author reusing their own work, or an academic
+reusing up to about three figures or four hundred words inside a *new* article or
+chapter. Republishing a complete text, permanently, on a site anyone can read is
+outside that rule set, and such requests are routed to the publisher's own rights
+department for manual review — which is step 3 by another road.
+
+**And the standard online condition is one we cannot accept.** Where full-text
+online rights are granted through the portal, they commonly require the site to
+be password-protected or otherwise access-restricted. An open curriculum is the
+whole point; a gated Enchiridion is not a cheaper Enchiridion, it is a different
+project.
+
+So the portal is still worth opening — it names the rights holder and tells you
+where to write — but as a **lookup, not a checkout**. The ladder in
+`ocr/0-recon/check-rights.py` has been corrected to say so.
 
 This is the shape of the whole of section 8, where **56 of 57 pending texts were
 published after 1930.** Rights, not sourcing, will decide what the modern era's

@@ -1,99 +1,115 @@
 ## For the reviewer
 
-This run is stopped before extraction. The only printed witness is the supplied
-1898 Latta edition (a later photographic reprint) in
-`source/monadologyotherp00gott.pdf`. Its page images can settle readings; its
-embedded text is an Internet Archive OCR layer and is not an independent
-witness. No readings have yet been repaired, and there is no page-indexed list
-of doubtful readings until OCR and stage-4 comparison occur.
+The proposed file is `leibniz-monadology-and-other-philosophical-writings.md`.
+It contains eight complete Leibniz writings from Robert Latta’s 1898 translation,
+printed pp. 215–424. The only printed witness is the supplied photographic scan,
+`source/monadologyotherp00gott.pdf`. Its page images settle readings; its Internet
+Archive text layer and this run’s Mistral OCR are two machine readings of the
+same witness, not independent witnesses.
 
-The prepared witness contains the complete translation section: eight Leibniz
-writings from printed pages 215–424, with Latta's introduction, four interleaved
-editorial appendices, index, and page-bottom editorial notes removed. Latta's
-full-size prefatory notes at the openings of several works remain in the PDF and
-must be stripped from the OCR during stage 3. Review the first and last body
-lines around each removed appendix first: original PDF 285/295, 342/345, and
-364/369.
+This is machine-checked and selectively page-read, not proofread cover to cover.
+Read `proofreading-ledger.md` first. The highest-value first checks are the open
+printed forms `perfectihabiae` (p. 245), `[s'aperceroir]` (p. 378), and
+`[la consciosité]` (p. 396), followed by the restored authorial clauses on
+pp. 329, 351, and 402–403. The ledger lists every reading repaired from a page,
+including 18 note calls OCR flattened to baseline numerals. All repairs are
+asserted in `build_text.py`; none was hand-edited into the proposed markdown.
 
-## Recon and identity
+Latta’s full-size PREFATORY NOTE blocks, introduction, interleaved appendices,
+index, and page-bottom notes were removed as editorial apparatus. Translator
+interpolations in square brackets remain. Parenthetical *Théodicée* references
+in the *Monadology* remain because Latta’s prefatory note identifies them as
+references Leibniz put in his manuscript, rather than Latta’s notes.
 
-`recon-pdf.py` reported 456 pages, an Internet Archive producer string, an
-OCR-generated embedded layer, and two full-page scan images per page. Its route
-verdict was OCR. The title page names *Leibniz: The Monadology and Other
-Philosophical Writings*, translated with introduction and notes by Robert Latta.
-The metadata already had the correct author, translator, and first-edition year
-(1898); `update_metadata.py` changed the shortened catalog title to the exact
-title-page form. The identity check's synthetic wrong-work, wrong-translation,
-and genuine-match controls all passed.
+## Recon, preparation, and extraction
 
-No structured source or sibling EPUB was supplied. No network search for a
-better source was made because network access was not authorized. The printed
-scan remains necessary in any event: agreement with another rendering of the
-same transcription would establish fidelity, not correctness.
+Recon identified a 456-page Internet Archive scan with an OCR-derived embedded
+layer and routed it to OCR. The exact title page reads *Leibniz: The Monadology
+and Other Philosophical Writings*; `update_metadata.py` corrected the shortened
+catalog title while leaving `ocr_status: pending`.
 
-## Preparation
+`prepare_leibniz.py` selected original PDF pages 229–285, 295–342, 345–364, and
+369–438: 456 − 261 = 195 pages. The dropped material is physical and editorial
+furniture, not parts of the eight works. Rendered boundaries were checked at
+prepared pages 57/58, 105/106, and 125/126. The general cropper cropped 183
+pages and left 12 unchanged. Prepared page 106 required an asserted reclip after
+its large opening title confused the general crop detector; it was checked
+again after the correction. The duplicate-leaf tool found a planted duplicate
+in its control, then no real candidates among 194 evidence pages and 1,314 fuzzy
+comparisons.
 
-`build_prepared.py` is the one-command rebuild. It calls `update_metadata.py`,
-the range selector, the shared cropper, and the asserted one-page adjustment.
-`prepare_leibniz.py` asserts the 456-page source, selects original PDF pages
-229–285, 295–342, 345–364, and 369–438, and asserts a 195-page result. The kept
-ranges contain, in order: *The Monadology*; *On the Notions of Right and
-Justice*; *New System of the Nature of Substances and of the Communication
-between Them*; *Explanation of the New System*; *Third Explanation of the New
-System*; *On the Ultimate Origination of Things*; the introduction to *New
-Essays on the Human Understanding*; and *Principles of Nature and of Grace*.
+OCR was run manually outside the sandbox and returned `source.md`: 195 pages,
+287,520 characters, zero images. The raw separator check found exactly 195
+pages, mean 1,467 characters, and zero pages under 200 characters. That mean is
+below the prose range in the stage contract because the prepared pages were
+cropped to exclude large blocks of Latta’s notes; the absence of thin pages and
+the exact page count are the meaningful extraction assertions here. The OCR
+output basename wart was fixed after this run; `source.md` is correct for this
+run. EPUB completeness checking does not apply to a scan.
 
-The excluded 261 pages are original PDF 1–228 (physical front matter and
-Latta's preface/introduction), 286–294 (Latta Appendices F/G), 343–344
-(Appendix H), 365–368 (Appendix I), and 439–456 (index and physical end matter).
-The selection begins at printed 215 and ends at printed 424. Rendered boundary
-leaves confirmed both endpoints and all three interleaved cuts.
+## Postprocessing
 
-Latta's page-bottom notes are editorial apparatus: the title page explicitly
-calls the volume translated “with introduction and notes,” and their content is
-edition references, variant reports, cross-references, and translator
-explanation. The shared cropper was dry-run with `--max-size 9.5 --gap-min 8`.
-All 195 boundaries were inspected in five contact sheets before application;
-183 pages were cropped and 12 had no qualifying note block. Prepared page 106
-(original PDF 345, printed 331) needed the asserted follow-up
-`adjust_leibniz_crop.py`: its large divisional title caused the general detector
-to leave several note lines, so it was reclipped from height 542 to 488 points
-at the visible whitespace after Leibniz's last body line. Full-size prefatory
-notes are intentionally left for postprocessing because they share pages with
-the works and are not separable by a bottom crop.
+`strip_latta_apparatus.py` uses the scan’s type geometry, token alignment, and
+asserted body-end anchors. Its final census is 51 explicit-note cuts, 22 aligned
+note-zone cuts, 23 asserted note-zone cuts, 15 running heads, and 604 superscript
+note markers removed. It also removes seven full-size prefatory blocks by exact
+work/body anchors. `build_text.py` then supplies the collected-volume h1, shapes
+the work headings, rejoins 123 page-turn paragraphs, removes 58 structural page
+rules, normalizes 236 punctuation spaces, and applies all asserted repairs.
 
-The final prepared PDF reopened at 195 pages. The shipped duplicate-leaf scan
-detected its planted page-2 duplicate (1 exact group, 1 fuzzy hit), then found no
-real candidates among 194 evidence-bearing pages and 1,314 fuzzy comparisons.
+The geometry stripper’s first boundary heuristic was unsafe: it selected later
+font transitions inside notes and deleted body sections. A numbered-section
+census exposed that loss. The final candidate has exact sequences Monadology
+1–90, New System 1–18, Explanation 1–20, and Principles 1–18. A second boundary
+audit found the p. 295 note/body transition and the one-word p. 252 note remnant.
 
-## Current limit
+The selected-range boundaries at original PDF 343 and 365 began with the last
+authorial lines before Appendices H and I, so the range selection had omitted
+those lines. They were restored from printed pp. 329 and 351. This is why the
+rendered boundary checks alone did not establish whole-work completeness.
 
-Stage 2 requires manual Mistral OCR outside this sandbox. `ESCALATION.md` gives
-the exact command and resume contract. No Markdown exists yet, so the extraction
-completeness check, diagnostic triad, vocabulary census, postprocessing, and
-proofreading have not been run. There is consequently no `PROPOSED.md`, and the
-metadata remains `ocr_status: pending`.
+## Verification and present limit
+
+The final file has nine h1 headings (one volume title plus eight works), the
+single internal `## INTRODUCTION`, and no page rules, PREFATORY NOTE headings,
+appendix/index headings, images, links, or code fences. The diagnostic control
+runner proved each triad checker could reject a planted defect, then reported:
+`lint-math` 0 issues, `check-math` 0 failures out of 0 math blocks, and
+`check-raw-latex` 0 surviving backslashes. `math-vocab-census.py` reported no
+markdown texts with math. Both findings are expected and nearly uninformative:
+this is prose with Greek text but no Markdown math notation, and neither check
+tests whether the words match the page.
+
+No claim of full proofreading or correctness is made. Metadata remains pending;
+adoption should set the ordinary `needs-review` state, not a completeness claim.
 
 ## Where this was harder than it needed to be
 
-The route itself was clear, but the same route argument and warnings occupy the
-main README and long stage-0 and stage-2 contracts; locating the operational
-handoff requirements meant reading well past the verdict. The exact OCR output
-basename behavior was absent from that checklist and had to be learned from
-`ocr.py` itself.
+The documentation was thickest where the operational fact was smallest: the OCR
+route and handoff conditions recur in the top-level README and stage contracts,
+while the scan-specific reason that EPUB completeness does not apply arrived
+only in the resumed answer. I had to read the full apparatus policy to locate
+the author/editor boundary, then infer how inline manuscript cross-references
+fit it; that case is not named.
 
-The printed contents identifies the inclusions and appendices, but there is no
-tool or declaration format for selecting several noncontiguous PDF ranges;
-`split.py` handles only one continuous interval. `prepare_leibniz.py` exists for
-that gap. The general cropper was useful, but its 183-line decision report and
-83 “ink below” warnings did not distinguish actual endangered body content from
-ordinary scan noise or the note text it was designed to remove, so every crop
-still needed visual inspection. Its output also uses zero-based page labels,
-while the rest of the handoff uses one-based pages.
+I expected tools for noncontiguous PDF selection and for proving that a cropped
+scan still contains every authorial line. Neither existed. `prepare_leibniz.py`
+fills the first gap. The second had to be discovered through page-turn prose and
+section auditing; the rendered boundary leaves showed the headings being cut
+around, but not that authorial continuations sat above them.
 
-The ordering exposed the page-106 crop defect only after the full contact-sheet
-review; that forced a second asserted crop pass and repetition of the duplicate
-scan. The judgment resolved locally was whether Latta's bottom notes are
-editorial apparatus: the title page attribution and the notes' consistent
-editorial function made that sufficiently clear. Full-size prefatory notes were
-left for stage 3 rather than forcing a geometrically unsafe crop.
+Ordering fought the run twice. Apparatus stripping occurred before a complete
+section census, so an over-aggressive geometry rule first looked successful and
+only later proved to have removed numbered sections. The shared paragraph
+rejoiner also applies overlapping rewrites against stale match positions: a
+paragraph spanning two page turns lost its middle continuation. That was learned
+after use, and `build_text.py` had to reuse only its classifier while applying
+joins sequentially.
+
+The slow work was apparatus boundary adjudication. The scan often puts authorial
+text, a note continuation from the prior page, and new numbered notes on one
+leaf; OCR then fuses them into plausible paragraphs. Geometry and token alignment
+reduced the search, but 23 pages still needed asserted anchors. The ambiguous
+choice resolved locally was to keep the *Monadology*’s parenthetical
+*Théodicée* references: Latta explicitly attributes them to Leibniz’s manuscript,
+even though their typography resembles editorial cross-reference furniture.

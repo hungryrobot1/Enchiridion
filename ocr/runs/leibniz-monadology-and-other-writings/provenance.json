@@ -9,5 +9,14 @@
   "started": "2026-08-13T15:29:16Z",
   "finished": "2026-08-13T22:59:05Z",
   "exit_code": 0,
-  "completed": true
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-13T23:02:33Z",
+      "finished": "2026-08-14T00:28:17Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ]
 }

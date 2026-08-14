@@ -1,0 +1,246 @@
+p001: no geometric cut
+p002: no geometric cut
+p003: no geometric cut
+p004: y=217.3, removed='elements which are quantities, however small? Leibniz elsewhere makes it perfectly clear that nothin'
+p005: explicit footnote paragraph, removed='⁷ Consider, by way of analogy and contrast, what Spinoza says regarding the eternity of the human mi'
+p005: no note-side OCR match
+p006: explicit footnote paragraph, removed="¹¹ Kant pointed out that a thing may have 'intensive' as well as 'extensive' quantity, i. e. quantit"
+p006: y=133.6, removed='is a considerable variety of more or less vague opinion as to the nature of the relation. Leibniz is'
+p007: notes already outside prepared crop
+p008: explicit footnote paragraph, removed="¹⁵ This is the principle of the 'identity of indiscernibles': see"
+p008: notes already outside prepared crop
+p009: explicit footnote paragraph, removed='¹⁷ i. e. other than miraculous changes or than such change as may be implied in the creation or anni'
+p009: no note-side OCR match
+p010: explicit footnote paragraph, removed="²¹ Cf. Epistola ad Des Bosses (1706) (E. 438 a; G. ii. 311): 'Since perception is nothing else than "
+p010: y=234.5, removed='a particular change, according to the nature of its content, and which all are present together in t'
+p011: explicit footnote paragraph, removed='²¹ E. reads mal touchés; G. and Boutroux, mal tournés. ²⁵ Descartes regards the immortality of the s'
+p011: y=113.1, removed='a silkworm in its cocoon, the resuscitation of drowned flies by means of a dry powder sprinkled upon'
+p012: notes already outside prepared crop
+p013: explicit footnote paragraph, removed="²⁹ Like the greater part of Bayle's Dictionary, the article 'Rorarius' may be said to consist mostly"
+p013: y=119.4, removed='In 1693, ostensibly on political as well as theological grounds, he was deprived of his professorshi'
+p014: explicit footnote paragraph, removed='³⁰ That is to say, even if we had microscopes powerful enough to reveal to us, on a large scale, all'
+p014: y=233.9, removed='System, which was published in the Journal des Savans of June 27, 1695 (the year before the second v'
+p015: notes already outside prepared crop
+p016: notes already outside prepared crop
+p017: notes already outside prepared crop
+p018: notes already outside prepared crop
+p019: asserted body-end anchor, removed='us, we must attend to particular instances in proportion to their frequency; for then the expectatio'
+p020: notes already outside prepared crop
+p021: y=224.4, removed='source, which is God . . . we first of all come upon the ego, or the being which is in us, in so far'
+p022: asserted body-end anchor, removed="things in addition to its abstract 'possibility.' The principle of sufficient reason is the principl"
+p023: notes already outside prepared crop
+p024: asserted body-end anchor, removed="visible: it cannot consist of partes extra partes. And the 'infinite division' of bodies is merely a"
+p025: asserted body-end anchor, removed='or by representation in the ideas themselves. The same things are'
+p026: no geometric cut
+p027: asserted body-end anchor, removed='by Leibniz in revising the first copy of the Monadology. G. gives it in a foot-note. The natural ine'
+p028: notes already outside prepared crop
+p029: explicit footnote paragraph, removed='⁷³ Pierre Poiret (1646-1719), a Calvinist minister, who held a charge in the Duchy of Zweibrücken, i'
+p029: y=192.0, removed="understanding also will be the result of will. How, then, does will presuppose understanding?' (G. i"
+p030: y=167.4, removed='nature, but that it is a possibility tending to realize itself, yet requiring the assistance, choice'
+p031: explicit footnote paragraph, removed='⁷⁷ Leibniz does not elsewhere discriminate three elements in the created Monad, and we must not supp'
+p031: no note-side OCR match
+p032: explicit footnote paragraph, removed='⁸¹ We have here the principle of the Pre-established Harmony (further referred to in §§ 80 and 81). '
+p032: y=272.2, removed='a thing arises solely from the liberating of its essential activities, and that the Monads claim exi'
+p033: notes already outside prepared crop
+p034: asserted body-end anchor, removed='contain or to their degree of perfection; for perfection is nothing'
+p035: asserted body-end anchor, removed="of distinctness of its perceptions. Cf. Théodicée, § 357 (E. 607 b; G. vi. 327). 'The projections of"
+p036: notes already outside prepared crop
+p037: explicit footnote paragraph, removed="⁹⁶ The expression 'symbolize' suggests the 'calculus' idea which is so continually in Leibniz's mind"
+p037: no note-side OCR match
+p038: asserted body-end anchor, removed="conspirant.' The mistake may be due to an imperfect recollection of the phrase in Hippocrates: ξύρρο"
+p039: explicit footnote paragraph, removed='¹⁰⁰ See note 32. The entelechy or soul is at once the final cause of the body and the power which co'
+p039: no note-side OCR match
+p040: explicit footnote paragraph, removed='¹⁰³ i. e. not a machine made by man. From another point of view, as a product of nature, it is (as t'
+p040: no note-side OCR match
+p041: explicit footnote paragraph, removed="¹⁰⁵ Cf. Nicholas of Cusa, Idiotae Libri quatuor, iii. 2, 82 a. 'Humanas artes imagines Divinae artis"
+p041: no note-side OCR match
+p042: explicit footnote paragraph, removed="¹⁰⁸ The 'portions of matter,' of which Leibniz here speaks, are ultimately Monads, each of which mus"
+p042: no note-side OCR match
+p043: explicit footnote paragraph, removed="¹¹⁰ Cf. Epistola ad Bernoullium (1699) (G. Math. iii. 565): 'God, out of the infinite number of poss"
+p043: y=242.1, removed="themselves to it.' The view of Leibniz also suggests the cell-theory of modern physiology; but the a"
+p044: explicit footnote paragraph, removed='¹¹² The misunderstanding probably arose from a confusion of materia prima, the passive element in th'
+p044: no geometric cut
+p045: asserted body-end anchor, removed='past, if I had even to be taught anew my own name and how to read and write, I could always learn fr'
+p046: asserted body-end anchor, removed='except in appearance: Aristotle mentions this (De Caelo, bk. iii. ch. 2). And the author of the De D'
+p047: notes already outside prepared crop
+p048: explicit footnote paragraph, removed="¹²⁰ 'There is always going on in the animal what goes on in it at the present moment; that is, its b"
+p048: y=304.2, removed="minds, images of the Deity, produced by God.' Epistola ad Hanschium (1707) (E. 445 b). This last pas"
+p049: notes already outside prepared crop
+p050: notes already outside prepared crop
+p051: notes already outside prepared crop
+p052: notes already outside prepared crop
+p053: notes already outside prepared crop
+p054: explicit footnote paragraph, removed='¹³⁸ Because moral distinctions and moral qualities belong specially to the moral order, i. e. to the'
+p054: y=235.5, removed="Sermonibus, vi. 112a: 'God desired to manifest the riches of His glory, and on this account He creat"
+p055: explicit footnote paragraph, removed='¹⁴⁰ That is to say, the world is built on a plan which perfectly harmonizes with the moral governmen'
+p055: no note-side OCR match
+p056: asserted body-end anchor, removed='and Fénelon. Fénelon (partly in defence of Mme. Guyon) maintained the possibility of a disinterested'
+p057: notes already outside prepared crop
+p058: no geometric cut
+p059: no geometric cut
+p060: explicit footnote paragraph, removed="³ 'When the nature of justice and (as is necessarily involved in this) the nature of wisdom and char"
+p060: no note-side OCR match
+p061: asserted body-end anchor, removed='in order to recognize it we require wisdom, which is nothing but the knowledge of the good. . . . Wi'
+p062: notes already outside prepared crop
+p063: explicit footnote paragraph, removed="¹⁵ 'We seek beautiful things because they are pleasant. I define a beautiful thing as that the conte"
+p063: y=246.8, removed='sought for its own sake, and whatever is sought for its own sake is pleasant. Other things are sough'
+p064: notes already outside prepared crop
+p065: notes already outside prepared crop
+p066: notes already outside prepared crop
+p067: notes already outside prepared crop
+p068: explicit footnote paragraph, removed="³⁶ 'It is not allowable to take from the rich their goods in order to supply the poor with them. . ."
+p068: no note-side OCR match
+p069: explicit footnote paragraph, removed="³⁸ 'The principles of charity are abnegation of self, esteem of others.' Tabulae duae disciplinae ju"
+p069: no note-side OCR match
+p070: explicit footnote paragraph, removed='⁴¹ If the soul were not immortal, Leibniz thinks it would be impossible for even a wise man to have '
+p070: no note-side OCR match
+p071: notes already outside prepared crop
+p072: asserted body-end anchor, removed='we also diminish, in so far as it depends upon us, the perfection of the great commonwealth, of whic'
+p073: notes already outside prepared crop
+p074: no geometric cut
+p075: explicit footnote paragraph, removed="³ 'Mons. Arnauld.' Note by Leibniz, who tells us also that with regard to his New System he 'followe"
+p075: no note-side OCR match
+p076: notes already outside prepared crop
+p077: notes already outside prepared crop
+p078: explicit footnote paragraph, removed='¹² That is, not independent beings, but properties or relations, like the two ends of a stick. ¹³ E.'
+p078: no note-side OCR match
+p079: explicit footnote paragraph, removed="¹⁸ 'To distinguish it from the secondary, which is called moving force, and which is an accidental l"
+p079: no note-side OCR match
+p080: asserted body-end anchor, removed='lower animals and plants are educed from the matter of the seed through generation. But if it be ask'
+p081: notes already outside prepared crop
+p082: notes already outside prepared crop
+p083: notes already outside prepared crop
+p084: explicit footnote paragraph, removed="⁴¹ Monadology, §§ 72 and 73. In the First Draft (G. iv. 474) Leibniz writes: 'As the minuteness of o"
+p084: y=334.0, removed='genuine substances continue to exist. By "genuine substances" he appears to have meant only souls. B'
+p085: notes already outside prepared crop
+p086: explicit footnote paragraph, removed='⁴⁵ Bernard le Bovier de Fontenelle (1657–1757), a nephew of'
+p086: notes already outside prepared crop
+p087: explicit footnote paragraph, removed='⁴⁹ \'When I say "I," I speak of one substance only; but an army, a flock, a pond full of fish, even t'
+p087: no note-side OCR match
+p088: notes already outside prepared crop
+p089: notes already outside prepared crop
+p090: notes already outside prepared crop
+p091: explicit footnote paragraph, removed="⁶¹ See Monadology, § 7, note 10. ⁶⁵ E. omits 'by the soul' (par elle). ⁶⁶ 'Animal spirits' was the n"
+p091: no note-side OCR match
+p092: notes already outside prepared crop
+p093: notes already outside prepared crop
+p094: notes already outside prepared crop
+p095: explicit footnote paragraph, removed="⁷⁹ 'Absolute motion' would be motion that is not in any degree rest. But motion must always be deter"
+p095: y=244.8, removed='from one body to another. Each body, he would say, has a force, which is the cause of its actual mot'
+p096: no geometric cut
+p097: no geometric cut
+p098: notes already outside prepared crop
+p099: notes already outside prepared crop
+p100: notes already outside prepared crop
+p101: notes already outside prepared crop
+p102: notes already outside prepared crop
+p103: notes already outside prepared crop
+p104: notes already outside prepared crop
+p105: notes already outside prepared crop
+p106: notes already outside prepared crop
+p107: explicit footnote paragraph, removed='¹ Christian Huygens (1629-1695) was a mathematician, physicist and astronomer, who lived for the mos'
+p107: y=215.6, removed='the motion occurs, the will wills it, without any causality or influence [influcus] of the one upon '
+p108: no geometric cut
+p109: explicit footnote paragraph, removed="⁵ It should be observed that Leibniz's argument from analogy proceeds upon the assumption that body "
+p109: no note-side OCR match
+p110: notes already outside prepared crop
+p111: asserted body-end anchor, removed='than as a philosopher. After travelling in Syria and Egypt, he went to India (where he was physician'
+p112: no geometric cut
+p113: notes already outside prepared crop
+p114: explicit footnote paragraph, removed='⁶ The word contradictionem seems to have been omitted per incuriam. Neither E. nor G. gives it. ⁷ Ev'
+p114: y=412.5, removed='but a superiority of the good or desirable over the bad or undesirable in the things which come to p'
+p115: notes already outside prepared crop
+p116: y=432.1, removed='contains the greatest balance of perfection over limitation or of good over evil, i. e. the maximum '
+p117: notes already outside prepared crop
+p118: notes already outside prepared crop
+p119: notes already outside prepared crop
+p120: no geometric cut
+p121: explicit footnote paragraph, removed='³² The reference is probably to some of the salt-mines in or near the Carpathians, which are the ric'
+p121: no note-side OCR match
+p122: notes already outside prepared crop
+p123: explicit footnote paragraph, removed="³⁶ 'To have a thousand well-bound Virgils in your library, always to sing airs from the opera of Cad"
+p123: no note-side OCR match
+p124: y=434.9, removed='agreement, no new action being required to produce our agreement, beyond the resolve which each of u'
+p125: notes already outside prepared crop
+p126: no geometric cut
+p127: no geometric cut
+p128: notes already outside prepared crop
+p129: notes already outside prepared crop
+p130: notes already outside prepared crop
+p131: notes already outside prepared crop
+p132: notes already outside prepared crop
+p133: notes already outside prepared crop
+p134: notes already outside prepared crop
+p135: notes already outside prepared crop
+p136: explicit footnote paragraph, removed="³⁶ E. reads 'are not.' ³⁷ E. reads 'a connexion' and 'a passing.' ³⁸ E. reads 'they.' ³⁹ Cf. Lettre "
+p136: no note-side OCR match
+p137: notes already outside prepared crop
+p138: explicit footnote paragraph, removed='⁴² Cf. Monadology, §§ 40, 43 and 54, with the notes. By a virtualité Leibniz means something between'
+p138: notes already outside prepared crop
+p139: notes already outside prepared crop
+p140: notes already outside prepared crop
+p141: explicit footnote paragraph, removed='⁵⁵ Robert Boyle (b. Lismore, 1627, d. London, 1691), the famous chemist and physicist, who (almost c'
+p141: no note-side OCR match
+p142: notes already outside prepared crop
+p143: explicit footnote paragraph, removed="⁶¹ G. reads 'effect.' ⁶² Cf. Montaigne, Essais, bk. ii. ch. 14: 'If we suppose a piece of twine equa"
+p143: no note-side OCR match
+p144: notes already outside prepared crop
+p145: notes already outside prepared crop
+p146: explicit footnote paragraph, removed='⁸⁰ Pierre Bayle. See Monadology, § 16, notes 28 and 29. The reference is to the article Rorarius in '
+p146: no note-side OCR match
+p147: asserted body-end anchor, removed="held that 'colour, heat,' &c., as we perceive them, are not to be attributed to external bodies, the"
+p148: notes already outside prepared crop
+p149: explicit footnote paragraph, removed='⁹ The reference is to the vortex hypothesis of Descartes. According to Descartes, as body is ultimat'
+p149: no note-side OCR match
+p150: notes already outside prepared crop
+p151: notes already outside prepared crop
+p152: notes already outside prepared crop
+p153: notes already outside prepared crop
+p154: notes already outside prepared crop
+p155: asserted body-end anchor, removed='which is universal and which animates the whole universe and all its parts, according to the structu'
+p156: asserted body-end anchor, removed='happy souls is compatible with the functions of their glorified bodies, which will still remain orga'
+p157: notes already outside prepared crop
+p158: notes already outside prepared crop
+p159: notes already outside prepared crop
+p160: explicit footnote paragraph, removed='¹³ In Nouveaux Essais, bk. ii. ch. 8, § 11, he calls them vires centripetae (E. 231 b; G. v. 118). C'
+p160: no note-side OCR match
+p161: notes already outside prepared crop
+p162: notes already outside prepared crop
+p163: explicit footnote paragraph, removed="¹⁴⁰ Leibniz's italics. ¹⁴¹ Ed. 1823, vol. iv. p. 34. ¹⁴² Stillingfleet's Works, vol. iii. p. 534. ¹⁴"
+p163: no note-side OCR match
+p164: asserted body-end anchor, removed='and power of beginning motion, &c., co-existing in some substance, we are able to frame the complex '
+p165: notes already outside prepared crop
+p166: notes already outside prepared crop
+p167: notes already outside prepared crop
+p168: notes already outside prepared crop
+p169: notes already outside prepared crop
+p170: notes already outside prepared crop
+p171: notes already outside prepared crop
+p172: notes already outside prepared crop
+p173: notes already outside prepared crop
+p174: asserted body-end anchor, removed='studying at Oxford he travelled abroad and made acquaintance with the theosophical views of Paracels'
+p175: notes already outside prepared crop
+p176: no geometric cut
+p177: notes already outside prepared crop
+p178: y=364.9, removed='To say that matter is infinitely divisible is the same as saying that there is compound substance ev'
+p179: y=273.4, removed='time perceptions of the actual parts, and even each part has more than one modification; and there i'
+p180: notes already outside prepared crop
+p181: explicit footnote paragraph, removed='¹⁵ The transition from the unconscious to the conscious perception is not by any means made clear. L'
+p181: no note-side OCR match
+p182: notes already outside prepared crop
+p183: notes already outside prepared crop
+p184: notes already outside prepared crop
+p185: notes already outside prepared crop
+p186: asserted body-end anchor, removed='But if we can say'
+p187: asserted body-end anchor, removed='41 i.e. in a higher degree. See Monadology, note 61. 42 E. omits fort [very]. 43 There is a great di'
+p188: asserted body-end anchor, removed='essential, inalienable imperfection; otherwise it would be indistinguishable from God. And God canno'
+p189: explicit footnote paragraph, removed="⁴⁹ The laws of actual 'concrete' motion cannot be deduced a priori under the law of contradiction; b"
+p189: no note-side OCR match
+p190: notes already outside prepared crop
+p191: notes already outside prepared crop
+p192: notes already outside prepared crop
+p193: explicit footnote paragraph, removed="⁶¹ i.e. 'disinterested' love. See Monadology, § 90, note 142. ⁶² 'God is love [charitas], which is k"
+p193: no note-side OCR match
+p194: explicit footnote paragraph, removed="⁶⁵ 'There is as much difference between genuine morality [morale] and that of the Stoics and Epicure"
+p194: no note-side OCR match
+p195: notes already outside prepared crop

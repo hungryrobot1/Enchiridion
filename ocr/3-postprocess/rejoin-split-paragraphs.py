@@ -284,6 +284,15 @@ def find_neighbor(lines: list[str], idx: int, direction: int) -> int:
     return -1
 
 
+def _content_fingerprint(lines: list[str]) -> str:
+    """Every non-whitespace character, `---` rules excluded.
+
+    The invariant a joining tool must satisfy. Rules are excluded because
+    removing them is the one deletion this tool is allowed to make.
+    """
+    return "".join("".join(ln.split()) for ln in lines if not RULE_RE.match(ln))
+
+
 def process(
     markdown_path: Path,
     apply: bool,
@@ -370,12 +379,32 @@ def process(
     drop: set[int] = set()
     replace: dict[int, str] = {}
     applied_count = 0
-    for mode, line_no, cat, merged, prev_i, next_i in pending:
+    sep = "\n" if verse else " "
+
+    # CHAINING. A paragraph broken across TWO page turns yields two overlapping
+    # candidates -- (A,B) and (B,C) -- and the naive application loses C outright:
+    # the first entry drops B, the second writes `replace[B]` which is never
+    # emitted because B is dropped, and C is dropped as well. The report still
+    # claimed both merges, so the diagnostic said success while the file lost a
+    # sentence. Found by the Leibniz run, 2026-08-13, in prose that turned two
+    # pages mid-paragraph.
+    #
+    # `anchor_of` remembers which surviving line absorbed each dropped one, so a
+    # candidate whose left half is already inside an earlier merge EXTENDS that
+    # merge instead of starting a doomed second one.
+    anchor_of: dict[int, int] = {}
+
+    for mode, line_no, cat, merged, prev_i, next_i in sorted(pending, key=lambda e: e[4]):
         if categories is not None and cat not in categories:
             continue
-        replace[prev_i] = merged
+        anchor = anchor_of.get(prev_i, prev_i)
+        if anchor in replace:
+            replace[anchor] = replace[anchor].rstrip() + sep + lines[next_i].lstrip()
+        else:
+            replace[anchor] = merged
         for k in range(prev_i + 1, next_i + 1):
             drop.add(k)
+            anchor_of[k] = anchor
         applied_count += 1
 
     out: list[str] = []
@@ -383,6 +412,22 @@ def process(
         if i in drop:
             continue
         out.append(replace.get(i, ln))
+
+    # CONSERVATION. This tool only ever JOINS: it removes `---` rules and
+    # whitespace and nothing else. So the non-whitespace content of the file,
+    # rules excluded, must come out identical -- and if it does not, something
+    # has been silently eaten and we must not write. This is the guard the
+    # chaining bug needed and did not have; it turns any future variant of the
+    # same mistake into a refusal instead of a quiet loss.
+    if _content_fingerprint(lines) != _content_fingerprint(out):
+        print(
+            "\nREFUSING TO WRITE — text would be lost.\n"
+            "  Rejoining may only remove `---` rules and whitespace, but the\n"
+            "  non-whitespace content changed. This is a bug in this tool, not\n"
+            "  in your input. Nothing has been written.",
+            file=sys.stderr,
+        )
+        return 1
 
     if apply:
         trailing_nl = "\n" if text.endswith("\n") else ""
@@ -402,8 +447,93 @@ def process(
     return 0
 
 
+def selftest() -> int:
+    """Prove the tool joins without eating, on cases whose answers are known.
+
+    There were no controls here at all, which is why a paragraph crossing two
+    page turns could lose a sentence for as long as it did. The case that
+    matters most is `two page turns`: it FAILED before the chaining fix, and it
+    is the reason this function exists.
+    """
+    import tempfile
+
+    P = "The quick brown fox jumped over the lazy dog and kept"
+    Q = "running through the field until it reached the far"
+    R = "hedge, where it finally stopped to rest."
+
+    cases: list[tuple[str, str, list[str], str]] = [
+        (
+            "one page turn joins",
+            "--rule",
+            [P, "", "---", "", Q + "."],
+            P + " " + Q + ".",
+        ),
+        (
+            "two page turns joins BOTH — the Leibniz loss",
+            "--rule",
+            [P, "", "---", "", Q, "", "---", "", R],
+            P + " " + Q + " " + R,
+        ),
+        (
+            "three page turns still keeps every fragment",
+            "--rule",
+            [P, "", "---", "", Q, "", "---", "", Q, "", "---", "", R],
+            P + " " + Q + " " + Q + " " + R,
+        ),
+    ]
+
+    ok = True
+    for name, flag, lines, want_joined in cases:
+        with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False) as fh:
+            fh.write("# T\n\n" + "\n".join(lines) + "\n")
+            path = Path(fh.name)
+        import io
+        import contextlib
+
+        with contextlib.redirect_stdout(io.StringIO()):
+            process(path, True, flag == "--rule", flag == "--blank", False, None, 0)
+        got = path.read_text(encoding="utf-8")
+        path.unlink()
+        joined_ok = want_joined in got
+        # Nothing may vanish, whatever the joining did. Only fragments this
+        # case actually supplied are checked -- an absent one is not a loss.
+        supplied = [f for f in (P, Q, R) if any(f in ln for ln in lines)]
+        kept_ok = all(frag.split()[-1].rstrip(".,") in got for frag in supplied)
+        good = joined_ok and kept_ok
+        ok &= good
+        print(f"  {'pass' if good else 'FAIL'}  {name}")
+        if not good:
+            print(f"        wanted joined: {want_joined!r}")
+            print(f"        got:           {got!r}")
+
+    # NEGATIVE CONTROL: a check that cannot fail is not a check. Break the
+    # conservation guard's input on purpose and prove it notices.
+    before = ["alpha beta", "", "---", "", "gamma delta"]
+    after_lossy = ["alpha beta gamma"]  # `delta` eaten
+    caught = _content_fingerprint(before) != _content_fingerprint(after_lossy)
+    ok &= caught
+    print(f"  {'pass' if caught else 'FAIL'}  NEGATIVE: the guard sees a dropped word")
+
+    # ...and does not cry wolf when only whitespace and rules moved.
+    after_fine = ["alpha beta gamma delta"]
+    quiet = _content_fingerprint(before) == _content_fingerprint(after_fine)
+    ok &= quiet
+    print(f"  {'pass' if quiet else 'FAIL'}  NEGATIVE: the guard stays quiet on a clean join")
+
+    print()
+    print(
+        "  controls pass: joins chain across consecutive page turns, and the\n"
+        "  conservation guard can tell a lost word from a moved space"
+        if ok
+        else "  CONTROLS FAILED"
+    )
+    return 0 if ok else 1
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    if "--self-test" in sys.argv:
+        return selftest()
     parser.add_argument("markdown", type=Path)
     parser.add_argument("--apply", action="store_true", help="Write changes (default: dry-run)")
     parser.add_argument("--rule", action="store_true", help="Rejoin across stray `---` rules")

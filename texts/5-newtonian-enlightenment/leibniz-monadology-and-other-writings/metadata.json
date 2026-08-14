@@ -6,8 +6,8 @@
   "year_translated": 1898,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "monadologyotherp00gott.pdf",
+  "format": "markdown",
+  "filename": "leibniz-monadology-and-other-writings.md",
   "description": "Theory of monads as the fundamental units of reality",
   "topics": [
     "philosophy",
@@ -15,5 +15,5 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review"
 }

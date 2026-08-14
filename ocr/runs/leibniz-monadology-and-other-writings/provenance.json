@@ -18,5 +18,9 @@
       "completed": true,
       "reason": "escalation"
     }
-  ]
+  ],
+  "adopted": {
+    "at": "2026-08-14T00:55:09Z",
+    "target": "texts/5-newtonian-enlightenment/leibniz-monadology-and-other-writings/leibniz-monadology-and-other-writings.md"
+  }
 }

@@ -9,5 +9,25 @@
   "started": "2026-08-13T23:56:08Z",
   "finished": "2026-08-14T00:01:29Z",
   "exit_code": 0,
-  "completed": true
+  "completed": true,
+  "resumes": [
+    {
+      "started": "2026-08-14T00:03:22Z",
+      "finished": "2026-08-14T00:16:24Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    },
+    {
+      "started": "2026-08-14T00:19:55Z",
+      "finished": "2026-08-14T00:25:55Z",
+      "exit_code": 0,
+      "completed": true,
+      "reason": "escalation"
+    }
+  ],
+  "adopted": {
+    "at": "2026-08-14T00:26:40Z",
+    "target": "texts/8-modern-era-ii/weber-protestant-ethic-and-spirit-of-capitalism/weber-protestant-ethic-and-spirit-of-capitalism.md"
+  }
 }

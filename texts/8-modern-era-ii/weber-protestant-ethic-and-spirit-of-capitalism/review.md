@@ -1,4 +1,21 @@
-## For the reviewer
+# The Protestant Ethic and the Spirit of Capitalism — review record
+
+What is known about this text as a text: where it came from, what can check it, and what is doubtful. Generated at adoption from the processing run, then maintained by whoever reviews it.
+
+**Status is a claim about process, not about correctness.** `needs-review` means machine-processed and unread. `complete` means a person performed the review below and judged the text shippable — not that it is free of errors. Every text is an ongoing project.
+
+## Provenance
+
+- Source file: `weber-protestant-ethic-and-spirit-of-capitalism.md`
+- Translator: Talcott Parsons (1930)
+- Processed by run [`ocr/runs/weber-protestant-ethic-and-spirit-of-capitalism`](../../../ocr/runs/weber-protestant-ethic-and-spirit-of-capitalism) (gpt-5.6-sol, 2026-08-13)
+- Full processing notes: [`ocr/runs/weber-protestant-ethic-and-spirit-of-capitalism/NOTES.md`](../../../ocr/runs/weber-protestant-ethic-and-spirit-of-capitalism/NOTES.md)
+
+## What the processing run found
+
+Copied from the run's notes at adoption. These are the text's open questions, not the pipeline's.
+
+### For the reviewer
 
 This is a proposed review draft, not a completed proofreading. The printed witness is the
 supplied Internet Archive scan of the third impression (1950) of Talcott
@@ -53,7 +70,7 @@ marks. Those marks should not enter the text. Beyond the bounded repairs above,
 the draft has not been read word-for-word against the scan and must retain
 `ocr_status: pending`.
 
-## Extraction and preparation
+### Extraction and preparation
 
 Stage 0 routed the PDF to OCR. `recon-pdf.py` found 318 pages, a
 LuraDocument/Internet Archive producer, 634 unique rasters (1.99 per page), and
@@ -86,7 +103,7 @@ only the reader annotation described above. The other short leaves (19, 34, 66,
 document-level page count passes, but printed page 237 demonstrates that the
 nonempty-page check cannot detect a partial-page omission.
 
-## Post-processing
+### Post-processing
 
 `postprocess_weber.py` is the asserted build. It requires the exact 272-page,
 579,767-character raw extraction, removes 224 running/structural heads, rejoins
@@ -113,10 +130,25 @@ compatibility and essentially nothing about word accuracy.
 can enter the library as `needs-review`: the text has not been read throughout
 against the printed witness, and its status must remain `pending`.
 
-## Where this was harder than it needed to be
+### Where this was harder than it needed to be
 
 Stage 2's documented completeness check treats every nonempty page as present.
 Printed page 237 returned plausible text and therefore passed, despite losing
 roughly two-thirds of the page and three numbered notes. Finding that required a
 separate per-page comparison with the source's inferior OCR layer; the existing
 acceptance result gave no hint that a partial page could be absent.
+
+## Review
+
+The pass that sets `complete`: read the run's escalations and notes to learn what the processing actually encountered, then read the text in the rendered reader, comparing against the source where something looks wrong. Not a full proofread — a judgement about whether it is shippable.
+
+- [ ] Escalations and notes read
+- [ ] Rendered in the reader; structure, headings and contents look right
+- [ ] Spot-checked against the source where the notes flagged doubt
+- [ ] Remaining known issues recorded below
+
+<!-- review log — hand-written, never regenerated -->
+
+## Review log
+
+Observations, questions and decisions from reading this text. Everything below the marker above belongs to the reviewer and is never regenerated, so append freely — re-adopting the run rewrites only what is above it.

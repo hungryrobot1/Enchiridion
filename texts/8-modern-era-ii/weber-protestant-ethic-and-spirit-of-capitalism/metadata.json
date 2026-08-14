@@ -6,8 +6,8 @@
   "year_translated": 1930,
   "language": "English",
   "original_language": "German",
-  "format": "pdf",
-  "filename": "protestantethics00webe.pdf",
+  "format": "markdown",
+  "filename": "weber-protestant-ethic-and-spirit-of-capitalism.md",
   "description": "Thesis linking Protestant religious ethics to the emergence of modern capitalism",
   "topics": [
     "sociology",
@@ -16,6 +16,6 @@
   ],
   "era": "modern-era-ii",
   "prerequisites": [],
-  "ocr_status": "pending",
+  "ocr_status": "needs-review",
   "rights": "Public domain in the US. Verified 2026-08-13 from the file's own title page: Talcott Parsons's translation, Charles Scribner's Sons (New York) and George Allen & Unwin (London), first published 1930, with a foreword by R. H. Tawney. This copy is the THIRD IMPRESSION, 1950 \u2014 an impression, not a new edition, so no new copyright arises and the text is the 1930 translation. A 1930 publication ran 95 years and entered the US public domain on 1 January 2026. NOTE THE TRAP: the copyright page reads \"This book is copyright under the Berne Convention. No portion of it may be reproduced by any process without written permission.\" That notice was true when printed and is now spent. A printed reservation of rights is not evidence about the term; only the term is."
 }

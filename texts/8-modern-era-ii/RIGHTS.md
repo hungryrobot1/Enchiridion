@@ -35,7 +35,8 @@ none of these. Nature's own PDF of the 1953 Wilkins paper has
 | `wilkins-stokes-wilson-molecular-structure-of-deoxypentose-nucleic-acids` | PDF text layer carries `© Nature Publishing Group 1953` | **blocked** pending permission |
 | `weber-protestant-ethic-and-spirit-of-capitalism` | title page: Parsons, Scribner's/Allen & Unwin, **first published 1930**; our copy is the third impression, 1950 — an impression, not an edition | **CLEAR**, PD in the US since 1 Jan 2026 |
 | `buchanan-poetry-and-mathematics` | copyright page: *"COPYRIGHT, 1929, BY SCOTT BUCHANAN / FIRST PRINTING, JULY, 1929"*, John Day — the 1929 first printing, not the 1962 or 1975 reissue | **CLEAR**, published before 1931 |
-| `shannon-a-mathematical-theory-of-communication` | see below — the non-renewal story does not hold up | **UNDETERMINED** |
+| `shannon-a-mathematical-theory-of-communication` and `shannon-symbolic-analysis-of-relay-and-switching` | BSTJ 1948 and 1937; no issue or contribution renewal, and pre-1950, so the Online Books Page procedure permits relying on the absence — see below | **CLEAR**, not renewed |
+| `church-unsolvable-problem-of-elementary-number-theory` | American Journal of Mathematics 1936; same procedure | **CLEAR**, not renewed |
 
 The arXiv finding generalises: **an arXiv posting is not an open licence.** The
 default grants arXiv the right to distribute and says nothing about us. Only a
@@ -56,27 +57,58 @@ inquiry only when the term is still running. When the term has expired the notic
 is a historical artefact, and treating it as authority withholds a text that is
 free. **Read the date first, the notice second.**
 
-### Shannon: the non-renewal argument does not survive checking
+### Shannon: CLEARED 2026-08-19, reversing what this file said
 
-`shannon-a-mathematical-theory-of-communication` (BSTJ, 1948) looked like a clean
-win and is not one. The attractive argument is that a 1948 US work needed renewal
-in 1975–76 to keep its copyright, and the Online Books Page reports **"No issue or
-contribution copyright renewals were found for this serial."**
+**This section previously said Shannon was UNDETERMINED, and it was wrong.** The
+reasoning was that the Online Books Page reporting *"No issue or contribution
+copyright renewals were found for this serial"* is an absence of evidence rather
+than a finding of non-renewal, because the project caveats that its periodical
+coverage is incomplete. That caution is correct in general. It was misapplied
+here, because the project's **own decision procedure** says exactly when the
+absence may be relied on:
 
-**That is not a finding of non-renewal.** The same project states its own limit:
-*"Only the first active renewal of each periodical is guaranteed to be shown.
-Periodicals that first filed a renewal after 1977, or that did not renew
-copyrights, might not be included."* A negative result there is an absence of
-evidence, and this file's negative is exactly the shape the caveat describes.
+> "If no first issue or contribution renewal is mentioned for this serial, and
+> the issue of interest was published prior to 1950, then there was no issue or
+> contribution renewal filed for that issue."
+> — `onlinebooks.library.upenn.edu/cce/decisions.html`, section 8
 
-The practical posture also moved against us: **Nokia now licenses the Bell Labs
-Technical Journal archive through IEEE.** Bell being "permissive in practice" was
-the old reading of this row; a publisher selling access is not permissive, and it
-tells us who to ask.
+Both Shannon papers are pre-1950 BSTJ issues, published with notice, US-published,
+and not renewed. **They are in the public domain in the United States.**
 
-To settle it, someone must search the Catalog of Copyright Entries renewal volumes
-for 1975–76 directly rather than trusting a serial-level summary — or ask
-Nokia/IEEE. **Until then it is UNDETERMINED, which means STOP.**
+The distinction worth carrying forward: for these serial listings, a **positive
+first-renewal date** is strong evidence, and an **absence** is strong evidence too
+— but only for issues before 1950. After 1950 an absence means nothing and the
+question is still open. I collapsed those into a single "absence proves nothing"
+rule and lost six texts for a week.
+
+That Nokia now licenses the Bell Labs archive through IEEE remains true and remains
+irrelevant: a publisher selling access to public-domain material is selling
+convenience, not rights.
+
+### The same procedure cleared five more
+
+Applied across the corpus on 2026-08-19, all recorded in each text's `rights` field:
+
+- **Church, *An Unsolvable Problem of Elementary Number Theory*** — American Journal
+  of Mathematics, 1936. Clear. This does **not** extend to his *Calculi of
+  Lambda-Conversion* (Princeton 1941), which has a found renewal, R452691, and is
+  in copyright until 2037. Same author, same decade, opposite answers.
+- **Curry, *Functionality in Combinatory Logic*** — PNAS 1934. Clear.
+- **Einstein, Podolsky and Rosen** — Physical Review 1935. Clear.
+- **Feynman, *Space-Time Approach to Quantum Electrodynamics*** — Physical Review
+  1949. Clear. Physical Review's first renewed issue is July 1956, and the Online
+  Books Page adds *"We know of no actively copyright-renewed contributions."*
+  **APS asserts copyright over this paper on its site today**, which is the Weber
+  situation again: an assertion of rights is not evidence about the term.
+- **Chadwick, *The Existence of a Neutron*** — NOT cleared, and renewal was never
+  the question. Proceedings of the Royal Society is a **UK** publication, so US
+  renewal requirements never applied; the URAA restored it in 1996 for 95 years
+  from publication. It enters the US public domain on **1 January 2028**. Nothing
+  to do but wait.
+
+**The lesson for the rest of the era: ask where it was published before asking
+whether it was renewed.** Renewal is a US-only mechanism, and for a foreign work
+non-renewal buys nothing at all.
 
 ## Almost certainly blocked — commercial books still in print
 
@@ -130,11 +162,9 @@ Plausibly open, worth checking first because a clear answer unlocks a lot ·
 Declaration, and this is the single most likely clean win) ·
 `berners-lee-information-management-a-proposal` (CERN/W3C, and CERN has
 released material from this period) ·
-`shannon-symbolic-analysis-of-relay-and-switching` (AT&T 1937 — same BSTJ
-problem as the 1948 paper, see the Shannon section above; **checked and still
-UNDETERMINED**, do not dispatch) ·
-`mullis-nobel-lecture` (Nobel Foundation; they publish lectures openly but
-assert copyright) · `brin-page-the-anatomy-of-large-scale-hypertextual-web-search-engine`
+`mullis-nobel-lecture` — **blocked**; the Nobel Foundation asserts and retains
+copyright on lecture texts regardless of age, which settles this whole class ·
+`brin-page-the-anatomy-of-large-scale-hypertextual-web-search-engine`
 (Stanford tech report)
 
 ## Already clear, or nearly

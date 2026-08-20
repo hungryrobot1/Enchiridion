@@ -15,6 +15,42 @@ US law governs, because Enchiridion publishes from the United States. A work
 published before 1931 is clear. **For a translation, the translation is what we
 publish, so the translation's date governs** — not the age of the original.
 
+## Settled since the audit — 2026-08-19
+
+Seven of the 26 `undetermined` entries below are now decided, and the lines
+further down have **not** been rewritten; this block is the current answer where
+the two disagree.
+
+Six were the renewal cluster, and one procedure settled them all. The Online
+Books Page's decision guide, section 8, says: *"If no first issue or contribution
+renewal is mentioned for this serial, and the issue of interest was published
+prior to 1950, then there was no issue or contribution renewal filed for that
+issue."* A US work published with notice and not renewed is public domain.
+
+- **Shannon, *A Mathematical Theory of Communication*** — BSTJ 1948. **Clear.**
+- **Shannon, *A Symbolic Analysis of Relay and Switching Circuits*** — BSTJ 1937. **Clear.**
+- **Church, *An Unsolvable Problem of Elementary Number Theory*** — AJM 1936. **Clear.**
+- **Curry, *Functionality in Combinatory Logic*** — PNAS 1934. **Clear.**
+- **Einstein, Podolsky and Rosen** — Physical Review 1935. **Clear**; that journal's
+  first renewed issue is July 1956 and no contributions were renewed.
+- **Feynman, *Space-Time Approach to Quantum Electrodynamics*** — Physical Review
+  1949. **Clear**, despite APS asserting copyright over it today.
+- **Chadwick, *The Existence of a Neutron*** — still not ours, but renewal was never
+  the question. Proceedings of the Royal Society is a **UK** publication and US
+  renewal never applied; the URAA gives it 95 years, so it clears on **1 January
+  2028**.
+
+**The correction worth carrying:** an absence of renewal records is strong evidence
+for pre-1950 issues and worthless after 1950, and this file's earlier reasoning
+collapsed those two cases into one. Ask **where** a work was published before
+asking whether it was renewed — renewal is a US-only mechanism, and for a foreign
+work non-renewal buys nothing.
+
+Still open in that cluster: **Copernicus in Wallis's 1939 translation**, which is
+a book rather than a serial and so needs the book renewal records; Wikisource
+asserts non-renewal and Wallis died in 1944, but that is an assertion we have not
+checked.
+
 ## What the five words mean
 
 **copyrighted** — the work itself is in copyright. No translation solves this.

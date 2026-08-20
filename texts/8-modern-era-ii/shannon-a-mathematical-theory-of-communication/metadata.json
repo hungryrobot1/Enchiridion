@@ -18,5 +18,6 @@
   "prerequisites": [
     "shannon-symbolic-analysis-of-relay-and-switching"
   ],
-  "ocr_status": "pending"
+  "ocr_status": "pending",
+  "rights": "Public domain in the US. Bell System Technical Journal, July/October 1948, published with notice (\u00a9 1948 AT&T). The Online Books Page reports no issue or contribution renewal for this serial, and the issue is pre-1950. Cleared 2026-08-19 by the Online Books Page serial-renewal procedure (onlinebooks.library.upenn.edu/cce/decisions.html, section 8), which states: \"If no first issue or contribution renewal is mentioned for this serial, and the issue of interest was published prior to 1950, then there was no issue or contribution renewal filed for that issue.\" A US work published with notice whose copyright was not renewed is in the public domain. Engineering judgment, not legal advice. NOTE: an earlier entry in this repo called this UNDETERMINED on the grounds that \"no renewal found\" cannot support a negative. That was wrong in one specific way: the project's own decision procedure treats its data as complete for pre-1950 issues. The caution was right in general and misapplied here."
 }

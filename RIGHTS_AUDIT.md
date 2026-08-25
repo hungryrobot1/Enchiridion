@@ -46,10 +46,26 @@ collapsed those two cases into one. Ask **where** a work was published before
 asking whether it was renewed — renewal is a US-only mechanism, and for a foreign
 work non-renewal buys nothing.
 
-Still open in that cluster: **Copernicus in Wallis's 1939 translation**, which is
-a book rather than a serial and so needs the book renewal records; Wikisource
-asserts non-renewal and Wallis died in 1944, but that is an assertion we have not
-checked.
+**Copernicus in Wallis's 1939 translation is also clear**, checked 2026-08-25.
+Charles Glenn Wallis (1914-1944) made it as a tutor and editor at St John's
+College, Annapolis, where he ran off cheap mimeographed editions of classical
+texts for classroom use; it was published by the St John's Bookstore in 1939.
+Published in the US before 1964 and not renewed. A mimeographed bookstore
+edition may also have carried no copyright notice at all, which would make it
+free by a second, independent route.
+
+That closes the renewal cluster: **eight of the nine settled, and only Chadwick
+is waiting, on a date rather than a question.**
+
+**One thing came out of it that is not about Copernicus.** The source PDF in that
+directory is a modern composite with no title or copyright page, and it appends
+Rheticus's *Narratio Prima* — a separate 1540 work by another author — in what
+looks like Edward Rosen's translation (Columbia UP, 1939), whose renewal we have
+not checked. Extraction had already stripped it, so our published markdown is
+Copernicus alone from his dedication to Paul III onward. **The question attaches
+to the tracked source PDF, not to the text we publish**, and it is a small
+instance of the larger unresolved problem: the repository publishes source files
+for many works whose rights were never established.
 
 ## What the five words mean
 

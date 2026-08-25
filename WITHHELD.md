@@ -66,8 +66,6 @@ earned — see `ocr/3-postprocess/STAGE.md` on status, and never mark such a tex
 No translation is involved; these are the papers themselves. **Permission is the
 only route**, and asking is a real option that costs nothing to try.
 
-| text | holder to ask |
-|---|---|
 | text | holder to ask | how, and what is known |
 |---|---|---|
 | Turing, *On Computable Numbers* (1936) | London Mathematical Society, published by **Wiley** | Rights & Permissions on wiley.com; the LMS permissions hub is on the Wiley platform. **It also expires on a known date** — see below |
@@ -108,6 +106,26 @@ This is the shape of the whole of section 8, where **56 of 57 pending texts were
 published after 1930.** Rights, not sourcing, will decide what the modern era's
 curriculum can be — and much of it cannot be solved by translating, because
 there is nothing to translate.
+
+### Permission leads worth trying — recorded 2026-08-25, not yet pursued
+
+The owner's knowledge, not web research, so it goes here rather than in the
+audit. **St John's College's in-house translation tradition is still alive**:
+mimeographed partial translations still exist in the college bookstore in
+physical form (hard to acquire, often not complete works), and most of the
+college's current in-house translations are published through **Green Lion
+Press** — physical-only, small, scholarly. There is an outside chance Green
+Lion would permit Enchiridion to carry their translations, **including their
+Ptolemy** — which would resolve the Almagest without a retranslation, from the
+same lineage that gave us Wallis's Copernicus.
+
+Similarly, **Peter Pesic might grant permission for his translation of Abel's
+memoir** (2003, MIT Press), which would spare the Sylow-and-Lie route.
+
+Neither ask has been made. When one is, the request should say plainly what
+Enchiridion is: free, non-commercial, open source, and in St John's own
+classroom-translation tradition. A no costs nothing and settles the question;
+record the answer in the text's `rights` field either way.
 
 ### Cleared, and worth recording as a near miss
 

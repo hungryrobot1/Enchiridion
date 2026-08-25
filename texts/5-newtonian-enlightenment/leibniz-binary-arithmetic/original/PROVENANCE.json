@@ -1,0 +1,12 @@
+{
+  "work": "Explication de l'Arithmetique Binaire, qui se sert des seuls caracteres 0 et 1; avec des remarques sur son utilite, et sur ce qu'elle donne le sens des anciennes figures Chinoises de Fohy",
+  "author": "G. W. Leibniz",
+  "written": 1703,
+  "this_edition": "C. I. Gerhardt (ed.), Leibnizens mathematische Schriften, Band VII, Halle 1863, item XXI, printed pages 223-227",
+  "first_published": "Memoires de l'Academie Royale des Sciences, annee 1703 (Paris, 1705)",
+  "source_scan": "archive.org item leibnizensmathe12leibgoog (Google scan, unrestricted); treatise located by full-text probe for 'binaire' after volume labels proved wrong, then confirmed visually against printed page numbers 223 and 227",
+  "extracted": "2026-08-25, PDF indices 233-237 of the 598-page scan",
+  "rights": "Public domain: Leibniz d. 1716; Gerhardt's edition published 1863",
+  "sha256_16": "da7f56449a2a2167",
+  "role": "The original-language witness for the Enchiridion translation pilot. The interlinear original; not apparatus."
+}

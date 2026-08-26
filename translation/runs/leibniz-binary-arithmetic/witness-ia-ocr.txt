@@ -1,0 +1,635 @@
+VEC  DES 
+
+REMAROÜES  SUR  SON  UTILITE.  ET  SÜR  CE  QU'ELLE  DONNE 
+
+LE  SENS  DES  ANCIENNES  FIGÜRES  CHINOISES  DE  FOHY. 
+
+Le  calcul  ordinaire  d'Arithaietique  se  fait  suivanl  la  pronres- 
+
+r."  a";  i^\  T  •"'•  ^"  '"  ''"  *»"  *»«  '^T.cikv^..  q«i  sonl 
+u.l,Aö.4,8  6,  7,f<,9.  qui  sigDifient  zero,  un  et  Jes  nombres 
+suivaDS  jusquä-neuf  indusivemem.  Et  puis  allant  ä  dix,  on-re- 
+commence    et   on  ecrit  dix  par  10,  et  dix  fois  dix  ou  cent  par 
+
+10000,  et  ainsi  de  suite.  ^ 
+
+Mais  au  lieu  de  la  progression  de  dix  en  dix,  j'ai  empioye  de- 
+pu.8  plusieurs  annees  la  progresaion  la  plus  simple  de  toutes  qui 
+va  de  deux  en  deux ,   ayant   lrouv6   qu'elle  sert  ä  la  perfection  de 
+
+
+0 
+
+0 
+
+0 
+
+0  0  Ol 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0  0 
+
+1 
+
+1 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1  0 
+
+2 
+
+0 
+
+0 
+
+0 
+
+0 
+
+1  1 
+
+3 
+
+0 
+
+0 
+
+0 
+
+10  0 
+
+4 
+
+0 
+
+0 
+
+0 
+
+10  1 
+
+5 
+
+0 
+
+0 
+
+0 
+
+110 
+
+6 
+
+0 
+
+0 
+0 
+
+0 
+
+111 
+
+7 
+
+0 
+
+l" 
+
+0  0  0 
+
+8 
+
+0 
+
+0 
+
+10  0  1 
+
+9 
+
+0 
+
+0 
+
+10  10 
+
+10 
+
+0 
+
+0 
+
+10  11 
+
+11 
+
+0 
+
+0 
+
+110  0 
+
+12 
+
+0 
+
+0 
+
+110  1 
+
+13 
+
+0 
+
+0 
+
+1110 
+
+14 
+
+0 
+
+0 
+
+1111 
+
+15 
+
+0 
+
+1  0  0  0  0 
+
+16 
+
+0 
+
+10  0  0  1 
+
+17 
+
+0 
+
+10  0  10 
+
+18 
+
+0 
+
+10  0  11 
+
+19 
+
+0 
+
+10  10  0 
+
+20 
+
+0 
+
+10  10  1 
+
+21 
+
+0 
+
+10  110 
+
+22 
+
+0 
+
+10  111 
+
+23 
+
+0 
+
+110  0  0 
+
+24 
+
+0 
+
+110  0  1 
+
+25 
+
+0 
+
+110  10 
+
+26 
+
+0 
+
+110  11 
+
+27 
+
+0 
+
+1110  0 
+
+28 
+
+0  1110  1 
+
+29 
+
+0  11110 
+
+30 
+
+0 
+
+1 
+
+,11111 
+
+31 
+
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+
+32 
+
+M4 
+
+la  ftcienee  des  Nombret*  Aimi  je  n'j  enplofe 
+poiat  d'autres  caracttees  que  que  0  et  1 ,  el 
+puia  allant  ä  deui,  je  recommence.  C-esI 
+pourquoi  deux  a'icrit  ici  par  10,  eldeut  fois 
+deux  ou  qua  Ire  par  100»  et  deax  foie  qua- 
+Ire  ou  huit  par  1000,  et  deux  foi»  huit  ou 
+seize  par  10000,  et  aiusi  de  suite.  Voici  la 
+Table  des  Nombres  de  cette  fa9oii,  qu'on  peut 
+continuer  tant  que  Ton  voudra. 
+
+On  voit  ici  d'un  coup  d'oeil  la  raison  d'une 
+
+propriele  celebre  de   la   progressioo 
+
+G^ometrique  double  en  NoQibres  eptiers, 
+
+qui  porte  que  si  on  n'a  qu'uo  de  ces  nombres 
+
+de  chaque  degrä,  on  en   peut  composer  toas 
+
+les  autres  nombres  entiers  au  dessous  du  doa- 
+
+ble  du  plus  haut  degre.     Car  ici,  c'est  comme 
+
+si  on  disait  parexemple,  que 
+
+1 1 1  ou  7  est   la    somme    de 
+
+quatre,  de  deux  et  un,  et  que 
+
+1101  ou  13  est  la  somme  de 
+
+huit,    quatre    et    un.     Gelte 
+
+propriete   sert  aux  Essayeurs 
+
+pour  peser   toutes   sortes  de 
+
+masses  avec  peu  de  poids  et 
+
+pourroit  servir  daus  les  monnoyes   pour  don- 
+
+ner  plusieurs  valeurs  avec  peu  de  piece». 
+
+
+lOU 
+iO 
+
+1 
+
+4 
+
+Iil||7 
+
+1000 
+lOll 
+
+1 
+
+8 
+4 
+i 
+
+ilOI 
+
+13 
+
+etc. 
+
+
+Cette  expressions  des  Nombres  etant  etahlie,  sert  ä  faire  tres 
+facilement  toutes  sortes  d'operations. 
+
+
+HO 
+
+Pour  l'Addition       111 
+par  exeaiple.  }) 
+
+7 
+6 
+
+13 
+
+13 
+
+7 
+
+6 
+
+101 
+1011 
+
+•  •  •  • 
+
+5       1110 
+1 1     10001 
+
+16     Ulli 
+
+16    Hill 
+
+11     10001 
+
+14 
+
+17 
+
+UOl 
+
+Puur  la  Soustrac-  i  1 0 1 
+tion.                        111 
+
+10000 
+
+10000 
+1011 
+
+31 
+
+31 
+17 
+
+110 
+
+101 
+
+5       1110 
+
+14 
+
+•te 
+
+
+Pour  ia  Multipli- 
+cation.  O 
+
+
+U 
+11 
+
+
+II 
+1J_ 
+
+1001 
+
+
+101 
+
+11 
+
+lÖl 
+101 
+
+1111 
+
+
+3 
+
+
+101 
+101 
+
+
+15 
+
+
+101 
+lOiO 
+
+liooi 
+
+
+5 
+5 
+
+
+2d 
+
+
+15j 
+Pour  la  Division.    3 
+
+
+mi|i0l{|5 
+
+
+n 
+
+
+Et  toutes  ces  Operations  sont  si  aisees,  qu'on  n*a  jamais  be- 
+soin  de  rien  essayer  ni  deviner,  comme  11  faul  faire  dans  la  divi- 
+sion  ordinaire.  On  n'a  poinl  besoin  non  plus  de  rien  apprendre 
+par  coeur  ici,  comme  il  laut  faire  dans  le  calcul  ordinaire,  oü  il 
+faut  savoir,  par  exempie,  que  6  et  7  pris  ensemble  fönt  1 3,  et  que 
+5  mulliplie  par  3  donne  L5,  suivanl  la  Table  d*une  fois  un  est 
+un,  qu'on  appelle  Pythagorique.  Mais  ici  lout  reia  se  trouve  et 
+se  prouve  de  source,  comme  Ton  voit  dans  les  exemples  precedens 
+sous  les  signes  D  et  O- 
+
+Cependanl  je  ne  recommande  point  cette  mani^re  de  comp- 
+ter,  pour  la  faire  inlroduire  ä  la  place  de  la  pratique  ordinaire 
+par  dix*  Car  outre  qu'on  est  accoutume  ä  celle>ci,  on  n*y  a  point 
+besoin  d'y  apprendre  ce  qu'on  a  dejä  appris  par  coeur:  ainsi  la 
+pratique  par  dix  est  plus  abregee ,  et  les  nombres  y  sont  moins 
+longs.  Et  si  on  etoit  accoutume  ä  aller  par  douze  ou  par  seize, 
+il  y  auroit  encore  plus  d'a?antage.  Mais  le  calcul  par  deux,  c'eat- 
+ä-dire  par  0  et  par  1,  en  recompense  de  sa  longueur,  est  le  plus 
+fondamental  pour  la  science,  et  donne  de  nouvelles  decouvertes, 
+qui  se  trouvent  utiles  ensuite,  meme  pour  la  pratique  des  nombrest 
+et  surtout  pour  la  Geometrie,  dont  la  raison  est  que  les  nombres 
+etant  reduits  aux  plus  simples  principes,  comme  0  et  I ,  il  paroit 
+partout  un  ordre  merveilleux.  Pour  exempie,  dans  la  Table 
+m^me  des  Nombres,  on  voit  en  chaque  colonne  regner  des 
+periodes  qui  recommencent  toujours.  Dans  ia  premi^re  colonne 
+c'est  Ol,  dans  la  seconde  001 1,  dans  la  troisieme  000011 11, 
+dans  la  quatrieme  000000001  Ulli  11 ,  et  ainsi  de  suite.  Et  on 
+a  rois  de  petits  zeros  dans  la  Table  pour  remplir  le  vuide  au  com- 
+roencement  de  la  colonne,  et  pour  roieux  marquer  ces  periodes. 
+On  a  mene  aussi  des  lignes  dans  la  Table,  qui  marquent  que  ce 
+que  ces  lignes  renferment  revient  toujours  sous  elles.  Et  il  se 
+trouve  eucore  que  les  Nombres  Quarres,  Cubiques  et  d'autres  puis- 
+
+vn.  16 
+
+
+sances,  item  les  Nombreg  Triangulaires,  Pyramidaux  et  d'autres  Bom- 
+bres  figurea,  ont  aus&i  de  aemblables  periodea,  de  aorle  qu'on  en 
+peut  ecrire  iea  Tablea  tout  de  auite,  aana  caiculer.  Et  une  pro- 
+lixtie  dans  le  commencemeDt,  qui  donne  enauile  le  moyen  d'epar- 
+gner  le  calcul  et  d'aller  ä  Tinfini  par  regle,  est  infinioieDi  avan- 
+iageuse. 
+
+Ce  qu*il  y  a  de  surprenant  dans  ce  calcul,  c^est  que  ce&te 
+Aritbm^tique  par  0  et  1  se  trouve  contenir  le  myst^re  des  lignes 
+d*un  ancien  Roi  et  Philosophe  nomme  Fohy,  qu'on  croit  avoir  yecu 
+il  y  a  plus  de  quatre  mille  ans  et  que  les  Chinois  regardent  comuie 
+le  Fondateur  de  leur  Empire  et  de  leurs  srieoces.  11  y  a  plusieurs 
+figures  lineaires  qu'on  lui  atiribue ,  elles  reviennent  toutes  ä  celte 
+Arilhmetique ;  mais  il  sufQt  de  mettre  ici  laFiguredehuit 
+Cova  comme  on  Tappelie,  qui  passe  pour  fondamenlale,  et  d*y 
+joindre  Texplicalion  qui  est  manifeste,  pourvü  qu*on  reroarque  prf- 
+mi^rement  qu'une  ligne  enti^re  —  signifie  Tunite  ou  i,  et  secon- 
+dement  qu'une  ligne  brisee  --  signifie  le  zero  ou  0. 
+
+
+1 1 1 
+I  >  I 
+
+!l! 
+il| 
+III 
+III 
+
+ii; 
+
+il! 
+
+
+:  000 
+
+0 
+
+!  001  1  1 
+
+OIU 
+
+10 
+
+Uli 
+
+11 
+
+100 
+
+100 
+
+101 
+
+101 
+
+HO 
+
+HO 
+
+lii 
+
+111 
+
+0 
+
+1 
+
+2 
+S 
+4 
+5 
+
+6 
+
+7 
+
+
+Les  Chinois  ont  perdu  la  signification  des  Cova  ou  Uneations  de 
+Fohy,  peut-^tre  depuis  plus  d'un  millenaire  d'aunees,  et  ils  o»t 
+fait  des  Commentaires  la^dessus,  oü  ils  ont  cberehe  je  ne  s^i 
+quels  sens  eloignes,  de  sorte  qu'il  a  fallu  que  la  vraie  explicaUoD 
+leur  vint  maintenant  des  Europeens.  Void  comment:  U  n'y  a  gae* 
+res  plus  de  deux  ans  que  j'envoyai  au  R.  P.  Bouvet,  Jesuite  Fran« 
+fais  c^l^bre,  qui  demeure  ä  Pekin,  ma  mani^re  de  compter  par  0 
+et  1 ,  et  il  n'en  fallut  pas  davantage  pour  lui  faire  reconnaitre  que 
+c'est  la  clef  des  figures  de  Fohy.  Ainsi  m'ecrivant  le  14  Novem- 
+bre  1701,  il  m*a  envoye  la  grande  figure  de  ce  Prince  Philosoplie 
+qui  va  ä  64,  et  ne  laisse  plus  Heu  de  douter  de  la  v^rit^  de  notre 
+Interpretation,  de  sorte  qu'on  peut  dire  que  ce  P^re  a  dechiffre 
+Tenigme  de  Fohy,  ä  l'aide  de  ce  que  je  lui  avois  communique.  Et 
+comme  ces   figures   sont  peut-^tre   ie  plus  ancien  mouument  de 
+
+
+science  qui  soit  au  monde,  cette  restitution  de  leursens,  apr^s  uti 
+si  grand  interyalle  de  tems,  paroilra  d^autant  plus  curieuse. 
+
+Le  consentemenl  des  figures  de  Fohy  et  ma  Table  des 
+Nombres  se  fail  mieux  voir,  lorsque  dans  la  Table  on  supplee 
+ies  zeros  initiaux,  qui  parousefit  superflus,  mais  qui  »er- 
+vent  ä  mieux  marquer  la  periode  de  la  colonne,  comme  je  Ies  y 
+ai  sopplees  en  effet  avec  des  petits  rond«  pour  Ies  distinguer  des 
+zeros  uecessaires,  et  cet  accord  me  donne  uh  grande  opinion  de 
+la.  profondeur  des  meditations  de  Fohy.  Car  ce  qui  nous  paroit 
+aise  maintenant,  ne  Teloit  pas  tout  dans  ces  tems  ^loignes.  L'A- 
+rilhmetique  Binaire  ou  Dyadique  est  en  effet  fort  ais^e  aujourd*hui, 
+pour  peu  qu'on  y  pense,  parce  que  notre  mani^re  de  compter  y 
+aide  beaucoup,  dont  il  semble  qu*on  retranche  seulement  le  trop. 
+Mais  cette  Arithmetique  ordinaire  pour  dix  ne  paroit  pas  fort  an- 
+cienne,  au  moins  Ies  Grecs  et  Ies  Romains  Tont  ignoree  et  ont  ete 
+prives  de  ses  avanlages.  11  semble  que  l'Curope  en  doit  Finlro- 
+duction  ä  Gerbert,  depuis  Pape  sous  le  nom  de  Sylvestre  II,  qui 
+l'a  eue  des  Haures  d*Gspagne. 
+
+Or  comme  Ton  croit  ä  la  Chine  que  Fohy  est  encore  auteur 
+des  caracteres  Chinois,  quoique  fort  älteres  par  la  suite  des  tems; 
+son  essai  d'Arithmetique  fait  juger  qu'il  pourroit  bien  s^y  trouver 
+encore  quelque  chose  de  considerable  par  rapport  aux  nombres  et 
+aux  idees,  si  Ton  pouvoit  diterrer  le  fondement  de  l'ecrilure  Chi- 
+noise,  d'autant  plus  qu'on  croit  k  la  Chine,  qu'il  a  eu  egard  aux 
+nombres  en  Tetablissant.  Le  R.  P.  Bouvet  est  fort  porte  ä  pous- 
+ser  cette  pointe,  et  tr^s  capable  d'y  reussir  en  bien  des  mani^res. 
+Cependant  je  ne  s^ai  s'il  y  a  jamais  eu  dans  Tecriture  Chinoise  un 
+avautage  approchant  de  celui  qui  doit  etre  necessairenient  dans  une 
+CM*acteristique  que  je  projett«.  C'est  que  tout  raisonnement 
+qu*ofi  peut  tirer  des  notions,  pourroit  ^tre  tire  de  leurs  Caracteres 
+|wir  uoe  mani^re  de  calcul,  qui  seroit  un  des  plus  importans  mo- 
+yeDs  d'aider  Tesprit  humain. 
+
+

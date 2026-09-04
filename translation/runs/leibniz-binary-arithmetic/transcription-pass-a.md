@@ -199,9 +199,9 @@ peut-être depuis plus d'un millenaire d'années, et ils ont fait des
 Commentaires là-dessus, où ils ont cherché je ne sçai quels sens éloignés, de
 sorte qu'il a fallu que la vraie explication leur vint maintenant des
 Européens. Voici comment: Il n'y a guères plus de deux ans que j'envoyai au
-R. P. Bouvet, Jésuite François célèbre, qui demeure à Pekin, ma manière de
+R. P. Bouvet, Jésuite Français célèbre, qui demeure à Pekin, ma manière de
 compter par 0 et 1, et il n'en fallut pas davantage pour lui faire
-reconnoitre que c'est la clef des figures de Fohy. Ainsi m'écrivant le 14
+reconnaître que c'est la clef des figures de Fohy. Ainsi m'écrivant le 14
 Novembre 1701, il m'a envoyé la grande figure de ce Prince Philosophe qui va
 à 64, et ne laisse plus lieu de douter de la vérité de notre interprétation,
 de sorte qu'on peut dire que ce Père a déchiffré l'enigme de Fohy, à l'aide
@@ -248,12 +248,28 @@ calcul, qui seroit un des plus importans moyens d'aider l'esprit humain.
   proves it (110 is 6, 111 is 7, and the subtraction directly below prints
   1101|13 − 111|7 = 110|6 correctly). A printed error in the source,
   preserved here; the translation corrects and notes it
-- seg:3 "disait" vs period "disoit"; seg:8 "François" vs "Français",
-  "reconnoitre" vs "reconnaitre" — the oit/ait class, adjudicate each from
-  the page, since Gerhardt may modernize inconsistently
-- seg:6 "prolixtié" as seen; almost certainly prints "prolixité"
-- seg:9 "ne l'étoit pas tout" as seen; the 1705 Mémoires reads "pas du tout"
-  — check whether Gerhardt drops "du"
+- oit/ait class ADJUDICATED 2026-09-04 against the Mistral witness where it
+  covers the spot: Gerhardt prints modern "Français" and "reconnaître" while
+  keeping "tems", "sçai", "paroit" and "paroît" side by side — genuinely mixed
+  orthography, transcribed as printed per instance. seg:3 "disait" stands on
+  witness A alone (the Mistral pass dropped that column, see below)
+- seg:6 "prolixtié" CONFIRMED by the Mistral witness reading the same — a
+  third genuine misprint in Gerhardt, preserved
+- seg:9 "ne l'étoit pas tout" CONFIRMED by both machine witnesses — Gerhardt
+  drops the "du" of the 1705 Mémoires (or the Mémoires never had it; that
+  witness can check someday)
 - seg:9 "suppléées" vs "suppléés"; agreement varies, read the page
 - seg:figure-cova — RESOLVED, see the segment note
 - seg:ops-division cancelled-digit layout approximated
+
+## Witness census — how each part of this transcription is attested
+
+- Witness A: this file, transcribed by hand from 150dpi renders, spot-checked
+  at 300dpi. Covers everything.
+- Witness B: the Internet Archive scan's own OCR. Shredded on tables, usable
+  on prose.
+- Witness C (2026-09-04): Mistral OCR of the same five leaves. **Its page 224
+  silently lost the entire right column and the Table of Numbers** — the
+  two-column layout defeated it — so seg:2's tail, seg:3, and the inset
+  mini-tables rest on witnesses A and B only. Where C covers a reading it
+  agrees with A everywhere, including all three Gerhardt misprints.

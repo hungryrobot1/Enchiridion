@@ -66,6 +66,27 @@ independently by both passes, which is the strongest kind of evidence this
 ledger can hold. "Consent" would suggest an act of willing; Leibniz means that
 the figures and his Table correspond.
 
+**calcul → calculation; manière de calcul → manner of calculation.** Cognate.
+Added at adjudication: pass 1 had "reckoning" as an unrecorded departure and
+pass 2 caught it by following policy. Not "calculus", which imports Leibniz's
+later technical sense.
+
+**s'écrit par 10 → written as 10.** The one place "by" would mislead: the
+numeral is the form the number takes, not the means. Plain in syntax.
+
+**nombres figurés → figurate numbers.** Cognate and the standard term.
+
+**plus d'un millenaire d'années → more than a millennium of years.** His
+pleonasm, kept; the policy preserves the author's redundancy rather than
+tidying it.
+
+**la Table d'une fois un est un → the Table of once one is one.** The
+traditional English name.
+
+**Doubtful readings in the witness are translated as printed and footnoted
+with the likelier sense** (seg:9, *pas tout*). Settled at adjudication when
+the two passes parted exactly there.
+
 **Misprint handling (from the transcription's ledger):** "Cette expressions"
 → translate the corrected singular, footnote the misprint. The addition
 example's swapped 7/6 labels → print corrected, footnote citing the

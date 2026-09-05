@@ -80,3 +80,9 @@ texts/3-islamic-golden-age-medieval-europe/al-farabi-philosophy-of-plato-and-ari
 texts/3-islamic-golden-age-medieval-europe/averroes-incoherence-of-the-incoherence/
 texts/8-modern-era-ii/turing-on-computable-numbers/
 texts/8-modern-era-ii/watson-crick-molecular-structure-of-nucleic-acids/
+
+# Translation runs mirror ocr/runs: the workspace is disposable and the log is
+# large; everything else in translation/runs/<id>/ IS the work product until a
+# translation is adopted, so the passes, ledger, notes and provenance stay.
+translation/runs/*/workspace/
+translation/runs/*/run-pass-*.log

@@ -61,6 +61,11 @@ denominations struck with few distinct pieces.
 cognate "void", which in modern English is too substantival for what is just
 blank space in a table. Recorded.
 
+**consentement → agreement.** DEPARTURE, recorded 2026-09-04 — reached
+independently by both passes, which is the strongest kind of evidence this
+ledger can hold. "Consent" would suggest an act of willing; Leibniz means that
+the figures and his Table correspond.
+
 **Misprint handling (from the transcription's ledger):** "Cette expressions"
 → translate the corrected singular, footnote the misprint. The addition
 example's swapped 7/6 labels → print corrected, footnote citing the

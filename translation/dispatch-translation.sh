@@ -122,7 +122,11 @@ in the translation, footnote the correction, leave the witness alone.
 - **Tables, figures and worked calculations are not translated; they are
   copied.** Reproduce them byte for byte from the source. Do not re-type a
   number from memory. Where a caption or label inside them is prose,
-  translate the label and leave the numbers untouched.
+  translate the label and leave the numbers untouched. **The one licence:**
+  where the ledger names a misprint inside a table — a label that its own
+  arithmetic proves wrong — correct that and footnote it; that is the ledger
+  overriding byte-for-byte, deliberately and only there. The checker knows
+  the difference between a footnoted correction and a re-typed digit.
 - Footnotes in the standard `[^n]` form, collected at the end. Use them for
   the ledger's misprint corrections and for the one-time glosses the ledger
   calls for. Do not add explanatory notes beyond those: the program does not

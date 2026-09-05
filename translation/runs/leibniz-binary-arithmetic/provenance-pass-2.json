@@ -1,0 +1,14 @@
+{
+  "text_id": "leibniz-binary-arithmetic",
+  "pass": 2,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "medium",
+  "codex_cli": "codex-cli 0.146.0",
+  "repo_head": "ea87a54",
+  "witness": "transcription-pass-a.md",
+  "session_id": "01a06f9b-f87c-7f03-9f12-5865fa54b897",
+  "started": "2026-09-05T03:28:01Z",
+  "finished": "2026-09-05T03:31:33Z",
+  "exit_code": 0,
+  "completed": true
+}

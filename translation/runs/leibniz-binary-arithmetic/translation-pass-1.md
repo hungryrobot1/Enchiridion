@@ -26,8 +26,44 @@ times four or eight by 1000, and two times eight or sixteen by 10000, and so
 on. Here is the Table of Numbers of this fashion, which one may continue as
 far as one likes.
 
-<!-- seg:table-des-nombres : reproduced from the witness, leading zeros and
-     all; see seg:9 for why they are content -->
+<!-- seg:table-des-nombres -->
+| | | | | | | |
+|---|---|---|---|---|---|---|
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 1 | 1 |
+| 0 | 0 | 0 | 0 | 1 | 0 | 2 |
+| 0 | 0 | 0 | 0 | 1 | 1 | 3 |
+| 0 | 0 | 0 | 1 | 0 | 0 | 4 |
+| 0 | 0 | 0 | 1 | 0 | 1 | 5 |
+| 0 | 0 | 0 | 1 | 1 | 0 | 6 |
+| 0 | 0 | 0 | 1 | 1 | 1 | 7 |
+| 0 | 0 | 1 | 0 | 0 | 0 | 8 |
+| 0 | 0 | 1 | 0 | 0 | 1 | 9 |
+| 0 | 0 | 1 | 0 | 1 | 0 | 10 |
+| 0 | 0 | 1 | 0 | 1 | 1 | 11 |
+| 0 | 0 | 1 | 1 | 0 | 0 | 12 |
+| 0 | 0 | 1 | 1 | 0 | 1 | 13 |
+| 0 | 0 | 1 | 1 | 1 | 0 | 14 |
+| 0 | 0 | 1 | 1 | 1 | 1 | 15 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 16 |
+| 0 | 1 | 0 | 0 | 0 | 1 | 17 |
+| 0 | 1 | 0 | 0 | 1 | 0 | 18 |
+| 0 | 1 | 0 | 0 | 1 | 1 | 19 |
+| 0 | 1 | 0 | 1 | 0 | 0 | 20 |
+| 0 | 1 | 0 | 1 | 0 | 1 | 21 |
+| 0 | 1 | 0 | 1 | 1 | 0 | 22 |
+| 0 | 1 | 0 | 1 | 1 | 1 | 23 |
+| 0 | 1 | 1 | 0 | 0 | 0 | 24 |
+| 0 | 1 | 1 | 0 | 0 | 1 | 25 |
+| 0 | 1 | 1 | 0 | 1 | 0 | 26 |
+| 0 | 1 | 1 | 0 | 1 | 1 | 27 |
+| 0 | 1 | 1 | 1 | 0 | 0 | 28 |
+| 0 | 1 | 1 | 1 | 0 | 1 | 29 |
+| 0 | 1 | 1 | 1 | 1 | 0 | 30 |
+| 0 | 1 | 1 | 1 | 1 | 1 | 31 |
+| 1 | 0 | 0 | 0 | 0 | 0 | 32 |
+
+etc.
 
 <!-- seg:3 -->
 One sees here at a glance the reason for a celebrated property of the double
@@ -39,21 +75,51 @@ and that 1101 or 13 is the sum of eight, four, and one. This property serves
 Assayers for weighing all sorts of masses with few weights, and could serve
 in coinage to give several values with few pieces.
 
+<!-- seg:3-inline-tables -->
+     100 | 4          1000 | 8
+      10 | 2           100 | 4
+       1 | 1             1 | 1
+     ---------        ----------
+     111 | 7          1101 | 13
 <!-- seg:4 -->
 This expression of Numbers being established, it serves to perform very
 easily all sorts of operations.[^1]
 
 <!-- seg:ops-addition -->
-For Addition, for example. ☽[^2]
+For Addition, for example.  ☽
+
+      110 |  6        101 |  5       1110 | 14
+      111 |  7       1011 | 11      10001 | 17
+     ----------     -----------    ------------
+     1101 | 13      10000 | 16      11111 | 31
+
+[^2]
 
 <!-- seg:ops-soustraction -->
 For Subtraction.
 
+     1101 | 13      10000 | 16      11111 | 31
+      111 |  7       1011 | 11      10001 | 17
+     ----------     -----------    ------------
+      110 |  6        101 |  5       1110 | 14
+
 <!-- seg:ops-multiplication -->
-For Multiplication. ⊙
+For Multiplication.  ⊙
+
+       11 | 3        101 | 5        101 |  5
+       11 | 3         11 | 3        101 |  5
+     --------      ---------      ----------
+       11            101            101
+      11             101           101
+     --------      ---------      ----------
+     1001 | 9       1111 | 15     11001 | 25
 
 <!-- seg:ops-division -->
 For Division.
+
+     15 | ~~11~~11 | 101 ‖ 5
+      3 | ~~111~~
+          ~~1~~1
 
 <!-- seg:5 -->
 And all these operations are so easy that one never has need to try anything
@@ -100,7 +166,17 @@ the explanation, which is manifest, provided one remarks first that a whole
 line — signifies unity or 1, and second that a broken line -- signifies zero
 or 0.
 
-<!-- seg:figure-cova : reproduced from the witness -->
+<!-- seg:figure-cova -->
+| figure | | | |
+|---|---|---|---|
+| ¦ ¦ ¦ | 000 | 0 | 0 |
+| ¦ ¦ | | 001 | 1 | 1 |
+| ¦ | ¦ | 010 | 10 | 2 |
+| ¦ | | | 011 | 11 | 3 |
+| | ¦ ¦ | 100 | 100 | 4 |
+| | ¦ | | 101 | 101 | 5 |
+| | | ¦ | 110 | 110 | 6 |
+| | | | | 111 | 111 | 7 |
 
 <!-- seg:8 -->
 The Chinese have lost the signification of the Cova or Lineations of Fohy,

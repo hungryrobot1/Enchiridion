@@ -15,11 +15,15 @@ const MEASURE_KEY = 'enchiridion:type-measure';
 // Unchanged key: a reader who already chose a language mode keeps it.
 const LANG_KEY = 'enchiridion:lang-mode';
 
+// The original-language mode is `orig` whatever the language; its button is
+// relabelled per text from the `lang-XX` class the reader finds. Greek keeps
+// its Greek label; anything unlisted shows its code.
 const LANG_MODES = [
   { value: 'both', label: 'Both' },
-  { value: 'grc', label: 'Ἑλλ' },
+  { value: 'orig', label: 'Orig' },
   { value: 'en', label: 'Eng' },
 ];
+const ORIG_LABELS = { grc: 'Ἑλλ', fr: 'Fr', la: 'Lat', de: 'De', it: 'It', ar: 'Ar' };
 
 const SIZES = [0.875, 1, 1.125, 1.25, 1.4];
 const MEASURES = [
@@ -74,6 +78,7 @@ export function mountTypePanel(shell) {
   let langWrapper = null;
   let langMode = 'both';
   try { langMode = localStorage.getItem(LANG_KEY) || 'both'; } catch { /* unavailable */ }
+  if (langMode === 'grc') langMode = 'orig'; // the mode's old name, from before French
   if (!LANG_MODES.some((m) => m.value === langMode)) langMode = 'both';
 
   const applyLang = () => {
@@ -184,9 +189,11 @@ export function mountTypePanel(shell) {
      * the Language row and applies the saved mode; passing nothing leaves the
      * row hidden, which is the right state for the other 83 markdown texts.
      */
-    setLanguages(wrapper) {
+    setLanguages(wrapper, code) {
       langWrapper = wrapper || null;
       panel.querySelector('.reader__type-row--lang').hidden = !langWrapper;
+      const origBtn = panel.querySelector('[data-lang="orig"]');
+      if (origBtn && code) origBtn.textContent = ORIG_LABELS[code] || code;
       applyLang();
     },
     destroy() {

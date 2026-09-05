@@ -1,13 +1,13 @@
 {
   "title": "Explanation of Binary Arithmetic",
   "author": "Gottfried Wilhelm Leibniz",
-  "translator": "Lloyd Strickland",
+  "translator": "Enchiridion",
   "year_written": 1703,
-  "year_translated": null,
+  "year_translated": 2026,
   "language": "English",
   "original_language": "French",
-  "format": "pdf",
-  "filename": "Leibniz.pdf",
+  "format": "markdown",
+  "filename": "leibniz-binary-arithmetic.md",
   "description": "Introduction of the binary number system using only 0 and 1, with remarks on its utility",
   "topics": [
     "mathematics",
@@ -15,5 +15,7 @@
   ],
   "era": "newtonian-enlightenment",
   "prerequisites": [],
-  "ocr_status": "pending"
+  "ocr_status": "needs-review",
+  "translation_status": "baseline",
+  "rights": "Public domain. Leibniz's 1703 French, in Gerhardt's 1863 edition (original/), translated by Enchiridion in 2026 and released with the repository under MIT. Two independent passes, adjudicated; see translation-notes.md. The interlinear shows the French witness beside the English. NOTE: Leibniz.pdf in this directory is Lloyd Strickland's copyrighted 2007 translation, retained as a reference and NOT the text published here; its removal from the tree and history is part of the open source-file question in RIGHTS_AUDIT.md."
 }

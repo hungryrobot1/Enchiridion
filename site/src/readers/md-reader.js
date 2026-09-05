@@ -244,8 +244,11 @@ export default {
     // so lazily-built sections inherit the mode with no re-render. The panel is
     // already mounted by the shell at this point — it has to be, since it also
     // carries size and measure — so this only reveals the row.
-    if (/class="lang-grc"/.test(text)) {
-      opts.typePanel?.setLanguages(wrapper);
+    // Any original-language class that is not `lang-en` makes this an
+    // interlinear text; the code tells the panel what to label the toggle.
+    const orig = /class="lang-((?!en\b)[a-z-]+)"/.exec(text);
+    if (orig) {
+      opts.typePanel?.setLanguages(wrapper, orig[1]);
     }
 
     // Contents sidebar, from the table of contents generated at build time.
@@ -397,8 +400,9 @@ function wrapImagesWithControls(root) {
 }
 
 // Re-wrap interlinear text pairs into side-by-side rows. Bilingual texts
-// (Euclid, eventually others) carry `<div class="lang-grc">` and
-// `<div class="lang-en">` adjacent in source order; we group each pair
+// (Euclid's Greek, Leibniz's French, whatever comes next) carry
+// `<div class="lang-XX">` and `<div class="lang-en">` adjacent in source
+// order; we group each pair
 // with its preceding heading and any intervening figure into one
 // `.md-reader__interlinear` container so the heading anchors both
 // columns. The two language columns each grow to their content's natural
@@ -408,9 +412,10 @@ function wrapImagesWithControls(root) {
 // language-pair lengths drift by paragraph but match at structural
 // boundaries.
 function wrapInterlinearGroups(root) {
-  // Find every lang-grc div, then check whether it's immediately followed
-  // by a lang-en div. Group those pairs.
-  const grcDivs = Array.from(root.querySelectorAll(':scope > div.lang-grc'));
+  // Find every original-language div (any `lang-*` but `lang-en`), then
+  // check whether it's immediately followed by a lang-en div. Group those.
+  const grcDivs = Array.from(root.querySelectorAll(':scope > div[class*="lang-"]'))
+    .filter((d) => !d.classList.contains('lang-en'));
   for (const grc of grcDivs) {
     // Already wrapped? skip.
     if (grc.parentElement?.classList.contains('md-reader__interlinear-row')) {

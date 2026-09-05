@@ -222,7 +222,7 @@ it in many ways. However, I do not know whether there was ever in Chinese
 writing an advantage approaching the one that must necessarily be in a
 Characteristic such as I project: namely, that every reasoning that can be
 drawn from notions could be drawn from their Characters by a manner of
-calculus, which would be one of the most important means of aiding the human
+calculation, which would be one of the most important means of aiding the human
 mind.
 
 ---

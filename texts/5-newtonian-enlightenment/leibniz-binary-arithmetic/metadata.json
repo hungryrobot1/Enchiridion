@@ -17,5 +17,5 @@
   "prerequisites": [],
   "ocr_status": "needs-review",
   "translation_status": "baseline",
-  "rights": "Public domain. Leibniz's 1703 French, in Gerhardt's 1863 edition (original/), translated by Enchiridion in 2026 and released with the repository under MIT. Two independent passes, adjudicated; see translation-notes.md. The interlinear shows the French witness beside the English. NOTE: Leibniz.pdf in this directory is Lloyd Strickland's copyrighted 2007 translation, retained as a reference and NOT the text published here; its removal from the tree and history is part of the open source-file question in RIGHTS_AUDIT.md."
+  "rights": "Public domain. Leibniz's 1703 French, in Gerhardt's 1863 edition (original/), translated by Enchiridion in 2026 and released with the repository under MIT. Two independent passes, adjudicated; see translation-notes.md. The interlinear shows the French witness beside the English. Lloyd Strickland's copyrighted 2007 translation, which this directory once held as its source, was untracked on 2026-09-13 and is not published; it remains in the git history until the source-file question in RIGHTS_AUDIT.md is settled."
 }

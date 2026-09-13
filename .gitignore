@@ -86,3 +86,7 @@ texts/8-modern-era-ii/watson-crick-molecular-structure-of-nucleic-acids/
 # translation is adopted, so the passes, ledger, notes and provenance stay.
 translation/runs/*/workspace/
 translation/runs/*/run-pass-*.log
+
+# A copyrighted translation kept on disk as a reference, never published:
+# Strickland's 2007 Leibniz. The text now carries Enchiridion's own translation.
+texts/5-newtonian-enlightenment/leibniz-binary-arithmetic/Leibniz.pdf
